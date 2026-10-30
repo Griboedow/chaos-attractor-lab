@@ -4,7 +4,7 @@ Research snapshot, 30 October 2026. **We have several independently checked nume
 
 ## The most informative observations
 
-**The periodic motor mechanism now has a computer-assisted local theorem.** Recomputed interval certificates establish a nonconstant four-plus-four orbit, its least positive period and the full count of six unstable, one neutral and sixteen stable directions. A uniformly validated nearby periodic family has an intermediate transverse multiplier −1 with multiplicity at least six. This is stronger than a floating-point cycle calculation, but it does not establish a nonlinear flip theorem or an attracting chaotic set. [The theorem, implementation and executable certificates](motor-cycle-certificate.md).
+**The periodic motor mechanism now has a computer-assisted local theorem.** Recomputed interval certificates establish a nonconstant four-plus-four orbit, its least positive period and the full count of six unstable, one neutral and sixteen stable directions. A [subsequent derivative certificate](motor-crossing-certificate.md) isolates a unique nearby transverse crossing, with exact multiplicity six and strictly nonzero speed. This is stronger than a floating-point cycle calculation, but it does not establish a nonlinear flip theorem or an attracting chaotic set. [The base theorem, implementation and executable certificates](motor-cycle-certificate.md).
 
 ![Certified motor-cycle spectral intervals](assets/motor-cycle-certificate.png)
 
@@ -60,6 +60,8 @@ Negative searches, failed source controls and mathematical exclusions are retain
 ## What is known, observed and still hypothetical?
 
 **Known literature:** chaos in molecular-motor/sarcomere models, Quincke rotation, relay feedback, coupled nonlinear oscillators and multi-strain epidemic models predates this work. The [motor priority audit](motor-rows-priority-audit.md) identifies a 2010 precedent and material unread-source gaps. The monotone-feedback theorem used above is an existing result. Renaming an equivalent response law or rotating a projection does not establish novelty.
+
+The [follow-up audit](motor-followup-priority.md) adds a precise cluster-breakup comparison, a coefficient-level distinction from a 2026 cubic approximation and a second unread author thesis. It also proves how balanced and unequal cluster restrictions contribute their separate Floquet blocks. In particular, an orbit can attract inside a cluster restriction while remaining a saddle in the full system.
 
 **Our reproducible observations:** the specified model implementations, positive finite-time spectra with independent numerical checks, the optical capture lifetimes and periodic branches, source discrepancies, structural calculations and negative search archives. Each report records its exact equation interpretation and numerical settings.
 

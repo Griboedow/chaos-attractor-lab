@@ -4,6 +4,8 @@ The interval calculations establish a nonconstant periodic four-plus-four motor 
 
 The proof uses a custom interval Taylor integrator with Picard existence bounds, Arb ball arithmetic and a Krawczyk inclusion. CAPD is a methodological reference, not the implementation used here. The proof data, exact arithmetic representation and executable reproduction are linked below.
 
+A subsequent [parameter-sensitivity certificate](motor-crossing-certificate.md) strengthens the crossing result in a smaller interval: uniqueness, nonzero speed and exact multiplicity six. The original certificates and their narrower claims below remain unchanged.
+
 ![Archived periodic motion and certified transverse root brackets](assets/motor-cycle-certificate.png)
 
 The trajectory panel uses an approximate archived orbit for illustration. The spectral panel shows certified transverse root brackets. The drawing of the trajectory is not an interval enclosure and is not used to prove the statements.

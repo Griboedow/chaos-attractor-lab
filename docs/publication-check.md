@@ -108,3 +108,9 @@ Separately, the **old Chua repository** README, results index and [transfer note
 Five links were actually clicked from those published old pages: the new repository homepage, results index, findings, file-level transfer JSON and **Run locally** section. They opened their intended live destinations; the last fragment target exists. These supporting navigation visits retain their actual main-branch URLs and timestamps and are not additional immutable full-page audits. Transfer hash/deletion verification and numerical runtime checks remain separate records. No source-repository files were modified during this QA.
 
 The [machine-readable record](../provenance/github-rendering.json) retains exact page URLs, image diagnostics, repository/license evidence, GIF frame hashes and the clicked-link result. Browser UI screenshots remain in ignored local outputs and are not redistributed under the repository's MIT license.
+
+## Interval-proof follow-up: visual check unavailable
+
+The proof publication at `72ce491` and subsequent crossing extension add new reports and update the indexes. These new versions have **not** received a GitHub browser rendering check. The browser plugin reported local browser use disabled; the Windows browser fallback stopped because URL-policy enforcement was unsupported for the available Firefox. No further browser interaction was attempted. Earlier successful page counts and their recorded revisions remain unchanged.
+
+The first proof block passed a local path audit of 145 relative path occurrences across seven edited Markdown files. The generated certificate figure was visually inspected as a local PNG. Neither check establishes the rendering of GitHub mathematical expressions or external destinations. A fresh optional proof environment reproduced all four base certificates; [runtime provenance](../provenance/motor-proof-runtime-check.json) records that separate computational check.

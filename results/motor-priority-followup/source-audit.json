@@ -1,0 +1,92 @@
+{
+  "audit_date_utc": "2026-10-30",
+  "status": "Bounded follow-up; scientific priority unresolved",
+  "scope": "Exact Alouges N-row first-harmonic model, motor-model follow-ups, and equivariant cluster-splitting precedents",
+  "sources": [
+    {
+      "id": "alouges_2025",
+      "title": "Some mathematical models for flagellar activation mechanisms",
+      "doi": "10.1142/S0218202525500423",
+      "url": "https://arxiv.org/html/2409.03506v2",
+      "access": "Full primary text",
+      "locations": ["Section 2.3", "Section 3.3", "Eq. (15)", "Fig. 9"],
+      "assessment": "Exact target model; general N equations and eight-row periodic cluster examples. Inspected text leaves general cluster bifurcations open."
+    },
+    {
+      "id": "agostinelli_2026",
+      "title": "Spontaneous oscillations in eukaryotic cilia and photo-responsive rods",
+      "doi": "10.1016/j.jmps.2026.106529",
+      "official_record": "https://www.iris.sssup.it/handle/11382/587254",
+      "official_pdf": "https://www.iris.sssup.it/retrieve/1bc1e5d7-7032-41ad-ade0-cd5e0efeb690/1-s2.0-S0022509626000293-main-4.pdf",
+      "access": "Official record and indexed primary PDF excerpt; supplementary public pre-proof transcription",
+      "direct_full_pdf_status": "HTTP 403; authoritative full PDF not inspected",
+      "publisher_api": "https://api.elsevier.com/content/article/pii/S0022509626000293?httpAccept=text/xml",
+      "publisher_api_status": "Core metadata returned; full-text view required authorization and was not used",
+      "supplementary_text": "https://www.scribd.com/document/990072681/1-s2-0-S0022509626000293-main",
+      "supplementary_identity_checks": ["PII S0022-5096(26)00029-3", "Title and four authors", "Accepted 2026-01-23"],
+      "locations": ["Section 4.1, published PDF printed page 11: Eq. (35)", "Section 4.1.2: Eq. (40)", "Pre-proof Sections 4.1, 4.2, 5"],
+      "assessment": "Cubic active-force closure and second-order single-mode oscillator; model-level distinction from exact N-row field confirmed narrowly by indexed primary page. Full authoritative result audit remains incomplete.",
+      "caution": "Machine text loses signs/parentheses in places. Eq. (35) in report uses official indexed primary excerpt, not ambiguous transcription. No claim from word-search absence."
+    },
+    {
+      "id": "anello_thesis_2025",
+      "title": "Mathematical modeling of spontaneous oscillations in flagellar and bio-inspired systems",
+      "record": "https://iris.sissa.it/handle/20.500.11767/147991",
+      "author_record": "https://www.math.sissa.it/users/irene-anello",
+      "file": "https://iris.sissa.it/retrieve/b97cdabf-fec2-4383-bfd1-fc36bbdd4e2f/PhD_Thesis_IreneAnello_2025%20%284%29.pdf",
+      "access": "Institutional identity and indexed abstract/excerpts only",
+      "direct_status": "HTTP 403",
+      "assessment": "Important unread full thesis; no exclusion of exact-model chaos or transverse bifurcations inferred from its abstract"
+    },
+    {
+      "id": "levillain_thesis_2024",
+      "title": "Filament models for swimming at the microscopic scale",
+      "record": "https://theses.hal.science/tel-04766775v1",
+      "author_page": "https://jesnial.github.io/",
+      "metadata_api": "https://api.archives-ouvertes.fr/search/?q=halId_s:tel-04766775&fl=title_s,uri_s,fileMain_s,files_s,abstract_s,docType_s,nntId_s,doiId_s,defenseDate_s,submittedDate_s&wt=json",
+      "nnt": "2024IPPAX056",
+      "doi": "10.70675/6ab6f03ez5b76z411azbe6dz265c902b8171",
+      "defense_date": "2024-09-27",
+      "deposit_date": "2024-11-05",
+      "file": "https://theses.hal.science/tel-04766775/file/136827_LEVILLAIN_2024.pdf",
+      "access": "Author page and full public institutional metadata; thesis full text unread",
+      "direct_status": "HTTP 200 response was anti-automation HTML, not PDF; not counted as successful full-text access",
+      "alternate_official_document_route": "https://theses.fr/2024IPPAX056/document",
+      "alternate_route_status": "Redirected to same HAL document route",
+      "assessment": "Abstract explicitly identifies two-row theory and all-row numerical model in final chapter; newly recorded relevant prior-source gap"
+    },
+    {
+      "id": "haugland_krischer_2021",
+      "title": "Connecting minimal chimeras and fully asymmetric chaotic attractors through equivariant pitchfork bifurcations",
+      "doi": "10.1103/PhysRevE.103.L060201",
+      "url": "https://arxiv.org/html/2102.10138v1",
+      "metadata": "https://arxiv.org/abs/2102.10138",
+      "access": "Full primary text",
+      "locations": ["Eq. (1)", "Fig. 1", "Half-period two-cluster symmetry and equivariant period-doubling discussion"],
+      "assessment": "Established cluster splitting, symmetry breaking and chaotic cascades in globally coupled Stuart-Landau equations; different field from motor target. Relevant mechanism precedent, not demonstrated exact equivalence."
+    }
+  ],
+  "representative_exact_queries": [
+    "\"136827_LEVILLAIN_2024.pdf\"",
+    "\"Irene Anello\" thesis 2025 pdf -site:scribd.com",
+    "\"Spontaneous oscillations in eukaryotic cilia\" \"cubic\"",
+    "\"Filament models for swimming at the microscopic scale\" thesis"
+  ],
+  "search_limits": [
+    "Search and citation indexing are incomplete; absent hits do not establish scientific priority.",
+    "Two author theses remain unread in full.",
+    "The 2026 follow-up has narrow primary equation evidence and supplementary pre-proof text, not a complete authoritative-PDF audit.",
+    "No access challenge was bypassed and no author was contacted.",
+    "No external paper, PDF, challenge response or copyrighted full transcription is included in tracked output."
+  ],
+  "separate_algebra_result": {
+    "report": "docs/motor-followup-priority.md",
+    "script": "results/motor-priority-followup/check_even_rows.py",
+    "output": "results/motor-priority-followup/even-rows-algebra.json",
+    "claim": "For every even N>=2 the certified target orbit embeds with N-2 unstable, one neutral and 2N stable Floquet directions, conditional on the inherited target certificate and the explicit direct-sum argument",
+    "general_replication": "For N=m*k balanced clusters, the quotient is the exact k-row model; chi_N=chi_k*product(chi_a^(m-1)). A cyclic spatiotemporal permutation of all k clusters makes chi_N=chi_k*chi_perp^(N-k). This is an algebraic conditional statement, not a new existence computation.",
+    "unequal_partition": "For group sizes m_a summing to N, the quotient uses weights m_a/N and weighted displacement constraint. chi_N=chi_weighted*product(chi_a^(m_a-1)). No equality between cluster spectra is assumed.",
+    "priority_claim": false,
+    "chaos_claim": false
+  }
+}

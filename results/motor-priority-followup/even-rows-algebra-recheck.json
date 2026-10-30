@@ -1,0 +1,110 @@
+{
+  "generated_utc": "2026-10-30T09:55:29.266308+00:00",
+  "method": "Exact multivariate rational polynomial identities using FLINT; no numerical trajectories",
+  "python_flint_version": "0.9.0",
+  "script_sha256": "ed314d3b0d3115d64d511d4a36fb51b41cef87ee60f793ce2eaa3355a90892a8",
+  "inherited_target_certificate": "results/motor-proof/target-recheck.json",
+  "inherited_target_certificate_sha256": "30e7038d73436994483c48c91f6636cb7f555520bb4adc8caae2f3bd097ffc23",
+  "identities": {
+    "equal_cluster_mean_s_is_C": true,
+    "mechanical_constraint": true,
+    "A_velocity": true,
+    "A_embedding_0": true,
+    "A_embedding_1": true,
+    "A_embedding_2": true,
+    "A_contrast_0": true,
+    "A_contrast_1": true,
+    "A_contrast_2": true,
+    "A_physical_radius": true,
+    "B_velocity": true,
+    "B_embedding_0": true,
+    "B_embedding_1": true,
+    "B_embedding_2": true,
+    "B_contrast_0": true,
+    "B_contrast_1": true,
+    "B_contrast_2": true,
+    "B_physical_radius": true,
+    "passive_d_equation": true,
+    "passive_e_equation": true,
+    "passive_norm_decay": true,
+    "core_radius_identity": true
+  },
+  "all_identities_zero": true,
+  "illustrative_dimension_counts": [
+    {
+      "N": 2,
+      "cluster_size": 1,
+      "cluster_dimension": 5,
+      "contrast_blocks": 0,
+      "full_dimension": 5,
+      "target_unstable": 0,
+      "target_neutral": 1,
+      "target_stable": 4
+    },
+    {
+      "N": 4,
+      "cluster_size": 2,
+      "cluster_dimension": 5,
+      "contrast_blocks": 2,
+      "full_dimension": 11,
+      "target_unstable": 2,
+      "target_neutral": 1,
+      "target_stable": 8
+    },
+    {
+      "N": 6,
+      "cluster_size": 3,
+      "cluster_dimension": 5,
+      "contrast_blocks": 4,
+      "full_dimension": 17,
+      "target_unstable": 4,
+      "target_neutral": 1,
+      "target_stable": 12
+    },
+    {
+      "N": 8,
+      "cluster_size": 4,
+      "cluster_dimension": 5,
+      "contrast_blocks": 6,
+      "full_dimension": 23,
+      "target_unstable": 6,
+      "target_neutral": 1,
+      "target_stable": 16
+    },
+    {
+      "N": 10,
+      "cluster_size": 5,
+      "cluster_dimension": 5,
+      "contrast_blocks": 8,
+      "full_dimension": 29,
+      "target_unstable": 8,
+      "target_neutral": 1,
+      "target_stable": 20
+    },
+    {
+      "N": 16,
+      "cluster_size": 8,
+      "cluster_dimension": 5,
+      "contrast_blocks": 14,
+      "full_dimension": 47,
+      "target_unstable": 14,
+      "target_neutral": 1,
+      "target_stable": 32
+    },
+    {
+      "N": 100,
+      "cluster_size": 50,
+      "cluster_dimension": 5,
+      "contrast_blocks": 98,
+      "full_dimension": 299,
+      "target_unstable": 98,
+      "target_neutral": 1,
+      "target_stable": 200
+    }
+  ],
+  "limitations": [
+    "Does not rerun interval orbit existence or Floquet isolation.",
+    "All-even-N result also uses the direct-sum argument in docs/motor-followup-priority.md.",
+    "No proof of chaos, scientific priority, or arbitrary biological row count."
+  ]
+}
