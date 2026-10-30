@@ -23,3 +23,7 @@ The sanitized `provenance/packaging-validation.json` preserves the parent-run fr
 The optional DCR record preserves a separate parent-run isolated CPU control at `3cf58d0`, including its original timestamp and duration 0.01. The model, optional requirements and archived comparison array are byte-identical at this refreshed snapshot. Absolute workstation paths were removed from the public provenance copy. Neither that computation nor the older four-GPU controls were rerun.
 
 `docs/research-findings.md` is a new synthesis prepared for this standalone project, not a copied document from the source Git tree. Its evidence comes from the individually cited reports. The source manifest labels it as derived and records its content hash.
+
+## Completed forward transfer
+
+After the published file checks passed, 934 individual non-Chua files were removed from the current Chua checkout in a forward commit. Of these, 929 were exact public Git blobs; four runtime adaptations and one historical-link adaptation were already documented. All 38 Chua-scaling files, the original atlas and the MIT attribution remain in the Chua project. Git history was not rewritten. [File-level record](provenance/final-transfer.json), [source cleanup commit](https://github.com/Griboedow/chua-gpu-atlas/commit/73f8d00be21a4206cdb18f5955ec3266e886438a).
