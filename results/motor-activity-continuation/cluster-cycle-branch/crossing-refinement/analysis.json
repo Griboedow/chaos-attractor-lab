@@ -1,0 +1,321 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-30T12:50:45.761068+00:00",
+  "branch_analysis_sha256": "dae817f7420646693583c9b6761e63c17121717110b3441605ed353a6f28fc19",
+  "source_sha256": "9324bf2a5f8dc6394c15d5523b1bff6441fb778a6bca840d9ad9644a4b26c635",
+  "bracket": [
+    2.2954545454545467,
+    2.3004545454545466
+  ],
+  "calls": [
+    {
+      "index": 1,
+      "rho": 2.2954545454545467,
+      "period": 24.571043735309537,
+      "residual": 0.13452100735017636,
+      "multiplier": {
+        "real": -0.6458111630535335,
+        "imag": 0.9327732081241943,
+        "modulus": 1.1345210073501764
+      },
+      "closure": 7.360778653264788e-14,
+      "strict_matrix_difference": 5.80874237599005e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.571043735309537,
+          "residual": 8.83182416089312e-14
+        }
+      ],
+      "npz_path": "point-01.npz",
+      "npz_sha256": "20992cecdb5e3e277ca55ab011e1a511b2610690bd453e6bc70fc5614fcfa5da"
+    },
+    {
+      "index": 2,
+      "rho": 2.3004545454545466,
+      "period": 24.600682233576347,
+      "residual": -0.09904906558452897,
+      "multiplier": {
+        "real": -0.5231870554730345,
+        "imag": 0.7334765785010222,
+        "modulus": 0.900950934415471
+      },
+      "closure": 4.901634653720066e-14,
+      "strict_matrix_difference": 4.842348744205083e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.600682233576347,
+          "residual": 3.019806626980426e-14
+        }
+      ],
+      "npz_path": "point-02.npz",
+      "npz_sha256": "8c811fd1a3b927f91e4be4b4023c6571deb8213cd1ef3d086b06ca1113316585"
+    },
+    {
+      "index": 3,
+      "rho": 2.298334216759607,
+      "period": 24.587918233651706,
+      "residual": -0.004583232165928375,
+      "multiplier": {
+        "real": -0.5705704751350396,
+        "imag": 0.8156616177002601,
+        "modulus": 0.9954167678340716
+      },
+      "closure": 8.565370634983083e-14,
+      "strict_matrix_difference": 6.199929458716724e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.600682233576347,
+          "residual": 0.014403317260782478
+        },
+        {
+          "iteration": 1,
+          "period": 24.587931505678966,
+          "residual": 0.00035146160822607797
+        },
+        {
+          "iteration": 2,
+          "period": 24.58791814157395,
+          "residual": 1.8989228722787743e-07
+        },
+        {
+          "iteration": 3,
+          "period": 24.587918233651706,
+          "residual": 7.638334409421077e-14
+        }
+      ],
+      "npz_path": "point-03.npz",
+      "npz_sha256": "bfd4c1f76f1d3277fd5b9133d2793155d551be3ac0ca0d54bea853c6baf962e3"
+    },
+    {
+      "index": 4,
+      "rho": 2.298234733494174,
+      "period": 24.587326578190716,
+      "residual": 1.3425797609878387e-05,
+      "multiplier": {
+        "real": -0.5729519046927112,
+        "imag": 0.8196053725327003,
+        "modulus": 1.0000134257976099
+      },
+      "closure": 8.690825836765725e-13,
+      "strict_matrix_difference": 1.2722267683784594e-11,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.587918233651706,
+          "residual": 0.0006767775475888804
+        },
+        {
+          "iteration": 1,
+          "period": 24.587326596304607,
+          "residual": 7.522398743908809e-07
+        },
+        {
+          "iteration": 2,
+          "period": 24.587326578190716,
+          "residual": 8.344436253082677e-13
+        }
+      ],
+      "npz_path": "point-04.npz",
+      "npz_sha256": "7db5a0547df1e344c88c53fa8b5e330c38fd906880ab87379e13cf7c36db3027"
+    },
+    {
+      "index": 5,
+      "rho": 2.298235024062278,
+      "period": 24.587328305357424,
+      "residual": -2.1606428646236964e-08,
+      "multiplier": {
+        "real": -0.5729449275175199,
+        "imag": 0.8195938425946641,
+        "modulus": 0.9999999783935714
+      },
+      "closure": 6.445954880973659e-12,
+      "strict_matrix_difference": 9.314327087395213e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.587326578190716,
+          "residual": 1.977939129815809e-06
+        },
+        {
+          "iteration": 1,
+          "period": 24.587328305357424,
+          "residual": 6.430411758628907e-12
+        }
+      ],
+      "npz_path": "point-05.npz",
+      "npz_sha256": "60a78120330377ee3cdb032eb70d9d53ffa20fd46317b47c4a05feb547c99308"
+    },
+    {
+      "index": 6,
+      "rho": 2.298235023595412,
+      "period": 24.587328302582186,
+      "residual": 2.715605518233133e-12,
+      "multiplier": {
+        "real": -0.5729449387287571,
+        "imag": 0.8195938611230149,
+        "modulus": 1.0000000000027156
+      },
+      "closure": 7.921441280700492e-14,
+      "strict_matrix_difference": 4.501288231040235e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.587328305357424,
+          "residual": 3.1715838844093014e-09
+        },
+        {
+          "iteration": 1,
+          "period": 24.587328302582186,
+          "residual": 2.8869268087206024e-14
+        }
+      ],
+      "npz_path": "point-06.npz",
+      "npz_sha256": "d3c06d8ccd430e0de450eccb3037092ffdb31c1e431a50c4f611ff6f8490b78e"
+    },
+    {
+      "index": 7,
+      "rho": 2.298235023621561,
+      "period": 24.587328302737593,
+      "residual": -1.207474897846339e-09,
+      "multiplier": {
+        "real": -0.5729449381007109,
+        "imag": 0.8195938600854833,
+        "modulus": 0.9999999987925251
+      },
+      "closure": 1.2906342661267445e-13,
+      "strict_matrix_difference": 1.2926548720315623e-11,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.587328302582186,
+          "residual": 1.7801005114392865e-10
+        },
+        {
+          "iteration": 1,
+          "period": 24.587328302737593,
+          "residual": 5.1318324589821884e-14
+        }
+      ],
+      "npz_path": "point-07.npz",
+      "npz_sha256": "4e1aac17aef314fec9a13911086d486c39a45ee9eacfa156d720c047feca701a"
+    },
+    {
+      "index": 8,
+      "rho": 2.298225023595412,
+      "period": 24.587268864688017,
+      "residual": 0.00046286970310949194,
+      "multiplier": {
+        "real": -0.5731851333668295,
+        "imag": 0.8199907051557542,
+        "modulus": 1.0004628697031095
+      },
+      "closure": 7.377431998634165e-14,
+      "strict_matrix_difference": 4.6704862199931085e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.587326578190716,
+          "residual": 6.60829599250512e-05
+        },
+        {
+          "iteration": 1,
+          "period": 24.587268864856203,
+          "residual": 7.156586878664939e-09
+        },
+        {
+          "iteration": 2,
+          "period": 24.587268864688017,
+          "residual": 3.175237850427948e-14
+        }
+      ],
+      "npz_path": "point-08.npz",
+      "npz_sha256": "2e09fb4dc7a6273c7e26d69623a68ecd01ec650ab3361f3fc88a2c2a89e14f84"
+    },
+    {
+      "index": 9,
+      "rho": 2.298245023595412,
+      "period": 24.587387746893924,
+      "residual": -0.00046271974250600145,
+      "multiplier": {
+        "real": -0.5727048939682188,
+        "imag": 0.8191970941412081,
+        "modulus": 0.999537280257494
+      },
+      "closure": 1.1007861289158427e-13,
+      "strict_matrix_difference": 7.667644297271181e-12,
+      "shooting_history": [
+        {
+          "iteration": 0,
+          "period": 24.587328305357424,
+          "residual": 6.808223130372326e-05
+        },
+        {
+          "iteration": 1,
+          "period": 24.587387747071062,
+          "residual": 7.592054540594972e-09
+        },
+        {
+          "iteration": 2,
+          "period": 24.587387746893924,
+          "residual": 6.272760089132134e-14
+        }
+      ],
+      "npz_path": "point-09.npz",
+      "npz_sha256": "a124e8dca35cdc4090e2e8a8f1dda53d2f37c9addd1e950d96d7f8f9422f8a21"
+    }
+  ],
+  "limitation": "Floating-point root refinement of a complex quotient multiplier modulus. No interval enclosure, nondegenerate bifurcation theorem or invariant torus is proved.",
+  "numerical_threshold": 2.298235023595412,
+  "period_at_threshold": 24.587328302582186,
+  "multiplier_at_threshold": {
+    "real": -0.5729449387287571,
+    "imag": 0.8195938611230149,
+    "modulus": 1.0000000000027156
+  },
+  "angle_radians": 2.1808908566231744,
+  "angle_over_two_pi": 0.3470995601754962,
+  "low_order_resonance_distances": {
+    "1": 1.7736656611275263,
+    "2": 1.6391877222460298,
+    "3": 0.2587598659476792,
+    "4": 1.8783286181743648
+  },
+  "centered_modulus_slope": -46.27947228047148,
+  "slope_step": 1e-05,
+  "numerical_sign_bracket": {
+    "lower": 2.298225023595412,
+    "lower_value": 0.00046286970310949194,
+    "upper": 2.298245023595412,
+    "upper_value": -0.00046271974250600145
+  },
+  "sixth_period_symmetry_controls": [
+    {
+      "rho": 2.3454545454545457,
+      "fraction": "1/6",
+      "current_from_initial_group_permutation": [
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "maximum_component_residual": 1.421640583032513e-13
+    },
+    {
+      "rho": 2.2613636363636367,
+      "fraction": "1/6",
+      "current_from_initial_group_permutation": [
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "maximum_component_residual": 3.423927807943983e-13
+    }
+  ],
+  "wall_seconds": 72.0596888
+}

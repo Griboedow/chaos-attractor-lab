@@ -88,6 +88,10 @@ All three original seeds belong to that latter group in this rerun, including th
 
 The [follow-up inventory](../results/motor-activity-continuation/followup-publication-01/manifest.json) passes 140 checks and freezes 142 evidence/source files, including the original partial run, exact complete-block resumption, spectrum and return studies, all sixteen starts and every periodic-destination result. Later source-start logarithmic calculations and interval proofs are separate packages.
 
+## A related periodic branch
+
+A separate [five-cluster periodic continuation](motor-cluster-cycle-branch.md) reaches the same parameter with the same cluster-size partition. Near `rho=2.29823502`, a complex pair of quotient Floquet multipliers crosses the unit circle numerically, while all nine pair-contrast directions remain contracting at the sampled points. At the lane-46 parameter the cycle has two unstable quotient directions. This supplies a candidate periodic structure for further study; it does not establish a branch connection to this irregular trajectory or prove the birth of an invariant torus.
+
 ## Reproduction
 
 Use fresh output paths and Python with NumPy, SciPy and Matplotlib. The original source checkpoint and recorded parent metadata must be present in the repository.

@@ -14,6 +14,8 @@ The [crossing extension](../docs/motor-crossing-certificate.md) adds `motor-cros
 
 `motor-log-contrasts/` adds the [frozen 150,000-unit extension](../docs/motor-log-contrast-audit.md): six matching departures in two settings, logarithmic contrasts below the ordinary FP64 amplitude range, recorded omitted-feedback bounds, forecasts published before events, an audited scalar evaluator and a reviewed phase-matching correction. Its manifest explicitly excludes later continuation folders.
 
+Its separately frozen [280,000-unit continuation](../docs/motor-log-seventh-departure.md) reproduces the seventh departure and recovery from a contrast below `10^-486`, while a new contrast reaches about `10^-911`. `seventh-review/manifest.json` verifies the two new histories and all original 150k hashes without replacing the earlier package.
+
 `motor-saddle-proof/` contains the [six-cluster saddle certificate](../docs/motor-saddle-certificate.md): weighted multiple shooting, a full 1/1/21 unstable/flow/stable count, exact-basis interval spectral checks, a fresh integration at changed precision and discretization, and least-period certificates for the whole state and a synchronized row. Failed attempts and all executed source versions are retained.
 
 `motor-network-combinatorics/` supplies the [exact eight-node candidate graph](../docs/motor-network-combinatorics.md), its group and cosets, numerical phase controls and a reviewed figure. The frozen graph visits in `motor-log-contrasts/frozen-40k-node-visits.json` identify the mixed four-step circuit in the already published trajectory. Exact graph combinatorics do not prove heteroclinic edges.
@@ -31,6 +33,8 @@ The [global geometry controls](../docs/motor-global-geometry.md) verify the full
 The [published motor activity-path study](../docs/motor-rows-activity-path.md) contains 288 scouts, all 60 tighter follow-ups, the complete 32-lane eight-row persistence cohort, independent full 23-dimensional CPU spectra, figures and a rotating projection. It supports a numerical hyperchaotic candidate, with scientific priority and asymptotic attraction unresolved.
 
 `motor-activity-continuation/` contains the [longer fixed-cohort study](../docs/motor-activity-continuation.md): full CPU spectrum through 20,000 observed units, two further 20,000-unit histories of all 32 GPU members, a periodic-saddle diagnosis of the subthreshold member, conditional cluster spectra and twenty declared physical perturbations. Separate manifests preserve completed packages and exclude later live continuations. All original inputs and downgraded cases remain archived.
+
+Its `cluster-cycle-branch/` packet freezes the [five-cluster periodic continuation](../docs/motor-cluster-cycle-branch.md): all 18 branch points, full quotient and pair-contrast spectra, a refined complex-pair crossing near `rho=2.29823502`, independent controls and a 56-file manifest. This numerical branch does not prove a torus bifurcation or its connection to the irregular candidate.
 
 The [three-row candidate report](../docs/motor-rows-gpu-survey.md) links all 2,880 scout trajectories, forty tighter three-row follow-ups, the fixed 24-lane additional 10,000-unit continuation, and independent eight-dimensional CPU spectrum. Raw histories, downgraded candidates, source snapshots, physical projections and the rotating GIF are in [motor-rows](motor-rows). Four- and eight-row positives remain preliminary; finite-time evidence does not establish novelty or an asymptotic attractor.
 
