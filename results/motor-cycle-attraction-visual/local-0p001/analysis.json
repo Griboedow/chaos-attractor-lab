@@ -1,0 +1,115 @@
+{
+  "status": "complete",
+  "runs": [
+    {
+      "index": 0,
+      "solver_max_state_difference": 6.778266836704461e-11,
+      "initial_distance_to_orbit": 0.0009935436296446556,
+      "final_distance_to_orbit": 9.312312093358148e-09,
+      "minimum_distance_to_orbit": 9.312312093358148e-09,
+      "maximum_distance_to_orbit": 0.005072304119029991,
+      "initial_pair_separations": [
+        0.0004387839498817048,
+        0.0004860451385940372,
+        0.0004392829402705104
+      ],
+      "all_pairs_initially_split": true,
+      "integration_control_passed": true,
+      "approached_reference_cycle": true,
+      "trajectory_sha256": "d09875c84f46fc682e7c63ecf68bb7860cf1ffe11efebce5eb1c81fb706efb3f"
+    },
+    {
+      "index": 1,
+      "solver_max_state_difference": 6.710276778676416e-11,
+      "initial_distance_to_orbit": 0.000949607562177961,
+      "final_distance_to_orbit": 8.752001316167874e-09,
+      "minimum_distance_to_orbit": 7.589773203813798e-09,
+      "maximum_distance_to_orbit": 0.004881080895255082,
+      "initial_pair_separations": [
+        0.00048579817184911226,
+        0.00020990443640661653,
+        0.0006251820660405046
+      ],
+      "all_pairs_initially_split": true,
+      "integration_control_passed": true,
+      "approached_reference_cycle": true,
+      "trajectory_sha256": "6b32ff670d7aed511938c14337a3e79e4e5600dbb5c6dc82000a370c356e9959"
+    },
+    {
+      "index": 2,
+      "solver_max_state_difference": 6.340217240108359e-11,
+      "initial_distance_to_orbit": 0.0009979320252527701,
+      "final_distance_to_orbit": 1.1004817320167081e-08,
+      "minimum_distance_to_orbit": 1.1004817320167081e-08,
+      "maximum_distance_to_orbit": 0.007060962965784729,
+      "initial_pair_separations": [
+        0.000539301846014361,
+        0.0005377888629165691,
+        0.0005550594630644366
+      ],
+      "all_pairs_initially_split": true,
+      "integration_control_passed": true,
+      "approached_reference_cycle": true,
+      "trajectory_sha256": "0fd5e84cccf9d3f296466b7b37e3a86acd42e60b009314c8ed481ee26f1766d2"
+    },
+    {
+      "index": 3,
+      "solver_max_state_difference": 7.603417895296616e-11,
+      "initial_distance_to_orbit": 0.0009790413592781013,
+      "final_distance_to_orbit": 3.890418246318988e-09,
+      "minimum_distance_to_orbit": 2.4007492096763643e-09,
+      "maximum_distance_to_orbit": 0.005431127341669726,
+      "initial_pair_separations": [
+        0.0003014088775606552,
+        0.000185423753353608,
+        0.000643487454409907
+      ],
+      "all_pairs_initially_split": true,
+      "integration_control_passed": true,
+      "approached_reference_cycle": true,
+      "trajectory_sha256": "e3152af32009bff563c339453ef3e77e338b58c5cb260876daaec69f8cc510f6"
+    },
+    {
+      "index": 4,
+      "solver_max_state_difference": 6.945211072917346e-11,
+      "initial_distance_to_orbit": 0.0009933595244114002,
+      "final_distance_to_orbit": 1.300787385791496e-08,
+      "minimum_distance_to_orbit": 9.989297768588193e-09,
+      "maximum_distance_to_orbit": 0.007964904963089535,
+      "initial_pair_separations": [
+        0.0008424208925063618,
+        0.0007033364544863583,
+        0.0005933751404583663
+      ],
+      "all_pairs_initially_split": true,
+      "integration_control_passed": true,
+      "approached_reference_cycle": true,
+      "trajectory_sha256": "521f658ba0ba12dbfffc011931d7ed2d84b2f5bae400023014439d636b5120c7"
+    },
+    {
+      "index": 5,
+      "solver_max_state_difference": 6.668132712661645e-11,
+      "initial_distance_to_orbit": 0.0009996257652709422,
+      "final_distance_to_orbit": 6.902332412701145e-09,
+      "minimum_distance_to_orbit": 3.945307331256479e-09,
+      "maximum_distance_to_orbit": 0.005536934024607092,
+      "initial_pair_separations": [
+        0.00030508047526146365,
+        0.0006555311455628763,
+        0.00021688008485881247
+      ],
+      "all_pairs_initially_split": true,
+      "integration_control_passed": true,
+      "approached_reference_cycle": true,
+      "trajectory_sha256": "e9e3e21bc540f2d9179523b9a709fe676264ceaa4edb789e2d072725d8ff8f3d"
+    }
+  ],
+  "all_declared_starts_retained": true,
+  "all_integration_controls_passed": true,
+  "all_six_approach_same_reference_orbit": true,
+  "distance_definition": "Euclidean norm of all24 physical(c,s,X) components, minimizing phase on the saved periodic orbit.",
+  "phase_matching": "12,001-point full-state nearest-neighbor search followed by bounded dense-orbit phase minimization.",
+  "reference_sha256": "f2dc3e200e7f59e483ee73a8b6c5058b5b2e0258cf279a0b639ccfe8e959c0d1",
+  "protocol_sha256": "00d81c2d3c769a104be160e7f0a042912eb7c190f5b0d2dcf3b49b85a5ec0aa9",
+  "limitation": "Numerical illustration for six specified starts. Neither a validated basin boundary nor a same-phase synchronization claim."
+}

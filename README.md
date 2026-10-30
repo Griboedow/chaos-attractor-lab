@@ -8,6 +8,10 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 Left: the five-cluster periodic attractor. Right: the hyperchaos candidate from the latest CPU continuation. Both use the same physical coordinates and axis limits; the camera rotates around saved trajectories. [Full-size animation](docs/assets/motor-regimes-rotation.gif) · [Still image](docs/assets/motor-regimes-rotation.png) · [Data and reproduction](docs/attractor-geometry.md#motor-regimes-in-physical-coordinates).
 
+![Six nearby full-state trajectories approaching the same periodic motor orbit](docs/assets/motor-cycle-attraction.png)
+
+The dashed black curve is the attracting cycle; the six colored paths start nearby and approach it. The graph measures distance to the orbit in the full state, allowing different phases. [Watch the actual approach](docs/assets/motor-cycle-attraction.gif) · [Full-size picture](docs/assets/motor-cycle-attraction.png) · [Starts, controls and limits](docs/attractor-geometry.md#approach-to-the-periodic-orbit).
+
 ## Why this exists
 
 Years ago, a coursework project asked me to scan two parameters of Chua's circuit. I spent months calculating: I understood the subject poorly, and my computer was weak. I returned to the problem with a GPU and better tools to see whether there was something interesting beyond the original assignment. [The Chua atlas](https://github.com/Griboedow/chua-gpu-atlas) keeps that first study; this project collects the subsequent searches in other systems.

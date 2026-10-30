@@ -20,6 +20,31 @@ python research/render_motor_regimes.py
 
 The [renderer](../research/render_motor_regimes.py) uses NumPy, Matplotlib and Pillow. It checks the cycle closure and certificate proximity, retains the complete final candidate block, and verifies that quarter-turn GIF frames differ. It performs no new integration or proof calculation.
 
+## Approach to the periodic orbit
+
+![Six full-space trajectories approaching the same periodic orbit](assets/motor-cycle-attraction.png)
+
+The dashed black curve is the periodic reference orbit. Each colored trajectory starts at a different phase with a generic perturbation of all physical row variables. Initial pair differences are nonzero, and the full 23-dimensional equations evolve freely: no cluster equality, projection or artificial damping is imposed. The left panel plots the physical displacements `(X0, X1, X4)`, including a singleton cluster as well as paired clusters. These coordinates differ from the comparison above, which uses `(X0, X1, s0)`.
+
+The right panel measures Euclidean distance using all 24 physical `(c,s,X)` components, with the displacement sum constrained to zero. It minimizes phase on the reference orbit, rather than comparing states at the same clock time. Thus trajectories can approach the same cycle while remaining at different points along it. Distance initially grows in parts of the transient; attraction need not be monotone at every instant.
+
+The displayed six starts have perturbation norm `0.03` and fixed random seed `2026103031`, at phases `0,1/6,...,5/6` of the period. After six periods, distances fall from approximately `0.0285–0.0300` to `1.32e-7–3.42e-7`. Two solver settings agree to within `8.62e-11` in every saved state component over the whole interval. This is a numerical illustration of the separately certified local attraction, not a validated basin radius.
+
+[Animate the actual approach](assets/motor-cycle-attraction.gif) · [Full-resolution still](assets/motor-cycle-attraction.png) · [Rendering provenance](assets/motor-cycle-attraction.json) · [All declared numerical experiments](../results/motor-cycle-attraction-visual/README.md).
+
+The new animation keeps the camera fixed and advances all six saved trajectories uniformly from zero to six periods. Hollow circles mark their initial states; filled dots show their current positions. It depicts time evolution, unlike the rotating-camera comparison above.
+
+All experiments remain archived. An initial, much larger perturbation norm of `0.6` did not produce controlled convergence of the six starts to this labeled reference orbit within the observed interval: five histories also failed the long pointwise solver comparison. No asymptotic outcome is assigned to those runs. All six smaller `0.001` starts passed, followed by all six `0.03` starts used in the picture. The amplitudes were chosen sequentially for this local visualization, so these counts are not a basin probability or a survey of arbitrary initial conditions.
+
+To reproduce in a fresh destination:
+
+```powershell
+python research/illustrate_motor_cycle_attraction.py --output outputs/cycle-approach --amplitude .03
+python research/render_motor_cycle_attraction.py --source outputs/cycle-approach --output outputs/cycle-approach-figure --animate
+```
+
+The numerical driver records the protocol before integration and retains every declared start under both solver settings. Input hashes, state histories, phase-matched distances and source snapshots are included in the archive.
+
 ## Earlier geometry baseline
 
 ![Existing-candidate geometry baseline](assets/attractor_geometry_baseline.png)

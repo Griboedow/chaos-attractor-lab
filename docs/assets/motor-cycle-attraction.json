@@ -1,0 +1,33 @@
+{
+  "source_sha256": "b5ede71cd3e93ca27b67de46dced1a1cfb6be591f07dcc4a374be09a468c8ced",
+  "inputs": {
+    "results/motor-cycle-attraction-visual/local-0p03/trajectory-00.npz": "1297a12808a38acef6c563a4cfdf4f0cf3645d6f2a00c3c5c6d086c9352b1432",
+    "results/motor-cycle-attraction-visual/local-0p03/trajectory-01.npz": "82f44631b48e90004acaaaab991c09acd9797ffcfc8d368fbcf1085dd77d1f32",
+    "results/motor-cycle-attraction-visual/local-0p03/trajectory-02.npz": "a74fa08337afd43095d80d169845720b16a68c7503a11ee4ac17e3afafb5d011",
+    "results/motor-cycle-attraction-visual/local-0p03/trajectory-03.npz": "78bfc59c11a074a2ccbf84994a5c5a352954d068f7914a6c05cbd44575b2fadb",
+    "results/motor-cycle-attraction-visual/local-0p03/trajectory-04.npz": "5096ff3efcbc1c212d440328bfec005598a3cd2330c5773167dcedec93364a23",
+    "results/motor-cycle-attraction-visual/local-0p03/trajectory-05.npz": "194d05df8c037369d79146044611b4b4581527341c3cc3ab8a6401a4e0be4b95",
+    "results/motor-cycle-attraction-visual/local-0p03/reference.npz": "f2dc3e200e7f59e483ee73a8b6c5058b5b2e0258cf279a0b639ccfe8e959c0d1",
+    "results/motor-cycle-attraction-visual/local-0p03/analysis.json": "f01140123bb92c5c7a88ed5d0c8d0413d6f2c55ade9919105813e6eb4931beb8",
+    "results/motor-cycle-attraction-visual/local-0p03/protocol.json": "1d33e54e8da365a13864ee23ad21a56bd21a216d6a7b86a651df068f89d7155a"
+  },
+  "projection": [
+    "X0",
+    "X1",
+    "X4"
+  ],
+  "full_state_distance": "Euclidean norm of all24(c,s,X) physical components with orbit phase minimized.",
+  "no_rescaling_of_trajectories": true,
+  "all_six_starts_displayed": true,
+  "animation": "Fixed camera; actual saved evolution from zero to six periods, uniformly accelerated.",
+  "outputs": {
+    "motor-cycle-attraction.png": {
+      "bytes": 390402,
+      "sha256": "13fb7beeeaf67599f1b20919105179f1d1e1f3ae445270d2181082dfe823b216"
+    },
+    "motor-cycle-attraction.gif": {
+      "bytes": 9548877,
+      "sha256": "990b86527b135fa0c62a32e10f0fa98116b7fa7bc7a99741533c61e2a38faed4"
+    }
+  }
+}
