@@ -36,6 +36,8 @@ The [published motor activity-path study](../docs/motor-rows-activity-path.md) c
 
 Its `cluster-cycle-branch/` packet freezes the [five-cluster periodic continuation](../docs/motor-cluster-cycle-branch.md): all 18 branch points, full quotient and pair-contrast spectra, a refined complex-pair crossing near `rho=2.29823502`, independent controls and a 56-file manifest. This numerical branch does not prove a torus bifurcation or its connection to the irregular candidate.
 
+`motor-original-seed-log/` contains the [original-start precision diagnostic](../docs/motor-original-seed-log.md): two 10,000-unit histories with retained logarithmic contrasts, all unprotected pair checks, a failed 200-unit comparison, a passed 20-unit algebra/trajectory control, and 27 hashed files. The distant histories disagree; the exact source seed's asymptotic regime remains unresolved.
+
 The [three-row candidate report](../docs/motor-rows-gpu-survey.md) links all 2,880 scout trajectories, forty tighter three-row follow-ups, the fixed 24-lane additional 10,000-unit continuation, and independent eight-dimensional CPU spectrum. Raw histories, downgraded candidates, source snapshots, physical projections and the rotating GIF are in [motor-rows](motor-rows). Four- and eight-row positives remain preliminary; finite-time evidence does not establish novelty or an asymptotic attractor.
 
 These later datasets are small enough to include directly, along with their settings and original analysis code:

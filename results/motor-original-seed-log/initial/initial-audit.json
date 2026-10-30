@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-10-30T12:49:43.642665+00:00",
+  "status": "prepared",
+  "source": "results/motor-rows/activity-path/N8.npz",
+  "source_sha256": "40e201fc10b59cf83eda14297fbb75c647e06509b1489a8e8d57de375bb8f645",
+  "row_index": 46,
+  "parameters": [
+    2.2613636363636367,
+    4.7551460477513405,
+    1.0
+  ],
+  "original_initial_state": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.002103108297215046,
+    0.0015376534669007433,
+    -0.008289905480468557,
+    0.0069514066226811135,
+    0.00019582844126017412,
+    -0.0034093502527038793,
+    0.005570938979407076
+  ],
+  "exact_archived_initial_state_copy": true,
+  "permutation_current_from_original": [
+    0,
+    5,
+    1,
+    2,
+    3,
+    6,
+    4,
+    7
+  ],
+  "original_pairs": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "floating_conversion_errors": {
+    "reordered_constraint_roundtrip": 0.0,
+    "chart_roundtrip_original_labels": 8.673617379884035e-19,
+    "log_roundtrip_original_labels": 1.734723475976807e-18
+  },
+  "initial_log10_halfcontrast_norms": [
+    -2.5596846587861206,
+    -2.308584338191907,
+    -3.1610037639804216,
+    -2.6147952755428796
+  ],
+  "scalar_algebra": {
+    "samples": 32,
+    "arbitrary_nonunit_gauges": true,
+    "errors": {
+      "field_scaled": 5.350838388697969e-16,
+      "gauge_derivative": 2.4471377248235103e-15,
+      "reconstruction_scaled": 1.5957477336688384e-16,
+      "gauge_equivalence_scaled": 4.448585728181276e-16
+    },
+    "exact_identity": "D(reconstruction) F_log = F_chart; d||u_a||^2/dtau=0",
+    "no_renormalization_or_projection": true
+  },
+  "chart_algebra": {
+    "samples": 32,
+    "errors": {
+      "field_scaled": 4.201516313477595e-16,
+      "jacobian_scaled": 2.817241904650533e-16,
+      "inverse_roundtrip": 4.996003610813204e-16
+    },
+    "exact_matrix_inverses": true,
+    "homogeneous_zero_contrasts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "tiny_chart_norms": [
+      3.7416573867739415e-80,
+      3.7416573867739415e-80,
+      3.7416573867739415e-80,
+      3.7416573867739415e-80
+    ],
+    "tiny_reconstructed_cartesian_norms": [
+      0.0,
+      0.0,
+      0.0,
+      4.440892098500626e-16
+    ],
+    "meaning": "The rebuilt Cartesian rows lose tiny contrasts; the direct chart retains them."
+  },
+  "no_captured_endpoint_or_new_seed": true,
+  "code_sha256": "82be3f0056fe92e804b8b5086ae83a07556917ee8d9e625213a4650f835002ca"
+}

@@ -88,6 +88,8 @@ All three original seeds belong to that latter group in this rerun, including th
 
 The [follow-up inventory](../results/motor-activity-continuation/followup-publication-01/manifest.json) passes 140 checks and freezes 142 evidence/source files, including the original partial run, exact complete-block resumption, spectrum and return studies, all sixteen starts and every periodic-destination result. Later source-start logarithmic calculations and interval proofs are separate packages.
 
+A subsequent [logarithmic rerun of the original source start](motor-original-seed-log.md) completes 10,000 units at two settings. Selected contrasts recover after contraction below `10^-106`; one retained contrast reaches below `10^-455`. The two distant histories disagree substantially, so they establish neither a verified long orbit nor a final attracting regime. They show why small terminal row differences alone do not establish permanent capture.
+
 ## A related periodic branch
 
 A separate [five-cluster periodic continuation](motor-cluster-cycle-branch.md) reaches the same parameter with the same cluster-size partition. Near `rho=2.29823502`, a complex pair of quotient Floquet multipliers crosses the unit circle numerically, while all nine pair-contrast directions remain contracting at the sampled points. At the lane-46 parameter the cycle has two unstable quotient directions. This supplies a candidate periodic structure for further study; it does not establish a branch connection to this irregular trajectory or prove the birth of an invariant torus.

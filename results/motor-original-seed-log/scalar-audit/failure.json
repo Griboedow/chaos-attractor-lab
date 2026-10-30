@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-30T12:57:40.236567+00:00",
+  "status": "failed_fixed200tau_control",
+  "command": "python -X utf8 research/motor_log_scalar.py --source results/motor-original-seed-log/initial --output results/motor-original-seed-log/scalar-audit",
+  "exception": "ArithmeticError",
+  "control": {
+    "duration": 200.0,
+    "maximum_mean_difference": 0.021122676353617753,
+    "maximum_log10_norm_difference": 0.02388719636767689,
+    "maximum_log_state_difference": 0.10052428376246578,
+    "nfev": [
+      128573,
+      128465
+    ],
+    "wall_seconds": [
+      11.962780400004704,
+      4.333856899989769
+    ]
+  },
+  "acceptance_threshold": 1e-07,
+  "scope": "The fixed200tau integration comparison failed. Algebra checks preceding it did not raise. A separate20tau control is required; no long-time agreement is claimed."
+}
