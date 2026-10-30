@@ -18,10 +18,15 @@ The periodic destination also has structure: continuation finds a branch that lo
 
 A [further continuation](docs/optical-cycle-arclength.md) locates a fold at optical width 0.0404788044. Stable and saddle cycles coexist at width 0.04; both are independently checked. Their connection to the basin boundary of the irregular regime remains open.
 
+A [two-sided departure test](docs/optical-saddle-departure.md) now gives a concrete clue: small perturbations near that saddle lead toward the stable cycle on one side and retain irregular motion on the other, at both tested perturbation sizes. Independent Radau runs confirm the cycle-proximity outcome for one size; the second-size audit is explicitly incomplete. This is finite evidence for a basin-boundary hypothesis, not a proof of a new attractor.
+
+![Physical projection of two optical departure outcomes](docs/assets/optical_saddle_departure_rotation.gif)
+
 ## Start with the evidence
 
 | Status | Models and reports | Interpretation |
 | --- | --- | --- |
+| Exact old-model revisit and higher-dimensional extension | [Molecular-motor core](docs/motor-pair-source-audit.md), [N-row motor ensemble](docs/motor-rows-source-audit.md) | The core is equivalent to a 2014 model whose authors searched for chaos. Independent controls reproduce its periodic orbit and the 2025 eight-row periodic clusters; the wider numerical search is still in progress. |
 | Numerical chaos candidates requiring model/priority qualifications | [Synchronematic oscillators](docs/synchronematic-research.md), [LCE slider](docs/lce-slider-research.md), [two-strain model](docs/two-strain-research.md) | Read each report's source variants, physical range, solver checks and prior-art limits. A positive finite-time exponent alone is insufficient. |
 | Coupled optical operators: persistent candidates and long chaotic transients | [Two light-mediated material operators](docs/coupled-operators-research.md) | The continuous heat balance of SI Eq. (10) keeps temperature continuous at switches; the author's implementation was not recovered. Smooth optical profiles are explicitly assumed extensions. Both narrow-width cohorts reach independently checked periodic cycles; 26 broad-width trajectories remain irregular through 100,000 thermal-time units. These counts are finite-time cohort observations. |
 | Negative or unresolved searches | [NIFTE thermofluidic engine](docs/nifte-research.md), [Rayleigh spring pair](docs/rayleigh-pair-research.md), [HHS mechanochemical cell](docs/hhs-research.md), [urease reactor](docs/urease-research.md) | Long transients, weak instability and incomplete integrations are recorded explicitly; no retained chaos is promoted to an attractor. |

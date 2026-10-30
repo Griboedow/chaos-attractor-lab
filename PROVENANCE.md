@@ -8,7 +8,7 @@ The reusable [verification driver](tools/verify_public_clone.py) requires an exp
 
 ## Source extraction
 
-Subsequent exact copies are recorded individually under `provenance/increments/`: the optical cycle fold from `f0010d1` and the molecular-motor source/equivalence audit from `643d8eb`. These records preserve source revisions and file hashes; copying did not rerun the experiments. The motor GPU survey is still separate work in progress.
+Subsequent exact copies are recorded individually under `provenance/increments/`: the optical cycle fold from `f0010d1`, molecular-motor core audit from `643d8eb`, N-row source controls from `1584ba3`, and optical saddle departures from `ffd3892`. These records preserve source revisions and file hashes; copying did not rerun the experiments. The motor GPU surveys are still separate work in progress.
 
 This project was extracted from [chua-gpu-atlas](https://github.com/Griboedow/chua-gpu-atlas) at commit `b60418fc2fbdd8a34ab873c5581e31f1b9c0727a` for publication as [chaos-attractor-lab](https://github.com/Griboedow/chaos-attractor-lab). The original MIT license and Copyright (c) 2026 Griboedow are retained verbatim. The old repository's history is not rewritten.
 
