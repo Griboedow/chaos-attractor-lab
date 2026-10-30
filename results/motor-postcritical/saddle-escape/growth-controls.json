@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-30T10:11:24.978757+00:00",
+  "cases": [
+    {
+      "case": 0,
+      "fitted_growth_rate": 0.008696249759588704,
+      "fitted_log_intercept": -15.676708603621156,
+      "extrapolated_tau_to_pair_distance_1e_minus_4": 743.5812459865235,
+      "endpoint_phase": 5.11196928613974,
+      "endpoint_permutation": [
+        5,
+        4,
+        6,
+        7,
+        2,
+        3,
+        0,
+        1
+      ],
+      "direct_ODE_endpoint_match_max_abs": 3.8277714331513835e-13,
+      "direct_ODE_endpoint_match_l2": 6.889878206265657e-13
+    },
+    {
+      "case": 1,
+      "fitted_growth_rate": 0.008696249872402358,
+      "fitted_log_intercept": -15.676708392209783,
+      "extrapolated_tau_to_pair_distance_1e_minus_4": 743.581212029646,
+      "endpoint_phase": 5.111969286139554,
+      "endpoint_permutation": [
+        5,
+        4,
+        7,
+        6,
+        2,
+        3,
+        1,
+        0
+      ],
+      "direct_ODE_endpoint_match_max_abs": 3.4974800833253994e-13,
+      "direct_ODE_endpoint_match_l2": 6.73886737827942e-13
+    },
+    {
+      "case": 2,
+      "fitted_growth_rate": 0.008696250455501042,
+      "fitted_log_intercept": -20.281864931782934,
+      "extrapolated_tau_to_pair_distance_1e_minus_4": 1273.1377294685858,
+      "endpoint_phase": 5.111969286139467,
+      "endpoint_permutation": [
+        5,
+        4,
+        6,
+        7,
+        2,
+        3,
+        0,
+        1
+      ],
+      "direct_ODE_endpoint_match_max_abs": 4.199696146400811e-13,
+      "direct_ODE_endpoint_match_l2": 7.270986367803916e-13
+    },
+    {
+      "case": 3,
+      "fitted_growth_rate": 0.008696250268253757,
+      "fitted_log_intercept": -20.281863702535745,
+      "extrapolated_tau_to_pair_distance_1e_minus_4": 1273.1376155280282,
+      "endpoint_phase": 5.111969286139433,
+      "endpoint_permutation": [
+        5,
+        4,
+        7,
+        6,
+        2,
+        3,
+        1,
+        0
+      ],
+      "direct_ODE_endpoint_match_max_abs": 3.628486400231168e-13,
+      "direct_ODE_endpoint_match_l2": 6.633801844816908e-13
+    }
+  ],
+  "floquet_growth": 0.008696267790971228,
+  "expected_epsilon_100_delay": 529.5570808858188,
+  "measured_epsilon_100_delays": [
+    529.5564834820623,
+    529.5564034983821
+  ],
+  "invariant_pair": "Rows2,3 zero-based are retained exactly by the seven-cluster coordinates",
+  "code_sha256": "e54672c70918484845eb4c0ac12bf832af83bd55c890708e0d6c0872d3e23444",
+  "caveat": "Numerical finite-time connection and local-growth controls, not a rigorous heteroclinic theorem.",
+  "half_step": {
+    "folder": "results/motor-postcritical/saddle-escape-half-step",
+    "initial_states_exactly_equal": true,
+    "maximum_full_state_difference": 1.3785990504722179e-06,
+    "final_full_state_difference": 1.0500700309279409e-10,
+    "data_sha256": "fb14236a2ec1af94864862b0312ac508314e197a64b9630a551952507060d6b5"
+  }
+}

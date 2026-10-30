@@ -1,0 +1,191 @@
+{
+  "created_utc": "2026-10-30T10:05:16.957440+00:00",
+  "parameters": [
+    3.268,
+    4.755146047751339,
+    1.0
+  ],
+  "source": "results/motor-postcritical/six-cluster-cycle-rho-3p268",
+  "source_sha256": "ed1b772e0225b87a5de37f472090e7d1da020c29c2b3cb40aaa39116c792994b",
+  "code_sha256": "619e12909b6734f0a64756b7d458ee8dfc9474ef17a237285b1158cda6676b56",
+  "period": 13.633145767830683,
+  "unstable_multiplier": 1.125871594580756,
+  "unstable_exponent": 0.008696267790971228,
+  "unstable_pair": [
+    6,
+    7
+  ],
+  "preserved_pair": [
+    2,
+    3
+  ],
+  "invariant_groups": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ]
+  ],
+  "initial_direction_full_reduced": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5906416151468803,
+    -0.5906416151468803,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.21621694058796775,
+    -0.21621694058796775,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4569304477914854
+  ],
+  "cases": [
+    {
+      "index": 0,
+      "epsilon": 1e-07,
+      "sign": 1
+    },
+    {
+      "index": 1,
+      "epsilon": 1e-07,
+      "sign": -1
+    },
+    {
+      "index": 2,
+      "epsilon": 1e-09,
+      "sign": 1
+    },
+    {
+      "index": 3,
+      "epsilon": 1e-09,
+      "sign": -1
+    }
+  ],
+  "periods_requested": 400,
+  "dt_sample": 0.3408286441957671,
+  "max_step": 0.025,
+  "rtol": 1e-11,
+  "atol": 1e-13,
+  "algebra": {
+    "field": 3.552713678800501e-15,
+    "tangent": 1.7763568394002505e-15,
+    "jacobian_complex": 3.552713678800501e-15
+  },
+  "batch_field_error": 5.551115123125783e-16,
+  "independent_DOP853_Radau_state_error": 1.96787031114809e-14,
+  "status": "complete",
+  "blocks": [
+    {
+      "end_tau": 340.8286441957671,
+      "completed_periods": 25,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 681.6572883915342,
+      "completed_periods": 50,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 1022.4859325873012,
+      "completed_periods": 75,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 1363.3145767830683,
+      "completed_periods": 100,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 1704.1432209788354,
+      "completed_periods": 125,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 2044.9718651746025,
+      "completed_periods": 150,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 2385.8005093703696,
+      "completed_periods": 175,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 2726.6291535661367,
+      "completed_periods": 200,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 3067.4577977619037,
+      "completed_periods": 225,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 3408.286441957671,
+      "completed_periods": 250,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 3749.115086153438,
+      "completed_periods": 275,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 4089.943730349205,
+      "completed_periods": 300,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 4430.772374544972,
+      "completed_periods": 325,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 4771.601018740739,
+      "completed_periods": 350,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 5112.429662936506,
+      "completed_periods": 375,
+      "nfev": 166613
+    },
+    {
+      "end_tau": 5453.258307132273,
+      "completed_periods": 400,
+      "nfev": 166613
+    }
+  ],
+  "caveat": "Exact invariant cluster restriction, approximate orbit and outgoing tangent. Numerical connection evidence only.",
+  "elapsed_tau": 5453.258307132273,
+  "wall_seconds": 185.1803169999912
+}

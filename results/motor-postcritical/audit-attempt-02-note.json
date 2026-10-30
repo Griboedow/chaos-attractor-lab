@@ -1,0 +1,7 @@
+{
+  "audit": "manifest-final.json",
+  "classification": "provenance-check implementation error",
+  "reason": "The report linked to the manifest that the auditor was about to create. The link checker checked existence before writing that output. The corrected auditor permits its own output path while checking every other link normally.",
+  "scientific_data_changed": false,
+  "replacement": "manifest-verified.json"
+}

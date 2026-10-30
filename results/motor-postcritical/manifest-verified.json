@@ -1,0 +1,2447 @@
+{
+  "created_utc": "2026-10-30T10:23:41.630294+00:00",
+  "status": "passed",
+  "failures": [],
+  "checks": [
+    {
+      "file": "results/motor-postcritical/eight-row-cycle-rho-3p274/analysis.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/samples/lane-005.npz"
+    },
+    {
+      "file": "results/motor-postcritical/eight-row-cycle-rho-3p274/cycle.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/final-six-cluster-rho-3p268/analysis.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-025.npz"
+    },
+    {
+      "file": "results/motor-postcritical/final-six-cluster-rho-3p268/cycle.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/analysis.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-025.npz"
+    },
+    {
+      "file": "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/cycle.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/design.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-rows/cluster-cycles/crossing-check.json"
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/initial.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-000.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-004.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-005.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-009.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-010.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-013.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-014.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-015.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-018.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-019.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-020.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-023.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-024.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-025.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-028.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-029.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-030.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-033.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-034.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-035.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-038.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-039.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-040.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-043.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-044.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-045.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-048.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-049.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-050.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-053.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-054.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-055.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-058.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/lane-059.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/summary.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/initial-survey/survey.npz"
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/survey.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/initial-survey/initial.npz"
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/survey.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/analysis.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/cycle.npz"
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/near_onset-00.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/near_onset-01.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/near_onset-02.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/near_onset-03.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/near_onset-04.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/near_onset-05.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-00.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-01.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-02.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-03.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-04.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-05.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-06.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-07.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-08.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-09.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-10.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-11.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-12.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-13.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-14.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-15.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-16.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-17.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-18.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-19.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-20.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-21.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-22.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-23.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-24.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-25.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-26.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-27.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/toward_chaos-28.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/analysis.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/initial-survey/samples/lane-018.npz"
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/block-control.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/cycle.npz"
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/cycle.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/symmetry.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/cycle.npz"
+    },
+    {
+      "file": "results/motor-postcritical/paired-second-crossing/crossing.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape/summary.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/six-cluster-cycle-rho-3p268/cycle.npz"
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape/trajectory.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape-half-step/summary.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/six-cluster-cycle-rho-3p268/cycle.npz"
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape-half-step/trajectory.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/continuation-10000.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/survey.npz"
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/continuation-10000.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/design.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/paired-branch/analysis.json"
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-025.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-026.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-027.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-028.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-029.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/summary.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/continuation-10000.npz"
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/initial.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-000.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-005.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-006.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-008.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-010.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-013.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-015.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-018.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-020.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-023.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-025.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-028.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-030.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-033.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-035.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-038.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-040.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-043.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-045.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-048.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-050.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-053.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-055.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-058.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-060.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-063.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-065.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-068.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-070.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/lane-073.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/summary.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/survey.npz"
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/survey.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/initial.npz"
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/survey.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/six-cluster-cycle-rho-3p268/analysis.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/samples/lane-025.npz"
+    },
+    {
+      "file": "results/motor-postcritical/six-cluster-cycle-rho-3p268/cycle.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/tangent-trap-control/comparison.npz",
+      "kind": "finite arrays and completed GPU lanes",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/tangent-trap-control/summary.json",
+      "kind": "upstream exact source bytes",
+      "passed": true,
+      "source": "results/motor-postcritical/second-survey/continuation-10000.npz"
+    },
+    {
+      "file": "docs/assets/motor-postcritical-branches.png",
+      "kind": "rendered image hash",
+      "passed": true
+    },
+    {
+      "file": "docs/assets/motor-postcritical-saddle-connection.png",
+      "kind": "rendered image hash",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/figure-preview-initial/motor-postcritical-branches.png",
+      "kind": "rendered image hash",
+      "passed": true
+    },
+    {
+      "file": "results/motor-postcritical/figure-preview-initial/motor-postcritical-saddle-connection.png",
+      "kind": "rendered image hash",
+      "passed": true
+    }
+  ],
+  "executed_source_references": [
+    {
+      "file": "results/motor-postcritical/eight-row-cycle-rho-3p274/analysis.json",
+      "key": "code_sha256",
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2",
+      "matches": [
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/figure-manifest-v2.json",
+      "key": "renderer_sha256",
+      "sha256": "96dac50a6c8f914282942b8f66bd0ecd1f7696c8534deb360e85b0e2087c1c70",
+      "matches": [
+        "research/report_motor_postcritical.py",
+        "research/report_motor_postcritical.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/figure-manifest.json",
+      "key": "renderer_sha256",
+      "sha256": "b45add6dfdd152c479ccc8b7be6d113e48d409914467d3ca807a921b7d371b90",
+      "matches": [
+        "results/motor-postcritical/figure-renderer-initial.py",
+        "results/motor-postcritical/figure-renderer-initial.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/figure-preview-initial/archive-render-manifest.json",
+      "key": "renderer_sha256",
+      "sha256": "b45add6dfdd152c479ccc8b7be6d113e48d409914467d3ca807a921b7d371b90",
+      "matches": [
+        "results/motor-postcritical/figure-renderer-initial.py",
+        "results/motor-postcritical/figure-renderer-initial.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/final-six-cluster-rho-3p268/analysis.json",
+      "key": "code_sha256",
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2",
+      "matches": [
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/analysis.json",
+      "key": "code_sha256",
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2",
+      "matches": [
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/design.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "eb331ea98c88060efc33222566aa3882e361261db230e0d27d521110ff28b4e9",
+      "matches": [
+        "results/motor-postcritical/initial-survey/prepare.source.py",
+        "results/motor-postcritical/initial-survey/prepare.source.py",
+        "results/motor-postcritical/initial-survey/survey.source.py",
+        "results/motor-postcritical/initial-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/design.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/design.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/summary.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "eb331ea98c88060efc33222566aa3882e361261db230e0d27d521110ff28b4e9",
+      "matches": [
+        "results/motor-postcritical/initial-survey/prepare.source.py",
+        "results/motor-postcritical/initial-survey/prepare.source.py",
+        "results/motor-postcritical/initial-survey/survey.source.py",
+        "results/motor-postcritical/initial-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/summary.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/samples/summary.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/survey.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "eb331ea98c88060efc33222566aa3882e361261db230e0d27d521110ff28b4e9",
+      "matches": [
+        "results/motor-postcritical/initial-survey/prepare.source.py",
+        "results/motor-postcritical/initial-survey/prepare.source.py",
+        "results/motor-postcritical/initial-survey/survey.source.py",
+        "results/motor-postcritical/initial-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/survey.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/initial-survey/survey.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/paired-branch/analysis.json",
+      "key": "script_sha256",
+      "sha256": "c8c292d941cc07a3229a3c6215c3adef442f73dbe73be08bbd76777689fedc92",
+      "matches": [
+        "results/motor-postcritical/paired-branch/source.py",
+        "results/motor-postcritical/paired-branch/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/analysis.json",
+      "key": "code_sha256",
+      "sha256": "407cae18bae08474da2f850d265b5fb38d83363eab3c421c89ea193515db1fdb",
+      "matches": [
+        "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/source.py",
+        "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/block-control.json",
+      "key": "code_sha256",
+      "sha256": "0e73923949464b5b2cc34e4e06eb7bda277fd54c4be6d08a606c91443393a2ac",
+      "matches": [
+        "research/motor_postcritical_branch.py",
+        "research/motor_postcritical_branch.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/symmetry.json",
+      "key": "script_sha256",
+      "sha256": "c8c292d941cc07a3229a3c6215c3adef442f73dbe73be08bbd76777689fedc92",
+      "matches": [
+        "results/motor-postcritical/paired-branch/source.py",
+        "results/motor-postcritical/paired-branch/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/paired-second-crossing/analysis.json",
+      "key": "code_sha256",
+      "sha256": "03e0a26dcc8f907af897166c8b773e55fa9faa10e135bb98ea5189935dd91260",
+      "matches": [
+        "results/motor-postcritical/paired-second-crossing/source.py",
+        "results/motor-postcritical/paired-second-crossing/source.py",
+        "results/motor-postcritical/second-survey/prepare.source.py",
+        "results/motor-postcritical/second-survey/prepare.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape/diagnostics.json",
+      "key": "code_sha256",
+      "sha256": "619e12909b6734f0a64756b7d458ee8dfc9474ef17a237285b1158cda6676b56",
+      "matches": [
+        "results/motor-postcritical/saddle-escape/source.py",
+        "results/motor-postcritical/saddle-escape/source.py",
+        "results/motor-postcritical/saddle-escape-half-step/source.py",
+        "results/motor-postcritical/saddle-escape-half-step/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape/growth-controls.json",
+      "key": "code_sha256",
+      "sha256": "e54672c70918484845eb4c0ac12bf832af83bd55c890708e0d6c0872d3e23444",
+      "matches": [
+        "results/motor-postcritical/saddle-escape/controls.source.py",
+        "results/motor-postcritical/saddle-escape/controls.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape/network-algebra.json",
+      "key": "code_sha256",
+      "sha256": "c6ec860f19356a70760d55e7fc2f5b3705504b8b87cd023442ad1c231f03c80e",
+      "matches": [
+        "research/motor_postcritical_escape.py",
+        "research/motor_postcritical_escape.py",
+        "results/motor-postcritical/saddle-escape/network-algebra.source.py",
+        "results/motor-postcritical/saddle-escape/network-algebra.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape/summary.json",
+      "key": "code_sha256",
+      "sha256": "619e12909b6734f0a64756b7d458ee8dfc9474ef17a237285b1158cda6676b56",
+      "matches": [
+        "results/motor-postcritical/saddle-escape/source.py",
+        "results/motor-postcritical/saddle-escape/source.py",
+        "results/motor-postcritical/saddle-escape-half-step/source.py",
+        "results/motor-postcritical/saddle-escape-half-step/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape-half-step/diagnostics.json",
+      "key": "code_sha256",
+      "sha256": "e54672c70918484845eb4c0ac12bf832af83bd55c890708e0d6c0872d3e23444",
+      "matches": [
+        "results/motor-postcritical/saddle-escape/controls.source.py",
+        "results/motor-postcritical/saddle-escape/controls.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/saddle-escape-half-step/summary.json",
+      "key": "code_sha256",
+      "sha256": "619e12909b6734f0a64756b7d458ee8dfc9474ef17a237285b1158cda6676b56",
+      "matches": [
+        "results/motor-postcritical/saddle-escape/source.py",
+        "results/motor-postcritical/saddle-escape/source.py",
+        "results/motor-postcritical/saddle-escape-half-step/source.py",
+        "results/motor-postcritical/saddle-escape-half-step/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/continuation-10000.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026",
+      "matches": [
+        "research/analyze_motor_postcritical.py",
+        "research/analyze_motor_postcritical.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/continuation-10000.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/continuation-10000.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/design.json",
+      "key": "code_sha256",
+      "sha256": "03e0a26dcc8f907af897166c8b773e55fa9faa10e135bb98ea5189935dd91260",
+      "matches": [
+        "results/motor-postcritical/paired-second-crossing/source.py",
+        "results/motor-postcritical/paired-second-crossing/source.py",
+        "results/motor-postcritical/second-survey/prepare.source.py",
+        "results/motor-postcritical/second-survey/prepare.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/summary.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026",
+      "matches": [
+        "research/analyze_motor_postcritical.py",
+        "research/analyze_motor_postcritical.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/summary.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/final-samples-rho-3p268/summary.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/summary.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026",
+      "matches": [
+        "research/analyze_motor_postcritical.py",
+        "research/analyze_motor_postcritical.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/summary.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/samples/summary.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/survey.json",
+      "key": "code_sha256:research/analyze_motor_postcritical.py",
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026",
+      "matches": [
+        "research/analyze_motor_postcritical.py",
+        "research/analyze_motor_postcritical.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/initial-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/continuation-10000.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/samples/sample.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py",
+        "results/motor-postcritical/second-survey/survey.source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/survey.json",
+      "key": "code_sha256:research/motor_rows.py",
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+      "matches": [
+        "research/motor_rows.py",
+        "research/motor_rows.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/second-survey/survey.json",
+      "key": "code_sha256:research/analyze_motor_cluster_cycle.py",
+      "sha256": "709c8ffcef0f393d84f00b4ff7d55b4658aab54b15b0713ace63961161686acf",
+      "matches": [
+        "research/analyze_motor_cluster_cycle.py",
+        "research/analyze_motor_cluster_cycle.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/six-cluster-cycle-rho-3p268/analysis.json",
+      "key": "code_sha256",
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2",
+      "matches": [
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py",
+        "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py"
+      ]
+    },
+    {
+      "file": "results/motor-postcritical/tangent-trap-control/summary.json",
+      "key": "script_sha256",
+      "sha256": "a8cfbeb726fedb81b2e8dba1539f692789768e94bd2c7977b5a5003f0df83957",
+      "matches": [
+        "research/motor_postcritical_tangent_trap.py",
+        "research/motor_postcritical_tangent_trap.py",
+        "results/motor-postcritical/tangent-trap-control/source.py",
+        "results/motor-postcritical/tangent-trap-control/source.py"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "results/motor-postcritical/audit-attempt-01-note.json",
+      "bytes": 424,
+      "sha256": "eb8150ede64c513e2d1a979d2d16b227278057ae10775f4a727a4c3fec16330e"
+    },
+    {
+      "path": "results/motor-postcritical/audit-attempt-01.source.py",
+      "bytes": 5434,
+      "sha256": "c6588312ccbd1203b58c64703f5e78dfa1e617b3ae900b301195e51969bbbdff"
+    },
+    {
+      "path": "results/motor-postcritical/audit-attempt-02-note.json",
+      "bytes": 419,
+      "sha256": "55906f2d6da17ecc0590470984562dc11bceca133f0498adf239d69a82b506c1"
+    },
+    {
+      "path": "results/motor-postcritical/audit-attempt-02.source.py",
+      "bytes": 5671,
+      "sha256": "7e74057abfe24aacceb777d815eab76ca3851576c1e8b2fec930009006eadf96"
+    },
+    {
+      "path": "results/motor-postcritical/eight-row-cycle-rho-3p274/analysis.json",
+      "bytes": 9522,
+      "sha256": "456822c2a535b8271cf2e1c3bfc8b41239510c5fdff1632345b14021624f3608"
+    },
+    {
+      "path": "results/motor-postcritical/eight-row-cycle-rho-3p274/cycle.npz",
+      "bytes": 318228,
+      "sha256": "b60a3a8dea2fa215a543b361fbe0c7a028652df81073061951ec2228ca9ddf8f"
+    },
+    {
+      "path": "results/motor-postcritical/eight-row-cycle-rho-3p274/source.py",
+      "bytes": 9966,
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2"
+    },
+    {
+      "path": "results/motor-postcritical/figure-manifest-v2.json",
+      "bytes": 1729,
+      "sha256": "eec8e46257c85e5a98572c393ad823a743304fd9cd54c56e2dadfe277b243109"
+    },
+    {
+      "path": "results/motor-postcritical/figure-manifest.json",
+      "bytes": 1588,
+      "sha256": "a26fc9e84026a775f31476f0384d12a6d8990a50bb08d6b5b9a50e78dccdc812"
+    },
+    {
+      "path": "results/motor-postcritical/figure-preview-initial/archive-render-manifest.json",
+      "bytes": 1664,
+      "sha256": "749d35499e0aa5dc7fa3dbc6f02f0241865081f427955fa8de8346e7408e0ebb"
+    },
+    {
+      "path": "results/motor-postcritical/figure-preview-initial/motor-postcritical-branches.png",
+      "bytes": 363313,
+      "sha256": "99fb3a61fded8124b0401a63eca67b9f5b3565f510d587b1be048fabfa8185c5"
+    },
+    {
+      "path": "results/motor-postcritical/figure-preview-initial/motor-postcritical-saddle-connection.png",
+      "bytes": 766134,
+      "sha256": "dd867a8ef46a3ce5248c52d9933dfa0ae50be441ff46280af3df3c9be7d1a3b9"
+    },
+    {
+      "path": "results/motor-postcritical/figure-preview-initial/README.md",
+      "bytes": 762,
+      "sha256": "6d613fce254c21f7eb717adf45578467f1f452e7d647b1f3b9b8de0dee74eefb"
+    },
+    {
+      "path": "results/motor-postcritical/figure-renderer-initial.py",
+      "bytes": 8433,
+      "sha256": "b45add6dfdd152c479ccc8b7be6d113e48d409914467d3ca807a921b7d371b90"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268/analysis.json",
+      "bytes": 8488,
+      "sha256": "69ea21001b4ab47817b73f80f809b8c03403e62a5cd861d95f7904e3969dc203"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268/cycle.npz",
+      "bytes": 252323,
+      "sha256": "b229ef41282ae8b18907e4b897385dadd70749d0b1d46b63c3fd1e641d261b02"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268/interpretation.json",
+      "bytes": 540,
+      "sha256": "64aa17f7aa396cc8f5eb755295886a8769be43d4e9b119da0b7b75a10c022a9a"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268/source.py",
+      "bytes": 9966,
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/analysis.json",
+      "bytes": 8117,
+      "sha256": "691fcf13128f710ee3b85931d255018b754033252b02998d7288dbfd5c72fb42"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/cycle.npz",
+      "bytes": 274474,
+      "sha256": "c4f62d14280b88d5cd4655e0b2f305db76cbf9f2956275c66d3635e415272a5a"
+    },
+    {
+      "path": "results/motor-postcritical/final-six-cluster-rho-3p268-correct-groups/source.py",
+      "bytes": 9966,
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/design.json",
+      "bytes": 80502,
+      "sha256": "eb4b6c2554eafe23cfb5858e0189336cebb03c99138acb2a7dd75ec302d273e4"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/initial.npz",
+      "bytes": 7928,
+      "sha256": "a6b9fc2b675e44d85f3abff5e0221bfec3778e451127a2bbc284feae4584347b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/prepare.source.py",
+      "bytes": 10641,
+      "sha256": "eb331ea98c88060efc33222566aa3882e361261db230e0d27d521110ff28b4e9"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-000.json",
+      "bytes": 6463,
+      "sha256": "b2a288e34cad8773f7f449f3e29095f59d168f3daa7a2db999edd634c461f3ef"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-000.npz",
+      "bytes": 326711,
+      "sha256": "84767523afd9437ae16892e073c9fd353e9693d1ae0ae0b0d6a5e3c36b94f34d"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-004.json",
+      "bytes": 6692,
+      "sha256": "4ce14cd442b2c330c51fa37296f62378b2d47907d5dfd9e37baa8d8c5bc1b86a"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-004.npz",
+      "bytes": 410068,
+      "sha256": "798b893f4494bac9280b457f3c6de631e29f3e85b79b13060cf2a06c2e173611"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-005.json",
+      "bytes": 6442,
+      "sha256": "1a0e9a1090bc9eaae03321d376cda556c221fbadb5eb52a94b37a0b9133164fa"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-005.npz",
+      "bytes": 323806,
+      "sha256": "48b7b6156f564ebbb70434f8203cf4911fc712dc43d72faa24caafe3f04f6cdf"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-009.json",
+      "bytes": 6680,
+      "sha256": "91e9793ec58092993856a7601cbcc7edd51a739bdb15a98db0ce40a10022e621"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-009.npz",
+      "bytes": 408615,
+      "sha256": "34496a3e880a4c6e04ba9ce4e35e0350bd06b569ba7e7973b7d68c42e7bcd15a"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-010.json",
+      "bytes": 6704,
+      "sha256": "907e37706084c888ac37849771affd21acc1100555b945f15a35af4bed545c58"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-010.npz",
+      "bytes": 1003890,
+      "sha256": "3b01926c69140576e13251ee1da901a5b4116888560ee41395d3e1e4debb3f64"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-013.json",
+      "bytes": 6590,
+      "sha256": "cfca4506f1d658a88a553389aac76505c0c24d8b4f56d8455ab71e557aa51b56"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-013.npz",
+      "bytes": 778098,
+      "sha256": "937aa164478775142ab694dc140a295f99b81e47c3d06322ec0f51ebe7fa2733"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-014.json",
+      "bytes": 6706,
+      "sha256": "061dc4fbec49cd4e4f8d7a68acbe9fc9eda273403ba7bef2fc880df2f5fefd0b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-014.npz",
+      "bytes": 1024977,
+      "sha256": "f8980d5af73b668920d74471d6265ee0f47eb40eaf5077409a6e152eec0ce843"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-015.json",
+      "bytes": 6579,
+      "sha256": "6250d00aeb0aa2d1bb790d3c3234f89092b05adb1fc3a1f2a1e4cc5093f14cd7"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-015.npz",
+      "bytes": 789063,
+      "sha256": "e39e86cef63b3f1593a9f184e37bdfc0b4daef5fadacd333e932b23af1cfd8db"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-018.json",
+      "bytes": 6581,
+      "sha256": "cafd2610cc52eccdf46142f219febadcf495c68a2fdbb48509592fca953dcd86"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-018.npz",
+      "bytes": 781179,
+      "sha256": "50a35ae0985e82b7a2e6be5da761b11f0356c496ccaef78d71fc0516feccf6d9"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-019.json",
+      "bytes": 6695,
+      "sha256": "4e92dcd8427ef83da36c3073fd5e300d2fb9e3b460aea1f4cb8ecc37b2a53ade"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-019.npz",
+      "bytes": 915007,
+      "sha256": "9917e22c9cf5ea494850c3d1ee88ed07d1ce1fb5d33693009129d1bc970b588e"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-020.json",
+      "bytes": 6582,
+      "sha256": "a6aa29980a6f590f9f3e392912a66ba2b90c07a584f292ea5c4d10eb344d1c26"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-020.npz",
+      "bytes": 790844,
+      "sha256": "f608a53c16111056461e860bd6407cb6c8581e53a0b601e64b01f55950dd1cfc"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-023.json",
+      "bytes": 6578,
+      "sha256": "4ac68949bacbd01d3e6283a9ee32ead841ec2bee003d4a67d14990804919f411"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-023.npz",
+      "bytes": 780413,
+      "sha256": "48711da3ce866d020737cc8ed9653729dde8cde1a98278775da4ecc810e8ba46"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-024.json",
+      "bytes": 6695,
+      "sha256": "9b77dc340d4263ef10ec947df1bd6b1c2ccff8b40f1ecf99b5d1b12797bb07d1"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-024.npz",
+      "bytes": 911456,
+      "sha256": "f8c81395565e873fb8f0b30c588cd3bb77fd13877fb69d8fbf1b5e52a9c1dd96"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-025.json",
+      "bytes": 6577,
+      "sha256": "43546b210f2243a08fc017cb84474c9c49ea2838c6688d683fc3ed9f0ce527df"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-025.npz",
+      "bytes": 790193,
+      "sha256": "5ba64ecaed5230cac61c91891a5f75d016c1c5d995e768b2b7d5dcdd312aae78"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-028.json",
+      "bytes": 6583,
+      "sha256": "7268fbf221d123e05b44102ece3cc325e349986a1c1116732e126bbab9f382fa"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-028.npz",
+      "bytes": 780526,
+      "sha256": "f77628aac78faf3e53097ef98537e3133f64e0d86ca49a5cdee6a23ac67967b4"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-029.json",
+      "bytes": 6688,
+      "sha256": "f715ca39adf8e080951440e86cf2b185664a1da941a915c0ec9dd4fc73a2df7f"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-029.npz",
+      "bytes": 907570,
+      "sha256": "9dde1f2852c3ad4814bf23060b99f3056496e97d25bbe917ca50371e226d0e5f"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-030.json",
+      "bytes": 6559,
+      "sha256": "b29d1d40315b9bd5b82c5345f13990cd817901d7f20d1d91ca0489bde1fd1fdb"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-030.npz",
+      "bytes": 790045,
+      "sha256": "52eba15fa1a3ac5235cd71fa9df49b55f44b2e95b77016596623b288113a2f58"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-033.json",
+      "bytes": 6572,
+      "sha256": "42bce466c89b1b92ff11c13b24e168d52175399e674cd7c019c37c4c74abe11c"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-033.npz",
+      "bytes": 781006,
+      "sha256": "3e72bc6133cafb633eca8de82af0d9be7c953eaab812d413515b7e03da8d1c3b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-034.json",
+      "bytes": 6610,
+      "sha256": "b464d1a8de9cfbb4144227f1306036b48946f28da28bc0d5efeb79c5adc3ca6e"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-034.npz",
+      "bytes": 851351,
+      "sha256": "00a4e9f51e415e51165372b8042cec747160494f00b297f6313129297940f0eb"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-035.json",
+      "bytes": 6555,
+      "sha256": "d3c090aff4f7189b048cbf922c38dc5ffe0f574f7fc8104640210f99364f881d"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-035.npz",
+      "bytes": 792819,
+      "sha256": "dfc4d6fc69777831a57937ceed789bf5a2acc239181bd0b0ac5f830e069641d6"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-038.json",
+      "bytes": 6561,
+      "sha256": "b439ac5f8c9f166b054b31b223ad51609294807cbab4619f6cd404f8c21c1cf5"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-038.npz",
+      "bytes": 782980,
+      "sha256": "5dbfa3929f53db588d5519fce68ccbc242af50029d1cb9d71c382a67427a2549"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-039.json",
+      "bytes": 6679,
+      "sha256": "5f6019107fb7e6470a8f92bf94a982677aa45a25b919a6e56a6acc8bd732afc8"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-039.npz",
+      "bytes": 909536,
+      "sha256": "03ee6ef34e33609d128d78f83f1093b092499ad78f6fe60d4e77aea112e99a7b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-040.json",
+      "bytes": 6561,
+      "sha256": "e54c0f68028f92cb01ebdc2040c7f7c0a63f7237e9e5dec15867127ea82ce52b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-040.npz",
+      "bytes": 1122534,
+      "sha256": "0bec2fd4cbf9ad95b224d23f5abe69331fe9b147b6cb5a8cd121faecb984042c"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-043.json",
+      "bytes": 6523,
+      "sha256": "ffb4dd4e1ce54105edea6e4dedbbbf0fe80cec2ba81b51b071d5d6f5cd0c45af"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-043.npz",
+      "bytes": 857823,
+      "sha256": "2d1fb0c8e9da357753eba532824ab653778d421b04b695e8a0f2b19bfdbb0e38"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-044.json",
+      "bytes": 6567,
+      "sha256": "2cc42624a08452b1d683900fddca7b1a232cae07c888c411f63d8c6a821e268b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-044.npz",
+      "bytes": 1088905,
+      "sha256": "e291148faa7e547955d4b7aa3c176812658a308bd793c7507b733eb1388c1164"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-045.json",
+      "bytes": 6573,
+      "sha256": "6004e8c3b3f9d6d5f67dfbe5835c175d9be618a4d2a1288f3ad2aad43aa602aa"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-045.npz",
+      "bytes": 1333261,
+      "sha256": "5600fe4643fc1f56dd3b677edec4b9244a91e60a1f9f53a0813a28b4a0e290dd"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-048.json",
+      "bytes": 6490,
+      "sha256": "492b30d8ef62b14ac896598dc582902d926be63158f754cc6689c47aadd4990b"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-048.npz",
+      "bytes": 864743,
+      "sha256": "ad46c28dde6ab22037e5895582eae4d241896d88610aaa957a9a324015637bb2"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-049.json",
+      "bytes": 6564,
+      "sha256": "46084e555b4d061fd7a5db23e053f71860dd2302c61a21d7f3c568ba5d7eb995"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-049.npz",
+      "bytes": 1333290,
+      "sha256": "e5ed7752ea42ed4a9db30567b4a55e98bb2eea0458238c2db6125dd3ee3a55e3"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-050.json",
+      "bytes": 6569,
+      "sha256": "9fc5593485a0e77bae24de11ca10c479dfdfa51dbf17d0d3df1eede0837e6d93"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-050.npz",
+      "bytes": 1332084,
+      "sha256": "f0f96a256d90d9caacf0ec1f3df4f9894b292d49501d35db3bfedb67b967dd4d"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-053.json",
+      "bytes": 6489,
+      "sha256": "b6129c085bf6e3f43881d09900398f7670131352da294a2e65b28eef5f48beee"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-053.npz",
+      "bytes": 861383,
+      "sha256": "2fc3cc48455b1ab5c89e8a25e06a8765b60e29266affeb3368cd71ed4526479d"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-054.json",
+      "bytes": 6564,
+      "sha256": "7711450d3057de3d2febcca8d73d3dd0245ab29697c9dd274a2348a8e06d53c2"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-054.npz",
+      "bytes": 1332172,
+      "sha256": "0e80ec2a662ca99b790293f7b6b651aefa6d43e86b01107edb92a438e2b53d66"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-055.json",
+      "bytes": 6562,
+      "sha256": "ef2f29d808bc8875f15a0d6b13526b152a770a7ff0b145c2b2db8498fc66beab"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-055.npz",
+      "bytes": 1331360,
+      "sha256": "d68382abe6f47bf33f868404b663ac14186ac3abbd5cfec49f78db60857e8785"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-058.json",
+      "bytes": 6469,
+      "sha256": "fe46b35f91dffddf5bd2fc6a666ee1af0620d8eb6fdab6a69691b699375cc867"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-058.npz",
+      "bytes": 863099,
+      "sha256": "18452b2e33a8a3312d4c8c63f3e7b105ffd6b61c20fcd80fa5a72dc3f7e0c207"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-059.json",
+      "bytes": 6562,
+      "sha256": "cac68a05aed666ebff087f4a6a6ffe6dd058c1d72067aacd1bdcf25b4a6a31c5"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/lane-059.npz",
+      "bytes": 1330763,
+      "sha256": "5ca0d8ceb47f362a106dae2d897473987208feb3322b9ee527d0f75413c0ecee"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/sample.source.py",
+      "bytes": 10681,
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/source-snapshot-note.json",
+      "bytes": 388,
+      "sha256": "56795c72e31b78ac477113ceac52ad80c679a48dd030cbc8dce438995c3078c8"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/samples/summary.json",
+      "bytes": 271378,
+      "sha256": "ba96d0aa3fb88fee1e41037daaa0243b404aa957f31dbae8eef4b2724a8ea213"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/survey.json",
+      "bytes": 4204,
+      "sha256": "d9f588df72db5042fa6501362932bb67cd151d5f0b954e6a1bc76f1c504d1e1f"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/survey.npz",
+      "bytes": 132824,
+      "sha256": "759e9882724ebe239d22fb8cb989521433b6790aaf5bea9887694db6f693eabe"
+    },
+    {
+      "path": "results/motor-postcritical/initial-survey/survey.source.py",
+      "bytes": 10641,
+      "sha256": "eb331ea98c88060efc33222566aa3882e361261db230e0d27d521110ff28b4e9"
+    },
+    {
+      "path": "results/motor-postcritical/manifest-final.json",
+      "bytes": 99376,
+      "sha256": "cb2b4e94d44ef5fc7ec531e30bbfb201f8ddd63f715a0235df435872a54da786"
+    },
+    {
+      "path": "results/motor-postcritical/manifest.json",
+      "bytes": 98755,
+      "sha256": "798f0b99e496e246a7b7b01db7ae63e1f7f27f6a5bd02f4cc3cd207cc54722c4"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/analysis.json",
+      "bytes": 185427,
+      "sha256": "88b8ce7e2b96300b03ca4aa5f460c380b30b0bc290c429b14ed7d602ed4d2c53"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/near_onset-00.npz",
+      "bytes": 162509,
+      "sha256": "5bd562c25db79086c98f57a63da2e038c44293e10988a6dadcee1e3ed3cfa181"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/near_onset-01.npz",
+      "bytes": 167632,
+      "sha256": "42832bb22877c609e58b679d4aadb449ccec572bf37b5469a25c862d888b9ca4"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/near_onset-02.npz",
+      "bytes": 163361,
+      "sha256": "e5be57e0f4f88f6dd8ee3f4150193c39b8ad121fff92644cfb6b2633399c430d"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/near_onset-03.npz",
+      "bytes": 162345,
+      "sha256": "5a715d0a35886f6892fc04854b046d9859910676fff58a02eb23259583a9fb37"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/near_onset-04.npz",
+      "bytes": 165482,
+      "sha256": "367f0f72f36891df8c1f96f8b0ff2efdb8b1149f171d71fb29f13e06746eef14"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/near_onset-05.npz",
+      "bytes": 174460,
+      "sha256": "4ca6744b496d1dc25661d40cf2f07a7fef6c5a418f357735eda3c9e69db4177b"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/source.py",
+      "bytes": 8024,
+      "sha256": "c8c292d941cc07a3229a3c6215c3adef442f73dbe73be08bbd76777689fedc92"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-00.npz",
+      "bytes": 162509,
+      "sha256": "5bd562c25db79086c98f57a63da2e038c44293e10988a6dadcee1e3ed3cfa181"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-01.npz",
+      "bytes": 161616,
+      "sha256": "98a1c08373c634062a01f5a132ba70d9cb632317861cd1d179fe1598db8012cc"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-02.npz",
+      "bytes": 156816,
+      "sha256": "daa707a21321f3c398ef59a8bc6be0b0fe4927242904918851bc60c6e8e303db"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-03.npz",
+      "bytes": 166581,
+      "sha256": "ee5fe065a14161ffb023ec073484d7efc2ac875ecc3e4a36cf0b6ffe1034e8da"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-04.npz",
+      "bytes": 157363,
+      "sha256": "1be2f007f9db1cb90eeabecda1946dd7990725910fa3b1b9ccdb0c4a8de129fb"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-05.npz",
+      "bytes": 158756,
+      "sha256": "031d2cae496a568be73e108ef8e3ba78fe5a5894dd84e68eae9ce857b4f3e00d"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-06.npz",
+      "bytes": 160381,
+      "sha256": "824ba89da330013b44b1e695bc2a0700137338a2d707e6eeda7f04ef883318af"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-07.npz",
+      "bytes": 157054,
+      "sha256": "dbc2e8bfc63d5c552a2bda5c2b3309a5eef6f4053de867338414ec02b0385e4d"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-08.npz",
+      "bytes": 157756,
+      "sha256": "e3ac720faeef83c8c1e734ef5618d123bda68139500b918471891c1676d47e1f"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-09.npz",
+      "bytes": 170150,
+      "sha256": "869df84943ebfe31899b7443b8323093eadfdcd330818f20b802de2eb72c5da5"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-10.npz",
+      "bytes": 168818,
+      "sha256": "01757f193d4b2177a7b840d35adde825213e25d6f2045ced810914b627a81ea3"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-11.npz",
+      "bytes": 167101,
+      "sha256": "ae96f4b08a13bf0b166ac92702925c97c994756bb859488b05f23e51ff5797a6"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-12.npz",
+      "bytes": 165462,
+      "sha256": "a626aebbbf5fdf548f434934f22a173f148536603c3d2e0a56f0f1e1298689ee"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-13.npz",
+      "bytes": 164356,
+      "sha256": "cad8dc8ffab4dc44d78d3ea8e197bd0b333770baf10a37cfa81e5760b35c70f7"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-14.npz",
+      "bytes": 163539,
+      "sha256": "049c5ec919daf818dd8c531ebaa5a2c22b33eff226c4c225bad74516f4ace359"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-15.npz",
+      "bytes": 163025,
+      "sha256": "ab1fd1ca531186142f001ae9c875cc885165a0028116ba41dd82de648a4afff3"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-16.npz",
+      "bytes": 162314,
+      "sha256": "e1db8598d1b540a4b21216952ff6195be8d245a03725276fe043b90a61778f16"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-17.npz",
+      "bytes": 161620,
+      "sha256": "cbd14587508fc376dc0697afe8cb59fb8d212f9143566c9d2f59b79f47b30151"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-18.npz",
+      "bytes": 160581,
+      "sha256": "335bb801732350916230dd574eb7ed2afc092bfb9b3abd86b0622dd5e8d453dc"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-19.npz",
+      "bytes": 158019,
+      "sha256": "f20871e9724709ae38fdf7b8cecf6995fecbddebd4b0ad8ac9e3ae83cf2d6a02"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-20.npz",
+      "bytes": 158098,
+      "sha256": "1bd0c70f59608e5dd14252ff8367563986514f11311f3f7d7f0f959bad92847c"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-21.npz",
+      "bytes": 159793,
+      "sha256": "065643fa362ed5a9593e35d19c0ec34a80e78a15d286099d7b022062711e6035"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-22.npz",
+      "bytes": 158915,
+      "sha256": "1248a71021d80fb89bf6ca82a64ecfe442a6141e07172af40e6764073b2ebc49"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-23.npz",
+      "bytes": 158631,
+      "sha256": "5db7b0ccb29cefe00e980d66e653212152f2243bc13bfe1fbca27c5fab93e871"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-24.npz",
+      "bytes": 158879,
+      "sha256": "3a136a35c4621000671ce26e5913fc46959584200068e4a1e88d6b3fba9baa6e"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-25.npz",
+      "bytes": 156832,
+      "sha256": "757a879e84580fdfb1cb5fafd5189dc084c482e14e78f1728689c6d289b1e2f8"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-26.npz",
+      "bytes": 158534,
+      "sha256": "14c4f97d22cb08ee2a9a8f2e98e33f4d496740c236743d278bcff20017de852a"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-27.npz",
+      "bytes": 157158,
+      "sha256": "528acdf6662e14188ef8558585d73253c8151a5741cb3adfedc47e7ed5fb34eb"
+    },
+    {
+      "path": "results/motor-postcritical/paired-branch/toward_chaos-28.npz",
+      "bytes": 156849,
+      "sha256": "e5a1a3ade8eca5de0ce957b66467acbaf1e4937d33d0a7a70fab04fee09bb955"
+    },
+    {
+      "path": "results/motor-postcritical/paired-cycle-rho-3p3652184/failure.json",
+      "bytes": 242,
+      "sha256": "ca9cbc390d5770eb08178c27f46ffdfbb1ebca13734e21539c889ca3309cf3d5"
+    },
+    {
+      "path": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/analysis.json",
+      "bytes": 6442,
+      "sha256": "62293626a57e66b1e1c4c4fd1f609bbeeb2df415848c354e72e98faaebb0f121"
+    },
+    {
+      "path": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/block-control.json",
+      "bytes": 7424,
+      "sha256": "c53e93d46427c18fa1ae272a8837ea172031d37d2b0f60ab8e7bbf176dc8e856"
+    },
+    {
+      "path": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/cycle.npz",
+      "bytes": 164605,
+      "sha256": "25ea381fa41c87b993bc3698956ca8c65fae3916a0fa03524817977220bf7110"
+    },
+    {
+      "path": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/source.py",
+      "bytes": 9132,
+      "sha256": "407cae18bae08474da2f850d265b5fb38d83363eab3c421c89ea193515db1fdb"
+    },
+    {
+      "path": "results/motor-postcritical/paired-cycle-rho-3p3652184-retry/symmetry.json",
+      "bytes": 10094,
+      "sha256": "6a752038318e21938946edff6a80d8e4f62f673e895df742f9111f838d74b7d0"
+    },
+    {
+      "path": "results/motor-postcritical/paired-second-crossing/analysis.json",
+      "bytes": 11248,
+      "sha256": "e9473ef9aa2e3ba904bc21798594eaedd4ee9c85d4b2d8882994154394849107"
+    },
+    {
+      "path": "results/motor-postcritical/paired-second-crossing/crossing.npz",
+      "bytes": 2264,
+      "sha256": "e15e7622acb92d5580170a5b1d63d3b3eb39fffd1c3b463d4df28adb5dc60e34"
+    },
+    {
+      "path": "results/motor-postcritical/paired-second-crossing/source.py",
+      "bytes": 13096,
+      "sha256": "03e0a26dcc8f907af897166c8b773e55fa9faa10e135bb98ea5189935dd91260"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/controls.source.py",
+      "bytes": 12906,
+      "sha256": "e54672c70918484845eb4c0ac12bf832af83bd55c890708e0d6c0872d3e23444"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/diagnostics.json",
+      "bytes": 190272,
+      "sha256": "36d3b3c5afba86bcfe0ecf76af776bcbf5d4943210d9402506ec2a26ea3980f2"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/growth-controls.json",
+      "bytes": 2984,
+      "sha256": "cd5c094b75183421c6aa465201c29fca23ee1243a8ab93addd13acd98a5c7f22"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/network-algebra.json",
+      "bytes": 3724,
+      "sha256": "213f363bc6473284f7934767296d34d8bb670d3976b1e36dc7a65e8285ecf95f"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/network-algebra.source.py",
+      "bytes": 15227,
+      "sha256": "c6ec860f19356a70760d55e7fc2f5b3705504b8b87cd023442ad1c231f03c80e"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/source.py",
+      "bytes": 9423,
+      "sha256": "619e12909b6734f0a64756b7d458ee8dfc9474ef17a237285b1158cda6676b56"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/summary.json",
+      "bytes": 3799,
+      "sha256": "ddc6e5dfca3371273a8330fcdff2be1468b7050106058a82576a90d6e52e9876"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape/trajectory.npz",
+      "bytes": 5517019,
+      "sha256": "89bcc8c852653be66160eeb2fc3336e9f4f7e163b382dc21645e7d74c1c45ab0"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape-half-step/diagnostics.json",
+      "bytes": 190232,
+      "sha256": "1161dab60aa49f2e1960bb24e0166bdf482a8a41b5a5165ce1dce66ddc40dc3e"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape-half-step/source.py",
+      "bytes": 9423,
+      "sha256": "619e12909b6734f0a64756b7d458ee8dfc9474ef17a237285b1158cda6676b56"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape-half-step/summary.json",
+      "bytes": 3817,
+      "sha256": "f90abea5a73521194d1c4743ce770d33908602d76eef36313a7092bb3a550983"
+    },
+    {
+      "path": "results/motor-postcritical/saddle-escape-half-step/trajectory.npz",
+      "bytes": 5412916,
+      "sha256": "fb14236a2ec1af94864862b0312ac508314e197a64b9630a551952507060d6b5"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/continuation-10000.json",
+      "bytes": 4193,
+      "sha256": "b79707d779c023e2e7ba0b983dc50a80b6e6d4c57775f73ec1b026573512e13b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/continuation-10000.npz",
+      "bytes": 202726,
+      "sha256": "282d9efd2c116245ca85d050a69f6e9aa606b0366798e990503b83eb07c35bfa"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/continuation-10000.source.py",
+      "bytes": 10681,
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/design.json",
+      "bytes": 136604,
+      "sha256": "cc6b8cd1b541944feb1f8bfc94d53e50637092713bf3be811ff39960fafe7541"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-025.json",
+      "bytes": 6538,
+      "sha256": "5aac528cac3aa5307764a0bb2ddcb79bf5c037b40db4d05920d276f9c64b384b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-025.npz",
+      "bytes": 1019716,
+      "sha256": "716f88efaa70a840ff6f814a41a4dd2b37e8b499eef58f0769046edf19b43c4e"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-026.json",
+      "bytes": 6542,
+      "sha256": "85f339b83c889ecb3e0844f797685eff2b4a25e737a026e4a08233a8be5d82e6"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-026.npz",
+      "bytes": 1019788,
+      "sha256": "36c4ac58f597c56eaf65a854a84d490bc42b59cef98cca0ce0c36a9e4c62523b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-027.json",
+      "bytes": 6542,
+      "sha256": "86edc0efccc88d8ace47546c93709ba81c564ff8efcd0cefee5a6e7ba0cc3fe0"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-027.npz",
+      "bytes": 1019820,
+      "sha256": "ef99a92a5ec349506c258cc9fe43f6393f6a7301787fb8a7101b4605f931b46b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-028.json",
+      "bytes": 6533,
+      "sha256": "8ff9a4369f3db83f440279fb56a96b7ef53d4d7471dd01834184ed884d1195dd"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-028.npz",
+      "bytes": 1019904,
+      "sha256": "3a7229366d7ba7a3bbfbe5d37d66ee35926734bb3cd5415566a68cf36350f234"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-029.json",
+      "bytes": 6543,
+      "sha256": "7c4ca598126b26bf55f5a4b74bf3203aa87f5371de4fa0524dc812534d84cc4d"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/lane-029.npz",
+      "bytes": 1019870,
+      "sha256": "8d833148fd3c2c62f50f213f44de42edabcca44d9afdc9ce67b4f4a1bfb11a75"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/sample.source.py",
+      "bytes": 10681,
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/final-samples-rho-3p268/summary.json",
+      "bytes": 40290,
+      "sha256": "09c69e9f2bb056322b63aa330fa850c386f6d9438f408b6fe32b9e3fe5050d76"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/initial.npz",
+      "bytes": 11182,
+      "sha256": "51db9feaee617710ce5b65cfe2f20b832d4785a1a1b7f4d077780b54ca4fb771"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/prepare.source.py",
+      "bytes": 13096,
+      "sha256": "03e0a26dcc8f907af897166c8b773e55fa9faa10e135bb98ea5189935dd91260"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-000.json",
+      "bytes": 6545,
+      "sha256": "21e54cd43822f9dde5285152298466f3b92eac9c8d69a4d69c8fdc1a61e1446c"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-000.npz",
+      "bytes": 837623,
+      "sha256": "1acbae60d9e619fc9cd19057bc8da253ae6eb2ea55f8da392f804cb00bc7af75"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-005.json",
+      "bytes": 6611,
+      "sha256": "ee76bde6b2e39304f851c44a4b74a413045d3b6a851bd4b38cefe6c6be26662f"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-005.npz",
+      "bytes": 1422598,
+      "sha256": "ff4db3857f98d7529180c522a9370842117ed61c178202c9a9ddb37f0e2fddfe"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-006.json",
+      "bytes": 6619,
+      "sha256": "ee9c0075460464e0fc95d2b3031e2911733151a2e2374b4a23427208e97f1fc7"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-006.npz",
+      "bytes": 1421877,
+      "sha256": "b2de5e55f5946a76fd88fa5ec59658676065ab111ff4e12daf6944204d45a712"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-008.json",
+      "bytes": 6610,
+      "sha256": "59feee083af5607f85ba736b3c5f747b975ba27e62f9af73b1f3d7e6f456344c"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-008.npz",
+      "bytes": 1422865,
+      "sha256": "1a4ca1ff708afd2029b550f2ea32fc526832d9abbe8b52dec18345f94ed8a9ea"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-010.json",
+      "bytes": 6614,
+      "sha256": "f804327435e9275cba6e12b8d1c6646c5db35ae44464f834829fd0199612bf1d"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-010.npz",
+      "bytes": 1419420,
+      "sha256": "110a7018bc2cc7968b7a009d700186ab5547e0a808f37ba585adc6134f0a1b92"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-013.json",
+      "bytes": 6617,
+      "sha256": "7c311daba40ea1930d32c2f70e97ae16b791d06daa7be82a41e47a9cb476fff4"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-013.npz",
+      "bytes": 1423048,
+      "sha256": "31d29262e611f37521e7472df598b6bb322b53207285b6bd06554ddded804390"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-015.json",
+      "bytes": 6621,
+      "sha256": "b2c72afca626f988fd58f7650c82e4c427af8d8ea447be802ebbd83153980e5b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-015.npz",
+      "bytes": 1412667,
+      "sha256": "6634e077e709c71761a60f68da68caa9029223c4ed1c4bd3542c31e5efb8700c"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-018.json",
+      "bytes": 6623,
+      "sha256": "237104548de53c27d23b064b9583a3fcce3f2f022ea21b7f93d30c056e89a5d1"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-018.npz",
+      "bytes": 1422354,
+      "sha256": "d8588a7bc52f8b7510565b89405bc86608ca9478677891deaa3a2dac4b48b0f2"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-020.json",
+      "bytes": 6603,
+      "sha256": "ba4bd67c8bbf0eb65eaa2954f29ab9a92c1d9bcc4be7c3718229b5b02cc14557"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-020.npz",
+      "bytes": 1358126,
+      "sha256": "19f8d8a345875400444979e8fecdbf4113513d407adf87481867c8c0a5bf7631"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-023.json",
+      "bytes": 6610,
+      "sha256": "2b592a066e22dad37d63d76d79ebb88ba3e34ce55516278749fbc5468d920c14"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-023.npz",
+      "bytes": 1390042,
+      "sha256": "7e5cb81a7a92f9e6a0b692f2a058cf818ff3dd11a1541a47f6bf01773299c6e2"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-025.json",
+      "bytes": 6617,
+      "sha256": "935b5f47a0e1a9b4142ecb4c1dd6bf58f734b6694857988fdca2b64425ae2a12"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-025.npz",
+      "bytes": 1289838,
+      "sha256": "62b15eb41507c8afd64b591e409fe9f36661867c6b1e2a54a0dbc91a029d0169"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-028.json",
+      "bytes": 6600,
+      "sha256": "e2a3d07250dfade10f047735fa1a2874d753652e744ea703dd80e289563cf152"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-028.npz",
+      "bytes": 1348453,
+      "sha256": "2fddee16f174b71bd2c874499003669b6b090c3404be023593746a4d8213dc33"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-030.json",
+      "bytes": 6565,
+      "sha256": "2c4b83f4344aeaa8b3dcaf8b7f6e3b80910810d2cfb55f111ef176c164309abf"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-030.npz",
+      "bytes": 1258263,
+      "sha256": "c351bb43307a32f8976c45400cb4490f63c5cf2277a2c856c26e85e0e8e751ac"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-033.json",
+      "bytes": 6610,
+      "sha256": "904dce18018780263b20141bc3f7c98f3308a0d3f6eebbb8ada326fe9089b762"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-033.npz",
+      "bytes": 1338063,
+      "sha256": "73ae8b82e83224755f6148708bb0e08bca64d5876684956f30aab9c14ade7c0a"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-035.json",
+      "bytes": 6564,
+      "sha256": "0d2755e2d8661a4439123aac7bbd3b52fc3349c1230881c27e1226f3c6e0811e"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-035.npz",
+      "bytes": 1249347,
+      "sha256": "89c29e5a5d7b9083839a53005221cb9f3abcb416689073ac693c9927970f86cf"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-038.json",
+      "bytes": 6607,
+      "sha256": "db79303e28b39ca15dbb33bf7f497af171a019e4b6834c13949de9bd1718ae88"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-038.npz",
+      "bytes": 1279210,
+      "sha256": "17f0c3e3d59b042294a3246564e40b15d6f8dbad5969484467f5adad53b0943f"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-040.json",
+      "bytes": 6560,
+      "sha256": "de4aecbacc112bdbb573b207b9b98d281e2b506d70d8e93b44d83305f502a36a"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-040.npz",
+      "bytes": 1136191,
+      "sha256": "31f4e0da7126c32c09ae1a9edf2856e81d054d81d20edbcb65754b8dc44eb5f1"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-043.json",
+      "bytes": 6582,
+      "sha256": "344099eb4a138eedf3975cb97344830b973f8fb4687c49de266f80296f00d1a0"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-043.npz",
+      "bytes": 1257533,
+      "sha256": "6acb8807738ddc2153c35a710e8657a55c83672180222a3f3f2e6349d4211c8f"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-045.json",
+      "bytes": 6546,
+      "sha256": "446d75445046a692163a4dc5c450209d47abb5a7afa2fb9ce16f99120a3dd47b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-045.npz",
+      "bytes": 1088952,
+      "sha256": "3f09bdd40d0029a1893877a609b1c46d48aed1c147706ebe305bfe8cab218f4d"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-048.json",
+      "bytes": 6566,
+      "sha256": "2da03103df8332e922c995769308d79bc2a12b3da527a5da0d88e8a8b71549c0"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-048.npz",
+      "bytes": 1258830,
+      "sha256": "de134fb115f1ef17d922fcdadeefc409a518ee81686598d134cec165b2f5ad65"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-050.json",
+      "bytes": 6539,
+      "sha256": "55c8f5ca36de9cb3955e36b2ebaf2bee46f719241fe361cb18acafa86334dfe2"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-050.npz",
+      "bytes": 1089539,
+      "sha256": "342a730e83e827aab1a03cf97f2c3957e8913cfc9f6c47aa2bd31456d90049cb"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-053.json",
+      "bytes": 6571,
+      "sha256": "9b56d05b288b57cdbbe104e79b0669051da9342701897a11783e900cd0deff09"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-053.npz",
+      "bytes": 1192920,
+      "sha256": "65da0d9b66b2c91738268a55d33bcfef50ac837821c7a7670bd88f55727d98a1"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-055.json",
+      "bytes": 6528,
+      "sha256": "f2034237275e06d2096980dc176d4a71969143ff4608082febc1667cf8272752"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-055.npz",
+      "bytes": 1090613,
+      "sha256": "15477afd198f3e892f2ff5a9233d8133277adb750d28d3a75cbefb483739dc81"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-058.json",
+      "bytes": 6565,
+      "sha256": "aae2ea31bfef23047a2da4ba4c6890784af5ba2de4968d958c2aaec072282812"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-058.npz",
+      "bytes": 1187081,
+      "sha256": "b2992093950f1e74fc1c62aa53cdd3411397a1ec4772b07a481b196ccfa60379"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-060.json",
+      "bytes": 6515,
+      "sha256": "ff59b9dc81bb037aafeed5925af29d5c478c00768bc42ec50b4a9d544e7f4854"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-060.npz",
+      "bytes": 1090500,
+      "sha256": "a20cbd59aa8a557a2e9ad296f36749d754a8cac0260c0ee8b49d6497c0ad1379"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-063.json",
+      "bytes": 6556,
+      "sha256": "a90d3cdd20be8b47bfc181e34b7dcbd45e132d76c44c88d2422c527dc7726f1f"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-063.npz",
+      "bytes": 1186947,
+      "sha256": "faf0e3dc2cacca59319f2757fbf14c142b05d5c6060b35713b8eccd48df8124b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-065.json",
+      "bytes": 6541,
+      "sha256": "d50d984121257ed5a969846f88b9bcf8bc7a6e06b3d50514db1a3022f2d40745"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-065.npz",
+      "bytes": 1256367,
+      "sha256": "41deab87f25852bc56d48d3ccdf7bbb3d6deffc69297dec2812ea9c28fb1dceb"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-068.json",
+      "bytes": 6550,
+      "sha256": "342e66416641a71737e9c09f5634aa27603c0fe35bcf9a0a47dd46e431734f98"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-068.npz",
+      "bytes": 1190163,
+      "sha256": "ffcf370a9b5157177af9c8735ac5a1d3f03e4ea7fbd4e20b7ea8a585d6763f6b"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-070.json",
+      "bytes": 6548,
+      "sha256": "9af75b0994929438abc9db23078fa10155278749441e344c4eb2925bd9d00484"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-070.npz",
+      "bytes": 1210937,
+      "sha256": "313a9d7bfc9c2b5b751feccaf75ccc92455acccdc78f6208538b9fdfa04e4d7d"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-073.json",
+      "bytes": 6546,
+      "sha256": "17c2b2dce19752bfc7566204132cb39b697449a1fd804305049fc3d948663800"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/lane-073.npz",
+      "bytes": 1190981,
+      "sha256": "7178021745b8f17613f34dd49dd1d4bef1ce006f8b0032deb92ba5e348a79712"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/sample.source.py",
+      "bytes": 10681,
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/samples/summary.json",
+      "bytes": 239354,
+      "sha256": "1432b25e1994add92ba099b1d8809b415dca9309938766e7a68517a9c90da3be"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/survey.json",
+      "bytes": 4149,
+      "sha256": "d7a90a8b9c74f2f09a719dab37bd9a3c54e434e28865845d9c8fefdb6d1e6c48"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/survey.npz",
+      "bytes": 225020,
+      "sha256": "94eeeda2cf5713cc23d4da6c6c96d77979486598b4aeb457be7ec9d32318d6d4"
+    },
+    {
+      "path": "results/motor-postcritical/second-survey/survey.source.py",
+      "bytes": 10681,
+      "sha256": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026"
+    },
+    {
+      "path": "results/motor-postcritical/six-cluster-cycle-rho-3p268/analysis.json",
+      "bytes": 8112,
+      "sha256": "2f58bfc863ed48711911f20f82aa4eda726a796bb1250ab68f932a22be36cd8e"
+    },
+    {
+      "path": "results/motor-postcritical/six-cluster-cycle-rho-3p268/cycle.npz",
+      "bytes": 281242,
+      "sha256": "ed1b772e0225b87a5de37f472090e7d1da020c29c2b3cb40aaa39116c792994b"
+    },
+    {
+      "path": "results/motor-postcritical/six-cluster-cycle-rho-3p268/source.py",
+      "bytes": 9966,
+      "sha256": "6a07f54b8af3d996edec37d7c0d39b74988f3bdbb69b388a6345083d7ed9e3c2"
+    },
+    {
+      "path": "results/motor-postcritical/tangent-trap-control/comparison.json",
+      "bytes": 4261,
+      "sha256": "9be432ed6c4128d2059e99db0898bd821f362e176cf2fe1f89262daed03c781b"
+    },
+    {
+      "path": "results/motor-postcritical/tangent-trap-control/comparison.npz",
+      "bytes": 10072,
+      "sha256": "60823b7132ad3461736acb7bf9f59d550bbe50d5df09830d144ead6d083bff77"
+    },
+    {
+      "path": "results/motor-postcritical/tangent-trap-control/source.py",
+      "bytes": 2619,
+      "sha256": "a8cfbeb726fedb81b2e8dba1539f692789768e94bd2c7977b5a5003f0df83957"
+    },
+    {
+      "path": "results/motor-postcritical/tangent-trap-control/summary.json",
+      "bytes": 1313,
+      "sha256": "5f0f2b465de23a005139ac52307eb6dd4840f2479f145774ae1013d9c0502f47"
+    }
+  ],
+  "code_files": {
+    "research/analyze_motor_postcritical.py": "024a17b2efc2d07496baca89fbb1c375ef5cfd993ba009668748d9cf56eee026",
+    "research/audit_motor_postcritical.py": "e32b9934b74a758554bc7bb5cc75bc04aaef7842177803cc015f0db83f632778",
+    "research/motor_postcritical_branch.py": "0e73923949464b5b2cc34e4e06eb7bda277fd54c4be6d08a606c91443393a2ac",
+    "research/motor_postcritical_cycles.py": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd",
+    "research/motor_postcritical_escape.py": "c6ec860f19356a70760d55e7fc2f5b3705504b8b87cd023442ad1c231f03c80e",
+    "research/motor_postcritical_tangent_trap.py": "a8cfbeb726fedb81b2e8dba1539f692789768e94bd2c7977b5a5003f0df83957",
+    "research/report_motor_postcritical.py": "96dac50a6c8f914282942b8f66bd0ecd1f7696c8534deb360e85b0e2087c1c70"
+  },
+  "report": {
+    "path": "docs/motor-postcritical.md",
+    "sha256": "2ac79172d624b4796aae30c7b48b6c27c9f24a2c51373b89ced92110c764dfee"
+  },
+  "historical_notes": [
+    "figure-manifest.json identifies the superseded preview; exact original PNGs are preserved under figure-preview-initial.",
+    "initial-survey/samples/source-snapshot-note.json identifies the executed driver despite a CLI repair during sampling.",
+    "final-six-cluster-rho-3p268/interpretation.json excludes a stale-group projected shooting result from the connection evidence."
+  ],
+  "scientific_scope": "Provenance, data-completion and link checks only. No additional scientific integration and no interval theorem."
+}

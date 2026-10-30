@@ -1,0 +1,7 @@
+{
+  "audit": "manifest.json",
+  "classification": "provenance-check implementation error",
+  "reason": "The first auditor assumed that a directory source always meant cycle.npz. second-survey/design.json intentionally hashes paired-branch/analysis.json. The corrected auditor resolves either explicitly recorded standard file by its exact hash.",
+  "scientific_data_changed": false,
+  "replacement": "manifest-final.json"
+}

@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-10-30T10:13:26.856362+00:00",
+  "source": "results/motor-postcritical/second-survey/continuation-10000.npz",
+  "source_sha256": "282d9efd2c116245ca85d050a69f6e9aa606b0366798e990503b83eb07c35bfa",
+  "source_lane": 25,
+  "state_pair_2_3_differences": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "carried_tangent_pair_2_3_differences": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "original_last_windows": [
+    -2.6783210869680073e-05,
+    7.21352332997335e-07,
+    3.5737143116820747e-06,
+    -9.453397370890237e-06
+  ],
+  "cases": [
+    "same physical state, carried tangent",
+    "same physical state, fresh sine tangent"
+  ],
+  "script_sha256": "a8cfbeb726fedb81b2e8dba1539f692789768e94bd2c7977b5a5003f0df83957",
+  "caveat": "A tangent restart is a diagnostic at a captured saddle. It neither changes the physical model nor establishes a chaotic orbit.",
+  "status": "complete",
+  "lle": [
+    0.00024753034405067774,
+    0.007552119537279745
+  ],
+  "windows": [
+    [
+      0.002455413339399279,
+      0.0013596773065746779,
+      -0.002626279689605179,
+      -0.0001986895801660669
+    ],
+    [
+      0.00457641688649839,
+      0.0032704604608244816,
+      0.018212203880761273,
+      0.004149396921034836
+    ]
+  ],
+  "wall_seconds": 105.7303808999859
+}
