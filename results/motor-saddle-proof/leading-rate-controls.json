@@ -1,0 +1,42 @@
+{
+  "status": "failed",
+  "checks": [
+    {
+      "name": "stable_real",
+      "expected_pass": true,
+      "actual_pass": false,
+      "exact_root_contained": true,
+      "passed": false
+    },
+    {
+      "name": "unstable_real",
+      "expected_pass": true,
+      "actual_pass": false,
+      "exact_root_contained": true,
+      "passed": false
+    },
+    {
+      "name": "stable_complex",
+      "expected_pass": true,
+      "actual_pass": false,
+      "exact_root_contained": true,
+      "passed": false
+    },
+    {
+      "name": "extra_large_root",
+      "expected_pass": false,
+      "actual_pass": false,
+      "exact_root_contained": true,
+      "passed": true
+    },
+    {
+      "name": "repeated_large_root",
+      "expected_pass": false,
+      "actual_pass": false,
+      "exact_root_contained": null,
+      "passed": true
+    }
+  ],
+  "source_sha256": "03c6b5c396c96b68f614da7d8c1fa049653c18c3d925be6642a2802dc3a79352",
+  "scope": "Exact known cubic controls; no new orbit integration."
+}

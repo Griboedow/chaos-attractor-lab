@@ -37,6 +37,12 @@ def main():
             for name, expected in hashes.items():
                 matches = source_index.get(expected, [])
                 check('retained executed source', bool(matches), record=path.relative_to(root).as_posix(), source=name, sha256=expected, matches=matches)
+        elif isinstance(hashes, str):
+            if isinstance(data.get('source'),str):
+                source_path=root/data['source']
+                check('input source hash', source_path.is_file() and digest(source_path)==hashes, record=path.relative_to(root).as_posix())
+            else:
+                check('retained source hash', hashes in source_index, record=path.relative_to(root).as_posix())
         if 'parent_certificate' in data:
             parent = data['parent_certificate']
             check('postprocessor parent hash', digest(root / parent['path']) == parent['sha256'], record=path.name)
@@ -71,12 +77,29 @@ def main():
     for name in ('analytic-controls-01.json', 'independent-review-controls.json', 'independent-similarity-controls/analysis.json', 'zero-window-controls.json'):
         check('implementation control status', read(name)['status'] == 'passed', record=name)
     check('inconclusive raw quotient result retained', read('attempt-02.json')['status'] == 'periodic_six_cluster_orbit_certified')
+    for name in ('leading-rates.json', 'leading-rates-recheck.json'):
+        if (folder/name).exists():
+            data=read(name)
+            check('leading rate certificate', data['status']=='leading_saddle_rates_certified' and all(data['gates'].values()), record=name)
+    if (folder/'leading-rate-controls-02.json').exists():
+        check('known cubic controls', read('leading-rate-controls-02.json')['status']=='passed')
+    markdown_files=list(folder.glob('*.md'))+list((root/'docs').glob('*.md'))
+    markdown_hashes={digest(p) for p in markdown_files}
+    for name in ('volume-identity.json', 'volume-identity-recheck.json'):
+        if (folder/name).exists():
+            data=read(name)
+            check('exact volume identities', data['status']=='passed' and all(data['identities'].values()), record=name)
+            check('volume report retained', data['report_sha256'] in markdown_hashes, record=name)
     files = sorted(p for p in folder.rglob('*') if p.is_file())
     files += [root / 'research' / name for name in ('validate_motor_saddle_cycle.py', 'validate_motor_saddle_period.py', 'certify_motor_saddle_spectrum.py', 'check_motor_saddle_proof.py', 'audit_motor_saddle_proof.py')]
     files += [root / 'docs/motor-saddle-certificate.md']
+    files += [root/'research'/name for name in ('certify_motor_saddle_rates.py','check_motor_saddle_rates.py','check_motor_volume_identity.py') if (root/'research'/name).exists()]
+    if (root/'docs/motor-volume-contraction.md').exists():
+        files.append(root/'docs/motor-volume-contraction.md')
     result = dict(created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(), status='passed' if all(x['passed'] for x in checks) else 'failed', checks=checks,
         files=[dict(path=p.relative_to(root).as_posix(), bytes=p.stat().st_size, sha256=digest(p)) for p in files],
-        limitations=['Stored-gate and provenance audit only; no new integration or independent proof implementation.'])
+        limitations=['Stored-gate and provenance audit only; no new integration or independent proof implementation.',
+            'The earlier manifest-02 audit treated two input-artifact hashes as Python hashes and flagged them incorrectly. Explicit source paths are now checked against their actual input files; that failed audit remains archived.'])
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     print(result['status'], len(checks), 'checks', len(files), 'files')

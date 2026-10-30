@@ -14,6 +14,8 @@ The [crossing extension](../docs/motor-crossing-certificate.md) adds `motor-cros
 
 `motor-network-combinatorics/` supplies the [exact eight-node candidate graph](../docs/motor-network-combinatorics.md), its group and cosets, numerical phase controls and a reviewed figure. The frozen graph visits in `motor-log-contrasts/frozen-40k-node-visits.json` identify the mixed four-step circuit in the already published trajectory. Exact graph combinatorics do not prove heteroclinic edges.
 
+Its [full permutation extension](../docs/motor-saddle-isotropy.md) proves orbital stabilizer order eight and counts 5,040 labeled images of the same saddle. The two supplied edge rules generate 630 formal eight-node components. `motor-saddle-proof/` also adds certified leading rate bounds and exact controls for the [weighted-volume identity](../docs/motor-volume-contraction.md).
+
 `motor-priority-followup/` records the [source comparison and cluster-replication corollaries](../docs/motor-followup-priority.md), including 22 exact polynomial identities. Literature gaps and algebraic deductions are explicitly separated from numerical observations and scientific-priority claims.
 
 `motor-pde-lifting/` contains the [density-PDE source audit and exact algebra controls](../docs/motor-pde-lifting.md). The full-function-space lifting theorem follows from an explicit translated, exponentially contracting residual; no PDE discretization or new trajectory survey was performed.

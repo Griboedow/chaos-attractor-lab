@@ -103,11 +103,35 @@ The [least-period certificate](../results/motor-saddle-proof/least-period.json) 
 
 The synchronized row `(2,3)` is fixed by the half-period permutation. Its displacement has two upward and two downward zeros during that half period, while `X_2(T/4)-X_2(0)` lies near `0.7891021643` and excludes zero. Hence its displacement and complete row state have least period **T/2**. These statements use monotonic zero windows enclosed by Picard tubes, not sampled sign changes.
 
+## Leading expansion and contraction rates
+
+The [rate certificate](../results/motor-saddle-proof/leading-rates.json) refines the two transverse cubic polynomials from the fresh interval integration. Strict rational endpoint signs enclose a positive real root in each block; division by its enclosing interval and a radius-0.11 Schur test locate both remaining roots strictly inside that disk. The stable root exceeds 0.8, so it also dominates every nonflow quotient multiplier. The certified leading rates per normalized time are
+
+```math
+e=\frac{\log\mu_u}{T}
+ =0.00869626779094932\;\mathbin{\pm}\;3.79\times10^{-18},
+\qquad
+c=-\frac{\log\mu_s}{T}
+ =0.0163144859413539\;\mathbin{\pm}\;3.58\times10^{-17},
+```
+
+and
+
+```math
+\frac ce=1.87603306769524\;\mathbin{\pm}\;6.41\times10^{-15}>1.
+```
+
+These are local Floquet rates. Their ratio helps interpret the growing numerical residence times, but does not by itself prove a connecting orbit, attraction of a network or an exact recurrence for switching times. The separately published forecast used earlier floating-point estimates; that historical prediction is not replaced by these later bounds.
+
+A [postprocessor recheck](../results/motor-saddle-proof/leading-rates-recheck.json) gives tighter overlapping intervals. Five [known-cubic controls](../results/motor-saddle-proof/leading-rate-controls-02.json) pass, including real and complex stable remainders and rejection of a second large or repeated large root. The first control attempt stopped with inconclusive coarse intervals when an exact test root equalled the bisection midpoint. The revised search probes quarter endpoints in that case; the original failed control and already successful motor-rate certificate remain unchanged, and no acceptance condition was relaxed.
+
 ## Consequences and limits
 
 Within the invariant subspace `q_6=q_7`, the expanding contrast is removed. The orbit is then locally orbitally attracting in twenty dimensions, with nineteen stable directions and the neutral flow direction. In the different subspace `q_2=q_3`, it remains a saddle. A row permutation exchanges the roles needed for the numerical source-to-destination experiment. The [connection strategy](motor-network-proof-strategy.md) explains why these local facts still leave a global existence problem.
 
 The exact half-period symmetry and the six distinct clusters supply the hypotheses of the [finite-group lemma](motor-network-combinatorics.md). Consequently, the generated group has **eight distinct periodic-orbit images**. Their candidate graph has sixteen edges from the two observed numerical departures and their symmetry images. The distinction is essential: the node orbits are certified; the heteroclinic edges remain unproved. These are symmetry copies of one saddle, not eight newly discovered attractors.
+
+The [full isotropy extension](motor-saddle-isotropy.md) combines the stable-versus-unstable pair spectra with the row's least period. It proves that the complete orbital stabilizer in `S_8` has order eight, giving **5,040 distinct labeled images** of this same saddle. Extending only the two specified departure rules gives 630 formal eight-node components; this does not exclude other dynamical connections.
 
 Under the [density-PDE lifting assumptions](motor-pde-lifting.md), the same orbit lifts to the sinusoidal density model. Higher density modes contribute only stable return factors `exp(-T)`. The full PDE therefore retains the one unstable direction and the flow direction, with an infinite stable complement. This statement does not cover arbitrary transition rates or a bending flagellum coupled to fluid.
 
@@ -121,6 +145,7 @@ python research/check_motor_saddle_proof.py --output outputs/saddle-controls.jso
 python research/validate_motor_saddle_cycle.py --spectral-basis results/motor-saddle-proof/spectral-basis.json --output outputs/saddle-proof.json
 python research/certify_motor_saddle_spectrum.py --input results/motor-saddle-proof/attempt-02.json --basis results/motor-saddle-proof/spectral-basis.json --output outputs/saddle-postprocess.json
 python research/validate_motor_saddle_period.py --input results/motor-saddle-proof/similarity-certificate.json --output outputs/saddle-period.json
+python research/certify_motor_saddle_rates.py --input results/motor-saddle-proof/recheck-01.json --output outputs/saddle-rates.json
 ```
 
 The postprocessor checks an archived matrix enclosure; the integration command constructs a new existence and spectrum certificate. The period command revalidates existence and counts the zero windows. None requires the simulation/GPU environment. The approximate seed states and proposed similarity basis are already included and do not supply unverified accuracy assumptions.

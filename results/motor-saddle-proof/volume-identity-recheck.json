@@ -1,0 +1,146 @@
+{
+  "created_utc": "2026-10-30T11:25:42.059274+00:00",
+  "status": "passed",
+  "identities": {
+    "N1:zero_sum_velocity": true,
+    "N1:full_reduced_trace": true,
+    "N1:mechanical_cancellation": true,
+    "N1:scalar_derivative": true,
+    "N1:weighted_divergence": true,
+    "N2:zero_sum_velocity": true,
+    "N2:full_reduced_trace": true,
+    "N2:mechanical_cancellation": true,
+    "N2:scalar_derivative": true,
+    "N2:weighted_divergence": true,
+    "N3:zero_sum_velocity": true,
+    "N3:full_reduced_trace": true,
+    "N3:mechanical_cancellation": true,
+    "N3:scalar_derivative": true,
+    "N3:weighted_divergence": true,
+    "N4:zero_sum_velocity": true,
+    "N4:full_reduced_trace": true,
+    "N4:mechanical_cancellation": true,
+    "N4:scalar_derivative": true,
+    "N4:weighted_divergence": true,
+    "N8:zero_sum_velocity": true,
+    "N8:full_reduced_trace": true,
+    "N8:mechanical_cancellation": true,
+    "N8:scalar_derivative": true,
+    "N8:weighted_divergence": true
+  },
+  "parameters": {
+    "stable_four_pairs": {
+      "rho": {
+        "display": "[3.36521839957904230000000 +/- 1e-28]",
+        "midpoint": [
+          "97416417306778713973465373164775934932334227714201750917019416714555558913593",
+          -254
+        ],
+        "radius": [
+          "509607937",
+          -284
+        ]
+      },
+      "r": {
+        "display": "[4.75514604775133903137567 +/- 3.56e-24]",
+        "midpoint": [
+          "68826036937211808465750470689584592191509780687680194280685860157949976765213",
+          -253
+        ],
+        "radius": [
+          "907370031",
+          -281
+        ]
+      },
+      "exponent_sum_upper_bound": {
+        "display": "[-6.27050646279392288037029 +/- 4.92e-24]",
+        "midpoint": [
+          "-45379690243937615247008740633499721314570650758612948161841052705560439060479",
+          -252
+        ],
+        "radius": [
+          "916796011",
+          -278
+        ]
+      },
+      "strictly_negative": true
+    },
+    "six_cluster_saddle": {
+      "rho": {
+        "display": "[3.26800000000000000000000 +/- 3e-28]",
+        "midpoint": [
+          "94602136906887331661057494752098020716121577471828340820236846134465026915827",
+          -254
+        ],
+        "radius": [
+          "1",
+          -254
+        ]
+      },
+      "r": {
+        "display": "[4.75514604775133903137567 +/- 3.56e-24]",
+        "midpoint": [
+          "68826036937211808465750470689584592191509780687680194280685860157949976765213",
+          -253
+        ],
+        "radius": [
+          "907370031",
+          -281
+        ]
+      },
+      "exponent_sum_upper_bound": {
+        "display": "[-5.58997766574062678037029 +/- 4.92e-24]",
+        "midpoint": [
+          "-10113674886031924050073738352828342859049628208614870123117888547600502016097",
+          -250
+        ],
+        "radius": [
+          "978498155",
+          -278
+        ]
+      },
+      "strictly_negative": true
+    },
+    "activity_path_candidate": {
+      "rho": {
+        "display": "[2.93409090909090909090909 +/- 9.10e-25]",
+        "midpoint": [
+          "10617016136745398316181118014646029051034911236032810239697424783680103008889",
+          -251
+        ],
+        "radius": [
+          "1",
+          -254
+        ]
+      },
+      "r": {
+        "display": "[4.75514604775133903137567 +/- 3.56e-24]",
+        "midpoint": [
+          "68826036937211808465750470689584592191509780687680194280685860157949976765213",
+          -253
+        ],
+        "radius": [
+          "907370031",
+          -281
+        ]
+      },
+      "exponent_sum_upper_bound": {
+        "display": "[-3.25261402937699041673392 +/- 1.46e-24]",
+        "midpoint": [
+          "-23539185871510442219979989800186241897474509563219227412821020426609653086137",
+          -252
+        ],
+        "radius": [
+          "978498155",
+          -278
+        ]
+      },
+      "strictly_negative": true
+    }
+  },
+  "python_flint": "0.9.0",
+  "precision_bits": 256,
+  "source_sha256": "ea8330e6b243187cd59ffe8c18c35951353f1cf96247ff0ed8cfeec5cb4ec7eb",
+  "report_sha256": "f31fe350329e26efe34580bcc8c67d5a4270b52e3106437ad9973dc4dd3a9396",
+  "scope": "Exact polynomial and interval-constant controls. The report supplies the analytic weighted-measure and invariant-set argument; no trajectories or chaos certification."
+}

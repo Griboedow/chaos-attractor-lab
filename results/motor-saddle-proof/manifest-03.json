@@ -1,0 +1,1343 @@
+{
+  "created_utc": "2026-10-30T11:32:11.950707+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/analytic-controls-01.json",
+      "source": "check_motor_saddle_proof.py",
+      "sha256": "e2b8cf475c13f69660efbe64a1b1c4cc6110d7ffe048249ddf07072acbc5b162",
+      "matches": [
+        "results/motor-saddle-proof/analytic-controls-01.source.py",
+        "research/check_motor_saddle_proof.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/analytic-controls-01.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "ac5cc00a787300b9b0f3e60377c47947f12878fe01092c8b8007cd88f7e46fe1",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/analytic-controls-01.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/analytic-controls-01.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/analytic-controls-01.json",
+      "source": "check_motor_paired_proof.py",
+      "sha256": "89f123864eb00f12d2f9774ed7e05e6387673e563c2abff37aafcec469608c7c",
+      "matches": [
+        "research/check_motor_paired_proof.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/analytic-controls-01.json",
+      "source": "verify_motor_certificate.py",
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56",
+      "matches": [
+        "results/motor-saddle-proof/least-period.verify_motor_certificate.py",
+        "research/verify_motor_certificate.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/attempt-01.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "ac5cc00a787300b9b0f3e60377c47947f12878fe01092c8b8007cd88f7e46fe1",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/attempt-01.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/attempt-01.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/attempt-02.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "cbcaef315c6e5cb54bb385726b47c24c114cd07c8a21f6bb7bdf70d37fd024e8",
+      "matches": [
+        "results/motor-saddle-proof/attempt-02.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/attempt-02.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/attempt-02.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-review-controls.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "cbcaef315c6e5cb54bb385726b47c24c114cd07c8a21f6bb7bdf70d37fd024e8",
+      "matches": [
+        "results/motor-saddle-proof/attempt-02.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-review-controls.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-review-controls.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-review-controls.json",
+      "source": "check_motor_saddle_proof.py",
+      "sha256": "e2b8cf475c13f69660efbe64a1b1c4cc6110d7ffe048249ddf07072acbc5b162",
+      "matches": [
+        "results/motor-saddle-proof/analytic-controls-01.source.py",
+        "research/check_motor_saddle_proof.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-similarity-controls/analysis.json",
+      "source": "certify_motor_saddle_spectrum.py",
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668",
+      "matches": [
+        "results/motor-saddle-proof/least-period.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/similarity-certificate.certify_motor_saddle_spectrum.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-similarity-controls/analysis.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/independent-similarity-controls/analysis.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rate-controls-02.json",
+      "source": "check_motor_saddle_rates.py",
+      "sha256": "868b6844fc4e248cca79ba4578dfd4c55cc9a9ebc66a0aa6fed23d293b20183a",
+      "matches": [
+        "results/motor-saddle-proof/leading-rate-controls-02.check_motor_saddle_rates.py",
+        "research/check_motor_saddle_rates.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rate-controls-02.json",
+      "source": "certify_motor_saddle_rates.py",
+      "sha256": "cedb62a875b9465059eb042a06cf5507dc1cb10755bae2d0e974106a12bea924",
+      "matches": [
+        "results/motor-saddle-proof/leading-rate-controls-02.certify_motor_saddle_rates.py",
+        "results/motor-saddle-proof/leading-rates-recheck.certify_motor_saddle_rates.py",
+        "research/certify_motor_saddle_rates.py"
+      ]
+    },
+    {
+      "name": "retained source hash",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rate-controls.json"
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rates-recheck.json",
+      "source": "certify_motor_saddle_rates.py",
+      "sha256": "cedb62a875b9465059eb042a06cf5507dc1cb10755bae2d0e974106a12bea924",
+      "matches": [
+        "results/motor-saddle-proof/leading-rate-controls-02.certify_motor_saddle_rates.py",
+        "results/motor-saddle-proof/leading-rates-recheck.certify_motor_saddle_rates.py",
+        "research/certify_motor_saddle_rates.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rates-recheck.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rates-recheck.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "input hash",
+      "passed": true,
+      "record": "leading-rates-recheck.json",
+      "input": "results\\motor-saddle-proof\\recheck-01.json"
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rates.json",
+      "source": "certify_motor_saddle_rates.py",
+      "sha256": "03c6b5c396c96b68f614da7d8c1fa049653c18c3d925be6642a2802dc3a79352",
+      "matches": [
+        "results/motor-saddle-proof/leading-rates.certify_motor_saddle_rates.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rates.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/leading-rates.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "input hash",
+      "passed": true,
+      "record": "leading-rates.json",
+      "input": "results\\motor-saddle-proof\\recheck-01.json"
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/least-period.json",
+      "source": "validate_motor_saddle_period.py",
+      "sha256": "b7ce5ae05b748490d6b782c7001437d713cf68fd751ca3d92780c66de72ba754",
+      "matches": [
+        "results/motor-saddle-proof/least-period.validate_motor_saddle_period.py",
+        "research/validate_motor_saddle_period.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/least-period.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/least-period.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/least-period.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364",
+      "matches": [
+        "results/motor-saddle-proof/least-period.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_saddle_cycle.py",
+        "research/validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/least-period.json",
+      "source": "verify_motor_certificate.py",
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56",
+      "matches": [
+        "results/motor-saddle-proof/least-period.verify_motor_certificate.py",
+        "research/verify_motor_certificate.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/least-period.json",
+      "source": "certify_motor_saddle_spectrum.py",
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668",
+      "matches": [
+        "results/motor-saddle-proof/least-period.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/similarity-certificate.certify_motor_saddle_spectrum.py"
+      ]
+    },
+    {
+      "name": "input hash",
+      "passed": true,
+      "record": "least-period.json",
+      "input": "results\\motor-saddle-proof\\similarity-certificate.json"
+    },
+    {
+      "name": "input source hash",
+      "passed": true,
+      "record": "results/motor-saddle-proof/multiple-shooting-seed.json"
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-01.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364",
+      "matches": [
+        "results/motor-saddle-proof/least-period.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_saddle_cycle.py",
+        "research/validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-01.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-01.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-01.json",
+      "source": "certify_motor_saddle_spectrum.py",
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668",
+      "matches": [
+        "results/motor-saddle-proof/least-period.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/similarity-certificate.certify_motor_saddle_spectrum.py"
+      ]
+    },
+    {
+      "name": "input hash",
+      "passed": true,
+      "record": "recheck-01.json",
+      "input": "results\\motor-saddle-proof\\attempt-02.json"
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-postprocess-01.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364",
+      "matches": [
+        "results/motor-saddle-proof/least-period.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_saddle_cycle.py",
+        "research/validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-postprocess-01.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-postprocess-01.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/recheck-postprocess-01.json",
+      "source": "certify_motor_saddle_spectrum.py",
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668",
+      "matches": [
+        "results/motor-saddle-proof/least-period.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.certify_motor_saddle_spectrum.py",
+        "results/motor-saddle-proof/similarity-certificate.certify_motor_saddle_spectrum.py"
+      ]
+    },
+    {
+      "name": "postprocessor parent hash",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "executing postprocessor snapshot",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "input hash",
+      "passed": true,
+      "record": "recheck-postprocess-01.json",
+      "input": "results\\motor-saddle-proof\\attempt-02.json"
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/similarity-certificate.json",
+      "source": "validate_motor_saddle_cycle.py",
+      "sha256": "cbcaef315c6e5cb54bb385726b47c24c114cd07c8a21f6bb7bdf70d37fd024e8",
+      "matches": [
+        "results/motor-saddle-proof/attempt-02.validate_motor_saddle_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_saddle_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/similarity-certificate.json",
+      "source": "validate_motor_cycle.py",
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+        "research/validate_motor_cycle.py"
+      ]
+    },
+    {
+      "name": "retained executed source",
+      "passed": true,
+      "record": "results/motor-saddle-proof/similarity-certificate.json",
+      "source": "validate_motor_paired_cycle.py",
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+      "matches": [
+        "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+        "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+        "research/validate_motor_paired_cycle.py"
+      ]
+    },
+    {
+      "name": "postprocessor parent hash",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "input source hash",
+      "passed": true,
+      "record": "results/motor-saddle-proof/spectral-basis.json"
+    },
+    {
+      "name": "retained source hash",
+      "passed": true,
+      "record": "results/motor-saddle-proof/volume-identity-recheck.json"
+    },
+    {
+      "name": "retained source hash",
+      "passed": true,
+      "record": "results/motor-saddle-proof/volume-identity.json"
+    },
+    {
+      "name": "full saddle status",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "existence gate",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "six distinct clusters",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "complete Floquet count",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "similarity Schur gate",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "exact basis file hash",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "both contrast gates",
+      "passed": true,
+      "record": "similarity-certificate.json"
+    },
+    {
+      "name": "full saddle status",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "existence gate",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "six distinct clusters",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "complete Floquet count",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "similarity Schur gate",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "exact basis file hash",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "both contrast gates",
+      "passed": true,
+      "record": "recheck-01.json"
+    },
+    {
+      "name": "full saddle status",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "existence gate",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "six distinct clusters",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "complete Floquet count",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "similarity Schur gate",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "exact basis file hash",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "both contrast gates",
+      "passed": true,
+      "record": "recheck-postprocess-01.json"
+    },
+    {
+      "name": "least-period status",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: anchor_box_contained",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: initial_section_exact_zero",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: full_zero_windows_resolved",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: full_four_upward",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: full_four_downward",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: owns_initial_once",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: excludes_final_once",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: half_period_not_state_period",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: row2_initial_position_nonzero",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: row2_windows_resolved",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: row2_two_upward_in_half",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: row2_two_downward_in_half",
+      "passed": true
+    },
+    {
+      "name": "least-period gate: row2_quarter_difference_nonzero",
+      "passed": true
+    },
+    {
+      "name": "four upward and downward full-state crossings",
+      "passed": true
+    },
+    {
+      "name": "two upward and downward row crossings",
+      "passed": true
+    },
+    {
+      "name": "different helper versions preserved",
+      "passed": true
+    },
+    {
+      "name": "implementation control status",
+      "passed": true,
+      "record": "analytic-controls-01.json"
+    },
+    {
+      "name": "implementation control status",
+      "passed": true,
+      "record": "independent-review-controls.json"
+    },
+    {
+      "name": "implementation control status",
+      "passed": true,
+      "record": "independent-similarity-controls/analysis.json"
+    },
+    {
+      "name": "implementation control status",
+      "passed": true,
+      "record": "zero-window-controls.json"
+    },
+    {
+      "name": "inconclusive raw quotient result retained",
+      "passed": true
+    },
+    {
+      "name": "leading rate certificate",
+      "passed": true,
+      "record": "leading-rates.json"
+    },
+    {
+      "name": "leading rate certificate",
+      "passed": true,
+      "record": "leading-rates-recheck.json"
+    },
+    {
+      "name": "known cubic controls",
+      "passed": true
+    },
+    {
+      "name": "exact volume identities",
+      "passed": true,
+      "record": "volume-identity.json"
+    },
+    {
+      "name": "volume report retained",
+      "passed": true,
+      "record": "volume-identity.json"
+    },
+    {
+      "name": "exact volume identities",
+      "passed": true,
+      "record": "volume-identity-recheck.json"
+    },
+    {
+      "name": "volume report retained",
+      "passed": true,
+      "record": "volume-identity-recheck.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "results/motor-saddle-proof/analytic-controls-01.json",
+      "bytes": 11213,
+      "sha256": "b48d38c8445c90c312919c32e6e6111e24b6a6e1ac1150e915dd55c133090d6f"
+    },
+    {
+      "path": "results/motor-saddle-proof/analytic-controls-01.source.py",
+      "bytes": 6944,
+      "sha256": "e2b8cf475c13f69660efbe64a1b1c4cc6110d7ffe048249ddf07072acbc5b162"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-01.json",
+      "bytes": 2088,
+      "sha256": "0c7143af0e56903230c592e8bed2ca3f8b0b6fcdfc6f582503c257b4d34341b3"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-01.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-01.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-01.validate_motor_saddle_cycle.py",
+      "bytes": 14126,
+      "sha256": "ac5cc00a787300b9b0f3e60377c47947f12878fe01092c8b8007cd88f7e46fe1"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-02.json",
+      "bytes": 3055103,
+      "sha256": "cd7954a16bad93233b7bd7d685d001a81ad8e57b3b8a6a173645f2188279984b"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-02.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-02.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/attempt-02.validate_motor_saddle_cycle.py",
+      "bytes": 15884,
+      "sha256": "cbcaef315c6e5cb54bb385726b47c24c114cd07c8a21f6bb7bdf70d37fd024e8"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-review-controls.json",
+      "bytes": 2393,
+      "sha256": "f0f5d3c503171ea36154314629042177405ff79b98b134f64c5e135fbf8bd5c1"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-review-controls.source.py",
+      "bytes": 8824,
+      "sha256": "a4f7f12a74a9acb4f606f56819eb2547edf6085873c067cb505f4e6af0498220"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-similarity-controls/analysis.json",
+      "bytes": 152819,
+      "sha256": "e4fa9d4dc016c97cabf0ddbd439bdb4fa92b82b30d849ebba1e2f6886ccdf3f0"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-similarity-controls/nondyadic_basis_rejected.json",
+      "bytes": 1252,
+      "sha256": "147f2d39df63dab1772f59e45ed6b193589305d84882620d880333b6bd624dba"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-similarity-controls/nonorthogonal-exact-basis.json",
+      "bytes": 1252,
+      "sha256": "86f08911b20c1ed179df0c38faa3d850b785c77002c2fff1562759cb5c4269c0"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-similarity-controls/singular_basis_rejected.json",
+      "bytes": 1253,
+      "sha256": "3bdee38c96f7c6968b6f99e516aabfe747735f9bd1827fa919573051e724fce8"
+    },
+    {
+      "path": "results/motor-saddle-proof/independent-similarity-controls.source.py",
+      "bytes": 5315,
+      "sha256": "14d1311988ad88efaf0b91faa535d847f6221e0f052ade88447f85b89faadc2f"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rate-controls-02.certify_motor_saddle_rates.py",
+      "bytes": 6222,
+      "sha256": "cedb62a875b9465059eb042a06cf5507dc1cb10755bae2d0e974106a12bea924"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rate-controls-02.check_motor_saddle_rates.py",
+      "bytes": 2332,
+      "sha256": "868b6844fc4e248cca79ba4578dfd4c55cc9a9ebc66a0aa6fed23d293b20183a"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rate-controls-02.json",
+      "bytes": 1350,
+      "sha256": "e2185025a1d925c1fa82d60d29f114af7c0e8eb7ce2788f0367bc20402a1cd0c"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rate-controls.json",
+      "bytes": 1043,
+      "sha256": "3637cdaba531e309320f5baaa4734fcb201fd183d2e91e6c4bd7327fa11ecf33"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates-recheck.certify_motor_saddle_rates.py",
+      "bytes": 6222,
+      "sha256": "cedb62a875b9465059eb042a06cf5507dc1cb10755bae2d0e974106a12bea924"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates-recheck.json",
+      "bytes": 22315,
+      "sha256": "21406669ccafb1d4091475556cb571615954b55f9df5eac4c5dbaa0f981cc8f3"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates-recheck.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates-recheck.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates.certify_motor_saddle_rates.py",
+      "bytes": 5500,
+      "sha256": "03c6b5c396c96b68f614da7d8c1fa049653c18c3d925be6642a2802dc3a79352"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates.json",
+      "bytes": 20376,
+      "sha256": "3721607c4de232f5dcb2b154d8a0ab5eb50585a5540c45ddc68f1e68a1adcc98"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/leading-rates.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.certify_motor_saddle_spectrum.py",
+      "bytes": 5308,
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.json",
+      "bytes": 5187190,
+      "sha256": "d32738d5580529534fcb8e6b8eb3bdca78e4bbc17158335f03460d4ccfa719af"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.validate_motor_saddle_cycle.py",
+      "bytes": 16407,
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.validate_motor_saddle_period.py",
+      "bytes": 8346,
+      "sha256": "b7ce5ae05b748490d6b782c7001437d713cf68fd751ca3d92780c66de72ba754"
+    },
+    {
+      "path": "results/motor-saddle-proof/least-period.verify_motor_certificate.py",
+      "bytes": 6853,
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+    },
+    {
+      "path": "results/motor-saddle-proof/manifest-01.json",
+      "bytes": 41280,
+      "sha256": "ce967d33ad5c7efe75cda4843a96f3bf2d6aa9742bee0fc4eced40b4032f8c4e"
+    },
+    {
+      "path": "results/motor-saddle-proof/manifest-02.json",
+      "bytes": 56827,
+      "sha256": "3af854bf08257b90873d14e035f69388a4c53104c6aecf882198ff68311cf315"
+    },
+    {
+      "path": "results/motor-saddle-proof/multiple-shooting-seed.json",
+      "bytes": 2443,
+      "sha256": "9730b522d01a5c61b8a54c5738ef159d9593868d7c573f21aa9efadea24cddeb"
+    },
+    {
+      "path": "results/motor-saddle-proof/multiple-shooting-seed.source.py",
+      "bytes": 950,
+      "sha256": "740b17cbb3880625d9f4bb960665d8eb476f7b299ec47ff63d8e1973c4ebc130"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-01.certify_motor_saddle_spectrum.py",
+      "bytes": 5308,
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-01.json",
+      "bytes": 3413401,
+      "sha256": "487a7a9f5d69e0e8ae6aa9f002db7447bf37cb7c03c9543ab4f83e06de410539"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-01.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-01.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-01.validate_motor_saddle_cycle.py",
+      "bytes": 16407,
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-postprocess-01.certify_motor_saddle_spectrum.py",
+      "bytes": 5308,
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-postprocess-01.executed-postprocessor.py",
+      "bytes": 5952,
+      "sha256": "27e84d28a4ed750b72f6b1b1ad1f5fee6f7f676eb0aff3af7cc336d3ff650125"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-postprocess-01.json",
+      "bytes": 3414187,
+      "sha256": "02bf47f81f115629a860f6531982fdc82e6a426d4aa649a58b6669d358087d06"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/recheck-postprocess-01.validate_motor_saddle_cycle.py",
+      "bytes": 16407,
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364"
+    },
+    {
+      "path": "results/motor-saddle-proof/report-before-rates-and-isotropy.md",
+      "bytes": 12422,
+      "sha256": "4637ddaf252bd5f26ca37ca1b4fe21d0db4b6d4bf4adf6bab9ed7d04bfe100b0"
+    },
+    {
+      "path": "results/motor-saddle-proof/similarity-certificate.certify_motor_saddle_spectrum.py",
+      "bytes": 5308,
+      "sha256": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668"
+    },
+    {
+      "path": "results/motor-saddle-proof/similarity-certificate.json",
+      "bytes": 3392344,
+      "sha256": "a849f4e913ff5bd37b2f6b43c922caca5d95aad8de02ba50acba7b83d7a1c1c7"
+    },
+    {
+      "path": "results/motor-saddle-proof/similarity-certificate.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-saddle-proof/similarity-certificate.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-saddle-proof/similarity-certificate.validate_motor_saddle_cycle.py",
+      "bytes": 15884,
+      "sha256": "cbcaef315c6e5cb54bb385726b47c24c114cd07c8a21f6bb7bdf70d37fd024e8"
+    },
+    {
+      "path": "results/motor-saddle-proof/spectral-basis.json",
+      "bytes": 23090,
+      "sha256": "63a8e6afecee5b632ee793064fcc7cd1e733afe9bdeb47ee269b1277709ebf04"
+    },
+    {
+      "path": "results/motor-saddle-proof/spectral-basis.source.py",
+      "bytes": 1307,
+      "sha256": "9d9681bf0f51ee2031074ca5a78f498653e9ea6fafc976891ed67b204bb4f233"
+    },
+    {
+      "path": "results/motor-saddle-proof/volume-identity-recheck.json",
+      "bytes": 4462,
+      "sha256": "51477b0245254ef7ab88d7d247ce713f1619b9c6e15289f783d0eddb41c73e67"
+    },
+    {
+      "path": "results/motor-saddle-proof/volume-identity-recheck.source.py",
+      "bytes": 3759,
+      "sha256": "ea8330e6b243187cd59ffe8c18c35951353f1cf96247ff0ed8cfeec5cb4ec7eb"
+    },
+    {
+      "path": "results/motor-saddle-proof/volume-identity.json",
+      "bytes": 4462,
+      "sha256": "6f478b25d13abce2ab8c30b71977ff1798722d21698e6e33f500a5a8a88885eb"
+    },
+    {
+      "path": "results/motor-saddle-proof/volume-identity.source.py",
+      "bytes": 3759,
+      "sha256": "ea8330e6b243187cd59ffe8c18c35951353f1cf96247ff0ed8cfeec5cb4ec7eb"
+    },
+    {
+      "path": "results/motor-saddle-proof/volume-report-before-number-review.md",
+      "bytes": 5755,
+      "sha256": "0ea6a4b6a6f86a3e0b71b03dd42a54defe4ed8c904a3c67789940806d95ce07f"
+    },
+    {
+      "path": "results/motor-saddle-proof/zero-window-controls.json",
+      "bytes": 4440,
+      "sha256": "d70b52e31c692466f7d2e3add3f1c699b6412e7f92ba22a9f9a79e942557e792"
+    },
+    {
+      "path": "results/motor-saddle-proof/zero-window-controls.source.py",
+      "bytes": 1732,
+      "sha256": "cfd4f511a1be431e761beeaae0cff3fcd8789699d866bf977d6b4e03e4eef796"
+    },
+    {
+      "path": "research/validate_motor_saddle_cycle.py",
+      "bytes": 16407,
+      "sha256": "01128b550bbae6b22f4c8aaf7c828556ed7a7e06ebb37d899e627f2ccd4c6364"
+    },
+    {
+      "path": "research/validate_motor_saddle_period.py",
+      "bytes": 8346,
+      "sha256": "b7ce5ae05b748490d6b782c7001437d713cf68fd751ca3d92780c66de72ba754"
+    },
+    {
+      "path": "research/certify_motor_saddle_spectrum.py",
+      "bytes": 5952,
+      "sha256": "27e84d28a4ed750b72f6b1b1ad1f5fee6f7f676eb0aff3af7cc336d3ff650125"
+    },
+    {
+      "path": "research/check_motor_saddle_proof.py",
+      "bytes": 6944,
+      "sha256": "e2b8cf475c13f69660efbe64a1b1c4cc6110d7ffe048249ddf07072acbc5b162"
+    },
+    {
+      "path": "research/audit_motor_saddle_proof.py",
+      "bytes": 7461,
+      "sha256": "6c194ec40e4b190c7e50ba2e1aebb47421cc2aba2aaf0800004cd66c6df1c553"
+    },
+    {
+      "path": "docs/motor-saddle-certificate.md",
+      "bytes": 14747,
+      "sha256": "694afcc6637fb8f26f7bae2933abc042bff71f9c6dd9c7cee5589a7ba0feed29"
+    },
+    {
+      "path": "research/certify_motor_saddle_rates.py",
+      "bytes": 6222,
+      "sha256": "cedb62a875b9465059eb042a06cf5507dc1cb10755bae2d0e974106a12bea924"
+    },
+    {
+      "path": "research/check_motor_saddle_rates.py",
+      "bytes": 2332,
+      "sha256": "868b6844fc4e248cca79ba4578dfd4c55cc9a9ebc66a0aa6fed23d293b20183a"
+    },
+    {
+      "path": "research/check_motor_volume_identity.py",
+      "bytes": 3759,
+      "sha256": "ea8330e6b243187cd59ffe8c18c35951353f1cf96247ff0ed8cfeec5cb4ec7eb"
+    },
+    {
+      "path": "docs/motor-volume-contraction.md",
+      "bytes": 5925,
+      "sha256": "f31fe350329e26efe34580bcc8c67d5a4270b52e3106437ad9973dc4dd3a9396"
+    }
+  ],
+  "limitations": [
+    "Stored-gate and provenance audit only; no new integration or independent proof implementation.",
+    "The earlier manifest-02 audit treated two input-artifact hashes as Python hashes and flagged them incorrectly. Explicit source paths are now checked against their actual input files; that failed audit remains archived."
+  ]
+}

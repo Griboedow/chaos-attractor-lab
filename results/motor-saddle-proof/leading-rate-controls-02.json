@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "stable_real",
+      "expected_pass": true,
+      "actual_pass": true,
+      "exact_root_contained": true,
+      "passed": true
+    },
+    {
+      "name": "unstable_real",
+      "expected_pass": true,
+      "actual_pass": true,
+      "exact_root_contained": true,
+      "passed": true
+    },
+    {
+      "name": "stable_complex",
+      "expected_pass": true,
+      "actual_pass": true,
+      "exact_root_contained": true,
+      "passed": true
+    },
+    {
+      "name": "extra_large_root",
+      "expected_pass": false,
+      "actual_pass": false,
+      "exact_root_contained": true,
+      "passed": true
+    },
+    {
+      "name": "repeated_large_root",
+      "expected_pass": false,
+      "actual_pass": false,
+      "exact_root_contained": null,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "check_motor_saddle_rates.py": "868b6844fc4e248cca79ba4578dfd4c55cc9a9ebc66a0aa6fed23d293b20183a",
+    "certify_motor_saddle_rates.py": "cedb62a875b9465059eb042a06cf5507dc1cb10755bae2d0e974106a12bea924"
+  },
+  "scope": "Known exact cubic controls. The original midpoint-only routine correctly declined coarse intervals when the root equalled the midpoint; the refinement probes strict quarter endpoints without changing acceptance gates."
+}

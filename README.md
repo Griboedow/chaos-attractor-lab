@@ -34,6 +34,8 @@ The [density-PDE lifting argument](docs/motor-pde-lifting.md) shows why the spec
 
 The [global dissipativity theorem](docs/motor-global-attractor.md) also proves a compact global attractor and identifies the PDE attractor exactly with the finite first-harmonic lift. Its existence does not determine whether the attracting dynamics are periodic, chaotic or a switching network.
 
+An [exact weighted-volume identity](docs/motor-volume-contraction.md) further proves zero phase-space volume of that global attractor at the current certified and candidate parameter points. It bounds the sum of expansion rates while allowing several individual positive rates.
+
 The clearest lesson is how easily a long chaotic transient can resemble an attractor. In the optical model, one trajectory kept positive finite-time expansion for 72,875 thermal-time units before reaching a checked periodic cycle. At both narrow optical widths, all 32 initial conditions eventually settled into cycles. At the broad width, 26 of 32 remained irregular through 100,000 units; the other six had already reached cycles. These are observations of a fixed cohort under an assumed logistic illumination law, not an experimental calibration or proof of an asymptotic chaotic attractor. [Read the long-run report](docs/optical-lifetime-extension.md).
 
 ![Long optical transients and persistence through 100,000 thermal-time units](docs/assets/optical_lifetime_extension.png)
