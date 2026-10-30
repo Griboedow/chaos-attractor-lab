@@ -10,7 +10,7 @@ Use zero-based row labels and write each row state as `q_j=(c_j,s_j,X_j)`, with 
 I_{23}=\{q_2=q_3\}
 ```
 
-is invariant under the polynomial motor field: the two rows have identical equations and identical mean input. It has dimension 20. At the reference six-cluster orbit, pairs `(2,3)` and `(6,7)` are synchronized. The numerical spectrum has one expanding direction, which splits `(6,7)`; all three contrasts in `(2,3)` contract.
+is invariant under the polynomial motor field: the two rows have identical equations and identical mean input. It has dimension 20. At the reference six-cluster orbit, pairs `(2,3)` and `(6,7)` are synchronized. The [subsequent interval certificate](motor-saddle-certificate.md) proves one expanding direction, which splits `(6,7)`; all three contrasts in `(2,3)` contract.
 
 The observed destination is a row-permuted copy of the same orbit. Its expanding pair is `(2,3)`, while its other synchronized pair is `(4,5)`. Restricting to `I_23` therefore removes different spectral blocks at the two ends:
 
@@ -19,9 +19,9 @@ The observed destination is a row-permuted copy of the same orbit. Its expanding
 | Source | Three stable contrasts of pair `(2,3)` | One expanding, one flow, eighteen stable |
 | Destination | One expanding and two stable contrasts of pair `(2,3)` | One flow, nineteen stable |
 
-These dimension counts follow algebraically once the full block spectra are certified. The existing numerical calculations support the required counts. They do not themselves establish a connection.
+These dimension counts now follow from the certified full block spectra. They do not themselves establish a connection.
 
-Conditional on those strict spectra, the source is a hyperbolic periodic saddle in `I_23`, and the destination is an orbitally attracting periodic orbit in that subspace. The local unstable manifold of the source lies inside `I_23`: restriction to this invariant space has the same unstable direction and flow direction, and uniqueness of the local unstable manifold identifies it with the ambient one. Here the unstable manifold has dimension two, including time along the periodic orbit.
+By those strict spectra, the source is a hyperbolic periodic saddle in `I_23`, and the destination is an orbitally attracting periodic orbit in that subspace. The local unstable manifold of the source lies inside `I_23`: restriction to this invariant space has the same unstable direction and flow direction, and uniqueness of the local unstable manifold identifies it with the ambient one. Here the unstable manifold has dimension two, including time along the periodic orbit.
 
 ## A concrete remaining existence problem
 

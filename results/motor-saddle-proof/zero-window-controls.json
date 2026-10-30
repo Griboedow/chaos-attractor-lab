@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "owned initial zero",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": 0,
+            "right_sign": 1,
+            "derivative_sign": 1,
+            "passed": true,
+            "reason": "owned initial upward zero",
+            "upward": 1,
+            "downward": 0
+          }
+        ],
+        "passed": true,
+        "upward": 1,
+        "downward": 0
+      }
+    },
+    {
+      "name": "excluded final zero",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": -1,
+            "right_sign": 0,
+            "derivative_sign": 1,
+            "passed": true,
+            "reason": "excluded final upward zero",
+            "upward": 0,
+            "downward": 0
+          }
+        ],
+        "passed": true,
+        "upward": 0,
+        "downward": 0
+      }
+    },
+    {
+      "name": "interior upward crossing",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": -1,
+            "right_sign": 1,
+            "derivative_sign": 1,
+            "passed": true,
+            "reason": "one interior zero by opposite signs and monotonicity",
+            "upward": 1,
+            "downward": 0
+          }
+        ],
+        "passed": true,
+        "upward": 1,
+        "downward": 0
+      }
+    },
+    {
+      "name": "interior downward crossing",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": 1,
+            "right_sign": -1,
+            "derivative_sign": -1,
+            "passed": true,
+            "reason": "one interior zero by opposite signs and monotonicity",
+            "upward": 0,
+            "downward": 1
+          }
+        ],
+        "passed": true,
+        "upward": 0,
+        "downward": 1
+      }
+    },
+    {
+      "name": "overestimated tube with positive endpoint signs",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": 1,
+            "right_sign": 1,
+            "derivative_sign": 1,
+            "passed": true,
+            "reason": "same strict endpoint signs and monotonicity",
+            "upward": 0,
+            "downward": 0
+          }
+        ],
+        "passed": true,
+        "upward": 0,
+        "downward": 0
+      }
+    },
+    {
+      "name": "unresolved derivative sign",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": -1,
+            "right_sign": 1,
+            "derivative_sign": 0,
+            "passed": false,
+            "reason": "unresolved zero window",
+            "upward": 0,
+            "downward": 0
+          }
+        ],
+        "passed": false,
+        "upward": 0,
+        "downward": 0
+      }
+    },
+    {
+      "name": "unowned initial endpoint",
+      "passed": true,
+      "result": {
+        "row": 0,
+        "windows": [
+          {
+            "row": 0,
+            "start_step": 0,
+            "end_step_exclusive": 1,
+            "left_sign": 0,
+            "right_sign": 1,
+            "derivative_sign": 1,
+            "passed": false,
+            "reason": "unresolved zero window",
+            "upward": 0,
+            "downward": 0
+          }
+        ],
+        "passed": false,
+        "upward": 0,
+        "downward": 0
+      }
+    }
+  ],
+  "period_source_sha256": "b7ce5ae05b748490d6b782c7001437d713cf68fd751ca3d92780c66de72ba754",
+  "limitation": "Boundary and rejection controls only; the actual period theorem also requires validated tubes, exact endpoint identities and the certified orbit."
+}

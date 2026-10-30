@@ -1,0 +1,40 @@
+{
+  "generated_utc": "2026-10-30T11:18:34.175637+00:00",
+  "status": "passed",
+  "all_zero": true,
+  "identities": {
+    "transport_cancels_from_amplitude_balance": true,
+    "forcing_cauchy_schwarz_sum_of_squares": true,
+    "harmonic_disk_strict_inward_bound": true,
+    "radial_scalar_comparison_equation": true,
+    "mechanical_filter_comparison_equation_times_rho": true,
+    "positive_displacement_face_outward_bound_times_rho": true,
+    "negative_displacement_face_outward_bound_times_rho": true,
+    "displacement_sum_constraint_N1": true,
+    "displacement_sum_constraint_N2": true,
+    "displacement_sum_constraint_N8": true
+  },
+  "method": "Exact rational multivariate polynomial identities in Python-FLINT",
+  "python_flint": "0.9.0",
+  "script_sha256": "718235251d32dce84fb6c1a9bd1c4f9095f4225b83442387e1973674fddb77ff",
+  "prerequisite_note_sha256": "264d28f41a4fc7c7ce7792166f33f81b6a5294ec497ef4abd7a441c256b978b7",
+  "report_sha256": "09fe1aac273a81e98120a1da698a31cb6d2a897bb29fd1bdbe976c998dde77c3",
+  "assumptions": [
+    "Finite fixed N>=1",
+    "rho>0",
+    "F=sqrt(A^2+B^2)>=0",
+    "g=abs(gamma)>=0",
+    "Constant total switching rate and first-harmonic force/forcing"
+  ],
+  "scope": "Polynomial equalities only. The analytic note supplies inequalities, uniform absorption, compactness, strong continuity and the complete-trajectory argument.",
+  "not_computed": [
+    "No trajectories",
+    "No PDE truncation",
+    "No chaos or finite-attractor exponential-rate assertion"
+  ],
+  "original_prerequisite_snapshot": "results/motor-pde-lifting/global-attractor-prerequisite.md",
+  "original_prerequisite_snapshot_sha256": "4309cdcf342044f5b0ef584ffdb55885b2bd0cc59508f4c2955714411aa9a347",
+  "original_record_sha256": "049bf89344a7fee64be985b59514c5034e73970df7f01acce2d615dd5e74367b",
+  "recheck_driver_sha256": "def17c4213c1fc99bc4247e9100e32cc5e6d247f3170279465dd4dc8213c2c7d",
+  "prerequisite_note": "The original record references the frozen snapshot. This recheck also records the current prerequisite note hash; later editorial changes do not replace the original evidence."
+}

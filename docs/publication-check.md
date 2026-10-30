@@ -118,3 +118,5 @@ The first proof block passed a local path audit of 145 relative path occurrences
 The subsequent four-pair certificate and postcritical numerical report have the same browser limitation. Both new postcritical PNG figures were inspected locally: physical row traces, multiplier curves, the logarithmic splitting plot, pair-distance heatmap and connection controls are readable without clipping. This does not add to the historical GitHub page or formula counts.
 
 The 40,000-unit contrast diagnostic figure was also inspected locally. Its logarithmic contrast traces, approximate saddle distances and seed-size comparison are readable. The coordinate report and network proof strategy have local path checks only; their GitHub rendering remains unchecked.
+
+The later saddle, network-combinatorics and global-attractor reports have the same browser limitation. The revised eight-node candidate graph was inspected as a local PNG; its directed edges, node labels and legend are readable. Source/evidence hashes and local Markdown paths were checked separately. These checks add no GitHub rendering or formula counts.

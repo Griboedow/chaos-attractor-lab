@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-30T10:46:55.075591+00:00",
+  "status": "passed",
+  "wall_seconds": 1.0912975000101142,
+  "python": "3.14.3",
+  "source_sha256": "51cbe6860597ef0fe3c3f8c51dee063eb0be558b8b94e277b648725f7dd89922",
+  "inputs": {
+    "results\\motor-postcritical\\six-cluster-cycle-rho-3p268\\cycle.npz": "ed1b772e0225b87a5de37f472090e7d1da020c29c2b3cb40aaa39116c792994b",
+    "results\\motor-postcritical\\saddle-escape\\network-algebra.json": "213f363bc6473284f7934767296d34d8bb670d3976b1e36dc7a65e8285ecf95f",
+    "results\\motor-postcritical\\saddle-escape\\summary.json": "ddc6e5dfca3371273a8330fcdff2be1468b7050106058a82576a90d6e52e9876"
+  },
+  "outputs": {
+    "candidate-graph.png": "e7ea24549742179c0ae9b08077779ee0b7ae8a708a2ceb1bdb61602cb02e8fe2",
+    "exact-graph.json": "6ed7d61af7883878346af5c970803ae56b1a33a48b777ca3239e44f6f88f5119",
+    "phase-audit.json": "5846a2f1ed9e3e0f07be34061b2ecc9566a8e703cf106d1d91e1d028b78c3f64",
+    "source.py": "51cbe6860597ef0fe3c3f8c51dee063eb0be558b8b94e277b648725f7dd89922"
+  },
+  "group_order": 64,
+  "known_H_order": 8,
+  "graph_nodes": 8,
+  "graph_edges": 16,
+  "proof_scope": "Exact finite permutation group and formal graph; conditional isotropy lemma. Phase audit is numerical. No new ODE simulation and no connection theorem."
+}

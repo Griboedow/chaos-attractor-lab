@@ -10,9 +10,15 @@ The [crossing extension](../docs/motor-crossing-certificate.md) adds `motor-cros
 
 `motor-pair-coordinates/` preserves the [23-state coordinate-precision diagnostic](../docs/motor-pair-coordinate-audit.md): two independent saved trajectories to 40,000 units, exact checkpoint resumptions, a smaller-seed control, all threshold records and a figure. Storing half-contrasts directly recovers repeated departures that Cartesian row subtraction can hide. No noise or projection is applied, and no infinite-time network theorem is claimed.
 
+`motor-saddle-proof/` contains the [six-cluster saddle certificate](../docs/motor-saddle-certificate.md): weighted multiple shooting, a full 1/1/21 unstable/flow/stable count, exact-basis interval spectral checks, a fresh integration at changed precision and discretization, and least-period certificates for the whole state and a synchronized row. Failed attempts and all executed source versions are retained.
+
+`motor-network-combinatorics/` supplies the [exact eight-node candidate graph](../docs/motor-network-combinatorics.md), its group and cosets, numerical phase controls and a reviewed figure. The frozen graph visits in `motor-log-contrasts/frozen-40k-node-visits.json` identify the mixed four-step circuit in the already published trajectory. Exact graph combinatorics do not prove heteroclinic edges.
+
 `motor-priority-followup/` records the [source comparison and cluster-replication corollaries](../docs/motor-followup-priority.md), including 22 exact polynomial identities. Literature gaps and algebraic deductions are explicitly separated from numerical observations and scientific-priority claims.
 
 `motor-pde-lifting/` contains the [density-PDE source audit and exact algebra controls](../docs/motor-pde-lifting.md). The full-function-space lifting theorem follows from an explicit translated, exponentially contracting residual; no PDE discretization or new trajectory survey was performed.
+
+The same directory adds exact algebra controls and preserved prerequisites for the [compact global-attractor theorem](../docs/motor-global-attractor.md), which identifies all complete bounded PDE trajectories with first-harmonic finite trajectories under the stated assumptions.
 
 The [published motor activity-path study](../docs/motor-rows-activity-path.md) contains 288 scouts, all 60 tighter follow-ups, the complete 32-lane eight-row persistence cohort, independent full 23-dimensional CPU spectra, figures and a rotating projection. It supports a numerical hyperchaotic candidate, with scientific priority and asymptotic attraction unresolved.
 

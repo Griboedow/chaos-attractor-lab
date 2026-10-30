@@ -139,7 +139,9 @@ Let $\Gamma$ be a periodic finite-dimensional orbit, measured with the norm indu
 +e^{-2\tau}\|R(0)\|_{(H^s)^N}^2.
 ```
 
-The notation $\mathcal L\Gamma$ includes the displacement component. Thus finite-dimensional orbital stability, asymptotic orbital stability, or instability transfers to the density PDE. If the finite cycle has a local exponential orbital-attraction estimate with rate $\alpha>0$, the full estimate has rate $\min(\alpha,1)$. A future certificate of a stable daughter orbit therefore lifts once it establishes full finite-system stability; stability only inside a cluster restriction is insufficient. No such daughter certificate is assumed in this note.
+The notation $\mathcal L\Gamma$ includes the displacement component. Thus finite-dimensional orbital stability, asymptotic orbital stability, or instability transfers to the density PDE. If the finite cycle has a local exponential orbital-attraction estimate with rate $\alpha>0$, the full estimate has rate $\min(\alpha,1)$. The subsequently [certified attracting four-pair orbit](motor-paired-certificate.md) meets this full-system stability condition and therefore lifts to an attracting PDE orbit. Stability only inside a cluster restriction would be insufficient.
+
+The [global-attractor extension](motor-global-attractor.md) combines this exact splitting with explicit absorbing bounds. It proves that the entire compact global PDE attractor is the first-harmonic lift of the finite global attractor, and that convergence basins correspond under first-harmonic projection. This concerns global dissipativity, not a chaos or scientific-priority assertion.
 
 Nonnegative transition rates require $0\leq f\leq1$, equivalently $\sqrt{A^2+B^2}\leq1/2$. Along characteristics the full density obeys a scalar relaxation equation, so $0\leq q_j(\theta,0)\leq1$ implies $0\leq q_j(\theta,\tau)\leq1$ for all forward times (almost everywhere for rough data). These are the probabilities of state A; the complementary state has density $(1-q_j)/\ell$.
 

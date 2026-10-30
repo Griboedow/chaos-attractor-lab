@@ -1,0 +1,73 @@
+{
+  "started_utc": "2026-10-30T10:24:56.496582+00:00",
+  "arguments": {
+    "rho": "3.268",
+    "bits": "448",
+    "steps": "512",
+    "order": "44",
+    "radius": "1e-40",
+    "newton": "3",
+    "existence_only": "False",
+    "generic_jets": "False",
+    "verify_input": "None",
+    "output": "results\\motor-saddle-proof\\attempt-01.json"
+  },
+  "python": "3.14.3",
+  "python_flint": "0.9.0",
+  "source_sha256": {
+    "validate_motor_saddle_cycle.py": "ac5cc00a787300b9b0f3e60377c47947f12878fe01092c8b8007cd88f7e46fe1",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+  },
+  "limitations": [
+    "No least-period theorem",
+    "No heteroclinic connection theorem",
+    "No chaotic attractor or priority claim"
+  ],
+  "parameter_rho": {
+    "display": "[3.26800000000000000000000 +/- 1e-28]",
+    "midpoint": [
+      "296913618874755414789398775522249852283462495840769427624988746365291149194323051678749044216572416531571490076159733685848884765289087",
+      -445
+    ],
+    "radius": [
+      "427819009",
+      -479
+    ]
+  },
+  "parameter_r": {
+    "display": "[4.75514604775133903137567 +/- 3.56e-24]",
+    "midpoint": [
+      "216014017949180016758760643273113071250053208471878616740416255699674699105450822109091590874228720038691912126089848785775606834608129",
+      -444
+    ],
+    "radius": [
+      "907370031",
+      -473
+    ]
+  },
+  "exact_rho_decimal": "3.268",
+  "seed_file": "results\\motor-postcritical\\six-cluster-cycle-rho-3p268\\analysis.json",
+  "seed_sha256": "2f58bfc863ed48711911f20f82aa4eda726a796bb1250ab68f932a22be36cd8e",
+  "half_permutation": [
+    1,
+    0,
+    2,
+    4,
+    3,
+    5
+  ],
+  "multiplicities": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    2
+  ],
+  "integrations": [],
+  "newton_history": [],
+  "status": "error",
+  "error": "ArithmeticError('No Picard tube at step 486')",
+  "wall_seconds": 218.93241780000972
+}

@@ -1,0 +1,6243 @@
+{
+  "created_utc": "2026-10-30T11:01:27.207520+00:00",
+  "status": "passed",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "python_flint": "0.9.0",
+  "precision_bits": 256,
+  "basis_determinant": {
+    "display": "1.00000000000000000000000",
+    "midpoint": [
+      "1",
+      0
+    ],
+    "radius": [
+      "0",
+      0
+    ]
+  },
+  "basis_max_entry": {
+    "display": "256.000000000000000000000",
+    "midpoint": [
+      "1",
+      8
+    ],
+    "radius": [
+      "0",
+      0
+    ]
+  },
+  "inverse_max_entry": {
+    "display": "16777216.0000000000000000",
+    "midpoint": [
+      "1",
+      24
+    ],
+    "radius": [
+      "0",
+      0
+    ]
+  },
+  "basis_is_nonorthogonal": true,
+  "checks": [
+    {
+      "name": "stable_real_and_complex_roots",
+      "passed": true,
+      "expected_spectral_pass": true,
+      "actual_spectral_pass": true,
+      "target_enclosed": true,
+      "interval_uncertainty_retained": true,
+      "target_scalar": {
+        "display": "0.500000000000000000000000",
+        "midpoint": [
+          "1",
+          -1
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "transformed_scalar": {
+        "display": "0.500000000000000000000000",
+        "midpoint": [
+          "1",
+          -1
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "input_max_radius": {
+        "display": "0",
+        "midpoint": [
+          "0",
+          0
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      }
+    },
+    {
+      "name": "stable_small_interval_uncertainty",
+      "passed": true,
+      "expected_spectral_pass": true,
+      "actual_spectral_pass": true,
+      "target_enclosed": true,
+      "interval_uncertainty_retained": true,
+      "target_scalar": {
+        "display": "[0.500000000000000000000000 +/- 1e-29]",
+        "midpoint": [
+          "1",
+          -1
+        ],
+        "radius": [
+          "892029809",
+          -146
+        ]
+      },
+      "transformed_scalar": {
+        "display": "[0.500000000000000000000000 +/- 1e-29]",
+        "midpoint": [
+          "1",
+          -1
+        ],
+        "radius": [
+          "446014909",
+          -145
+        ]
+      },
+      "input_max_radius": {
+        "display": "[1.67772161139528939646060e-28 +/- 9.14e-53]",
+        "midpoint": [
+          "446014907",
+          -121
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      }
+    },
+    {
+      "name": "wide_uncertainty_includes_expanding_root",
+      "passed": true,
+      "expected_spectral_pass": false,
+      "actual_spectral_pass": false,
+      "target_enclosed": true,
+      "interval_uncertainty_retained": true,
+      "target_scalar": {
+        "display": "[+/- 1.11]",
+        "midpoint": [
+          "1",
+          -1
+        ],
+        "radius": [
+          "80530637",
+          -27
+        ]
+      },
+      "transformed_scalar": {
+        "display": "[+/- 1.11]",
+        "midpoint": [
+          "1",
+          -1
+        ],
+        "radius": [
+          "40265319",
+          -26
+        ]
+      },
+      "input_max_radius": {
+        "display": "10066329.6875000000000000",
+        "midpoint": [
+          "161061275",
+          -4
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      }
+    },
+    {
+      "name": "exact_expanding_root",
+      "passed": true,
+      "expected_spectral_pass": false,
+      "actual_spectral_pass": false,
+      "target_enclosed": true,
+      "interval_uncertainty_retained": true,
+      "target_scalar": {
+        "display": "1.25000000000000000000000",
+        "midpoint": [
+          "5",
+          -2
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "transformed_scalar": {
+        "display": "1.25000000000000000000000",
+        "midpoint": [
+          "5",
+          -2
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "input_max_radius": {
+        "display": "0",
+        "midpoint": [
+          "0",
+          0
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      }
+    },
+    {
+      "name": "extra_exact_unit_root",
+      "passed": true,
+      "expected_spectral_pass": false,
+      "actual_spectral_pass": false,
+      "target_enclosed": true,
+      "interval_uncertainty_retained": true,
+      "target_scalar": {
+        "display": "1.00000000000000000000000",
+        "midpoint": [
+          "1",
+          0
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "transformed_scalar": {
+        "display": "1.00000000000000000000000",
+        "midpoint": [
+          "1",
+          0
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "input_max_radius": {
+        "display": "0",
+        "midpoint": [
+          "0",
+          0
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      }
+    },
+    {
+      "name": "singular_basis_rejected",
+      "passed": true
+    },
+    {
+      "name": "nondyadic_basis_rejected",
+      "passed": true
+    },
+    {
+      "name": "actual postprocessor dependencies and archived source snapshots",
+      "dependency_matches": {
+        "validate_motor_cycle.py": true,
+        "validate_motor_paired_cycle.py": true
+      },
+      "snapshot_matches": {
+        "validate_motor_saddle_cycle.py": true,
+        "validate_motor_cycle.py": true,
+        "validate_motor_paired_cycle.py": true
+      },
+      "passed": true
+    }
+  ],
+  "cases": [
+    {
+      "name": "stable_real_and_complex_roots",
+      "certificate": {
+        "passed": true,
+        "basis_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\results\\motor-saddle-proof\\independent-similarity-controls\\nonorthogonal-exact-basis.json",
+        "basis_sha256": "86f08911b20c1ed179df0c38faa3d850b785c77002c2fff1562759cb5c4269c0",
+        "exact_dyadic_basis": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "basis_determinant": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "inverse_enclosure": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-16384.0000000000000000000",
+              "midpoint": [
+                "-1",
+                14
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16777216.0000000000000000",
+              "midpoint": [
+                "1",
+                24
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16.0000000000000000000000",
+              "midpoint": [
+                "1",
+                4
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "similar_monodromy": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.500000000000000000000000",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.500000000000000000000000",
+              "midpoint": [
+                "-1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.500000000000000000000000",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "characteristic_coefficients": [
+          {
+            "display": "0.0390625000000000000000000",
+            "midpoint": [
+              "5",
+              -7
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-0.0234375000000000000000000",
+            "midpoint": [
+              "-3",
+              -7
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-0.328125000000000000000000",
+            "midpoint": [
+              "-21",
+              -6
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "1.06250000000000000000000",
+            "midpoint": [
+              "17",
+              -4
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-1.75000000000000000000000",
+            "midpoint": [
+              "-7",
+              -2
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "1.00000000000000000000000",
+            "midpoint": [
+              "1",
+              0
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          }
+        ],
+        "exact_flow_division_remainder": {
+          "display": "0",
+          "midpoint": [
+            "0",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "nonflow_schur": {
+          "passed": true,
+          "radius": {
+            "display": "[0.800000000000000000000000 +/- 1e-29]",
+            "midpoint": [
+              "92633671389852956338856788006950326282615987732512451231566067206330503711949",
+              -256
+            ],
+            "radius": [
+              "432013313",
+              -287
+            ]
+          },
+          "steps": [
+            {
+              "degree": 4,
+              "constant": {
+                "display": "[-0.0953674316406250000000000 +/- 3e-29]",
+                "midpoint": [
+                  "-88342353238919216479164875037145925791374194843780947906080310064630988799999",
+                  -259
+                ],
+                "radius": [
+                  "585690301",
+                  -287
+                ]
+              },
+              "margin": {
+                "display": "[0.904632568359375000000000 +/- 3e-29]",
+                "midpoint": [
+                  "104749295082451293363675375629044667129348210310167945551197545249834256039935",
+                  -256
+                ],
+                "radius": [
+                  "1",
+                  -256
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.0953674316406250000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-88342353238919216479164875037145925791374194843780947906080310064630988799999",
+                    -259
+                  ],
+                  "radius": [
+                    "585690301",
+                    -287
+                  ]
+                },
+                {
+                  "display": "[-0.0305175781250000000000000 +/- 3e-30]",
+                  "midpoint": [
+                    "-113078212145816597093331040047546785012958969400039613319782796882727665663999",
+                    -261
+                  ],
+                  "radius": [
+                    "92555333",
+                    -286
+                  ]
+                },
+                {
+                  "display": "[0.488281250000000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "56539106072908298546665520023773392506479484700019806659891398441363832831999",
+                    -256
+                  ],
+                  "radius": [
+                    "96478433",
+                    -281
+                  ]
+                },
+                {
+                  "display": "[-0.937500000000000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-108555083659983933209597798445644913612440610624038028786991485007418559037439",
+                    -256
+                  ],
+                  "radius": [
+                    "87312693",
+                    -280
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 3,
+              "constant": {
+                "display": "[-0.121025263648778293770837 +/- 4.97e-25]",
+                "midpoint": [
+                  "-28027536256778112105687034447654452688466331727454749483983286316973257552117",
+                  -257
+                ],
+                "radius": [
+                  "181677951",
+                  -283
+                ]
+              },
+              "margin": {
+                "display": "[0.878974736351221706229163 +/- 4.97e-25]",
+                "midpoint": [
+                  "25444580277231784842681866946215170377259204700478297324366485212356625215969",
+                  -254
+                ],
+                "radius": [
+                  "1",
+                  -256
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.121025263648778293770837 +/- 4.97e-25]",
+                  "midpoint": [
+                    "-28027536256778112105687034447654452688466331727454749483983286316973257552117",
+                    -257
+                  ],
+                  "radius": [
+                    "181677951",
+                    -283
+                  ]
+                },
+                {
+                  "display": "[0.539756434908747427723240 +/- 1.13e-25]",
+                  "midpoint": [
+                    "62499525277369332617384737042101222064309272160383531512711984081456332835371",
+                    -256
+                  ],
+                  "radius": [
+                    "200208391",
+                    -281
+                  ]
+                },
+                {
+                  "display": "[-0.949041868557813481690487 +/- 4.26e-25]",
+                  "midpoint": [
+                    "-54945770366997822930560861981069223199129983097116488240979932641500275535033",
+                    -255
+                  ],
+                  "radius": [
+                    "278651971",
+                    -281
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 2,
+              "constant": {
+                "display": "[0.431214439801300732152851 +/- 4.04e-25]",
+                "midpoint": [
+                  "49931220893891526958559208692115772029555767012404579301516580918929225656017",
+                  -256
+                ],
+                "radius": [
+                  "338945661",
+                  -281
+                ]
+              },
+              "margin": {
+                "display": "[0.568785560198699267847149 +/- 4.04e-25]",
+                "midpoint": [
+                  "16465217085856167116252944079143033955928554413308996184485250772245975995977",
+                  -254
+                ],
+                "radius": [
+                  "1",
+                  -256
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[0.431214439801300732152851 +/- 4.04e-25]",
+                  "midpoint": [
+                    "49931220893891526958559208692115772029555767012404579301516580918929225656017",
+                    -256
+                  ],
+                  "radius": [
+                    "338945661",
+                    -281
+                  ]
+                },
+                {
+                  "display": "[-0.896854027291700824335960 +/- 2.96e-25]",
+                  "midpoint": [
+                    "-12981075195125879552507102364314368508947731879497990674770061567254840809785",
+                    -253
+                  ],
+                  "radius": [
+                    "102776409",
+                    -279
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 1,
+              "constant": {
+                "display": "[-0.626638470344257726744444 +/- 3.45e-25]",
+                "midpoint": [
+                  "-72559777677637609022275757991008382028011543755603600742600027536913547766671",
+                  -256
+                ],
+                "radius": [
+                  "87980517",
+                  -277
+                ]
+              },
+              "margin": {
+                "display": "[0.373361529655742273255556 +/- 3.45e-25]",
+                "midpoint": [
+                  "43232311559678586401295227017679525825258440910036963296857556470999581873223",
+                  -256
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.626638470344257726744444 +/- 3.45e-25]",
+                  "midpoint": [
+                    "-72559777677637609022275757991008382028011543755603600742600027536913547766671",
+                    -256
+                  ],
+                  "radius": [
+                    "87980517",
+                    -277
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "mathematical_basis": "Exact similarity preserves characteristic polynomial. The nonconstant autonomous orbit supplies an exact z-1 factor. All input radii remain in the transformed matrix."
+      }
+    },
+    {
+      "name": "stable_small_interval_uncertainty",
+      "certificate": {
+        "passed": true,
+        "basis_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\results\\motor-saddle-proof\\independent-similarity-controls\\nonorthogonal-exact-basis.json",
+        "basis_sha256": "86f08911b20c1ed179df0c38faa3d850b785c77002c2fff1562759cb5c4269c0",
+        "exact_dyadic_basis": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "basis_determinant": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "inverse_enclosure": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-16384.0000000000000000000",
+              "midpoint": [
+                "-1",
+                14
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16777216.0000000000000000",
+              "midpoint": [
+                "1",
+                24
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16.0000000000000000000000",
+              "midpoint": [
+                "1",
+                4
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "similar_monodromy": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "[+/- 1.29e-33]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -138
+              ]
+            },
+            {
+              "display": "[+/- 4.20e-29]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -123
+              ]
+            },
+            {
+              "display": "[+/- 1.05e-29]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -125
+              ]
+            },
+            {
+              "display": "[+/- 6.72e-28]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -119
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "[0.500000000000000000000000 +/- 1e-29]",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "446014909",
+                -145
+              ]
+            },
+            {
+              "display": "[+/- 3.28e-31]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -130
+              ]
+            },
+            {
+              "display": "[+/- 8.20e-32]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -132
+              ]
+            },
+            {
+              "display": "[+/- 5.25e-30]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "446014909",
+                -126
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.500000000000000000000000",
+              "midpoint": [
+                "-1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.500000000000000000000000",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "characteristic_coefficients": [
+          {
+            "display": "[0.0390625000000000000000000 +/- 1e-30]",
+            "midpoint": [
+              "5",
+              -7
+            ],
+            "radius": [
+              "801433051",
+              -145
+            ]
+          },
+          {
+            "display": "[-0.0234375000000000000000000 +/- 1e-30]",
+            "midpoint": [
+              "-3",
+              -7
+            ],
+            "radius": [
+              "256110127",
+              -143
+            ]
+          },
+          {
+            "display": "[-0.328125000000000000000000 +/- 1e-29]",
+            "midpoint": [
+              "-21",
+              -6
+            ],
+            "radius": [
+              "327542203",
+              -143
+            ]
+          },
+          {
+            "display": "[1.06250000000000000000000 +/- 1e-28]",
+            "midpoint": [
+              "17",
+              -4
+            ],
+            "radius": [
+              "836277961",
+              -144
+            ]
+          },
+          {
+            "display": "[-1.75000000000000000000000 +/- 1e-28]",
+            "midpoint": [
+              "-7",
+              -2
+            ],
+            "radius": [
+              "446014909",
+              -145
+            ]
+          },
+          {
+            "display": "1.00000000000000000000000",
+            "midpoint": [
+              "1",
+              0
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          }
+        ],
+        "exact_flow_division_remainder": {
+          "display": "[+/- 1.18e-34]",
+          "midpoint": [
+            "0",
+            0
+          ],
+          "radius": [
+            "164206663",
+            -140
+          ]
+        },
+        "nonflow_schur": {
+          "passed": true,
+          "radius": {
+            "display": "[0.800000000000000000000000 +/- 1e-29]",
+            "midpoint": [
+              "92633671389852956338856788006950326282615987732512451231566067206330503711949",
+              -256
+            ],
+            "radius": [
+              "432013313",
+              -287
+            ]
+          },
+          "steps": [
+            {
+              "degree": 4,
+              "constant": {
+                "display": "[-0.0953674316406250000000000 +/- 3e-29]",
+                "midpoint": [
+                  "-132922799578491587290380706028034457599999",
+                  -140
+                ],
+                "radius": [
+                  "10617371",
+                  -135
+                ]
+              },
+              "margin": {
+                "display": "[0.904632568359375000000000 +/- 3e-29]",
+                "midpoint": [
+                  "1260873775329672359055601686012487796767905",
+                  -140
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.0953674316406250000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-132922799578491587290380706028034457599999",
+                    -140
+                  ],
+                  "radius": [
+                    "10617371",
+                    -135
+                  ]
+                },
+                {
+                  "display": "[-0.0305175781250000000000000 +/- 3e-30]",
+                  "midpoint": [
+                    "-85070591730234615865843651857942052863999",
+                    -141
+                  ],
+                  "radius": [
+                    "418553711",
+                    -141
+                  ]
+                },
+                {
+                  "display": "[0.488281250000000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "2722258935367507707706996859454145691647999",
+                    -142
+                  ],
+                  "radius": [
+                    "103447421",
+                    -140
+                  ]
+                },
+                {
+                  "display": "[-0.937500000000000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-41813897247244918390379471761215677823713279",
+                    -145
+                  ],
+                  "radius": [
+                    "557527151",
+                    -145
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 3,
+              "constant": {
+                "display": "[-0.121025263648778293770837 +/- 4.97e-25]",
+                "midpoint": [
+                  "-168684597951024706186194923198910780710169",
+                  -140
+                ],
+                "radius": [
+                  "542242249",
+                  -140
+                ]
+              },
+              "margin": {
+                "display": "[0.878974736351221706229163 +/- 4.97e-25]",
+                "midpoint": [
+                  "612555988478569620079893734420805635585679",
+                  -139
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.121025263648778293770837 +/- 4.97e-25]",
+                  "midpoint": [
+                    "-168684597951024706186194923198910780710169",
+                    -140
+                  ],
+                  "radius": [
+                    "542242249",
+                    -140
+                  ]
+                },
+                {
+                  "display": "[0.539756434908747427723240 +/- 1.13e-25]",
+                  "midpoint": [
+                    "376155335130226750692165406211388211482987",
+                    -139
+                  ],
+                  "radius": [
+                    "317075937",
+                    -140
+                  ]
+                },
+                {
+                  "display": "[-0.949041868557813481690487 +/- 4.26e-25]",
+                  "midpoint": [
+                    "-5291085223361297441232963649716973911279501",
+                    -142
+                  ],
+                  "radius": [
+                    "882039293",
+                    -143
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 2,
+              "constant": {
+                "display": "[0.431214439801300732152851 +/- 4.04e-25]",
+                "midpoint": [
+                  "300512604622997804294828068952358112795221",
+                  -139
+                ],
+                "radius": [
+                  "3574389",
+                  -132
+                ]
+              },
+              "margin": {
+                "display": "[0.568785560198699267847149 +/- 4.04e-25]",
+                "midpoint": [
+                  "396385682831084168878163127067902726744875",
+                  -139
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[0.431214439801300732152851 +/- 4.04e-25]",
+                  "midpoint": [
+                    "300512604622997804294828068952358112795221",
+                    -139
+                  ],
+                  "radius": [
+                    "3574389",
+                    -132
+                  ]
+                },
+                {
+                  "display": "[-0.896854027291700824335960 +/- 2.96e-25]",
+                  "midpoint": [
+                    "-1250032071431765600313955700447998304367617",
+                    -140
+                  ],
+                  "radius": [
+                    "567338371",
+                    -140
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 1,
+              "constant": {
+                "display": "[-0.626638470344257726744444 +/- 3.45e-25]",
+                "midpoint": [
+                  "-218351638417879371567371173380649474711215",
+                  -138
+                ],
+                "radius": [
+                  "653271655",
+                  -138
+                ]
+              },
+              "margin": {
+                "display": "[0.373361529655742273255556 +/- 3.45e-25]",
+                "midpoint": [
+                  "65048752654580807509562212314740260274037",
+                  -137
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.626638470344257726744444 +/- 3.45e-25]",
+                  "midpoint": [
+                    "-218351638417879371567371173380649474711215",
+                    -138
+                  ],
+                  "radius": [
+                    "653271655",
+                    -138
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "mathematical_basis": "Exact similarity preserves characteristic polynomial. The nonconstant autonomous orbit supplies an exact z-1 factor. All input radii remain in the transformed matrix."
+      }
+    },
+    {
+      "name": "wide_uncertainty_includes_expanding_root",
+      "certificate": {
+        "passed": false,
+        "basis_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\results\\motor-saddle-proof\\independent-similarity-controls\\nonorthogonal-exact-basis.json",
+        "basis_sha256": "86f08911b20c1ed179df0c38faa3d850b785c77002c2fff1562759cb5c4269c0",
+        "exact_dyadic_basis": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "basis_determinant": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "inverse_enclosure": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-16384.0000000000000000000",
+              "midpoint": [
+                "-1",
+                14
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16777216.0000000000000000",
+              "midpoint": [
+                "1",
+                24
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16.0000000000000000000000",
+              "midpoint": [
+                "1",
+                4
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "similar_monodromy": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "[+/- 76.9]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                -19
+              ]
+            },
+            {
+              "display": "[+/- 2.52e+6]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                -4
+              ]
+            },
+            {
+              "display": "[+/- 6.30e+5]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                -6
+              ]
+            },
+            {
+              "display": "[+/- 4.03e+7]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "[+/- 1.11]",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "40265319",
+                -26
+              ]
+            },
+            {
+              "display": "[+/- 1.97e+4]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                -11
+              ]
+            },
+            {
+              "display": "[+/- 4.92e+3]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                -13
+              ]
+            },
+            {
+              "display": "[+/- 3.15e+5]",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "40265319",
+                -7
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.500000000000000000000000",
+              "midpoint": [
+                "-1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.500000000000000000000000",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "characteristic_coefficients": [
+          {
+            "display": "[+/- 1.45]",
+            "midpoint": [
+              "5",
+              -7
+            ],
+            "radius": [
+              "376984057",
+              -28
+            ]
+          },
+          {
+            "display": "[+/- 1.81]",
+            "midpoint": [
+              "-3",
+              -7
+            ],
+            "radius": [
+              "478653989",
+              -28
+            ]
+          },
+          {
+            "display": "[+/- 2.64]",
+            "midpoint": [
+              "-21",
+              -6
+            ],
+            "radius": [
+              "309036329",
+              -27
+            ]
+          },
+          {
+            "display": "[+/- 4.04]",
+            "midpoint": [
+              "17",
+              -4
+            ],
+            "radius": [
+              "49828333",
+              -24
+            ]
+          },
+          {
+            "display": "[-2e+0 +/- 0.851]",
+            "midpoint": [
+              "-7",
+              -2
+            ],
+            "radius": [
+              "40265319",
+              -26
+            ]
+          },
+          {
+            "display": "1.00000000000000000000000",
+            "midpoint": [
+              "1",
+              0
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          }
+        ],
+        "exact_flow_division_remainder": {
+          "display": "[+/- 9.07]",
+          "midpoint": [
+            "0",
+            0
+          ],
+          "radius": [
+            "76000791",
+            -23
+          ]
+        },
+        "nonflow_schur": {
+          "passed": false,
+          "radius": {
+            "display": "[0.800000000000000000000000 +/- 1e-29]",
+            "midpoint": [
+              "92633671389852956338856788006950326282615987732512451231566067206330503711949",
+              -256
+            ],
+            "radius": [
+              "432013313",
+              -287
+            ]
+          },
+          "steps": [
+            {
+              "degree": 4,
+              "constant": {
+                "display": "[+/- 18.8]",
+                "midpoint": [
+                  "-6400001",
+                  -26
+                ],
+                "radius": [
+                  "627148825",
+                  -25
+                ]
+              },
+              "margin": {
+                "display": "[-17.7858589142560958862305 +/- 3.13e-23]",
+                "midpoint": [
+                  "-1193588787",
+                  -26
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[+/- 18.8]",
+                  "midpoint": [
+                    "-6400001",
+                    -26
+                  ],
+                  "radius": [
+                    "627148825",
+                    -25
+                  ]
+                },
+                {
+                  "display": "[+/- 11.6]",
+                  "midpoint": [
+                    "-4095999",
+                    -27
+                  ],
+                  "radius": [
+                    "769720351",
+                    -26
+                  ]
+                },
+                {
+                  "display": "[+/- 6.07]",
+                  "midpoint": [
+                    "131071999",
+                    -28
+                  ],
+                  "radius": [
+                    "748683293",
+                    -27
+                  ]
+                },
+                {
+                  "display": "[+/- 1.69]",
+                  "midpoint": [
+                    "-1006632961",
+                    -30
+                  ],
+                  "radius": [
+                    "100663299",
+                    -27
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "reason": "strict Schur margin not certified"
+        },
+        "mathematical_basis": "Exact similarity preserves characteristic polynomial. The nonconstant autonomous orbit supplies an exact z-1 factor. All input radii remain in the transformed matrix."
+      }
+    },
+    {
+      "name": "exact_expanding_root",
+      "certificate": {
+        "passed": false,
+        "basis_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\results\\motor-saddle-proof\\independent-similarity-controls\\nonorthogonal-exact-basis.json",
+        "basis_sha256": "86f08911b20c1ed179df0c38faa3d850b785c77002c2fff1562759cb5c4269c0",
+        "exact_dyadic_basis": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "basis_determinant": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "inverse_enclosure": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-16384.0000000000000000000",
+              "midpoint": [
+                "-1",
+                14
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16777216.0000000000000000",
+              "midpoint": [
+                "1",
+                24
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16.0000000000000000000000",
+              "midpoint": [
+                "1",
+                4
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "similar_monodromy": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.25000000000000000000000",
+              "midpoint": [
+                "5",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.500000000000000000000000",
+              "midpoint": [
+                "-1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.500000000000000000000000",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "characteristic_coefficients": [
+          {
+            "display": "0.0976562500000000000000000",
+            "midpoint": [
+              "25",
+              -8
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "0.0585937500000000000000000",
+            "midpoint": [
+              "15",
+              -8
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-0.656250000000000000000000",
+            "midpoint": [
+              "-21",
+              -5
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "2.00000000000000000000000",
+            "midpoint": [
+              "1",
+              1
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-2.50000000000000000000000",
+            "midpoint": [
+              "-5",
+              -1
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "1.00000000000000000000000",
+            "midpoint": [
+              "1",
+              0
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          }
+        ],
+        "exact_flow_division_remainder": {
+          "display": "0",
+          "midpoint": [
+            "0",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "nonflow_schur": {
+          "passed": false,
+          "radius": {
+            "display": "[0.800000000000000000000000 +/- 1e-29]",
+            "midpoint": [
+              "92633671389852956338856788006950326282615987732512451231566067206330503711949",
+              -256
+            ],
+            "radius": [
+              "432013313",
+              -287
+            ]
+          },
+          "steps": [
+            {
+              "degree": 4,
+              "constant": {
+                "display": "[-0.238418579101562500000000 +/- 3e-29]",
+                "midpoint": [
+                  "-110427941548649020598956093796432407239217743554726184882600387580788735999999",
+                  -258
+                ],
+                "radius": [
+                  "166251003",
+                  -284
+                ]
+              },
+              "margin": {
+                "display": "[0.761581420898437500000000 +/- 3e-29]",
+                "midpoint": [
+                  "88185103850153940273831961559579806043465548776959017818807487112715945639935",
+                  -256
+                ],
+                "radius": [
+                  "1",
+                  -256
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.238418579101562500000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-110427941548649020598956093796432407239217743554726184882600387580788735999999",
+                    -258
+                  ],
+                  "radius": [
+                    "166251003",
+                    -284
+                  ]
+                },
+                {
+                  "display": "[-0.305175781250000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-70673882591135373183331900029716740633099355875024758324864248051704791039999",
+                    -257
+                  ],
+                  "radius": [
+                    "222781241",
+                    -283
+                  ]
+                },
+                {
+                  "display": "[0.781250000000000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "90462569716653277674664832038037428010367175520031690655826237506182132531199",
+                    -256
+                  ],
+                  "radius": [
+                    "513231515",
+                    -283
+                  ]
+                },
+                {
+                  "display": "[-1.87500000000000000000000 +/- 3e-28]",
+                  "midpoint": [
+                    "-108555083659983933209597798445644913612440610624038028786991485007418559037439",
+                    -255
+                  ],
+                  "radius": [
+                    "87312693",
+                    -279
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 3,
+              "constant": {
+                "display": "[-0.797545849870306633023549 +/- 4.10e-25]",
+                "midpoint": [
+                  "-23087375054758432718858193074195113942195405579412057436655773774407262597877",
+                  -254
+                ],
+                "radius": [
+                  "314102619",
+                  -281
+                ]
+              },
+              "margin": {
+                "display": "[0.202454150129693366976451 +/- 4.10e-25]",
+                "midpoint": [
+                  "11721294509141232274069106355953726042244181173996167146417244455142039624209",
+                  -255
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.797545849870306633023549 +/- 4.10e-25]",
+                  "midpoint": [
+                    "-23087375054758432718858193074195113942195405579412057436655773774407262597877",
+                    -254
+                  ],
+                  "radius": [
+                    "314102619",
+                    -281
+                  ]
+                },
+                {
+                  "display": "[1.02582597022700406723969 +/- 3.36e-24]",
+                  "midpoint": [
+                    "29695633071620430394536447037951658362322049322197495936868767912910742309133",
+                    -254
+                  ],
+                  "radius": [
+                    "346828005",
+                    -281
+                  ]
+                },
+                {
+                  "display": "[-2.06514974829442659211720 +/- 1.95e-24]",
+                  "midpoint": [
+                    "-14945500246433082712723769860272183168789890827586332415542157920639819414637",
+                    -252
+                  ],
+                  "radius": [
+                    "350345491",
+                    -280
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 2,
+              "constant": {
+                "display": "[-1.70703612617947204262383 +/- 4.10e-24]",
+                "midpoint": [
+                  "-98830639726947987824006504485174253500028282612407701487296653491006519458741",
+                  -255
+                ],
+                "radius": [
+                  "109847191",
+                  -275
+                ]
+              },
+              "margin": {
+                "display": "[-0.707036126179472042623826 +/- 9.00e-26]",
+                "midpoint": [
+                  "-20467297554144945056110505990415149786696645139793709733783930743524977319439",
+                  -254
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-1.70703612617947204262383 +/- 4.10e-24]",
+                  "midpoint": [
+                    "-98830639726947987824006504485174253500028282612407701487296653491006519458741",
+                    -255
+                  ],
+                  "radius": [
+                    "109847191",
+                    -275
+                  ]
+                },
+                {
+                  "display": "[-3.42658932630754961214820 +/- 3.14e-24]",
+                  "midpoint": [
+                    "-49596492131429871032513138490170305997268282629888759351747592349961475153747",
+                    -253
+                  ],
+                  "radius": [
+                    "275965037",
+                    -276
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "reason": "strict Schur margin not certified"
+        },
+        "mathematical_basis": "Exact similarity preserves characteristic polynomial. The nonconstant autonomous orbit supplies an exact z-1 factor. All input radii remain in the transformed matrix."
+      }
+    },
+    {
+      "name": "extra_exact_unit_root",
+      "certificate": {
+        "passed": false,
+        "basis_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\results\\motor-saddle-proof\\independent-similarity-controls\\nonorthogonal-exact-basis.json",
+        "basis_sha256": "86f08911b20c1ed179df0c38faa3d850b785c77002c2fff1562759cb5c4269c0",
+        "exact_dyadic_basis": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "64.0000000000000000000000",
+              "midpoint": [
+                "1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "basis_determinant": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "inverse_enclosure": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-16384.0000000000000000000",
+              "midpoint": [
+                "-1",
+                14
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16777216.0000000000000000",
+              "midpoint": [
+                "1",
+                24
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "256.000000000000000000000",
+              "midpoint": [
+                "1",
+                8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "4096.00000000000000000000",
+              "midpoint": [
+                "1",
+                12
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-262144.000000000000000000",
+              "midpoint": [
+                "-1",
+                18
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.00390625000000000000000000",
+              "midpoint": [
+                "1",
+                -8
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "16.0000000000000000000000",
+              "midpoint": [
+                "1",
+                4
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-64.0000000000000000000000",
+              "midpoint": [
+                "-1",
+                6
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "similar_monodromy": [
+          [
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "1.00000000000000000000000",
+              "midpoint": [
+                "1",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.250000000000000000000000",
+              "midpoint": [
+                "-1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "-0.500000000000000000000000",
+              "midpoint": [
+                "-1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ],
+          [
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0",
+              "midpoint": [
+                "0",
+                0
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.500000000000000000000000",
+              "midpoint": [
+                "1",
+                -1
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            },
+            {
+              "display": "0.250000000000000000000000",
+              "midpoint": [
+                "1",
+                -2
+              ],
+              "radius": [
+                "0",
+                0
+              ]
+            }
+          ]
+        ],
+        "characteristic_coefficients": [
+          {
+            "display": "0.0781250000000000000000000",
+            "midpoint": [
+              "5",
+              -6
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "0.0312500000000000000000000",
+            "midpoint": [
+              "1",
+              -5
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-0.546875000000000000000000",
+            "midpoint": [
+              "-35",
+              -6
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "1.68750000000000000000000",
+            "midpoint": [
+              "27",
+              -4
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "-2.25000000000000000000000",
+            "midpoint": [
+              "-9",
+              -2
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "1.00000000000000000000000",
+            "midpoint": [
+              "1",
+              0
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          }
+        ],
+        "exact_flow_division_remainder": {
+          "display": "0",
+          "midpoint": [
+            "0",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "nonflow_schur": {
+          "passed": false,
+          "radius": {
+            "display": "[0.800000000000000000000000 +/- 1e-29]",
+            "midpoint": [
+              "92633671389852956338856788006950326282615987732512451231566067206330503711949",
+              -256
+            ],
+            "radius": [
+              "432013313",
+              -287
+            ]
+          },
+          "steps": [
+            {
+              "degree": 4,
+              "constant": {
+                "display": "[-0.190734863281250000000000 +/- 3e-29]",
+                "midpoint": [
+                  "-88342353238919216479164875037145925791374194843780947906080310064630988799999",
+                  -258
+                ],
+                "radius": [
+                  "585690301",
+                  -286
+                ]
+              },
+              "margin": {
+                "display": "[0.809265136718750000000000 +/- 3e-29]",
+                "midpoint": [
+                  "93706500927586391303779766249401426405426435954695327062937506491755382439935",
+                  -256
+                ],
+                "radius": [
+                  "1",
+                  -256
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.190734863281250000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-88342353238919216479164875037145925791374194843780947906080310064630988799999",
+                    -258
+                  ],
+                  "radius": [
+                    "585690301",
+                    -286
+                  ]
+                },
+                {
+                  "display": "[-0.213623046875000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "-98943435627589522456664660041603436886339098225034661654809947272386707455999",
+                    -258
+                  ],
+                  "radius": [
+                    "252281691",
+                    -284
+                  ]
+                },
+                {
+                  "display": "[0.683593750000000000000000 +/- 3e-29]",
+                  "midpoint": [
+                    "79154748502071617965331728033282749509071278580027729323847957817909365964799",
+                    -256
+                  ],
+                  "radius": [
+                    "157424323",
+                    -281
+                  ]
+                },
+                {
+                  "display": "[-1.56250000000000000000000 +/- 3e-28]",
+                  "midpoint": [
+                    "-90462569716653277674664832038037428010367175520031690655826237506182132531199",
+                    -255
+                  ],
+                  "radius": [
+                    "157940331",
+                    -280
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 3,
+              "constant": {
+                "display": "[-0.530962576768374662138315 +/- 1.54e-25]",
+                "midpoint": [
+                  "-61481266070838989894631095827457481951961814881758428285497516786110324853719",
+                  -256
+                ],
+                "radius": [
+                  "117104215",
+                  -280
+                ]
+              },
+              "margin": {
+                "display": "[0.469037423231625337861685 +/- 1.54e-25]",
+                "midpoint": [
+                  "27155411583238602764469944590615212950654084891941067876980033610901402393105",
+                  -255
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.530962576768374662138315 +/- 1.54e-25]",
+                  "midpoint": [
+                    "-61481266070838989894631095827457481951961814881758428285497516786110324853719",
+                    -256
+                  ],
+                  "radius": [
+                    "117104215",
+                    -280
+                  ]
+                },
+                {
+                  "display": "[0.844709254091560449505996 +/- 7.28e-26]",
+                  "midpoint": [
+                    "48905324664678384069084962368855289537545208094696972518362053732884344670309",
+                    -255
+                  ],
+                  "radius": [
+                    "80492369",
+                    -279
+                  ]
+                },
+                {
+                  "display": "[-1.66377307448737614863173 +/- 1.86e-24]",
+                  "midpoint": [
+                    "-48162940077921546116090994120532456545159794295439049191319181679674848693087",
+                    -254
+                  ],
+                  "radius": [
+                    "550651151",
+                    -281
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 2,
+              "constant": {
+                "display": "[-0.0538826488366449782296424 +/- 1.91e-26]",
+                "midpoint": [
+                  "-3119592241217883500913351224765405279796604183536491379582183909730542585885",
+                  -255
+                ],
+                "radius": [
+                  "366741107",
+                  -279
+                ]
+              },
+              "margin": {
+                "display": "[0.946117351163355021770358 +/- 3.81e-25]",
+                "midpoint": [
+                  "54776452377440214210872141279578548646838388149283790640146608094226022234061",
+                  -255
+                ],
+                "radius": [
+                  "1",
+                  -256
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.0538826488366449782296424 +/- 1.91e-26]",
+                  "midpoint": [
+                    "-3119592241217883500913351224765405279796604183536491379582183909730542585885",
+                    -255
+                  ],
+                  "radius": [
+                    "366741107",
+                    -279
+                  ]
+                },
+                {
+                  "display": "[-1.69238274455678663156498 +/- 2.48e-24]",
+                  "midpoint": [
+                    "-97982266890706768667449939185889939178299615936949375910311605883322396935027",
+                    -255
+                  ],
+                  "radius": [
+                    "249579141",
+                    -278
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 1,
+              "constant": {
+                "display": "[-1.78876620587902386863797 +/- 1.52e-24]",
+                "midpoint": [
+                  "-51781244033959861377979586230487048417123194635862314751974198961557117479443",
+                  -254
+                ],
+                "radius": [
+                  "4963839",
+                  -271
+                ]
+              },
+              "margin": {
+                "display": "[-0.788766205879023868637972 +/- 4.87e-25]",
+                "midpoint": [
+                  "-22833221724630812522086839978315071453805698469452173742109802959578835069497",
+                  -254
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-1.78876620587902386863797 +/- 1.52e-24]",
+                  "midpoint": [
+                    "-51781244033959861377979586230487048417123194635862314751974198961557117479443",
+                    -254
+                  ],
+                  "radius": [
+                    "4963839",
+                    -271
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "reason": "strict Schur margin not certified"
+        },
+        "mathematical_basis": "Exact similarity preserves characteristic polynomial. The nonconstant autonomous orbit supplies an exact z-1 factor. All input radii remain in the transformed matrix."
+      }
+    }
+  ],
+  "source_sha256": {
+    "certify_motor_saddle_spectrum.py": "1f425404a2e309447773bf3c922e83f9eea02d618fa7c3a85db248a7f2c92668",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+  },
+  "helper_sha256": "14d1311988ad88efaf0b91faa535d847f6221e0f052ade88447f85b89faadc2f",
+  "actual_certificate_sha256": "a849f4e913ff5bd37b2f6b43c922caca5d95aad8de02ba50acba7b83d7a1c1c7",
+  "limitation": "Known-matrix implementation controls; these do not establish the motor orbit or replace its validated monodromy enclosure."
+}

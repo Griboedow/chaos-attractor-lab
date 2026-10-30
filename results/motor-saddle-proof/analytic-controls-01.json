@@ -1,0 +1,393 @@
+{
+  "created_utc": "2026-10-30T10:26:06.652594+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "weighted field, Jacobian, permutation and full23D decomposition",
+      "cases": 8,
+      "components": 7144,
+      "maximum_error": {
+        "display": "[1.43776073202898849842320e-112 +/- 4.93e-136]",
+        "midpoint": [
+          "742531495",
+          -401
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "embedding_determinant": {
+        "display": "32.0000000000000000000000",
+        "midpoint": [
+          "1",
+          5
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "matrix recurrence against exact rational and scalar jets",
+      "coefficients": 3991,
+      "generic_error": {
+        "display": "[8.06490510327972720375326e-116 +/- 1.18e-140]",
+        "midpoint": [
+          "853016585",
+          -412
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "one expanding root plus stable quadratic on known polynomials",
+      "good": {
+        "passed": true,
+        "expanding_root_bracket": [
+          "1.12",
+          "1.13"
+        ],
+        "left": {
+          "display": "[-0.00541200000000000000000000 +/- 3e-31]",
+          "midpoint": [
+            "-1705949260279095371974833320175817903304732391454071978935489311230222769818743230631792071771497307584363765468305",
+            -387
+          ],
+          "radius": [
+            "1001065871",
+            -411
+          ]
+        },
+        "right": {
+          "display": "[0.00551950000000000000000000 +/- 1e-31]",
+          "midpoint": [
+            "3479669971215989248194786589323882822354201934453344526139849687115748181084461663515216681501396670070914931080011",
+            -388
+          ],
+          "radius": [
+            "1007072251",
+            -411
+          ]
+        },
+        "exact_root_division_remainder": {
+          "display": "[+/- 7.25e-3]",
+          "midpoint": [
+            "17",
+            -387
+          ],
+          "radius": [
+            "249090933",
+            -35
+          ]
+        },
+        "remaining_quadratic_schur": {
+          "passed": true,
+          "radius": {
+            "display": "[0.900000000000000000000000 +/- 3e-29]",
+            "midpoint": [
+              "17730902788377515645525568045064626212285882671709451000576732031910574797173744775136419814698212038362982595638067",
+              -383
+            ],
+            "radius": [
+              "429916161",
+              -414
+            ]
+          },
+          "steps": [
+            {
+              "degree": 2,
+              "constant": {
+                "display": "[+/- 0.0817]",
+                "midpoint": [
+                  "-1272582903",
+                  -34
+                ],
+                "radius": [
+                  "130439757",
+                  -34
+                ]
+              },
+              "margin": {
+                "display": "[0.918333332752808928489685 +/- 5.86e-26]",
+                "midpoint": [
+                  "3944211631",
+                  -32
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[+/- 0.0817]",
+                  "midpoint": [
+                    "-1272582903",
+                    -34
+                  ],
+                  "radius": [
+                    "130439757",
+                    -34
+                  ]
+                },
+                {
+                  "display": "[-0.11 +/- 6.67e-3]",
+                  "midpoint": [
+                    "-1908874355",
+                    -34
+                  ],
+                  "radius": [
+                    "95443729",
+                    -34
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 1,
+              "constant": {
+                "display": "[-0.12 +/- 7.05e-3]",
+                "midpoint": [
+                  "-1030863987",
+                  -33
+                ],
+                "radius": [
+                  "60416281",
+                  -33
+                ]
+              },
+              "margin": {
+                "display": "[0.872958256397396326065063 +/- 4.77e-25]",
+                "midpoint": [
+                  "1874663581",
+                  -31
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.12 +/- 7.05e-3]",
+                  "midpoint": [
+                    "-1030863987",
+                    -33
+                  ],
+                  "radius": [
+                    "60416281",
+                    -33
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "bad": {
+        "passed": false,
+        "expanding_root_bracket": [
+          "1.12",
+          "1.13"
+        ],
+        "left": {
+          "display": "[0.00250800000000000000000000 +/- 1e-31]",
+          "midpoint": [
+            "49410115770278676932197916285580091711569993045163670121607159928924135101457502106713489883625684213571511499845",
+            -383
+          ],
+          "radius": [
+            "370466121",
+            -409
+          ]
+        },
+        "right": {
+          "display": "[-0.00246050000000000000000000 +/- 1e-31]",
+          "midpoint": [
+            "-193897272492457232203625156332806723534797396949960463052973551842293196837537773418769604240288669868409416340301",
+            -385
+          ],
+          "radius": [
+            "46847841",
+            -406
+          ]
+        },
+        "exact_root_division_remainder": {
+          "display": "[+/- 0.0153]",
+          "midpoint": [
+            "1",
+            -385
+          ],
+          "radius": [
+            "523281655",
+            -35
+          ]
+        },
+        "remaining_quadratic_schur": {
+          "passed": false,
+          "radius": {
+            "display": "[0.900000000000000000000000 +/- 3e-29]",
+            "midpoint": [
+              "17730902788377515645525568045064626212285882671709451000576732031910574797173744775136419814698212038362982595638067",
+              -383
+            ],
+            "radius": [
+              "429916161",
+              -414
+            ]
+          },
+          "steps": [
+            {
+              "degree": 2,
+              "constant": {
+                "display": "[-0.4 +/- 0.0447]",
+                "midpoint": [
+                  "-397682157",
+                  -30
+                ],
+                "radius": [
+                  "32212259",
+                  -31
+                ]
+              },
+              "margin": {
+                "display": "[0.614629627671092748641968 +/- 2.27e-25]",
+                "midpoint": [
+                  "1319907075",
+                  -31
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-0.4 +/- 0.0447]",
+                  "midpoint": [
+                    "-397682157",
+                    -30
+                  ],
+                  "radius": [
+                    "32212259",
+                    -31
+                  ]
+                },
+                {
+                  "display": "[-1.4 +/- 0.0501]",
+                  "midpoint": [
+                    "-1550960413",
+                    -30
+                  ],
+                  "radius": [
+                    "5965239",
+                    -30
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "degree": 1,
+              "constant": {
+                "display": "[-2.3 +/- 0.0693]",
+                "midpoint": [
+                  "-1232097757",
+                  -29
+                ],
+                "radius": [
+                  "34458219",
+                  -29
+                ]
+              },
+              "margin": {
+                "display": "[-1.35914434492588043212891 +/- 3.75e-24]",
+                "midpoint": [
+                  "-91210633",
+                  -26
+                ],
+                "radius": [
+                  "0",
+                  0
+                ]
+              },
+              "coefficients": [
+                {
+                  "display": "[-2.3 +/- 0.0693]",
+                  "midpoint": [
+                    "-1232097757",
+                    -29
+                  ],
+                  "radius": [
+                    "34458219",
+                    -29
+                  ]
+                },
+                {
+                  "display": "1.00000000000000000000000",
+                  "midpoint": [
+                    "1",
+                    0
+                  ],
+                  "radius": [
+                    "0",
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "reason": "strict Schur margin not certified"
+        }
+      },
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "check_motor_saddle_proof.py": "e2b8cf475c13f69660efbe64a1b1c4cc6110d7ffe048249ddf07072acbc5b162",
+    "validate_motor_saddle_cycle.py": "ac5cc00a787300b9b0f3e60377c47947f12878fe01092c8b8007cd88f7e46fe1",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "check_motor_paired_proof.py": "89f123864eb00f12d2f9774ed7e05e6387673e563c2abff37aafcec469608c7c",
+    "verify_motor_certificate.py": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+  }
+}

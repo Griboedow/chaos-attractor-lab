@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-10-30T10:35:14.535803+00:00",
+  "status": "passed",
+  "precision_bits": 256,
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "python_flint": "0.9.0",
+  "source_sha256": {
+    "validate_motor_saddle_cycle.py": "cbcaef315c6e5cb54bb385726b47c24c114cd07c8a21f6bb7bdf70d37fd024e8",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "check_motor_saddle_proof.py": "e2b8cf475c13f69660efbe64a1b1c4cc6110d7ffe048249ddf07072acbc5b162"
+  },
+  "helper_sha256": "a4f7f12a74a9acb4f606f56819eb2547edf6085873c067cb505f4e6af0498220",
+  "checks": [
+    {
+      "name": "nonconstant matrix/scalar Taylor comparison",
+      "seed": 1,
+      "components": 2916,
+      "interval_overlap": true,
+      "difference": {
+        "display": "[2.59234899995239717296186e-76 +/- 1.36e-101]",
+        "midpoint": [
+          "62950947",
+          -277
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "nonconstant matrix/scalar Taylor comparison",
+      "seed": 7,
+      "components": 2916,
+      "interval_overlap": true,
+      "difference": {
+        "display": "[3.97420686607818805618597e-76 +/- 4.04e-100]",
+        "midpoint": [
+          "772056805",
+          -280
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "four-segment residual and 68-column Jacobian layout",
+      "exact_derivative_entries": 4624,
+      "exact_residual_entries": 68,
+      "passed": true
+    },
+    {
+      "name": "noncommuting core and pair segment composition",
+      "reverse_order_distinguished": true,
+      "passed": true
+    },
+    {
+      "name": "failed-attempt source snapshots and multiple-shooting seed provenance",
+      "snapshots": {
+        "validate_motor_saddle_cycle.py": true,
+        "validate_motor_cycle.py": true,
+        "validate_motor_paired_cycle.py": true
+      },
+      "seed_npz_matches": true,
+      "passed": true
+    }
+  ],
+  "limitation": "Bounded implementation controls and source review; not an orbit existence or Floquet certificate."
+}
