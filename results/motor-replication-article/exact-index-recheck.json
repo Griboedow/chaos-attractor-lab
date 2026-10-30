@@ -1,0 +1,480 @@
+{
+  "created_utc": "2026-10-30T14:16:28.024753+00:00",
+  "status": "exact_replication_index_certified",
+  "bits": 768,
+  "input_sha256": "e2a4cc5d2a426bce34137c5bd2a9b6aa11d0d9d05bc8cfc194aba9a27027b876",
+  "cycle_sha256": "9ec5f039e5c17047d879a8775593eba406e48965bea6860108b759f28b9a1fb0",
+  "source_sha256": "850cf8a004ba60e2ca13413680226206374fe6c6547cf4249cdcc4044b26fa47",
+  "blocks": {
+    "2": {
+      "passed": true,
+      "characteristic_coefficients": [
+        {
+          "display": "[-5.7e-14 +/- 5.56e-16]",
+          "midpoint": [
+            "-2187735351507",
+            -85
+          ],
+          "radius": [
+            "1036239377",
+            -83
+          ]
+        },
+        {
+          "display": "[9.12518228685e-5 +/- 3.42e-17]",
+          "midpoint": [
+            "56482142593342780976939",
+            -89
+          ],
+          "radius": [
+            "67197741",
+            -81
+          ]
+        },
+        {
+          "display": "[23.083473127371999465 +/- 3.58e-19]",
+          "midpoint": [
+            "1828861160329082425082589180621",
+            -96
+          ],
+          "radius": [
+            "865024887",
+            -91
+          ]
+        },
+        {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        }
+      ],
+      "independent_coefficient_control": true,
+      "root_left": {
+        "display": "[-23.0834691796917468309402 +/- 4.66e-23]",
+        "midpoint": [
+          "-99142745205",
+          -32
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "root_right": {
+        "display": "[-23.0834691724739968776703 +/- 1.20e-23]",
+        "midpoint": [
+          "-49571372587",
+          -31
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "polynomial_left": {
+        "display": "[-2.90084020e-6 +/- 1.78e-15]",
+        "midpoint": [
+          "-4239582703168969057922404935452681539114011",
+          -160
+        ],
+        "radius": [
+          "565084855",
+          -79
+        ]
+      },
+      "polynomial_right": {
+        "display": "[9.4511230e-7 +/- 4.19e-15]",
+        "midpoint": [
+          "345320792288887238432003627635787839319717",
+          -158
+        ],
+        "radius": [
+          "565084855",
+          -79
+        ]
+      },
+      "root_enclosure": {
+        "display": "[-23.08346918 +/- 7.53e-9]",
+        "midpoint": [
+          "-198285490379",
+          -33
+        ],
+        "radius": [
+          "1040187393",
+          -58
+        ]
+      },
+      "bisection_steps": 32,
+      "quotient_linear": {
+        "display": "[3.95e-6 +/- 4.90e-9]",
+        "midpoint": [
+          "313053377143185203229389",
+          -96
+        ],
+        "radius": [
+          "520093697",
+          -57
+        ]
+      },
+      "quotient_constant": {
+        "display": "[+/- 1.26e-7]",
+        "midpoint": [
+          "28830141443955012736675118309233",
+          -129
+        ],
+        "radius": [
+          "375174029",
+          -52
+        ]
+      },
+      "unit_disk_jury": {
+        "radius": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "margins": [
+          {
+            "display": "[0.999999874332545340569678 +/- 3.72e-25]",
+            "midpoint": [
+              "680564648317039094045415900341477056655",
+              -129
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "[1.0000040 +/- 9.33e-8]",
+            "midpoint": [
+              "680567451780051835550476234217336856433",
+              -129
+            ],
+            "radius": [
+              "195713479",
+              -51
+            ]
+          },
+          {
+            "display": "[0.9999961 +/- 9.59e-8]",
+            "midpoint": [
+              "680562073563984906213047668859972607857",
+              -129
+            ],
+            "radius": [
+              "195713479",
+              -51
+            ]
+          }
+        ],
+        "passed": true
+      },
+      "sharper_jury": {
+        "radius": {
+          "display": "[0.130000000000000000000000 +/- 3e-29]",
+          "midpoint": [
+            "807309407996368646277469334000501328733580728900682237792307059773546495396915980892056772590896168534253619962508158067209221622939703483551029383021414192386316587530841950886137948528431191309136759580732563750464280363984350085",
+            -770
+          ],
+          "radius": [
+            "515899393",
+            -802
+          ]
+        },
+        "margins": [
+          {
+            "display": "[0.999992564055908417230967 +/- 2.67e-25]",
+            "midpoint": [
+              "140736441839233",
+              -47
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "[1.00003 +/- 7.86e-6]",
+            "midpoint": [
+              "70371059391259",
+              -46
+            ],
+            "radius": [
+              "348822971",
+              -46
+            ]
+          },
+          {
+            "display": "[0.99997 +/- 7.07e-6]",
+            "midpoint": [
+              "70366781741201",
+              -46
+            ],
+            "radius": [
+              "348822971",
+              -46
+            ]
+          }
+        ],
+        "passed": true
+      },
+      "count": {
+        "unstable": 1,
+        "neutral": 0,
+        "stable": 2
+      }
+    },
+    "4": {
+      "passed": true,
+      "characteristic_coefficients": [
+        {
+          "display": "[+/- 9.63e-14]",
+          "midpoint": [
+            "-17091682441",
+            -78
+          ],
+          "radius": [
+            "749729957",
+            -74
+          ]
+        },
+        {
+          "display": "[9.125182287e-5 +/- 2.24e-15]",
+          "midpoint": [
+            "441266739010490476385",
+            -82
+          ],
+          "radius": [
+            "443143109",
+            -79
+          ]
+        },
+        {
+          "display": "[23.08347312737199946 +/- 8.32e-18]",
+          "midpoint": [
+            "114303822520567651567661823791",
+            -92
+          ],
+          "radius": [
+            "128537075",
+            -85
+          ]
+        },
+        {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        }
+      ],
+      "independent_coefficient_control": true,
+      "root_left": {
+        "display": "[-23.0834691796917468309402 +/- 4.66e-23]",
+        "midpoint": [
+          "-99142745205",
+          -32
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "root_right": {
+        "display": "[-23.0834691724739968776703 +/- 1.20e-23]",
+        "midpoint": [
+          "-49571372587",
+          -31
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "polynomial_left": {
+        "display": "[-2.9008402e-6 +/- 5.93e-14]",
+        "midpoint": [
+          "-264973918948060569482145086204340157712329",
+          -156
+        ],
+        "radius": [
+          "551418807",
+          -73
+        ]
+      },
+      "polynomial_right": {
+        "display": "[9.451123e-7 +/- 6.17e-14]",
+        "midpoint": [
+          "21582549518055451561501532380042489446007",
+          -154
+        ],
+        "radius": [
+          "551418807",
+          -73
+        ]
+      },
+      "root_enclosure": {
+        "display": "[-23.08346918 +/- 7.53e-9]",
+        "midpoint": [
+          "-198285490379",
+          -33
+        ],
+        "radius": [
+          "1040187393",
+          -58
+        ]
+      },
+      "bisection_steps": 32,
+      "quotient_linear": {
+        "display": "[3.95e-6 +/- 4.90e-9]",
+        "midpoint": [
+          "19565836071449075201839",
+          -92
+        ],
+        "radius": [
+          "520093697",
+          -57
+        ]
+      },
+      "quotient_constant": {
+        "display": "[+/- 1.26e-7]",
+        "midpoint": [
+          "1801883840247188319041786951099",
+          -125
+        ],
+        "radius": [
+          "23448377",
+          -48
+        ]
+      },
+      "unit_disk_jury": {
+        "radius": {
+          "display": "1.00000000000000000000000",
+          "midpoint": [
+            "1",
+            0
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "margins": [
+          {
+            "display": "[0.999999874332544674435863 +/- 5.59e-26]",
+            "midpoint": [
+              "42535290519814915043639573553878977093",
+              -125
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "[1.0000040 +/- 9.33e-8]",
+            "midpoint": [
+              "42535465736253239721904787656966092219",
+              -125
+            ],
+            "radius": [
+              "391426961",
+              -52
+            ]
+          },
+          {
+            "display": "[0.9999961 +/- 9.59e-8]",
+            "midpoint": [
+              "42535129597749056638315502284549862843",
+              -125
+            ],
+            "radius": [
+              "391426961",
+              -52
+            ]
+          }
+        ],
+        "passed": true
+      },
+      "sharper_jury": {
+        "radius": {
+          "display": "[0.130000000000000000000000 +/- 3e-29]",
+          "midpoint": [
+            "807309407996368646277469334000501328733580728900682237792307059773546495396915980892056772590896168534253619962508158067209221622939703483551029383021414192386316587530841950886137948528431191309136759580732563750464280363984350085",
+            -770
+          ],
+          "radius": [
+            "515899393",
+            -802
+          ]
+        },
+        "margins": [
+          {
+            "display": "[0.999992564055862231953142 +/- 3.28e-25]",
+            "midpoint": [
+              "281472883678453",
+              -48
+            ],
+            "radius": [
+              "0",
+              0
+            ]
+          },
+          {
+            "display": "[1.00003 +/- 7.86e-6]",
+            "midpoint": [
+              "281484237565037",
+              -48
+            ],
+            "radius": [
+              "174411487",
+              -45
+            ]
+          },
+          {
+            "display": "[0.99997 +/- 7.07e-6]",
+            "midpoint": [
+              "281467126964805",
+              -48
+            ],
+            "radius": [
+              "174411487",
+              -45
+            ]
+          }
+        ],
+        "passed": true
+      },
+      "count": {
+        "unstable": 1,
+        "neutral": 0,
+        "stable": 2
+      }
+    }
+  },
+  "conclusion": "For every integer k>=1 at fixed normalized parameters and weights, N=8k has 2k-2 unstable, 1 neutral and 22k stable Floquet directions.",
+  "decomposition": "13 stable quotient directions; 3(2k-1) copies of stable 3D paired blocks; 2(k-1) copies of singleton blocks with index (1,0,2).",
+  "mathematical_basis": "For a real root u in the certified bracket, p(z)=(z-u)[z^2+(p2+u)z+p1+u(p2+u)]. Interval Jury inequalities hold for the entire enclosing quadratic coefficient box.",
+  "limitations": [
+    "Depends on the preserved validated periodic orbit and variational matrix enclosures.",
+    "Spectral replay, not a fresh integration.",
+    "No least period, nonlinear destination, physical N-variation or historical-priority assertion."
+  ]
+}

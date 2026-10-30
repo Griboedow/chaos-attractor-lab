@@ -21,6 +21,10 @@ results/motor-five-cycle-proof/** -text
 results/motor-five-replication-proof/** -text
 results/motor-original-seed-log/** -text
 results/motor-cycle-attraction-visual/** -text
+results/motor-replication-article/** -text whitespace=cr-at-eol
+papers/replication-instability/** -text whitespace=cr-at-eol
+# Native Matplotlib SVG path formatting contains intentional trailing spaces.
+papers/replication-instability/figures/*.svg -whitespace
 docs/assets/motor-cycle-attraction.json -text
 # This executed wrapper is also hashed in its frozen source snapshot.
 research/motor_log_original_scalar_audit.py -text

@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-30T14:48:00.811369+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "weighted field, quotient and all three internal contrasts in full23D, and permutation equivariance",
+      "components": 6240,
+      "maximum_error": {
+        "display": "[9.55667156165490315603444e-113 +/- 2.29e-137]",
+        "midpoint": [
+          "987108559",
+          -402
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "optimized matrix jets versus full generic sparse recurrence",
+      "components": 2844,
+      "maximum_error": {
+        "display": "[2.96807359932114552296168e-112 +/- 4.99e-136]",
+        "midpoint": [
+          "766430769",
+          -400
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "exact rational constant-matrix coefficients",
+      "components": 2453,
+      "passed": true
+    },
+    {
+      "name": "exact restriction right inverse and permutation order six",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "check_motor_five_proof.py": "71dd4b9ac4f0ed8aae7caebff61d3b68d978f07d7c44514c44dcb9d15d8ada71",
+    "validate_motor_five_cycle.py": "4311ec73aa45c180f44bf9c5afc668e809d797129a8bf9515ebe9e42ccbce997",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+    "certify_motor_saddle_spectrum.py": "27e84d28a4ed750b72f6b1b1ad1f5fee6f7f676eb0aff3af7cc336d3ff650125"
+  }
+}
