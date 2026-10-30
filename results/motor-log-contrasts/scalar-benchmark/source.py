@@ -1,0 +1,141 @@
+"""Scalar evaluation and independent audits of the motor log-coordinate RHS."""
+
+import argparse
+import cmath
+import datetime
+import math
+from pathlib import Path
+import time
+
+import numpy as np
+from scipy.integrate import solve_ivp
+
+
+def rhs(t, z, p, tracker=None):
+    rho, r, b = map(float, p)
+    q = z.tolist()
+    c, s = q[:4], q[4:8]
+    x = q[8:11]+[-sum(q[8:11])]
+    average_s = sum(s)/4
+    exponential = cmath.exp if np.iscomplexobj(z) else math.exp
+    f, weights = [0.]*27, [0.]*4
+    for j in range(4):
+        uc, us, ux, ell = q[11+j], q[15+j], q[19+j], q[23+j]
+        v = -rho*x[j]+r*(s[j]-average_s)
+        duv = -rho*ux+r*us
+        auc = -uc-v*us-s[j]*duv
+        aus = -us+v*uc+c[j]*duv
+        aux = duv
+        alpha = (uc*auc+us*aus+ux*aux)/(uc*uc+us*us+ux*ux)
+        weight = weights[j] = exponential(2*ell)
+        f[j] = 1-c[j]-v*s[j]-weight*duv*us
+        f[4+j] = b-s[j]+v*c[j]+weight*duv*uc
+        if j < 3:
+            f[8+j] = v
+        f[11+j], f[15+j], f[19+j] = auc-alpha*uc, aus-alpha*us, aux-alpha*ux
+        f[23+j] = alpha
+    if tracker is not None:
+        tracker.observe(t, z, np.array(weights), p)
+    return np.array(f)
+
+
+def push_field(z, f):
+    factor = np.exp(z[23:27])
+    return np.r_[f[:11], factor*(f[11:15]+z[11:15]*f[23:27]),
+                 factor*(f[15:19]+z[15:19]*f[23:27]),
+                 factor*(f[19:23]+z[19:23]*f[23:27])]
+
+
+def audit(args):
+    import motor_log_contrasts as log
+    import motor_pair_coordinates as pair
+    folder = args.output.resolve()
+    if folder.exists():
+        raise FileExistsError(folder)
+    folder.mkdir(parents=True)
+    data = np.load(args.source/'trajectory.npz')
+    p = data['parameters']
+    z = data['final_log_state'].copy() if 'final_log_state' in data else log.to_log(data['final_chart_state'])
+    rng = np.random.default_rng(2026103053)
+    errors = dict(field_scaled=0., jacobian_scaled=0., pushed_field_scaled=0.,
+                  original_field_derivative_scaled=0., gauge_derivative_scaled=0.)
+    for _ in range(32):
+        chart = rng.normal(size=23)
+        q = log.to_log(chart)
+        gauge = np.exp(rng.uniform(-2, 2, 4))
+        for offset in [11, 15, 19]:
+            q[offset:offset+4] *= gauge
+        q[23:27] -= np.log(gauge)
+        f, baseline = rhs(0., q, p), log.rhs(0., q, p)
+        errors['field_scaled'] = max(errors['field_scaled'], float(np.max(abs(f-baseline))/(1+np.max(abs(baseline)))))
+        pushed = push_field(q, f)
+        original = pair.EINV@pair.full_field_jac(pair.to_full(log.to_chart(q)), p, 8)[0]
+        errors['pushed_field_scaled'] = max(errors['pushed_field_scaled'], float(np.max(abs(pushed-original))/(1+np.max(abs(original)))))
+        h = 1e-28
+        js = np.column_stack([np.imag(rhs(0., q.astype(complex)+1j*h*v, p))/h for v in np.eye(27)])
+        jn = np.column_stack([np.imag(log.rhs(0., q.astype(complex)+1j*h*v, p))/h for v in np.eye(27)])
+        errors['jacobian_scaled'] = max(errors['jacobian_scaled'], float(np.max(abs(js-jn))/(1+np.max(abs(jn)))))
+        jp = np.column_stack([np.imag(push_field(q.astype(complex)+1j*h*v, rhs(0., q.astype(complex)+1j*h*v, p)))/h for v in np.eye(27)])
+        reconstruction = np.zeros((23, 27))
+        reconstruction[:11, :11] = np.eye(11)
+        for offset in [11, 15, 19]:
+            for j in range(4):
+                reconstruction[offset+j, offset+j] = math.exp(q[23+j])
+                reconstruction[offset+j, 23+j] = math.exp(q[23+j])*q[offset+j]
+        jf = pair.full_field_jac(pair.to_full(log.to_chart(q)), p, 8)[1]
+        expected_derivative = pair.EINV@jf@pair.E@reconstruction
+        errors['original_field_derivative_scaled'] = max(errors['original_field_derivative_scaled'], float(np.max(abs(jp-expected_derivative))/(1+np.max(abs(expected_derivative)))))
+        gauge_derivative = 2*(q[11:15]*f[11:15]+q[15:19]*f[15:19]+q[19:23]*f[19:23])
+        errors['gauge_derivative_scaled'] = max(errors['gauge_derivative_scaled'], float(np.max(abs(gauge_derivative))/(1+np.max(log.gauge_norm_squared(q)))))
+    if max(errors.values()) > 1e-12:
+        raise ArithmeticError(errors)
+    underflows = []
+    for ell in [-370., -372.5, -372.6, -500., -1000.]:
+        q = z.copy()
+        q[23:27] = ell
+        first, second = log.UnderflowTracker(), log.UnderflowTracker()
+        a, b = rhs(0., q, p, first), log.rhs(0., q, p, second)
+        assert first.records == second.records
+        underflows.append(dict(ell=ell, maximum_field_difference=float(np.max(abs(a-b))),
+                               exactly_equal_underflow_records=True, records=first.records))
+    timing = []
+    for name, field in [('numpy', log.rhs), ('scalar', rhs)]:
+        tracker = log.UnderflowTracker()
+        q = z.copy()
+        q[24] = -500.
+        started = time.perf_counter()
+        for _ in range(20000):
+            field(0., q, p, tracker)
+        timing.append(dict(field=name, calls=20000, wall_seconds=time.perf_counter()-started,
+                           tracking_active_underflow=True))
+    start = float(data['time'][-1])
+    checkpoints = np.linspace(start, start+200., 201)
+    kwargs = dict(method='DOP853', max_step=.025, rtol=2e-12, atol=2e-14, t_eval=checkpoints)
+    first = solve_ivp(lambda t, q: log.rhs(t, q, p), (start, start+200.), z, **kwargs)
+    second = solve_ivp(lambda t, q: rhs(t, q, p), (start, start+200.), z, **kwargs)
+    assert first.success and second.success
+    a, b = first.y.T, second.y.T
+    control = dict(duration=200., maximum_mean_difference=float(np.max(abs(a[:, :11]-b[:, :11]))),
+                   maximum_log10_norm_difference=float(np.max(abs(log.log10_norms(a)-log.log10_norms(b)))),
+                   maximum_log_state_difference=float(np.max(abs(a-b))),
+                   nfev=[first.nfev, second.nfev])
+    if max(control[k] for k in ['maximum_mean_difference', 'maximum_log10_norm_difference', 'maximum_log_state_difference']) > 1e-7:
+        raise ArithmeticError(control)
+    record = dict(created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(), status='passed',
+                  source_data=str(args.source/'trajectory.npz'), source_data_sha256=pair.sha(args.source/'trajectory.npz'),
+                  code_sha256=pair.sha(__file__), log_code_sha256=pair.sha(log.__file__), pair_code_sha256=pair.sha(pair.__file__),
+                  arbitrary_nonunit_gauges=32, errors=errors, underflow_checks=underflows,
+                  timing=timing, rhs_speed_ratio=timing[0]['wall_seconds']/timing[1]['wall_seconds'],
+                  short_numpy_scalar_control=control,
+                  scope='Same real equations; independent scalar evaluation, analytic reconstruction derivative checked against original Cartesian Jacobian. Timing does not promise the same full-integrator speedup.')
+    pair.write(folder/'audit.json', record)
+    for name, module in [('source.py', __file__), ('log-source.py', log.__file__), ('pair-source.py', pair.__file__)]:
+        (folder/name).write_bytes(Path(module).read_bytes())
+    print(__import__('json').dumps(record, indent=2))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source', type=Path, required=True)
+    parser.add_argument('--output', type=Path, required=True)
+    audit(parser.parse_args())

@@ -1,0 +1,266 @@
+{
+  "created_utc": "2026-10-30T12:08:21.195275+00:00",
+  "status": "completed150k_histories_verified",
+  "scope_directories": [
+    "step-0p1",
+    "step-0p05",
+    "scalar-benchmark",
+    "scalar-benchmark-recheck",
+    "orbit-matching-review"
+  ],
+  "excludes_later_continuation_folders": true,
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "runs": [
+    {
+      "name": "step-0p1",
+      "status": "complete",
+      "final_tau": 150000.0,
+      "checkpoints": 8289,
+      "maximum_gauge_norm_squared_drift": 6.972611413802454e-07,
+      "finite_log_states": true,
+      "source_hashes_verified": true,
+      "initial_saved_chart_verified": true
+    },
+    {
+      "name": "step-0p05",
+      "status": "complete",
+      "final_tau": 150000.0,
+      "checkpoints": 8289,
+      "maximum_gauge_norm_squared_drift": 1.2404017768474773e-07,
+      "finite_log_states": true,
+      "source_hashes_verified": true,
+      "initial_saved_chart_verified": true
+    }
+  ],
+  "identical_checkpoint_times_parameters_and_origin": true,
+  "observed_omitted_mean_forcing_bounds": [
+    {
+      "run": "step-0p1",
+      "pair": [
+        2,
+        3
+      ],
+      "maximum_recorded_log_bound": -743.0623411951126,
+      "corresponding_decimal": "1.95941085125729798631303594114704518627461928533994517138998E-323",
+      "scope": "Instantaneous algebraic forcing bound at recorded floating-point stages; not an interval trajectory-error certificate."
+    },
+    {
+      "run": "step-0p1",
+      "pair": [
+        4,
+        5
+      ],
+      "maximum_recorded_log_bound": -743.0582967557447,
+      "corresponding_decimal": "1.96735161679013326797041549364779381016281763872689761431522E-323",
+      "scope": "Instantaneous algebraic forcing bound at recorded floating-point stages; not an interval trajectory-error certificate."
+    },
+    {
+      "run": "step-0p05",
+      "pair": [
+        2,
+        3
+      ],
+      "maximum_recorded_log_bound": -743.0623192830233,
+      "corresponding_decimal": "1.95945378651324498854839955647870593279013995687853606345611E-323",
+      "scope": "Instantaneous algebraic forcing bound at recorded floating-point stages; not an interval trajectory-error certificate."
+    },
+    {
+      "run": "step-0p05",
+      "pair": [
+        4,
+        5
+      ],
+      "maximum_recorded_log_bound": -743.0583290881027,
+      "corresponding_decimal": "1.96728800870165261602269536212495105437531156293530352435746E-323",
+      "scope": "Instantaneous algebraic forcing bound at recorded floating-point stages; not an interval trajectory-error certificate."
+    }
+  ],
+  "total_bytes": 5256954,
+  "file_count": 36,
+  "files": [
+    {
+      "path": "check_manifest.py",
+      "bytes": 5618,
+      "sha256": "67a415a18da5366f380c0ab007a2f793e689b07c23d39b4428bd670b75ec9dfc"
+    },
+    {
+      "path": "frozen-40k-node-visits.json",
+      "bytes": 795,
+      "sha256": "c25d4c1baf202b04bc74bb95f9d2a448daeb86b946fef61778a52458d32a58df"
+    },
+    {
+      "path": "frozen-seed-1e-25-node-visits.json",
+      "bytes": 640,
+      "sha256": "2ba85ff79bfbc1cac176fcaa1bad91058d97294073c2eb98dc5ad34b1c1ccb68"
+    },
+    {
+      "path": "orbit-matching-review/audit.json",
+      "bytes": 578551,
+      "sha256": "7ec8564114e66d6b74f31b1d88c6869dbb760d59447f6977ec84ea32b92612a4"
+    },
+    {
+      "path": "orbit-matching-review/log-contrast-diagnostic.png",
+      "bytes": 225792,
+      "sha256": "2f7db227c5c2d9f732e30f8f1d09f7b3d6b0cb797ffcc09de0c1c614e9d1585d"
+    },
+    {
+      "path": "orbit-matching-review/plot.json",
+      "bytes": 701,
+      "sha256": "7206bf5a608f299ada2753ea88f112ebc9fbd6260dc8e64cc3d2dc38cb23faee"
+    },
+    {
+      "path": "orbit-matching-review/source.py",
+      "bytes": 8406,
+      "sha256": "ffa4f1963648ede3185355268463f707b31b1f7e35212e284a4e0b0c9fabb491"
+    },
+    {
+      "path": "pre-event-prediction.json",
+      "bytes": 998,
+      "sha256": "ccc578a5bad4d4c93a72ab2b3a8ec6e5e235ac28b0e82a1d384f29bc5b26d64d"
+    },
+    {
+      "path": "pre-seventh-prediction.json",
+      "bytes": 715,
+      "sha256": "f72e1c07c8dc57c0cfeecb49507b2222801ca412d00d30d818afac8d3402049f"
+    },
+    {
+      "path": "review_orbit_matching.py",
+      "bytes": 8406,
+      "sha256": "ffa4f1963648ede3185355268463f707b31b1f7e35212e284a4e0b0c9fabb491"
+    },
+    {
+      "path": "scalar-benchmark/audit.json",
+      "bytes": 8640,
+      "sha256": "d55bcac94196e1111c6cbb58f403e8e19a9678d793e5a8901344bd1b0becd900"
+    },
+    {
+      "path": "scalar-benchmark/log-source.py",
+      "bytes": 30453,
+      "sha256": "175c46da7ff2381323d450606c63cabe1dcb748685a140228dc7fc854f28ee68"
+    },
+    {
+      "path": "scalar-benchmark/pair-source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "scalar-benchmark/source.py",
+      "bytes": 7300,
+      "sha256": "7680c7d7b9284a943d12b43c32b16d1d5672552d76ca8c073df22e3585933986"
+    },
+    {
+      "path": "scalar-benchmark-recheck/audit.json",
+      "bytes": 8818,
+      "sha256": "6338a4f21d1ff3912c86ce294b5bc50212c77c75d654cf65ae0c2040fd1c91c1"
+    },
+    {
+      "path": "scalar-benchmark-recheck/log-source.py",
+      "bytes": 31616,
+      "sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6"
+    },
+    {
+      "path": "scalar-benchmark-recheck/pair-source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "scalar-benchmark-recheck/source.py",
+      "bytes": 7727,
+      "sha256": "ee4902a6e039e1380afc160e99644408925c02bde8e56a14f25f755acd3f0e8c"
+    },
+    {
+      "path": "step-0p05/analysis.source.py",
+      "bytes": 31616,
+      "sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6"
+    },
+    {
+      "path": "step-0p05/diagnostics.json",
+      "bytes": 501701,
+      "sha256": "4683093782625a349cb711eb01cb4448981ea1f9e788853d23dc0d47eb272dc5"
+    },
+    {
+      "path": "step-0p05/pair-source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "step-0p05/source.py",
+      "bytes": 20472,
+      "sha256": "56451a54e28a6158637c8500e6a8b9be88f2559d9848a730fe2fbfad82b2b6ed"
+    },
+    {
+      "path": "step-0p05/summary.json",
+      "bytes": 144278,
+      "sha256": "4ef73990b0229999648092152ef96ef11cb6e67e596fd189aac10da7d4cc11e8"
+    },
+    {
+      "path": "step-0p05/trajectory.npz",
+      "bytes": 1226336,
+      "sha256": "7c109e5c872d243b41670b23283350d5db937cbad4e431b0ea8c1ae7eeb61d09"
+    },
+    {
+      "path": "step-0p1/analysis.source.py",
+      "bytes": 31616,
+      "sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6"
+    },
+    {
+      "path": "step-0p1/comparison.json",
+      "bytes": 2715,
+      "sha256": "8d6db8796318dcf13dc3d199fdacb281a21a2085c6338ef0c82e74b8e96965fc"
+    },
+    {
+      "path": "step-0p1/comparison.source.py",
+      "bytes": 31616,
+      "sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6"
+    },
+    {
+      "path": "step-0p1/diagnostics.json",
+      "bytes": 501673,
+      "sha256": "7ebb421d4482a1c55f0bbe49bbf66e0b3f506a9ebea9b205e29ecabf882e3833"
+    },
+    {
+      "path": "step-0p1/log-contrast-diagnostic.png",
+      "bytes": 237715,
+      "sha256": "893efe98db242b35a24debee4337ee9ea5a8c4b6600cdf8a8fbf1df69384a443"
+    },
+    {
+      "path": "step-0p1/pair-source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "step-0p1/plot-terminal-encoding.json",
+      "bytes": 505,
+      "sha256": "2015fb01d49f9b00eadf9d86852bb0c1be90b36cb3dc3934b46b86079d2d248f"
+    },
+    {
+      "path": "step-0p1/plot.json",
+      "bytes": 731,
+      "sha256": "67e9bbf058b51e9bc0efaab4cd98e0bbd988edbfdcb8c3d81cc25b578ccf246c"
+    },
+    {
+      "path": "step-0p1/plot.source.py",
+      "bytes": 31616,
+      "sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6"
+    },
+    {
+      "path": "step-0p1/source.py",
+      "bytes": 20472,
+      "sha256": "56451a54e28a6158637c8500e6a8b9be88f2559d9848a730fe2fbfad82b2b6ed"
+    },
+    {
+      "path": "step-0p1/summary.json",
+      "bytes": 144289,
+      "sha256": "b19f187076105c8dea434decf5c3079344f57ba2e4e5612723a68630ed333ada"
+    },
+    {
+      "path": "step-0p1/trajectory.npz",
+      "bytes": 1285531,
+      "sha256": "e14cfff9f7155a2edb5ebf62320c8742e393c32e88f0af362b70f490b75ee9d8"
+    }
+  ]
+}

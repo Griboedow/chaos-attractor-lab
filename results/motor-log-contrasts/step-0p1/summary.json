@@ -1,0 +1,4835 @@
+{
+  "created_utc": "2026-10-30T10:43:25.886095+00:00",
+  "status": "complete",
+  "parent": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended",
+  "parent_data_sha256": "97d70787da7a5effb01a1f280d7f95cd93fb86292324ac0c22a36665c20b73b1",
+  "parent_summary_sha256": "c0f008f6b6d3b342338605ba829a8d79eb65e18b7bccfee27ecd6575299ed3e9",
+  "code_sha256": "56451a54e28a6158637c8500e6a8b9be88f2559d9848a730fe2fbfad82b2b6ed",
+  "pair_code_sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785",
+  "parameters": [
+    3.268,
+    4.755146047751339,
+    1.0
+  ],
+  "start_tau": 40000.0,
+  "reference_period": 13.633145767830683,
+  "horizon_requested": 150000.0,
+  "max_step": 0.1,
+  "rtol": 1e-10,
+  "mean_atol": 1e-12,
+  "direction_atol": 1e-12,
+  "logarithm_atol": 1e-12,
+  "coordinate_order": "mean_c4,mean_s4,mean_X3,u_c4,u_s4,u_X4,ell4",
+  "coordinate_map": "physical halfcontrast delta_a=exp(ell_a)*u_a",
+  "no_noise_projection_or_renormalization": true,
+  "initial_chart_reconstruction_max_error": 8.081523661903227e-39,
+  "gauge_norm_squared_initial": [
+    1.0000000000000002,
+    0.9999999999999998,
+    1.0000000000000002,
+    1.0000000000000002
+  ],
+  "underflow_scope": "Zero exp(2ell) RHS stage evaluations, including trial/rejected stages. Bounds concern instantaneous omitted mean forcing, not accumulated trajectory error.",
+  "blocks": [
+    {
+      "start_tau": 40000.0,
+      "first_checkpoint_tau": 40013.282828583055,
+      "end_tau": 40500.0,
+      "nfev": 187709,
+      "wall_seconds": 18.240240500002983,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1997044779813921,
+        -26.767649425938572,
+        -1.487368774841564,
+        -127.72718166141337
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1997044779813921,
+        -26.767649425938572,
+        -1.426522630696601,
+        -125.37536014813227
+      ],
+      "maximum_gauge_norm_squared_drift": 3.6190419550052866e-09
+    },
+    {
+      "start_tau": 40500.0,
+      "first_checkpoint_tau": 40504.07607622496,
+      "end_tau": 41000.0,
+      "nfev": 187508,
+      "wall_seconds": 17.812129999991157,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5567245530422842,
+        -30.622634959516166,
+        -1.487368774502632,
+        -125.87358262275337
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5567245530422842,
+        -30.622634959516166,
+        -0.9807861572784513,
+        -123.39112351198597
+      ],
+      "maximum_gauge_norm_squared_drift": 7.181256700405925e-09
+    },
+    {
+      "start_tau": 41000.0,
+      "first_checkpoint_tau": 41008.502469634695,
+      "end_tau": 41500.0,
+      "nfev": 187760,
+      "wall_seconds": 17.6315895000007,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2570650113981103,
+        -34.07305758790251,
+        -1.607604663824968,
+        -123.96849472194167
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2570650113981103,
+        -34.07305758790251,
+        -1.607604663824968,
+        -121.95496188090677
+      ],
+      "maximum_gauge_norm_squared_drift": 1.0862632904284908e-08
+    },
+    {
+      "start_tau": 41500.0,
+      "first_checkpoint_tau": 41512.92886304443,
+      "end_tau": 42000.0,
+      "nfev": 187481,
+      "wall_seconds": 17.936447699990822,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9954399930542996,
+        -37.19917908547907,
+        -1.536228711437169,
+        -122.06340682112078
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9954399930542996,
+        -37.19917908547907,
+        -1.536228711437169,
+        -119.80584149285792
+      ],
+      "maximum_gauge_norm_squared_drift": 1.4495477262954637e-08
+    },
+    {
+      "start_tau": 42000.0,
+      "first_checkpoint_tau": 42003.722110686336,
+      "end_tau": 42500.0,
+      "nfev": 187616,
+      "wall_seconds": 17.752867200004403,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5942268627945944,
+        -41.79971590338955,
+        -1.487368773635354,
+        -120.20980778249823
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5942268627945944,
+        -41.79971590338955,
+        -1.2549200455176186,
+        -117.85753646221896
+      ],
+      "maximum_gauge_norm_squared_drift": 1.8113293531740737e-08
+    },
+    {
+      "start_tau": 42500.0,
+      "first_checkpoint_tau": 42508.14850409607,
+      "end_tau": 43000.0,
+      "nfev": 187664,
+      "wall_seconds": 18.73360349998984,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0266097161031866,
+        -44.754811098591084,
+        -1.4873687733343943,
+        -118.30471988167574
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0266097161031866,
+        -44.754811098591084,
+        -1.239562129825246,
+        -115.98824924640851
+      ],
+      "maximum_gauge_norm_squared_drift": 2.179198310692243e-08
+    },
+    {
+      "start_tau": 43000.0,
+      "first_checkpoint_tau": 43012.57489750581,
+      "end_tau": 43500.0,
+      "nfev": 187445,
+      "wall_seconds": 18.30825480000931,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9502458243164221,
+        -47.819906572497366,
+        -1.629052922958789,
+        -116.39963198089904
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9502458243164221,
+        -47.819906572497366,
+        -1.629052922958789,
+        -114.48163193499705
+      ],
+      "maximum_gauge_norm_squared_drift": 2.5428202876653927e-08
+    },
+    {
+      "start_tau": 43500.0,
+      "first_checkpoint_tau": 43503.36814514771,
+      "end_tau": 44000.0,
+      "nfev": 187700,
+      "wall_seconds": 17.479458999994677,
+      "minimum_log10_halfcontrast_norms": [
+        -1.372894474872443,
+        -52.00067896428212,
+        -1.4873687727900855,
+        -114.54603294228946
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.372894474872443,
+        -52.00067896428212,
+        -1.3045666266164304,
+        -112.4308261025243
+      ],
+      "maximum_gauge_norm_squared_drift": 2.9043740412681984e-08
+    },
+    {
+      "start_tau": 44000.0,
+      "first_checkpoint_tau": 44007.79453855744,
+      "end_tau": 44500.0,
+      "nfev": 187412,
+      "wall_seconds": 17.325496499994188,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1380255108529835,
+        -55.490009357859215,
+        -1.4873687724980662,
+        -112.64094504150705
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1380255108529835,
+        -55.490009357859215,
+        -1.0484545633164168,
+        -110.14456801191231
+      ],
+      "maximum_gauge_norm_squared_drift": 3.2748164291440673e-08
+    },
+    {
+      "start_tau": 44500.0,
+      "first_checkpoint_tau": 44512.22093196718,
+      "end_tau": 45000.0,
+      "nfev": 187685,
+      "wall_seconds": 17.28687370000989,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0910499982542967,
+        -58.732353362004346,
+        -1.6595420177814866,
+        -110.73585714070967
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0910499982542967,
+        -58.732353362004346,
+        -1.6595420177814866,
+        -109.35193445440594
+      ],
+      "maximum_gauge_norm_squared_drift": 3.630778666607881e-08
+    },
+    {
+      "start_tau": 45000.0,
+      "first_checkpoint_tau": 45003.01417960908,
+      "end_tau": 45500.0,
+      "nfev": 187712,
+      "wall_seconds": 17.650430900001084,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0735890168720852,
+        -62.268562500117355,
+        -1.4873687719118982,
+        -108.88225810208333
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0735890168720852,
+        -62.268562500117355,
+        -1.0967552925014745,
+        -106.82637883064885
+      ],
+      "maximum_gauge_norm_squared_drift": 3.992189157031589e-08
+    },
+    {
+      "start_tau": 45500.0,
+      "first_checkpoint_tau": 45507.44057301882,
+      "end_tau": 46000.0,
+      "nfev": 187508,
+      "wall_seconds": 17.29215649999969,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4889804566089908,
+        -66.20703614820223,
+        -1.4873687716532684,
+        -106.97717020127467
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4889804566089908,
+        -66.20703614820223,
+        -1.018775090081777,
+        -104.49805246267032
+      ],
+      "maximum_gauge_norm_squared_drift": 4.356153227025317e-08
+    },
+    {
+      "start_tau": 46000.0,
+      "first_checkpoint_tau": 46011.866966428555,
+      "end_tau": 46500.0,
+      "nfev": 187697,
+      "wall_seconds": 17.346590100001777,
+      "minimum_log10_halfcontrast_norms": [
+        -1.319814446642488,
+        -69.37407909428242,
+        -1.4873687713419026,
+        -105.07208230046558
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.319814446642488,
+        -69.37407909428242,
+        -1.4249941801320043,
+        -103.15871882054074
+      ],
+      "maximum_gauge_norm_squared_drift": 4.716100532320411e-08
+    },
+    {
+      "start_tau": 46500.0,
+      "first_checkpoint_tau": 46502.66021407046,
+      "end_tau": 47000.0,
+      "nfev": 187544,
+      "wall_seconds": 17.52132430000347,
+      "minimum_log10_halfcontrast_norms": [
+        -0.902396887219216,
+        -72.71428757911559,
+        -1.48736877107151,
+        -103.21848326184524
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.902396887219216,
+        -72.71428757911559,
+        -1.226812488572378,
+        -101.26912563317572
+      ],
+      "maximum_gauge_norm_squared_drift": 5.0745834534460244e-08
+    },
+    {
+      "start_tau": 47000.0,
+      "first_checkpoint_tau": 47007.086607480196,
+      "end_tau": 47500.0,
+      "nfev": 187652,
+      "wall_seconds": 17.69353430000774,
+      "minimum_log10_halfcontrast_norms": [
+        -1.9981370458376246,
+        -76.8506629585003,
+        -1.4873687707870122,
+        -101.31339536103235
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.9981370458376246,
+        -76.8506629585003,
+        -1.1802275076219808,
+        -99.15269900994242
+      ],
+      "maximum_gauge_norm_squared_drift": 5.440632488973307e-08
+    },
+    {
+      "start_tau": 47500.0,
+      "first_checkpoint_tau": 47511.51300088993,
+      "end_tau": 48000.0,
+      "nfev": 187673,
+      "wall_seconds": 17.320722800010117,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3774237212961788,
+        -79.81488286821887,
+        -1.487368770501177,
+        -99.40830746021831
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3774237212961788,
+        -79.81488286821887,
+        -1.130699613763827,
+        -97.14888413674763
+      ],
+      "maximum_gauge_norm_squared_drift": 5.80128622917897e-08
+    },
+    {
+      "start_tau": 48000.0,
+      "first_checkpoint_tau": 48002.30624853184,
+      "end_tau": 48500.0,
+      "nfev": 187424,
+      "wall_seconds": 17.57601830000931,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9310660095162829,
+        -83.32127464137484,
+        -1.5974318393299096,
+        -97.55470842159768
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9310660095162829,
+        -83.32127464137484,
+        -1.5974318393299096,
+        -95.69518850930582
+      ],
+      "maximum_gauge_norm_squared_drift": 6.163971300043869e-08
+    },
+    {
+      "start_tau": 48500.0,
+      "first_checkpoint_tau": 48506.73264194157,
+      "end_tau": 49000.0,
+      "nfev": 187784,
+      "wall_seconds": 17.3397430999903,
+      "minimum_log10_halfcontrast_norms": [
+        -1.467773937317616,
+        -87.22384568301004,
+        -1.4873687699305538,
+        -95.6496205208055
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.467773937317616,
+        -87.22384568301004,
+        -1.3874388450650972,
+        -93.42707663321707
+      ],
+      "maximum_gauge_norm_squared_drift": 6.529587159853634e-08
+    },
+    {
+      "start_tau": 49000.0,
+      "first_checkpoint_tau": 49011.15903535131,
+      "end_tau": 49500.0,
+      "nfev": 187481,
+      "wall_seconds": 17.30243779999728,
+      "minimum_log10_halfcontrast_norms": [
+        -1.487000214673124,
+        -90.58717000681594,
+        -1.4873687696517284,
+        -93.74453261999065
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.487000214673124,
+        -90.58717000681594,
+        -0.9703901873437454,
+        -91.31216100770772
+      ],
+      "maximum_gauge_norm_squared_drift": 6.891584380941396e-08
+    },
+    {
+      "start_tau": 49500.0,
+      "first_checkpoint_tau": 49501.95228299321,
+      "end_tau": 50000.0,
+      "nfev": 187676,
+      "wall_seconds": 17.35067960000015,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2621240903461548,
+        -94.12311015338233,
+        -2.042511338303792,
+        -91.89093358135504
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2621240903461548,
+        -94.12311015338233,
+        -2.042511338303792,
+        -90.03573273386758
+      ],
+      "maximum_gauge_norm_squared_drift": 7.25773721121925e-08
+    },
+    {
+      "start_tau": 50000.0,
+      "first_checkpoint_tau": 50006.37867640295,
+      "end_tau": 50500.0,
+      "nfev": 187568,
+      "wall_seconds": 17.283398499988834,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1338849329879384,
+        -97.55790566218414,
+        -1.4873687690871094,
+        -89.98584568054136
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1338849329879384,
+        -97.55790566218414,
+        -1.452708996756663,
+        -87.60388250494717
+      ],
+      "maximum_gauge_norm_squared_drift": 7.620115405337913e-08
+    },
+    {
+      "start_tau": 50500.0,
+      "first_checkpoint_tau": 50510.80506981268,
+      "end_tau": 51000.0,
+      "nfev": 187481,
+      "wall_seconds": 17.292256200002157,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5768628963929179,
+        -101.59010296334,
+        -1.4873687687860746,
+        -88.08075777977413
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5768628963929179,
+        -101.59010296334,
+        -1.0166359201175437,
+        -85.63656645408932
+      ],
+      "maximum_gauge_norm_squared_drift": 7.978985538947825e-08
+    },
+    {
+      "start_tau": 51000.0,
+      "first_checkpoint_tau": 51001.59831745458,
+      "end_tau": 51500.0,
+      "nfev": 187784,
+      "wall_seconds": 17.681653000006918,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1642288926916493,
+        -104.937912684469,
+        -1.49669967588252,
+        -86.22715874114375
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1642288926916493,
+        -104.937912684469,
+        -1.49669967588252,
+        -84.10807565391728
+      ],
+      "maximum_gauge_norm_squared_drift": 8.346559843275259e-08
+    },
+    {
+      "start_tau": 51500.0,
+      "first_checkpoint_tau": 51506.02471086432,
+      "end_tau": 52000.0,
+      "nfev": 187460,
+      "wall_seconds": 17.341315400000894,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9696618247581035,
+        -108.08729773978978,
+        -1.5606356614552328,
+        -84.32207084033901
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9696618247581035,
+        -108.02973334758757,
+        -1.5606356614552328,
+        -82.10207202484969
+      ],
+      "maximum_gauge_norm_squared_drift": 8.708922427658194e-08
+    },
+    {
+      "start_tau": 52000.0,
+      "first_checkpoint_tau": 52010.451104274056,
+      "end_tau": 52500.0,
+      "nfev": 187481,
+      "wall_seconds": 17.575674799998524,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5674867039848994,
+        -112.64593710189158,
+        -1.4873687679394065,
+        -82.41698293951892
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5674867039848994,
+        -112.64593710189158,
+        -1.368148139321834,
+        -80.15805886034565
+      ],
+      "maximum_gauge_norm_squared_drift": 9.073261719727554e-08
+    },
+    {
+      "start_tau": 52500.0,
+      "first_checkpoint_tau": 52501.244351915964,
+      "end_tau": 53000.0,
+      "nfev": 187700,
+      "wall_seconds": 17.502521400005207,
+      "minimum_log10_halfcontrast_norms": [
+        -1.027215158138814,
+        -115.63427051480481,
+        -1.4873687676584577,
+        -80.56338390091618
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.027215158138814,
+        -115.63427051480481,
+        -1.1768644977289733,
+        -78.16209930780673
+      ],
+      "maximum_gauge_norm_squared_drift": 9.441078507865797e-08
+    },
+    {
+      "start_tau": 53000.0,
+      "first_checkpoint_tau": 53005.6707453257,
+      "end_tau": 53500.0,
+      "nfev": 187424,
+      "wall_seconds": 17.676170000006096,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9646739192047904,
+        -118.71272662689742,
+        -1.6488172972737647,
+        -78.65829600009077
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9646739192047904,
+        -118.71086335326326,
+        -1.6488172972737647,
+        -76.83844543708597
+      ],
+      "maximum_gauge_norm_squared_drift": 9.802901179689627e-08
+    },
+    {
+      "start_tau": 53500.0,
+      "first_checkpoint_tau": 53510.09713873543,
+      "end_tau": 54000.0,
+      "nfev": 187781,
+      "wall_seconds": 17.69294120000268,
+      "minimum_log10_halfcontrast_norms": [
+        -1.292851234900793,
+        -122.74469965803785,
+        -1.487368767080162,
+        -76.75320809931841
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.292851234900793,
+        -122.74469965803785,
+        -1.2159702714166076,
+        -74.67536584011708
+      ],
+      "maximum_gauge_norm_squared_drift": 1.0164547425972614e-07
+    },
+    {
+      "start_tau": 54000.0,
+      "first_checkpoint_tau": 54000.89038637734,
+      "end_tau": 54500.0,
+      "nfev": 187484,
+      "wall_seconds": 17.67230560000462,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2044075494467394,
+        -126.36630294751671,
+        -1.4873687667918702,
+        -74.89960906067984
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2044075494467394,
+        -126.36630294751671,
+        -1.0262232633507664,
+        -72.3602364592994
+      ],
+      "maximum_gauge_norm_squared_drift": 1.0533874805762622e-07
+    },
+    {
+      "start_tau": 54500.0,
+      "first_checkpoint_tau": 54505.31677978707,
+      "end_tau": 55000.0,
+      "nfev": 187616,
+      "wall_seconds": 17.96128139999928,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1613841956923916,
+        -129.69548959477638,
+        -1.628229571583279,
+        -72.99452115988105
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1613841956923916,
+        -129.69548959477638,
+        -1.628229571583279,
+        -71.48554495528244
+      ],
+      "maximum_gauge_norm_squared_drift": 1.0897920321717436e-07
+    },
+    {
+      "start_tau": 55000.0,
+      "first_checkpoint_tau": 55009.74317319681,
+      "end_tau": 55500.0,
+      "nfev": 187589,
+      "wall_seconds": 17.778025299994624,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0164439586103573,
+        -133.06095946146124,
+        -1.4873687662324573,
+        -71.08943325909189
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0164439586103573,
+        -133.06095946146124,
+        -1.102513808408067,
+        -69.08609756993226
+      ],
+      "maximum_gauge_norm_squared_drift": 1.1260177723571019e-07
+    },
+    {
+      "start_tau": 55500.0,
+      "first_checkpoint_tau": 55500.53642083871,
+      "end_tau": 56000.0,
+      "nfev": 187556,
+      "wall_seconds": 17.774568499997258,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6159254741376332,
+        -137.07818014644417,
+        -1.4873687659389778,
+        -69.23583422046131
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6159254741376332,
+        -137.07818014644417,
+        -1.0378208704519096,
+        -66.7769796241007
+      ],
+      "maximum_gauge_norm_squared_drift": 1.1628550211639777e-07
+    },
+    {
+      "start_tau": 56000.0,
+      "first_checkpoint_tau": 56004.96281424844,
+      "end_tau": 56500.0,
+      "nfev": 187736,
+      "wall_seconds": 17.67430090000562,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3280788177140512,
+        -140.1433003726464,
+        -1.4873687656589967,
+        -67.33074631964107
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3280788177140512,
+        -140.1433003726464,
+        -1.3451215954860871,
+        -65.28760971047988
+      ],
+      "maximum_gauge_norm_squared_drift": 1.1991289450286047e-07
+    },
+    {
+      "start_tau": 56500.0,
+      "first_checkpoint_tau": 56509.38920765818,
+      "end_tau": 57000.0,
+      "nfev": 187421,
+      "wall_seconds": 17.828624100002344,
+      "minimum_log10_halfcontrast_norms": [
+        -0.901368891983891,
+        -143.54707236195662,
+        -1.487368765368019,
+        -65.42565841883423
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.8876822627232921,
+        -143.54707236195662,
+        -1.2972752392896223,
+        -63.52552617991077
+      ],
+      "maximum_gauge_norm_squared_drift": 1.2354775580369903e-07
+    },
+    {
+      "start_tau": 57000.0,
+      "first_checkpoint_tau": 57000.182455300084,
+      "end_tau": 57500.0,
+      "nfev": 187580,
+      "wall_seconds": 17.32123880001018,
+      "minimum_log10_halfcontrast_norms": [
+        -1.8838352729011243,
+        -147.66521705306138,
+        -1.487368765084301,
+        -63.57205938022164
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.8838352729011243,
+        -147.66521705306138,
+        -1.253000570889705,
+        -61.486760691594945
+      ],
+      "maximum_gauge_norm_squared_drift": 1.271471447017447e-07
+    },
+    {
+      "start_tau": 57500.0,
+      "first_checkpoint_tau": 57504.608848709824,
+      "end_tau": 58000.0,
+      "nfev": 187640,
+      "wall_seconds": 17.66132510000898,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4051709887392598,
+        -150.6779221582636,
+        -1.4873687648023155,
+        -61.66697147944801
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4051709887392598,
+        -150.6779221582636,
+        -1.075834111009409,
+        -59.32364583025413
+      ],
+      "maximum_gauge_norm_squared_drift": 1.3076657090493882e-07
+    },
+    {
+      "start_tau": 58000.0,
+      "first_checkpoint_tau": 58009.03524211956,
+      "end_tau": 58500.0,
+      "nfev": 187532,
+      "wall_seconds": 17.563408300004085,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9805437869076904,
+        -154.19592038748647,
+        -1.7325342956689476,
+        -59.76188357862495
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9805437869076904,
+        -154.19592038748647,
+        -1.7325342956689476,
+        -57.945639448908466
+      ],
+      "maximum_gauge_norm_squared_drift": 1.3439186830055405e-07
+    },
+    {
+      "start_tau": 58500.0,
+      "first_checkpoint_tau": 58513.4616355293,
+      "end_tau": 59000.0,
+      "nfev": 187733,
+      "wall_seconds": 17.444799300006707,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3672147319463053,
+        -157.9959915425861,
+        -1.4873687642158777,
+        -57.85679567780844
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3672147319463053,
+        -157.9959915425861,
+        -1.3943517168345572,
+        -55.58362057712182
+      ],
+      "maximum_gauge_norm_squared_drift": 1.3801775944344286e-07
+    },
+    {
+      "start_tau": 59000.0,
+      "first_checkpoint_tau": 59004.2548831712,
+      "end_tau": 59500.0,
+      "nfev": 187376,
+      "wall_seconds": 17.46460149998893,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5109190548472018,
+        -161.51258046016713,
+        -1.4873687639532855,
+        -56.003196639199714
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5109190548472018,
+        -161.51258046016713,
+        -0.9592311574635112,
+        -53.52717321649095
+      ],
+      "maximum_gauge_norm_squared_drift": 1.4166607853471902e-07
+    },
+    {
+      "start_tau": 59500.0,
+      "first_checkpoint_tau": 59508.68127658093,
+      "end_tau": 60000.0,
+      "nfev": 187760,
+      "wall_seconds": 18.57699529999809,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3530939575739347,
+        -165.0489173093987,
+        -1.8961626055392375,
+        -54.098108738422674
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3530939575739347,
+        -165.0489173093987,
+        -1.8961626055392375,
+        -52.22528230428128
+      ],
+      "maximum_gauge_norm_squared_drift": 1.453029923048632e-07
+    },
+    {
+      "start_tau": 60000.0,
+      "first_checkpoint_tau": 60013.10766999067,
+      "end_tau": 60500.0,
+      "nfev": 187517,
+      "wall_seconds": 18.69144640000013,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0782210532469148,
+        -168.35686311318216,
+        -1.4873687633680523,
+        -52.193020837621106
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0782210532469148,
+        -168.35686311318216,
+        -1.4811244724411552,
+        -49.85194680652686
+      ],
+      "maximum_gauge_norm_squared_drift": 1.4893791577819115e-07
+    },
+    {
+      "start_tau": 60500.0,
+      "first_checkpoint_tau": 60503.90091763257,
+      "end_tau": 61000.0,
+      "nfev": 187508,
+      "wall_seconds": 18.422985600001994,
+      "minimum_log10_halfcontrast_norms": [
+        -1.592980633459189,
+        -172.5770214711004,
+        -1.487368763089946,
+        -50.339421798991836
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.592980633459189,
+        -172.5770214711004,
+        -1.0720691610040989,
+        -47.89381221617795
+      ],
+      "maximum_gauge_norm_squared_drift": 1.5255735175134788e-07
+    },
+    {
+      "start_tau": 61000.0,
+      "first_checkpoint_tau": 61008.32731104231,
+      "end_tau": 61500.0,
+      "nfev": 187772,
+      "wall_seconds": 18.704298099997686,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0937024053914577,
+        -175.79733352424572,
+        -1.4873687628160608,
+        -48.43433389817785
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0937024053914577,
+        -175.79733352424572,
+        -1.4003001973504885,
+        -46.262192097997584
+      ],
+      "maximum_gauge_norm_squared_drift": 1.5621734061888048e-07
+    },
+    {
+      "start_tau": 61500.0,
+      "first_checkpoint_tau": 61512.75370445204,
+      "end_tau": 62000.0,
+      "nfev": 187433,
+      "wall_seconds": 18.561641399996006,
+      "minimum_log10_halfcontrast_norms": [
+        -0.95339936905808,
+        -178.89129205111664,
+        -1.5838886572248494,
+        -46.5292459973771
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.95339936905808,
+        -178.8728121938834,
+        -1.5838886572248494,
+        -44.41164281439102
+      ],
+      "maximum_gauge_norm_squared_drift": 1.5984571555271998e-07
+    },
+    {
+      "start_tau": 62000.0,
+      "first_checkpoint_tau": 62003.54695209395,
+      "end_tau": 62500.0,
+      "nfev": 187700,
+      "wall_seconds": 18.647371900005965,
+      "minimum_log10_halfcontrast_norms": [
+        -1.519060382209542,
+        -183.3594863099096,
+        -1.4873687622235137,
+        -44.67564695875015
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.519060382209542,
+        -183.3594863099096,
+        -1.4397017997723962,
+        -42.464502734850036
+      ],
+      "maximum_gauge_norm_squared_drift": 1.634626711766174e-07
+    },
+    {
+      "start_tau": 62500.0,
+      "first_checkpoint_tau": 62507.973345503684,
+      "end_tau": 63000.0,
+      "nfev": 187616,
+      "wall_seconds": 18.44357590000436,
+      "minimum_log10_halfcontrast_norms": [
+        -1.046870947896974,
+        -186.51503892928542,
+        -1.4873687619442002,
+        -42.770559057960064
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.046870947896974,
+        -186.51503892928542,
+        -1.1243851836854657,
+        -40.344951030144934
+      ],
+      "maximum_gauge_norm_squared_drift": 1.6709703265505027e-07
+    },
+    {
+      "start_tau": 63000.0,
+      "first_checkpoint_tau": 63012.39973891342,
+      "end_tau": 63500.0,
+      "nfev": 187505,
+      "wall_seconds": 18.67741620000743,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9913532680082074,
+        -189.62185199192072,
+        -1.663997176233469,
+        -40.86547115715735
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9913532680082074,
+        -189.62185199192072,
+        -1.663997176233469,
+        -39.2185422327846
+      ],
+      "maximum_gauge_norm_squared_drift": 1.7072354374647603e-07
+    },
+    {
+      "start_tau": 63500.0,
+      "first_checkpoint_tau": 63503.192986555325,
+      "end_tau": 64000.0,
+      "nfev": 187796,
+      "wall_seconds": 19.08332099999825,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2147988988975444,
+        -193.50308359945214,
+        -1.4873687613837971,
+        -39.01187211852422
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2147988988975444,
+        -193.50308359945214,
+        -1.1518191174574672,
+        -36.91692471339713
+      ],
+      "maximum_gauge_norm_squared_drift": 1.743396680353726e-07
+    },
+    {
+      "start_tau": 64000.0,
+      "first_checkpoint_tau": 64007.61937996506,
+      "end_tau": 64500.0,
+      "nfev": 187508,
+      "wall_seconds": 19.04709940000612,
+      "minimum_log10_halfcontrast_norms": [
+        -1.283835707385061,
+        -197.24159856942663,
+        -1.4873687610884723,
+        -37.106784217705595
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.283835707385061,
+        -197.24159856942663,
+        -1.0136581098156194,
+        -34.5889928460593
+      ],
+      "maximum_gauge_norm_squared_drift": 1.7796823437166154e-07
+    },
+    {
+      "start_tau": 64500.0,
+      "first_checkpoint_tau": 64512.04577337479,
+      "end_tau": 65000.0,
+      "nfev": 187613,
+      "wall_seconds": 19.81710230000317,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2349101529879563,
+        -200.60334693035458,
+        -1.5754425917033472,
+        -35.20169631689829
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2349101529879563,
+        -200.60334693035458,
+        -1.5754425917033472,
+        -33.55759747670594
+      ],
+      "maximum_gauge_norm_squared_drift": 1.8159551040675126e-07
+    },
+    {
+      "start_tau": 65000.0,
+      "first_checkpoint_tau": 65002.8390210167,
+      "end_tau": 65500.0,
+      "nfev": 187616,
+      "wall_seconds": 19.757175500009907,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9684606919738832,
+        -203.86362453350017,
+        -1.487368760515297,
+        -33.34809727831756
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9684606919738832,
+        -203.86362453350017,
+        -1.1269176410177872,
+        -31.34653174675164
+      ],
+      "maximum_gauge_norm_squared_drift": 1.8515829092180525e-07
+    },
+    {
+      "start_tau": 65500.0,
+      "first_checkpoint_tau": 65507.26541442643,
+      "end_tau": 66000.0,
+      "nfev": 187520,
+      "wall_seconds": 19.562575700008892,
+      "minimum_log10_halfcontrast_norms": [
+        -1.7658298797014573,
+        -207.94365925356385,
+        -1.4873687602256302,
+        -31.443009377507398
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.7658298797014573,
+        -207.94365925356385,
+        -1.0696266563443793,
+        -29.07690950267387
+      ],
+      "maximum_gauge_norm_squared_drift": 1.888042385767008e-07
+    },
+    {
+      "start_tau": 66000.0,
+      "first_checkpoint_tau": 66011.69180783616,
+      "end_tau": 66500.0,
+      "nfev": 187769,
+      "wall_seconds": 19.702048100007232,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3363577310543295,
+        -210.93757597505714,
+        -1.487368759951203,
+        -29.537921476739413
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3363577310543295,
+        -210.93757597505714,
+        -1.2681584891878548,
+        -27.42961676870562
+      ],
+      "maximum_gauge_norm_squared_drift": 1.92423849076917e-07
+    },
+    {
+      "start_tau": 66500.0,
+      "first_checkpoint_tau": 66502.48505547807,
+      "end_tau": 67000.0,
+      "nfev": 187412,
+      "wall_seconds": 20.890758699999424,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9013688907744443,
+        -214.3894940656216,
+        -1.48736875967985,
+        -27.684322438106257
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.8862238457917803,
+        -214.3894940656216,
+        -1.3809778580239165,
+        -25.781136803152428
+      ],
+      "maximum_gauge_norm_squared_drift": 1.9603112111354903e-07
+    },
+    {
+      "start_tau": 67000.0,
+      "first_checkpoint_tau": 67006.91144888781,
+      "end_tau": 67500.0,
+      "nfev": 187784,
+      "wall_seconds": 20.281777900003362,
+      "minimum_log10_halfcontrast_norms": [
+        -1.7271420027264497,
+        -218.45905218460626,
+        -1.4873687593832232,
+        -25.77923453731672
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.7271420027264497,
+        -218.45905218460626,
+        -1.3224789313275818,
+        -23.735814562389958
+      ],
+      "maximum_gauge_norm_squared_drift": 1.9967760356287556e-07
+    },
+    {
+      "start_tau": 67500.0,
+      "first_checkpoint_tau": 67511.33784229754,
+      "end_tau": 68000.0,
+      "nfev": 187565,
+      "wall_seconds": 20.24531319999369,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4334932804090217,
+        -221.5590977503221,
+        -1.487368759093849,
+        -23.87414663649599
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4334932804090217,
+        -221.5590977503221,
+        -1.0303756917151,
+        -21.508615146936133
+      ],
+      "maximum_gauge_norm_squared_drift": 2.033018007274734e-07
+    },
+    {
+      "start_tau": 68000.0,
+      "first_checkpoint_tau": 68002.13108993944,
+      "end_tau": 68500.0,
+      "nfev": 187580,
+      "wall_seconds": 20.073303199998918,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0514058192886737,
+        -225.08380020957136,
+        -1.891066491157077,
+        -22.020547597866557
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0514058192886737,
+        -225.08380020957136,
+        -1.891066491157077,
+        -20.18919002187732
+      ],
+      "maximum_gauge_norm_squared_drift": 2.0692596369720206e-07
+    },
+    {
+      "start_tau": 68500.0,
+      "first_checkpoint_tau": 68506.55748334918,
+      "end_tau": 69000.0,
+      "nfev": 187736,
+      "wall_seconds": 20.183864099992206,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2793695512634315,
+        -228.77194309160018,
+        -1.4873687585324609,
+        -20.11545969704118
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2793695512634315,
+        -228.77194309160018,
+        -1.4056935332374692,
+        -17.765544819552264
+      ],
+      "maximum_gauge_norm_squared_drift": 2.106009311386714e-07
+    },
+    {
+      "start_tau": 69000.0,
+      "first_checkpoint_tau": 69010.98387675892,
+      "end_tau": 69500.0,
+      "nfev": 187469,
+      "wall_seconds": 20.18651719999616,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5338514569086281,
+        -232.45062507679106,
+        -1.4873687582541277,
+        -18.210371796226184
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5338514569086281,
+        -232.45062507679106,
+        -0.9617992045369583,
+        -15.75181129740556
+      ],
+      "maximum_gauge_norm_squared_drift": 2.14220970518042e-07
+    },
+    {
+      "start_tau": 69500.0,
+      "first_checkpoint_tau": 69501.77712440082,
+      "end_tau": 70000.0,
+      "nfev": 187772,
+      "wall_seconds": 20.099520900010248,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3478225116631828,
+        -235.96584684588882,
+        -1.7432489667639586,
+        -16.35677275759036
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3478225116631828,
+        -235.96584684588882,
+        -1.7432489667639586,
+        -14.39563389860884
+      ],
+      "maximum_gauge_norm_squared_drift": 2.1789371607017216e-07
+    },
+    {
+      "start_tau": 70000.0,
+      "first_checkpoint_tau": 70006.20351781056,
+      "end_tau": 70500.0,
+      "nfev": 187568,
+      "wall_seconds": 20.05075749999378,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0325539080964445,
+        -239.16645228333996,
+        -1.5090074813066614,
+        -14.451684856778765
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0325539080964445,
+        -239.16531063646744,
+        -1.5090074813066614,
+        -12.117572958164956
+      ],
+      "maximum_gauge_norm_squared_drift": 2.215370561442498e-07
+    },
+    {
+      "start_tau": 70500.0,
+      "first_checkpoint_tau": 70510.6299112203,
+      "end_tau": 71000.0,
+      "nfev": 187553,
+      "wall_seconds": 20.272666999997455,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6009503542799008,
+        -243.58469677855604,
+        -1.4873687573987244,
+        -12.54659695598583
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6009503542799008,
+        -243.58469677855604,
+        -1.1496242126283098,
+        -10.164603135451307
+      ],
+      "maximum_gauge_norm_squared_drift": 2.2515601871830881e-07
+    },
+    {
+      "start_tau": 71000.0,
+      "first_checkpoint_tau": 71001.42315886219,
+      "end_tau": 71500.0,
+      "nfev": 187640,
+      "wall_seconds": 19.968223900010344,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0485662073492505,
+        -246.66329317686882,
+        -1.4873687571055336,
+        -10.692997917347862
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0485662073492505,
+        -246.66329317686882,
+        -1.3159200165226617,
+        -8.420900189305629
+      ],
+      "maximum_gauge_norm_squared_drift": 2.28849049932478e-07
+    },
+    {
+      "start_tau": 71500.0,
+      "first_checkpoint_tau": 71505.84955227193,
+      "end_tau": 72000.0,
+      "nfev": 187424,
+      "wall_seconds": 20.091828399992664,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9466881490469423,
+        -249.79188117045555,
+        -1.6064314910147062,
+        -8.787910016546352
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9466881490469423,
+        -249.7298248365051,
+        -1.6064314910147062,
+        -6.734592954645462
+      ],
+      "maximum_gauge_norm_squared_drift": 2.324767351957746e-07
+    },
+    {
+      "start_tau": 72000.0,
+      "first_checkpoint_tau": 72010.27594568167,
+      "end_tau": 72500.0,
+      "nfev": 187661,
+      "wall_seconds": 20.3274201000022,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4528694648772738,
+        -254.06426589682656,
+        -1.4873687761003573,
+        -6.882822115741708
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4528694648772738,
+        -254.06426589682656,
+        -1.404002335469043,
+        -4.758852477064341
+      ],
+      "maximum_gauge_norm_squared_drift": 2.3608403054709015e-07
+    },
+    {
+      "start_tau": 72500.0,
+      "first_checkpoint_tau": 72501.06919332358,
+      "end_tau": 73000.0,
+      "nfev": 187790,
+      "wall_seconds": 19.937906499995734,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0836145587448944,
+        -257.3944028387295,
+        -1.487496831742747,
+        -5.02922308729191
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0836145587448944,
+        -257.3944028387295,
+        -1.0821784543314577,
+        -2.5376809066362633
+      ],
+      "maximum_gauge_norm_squared_drift": 2.397716767355007e-07
+    },
+    {
+      "start_tau": 73000.0,
+      "first_checkpoint_tau": 73005.4955867333,
+      "end_tau": 73500.0,
+      "nfev": 189440,
+      "wall_seconds": 20.332365100010065,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0977805398903953,
+        -259.4667442489072,
+        -2.3068084579272163,
+        -3.1242008606940774
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0977805398903953,
+        -259.4667442489072,
+        -2.3068084579272163,
+        -1.901212824469489
+      ],
+      "maximum_gauge_norm_squared_drift": 2.42803740224673e-07
+    },
+    {
+      "start_tau": 73500.0,
+      "first_checkpoint_tau": 73509.92198014304,
+      "end_tau": 74000.0,
+      "nfev": 191234,
+      "wall_seconds": 20.82935520001047,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2144692566407107,
+        -259.26923475379493,
+        -5.525749630060375,
+        -1.5601517228727226
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2144692566407107,
+        -257.7222231326924,
+        -5.252259643895006,
+        -1.3476450617075104
+      ],
+      "maximum_gauge_norm_squared_drift": 2.4426583644654443e-07
+    },
+    {
+      "start_tau": 74000.0,
+      "first_checkpoint_tau": 74000.71522778495,
+      "end_tau": 74500.0,
+      "nfev": 190964,
+      "wall_seconds": 20.70747969999502,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4522375101506217,
+        -257.43280511651596,
+        -9.099757525596752,
+        -1.5521444195833982
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4522375101506217,
+        -256.1505079860573,
+        -8.730092707472265,
+        -0.8946418389666034
+      ],
+      "maximum_gauge_norm_squared_drift": 2.457767926955512e-07
+    },
+    {
+      "start_tau": 74500.0,
+      "first_checkpoint_tau": 74505.14162119468,
+      "end_tau": 75000.0,
+      "nfev": 191216,
+      "wall_seconds": 20.594215899996925,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3598318407117511,
+        -255.52771721796432,
+        -12.747265610169856,
+        -1.6224033707455703
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3598318407117511,
+        -254.0346467816508,
+        -12.747265610169856,
+        -1.6224033707455703
+      ],
+      "maximum_gauge_norm_squared_drift": 2.4724852021318355e-07
+    },
+    {
+      "start_tau": 75000.0,
+      "first_checkpoint_tau": 75009.56801460442,
+      "end_tau": 75500.0,
+      "nfev": 190985,
+      "wall_seconds": 21.060401099995943,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0031241085940543,
+        -253.6226293171094,
+        -16.151178514046855,
+        -1.552144418293202
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0031241085940543,
+        -251.83233058599214,
+        -15.932797013021437,
+        -1.4538320868579409
+      ],
+      "maximum_gauge_norm_squared_drift": 2.487458644617746e-07
+    },
+    {
+      "start_tau": 75500.0,
+      "first_checkpoint_tau": 75500.36126224633,
+      "end_tau": 76000.0,
+      "nfev": 190988,
+      "wall_seconds": 20.6282310999959,
+      "minimum_log10_halfcontrast_norms": [
+        -2.0100326707818845,
+        -251.76903027843747,
+        -19.725186412288327,
+        -1.5521444182375674
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -2.0100326707818845,
+        -250.54218929404826,
+        -19.461507487820352,
+        -1.1192882890177498
+      ],
+      "maximum_gauge_norm_squared_drift": 2.50310532301512e-07
+    },
+    {
+      "start_tau": 76000.0,
+      "first_checkpoint_tau": 76004.78765565607,
+      "end_tau": 76500.0,
+      "nfev": 190952,
+      "wall_seconds": 20.40098739998939,
+      "minimum_log10_halfcontrast_norms": [
+        -1.419737110704285,
+        -249.86394237758785,
+        -23.299194310503964,
+        -1.552144418177756
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.419737110704285,
+        -248.09614604291897,
+        -23.060660132629334,
+        -1.221236896454524
+      ],
+      "maximum_gauge_norm_squared_drift": 2.518748291047146e-07
+    },
+    {
+      "start_tau": 76500.0,
+      "first_checkpoint_tau": 76509.21404906579,
+      "end_tau": 77000.0,
+      "nfev": 190937,
+      "wall_seconds": 20.683275599993067,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9754397453998926,
+        -247.9588544767719,
+        -26.864618295942414,
+        -1.5521444181134438
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9735634975853033,
+        -246.1048852588746,
+        -26.864618295942414,
+        -1.550339731208348
+      ],
+      "maximum_gauge_norm_squared_drift": 2.5334359343709423e-07
+    },
+    {
+      "start_tau": 77000.0,
+      "first_checkpoint_tau": 77000.0072967077,
+      "end_tau": 77500.0,
+      "nfev": 191132,
+      "wall_seconds": 20.74984499999846,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6439238833357968,
+        -246.10525543809135,
+        -30.350615298956605,
+        -1.5521444180639796
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6439238833357968,
+        -244.69348985833693,
+        -30.33843257659975,
+        -1.2862179852990876
+      ],
+      "maximum_gauge_norm_squared_drift": 2.5491318544901276e-07
+    },
+    {
+      "start_tau": 77500.0,
+      "first_checkpoint_tau": 77504.43369011744,
+      "end_tau": 78000.0,
+      "nfev": 190964,
+      "wall_seconds": 20.294148900007713,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5286744607011735,
+        -244.2001675372462,
+        -33.92462319721613,
+        -1.5521444179963588
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5286744607011735,
+        -242.50513374449753,
+        -33.48091128785355,
+        -1.0049434609912127
+      ],
+      "maximum_gauge_norm_squared_drift": 2.563853727099996e-07
+    },
+    {
+      "start_tau": 78000.0,
+      "first_checkpoint_tau": 78008.86008352716,
+      "end_tau": 78500.0,
+      "nfev": 190712,
+      "wall_seconds": 20.33539409999503,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2225752798207365,
+        -242.29507963638318,
+        -38.03944219993464,
+        -1.598113754978558
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2225752798207365,
+        -240.5554404608611,
+        -38.03944219993464,
+        -1.598113754978558
+      ],
+      "maximum_gauge_norm_squared_drift": 2.579467255348078e-07
+    },
+    {
+      "start_tau": 78500.0,
+      "first_checkpoint_tau": 78513.2864769369,
+      "end_tau": 79000.0,
+      "nfev": 191201,
+      "wall_seconds": 20.39117729999998,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2601656331486326,
+        -240.38999173555914,
+        -41.020568224654376,
+        -1.5521444178839945
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2601656331486326,
+        -238.7228022467929,
+        -41.020568224654376,
+        -1.0304118565907932
+      ],
+      "maximum_gauge_norm_squared_drift": 2.610887648302196e-07
+    },
+    {
+      "start_tau": 79000.0,
+      "first_checkpoint_tau": 79004.07972457881,
+      "end_tau": 79500.0,
+      "nfev": 190700,
+      "wall_seconds": 20.00841730000684,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6227381488899282,
+        -238.5363926968826,
+        -44.550052083909634,
+        -1.5521444178327757
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6227381488899282,
+        -237.16399213047868,
+        -44.084970102329116,
+        -0.9480917132419261
+      ],
+      "maximum_gauge_norm_squared_drift": 2.6433456556951285e-07
+    },
+    {
+      "start_tau": 79500.0,
+      "first_checkpoint_tau": 79508.50611798855,
+      "end_tau": 80000.0,
+      "nfev": 191204,
+      "wall_seconds": 20.028884400002426,
+      "minimum_log10_halfcontrast_norms": [
+        -1.33401864376439,
+        -236.63130479604897,
+        -48.30916772322767,
+        -1.5521444177671495
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.33401864376439,
+        -235.13952521828958,
+        -48.30916772322767,
+        -1.3963483320330339
+      ],
+      "maximum_gauge_norm_squared_drift": 2.676018389102808e-07
+    },
+    {
+      "start_tau": 80000.0,
+      "first_checkpoint_tau": 80012.93251139828,
+      "end_tau": 80500.0,
+      "nfev": 191009,
+      "wall_seconds": 19.990658400012762,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0569301152638835,
+        -234.72621689518112,
+        -51.75565149125287,
+        -1.5521444177114554
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0569301152638835,
+        -232.86742621362598,
+        -51.75565149125287,
+        -1.1209206916350105
+      ],
+      "maximum_gauge_norm_squared_drift": 2.709130235700741e-07
+    },
+    {
+      "start_tau": 80500.0,
+      "first_checkpoint_tau": 80503.72575904019,
+      "end_tau": 81000.0,
+      "nfev": 190664,
+      "wall_seconds": 19.763217299987446,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6646273362588344,
+        -232.87261785650216,
+        -55.1754809705873,
+        -1.5521444176537473
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6646273362588344,
+        -232.05912840800926,
+        -54.97238789941388,
+        -1.0725587898320001
+      ],
+      "maximum_gauge_norm_squared_drift": 2.7418275172497175e-07
+    },
+    {
+      "start_tau": 81000.0,
+      "first_checkpoint_tau": 81008.15215244993,
+      "end_tau": 81500.0,
+      "nfev": 191216,
+      "wall_seconds": 19.62162809999427,
+      "minimum_log10_halfcontrast_norms": [
+        -1.09894011903876,
+        -230.9675299556899,
+        -58.7494888688451,
+        -1.552144417592452
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.09894011903876,
+        -229.5344185215003,
+        -58.56139891767023,
+        -1.092199357365405
+      ],
+      "maximum_gauge_norm_squared_drift": 2.774478128353408e-07
+    },
+    {
+      "start_tau": 81500.0,
+      "first_checkpoint_tau": 81512.57854585965,
+      "end_tau": 82000.0,
+      "nfev": 190913,
+      "wall_seconds": 20.065188299995498,
+      "minimum_log10_halfcontrast_norms": [
+        -1.015335304308859,
+        -229.0624420548234,
+        -62.47391464192359,
+        -1.552144417538027
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.015335304308859,
+        -227.2034710683161,
+        -62.47391464192359,
+        -1.4550839134342686
+      ],
+      "maximum_gauge_norm_squared_drift": 2.807745111965687e-07
+    },
+    {
+      "start_tau": 82000.0,
+      "first_checkpoint_tau": 82003.37179350156,
+      "end_tau": 82500.0,
+      "nfev": 191216,
+      "wall_seconds": 20.611370899991016,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4486422320961865,
+        -227.20884301614387,
+        -65.8009098573193,
+        -1.5521444174797765
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4486422320961865,
+        -225.90799545550192,
+        -65.67554261575089,
+        -1.3147902805220677
+      ],
+      "maximum_gauge_norm_squared_drift": 2.840336001952437e-07
+    },
+    {
+      "start_tau": 82500.0,
+      "first_checkpoint_tau": 82507.7981869113,
+      "end_tau": 83000.0,
+      "nfev": 190928,
+      "wall_seconds": 20.66114130000642,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2084907688943205,
+        -225.30375511527376,
+        -69.3749177555721,
+        -1.552144417425266
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2084907688943205,
+        -223.97734184578323,
+        -68.9949892129993,
+        -0.9091235139432542
+      ],
+      "maximum_gauge_norm_squared_drift": 2.8728985590475986e-07
+    },
+    {
+      "start_tau": 83000.0,
+      "first_checkpoint_tau": 83012.22458032102,
+      "end_tau": 83500.0,
+      "nfev": 190769,
+      "wall_seconds": 20.50839590000396,
+      "minimum_log10_halfcontrast_norms": [
+        -1.160349469703268,
+        -223.39866721442868,
+        -73.13059574903261,
+        -1.9995536692839597
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.160349469703268,
+        -221.83394294616164,
+        -73.13059574903261,
+        -1.9995536692839597
+      ],
+      "maximum_gauge_norm_squared_drift": 2.905672545905347e-07
+    },
+    {
+      "start_tau": 83500.0,
+      "first_checkpoint_tau": 83503.01782796293,
+      "end_tau": 84000.0,
+      "nfev": 190988,
+      "wall_seconds": 20.773143899990828,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1486807438292101,
+        -221.5450681757944,
+        -76.42633874396543,
+        -1.5521444173053272
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1486807438292101,
+        -219.8835433788463,
+        -76.08854488127413,
+        -1.3697443392401987
+      ],
+      "maximum_gauge_norm_squared_drift": 2.938277505748488e-07
+    },
+    {
+      "start_tau": 84000.0,
+      "first_checkpoint_tau": 84007.44422137267,
+      "end_tau": 84500.0,
+      "nfev": 190952,
+      "wall_seconds": 20.407210899997153,
+      "minimum_log10_halfcontrast_norms": [
+        -1.561517313426134,
+        -219.6399802749504,
+        -80.00034664222595,
+        -1.5521444172479637
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.561517313426134,
+        -218.40466228615182,
+        -79.58997577619719,
+        -0.9201118218960975
+      ],
+      "maximum_gauge_norm_squared_drift": 2.9706945370300275e-07
+    },
+    {
+      "start_tau": 84500.0,
+      "first_checkpoint_tau": 84511.87061478241,
+      "end_tau": 85000.0,
+      "nfev": 190781,
+      "wall_seconds": 20.72574509998958,
+      "minimum_log10_halfcontrast_norms": [
+        -1.384272623656843,
+        -217.73489237409336,
+        -83.52087302437467,
+        -1.552144417191203
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.384272623656843,
+        -216.16969689353928,
+        -83.52087302437467,
+        -1.5004846244669903
+      ],
+      "maximum_gauge_norm_squared_drift": 3.003986304150885e-07
+    },
+    {
+      "start_tau": 85000.0,
+      "first_checkpoint_tau": 85002.6638624243,
+      "end_tau": 85500.0,
+      "nfev": 190544,
+      "wall_seconds": 20.643464000007953,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9761418081125653,
+        -215.88129333546377,
+        -87.05176763063709,
+        -1.5521444171342795
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9761418081125653,
+        -214.034744980706,
+        -86.840987915055,
+        -1.479648841631473
+      ],
+      "maximum_gauge_norm_squared_drift": 3.0367507841688735e-07
+    },
+    {
+      "start_tau": 85500.0,
+      "first_checkpoint_tau": 85507.09025583405,
+      "end_tau": 86000.0,
+      "nfev": 191108,
+      "wall_seconds": 20.08387990000483,
+      "minimum_log10_halfcontrast_norms": [
+        -2.0660463036292116,
+        -213.97620543465763,
+        -90.62577552889768,
+        -1.5521444170783312
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -2.0660463036292116,
+        -212.7597689639719,
+        -90.37538096982688,
+        -1.2282311761546671
+      ],
+      "maximum_gauge_norm_squared_drift": 3.0697620012620774e-07
+    },
+    {
+      "start_tau": 86000.0,
+      "first_checkpoint_tau": 86011.51664924379,
+      "end_tau": 86500.0,
+      "nfev": 190985,
+      "wall_seconds": 19.929729200011934,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4445381376338586,
+        -212.07111753378888,
+        -94.10318861907373,
+        -1.552144417022794
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4445381376338586,
+        -210.3184643587669,
+        -93.84850095787395,
+        -1.1523591068930388
+      ],
+      "maximum_gauge_norm_squared_drift": 3.1021267143938047e-07
+    },
+    {
+      "start_tau": 86500.0,
+      "first_checkpoint_tau": 86502.30989688568,
+      "end_tau": 87000.0,
+      "nfev": 191000,
+      "wall_seconds": 20.125047699999413,
+      "minimum_log10_halfcontrast_norms": [
+        -1.004059078779132,
+        -210.2175184951299,
+        -97.82712036746543,
+        -1.5711701457216336
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.004059078779132,
+        -208.3470933309461,
+        -97.82712036746543,
+        -1.5711701457216336
+      ],
+      "maximum_gauge_norm_squared_drift": 3.134709150032222e-07
+    },
+    {
+      "start_tau": 87000.0,
+      "first_checkpoint_tau": 87006.73629029542,
+      "end_tau": 87500.0,
+      "nfev": 191276,
+      "wall_seconds": 20.126863099998445,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5279559717419413,
+        -208.31243059426075,
+        -101.25120441560327,
+        -1.5521444168958678
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5279559717419413,
+        -206.84728606587925,
+        -101.20864028734532,
+        -1.1899296464849407
+      ],
+      "maximum_gauge_norm_squared_drift": 3.16787662657525e-07
+    },
+    {
+      "start_tau": 87500.0,
+      "first_checkpoint_tau": 87511.16268370516,
+      "end_tau": 88000.0,
+      "nfev": 190445,
+      "wall_seconds": 19.399812100004056,
+      "minimum_log10_halfcontrast_norms": [
+        -1.553536072860884,
+        -206.40734269339194,
+        -104.72861750576416,
+        -1.5521444168430643
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.553536072860884,
+        -204.79726489925383,
+        -104.30798471277475,
+        -0.9763185235822247
+      ],
+      "maximum_gauge_norm_squared_drift": 3.200441595074821e-07
+    },
+    {
+      "start_tau": 88000.0,
+      "first_checkpoint_tau": 88001.95593134707,
+      "end_tau": 88500.0,
+      "nfev": 190856,
+      "wall_seconds": 19.54165379999904,
+      "minimum_log10_halfcontrast_norms": [
+        -1.335287257903262,
+        -204.5537436547873,
+        -108.94139673109046,
+        -1.5777209720684968
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.335287257903262,
+        -202.8522178499924,
+        -108.94139673109046,
+        -1.5777209720684968
+      ],
+      "maximum_gauge_norm_squared_drift": 3.23276143188167e-07
+    },
+    {
+      "start_tau": 88500.0,
+      "first_checkpoint_tau": 88506.38232475679,
+      "end_tau": 89000.0,
+      "nfev": 190688,
+      "wall_seconds": 19.85933369999111,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1944085983934716,
+        -202.6486557539541,
+        -111.89896686606389,
+        -1.552144416727694
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1944085983934716,
+        -200.89414453394286,
+        -111.89896686606389,
+        -1.024952605428027
+      ],
+      "maximum_gauge_norm_squared_drift": 3.265674715091649e-07
+    },
+    {
+      "start_tau": 89000.0,
+      "first_checkpoint_tau": 89010.80871816653,
+      "end_tau": 89500.0,
+      "nfev": 190949,
+      "wall_seconds": 19.560935800007428,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6432719487136587,
+        -200.74356785317556,
+        -115.35404639236025,
+        -1.552144416668464
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6432719487136587,
+        -199.5148583246576,
+        -114.97045350322631,
+        -0.9591877283387625
+      ],
+      "maximum_gauge_norm_squared_drift": 3.2982952513638253e-07
+    },
+    {
+      "start_tau": 89500.0,
+      "first_checkpoint_tau": 89501.60196580844,
+      "end_tau": 90000.0,
+      "nfev": 191300,
+      "wall_seconds": 19.653489999996964,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2399587022088738,
+        -198.88996881449236,
+        -119.04825172590486,
+        -1.55214441660792
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2399587022088738,
+        -197.38837817960314,
+        -119.04825172590486,
+        -1.3165984609543888
+      ],
+      "maximum_gauge_norm_squared_drift": 3.3308534230780396e-07
+    },
+    {
+      "start_tau": 90000.0,
+      "first_checkpoint_tau": 90006.02835921817,
+      "end_tau": 90500.0,
+      "nfev": 190700,
+      "wall_seconds": 19.807092500006547,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0318125840852992,
+        -196.9848809136247,
+        -122.63235280678244,
+        -1.5521444165602074
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0318125840852992,
+        -195.0794627841948,
+        -122.63235280678244,
+        -1.1833170248192284
+      ],
+      "maximum_gauge_norm_squared_drift": 3.3637827545618393e-07
+    },
+    {
+      "start_tau": 90500.0,
+      "first_checkpoint_tau": 90510.4547526279,
+      "end_tau": 91000.0,
+      "nfev": 191093,
+      "wall_seconds": 19.559820299997227,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6398642095482023,
+        -195.0797930128149,
+        -125.97947527905062,
+        -1.5521444164940068
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6398642095482023,
+        -194.24454470292994,
+        -125.93751491383098,
+        -1.1394888487169308
+      ],
+      "maximum_gauge_norm_squared_drift": 3.396418856160821e-07
+    },
+    {
+      "start_tau": 91000.0,
+      "first_checkpoint_tau": 91001.24800026981,
+      "end_tau": 91500.0,
+      "nfev": 191024,
+      "wall_seconds": 19.524351699990802,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0987662259109658,
+        -193.22619397413254,
+        -129.55348317730625,
+        -1.5521444164403617
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0987662259109658,
+        -191.79335182775006,
+        -129.35071021577073,
+        -1.032490649855036
+      ],
+      "maximum_gauge_norm_squared_drift": 3.428940501537525e-07
+    },
+    {
+      "start_tau": 91500.0,
+      "first_checkpoint_tau": 91505.67439367954,
+      "end_tau": 92000.0,
+      "nfev": 190580,
+      "wall_seconds": 19.54807260000962,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0309132367039995,
+        -191.32110607327755,
+        -133.34603796448823,
+        -1.575997117539418
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0309132367039995,
+        -189.47665316014985,
+        -133.34603796448823,
+        -1.575997117539418
+      ],
+      "maximum_gauge_norm_squared_drift": 3.4620780076100033e-07
+    },
+    {
+      "start_tau": 92000.0,
+      "first_checkpoint_tau": 92010.10078708928,
+      "end_tau": 92500.0,
+      "nfev": 191213,
+      "wall_seconds": 19.448556499992264,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3687024681336988,
+        -189.41601817247215,
+        -136.60490416573606,
+        -1.5521444163130333
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3687024681336988,
+        -188.03242031709627,
+        -136.43853953443087,
+        -1.326294166414907
+      ],
+      "maximum_gauge_norm_squared_drift": 3.494703024742307e-07
+    },
+    {
+      "start_tau": 92500.0,
+      "first_checkpoint_tau": 92500.89403473119,
+      "end_tau": 93000.0,
+      "nfev": 190628,
+      "wall_seconds": 19.534012199990684,
+      "minimum_log10_halfcontrast_norms": [
+        -1.274967389332679,
+        -187.5624191337868,
+        -140.17891206396615,
+        -1.5521444162698204
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.274967389332679,
+        -186.23406441288182,
+        -139.82490514603475,
+        -0.8907296932075148
+      ],
+      "maximum_gauge_norm_squared_drift": 3.5270016041089036e-07
+    },
+    {
+      "start_tau": 93000.0,
+      "first_checkpoint_tau": 93005.32042814093,
+      "end_tau": 93500.0,
+      "nfev": 191024,
+      "wall_seconds": 19.396778099995572,
+      "minimum_log10_halfcontrast_norms": [
+        -1.230881341059225,
+        -185.65733123297267,
+        -143.9518033232297,
+        -1.9285326681204167
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.230881341059225,
+        -184.17714552861094,
+        -143.9518033232297,
+        -1.9285326681204167
+      ],
+      "maximum_gauge_norm_squared_drift": 3.560345198660997e-07
+    },
+    {
+      "start_tau": 93500.0,
+      "first_checkpoint_tau": 93509.74682155065,
+      "end_tau": 94000.0,
+      "nfev": 190973,
+      "wall_seconds": 19.543322500001523,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0911788522541335,
+        -183.7522433321255,
+        -147.230333052411,
+        -1.5521444161475033
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0911788522541335,
+        -182.05525202451403,
+        -146.94579016894568,
+        -1.3967508340097297
+      ],
+      "maximum_gauge_norm_squared_drift": 3.592925807982539e-07
+    },
+    {
+      "start_tau": 94000.0,
+      "first_checkpoint_tau": 94000.54006919256,
+      "end_tau": 94500.0,
+      "nfev": 191000,
+      "wall_seconds": 19.328780300013022,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6899641841666038,
+        -181.89864429345636,
+        -150.80434095067005,
+        -1.552144416091102
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6899641841666038,
+        -180.65635599047525,
+        -150.4610308458329,
+        -0.9637389094332469
+      ],
+      "maximum_gauge_norm_squared_drift": 3.625519322536519e-07
+    },
+    {
+      "start_tau": 94500.0,
+      "first_checkpoint_tau": 94504.9664626023,
+      "end_tau": 95000.0,
+      "nfev": 191096,
+      "wall_seconds": 19.356368799999473,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3922941480050308,
+        -179.99355639259545,
+        -154.37834884889497,
+        -1.5521444160301374
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3922941480050308,
+        -178.3190659418682,
+        -154.29258450869216,
+        -1.3956410014392775
+      ],
+      "maximum_gauge_norm_squared_drift": 3.65837103943889e-07
+    },
+    {
+      "start_tau": 95000.0,
+      "first_checkpoint_tau": 95009.39285601203,
+      "end_tau": 95500.0,
+      "nfev": 190529,
+      "wall_seconds": 19.452389800004312,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9754397431006044,
+        -178.08846849175296,
+        -157.85576193906047,
+        -1.5521444159739204
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9611767831371512,
+        -176.24689534874153,
+        -157.7625947063045,
+        -1.5039356904580516
+      ],
+      "maximum_gauge_norm_squared_drift": 3.690858492166882e-07
+    },
+    {
+      "start_tau": 95500.0,
+      "first_checkpoint_tau": 95500.18610365393,
+      "end_tau": 96000.0,
+      "nfev": 190964,
+      "wall_seconds": 19.37512830000196,
+      "minimum_log10_halfcontrast_norms": [
+        -1.9439487884043085,
+        -176.2348694531291,
+        -161.42976983730006,
+        -1.5521444159184181
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.9439487884043085,
+        -174.95580463694844,
+        -161.3001104649167,
+        -1.3329474093774487
+      ],
+      "maximum_gauge_norm_squared_drift": 3.72373282986338e-07
+    },
+    {
+      "start_tau": 96000.0,
+      "first_checkpoint_tau": 96004.61249706367,
+      "end_tau": 96500.0,
+      "nfev": 191072,
+      "wall_seconds": 20.373850600008154,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4726491897838119,
+        -174.3297815522878,
+        -165.00377773557344,
+        -1.5521444158555422
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4726491897838119,
+        -172.56093923637022,
+        -164.64479014919633,
+        -1.0936984070018807
+      ],
+      "maximum_gauge_norm_squared_drift": 3.7564286148317194e-07
+    },
+    {
+      "start_tau": 96500.0,
+      "first_checkpoint_tau": 96509.03889047341,
+      "end_tau": 97000.0,
+      "nfev": 190844,
+      "wall_seconds": 20.73904240000411,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0534144049701495,
+        -172.42469365141758,
+        -168.8078175224375,
+        -1.588819170858239
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0534144049701495,
+        -170.60066876488915,
+        -168.8078175224375,
+        -1.588819170858239
+      ],
+      "maximum_gauge_norm_squared_drift": 3.788766383960862e-07
+    },
+    {
+      "start_tau": 97000.0,
+      "first_checkpoint_tau": 97013.46528388314,
+      "end_tau": 97500.0,
+      "nfev": 190793,
+      "wall_seconds": 20.12586499999452,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4275877492437565,
+        -170.51960575058504,
+        -172.06788676574988,
+        -1.552144415745002
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4275877492437565,
+        -169.00064780016112,
+        -172.06788676574988,
+        -1.1119606075943447
+      ],
+      "maximum_gauge_norm_squared_drift": 3.821680043536446e-07
+    },
+    {
+      "start_tau": 97500.0,
+      "first_checkpoint_tau": 97504.25853152505,
+      "end_tau": 98000.0,
+      "nfev": 190496,
+      "wall_seconds": 20.224495099988417,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5770720172999277,
+        -168.6660067119721,
+        -175.62920662218397,
+        -1.5521444156857886
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5770720172999277,
+        -167.10292011239048,
+        -175.1472081772169,
+        -0.9572373352909128
+      ],
+      "maximum_gauge_norm_squared_drift": 3.854463299646227e-07
+    },
+    {
+      "start_tau": 98000.0,
+      "first_checkpoint_tau": 98008.68492493479,
+      "end_tau": 98500.0,
+      "nfev": 190820,
+      "wall_seconds": 20.165643100001034,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4281286223198815,
+        -166.76091881117802,
+        -179.67810607494894,
+        -1.5521444156345863
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4281286223198815,
+        -165.15837602427231,
+        -179.67810607494894,
+        -1.5355686627814287
+      ],
+      "maximum_gauge_norm_squared_drift": 3.8869362284366105e-07
+    },
+    {
+      "start_tau": 98500.0,
+      "first_checkpoint_tau": 98513.11131834451,
+      "end_tau": 99000.0,
+      "nfev": 190757,
+      "wall_seconds": 20.157764000003226,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1389068986293673,
+        -164.85583091035863,
+        -182.7796643010155,
+        -1.5521444155687376
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1389068986293673,
+        -163.07423811733915,
+        -182.7796643010155,
+        -1.0391680891652841
+      ],
+      "maximum_gauge_norm_squared_drift": 3.9201041546199633e-07
+    },
+    {
+      "start_tau": 99000.0,
+      "first_checkpoint_tau": 99003.90456598642,
+      "end_tau": 99500.0,
+      "nfev": 190988,
+      "wall_seconds": 19.961460999998963,
+      "minimum_log10_halfcontrast_norms": [
+        -1.660204503890752,
+        -163.00223187171483,
+        -186.2546355088322,
+        -1.552144415507447
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.660204503890752,
+        -161.88761962658555,
+        -185.87522623572744,
+        -0.9820457818094156
+      ],
+      "maximum_gauge_norm_squared_drift": 3.9527240935921526e-07
+    },
+    {
+      "start_tau": 99500.0,
+      "first_checkpoint_tau": 99508.33095939616,
+      "end_tau": 100000.0,
+      "nfev": 191288,
+      "wall_seconds": 19.710787499992875,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1681687504984402,
+        -161.09714397084954,
+        -189.8286434071061,
+        -1.5521444154482043
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1681687504984402,
+        -159.62928136678093,
+        -189.8026762151327,
+        -1.2375459632388024
+      ],
+      "maximum_gauge_norm_squared_drift": 3.9853737276995815e-07
+    },
+    {
+      "start_tau": 100000.0,
+      "first_checkpoint_tau": 100012.7573528059,
+      "end_tau": 100500.0,
+      "nfev": 190973,
+      "wall_seconds": 19.456628399988404,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0163802408933513,
+        -159.19205606998005,
+        -193.50789016824345,
+        -1.5521444153908053
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0163802408933513,
+        -157.30418776674327,
+        -193.50789016824345,
+        -1.2589008352035178
+      ],
+      "maximum_gauge_norm_squared_drift": 4.018519673687493e-07
+    },
+    {
+      "start_tau": 100500.0,
+      "first_checkpoint_tau": 100503.5506004478,
+      "end_tau": 101000.0,
+      "nfev": 191060,
+      "wall_seconds": 19.37570410000626,
+      "minimum_log10_halfcontrast_norms": [
+        -1.593141487006394,
+        -157.3384570312903,
+        -196.88006439554533,
+        -1.5521444153414865
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.593141487006394,
+        -156.31998192842997,
+        -196.87083672625678,
+        -1.2138163203822603
+      ],
+      "maximum_gauge_norm_squared_drift": 4.050981347036853e-07
+    },
+    {
+      "start_tau": 101000.0,
+      "first_checkpoint_tau": 101007.97699385753,
+      "end_tau": 101500.0,
+      "nfev": 190892,
+      "wall_seconds": 19.841847500007134,
+      "minimum_log10_halfcontrast_norms": [
+        -1.117843753867395,
+        -155.43336913042276,
+        -200.45407229377412,
+        -1.5521444152817856
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.117843753867395,
+        -154.05383466392593,
+        -200.15034458453306,
+        -0.981704725447778
+      ],
+      "maximum_gauge_norm_squared_drift": 4.083295748191773e-07
+    },
+    {
+      "start_tau": 101500.0,
+      "first_checkpoint_tau": 101512.40338726727,
+      "end_tau": 102000.0,
+      "nfev": 190985,
+      "wall_seconds": 19.518222800004878,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0587431516747945,
+        -153.5282812295688,
+        -204.21365470245615,
+        -1.7188655376875153
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0587431516747945,
+        -151.77007713684097,
+        -204.21365470245615,
+        -1.7188655376875153
+      ],
+      "maximum_gauge_norm_squared_drift": 4.116251678398797e-07
+    },
+    {
+      "start_tau": 102000.0,
+      "first_checkpoint_tau": 102003.19663490917,
+      "end_tau": 102500.0,
+      "nfev": 191240,
+      "wall_seconds": 19.87843850000354,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2905102109108986,
+        -151.67468219088565,
+        -207.5054932822224,
+        -1.5521444151530996
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2905102109108986,
+        -150.1707786351454,
+        -207.22516711734744,
+        -1.3332096894946228
+      ],
+      "maximum_gauge_norm_squared_drift": 4.1488708757420056e-07
+    },
+    {
+      "start_tau": 102500.0,
+      "first_checkpoint_tau": 102507.6230283189,
+      "end_tau": 103000.0,
+      "nfev": 190628,
+      "wall_seconds": 19.407111600012286,
+      "minimum_log10_halfcontrast_norms": [
+        -1.354732269163702,
+        -149.76959429001747,
+        -211.07950118045773,
+        -1.5521444151081052
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.354732269163702,
+        -148.48987168444916,
+        -210.66446187660273,
+        -0.8851881998446193
+      ],
+      "maximum_gauge_norm_squared_drift": 4.1811760531640374e-07
+    },
+    {
+      "start_tau": 103000.0,
+      "first_checkpoint_tau": 103012.04942172865,
+      "end_tau": 103500.0,
+      "nfev": 190793,
+      "wall_seconds": 19.35675569999148,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3034414267129109,
+        -147.86450638920226,
+        -214.7513137470745,
+        -1.772400880665235
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3034414267129109,
+        -146.45891943510853,
+        -214.7513137470745,
+        -1.772400880665235
+      ],
+      "maximum_gauge_norm_squared_drift": 4.2143672529526555e-07
+    },
+    {
+      "start_tau": 103500.0,
+      "first_checkpoint_tau": 103502.84266937056,
+      "end_tau": 104000.0,
+      "nfev": 191072,
+      "wall_seconds": 19.638269800008857,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0428431774459972,
+        -146.01090735056724,
+        -218.1309221688882,
+        -1.5521444149857648
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0428431774459972,
+        -144.23720297339275,
+        -217.82179763682834,
+        -1.425160235306374
+      ],
+      "maximum_gauge_norm_squared_drift": 4.2469583738657946e-07
+    },
+    {
+      "start_tau": 104000.0,
+      "first_checkpoint_tau": 104007.26906278028,
+      "end_tau": 104500.0,
+      "nfev": 190928,
+      "wall_seconds": 19.54159680000157,
+      "minimum_log10_halfcontrast_norms": [
+        -1.8419354092893854,
+        -144.1058194496985,
+        -221.704930067139,
+        -1.5521444149316634
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.8419354092893854,
+        -142.90246607976917,
+        -221.34479068089007,
+        -1.0279848833463479
+      ],
+      "maximum_gauge_norm_squared_drift": 4.279678265106668e-07
+    },
+    {
+      "start_tau": 104500.0,
+      "first_checkpoint_tau": 104511.69545619002,
+      "end_tau": 105000.0,
+      "nfev": 191201,
+      "wall_seconds": 19.63369899999816,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4014440958238832,
+        -142.2007315488501,
+        -225.18234315734,
+        -1.5521444148719739
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4014440958238832,
+        -140.49349435898523,
+        -225.06708985171494,
+        -1.3042399800938467
+      ],
+      "maximum_gauge_norm_squared_drift": 4.3127934756803654e-07
+    },
+    {
+      "start_tau": 105000.0,
+      "first_checkpoint_tau": 105002.48870383193,
+      "end_tau": 105500.0,
+      "nfev": 190508,
+      "wall_seconds": 19.55218220000097,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9754397418573129,
+        -140.34713251016484,
+        -228.75635105555887,
+        -1.5521444148207721
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9595148478775782,
+        -138.46866870943728,
+        -228.6968802218484,
+        -1.5271312665299441
+      ],
+      "maximum_gauge_norm_squared_drift": 4.345420134832523e-07
+    },
+    {
+      "start_tau": 105500.0,
+      "first_checkpoint_tau": 105506.91509724165,
+      "end_tau": 106000.0,
+      "nfev": 190808,
+      "wall_seconds": 19.738409899990074,
+      "minimum_log10_halfcontrast_norms": [
+        -1.7864307541958055,
+        -138.4420446093575,
+        -232.33035895377935,
+        -1.5521444147597627
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.7864307541958055,
+        -137.13125686002374,
+        -232.22191837470282,
+        -1.3614010633560927
+      ],
+      "maximum_gauge_norm_squared_drift": 4.3781121372710174e-07
+    },
+    {
+      "start_tau": 106000.0,
+      "first_checkpoint_tau": 106011.3414906514,
+      "end_tau": 106500.0,
+      "nfev": 190793,
+      "wall_seconds": 19.57454200000211,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5008825670422867,
+        -136.53695670854904,
+        -235.80777204393226,
+        -1.552144414705736
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5008825670422867,
+        -134.82154903232964,
+        -235.450338030239,
+        -1.0450787087321567
+      ],
+      "maximum_gauge_norm_squared_drift": 4.4104676977241297e-07
+    },
+    {
+      "start_tau": 106500.0,
+      "first_checkpoint_tau": 106502.1347382933,
+      "end_tau": 107000.0,
+      "nfev": 190496,
+      "wall_seconds": 20.02380570000969,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1241549689550674,
+        -134.68335766991385,
+        -239.80999617976138,
+        -1.5997606187972642
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1241549689550674,
+        -132.86724517815904,
+        -239.80999617976138,
+        -1.5997606187972642
+      ],
+      "maximum_gauge_norm_squared_drift": 4.4427242196221073e-07
+    },
+    {
+      "start_tau": 107000.0,
+      "first_checkpoint_tau": 107006.56113170303,
+      "end_tau": 107500.0,
+      "nfev": 190916,
+      "wall_seconds": 19.41702290000103,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3398061385323539,
+        -132.7782697690893,
+        -242.95578784036465,
+        -1.5521444145851675
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3398061385323539,
+        -131.157716257531,
+        -242.9313548171954,
+        -1.0594011015467706
+      ],
+      "maximum_gauge_norm_squared_drift": 4.475917646518113e-07
+    },
+    {
+      "start_tau": 107500.0,
+      "first_checkpoint_tau": 107510.98752511277,
+      "end_tau": 108000.0,
+      "nfev": 190949,
+      "wall_seconds": 19.44841900000756,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5998030991658354,
+        -130.87318186826843,
+        -246.43320093056096,
+        -1.5521444145241234
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5998030991658354,
+        -129.42182166859666,
+        -245.9999224957429,
+        -0.9476705595110608
+      ],
+      "maximum_gauge_norm_squared_drift": 4.5085414313028593e-07
+    },
+    {
+      "start_tau": 108000.0,
+      "first_checkpoint_tau": 108001.78077275468,
+      "end_tau": 108500.0,
+      "nfev": 191252,
+      "wall_seconds": 19.565089399999124,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4249863522695039,
+        -129.019582829585,
+        -250.3791809109362,
+        -1.5521444144625876
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4249863522695039,
+        -127.45852266688776,
+        -250.3791809109362,
+        -1.4739681961723852
+      ],
+      "maximum_gauge_norm_squared_drift": 4.5412249805032445e-07
+    },
+    {
+      "start_tau": 108500.0,
+      "first_checkpoint_tau": 108506.20716616441,
+      "end_tau": 109000.0,
+      "nfev": 190736,
+      "wall_seconds": 19.065267999991192,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0935452917742923,
+        -127.11449492871839,
+        -253.65985868480055,
+        -1.5521444144104029
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0935452917742923,
+        -125.2639059051874,
+        -253.65985868480055,
+        -1.0710105225937354
+      ],
+      "maximum_gauge_norm_squared_drift": 4.574372381993541e-07
+    },
+    {
+      "start_tau": 109000.0,
+      "first_checkpoint_tau": 109010.63355957414,
+      "end_tau": 109500.0,
+      "nfev": 190949,
+      "wall_seconds": 19.335349200002383,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6694879789709267,
+        -125.20940702789747,
+        -257.0586298172482,
+        -1.552144414349902
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6694879789709267,
+        -124.28314137605538,
+        -256.80182082734297,
+        -1.0184501981903973
+      ],
+      "maximum_gauge_norm_squared_drift": 4.606780366067653e-07
+    },
+    {
+      "start_tau": 109500.0,
+      "first_checkpoint_tau": 109501.42680721605,
+      "end_tau": 110000.0,
+      "nfev": 190904,
+      "wall_seconds": 19.74748649999674,
+      "minimum_log10_halfcontrast_norms": [
+        -1.121901906296756,
+        -123.35580798922163,
+        -260.6326377154624,
+        -1.5521444143004732
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.121901906296756,
+        -121.8752106774217,
+        -260.56971812191546,
+        -1.1628958685885522
+      ],
+      "maximum_gauge_norm_squared_drift": 4.6389561747517405e-07
+    },
+    {
+      "start_tau": 110000.0,
+      "first_checkpoint_tau": 110005.85320062579,
+      "end_tau": 110500.0,
+      "nfev": 190856,
+      "wall_seconds": 19.186043199995765,
+      "minimum_log10_halfcontrast_norms": [
+        -1.010645008416679,
+        -121.45072008840627,
+        -264.3827203763852,
+        -1.5521444142442669
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.010645008416679,
+        -119.54302614046976,
+        -264.3827203763852,
+        -1.3475556844542553
+      ],
+      "maximum_gauge_norm_squared_drift": 4.6718938229162177e-07
+    },
+    {
+      "start_tau": 110500.0,
+      "first_checkpoint_tau": 110510.27959403551,
+      "end_tau": 111000.0,
+      "nfev": 191177,
+      "wall_seconds": 19.467504400003236,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5280705923325186,
+        -119.5456321875601,
+        -267.70171601263183,
+        -1.552144414170659
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5280705923325186,
+        -118.40275323441523,
+        -267.70171601263183,
+        -1.2778443023763266
+      ],
+      "maximum_gauge_norm_squared_drift": 4.7045132345324703e-07
+    },
+    {
+      "start_tau": 111000.0,
+      "first_checkpoint_tau": 111001.07284167742,
+      "end_tau": 111500.0,
+      "nfev": 190976,
+      "wall_seconds": 19.405418900001678,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1541869110730316,
+        -117.69203314887599,
+        -271.2580666021395,
+        -1.5521444141208476
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1541869110730316,
+        -116.31358636737694,
+        -270.9601261552701,
+        -0.9406388869607921
+      ],
+      "maximum_gauge_norm_squared_drift": 4.7368659561453086e-07
+    },
+    {
+      "start_tau": 111500.0,
+      "first_checkpoint_tau": 111505.49923508716,
+      "end_tau": 112000.0,
+      "nfev": 190832,
+      "wall_seconds": 19.25838419998763,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1005953073402404,
+        -115.78694524801345,
+        -275.07211695227693,
+        -1.8812116995463917
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1005953073402404,
+        -114.08617739411828,
+        -275.07211695227693,
+        -1.8812116995463917
+      ],
+      "maximum_gauge_norm_squared_drift": 4.770179852231493e-07
+    },
+    {
+      "start_tau": 112000.0,
+      "first_checkpoint_tau": 112009.92562849689,
+      "end_tau": 112500.0,
+      "nfev": 191129,
+      "wall_seconds": 19.618388099988806,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2173738434708026,
+        -113.88185734716951,
+        -278.30948759056855,
+        -1.5521444140014846
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2173738434708026,
+        -112.32088830496062,
+        -278.03715320681295,
+        -1.346885175042753
+      ],
+      "maximum_gauge_norm_squared_drift": 4.80268048441701e-07
+    },
+    {
+      "start_tau": 112500.0,
+      "first_checkpoint_tau": 112500.7188761388,
+      "end_tau": 113000.0,
+      "nfev": 190676,
+      "wall_seconds": 19.97668910000357,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4480376950738383,
+        -112.0282583084974,
+        -281.8834954888127,
+        -1.552144413948334
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4480376950738383,
+        -110.74504942761521,
+        -281.5137403865755,
+        -0.8939427934991654
+      ],
+      "maximum_gauge_norm_squared_drift": 4.835173885719968e-07
+    },
+    {
+      "start_tau": 113000.0,
+      "first_checkpoint_tau": 113005.14526954853,
+      "end_tau": 113500.0,
+      "nfev": 191204,
+      "wall_seconds": 19.281466799991904,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3581926843727485,
+        -110.12317040767147,
+        -285.5341463769113,
+        -1.627925784395598
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3581926843727485,
+        -108.63395387934156,
+        -285.5341463769113,
+        -1.627925784395598
+      ],
+      "maximum_gauge_norm_squared_drift": 4.868181340267341e-07
+    },
+    {
+      "start_tau": 113500.0,
+      "first_checkpoint_tau": 113509.57166295827,
+      "end_tau": 114000.0,
+      "nfev": 190781,
+      "wall_seconds": 19.524147899996024,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0044922093981594,
+        -108.21808250680817,
+        -288.93491647721555,
+        -1.5521444138376892
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0044922093981594,
+        -106.42926863986293,
+        -288.7145163756811,
+        -1.4527188545266907
+      ],
+      "maximum_gauge_norm_squared_drift": 4.900423498099826e-07
+    },
+    {
+      "start_tau": 114000.0,
+      "first_checkpoint_tau": 114000.36491060017,
+      "end_tau": 114500.0,
+      "nfev": 190976,
+      "wall_seconds": 20.544119300000602,
+      "minimum_log10_halfcontrast_norms": [
+        -2.0041211406062076,
+        -106.36448346816556,
+        -292.50892437545394,
+        -1.5521444137733933
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -2.0041211406062076,
+        -105.13786517313711,
+        -292.2430005664261,
+        -1.115150764483224
+      ],
+      "maximum_gauge_norm_squared_drift": 4.932772930121843e-07
+    },
+    {
+      "start_tau": 114500.0,
+      "first_checkpoint_tau": 114504.79130400991,
+      "end_tau": 115000.0,
+      "nfev": 191120,
+      "wall_seconds": 19.982526699997834,
+      "minimum_log10_halfcontrast_norms": [
+        -1.418833845113587,
+        -104.45939556731533,
+        -296.0829322737036,
+        -1.5521444137196099
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.418833845113587,
+        -102.69250965301829,
+        -295.84725234654127,
+        -1.2243319725302764
+      ],
+      "maximum_gauge_norm_squared_drift": 4.965586363203656e-07
+    },
+    {
+      "start_tau": 115000.0,
+      "first_checkpoint_tau": 115009.21769741965,
+      "end_tau": 115500.0,
+      "nfev": 190937,
+      "wall_seconds": 19.711169000001973,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9754397406100846,
+        -102.55430766647027,
+        -299.6441022981763,
+        -1.5521444136509333
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9726687991060132,
+        -100.70018003307891,
+        -299.6441022981763,
+        -1.5494338819018834
+      ],
+      "maximum_gauge_norm_squared_drift": 4.998190379357226e-07
+    },
+    {
+      "start_tau": 115500.0,
+      "first_checkpoint_tau": 115500.01094506154,
+      "end_tau": 116000.0,
+      "nfev": 190748,
+      "wall_seconds": 19.333301199993002,
+      "minimum_log10_halfcontrast_norms": [
+        -1.649160134430447,
+        -100.70070862778556,
+        -303.134353262113,
+        -1.552144413599186
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.649160134430447,
+        -99.29214511970824,
+        -303.120892349329,
+        -1.2902299432869724
+      ],
+      "maximum_gauge_norm_squared_drift": 5.031248163644975e-07
+    },
+    {
+      "start_tau": 116000.0,
+      "first_checkpoint_tau": 116004.43733847128,
+      "end_tau": 116500.0,
+      "nfev": 191048,
+      "wall_seconds": 19.321905699995114,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5276018210053084,
+        -98.79562072699422,
+        -306.70836116038794,
+        -1.5521444135337634
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5276018210053084,
+        -97.0984276704608,
+        -306.26594612176353,
+        -1.0063451131100491
+      ],
+      "maximum_gauge_norm_squared_drift": 5.063912409397631e-07
+    },
+    {
+      "start_tau": 116500.0,
+      "first_checkpoint_tau": 116508.86373188102,
+      "end_tau": 117000.0,
+      "nfev": 191084,
+      "wall_seconds": 19.55354010000883,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2181704301692664,
+        -96.89053282612815,
+        -310.817673948665,
+        -1.5985236062378683
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2181704301692664,
+        -95.14854430060119,
+        -310.817673948665,
+        -1.5985236062378683
+      ],
+      "maximum_gauge_norm_squared_drift": 5.096511450641827e-07
+    },
+    {
+      "start_tau": 117000.0,
+      "first_checkpoint_tau": 117013.29012529076,
+      "end_tau": 117500.0,
+      "nfev": 190817,
+      "wall_seconds": 19.7487043000001,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2631298453117257,
+        -94.98544492526185,
+        -313.8033246382041,
+        -1.552144413427484
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2631298453117257,
+        -93.32099710227516,
+        -313.8033246382041,
+        -1.031098159217352
+      ],
+      "maximum_gauge_norm_squared_drift": 5.129194138309146e-07
+    },
+    {
+      "start_tau": 117500.0,
+      "first_checkpoint_tau": 117504.08337293266,
+      "end_tau": 118000.0,
+      "nfev": 190976,
+      "wall_seconds": 19.30727150000166,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6218417681563642,
+        -93.13184588662884,
+        -317.33379004707103,
+        -1.5521444133593643
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6218417681563642,
+        -91.75493033447914,
+        -316.8677091317904,
+        -0.9478636902804704
+      ],
+      "maximum_gauge_norm_squared_drift": 5.161787168805887e-07
+    },
+    {
+      "start_tau": 118000.0,
+      "first_checkpoint_tau": 118008.5097663424,
+      "end_tau": 118500.0,
+      "nfev": 191192,
+      "wall_seconds": 19.545863300008932,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3381775542077288,
+        -91.22675798576036,
+        -321.0980130274867,
+        -1.5521444133038216
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3381775542077288,
+        -89.73385634333654,
+        -321.0980130274867,
+        -1.3996086965229952
+      ],
+      "maximum_gauge_norm_squared_drift": 5.194478145398307e-07
+    },
+    {
+      "start_tau": 118500.0,
+      "first_checkpoint_tau": 118512.93615975213,
+      "end_tau": 119000.0,
+      "nfev": 190985,
+      "wall_seconds": 19.24542580000707,
+      "minimum_log10_halfcontrast_norms": [
+        -1.058188432197682,
+        -89.3216700849001,
+        -324.53833858567816,
+        -1.5521444132493394
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.058188432197682,
+        -87.46400608501492,
+        -324.53833858567816,
+        -1.1186196610761148
+      ],
+      "maximum_gauge_norm_squared_drift": 5.227587960288105e-07
+    },
+    {
+      "start_tau": 119000.0,
+      "first_checkpoint_tau": 119003.72940739403,
+      "end_tau": 119500.0,
+      "nfev": 190664,
+      "wall_seconds": 18.974454800001695,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6651962805803726,
+        -87.46807104622047,
+        -327.9592189337523,
+        -1.5521444131947233
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6651962805803726,
+        -86.65184481132596,
+        -327.7516048485305,
+        -1.0700697827203338
+      ],
+      "maximum_gauge_norm_squared_drift": 5.260055371270056e-07
+    },
+    {
+      "start_tau": 119500.0,
+      "first_checkpoint_tau": 119508.15580080377,
+      "end_tau": 120000.0,
+      "nfev": 191204,
+      "wall_seconds": 19.073035299996263,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0993960877440514,
+        -85.5629831454121,
+        -331.53322683202714,
+        -1.55214441312805
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0993960877440514,
+        -84.12887092511086,
+        -331.34798774158975,
+        -1.094867752639054
+      ],
+      "maximum_gauge_norm_squared_drift": 5.292705099746442e-07
+    },
+    {
+      "start_tau": 120000.0,
+      "first_checkpoint_tau": 120012.58219421351,
+      "end_tau": 120500.0,
+      "nfev": 190625,
+      "wall_seconds": 19.34505910000007,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0149296304623645,
+        -83.65789524454514,
+        -335.2567737128582,
+        -1.5521444130817141
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0149296304623645,
+        -81.79764963806682,
+        -335.2567737128582,
+        -1.4504519857725773
+      ],
+      "maximum_gauge_norm_squared_drift": 5.325607792538989e-07
+    },
+    {
+      "start_tau": 120500.0,
+      "first_checkpoint_tau": 120503.37544185542,
+      "end_tau": 121000.0,
+      "nfev": 191024,
+      "wall_seconds": 20.070792500002426,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4519403452660489,
+        -81.80429620591183,
+        -338.5846478203895,
+        -1.5521444130262267
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4519403452660489,
+        -80.50832311758803,
+        -338.46333923599553,
+        -1.313924018525212
+      ],
+      "maximum_gauge_norm_squared_drift": 5.357997012733762e-07
+    },
+    {
+      "start_tau": 121000.0,
+      "first_checkpoint_tau": 121007.80183526514,
+      "end_tau": 121500.0,
+      "nfev": 190904,
+      "wall_seconds": 19.736842099999194,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2060181261913716,
+        -79.89920830506166,
+        -342.15865571863594,
+        -1.5521444129595627
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2060181261913716,
+        -78.57177613248344,
+        -341.7798698787469,
+        -0.9101498792576376
+      ],
+      "maximum_gauge_norm_squared_drift": 5.390559442153275e-07
+    },
+    {
+      "start_tau": 121500.0,
+      "first_checkpoint_tau": 121512.22822867488,
+      "end_tau": 122000.0,
+      "nfev": 190949,
+      "wall_seconds": 19.357833600006416,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1576527211550356,
+        -77.99412040422077,
+        -345.91514639550985,
+        -1.9981608935938473
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1576527211550356,
+        -76.42464057625507,
+        -345.91514639550985,
+        -1.9981608935938473
+      ],
+      "maximum_gauge_norm_squared_drift": 5.4237681457181e-07
+    },
+    {
+      "start_tau": 122000.0,
+      "first_checkpoint_tau": 122003.02147631679,
+      "end_tau": 122500.0,
+      "nfev": 191168,
+      "wall_seconds": 19.080640400003176,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1512627221745995,
+        -76.14052136554949,
+        -349.2100767070816,
+        -1.5521444128403734
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1512627221745995,
+        -74.48177049309442,
+        -348.87251554842715,
+        -1.3686991596825033
+      ],
+      "maximum_gauge_norm_squared_drift": 5.456386211744046e-07
+    },
+    {
+      "start_tau": 122500.0,
+      "first_checkpoint_tau": 122507.44786972651,
+      "end_tau": 123000.0,
+      "nfev": 190940,
+      "wall_seconds": 18.925565300000017,
+      "minimum_log10_halfcontrast_norms": [
+        -1.556615564962467,
+        -74.23543346468205,
+        -352.78408460535155,
+        -1.5521444127818254
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.556615564962467,
+        -72.99926502999487,
+        -352.37318327099797,
+        -0.9187040939802297
+      ],
+      "maximum_gauge_norm_squared_drift": 5.488879823989379e-07
+    },
+    {
+      "start_tau": 123000.0,
+      "first_checkpoint_tau": 123011.87426313625,
+      "end_tau": 123500.0,
+      "nfev": 191249,
+      "wall_seconds": 20.036879000006593,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3837243510515231,
+        -72.3303455638189,
+        -356.307966879684,
+        -1.5521444127216182
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3837243510515231,
+        -70.76910259708862,
+        -356.307966879684,
+        -1.5051906505451254
+      ],
+      "maximum_gauge_norm_squared_drift": 5.52202289227921e-07
+    },
+    {
+      "start_tau": 123500.0,
+      "first_checkpoint_tau": 123502.66751077816,
+      "end_tau": 124000.0,
+      "nfev": 190724,
+      "wall_seconds": 26.091627699992387,
+      "minimum_log10_halfcontrast_norms": [
+        -0.977034120653178,
+        -70.47674652513211,
+        -359.8355055937878,
+        -1.5521444126793906
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.977034120653178,
+        -68.63127336415819,
+        -359.6221215975718,
+        -1.4786067530837512
+      ],
+      "maximum_gauge_norm_squared_drift": 5.554254092210442e-07
+    },
+    {
+      "start_tau": 124000.0,
+      "first_checkpoint_tau": 124007.0939041879,
+      "end_tau": 124500.0,
+      "nfev": 191000,
+      "wall_seconds": 27.40290339999774,
+      "minimum_log10_halfcontrast_norms": [
+        -2.0679547529149653,
+        -68.5716586243088,
+        -363.4095134920125,
+        -1.5521444126224235
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -2.0679547529149653,
+        -67.35627615316737,
+        -363.15628149785533,
+        -1.2234539969835154
+      ],
+      "maximum_gauge_norm_squared_drift": 5.58728688648813e-07
+    },
+    {
+      "start_tau": 124500.0,
+      "first_checkpoint_tau": 124511.52029759763,
+      "end_tau": 125000.0,
+      "nfev": 191165,
+      "wall_seconds": 27.430016900005285,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4434122929494473,
+        -66.66657072346925,
+        -366.88692658222067,
+        -1.5521444125519206
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4434122929494473,
+        -64.91394233038858,
+        -366.6347612505293,
+        -1.155022921447536
+      ],
+      "maximum_gauge_norm_squared_drift": 5.619932547107354e-07
+    },
+    {
+      "start_tau": 125000.0,
+      "first_checkpoint_tau": 125002.31354523954,
+      "end_tau": 125500.0,
+      "nfev": 191000,
+      "wall_seconds": 27.61153710000508,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0024287113836383,
+        -64.81297168478835,
+        -370.60593368601127,
+        -1.5703484791855402
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0024287113836383,
+        -62.94194223568449,
+        -370.60593368601127,
+        -1.5703484791855402
+      ],
+      "maximum_gauge_norm_squared_drift": 5.652514512011209e-07
+    },
+    {
+      "start_tau": 125500.0,
+      "first_checkpoint_tau": 125506.73993864928,
+      "end_tau": 126000.0,
+      "nfev": 190988,
+      "wall_seconds": 26.581670500003383,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5324477735957347,
+        -62.90788378391522,
+        -374.0349423786999,
+        -1.5521444124451178
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5324477735957347,
+        -61.446079895234675,
+        -373.9919910180331,
+        -1.1936897800893473
+      ],
+      "maximum_gauge_norm_squared_drift": 5.685348924977518e-07
+    },
+    {
+      "start_tau": 126000.0,
+      "first_checkpoint_tau": 126011.166332059,
+      "end_tau": 126500.0,
+      "nfev": 190805,
+      "wall_seconds": 20.412043599993922,
+      "minimum_log10_halfcontrast_norms": [
+        -1.552530982807963,
+        -61.002795883089654,
+        -377.51235546886596,
+        -1.5521444123837418
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.552530982807963,
+        -59.38997620865932,
+        -377.0925392062881,
+        -0.9773196389133819
+      ],
+      "maximum_gauge_norm_squared_drift": 5.717751606626464e-07
+    },
+    {
+      "start_tau": 126500.0,
+      "first_checkpoint_tau": 126501.95957970091,
+      "end_tau": 127000.0,
+      "nfev": 190856,
+      "wall_seconds": 19.640029500005767,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3305361341645727,
+        -59.14919684443772,
+        -381.7270035652512,
+        -1.5789995876577214
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3305361341645727,
+        -57.44475604530885,
+        -381.7270035652512,
+        -1.5789995876577214
+      ],
+      "maximum_gauge_norm_squared_drift": 5.75029166061114e-07
+    },
+    {
+      "start_tau": 127000.0,
+      "first_checkpoint_tau": 127006.38597311065,
+      "end_tau": 127500.0,
+      "nfev": 190952,
+      "wall_seconds": 19.70695259999775,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1969422867579622,
+        -57.244108943603386,
+        -384.68154662492145,
+        -1.5521444122743167
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1969422867579622,
+        -55.491994150491195,
+        -384.68154662492145,
+        -1.0247725531366274
+      ],
+      "maximum_gauge_norm_squared_drift": 5.782971181922392e-07
+    },
+    {
+      "start_tau": 127500.0,
+      "first_checkpoint_tau": 127510.81236652037,
+      "end_tau": 128000.0,
+      "nfev": 190937,
+      "wall_seconds": 19.89625689999957,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6424678106407236,
+        -55.339021042771044,
+        -388.1377843555066,
+        -1.552144412203717
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6424678106407236,
+        -54.10499836132858,
+        -387.75244077885753,
+        -0.9585015890928186
+      ],
+      "maximum_gauge_norm_squared_drift": 5.815596378910826e-07
+    },
+    {
+      "start_tau": 128000.0,
+      "first_checkpoint_tau": 128001.60561416228,
+      "end_tau": 128500.0,
+      "nfev": 190808,
+      "wall_seconds": 19.6534110000066,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2434968846495416,
+        -53.485422004087866,
+        -391.8363747767077,
+        -1.5521444121531336
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2434968846495416,
+        -51.983454984232274,
+        -391.8363747767077,
+        -1.3199391012725754
+      ],
+      "maximum_gauge_norm_squared_drift": 5.84783822810131e-07
+    },
+    {
+      "start_tau": 128500.0,
+      "first_checkpoint_tau": 128506.03200757202,
+      "end_tau": 129000.0,
+      "nfev": 190592,
+      "wall_seconds": 19.904002800001763,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0326649418016665,
+        -51.58033410328783,
+        -395.41510131225465,
+        -1.5521444120915133
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0326649418016665,
+        -49.675541723384605,
+        -395.41510131225465,
+        -1.180450124421112
+      ],
+      "maximum_gauge_norm_squared_drift": 5.880962288262737e-07
+    },
+    {
+      "start_tau": 129000.0,
+      "first_checkpoint_tau": 129010.45840098176,
+      "end_tau": 129500.0,
+      "nfev": 190901,
+      "wall_seconds": 19.65321469999617,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6413386064695703,
+        -49.67524620247413,
+        -398.763213242128,
+        -1.5521444120373062
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6413386064695703,
+        -48.84551621572745,
+        -398.7166638112322,
+        -1.1364684023856373
+      ],
+      "maximum_gauge_norm_squared_drift": 5.913545835234402e-07
+    },
+    {
+      "start_tau": 129500.0,
+      "first_checkpoint_tau": 129501.25164862366,
+      "end_tau": 130000.0,
+      "nfev": 190736,
+      "wall_seconds": 19.757066299993312,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0983748778919284,
+        -47.821647163807334,
+        -402.33722114035425,
+        -1.5521444119773944
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0983748778919284,
+        -46.38766924377007,
+        -402.13686445307434,
+        -1.0348055033958474
+      ],
+      "maximum_gauge_norm_squared_drift": 5.945890722003355e-07
+    },
+    {
+      "start_tau": 130000.0,
+      "first_checkpoint_tau": 130005.6780420334,
+      "end_tau": 130500.0,
+      "nfev": 190868,
+      "wall_seconds": 19.82655290000548,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0300312328909784,
+        -45.916559262994305,
+        -406.12901515109115,
+        -1.5705543300447247
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0300312328909784,
+        -44.070042796620186,
+        -406.12901515109115,
+        -1.5705543300447247
+      ],
+      "maximum_gauge_norm_squared_drift": 5.978901016501226e-07
+    },
+    {
+      "start_tau": 130500.0,
+      "first_checkpoint_tau": 130510.10443544314,
+      "end_tau": 131000.0,
+      "nfev": 191117,
+      "wall_seconds": 19.949709199994686,
+      "minimum_log10_halfcontrast_norms": [
+        -1.372026838976559,
+        -44.011471362136106,
+        -409.38864212877854,
+        -1.5521444118559882
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.372026838976559,
+        -42.63209405967661,
+        -409.22556908308303,
+        -1.3260282311311207
+      ],
+      "maximum_gauge_norm_squared_drift": 6.011318991472336e-07
+    },
+    {
+      "start_tau": 131000.0,
+      "first_checkpoint_tau": 131000.89768308503,
+      "end_tau": 131500.0,
+      "nfev": 190988,
+      "wall_seconds": 19.918162000001757,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2719305068901863,
+        -42.157872323456964,
+        -412.96265002703643,
+        -1.5521444117942935
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2719305068901863,
+        -40.82854759151675,
+        -412.60938245661487,
+        -0.8912485660619341
+      ],
+      "maximum_gauge_norm_squared_drift": 6.04389401859251e-07
+    },
+    {
+      "start_tau": 131500.0,
+      "first_checkpoint_tau": 131505.32407649478,
+      "end_tau": 132000.0,
+      "nfev": 190928,
+      "wall_seconds": 20.177976999999373,
+      "minimum_log10_halfcontrast_norms": [
+        -1.2277888157144217,
+        -40.252784422595596,
+        -416.73728599690077,
+        -1.9343941042941803
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.2277888157144217,
+        -38.768600615111986,
+        -416.73728599690077,
+        -1.9343941042941803
+      ],
+      "maximum_gauge_norm_squared_drift": 6.076890581852012e-07
+    },
+    {
+      "start_tau": 132000.0,
+      "first_checkpoint_tau": 132009.7504699045,
+      "end_tau": 132500.0,
+      "nfev": 191141,
+      "wall_seconds": 20.700801400002092,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0933969087683417,
+        -38.347696521759374,
+        -420.0140710154699,
+        -1.5521444116797736
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0933969087683417,
+        -36.653049907981206,
+        -419.72893250944355,
+        -1.395576750290036
+      ],
+      "maximum_gauge_norm_squared_drift": 6.109482162397484e-07
+    },
+    {
+      "start_tau": 132500.0,
+      "first_checkpoint_tau": 132500.54371754642,
+      "end_tau": 133000.0,
+      "nfev": 190616,
+      "wall_seconds": 20.63879640000232,
+      "minimum_log10_halfcontrast_norms": [
+        -1.684164557076781,
+        -36.49409748307821,
+        -423.5880789136895,
+        -1.5521444116351801
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.684164557076781,
+        -35.251110157775805,
+        -423.2437458267386,
+        -0.9615280673391486
+      ],
+      "maximum_gauge_norm_squared_drift": 6.141463146924764e-07
+    },
+    {
+      "start_tau": 133000.0,
+      "first_checkpoint_tau": 133004.97011095614,
+      "end_tau": 133500.0,
+      "nfev": 191180,
+      "wall_seconds": 21.138523100002203,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3920283805527127,
+        -34.589009582276006,
+        -427.16208681193194,
+        -1.552144411567635
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3920283805527127,
+        -32.91751206043904,
+        -427.0796489568354,
+        -1.3997215457121677
+      ],
+      "maximum_gauge_norm_squared_drift": 6.174670311720476e-07
+    },
+    {
+      "start_tau": 133500.0,
+      "first_checkpoint_tau": 133509.39650436587,
+      "end_tau": 134000.0,
+      "nfev": 190709,
+      "wall_seconds": 20.513005099986913,
+      "minimum_log10_halfcontrast_norms": [
+        -0.9754397383011234,
+        -32.68392168142891,
+        -430.63949990211427,
+        -1.5521444115145353
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -0.9615442888243053,
+        -30.84302141846862,
+        -430.5431898340397,
+        -1.502948605890507
+      ],
+      "maximum_gauge_norm_squared_drift": 6.207139293668007e-07
+    },
+    {
+      "start_tau": 134000.0,
+      "first_checkpoint_tau": 134000.18975200778,
+      "end_tau": 134500.0,
+      "nfev": 191048,
+      "wall_seconds": 20.451354000004358,
+      "minimum_log10_halfcontrast_norms": [
+        -1.950574608423679,
+        -30.830322642772884,
+        -434.2135078003543,
+        -1.552144411457637
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.950574608423679,
+        -29.553232587122654,
+        -434.0807550845162,
+        -1.329501466596627
+      ],
+      "maximum_gauge_norm_squared_drift": 6.240351519970488e-07
+    },
+    {
+      "start_tau": 134500.0,
+      "first_checkpoint_tau": 134504.61614541753,
+      "end_tau": 135000.0,
+      "nfev": 190688,
+      "wall_seconds": 20.50821219998761,
+      "minimum_log10_halfcontrast_norms": [
+        -1.47145854493744,
+        -28.92523474192699,
+        -437.78751569861464,
+        -1.552144411393997
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.47145854493744,
+        -27.155618822557138,
+        -437.4306816133934,
+        -1.0959406435414767
+      ],
+      "maximum_gauge_norm_squared_drift": 6.27311669498809e-07
+    },
+    {
+      "start_tau": 135000.0,
+      "first_checkpoint_tau": 135009.04253882726,
+      "end_tau": 135500.0,
+      "nfev": 190556,
+      "wall_seconds": 21.530830999996397,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0509496006842014,
+        -27.020146841118496,
+        -441.5857863512779,
+        -1.5881864261604184
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0509496006842014,
+        -25.19501472980105,
+        -441.5857863512779,
+        -1.5881864261604184
+      ],
+      "maximum_gauge_norm_squared_drift": 6.305568249764804e-07
+    },
+    {
+      "start_tau": 135500.0,
+      "first_checkpoint_tau": 135513.46893223698,
+      "end_tau": 136000.0,
+      "nfev": 191081,
+      "wall_seconds": 21.10435760000837,
+      "minimum_log10_halfcontrast_norms": [
+        -1.4315029562271935,
+        -25.115058940306145,
+        -444.8513170877886,
+        -1.5521444112874752
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.4315029562271935,
+        -23.599363451451506,
+        -444.8513170877886,
+        -1.114704549293792
+      ],
+      "maximum_gauge_norm_squared_drift": 6.338439495490178e-07
+    },
+    {
+      "start_tau": 136000.0,
+      "first_checkpoint_tau": 136004.2621798789,
+      "end_tau": 136500.0,
+      "nfev": 190964,
+      "wall_seconds": 20.232868499995675,
+      "minimum_log10_halfcontrast_norms": [
+        -1.5761104240840191,
+        -23.261459901660185,
+        -448.4129445852403,
+        -1.5521444112208012
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.5761104240840191,
+        -21.695080463552042,
+        -447.93123133145156,
+        -0.9578428024759051
+      ],
+      "maximum_gauge_norm_squared_drift": 6.371051124443028e-07
+    },
+    {
+      "start_tau": 136500.0,
+      "first_checkpoint_tau": 136508.68857328864,
+      "end_tau": 137000.0,
+      "nfev": 190700,
+      "wall_seconds": 19.85321020000265,
+      "minimum_log10_halfcontrast_norms": [
+        -1.425711304028519,
+        -21.3563720008126,
+        -452.46813944061734,
+        -1.5521444111723772
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.425711304028519,
+        -19.750756342296338,
+        -452.46813944061734,
+        -1.5377482981624773
+      ],
+      "maximum_gauge_norm_squared_drift": 6.403371213270503e-07
+    },
+    {
+      "start_tau": 137000.0,
+      "first_checkpoint_tau": 137013.11496669837,
+      "end_tau": 137500.0,
+      "nfev": 190745,
+      "wall_seconds": 19.523154800001066,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1410157963030003,
+        -19.45128410000415,
+        -455.5622150583124,
+        -1.5521444111051106
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1410157963030003,
+        -17.671706435021967,
+        -455.5622150583124,
+        -1.0382103875440072
+      ],
+      "maximum_gauge_norm_squared_drift": 6.436564787826171e-07
+    },
+    {
+      "start_tau": 137500.0,
+      "first_checkpoint_tau": 137503.90821434028,
+      "end_tau": 138000.0,
+      "nfev": 190700,
+      "wall_seconds": 19.461710699994,
+      "minimum_log10_halfcontrast_norms": [
+        -1.6596165080720335,
+        -17.59768506137025,
+        -459.03837347185356,
+        -1.552144411057523
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.6596165080720335,
+        -16.476748633413138,
+        -458.65635984994765,
+        -0.9808366105931345
+      ],
+      "maximum_gauge_norm_squared_drift": 6.468842326246005e-07
+    },
+    {
+      "start_tau": 138000.0,
+      "first_checkpoint_tau": 138008.33460775,
+      "end_tau": 138500.0,
+      "nfev": 190808,
+      "wall_seconds": 19.524234099997557,
+      "minimum_log10_halfcontrast_norms": [
+        -1.170643699374911,
+        -15.692597160553127,
+        -462.6123813700651,
+        -1.552144410993454
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.170643699374911,
+        -14.224352140499136,
+        -462.59022574119194,
+        -1.240770967238321
+      ],
+      "maximum_gauge_norm_squared_drift": 6.501482895382438e-07
+    },
+    {
+      "start_tau": 138500.0,
+      "first_checkpoint_tau": 138512.76100115973,
+      "end_tau": 139000.0,
+      "nfev": 190877,
+      "wall_seconds": 19.732275699992897,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0168304560791412,
+        -13.78750925974946,
+        -466.290675846421,
+        -1.5521444109313658
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0168304560791412,
+        -11.899711260777208,
+        -466.290675846421,
+        -1.2554941395567922
+      ],
+      "maximum_gauge_norm_squared_drift": 6.534520878842542e-07
+    },
+    {
+      "start_tau": 139000.0,
+      "first_checkpoint_tau": 139003.55424880164,
+      "end_tau": 139500.0,
+      "nfev": 190952,
+      "wall_seconds": 20.25495349999983,
+      "minimum_log10_halfcontrast_norms": [
+        -1.59549705959907,
+        -11.933910221075744,
+        -469.6638023584504,
+        -1.552144410883199
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.59549705959907,
+        -10.922154665148751,
+        -469.65295174597514,
+        -1.210771992000563
+      ],
+      "maximum_gauge_norm_squared_drift": 6.566756758363823e-07
+    },
+    {
+      "start_tau": 139500.0,
+      "first_checkpoint_tau": 139507.9806422114,
+      "end_tau": 140000.0,
+      "nfev": 191048,
+      "wall_seconds": 19.47511639998993,
+      "minimum_log10_halfcontrast_norms": [
+        -1.1166911721692065,
+        -10.028822320252655,
+        -473.23781025674487,
+        -1.5521444108083435
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.1166911721692065,
+        -8.648143679261356,
+        -472.93607242507517,
+        -0.9836318862353975
+      ],
+      "maximum_gauge_norm_squared_drift": 6.59949737524812e-07
+    },
+    {
+      "start_tau": 140000.0,
+      "first_checkpoint_tau": 140012.40703562112,
+      "end_tau": 140500.0,
+      "nfev": 190601,
+      "wall_seconds": 19.30179219999991,
+      "minimum_log10_halfcontrast_norms": [
+        -1.0573163663348737,
+        -8.12373441938962,
+        -476.99689760426264,
+        -1.7124328657354142
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.0573163663348737,
+        -6.362572009340571,
+        -476.99689760426264,
+        -1.7124328657354142
+      ],
+      "maximum_gauge_norm_squared_drift": 6.632543944062874e-07
+    },
+    {
+      "start_tau": 140500.0,
+      "first_checkpoint_tau": 140503.20028326302,
+      "end_tau": 141000.0,
+      "nfev": 191228,
+      "wall_seconds": 19.34546589999809,
+      "minimum_log10_halfcontrast_norms": [
+        -1.293684105896611,
+        -6.270135380760105,
+        -480.28923118357693,
+        -1.5521444167281708
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.293684105896611,
+        -4.769926445512696,
+        -480.01112479782,
+        -1.3328244903200994
+      ],
+      "maximum_gauge_norm_squared_drift": 6.665163769792315e-07
+    },
+    {
+      "start_tau": 141000.0,
+      "first_checkpoint_tau": 141007.62667667275,
+      "end_tau": 141500.0,
+      "nfev": 191054,
+      "wall_seconds": 19.87802940000256,
+      "minimum_log10_halfcontrast_norms": [
+        -1.3513153113651968,
+        -4.365047493234712,
+        -483.862841411517,
+        -1.5521837314268039
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.3513153113651968,
+        -3.084452495351123,
+        -483.44809483004775,
+        -0.8851874108450182
+      ],
+      "maximum_gauge_norm_squared_drift": 6.697566371505204e-07
+    },
+    {
+      "start_tau": 141500.0,
+      "first_checkpoint_tau": 141512.0530700825,
+      "end_tau": 142000.0,
+      "nfev": 189701,
+      "wall_seconds": 20.38538239999616,
+      "minimum_log10_halfcontrast_norms": [
+        -1.9983233045111788,
+        -2.4600458257243174,
+        -486.37401037105315,
+        -1.8289809337352234
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -1.9983233045111788,
+        -1.3749021837833948,
+        -486.33714042289824,
+        -1.8289809337352234
+      ],
+      "maximum_gauge_norm_squared_drift": 6.729382006076534e-07
+    },
+    {
+      "start_tau": 142000.0,
+      "first_checkpoint_tau": 142002.84631772438,
+      "end_tau": 142500.0,
+      "nfev": 191201,
+      "wall_seconds": 20.1736799999926,
+      "minimum_log10_halfcontrast_norms": [
+        -5.245039637822704,
+        -1.058475280698798,
+        -486.23785171312153,
+        -1.6190241829274632
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -5.245039637822704,
+        -1.058475280698798,
+        -484.01816943623857,
+        -1.4926146976622443
+      ],
+      "maximum_gauge_norm_squared_drift": 6.744236403788406e-07
+    },
+    {
+      "start_tau": 142500.0,
+      "first_checkpoint_tau": 142507.27271113414,
+      "end_tau": 143000.0,
+      "nfev": 190748,
+      "wall_seconds": 21.36979529999371,
+      "minimum_log10_halfcontrast_norms": [
+        -9.545179018535247,
+        -1.5975038085983126,
+        -484.3527279324379,
+        -1.6190241835905896
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -9.545179018535247,
+        -1.5975038085983126,
+        -482.0624051926456,
+        -1.1007685669600895
+      ],
+      "maximum_gauge_norm_squared_drift": 6.759845638804052e-07
+    },
+    {
+      "start_tau": 143000.0,
+      "first_checkpoint_tau": 143011.69910454386,
+      "end_tau": 143500.0,
+      "nfev": 191213,
+      "wall_seconds": 19.961117900005775,
+      "minimum_log10_halfcontrast_norms": [
+        -12.708996476963868,
+        -1.072378316207691,
+        -482.44764003307347,
+        -1.6190241835442758
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -12.708996476963868,
+        -1.072378316207691,
+        -480.38629835149044,
+        -1.3646657027924578
+      ],
+      "maximum_gauge_norm_squared_drift": 6.775256342628211e-07
+    },
+    {
+      "start_tau": 143500.0,
+      "first_checkpoint_tau": 143502.49235218577,
+      "end_tau": 144000.0,
+      "nfev": 190808,
+      "wall_seconds": 20.39608190000581,
+      "minimum_log10_halfcontrast_norms": [
+        -15.780135199453245,
+        -0.9495104221877075,
+        -480.59404099415326,
+        -1.619024183485288
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -15.780135199453245,
+        -0.9495104221877075,
+        -478.60150263061246,
+        -1.5931191458014977
+      ],
+      "maximum_gauge_norm_squared_drift": 6.790353045404984e-07
+    },
+    {
+      "start_tau": 144000.0,
+      "first_checkpoint_tau": 144006.9187455955,
+      "end_tau": 144500.0,
+      "nfev": 191132,
+      "wall_seconds": 20.9298853000073,
+      "minimum_log10_halfcontrast_norms": [
+        -20.204700047822072,
+        -1.493938761643864,
+        -478.68895309300774,
+        -1.6190241834241326
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -20.204700047822072,
+        -1.493938761643864,
+        -476.6470704714173,
+        -1.4381408076074835
+      ],
+      "maximum_gauge_norm_squared_drift": 6.805650230035099e-07
+    },
+    {
+      "start_tau": 144500.0,
+      "first_checkpoint_tau": 144511.34513900525,
+      "end_tau": 145000.0,
+      "nfev": 190925,
+      "wall_seconds": 20.690663900008076,
+      "minimum_log10_halfcontrast_norms": [
+        -23.433562167336845,
+        -1.05983090611983,
+        -476.78386519191326,
+        -1.619024183366615
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -23.433562167336845,
+        -1.05983090611983,
+        -474.48232057850413,
+        -1.1059625190554818
+      ],
+      "maximum_gauge_norm_squared_drift": 6.820694474773958e-07
+    },
+    {
+      "start_tau": 145000.0,
+      "first_checkpoint_tau": 145002.13838664716,
+      "end_tau": 145500.0,
+      "nfev": 190808,
+      "wall_seconds": 21.69592160001048,
+      "minimum_log10_halfcontrast_norms": [
+        -26.559176930005716,
+        -1.0061133067094572,
+        -474.9302661530084,
+        -1.6678542531841312
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -26.559176930005716,
+        -1.0061133067094572,
+        -473.43998137885984,
+        -1.6678542531841312
+      ],
+      "maximum_gauge_norm_squared_drift": 6.836344257354909e-07
+    },
+    {
+      "start_tau": 145500.0,
+      "first_checkpoint_tau": 145506.56478005688,
+      "end_tau": 146000.0,
+      "nfev": 190916,
+      "wall_seconds": 20.850421499999356,
+      "minimum_log10_halfcontrast_norms": [
+        -30.37564992857406,
+        -1.1844478344458897,
+        -473.0251782518765,
+        -1.6190241832555552
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -30.37564992857406,
+        -1.1844478344458897,
+        -471.0771301681707,
+        -1.1330564455259449
+      ],
+      "maximum_gauge_norm_squared_drift": 6.852366620790917e-07
+    },
+    {
+      "start_tau": 146000.0,
+      "first_checkpoint_tau": 146010.9911734666,
+      "end_tau": 146500.0,
+      "nfev": 190805,
+      "wall_seconds": 20.29988730000332,
+      "minimum_log10_halfcontrast_norms": [
+        -34.157927013063656,
+        -1.3198290427835275,
+        -471.12009035078313,
+        -1.6190241831905559
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -34.157927013063656,
+        -1.3198290427835275,
+        -468.74632249179143,
+        -1.0113243346725154
+      ],
+      "maximum_gauge_norm_squared_drift": 6.867586641590151e-07
+    },
+    {
+      "start_tau": 146500.0,
+      "first_checkpoint_tau": 146501.78442110852,
+      "end_tau": 147000.0,
+      "nfev": 191228,
+      "wall_seconds": 20.636795400001574,
+      "minimum_log10_halfcontrast_norms": [
+        -37.50107108996663,
+        -1.261217291194713,
+        -469.26649131182955,
+        -1.6190241831372705
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -37.50107108996663,
+        -1.261217291194713,
+        -467.6514834085117,
+        -1.5489029754093204
+      ],
+      "maximum_gauge_norm_squared_drift": 6.882290026766213e-07
+    },
+    {
+      "start_tau": 147000.0,
+      "first_checkpoint_tau": 147006.21081451827,
+      "end_tau": 147500.0,
+      "nfev": 191060,
+      "wall_seconds": 20.44478540000273,
+      "minimum_log10_halfcontrast_norms": [
+        -40.7535344094475,
+        -0.951768982480258,
+        -467.361403410711,
+        -1.6190241830802181
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -40.7535344094475,
+        -0.951768982480258,
+        -465.5123901487484,
+        -1.141704549363959
+      ],
+      "maximum_gauge_norm_squared_drift": 6.89738206549606e-07
+    },
+    {
+      "start_tau": 147500.0,
+      "first_checkpoint_tau": 147510.637207928,
+      "end_tau": 148000.0,
+      "nfev": 190985,
+      "wall_seconds": 20.891079900000477,
+      "minimum_log10_halfcontrast_norms": [
+        -44.853431767805056,
+        -1.8324381770614344,
+        -465.45631550956745,
+        -1.6190241830199532
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -44.853431767805056,
+        -1.8324381770614344,
+        -463.2656322063554,
+        -1.0866051181984167
+      ],
+      "maximum_gauge_norm_squared_drift": 6.912301083739081e-07
+    },
+    {
+      "start_tau": 148000.0,
+      "first_checkpoint_tau": 148001.4304555699,
+      "end_tau": 148500.0,
+      "nfev": 191240,
+      "wall_seconds": 20.89938180000172,
+      "minimum_log10_halfcontrast_norms": [
+        -47.82841008577026,
+        -1.3419032602275358,
+        -463.60271647063996,
+        -1.6190241829634353
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -47.82841008577026,
+        -1.3419032602275358,
+        -461.5509438202282,
+        -1.2384257435243293
+      ],
+      "maximum_gauge_norm_squared_drift": 6.927059246208955e-07
+    },
+    {
+      "start_tau": 148500.0,
+      "first_checkpoint_tau": 148505.85684897963,
+      "end_tau": 149000.0,
+      "nfev": 190856,
+      "wall_seconds": 20.474605000010342,
+      "minimum_log10_halfcontrast_norms": [
+        -51.295437821824,
+        -0.9472666903126631,
+        -461.6976285694988,
+        -1.6190241829049776
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -51.295437821824,
+        -0.8897556609718957,
+        -459.9451305542715,
+        -1.4188522576766303
+      ],
+      "maximum_gauge_norm_squared_drift": 6.942640345952711e-07
+    },
+    {
+      "start_tau": 149000.0,
+      "first_checkpoint_tau": 149010.28324238936,
+      "end_tau": 149500.0,
+      "nfev": 191153,
+      "wall_seconds": 20.39777690000483,
+      "minimum_log10_halfcontrast_norms": [
+        -55.33789924290695,
+        -1.6684248413424476,
+        -459.7925406683606,
+        -1.6190241828438527
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -55.33789924290695,
+        -1.6684248413424476,
+        -457.8658777017388,
+        -1.344917773234666
+      ],
+      "maximum_gauge_norm_squared_drift": 6.957559024467486e-07
+    },
+    {
+      "start_tau": 149500.0,
+      "first_checkpoint_tau": 149501.07649003126,
+      "end_tau": 150000.0,
+      "nfev": 191000,
+      "wall_seconds": 20.275700600002892,
+      "minimum_log10_halfcontrast_norms": [
+        -58.482717725831385,
+        -1.4446974819533664,
+        -457.9389416294463,
+        -1.6190241827859055
+      ],
+      "endpoint_log10_halfcontrast_norms": [
+        -58.482717725831385,
+        -1.4446974819533664,
+        -455.6469731376925,
+        -1.014785929664174
+      ],
+      "maximum_gauge_norm_squared_drift": 6.972611413802454e-07
+    }
+  ],
+  "limitations": [
+    "The exact algebra is a coordinate description; floating-point integration is not a proof.",
+    "Quadratic feedback can underflow or be rounded away before affecting O(1) means.",
+    "Four auxiliary gauge invariants are not physical neutral modes.",
+    "No heteroclinic-connection, asymptotic attraction, or chaos theorem follows."
+  ],
+  "algebra": {
+    "samples": 32,
+    "arbitrary_nonunit_gauges": true,
+    "errors": {
+      "field_scaled": 4.545483960191052e-16,
+      "gauge_derivative": 3.105128078037786e-15,
+      "reconstruction_scaled": 1.5957477336688384e-16,
+      "gauge_equivalence_scaled": 3.1534787652480884e-16
+    },
+    "exact_identity": "D(reconstruction) F_log = F_chart; d||u_a||^2/dtau=0",
+    "no_renormalization_or_projection": true
+  },
+  "short_equivalence_control": {
+    "start_tau": 40000.0,
+    "duration": 200.0,
+    "checkpoints": 201,
+    "differences": {
+      "maximum_mean_difference": 3.907985046680551e-14,
+      "maximum_chart_difference": 1.3595136301447486e-13,
+      "maximum_log10_norm_difference": 3.205435916697752e-12,
+      "maximum_gauge_norm_squared_drift": 1.4016898752799989e-11
+    },
+    "acceptance_threshold": 1e-07,
+    "chart_nfev": 96617,
+    "log_nfev": 129329,
+    "scope": "Short comparison at representable contrasts; not a long-time error bound."
+  },
+  "events": [
+    {
+      "pair_index": 0,
+      "pair": [
+        0,
+        1
+      ],
+      "threshold_log10": -4,
+      "times": [
+        142182.22595313806,
+        142189.0832005614,
+        142195.92965508887,
+        142202.77394401925,
+        142209.61805499415,
+        142216.46288887112,
+        142223.3089782878,
+        142230.15668934945,
+        142237.0062998878,
+        142240.20378167005,
+        142243.85803905208,
+        142247.1006416467,
+        142250.71211467288,
+        142253.98030557443,
+        142257.56873911538,
+        142260.8532251723,
+        142264.42815937678,
+        142267.72318433915,
+        142271.29069630388,
+        142274.5921503137,
+        142276.1563687356,
+        142278.15680002305,
+        142281.46140929987,
+        142283.01923232817,
+        142285.0271356122,
+        142288.3319811533,
+        142289.87926288095,
+        142291.9027305802,
+        142295.20483302246,
+        142296.74218910444,
+        142298.78526325364,
+        142302.081047678,
+        142303.6126238523,
+        142305.67772416095,
+        142308.96203857253,
+        142310.49918495736,
+        142312.58633051885,
+        142315.8499554851,
+        142317.4495865347,
+        142319.5291669968,
+        142322.7487192047,
+        142329.66784961536,
+        142336.66306517218
+      ]
+    },
+    {
+      "pair_index": 1,
+      "pair": [
+        2,
+        3
+      ],
+      "threshold_log10": -4,
+      "times": [
+        141092.6338799517,
+        141099.33109676937,
+        141106.07630314608,
+        141109.64573600146,
+        141112.83568544465,
+        141116.374243033,
+        141119.60275755293,
+        141123.12494200788,
+        141126.37484797143,
+        141129.8866588642,
+        141133.15054085176,
+        141134.70294276904,
+        141136.65528347998,
+        141139.92897312637,
+        141141.46291780937,
+        141143.42875346393,
+        141146.7095675908,
+        141148.23752430582,
+        141150.20586080005,
+        141153.49191086274,
+        141155.0193633149,
+        141156.98582800434,
+        141160.27569015342,
+        141161.80565370328,
+        141163.76812201287,
+        141167.06065729342,
+        141168.59495067844,
+        141170.55236054907,
+        141173.8466066087,
+        141175.38634799464,
+        141177.33826026774,
+        141180.63336027908,
+        141182.1791820648,
+        141184.12560588494,
+        141187.42075785046,
+        141188.97288064813,
+        141190.91423072285,
+        141194.20864797579,
+        141195.76684240156,
+        141197.70400385803,
+        141200.99688111353,
+        141202.5602601918,
+        141204.49482128135,
+        141207.78530215748,
+        141209.35165679254,
+        141211.2865995919,
+        141214.5737419282,
+        141216.13655616844,
+        141218.07927134592,
+        141221.36200609256,
+        141224.8727815147,
+        141228.14985919956,
+        141231.66708470584,
+        141234.93699959377,
+        141238.46214292233,
+        141241.72301659067,
+        141245.2579237109,
+        141248.5073104225,
+        141252.0543986002,
+        141255.28892466225,
+        141258.85154176134,
+        141262.06613529933,
+        141265.64932884317,
+        141268.83515219207,
+        141272.447735946,
+        141275.58312421996,
+        141279.24673870168,
+        141286.04631142764,
+        141292.84642631494,
+        141299.64705259821,
+        141306.44815563358,
+        141313.24969577565,
+        141320.05162688423,
+        141326.8538941853,
+        141333.65643101058,
+        141340.45915353805,
+        141347.26195178906,
+        141354.06467308008,
+        141360.86708861534,
+        141367.66881643992,
+        141374.46910268662,
+        141381.26590449666
+      ]
+    },
+    {
+      "pair_index": 2,
+      "pair": [
+        4,
+        5
+      ],
+      "threshold_log10": -4,
+      "times": [
+        73694.44334971381,
+        73701.29148288791,
+        73708.13615413953,
+        73714.9801956686,
+        73721.82472683994,
+        73728.67036594516,
+        73735.5175209731,
+        73742.36649279525,
+        73745.53953811673,
+        73749.2175229633,
+        73752.44865856951,
+        73756.07082342087,
+        73759.3320528582,
+        73762.92660208455,
+        73766.20658129171,
+        73769.78509105898,
+        73773.07722709652,
+        73776.6465823178,
+        73779.94635144166,
+        73781.50941249085,
+        73783.51147684419,
+        73786.81539712525,
+        73788.37611667656,
+        73790.38035828518,
+        73793.68544129544,
+        73795.23621024235,
+        73797.25411516947,
+        73800.55744945319,
+        73802.09774182412,
+        73804.13416970814,
+        73807.43244781476,
+        73808.96514379566,
+        73811.02297368854,
+        73814.31171252295,
+        73815.84493462187,
+        73817.92532329832,
+        73821.1970889658,
+        73822.75849799257,
+        73824.85328439063,
+        73828.09173215451,
+        73831.88320874456,
+        73835.00248316473,
+        73841.95423722183
+      ]
+    },
+    {
+      "pair_index": 3,
+      "pair": [
+        6,
+        7
+      ],
+      "threshold_log10": -4,
+      "times": [
+        72604.73104865011,
+        72611.46826574003,
+        72615.05590348394,
+        72618.22413952563,
+        72621.77025228037,
+        72624.98912376392,
+        72628.51571798329,
+        72631.75979122677,
+        72635.27449891916,
+        72638.534436799,
+        72640.09923678637,
+        72642.04118491415,
+        72645.31206001408,
+        72646.84995758292,
+        72648.81325472689,
+        72652.09200926134,
+        72653.62111117154,
+        72655.58929075707,
+        72658.87382720485,
+        72660.40103201989,
+        72662.36840410638,
+        72665.6571735158,
+        72667.18608587582,
+        72669.14999616143,
+        72672.44178211798,
+        72673.97453080559,
+        72675.93364315727,
+        72679.22743551907,
+        72680.76533182713,
+        72682.7190339972,
+        72686.01394822248,
+        72687.55776748789,
+        72689.5059340167,
+        72692.8011551585,
+        72694.35124921752,
+        72696.29416253263,
+        72699.58890286768,
+        72701.14519941436,
+        72703.08357822346,
+        72706.3770420082,
+        72707.93890563356,
+        72709.87406919747,
+        72713.16542011697,
+        72714.73119996236,
+        72716.66554598851,
+        72719.95387359908,
+        72721.51920605668,
+        72723.45793644356,
+        72726.74221767207,
+        72730.25118186879,
+        72733.53023231457,
+        72737.0452340342,
+        72740.31764077363,
+        72743.84005277875,
+        72747.1040738505,
+        72750.635604046,
+        72753.88900517108,
+        72757.4318582376,
+        72760.67162100188,
+        72764.2287888081,
+        72767.45051900952,
+        72771.02637104834,
+        72774.22284506256,
+        72777.82458101808,
+        72780.98060821574,
+        72784.62339459531,
+        72791.42278661035,
+        72798.22273002783,
+        72805.02319512927,
+        72811.82414863064,
+        72818.6255526388,
+        72825.42736330129,
+        72832.22952891498,
+        72839.03198709748,
+        72845.83466030628,
+        72852.63744832037,
+        72859.4402147594,
+        72866.24276076538,
+        72873.04476719243,
+        72879.84564293062,
+        72886.64398324458,
+        72893.43319873644
+      ]
+    }
+  ],
+  "elapsed_tau": 150000.0,
+  "wall_seconds": 4333.67189089999,
+  "underflow": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "first_rhs_evaluation_tau": null,
+      "number_of_zero_weight_rhs_evaluations": 0,
+      "maximum_omitted_component_log_bound": null,
+      "maximum_two_ell_when_weight_zero": null
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "first_rhs_evaluation_tau": 59439.171792168534,
+      "number_of_zero_weight_rhs_evaluations": 15145768,
+      "maximum_omitted_component_log_bound": -743.0623411951126,
+      "maximum_two_ell_when_weight_zero": -745.1332241812444
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "first_rhs_evaluation_tau": 95964.08288616478,
+      "number_of_zero_weight_rhs_evaluations": 20599711,
+      "maximum_omitted_component_log_bound": -743.0582967557447,
+      "maximum_two_ell_when_weight_zero": -745.1332326771579
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "first_rhs_evaluation_tau": null,
+      "number_of_zero_weight_rhs_evaluations": 0,
+      "maximum_omitted_component_log_bound": null,
+      "maximum_two_ell_when_weight_zero": null
+    }
+  ],
+  "final_log_state": [
+    0.62747952853012,
+    0.23457125272050772,
+    1.2858769136530097,
+    1.1450289973960308,
+    1.2249592749894638,
+    1.2322938203588183,
+    0.13322319962959342,
+    0.696989581775144,
+    0.4752293058648025,
+    0.4918491599939098,
+    -0.7637918996707987,
+    -0.8431882779973681,
+    -0.7718957892519109,
+    -0.10280067667843344,
+    -0.36241601895493664,
+    0.2726883707545174,
+    -0.35731325072337994,
+    -0.6911356446570651,
+    0.6496202780856583,
+    0.46332913036192636,
+    -0.5258359750861814,
+    -0.7153761494866395,
+    0.6683168828995468,
+    -134.6614336846473,
+    -3.326538556482835,
+    -1049.1659277615568,
+    -2.3366306204566194
+  ],
+  "maximum_gauge_norm_squared_drift": 6.972611413802454e-07,
+  "trajectory_sha256": "e14cfff9f7155a2edb5ebf62320c8742e393c32e88f0af362b70f490b75ee9d8"
+}

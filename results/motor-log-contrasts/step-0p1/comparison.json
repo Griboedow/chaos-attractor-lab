@@ -1,0 +1,72 @@
+{
+  "folders": [
+    "results/motor-log-contrasts/step-0p1",
+    "results/motor-log-contrasts/step-0p05"
+  ],
+  "exactly_equal_origin_chart_states": true,
+  "exactly_equal_checkpoint_times": true,
+  "initial_log_state_difference": 2.0552761270664632e-07,
+  "windows": [
+    {
+      "through_tau": 50000.0,
+      "maximum_mean_difference": 4.752263812329849e-08,
+      "maximum_log10_norm_difference": 1.5287456278656464e-07,
+      "maximum_normalized_direction_component_difference": 1.5808985158460853e-07,
+      "maximum_representable_chart_difference": 4.752263812329849e-08
+    },
+    {
+      "through_tau": 75000.0,
+      "maximum_mean_difference": 7.018577150019745e-08,
+      "maximum_log10_norm_difference": 3.917975046618949e-07,
+      "maximum_normalized_direction_component_difference": 1.9143710294766692e-07,
+      "maximum_representable_chart_difference": 7.018577150019745e-08
+    },
+    {
+      "through_tau": 100000.0,
+      "maximum_mean_difference": 8.41062104406376e-08,
+      "maximum_log10_norm_difference": 5.621257344046171e-07,
+      "maximum_normalized_direction_component_difference": 2.558288996756808e-07,
+      "maximum_representable_chart_difference": 8.41062104406376e-08
+    },
+    {
+      "through_tau": 125000.0,
+      "maximum_mean_difference": 1.0365601174622263e-07,
+      "maximum_log10_norm_difference": 6.550654916281928e-07,
+      "maximum_normalized_direction_component_difference": 3.5047771673735184e-07,
+      "maximum_representable_chart_difference": 1.0365601174622263e-07
+    },
+    {
+      "through_tau": 150000.0,
+      "maximum_mean_difference": 1.228027354249761e-07,
+      "maximum_log10_norm_difference": 1.0853383756170842e-06,
+      "maximum_normalized_direction_component_difference": 3.599247055396937e-07,
+      "maximum_representable_chart_difference": 1.228027354249761e-07
+    }
+  ],
+  "recovery_event_comparison": [
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "first_tau": 72604.73104865011,
+      "second_tau": 72604.73104929946,
+      "difference": 6.49350113235414e-07
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "first_tau": 141092.6338799517,
+      "second_tau": 141092.6338841212,
+      "difference": 4.169502062723041e-06
+    }
+  ],
+  "data_sha256": [
+    "e14cfff9f7155a2edb5ebf62320c8742e393c32e88f0af362b70f490b75ee9d8",
+    "7c109e5c872d243b41670b23283350d5db937cbad4e431b0ea8c1ae7eeb61d09"
+  ],
+  "code_sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6",
+  "caveat": "Independent histories include the preceding 23-state controls. Agreement is empirical, not an error bound for the exact far-time orbit."
+}
