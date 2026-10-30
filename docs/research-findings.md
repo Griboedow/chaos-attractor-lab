@@ -4,6 +4,12 @@ Research snapshot, 30 October 2026. **We have several independently checked nume
 
 ## The most informative observations
 
+**The published three-row motor ensemble supplies our strongest complete-spectrum numerical candidate.** At one declared parameter tuple, three starts retain leading exponents about 0.256–0.260 through an additional 10,000 original time units, with all 80 windows per start positive. Independent CPU integration over 2,000 observed units gives one positive exponent, one near zero and six negative exponents, with 636 section returns and checked divergence/flow identities. There is no observed fixed two-plus-one row collapse. [Collective-motor report](motor-rows-gpu-survey.md).
+
+![Physical-coordinate views and full-spectrum checks](../results/motor-rows/cpu-candidate-N3-783.png)
+
+The curved triangular envelope is an eight-dimensional trajectory projected onto three physical observables. Its shape is consistent with row-permutation symmetry and a relatively quiet common mode, which is not conserved. The finite-time Kaplan–Yorke estimate is about 3.41; it is not a proof of fractal dimension or a new topological class. Of the 24 continued three-row candidates, two relax to neutral growth and another weakens late. All outcomes are archived. Four- and eight-row positives still have only screening-level evidence. Neither scientific priority nor asymptotic attraction is established.
+
 **The exact collective-motor core has acquired a new numerical lead in our search.** Its 2014 authors explicitly examined chaos and reported periodic behavior in their checked cases. Our 2,880-trajectory survey leaves 252 cases unresolved, while eight candidates survive tighter and longer follow-ups with every recorded window positive through another 24,063 original time units. A 3,400-unit independent CPU check supports positive growth, although its full spectrum and neutral direction are not yet converged. This is an exact-model numerical candidate with an unresolved priority question, not a demonstrated new attractor. [Motor-pair evidence and limitations](motor-pair-gpu-survey.md).
 
 **Coupled optical material operators are the strongest current case study of persistence versus transient chaos.** Each operator combines a mechanical displacement, velocity and thermal response. They control one another's illumination. We implemented a continuous-heat interpretation of the published switching equations, then separately examined an explicitly assumed smooth logistic illumination profile. The smooth profile is not a measured property of the source experiment.
@@ -44,7 +50,7 @@ Negative searches, failed source controls and mathematical exclusions are retain
 
 **Our reproducible observations:** the specified model implementations, positive finite-time spectra with independent numerical checks, the optical capture lifetimes and periodic branches, source discrepancies, structural calculations and negative search archives. Each report records its exact equation interpretation and numerical settings.
 
-**Open hypotheses:** whether the broad optical regime is an asymptotically attracting chaotic set; which nonattracting invariant structures organize its long transients; whether any precise collective or optical regime lacks an earlier equivalent analysis; and whether its dynamical organization differs from known attractor classes. A bounded literature search cannot settle absence of prior publication.
+**Open hypotheses:** whether the motor-row and motor-pair candidates are asymptotically attracting chaotic sets and lack an earlier exact or equivalent demonstration; whether the broad optical regime is an asymptotically attracting chaotic set; which nonattracting invariant structures organize its long transients; and whether their dynamical organization differs from known attractor classes. A bounded literature search cannot settle absence of prior publication.
 
 The next useful work would target these questions with continuation of relevant invariant solutions, basin-boundary analysis, stronger numerical or computer-assisted validation, source-model clarification and a focused equation-level priority review. Another striking image or larger grid alone would not resolve them.
 
@@ -56,5 +62,6 @@ The next useful work would target these questions with continuation of relevant 
 4. Potter, F., Zagoskin, A., Savel'ev, S., and Balanov, A. G. (2024). Hysteresis and self-oscillations in an artificial memristive quantum neuron. *Physical Review A* **110**, 042604. [doi:10.1103/PhysRevA.110.042604](https://doi.org/10.1103/PhysRevA.110.042604).
 5. Weiss, E., and Margaliot, M. (2021). A Generalization of Linear Positive Systems with Applications to Nonlinear Systems: Invariant Sets and the Poincare–Bendixson Property. *Automatica* **123**, 109358. [doi:10.1016/j.automatica.2020.109358](https://doi.org/10.1016/j.automatica.2020.109358).
 6. Letellier, C., and Aguirre, L. A. (2012). Required criteria for recognizing new types of chaos: Application to the “cord” attractor. *Physical Review E* **85**, 036204. [doi:10.1103/PhysRevE.85.036204](https://doi.org/10.1103/PhysRevE.85.036204). Its publisher abstract informed the scope; a full topology comparison remains open.
+7. Alouges, F., Anello, I., DeSimone, A., Lefebvre-Lepot, A., and Levillain, J. (2025). Some mathematical models for flagellar activation mechanisms. *Mathematical Models and Methods in Applied Sciences* **35**, 2395–2424. [doi:10.1142/S0218202525500423](https://doi.org/10.1142/S0218202525500423).
 
 The linked model reports provide complete source trails, access limitations and precise prior-art comparisons. Source papers retain their own licenses.

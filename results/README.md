@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+The [three-row candidate report](../docs/motor-rows-gpu-survey.md) links all 2,880 scout trajectories, forty tighter three-row follow-ups, the fixed 24-lane additional 10,000-unit continuation, and independent eight-dimensional CPU spectrum. Raw histories, downgraded candidates, source snapshots, physical projections and the rotating GIF are in [motor-rows](motor-rows). Four- and eight-row positives remain preliminary; finite-time evidence does not establish novelty or an asymptotic attractor.
+
 These later datasets are small enough to include directly, along with their settings and original analysis code:
 
 - `candidate-research/`: quantum-neuron surveys, independent controls, negative candidate follow-ups, and literature records.
