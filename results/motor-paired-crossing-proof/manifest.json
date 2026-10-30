@@ -1,0 +1,230 @@
+{
+  "created_utc": "2026-10-30T12:14:50.665026+00:00",
+  "scope": "Frozen second paired-crossing theorem: report, live proof/control/link sources and complete evidence subtree.",
+  "self_excluded": true,
+  "file_count": 42,
+  "total_bytes": 3343853,
+  "result_statuses": {
+    "analytic-controls-01.json": "passed",
+    "analytic-controls-02.json": "passed",
+    "analytic-controls-03.json": "passed",
+    "analytic-controls-final.json": "passed",
+    "attempt-01.json": "error",
+    "attempt-02.json": "unique_fourfold_transverse_crossing_certified",
+    "least-period.json": "least_second_crossing_family_period_certified",
+    "proof-links.json": "paired_crossing_proof_links_verified",
+    "recheck-01.json": "unique_fourfold_transverse_crossing_certified"
+  },
+  "files": [
+    {
+      "path": "docs/motor-paired-crossing-certificate.md",
+      "bytes": 13734,
+      "sha256": "c48d94fee0baf4280dfa7bd9a2fb95147a31960c168026559a2d493fbc892735"
+    },
+    {
+      "path": "research/check_motor_paired_crossing.py",
+      "bytes": 9328,
+      "sha256": "e7e2d6d540f75ee0ba8c683a2b7dadb678a4319bf88911f89b3bf869eb23d893"
+    },
+    {
+      "path": "research/check_motor_paired_crossing_links.py",
+      "bytes": 4922,
+      "sha256": "28acd65469c1afc3b8647ad796c63cb67f4e3f744e4e45ef701418f4ab4a3535"
+    },
+    {
+      "path": "research/validate_motor_paired_crossing.py",
+      "bytes": 22455,
+      "sha256": "03a183e89d9db1f3b9ad425d6a78fec17294717e4c3d22dca04478b712ca4de7"
+    },
+    {
+      "path": "research/validate_motor_paired_crossing_period.py",
+      "bytes": 7421,
+      "sha256": "755d7c28852618b619271c0bc05d4ed4b10fdc3694b166e15de47c5b49d2799e"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-01.json",
+      "bytes": 1816,
+      "sha256": "139a1c0e8723e687ba40c3a63127c46db360e10679bf17728f5207ba62050843"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-01.source.py",
+      "bytes": 5976,
+      "sha256": "ee3488a3f994e8fb0ce9b8e991b3c5780eeb3cbfa84aa287f2177f019eaf653a"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-02.json",
+      "bytes": 1816,
+      "sha256": "c1ce1a7419b7408d8503409691f7097187c3edb8a51e250b861a08af50492e06"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-02.source.py",
+      "bytes": 5976,
+      "sha256": "ee3488a3f994e8fb0ce9b8e991b3c5780eeb3cbfa84aa287f2177f019eaf653a"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-03.json",
+      "bytes": 1989,
+      "sha256": "7048375508a5fdb054d973535a10976ddaa1b8e0095c74c8e90debc7c29bbb13"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-03.source.py",
+      "bytes": 8644,
+      "sha256": "dd78787c5e650bf0f53c4470f3d0d0086128b954eb08125deed5cdf7e8aad524"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-final.json",
+      "bytes": 1990,
+      "sha256": "6914573991642dee62c25a16721c4bc9b1180fea0422668c64d48b3622964f6f"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/analytic-controls-final.source.py",
+      "bytes": 9328,
+      "sha256": "e7e2d6d540f75ee0ba8c683a2b7dadb678a4319bf88911f89b3bf869eb23d893"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-01.json",
+      "bytes": 1399,
+      "sha256": "b38d58c10678dfc32e3bebede840c85534447c71b755dddf69abae20c67a8dc9"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-01.validate_motor_crossing.py",
+      "bytes": 18466,
+      "sha256": "4167555ab9657da2d4a53915b34a378f5ab93529dbb2e58deb27468034451619"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-01.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-01.validate_motor_paired_crossing.py",
+      "bytes": 20678,
+      "sha256": "009a53c6166c6b94ea91225ef23f63ef4c8e54bfed2f6310bd12d33e81a518d1"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-01.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-01.verify_motor_certificate.py",
+      "bytes": 6853,
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-02.json",
+      "bytes": 876428,
+      "sha256": "b219a9826d70b3f6117035d4607be6a75b4677d794b16d715475c8c2ac15a838"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-02.validate_motor_crossing.py",
+      "bytes": 18466,
+      "sha256": "4167555ab9657da2d4a53915b34a378f5ab93529dbb2e58deb27468034451619"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-02.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-02.validate_motor_paired_crossing.py",
+      "bytes": 22455,
+      "sha256": "03a183e89d9db1f3b9ad425d6a78fec17294717e4c3d22dca04478b712ca4de7"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-02.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/attempt-02.verify_motor_certificate.py",
+      "bytes": 6853,
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.json",
+      "bytes": 1172672,
+      "sha256": "8e69fa48d2fd31bf0dc9e780cc9c327bc0cce6f6354e2be15c40fac56970531b"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.validate_motor_crossing.py",
+      "bytes": 18466,
+      "sha256": "4167555ab9657da2d4a53915b34a378f5ab93529dbb2e58deb27468034451619"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.validate_motor_paired_crossing.py",
+      "bytes": 22455,
+      "sha256": "03a183e89d9db1f3b9ad425d6a78fec17294717e4c3d22dca04478b712ca4de7"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.validate_motor_paired_crossing_period.py",
+      "bytes": 7421,
+      "sha256": "755d7c28852618b619271c0bc05d4ed4b10fdc3694b166e15de47c5b49d2799e"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.validate_motor_paired_period.py",
+      "bytes": 8083,
+      "sha256": "a1ec56da820de3f70d9405b9757f1d9fa489661fabb0f7ab04a2c41c8a5b8cbf"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/least-period.verify_motor_certificate.py",
+      "bytes": 6853,
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/proof-links.check_motor_paired_crossing_links.py",
+      "bytes": 4922,
+      "sha256": "28acd65469c1afc3b8647ad796c63cb67f4e3f744e4e45ef701418f4ab4a3535"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/proof-links.json",
+      "bytes": 2406,
+      "sha256": "7b47451132cb0f21043113c5c6240d105a558f65ab7746198a2f7a5c156b9ad4"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/proof-links.verify_motor_certificate.py",
+      "bytes": 6853,
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/recheck-01.json",
+      "bytes": 848999,
+      "sha256": "a183f5ee6c77d9093bf500ed747c033ab61c55013a345d571b7f2b567e8b9a9d"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/recheck-01.validate_motor_crossing.py",
+      "bytes": 18466,
+      "sha256": "4167555ab9657da2d4a53915b34a378f5ab93529dbb2e58deb27468034451619"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/recheck-01.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/recheck-01.validate_motor_paired_crossing.py",
+      "bytes": 22455,
+      "sha256": "03a183e89d9db1f3b9ad425d6a78fec17294717e4c3d22dca04478b712ca4de7"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/recheck-01.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    },
+    {
+      "path": "results/motor-paired-crossing-proof/recheck-01.verify_motor_certificate.py",
+      "bytes": 6853,
+      "sha256": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+    }
+  ]
+}

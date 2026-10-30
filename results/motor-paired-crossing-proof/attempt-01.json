@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-10-30T10:41:03.185037+00:00",
+  "arguments": {
+    "rho_center": "3.2748747165675427",
+    "rho_radius": "1e-53",
+    "radius": "1e-50",
+    "endpoint_radius": "1e-75",
+    "bits": "512",
+    "steps": "288",
+    "order": "64",
+    "proposal_steps": "256",
+    "proposal_order": "56",
+    "refine_iterations": "3",
+    "center_input": "None",
+    "output": "results\\motor-paired-crossing-proof\\attempt-01.json"
+  },
+  "python": "3.14.3",
+  "python_flint": "0.9.0",
+  "source_sha256": {
+    "validate_motor_paired_crossing.py": "009a53c6166c6b94ea91225ef23f63ef4c8e54bfed2f6310bd12d33e81a518d1",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+    "validate_motor_crossing.py": "4167555ab9657da2d4a53915b34a378f5ab93529dbb2e58deb27468034451619",
+    "verify_motor_certificate.py": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+  },
+  "center_proposals": [],
+  "status": "error",
+  "error": "ArithmeticError('Picard contraction not certified: [1.00006732233580588590422273430109197684758711507295250929095602679019130259470379519505539910986209750196351830641389484957791178733641351154376534137406 +/- 2.18e-153], step 157')",
+  "wall_seconds": 266.76206779999484
+}

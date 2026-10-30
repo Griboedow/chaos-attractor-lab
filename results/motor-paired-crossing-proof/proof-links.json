@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-30T12:14:21.425555+00:00",
+  "status": "paired_crossing_proof_links_verified",
+  "inputs": {
+    "first": {
+      "path": "results\\motor-paired-crossing-proof\\attempt-02.json",
+      "sha256": "b219a9826d70b3f6117035d4607be6a75b4677d794b16d715475c8c2ac15a838"
+    },
+    "recheck": {
+      "path": "results\\motor-paired-crossing-proof\\recheck-01.json",
+      "sha256": "a183f5ee6c77d9093bf500ed747c033ab61c55013a345d571b7f2b567e8b9a9d"
+    },
+    "period": {
+      "path": "results\\motor-paired-crossing-proof\\least-period.json",
+      "sha256": "8e69fa48d2fd31bf0dc9e780cc9c327bc0cce6f6354e2be15c40fac56970531b"
+    }
+  },
+  "gates": {
+    "first_unique_crossing": true,
+    "first_all_recorded_gates": true,
+    "first_shooting_box_inside_period_anchor": true,
+    "first_endpoint_parameter_boxes_inside_period_interval": true,
+    "recheck_unique_crossing": true,
+    "recheck_all_recorded_gates": true,
+    "recheck_shooting_box_inside_period_anchor": true,
+    "recheck_endpoint_parameter_boxes_inside_period_interval": true,
+    "period_success": true,
+    "period_all_recorded_gates": true,
+    "identical_exact_crossing_interval": true,
+    "recheck_references_first_bytes": true,
+    "period_references_first_bytes": true,
+    "shared_model_and_proof_sources_identical": true,
+    "first_archived_source_hashes": true,
+    "recheck_archived_source_hashes": true,
+    "period_archived_source_hashes": true
+  },
+  "archived_source_files_checked": 17,
+  "shared_source_names": [
+    "validate_motor_crossing.py",
+    "validate_motor_cycle.py",
+    "validate_motor_paired_crossing.py",
+    "validate_motor_paired_cycle.py",
+    "verify_motor_certificate.py"
+  ],
+  "source_sha256": {
+    "check_motor_paired_crossing_links.py": "28acd65469c1afc3b8647ad796c63cb67f4e3f744e4e45ef701418f4ab4a3535",
+    "verify_motor_certificate.py": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+  },
+  "statement": "Both crossing certificates use the same exact parameter interval and have shooting boxes inside the separately unique least-period anchor. Their endpoint parameter enclosures lie in its uniform parameter interval. Hence both certify the same family and inherit its least period.",
+  "limitation": "This checks exact rational containment and provenance; it does not repeat interval integration."
+}

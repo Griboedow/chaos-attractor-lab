@@ -6,9 +6,13 @@ The [crossing extension](../docs/motor-crossing-certificate.md) adds `motor-cros
 
 `motor-paired-proof/` contains the [attracting four-pair certificate](../docs/motor-paired-certificate.md): quarter-permutation shooting in eleven dimensions, all twelve internal pair contrasts, strict Schur bounds, independent algebra controls and retained failed attempts. It establishes a periodic attractor in the full eight-row system.
 
+`motor-paired-crossing-proof/` contains the [unique local fourfold crossing certificate](../docs/motor-paired-crossing-certificate.md): uniform parameter shooting, analytic sensitivity and monodromy derivatives, exact cyclic similarity of the four transverse blocks, least-period controls and changed-precision reintegration. The intervening branch and nonlinear bifurcation remain open.
+
 `motor-postcritical/` records the [numerical branch and saddle-switching study](../docs/motor-postcritical.md): complete 60- and 75-lane screens, paired-branch continuation, a second transverse crossing, six-cluster periodic saddles, four controlled departures and a carried-tangent failure control. Its manifests preserve the executed source snapshots and failed analyses. The network interpretation remains a numerical hypothesis.
 
 `motor-pair-coordinates/` preserves the [23-state coordinate-precision diagnostic](../docs/motor-pair-coordinate-audit.md): two independent saved trajectories to 40,000 units, exact checkpoint resumptions, a smaller-seed control, all threshold records and a figure. Storing half-contrasts directly recovers repeated departures that Cartesian row subtraction can hide. No noise or projection is applied, and no infinite-time network theorem is claimed.
+
+`motor-log-contrasts/` adds the [frozen 150,000-unit extension](../docs/motor-log-contrast-audit.md): six matching departures in two settings, logarithmic contrasts below the ordinary FP64 amplitude range, recorded omitted-feedback bounds, forecasts published before events, an audited scalar evaluator and a reviewed phase-matching correction. Its manifest explicitly excludes later continuation folders.
 
 `motor-saddle-proof/` contains the [six-cluster saddle certificate](../docs/motor-saddle-certificate.md): weighted multiple shooting, a full 1/1/21 unstable/flow/stable count, exact-basis interval spectral checks, a fresh integration at changed precision and discretization, and least-period certificates for the whole state and a synchronized row. Failed attempts and all executed source versions are retained.
 

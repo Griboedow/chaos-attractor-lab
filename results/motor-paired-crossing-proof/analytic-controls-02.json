@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-30T10:51:32.791695+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "independent state, parameter, duration and triangular matrix sensitivity fields",
+      "components": 1280,
+      "maximum_error": {
+        "display": "[1.10381700196330450600999e-113 +/- 1.05e-137]",
+        "midpoint": [
+          "456053011",
+          -404
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "nonlinear matrix sensitivity jets agree with full sparse recurrence",
+      "components": 4018,
+      "maximum_error": {
+        "display": "[1.18984077461793672949991e-110 +/- 4.99e-134]",
+        "midpoint": [
+          "480072843",
+          -394
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "exact rational coefficients of constant triangular sensitivity blocks",
+      "components": 3445,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "validate_motor_paired_crossing.py": "03a183e89d9db1f3b9ad425d6a78fec17294717e4c3d22dca04478b712ca4de7",
+    "check_motor_paired_crossing.py": "ee3488a3f994e8fb0ce9b8e991b3c5780eeb3cbfa84aa287f2177f019eaf653a",
+    "validate_motor_paired_cycle.py": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c",
+    "check_motor_paired_proof.py": "89f123864eb00f12d2f9774ed7e05e6387673e563c2abff37aafcec469608c7c",
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "verify_motor_certificate.py": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56"
+  },
+  "statement": "Independent algebra and analytic jet controls; the interval crossing proof is separate."
+}
