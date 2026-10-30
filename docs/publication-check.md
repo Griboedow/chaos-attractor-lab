@@ -41,4 +41,12 @@ Across these two passes, the record covers **11 distinct pages**, **79 formulas 
 
 At `006e3ce`, all **396 relative path occurrences across 65 Markdown files** resolve in the published Git tree, with the same code/math and destination exclusions. This is broader path coverage, not a claim that all 65 pages were browser-tested. The metadata and second-pass description added here after that check are not themselves certified by the earlier page load.
 
+## Molecular-motor source publication
+
+Three new public pages were checked at [`4fae751`](https://github.com/Griboedow/chaos-attractor-lab/commit/4fae751a383c432a777fd78cc588f3231e726db4): the [molecular-motor source audit](motor-pair-source-audit.md), [seventh source screening](late-candidate-screening-7.md), and candidate queue containing the new link. All **102 math elements** in the motor audit rendered without errors, unresolved formulas or overflow; all three raw-dollar/TeX scans were clean. No repair was needed.
+
+Screenshots confirmed the three-state equations, Jacobian, published periodic-control table, physical-rate restrictions and achieved-accuracy caveats. The queue's motor link was clicked and opened the intended source audit at the same immutable revision. Its primary DOI link targets were inspected in the rendered article, but the external articles were not reread as part of this formatting check. Supporting screenshot and navigation visits do not add full-page checks.
+
+The separate-repository aggregate is now **14 distinct pages**, **181 math elements in their latest checked versions**, and **16 successful page checks**. All three pages in this pass were new to this repository's browser record; earlier pages retain their actual checked revisions. At `4fae751`, **402 relative path occurrences across 67 Markdown files** resolve in the published Git tree. This broader path check does not imply that every page was browser-tested, or certify general fragments and external destinations. Pending numerical work and unpublished reports are excluded.
+
 The [machine-readable record](../provenance/github-rendering.json) retains exact page URLs, image diagnostics, repository/license evidence, GIF frame hashes and the clicked-link result. Browser UI screenshots remain in ignored local outputs and are not redistributed under the repository's MIT license.
