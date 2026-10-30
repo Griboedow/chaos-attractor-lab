@@ -1,5 +1,13 @@
 # Provenance
 
+## Public-clone verification
+
+On 30 October 2026, an independent public clone of commit `a5145092d86ff5ad51d42bc5e1a7a4eb64d2d802` was installed in a new Python environment. Four GPU/CPU checks and the short optional DCR control passed, as did `pip check`. Execution used isolated Python outside both repositories and left the clone's tracked files unchanged. [Numerical packaging record](provenance/public-clone-validation.json) and [718-file comparison](provenance/publication-copy-integrity.json) record the exact scope. The OpenCL binding emitted a nonempty-compiler-output warning during its first build; all requested controls completed successfully. This pass did not inspect that build output, and it does not certify every archived model.
+
+The reusable [verification driver](tools/verify_public_clone.py) requires an explicit clean clone and separate output directory. Historical staging checks below retain their actual earlier snapshots; they have not been relabeled as the public-clone run. The `prepublication-manifest.json` is the immutable staging inventory before publication wording changes.
+
+## Source extraction
+
 This project was extracted from [chua-gpu-atlas](https://github.com/Griboedow/chua-gpu-atlas) at commit `b60418fc2fbdd8a34ab873c5581e31f1b9c0727a` for publication as [chaos-attractor-lab](https://github.com/Griboedow/chaos-attractor-lab). The original MIT license and Copyright (c) 2026 Griboedow are retained verbatim. The old repository's history is not rewritten.
 
 `provenance/source-manifest.json` records original Git blob IDs and SHA-256 hashes. Four research modules replace an inherited Chua runtime with a generic OpenCL device/context/buffer helper; their vector fields and paired kernels are unchanged. No numerical experiment has been rerun as part of this preparation. Historical repository commit URLs in the notebooks are intentionally retained. The historical requirements lock includes dependencies used by the Chua project and is evidence of the original environment, not an independently verified lock for this project.

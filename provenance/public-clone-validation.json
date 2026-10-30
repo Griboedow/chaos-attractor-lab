@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-30T05:36:49.831868+00:00",
+  "repository": "https://github.com/Griboedow/chaos-attractor-lab.git",
+  "verified_commit": "a5145092d86ff5ad51d42bc5e1a7a4eb64d2d802",
+  "isolated_python": true,
+  "fresh_public_clone": true,
+  "fresh_venv": true,
+  "pip_check": "No broken requirements found.",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pyopencl": "2026.1.4",
+    "pillow": "13.0.0",
+    "scikit-sundae": "1.2.0"
+  },
+  "controls": {
+    "chain": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "validation": {
+        "jacobian_fd_errors": [
+          6.335376667720993e-12,
+          3.2602542887616437e-10,
+          9.282352664286009e-11
+        ],
+        "gpu_dop853_state_errors": [
+          1.2389395065426356e-14,
+          4.2127343280462526e-12,
+          8.004014118156988e-14
+        ],
+        "gpu_dop853_lle_errors": [
+          2.01574867908505e-14,
+          3.1170621639375895e-12,
+          2.220446049250313e-16
+        ],
+        "linear_modal_errors": [
+          6.217248937900877e-15,
+          1.4210854715202004e-14,
+          6.217248937900877e-15
+        ],
+        "passed": true
+      }
+    },
+    "rheostat": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "validation": {
+        "normalization_max_error": 4.547473508864641e-13,
+        "jacobian_fd_max_error": 2.1219742052380752e-07,
+        "gpu_dop853_state_errors": [
+          1.7433832155688833e-12,
+          5.492342691759688e-13,
+          9.438672066153231e-12
+        ],
+        "gpu_dop853_lle_errors": [
+          2.029105865969383e-09,
+          4.480216198032849e-11,
+          3.3755299336940547e-10
+        ],
+        "passed": true
+      }
+    },
+    "photo": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "state_error": 1.9895196601282805e-13,
+      "lle_error": 1.852029640758701e-11,
+      "control_passed": true
+    },
+    "thermal": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "state_error": 5.029310301551959e-14,
+      "lle_error": 1.6143197889562089e-12,
+      "control_passed": true
+    },
+    "dcr": {
+      "duration": 0.01,
+      "maximum_state_error_against_archived_fine": 1.1553558110222184e-10,
+      "passed": true,
+      "scope": "Short optional-dependency packaging control only"
+    }
+  },
+  "no_chua_module_imported": true,
+  "original_evidence_modified": false,
+  "control_driver_sha256": "b9452f78016d7d5e74130c2be118a84da33731f3db748f304ae003e3dd797255",
+  "scope": "Four extracted-runtime GPU/CPU controls and one short optional DCR control in a fresh public clone and new environment, executed from outside both repositories. This is packaging verification, not a new parameter survey or validation of every archived model."
+}
