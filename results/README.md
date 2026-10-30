@@ -30,6 +30,8 @@ The [global geometry controls](../docs/motor-global-geometry.md) verify the full
 
 The [published motor activity-path study](../docs/motor-rows-activity-path.md) contains 288 scouts, all 60 tighter follow-ups, the complete 32-lane eight-row persistence cohort, independent full 23-dimensional CPU spectra, figures and a rotating projection. It supports a numerical hyperchaotic candidate, with scientific priority and asymptotic attraction unresolved.
 
+`motor-activity-continuation/` contains the [longer fixed-cohort study](../docs/motor-activity-continuation.md): full CPU spectrum through 20,000 observed units, two further 20,000-unit histories of all 32 GPU members, a periodic-saddle diagnosis of the subthreshold member, conditional cluster spectra and twenty declared physical perturbations. Separate manifests preserve completed packages and exclude later live continuations. All original inputs and downgraded cases remain archived.
+
 The [three-row candidate report](../docs/motor-rows-gpu-survey.md) links all 2,880 scout trajectories, forty tighter three-row follow-ups, the fixed 24-lane additional 10,000-unit continuation, and independent eight-dimensional CPU spectrum. Raw histories, downgraded candidates, source snapshots, physical projections and the rotating GIF are in [motor-rows](motor-rows). Four- and eight-row positives remain preliminary; finite-time evidence does not establish novelty or an asymptotic attractor.
 
 These later datasets are small enough to include directly, along with their settings and original analysis code:

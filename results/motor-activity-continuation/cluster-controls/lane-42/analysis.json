@@ -1,0 +1,199 @@
+{
+  "started_utc": "2026-10-30T11:55:10.273998+00:00",
+  "source_lane": 42,
+  "source_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\results\\motor-rows\\activity-path\\N8-lifetime-history.npz",
+  "source_sha256": "6b217c82679aea236f93c5c1fd6889f3aba7ba9826a9fe7f9a27d5a65805f6fc",
+  "groups": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "parameters": [
+    2.1772727272727272,
+    4.7551460477513405,
+    1.0
+  ],
+  "quotient_dimension": 11,
+  "initial_projection_error": 1.6986412276764895e-14,
+  "restriction_controls": {
+    "field": 3.552713678800501e-15,
+    "tangent": 3.552713678800501e-15,
+    "jacobian_complex": 1.7763568394002505e-15
+  },
+  "windows": [
+    {
+      "duration": 500.0,
+      "end_tau": 700.0,
+      "quotient_leading_ftle": 0.26840928528805486,
+      "contrast_ftle": [
+        [
+          -0.048896568563844015,
+          -0.42651751137325117,
+          -0.9470621978958239
+        ],
+        [
+          -0.04175034711024614,
+          -0.4684255670297176,
+          -0.9623093765999797
+        ],
+        [
+          0.020383892857316312,
+          -0.48137384095839264,
+          -0.9492595007323712
+        ],
+        [
+          0.0542525856019145,
+          -0.42268042641517195,
+          -0.9100315560433587
+        ]
+      ]
+    },
+    {
+      "duration": 500.0,
+      "end_tau": 1200.0,
+      "quotient_leading_ftle": 0.2754099068641879,
+      "contrast_ftle": [
+        [
+          0.08537831915834596,
+          -0.42117587839463433,
+          -0.92432960166025
+        ],
+        [
+          0.035954422206065886,
+          -0.41589598588810917,
+          -0.9426314028375632
+        ],
+        [
+          -0.04833351755843017,
+          -0.48316412351029714,
+          -0.9688781540996463
+        ],
+        [
+          -0.05857901419198779,
+          -0.44381346024561247,
+          -0.9562617189122061
+        ]
+      ]
+    },
+    {
+      "duration": 500.0,
+      "end_tau": 1700.0,
+      "quotient_leading_ftle": 0.24768722932092013,
+      "contrast_ftle": [
+        [
+          -0.0016485938387018687,
+          -0.5034961207219112,
+          -0.9362791572891459
+        ],
+        [
+          0.08714846897427961,
+          -0.47247322584110657,
+          -0.8895842075764329
+        ],
+        [
+          -0.08577993986923065,
+          -0.5862976138540588,
+          -0.9799404271680086
+        ],
+        [
+          0.03501212041566127,
+          -0.43876431607986227,
+          -0.8983898953324674
+        ]
+      ]
+    },
+    {
+      "duration": 500.0,
+      "end_tau": 2200.0,
+      "quotient_leading_ftle": 0.2871623163404219,
+      "contrast_ftle": [
+        [
+          0.004432896031409871,
+          -0.4519876654969649,
+          -0.9231501780054706
+        ],
+        [
+          -0.03062941502787407,
+          -0.42334974211343496,
+          -0.968365209299992
+        ],
+        [
+          0.09415760173915284,
+          -0.4362172034268304,
+          -0.9140919490235665
+        ],
+        [
+          -0.028616163568796017,
+          -0.4787149178970657,
+          -0.9622033109565387
+        ]
+      ]
+    }
+  ],
+  "status": "complete",
+  "settings": {
+    "warm_tau": 200.0,
+    "observed_tau_requested": 2000.0,
+    "qr_interval": 1.0,
+    "max_step": 0.03,
+    "rtol": 1e-11,
+    "atol": 1e-13
+  },
+  "interpretation": "A declared invariant cluster restriction, initialized by a measured tiny projection of an archived endpoint. Quotient and omitted contrast growth are computed separately.",
+  "limitations": [
+    "Finite-time conditional exponents, not transverse stability proof or asymptotic chaos.",
+    "Positive transverse growth would rule out interpreting this restricted numerical trajectory alone as evidence of full-space attraction.",
+    "No change to the original cohort trajectories or counts."
+  ],
+  "transverse_full_jacobian_error": 1.7763568394002505e-15,
+  "source_snapshot_sha256": {
+    "check_motor_activity_clusters.py": "fcef6f5819af16ab63a2e8e88659f12178c5855f40409bbb1212af39db7487fb",
+    "motor_postcritical_cycles.py": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd",
+    "motor_rows.py": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+  },
+  "elapsed_tau": 2200.0,
+  "observed_tau": 2000.0,
+  "wall_seconds": 246.1812432000006,
+  "quotient_leading_ftle": 0.2696671844533962,
+  "contrast_ftle": [
+    [
+      0.009816513196802486,
+      -0.4507942939966904,
+      -0.9327052837126726
+    ],
+    [
+      0.012680782260556321,
+      -0.4450361302180921,
+      -0.940722549078492
+    ],
+    [
+      -0.004892990707797917,
+      -0.4967631954373947,
+      -0.953042507755898
+    ],
+    [
+      0.0005173820641979905,
+      -0.44599328015942813,
+      -0.9317216203111427
+    ]
+  ]
+}

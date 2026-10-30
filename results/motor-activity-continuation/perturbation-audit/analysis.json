@@ -1,0 +1,1572 @@
+{
+  "created_utc": "2026-10-30T12:15:28.036607+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "source_checkpoint_hash",
+      "passed": true
+    },
+    {
+      "check": "all20declared_cases",
+      "passed": true
+    },
+    {
+      "check": "all20complete",
+      "passed": true
+    },
+    {
+      "check": "all20full_duration",
+      "passed": true
+    },
+    {
+      "check": "settings",
+      "passed": true
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "check_motor_activity_perturbations.py"
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "motor_rows.py"
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "motor_rows_gpu.py"
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "motor_rows_gpu.cl"
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 0
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 0
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 0
+    },
+    {
+      "check": "baseline_state_bitwise",
+      "passed": true,
+      "case": 0
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 1
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 1
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 1
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 1
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 2
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 2
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 2
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 2
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 3
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 3
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 3
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 3
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 4
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 4
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 4
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 4
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 5
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 5
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 5
+    },
+    {
+      "check": "baseline_state_bitwise",
+      "passed": true,
+      "case": 5
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 6
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 6
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 6
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 6
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 7
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 7
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 7
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 7
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 8
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 8
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 8
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 8
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 9
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 9
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 9
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 9
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 10
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 10
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 10
+    },
+    {
+      "check": "baseline_state_bitwise",
+      "passed": true,
+      "case": 10
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 11
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 11
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 11
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 11
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 12
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 12
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 12
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 12
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 13
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 13
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 13
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 13
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 14
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 14
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 14
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 14
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 15
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 15
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 15
+    },
+    {
+      "check": "baseline_state_bitwise",
+      "passed": true,
+      "case": 15
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 16
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 16
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 16
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 16
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 17
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 17
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 17
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 17
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 18
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 18
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 18
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 18
+    },
+    {
+      "check": "declared_initial_state",
+      "passed": true,
+      "case": 19
+    },
+    {
+      "check": "unchanged_parameters",
+      "passed": true,
+      "case": 19
+    },
+    {
+      "check": "measured_physical_norm",
+      "passed": true,
+      "case": 19
+    },
+    {
+      "check": "requested_physical_norm",
+      "passed": true,
+      "case": 19
+    }
+  ],
+  "outcomes": [
+    {
+      "case": 0,
+      "source_lane": 36,
+      "sign": 0,
+      "requested_norm": 0.0,
+      "actual_norm": 0.0,
+      "mean_ftle": 0.30805681443534105,
+      "four1000_tau_windows": [
+        0.2998106408913591,
+        0.2935266137929394,
+        0.324490809280252,
+        0.31439919377681363
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "case": 1,
+      "source_lane": 36,
+      "sign": 1,
+      "requested_norm": 1e-07,
+      "actual_norm": 1.0000000005707191e-07,
+      "mean_ftle": 0.2529716583310605,
+      "four1000_tau_windows": [
+        0.18689149478156636,
+        0.262195301866331,
+        0.3052791844293531,
+        0.2575206522469916
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.035808022452919e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "case": 2,
+      "source_lane": 36,
+      "sign": -1,
+      "requested_norm": 1e-07,
+      "actual_norm": 1.0000000005707191e-07,
+      "mean_ftle": 0.25416855547309,
+      "four1000_tau_windows": [
+        0.3163836417785159,
+        0.26370876914169156,
+        0.27481542371525813,
+        0.1617663872568942
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.035808022452919e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "case": 3,
+      "source_lane": 36,
+      "sign": 1,
+      "requested_norm": 1e-09,
+      "actual_norm": 1.0000000157499362e-09,
+      "mean_ftle": 0.23868631342068558,
+      "four1000_tau_windows": [
+        0.2827724350076743,
+        0.2233063672372204,
+        0.19771818073068692,
+        0.2509482707071608
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.0358073510359023e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "case": 4,
+      "source_lane": 36,
+      "sign": -1,
+      "requested_norm": 1e-09,
+      "actual_norm": 1.0000000157499362e-09,
+      "mean_ftle": 0.2525809155782793,
+      "four1000_tau_windows": [
+        0.19238690870424283,
+        0.24800002167808527,
+        0.2758457797027037,
+        0.29409095222808523
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.0358073510359023e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "case": 5,
+      "source_lane": 42,
+      "sign": 0,
+      "requested_norm": 0.0,
+      "actual_norm": 0.0,
+      "mean_ftle": 0.2453124454835114,
+      "four1000_tau_windows": [
+        0.26890307013448733,
+        0.21662565306827583,
+        0.22752844122208052,
+        0.26819261750920187
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "case": 6,
+      "source_lane": 42,
+      "sign": 1,
+      "requested_norm": 1e-07,
+      "actual_norm": 9.999999999434718e-08,
+      "mean_ftle": 0.24334316735670414,
+      "four1000_tau_windows": [
+        0.2534210079709019,
+        0.230551421756152,
+        0.23592696073193695,
+        0.25347327896782573
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.1404092089553214e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "case": 7,
+      "source_lane": 42,
+      "sign": -1,
+      "requested_norm": 1e-07,
+      "actual_norm": 9.999999999434718e-08,
+      "mean_ftle": 0.24170496166803376,
+      "four1000_tau_windows": [
+        0.24666225588690377,
+        0.22562454325126277,
+        0.23867593949509724,
+        0.2558571080388713
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.1404092089553214e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "case": 8,
+      "source_lane": 42,
+      "sign": 1,
+      "requested_norm": 1e-09,
+      "actual_norm": 1.0000000065293045e-09,
+      "mean_ftle": 0.2535419728497337,
+      "four1000_tau_windows": [
+        0.25388163331419183,
+        0.2780040953499641,
+        0.23961344118835917,
+        0.24266872154641952
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.1404099014282181e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "case": 9,
+      "source_lane": 42,
+      "sign": -1,
+      "requested_norm": 1e-09,
+      "actual_norm": 1.0000000065293045e-09,
+      "mean_ftle": 0.23196834680190265,
+      "four1000_tau_windows": [
+        0.23732550288297724,
+        0.23264700982018274,
+        0.21717578881091631,
+        0.24072508569353437
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.1404099014282181e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "case": 10,
+      "source_lane": 46,
+      "sign": 0,
+      "requested_norm": 0.0,
+      "actual_norm": 0.0,
+      "mean_ftle": 0.04650518245142751,
+      "four1000_tau_windows": [
+        0.04836485684966466,
+        0.04159948528359031,
+        0.049514903434586595,
+        0.04654148423786849
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 11,
+      "source_lane": 46,
+      "sign": 1,
+      "requested_norm": 1e-07,
+      "actual_norm": 1.0000000003001632e-07,
+      "mean_ftle": 0.04264165387858102,
+      "four1000_tau_windows": [
+        0.033285108247213015,
+        0.04237782613860259,
+        0.044384951017393426,
+        0.05051873011111506
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 5.959328752059613e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 12,
+      "source_lane": 46,
+      "sign": -1,
+      "requested_norm": 1e-07,
+      "actual_norm": 1.0000000003001632e-07,
+      "mean_ftle": 0.0437068973707465,
+      "four1000_tau_windows": [
+        0.04124101090740374,
+        0.045719860509279196,
+        0.043282017153819706,
+        0.04458470091248336
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 5.959328648700635e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 13,
+      "source_lane": 46,
+      "sign": 1,
+      "requested_norm": 1e-09,
+      "actual_norm": 9.99999935926806e-10,
+      "mean_ftle": 0.04792726206445847,
+      "four1000_tau_windows": [
+        0.048122492208788434,
+        0.0490206614835858,
+        0.05166618758069253,
+        0.042899706984767104
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 5.9593331419791e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 14,
+      "source_lane": 46,
+      "sign": -1,
+      "requested_norm": 1e-09,
+      "actual_norm": 9.99999935926806e-10,
+      "mean_ftle": 0.04034970073987386,
+      "four1000_tau_windows": [
+        0.03613636335378488,
+        0.04331064721224746,
+        0.03927636099775572,
+        0.042675431395707356
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 5.959322806093835e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 15,
+      "source_lane": 49,
+      "sign": 0,
+      "requested_norm": 0.0,
+      "actual_norm": 0.0,
+      "mean_ftle": 0.03514704699417325,
+      "four1000_tau_windows": [
+        0.0361792839615191,
+        0.033335005270418536,
+        0.035310464479026665,
+        0.03576343426572871
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 16,
+      "source_lane": 49,
+      "sign": 1,
+      "requested_norm": 1e-07,
+      "actual_norm": 9.9999999996699e-08,
+      "mean_ftle": 0.05421674117994809,
+      "four1000_tau_windows": [
+        0.09649366416035744,
+        0.10899829855413316,
+        0.011478036197349278,
+        -0.00010303419204752274
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.4547064474092158e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "case": 17,
+      "source_lane": 49,
+      "sign": -1,
+      "requested_norm": 1e-07,
+      "actual_norm": 9.9999999996699e-08,
+      "mean_ftle": 0.02337619105916772,
+      "four1000_tau_windows": [
+        0.05212119400112975,
+        0.02910328371116243,
+        0.012860084069819111,
+        -0.000579797545440427
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.4547064474092158e-08,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 18,
+      "source_lane": 49,
+      "sign": 1,
+      "requested_norm": 1e-09,
+      "actual_norm": 1.0000000163789488e-09,
+      "mean_ftle": 0.06674280134743928,
+      "four1000_tau_windows": [
+        0.16722755883702917,
+        0.053073645664787686,
+        0.046319177592705624,
+        0.00035082329523466766
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.4547065735726297e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "case": 19,
+      "source_lane": 49,
+      "sign": -1,
+      "requested_norm": 1e-09,
+      "actual_norm": 1.0000000163789488e-09,
+      "mean_ftle": 0.012527640667057818,
+      "four1000_tau_windows": [
+        0.031763054783384814,
+        0.01783577287782225,
+        0.0006363437990571274,
+        -0.0001246087920329168
+      ],
+      "initial_rows": {
+        "minimum_pair_distance": 2.4547065735726297e-10,
+        "exact_equal_pairs": [],
+        "near_pairs_below_1e_minus_10": []
+      },
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      }
+    }
+  ],
+  "source_sha256": "0eb2d39ba63272a7bb7827e9222f81d229846ff1df1d3ba2494e89ff9dfbb61f",
+  "helper_sha256": "e8396cc30d17415725e6e4b98e4769a2cbd34cd8d85a4f3abd0200ea24b3d5f3",
+  "input_sha256": {
+    "protocol.json": "b918fe1a5614ada36c526a4676cfa870abfd9b7ff2b7356a9756cff2fa2ab93d",
+    "outcomes.json": "b7d24170e4f2976e285f7b9b7deda1e853a08efd9249b7afcb1ba3a5d28e824b",
+    "outcomes.npz": "c1e993f6f13146a2de9608788c8277400c9da2161a43171aa1d894b6322e9048"
+  },
+  "limitations": [
+    "All20declared cases retained; no random basin sampling.",
+    "Finite-time positive growth can occur on periodic saddles and does not alone establish chaos.",
+    "Returning near synchronized pairs does not certify asymptotic transverse stability."
+  ]
+}

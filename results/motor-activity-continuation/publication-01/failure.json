@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-30T12:20:10.957608+00:00",
+  "status": "metadata_inventory_failed",
+  "reason": "Relative output path was combined with absolute inventory paths before relative_to(ROOT). All numerical/provenance checks had passed; no numerical file was changed.",
+  "source_sha256": "b5cfcbb5f3cc343dbf5e72561b15a962e49a594d5f122a9047c4b70cd8d8f921",
+  "correction": "Resolve output path before inventory; preserve this attempted freeze and use publication-02."
+}

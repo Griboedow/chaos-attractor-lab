@@ -4,6 +4,8 @@ Status: 30 October 2026. The exact eight-row model of Alouges et al. gives a str
 
 This follows the [exact model/source audit](motor-rows-source-audit.md). It addresses a more specific question than the earlier independent $(\rho,r)$ rectangle: can the phenomenon occur on the source's own one-parameter activity path?
 
+Follow-up: the [longer continuation](motor-activity-continuation.md) preserves this historical study and its inputs, extends the same CPU spectrum to 20,000 observed units, and carries the entire GPU cohort a further 20,000 units under two settings. It also resolves the formerly unclassified lane49 as a numerical periodic saddle and adds cluster and physical-perturbation checks. The original durations and counts below describe the earlier frozen experiment.
+
 ![Screening along the source activity path](../results/motor-rows/activity-path/activity-path.png)
 
 ## Keeping the source constants fixed
