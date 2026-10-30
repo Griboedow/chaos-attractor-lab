@@ -16,6 +16,8 @@ The clearest lesson is how easily a long chaotic transient can resemble an attra
 
 The periodic destination also has structure: continuation finds a branch that loses and regains stability, together with an unstable doubled branch. [The bifurcation report](docs/optical-cycle-continuation.md) separates those local observations from claims about global basins or chaotic attractors.
 
+A [further continuation](docs/optical-cycle-arclength.md) locates a fold at optical width 0.0404788044. Stable and saddle cycles coexist at width 0.04; both are independently checked. Their connection to the basin boundary of the irregular regime remains open.
+
 ## Start with the evidence
 
 | Status | Models and reports | Interpretation |
