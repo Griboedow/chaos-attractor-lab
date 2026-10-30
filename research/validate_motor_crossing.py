@@ -54,9 +54,9 @@ class SensitivityODE(PolynomialODE):
                 if (i,j) != (i0,j0) or (i,j) != (i1,j1):
                     raise AssertionError("Inconsistent polynomial term ordering")
                 dc = c1-c0
-                if dc != 0:
+                if not dc.is_zero():
                     terms.append((dc,i,j))
-                if alpha != 0:
+                if not alpha.is_zero():
                     terms.append((alpha*c,i,j))
                 if i is not None:
                     terms.append((c,self.sensitivity[i],j))

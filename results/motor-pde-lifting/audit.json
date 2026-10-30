@@ -1,0 +1,83 @@
+{
+  "audit_utc": "2026-10-30T10:05:57.768155+00:00",
+  "primary_source": {
+    "authors": "F. Alouges, I. Anello, A. DeSimone, A. Lefebvre-Lepot, J. Levillain",
+    "title": "Some mathematical models for flagellar activation mechanisms",
+    "doi": "10.1142/S0218202525500423",
+    "version": "arXiv:2409.03506v2",
+    "pdf_url": "https://arxiv.org/pdf/2409.03506v2",
+    "html_url": "https://arxiv.org/html/2409.03506v2",
+    "pdf_sha256": "528ee66be3defb95b2a0c878da6697f5e78f772b3edce107de6fe654889b152c",
+    "pdf_bytes": 2718273,
+    "license": "CC BY 4.0 as stated on arXiv HTML",
+    "inspection": "Primary HTML plus relevant sections of the downloaded 32-page PDF; printed pages12 and21 additionally rendered and visually inspected",
+    "locations": [
+      {
+        "topic": "N-row transport and mechanical constraint",
+        "pdf_equation": "10",
+        "html_equation": "15"
+      },
+      {
+        "topic": "General odd-harmonic rate expansion",
+        "pdf_equation": "11",
+        "html_equation": "16"
+      },
+      {
+        "topic": "Real Fourier expansion and mean convention",
+        "pdf_page": 12,
+        "pdf_equations": [
+          "24",
+          "25",
+          "26"
+        ]
+      },
+      {
+        "topic": "General higher-mode driven evolution",
+        "section": "Proposition2.2",
+        "pdf_pages": [
+          17,
+          18
+        ]
+      },
+      {
+        "topic": "Vanishing rate harmonics above order1 and cosine potential",
+        "section": "3.1",
+        "pdf_page": 21
+      }
+    ]
+  },
+  "normalization": {
+    "angular_coordinate": "theta=2*pi*xi/ell",
+    "time": "tau=a0*t",
+    "density": "q_j=ell*Q_j",
+    "mean": "m_j=(1/(2*pi))*integral(q_j dtheta), so m_j_prime=1/2-m_j",
+    "real_complex_convention": "z_jn=C_jn+i*S_jn, hence z_jn_prime=(-1+i*n*V_j)*z_jn+(A+i*B)*indicator(n=1)",
+    "source_notation_issue": "PDF Eq24 writes p0/2 as constant term, whereas Eq25 relaxes p0 to1/(2ell). The mean here is defined by direct integral of the original PDE and does not inherit that mismatch."
+  },
+  "theorem_scope": {
+    "spaces": "Real periodic H^s for s>=0; classical C^1 data also covered by the explicit formula",
+    "assumptions": [
+      "Fixed chemical activity",
+      "Positive constant total transition rate",
+      "First-harmonic transition source only",
+      "First-harmonic potential",
+      "Spatially uniform row transport speeds",
+      "Zero-sum real relative displacements"
+    ],
+    "contraction": "R_j(theta,tau)=exp(-tau)*R_j(theta-X_j(tau)+X_j(0),0)",
+    "linearized_periodic_return": "M_PDE=M_finite direct_sum exp(-T)*I_residual",
+    "nonlinear_orbital_stability": "Direct orthogonal distance identity, not a smooth semigroup or normal hyperbolicity theorem",
+    "regularity_caveat": "Translations are strongly continuous but not operator-norm continuous on H^s; no same-space Frechet-C1 solution-map claim is made",
+    "physical_domain": "0<=q_j<=1 preserved if 0<=f<=1; every finite periodic orbit lifts physically if sqrt(A^2+B^2)<=1/2",
+    "priority_claim": false,
+    "chaos_claim": false
+  },
+  "algebra_check": {
+    "script": "results/motor-pde-lifting/check_lifting_algebra.py",
+    "output": "results/motor-pde-lifting/algebra.json",
+    "number_of_exact_identities": 13,
+    "all_zero": true,
+    "limitations": "Algebra controls do not substitute for the explicit infinite-dimensional proof or the inherited finite orbit certificates"
+  },
+  "cache_policy": "Downloaded primary PDF and rendered pages remain in ignored outputs; no source PDF or page image included in tracked artifacts"
+}

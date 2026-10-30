@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-10-30T10:03:59.505079+00:00",
+  "method": "Exact rational multivariate polynomial identities in Python-FLINT",
+  "python_flint_version": "0.9.0",
+  "script_sha256": "b60e59def03d17bdf24b95325a08c13593084eddc8cd8c377431153628bb810f",
+  "identities": {
+    "cosine_coefficient_PDE_balance": true,
+    "sine_coefficient_PDE_balance": true,
+    "complex_plus_i_convention_real": true,
+    "complex_plus_i_convention_imaginary": true,
+    "forced_amplitude_identity": true,
+    "unforced_amplitude_decay": true,
+    "moving_phase_real": true,
+    "moving_phase_imaginary": true,
+    "mean_relaxation": true,
+    "mean_deviation_squared_decay": true,
+    "normalized_first_cosine": true,
+    "normalized_first_sine": true,
+    "mechanical_mean_no_feedback": true
+  },
+  "all_zero": true,
+  "scope": "Checks signs, mean normalization, amplitude decay, moving-phase cancellation and first-harmonic scaling",
+  "not_computed": [
+    "No PDE truncation",
+    "No trajectories",
+    "No new interval orbit or spectrum certificate"
+  ],
+  "analytical_argument": "docs/motor-pde-lifting.md"
+}

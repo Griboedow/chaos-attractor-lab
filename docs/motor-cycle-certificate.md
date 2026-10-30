@@ -6,6 +6,8 @@ The proof uses a custom interval Taylor integrator with Picard existence bounds,
 
 A subsequent [parameter-sensitivity certificate](motor-crossing-certificate.md) strengthens the crossing result in a smaller interval: uniqueness, nonzero speed and exact multiplicity six. The original certificates and their narrower claims below remain unchanged.
 
+An exact [density-PDE lifting argument](motor-pde-lifting.md) transfers the local orbit and stability statements to the source's sinusoidal density model. Its additional population modes are stable; the extension does not require a numerical Fourier truncation.
+
 ![Archived periodic motion and certified transverse root brackets](assets/motor-cycle-certificate.png)
 
 The trajectory panel uses an approximate archived orbit for illustration. The spectral panel shows certified transverse root brackets. The drawing of the trajectory is not an interval enclosure and is not used to prove the statements.

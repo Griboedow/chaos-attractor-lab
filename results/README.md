@@ -6,6 +6,8 @@ The [crossing extension](../docs/motor-crossing-certificate.md) adds `motor-cros
 
 `motor-priority-followup/` records the [source comparison and cluster-replication corollaries](../docs/motor-followup-priority.md), including 22 exact polynomial identities. Literature gaps and algebraic deductions are explicitly separated from numerical observations and scientific-priority claims.
 
+`motor-pde-lifting/` contains the [density-PDE source audit and exact algebra controls](../docs/motor-pde-lifting.md). The full-function-space lifting theorem follows from an explicit translated, exponentially contracting residual; no PDE discretization or new trajectory survey was performed.
+
 The [published motor activity-path study](../docs/motor-rows-activity-path.md) contains 288 scouts, all 60 tighter follow-ups, the complete 32-lane eight-row persistence cohort, independent full 23-dimensional CPU spectra, figures and a rotating projection. It supports a numerical hyperchaotic candidate, with scientific priority and asymptotic attraction unresolved.
 
 The [three-row candidate report](../docs/motor-rows-gpu-survey.md) links all 2,880 scout trajectories, forty tighter three-row follow-ups, the fixed 24-lane additional 10,000-unit continuation, and independent eight-dimensional CPU spectrum. Raw histories, downgraded candidates, source snapshots, physical projections and the rotating GIF are in [motor-rows](motor-rows). Four- and eight-row positives remain preliminary; finite-time evidence does not establish novelty or an asymptotic attractor.

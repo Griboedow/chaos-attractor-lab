@@ -85,6 +85,13 @@ def main():
     derivative=determinant_direction(a,da)
     checks.append(dict(name="determinant derivative at a singular matrix",
                        value=ball_record(derivative),passed=bool(derivative == 42)))
+    uncertain_alpha=arb(0,arb("0.01"))
+    uncertain=SensitivityODE(arb(2),arb(4),(),range(3),uncertain_alpha)
+    values=uncertain.value(uncertain.initial_with_sensitivity(
+        [ONE,arb("0.2"),arb("0.1")],[ZERO]*3),ONE)
+    checks.append(dict(name="a nonzero-radius coefficient containing zero is retained",
+                       passed=bool(values[uncertain.sensitivity[0]].contains(arb("-1.008"))
+                                   and values[uncertain.sensitivity[0]].contains(arb("-0.992")))))
     record=dict(created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 status="passed" if all(c["passed"] for c in checks) else "failed",checks=checks,
                 source_sha256={name:hashlib.sha256((ROOT/"research"/name).read_bytes()).hexdigest()

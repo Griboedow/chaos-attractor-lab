@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-30T10:03:06.711929+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "independent core, transverse, rho and duration sensitivity fields",
+      "cases": 8,
+      "components": 408,
+      "maximum_error": {
+        "display": "[1.68930970436246306554799e-75 +/- 3.48e-99]",
+        "midpoint": [
+          "820442353",
+          -278
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "linear parameter sensitivity with varying initial state and duration",
+      "passed": true
+    },
+    {
+      "name": "determinant derivative at a singular matrix",
+      "value": {
+        "display": "42.0000000000000000000000",
+        "midpoint": [
+          "21",
+          1
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "a nonzero-radius coefficient containing zero is retained",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "validate_motor_crossing.py": "4167555ab9657da2d4a53915b34a378f5ab93529dbb2e58deb27468034451619",
+    "check_motor_crossing.py": "ac5efbd2487493596256b86a4831ca0fe364c0392bc35527a8fc77d6c7e8c4bf"
+  },
+  "statement": "Analytic controls and independent field assembly; not a substitute for the interval proof."
+}

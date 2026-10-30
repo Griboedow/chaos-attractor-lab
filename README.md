@@ -24,6 +24,8 @@ The curved triangular envelope is a projection of eight state variables onto thr
 
 The [follow-up priority and symmetry audit](docs/motor-followup-priority.md) derives exact replication and cluster-spectrum identities, including the target periodic saddle's `N−2` expanding directions for every even row count. It also records established cluster-breakup precedents and two unread author theses. These algebraic consequences and source gaps remain separate from an exact-model novelty claim.
 
+The [density-PDE lifting argument](docs/motor-pde-lifting.md) shows why the specified sinusoidal source model closes exactly: omitted density modes contract exponentially and add only stable directions to a periodic orbit. The local cycle theorems therefore extend to that density PDE under its stated assumptions. This does not extend them to a bending flagellum coupled to fluid or to arbitrary transition-rate laws.
+
 The clearest lesson is how easily a long chaotic transient can resemble an attractor. In the optical model, one trajectory kept positive finite-time expansion for 72,875 thermal-time units before reaching a checked periodic cycle. At both narrow optical widths, all 32 initial conditions eventually settled into cycles. At the broad width, 26 of 32 remained irregular through 100,000 units; the other six had already reached cycles. These are observations of a fixed cohort under an assumed logistic illumination law, not an experimental calibration or proof of an asymptotic chaotic attractor. [Read the long-run report](docs/optical-lifetime-extension.md).
 
 ![Long optical transients and persistence through 100,000 thermal-time units](docs/assets/optical_lifetime_extension.png)
