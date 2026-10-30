@@ -3,3 +3,10 @@
 *.gif binary
 *.png binary
 *.pdf binary
+# Preserve exact certificate/evidence bytes: manifests hash archived inputs.
+results/motor-proof/** -text
+results/motor-period-proof/** -text
+results/motor-crossing-proof/** -text
+results/motor-paired-proof/** -text
+results/motor-postcritical/** -text
+results/motor-priority-followup/** -text

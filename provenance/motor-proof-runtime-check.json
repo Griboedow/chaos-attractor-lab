@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-10-30T09:48:57.596597+00:00",
+  "scope": "Fresh optional proof environment; documented script invocation from repository root",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "python-flint": "0.9.0",
+    "pip": "25.3"
+  },
+  "installation": "python -m venv followed by python -m pip install -r requirements-proof.txt",
+  "dependency_check": "No broken requirements found.",
+  "recomputation": "results/motor-proof/clean-runtime-recheck/crossing-link.json",
+  "result": "crossing_existence_certified",
+  "gates": {
+    "target_inclusion": true,
+    "target_contraction": true,
+    "family_inclusion": true,
+    "family_contraction": true,
+    "low_inclusion": true,
+    "low_contraction": true,
+    "high_inclusion": true,
+    "high_contraction": true,
+    "low_same_shooting_branch": true,
+    "low_rho_in_family": true,
+    "low_r_in_family": true,
+    "high_same_shooting_branch": true,
+    "high_rho_in_family": true,
+    "high_r_in_family": true,
+    "target_floquet_count": true,
+    "low_floquet_count": true,
+    "high_floquet_count": true,
+    "opposite_determinant_signs": true,
+    "exact_rational_endpoints": true
+  },
+  "source_sha256": {
+    "research/validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "research/verify_motor_certificate.py": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56",
+    "research/check_motor_proof.py": "2759a68acff8a644552ce1f58477a8711bc01ee6cabe38476fde5df127376643",
+    "research/validate_motor_period.py": "8cc143eaf3df8ba82234937433129f88ecfa64df0b3ea3147c537947031ca242",
+    "requirements-proof.txt": "6bf40a9246212af199f053974aba0f42870fe3f6498ff6f21cc62e0d82bd473b"
+  },
+  "evidence_sha256": {
+    "results/motor-proof/clean-runtime-recheck/crossing-link.json": "9902986b2241f4beb94656b3331f8a6c92ccf8f0801061b1957d66689561bf0c",
+    "results/motor-proof/clean-runtime-recheck/family.json": "583edb91303baf33c7cfe2679b4d029e780962be62c9d2c3263581c577ba4cbd",
+    "results/motor-proof/clean-runtime-recheck/family.log": "2cf4393b651a90d2f3ca3de51b855c7765d89a246b31e773f19d52625d3383ed",
+    "results/motor-proof/clean-runtime-recheck/family.source.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "results/motor-proof/clean-runtime-recheck/high.json": "2d79c5492590794e932117c97f08a1e1cee6def9933c612c14502b473131a66d",
+    "results/motor-proof/clean-runtime-recheck/high.log": "7c09f05139efdd9bc79804162ae43ba3a281bdf650350fcc5e2d921ef278b5ce",
+    "results/motor-proof/clean-runtime-recheck/high.source.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "results/motor-proof/clean-runtime-recheck/low.json": "a62641337a3a6626aeb7cec4200b9ec5d04598c538e25292233a25c3b60721bc",
+    "results/motor-proof/clean-runtime-recheck/low.log": "8d38e0ddb20d62d165620ce204bba9b850f971b0e1065c588dc5cd0c9d640b5f",
+    "results/motor-proof/clean-runtime-recheck/low.source.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "results/motor-proof/clean-runtime-recheck/target.json": "055aa51fb48dc4cdee771d0bc179898fd633780f64d1ad5d52c2c547a187296b",
+    "results/motor-proof/clean-runtime-recheck/target.log": "4b8cf6e4ce67077053ce8c8d9e0eb3aef06821ad52b740cee557b529190846ad",
+    "results/motor-proof/clean-runtime-recheck/target.source.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+  },
+  "limitations": [
+    "Same interval integrator and arithmetic package, not an independent integrator",
+    "Scripts are invoked normally; an exploratory -I invocation did not find sibling source modules and was not accepted as a successful run",
+    "No claim that optional proof dependencies validate every simulation module",
+    "GitHub visual rendering could not be rechecked: browser automation unavailable"
+  ]
+}

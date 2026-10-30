@@ -1,0 +1,99 @@
+{
+  "created_utc": "2026-10-30T08:31:25.901322+00:00",
+  "status": "crossing_existence_certified",
+  "gates": {
+    "target_inclusion": true,
+    "target_contraction": true,
+    "family_inclusion": true,
+    "family_contraction": true,
+    "low_inclusion": true,
+    "low_contraction": true,
+    "high_inclusion": true,
+    "high_contraction": true,
+    "low_same_shooting_branch": true,
+    "low_rho_in_family": true,
+    "low_r_in_family": true,
+    "high_same_shooting_branch": true,
+    "high_rho_in_family": true,
+    "high_r_in_family": true,
+    "target_floquet_count": true,
+    "low_floquet_count": true,
+    "high_floquet_count": true,
+    "opposite_determinant_signs": true,
+    "exact_rational_endpoints": true
+  },
+  "files": [
+    {
+      "input": "target-recheck.json",
+      "input_sha256": "30e7038d73436994483c48c91f6636cb7f555520bb4adc8caae2f3bd097ffc23",
+      "output": "target.json",
+      "output_sha256": "4889b1e7dea512c24076523d475b04087f2d5777f45ff29d9b4d8f944fef3300"
+    },
+    {
+      "input": "crossing-family-attempt-01.json",
+      "input_sha256": "0b8440c7063c11edce814cddabbdf8c905113f85e38f2178280caf6c8e851edd",
+      "output": "family.json",
+      "output_sha256": "9185c2444a9166977017dc316f82655d5876b833e2e47d1f60edac937c448eff"
+    },
+    {
+      "input": "crossing-low.json",
+      "input_sha256": "39d13a35b43bb065a34ec0ad59663d8f3bf0f337f32dcda68152db4ef245cbe2",
+      "output": "low.json",
+      "output_sha256": "22fd579fef922021955354846f2640a1515df63302bc558dfe1c323d83e9ec6a"
+    },
+    {
+      "input": "crossing-high.json",
+      "input_sha256": "c00e2b991060d9488da775cd185307ef87c3df1242e6eed54a287357c6a825d2",
+      "output": "high.json",
+      "output_sha256": "d91b7436b495ef3f1963225643587ccb78a143bd7c8d5582bf05acae19fcb89b"
+    }
+  ],
+  "rho_bracket": [
+    "3.370218399569",
+    "3.370218399589"
+  ],
+  "delta_enclosure": {
+    "display": "[0.2414738454 +/- 1.28e-11]",
+    "midpoint": [
+      "1031570006599937295840109925844841454155349107445767691844103466480830944274586084117602535487957",
+      -321
+    ],
+    "radius": [
+      "543612257",
+      -66
+    ]
+  },
+  "endpoint_det_I_plus_M": {
+    "low": {
+      "display": "[-1.04055510e-10 +/- 9.81e-19]",
+      "midpoint": [
+        "-4122063431828002935",
+        -95
+      ],
+      "radius": [
+        "138326643",
+        -87
+      ]
+    },
+    "high": {
+      "display": "[1.0029362e-10 +/- 1.52e-18]",
+      "midpoint": [
+        "124157487111156839",
+        -90
+      ],
+      "radius": [
+        "34581661",
+        -85
+      ]
+    }
+  },
+  "conclusion": "A continuous, locally unique half-period-symmetric periodic family has at least one transverse multiplier -1 in the open rho bracket; cluster symmetry repeats it at least six times.",
+  "not_proved": [
+    "uniqueness or nonzero derivative of the crossing",
+    "least period",
+    "nonlinear flip bifurcation",
+    "hyperchaotic attractor",
+    "scientific priority"
+  ],
+  "verification": "Same algorithm recomputed at 320 bits, 160 steps, order 26; no stored true/false flag is a substitute for recomputation."
+}

@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-30T08:33:43.948148+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "linear flow with interval initial data and duration",
+      "passed": true,
+      "checks": 12
+    },
+    {
+      "name": "quadratic flow and variational derivative",
+      "passed": true
+    },
+    {
+      "name": "harmonic oscillator",
+      "passed": true
+    },
+    {
+      "name": "direct core and transverse matrix identities",
+      "passed": true,
+      "checks": 216,
+      "max_error": {
+        "display": "[1.19724229759774606433435e-75 +/- 3.31e-99]",
+        "midpoint": [
+          "290730671",
+          -277
+        ],
+        "radius": [
+          "0",
+          0
+        ]
+      }
+    },
+    {
+      "name": "exact dyadic containment rejects constructor widening",
+      "passed": true
+    }
+  ],
+  "statement": "Analytic controls and independent field assembly; these support software review and do not replace the interval existence proof.",
+  "code_sha256": {
+    "validate_motor_cycle.py": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f",
+    "verify_motor_certificate.py": "d7d153d5260f72277c49a488e27468fbf2c4ab16c1365b7cd69cf60a9cfcea56",
+    "check_motor_proof.py": "2759a68acff8a644552ce1f58477a8711bc01ee6cabe38476fde5df127376643"
+  }
+}

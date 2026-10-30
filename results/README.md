@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+The [motor-cycle certificate](../docs/motor-cycle-certificate.md) links the interval existence and spectral proofs in `motor-proof/`, including failed attempts, preserved source snapshots and fresh four-part recomputations. `motor-period-proof/` adds validated half-orbit tube signs proving least period at the target and throughout the local crossing family. These are local periodic-dynamics results, not a proof of a chaotic attractor.
+
 The [published motor activity-path study](../docs/motor-rows-activity-path.md) contains 288 scouts, all 60 tighter follow-ups, the complete 32-lane eight-row persistence cohort, independent full 23-dimensional CPU spectra, figures and a rotating projection. It supports a numerical hyperchaotic candidate, with scientific priority and asymptotic attraction unresolved.
 
 The [three-row candidate report](../docs/motor-rows-gpu-survey.md) links all 2,880 scout trajectories, forty tighter three-row follow-ups, the fixed 24-lane additional 10,000-unit continuation, and independent eight-dimensional CPU spectrum. Raw histories, downgraded candidates, source snapshots, physical projections and the rotating GIF are in [motor-rows](motor-rows). Four- and eight-row positives remain preliminary; finite-time evidence does not establish novelty or an asymptotic attractor.

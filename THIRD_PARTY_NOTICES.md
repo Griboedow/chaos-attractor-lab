@@ -1,3 +1,5 @@
 # Third-party notices
 
+The optional interval proofs use separately installed Python-FLINT 0.9.0 and its FLINT/Arb arithmetic libraries, which retain their respective upstream licenses. The interval ODE and certificate scripts in this repository are our implementation; CAPD is cited as a methodological reference and is not included or used as a runtime dependency.
+
 The Python dependencies NumPy, SciPy, Matplotlib, PyOpenCL and Pillow are installed separately and retain their respective licenses. This extraction does not include the Chua offline Plotly.js archive or bundle. Primary papers, supplementary files and author code are referenced in the reports; downloaded copies and browser screenshots are excluded. The optional scikit-sundae/SUNDIALS dependencies are installed separately and retain their respective licenses. The independent DCR implementation preserves the author-code commit and CC0 source provenance in its report; original author code is not bundled. Any later addition of third-party code or assets requires its own attribution and license review.

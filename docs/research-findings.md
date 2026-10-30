@@ -4,6 +4,10 @@ Research snapshot, 30 October 2026. **We have several independently checked nume
 
 ## The most informative observations
 
+**The periodic motor mechanism now has a computer-assisted local theorem.** Recomputed interval certificates establish a nonconstant four-plus-four orbit, its least positive period and the full count of six unstable, one neutral and sixteen stable directions. A uniformly validated nearby periodic family has an intermediate transverse multiplier −1 with multiplicity at least six. This is stronger than a floating-point cycle calculation, but it does not establish a nonlinear flip theorem or an attracting chaotic set. [The theorem, implementation and executable certificates](motor-cycle-certificate.md).
+
+![Certified motor-cycle spectral intervals](assets/motor-cycle-certificate.png)
+
 **The eight-row motor model supports a numerical hyperchaotic candidate on its prescribed activity path.** Holding all source constants and the transition-rate law fixed, changing chemical activity gives a regime with six substantial positive exponents in an independent full 23-dimensional CPU calculation. Each stays positive in all four consecutive 1,000-unit blocks. The neutral direction and divergence identities are checked. A separate fixed GPU cohort retains 31 of 32 positive candidates through another 5,000 units, while one loses positivity and remains archived. The representative's activity is about 64% above the defined onset. This supports collective hyperchaos numerically in the existing model; it does not establish scientific priority or an asymptotic attractor. [Exact activity mapping, spectra and persistence](motor-rows-activity-path.md).
 
 ![Six expanding directions in the published eight-row model](../results/motor-rows/activity-path/N8-geometry.png)
