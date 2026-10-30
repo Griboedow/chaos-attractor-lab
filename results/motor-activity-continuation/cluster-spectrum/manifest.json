@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-30T12:24:13.435210+00:00",
+  "files": {
+    "analysis/analysis.json": {
+      "bytes": 5331,
+      "sha256": "9347779b84145d87b7b7763863f718ba1f536d0e5a1c70f50782b136f51ab4dd"
+    },
+    "analysis/spectrum.png": {
+      "bytes": 131867,
+      "sha256": "4ea9b3dfd063ac1afd05ca08c4d352b99267623fdca3679abcc60de1218ce3ed"
+    },
+    "analyze.source.py": {
+      "bytes": 9924,
+      "sha256": "8e3450f957ea87460d5b2ddc9f4213cef05c7e3ec490e3c5c2b004eb17699d21"
+    },
+    "lane-46/analysis.json": {
+      "bytes": 15989,
+      "sha256": "72904d764b89e0a5ecaf2574db2ad52b54e53ac316d249257ab0d572445b5b18"
+    },
+    "lane-46/full_motor_activity_cluster_spectrum.py": {
+      "bytes": 15256,
+      "sha256": "2ced1d089dde7b1288ff3ad828dbcc62945b13b43ba5ef6cb4d2ce8fd26c7e68"
+    },
+    "lane-46/history.npz": {
+      "bytes": 930120,
+      "sha256": "1da7daafaecb8f76b7ee9ac46cebd901d510546a32ab55a7b0424ebc67238ee7"
+    },
+    "lane-46/motor_postcritical_cycles.py": {
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    "lane-46/motor_rows.py": {
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    "lane-46/parent-2000-analysis.json": {
+      "bytes": 4634,
+      "sha256": "57ae71e41842595fd44b136b1bb30271cf4e5e85ac738cf71049c929b3f9c074"
+    },
+    "lane-46/seed.npz": {
+      "bytes": 1462,
+      "sha256": "5189f688c3be97df755b841c61ac06ca2b102df78b2113ec015058f9e0d13f26"
+    }
+  },
+  "file_count": 10,
+  "checks": {
+    "complete": true,
+    "requested_duration": true,
+    "warmup_duration": true,
+    "eight_complete_windows": true,
+    "exact_groups": true,
+    "exact_weights": true,
+    "same_parent_projection": true,
+    "parent_source_sha256": true,
+    "parent_metadata_hash": true,
+    "seed_hash": true,
+    "history_hash": true,
+    "decomposition": true,
+    "endpoint_decomposition": true,
+    "short_full_map": true,
+    "trace_sum": true,
+    "local_trace": true,
+    "local_flow": true,
+    "transported_flow": true,
+    "weighted_volume": true,
+    "source_full_motor_activity_cluster_spectrum.py": true,
+    "source_motor_postcritical_cycles.py": true,
+    "source_motor_rows.py": true,
+    "exact_basis_invertible": true,
+    "sampling_grid": true,
+    "all_finite": true,
+    "quotient_basis_orthogonal": true,
+    "contrast_bases_orthogonal": true,
+    "final_rates_match": true,
+    "determinant_trace": true,
+    "checkpoints_saved": true,
+    "checkpoint_times": true,
+    "checkpoint_states": true,
+    "all_checkpoint_bases_orthogonal": true,
+    "weighted_position_constraint": true
+  }
+}

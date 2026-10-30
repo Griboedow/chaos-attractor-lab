@@ -1,0 +1,708 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-30T12:38:59.293503+00:00",
+  "checks": {
+    "45_complete": true,
+    "45_clock": true,
+    "45_sample_hash": true,
+    "45_seed_hash": true,
+    "45_source_hash": true,
+    "45_scout_hash": true,
+    "45_source_classify_motor_tuple15_excluded.py": true,
+    "45_source_motor_rows.py": true,
+    "45_source_motor_postcritical_cycles.py": true,
+    "45_grid": true,
+    "45_no_state_reset": true,
+    "45_basis": true,
+    "45_trace": true,
+    "45_flow": true,
+    "45_endpoint": true,
+    "45_all_lags": true,
+    "47_complete": true,
+    "47_clock": true,
+    "47_sample_hash": true,
+    "47_seed_hash": true,
+    "47_source_hash": true,
+    "47_scout_hash": true,
+    "47_source_classify_motor_tuple15_excluded.py": true,
+    "47_source_motor_rows.py": true,
+    "47_source_motor_postcritical_cycles.py": true,
+    "47_grid": true,
+    "47_no_state_reset": true,
+    "47_basis": true,
+    "47_trace": true,
+    "47_flow": true,
+    "47_endpoint": true,
+    "47_all_lags": true,
+    "periodic_complete": true,
+    "periodic_closures": true,
+    "periodic_flow": true,
+    "periodic_independent_variation": true,
+    "three_unstable_full_multipliers": true,
+    "one_unit_full_multiplier": true,
+    "stable_quotient_nonflow": true,
+    "reference_flow_success": true,
+    "reference_closure": true
+  },
+  "source_sha256": "d81d057e84bd78a770ed0fa3cd5fe49b410ba553009d1c986c07e9360998bf58",
+  "input_analysis_hashes": {
+    "45": "c3d6f9d70b387073c7041c67f2bcd4a6a67ae6958cecfca345c8f186b274eeda",
+    "47": "95a9a4fe14edc7ecea4f7e51ad78bb19e7c1a6d34b46520ce93b16e79b6b0822"
+  },
+  "periodic_analysis_sha256": "7970773bde452f494955f596dc461e9d982c28bb5e977435b982de357b51ebac",
+  "periodic_cycle_sha256": "ed2eec9e99fb6fd73ede7888a23453a4184279b3df5d89b7e8daf3a76c889c87",
+  "period": 62.768368101523606,
+  "unstable_exponents": [
+    0.04818038316906871,
+    0.048180383169061036,
+    0.04818038316904934
+  ],
+  "quotient_max_nonflow": 0.00017186316138281119,
+  "phase_permutation_fits": {
+    "45": [
+      {
+        "added_tau": 0.0,
+        "distance": 1.0076175496680645e-06,
+        "phase": 17.27560060012652,
+        "current_from_reference_permutation": [
+          5,
+          6,
+          3,
+          7,
+          1,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "added_tau": 25.0,
+        "distance": 3.6654762553826453e-06,
+        "phase": 0.43002192673804923,
+        "current_from_reference_permutation": [
+          3,
+          7,
+          1,
+          6,
+          5,
+          4,
+          0,
+          2
+        ]
+      },
+      {
+        "added_tau": 50.0,
+        "distance": 1.4598901721179968e-05,
+        "phase": 4.507232589564179,
+        "current_from_reference_permutation": [
+          0,
+          6,
+          4,
+          7,
+          1,
+          5,
+          2,
+          3
+        ]
+      },
+      {
+        "added_tau": 75.0,
+        "distance": 2.029210846716339e-05,
+        "phase": 29.507232551442918,
+        "current_from_reference_permutation": [
+          0,
+          7,
+          3,
+          6,
+          1,
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "added_tau": 100.0,
+        "distance": 4.701965774349529e-05,
+        "phase": 12.661653816659229,
+        "current_from_reference_permutation": [
+          4,
+          6,
+          1,
+          7,
+          0,
+          3,
+          5,
+          2
+        ]
+      },
+      {
+        "added_tau": 125.0,
+        "distance": 0.0009161524430687063,
+        "phase": 58.584443147450436,
+        "current_from_reference_permutation": [
+          1,
+          7,
+          0,
+          6,
+          4,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "added_tau": 150.0,
+        "distance": 0.002141118023423416,
+        "phase": 62.66165275194713,
+        "current_from_reference_permutation": [
+          3,
+          6,
+          1,
+          7,
+          5,
+          4,
+          0,
+          2
+        ]
+      },
+      {
+        "added_tau": 175.0,
+        "distance": 0.003205831616227719,
+        "phase": 3.9704709898971946,
+        "current_from_reference_permutation": [
+          5,
+          7,
+          4,
+          6,
+          1,
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "added_tau": 200.0,
+        "distance": 0.010970124311471994,
+        "phase": 28.970304816610042,
+        "current_from_reference_permutation": [
+          5,
+          6,
+          3,
+          7,
+          1,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "added_tau": 225.0,
+        "distance": 0.029029183087193145,
+        "phase": 12.121960734553932,
+        "current_from_reference_permutation": [
+          4,
+          6,
+          1,
+          7,
+          0,
+          3,
+          5,
+          2
+        ]
+      },
+      {
+        "added_tau": 250.0,
+        "distance": 0.3966775597831678,
+        "phase": 58.051657590295065,
+        "current_from_reference_permutation": [
+          1,
+          6,
+          0,
+          7,
+          4,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "added_tau": 275.0,
+        "distance": 1.0780906436438038,
+        "phase": 3.2285342603001865,
+        "current_from_reference_permutation": [
+          0,
+          4,
+          6,
+          3,
+          1,
+          5,
+          2,
+          7
+        ]
+      },
+      {
+        "added_tau": 300.0,
+        "distance": 0.9118599918128514,
+        "phase": 3.39619471264511,
+        "current_from_reference_permutation": [
+          7,
+          4,
+          5,
+          3,
+          1,
+          6,
+          2,
+          0
+        ]
+      },
+      {
+        "added_tau": 325.0,
+        "distance": 0.2137638436103903,
+        "phase": 9.560132353519169,
+        "current_from_reference_permutation": [
+          3,
+          1,
+          7,
+          2,
+          0,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "added_tau": 350.0,
+        "distance": 0.07897536403488421,
+        "phase": 16.653674772518382,
+        "current_from_reference_permutation": [
+          4,
+          6,
+          1,
+          7,
+          0,
+          3,
+          5,
+          2
+        ]
+      },
+      {
+        "added_tau": 375.0,
+        "distance": 0.014077185158390609,
+        "phase": 20.711825091363846,
+        "current_from_reference_permutation": [
+          5,
+          6,
+          3,
+          7,
+          1,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "added_tau": 400.0,
+        "distance": 0.012858779859273778,
+        "phase": 35.258413420288974,
+        "current_from_reference_permutation": [
+          3,
+          6,
+          1,
+          7,
+          0,
+          4,
+          5,
+          2
+        ]
+      },
+      {
+        "added_tau": 425.0,
+        "distance": 0.016475132777716783,
+        "phase": 39.32669650275995,
+        "current_from_reference_permutation": [
+          0,
+          7,
+          3,
+          6,
+          1,
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "added_tau": 450.0,
+        "distance": 0.13089418310997625,
+        "phase": 43.386745569221,
+        "current_from_reference_permutation": [
+          1,
+          6,
+          0,
+          7,
+          3,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "added_tau": 475.0,
+        "distance": 1.2562989975684424,
+        "phase": 36.920074672915426,
+        "current_from_reference_permutation": [
+          1,
+          7,
+          0,
+          6,
+          3,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "added_tau": 500.0,
+        "distance": 0.9696366588224159,
+        "phase": 45.00026077960087,
+        "current_from_reference_permutation": [
+          3,
+          1,
+          5,
+          2,
+          7,
+          4,
+          6,
+          0
+        ]
+      }
+    ],
+    "47": [
+      {
+        "added_tau": 0.0,
+        "distance": 1.5706572750214418e-09,
+        "phase": 46.49211386928917,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 25.0,
+        "distance": 1.562421480683563e-07,
+        "phase": 8.72374578837136,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          0,
+          5,
+          2,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 50.0,
+        "distance": 8.456939620562753e-08,
+        "phase": 54.64653510170888,
+        "current_from_reference_permutation": [
+          5,
+          1,
+          2,
+          4,
+          3,
+          0,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 75.0,
+        "distance": 2.599751361936577e-08,
+        "phase": 37.800956395145384,
+        "current_from_reference_permutation": [
+          4,
+          5,
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 100.0,
+        "distance": 1.0485386671888474e-09,
+        "phase": 0.03258829861969328,
+        "current_from_reference_permutation": [
+          3,
+          5,
+          0,
+          1,
+          2,
+          4,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 125.0,
+        "distance": 8.927319321176195e-09,
+        "phase": 4.109798928614599,
+        "current_from_reference_permutation": [
+          5,
+          1,
+          2,
+          4,
+          3,
+          0,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 150.0,
+        "distance": 6.788721553092884e-08,
+        "phase": 8.187009575758914,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          0,
+          5,
+          2,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 175.0,
+        "distance": 3.2474758165498025e-07,
+        "phase": 12.264220153075183,
+        "current_from_reference_permutation": [
+          3,
+          0,
+          5,
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 200.0,
+        "distance": 2.006827255212233e-07,
+        "phase": 16.341430771538764,
+        "current_from_reference_permutation": [
+          5,
+          1,
+          2,
+          4,
+          3,
+          0,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 225.0,
+        "distance": 6.284349234380377e-07,
+        "phase": 20.418641565369285,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 250.0,
+        "distance": 7.194870831275355e-08,
+        "phase": 24.495852107462667,
+        "current_from_reference_permutation": [
+          3,
+          5,
+          0,
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 275.0,
+        "distance": 4.377246836129031e-08,
+        "phase": 7.650273376061344,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          0,
+          5,
+          2,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 300.0,
+        "distance": 1.7080855476278573e-07,
+        "phase": 11.72748402353535,
+        "current_from_reference_permutation": [
+          3,
+          0,
+          5,
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 325.0,
+        "distance": 2.728396581263284e-07,
+        "phase": 15.804694677771844,
+        "current_from_reference_permutation": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 350.0,
+        "distance": 3.6770351743242174e-07,
+        "phase": 19.881905149123053,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 375.0,
+        "distance": 6.401583494113467e-08,
+        "phase": 3.036326516361378,
+        "current_from_reference_permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 400.0,
+        "distance": 1.144836906312092e-07,
+        "phase": 7.113537142539295,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          0,
+          5,
+          2,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 425.0,
+        "distance": 5.563771787617457e-08,
+        "phase": 32.11353714126813,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 450.0,
+        "distance": 7.459807401631182e-08,
+        "phase": 15.267958411844877,
+        "current_from_reference_permutation": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0,
+          7,
+          6
+        ]
+      },
+      {
+        "added_tau": 475.0,
+        "distance": 1.1446377500864356e-07,
+        "phase": 19.34516908004186,
+        "current_from_reference_permutation": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "added_tau": 500.0,
+        "distance": 8.164526448718169e-09,
+        "phase": 2.4995903199528557,
+        "current_from_reference_permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          6
+        ]
+      }
+    ]
+  },
+  "phase_matching": {
+    "grid_points": 2000,
+    "refined_local_minima": 8,
+    "reference_max_step": 0.01,
+    "reference_rtol": 2e-13,
+    "reference_atol": 2e-15,
+    "convention": "current row j approximates reference row permutation[j] at the stored phase. Distances use all 24 physical row coordinates."
+  },
+  "eigenvalue_limitation": "Strongly contracting multipliers over period62.77 approach floating-point noise. Their individual negative exponents are not accurately resolved by this monodromy calculation. The three expanding multipliers are well separated from the unit circle.",
+  "figure_sha256": "110823380ac70f8a350066b29d25936e5cf5e2de440d21e181760344166eaab6",
+  "limitation": "Finite numerical classification of two archived states; no asymptotic chaos, attraction or rigorous Floquet theorem."
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "case": 16,
+    "cycle_sha256": "578a7d601845ab594b88093378c816a62f0df7be58a326261234b00ea636edee",
+    "period": 25.001684375896957,
+    "inferred_root_groups": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7
+      ]
+    ],
+    "reference_period": 15.657983546061871,
+    "phase": 0.03005675184535342,
+    "target_row_to_reference_row": [
+      0,
+      4,
+      7,
+      3,
+      1,
+      2,
+      6,
+      5
+    ],
+    "full_row_rms_distance": 0.8098946911904316,
+    "phase_refinement": [
+      {
+        "phase": 0.03005675184535342,
+        "rms": 0.8098946911904316,
+        "correction": 9.849991185635389e-11
+      }
+    ],
+    "limitation": "Floating-point geometric comparison; the assignment is an observed symmetry relation, not a certified equivalence."
+  },
+  {
+    "case": 17,
+    "cycle_sha256": "0ea3684dc15795224bf7e2d77a53a12d893e8c4847883f3d7713edfd82a2f2f6",
+    "period": 15.657983546061825,
+    "inferred_root_groups": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "reference_period": 15.657983546061871,
+    "phase": 5.4479565217601186e-14,
+    "target_row_to_reference_row": [
+      0,
+      3,
+      1,
+      2,
+      4,
+      6,
+      5,
+      7
+    ],
+    "full_row_rms_distance": 7.230599915145043e-14,
+    "phase_refinement": [
+      {
+        "phase": 5.4492201265055186e-14,
+        "rms": 7.231459911360253e-14,
+        "correction": 1.2636047454001821e-17
+      }
+    ],
+    "limitation": "Floating-point geometric comparison; the assignment is an observed symmetry relation, not a certified equivalence."
+  },
+  {
+    "case": 18,
+    "cycle_sha256": "e7161dfafa510d71c24e34ae81f164a83d9a3b0d1c93ec55d0caff23c2004891",
+    "period": 15.65798354606175,
+    "inferred_root_groups": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "reference_period": 15.657983546061871,
+    "phase": 12.323402477569703,
+    "target_row_to_reference_row": [
+      2,
+      1,
+      0,
+      5,
+      7,
+      3,
+      6,
+      4
+    ],
+    "full_row_rms_distance": 1.608139197889155e-13,
+    "phase_refinement": [
+      {
+        "phase": 12.323402473790928,
+        "rms": 8.87308759975841e-09,
+        "correction": -3.7787740095263655e-09
+      },
+      {
+        "phase": 12.323402477569703,
+        "rms": 1.608139197889155e-13,
+        "correction": 6.106162997421979e-16
+      }
+    ],
+    "limitation": "Floating-point geometric comparison; the assignment is an observed symmetry relation, not a certified equivalence."
+  },
+  {
+    "case": 19,
+    "cycle_sha256": "32db82c0d5e13ebc22f28907ec91ed8c369ae54fa3a872ffb0dc43366355a629",
+    "period": 15.657983546061738,
+    "inferred_root_groups": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "reference_period": 15.657983546061871,
+    "phase": 15.657983546061855,
+    "target_row_to_reference_row": [
+      0,
+      1,
+      6,
+      5,
+      4,
+      2,
+      3,
+      7
+    ],
+    "full_row_rms_distance": 1.0015477237653933e-13,
+    "phase_refinement": [
+      {
+        "phase": -1.548146086456693e-14,
+        "rms": 1.0015477237653933e-13,
+        "correction": -3.5531847043961463e-16
+      }
+    ],
+    "limitation": "Floating-point geometric comparison; the assignment is an observed symmetry relation, not a certified equivalence."
+  }
+]

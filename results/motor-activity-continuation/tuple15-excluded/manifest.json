@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "checks": {
+    "45_complete": true,
+    "45_clock": true,
+    "45_sample_hash": true,
+    "45_seed_hash": true,
+    "45_source_hash": true,
+    "45_scout_hash": true,
+    "45_source_classify_motor_tuple15_excluded.py": true,
+    "45_source_motor_rows.py": true,
+    "45_source_motor_postcritical_cycles.py": true,
+    "45_grid": true,
+    "45_no_state_reset": true,
+    "45_basis": true,
+    "45_trace": true,
+    "45_flow": true,
+    "45_endpoint": true,
+    "45_all_lags": true,
+    "47_complete": true,
+    "47_clock": true,
+    "47_sample_hash": true,
+    "47_seed_hash": true,
+    "47_source_hash": true,
+    "47_scout_hash": true,
+    "47_source_classify_motor_tuple15_excluded.py": true,
+    "47_source_motor_rows.py": true,
+    "47_source_motor_postcritical_cycles.py": true,
+    "47_grid": true,
+    "47_no_state_reset": true,
+    "47_basis": true,
+    "47_trace": true,
+    "47_flow": true,
+    "47_endpoint": true,
+    "47_all_lags": true,
+    "periodic_complete": true,
+    "periodic_closures": true,
+    "periodic_flow": true,
+    "periodic_independent_variation": true,
+    "three_unstable_full_multipliers": true,
+    "one_unit_full_multiplier": true,
+    "stable_quotient_nonflow": true,
+    "reference_flow_success": true,
+    "reference_closure": true
+  },
+  "files": {
+    "analysis/analysis.json": {
+      "bytes": 14863,
+      "sha256": "a3a694cf84d3d5cc86e81d2171e0b9e62462787309055709929c4d173ce04812"
+    },
+    "analysis/orbit-distance.png": {
+      "bytes": 90327,
+      "sha256": "110823380ac70f8a350066b29d25936e5cf5e2de440d21e181760344166eaab6"
+    },
+    "analysis-preflight-01.json": {
+      "bytes": 326,
+      "sha256": "18be9ad8516789b38c4cc7ff25907997af0265e0c1d3c98744fcee75bed209cf"
+    },
+    "analysis-preflight-01.source.py": {
+      "bytes": 8924,
+      "sha256": "44d465271fa6575b3a8bc0ed9026200776a084a4734bb66da695b902bfae1265"
+    },
+    "analyze.source.py": {
+      "bytes": 8923,
+      "sha256": "d81d057e84bd78a770ed0fa3cd5fe49b410ba553009d1c986c07e9360998bf58"
+    },
+    "lane-45/analysis.json": {
+      "bytes": 31380,
+      "sha256": "c3d6f9d70b387073c7041c67f2bcd4a6a67ae6958cecfca345c8f186b274eeda"
+    },
+    "lane-45/classify_motor_tuple15_excluded.py": {
+      "bytes": 12174,
+      "sha256": "b5d46edfe722f9fc3ae77c612f747d1ab85a6b4505c42c0c0f689de265d60318"
+    },
+    "lane-45/motor_postcritical_cycles.py": {
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    "lane-45/motor_rows.py": {
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    "lane-45/sample.npz": {
+      "bytes": 133327,
+      "sha256": "29503da448e17d5d6767ddd0fe0be6524cb968cdcd74fc803ff8d1f81d1f2fda"
+    },
+    "lane-45/seed.npz": {
+      "bytes": 2584,
+      "sha256": "73492c39a372d43c0ec9cbecfc31d2e50b8e5e547f77294c40f647c61c1ab53f"
+    },
+    "lane-47/analysis.json": {
+      "bytes": 31525,
+      "sha256": "95a9a4fe14edc7ecea4f7e51ad78bb19e7c1a6d34b46520ce93b16e79b6b0822"
+    },
+    "lane-47/classify_motor_tuple15_excluded.py": {
+      "bytes": 12174,
+      "sha256": "b5d46edfe722f9fc3ae77c612f747d1ab85a6b4505c42c0c0f689de265d60318"
+    },
+    "lane-47/motor_postcritical_cycles.py": {
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    "lane-47/motor_rows.py": {
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    "lane-47/periodic/analysis.json": {
+      "bytes": 6787,
+      "sha256": "7970773bde452f494955f596dc461e9d982c28bb5e977435b982de357b51ebac"
+    },
+    "lane-47/periodic/cycle.npz": {
+      "bytes": 195161,
+      "sha256": "ed2eec9e99fb6fd73ede7888a23453a4184279b3df5d89b7e8daf3a76c889c87"
+    },
+    "lane-47/periodic/source.py": {
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    "lane-47/periodic-attempt.log": {
+      "bytes": 6511,
+      "sha256": "75ce119fd50f15fc47bf1a43ca0a4b3f4da6953819fd94d0c2aec9ecab7b40f4"
+    },
+    "lane-47/sample.npz": {
+      "bytes": 117928,
+      "sha256": "dc3755d4186b41a3cbf3751e3cd1672d96416e52055b759a7aef3daa74141453"
+    },
+    "lane-47/seed.npz": {
+      "bytes": 2385,
+      "sha256": "d9a6a19f917b9bd1f90e956ea883dc1282405c0ed795cd931a88409c3252b55e"
+    }
+  },
+  "file_count": 21
+}

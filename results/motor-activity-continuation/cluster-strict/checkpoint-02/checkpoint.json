@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-30T12:27:47.958386+00:00",
+  "status": "passed",
+  "checks": {
+    "complete_block": true,
+    "same_time": true,
+    "state_endpoint": true,
+    "leading_log": true,
+    "contrast_logs": true,
+    "finite_states": true,
+    "tangent_shapes": true
+  },
+  "source_folder": "results\\motor-activity-continuation\\cluster-strict\\lane-46",
+  "observed_tau": 6000.0,
+  "elapsed_tau": 6200.0,
+  "hashes": {
+    "analysis.json": "35c2bf7e68749238f0bd0c9645e1530a26279973af91ee9f761f36545e8a1969",
+    "history.npz": "f47feef3f2496c54d2067dd283e06f161d36af679e7f39c54e2f458d30c955b0",
+    "source.py": "d4b621b32529bdab6bdb4a8b5043e87d0dd72a9bf3f81f43769fc27d0dd06544"
+  },
+  "purpose": "Freeze an exact complete QR-block boundary. A later wall-budget checkpoint may contain partial-block state without matching accumulated logs and must not be resumed as a complete block."
+}

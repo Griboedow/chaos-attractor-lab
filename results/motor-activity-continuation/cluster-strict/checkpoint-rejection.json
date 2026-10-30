@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-30T12:36:56.865775+00:00",
+  "status": "partial_block_correctly_rejected",
+  "observed_tau": 9000.0,
+  "elapsed_tau": 9334.0,
+  "reason": "The original bounded run had reached its wall limit between500-tau accumulator commits. The complete-block guard rejected it; resume uses the previously verified8500-tau checkpoint03 instead.",
+  "failed_resume": "The subsequent command found no checkpoint04 and stopped before creating output."
+}

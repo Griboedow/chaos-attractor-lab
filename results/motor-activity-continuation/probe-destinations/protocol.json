@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-30T12:20:57.323383+00:00",
+  "cases": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "source": "results/motor-activity-continuation/full-space-perturbations/outcomes.npz",
+  "source_sha256": "c1e993f6f13146a2de9608788c8277400c9da2161a43171aa1d894b6322e9048",
+  "duration": 500.0,
+  "source_snapshot_sha256": {
+    "check_motor_probe_destinations.py": "e8f42783074e9934919160bf416bb1e612fbb3943ee455d238c4f8098a110825",
+    "motor_rows.py": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f",
+    "motor_postcritical_cycles.py": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+  },
+  "selection": "All four physical perturbations of original lane49, selected for follow-up after the near-zero final GPU window. No cases are removed by the outcome.",
+  "immutable_original_data": true,
+  "scope": "New conditional numerical follow-up, separate from the frozen activity cohort and local interval theorems."
+}

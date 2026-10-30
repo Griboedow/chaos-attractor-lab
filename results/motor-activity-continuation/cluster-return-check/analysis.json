@@ -1,0 +1,572 @@
+{
+  "created_utc": "2026-10-30T12:30:43.192673+00:00",
+  "status": "complete",
+  "input_hashes": {
+    "analysis.json": "72904d764b89e0a5ecaf2574db2ad52b54e53ac316d249257ab0d572445b5b18",
+    "history.npz": "1da7daafaecb8f76b7ee9ac46cebd901d510546a32ab55a7b0424ebc67238ee7"
+  },
+  "source_hashes": {
+    "check_motor_cluster_returns.py": "f847d3d3d4c4c907ff5fb37012d51698c56ccc709354f98ae6882188d114ff9e",
+    "motor_postcritical_cycles.py": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+  },
+  "input_folder": "results\\motor-activity-continuation\\cluster-spectrum\\lane-46",
+  "groups": [
+    [
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5
+    ]
+  ],
+  "weights": [
+    0.125,
+    0.25,
+    0.25,
+    0.25,
+    0.125
+  ],
+  "parameters": [
+    2.2613636363636367,
+    4.7551460477513405,
+    1.0
+  ],
+  "duration": 1000.0,
+  "exact_saved_endpoint_used": true,
+  "section": "Positive crossing of the first cluster displacement through zero; all roots retained.",
+  "crossing_count": 124,
+  "interval_min": 3.612294724293747,
+  "interval_max": 8.738019711446896,
+  "interval_std": 0.7114888488427198,
+  "lags": [
+    {
+      "lag": 1,
+      "comparisons": 123,
+      "minimum_full_reduced_distance": 5.130523265005762,
+      "rms_full_reduced_distance": 6.037657127068097,
+      "final_return_max_error": 3.089633553825281,
+      "final_period_guess": 8.099412812111495
+    },
+    {
+      "lag": 2,
+      "comparisons": 122,
+      "minimum_full_reduced_distance": 3.89547142710478,
+      "rms_full_reduced_distance": 5.9864797139821,
+      "final_return_max_error": 3.116803375564876,
+      "final_period_guess": 16.26964594191304
+    },
+    {
+      "lag": 3,
+      "comparisons": 121,
+      "minimum_full_reduced_distance": 0.007927835298894221,
+      "rms_full_reduced_distance": 1.5525945094209546,
+      "final_return_max_error": 0.06330998321681841,
+      "final_period_guess": 24.549341248570954
+    },
+    {
+      "lag": 4,
+      "comparisons": 120,
+      "minimum_full_reduced_distance": 0.17520818678676348,
+      "rms_full_reduced_distance": 5.887787376946703,
+      "final_return_max_error": 3.2353617452895067,
+      "final_period_guess": 33.28736096001785
+    },
+    {
+      "lag": 5,
+      "comparisons": 119,
+      "minimum_full_reduced_distance": 3.9023194172461197,
+      "rms_full_reduced_distance": 5.979383193561505,
+      "final_return_max_error": 3.0778297448843386,
+      "final_period_guess": 41.09904181012041
+    },
+    {
+      "lag": 6,
+      "comparisons": 118,
+      "minimum_full_reduced_distance": 0.024419662427783827,
+      "rms_full_reduced_distance": 2.0835661151614673,
+      "final_return_max_error": 0.04108525526692294,
+      "final_period_guess": 49.319691168594545
+    },
+    {
+      "lag": 7,
+      "comparisons": 117,
+      "minimum_full_reduced_distance": 0.07652817575011997,
+      "rms_full_reduced_distance": 5.7215602590523105,
+      "final_return_max_error": 3.1365212426822042,
+      "final_period_guess": 57.53727654075465
+    },
+    {
+      "lag": 8,
+      "comparisons": 116,
+      "minimum_full_reduced_distance": 3.9034298599314967,
+      "rms_full_reduced_distance": 5.978085774190615,
+      "final_return_max_error": 3.1301656744815043,
+      "final_period_guess": 65.69807807613029
+    },
+    {
+      "lag": 9,
+      "comparisons": 115,
+      "minimum_full_reduced_distance": 0.019365960778672645,
+      "rms_full_reduced_distance": 2.5218236993925385,
+      "final_return_max_error": 0.12070695558037253,
+      "final_period_guess": 73.87549047274001
+    },
+    {
+      "lag": 10,
+      "comparisons": 114,
+      "minimum_full_reduced_distance": 0.035427886996941334,
+      "rms_full_reduced_distance": 5.5425018412597895,
+      "final_return_max_error": 3.1232132669052133,
+      "final_period_guess": 82.14076712784663
+    },
+    {
+      "lag": 11,
+      "comparisons": 113,
+      "minimum_full_reduced_distance": 3.890234321214848,
+      "rms_full_reduced_distance": 5.975266888557652,
+      "final_return_max_error": 3.13536945281729,
+      "final_period_guess": 90.35613138672784
+    },
+    {
+      "lag": 12,
+      "comparisons": 112,
+      "minimum_full_reduced_distance": 0.013111232960852301,
+      "rms_full_reduced_distance": 2.9068961603461383,
+      "final_return_max_error": 0.04367732943184177,
+      "final_period_guess": 98.48140956165923
+    },
+    {
+      "lag": 13,
+      "comparisons": 111,
+      "minimum_full_reduced_distance": 0.006948121337325244,
+      "rms_full_reduced_distance": 5.344170055216579,
+      "final_return_max_error": 3.0879151023058573,
+      "final_period_guess": 106.52374747383396
+    },
+    {
+      "lag": 14,
+      "comparisons": 110,
+      "minimum_full_reduced_distance": 3.9142136227528157,
+      "rms_full_reduced_distance": 5.974970843765574,
+      "final_return_max_error": 3.110347407350484,
+      "final_period_guess": 114.68196229657076
+    },
+    {
+      "lag": 15,
+      "comparisons": 109,
+      "minimum_full_reduced_distance": 0.007847911080798903,
+      "rms_full_reduced_distance": 3.2764344942414314,
+      "final_return_max_error": 0.04207933104901176,
+      "final_period_guess": 122.86507028252322
+    },
+    {
+      "lag": 16,
+      "comparisons": 108,
+      "minimum_full_reduced_distance": 0.03808790958952329,
+      "rms_full_reduced_distance": 5.131983304710106,
+      "final_return_max_error": 3.226484388126554,
+      "final_period_guess": 131.54614830224648
+    },
+    {
+      "lag": 17,
+      "comparisons": 107,
+      "minimum_full_reduced_distance": 3.920322695455084,
+      "rms_full_reduced_distance": 5.971732255934746,
+      "final_return_max_error": 3.0862921651381727,
+      "final_period_guess": 139.40839180987882
+    },
+    {
+      "lag": 18,
+      "comparisons": 106,
+      "minimum_full_reduced_distance": 0.06180656711238318,
+      "rms_full_reduced_distance": 3.6219988985662512,
+      "final_return_max_error": 0.04411281053873495,
+      "final_period_guess": 147.64702147567868
+    },
+    {
+      "lag": 19,
+      "comparisons": 105,
+      "minimum_full_reduced_distance": 0.03502373545641252,
+      "rms_full_reduced_distance": 4.893613939968197,
+      "final_return_max_error": 3.193918262497263,
+      "final_period_guess": 156.09510818172134
+    },
+    {
+      "lag": 20,
+      "comparisons": 104,
+      "minimum_full_reduced_distance": 3.8954227402133235,
+      "rms_full_reduced_distance": 5.972122400919545,
+      "final_return_max_error": 3.088090202837705,
+      "final_period_guess": 164.02479881164209
+    },
+    {
+      "lag": 21,
+      "comparisons": 103,
+      "minimum_full_reduced_distance": 0.017973038251322408,
+      "rms_full_reduced_distance": 3.9462572631931008,
+      "final_return_max_error": 0.04083838349983193,
+      "final_period_guess": 172.2615104917005
+    },
+    {
+      "lag": 22,
+      "comparisons": 102,
+      "minimum_full_reduced_distance": 0.01626063428467461,
+      "rms_full_reduced_distance": 4.595284662092449,
+      "final_return_max_error": 3.139946413880892,
+      "final_period_guess": 180.45510223770975
+    },
+    {
+      "lag": 23,
+      "comparisons": 101,
+      "minimum_full_reduced_distance": 3.919345603637344,
+      "rms_full_reduced_distance": 6.002321160750455,
+      "final_return_max_error": 3.126026652493495,
+      "final_period_guess": 188.59270160422466
+    },
+    {
+      "lag": 24,
+      "comparisons": 100,
+      "minimum_full_reduced_distance": 0.01144093850097268,
+      "rms_full_reduced_distance": 4.090043998532089,
+      "final_return_max_error": 0.03051751079227035,
+      "final_period_guess": 196.68337000540419
+    },
+    {
+      "lag": 25,
+      "comparisons": 99,
+      "minimum_full_reduced_distance": 0.04231862109728771,
+      "rms_full_reduced_distance": 4.582408361068923,
+      "final_return_max_error": 3.0766608341226993,
+      "final_period_guess": 205.1682777607341
+    },
+    {
+      "lag": 26,
+      "comparisons": 98,
+      "minimum_full_reduced_distance": 0.2170916364811484,
+      "rms_full_reduced_distance": 5.905152210320308,
+      "final_return_max_error": 3.1118332768419528,
+      "final_period_guess": 213.41449715647775
+    },
+    {
+      "lag": 27,
+      "comparisons": 97,
+      "minimum_full_reduced_distance": 0.029275167908505588,
+      "rms_full_reduced_distance": 4.286725373946129,
+      "final_return_max_error": 0.14121110323323172,
+      "final_period_guess": 221.8160373586079
+    },
+    {
+      "lag": 28,
+      "comparisons": 96,
+      "minimum_full_reduced_distance": 0.027181612743650278,
+      "rms_full_reduced_distance": 4.526193092403478,
+      "final_return_max_error": 3.115639474050048,
+      "final_period_guess": 229.81941526789922
+    },
+    {
+      "lag": 29,
+      "comparisons": 95,
+      "minimum_full_reduced_distance": 0.15172741746906881,
+      "rms_full_reduced_distance": 5.8068671097293985,
+      "final_return_max_error": 3.0915554938571006,
+      "final_period_guess": 237.88739669737254
+    },
+    {
+      "lag": 30,
+      "comparisons": 94,
+      "minimum_full_reduced_distance": 0.030402818539854864,
+      "rms_full_reduced_distance": 4.483796437038449,
+      "final_return_max_error": 0.0428837648943541,
+      "final_period_guess": 246.09655160670525
+    },
+    {
+      "lag": 31,
+      "comparisons": 93,
+      "minimum_full_reduced_distance": 0.033017413457079765,
+      "rms_full_reduced_distance": 4.473373126984548,
+      "final_return_max_error": 3.221272991422922,
+      "final_period_guess": 254.73976409398153
+    },
+    {
+      "lag": 32,
+      "comparisons": 92,
+      "minimum_full_reduced_distance": 0.10389520074790104,
+      "rms_full_reduced_distance": 5.695054573340442,
+      "final_return_max_error": 3.089697805462847,
+      "final_period_guess": 262.62851762928824
+    },
+    {
+      "lag": 33,
+      "comparisons": 91,
+      "minimum_full_reduced_distance": 0.04691401889876433,
+      "rms_full_reduced_distance": 4.688452760821059,
+      "final_return_max_error": 0.04193732772091219,
+      "final_period_guess": 270.8721350826029
+    },
+    {
+      "lag": 34,
+      "comparisons": 90,
+      "minimum_full_reduced_distance": 0.02869537058665925,
+      "rms_full_reduced_distance": 4.4057877812072075,
+      "final_return_max_error": 3.143554950092732,
+      "final_period_guess": 279.07667115053744
+    },
+    {
+      "lag": 35,
+      "comparisons": 89,
+      "minimum_full_reduced_distance": 0.05417165781580061,
+      "rms_full_reduced_distance": 5.57432562920229,
+      "final_return_max_error": 3.1294187374010454,
+      "final_period_guess": 287.27113730857855
+    },
+    {
+      "lag": 36,
+      "comparisons": 88,
+      "minimum_full_reduced_distance": 0.0012540307068331783,
+      "rms_full_reduced_distance": 4.8932466522699265,
+      "final_return_max_error": 0.01909514049088576,
+      "final_period_guess": 295.30229205096896
+    },
+    {
+      "lag": 37,
+      "comparisons": 87,
+      "minimum_full_reduced_distance": 0.06587228036180977,
+      "rms_full_reduced_distance": 4.333674419904689,
+      "final_return_max_error": 3.098067449967705,
+      "final_period_guess": 303.43894539699727
+    },
+    {
+      "lag": 38,
+      "comparisons": 86,
+      "minimum_full_reduced_distance": 0.061301557288488955,
+      "rms_full_reduced_distance": 5.469391091862845,
+      "final_return_max_error": 3.119168466269941,
+      "final_period_guess": 311.60604595479924
+    },
+    {
+      "lag": 39,
+      "comparisons": 85,
+      "minimum_full_reduced_distance": 0.05214837096639751,
+      "rms_full_reduced_distance": 4.98747231868571,
+      "final_return_max_error": 0.04044829515740135,
+      "final_period_guess": 319.7863790100196
+    },
+    {
+      "lag": 40,
+      "comparisons": 84,
+      "minimum_full_reduced_distance": 0.030419447018609852,
+      "rms_full_reduced_distance": 4.409148260574312,
+      "final_return_max_error": 3.2269485180876547,
+      "final_period_guess": 328.46569642071506
+    },
+    {
+      "lag": 41,
+      "comparisons": 83,
+      "minimum_full_reduced_distance": 0.03320418901603722,
+      "rms_full_reduced_distance": 5.3271837232206,
+      "final_return_max_error": 3.079676926603133,
+      "final_period_guess": 336.30204488269055
+    },
+    {
+      "lag": 42,
+      "comparisons": 82,
+      "minimum_full_reduced_distance": 0.02755124814376997,
+      "rms_full_reduced_distance": 5.077320403716879,
+      "final_return_max_error": 0.038458284399129794,
+      "final_period_guess": 344.52495560150624
+    },
+    {
+      "lag": 43,
+      "comparisons": 81,
+      "minimum_full_reduced_distance": 0.03217757623772656,
+      "rms_full_reduced_distance": 4.488014073286096,
+      "final_return_max_error": 3.136220915173868,
+      "final_period_guess": 352.73476948353516
+    },
+    {
+      "lag": 44,
+      "comparisons": 80,
+      "minimum_full_reduced_distance": 0.04262230010249473,
+      "rms_full_reduced_distance": 5.169476565363752,
+      "final_return_max_error": 3.129189735578681,
+      "final_period_guess": 360.88732307315115
+    },
+    {
+      "lag": 45,
+      "comparisons": 79,
+      "minimum_full_reduced_distance": 0.03426145185493008,
+      "rms_full_reduced_distance": 5.17262212979287,
+      "final_return_max_error": 0.12362262333116064,
+      "final_period_guess": 369.078654316961
+    },
+    {
+      "lag": 46,
+      "comparisons": 78,
+      "minimum_full_reduced_distance": 0.034177981775591344,
+      "rms_full_reduced_distance": 4.572413812563448,
+      "final_return_max_error": 3.1234846980061928,
+      "final_period_guess": 377.34415365759503
+    },
+    {
+      "lag": 47,
+      "comparisons": 77,
+      "minimum_full_reduced_distance": 0.04631515751029712,
+      "rms_full_reduced_distance": 4.994324019064104,
+      "final_return_max_error": 3.135455786394517,
+      "final_period_guess": 385.5622489679314
+    },
+    {
+      "lag": 48,
+      "comparisons": 76,
+      "minimum_full_reduced_distance": 0.01365705684954715,
+      "rms_full_reduced_distance": 5.26909445951194,
+      "final_return_max_error": 0.042520069952315165,
+      "final_period_guess": 393.68391529149824
+    },
+    {
+      "lag": 49,
+      "comparisons": 75,
+      "minimum_full_reduced_distance": 0.011677104423506572,
+      "rms_full_reduced_distance": 4.661315923480035,
+      "final_return_max_error": 3.087563059999796,
+      "final_period_guess": 401.7271083724671
+    },
+    {
+      "lag": 50,
+      "comparisons": 74,
+      "minimum_full_reduced_distance": 0.029680872818212654,
+      "rms_full_reduced_distance": 4.789517475746292,
+      "final_return_max_error": 3.110511245192493,
+      "final_period_guess": 409.8868885660985
+    },
+    {
+      "lag": 51,
+      "comparisons": 73,
+      "minimum_full_reduced_distance": 0.06727732389068526,
+      "rms_full_reduced_distance": 5.381969536166398,
+      "final_return_max_error": 0.03211227405902484,
+      "final_period_guess": 418.05351096856305
+    },
+    {
+      "lag": 52,
+      "comparisons": 72,
+      "minimum_full_reduced_distance": 0.05097163894138662,
+      "rms_full_reduced_distance": 4.757788807485581,
+      "final_return_max_error": 3.105095673034144,
+      "final_period_guess": 426.242009008997
+    },
+    {
+      "lag": 53,
+      "comparisons": 71,
+      "minimum_full_reduced_distance": 0.0213841073729723,
+      "rms_full_reduced_distance": 4.5654298550510095,
+      "final_return_max_error": 3.104441215180384,
+      "final_period_guess": 434.91933245156395
+    },
+    {
+      "lag": 54,
+      "comparisons": 70,
+      "minimum_full_reduced_distance": 0.03642627643186084,
+      "rms_full_reduced_distance": 5.4924476362765775,
+      "final_return_max_error": 0.07591301644554882,
+      "final_period_guess": 442.7444234127173
+    },
+    {
+      "lag": 55,
+      "comparisons": 69,
+      "minimum_full_reduced_distance": 0.03923717014300716,
+      "rms_full_reduced_distance": 4.860402938020286,
+      "final_return_max_error": 3.0804598154217233,
+      "final_period_guess": 450.94759459565296
+    },
+    {
+      "lag": 56,
+      "comparisons": 68,
+      "minimum_full_reduced_distance": 0.04094931408630091,
+      "rms_full_reduced_distance": 4.305829099246441,
+      "final_return_max_error": 3.1289791372906883,
+      "final_period_guess": 459.1798097337286
+    },
+    {
+      "lag": 57,
+      "comparisons": 67,
+      "minimum_full_reduced_distance": 0.05822562941950591,
+      "rms_full_reduced_distance": 5.6168462933624435,
+      "final_return_max_error": 0.062473275303617015,
+      "final_period_guess": 467.3589586730143
+    },
+    {
+      "lag": 58,
+      "comparisons": 66,
+      "minimum_full_reduced_distance": 0.08579497011411646,
+      "rms_full_reduced_distance": 4.969232954077167,
+      "final_return_max_error": 3.074709820905469,
+      "final_period_guess": 475.50516199616413
+    },
+    {
+      "lag": 59,
+      "comparisons": 65,
+      "minimum_full_reduced_distance": 0.04327085920068382,
+      "rms_full_reduced_distance": 3.9939184023091103,
+      "final_return_max_error": 3.124176092269076,
+      "final_period_guess": 483.7708790149324
+    },
+    {
+      "lag": 60,
+      "comparisons": 64,
+      "minimum_full_reduced_distance": 0.0773481515897686,
+      "rms_full_reduced_distance": 5.776586312390962,
+      "final_return_max_error": 0.08604140433908081,
+      "final_period_guess": 492.0088899866598
+    },
+    {
+      "lag": 61,
+      "comparisons": 63,
+      "minimum_full_reduced_distance": 0.048306871501154175,
+      "rms_full_reduced_distance": 4.922423742083941,
+      "final_return_max_error": 3.1278021991001554,
+      "final_period_guess": 500.0859156142622
+    },
+    {
+      "lag": 62,
+      "comparisons": 62,
+      "minimum_full_reduced_distance": 0.021447910587165615,
+      "rms_full_reduced_distance": 3.856834738529305,
+      "final_return_max_error": 3.1021368371237434,
+      "final_period_guess": 508.1585252106514
+    },
+    {
+      "lag": 63,
+      "comparisons": 61,
+      "minimum_full_reduced_distance": 0.04881256867050741,
+      "rms_full_reduced_distance": 5.924858228998166,
+      "final_return_max_error": 0.02264244756127317,
+      "final_period_guess": 516.3155121647792
+    },
+    {
+      "lag": 64,
+      "comparisons": 60,
+      "minimum_full_reduced_distance": 0.038853910476699324,
+      "rms_full_reduced_distance": 4.860268132159985,
+      "final_return_max_error": 3.1145427842377247,
+      "final_period_guess": 524.6462047606415
+    }
+  ],
+  "sample_sha256": "c5d021694386980916cc1fb9e4ad21dfe8946231837d95f0354fea6894d60279",
+  "limitations": [
+    "Finite return search at lags1 through64; no proof of aperiodicity or exclusion of longer periods.",
+    "A separate tighter state continuation, not an extension of the archived QR accumulation.",
+    "No interpolation-based orbit closure is treated as a certificate."
+  ]
+}

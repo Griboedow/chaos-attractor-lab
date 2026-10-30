@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-30T12:24:13.414464+00:00",
+  "checks": {
+    "complete": true,
+    "requested_duration": true,
+    "warmup_duration": true,
+    "eight_complete_windows": true,
+    "exact_groups": true,
+    "exact_weights": true,
+    "same_parent_projection": true,
+    "parent_source_sha256": true,
+    "parent_metadata_hash": true,
+    "seed_hash": true,
+    "history_hash": true,
+    "decomposition": true,
+    "endpoint_decomposition": true,
+    "short_full_map": true,
+    "trace_sum": true,
+    "local_trace": true,
+    "local_flow": true,
+    "transported_flow": true,
+    "weighted_volume": true,
+    "source_full_motor_activity_cluster_spectrum.py": true,
+    "source_motor_postcritical_cycles.py": true,
+    "source_motor_rows.py": true,
+    "exact_basis_invertible": true,
+    "sampling_grid": true,
+    "all_finite": true,
+    "quotient_basis_orthogonal": true,
+    "contrast_bases_orthogonal": true,
+    "final_rates_match": true,
+    "determinant_trace": true,
+    "checkpoints_saved": true,
+    "checkpoint_times": true,
+    "checkpoint_states": true,
+    "all_checkpoint_bases_orthogonal": true,
+    "weighted_position_constraint": true
+  },
+  "source_sha256": "8e3450f957ea87460d5b2ddc9f4213cef05c7e3ec490e3c5c2b004eb17699d21",
+  "run_record_sha256": "72904d764b89e0a5ecaf2574db2ad52b54e53ac316d249257ab0d572445b5b18",
+  "exact_transform_determinant": "-512",
+  "quotient_spectrum": [
+    0.04501302342853443,
+    -4.208975222542588e-05,
+    -0.017698235280806912,
+    -0.35331758374362826,
+    -0.43409891256354616,
+    -0.4593039178644669,
+    -0.4837463687239968,
+    -0.6000349056252422,
+    -0.6727104928678268,
+    -0.8056595767563887,
+    -0.849002549346412,
+    -0.8821798369634979,
+    -1.1022047475906465,
+    -1.1385102267476543
+  ],
+  "contrast_spectra": [
+    [
+      -0.08616497186220151,
+      -0.6152523393010639,
+      -0.9213247511799065
+    ],
+    [
+      -0.09140163551054308,
+      -0.6193228051983348,
+      -0.9176174510263607
+    ],
+    [
+      -0.08469990234138393,
+      -0.6123146125956241,
+      -0.9173673527398369
+    ]
+  ],
+  "sorted_union_spectrum": [
+    0.04501302342853443,
+    -4.208975222542588e-05,
+    -0.017698235280806912,
+    -0.08469990234138393,
+    -0.08616497186220151,
+    -0.09140163551054308,
+    -0.35331758374362826,
+    -0.43409891256354616,
+    -0.4593039178644669,
+    -0.4837463687239968,
+    -0.6000349056252422,
+    -0.6123146125956241,
+    -0.6152523393010639,
+    -0.6193228051983348,
+    -0.6727104928678268,
+    -0.8056595767563887,
+    -0.849002549346412,
+    -0.8821798369634979,
+    -0.9173673527398369,
+    -0.9176174510263607,
+    -0.9213247511799065,
+    -1.1022047475906465,
+    -1.1385102267476543
+  ],
+  "minimum_window_quotient_first": 0.03314818622040213,
+  "maximum_window_contrast_leaders": [
+    -0.07571262021135483,
+    -0.07551702898073598,
+    -0.07632192024798408
+  ],
+  "different_cluster_pair_distances": [
+    {
+      "cluster_indices": [
+        0,
+        1
+      ],
+      "minimum": 0.13527305309453785,
+      "rms": 1.7839028353933033,
+      "maximum": 3.620088608391957
+    },
+    {
+      "cluster_indices": [
+        0,
+        2
+      ],
+      "minimum": 0.13173670369286103,
+      "rms": 1.7896821199252222,
+      "maximum": 3.646616844160452
+    },
+    {
+      "cluster_indices": [
+        0,
+        3
+      ],
+      "minimum": 0.13424143000353164,
+      "rms": 1.7830149851740424,
+      "maximum": 3.6229109606137078
+    },
+    {
+      "cluster_indices": [
+        0,
+        4
+      ],
+      "minimum": 0.39067041342934244,
+      "rms": 1.7275104019873184,
+      "maximum": 3.1656443578457525
+    },
+    {
+      "cluster_indices": [
+        1,
+        2
+      ],
+      "minimum": 0.4015156780830786,
+      "rms": 2.0570530064460586,
+      "maximum": 3.6054361262994337
+    },
+    {
+      "cluster_indices": [
+        1,
+        3
+      ],
+      "minimum": 0.39712413378550965,
+      "rms": 2.0570815895100316,
+      "maximum": 3.603817936722143
+    },
+    {
+      "cluster_indices": [
+        1,
+        4
+      ],
+      "minimum": 0.13035023067384707,
+      "rms": 1.78631608459499,
+      "maximum": 3.635081108041217
+    },
+    {
+      "cluster_indices": [
+        2,
+        3
+      ],
+      "minimum": 0.3997683647815616,
+      "rms": 2.0571705953887247,
+      "maximum": 3.605712625188822
+    },
+    {
+      "cluster_indices": [
+        2,
+        4
+      ],
+      "minimum": 0.1310853620320435,
+      "rms": 1.7887328118272308,
+      "maximum": 3.6262502927783724
+    },
+    {
+      "cluster_indices": [
+        3,
+        4
+      ],
+      "minimum": 0.12670567272658742,
+      "rms": 1.7832514141321563,
+      "maximum": 3.6492673489455267
+    }
+  ],
+  "minimum_different_cluster_rms": 1.7275104019873184,
+  "flow_exponent": 0.0001292371100469607,
+  "telescopic_flow_exponent": 0.00012923711001723776,
+  "weighted_volume_residual": -1.4551915228366852e-11,
+  "trace_errors_per_tau": [
+    1.355147105641663e-13,
+    2.3646862246096133e-14,
+    2.296474121976644e-14,
+    2.2282620193436743e-14
+  ],
+  "wall_seconds": 578.8369015000062,
+  "figure_sha256": "4ea9b3dfd063ac1afd05ca08c4d352b99267623fdca3679abcc60de1218ce3ed",
+  "limitation": "Finite numerical evidence for this declared restriction. No theorem of asymptotic chaos, transverse stability or full-space attraction."
+}

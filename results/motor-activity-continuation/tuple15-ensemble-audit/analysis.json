@@ -1,0 +1,1117 @@
+{
+  "created_utc": "2026-10-30T12:43:03.510775+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "all16complete",
+      "passed": true
+    },
+    {
+      "check": "full10000duration",
+      "passed": true
+    },
+    {
+      "check": "original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "check_motor_activity_initial_ensemble.py"
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "motor_rows.py"
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "motor_rows_gpu.py"
+    },
+    {
+      "check": "executed_source_hash",
+      "passed": true,
+      "source": "motor_rows_gpu.cl"
+    },
+    {
+      "check": "reference_parameters",
+      "passed": true
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 0
+    },
+    {
+      "check": "original_initial_state",
+      "passed": true,
+      "case": 0
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 1
+    },
+    {
+      "check": "original_initial_state",
+      "passed": true,
+      "case": 1
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 2
+    },
+    {
+      "check": "original_initial_state",
+      "passed": true,
+      "case": 2
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 3
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 4
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 5
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 6
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 7
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 8
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 9
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 10
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 11
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 12
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 13
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 14
+    },
+    {
+      "check": "seed_reproduction",
+      "passed": true,
+      "case": 15
+    }
+  ],
+  "outcomes": [
+    {
+      "case": 0,
+      "seed": 20251030,
+      "original_lane": 45,
+      "mean_ftle": 0.004766828742525379,
+      "four2250_tau_windows": [
+        0.019312168596017174,
+        -0.00019699825761068125,
+        0.00028543313886467386,
+        -0.0003332885071696557
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      },
+      "saddle_phase": 2.5183876889387267,
+      "target_row_to_reference_row": [
+        5,
+        3,
+        4,
+        6,
+        1,
+        0,
+        2,
+        7
+      ],
+      "saddle_full_row_rms_distance": 2.370271375532124e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 4.624078897563777e-13
+    },
+    {
+      "case": 1,
+      "seed": 20251031,
+      "original_lane": 46,
+      "mean_ftle": 0.0008222341922831002,
+      "four2250_tau_windows": [
+        0.002977196326694658,
+        0.00032978373255140435,
+        -0.0004318297278542293,
+        0.0004137864377405679
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 39.784698508550974,
+      "target_row_to_reference_row": [
+        5,
+        1,
+        2,
+        3,
+        7,
+        0,
+        4,
+        6
+      ],
+      "saddle_full_row_rms_distance": 1.3382538925628216e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 4.459765889919254e-13
+    },
+    {
+      "case": 2,
+      "seed": 20251032,
+      "original_lane": 47,
+      "mean_ftle": 0.0004607599708884927,
+      "four2250_tau_windows": [
+        0.0017575700234097494,
+        -1.7117094820224415e-05,
+        -5.753850310365147e-06,
+        0.00010834080527481094
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 10.493262923491207,
+      "target_row_to_reference_row": [
+        0,
+        4,
+        3,
+        1,
+        2,
+        5,
+        7,
+        6
+      ],
+      "saddle_full_row_rms_distance": 1.8844521936579927e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 5.258016244624741e-13
+    },
+    {
+      "case": 3,
+      "seed": 202610300,
+      "original_lane": null,
+      "mean_ftle": 0.016276749301772905,
+      "four2250_tau_windows": [
+        0.06473877027308937,
+        0.0003296402622961731,
+        -0.0003989221541181485,
+        0.00043750882582422197
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 13.6888044895232,
+      "target_row_to_reference_row": [
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        7,
+        6
+      ],
+      "saddle_full_row_rms_distance": 1.6396457715891295e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 2.0000667788622195e-13
+    },
+    {
+      "case": 4,
+      "seed": 202610301,
+      "original_lane": null,
+      "mean_ftle": 0.00839750824143657,
+      "four2250_tau_windows": [
+        0.033981075993680804,
+        -0.0003373956218963947,
+        0.00026483982316982614,
+        -0.0003184872292079593
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            5,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 0.6124392587305166,
+      "target_row_to_reference_row": [
+        0,
+        3,
+        1,
+        4,
+        2,
+        6,
+        5,
+        7
+      ],
+      "saddle_full_row_rms_distance": 1.7961730720875734e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 3.3534286458802853e-13
+    },
+    {
+      "case": 5,
+      "seed": 202610302,
+      "original_lane": null,
+      "mean_ftle": 0.04553597954955328,
+      "four2250_tau_windows": [
+        0.04563521969475433,
+        0.0477097553954696,
+        0.04554395219267286,
+        0.043254990915316316
+      ],
+      "screen_positive": true,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      },
+      "saddle_phase": 60.62292853780368,
+      "target_row_to_reference_row": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        7,
+        5
+      ],
+      "saddle_full_row_rms_distance": 0.20721091667423958,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 2.000672852552287
+    },
+    {
+      "case": 6,
+      "seed": 202610303,
+      "original_lane": null,
+      "mean_ftle": 0.006943963294320973,
+      "four2250_tau_windows": [
+        0.027400895513933595,
+        0.00045329276754003906,
+        -0.0004574048912349665,
+        0.0003790697870452247
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 15.206722682572378,
+      "target_row_to_reference_row": [
+        0,
+        5,
+        1,
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "saddle_full_row_rms_distance": 1.7299071705856642e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 2.898237205783971e-13
+    },
+    {
+      "case": 7,
+      "seed": 202610304,
+      "original_lane": null,
+      "mean_ftle": 0.005855341675850211,
+      "four2250_tau_windows": [
+        0.02316340571419188,
+        0.0002791392314820589,
+        -0.00037077286642113976,
+        0.000349594624148042
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "saddle_phase": 2.9546288714144646,
+      "target_row_to_reference_row": [
+        7,
+        1,
+        5,
+        3,
+        4,
+        0,
+        2,
+        6
+      ],
+      "saddle_full_row_rms_distance": 1.677940649328703e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 3.581579477440755e-13
+    },
+    {
+      "case": 8,
+      "seed": 202610305,
+      "original_lane": null,
+      "mean_ftle": 0.0431098117347905,
+      "four2250_tau_windows": [
+        0.04738974823291543,
+        0.0384216106925108,
+        0.042415743515509474,
+        0.04421214449822628
+      ],
+      "screen_positive": true,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      },
+      "saddle_phase": 41.86754781751609,
+      "target_row_to_reference_row": [
+        3,
+        7,
+        4,
+        0,
+        1,
+        6,
+        2,
+        5
+      ],
+      "saddle_full_row_rms_distance": 0.8067616726771819,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 3.372249212874772
+    },
+    {
+      "case": 9,
+      "seed": 202610306,
+      "original_lane": null,
+      "mean_ftle": 0.044990720228148505,
+      "four2250_tau_windows": [
+        0.05238210269079999,
+        0.0384143207750897,
+        0.04585939821343369,
+        0.04330705923327064
+      ],
+      "screen_positive": true,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 3.3161529241706615,
+      "target_row_to_reference_row": [
+        5,
+        7,
+        0,
+        1,
+        4,
+        3,
+        6,
+        2
+      ],
+      "saddle_full_row_rms_distance": 0.7356306003601987,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 2.645279125637822
+    },
+    {
+      "case": 10,
+      "seed": 202610307,
+      "original_lane": null,
+      "mean_ftle": 0.04769657280987134,
+      "four2250_tau_windows": [
+        0.0641402301120452,
+        0.04410290152610546,
+        0.03983545634706781,
+        0.04270770325426689
+      ],
+      "screen_positive": true,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "saddle_phase": 20.36168533017016,
+      "target_row_to_reference_row": [
+        6,
+        7,
+        3,
+        4,
+        1,
+        5,
+        0,
+        2
+      ],
+      "saddle_full_row_rms_distance": 0.8239251652271855,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 3.032963639957829
+    },
+    {
+      "case": 11,
+      "seed": 202610308,
+      "original_lane": null,
+      "mean_ftle": 0.027549859528716986,
+      "four2250_tau_windows": [
+        0.10410069348500726,
+        0.006123895837061226,
+        -0.00030522361553620884,
+        0.00028007240833566945
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "saddle_phase": 34.28762050275987,
+      "target_row_to_reference_row": [
+        1,
+        5,
+        7,
+        4,
+        2,
+        0,
+        3,
+        6
+      ],
+      "saddle_full_row_rms_distance": 1.6559072016614138e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 4.198863479132342e-13
+    },
+    {
+      "case": 12,
+      "seed": 202610309,
+      "original_lane": null,
+      "mean_ftle": 0.007119524352146261,
+      "four2250_tau_windows": [
+        0.0288548431845325,
+        -0.0003437176046944204,
+        0.0004133971546383254,
+        -0.00044642532589135776
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "saddle_phase": 14.566699972881413,
+      "target_row_to_reference_row": [
+        7,
+        1,
+        0,
+        3,
+        4,
+        2,
+        5,
+        6
+      ],
+      "saddle_full_row_rms_distance": 3.158549872898014e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 4.651279361667093e-13
+    },
+    {
+      "case": 13,
+      "seed": 202610310,
+      "original_lane": null,
+      "mean_ftle": 0.015121113396169722,
+      "four2250_tau_windows": [
+        0.06080218904859249,
+        -0.00025430648735794256,
+        0.00032280608395553596,
+        -0.0003862350605112017
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "saddle_phase": 2.447636049056701,
+      "target_row_to_reference_row": [
+        1,
+        5,
+        6,
+        0,
+        4,
+        3,
+        2,
+        7
+      ],
+      "saddle_full_row_rms_distance": 2.7363925560539276e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 5.008216064084081e-13
+    },
+    {
+      "case": 14,
+      "seed": 202610311,
+      "original_lane": null,
+      "mean_ftle": 0.045368419888446636,
+      "four2250_tau_windows": [
+        0.05593011767676583,
+        0.042340778185704704,
+        0.03937266276690254,
+        0.04383012092441347
+      ],
+      "screen_positive": true,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "saddle_phase": 3.310282303913532,
+      "target_row_to_reference_row": [
+        0,
+        1,
+        7,
+        3,
+        5,
+        6,
+        2,
+        4
+      ],
+      "saddle_full_row_rms_distance": 0.714040197780773,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 2.172849588910607
+    },
+    {
+      "case": 15,
+      "seed": 202610312,
+      "original_lane": null,
+      "mean_ftle": 0.01489775310678057,
+      "four2250_tau_windows": [
+        0.059432942568461156,
+        -1.5229170103390113e-05,
+        -0.000129884468247708,
+        0.0003031834970122203
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 17.427246934213446,
+      "target_row_to_reference_row": [
+        1,
+        3,
+        0,
+        4,
+        5,
+        2,
+        7,
+        6
+      ],
+      "saddle_full_row_rms_distance": 6.039282045654581e-14,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 4.2427172886050357e-13
+    }
+  ],
+  "input_hashes": {
+    "protocol.json": "4a5888f4038f5d26cf739f2a04bfbd57929e90747a63128945abdcd87327368b",
+    "outcomes.json": "fcce963fae5ce195f4524c78dac1b36a809d9d799fcaad1d3372d7261635be38",
+    "outcomes.npz": "f2284549b6ada98915bc5ca9b6144f26fcda8ad4731e4ddb1616fa649c761842"
+  },
+  "reference_path": "results/motor-activity-continuation/tuple15-excluded/lane-47/periodic/cycle.npz",
+  "reference_sha256": "ed2eec9e99fb6fd73ede7888a23453a4184279b3df5d89b7e8daf3a76c889c87",
+  "reference_period": 62.768368101523606,
+  "source_hashes": {
+    "report_motor_activity_initial_ensemble.py": "ad5bb643a1217e5436c2f564f4a90e65eba1423b6b266b4e96b5f6f6d3837030",
+    "motor_rows.py": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+  },
+  "limitations": [
+    "Finite declared ensemble; no basin-volume inference.",
+    "Near-saddle geometry and one-period closure are floating-point diagnostics, not interval inclusion.",
+    "Row permutations are mathematical symmetries of this equal-row model, not claims of physical equivalence of labeled axonemes.",
+    "A different numerical trajectory from an identical source start can enter a roundoff-synchronized saddle. No asymptotic basin assignment follows."
+  ]
+}

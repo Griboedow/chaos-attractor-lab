@@ -1,0 +1,1547 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-30T12:44:48.316579+00:00",
+  "checks": [
+    {
+      "check": "child_manifest_passed",
+      "passed": true,
+      "scope": "cluster-spectrum"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "analysis/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "analysis/spectrum.png"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "analyze.source.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "figure-review/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "figure-review/spectrum.png"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "figure-review.source.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/full_motor_activity_cluster_spectrum.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/history.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/motor_postcritical_cycles.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/motor_rows.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/parent-2000-analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "lane-46/seed.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "cluster-spectrum",
+      "path": "manifest.json"
+    },
+    {
+      "check": "child_manifest_passed",
+      "passed": true,
+      "scope": "tuple15-excluded"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "analysis/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "analysis/orbit-distance.png"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "analysis-preflight-01.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "analysis-preflight-01.source.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "analyze.source.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-45/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-45/classify_motor_tuple15_excluded.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-45/motor_postcritical_cycles.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-45/motor_rows.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-45/sample.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-45/seed.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/classify_motor_tuple15_excluded.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/motor_postcritical_cycles.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/motor_rows.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/periodic/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/periodic/cycle.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/periodic/source.py"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/periodic-attempt.log"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/sample.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "lane-47/seed.npz"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "manifest.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "phase-refinement/analysis.json"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "phase-refinement/orbit-distance.png"
+    },
+    {
+      "check": "child_manifest_hash",
+      "passed": true,
+      "scope": "tuple15-excluded",
+      "path": "phase-refinement.source.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "research/check_motor_probe_confirmation.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "research/check_motor_probe_destinations.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "research/check_motor_probe_symmetry.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/README.md"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/source.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/sample.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/shooting.log"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/periodic/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/periodic/cycle.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/periodic/source.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/sample.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/shooting.log"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/periodic/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/periodic/cycle.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/periodic/source.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/sample.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/shooting.log"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/periodic/analysis.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/periodic/cycle.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/periodic/source.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/sample.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/shooting.log"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/check_motor_probe_destinations.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/case-16-radau.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/case-16-radau.npz"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/check_motor_probe_confirmation.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/motor_rows.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/orbit-comparisons.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/protocol.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/five-cluster-symmetry.check_motor_probe_symmetry.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/five-cluster-symmetry.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/five-cluster-symmetry.motor_rows.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/motor_postcritical_cycles.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/motor_rows.py"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/protocol.json"
+    },
+    {
+      "check": "destination_packet_hash",
+      "passed": true,
+      "path": "results/motor-activity-continuation/probe-destinations/summary.json"
+    },
+    {
+      "check": "complete_block_checkpoint",
+      "passed": true,
+      "checkpoint": "checkpoint-02"
+    },
+    {
+      "check": "checkpoint_hash",
+      "passed": true,
+      "checkpoint": "checkpoint-02",
+      "path": "analysis.json"
+    },
+    {
+      "check": "checkpoint_hash",
+      "passed": true,
+      "checkpoint": "checkpoint-02",
+      "path": "history.npz"
+    },
+    {
+      "check": "checkpoint_hash",
+      "passed": true,
+      "checkpoint": "checkpoint-02",
+      "path": "source.py"
+    },
+    {
+      "check": "complete_block_checkpoint",
+      "passed": true,
+      "checkpoint": "checkpoint-03"
+    },
+    {
+      "check": "checkpoint_hash",
+      "passed": true,
+      "checkpoint": "checkpoint-03",
+      "path": "analysis.json"
+    },
+    {
+      "check": "checkpoint_hash",
+      "passed": true,
+      "checkpoint": "checkpoint-03",
+      "path": "history.npz"
+    },
+    {
+      "check": "checkpoint_hash",
+      "passed": true,
+      "checkpoint": "checkpoint-03",
+      "path": "source.py"
+    },
+    {
+      "check": "strict_10000_complete",
+      "passed": true
+    },
+    {
+      "check": "strict_short_control",
+      "passed": true
+    },
+    {
+      "check": "strict_history_hash",
+      "passed": true
+    },
+    {
+      "check": "strict_source_hash",
+      "passed": true,
+      "source": "resume_motor_cluster_control.py"
+    },
+    {
+      "check": "strict_source_hash",
+      "passed": true,
+      "source": "check_motor_activity_clusters.py"
+    },
+    {
+      "check": "strict_source_hash",
+      "passed": true,
+      "source": "motor_postcritical_cycles.py"
+    },
+    {
+      "check": "strict_source_hash",
+      "passed": true,
+      "source": "motor_rows.py"
+    },
+    {
+      "check": "strict_input_hash",
+      "passed": true,
+      "source": "analysis.json"
+    },
+    {
+      "check": "strict_input_hash",
+      "passed": true,
+      "source": "history.npz"
+    },
+    {
+      "check": "strict_input_hash",
+      "passed": true,
+      "source": "checkpoint.json"
+    },
+    {
+      "check": "strict_inherited_prefix",
+      "passed": true,
+      "array": "time"
+    },
+    {
+      "check": "strict_reproduces_original_partial_trajectory",
+      "passed": true,
+      "array": "time"
+    },
+    {
+      "check": "strict_inherited_prefix",
+      "passed": true,
+      "array": "states"
+    },
+    {
+      "check": "strict_reproduces_original_partial_trajectory",
+      "passed": true,
+      "array": "states"
+    },
+    {
+      "check": "original_partial_scope_preserved",
+      "passed": true
+    },
+    {
+      "check": "all20strict_windows",
+      "passed": true
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 1200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 1700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 2200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 2700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 3200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 3700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 4200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 4700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 5200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 5700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 6200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 6700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 7200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 7700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 8200.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 8700.0
+    },
+    {
+      "check": "strict_existing_window",
+      "passed": true,
+      "end_tau": 9200.0
+    },
+    {
+      "check": "strict_final_state",
+      "passed": true
+    },
+    {
+      "check": "return_check_complete",
+      "passed": true
+    },
+    {
+      "check": "return_sample_hash",
+      "passed": true
+    },
+    {
+      "check": "return_exact_saved_state",
+      "passed": true
+    },
+    {
+      "check": "return_section_order",
+      "passed": true
+    },
+    {
+      "check": "return_section_residual",
+      "passed": true
+    },
+    {
+      "check": "return_figure_data",
+      "passed": true
+    },
+    {
+      "check": "return_figure_hash",
+      "passed": true
+    },
+    {
+      "check": "ensemble_passed",
+      "passed": true
+    },
+    {
+      "check": "ensemble_input_hash",
+      "passed": true,
+      "source": "protocol.json"
+    },
+    {
+      "check": "ensemble_input_hash",
+      "passed": true,
+      "source": "outcomes.json"
+    },
+    {
+      "check": "ensemble_input_hash",
+      "passed": true,
+      "source": "outcomes.npz"
+    },
+    {
+      "check": "ensemble_reference_hash",
+      "passed": true
+    },
+    {
+      "check": "ensemble_source_hash",
+      "passed": true,
+      "source": "report_motor_activity_initial_ensemble.py"
+    },
+    {
+      "check": "ensemble_source_hash",
+      "passed": true,
+      "source": "motor_rows.py"
+    }
+  ],
+  "strict_summary": {
+    "quotient_leading": 0.044084806136969926,
+    "contrast_leading": [
+      -0.08497591435914768,
+      -0.08931910414452666,
+      -0.08849585892996001
+    ],
+    "minimum500_tau_quotient": 0.03373961862602431,
+    "maximum500_tau_contrast_leaders": [
+      -0.07126361519578948,
+      -0.06999666486689252,
+      -0.07650734828723724
+    ],
+    "short_control_max_error": 7.438494264988549e-15
+  },
+  "ensemble_summary": {
+    "declared": 16,
+    "positive_screen": 5,
+    "subthreshold": 11,
+    "subthreshold_maximum_saddle_distance": 3.158549872898014e-13,
+    "subthreshold_maximum_one_period_closure": 5.258016244624741e-13,
+    "original_seed46_case": {
+      "case": 1,
+      "seed": 20251031,
+      "original_lane": 46,
+      "mean_ftle": 0.0008222341922831002,
+      "four2250_tau_windows": [
+        0.002977196326694658,
+        0.00032978373255140435,
+        -0.0004318297278542293,
+        0.0004137864377405679
+      ],
+      "screen_positive": false,
+      "final_rows": {
+        "minimum_pair_distance": 0.0,
+        "exact_equal_pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "near_pairs_below_1e_minus_10": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      },
+      "saddle_phase": 39.784698508550974,
+      "target_row_to_reference_row": [
+        5,
+        1,
+        2,
+        3,
+        7,
+        0,
+        4,
+        6
+      ],
+      "saddle_full_row_rms_distance": 1.3382538925628216e-13,
+      "tested_reference_period": 62.768368101523606,
+      "one_period_full_state_closure_error": 4.459765889919254e-13
+    }
+  },
+  "scope_directories": [
+    "cluster-spectrum",
+    "cluster-return-check",
+    "cluster-return-figure-review",
+    "probe-destinations",
+    "cluster-strict",
+    "cluster-strict-completed",
+    "tuple15-excluded",
+    "tuple15-ensemble",
+    "tuple15-ensemble-audit"
+  ],
+  "file_count": 142,
+  "total_bytes": 20871259,
+  "files": [
+    {
+      "path": "results/motor-activity-continuation/cluster-return-check/analysis.json",
+      "bytes": 19315,
+      "sha256": "43d8faf94324b9af98e1dce06674eca25ec983f8a34d1d08cfecd128db4fd676"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-check/check_motor_cluster_returns.py",
+      "bytes": 4332,
+      "sha256": "f847d3d3d4c4c907ff5fb37012d51698c56ccc709354f98ae6882188d114ff9e"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-check/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-check/return-diagnostic.png",
+      "bytes": 68423,
+      "sha256": "d1c3a01a332d6f74bb3af3c5b3f3b040850dcadb0c1fc8c2ddd9a9893f44654d"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-check/sample.npz",
+      "bytes": 1115048,
+      "sha256": "c5d021694386980916cc1fb9e4ad21dfe8946231837d95f0354fea6894d60279"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-figure-review/analysis.json",
+      "bytes": 414,
+      "sha256": "776b2059c5eae1592f2b55742dd9b72d3e627f805bd8cbab9fc87a6c42ea786d"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-figure-review/returns.png",
+      "bytes": 75998,
+      "sha256": "454300bdb8f36137932cd589606b0994233deb8a52c164d47e8ec3370534105d"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-return-figure-review/source.py",
+      "bytes": 1742,
+      "sha256": "c322461627d44cbebb9288dd1da3d7fb8e1dadd65f22d2ef2ba8f9d7dfbb7ad1"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/analysis/analysis.json",
+      "bytes": 5331,
+      "sha256": "9347779b84145d87b7b7763863f718ba1f536d0e5a1c70f50782b136f51ab4dd"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/analysis/spectrum.png",
+      "bytes": 131867,
+      "sha256": "4ea9b3dfd063ac1afd05ca08c4d352b99267623fdca3679abcc60de1218ce3ed"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/analyze.source.py",
+      "bytes": 9924,
+      "sha256": "8e3450f957ea87460d5b2ddc9f4213cef05c7e3ec490e3c5c2b004eb17699d21"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/figure-review/analysis.json",
+      "bytes": 475,
+      "sha256": "a37ee448c9896897fe6f3209f52bb991d6441d687ec87de7f2a9577773c5d439"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/figure-review/spectrum.png",
+      "bytes": 131063,
+      "sha256": "feae1b5ce6a766c743dcaba6572a1d660ec19a1a16cd9861ea7f367a2877e5fb"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/figure-review.source.py",
+      "bytes": 3060,
+      "sha256": "0bf858a1f801fa2fd36bd22a427b3e2a5b9713e433dac4a81d6a138bef23eed6"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/analysis.json",
+      "bytes": 15989,
+      "sha256": "72904d764b89e0a5ecaf2574db2ad52b54e53ac316d249257ab0d572445b5b18"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/full_motor_activity_cluster_spectrum.py",
+      "bytes": 15256,
+      "sha256": "2ced1d089dde7b1288ff3ad828dbcc62945b13b43ba5ef6cb4d2ce8fd26c7e68"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/history.npz",
+      "bytes": 930120,
+      "sha256": "1da7daafaecb8f76b7ee9ac46cebd901d510546a32ab55a7b0424ebc67238ee7"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/parent-2000-analysis.json",
+      "bytes": 4634,
+      "sha256": "57ae71e41842595fd44b136b1bb30271cf4e5e85ac738cf71049c929b3f9c074"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/lane-46/seed.npz",
+      "bytes": 1462,
+      "sha256": "5189f688c3be97df755b841c61ac06ca2b102df78b2113ec015058f9e0d13f26"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/manifest-final.json",
+      "bytes": 3221,
+      "sha256": "90e1711676dd4271495296a83ca98214b0ea59938c556e21f4056f24b8cb1fe7"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-spectrum/manifest.json",
+      "bytes": 2700,
+      "sha256": "129c9f1975eef7c774557caf39550b5f3589c3ed15a6977fb76cd5284f8198bb"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-01/analysis.json",
+      "bytes": 8714,
+      "sha256": "35c2bf7e68749238f0bd0c9645e1530a26279973af91ee9f761f36545e8a1969"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-01/failure.json",
+      "bytes": 316,
+      "sha256": "e472692f82186e543025f2fc4b78d362c09ec55187dbfb48d50ef783fc8e63e0"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-01/history.npz",
+      "bytes": 671515,
+      "sha256": "f47feef3f2496c54d2067dd283e06f161d36af679e7f39c54e2f458d30c955b0"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-01/source.py",
+      "bytes": 2418,
+      "sha256": "57f20583d0ac6050f551a9f797d9a251b92f3bbc71061fc59499b848d9ceab1e"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-02/analysis.json",
+      "bytes": 8714,
+      "sha256": "35c2bf7e68749238f0bd0c9645e1530a26279973af91ee9f761f36545e8a1969"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-02/checkpoint.json",
+      "bytes": 920,
+      "sha256": "498dd7d8090a445c1a2e3c8ea43df90326165c9297d959f33fbeb6d6392f03b9"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-02/history.npz",
+      "bytes": 671515,
+      "sha256": "f47feef3f2496c54d2067dd283e06f161d36af679e7f39c54e2f458d30c955b0"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-02/source.py",
+      "bytes": 2479,
+      "sha256": "d4b621b32529bdab6bdb4a8b5043e87d0dd72a9bf3f81f43769fc27d0dd06544"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-03/analysis.json",
+      "bytes": 11265,
+      "sha256": "472a152fdd36b7d05d8563e77cb743bc163927864d66b255d47e19848e3c4dab"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-03/checkpoint.json",
+      "bytes": 920,
+      "sha256": "744ec815ea6c167c218740e0e497838313d620c979f239c4d45f03af0e64748e"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-03/history.npz",
+      "bytes": 941430,
+      "sha256": "6bd6aa2401f912ce868b05480bc3984c2b66375dea6d4118a003edb837aa963f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-03/source.py",
+      "bytes": 2479,
+      "sha256": "d4b621b32529bdab6bdb4a8b5043e87d0dd72a9bf3f81f43769fc27d0dd06544"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/checkpoint-rejection.json",
+      "bytes": 473,
+      "sha256": "a3494d800dc2ade5782e3def8c5247df048183574282b6ce4ca4bb57cc64d55d"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/lane-46/analysis.json",
+      "bytes": 11791,
+      "sha256": "e7521afc8cc9ef27177cb3d5db50ad8191b154bf414b63300d7e1ac000293462"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/lane-46/check_motor_activity_clusters.py",
+      "bytes": 6717,
+      "sha256": "388b2a8ba03d980c0d0fb17bfcd41ad9d0c595b78d3956360ff92cfb2d12444f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/lane-46/history.npz",
+      "bytes": 1009684,
+      "sha256": "1472f49f6018ea46c89dc8441f6232b57e3d6683ea31aca05580a514c40481a4"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/lane-46/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict/lane-46/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/analysis.json",
+      "bytes": 12560,
+      "sha256": "5bbf0829cbf71f5d3e0ff06e9f7f869737c98bf521701e05de803a7148db084c"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/check_motor_activity_clusters.py",
+      "bytes": 6717,
+      "sha256": "388b2a8ba03d980c0d0fb17bfcd41ad9d0c595b78d3956360ff92cfb2d12444f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/history.npz",
+      "bytes": 1102951,
+      "sha256": "c8f6179937c38e506b072377802f1005296beb6aa2255d6b9bec275f6acdbc23"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/input-analysis.json",
+      "bytes": 11265,
+      "sha256": "472a152fdd36b7d05d8563e77cb743bc163927864d66b255d47e19848e3c4dab"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/input-checkpoint.json",
+      "bytes": 920,
+      "sha256": "744ec815ea6c167c218740e0e497838313d620c979f239c4d45f03af0e64748e"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/input-history.npz",
+      "bytes": 941430,
+      "sha256": "6bd6aa2401f912ce868b05480bc3984c2b66375dea6d4118a003edb837aa963f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/cluster-strict-completed/resume_motor_cluster_control.py",
+      "bytes": 6142,
+      "sha256": "e1dee15439297807c24c70a9a594e58453c0980569a5ffa3e3b2ba204d14eea6"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/audit-source.py",
+      "bytes": 8074,
+      "sha256": "1964ef583e0475b6f5115968cc0a7c46f7b60d22be91bce73cc445d0b2638bdc"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/motor-activity-continuation.md",
+      "bytes": 19856,
+      "sha256": "ca4c71d92c6a520d7d3bd7fd997a259d337dae458ef52a524419b5cd1edbcee4"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/motor-lane46-spectrum.md",
+      "bytes": 8680,
+      "sha256": "6d648d54040561e6bcd8d27501862c7af2b13871a87b6413a2d725a6a5009454"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/motor-tuple15-excluded.md",
+      "bytes": 5879,
+      "sha256": "300abf5a246d133e0dd9c2381c966014cca20772aac591dfbe9bf7766bb857a6"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/check_motor_activity_initial_ensemble.py",
+      "bytes": 3112,
+      "sha256": "681c820cf6633930abb9fdf7905f5d5059ba1a2a9826394b296b16663398217f"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/check_motor_cluster_returns.py",
+      "bytes": 4332,
+      "sha256": "f847d3d3d4c4c907ff5fb37012d51698c56ccc709354f98ae6882188d114ff9e"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/check_motor_probe_confirmation.py",
+      "bytes": 7695,
+      "sha256": "bde1dea1bf70970a237f983f1524bb1ffc112bd4965a65997e4c0cc64127f132"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/check_motor_probe_destinations.py",
+      "bytes": 9127,
+      "sha256": "e8f42783074e9934919160bf416bb1e612fbb3943ee455d238c4f8098a110825"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/check_motor_probe_symmetry.py",
+      "bytes": 3097,
+      "sha256": "23385dcd578cb7eeacbb3433bc8cf3bce2313cf03a6704e0e7d88e319461f235"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/classify_motor_tuple15_excluded.py",
+      "bytes": 12174,
+      "sha256": "b5d46edfe722f9fc3ae77c612f747d1ab85a6b4505c42c0c0f689de265d60318"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/freeze_motor_cluster_checkpoint.py",
+      "bytes": 2479,
+      "sha256": "d4b621b32529bdab6bdb4a8b5043e87d0dd72a9bf3f81f43769fc27d0dd06544"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/full_motor_activity_cluster_spectrum.py",
+      "bytes": 15256,
+      "sha256": "2ced1d089dde7b1288ff3ad828dbcc62945b13b43ba5ef6cb4d2ce8fd26c7e68"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/plot_motor_cluster_returns.py",
+      "bytes": 1742,
+      "sha256": "c322461627d44cbebb9288dd1da3d7fb8e1dadd65f22d2ef2ba8f9d7dfbb7ad1"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/report_motor_activity_initial_ensemble.py",
+      "bytes": 6106,
+      "sha256": "ad5bb643a1217e5436c2f564f4a90e65eba1423b6b266b4e96b5f6f6d3837030"
+    },
+    {
+      "path": "results/motor-activity-continuation/followup-publication-01/sources/resume_motor_cluster_control.py",
+      "bytes": 6142,
+      "sha256": "e1dee15439297807c24c70a9a594e58453c0980569a5ffa3e3b2ba204d14eea6"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/analysis.json",
+      "bytes": 16092,
+      "sha256": "752e8f40ae6ac90d4a55f7fb2dbe4af00c4ee588395d2ade4cc19d4244123b83"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/analysis.json",
+      "bytes": 7775,
+      "sha256": "0b2a6b1b88387d2637ccbc49772d0465b2393ab08cd1127a1dbb3f4d20dd7378"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz",
+      "bytes": 232903,
+      "sha256": "578a7d601845ab594b88093378c816a62f0df7be58a326261234b00ea636edee"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/source.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/sample.npz",
+      "bytes": 1768976,
+      "sha256": "45c2dec69bad6022bdc906944923e42b091754441a34d51beccb6af020c4c1df"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-16/shooting.log",
+      "bytes": 7775,
+      "sha256": "0b2a6b1b88387d2637ccbc49772d0465b2393ab08cd1127a1dbb3f4d20dd7378"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/analysis.json",
+      "bytes": 16062,
+      "sha256": "ef42fcdca5132c55154b06dc42d3f1ac59260de2a07d42637924df4192911435"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/periodic/analysis.json",
+      "bytes": 8309,
+      "sha256": "e57601812e2ad92adbcde7e2fe3ee97967fdf7a7ada42a3a3cdde7ff7258722d"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/periodic/cycle.npz",
+      "bytes": 226831,
+      "sha256": "0ea3684dc15795224bf7e2d77a53a12d893e8c4847883f3d7713edfd82a2f2f6"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/periodic/source.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/sample.npz",
+      "bytes": 1773614,
+      "sha256": "10b3275b237f0d800d873f2df41e7f9b591008bc131e33574d14f0cab764b1e3"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-17/shooting.log",
+      "bytes": 8309,
+      "sha256": "e57601812e2ad92adbcde7e2fe3ee97967fdf7a7ada42a3a3cdde7ff7258722d"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/analysis.json",
+      "bytes": 16047,
+      "sha256": "a119611ea805e843c905a42e608138e4cd2ededb9a4380e149fdb95f1a31d146"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/periodic/analysis.json",
+      "bytes": 8264,
+      "sha256": "dfdb4b12faf608532aa58c87cc920c5f1404171e544fef8b5119019fbbb91faf"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/periodic/cycle.npz",
+      "bytes": 231198,
+      "sha256": "e7161dfafa510d71c24e34ae81f164a83d9a3b0d1c93ec55d0caff23c2004891"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/periodic/source.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/sample.npz",
+      "bytes": 1774063,
+      "sha256": "b1396d3cb08d7abceae01cffbd4069a3613a79231124a5cc064364742743097b"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-18/shooting.log",
+      "bytes": 8264,
+      "sha256": "dfdb4b12faf608532aa58c87cc920c5f1404171e544fef8b5119019fbbb91faf"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/analysis.json",
+      "bytes": 16110,
+      "sha256": "aae71d24fa12421ae05640b8ef5af9d27fbae1bd7f8de7bac838e6aa63e23ecf"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/periodic/analysis.json",
+      "bytes": 8352,
+      "sha256": "4fb8fcb201d8829c5bcd4e19e730a4b54468ca9fe2e548c7cce3298094d23feb"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/periodic/cycle.npz",
+      "bytes": 231704,
+      "sha256": "32db82c0d5e13ebc22f28907ec91ed8c369ae54fa3a872ffb0dc43366355a629"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/periodic/source.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/sample.npz",
+      "bytes": 1774676,
+      "sha256": "ad7ee8e1c05d6ce4151af09f4c3ae51e8cf27f2cc2fa2125edc64d068873132a"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/case-19/shooting.log",
+      "bytes": 8352,
+      "sha256": "4fb8fcb201d8829c5bcd4e19e730a4b54468ca9fe2e548c7cce3298094d23feb"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/check_motor_probe_destinations.py",
+      "bytes": 9127,
+      "sha256": "e8f42783074e9934919160bf416bb1e612fbb3943ee455d238c4f8098a110825"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/case-16-radau.json",
+      "bytes": 4185,
+      "sha256": "e10996612cdf80957b613c51aed96c4f64633dbf182d810211066fe5304db331"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/case-16-radau.npz",
+      "bytes": 3354816,
+      "sha256": "a7e5aa6dcc04d30530a2514141e46cc1f704eb3357c87a9bf5f1d36b3dea5711"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/check_motor_probe_confirmation.py",
+      "bytes": 7695,
+      "sha256": "bde1dea1bf70970a237f983f1524bb1ffc112bd4965a65997e4c0cc64127f132"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/orbit-comparisons.json",
+      "bytes": 3881,
+      "sha256": "a2c1c96eb8fb35bf612f82ab5fab2e7f54565b25cc8b56795711cb8f408ee6cd"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/confirmation/protocol.json",
+      "bytes": 531,
+      "sha256": "e7977e690d841a9e9055baf162ff1ab9a38258ab5dca3036f9b50dcee72b79da"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/five-cluster-symmetry.check_motor_probe_symmetry.py",
+      "bytes": 3097,
+      "sha256": "23385dcd578cb7eeacbb3433bc8cf3bce2313cf03a6704e0e7d88e319461f235"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/five-cluster-symmetry.json",
+      "bytes": 3275,
+      "sha256": "f30084fc66dd5bb4d1dac91fa787f124cf43265824ae201b3f93fbb48cbb5e32"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/five-cluster-symmetry.motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/manifest.json",
+      "bytes": 9477,
+      "sha256": "d50348ada3d85b7babedf01ac2399a51afc2a59339752309108e300c18f55c09"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/protocol.json",
+      "bytes": 982,
+      "sha256": "1a174ff7f58857ed5e54f10f156bd0943dbf6110a9d6e36f84461988db0e4ddc"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/README.md",
+      "bytes": 3594,
+      "sha256": "8b1b5dc5e61ef58ec51927c694b6baa35e3e3664a8788116e12e2e21f65b9cfc"
+    },
+    {
+      "path": "results/motor-activity-continuation/probe-destinations/summary.json",
+      "bytes": 74862,
+      "sha256": "ee51d4c59d4006397b2bc696ec077612ac533e205400489a25fc907ee6f32b09"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/check_motor_activity_initial_ensemble.py",
+      "bytes": 3112,
+      "sha256": "681c820cf6633930abb9fdf7905f5d5059ba1a2a9826394b296b16663398217f"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/motor_rows_gpu.cl",
+      "bytes": 5685,
+      "sha256": "89e6d027ce89d6da57e1e8837aed5c9b7d434ae26e6b129741dddb1bfb4a1094"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/motor_rows_gpu.py",
+      "bytes": 16236,
+      "sha256": "c73c54634a4ab4f638c29eec3073702a41fc1e2d82fff45bee9c871782ba1356"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/outcomes.json",
+      "bytes": 12498,
+      "sha256": "fcce963fae5ce195f4524c78dac1b36a809d9d799fcaad1d3372d7261635be38"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/outcomes.npz",
+      "bytes": 37319,
+      "sha256": "f2284549b6ada98915bc5ca9b6144f26fcda8ad4731e4ddb1616fa649c761842"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble/protocol.json",
+      "bytes": 8477,
+      "sha256": "4a5888f4038f5d26cf739f2a04bfbd57929e90747a63128945abdcd87327368b"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble-audit/analysis.json",
+      "bytes": 23863,
+      "sha256": "9762ba6488f6493593e67b48c64d8092235ea8de6256fe833bcb88543064391c"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble-audit/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble-audit/report_motor_activity_gpu.py",
+      "bytes": 8522,
+      "sha256": "e8396cc30d17415725e6e4b98e4769a2cbd34cd8d85a4f3abd0200ea24b3d5f3"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-ensemble-audit/report_motor_activity_initial_ensemble.py",
+      "bytes": 6106,
+      "sha256": "ad5bb643a1217e5436c2f564f4a90e65eba1423b6b266b4e96b5f6f6d3837030"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/analysis/analysis.json",
+      "bytes": 14863,
+      "sha256": "a3a694cf84d3d5cc86e81d2171e0b9e62462787309055709929c4d173ce04812"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/analysis/orbit-distance.png",
+      "bytes": 90327,
+      "sha256": "110823380ac70f8a350066b29d25936e5cf5e2de440d21e181760344166eaab6"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/analysis-preflight-01.json",
+      "bytes": 326,
+      "sha256": "18be9ad8516789b38c4cc7ff25907997af0265e0c1d3c98744fcee75bed209cf"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/analysis-preflight-01.source.py",
+      "bytes": 8924,
+      "sha256": "44d465271fa6575b3a8bc0ed9026200776a084a4734bb66da695b902bfae1265"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/analyze.source.py",
+      "bytes": 8923,
+      "sha256": "d81d057e84bd78a770ed0fa3cd5fe49b410ba553009d1c986c07e9360998bf58"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-45/analysis.json",
+      "bytes": 31380,
+      "sha256": "c3d6f9d70b387073c7041c67f2bcd4a6a67ae6958cecfca345c8f186b274eeda"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-45/classify_motor_tuple15_excluded.py",
+      "bytes": 12174,
+      "sha256": "b5d46edfe722f9fc3ae77c612f747d1ab85a6b4505c42c0c0f689de265d60318"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-45/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-45/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-45/sample.npz",
+      "bytes": 133327,
+      "sha256": "29503da448e17d5d6767ddd0fe0be6524cb968cdcd74fc803ff8d1f81d1f2fda"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-45/seed.npz",
+      "bytes": 2584,
+      "sha256": "73492c39a372d43c0ec9cbecfc31d2e50b8e5e547f77294c40f647c61c1ab53f"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/analysis.json",
+      "bytes": 31525,
+      "sha256": "95a9a4fe14edc7ecea4f7e51ad78bb19e7c1a6d34b46520ce93b16e79b6b0822"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/classify_motor_tuple15_excluded.py",
+      "bytes": 12174,
+      "sha256": "b5d46edfe722f9fc3ae77c612f747d1ab85a6b4505c42c0c0f689de265d60318"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/motor_postcritical_cycles.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/motor_rows.py",
+      "bytes": 13312,
+      "sha256": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/periodic/analysis.json",
+      "bytes": 6787,
+      "sha256": "7970773bde452f494955f596dc461e9d982c28bb5e977435b982de357b51ebac"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/periodic/cycle.npz",
+      "bytes": 195161,
+      "sha256": "ed2eec9e99fb6fd73ede7888a23453a4184279b3df5d89b7e8daf3a76c889c87"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/periodic/source.py",
+      "bytes": 10361,
+      "sha256": "35672dfbecd21b4ccdde324f0d70d665dd2504735c00bc1fed02328f507b3bcd"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/periodic-attempt.log",
+      "bytes": 6511,
+      "sha256": "75ce119fd50f15fc47bf1a43ca0a4b3f4da6953819fd94d0c2aec9ecab7b40f4"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/sample.npz",
+      "bytes": 117928,
+      "sha256": "dc3755d4186b41a3cbf3751e3cd1672d96416e52055b759a7aef3daa74141453"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/lane-47/seed.npz",
+      "bytes": 2385,
+      "sha256": "d9a6a19f917b9bd1f90e956ea883dc1282405c0ed795cd931a88409c3252b55e"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/manifest-final.json",
+      "bytes": 5028,
+      "sha256": "b3286a567bdb9174042db4e4fac6ed62bbf8a915904029f61199e9b66c2998b3"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/manifest.json",
+      "bytes": 4438,
+      "sha256": "746f22bc087066f65920b667621efd44974e43e530d537d36669c112d952cdc1"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/phase-refinement/analysis.json",
+      "bytes": 12827,
+      "sha256": "31acfbd000b8403efb70015405e99311a5b6d334d99327f25c6c6ec91b468042"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/phase-refinement/orbit-distance.png",
+      "bytes": 83008,
+      "sha256": "debe237acf996443049f91218f07eb875ee878bfead5f6587a1f654818179f2d"
+    },
+    {
+      "path": "results/motor-activity-continuation/tuple15-excluded/phase-refinement.source.py",
+      "bytes": 4731,
+      "sha256": "d56ca22fdc118c56b098aa41c80ce2ea6b5dea6af41029c01e3d47ba3a93176f"
+    }
+  ],
+  "local_figure_review": "Full cluster spectrum, return intervals and excluded-lane orbit-distance PNGs inspected; browser rendering unavailable.",
+  "scope": "Completed finite numerical follow-ups only. Separate interval proof, branch continuation and logarithmic source-start studies are excluded."
+}

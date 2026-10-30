@@ -1,0 +1,146 @@
+{
+  "status": "full_radau_spectrum_computed",
+  "input_path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz",
+  "input_sha256": "578a7d601845ab594b88093378c816a62f0df7be58a326261234b00ea636edee",
+  "period": 25.001684375896957,
+  "state_method": "Full 23D Radau with analytic Jacobian and dense output; no cluster projection.",
+  "variational_method": "All 23 columns, Radau on the time-dependent full Jacobian along the independently computed Radau state.",
+  "settings": {
+    "rtol": 2e-12,
+    "atol": 2e-14,
+    "state_max_step": 0.015,
+    "matrix_max_step": 0.02
+  },
+  "sparse_column_convention_error": 1.7763568394002505e-15,
+  "state_closure_max": 5.586642259913788e-13,
+  "matrix_difference_from_DOP853": 1.7259971230032534e-11,
+  "eigenvalue_matching_max_error": 7.407155913218277e-13,
+  "flow_identity_max_error": 2.94453350591084e-12,
+  "flow_multiplier_real": 0.999999999999609,
+  "flow_multiplier_imag": 0.0,
+  "maximum_nonflow_modulus": 0.12748228889087407,
+  "unstable_count_at_1e_minus_6": 0,
+  "neutral_count_at_1e_minus_6": 1,
+  "multipliers": [
+    {
+      "real": 0.999999999999609,
+      "imag": 0.0,
+      "modulus": 0.999999999999609
+    },
+    {
+      "real": 0.12748228889087407,
+      "imag": 0.0,
+      "modulus": 0.12748228889087407
+    },
+    {
+      "real": 0.12748228889078972,
+      "imag": 0.0,
+      "modulus": 0.12748228889078972
+    },
+    {
+      "real": 0.12748228889074498,
+      "imag": 0.0,
+      "modulus": 0.12748228889074498
+    },
+    {
+      "real": 0.02639489231394209,
+      "imag": 0.07124796401317592,
+      "modulus": 0.07598001524274269
+    },
+    {
+      "real": 0.02639489231394209,
+      "imag": -0.07124796401317592,
+      "modulus": 0.07598001524274269
+    },
+    {
+      "real": -0.0005070773935801425,
+      "imag": 0.003818736039550115,
+      "modulus": 0.0038522554981256017
+    },
+    {
+      "real": -0.0005070773935801425,
+      "imag": -0.003818736039550115,
+      "modulus": 0.0038522554981256017
+    },
+    {
+      "real": -5.6268913711366175e-06,
+      "imag": 1.2629564511875939e-05,
+      "modulus": 1.3826344645719195e-05
+    },
+    {
+      "real": -5.6268913711366175e-06,
+      "imag": -1.2629564511875939e-05,
+      "modulus": 1.3826344645719195e-05
+    },
+    {
+      "real": 6.32321625964303e-07,
+      "imag": 0.0,
+      "modulus": 6.32321625964303e-07
+    },
+    {
+      "real": 1.7633884573125434e-07,
+      "imag": 0.0,
+      "modulus": 1.7633884573125434e-07
+    },
+    {
+      "real": 1.763388439196525e-07,
+      "imag": 0.0,
+      "modulus": 1.763388439196525e-07
+    },
+    {
+      "real": 1.7633882855884207e-07,
+      "imag": 0.0,
+      "modulus": 1.7633882855884207e-07
+    },
+    {
+      "real": 8.290518998675605e-08,
+      "imag": 0.0,
+      "modulus": 8.290518998675605e-08
+    },
+    {
+      "real": 1.7490829400525169e-09,
+      "imag": 0.0,
+      "modulus": 1.7490829400525169e-09
+    },
+    {
+      "real": 1.749071785461332e-09,
+      "imag": 0.0,
+      "modulus": 1.749071785461332e-09
+    },
+    {
+      "real": 1.749047171067938e-09,
+      "imag": 0.0,
+      "modulus": 1.749047171067938e-09
+    },
+    {
+      "real": 7.276077721434895e-10,
+      "imag": 2.3176432508475434e-10,
+      "modulus": 7.636280327918847e-10
+    },
+    {
+      "real": 7.276077721434895e-10,
+      "imag": -2.3176432508475434e-10,
+      "modulus": 7.636280327918847e-10
+    },
+    {
+      "real": 4.125284869991981e-10,
+      "imag": 0.0,
+      "modulus": 4.125284869991981e-10
+    },
+    {
+      "real": 6.877963307993076e-13,
+      "imag": 5.33337578165322e-13,
+      "modulus": 8.703520925144268e-13
+    },
+    {
+      "real": 6.877963307993076e-13,
+      "imag": -5.33337578165322e-13,
+      "modulus": 8.703520925144268e-13
+    }
+  ],
+  "wall_seconds": 105.10572859999957,
+  "limitations": [
+    "The state interpolant and matrix integration are numerical, not interval enclosures.",
+    "This supports a strongly attracting periodic candidate, not a computer-assisted stability theorem or historical novelty."
+  ]
+}

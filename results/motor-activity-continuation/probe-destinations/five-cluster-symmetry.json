@@ -1,0 +1,153 @@
+{
+  "created_utc": "2026-10-30T12:30:21.784022+00:00",
+  "source_path": "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz",
+  "source_sha256": "578a7d601845ab594b88093378c816a62f0df7be58a326261234b00ea636edee",
+  "source_analysis_sha256": "0b2a6b1b88387d2637ccbc49772d0465b2393ab08cd1127a1dbb3f4d20dd7378",
+  "source_code_sha256": {
+    "check_motor_probe_symmetry.py": "23385dcd578cb7eeacbb3433bc8cf3bce2313cf03a6704e0e7d88e319461f235",
+    "motor_rows.py": "dd3b5c3caf566125ecee572b021079977856c1b9b0cf327988ba1d825d4aff3f"
+  },
+  "groups": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7
+    ]
+  ],
+  "multiplicities": [
+    2,
+    2,
+    1,
+    2,
+    1
+  ],
+  "period": 25.001684375896957,
+  "tests": [
+    {
+      "time_divisor": 2,
+      "time": 12.500842187948479,
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "preserves_weights": true,
+      "permutation_order": 2,
+      "maximum_closure_error": 6.228351168147128e-14
+    },
+    {
+      "time_divisor": 3,
+      "time": 8.333894791965653,
+      "permutation": [
+        1,
+        3,
+        2,
+        0,
+        4
+      ],
+      "preserves_weights": true,
+      "permutation_order": 3,
+      "maximum_closure_error": 1.652011860642233e-13
+    },
+    {
+      "time_divisor": 4,
+      "time": 6.250421093974239,
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "preserves_weights": true,
+      "permutation_order": 2,
+      "maximum_closure_error": 2.4017915939140053
+    },
+    {
+      "time_divisor": 5,
+      "time": 5.000336875179391,
+      "permutation": [
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "preserves_weights": true,
+      "permutation_order": 6,
+      "maximum_closure_error": 1.4758720157516054
+    },
+    {
+      "time_divisor": 6,
+      "time": 4.1669473959828265,
+      "permutation": [
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "preserves_weights": true,
+      "permutation_order": 6,
+      "maximum_closure_error": 1.2673195826096162e-13
+    },
+    {
+      "time_divisor": 8,
+      "time": 3.1252105469871196,
+      "permutation": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "preserves_weights": true,
+      "permutation_order": 6,
+      "maximum_closure_error": 2.6929100739559515
+    },
+    {
+      "time_divisor": 10,
+      "time": 2.5001684375896955,
+      "permutation": [
+        1,
+        3,
+        2,
+        0,
+        4
+      ],
+      "preserves_weights": true,
+      "permutation_order": 3,
+      "maximum_closure_error": 2.730391673796632
+    },
+    {
+      "time_divisor": 12,
+      "time": 2.0834736979914132,
+      "permutation": [
+        1,
+        3,
+        2,
+        0,
+        4
+      ],
+      "preserves_weights": true,
+      "permutation_order": 3,
+      "maximum_closure_error": 2.4017915939140475
+    }
+  ],
+  "qualification": "Numerical symmetry clues for future validated shooting; no exact symmetry or least-period theorem."
+}
