@@ -1,0 +1,286 @@
+{
+  "created_utc": "2026-10-30T11:36:04.085500+00:00",
+  "status": "passed",
+  "source_data": "results\\motor-pair-coordinates\\seed-1e-12-step-0p1-extended\\trajectory.npz",
+  "source_data_sha256": "97d70787da7a5effb01a1f280d7f95cd93fb86292324ac0c22a36665c20b73b1",
+  "code_sha256": "ee4902a6e039e1380afc160e99644408925c02bde8e56a14f25f755acd3f0e8c",
+  "log_code_sha256": "bacdfebd0ecc8a3d6d111ad0cb062a1828be5f1aaeaebfe2312d510ca7f73ec6",
+  "pair_code_sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785",
+  "arbitrary_nonunit_gauges": 32,
+  "errors": {
+    "field_scaled": 1.7930985103916359e-16,
+    "jacobian_scaled": 1.8582782204986574e-16,
+    "pushed_field_scaled": 3.830257652385416e-16,
+    "original_field_derivative_scaled": 3.7255136036306747e-16,
+    "gauge_derivative_scaled": 5.487483531048537e-15
+  },
+  "underflow_checks": [
+    {
+      "ell": -370.0,
+      "maximum_field_difference": 0.0,
+      "exactly_equal_underflow_records": true,
+      "records": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        }
+      ]
+    },
+    {
+      "ell": -372.5,
+      "maximum_field_difference": 0.0,
+      "exactly_equal_underflow_records": true,
+      "records": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "first_rhs_evaluation_tau": null,
+          "number_of_zero_weight_rhs_evaluations": 0,
+          "maximum_omitted_component_log_bound": null,
+          "maximum_two_ell_when_weight_zero": null
+        }
+      ]
+    },
+    {
+      "ell": -372.6,
+      "maximum_field_difference": 0.0,
+      "exactly_equal_underflow_records": true,
+      "records": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -743.2026731188165,
+          "maximum_two_ell_when_weight_zero": -745.2
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -743.298572459742,
+          "maximum_two_ell_when_weight_zero": -745.2
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -743.9755447841312,
+          "maximum_two_ell_when_weight_zero": -745.2
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -743.2187032828025,
+          "maximum_two_ell_when_weight_zero": -745.2
+        }
+      ]
+    },
+    {
+      "ell": -500.0,
+      "maximum_field_difference": 0.0,
+      "exactly_equal_underflow_records": true,
+      "records": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -998.0026731188165,
+          "maximum_two_ell_when_weight_zero": -1000.0
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -998.098572459742,
+          "maximum_two_ell_when_weight_zero": -1000.0
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -998.7755447841312,
+          "maximum_two_ell_when_weight_zero": -1000.0
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -998.0187032828024,
+          "maximum_two_ell_when_weight_zero": -1000.0
+        }
+      ]
+    },
+    {
+      "ell": -1000.0,
+      "maximum_field_difference": 0.0,
+      "exactly_equal_underflow_records": true,
+      "records": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -1998.0026731188163,
+          "maximum_two_ell_when_weight_zero": -2000.0
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -1998.0985724597417,
+          "maximum_two_ell_when_weight_zero": -2000.0
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -1998.775544784131,
+          "maximum_two_ell_when_weight_zero": -2000.0
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "first_rhs_evaluation_tau": 0.0,
+          "number_of_zero_weight_rhs_evaluations": 1,
+          "maximum_omitted_component_log_bound": -1998.0187032828023,
+          "maximum_two_ell_when_weight_zero": -2000.0
+        }
+      ]
+    }
+  ],
+  "timing": [
+    {
+      "field": "numpy",
+      "calls": 20000,
+      "wall_seconds": 1.9863971000013407,
+      "tracking_active_underflow": true
+    },
+    {
+      "field": "scalar",
+      "calls": 20000,
+      "wall_seconds": 0.5632617000082973,
+      "tracking_active_underflow": true
+    }
+  ],
+  "rhs_speed_ratio": 3.5265971394328415,
+  "short_numpy_scalar_control": {
+    "duration": 200.0,
+    "maximum_mean_difference": 5.156985949383852e-14,
+    "maximum_log10_norm_difference": 2.587707825796315e-12,
+    "maximum_log_state_difference": 7.1314759653162696e-12,
+    "nfev": [
+      129329,
+      129329
+    ],
+    "wall_seconds": [
+      12.536859700005152,
+      4.447166800004197
+    ],
+    "full_integrator_speed_ratio": 2.819066669591372,
+    "underflow_tracking_active": true
+  },
+  "scope": "Same real equations; independent scalar evaluation, analytic reconstruction derivative checked against original Cartesian Jacobian. Timing does not promise the same full-integrator speedup."
+}

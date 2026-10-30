@@ -1,0 +1,478 @@
+{
+  "created_utc": "2026-10-30T12:54:24.735300+00:00",
+  "status": "both280k_histories_verified",
+  "source_sha256": "c5f90691a259170086ea54c48a60833bd08441fa244ac49308e5a2a7ed2d90a8",
+  "frozen150k_manifest_sha256": "f2aebd2e4bc78a4482286f4afa8f6a58101fc0573226ac81a818f43b8e4ea152",
+  "frozen150k_files_unchanged": true,
+  "independent_pointwise_controls": true,
+  "phase_alignment_not_applied_to_control_comparison": true,
+  "windows": [
+    {
+      "through_tau": 175000.0,
+      "maximum_mean_difference": 1.34246760485901e-07,
+      "maximum_log10_norm_difference": 1.236106015767291e-06,
+      "maximum_normalized_direction_difference": 4.5521206595844355e-07,
+      "maximum_representable_chart_difference": 1.34246760485901e-07
+    },
+    {
+      "through_tau": 200000.0,
+      "maximum_mean_difference": 1.6118591178448938e-07,
+      "maximum_log10_norm_difference": 1.3415806279226672e-06,
+      "maximum_normalized_direction_difference": 5.186599111306478e-07,
+      "maximum_representable_chart_difference": 1.6118591178448938e-07
+    },
+    {
+      "through_tau": 225000.0,
+      "maximum_mean_difference": 1.8059663153824346e-07,
+      "maximum_log10_norm_difference": 1.529147425571864e-06,
+      "maximum_normalized_direction_difference": 5.552824893506614e-07,
+      "maximum_representable_chart_difference": 1.8059663153824346e-07
+    },
+    {
+      "through_tau": 250000.0,
+      "maximum_mean_difference": 1.9089357691792763e-07,
+      "maximum_log10_norm_difference": 1.663995817580144e-06,
+      "maximum_normalized_direction_difference": 6.551303311785883e-07,
+      "maximum_representable_chart_difference": 1.9089357691792763e-07
+    },
+    {
+      "through_tau": 275000.0,
+      "maximum_mean_difference": 2.2060451104755074e-07,
+      "maximum_log10_norm_difference": 2.2786269902042022e-06,
+      "maximum_normalized_direction_difference": 7.122839884576848e-07,
+      "maximum_representable_chart_difference": 2.2060451104755074e-07
+    },
+    {
+      "through_tau": 280000.0,
+      "maximum_mean_difference": 2.2084763080798542e-07,
+      "maximum_log10_norm_difference": 2.361390230021243e-06,
+      "maximum_normalized_direction_difference": 7.122839884576848e-07,
+      "maximum_representable_chart_difference": 2.2084763080798542e-07
+    }
+  ],
+  "recovery_event_comparison": [
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "main_tau": 269559.38387906924,
+      "strict_tau": 269559.3838833381,
+      "difference": 4.268833436071873e-06
+    }
+  ],
+  "runs": [
+    {
+      "run": "step-0p1-to-280k",
+      "status": "complete",
+      "checkpoints": 9797,
+      "bitwise_exact27_state_resume": true,
+      "finite_logs_and_positive_gauge_norms": true,
+      "wall_seconds": 2183.580703300002,
+      "maximum_gauge_norm_squared_drift": 8.428709209473695e-07,
+      "gauge_norm_squared_initial": [
+        0.9999993027388588,
+        0.9999993413021747,
+        0.9999994936954116,
+        0.9999993324637996
+      ],
+      "gauge_norm_squared_final": [
+        0.9999988824249406,
+        0.9999985594714484,
+        0.999998667540515,
+        0.9999984896038747
+      ],
+      "maximum_gauge_norm_squared_drift_since40k": 1.5104071215965575e-06,
+      "global_history_minima": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "minimum_stored_log10_norm": -911.0580731550133,
+          "minimum_checkpoint_tau": 270500.0,
+          "final_log10_norm": -875.2134065853693
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "minimum_stored_log10_norm": -259.4667442489072,
+          "minimum_checkpoint_tau": 73500.0,
+          "final_log10_norm": -1.4262507754865852
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "minimum_stored_log10_norm": -486.37401037105315,
+          "minimum_checkpoint_tau": 141934.68058888524,
+          "final_log10_norm": -1.319594102936487
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "minimum_stored_log10_norm": -139.29717106135814,
+          "minimum_checkpoint_tau": 36904.92559351766,
+          "final_log10_norm": -69.5107734075277
+        }
+      ],
+      "fixed_phase_rate_fits": [
+        {
+          "window": [
+            160000.0,
+            180000.0
+          ],
+          "fixed_phase_checkpoints": 1467,
+          "fits": [
+            {
+              "role": "growing",
+              "pair": [
+                4,
+                5
+              ],
+              "rate_per_tau": 0.008696267798987783,
+              "maximum_log_amplitude_fit_residual": 1.6768808563938364e-10,
+              "minimum_log10_norm": -418.2410288789669,
+              "maximum_log10_norm": -342.7583569047871
+            },
+            {
+              "role": "contracting",
+              "pair": [
+                0,
+                1
+              ],
+              "rate_per_tau": -0.01631448595239692,
+              "maximum_log_amplitude_fit_residual": 1.5995738067431375e-10,
+              "minimum_log10_norm": -270.85290775114424,
+              "maximum_log10_norm": -129.2449191246279
+            }
+          ],
+          "measured_contraction_expansion_ratio": 1.8760330672309644
+        },
+        {
+          "window": [
+            220000.0,
+            240000.0
+          ],
+          "fixed_phase_checkpoints": 1467,
+          "fits": [
+            {
+              "role": "growing",
+              "pair": [
+                4,
+                5
+              ],
+              "rate_per_tau": 0.008696267798980117,
+              "maximum_log_amplitude_fit_residual": 2.0946799850207753e-10,
+              "minimum_log10_norm": -191.63854637016766,
+              "maximum_log10_norm": -116.15587439593823
+            },
+            {
+              "role": "contracting",
+              "pair": [
+                0,
+                1
+              ],
+              "rate_per_tau": -0.01631448595238301,
+              "maximum_log_amplitude_fit_residual": 1.9599610823206604e-10,
+              "minimum_log10_norm": -695.9666580547345,
+              "maximum_log10_norm": -554.3586694282125
+            }
+          ],
+          "measured_contraction_expansion_ratio": 1.8760330672310188
+        },
+        {
+          "window": [
+            275000.0,
+            280000.0
+          ],
+          "fixed_phase_checkpoints": 367,
+          "fits": [
+            {
+              "role": "growing",
+              "pair": [
+                0,
+                1
+              ],
+              "rate_per_tau": 0.008696267795506652,
+              "maximum_log_amplitude_fit_residual": 9.276845958083868e-11,
+              "minimum_log10_norm": -893.494943847978,
+              "maximum_log10_norm": -874.6500202930833
+            },
+            {
+              "role": "contracting",
+              "pair": [
+                6,
+                7
+              ],
+              "rate_per_tau": -0.01631448594998282,
+              "maximum_log_amplitude_fit_residual": 1.0135181582882069e-10,
+              "minimum_log10_norm": -69.85266012143492,
+              "maximum_log10_norm": -34.498960374050036
+            }
+          ],
+          "measured_contraction_expansion_ratio": 1.8760330677043422
+        }
+      ],
+      "sampled_nonfixed_pair_separation": {
+        "rows": [
+          0,
+          4
+        ],
+        "minimum_sampled_distance": 0.1605745007667771,
+        "tau": 52500.0
+      },
+      "omitted_mean_forcing_bounds": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "maximum_recorded_log_bound": -743.0671176107809,
+          "corresponding_decimal": "1.95007420616629237228637043776464030219540692961244376087386E-323"
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "maximum_recorded_log_bound": -743.0652705859706,
+          "corresponding_decimal": "1.95367936999560839236106665415885090758993756504364939031138E-323"
+        }
+      ],
+      "recovered_tiny_contrasts": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_low_checkpoint_tau": 150000.0,
+          "minimum_log10_halfcontrast": -456.03385372831855,
+          "recovery_upward_crossing_1e_minus_4": 269559.38387906924
+        }
+      ]
+    },
+    {
+      "run": "step-0p05-to-280k",
+      "status": "complete",
+      "checkpoints": 9797,
+      "bitwise_exact27_state_resume": true,
+      "finite_logs_and_positive_gauge_norms": true,
+      "wall_seconds": 2525.4663039000006,
+      "maximum_gauge_norm_squared_drift": 1.5150144472286797e-07,
+      "gauge_norm_squared_initial": [
+        0.9999998759598223,
+        0.9999998781808732,
+        0.9999998839756128,
+        0.9999998832504344
+      ],
+      "gauge_norm_squared_final": [
+        0.9999997326875982,
+        0.99999974097837,
+        0.9999997399360047,
+        0.9999997317515101
+      ],
+      "maximum_gauge_norm_squared_drift_since40k": 2.6825100984950723e-07,
+      "global_history_minima": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "minimum_stored_log10_norm": -911.0580748546807,
+          "minimum_checkpoint_tau": 270500.0,
+          "final_log10_norm": -875.2134081453593
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "minimum_stored_log10_norm": -259.46674455513823,
+          "minimum_checkpoint_tau": 73500.0,
+          "final_log10_norm": -1.4262506496309315
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "minimum_stored_log10_norm": -486.3740107682408,
+          "minimum_checkpoint_tau": 141934.68058888524,
+          "final_log10_norm": -1.3195941253731143
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "minimum_stored_log10_norm": -139.29717111681865,
+          "minimum_checkpoint_tau": 36904.92559351766,
+          "final_log10_norm": -69.51077107095654
+        }
+      ],
+      "fixed_phase_rate_fits": [
+        {
+          "window": [
+            160000.0,
+            180000.0
+          ],
+          "fixed_phase_checkpoints": 1467,
+          "fits": [
+            {
+              "role": "growing",
+              "pair": [
+                4,
+                5
+              ],
+              "rate_per_tau": 0.008696267790891088,
+              "maximum_log_amplitude_fit_residual": 5.184119800105691e-11,
+              "minimum_log10_norm": -418.2410297995598,
+              "maximum_log10_norm": -342.75835789561717
+            },
+            {
+              "role": "contracting",
+              "pair": [
+                0,
+                1
+              ],
+              "rate_per_tau": -0.016314485941262894,
+              "maximum_log_amplitude_fit_residual": 1.745092959026806e-11,
+              "minimum_log10_norm": -270.85290664089365,
+              "maximum_log10_norm": -129.24491811096857
+            }
+          ],
+          "measured_contraction_expansion_ratio": 1.8760330676973305
+        },
+        {
+          "window": [
+            220000.0,
+            240000.0
+          ],
+          "fixed_phase_checkpoints": 1467,
+          "fits": [
+            {
+              "role": "growing",
+              "pair": [
+                4,
+                5
+              ],
+              "rate_per_tau": 0.00869626779088949,
+              "maximum_log_amplitude_fit_residual": 4.865796654485166e-11,
+              "minimum_log10_norm": -191.638547501342,
+              "maximum_log10_norm": -116.15587559741459
+            },
+            {
+              "role": "contracting",
+              "pair": [
+                0,
+                1
+              ],
+              "rate_per_tau": -0.01631448594126694,
+              "maximum_log_amplitude_fit_residual": 3.1604940886609256e-11,
+              "minimum_log10_norm": -695.9666566546903,
+              "maximum_log10_norm": -554.3586681247276
+            }
+          ],
+          "measured_contraction_expansion_ratio": 1.8760330676981403
+        },
+        {
+          "window": [
+            275000.0,
+            280000.0
+          ],
+          "fixed_phase_checkpoints": 367,
+          "fits": [
+            {
+              "role": "growing",
+              "pair": [
+                0,
+                1
+              ],
+              "rate_per_tau": 0.008696267790869043,
+              "maximum_log_amplitude_fit_residual": 3.2741809263825417e-11,
+              "minimum_log10_norm": -893.4949456112414,
+              "maximum_log10_norm": -874.6500220663705
+            },
+            {
+              "role": "contracting",
+              "pair": [
+                6,
+                7
+              ],
+              "rate_per_tau": -0.016314485941242667,
+              "maximum_log_amplitude_fit_residual": 1.858779796748422e-11,
+              "minimum_log10_norm": -69.85265796706959,
+              "maximum_log10_norm": -34.49895823862941
+            }
+          ],
+          "measured_contraction_expansion_ratio": 1.8760330676997603
+        }
+      ],
+      "sampled_nonfixed_pair_separation": {
+        "rows": [
+          0,
+          4
+        ],
+        "minimum_sampled_distance": 0.160574498088215,
+        "tau": 52500.0
+      },
+      "omitted_mean_forcing_bounds": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "maximum_recorded_log_bound": -743.0614194657319,
+          "corresponding_decimal": "1.96121773040663910528926971796181611712115383093478450845201E-323"
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "maximum_recorded_log_bound": -743.0579792894595,
+          "corresponding_decimal": "1.96797628374970100269518116551893163230535967280589963662101E-323"
+        }
+      ],
+      "recovered_tiny_contrasts": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "first_low_checkpoint_tau": 150000.0,
+          "minimum_log10_halfcontrast": -456.0338546136611,
+          "recovery_upward_crossing_1e_minus_4": 269559.3838833381
+        }
+      ]
+    }
+  ],
+  "unchanged_seventh_forecast": {
+    "created_utc": "2026-10-30T11:50:54.066647+00:00",
+    "source": "pre-event-prediction.json",
+    "source_sha256": "ccc578a5bad4d4c93a72ab2b3a8ec6e5e235ac28b0e82a1d384f29bc5b26d64d",
+    "model": "Gap_(n+1)=kappa*Gap_n+offset, with kappa=abs(c)/e. Local/global-map assumptions are not proved.",
+    "kappa": 1.8760330676837005,
+    "offset": -27.64011372121604,
+    "predicted_seventh_departure": 269644.2145172922,
+    "predicted_sixth_to_seventh_gap": 128511.3470194788,
+    "uses_only_original_frozen_four_event_fit": true,
+    "observed_fifth_and_sixth_events_not_assimilated": true,
+    "caveat": "Unchanged heuristic recurrence extended one more step; not a return-map certificate or exact timing prediction."
+  },
+  "forecast_residuals": [
+    -84.83063822297845
+  ],
+  "limitations": [
+    "Fixed-pair precision chart and finite-time evidence.",
+    "Sampled row separation is not a continuous-time lower bound.",
+    "Recorded omitted forcing bounds do not bound accumulated trajectory error.",
+    "No heteroclinic-connection, attracting-network, or chaos theorem."
+  ]
+}
