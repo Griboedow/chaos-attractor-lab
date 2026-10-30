@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-10-30T07:48:41.984315+00:00",
+  "verified_public_commit": "ad83bf21007b6f5c6325fe4c13427b528eed2443",
+  "repository": "https://github.com/Griboedow/chaos-attractor-lab.git",
+  "passed": true,
+  "isolated_python": true,
+  "no_chua_import": true,
+  "fresh_public_clone_environment_reused_from_initial_validation": true,
+  "new_install_performed_for_this_check": false,
+  "tracked_evidence_unchanged": true,
+  "controls": [
+    {
+      "rows": 3,
+      "duration_original_tau": 0.2,
+      "device": "NVIDIA GeForce GTX 1080",
+      "maximum_state_error": 6.774095173689432e-15,
+      "log_growth_error": 1.150135542360431e-12,
+      "passed": true
+    },
+    {
+      "rows": 8,
+      "duration_original_tau": 0.2,
+      "device": "NVIDIA GeForce GTX 1080",
+      "maximum_state_error": 7.778066385411009e-16,
+      "log_growth_error": 6.294964549624638e-14,
+      "passed": true
+    }
+  ],
+  "control_driver_sha256": "27370c429488f3289e1b8db4d034b7f36cd842bb1ac7c8b0a02a2516297f680a",
+  "scope": "Short N3 and N8 GPU/CPU packaging controls and activity/cluster module imports after updating the independent public clone. Not a new science survey or validation of every archived trajectory."
+}
