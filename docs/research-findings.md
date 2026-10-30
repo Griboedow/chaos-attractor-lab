@@ -8,6 +8,10 @@ Research snapshot, 30 October 2026. **We have several independently checked nume
 
 ![Six expanding directions in the published eight-row model](../results/motor-rows/activity-path/N8-geometry.png)
 
+**A continued periodic orbit supplies a local mechanism clue.** The source's four-plus-four cluster cycle remains stable within its five-dimensional invariant subspace but loses transverse stability at activity increment about 0.24147. The crossing has six copies of a multiplier at −1 because of row symmetry. At the hyperchaotic candidate's parameter point, the continued cycle has six unstable transverse directions. These are Floquet directions of an unstable periodic orbit, distinct from the six unequal Lyapunov rates on the irregular trajectory. The matching count supports a specific cluster-breakup hypothesis; it does not prove a global transition or a new chaos mechanism. [Derivation, 18-point branch and independent monodromy checks](motor-cluster-transverse.md).
+
+![Local stability of the continued periodic motor clusters](../results/motor-rows/cluster-cycles/transverse-stability.png)
+
 **The three-row motor ensemble supplies another full-spectrum candidate and an interesting projection.** At one declared parameter tuple, three starts retain leading exponents about 0.256–0.260 through an additional 10,000 original time units, with all 80 windows per start positive. Independent CPU integration over 2,000 observed units gives one positive exponent, one near zero and six negative exponents, with 636 section returns and checked divergence/flow identities. There is no observed fixed two-plus-one row collapse. [Collective-motor report](motor-rows-gpu-survey.md).
 
 ![Physical-coordinate views and full-spectrum checks](../results/motor-rows/cpu-candidate-N3-783.png)

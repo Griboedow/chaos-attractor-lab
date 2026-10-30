@@ -12,6 +12,8 @@ Years ago, a coursework project asked me to scan two parameters of Chua's circui
 
 The strongest new numerical lead is **hyperchaos in the published eight-row molecular-motor model**, while varying only its prescribed chemical activity. An independent 23-dimensional CPU calculation retains six substantial positive exponents over 4,000 observed time units. Separately, 31 of 32 selected GPU trajectories retain positive growth through another 5,000 units. The representative lies about 64% above the source's onset activity, beyond its illustrated 10% example. These are finite-time numerical results, with scientific priority unresolved. [Activity-path evidence and limitations](docs/motor-rows-activity-path.md).
 
+There is also a concrete mechanism clue. The source's periodic four-plus-four cluster motion loses stability to row differences at about 24% above onset. Six transverse directions become unstable, while the periodic motion stays stable inside its cluster subspace. The matching six expanding directions of the later hyperchaotic candidate motivate a cluster-breakup hypothesis; the global connection is still unproved. [Periodic-cluster continuation and independent checks](docs/motor-cluster-transverse.md).
+
 The **three-row version** provides a striking physical-coordinate projection. Three starts retain positive expansion through another 10,000 units, with every one of 80 windows per start positive. A separate CPU calculation gives one positive, one nearly neutral and six negative exponents. The rows do not collapse into a fixed pair. [Full evidence, failed candidates and reproduction](docs/motor-rows-gpu-survey.md).
 
 ![Rotating physical projection of an eight-dimensional motor-row candidate](results/motor-rows/cpu-candidate-N3-783.gif)
