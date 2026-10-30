@@ -8,6 +8,10 @@ The eight-row molecular-motor model has an attracting periodic orbit with five g
 
 This manuscript develops a specific result within established cluster-synchronization theory. It contains a complete analytic tangent-space decomposition, the interval existence and spectral proof, a qualitative parameter-persistence corollary, nonlinear illustrations and reproducibility details. The earlier lower bound of `2(k-1)` unstable directions is sharpened here to an **exact complete count**, with all stable multipliers below modulus `0.13`.
 
+## What distinguishes this result
+
+The contribution is the **explicit certified motor cycle and the complete stability classification of all its balanced replicas**. Network inflation, transverse cluster stability, the absence of singleton splitting modes and finite-precision merging are established background. The revised introduction credits those results directly and includes a comparison table. The [priority audit](priority-and-positioning.md) distinguishes exact model equivalence from related mechanisms; the [search record](literature-search-log.md) identifies the inspected locations and remaining gaps. The model-specific proof specializes existing theory rather than proposing a new general instability mechanism.
+
 ## Visual material
 
 ![Rotating physical projection of the certified orbit beside its five cluster waveforms](figures/cycle-rotation.gif)
@@ -64,10 +68,16 @@ tectonic main.tex --outdir ../../outputs/article-build
 
 The saved `manuscript.pdf` is a publication copy of the checked build. The [article audit](../../research/audit_motor_replication_article.py) checks the evidence chain, numerical controls, figure provenance and frozen packet integrity.
 
+```bash
+python research/audit_motor_replication_article.py
+```
+
+Run that audit from the repository root. [Revision 2](revision.json) changes attribution and presentation only. It preserves all inherited scientific data, figures and scientific calculation scripts byte for byte. The first [review packet](revisions/v1/README.md) remains tied to its original Git commit; the current manifest and audit additionally verify every inherited file outside the explicit editorial allowlist. Existing review records must not be overwritten in place when preparing another revision.
+
 ## Scientific and editorial status
 
 **Complete pre-submission research manuscript; suitable for mathematical and author review.** It is not an accepted or externally peer-reviewed article. Author names and affiliations have deliberately not been inferred from Git metadata.
 
-The manuscript makes no claim to a new general mechanism or to being the first observation of chaos in motor models. The source paper and established cluster-stability precedents are cited. A bounded priority search found no exact matching result, but historical priority remains unresolved because the full Anello (2025) and Levillain (2024) theses could not be inspected. See the [specific literature comparison](priority-and-positioning.md). Resolving that comparison and setting authorship/journal style remain editorial work before submission.
+The manuscript makes no claim to a new general mechanism or to being the first observation of chaos in motor models. The equivalent-terminology audit found direct precedents for the underlying mechanism and numerical pitfall, which are now explicitly attributed. The inspected sources did not identify this exact certified motor result. Historical priority remains unresolved; the full Anello (2025) and Levillain (2024) thesis chapters are specific remaining gaps, not an exhaustive list of possible prior work. See the [literature comparison](priority-and-positioning.md). Setting authorship and journal style also remains editorial work before submission.
 
 The displayed period is a certified positive return period, not a proved least period. Basin size, nonlinear destinations after replication, a global bifurcation connection and asymptotic chaos are outside the theorem. The [research programme](research-programme.md) keeps the hyperchaos and switching questions separate, with concrete completion criteria.

@@ -1,7 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage[a4paper,margin=25mm,headheight=14pt]{geometry}
-\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs,xcolor}
+\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs,xcolor,array}
 \usepackage{microtype}
 \usepackage{caption}
 \usepackage{hyperref}
@@ -28,9 +28,9 @@
 \maketitle
 \vspace{-1.5em}
 \begin{abstract}
-An exactly repeated collective motion need not retain its stability when its
-constituent groups are enlarged. We give a computer-assisted example in the
-first-harmonic molecular-motor model of Alouges and collaborators. At explicit
+We certify an attracting five-cluster periodic orbit and classify every
+balanced replica in the first-harmonic molecular-motor model of Alouges and
+collaborators. At explicit
 parameters, an eight-row system has an attracting periodic orbit with five
 distinct cluster states and multiplicities $2+2+1+2+1$. Interval integration,
 multiple shooting and spectral tests certify its existence and place all
@@ -40,8 +40,9 @@ $2k-2$ unstable, one neutral and $22k$ stable directions. The instability is
 carried by internal differences in the two groups that were singletons at
 $N=8$. Each newly available block has one real multiplier in
 $(-23.084,-23.083)$ and two multipliers of modulus below $0.13$.
-The proof combines an explicit invariant splitting with reproducible interval
-certificates. Full-system numerical trajectories illustrate attraction and
+The contribution is a model-specific existence and complete stability result,
+using established cluster decomposition and reproducible interval certificates.
+Full-system numerical trajectories illustrate attraction and
 sign-reversing departure without serving as premises of the theorem.
 \end{abstract}
 \noindent\textbf{Keywords:} cluster synchronization; periodic orbit;
@@ -63,14 +64,47 @@ We study an explicit five-cluster cycle in its exact first-harmonic
 specialization. The question is whether attraction of this motion survives
 balanced enlargement of every cluster.
 
-Symmetry-based separation of cluster motion and transverse perturbations is
-established in synchronization theory~\cite{pecora,sorrentino}. Connections
-between different cluster patterns, symmetry breaking and chaos have also
-been studied in globally coupled oscillators~\cite{haugland}. Our
-contribution is an explicitly enclosed orbit and a complete stability
-classification of its replicated family in the motor equations. The
-proof resolves every tangent direction, including ones absent in the
-smallest member of the family.
+\subsection{Relation to established results}
+Replacing cells by synchronized copies while retaining quotient dynamics
+belongs to the established theory of network inflation~\cite{aguiar}.
+For globally coupled phase oscillators, Orosz, Moehlis and
+Ashwin~\cite[Sec.~2, Eqs.~(2.19)--(2.23)]{orosz} give internal eigenvalues
+with multiplicity equal to cluster size minus one and explicitly exclude
+singletons from that count. Thus the absence of a splitting mode in a
+singleton, and its appearance on enlargement, are already contained in
+that framework. General symmetry-based stability decompositions are
+developed further in~\cite{pecora,sorrentino}. Our block formula specializes
+this reasoning to the motor equations; it is not a new general mechanism.
+
+The terminology also overlaps with \emph{evaporation} or \emph{split}
+stability. Zaks and Pikovsky~\cite[Methods]{zaks} compute it using opposite
+perturbations to two synchronized units. For a periodic internal block,
+the largest such exponent is $T^{-1}\log\max_{\mu\in\spec M_a}|\mu|$.
+Our full Floquet spectrum additionally resolves the number of unstable
+directions and the sign of the real unstable multiplier.
+The latter information is lost in the exponent. A real scalar internal
+phase equation $\dot\xi=a(t)\xi$ has positive return multiplier
+$\exp(\int_0^T a(t)\,dt)$; it cannot represent the negative multiplier
+certified here in a three-dimensional motor block. This distinguishes
+the present calculation from that scalar approximation without asserting
+that negative Floquet multipliers are themselves new.
+
+Model equivalence requires a separate check. The closed three-state core
+of the two-row motor problem is an invertible rescaling of the earlier
+equations of Oriola et al.~\cite[Eq.~(10)]{oriola}; the coordinate map is
+recorded in the repository's source audit. This equivalence concerns that
+core, not the five-cluster quotient studied here. Periodic motor motion,
+the source model, and its first-harmonic closure are inherited results.
+Likewise, cluster symmetry breaking and chaotic states in other oscillator
+models~\cite{haugland} do not supply an exact conjugacy to these equations.
+
+\subsection{Contribution of the present work}
+The contribution is the explicitly enclosed orbit and the certified values
+of every block needed to classify its entire replicated family
+(Table~\ref{tab:contribution}). Established decomposition alone does not
+prove that this five-cluster orbit exists at the stated motor parameters,
+or determine which of its internal blocks are unstable. The interval
+certificate supplies precisely those missing model-specific facts.
 
 The central result is that the $N=8$ cycle attracts locally, whereas all
 replicas with $N=8k$, $k\geq2$, are saddles. The instability is strong:
@@ -80,6 +114,27 @@ change in the available perturbation space as the system size changes.
 The theorem concerns fixed normalized parameters and fixed cluster weights.
 It makes no identification of this enlargement with changing the anatomy
 of a physical flagellum while holding all dimensional constants fixed.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.22\linewidth}>{\raggedright\arraybackslash}p{.35\linewidth}>{\raggedright\arraybackslash}p{.37\linewidth}@{}}
+\toprule
+Question & Established background & Result supplied here \\
+\midrule
+Equations & Published motor model and harmonic closure~\cite{alouges,oriola}
+& An explicit parameter point in the existing model \\[.5em]
+Replication & Quotient lifting and internal stability~\cite{aguiar,orosz,pecora,sorrentino}
+& Explicit motor variational blocks and their interval spectra \\[.5em]
+Periodic motion & Collective motor oscillations~\cite{oriola,alouges}
+& Certified five-cluster orbit, return period and full $N=8$ attraction \\[.5em]
+Stability of the family & Cluster splitting as a transverse instability
+& Exact $(2k-2,1,22k)$ index for every $N=8k$, with strict spectral bounds \\
+\bottomrule
+\end{tabular}
+\caption{Scope of the contribution. The right column describes the result
+proved in this manuscript; it does not assert exhaustive historical priority.}
+\label{tab:contribution}
+\end{table}
 
 \section{Model and main result}
 For $N\geq2$, write the state of row $j$ as $(c_j,s_j,X_j)$ and impose
@@ -146,6 +201,9 @@ existence follows from interval multiple shooting.}
 \end{figure}
 
 \section{Invariant splitting and replication}
+We retain a direct derivation of the established cluster decomposition
+only to specify the exact blocks used by the interval checker. No new
+general decomposition theorem is claimed.
 Partition the rows into $K$ nonempty groups of sizes $m_a$ and write
 $w_a=m_a/N$. On the cluster subspace, all rows of group $a$ have the same
 state $(c_a,s_a,X_a)$. Substitution in \eqref{eq:velocity}--\eqref{eq:model}
@@ -176,7 +234,7 @@ directions are constant within each cluster and form the quotient tangent
 space. This is a direct sum: decomposing row perturbations into their
 cluster averages and zero-sum residuals gives unique components.
 
-\begin{proposition}[Replication spectrum]
+\begin{proposition}[Motor-model specialization of the replication spectrum]
 \label{prop:splitting}
 Let $M_Q$ be the quotient monodromy over a positive period $T$, and let
 $M_a$ be the return matrix of \eqref{eq:contrast}, whether or not the
@@ -487,6 +545,15 @@ cluster-stability theory provides the organizing framework; the explicit
 periodic orbit, interval enclosures and exact index formula establish the
 model-specific result.
 
+In equivalent terminology, this is a validated network-lifting example
+whose newly populated fibers are transversely unstable. Its contribution
+is the complete certificate in an existing motor model, rather than a
+new class of synchronization instability. The bounded literature audit
+did not identify the same orbit and certified index in the inspected
+sources. This does not establish historical priority: the relevant full
+theses of Anello (2025) and Levillain (2024) remain uninspected, as recorded
+in the accompanying priority audit.
+
 The bounds also show that the effect is robust to sufficiently small
 parameter changes. It does not rely on a multiplier lying close to one
 or on a long transient whose classification is uncertain. Quantifying
@@ -498,6 +565,9 @@ positive finite-time Lyapunov estimates and very long switching
 trajectories. Those results are documented in the repository, but do not
 enter the theorem proved here. A connection from the certified cycle or
 its replicas to those regimes would require additional global analysis.
+Finite-precision merging of identical units is already documented
+in~\cite[Methods]{zaks}; our separate long-switching calculations therefore
+do not claim discovery of that numerical pitfall.
 The present paper establishes a periodic-attractor and periodic-saddle
 result, without an asymptotic chaos claim or a claim of historical
 priority for cluster desynchronization as a general mechanism.
@@ -586,7 +656,7 @@ Reproduction writes to unused output paths and preserves all earlier
 records. The README supplies the separate proof and visualization
 dependency sets; the proof requires no GPU, NumPy or SciPy.
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \raggedright
 \bibitem{alouges}
 F. Alouges, I. Anello, A. DeSimone, A. Lefebvre-Lepot, and J. Levillain,
@@ -595,6 +665,30 @@ Some mathematical models for flagellar activation mechanisms,
 (2025), 2395--2424.
 \href{https://doi.org/10.1142/S0218202525500423}{doi:10.1142/S0218202525500423}.
 \href{https://arxiv.org/abs/2409.03506}{arXiv:2409.03506}, version 2.
+
+\bibitem{aguiar}
+M. Aguiar, P. Ashwin, A. Dias, and M. Field,
+Dynamics of coupled cell networks: synchrony, heteroclinic cycles and inflation,
+\emph{Journal of Nonlinear Science} \textbf{21} (2011), 271--323.
+\href{https://doi.org/10.1007/s00332-010-9083-9}{doi:10.1007/s00332-010-9083-9}.
+
+\bibitem{orosz}
+G. Orosz, J. Moehlis, and P. Ashwin,
+Designing the dynamics of globally coupled oscillators,
+\emph{Progress of Theoretical Physics} \textbf{122} (2009), 611--630.
+\href{https://doi.org/10.1143/PTP.122.611}{doi:10.1143/PTP.122.611}.
+
+\bibitem{zaks}
+M. Zaks and A. Pikovsky,
+Chimeras and complex cluster states in arrays of spin-torque oscillators,
+\emph{Scientific Reports} \textbf{7} (2017), 4648.
+\href{https://doi.org/10.1038/s41598-017-04918-9}{doi:10.1038/s41598-017-04918-9}.
+
+\bibitem{oriola}
+D. Oriola, H. Gad\^elha, C. Blanch-Mercader, and J. Casademunt,
+Subharmonic oscillations of collective molecular motors,
+\emph{EPL} \textbf{107} (2014), 18002.
+\href{https://doi.org/10.1209/0295-5075/107/18002}{doi:10.1209/0295-5075/107/18002}.
 
 \bibitem{pecora}
 L. M. Pecora, F. Sorrentino, A. M. Hagerstrom, T. E. Murphy, and R. Roy,

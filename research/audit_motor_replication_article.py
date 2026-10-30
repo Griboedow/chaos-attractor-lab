@@ -48,6 +48,19 @@ def main():
     args=parser.parse_args();checks=[]
     def check(name,passed):
         checks.append(dict(name=name,passed=bool(passed)))
+    revision=read(PAPER/'revision.json')
+    previous=ROOT/revision['previous_manifest']
+    check('preserved first manifest',sha(previous)==revision['previous_manifest_sha256'])
+    check('preserved first review',sha(previous.parent/'review.json')==revision['previous_review_sha256'])
+    editorial={str((PAPER/name).relative_to(ROOT).as_posix()) for name in
+               ['main.tex','manuscript.pdf','README.md','priority-and-positioning.md',
+                'research-programme.md','review.json']}
+    editorial.add('research/audit_motor_replication_article.py')
+    check('revision scope',revision['revision']==2 and set(revision['editorial_changes_allowed'])==editorial
+          and revision['previous_commit']=='b5afd472f26e7fa247ab0b5dd8644d9ffaabacc6')
+    for item in read(previous)['files']:
+        if item['path'] not in editorial:
+            check('unchanged scientific inheritance:'+item['path'],sha(ROOT/item['path'])==item['sha256'])
     for packet in ['motor-five-cycle-proof','motor-five-replication-proof']:
         manifest=read(ROOT/'results'/packet/'manifest.json')
         for item in manifest['files']:
@@ -109,14 +122,14 @@ def main():
     gif=Image.open(PAPER/'figures/cycle-rotation.gif')
     check('animation structure',gif.n_frames==96 and gif.info.get('loop')==0)
     pdf=PdfReader(PAPER/'manuscript.pdf');texts=[page.extract_text() for page in pdf.pages]
-    check('PDF has expected complete document',len(pdf.pages)==10 and all(len(t)>300 for t in texts)
+    check('PDF has expected complete document',len(pdf.pages)==12 and all(len(t)>300 for t in texts)
           and 'Theorem 1' in ''.join(texts) and 'References' in ''.join(texts))
     tex=(PAPER/'main.tex').read_text(encoding='utf-8')
     labels=set(re.findall(r'\\label\{([^}]+)\}',tex))
     check('LaTeX cross-references',set(re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',tex))<=labels)
-    cites={x for group in re.findall(r'\\cite\{([^}]+)\}',tex) for x in group.split(',')}
+    cites={x for group in re.findall(r'\\cite(?:\[[^\]]*\])?\{([^}]+)\}',tex) for x in group.split(',')}
     check('LaTeX bibliography',cites<=set(re.findall(r'\\bibitem\{([^}]+)\}',tex)))
-    for path in [PAPER/'README.md',PAPER/'priority-and-positioning.md',PAPER/'research-programme.md',ROOT/'docs/motor-replication-index.md']:
+    for path in [*PAPER.rglob('*.md'),ROOT/'docs/motor-replication-index.md']:
         for target in re.findall(r'\]\(([^)]+)\)',path.read_text(encoding='utf-8')):
             if '://' in target or target.startswith('#'):continue
             check('local link:'+target,(path.parent/target.split('#')[0]).exists() or (args.write_records and target=='review.json'))
@@ -128,8 +141,9 @@ def main():
                 check_count=len(checks),checks=checks,pdf_pages=len(pdf.pages),python=platform.python_version(),
                 packages={name:importlib.metadata.version(name) for name in ['numpy','scipy','matplotlib','Pillow','pypdf']},
                 proof_arithmetic='Python-FLINT 0.9.0 / Arb; 640-bit reintegration and 768-bit replay',
+                revision=revision['revision'],previous_commit=revision['previous_commit'],
                 visual_review=dict(completed=args.visual_review_complete,pages=list(range(1,len(pdf.pages)+1)) if args.visual_review_complete else [],
-                                   scope='Assistant inspection of rendered PDF pages, all three figures and representative GIF frames; recorded separately from automated checks.'),
+                                   scope='Assistant inspection of all revised PDF pages and embedded figures; unchanged animation inherits the first review, verified by hash.'),
                 scientific_scope='Complete periodic-orbit replication index; no least period, basin fraction, asymptotic chaos or historical-priority claim.')
     print(report['status'],len(checks),'checks',flush=True)
     for item in checks:
@@ -146,6 +160,7 @@ def main():
         paths += [ROOT/'docs/motor-replication-index.md',ROOT/'requirements-article.txt']
         paths=sorted({p for p in paths if p.is_file() and p.suffix not in ('.log','.aux','.out')})
         manifest=dict(created_utc=report['created_utc'],self_excluded=True,
+                      revision=revision['revision'],previous_commit=revision['previous_commit'],
                       scope='Research manuscript, new exact-index proof extension, full nonlinear ensemble and publication figures. Earlier packets remain separately frozen.',
                       files=[dict(path=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=sha(p)) for p in paths])
         (PAPER/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
