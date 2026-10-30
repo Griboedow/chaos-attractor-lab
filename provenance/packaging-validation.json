@@ -1,0 +1,148 @@
+{
+  "checked_at_utc": "2026-10-30T03:21:07.307691+00:00",
+  "source_snapshot": "8a3564c396de04d4d16459f95fffe57ec5e53c70",
+  "refreshed_snapshot": "b60418fc2fbdd8a34ab873c5581e31f1b9c0727a",
+  "scope": "Existing fresh-environment controls, not rerun. Tested source modules, kernels and original dependency bounds are byte-identical between snapshots. This does not certify all new scientific modules or a future public clone.",
+  "fresh_pip_install": true,
+  "pip_check": "No broken requirements found.",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pyopencl": "2026.1.4",
+    "pillow": "13.0.0"
+  },
+  "gpu_controls": {
+    "chain": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "validation": {
+        "jacobian_fd_errors": [
+          6.335376667720993e-12,
+          3.2602542887616437e-10,
+          9.282352664286009e-11
+        ],
+        "gpu_dop853_state_errors": [
+          1.2389395065426356e-14,
+          4.2127343280462526e-12,
+          8.004014118156988e-14
+        ],
+        "gpu_dop853_lle_errors": [
+          2.01574867908505e-14,
+          3.1170621639375895e-12,
+          2.220446049250313e-16
+        ],
+        "linear_modal_errors": [
+          6.217248937900877e-15,
+          1.4210854715202004e-14,
+          6.217248937900877e-15
+        ],
+        "passed": true
+      }
+    },
+    "rheostat": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "validation": {
+        "normalization_max_error": 4.547473508864641e-13,
+        "jacobian_fd_max_error": 2.1219742052380752e-07,
+        "gpu_dop853_state_errors": [
+          1.7433832155688833e-12,
+          5.492342691759688e-13,
+          9.438672066153231e-12
+        ],
+        "gpu_dop853_lle_errors": [
+          2.029105865969383e-09,
+          4.480216198032849e-11,
+          3.3755299336940547e-10
+        ],
+        "passed": true
+      }
+    },
+    "photo": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "state_error": 1.9895196601282805e-13,
+      "lle_error": 1.852029640758701e-11,
+      "control_passed": true
+    },
+    "thermal": {
+      "device": "NVIDIA GeForce GTX 1080",
+      "precision": "float64",
+      "constructor_passed": true,
+      "state_error": 5.029310301551959e-14,
+      "lle_error": 1.6143197889562089e-12,
+      "control_passed": true
+    }
+  },
+  "original_evidence_written": false,
+  "chua_gpu_imported": false,
+  "compiler_warning_seen_during_first_build": true,
+  "cached_program_build_logs": {
+    "chain": "\n",
+    "photo": "\n",
+    "rheostat": "\n",
+    "thermal": "\n"
+  },
+  "source_validation_record_sha256": "dc4513ccf46ea620ba22e43d14114737f58baf59b266959302de01946444fa9f",
+  "unchanged_source_files": [
+    {
+      "path": "chua_gpu.py",
+      "unchanged_between_snapshots": true,
+      "sha256": "cc18f2b043f7b7d7140d4ea77e2ea69f92f36c8d191afee369291c9077815ca6"
+    },
+    {
+      "path": "requirements.txt",
+      "unchanged_between_snapshots": true,
+      "sha256": "c24a4d349f0c0edf8352b0daa81e3ac3fb40791d5c0f3e137c510507f6e34178"
+    },
+    {
+      "path": "research/epithelial_chain.py",
+      "unchanged_between_snapshots": true,
+      "sha256": "db4abfafe7c1561b0136dc472ca860de70aeca7df91e1eb6bf432499718ddeea"
+    },
+    {
+      "path": "research/epithelial_chain.cl",
+      "unchanged_between_snapshots": true,
+      "sha256": "4b86374ce0a785c6f51946e87f063031092f99a9858083ceaf133304ce14d3c6"
+    },
+    {
+      "path": "research/photofeedback.py",
+      "unchanged_between_snapshots": true,
+      "sha256": "f37aefbb120acbda232d10f260336fd01c237493571be091e4d4fbcc031ae961"
+    },
+    {
+      "path": "research/photofeedback.cl",
+      "unchanged_between_snapshots": true,
+      "sha256": "0b7fa04854414764653a0f3d45115efbfb6734b81e64d86dc1dcf5c611163eb0"
+    },
+    {
+      "path": "research/rheostat.py",
+      "unchanged_between_snapshots": true,
+      "sha256": "6867efc1de9f27c5453ecdf634584de12396e69fbd0c846f0d645088a5734e2c"
+    },
+    {
+      "path": "research/rheostat.cl",
+      "unchanged_between_snapshots": true,
+      "sha256": "a0ba569b8ece03ecc07a6b76711f97e2400b0b92edbf42e71bc1d805001a49ad"
+    },
+    {
+      "path": "research/thermal_sheet_gpu.py",
+      "unchanged_between_snapshots": true,
+      "sha256": "b7af07443f203ca37b2a5fc143d23603bd0d0f38575b84cadc8fb95632a98c46"
+    },
+    {
+      "path": "research/thermal_sheet.cl",
+      "unchanged_between_snapshots": true,
+      "sha256": "4cc58a2f03478fa9a60bc03d6cf9f3483448dc7da5405d5142a43ae032d03ed2"
+    },
+    {
+      "path": "research/thermomechanical_sheet.py",
+      "unchanged_between_snapshots": true,
+      "sha256": "244672d51ac34579c55e67c717ca5471c0911865841c9a66b4c660c1620454ed"
+    }
+  ]
+}

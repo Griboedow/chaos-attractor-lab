@@ -1,0 +1,81 @@
+# Chaos Attractor Lab
+
+Reproducible investigations of unusual physical and biological oscillator models, using Python, OpenCL parameter surveys and independent CPU checks. **No previously unpublished attractor has been established.** The reports distinguish numerical evidence, known literature results and open hypotheses.
+
+**[Read the findings](docs/research-findings.md)** for the results, negative searches and remaining hypotheses, with figures and primary references.
+
+## Why this exists
+
+Years ago, a coursework project asked me to scan two parameters of Chua's circuit. I spent months calculating: I understood the subject poorly, and my computer was weak. I returned to the problem with a GPU and better tools to see whether there was something interesting beyond the original assignment. [The Chua atlas](https://github.com/Griboedow/chua-gpu-atlas) keeps that first study; this project collects the subsequent searches in other systems.
+
+## What the calculations found
+
+The clearest lesson is how easily a long chaotic transient can resemble an attractor. In the optical model, one trajectory kept positive finite-time expansion for 72,875 thermal-time units before reaching a checked periodic cycle. At both narrow optical widths, all 32 initial conditions eventually settled into cycles. At the broad width, 26 of 32 remained irregular through 100,000 units; the other six had already reached cycles. These are observations of a fixed cohort under an assumed logistic illumination law, not an experimental calibration or proof of an asymptotic chaotic attractor. [Read the long-run report](docs/optical-lifetime-extension.md).
+
+![Long optical transients and persistence through 100,000 thermal-time units](docs/assets/optical_lifetime_extension.png)
+
+The periodic destination also has structure: continuation finds a branch that loses and regains stability, together with an unstable doubled branch. [The bifurcation report](docs/optical-cycle-continuation.md) separates those local observations from claims about global basins or chaotic attractors.
+
+## Start with the evidence
+
+| Status | Models and reports | Interpretation |
+| --- | --- | --- |
+| Numerical chaos candidates requiring model/priority qualifications | [Synchronematic oscillators](docs/synchronematic-research.md), [LCE slider](docs/lce-slider-research.md), [two-strain model](docs/two-strain-research.md) | Read each report's source variants, physical range, solver checks and prior-art limits. A positive finite-time exponent alone is insufficient. |
+| Coupled optical operators: persistent candidates and long chaotic transients | [Two light-mediated material operators](docs/coupled-operators-research.md) | The continuous heat balance of SI Eq. (10) keeps temperature continuous at switches; the author's implementation was not recovered. Smooth optical profiles are explicitly assumed extensions. Both narrow-width cohorts reach independently checked periodic cycles; 26 broad-width trajectories remain irregular through 100,000 thermal-time units. These counts are finite-time cohort observations. |
+| Negative or unresolved searches | [NIFTE thermofluidic engine](docs/nifte-research.md), [Rayleigh spring pair](docs/rayleigh-pair-research.md), [HHS mechanochemical cell](docs/hhs-research.md), [urease reactor](docs/urease-research.md) | Long transients, weak instability and incomplete integrations are recorded explicitly; no retained chaos is promoted to an attractor. |
+| Resolved stiff endpoint | [Core–shell gel follow-up](docs/core-shell-gel-stiff-followup.md) | One saved step-budget endpoint closes to a strongly stable periodic orbit under independent implicit CPU solvers; the other unresolved cases remain unclassified. |
+| Structural exclusions and source audits | [Candidate queue](docs/candidate-queue.md), [material-memory screening](docs/material-memory-screening.md), [physical meminductor](docs/meminductor-followup-audit.md) | Mathematical reductions and missing physical closure can rule out or postpone a search. |
+| Source-control discrepancy | [Rigid microfluidic network](docs/microfluidic-research.md), [final supplement audit](docs/microfluidic-source-audit.md) | The printed closure approaches a stable equilibrium in our stated controls; the source's periodic example was not recovered. No coefficient was refitted and no mass chaos scan was started. |
+| Event law unresolved | [Motor-contact rotors](docs/dcr-research.md), [contact-source audit](docs/dcr-source-audit.md) | Short independent implicit controls are archived, but strict contact boundaries leave a continuation ambiguity. Budget-limited solver callbacks are not accepted trajectory endpoints or attractor evidence. |
+| Restricted structural exclusion | [Optical-order audit](docs/coupled-operators-order-audit.md) | For the explicitly smooth optical law and real mechanical poles, the applicable theorem excludes equilibrium-free chaotic limit sets. Its scope does not cover the underdamped candidates or ideal relay. |
+| Priority remains unresolved | [Optical relay and inertial-neuron comparison](docs/coupled-operators-priority-audit.md) | An exact tanh normalization connects this model to established feedback classes. The bounded literature comparison does not establish a new mechanism, topological attractor class or exact-model priority. |
+| Periodic-branch mechanism | [Optical-cycle continuation](docs/optical-cycle-continuation.md) | A periodic branch loses and regains stability, with a numerically unstable doubled branch. These local bifurcation observations do not establish an attracting chaotic set. |
+| Source-only screening | [Pulsating heat pipe](docs/heat-pipe-source-audit.md) | The complete 2026 closure was not retrieved; the accessible 2024 predecessor already discusses prospective chaotic motion. No reconstructed 2026 model was simulated. |
+| Source-definition gate | [Solar-array thermal flutter](docs/thermal-flutter-source-audit.md) | An unambiguous autonomous reduced model and full source-control settings were not recovered. A thermal-subsystem energy identity is restricted to its stated physical domain. |
+| Structural exclusion | [Mineral protocells](docs/mineral-protocell-screening.md) | The latest model is planar; its growing-membrane predecessor has monotone thickness in the active interior. No new trajectory search was run. |
+
+![Synchronematic evidence](docs/assets/synchronematic_evidence.png)
+
+This figure is a projection of a higher-dimensional state, not a claim of a new three-dimensional attractor. [Geometry and symmetry notes](docs/attractor-geometry.md) explain that distinction.
+
+![NIFTE controls](docs/assets/nifte-controls.png)
+
+The NIFTE controls include stable and unstable periodic orbits. An unstable periodic orbit is not an attracting chaotic set.
+
+![Rotation of physical observables](docs/assets/synchronematic_projection_rotation.gif)
+
+The full source Fig. 37 periodic control, independent CPU spectra, optical-width sensitivity and 54 original capture checks remain in [the operator report](docs/coupled-operators-research.md). The [extension](docs/optical-lifetime-extension.md) adds 16 independently checked captures while preserving original histories and settings. The 26 surviving trajectories are right-censored; these counts are not basin probabilities or an escape-rate fit.
+
+## Run locally
+
+From the project root, create an environment with `python -m venv .venv`. Activate it using `source .venv/bin/activate` on Unix-like systems or `.venv\Scripts\Activate.ps1` in PowerShell, then run `python -m pip install -r requirements.txt`. Python 3.14.3 was used for the recorded work. A separate fresh environment passed installation, `pip check` and four extracted GPU/CPU controls at source snapshot `8a3564c`; those tested modules and the runtime extraction are unchanged in this refreshed copy. The [validation record](provenance/packaging-validation.json) retains those checks, and [requirements-lock.txt](requirements-lock.txt) records the observed environment. This does not certify every model, every platform or a future public clone. GPU scripts require a working OpenCL GPU driver with FP64 support. They do not silently substitute CPU execution.
+
+The optional archived DCR source-solver controls additionally require `python -m pip install -r requirements-dcr.txt` after installing the main requirements. This adds pinned `scikit-sundae`/SUNDIALS bindings. Version 1.2.0 passed a separate fresh-environment dependency check and an isolated CPU control of duration 0.01. Its maximum state discrepancy from the archived fine control was 1.16e-10; [optional-dependency provenance](provenance/optional-dcr-packaging.json) retains the original 3cf58d0 snapshot and confirms the relevant files are unchanged here. This is a packaging check, not a new scientific result. The observed lock includes this optional package. It was not part of the four-module base-runtime validation and no DCR mass survey is supported. See [the DCR reproduction instructions](docs/dcr-research.md) before starting its bounded controls.
+
+Run existing command-line scripts from the repository root: some default result paths depend on the current working directory. Examples using saved data, without a new parameter survey:
+
+```sh
+python research/synchronematic_observables.py
+python research/plot_synchronematic.py
+python research/plot_nifte.py
+python research/plot_rayleigh_pair.py
+python research/plot_hhs.py
+python research/plot_microfluidic.py
+python research/plot_core_shell_stiff.py
+python research/extend_optical_lifetimes.py --plot
+```
+
+Plotting commands write figures. Keep the archived evidence in a clean checkout and use a disposable copy when reproducing figures or simulations. The [results index](results/README.md) and individual reports identify settings, seeds, traces and exact model versions. Many simulation scripts overwrite named result files; read their arguments before running.
+
+## Provenance and limitations
+
+This project was extracted from a fixed [Chua atlas snapshot](https://github.com/Griboedow/chua-gpu-atlas/tree/b60418fc2fbdd8a34ab873c5581e31f1b9c0727a). See [provenance](PROVENANCE.md), [MIT license](LICENSE) and [dependency notices](THIRD_PARTY_NOTICES.md). The original project's historical commits remain intact. Existing rendering records certify their stated old-repository revisions; independent checks of this public repository will be recorded separately. Research is continuing, so later additions identify their own provenance.
+
+## References
+
+1. Guo, H., Li, K., Yang, J., Li, D., Liu, F., and Zeng, H. (2025). Light-mediated communication in responsive materials ranging from individual self-oscillators to feedback-driven network. *Nature Communications* **16**, 11315. [doi:10.1038/s41467-025-66395-3](https://doi.org/10.1038/s41467-025-66395-3). Physical source; the logistic optical profile used here is an explicit modeling assumption.
+2. Leyva, S. G., Zhang, Z., Olvera de la Cruz, M., and Bishop, K. J. M. (2026). Self-oscillating synchronematic colloids. *Nature Communications* **17**, 1841. [doi:10.1038/s41467-026-68552-8](https://doi.org/10.1038/s41467-026-68552-8). Source coefficient variants are audited in the accompanying reports.
+3. Wang, Y., Markides, C. N., and Chachuat, B. (2019). Optimization-based investigations of a two-phase thermofluidic oscillator for low-grade heat conversion. *BMC Chemical Engineering* **1**, 20. [doi:10.1186/s42480-019-0019-3](https://doi.org/10.1186/s42480-019-0019-3). Source of the NIFTE equations and periodic controls.
+4. Letellier, C., and Aguirre, L. A. (2012). Required criteria for recognizing new types of chaos: Application to the “cord” attractor. *Physical Review E* **85**, 036204. [doi:10.1103/PhysRevE.85.036204](https://doi.org/10.1103/PhysRevE.85.036204). Motivation for distinguishing an unusual projection from a new dynamical class; no such topological classification is established here.
+
+Primary references and precise equation variants accompany each system report, including [synchronematic source/priority checks](docs/synchronematic-priority-audit.md), [optical heat-balance and switching audit](docs/light-operators-audit.md), [NIFTE physical and source audit](docs/nifte-physical-priority-audit.md), [Rayleigh structural derivation](docs/rayleigh-pair-structure.md), [HHS source audit](docs/hhs-source-audit.md) and [microfluidic final-source check](docs/microfluidic-source-audit.md). The [candidate queue](docs/candidate-queue.md) provides the wider literature trail. Referencing a paper does not establish priority for our observations; failure to find a publication is not evidence that none exists.

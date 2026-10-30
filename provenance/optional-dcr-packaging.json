@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "timestamp_utc": "2026-10-30T04:58:20.908267+00:00",
+  "model": "DCR strict-contact source-solver diagnostic",
+  "source_snapshot": "3cf58d03dc2d0398e084967a726e1a2d64080a82",
+  "duration": 0.01,
+  "rtol": 1e-09,
+  "atol": 1e-09,
+  "max_step": 2.5e-05,
+  "max_state_error_from_archived_fine": 1.1553558110222184e-10,
+  "optional_dependency": "scikit-sundae==1.2.0",
+  "pip_check": "No broken requirements found.",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-sundae": "1.2.0"
+  },
+  "source_module_sha256_lf": "0b0c37ed7489c6a44257331e69e798608bb8a9d092947c85db938284d80142d3",
+  "no_chua_module_imported": true,
+  "archived_data_modified": false,
+  "scope": "Previously completed isolated Python control in an independently installed environment, from outside the source working directory, using staging copies. Optional DCR packaging check only; not a public-clone test, new scientific classification, or part of the older four-GPU validation.",
+  "refreshed_snapshot": "b60418fc2fbdd8a34ab873c5581e31f1b9c0727a",
+  "source_validation_record_sha256": "2da1d7445f8e6d91dce2722740566677c841bba81496fe4f9684beb0ed74487d",
+  "unchanged_source_files": [
+    {
+      "path": "research/dcr.py",
+      "sha256": "0b0c37ed7489c6a44257331e69e798608bb8a9d092947c85db938284d80142d3",
+      "unchanged_between_snapshots": true
+    },
+    {
+      "path": "requirements-dcr.txt",
+      "sha256": "a3f96fb0fd146df2b99128c41b609849365cb359deb2fcb6e370fff6fd1b37d1",
+      "unchanged_between_snapshots": true
+    },
+    {
+      "path": "results/dcr/ida-analytic-1-fine.npz",
+      "sha256": "673e70942a96e8a559066d046883b81942d0085c4bc433f5a88fb521fa8494c2",
+      "unchanged_between_snapshots": true
+    }
+  ],
+  "not_rerun_during_staging_refresh": true
+}
