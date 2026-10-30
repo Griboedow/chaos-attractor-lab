@@ -8,6 +8,8 @@ The reusable [verification driver](tools/verify_public_clone.py) requires an exp
 
 ## Source extraction
 
+Subsequent exact copies are recorded individually under `provenance/increments/`: the optical cycle fold from `f0010d1` and the molecular-motor source/equivalence audit from `643d8eb`. These records preserve source revisions and file hashes; copying did not rerun the experiments. The motor GPU survey is still separate work in progress.
+
 This project was extracted from [chua-gpu-atlas](https://github.com/Griboedow/chua-gpu-atlas) at commit `b60418fc2fbdd8a34ab873c5581e31f1b9c0727a` for publication as [chaos-attractor-lab](https://github.com/Griboedow/chaos-attractor-lab). The original MIT license and Copyright (c) 2026 Griboedow are retained verbatim. The old repository's history is not rewritten.
 
 `provenance/source-manifest.json` records original Git blob IDs and SHA-256 hashes. Four research modules replace an inherited Chua runtime with a generic OpenCL device/context/buffer helper; their vector fields and paired kernels are unchanged. No numerical experiment has been rerun as part of this preparation. Historical repository commit URLs in the notebooks are intentionally retained. The historical requirements lock includes dependencies used by the Chua project and is evidence of the original environment, not an independently verified lock for this project.
