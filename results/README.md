@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`motor-five-replication-proof/` supplies the separate [replication-limit theorem](../docs/motor-five-replication-limit.md): interval integration of the two formerly singleton contrast blocks, independent full N=16 embedding controls and a 768-bit replay of strict real-root brackets. Exact copies with N=8k, k>=2, have at least `2(k-1)` unstable directions at fixed normalized parameters. The eight-row attraction packet below remains unchanged.
+
 `motor-five-cycle-proof/` contains the [attracting five-cluster certificate](../docs/motor-five-cycle-certificate.md): exact rho129/55, three-segment relative shooting, full 23-dimensional stability with all nonflow multipliers below 0.13, changed-precision recomputation, independent algebra controls and the exact 840-copy symmetry calculation. Its manifest freezes 24 report/source/evidence files. The positive return period is certified without a least-period claim; attraction after increasing the row count is not asserted.
 
 The [motor-cycle certificate](../docs/motor-cycle-certificate.md) links the interval existence and spectral proofs in `motor-proof/`, including failed attempts, preserved source snapshots and fresh four-part recomputations. `motor-period-proof/` adds validated half-orbit tube signs proving least period at the target and throughout the local crossing family. These are local periodic-dynamics results, not a proof of a chaotic attractor.

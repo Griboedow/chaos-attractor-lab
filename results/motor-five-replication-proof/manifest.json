@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-10-30T13:22:40.463420+00:00",
+  "scope": "Final fixed-normalized-parameter replication limit, including independent768bit saved-matrix replay. No second integration. Prior packets unchanged.",
+  "self_excluded": true,
+  "file_count": 12,
+  "total_bytes": 129835,
+  "verification": {
+    "input_hash": true,
+    "status": true,
+    "N16_control": true,
+    "both_real_outside_roots": true,
+    "same_shared_sources": true,
+    "executed_source_snapshots": true,
+    "parent_replay_passed": true
+  },
+  "files": [
+    {
+      "path": "docs/motor-five-replication-limit.md",
+      "bytes": 4651,
+      "sha256": "cc9379225daab536e83721894c12b0c62bc0780f26e46bf4787ef4ebad0a919b"
+    },
+    {
+      "path": "research/check_motor_five_replication.py",
+      "bytes": 7759,
+      "sha256": "0fc8db0449cf678cb24bb7bfd07326397d452ec86adabf6cdab827c16d5b7556"
+    },
+    {
+      "path": "research/check_motor_five_replication_record.py",
+      "bytes": 1970,
+      "sha256": "7b23808bc7c423f46068d673d3eb43399c34e73a8a1621727760eaf889048de6"
+    },
+    {
+      "path": "results/motor-five-replication-proof/manifest-before-parent-review.json",
+      "bytes": 2188,
+      "sha256": "fd91fc1143720674a843147d7cf307b7b56cdba96478855c7854a3ab4734695e"
+    },
+    {
+      "path": "results/motor-five-replication-proof/matrix-replay.json",
+      "bytes": 1802,
+      "sha256": "4ba2360c7ef7a4ff310ae05c871cc5629b6663c2449b60f8f6e7162d181a794b"
+    },
+    {
+      "path": "results/motor-five-replication-proof/matrix-replay.source.py",
+      "bytes": 1970,
+      "sha256": "7b23808bc7c423f46068d673d3eb43399c34e73a8a1621727760eaf889048de6"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.certify_motor_saddle_spectrum.py",
+      "bytes": 5952,
+      "sha256": "27e84d28a4ed750b72f6b1b1ad1f5fee6f7f676eb0aff3af7cc336d3ff650125"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.check_motor_five_replication.py",
+      "bytes": 7759,
+      "sha256": "0fc8db0449cf678cb24bb7bfd07326397d452ec86adabf6cdab827c16d5b7556"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.json",
+      "bytes": 48283,
+      "sha256": "c6e2d61d9fb235994903e43f322f8e87a1af11ceef030c43db3a7ff46583cf4c"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.validate_motor_five_cycle.py",
+      "bytes": 15012,
+      "sha256": "4311ec73aa45c180f44bf9c5afc668e809d797129a8bf9515ebe9e42ccbce997"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    }
+  ]
+}

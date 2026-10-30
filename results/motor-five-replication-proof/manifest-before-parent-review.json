@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-30T13:21:30.778474+00:00",
+  "scope": "Separate certified transverse-instability limit to N=8k replication at fixed normalized parameters and weights. All prior packets unchanged.",
+  "self_excluded": true,
+  "verification": {
+    "input_hash": true,
+    "status": true,
+    "N16_control": true,
+    "both_real_outside_roots": true,
+    "same_shared_sources": true,
+    "executed_source_snapshots": true
+  },
+  "file_count": 8,
+  "total_bytes": 121446,
+  "files": [
+    {
+      "path": "docs/motor-five-replication-limit.md",
+      "bytes": 4192,
+      "sha256": "c7f2993898caf5fac336ef7e14fbb2f6e4a54d673d5edc2f7279501d869dceb2"
+    },
+    {
+      "path": "research/check_motor_five_replication.py",
+      "bytes": 7759,
+      "sha256": "0fc8db0449cf678cb24bb7bfd07326397d452ec86adabf6cdab827c16d5b7556"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.certify_motor_saddle_spectrum.py",
+      "bytes": 5952,
+      "sha256": "27e84d28a4ed750b72f6b1b1ad1f5fee6f7f676eb0aff3af7cc336d3ff650125"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.check_motor_five_replication.py",
+      "bytes": 7759,
+      "sha256": "0fc8db0449cf678cb24bb7bfd07326397d452ec86adabf6cdab827c16d5b7556"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.json",
+      "bytes": 48283,
+      "sha256": "c6e2d61d9fb235994903e43f322f8e87a1af11ceef030c43db3a7ff46583cf4c"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.validate_motor_cycle.py",
+      "bytes": 16254,
+      "sha256": "cb1ce8d5021f878e438f79cee6cc312852d8ea1b1bd20c6d508807d620509e9f"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.validate_motor_five_cycle.py",
+      "bytes": 15012,
+      "sha256": "4311ec73aa45c180f44bf9c5afc668e809d797129a8bf9515ebe9e42ccbce997"
+    },
+    {
+      "path": "results/motor-five-replication-proof/singleton-blocks.validate_motor_paired_cycle.py",
+      "bytes": 16235,
+      "sha256": "16ced18b172ccb7e3a8bb74d52e521799abc987ccc6658deaba50c446749751c"
+    }
+  ]
+}

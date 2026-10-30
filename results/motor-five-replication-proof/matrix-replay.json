@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-30T13:21:45.993627+00:00",
+  "status": "passed",
+  "bits": 768,
+  "input_sha256": "c6e2d61d9fb235994903e43f322f8e87a1af11ceef030c43db3a7ff46583cf4c",
+  "source_sha256": "7b23808bc7c423f46068d673d3eb43399c34e73a8a1621727760eaf889048de6",
+  "checks": [
+    {
+      "cluster": "2",
+      "passed": true,
+      "bracket": [
+        -32,
+        -1
+      ],
+      "polynomial_at_left": {
+        "display": "[-9130.52643762940440 +/- 5.20e-15]",
+        "midpoint": [
+          "-706440266055946755657411840901",
+          -86
+        ],
+        "radius": [
+          "420519401",
+          -78
+        ]
+      },
+      "polynomial_at_right": {
+        "display": "[22.083381875549074 +/- 5.59e-16]",
+        "midpoint": [
+          "1749625768100561659131080295757",
+          -96
+        ],
+        "radius": [
+          "336015175",
+          -81
+        ]
+      }
+    },
+    {
+      "cluster": "4",
+      "passed": true,
+      "bracket": [
+        -32,
+        -1
+      ],
+      "polynomial_at_left": {
+        "display": "[-9130.5264376294044 +/- 7.22e-14]",
+        "midpoint": [
+          "-44152516628496672228588240257",
+          -82
+        ],
+        "radius": [
+          "322942579",
+          -72
+        ]
+      },
+      "polynomial_at_right": {
+        "display": "[22.0833818755491 +/- 6.72e-14]",
+        "midpoint": [
+          "109351610506285103695692395311",
+          -92
+        ],
+        "radius": [
+          "784661051",
+          -74
+        ]
+      }
+    }
+  ],
+  "scope": "Recompute characteristic polynomials from exact saved interval matrices at higher precision. This checks serialization and strict real-root brackets; it does not reintegrate the variational equations."
+}
