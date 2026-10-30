@@ -2,6 +2,8 @@
 
 The [postcritical trajectories](motor-postcritical.md) suggest repeated visits to symmetry-related six-cluster periodic saddles at `rho=3.268`. The finite connections and long switching trajectories are numerical evidence. This note identifies the missing global theorem and the role of the exact invariant subspaces. It does not certify a heteroclinic network or its attraction.
 
+The subsequent [280,000-unit logarithmic continuation](motor-log-seventh-departure.md) resolves seven departures in two numerical settings, including recovery after a contrast falls below `10^-486`. Their seventh departure times differ by about `4.27e-6`. This longer history strengthens the finite switching evidence, while leaving the global existence and attraction problems below unchanged.
+
 ## Exact invariant subspace and local dimensions
 
 Use zero-based row labels and write each row state as `q_j=(c_j,s_j,X_j)`, with the total displacement constrained to zero. The full state dimension is 23. The set
@@ -33,7 +35,7 @@ A possible validated computation has three parts:
 2. Integrate an enclosed outgoing set through the finite transition with controlled wrapping. Starting after the long, nearly periodic residence would avoid validating thousands of unnecessary time units.
 3. Prove entry into a quantitative contraction neighborhood of the destination's return map in the 20D invariant space. Stable Floquet eigenvalues alone do not specify the neighborhood's size; derivative bounds in a suitable norm are needed.
 
-The first validated connection would have all of its row-permuted images. To identify the whole observed network, one must still determine which outgoing branches and phases connect to which destinations. The displayed four-node circuit is taken modulo a half-period symmetry; its numerical permutation match should also be upgraded to an exact statement if used to close a rigorous circuit.
+The first validated connection would have all of its row-permuted images. To identify the whole observed network, one must still determine which outgoing branches and phases connect to which destinations. The subsequent [exact group calculation](motor-network-combinatorics.md) supplies eight distinct saddle images and sixteen formal directed edges in the generated group, including the observed mixed four-step circuit. The [full permutation extension](motor-saddle-isotropy.md) counts 5,040 labeled saddle copies and 630 formal eight-node components. These exact combinatorial statements establish candidate node and edge labels; an edge still requires an actual connecting-orbit proof.
 
 ## Robustness is conditional; attraction is another question
 
@@ -41,7 +43,15 @@ If an unstable-manifold point enters the destination's open basin in `I_23`, tha
 
 For cycles containing the required unstable manifolds, Ashwin, Karabacak and Nowotny give a sufficient robustness criterion using invariant subspaces in which each destination is attracting. Their hypothesis already includes the connecting manifolds: the criterion cannot be used to infer their existence from the spectral table alone. Their paper also separates robustness from attraction. [Primary article, Section 2.3 and Theorem 3](https://link.springer.com/article/10.1186/2190-8567-1-13).
 
-The measured contraction-to-expansion ratio near one saddle is about 1.876. A ratio above one is suggestive, but it is not a complete stability test for this network. Return maps, other transverse directions, competing outgoing paths and the coverage of the unstable manifolds still matter. Increasing residence times or very small pair differences alone cannot establish an asymptotic attractor.
+The [certified leading contraction-to-expansion ratio](motor-saddle-certificate.md) near the saddle is about 1.876033067695236. A ratio above one is suggestive, but it is not a complete stability test for this network. Return maps, other transverse directions, competing outgoing paths and the coverage of the unstable manifolds still matter. Increasing residence times or very small pair differences alone cannot establish an asymptotic attractor.
+
+## Keep the distinct research questions separate
+
+The lower-rho activity-path results expose a different problem. A [five-cluster periodic attractor](motor-five-cycle-certificate.md) is now certified at exact `rho=129/55`. Its [numerical branch](motor-cluster-cycle-branch.md) loses quotient stability through a complex pair near `rho=2.29823502`, while its pair contrasts remain stable at the sampled points. Validating that crossing and computing the nonlinear normal-form coefficient would be concrete next steps toward a local torus theorem. Neither would by itself connect the resulting motion to the separate irregular cluster candidate.
+
+The [one-positive cluster candidate](motor-lane46-spectrum.md) has a full conditional spectrum and small full-space perturbation controls, but still needs evidence distinguishing sustained irregular dynamics from very long transients near invariant cluster states. The [original-start logarithmic diagnostic](motor-original-seed-log.md) demonstrates recovery of tiny differences and disagreement between distant numerical histories. It therefore rules out using a small terminal pair distance as a stand-alone capture test, while leaving the exact initial state's asymptotic outcome open.
+
+For the [six-positive full-space candidate](motor-activity-continuation.md), the priority is an invariant-set or return-map argument that proves asymptotic chaotic behavior and attraction. Further finite-time exponent accumulation alone would not supply that theorem. Scientific priority is a separate source problem: the unresolved exact-model literature gaps remain even if an attracting chaotic set is proved.
 
 ## Established precedents and the remaining novelty question
 

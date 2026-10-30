@@ -1,0 +1,75 @@
+{
+  "checked_at_utc": "2026-10-30T13:12:06.593666+00:00",
+  "repository": "https://github.com/Griboedow/chaos-attractor-lab",
+  "verified_public_commit": "bcd5119df54648eb634fadc21ca475acc0d83ab4",
+  "fetched_remote_main_matches": true,
+  "passed": true,
+  "proof_export": {
+    "source": "git archive origin/main",
+    "files_verified_against_manifest": 24,
+    "exact_evidence_bytes": true,
+    "environment": "Separate proof-only environment with python-flint0.9.0",
+    "algebra_controls": [
+      {
+        "name": "weighted field, quotient and all three internal contrasts in full23D, and permutation equivariance",
+        "components": 6240,
+        "maximum_error": {
+          "display": "[9.55667156165490315603444e-113 +/- 2.29e-137]",
+          "midpoint": [
+            "987108559",
+            -402
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "passed": true
+      },
+      {
+        "name": "optimized matrix jets versus full generic sparse recurrence",
+        "components": 2844,
+        "maximum_error": {
+          "display": "[2.96807359932114552296168e-112 +/- 4.99e-136]",
+          "midpoint": [
+            "766430769",
+            -400
+          ],
+          "radius": [
+            "0",
+            0
+          ]
+        },
+        "passed": true
+      },
+      {
+        "name": "exact rational constant-matrix coefficients",
+        "components": 2453,
+        "passed": true
+      },
+      {
+        "name": "exact restriction right inverse and permutation order six",
+        "passed": true
+      }
+    ],
+    "exact_symmetry_control": {
+      "normalizer_order": 96,
+      "orbital_order": 48,
+      "labeled_copies": 840
+    }
+  },
+  "local_document_check": {
+    "files": 30,
+    "relative_path_occurrences": 504,
+    "missing_paths": [],
+    "browser_rendering": "Not available in this session; no browser-rendering claim."
+  },
+  "historical_evidence": {
+    "baseline_commit": "d08e17a0541959f62a05622c28b0130746b87b5d",
+    "modified_existing_results_paths": [
+      "results/README.md"
+    ],
+    "meaning": "Only the results index was edited. Every pre-existing archived result file retains its original Git blob."
+  },
+  "scope": "Public Git-byte, packaging, algebra, symmetry and local-link audit. The interval integrations were already recomputed in the frozen certificate packet; they were not repeated by this publication check. No asymptotic chaos or novelty claim."
+}
