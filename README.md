@@ -4,6 +4,10 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 **[Read the findings](docs/research-findings.md)** for the results, negative searches and remaining hypotheses, with figures and primary references.
 
+![Rotating physical projections: certified periodic motor attractor and hyperchaos candidate](docs/assets/motor-regimes-rotation.gif)
+
+Left: the five-cluster periodic attractor. Right: the hyperchaos candidate from the latest CPU continuation. Both use the same physical coordinates and axis limits; the camera rotates around saved trajectories. [Full-size animation](docs/assets/motor-regimes-rotation.gif) · [Still image](docs/assets/motor-regimes-rotation.png) · [Data and reproduction](docs/attractor-geometry.md#motor-regimes-in-physical-coordinates).
+
 ## Why this exists
 
 Years ago, a coursework project asked me to scan two parameters of Chua's circuit. I spent months calculating: I understood the subject poorly, and my computer was weak. I returned to the problem with a GPU and better tools to see whether there was something interesting beyond the original assignment. [The Chua atlas](https://github.com/Griboedow/chua-gpu-atlas) keeps that first study; this project collects the subsequent searches in other systems.

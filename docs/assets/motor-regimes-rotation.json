@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-10-30T13:32:36.262692+00:00",
+  "source_sha256": "3a9a3d0ecb28eb5f2471b88686c5bba198203c76904297108ade9c8c7f70bc37",
+  "inputs": {
+    "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz": "578a7d601845ab594b88093378c816a62f0df7be58a326261234b00ea636edee",
+    "results/motor-five-cycle-proof/recheck-01.json": "9ec5f039e5c17047d879a8775593eba406e48965bea6860108b759f28b9a1fb0",
+    "results/motor-activity-continuation/cpu/run-01/block-16.npz": "baf075d453f8f660fffa24deae7b5c2f6c10c19e08bb4b3d9f4e9f0495e819ee",
+    "results/motor-activity-continuation/cpu/run-01/analysis.json": "570a3e187aaae5cd605c11ada7bfae77765773a58407ffd8adefa6cf50bf99a4"
+  },
+  "no_integration_or_proof_changes": true,
+  "projection": {
+    "state_indices": [
+      16,
+      17,
+      8
+    ],
+    "labels": [
+      "X0",
+      "X1",
+      "s0"
+    ],
+    "dimensionality": 23,
+    "fitted_embedding": false,
+    "shared_axis_lower": [
+      -2.41357556205187,
+      -2.4103017530329907,
+      -0.9705854364504453
+    ],
+    "shared_axis_upper": [
+      1.2875705950685403,
+      1.2873154159929308,
+      1.5145818399378115
+    ]
+  },
+  "periodic": {
+    "samples": 1001,
+    "saved_period": 25.001684375896957,
+    "maximum_seed_distance_from_certificate_midpoint": 5.384581669432009e-14,
+    "maximum_full_state_closure_error": 1.3811174426336947e-13,
+    "qualification": "Floating-point illustration of the separately certified periodic orbit; not an interval-enclosed image."
+  },
+  "candidate": {
+    "samples": 5000,
+    "original_time_range": [
+      19200.19999999833,
+      20199.999999998334
+    ],
+    "spectrum_observed_tau": 20000.0,
+    "first_six_finite_time_exponents": [
+      0.21313403042962606,
+      0.1823737831452774,
+      0.15462585418200295,
+      0.11459786006802931,
+      0.07433081237463382,
+      0.021639966025997343
+    ],
+    "qualification": "The final saved 1000-tau block is displayed; finite-time hyperchaos and asymptotic attraction remain distinct claims."
+  },
+  "animation": {
+    "frames": 96,
+    "fps_requested": 12,
+    "pixel_dimensions": [
+      1160,
+      640
+    ],
+    "loop": 0,
+    "recorded_frame_duration_ms": 80,
+    "different_quarter_turn_frames": true,
+    "camera_rotation_degrees": 360,
+    "trajectory_animation": false
+  },
+  "outputs": {
+    "motor-regimes-rotation.png": {
+      "bytes": 191955,
+      "sha256": "64771da0b93a4d82df47fe0f86ad2d9219f7755dd9437f01dc6cad4254fe20e0"
+    },
+    "motor-regimes-rotation.gif": {
+      "bytes": 6417959,
+      "sha256": "09e73a47f2bad66e2f209d5bb0c8f5f1bca3b4a36f5b1b043e07f3b5800485e4"
+    }
+  }
+}

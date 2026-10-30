@@ -4,6 +4,10 @@ Research snapshot, 30 October 2026. **We have several independently checked nume
 
 ## The most informative observations
 
+![Rotating comparison of the periodic motor attractor and hyperchaos candidate](assets/motor-regimes-rotation.gif)
+
+The rotating views use the same physical coordinates and scales. The periodic orbit on the left has a separate attraction certificate; the irregular trajectory on the right remains a finite-time candidate. [Visualization sources and reproduction](attractor-geometry.md#motor-regimes-in-physical-coordinates).
+
 **A five-cluster periodic attractor is now rigorously certified.** At exact `rho=129/55`, interval multiple shooting proves an orbit with multiplicities `2+2+1+2+1`, one neutral flow multiplier and twenty-two multipliers of modulus below 0.13. A recomputation at higher precision and changed discretization passes independently. Exact symmetry algebra gives 840 labeled copies of this one orbit class. The displayed positive period is about 25.0016843758970971; its minimality and historical novelty are not asserted. [Theorem, archived certificates and controls](motor-five-cycle-certificate.md).
 
 There is a strict [limit to duplicating this pattern](motor-five-replication-limit.md). At unchanged normalized parameters and cluster weights, its exact N=8k copies for k>=2 have at least `2(k-1)` expanding directions. The two formerly singleton clusters acquire internal contrasts with real Floquet multipliers strictly between -32 and -1. Those directions are absent at N=8, so this does not contradict the certified eight-row attraction.

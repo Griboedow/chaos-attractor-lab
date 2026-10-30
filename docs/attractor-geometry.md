@@ -1,6 +1,26 @@
 # Searching for an attractor with a different geometry
 
-The added research objective is to find a robust chaotic-attractor candidate that looks substantially different from familiar examples. This complements the search for overlooked regimes in concrete physical models. The objective remains open: the figures below describe our existing candidates, not a newly established attractor type.
+The added research objective is to find a robust chaotic-attractor candidate that looks substantially different from familiar examples. This complements the search for overlooked regimes in concrete physical models. The objective remains open. The figures distinguish certified periodic motion from numerical chaos candidates; visual appearance alone does not establish a new attractor type.
+
+## Motor regimes in physical coordinates
+
+![Rotating physical projections of two motor regimes](assets/motor-regimes-rotation.gif)
+
+The left panel shows one saved period of the [five-cluster periodic attractor](motor-five-cycle-certificate.md). Its floating-point starting state differs from the certified shooting-box midpoint by at most `5.39e-14`; the plotted curve is an illustration, rather than an interval enclosure. The right panel displays all 5,000 saved samples from the final 1,000-unit block of the [full CPU continuation](motor-activity-continuation.md). The six positive finite-time exponents were measured over the full 20,000 observed time units; they are not inferred from the cloud's shape.
+
+Both panels directly plot `(X0, X1, s0)` with zero-based row labels: the normalized displacements of rows 0 and 1 and row 0's sine-density coefficient. No fitted embedding, nonlinear coordinate transform or per-panel rescaling is used. The axis limits and camera angles are identical. The 96-frame looping GIF rotates the camera through 360 degrees around fixed saved data; it does not animate elapsed simulation time. A projection of the 23-dimensional model can have apparent crossings that are absent from its full state space.
+
+[Full-size GIF](assets/motor-regimes-rotation.gif) · [High-resolution still](assets/motor-regimes-rotation.png) · [Input hashes, projection and animation checks](assets/motor-regimes-rotation.json).
+
+Rebuild the assets from the unchanged archived trajectories:
+
+```powershell
+python research/render_motor_regimes.py
+```
+
+The [renderer](../research/render_motor_regimes.py) uses NumPy, Matplotlib and Pillow. It checks the cycle closure and certificate proximity, retains the complete final candidate block, and verifies that quarter-turn GIF frames differ. It performs no new integration or proof calculation.
+
+## Earlier geometry baseline
 
 ![Existing-candidate geometry baseline](assets/attractor_geometry_baseline.png)
 
