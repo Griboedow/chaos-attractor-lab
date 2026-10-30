@@ -83,7 +83,7 @@ This establishes the full stabilizer, strengthening the earlier [normalizer argu
 =[S_8:H]=\frac{8!}{8}=5040.
 ```
 
-“Distinct” here means distinct subsets of the labeled phase space after allowing time shifts. Relabeling rows identifies them physically, and their dynamics are conjugate by symmetry.
+“Distinct” here means distinct subsets of the labeled phase space after allowing time shifts. They form one orbit class after quotienting by row permutations, and their dynamics are conjugate by symmetry. No equivalence of different spatial patterns in an actual axoneme is asserted.
 
 ## The formal full-permutation departure graph
 
