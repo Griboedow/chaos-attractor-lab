@@ -1,0 +1,294 @@
+{
+  "created_utc": "2026-10-30T10:34:43.726607+00:00",
+  "source_cycle": "results/motor-postcritical/six-cluster-cycle-rho-3p268/cycle.npz",
+  "source_cycle_sha256": "ed1b772e0225b87a5de37f472090e7d1da020c29c2b3cb40aaa39116c792994b",
+  "current_script": "research/motor_pair_coordinates.py",
+  "current_script_sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785",
+  "runtime": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "floating_point": "IEEE754 binary64"
+  },
+  "runs": [
+    {
+      "folder": "results/motor-pair-coordinates/seed-1e-12-step-0p05",
+      "status": "complete",
+      "start_tau": 0.0,
+      "end_tau": 20000.0,
+      "checkpoints": 1508,
+      "minimum_sampled_halfcontrast": 1.337224801708871e-75,
+      "nonzero_at_all_checkpoints": true,
+      "max_step": 0.05,
+      "contrast_atol": 1e-150,
+      "recorded_integration_wall_seconds": 314.6894839000015,
+      "archived_source_hash_verified": true,
+      "resume_verified": false
+    },
+    {
+      "folder": "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended",
+      "status": "complete",
+      "start_tau": 20000.0,
+      "end_tau": 40000.0,
+      "checkpoints": 1508,
+      "minimum_sampled_halfcontrast": 5.044624946108046e-140,
+      "nonzero_at_all_checkpoints": true,
+      "max_step": 0.05,
+      "contrast_atol": 1e-200,
+      "recorded_integration_wall_seconds": 323.1688592999999,
+      "archived_source_hash_verified": true,
+      "resume_verified": true
+    },
+    {
+      "folder": "results/motor-pair-coordinates/seed-1e-12-step-0p1",
+      "status": "complete",
+      "start_tau": 0.0,
+      "end_tau": 20000.0,
+      "checkpoints": 1508,
+      "minimum_sampled_halfcontrast": 1.3372249458818548e-75,
+      "nonzero_at_all_checkpoints": true,
+      "max_step": 0.1,
+      "contrast_atol": 1e-150,
+      "recorded_integration_wall_seconds": 253.80187090000254,
+      "archived_source_hash_verified": true,
+      "resume_verified": false
+    },
+    {
+      "folder": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended",
+      "status": "complete",
+      "start_tau": 20000.0,
+      "end_tau": 40000.0,
+      "checkpoints": 1508,
+      "minimum_sampled_halfcontrast": 5.044625590319425e-140,
+      "nonzero_at_all_checkpoints": true,
+      "max_step": 0.1,
+      "contrast_atol": 1e-200,
+      "recorded_integration_wall_seconds": 258.3294460999896,
+      "archived_source_hash_verified": true,
+      "resume_verified": true
+    },
+    {
+      "folder": "results/motor-pair-coordinates/seed-1e-25-step-0p05",
+      "status": "complete",
+      "start_tau": 0.0,
+      "end_tau": 12000.0,
+      "checkpoints": 905,
+      "minimum_sampled_halfcontrast": 1.2927010380723466e-65,
+      "nonzero_at_all_checkpoints": true,
+      "max_step": 0.05,
+      "contrast_atol": 1e-150,
+      "recorded_integration_wall_seconds": 190.40644509998674,
+      "archived_source_hash_verified": true,
+      "resume_verified": false
+    }
+  ],
+  "all_saved_runs_completed": true,
+  "failed_or_underflowed_runs": [],
+  "raw_event_limit": "Some rapid repeated threshold crossings are missed between steps; all raw logs retained. Recovery classification requires prior sample below1e-12 followed by upward1e-4 crossing.",
+  "metadata_note": "The first archived script named the first sampled point in each block start_tau; it is not the integration start. Later snapshots use first_checkpoint_tau. Actual block endpoints and complete time arrays are authoritative.",
+  "claim": "Finite-time coordinateprecision and switching diagnostic only; no chaos or heteroclinic theorem",
+  "files": [
+    {
+      "path": "results/motor-pair-coordinates/eigenvalue-audit.json",
+      "bytes": 976,
+      "sha256": "e337e8b34080f7865f0fcfa08f4bb037da052ed81b56e9f4bd2b17159aa28016"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05/analysis.source.py",
+      "bytes": 22575,
+      "sha256": "b4918845c3c651a98ec1d12c4447421d58645891c208c2dbbff66c766d7b1ff6"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05/diagnostics.json",
+      "bytes": 170180,
+      "sha256": "b1eaac75e9e0a5cf4c1b551cd0050e988247f92fc4d1eaa6247d3d3848f81c6e"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05/source.py",
+      "bytes": 18785,
+      "sha256": "1b4be4f6ac5ca07a3e8eb1eb13fb17bc7d27572d31a621b02d92df893be2cec3"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05/summary.json",
+      "bytes": 169099,
+      "sha256": "680c1b108d8f1ab9f289f3f17925ddfd54605608a7ab4b7eb689dcfd0f88ac13"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05/trajectory.npz",
+      "bytes": 372443,
+      "sha256": "d0ab95e033c592c13d5697704f373a0d0826cdd8008374a90630006a19fcff22"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended/analysis.source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended/diagnostics.json",
+      "bytes": 170056,
+      "sha256": "0ca1d90344786ae4319d53b81e76ffc053b188e053107f52312aa0133a52b9f9"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended/source.py",
+      "bytes": 22575,
+      "sha256": "b4918845c3c651a98ec1d12c4447421d58645891c208c2dbbff66c766d7b1ff6"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended/summary.json",
+      "bytes": 155279,
+      "sha256": "31c12905fa964f59a2cee8b76bcdcef2cfc095972e2d1d1289fc06af98a202e3"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended/trajectory.npz",
+      "bytes": 341499,
+      "sha256": "3c5632a5d57aefc2482cbc6bf90dca500a8e00f32eb4671c3e8ae9ad64f7ce41"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/analysis.source.py",
+      "bytes": 20198,
+      "sha256": "19767b35fab11f3fe806e01c551697cbbb1804b3a2f4672d6803e395fb2b2296"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/comparison-raw.json",
+      "bytes": 3971,
+      "sha256": "463d12572df0e4435921c550a6ef8fc178664e350311202c8499c9b82a6ab9cc"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/comparison-raw.source.py",
+      "bytes": 22575,
+      "sha256": "b4918845c3c651a98ec1d12c4447421d58645891c208c2dbbff66c766d7b1ff6"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/comparison.json",
+      "bytes": 4774,
+      "sha256": "f5ce1246f9754699db88ac24a2850c44686b3e557df19f691112ab754c0b3f49"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/comparison.source.py",
+      "bytes": 29698,
+      "sha256": "e880889d5d50f918437146d3fd0462cfa5bd393adc6d3505c20166b59e9561fb"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/diagnostics.json",
+      "bytes": 170249,
+      "sha256": "4414662f4a5e1aa303cb868980a4943e3ee086233721d01529cc958c29906ad8"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/plot.json",
+      "bytes": 350,
+      "sha256": "03598912022187a3f1788ba71815a5f8fb9e8b53fc8737378a5bf077600d1087"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/plot.source.py",
+      "bytes": 29698,
+      "sha256": "e880889d5d50f918437146d3fd0462cfa5bd393adc6d3505c20166b59e9561fb"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/precision-diagnostic.png",
+      "bytes": 228423,
+      "sha256": "7f42a399f07f959087498f4a4e89e693f568a129ef9d8dd0bd954d0b4c1da32d"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/source.py",
+      "bytes": 18774,
+      "sha256": "39a91100fdd90f3af39951671cf30b9c090c836ab45b3e0c2c2e56b5d1f0259f"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/summary.json",
+      "bytes": 145493,
+      "sha256": "deee15a1d8ffdedb926e16399e69dc9b1bb3b218ecc1ce507320010d0e9f028d"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1/trajectory.npz",
+      "bytes": 394289,
+      "sha256": "79c5fd28549170e2ddf523fb3911c426efa36a04be05da9cf8c791675391899c"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/analysis.source.py",
+      "bytes": 29698,
+      "sha256": "e880889d5d50f918437146d3fd0462cfa5bd393adc6d3505c20166b59e9561fb"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/comparison.json",
+      "bytes": 4129,
+      "sha256": "597d24ba023dfc33dba8a6887946a96560a044927147dcde4dc3c591f04f8fbb"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/comparison.source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/diagnostics.json",
+      "bytes": 170065,
+      "sha256": "beb4138c54b9daff5e22e0a5535c72aec4a8ebda6073a17024c31093fa6ef6ff"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/plot.json",
+      "bytes": 350,
+      "sha256": "71a3788cac2257fa5968d33a987cde9fd6b312127fca70b37655ce3e8ea5ca77"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/plot.source.py",
+      "bytes": 29724,
+      "sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/precision-diagnostic.png",
+      "bytes": 238036,
+      "sha256": "66035866e865865690d0357be76d7866e230bfc78328bb516afe6a5640057ec8"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/source.py",
+      "bytes": 22575,
+      "sha256": "b4918845c3c651a98ec1d12c4447421d58645891c208c2dbbff66c766d7b1ff6"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/summary.json",
+      "bytes": 127710,
+      "sha256": "c0f008f6b6d3b342338605ba829a8d79eb65e18b7bccfee27ecd6575299ed3e9"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/trajectory.npz",
+      "bytes": 371693,
+      "sha256": "97d70787da7a5effb01a1f280d7f95cd93fb86292324ac0c22a36665c20b73b1"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-25-step-0p05/analysis.source.py",
+      "bytes": 22575,
+      "sha256": "b4918845c3c651a98ec1d12c4447421d58645891c208c2dbbff66c766d7b1ff6"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-25-step-0p05/diagnostics.json",
+      "bytes": 102468,
+      "sha256": "74d30257d5a510708722a9adea9ed160016a582400e895d28479047d2c0b7694"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-25-step-0p05/source.py",
+      "bytes": 18785,
+      "sha256": "1b4be4f6ac5ca07a3e8eb1eb13fb17bc7d27572d31a621b02d92df893be2cec3"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-25-step-0p05/summary.json",
+      "bytes": 109261,
+      "sha256": "e2ff66bda63d624ed3a007460af1c247b4748433fca01e6f75566efc6e65233e"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-1e-25-step-0p05/trajectory.npz",
+      "bytes": 227329,
+      "sha256": "56d7438afacefc8cea5f899055aa4adea7d55c81f57490ecdb78d4996b923bdb"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-control.json",
+      "bytes": 1261,
+      "sha256": "763aecb20fc459c0d9d47ea7826ac926b99825b50e13a3b79270a8e215ed701d"
+    },
+    {
+      "path": "results/motor-pair-coordinates/seed-control.source.py",
+      "bytes": 29698,
+      "sha256": "e880889d5d50f918437146d3fd0462cfa5bd393adc6d3505c20166b59e9561fb"
+    }
+  ]
+}

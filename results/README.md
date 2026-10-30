@@ -8,6 +8,8 @@ The [crossing extension](../docs/motor-crossing-certificate.md) adds `motor-cros
 
 `motor-postcritical/` records the [numerical branch and saddle-switching study](../docs/motor-postcritical.md): complete 60- and 75-lane screens, paired-branch continuation, a second transverse crossing, six-cluster periodic saddles, four controlled departures and a carried-tangent failure control. Its manifests preserve the executed source snapshots and failed analyses. The network interpretation remains a numerical hypothesis.
 
+`motor-pair-coordinates/` preserves the [23-state coordinate-precision diagnostic](../docs/motor-pair-coordinate-audit.md): two independent saved trajectories to 40,000 units, exact checkpoint resumptions, a smaller-seed control, all threshold records and a figure. Storing half-contrasts directly recovers repeated departures that Cartesian row subtraction can hide. No noise or projection is applied, and no infinite-time network theorem is claimed.
+
 `motor-priority-followup/` records the [source comparison and cluster-replication corollaries](../docs/motor-followup-priority.md), including 22 exact polynomial identities. Literature gaps and algebraic deductions are explicitly separated from numerical observations and scientific-priority claims.
 
 `motor-pde-lifting/` contains the [density-PDE source audit and exact algebra controls](../docs/motor-pde-lifting.md). The full-function-space lifting theorem follows from an explicit translated, exponentially contracting residual; no PDE discretization or new trajectory survey was performed.

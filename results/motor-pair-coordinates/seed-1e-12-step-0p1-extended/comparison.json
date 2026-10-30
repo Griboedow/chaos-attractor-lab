@@ -1,0 +1,160 @@
+{
+  "created_utc": "2026-10-30T10:30:46.090896+00:00",
+  "folders": [
+    "results/motor-pair-coordinates/seed-1e-12-step-0p1-extended",
+    "results/motor-pair-coordinates/seed-1e-12-step-0p05-extended"
+  ],
+  "exactly_equal_initial_chart_states": false,
+  "exactly_equal_origin_initial_chart_states": true,
+  "exactly_equal_parameters": true,
+  "exactly_equal_checkpoint_times": true,
+  "events": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "threshold": 0.0001,
+      "first_tau": 36079.81343168635,
+      "second_tau": 36079.81343179957,
+      "first_event_difference": 1.1322117643430829e-07,
+      "number_of_events": [
+        82,
+        81
+      ]
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "threshold": 0.01,
+      "first_tau": 36604.77045011842,
+      "second_tau": 36604.77045034189,
+      "first_event_difference": 2.2347376216202974e-07,
+      "number_of_events": [
+        98,
+        271
+      ]
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "threshold": 0.0001,
+      "first_tau": 37162.68358426218,
+      "second_tau": 37162.68358409411,
+      "first_event_difference": -1.6806734493002295e-07,
+      "number_of_events": [
+        43,
+        43
+      ]
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "threshold": 0.01,
+      "first_tau": 20005.404196931973,
+      "second_tau": 20005.404196918724,
+      "first_event_difference": -1.3249518815428019e-08,
+      "number_of_events": [
+        2521,
+        2521
+      ]
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "threshold": 0.0001,
+      "first_tau": null,
+      "second_tau": null,
+      "first_event_difference": null,
+      "number_of_events": [
+        0,
+        0
+      ]
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "threshold": 0.01,
+      "first_tau": 20504.661603186243,
+      "second_tau": 20000.235209762966,
+      "first_event_difference": -504.42639342327675,
+      "number_of_events": [
+        507,
+        1304
+      ]
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "threshold": 0.0001,
+      "first_tau": null,
+      "second_tau": null,
+      "first_event_difference": null,
+      "number_of_events": [
+        0,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "threshold": 0.01,
+      "first_tau": null,
+      "second_tau": null,
+      "first_event_difference": null,
+      "number_of_events": [
+        0,
+        0
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "through_tau": 20000.0,
+      "maximum_chart_difference": 1.691677836701544e-08,
+      "maximum_log10_norm_difference": 4.087664251528622e-08
+    },
+    {
+      "through_tau": 30000.0,
+      "maximum_chart_difference": 3.0868121669858084e-08,
+      "maximum_log10_norm_difference": 6.964392440522715e-08
+    },
+    {
+      "through_tau": 40000.0,
+      "maximum_chart_difference": 4.218955124146717e-08,
+      "maximum_log10_norm_difference": 1.2040820251968398e-07
+    }
+  ],
+  "trajectory_hashes": [
+    "97d70787da7a5effb01a1f280d7f95cd93fb86292324ac0c22a36665c20b73b1",
+    "3c5632a5d57aefc2482cbc6bf90dca500a8e00f32eb4671c3e8ae9ad64f7ce41"
+  ],
+  "source_sha256": "8b02b9b7646e97153e2b26404fbff3d158fd4d17829c7f5730ee02eae58f0785",
+  "caveat": "Long-time divergence is possible; event comparisons do not establish a heteroclinic theorem.",
+  "recovery_event_comparison": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "first_tau": 36079.81343168635,
+      "second_tau": 36079.81343179957,
+      "difference": 1.1322117643430829e-07
+    }
+  ],
+  "raw_event_caution": "Repeated raw crossings, especially the0.01 threshold of already separated pairs, can be missed between accepted steps when a rapid oscillation dips narrowly below threshold. Their counts and first times are retained and are not used to classify saddle escapes. The recovery comparison requires a prior checkpoint below1e-12 followed by an upward1e-4 crossing."
+}

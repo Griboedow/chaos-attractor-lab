@@ -64,7 +64,7 @@ The [448-bit recomputation](../results/motor-paired-proof/recheck-01.json) has K
 
 ## Why this is the least period
 
-The [least-period certificate](../results/motor-paired-proof/least-period.json) first revalidates the shooting root, then integrates only the eleven states with validated Picard tubes. Quarter symmetry lets it read the full `X_0` signal from the four row positions over one quarter, in the order `0,2,1,3`.
+The [least-period certificate](../results/motor-paired-proof/least-period.json) first revalidates the shooting root, then integrates only the eleven states with validated Picard tubes. Exact dyadic comparisons independently checked that its revalidated shooting box lies inside the spectral certificate's box, identifying the same locally unique root. Quarter symmetry lets it read the full `X_0` signal from the four row positions over one quarter, in the order `0,2,1,3`.
 
 Every tube with a strict position sign excludes a zero. Maximal remaining windows have a strict velocity sign throughout; certified opposite signs at their boundaries therefore establish exactly one zero, by continuity and monotonicity. This proves existence as well as uniqueness of each counted crossing. The zero at total time zero is included, while the symmetry-related final zero at time T is excluded. All other quarter-boundary positions are separated from zero.
 
@@ -149,6 +149,8 @@ M_{k+1}=\frac{L}{k+1}\sum_{j=0}^k J_j M_{k-j}.
 ```
 
 This is the same polynomial recurrence as the generic augmented scalar implementation, executed through Arb matrix operations. The same routine is evaluated on the validated Picard tube to enclose the Taylor remainder. The `--generic-jets` option retains the scalar implementation for comparison.
+
+The [successful generic-recurrence recheck](../results/motor-paired-proof/generic-recheck-02.json) independently executes every augmented scalar Taylor recurrence at 384 bits, 160 subdivisions and order 38. It revalidates the root, the four distinct cluster states and both spectral-radius bounds. This checks two implementations of the Taylor coefficient propagation, while retaining the same Picard/Taylor enclosure method and arithmetic library.
 
 The [controls](../results/motor-paired-proof/analytic-controls-final.json) check 5,848 independently assembled field, Jacobian, permutation and full-space decomposition components at eight rational states. They also test the Schur recursion on prescribed stable real/complex roots and on unstable/boundary controls. At an exact equilibrium, 2,041 computed matrix Taylor coefficients enclose independently calculated exact rational values `(LJ)^k/k!`; the generic scalar recurrence agrees within its arithmetic bounds. A separate control ensures that a coefficient interval containing zero is retained unless it is exactly zero.
 

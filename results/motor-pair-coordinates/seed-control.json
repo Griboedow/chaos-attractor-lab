@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-30T10:26:10.101041+00:00",
+  "folders": [
+    "results/motor-pair-coordinates/seed-1e-12-step-0p05",
+    "results/motor-pair-coordinates/seed-1e-25-step-0p05"
+  ],
+  "seed_halfcontrast_norms": [
+    1e-12,
+    1.0000000000000003e-25
+  ],
+  "log10_seed_ratio": 13.0,
+  "maximum_log10_ratio_error_through5000": 2.234656903965515e-12,
+  "stroboscopic_fit_window": [
+    2500,
+    5000
+  ],
+  "fitted_growing_rates": [
+    0.008696267790907765,
+    0.008696267790907779
+  ],
+  "reference_expanding_floquet_exponent": 0.008696267790971083,
+  "expected_logarithmic_delay": 3442.1210257578796,
+  "first_upward_crossing_1e_minus_4": [
+    6185.783113619743,
+    9628.148013565551
+  ],
+  "measured_first_crossing_delay": 3442.3648999458082,
+  "fitted_envelope_delay": 3442.121025782697,
+  "data_hashes": [
+    "d0ab95e033c592c13d5697704f373a0d0826cdd8008374a90630006a19fcff22",
+    "56d7438afacefc8cea5f899055aa4adea7d55c81f57490ecdb78d4996b923bdb"
+  ],
+  "code_sha256": "e880889d5d50f918437146d3fd0462cfa5bd393adc6d3505c20166b59e9561fb",
+  "caveat": "Pointwise norm oscillates within the periodic orbit; a first threshold crossing is phase-dependent. The fitted envelope delay is a separate diagnostic."
+}

@@ -1,0 +1,179 @@
+{
+  "created_utc": "2026-10-30T10:26:08.536249+00:00",
+  "folders": [
+    "results/motor-pair-coordinates/seed-1e-12-step-0p1",
+    "results/motor-pair-coordinates/seed-1e-12-step-0p05"
+  ],
+  "exactly_equal_initial_chart_states": true,
+  "exactly_equal_origin_initial_chart_states": true,
+  "exactly_equal_parameters": true,
+  "exactly_equal_checkpoint_times": true,
+  "events": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "threshold": 0.0001,
+      "first_tau": 7275.447378413897,
+      "second_tau": 7275.447378402052,
+      "first_event_difference": -1.1845258995890617e-08,
+      "number_of_events": [
+        43,
+        43
+      ]
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "threshold": 0.01,
+      "first_tau": 1338.1770195991037,
+      "second_tau": 8.929703329918656,
+      "first_event_difference": -1329.247316269185,
+      "number_of_events": [
+        872,
+        956
+      ]
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "threshold": 0.0001,
+      "first_tau": 6185.783113604954,
+      "second_tau": 6185.783113619743,
+      "first_event_difference": 1.4788383850827813e-08,
+      "number_of_events": [
+        84,
+        84
+      ]
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "threshold": 0.01,
+      "first_tau": 6717.443993715341,
+      "second_tau": 6717.443993727001,
+      "first_event_difference": 1.165972207672894e-08,
+      "number_of_events": [
+        528,
+        902
+      ]
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "threshold": 0.0001,
+      "first_tau": 1711.4099195942426,
+      "second_tau": 1711.4099195916688,
+      "first_event_difference": -2.573870006017387e-09,
+      "number_of_events": [
+        126,
+        126
+      ]
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "threshold": 0.01,
+      "first_tau": 0.4655447178444395,
+      "second_tau": 0.4655447178464327,
+      "first_event_difference": 1.9931833961095435e-12,
+      "number_of_events": [
+        359,
+        478
+      ]
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "threshold": 0.0001,
+      "first_tau": 621.7836635209453,
+      "second_tau": 621.7836635224954,
+      "first_event_difference": 1.5501200323342346e-09,
+      "number_of_events": [
+        126,
+        127
+      ]
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "threshold": 0.01,
+      "first_tau": 1153.437837178454,
+      "second_tau": 1153.4378371803941,
+      "first_event_difference": 1.940179572557099e-09,
+      "number_of_events": [
+        1793,
+        2031
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "through_tau": 1000.0,
+      "maximum_chart_difference": 5.819740800383499e-10,
+      "maximum_log10_norm_difference": 8.189127154167863e-10
+    },
+    {
+      "through_tau": 2500.0,
+      "maximum_chart_difference": 1.5296417466004186e-09,
+      "maximum_log10_norm_difference": 4.2705323721747845e-09
+    },
+    {
+      "through_tau": 5000.0,
+      "maximum_chart_difference": 3.920326618889192e-09,
+      "maximum_log10_norm_difference": 4.6104116080414315e-09
+    },
+    {
+      "through_tau": 10000.0,
+      "maximum_chart_difference": 8.924318284364574e-09,
+      "maximum_log10_norm_difference": 2.0414695711679087e-08
+    },
+    {
+      "through_tau": 20000.0,
+      "maximum_chart_difference": 1.9042393439860916e-08,
+      "maximum_log10_norm_difference": 4.6823487309666234e-08
+    }
+  ],
+  "trajectory_hashes": [
+    "79c5fd28549170e2ddf523fb3911c426efa36a04be05da9cf8c791675391899c",
+    "d0ab95e033c592c13d5697704f373a0d0826cdd8008374a90630006a19fcff22"
+  ],
+  "source_sha256": "e880889d5d50f918437146d3fd0462cfa5bd393adc6d3505c20166b59e9561fb",
+  "caveat": "Long-time divergence is possible; event comparisons do not establish a heteroclinic theorem.",
+  "recovery_event_comparison": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "first_tau": 6185.783113604954,
+      "second_tau": 6185.783113619743,
+      "difference": 1.4788383850827813e-08
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "first_tau": 16589.582279899285,
+      "second_tau": 16589.582279952825,
+      "difference": 5.354013410396874e-08
+    }
+  ],
+  "raw_event_caution": "Repeated raw crossings, especially the0.01 threshold of already separated pairs, can be missed between accepted steps when a rapid oscillation dips narrowly below threshold. Their counts and first times are retained and are not used to classify saddle escapes. The recovery comparison requires a prior checkpoint below1e-12 followed by an upward1e-4 crossing."
+}

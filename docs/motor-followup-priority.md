@@ -140,3 +140,7 @@ python results/motor-priority-followup/check_even_rows.py --output outputs/even-
 ```
 
 The useful claim at present is an exact-model periodic-orbit stability theorem with a dimension-dependent consequence. Establishing priority, a nonlinear route to chaos and a chaotic attracting invariant set remain distinct tasks.
+
+## Switching-network follow-up
+
+The later [postcritical study](motor-postcritical.md) gives finite evidence for switching between periodic saddles. The broader phenomenon already appears in globally coupled oscillator research. The [network proof strategy](motor-network-proof-strategy.md) records primary precedents from 2004, 2008 and 2011, derives the relevant invariant-subspace dimensions for this motor system, and identifies the missing validated connection and attraction arguments. Its conditional robustness discussion is not an existence theorem. Exact-model priority remains unresolved.
