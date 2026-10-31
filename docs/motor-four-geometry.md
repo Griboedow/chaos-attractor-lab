@@ -96,6 +96,12 @@ Each color is a separately integrated trajectory. The right panel applies only t
 
 The physical model is published, and symmetric chaos is old. The relevant comparisons include more than famous two-winged pictures:
 
+![The motor candidate beside published symmetric and narrow chaotic regimes](assets/motor-known-comparison.png)
+
+This comparison reintegrates the [Halvorsen system in Sprott's 1997/2004 technical note](https://sprott.physics.wisc.edu/chaos/symmetry.htm), and two examples of [partially predictable chaos studied by Wernecke, Sándor and Gros (2017)](https://doi.org/10.1038/s41598-017-01083-x). The latter include a narrow chaotic regime of the Lorenz system itself and a cubic jerk equation. Thin broadened loops and cyclic symmetry are therefore established precedents. The motor projection's particular appearance remains interesting, but neither feature alone is evidence of a new attractor type.
+
+The reference systems use their original Cartesian coordinates, while the motor panel uses physical displacement contrasts. Axis units are equal within each panel; panel scales differ. Only one common camera is shown. These are qualitative references, not an exhaustive visual atlas or a topological test. Eleven state variables alone do not establish novelty: a lower-dimensional attractor can occur inside a larger system. [Equations, starts, numerical settings and complete reference traces](../results/motor-known-comparison/).
+
 | Primary source | What it already establishes | Scope relative to this candidate |
 | --- | --- | --- |
 | [Alouges et al., source preprint](https://arxiv.org/abs/2409.03506) | The motor equations and their N-row extension | Exact model family; its novelty cannot be claimed |
@@ -103,6 +109,8 @@ The physical model is published, and symmetric chaos is old. The relevant compar
 | [Dias and Rodrigues, Hopf bifurcation with S_N symmetry](https://cmup.pt/cmup/apdias/SN_Final.pdf) | Standard permutation-symmetric Hopf branches, including four and five components | A symmetry label or rotating-wave organization alone is not a discovery |
 | [Karatetskaia et al., PRL 134, 167201 (2025)](https://doi.org/10.1103/PhysRevLett.134.167201) | Robust chaos and four-winged Lorenz-like attractors in four globally coupled identical phase oscillators | Different equations and a three-dimensional phase-difference reduction, but a strong predecessor against broad four-oscillator novelty claims |
 | [Letellier and Gilmore, 2007](https://doi.org/10.1088/1751-8113/40/21/011) | Symmetry, image and covering descriptions of three-dimensional systems | More apparent arms need not mean a new mechanism; their rotoreflection `S4` has order four, unlike the permutation group here |
+| [Sprott's symmetric-flow note, 1997/2004](https://sprott.physics.wisc.edu/chaos/symmetry.htm) | Cyclically symmetric quadratic chaos and a period-doubling route in the Halvorsen system | Threefold shape is not new; no conjugacy to the motor invariant set has been shown |
+| [Wernecke, Sándor and Gros, 2017](https://doi.org/10.1038/s41598-017-01083-x) | Narrow chaotic braids, two stages of decorrelation, and partially predictable chaos in known systems | A thin braid with a small positive exponent is not a new mechanism by itself; the corresponding motor decorrelation and bifurcation tests remain open |
 | [Ashwin and Burylko, 2015](https://arxiv.org/abs/1407.8070), [Bick and Ashwin, 2016](https://arxiv.org/abs/1509.08824), [Bick, 2017](https://doi.org/10.1007/s00332-016-9345-2) | Weak chimeras, chaotic partial frequency synchronization, and the distinction between set symmetry and frequency symmetry | A distinguished motor row alone is not a new mechanism or a proved weak chimera. The exclusion for fully symmetric phase-only networks does not automatically apply to this amplitude/occupancy model |
 
 Swift and Barany's 1991 work on chaos at a tetrahedral Hopf bifurcation is another relevant precedent; its bibliographic existence is confirmed in the [author's publication list](https://math.nmsu.edu/_files/professorcvs/barany_CV_24.pdf), but its full equations have not been compared. The complete Anello and Levillain theses remain unresolved exact-model priority gaps, as recorded in the [motor follow-up audit](motor-followup-priority.md).

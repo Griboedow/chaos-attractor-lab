@@ -1,0 +1,63 @@
+{
+  "motor_source": "results\\motor-four-geometry\\long\\case-3142.npz",
+  "motor_sha256": "bf99b99dfd3d80dafc7c1ddb0b780d35608f53e52e218807ed58578f45d03bfa",
+  "motor_display": "Final600tau of source12ktau history, stride2/.04tau.",
+  "reference_runs": [
+    {
+      "name": "Halvorsen / Sprott",
+      "parameter": "a = 1.27",
+      "url": "https://sprott.physics.wisc.edu/chaos/symmetry.htm",
+      "interpretation": "Cyclic quadratic flow; symmetry and period-doubling precedent.",
+      "warm": 1000.0,
+      "observation": 1000.0,
+      "step": 0.02,
+      "initial": [
+        0.1,
+        0,
+        0
+      ],
+      "method": "DOP853,rtol2e-11,atol2e-13,maxstep=sample spacing.",
+      "samples": 50001,
+      "file": "reference-0.npz",
+      "sha256": "4628327a9b8a4d35bd92eb42fb6f972cb4cb89fc6b59cf473bed90ec637d419e"
+    },
+    {
+      "name": "Lorenz: a narrow chaotic regime",
+      "parameter": "sigma = 10, beta = 8/3, rho = 180.78",
+      "url": "https://doi.org/10.1038/s41598-017-01083-x",
+      "interpretation": "Published partially predictable chaos example, not the familiar rho=28 butterfly.",
+      "warm": 200.0,
+      "observation": 200.0,
+      "step": 0.002,
+      "initial": [
+        0.1,
+        0,
+        0
+      ],
+      "method": "DOP853,rtol2e-11,atol2e-13,maxstep=sample spacing.",
+      "samples": 100001,
+      "file": "reference-1.npz",
+      "sha256": "06d0daf7d9c8acf015a3f84bdb69f3ed17a6639af77de65dd2d5e73feda94aba"
+    },
+    {
+      "name": "Cubic jerk: a narrow chaotic regime",
+      "parameter": "b = 0.3783",
+      "url": "https://doi.org/10.1038/s41598-017-01083-x",
+      "interpretation": "Equation15 and Figure9 of Wernecke etal2017; published braided-chaos example.",
+      "warm": 1000.0,
+      "observation": 1000.0,
+      "step": 0.02,
+      "initial": [
+        0.1,
+        0,
+        0
+      ],
+      "method": "DOP853,rtol2e-11,atol2e-13,maxstep=sample spacing.",
+      "samples": 50001,
+      "file": "reference-2.npz",
+      "sha256": "aaeca6fcaface5d35e7a0b09b8d6d5ff75ebb571198e835c6a8ca78543f5edbe"
+    }
+  ],
+  "coordinate_rule": "Motor:fixed orthonormal H X. Reference systems:unmodified x,y,z. Per-panel bounds/equal axis units; no deformation or fitted embedding.",
+  "limitation": "Qualitative appearance only. Reference systems are known; no new scientific result claimed for their reintegration."
+}
