@@ -1,0 +1,78 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-long\\case-2566.npz",
+  "source_sha256": "e558a54c16e8ec021d6e90ee5222ed3265133c58bf3a2145e5563ee75036c9fe",
+  "parameters": [
+    2.0238144033191343,
+    5.193274038098629,
+    0.7
+  ],
+  "source_field_and_complex_step_jacobian_relative_error": 3.311971202864686e-16,
+  "sample_ids": [
+    0,
+    37500,
+    75000,
+    112500,
+    150000,
+    187500,
+    225000,
+    262500,
+    300000,
+    337499,
+    374999,
+    412499,
+    449999,
+    487499,
+    524999,
+    562499,
+    599999
+  ],
+  "short_independent_source_Radau_vs_DOP853": [
+    {
+      "sample": 0,
+      "time": 200.02,
+      "error": 2.5845992013273644e-13
+    },
+    {
+      "sample": 300000,
+      "time": 6200.02,
+      "error": 1.4815926263622714e-13
+    },
+    {
+      "sample": 599999,
+      "time": 12200.0,
+      "error": 2.7833291227352674e-13
+    }
+  ],
+  "row_distances": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "minimum": 0.37513778912373286,
+      "rms": 1.9410747175935599
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "minimum": 0.3543121897496188,
+      "rms": 1.996200331862538
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "minimum": 0.3263089077058368,
+      "rms": 1.9728450629831091
+    }
+  ],
+  "row_distance_scope": "Finite observations in (c_j,s_j,X_j); not a proof of separation for all time.",
+  "maximum_disk_radius_squared": 1.3665135802956847,
+  "disk_bound": 1.49,
+  "source_rate_amplitude": -0.08192319205190406,
+  "source_rate_harmonic_amplitude": 0.1,
+  "warning": "No exact cluster reduction or novel topology is inferred from these numerical checks."
+}

@@ -2,7 +2,11 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
-**[Current geometry search](docs/geometry-search-20261031.md):** no distinctive new attractor is established. A four-link chain has an independently checked chaotic numerical regime, but physical link crossings and an unpersuasive geometry prevent its promotion. Completed negative screens and prior-art exclusions are retained.
+**[Current visual candidate: a slender motor ribbon](docs/motor-asymmetry-geometry.md).** A 4,032-run asymmetry survey yields a more legible numerical chaotic regime, checked over 12,000 time units. Its topology and historical novelty remain unresolved. The [earlier geometry search](docs/geometry-search-20261031.md) and its negative screens remain available.
+
+![Rotating slender numerical motor candidate](docs/assets/motor-ribbon-rotation.gif)
+
+An orthogonal view of three source coordinates in an eight-dimensional flow. The camera rotates around fixed data; this is not a claim of a new three-dimensional attractor. [Full numerical and visual audit](docs/motor-asymmetry-geometry.md).
 
 **[Research manuscript: replication-induced instability of a certified five-cluster motor cycle](papers/replication-instability/README.md)** · **[PDF](papers/replication-instability/manuscript.pdf)**
 

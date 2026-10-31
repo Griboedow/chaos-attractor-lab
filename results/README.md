@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`motor-asymmetry/` records the [asymmetry and ribbon investigation](../docs/motor-asymmetry-geometry.md): all 4,032 scout lanes, six stratified full spectra, two 12,000-unit checks, a stricter recalculation, and source-form controls. The dense selected ribbon trace is included; other large histories are hash-indexed. The rotation and camera audit preserve explicit physical projections. Priority and topology remain unresolved.
+
 `geometry-search-20261031/` records the [geometry-led screening block](../docs/geometry-search-20261031.md): motor comparisons, 432 reconciled straight-chain cases, 4,096 curved-chain scouts and 2,048 four-link scouts. The independently continued four-link candidate has strong finite-time expansion but frequent physical link crossings. No new attractor claim is made. The compact manifest includes all selected adaptive traces and GPU endpoints; excluded large local histories are separately hash-indexed.
 
 `motor-five-replication-proof/` supplies the separate [replication-limit theorem](../docs/motor-five-replication-limit.md): interval integration of the two formerly singleton contrast blocks, independent full N=16 embedding controls and a 768-bit replay of strict real-root brackets. Exact copies with N=8k, k>=2, have at least `2(k-1)` unstable directions at fixed normalized parameters. The eight-row attraction packet below remains unchanged.

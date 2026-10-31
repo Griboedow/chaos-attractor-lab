@@ -64,6 +64,8 @@ These are bounded screening decisions, not global impossibility claims. The two-
 
 ## Selection rule for further work
 
+The [minimal biofilm oscillator exclusion](biofilm-equivalence-exclusion.md) adds an exact equation match to Smith's 2011 no-chaos result for the Wilhelm–Heinrich system. Reinterpreting the variables as biofilm metabolites does not create a new attractor. Later extensions require separate assessment.
+
 Favor an explicit published model with enough effective dynamical states, a meaningful bounded operating domain, and a reason to expect loss of regular motion. Check exact identifiers, author work, supplements, dissertations, forward citations and equivalent equations. Then separate three questions:
 
 1. Does the model actually show persistent deterministic irregularity under independent numerical checks?

@@ -1,0 +1,143 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry\\complete-or-budgeted.npz",
+  "source_sha256": "958e0963d2965973d9c3727c33f49230a956f1f9feb2e4ef5d95f17273606cc4",
+  "selection": "For every b: first retained start per parameter tuple, sorted by leading rate, select endpoints and median. All four scout windows >.01.",
+  "selected": [
+    1774,
+    1915,
+    2566,
+    2742,
+    2838,
+    2935
+  ],
+  "jobs": [
+    {
+      "id": 1774,
+      "parameters": [
+        0.3,
+        3.9000000000000004,
+        0.35
+      ],
+      "initial": [
+        0.5642121805811683,
+        0.4801666984144717,
+        0.24994733508513017,
+        0.5802587501911908,
+        -0.6871912769639047,
+        0.5845106905025667,
+        -1.9378730337415893,
+        0.8458078134176145
+      ],
+      "warm": 200.0,
+      "duration": 1200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-checks"
+    },
+    {
+      "id": 1915,
+      "parameters": [
+        0.9430851606791455,
+        5.311785944926787,
+        0.35
+      ],
+      "initial": [
+        0.10575464883472648,
+        0.5716057211539805,
+        0.0873274635339282,
+        0.5249211865754082,
+        0.6047957049456734,
+        -0.1983193613888341,
+        0.5364925130396239,
+        1.653548631076033
+      ],
+      "warm": 200.0,
+      "duration": 1200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-checks"
+    },
+    {
+      "id": 2566,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        0.7
+      ],
+      "initial": [
+        0.182796914392684,
+        0.6700280946470301,
+        0.7792223150467322,
+        0.9366361295207505,
+        -0.14760382286461787,
+        0.5837665861846354,
+        1.1825317873647738,
+        -1.8587161411914803
+      ],
+      "warm": 200.0,
+      "duration": 1200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-checks"
+    },
+    {
+      "id": 2742,
+      "parameters": [
+        9.319877940708889,
+        12.219982160401562,
+        0.7
+      ],
+      "initial": [
+        0.5193429461754733,
+        1.0183107402352845,
+        0.6818274668313784,
+        1.025867275708203,
+        -0.22410683661194153,
+        0.9416268037608432,
+        0.5326333222551779,
+        -1.0364067441497982
+      ],
+      "warm": 200.0,
+      "duration": 1200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-checks"
+    },
+    {
+      "id": 2838,
+      "parameters": [
+        20.0,
+        24.8665368759977,
+        0.7
+      ],
+      "initial": [
+        0.22245658392573084,
+        1.0152385359197582,
+        0.7831386932790861,
+        0.9740162154127289,
+        -0.3380195517339749,
+        0.7192067797262636,
+        0.6309254904176811,
+        -0.882668065792421
+      ],
+      "warm": 200.0,
+      "duration": 1200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-checks"
+    },
+    {
+      "id": 2935,
+      "parameters": [
+        0.4394719292611731,
+        1.7045086576636435,
+        1.5
+      ],
+      "initial": [
+        1.0352489297231622,
+        0.7064231448306488,
+        1.1863716451004844,
+        1.4658278238705333,
+        1.604901313271458,
+        1.3219718969905658,
+        0.4873323365416655,
+        -0.8606880969452457
+      ],
+      "warm": 200.0,
+      "duration": 1200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-asymmetry-checks"
+    }
+  ],
+  "method": "DOP853 full 8D QR .5; rtol2e-10,atol2e-12,maxstep.02; uniform .02 samples",
+  "warning": "Finite-time spectra and visual screening; no novel attractor claim."
+}

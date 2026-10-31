@@ -4,6 +4,8 @@ The added research objective is to find a robust chaotic-attractor candidate tha
 
 The [31 October geometry-led search](geometry-search-20261031.md) adds dense motor views, a nine-point three-row survey, and follower-force chains. Its strongest four-link chaos candidate fails the physical crossing and visual selection gates. The report preserves all finite-search and novelty limitations.
 
+The subsequent [motor-asymmetry investigation](motor-asymmetry-geometry.md) retains a slender numerical ribbon with a [rotating view](assets/motor-ribbon-rotation.gif), multiple fixed cameras, and an unfiltered return-section audit. It is an eight-dimensional candidate in an existing model; improved visual clarity does not establish a new topology.
+
 ## Motor regimes in physical coordinates
 
 ![Rotating physical projections of two motor regimes](assets/motor-regimes-rotation.gif)
