@@ -1,0 +1,49 @@
+{
+  "links": 4,
+  "count": 2048,
+  "seed": 17404,
+  "step": 0.002,
+  "warm": 200.0,
+  "duration": 1000.0,
+  "logarithmic_bounds": [
+    [
+      0.6,
+      0.3,
+      0.3,
+      0.3,
+      0.5,
+      0.5,
+      0.5,
+      0.7,
+      0.7,
+      0.7
+    ],
+    [
+      100.0,
+      3.0,
+      3.0,
+      3.0,
+      2.0,
+      2.0,
+      2.0,
+      1.4,
+      1.4,
+      1.4
+    ]
+  ],
+  "rest_turn_bounds": [
+    -0.2,
+    0.2
+  ],
+  "straight_count": 1024,
+  "parameters": "force, k[2:N], drag[2:N], length[2:N], rest_turn[2:N]",
+  "method": "FP64 RK4 state plus analytic tangent, .1 tau renormalization; 4 observed windows",
+  "device": "NVIDIA GeForce GTX 1080",
+  "field_relative_error": 3.796101809352039e-15,
+  "kernel_sha256": "91cdbf856675d1c233d901261c59d04058fae048974bffbd0e1f29d7234c2678",
+  "sources": [
+    "De Canio2017 Sec.4",
+    "Ling, Guo, Kanso2018 Sec.7, DOI10.1098/rsif.2018.0594"
+  ],
+  "limitations": "Established chain construction with declared parameter variations. Strict planar constraint; no contact or nonlocal drag. No novelty claim."
+}

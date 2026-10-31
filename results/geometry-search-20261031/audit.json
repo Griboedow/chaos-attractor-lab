@@ -1,0 +1,25 @@
+{
+  "stiffness_histories_hash_checked": 432,
+  "curved_scouts": 4096,
+  "curved_retained": 0,
+  "four_link_scouts": 2048,
+  "four_link_retained": [
+    824
+  ],
+  "pilot_is_prefix": true,
+  "scope": "Compact published evidence. Large motor and straight-chain histories remain locally indexed, not included here.",
+  "failures": [
+    {
+      "run": "motor-shapes-20261031",
+      "reason": "Empty event array shape; corrected before separate run02."
+    },
+    {
+      "run": "follower-links-20261031-stiffness",
+      "reason": "Disk full; 429 valid histories and three exact-job recoveries, IDs 247/249/252."
+    },
+    {
+      "run": "curved-follower-20261031-broad",
+      "reason": "Disk full at first observed checkpoint; separate complete run02 on D drive. No failed interval counted as negative."
+    }
+  ]
+}

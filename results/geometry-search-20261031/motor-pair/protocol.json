@@ -1,0 +1,88 @@
+{
+  "source": "results/motor-pair/gpu-refined-complete.npz",
+  "source_sha256": "c2a5d81e5cb468d52076658384bb444bc248998ebe11d446d3228522eed94f96",
+  "script_sha256": "975a5fca37ea907ac63eeed2738033cd975f71b95fbc13f5f0fa2083a160d951",
+  "selection": "One representative of each of the four retained r values; first source ID at each value.",
+  "jobs": [
+    {
+      "source_id": 437,
+      "parameters": [
+        0.03324597932270942,
+        577.9462797685308
+      ],
+      "initial": [
+        -0.06503981041697189,
+        0.08522498937890481,
+        0.9926634752732247
+      ],
+      "inherited_window_estimates": [
+        0.010726337858693197,
+        0.012696535316135897,
+        0.014428872962985692,
+        0.008444864853646901
+      ]
+    },
+    {
+      "source_id": 440,
+      "parameters": [
+        0.03324597932270942,
+        766.309432393553
+      ],
+      "initial": [
+        -0.011674789024367142,
+        -0.030737528977124933,
+        0.9990360482369675
+      ],
+      "inherited_window_estimates": [
+        0.013433420009841586,
+        0.012955941755319065,
+        0.012464229271436483,
+        0.013290220282308633
+      ]
+    },
+    {
+      "source_id": 441,
+      "parameters": [
+        0.03324597932270942,
+        1016.0635455781764
+      ],
+      "initial": [
+        0.02562342257038392,
+        -0.04666603892857715,
+        0.9977948484429018
+      ],
+      "inherited_window_estimates": [
+        0.012270377646384553,
+        0.014623769344115531,
+        0.014510371214866756,
+        0.011714218363788791
+      ]
+    },
+    {
+      "source_id": 444,
+      "parameters": [
+        0.03324597932270942,
+        1347.217044462391
+      ],
+      "initial": [
+        0.03952493855201588,
+        -0.05338778557556429,
+        0.9971218290319566
+      ],
+      "inherited_window_estimates": [
+        0.015995650083082524,
+        0.01602293546006295,
+        0.012538918960558934,
+        0.012447434133396343
+      ]
+    }
+  ],
+  "duration": 800.0,
+  "method": "DOP853",
+  "rtol": 1e-11,
+  "atol": 1e-13,
+  "max_step": 0.005,
+  "chunks": 100.0,
+  "sampling": "All accepted solver points, no interpolation, no trajectory clipping.",
+  "status": "Numerical geometry follow-up; no new attractor, topology or priority claim."
+}

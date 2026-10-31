@@ -2,6 +2,8 @@
 
 The added research objective is to find a robust chaotic-attractor candidate that looks substantially different from familiar examples. This complements the search for overlooked regimes in concrete physical models. The objective remains open. The figures distinguish certified periodic motion from numerical chaos candidates; visual appearance alone does not establish a new attractor type.
 
+The [31 October geometry-led search](geometry-search-20261031.md) adds dense motor views, a nine-point three-row survey, and follower-force chains. Its strongest four-link chaos candidate fails the physical crossing and visual selection gates. The report preserves all finite-search and novelty limitations.
+
 ## Motor regimes in physical coordinates
 
 ![Rotating physical projections of two motor regimes](assets/motor-regimes-rotation.gif)

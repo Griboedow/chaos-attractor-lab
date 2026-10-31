@@ -1,0 +1,95 @@
+{
+  "spectrum": [
+    0.26837563716461493,
+    0.0010662117669186571,
+    -4.911583657183324,
+    -14.612837996372043
+  ],
+  "windows": [
+    {
+      "end": 600.0,
+      "spectrum": [
+        0.28805565917777526,
+        0.004462816480859027,
+        -4.765830161861025,
+        -14.478266286961636
+      ],
+      "mean_divergence": -18.95157797315673
+    },
+    {
+      "end": 1100.0,
+      "spectrum": [
+        0.21088054692607847,
+        -0.001901912974172165,
+        -4.953672047188126,
+        -14.606065904006599
+      ],
+      "mean_divergence": -19.35075931723571
+    },
+    {
+      "end": 1600.0,
+      "spectrum": [
+        0.29431261273495235,
+        0.003944739687931894,
+        -4.853361599356745,
+        -14.643997310745398
+      ],
+      "mean_divergence": -19.1991015576728
+    },
+    {
+      "end": 2100.0,
+      "spectrum": [
+        0.2802537298196537,
+        -0.002240796126944127,
+        -5.0734708203274,
+        -14.72302248377454
+      ],
+      "mean_divergence": -19.518480370402308
+    }
+  ],
+  "trace_residual_per_tau": 6.9485395215451714e-12,
+  "min_state": [
+    -9.210198546538619,
+    -13.530622321793635,
+    -17.61557198293514,
+    -17.467567061879393
+  ],
+  "max_state": [
+    9.15862632140555,
+    13.486159668724676,
+    17.56842195415471,
+    17.41827245146788
+  ],
+  "sections": 222,
+  "crossing_check": {
+    "samples": 200000,
+    "sampled_strict_intersections": 29178,
+    "sampled_intersection_fraction": 0.14589,
+    "pairs": [
+      {
+        "segments": [
+          1,
+          3
+        ],
+        "sampled_crossings": 2236
+      },
+      {
+        "segments": [
+          1,
+          4
+        ],
+        "sampled_crossings": 14054
+      },
+      {
+        "segments": [
+          2,
+          4
+        ],
+        "sampled_crossings": 26152
+      }
+    ],
+    "warning": "Zero-thickness nonadjacent segment crossings at saved samples only; no continuous clearance certificate."
+  },
+  "wall_seconds": 117.8871843999998,
+  "status": "Finite-time numerical evidence only; no historical or topological novelty claim."
+}

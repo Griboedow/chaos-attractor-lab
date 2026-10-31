@@ -1,0 +1,37 @@
+{
+  "source": "outputs\\curved-follower-20261031-pilot\\complete.npz",
+  "source_sha256": "390b3dd7f08749f5f72be23f069768995dc9ce84bbe4e7aea13c0dac1f57c962",
+  "id": 92,
+  "parameters": [
+    24.892272404404803,
+    0.5445275006389344,
+    7.1574770653932545,
+    1.61393921780857,
+    0.46365569073082524,
+    0.6030299414766996,
+    1.1657489901955844,
+    -0.017614581435918764,
+    0.05017091892659664
+  ],
+  "initial": [
+    4.1871722149706585,
+    6.0413441552734914,
+    6.654594896426512
+  ],
+  "warm": 100.0,
+  "duration": 2000.0,
+  "method": "DOP853 full 3D variational QR; independent general-matrix and complex-step controls",
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "max_step": 0.01,
+  "qr": 0.1,
+  "sampling": 0.01,
+  "algebra_error": 8.881784197001252e-15,
+  "equilibrium": [
+    23.534672476029844,
+    22.134595113396657,
+    22.184766032323253
+  ],
+  "equilibrium_residual": 3.557364413335949e-14,
+  "selection": "High mean pilot rates examined even when the four-window retention test failed."
+}

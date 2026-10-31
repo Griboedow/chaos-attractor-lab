@@ -1,0 +1,65 @@
+{
+  "spectrum": [
+    0.004384696423872585,
+    -1.7495690341771606,
+    -2.3474853553851482
+  ],
+  "windows": [
+    {
+      "end": 600.0,
+      "spectrum": [
+        0.007468843051207923,
+        -1.8009073511541591,
+        -2.4026679277774314
+      ],
+      "mean_divergence": -4.196106435880421
+    },
+    {
+      "end": 1100.0,
+      "spectrum": [
+        0.006025685154178261,
+        -1.7922816099712868,
+        -2.3917008980875747
+      ],
+      "mean_divergence": -4.177956822904706
+    },
+    {
+      "end": 1600.0,
+      "spectrum": [
+        0.003705085814786381,
+        -1.7321065648490135,
+        -2.3342407470227746
+      ],
+      "mean_divergence": -4.062642226057075
+    },
+    {
+      "end": 2100.0,
+      "spectrum": [
+        0.00033917167531777537,
+        -1.672980610734183,
+        -2.2613318486528113
+      ],
+      "mean_divergence": -3.9339732877117
+    }
+  ],
+  "trace_residual_per_tau": 3.9563019527122376e-14,
+  "min_state": [
+    -16.738569042271653,
+    -17.449460992864314,
+    -17.126160192406374
+  ],
+  "max_state": [
+    23.55092881193608,
+    23.49670552543215,
+    23.284103392530838
+  ],
+  "sections": 364,
+  "crossing_check": {
+    "sampled_strict_intersections": 0,
+    "samples": 200000,
+    "sampled_intersection_fraction": 0.0,
+    "warning": "Sampled zero-thickness segments only; absence does not certify positive clearance."
+  },
+  "wall_seconds": 80.97167489999993,
+  "status": "Finite-time numerical evidence only; no historical or topological novelty claim."
+}

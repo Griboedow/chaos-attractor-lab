@@ -1,0 +1,5440 @@
+{
+  "completed": 247,
+  "declared": 432,
+  "runs": [
+    {
+      "id": 0,
+      "force": 0.6,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.10881920511966388,
+      "windows": [
+        -0.10882874933769279,
+        -0.10882132201694564,
+        -0.10881552205942926,
+        -0.10881122706458785
+      ],
+      "min_angle_norm": 6.603487241478227e-49,
+      "max_absolute_angle": 3.213427147314192e-11,
+      "file": "case-0000.npz",
+      "sha256": "3fd366be3f0c894d9e072efe881a65cb47adf4dc881dba2b6451a657c71b2eda",
+      "wall_seconds": 3.3407349000000295,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 1,
+      "force": 0.6617659870749677,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.06966036672212617,
+      "windows": [
+        -0.06890415427011842,
+        -0.06939196101401152,
+        -0.06991304525326959,
+        -0.07043230635110548
+      ],
+      "min_angle_norm": 6.436798833224619e-32,
+      "max_absolute_angle": 1.1055400834378158e-07,
+      "file": "case-0001.npz",
+      "sha256": "22e306b0b5dd159794a725c6cb49dfa7a54d3ad1181ee89e3db3c75b9a5716ef",
+      "wall_seconds": 3.3007451999999375,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 2,
+      "force": 0.7298903694155106,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.024616326919865705,
+      "windows": [
+        -0.025634407199811554,
+        -0.023578288429289395,
+        -0.025211512958811057,
+        -0.024041099091550763
+      ],
+      "min_angle_norm": 2.5982276125577917e-12,
+      "max_absolute_angle": 0.0010576743929303824,
+      "file": "case-0002.npz",
+      "sha256": "cb6c66ff517b98314faaac53193dcd5f1b460bf190e43fcb7b58e7e2e4e586f7",
+      "wall_seconds": 3.4086493999999448,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 3,
+      "force": 0.805027701287947,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00020233262860409169,
+      "windows": [
+        0.0005350744508718915,
+        1.4355010290346528e-05,
+        -0.0002535799917327286,
+        0.0005134810449868588
+      ],
+      "min_angle_norm": 0.3439182391371187,
+      "max_absolute_angle": 0.43187433459235935,
+      "file": "case-0003.npz",
+      "sha256": "71387bb07c0d3accadf72962a7dd016053be693a2c194f3ee90f6d11ce17c22c",
+      "wall_seconds": 2.970204400000057,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 4,
+      "force": 0.8878999189425175,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -8.643408426961276e-05,
+      "windows": [
+        0.0005046965919245775,
+        -0.0014942085431994784,
+        0.00023620366156325677,
+        0.00040757195263319934
+      ],
+      "min_angle_norm": 0.5939892466472003,
+      "max_absolute_angle": 0.7762854126524282,
+      "file": "case-0004.npz",
+      "sha256": "b9aa135c5765a17d96c7ca16888a1a7ccc92d2adacec05d9372d2ba59a7c4bbb",
+      "wall_seconds": 2.9432623999999805,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 5,
+      "force": 0.979303277137965,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00019007557189191382,
+      "windows": [
+        7.432244009899307e-05,
+        7.959876060337715e-05,
+        0.00018355943979929846,
+        0.00042282164706598785
+      ],
+      "min_angle_norm": 0.7579481660802656,
+      "max_absolute_angle": 1.0402430214776763,
+      "file": "case-0005.npz",
+      "sha256": "35511416ea6ed30927468e7616f89468cde6f6cdbbae79dd153028c6d6b5d40f",
+      "wall_seconds": 2.9835203000000092,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 6,
+      "force": 1.0801159997349268,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 9.693932960215385e-05,
+      "windows": [
+        9.492238178750317e-05,
+        6.957224825637221e-05,
+        4.618674842759849e-05,
+        0.00017707593993714218
+      ],
+      "min_angle_norm": 0.8847791596111115,
+      "max_absolute_angle": 1.26607118828672,
+      "file": "case-0006.npz",
+      "sha256": "658ed82872a8dcc79f584de95cdbde35a1c4b81e7b56861fd4be775365d7a9a9",
+      "wall_seconds": 3.1031372999999576,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 7,
+      "force": 1.191306717866749,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 1.530707984577661e-05,
+      "windows": [
+        0.00014962904489046434,
+        0.0001550562128313814,
+        0.0011568056438363199,
+        -0.0014002625821750603
+      ],
+      "min_angle_norm": 0.9896491484927235,
+      "max_absolute_angle": 1.4651872870193938,
+      "file": "case-0007.npz",
+      "sha256": "1f1c56e57b1b48cae17c634f0623bf8979448eb948b2d86c64b65e23fd642a53",
+      "wall_seconds": 3.0590932999999723,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 8,
+      "force": 1.3139437767635487,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -1.4800557501949276e-05,
+      "windows": [
+        0.0005895381783106292,
+        -0.00039189964134351315,
+        -0.0003150435112844381,
+        5.820274430952615e-05
+      ],
+      "min_angle_norm": 1.0796051017272816,
+      "max_absolute_angle": 1.6440975179355397,
+      "file": "case-0008.npz",
+      "sha256": "0dc6aaf5343942dd218e84604717e4b6f16f6d6ef8d596a552b4a04f70d72c8e",
+      "wall_seconds": 3.0919388000000936,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 9,
+      "force": 1.4492055006515683,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 2.11053057595906e-05,
+      "windows": [
+        0.0005020517647306437,
+        -0.00041980726852795255,
+        0.000424639968136108,
+        -0.0004224632413004384
+      ],
+      "min_angle_norm": 1.1586294137223283,
+      "max_absolute_angle": 1.8074506141916036,
+      "file": "case-0009.npz",
+      "sha256": "4d54df2c28524adb4a5a681a517d6f7f812e2ac0b5bbda9f762dd270b9940f96",
+      "wall_seconds": 3.038167999999928,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 10,
+      "force": 1.5983915143552632,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 2.816829095783202e-05,
+      "windows": [
+        0.00015610412308149254,
+        0.0007451347088066561,
+        -0.0009908059030930402,
+        0.0002022402350362188
+      ],
+      "min_angle_norm": 1.2292646365161255,
+      "max_absolute_angle": 1.9772979331551122,
+      "file": "case-0010.npz",
+      "sha256": "f551f9b3eb69506f64ec1a7ca6c56bcd4f330d9943aacd0d035545ee3744ad1e",
+      "wall_seconds": 3.044859900000006,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 11,
+      "force": 1.7629352303826054,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.00016139083244230852,
+      "windows": [
+        2.0831586495019045e-05,
+        -0.00011507448811298138,
+        0.0007104523268766382,
+        -0.0012617727550279104
+      ],
+      "min_angle_norm": 1.2932717876343576,
+      "max_absolute_angle": 2.162906034308029,
+      "file": "case-0011.npz",
+      "sha256": "02ef458e3059e1fd30d48e1e08847b89fca6b1b113f61c5e4c31cc094ab994c4",
+      "wall_seconds": 3.0123696000000564,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 12,
+      "force": 1.9444176214723006,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 1.1545506940942736e-05,
+      "windows": [
+        0.0010965889320854643,
+        -0.0009582796052670872,
+        0.0008284588245116081,
+        -0.0009205861235662127
+      ],
+      "min_angle_norm": 1.3518387063840733,
+      "max_absolute_angle": 2.3468651996919827,
+      "file": "case-0012.npz",
+      "sha256": "cfb3603ca0c3acf80618842f28653cfefd520dc5686faccbfc97f9341917da6e",
+      "wall_seconds": 3.158314500000074,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 13,
+      "force": 2.1445824109326304,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0005640272069993023,
+      "windows": [
+        0.00041246557713131056,
+        0.0005243062527848829,
+        0.0006237322045107814,
+        0.0006956047935702346
+      ],
+      "min_angle_norm": 1.4037499984883326,
+      "max_absolute_angle": 2.529485709048135,
+      "file": "case-0013.npz",
+      "sha256": "299191f9b40efd1c5c6eea78ed95ff7488101042954cb2e29b766e4c19034c60",
+      "wall_seconds": 3.1545626000000766,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 14,
+      "force": 2.365352826724077,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.000698325129913748,
+      "windows": [
+        -0.006018447717474892,
+        0.0023604032040091196,
+        -0.003406960477786253,
+        0.004271704471597011
+      ],
+      "min_angle_norm": 1.321391736206885,
+      "max_absolute_angle": 5.542885005269677,
+      "file": "case-0014.npz",
+      "sha256": "494ca63ec2688dc993c9547da50e462931993a79bc0e6feb1ff4419ddc39c7b0",
+      "wall_seconds": 3.1333702000000585,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 15,
+      "force": 2.6088500802627066,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00017191691074314365,
+      "windows": [
+        9.310105850461988e-05,
+        0.00016395332167185007,
+        0.00021839434488528603,
+        0.00021221891791083178
+      ],
+      "min_angle_norm": 1.3485539492705407,
+      "max_absolute_angle": 6.209911443892769,
+      "file": "case-0015.npz",
+      "sha256": "5cf6a3210c947945372e0e98e3645a73a04c9a56452f48503f3d7b390d0464d4",
+      "wall_seconds": 3.221393799999987,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 16,
+      "force": 2.8774137474927644,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.00043442563787479633,
+      "windows": [
+        0.0036414937664564976,
+        -0.004571698698303292,
+        0.005079882406870774,
+        -0.0058873800265231745
+      ],
+      "min_angle_norm": 1.3747887322418,
+      "max_absolute_angle": 7.474790180928751,
+      "file": "case-0016.npz",
+      "sha256": "5b76c3d0e67f76df91618c260280b117469588b379d8648818f05d13381d3ee8",
+      "wall_seconds": 3.150618499999837,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 17,
+      "force": 3.1736242480543853,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0021072760223025235,
+      "windows": [
+        0.0006765221845000307,
+        -0.009545205695859614,
+        -0.0005256628770592383,
+        0.0009652422992087506
+      ],
+      "min_angle_norm": 1.3995335174410084,
+      "max_absolute_angle": 11.335260351392604,
+      "file": "case-0017.npz",
+      "sha256": "ccd8497be2b936074e8b9fcd8b0636b5afb657ba05cc91d1a6bd5df0d04e155d",
+      "wall_seconds": 3.1666126999998596,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 18,
+      "force": 3.5003276385312714,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0006024377670401786,
+      "windows": [
+        -0.002489494663100771,
+        0.00564672467348209,
+        -0.0011832801347648613,
+        -0.004383700943777174
+      ],
+      "min_angle_norm": 1.4235176301305972,
+      "max_absolute_angle": 11.488419213757123,
+      "file": "case-0018.npz",
+      "sha256": "b93f979721ec64a4ebabaf8d1bfd3e000ce36cc2805c87fbb382ef640749f947",
+      "wall_seconds": 3.2345514999999523,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 19,
+      "force": 3.8606629579973957,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0006924909383592809,
+      "windows": [
+        0.005878237857626708,
+        -0.003763965104257849,
+        0.002501981741953682,
+        -0.0018462907418853975
+      ],
+      "min_angle_norm": 1.4465842288516095,
+      "max_absolute_angle": 11.73788047969381,
+      "file": "case-0019.npz",
+      "sha256": "104e617f2b60061d802f03dc021a892b63fc7c03cad0e5bf48e24c48e9185636",
+      "wall_seconds": 3.1923541000001023,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 20,
+      "force": 4.258092388604853,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00013523998835869694,
+      "windows": [
+        0.0031041698231851194,
+        -0.002848172158009522,
+        0.0038285111930637743,
+        -0.0035435489048045755
+      ],
+      "min_angle_norm": 1.4690279700059252,
+      "max_absolute_angle": 11.985312078301058,
+      "file": "case-0020.npz",
+      "sha256": "5e7197273ede8b9b35ad9bf8120652f99e1e88f58c1a36a219a51e826508c364",
+      "wall_seconds": 3.181521200000134,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 21,
+      "force": 4.696434521002495,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 9.609485617420192e-05,
+      "windows": [
+        0.002873546551073873,
+        -0.0029359687918007866,
+        0.0034876739939221136,
+        -0.003040872328498417
+      ],
+      "min_angle_norm": 1.4910813349175833,
+      "max_absolute_angle": 12.237983447786792,
+      "file": "case-0021.npz",
+      "sha256": "0a23c44c7723ed1cdef440826f4b5b8b26baca4898b320710f00a2713203b27e",
+      "wall_seconds": 3.546386999999868,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 22,
+      "force": 5.17990104420695,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0015487630737057543,
+      "windows": [
+        0.003418841521746433,
+        0.0026696103015324485,
+        -0.0030249447560129227,
+        0.0031315452275570595
+      ],
+      "min_angle_norm": 1.5129483356499531,
+      "max_absolute_angle": 12.501644353021385,
+      "file": "case-0022.npz",
+      "sha256": "1dce33497be27a2fd11482e57a181a52a8802c39593564a2521779a9c257cfdf",
+      "wall_seconds": 3.481846300000143,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 23,
+      "force": 5.713137212450447,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.001009919619995209,
+      "windows": [
+        0.003122733423981946,
+        0.0019140950921641654,
+        -0.004057855705300714,
+        0.0030607056691354423
+      ],
+      "min_angle_norm": 1.5349477677685246,
+      "max_absolute_angle": 12.781982978536385,
+      "file": "case-0023.npz",
+      "sha256": "92fdec7e62a6296f4143427a4547552ee0724777389f8116fec2d665db82a42d",
+      "wall_seconds": 3.5018059999999878,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 24,
+      "force": 6.301266477819999,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0013053796901661041,
+      "windows": [
+        0.002235867079688594,
+        -0.0010205829328387857,
+        0.0003736177218331166,
+        0.0036326168919814925
+      ],
+      "min_angle_norm": 1.5582437971149374,
+      "max_absolute_angle": 13.08564903898923,
+      "file": "case-0024.npz",
+      "sha256": "77962b82ad15300e836386029a7f8136276ae6f77d1c380c52956b0073c3c6b6",
+      "wall_seconds": 3.157836100000168,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 25,
+      "force": 6.949939717528262,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0006026981295852141,
+      "windows": [
+        -0.0087451480228144,
+        0.0019440046929665674,
+        0.0017769540156458007,
+        0.0026133967958611886
+      ],
+      "min_angle_norm": 1.591881519321096,
+      "max_absolute_angle": 22.23296017078919,
+      "file": "case-0025.npz",
+      "sha256": "324fae010f3c9ee16d43b87b5b78472fc002e9f0d2022d41f78aace8bb764813",
+      "wall_seconds": 3.1086895000000823,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 26,
+      "force": 7.665389528802689,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0011360000765427154,
+      "windows": [
+        -0.002619367620534232,
+        0.0017497772929407137,
+        0.0004782397885054337,
+        -0.004152649767082774
+      ],
+      "min_angle_norm": 1.620538921239324,
+      "max_absolute_angle": 22.603173670865047,
+      "file": "case-0026.npz",
+      "sha256": "b3bd333d7aa7f018244acdfa772efb3cde877a095b0a7d7a23f26e1f9a3da79d",
+      "wall_seconds": 3.1324959000000945,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 27,
+      "force": 8.454490113070387,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00019704833318571203,
+      "windows": [
+        0.0005750716136171475,
+        -0.0005790950610962939,
+        -0.0003614902749825796,
+        0.0011537070552045615
+      ],
+      "min_angle_norm": 1.6627006660822092,
+      "max_absolute_angle": 23.015081753556426,
+      "file": "case-0027.npz",
+      "sha256": "132d9f6bc2df6f671d5f9f08d6c07b83106a58eca26c2a5a13ccb9bf091117cb",
+      "wall_seconds": 3.151365599999963,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 28,
+      "force": 9.3248233248193,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.000663380971337535,
+      "windows": [
+        -0.00025307509351332156,
+        -0.003693922349642565,
+        -0.0005811768951090292,
+        0.0018746504529147758
+      ],
+      "min_angle_norm": 1.7815141615437142,
+      "max_absolute_angle": 23.484860355173,
+      "file": "case-0028.npz",
+      "sha256": "9f1e0b3164fa1fdef654b984daab39777c7545221503005f48fc20a06235f7c9",
+      "wall_seconds": 3.1785964999999123,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 29,
+      "force": 10.28475151974788,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0012969802750025783,
+      "windows": [
+        0.0006160845816468646,
+        0.0034112090929862737,
+        -0.0006817495190322522,
+        0.0018423769444094256
+      ],
+      "min_angle_norm": 1.9944352916428674,
+      "max_absolute_angle": 24.035954065128426,
+      "file": "case-0029.npz",
+      "sha256": "58d8b4beff1b7f83efd5a96ed9692082423a4387b668502d398e464b9e8fe0ea",
+      "wall_seconds": 3.122365299999956,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 30,
+      "force": 11.343497902144552,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00044213950983374995,
+      "windows": [
+        -0.0010019907589923728,
+        -0.001281610945580847,
+        0.004582128039552081,
+        -0.0005299682956438706
+      ],
+      "min_angle_norm": 2.2307032194438787,
+      "max_absolute_angle": 24.70291209128563,
+      "file": "case-0030.npz",
+      "sha256": "65137366ea9747c465a695399bd098730a17c36efab47323a10572d2392e04d3",
+      "wall_seconds": 3.2993891999999505,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 31,
+      "force": 12.51123514349252,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0011475166601475307,
+      "windows": [
+        0.0048273068984291565,
+        0.0003488660453124909,
+        -0.0036790275609335306,
+        0.0030929212577819783
+      ],
+      "min_angle_norm": 4.420978864632407,
+      "max_absolute_angle": 34.21446872428971,
+      "file": "case-0031.npz",
+      "sha256": "f1125daba01352793dd3f149da12f7a4e850975edf5eec0f326c2ffebaf36ba4",
+      "wall_seconds": 3.368733900000052,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 32,
+      "force": 13.799183123767259,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0003137121005218783,
+      "windows": [
+        0.005190011543089448,
+        -0.005722371716552658,
+        0.0023639198126052933,
+        -0.0005767112370545621
+      ],
+      "min_angle_norm": 5.013678701621821,
+      "max_absolute_angle": 35.06212578348663,
+      "file": "case-0032.npz",
+      "sha256": "01c8d17c6e575e995153fee625c35d4297fb214bd9c7e9e161ba392dbb34dfe1",
+      "wall_seconds": 3.360851299999922,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 33,
+      "force": 15.219716734546797,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.00021468613791731804,
+      "windows": [
+        -0.003145835186299499,
+        0.0006738879974750845,
+        0.00167730524668818,
+        0.001653386493805533
+      ],
+      "min_angle_norm": 4.993826188068353,
+      "max_absolute_angle": 36.09880035553282,
+      "file": "case-0033.npz",
+      "sha256": "f32d89bb01f0d5c79515f9deabe9f2a9c1391d8f7edef9f909fa149b7eefee6f",
+      "wall_seconds": 3.2388154999998733,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 34,
+      "force": 16.78648477973127,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0025637900880102265,
+      "windows": [
+        -0.0008867288918731138,
+        5.161498758743881e-05,
+        -0.001443012789775317,
+        -0.007977033657979922
+      ],
+      "min_angle_norm": 5.168021908921872,
+      "max_absolute_angle": 37.33929402742292,
+      "file": "case-0034.npz",
+      "sha256": "0cefbe5a433917a2ee37bacebab5580f69204220627c9a7c5fc1c7594573731f",
+      "wall_seconds": 3.241128500000059,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 35,
+      "force": 18.514541116296314,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0005258348928418381,
+      "windows": [
+        -0.0020482686777360663,
+        -0.003141972560713377,
+        0.005358965647594429,
+        -0.0022720639805123236
+      ],
+      "min_angle_norm": 5.195268013239492,
+      "max_absolute_angle": 47.189624045738334,
+      "file": "case-0035.npz",
+      "sha256": "1ade9355bff24a3ffb7a62b8012e80189ff5fd9cf98a8febe5a58a04a6442140",
+      "wall_seconds": 3.265238400000044,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 36,
+      "force": 20.420489295109842,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0002446732718603355,
+      "windows": [
+        0.0007696891235899157,
+        -0.0013888536796265848,
+        -0.0024473571972383427,
+        0.002087828665833666
+      ],
+      "min_angle_norm": 3.811508057015292,
+      "max_absolute_angle": 48.72315111165874,
+      "file": "case-0036.npz",
+      "sha256": "d2fbc45bb88dcbd297cc0014e90b95d41f2faa4ee21dcc2c8caaabd7a246e35c",
+      "wall_seconds": 3.2115256000001864,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 37,
+      "force": 22.52264209155363,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0006059341088076036,
+      "windows": [
+        -0.004979519917528692,
+        0.000651600035854616,
+        0.002140639028417623,
+        -0.00023645558197395015
+      ],
+      "min_angle_norm": 1.7284758274767553,
+      "max_absolute_angle": 50.47820973050203,
+      "file": "case-0037.npz",
+      "sha256": "006bcf6a4e67b449ac40c46d495bf3f50d32569cd9849f84faba1972e835f6e9",
+      "wall_seconds": 3.179628399999956,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 38,
+      "force": 24.841197458755335,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -1.4563897329489582e-05,
+      "windows": [
+        -0.001058715353712359,
+        0.003353569391993032,
+        -0.0006139018297015002,
+        -0.001739207797897126
+      ],
+      "min_angle_norm": 1.7357411878981068,
+      "max_absolute_angle": 60.82420163604311,
+      "file": "case-0038.npz",
+      "sha256": "8012786b7f1194312dc37fe4a1c44b964956eed53c86fe6f51b8c2b62e465f03",
+      "wall_seconds": 3.2328763000000436,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 39,
+      "force": 27.39843259402901,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0010772048123679026,
+      "windows": [
+        0.00035196781671181695,
+        -5.663196261104827e-05,
+        -0.0061441577606278375,
+        0.0015400026570554304
+      ],
+      "min_angle_norm": 1.7422687430662795,
+      "max_absolute_angle": 63.00143038974802,
+      "file": "case-0039.npz",
+      "sha256": "8ec78a64edd89ad908f9899c8c417c582f64bcd934faed135a4fd3bcbc07c1b6",
+      "wall_seconds": 3.2103391000000556,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 40,
+      "force": 30.218917983157635,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0012926094427083265,
+      "windows": [
+        0.00249104403288266,
+        0.0008314490653012384,
+        -0.0014802048182607386,
+        0.003328149490910142
+      ],
+      "min_angle_norm": 1.7481346670407514,
+      "max_absolute_angle": 73.81070939204902,
+      "file": "case-0040.npz",
+      "sha256": "be6b8ddcc1a4ed66e615e48bb20bb0df360466be4ca8404c669390182f33dfbe",
+      "wall_seconds": 3.266811199999893,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 41,
+      "force": 33.329753479103,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0007116452253793717,
+      "windows": [
+        -0.002707538358816583,
+        0.004667228895912575,
+        -0.0014244148192066072,
+        -0.003381856619406855
+      ],
+      "min_angle_norm": 1.7534081629180867,
+      "max_absolute_angle": 76.51516696283832,
+      "file": "case-0041.npz",
+      "sha256": "ac845e4032e429de14261b66ded30f687e29012671987e3b88e2905278c49f36",
+      "wall_seconds": 3.271818499999881,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 42,
+      "force": 36.7608286834399,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.00045379729221577104,
+      "windows": [
+        0.0033703927127414378,
+        -0.0025756421535798896,
+        0.0052366923695625735,
+        -0.007846632097587214
+      ],
+      "min_angle_norm": 1.7581533312995425,
+      "max_absolute_angle": 87.88738451597804,
+      "file": "case-0042.npz",
+      "sha256": "4effb92405105b6b16c7a1a0f80cbd0964cf0e4cf3fa13b57d571ad8c9ed75c4",
+      "wall_seconds": 3.208248600000161,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 43,
+      "force": 40.54511013231732,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0008604698682755675,
+      "windows": [
+        -0.007705724194896052,
+        0.003985080305400836,
+        -0.0003184037822717957,
+        0.0005971681986647585
+      ],
+      "min_angle_norm": 1.7624257613150984,
+      "max_absolute_angle": 91.24738668733947,
+      "file": "case-0043.npz",
+      "sha256": "8eb5a0c77c22e3127fa5e7598d51a6b29155c08bf2a0d9267e229f77b70a3001",
+      "wall_seconds": 3.192129699999896,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 44,
+      "force": 44.71895804629375,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0003790637081235352,
+      "windows": [
+        -0.002133461082767011,
+        0.004397327778266851,
+        -0.001850929634977646,
+        0.001103317771971951
+      ],
+      "min_angle_norm": 1.7663378373618148,
+      "max_absolute_angle": 103.3162967096269,
+      "file": "case-0044.npz",
+      "sha256": "3f0b3a17a3cc1937665bc4ea1a118c49845a1834e23915c17bb3b05221b59591",
+      "wall_seconds": 3.1799094000000423,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 45,
+      "force": 49.32247568744941,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0008868389862622867,
+      "windows": [
+        0.0028609237872117164,
+        0.0027207025415569735,
+        -0.004446882095602217,
+        0.002412611711882672
+      ],
+      "min_angle_norm": 1.7697536550703958,
+      "max_absolute_angle": 115.79546106015515,
+      "file": "case-0045.npz",
+      "sha256": "26f750dc26a50568b30c1812abd9ff8a1642c0d3c438a40648a364342a995ab3",
+      "wall_seconds": 3.2409344000000146,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 46,
+      "force": 54.39989468047677,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": -0.0008667383570031274,
+      "windows": [
+        0.0007921794586368512,
+        -0.0008858300002264025,
+        -0.001718691597114267,
+        -0.0016546112893086784
+      ],
+      "min_angle_norm": 1.7728884670727254,
+      "max_absolute_angle": 120.40763230103586,
+      "file": "case-0046.npz",
+      "sha256": "a81e0bdf83011fa26dedf301310bec18d03767cb9c136075e6a792841305e5b4",
+      "wall_seconds": 3.2386730000000625,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 47,
+      "force": 60.0,
+      "stiffness": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "leading_rate": 0.0009955867019815893,
+      "windows": [
+        0.0024048945135843034,
+        -0.006047083645208876,
+        0.004875816920804785,
+        0.0027487190187461415
+      ],
+      "min_angle_norm": 1.775717714609213,
+      "max_absolute_angle": 133.83868309032246,
+      "file": "case-0047.npz",
+      "sha256": "c36dde6781de1076ac0da1d07d07c3faf69f2408468111632d9b602aa13413ba",
+      "wall_seconds": 3.2758218000001307,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 48,
+      "force": 0.6,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.10437707227647683,
+      "windows": [
+        -0.10437707227647436,
+        -0.10437707227647436,
+        -0.10437707227647436,
+        -0.10437707227647436
+      ],
+      "min_angle_norm": 7.736919059931268e-47,
+      "max_absolute_angle": 1.0828131685168083e-10,
+      "file": "case-0048.npz",
+      "sha256": "0050a73c0ec666027c0f2029609473c0142da72a5bf80bce42014cfa1c1f3e50",
+      "wall_seconds": 2.9377779999999802,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 49,
+      "force": 0.6617659870749677,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.13401613078390384,
+      "windows": [
+        -0.13401613078392846,
+        -0.13401613078392846,
+        -0.13401613078392846,
+        -0.13401613078392846
+      ],
+      "min_angle_norm": 1.4783687915365965e-59,
+      "max_absolute_angle": 4.090848376950933e-13,
+      "file": "case-0049.npz",
+      "sha256": "d67dd709d1dd3aa3ac38808571b4d551b873f7b53b339f16fff5158f33e2759d",
+      "wall_seconds": 2.9927127999999357,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 50,
+      "force": 0.7298903694155106,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.23564293926857577,
+      "windows": [
+        -0.23422158259292533,
+        -0.2355502825720147,
+        -0.23621190492619873,
+        -0.2365879869831626
+      ],
+      "min_angle_norm": 4.4062243069697076e-104,
+      "max_absolute_angle": 2.7939169217013596e-22,
+      "file": "case-0050.npz",
+      "sha256": "a0c6e458a98a4b1a84d6f6d9f96c244ca6ce4a5ea098167df18288808380721e",
+      "wall_seconds": 2.938123300000143,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 51,
+      "force": 0.805027701287947,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.19136141919153896,
+      "windows": [
+        -0.19050475137766323,
+        -0.19120344178686902,
+        -0.19168278209293532,
+        -0.19205470150868525
+      ],
+      "min_angle_norm": 1.1741134266411315e-84,
+      "max_absolute_angle": 2.8805651732940398e-18,
+      "file": "case-0051.npz",
+      "sha256": "443ca44f392cca10c24366eb61a9dbb8daaed79c2cedf834752f9ae058b3aefc",
+      "wall_seconds": 3.1240353000000596,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 52,
+      "force": 0.8878999189425175,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.1424106501291888,
+      "windows": [
+        -0.14191785805703114,
+        -0.14590109359691594,
+        -0.13700317383155622,
+        -0.14482047503125264
+      ],
+      "min_angle_norm": 3.945396610510848e-63,
+      "max_absolute_angle": 8.66857729293118e-14,
+      "file": "case-0052.npz",
+      "sha256": "271d2dd732222fd03cadc3c6908ff1d944f39256d3b284c051539e3938990e8d",
+      "wall_seconds": 3.077093800000057,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 53,
+      "force": 0.979303277137965,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.08550076988909946,
+      "windows": [
+        -0.08641697699390653,
+        -0.08886631036376828,
+        -0.08111104031113435,
+        -0.08560875188758747
+      ],
+      "min_angle_norm": 1.000880560642777e-38,
+      "max_absolute_angle": 5.506149892417476e-09,
+      "file": "case-0053.npz",
+      "sha256": "ecc18068b4be80f8f62e1837a75a05ae87c07d53674a16688876417245d08d33",
+      "wall_seconds": 3.1269012000000203,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 54,
+      "force": 1.0801159997349268,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.021278137380304755,
+      "windows": [
+        -0.022448190662116896,
+        -0.020980733936284076,
+        -0.020684897909163655,
+        -0.020998727013654333
+      ],
+      "min_angle_norm": 2.202256989784664e-11,
+      "max_absolute_angle": 0.0012965455255015581,
+      "file": "case-0054.npz",
+      "sha256": "96822df127340475f7ba099a2cbb200c1e0c678b7fe22a26d446c9e782372657",
+      "wall_seconds": 2.9083290999999463,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 55,
+      "force": 1.191306717866749,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 3.7818722855480845e-05,
+      "windows": [
+        0.0002568432763887239,
+        0.00012871792823511947,
+        -3.1747424792380104e-05,
+        -0.00020253888840953606
+      ],
+      "min_angle_norm": 0.2612797162639579,
+      "max_absolute_angle": 0.39145386640347074,
+      "file": "case-0055.npz",
+      "sha256": "0c0904df0b508e21fa9cf9e767b10a6dfefa8ce6e30eab19ae751aecd70f170f",
+      "wall_seconds": 2.8952882999999474,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 56,
+      "force": 1.3139437767635487,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0009590637498477843,
+      "windows": [
+        -0.00042170349351033627,
+        -5.7272366295203855e-06,
+        0.0024786130511068568,
+        0.0017850726784241376
+      ],
+      "min_angle_norm": 0.4878498934457738,
+      "max_absolute_angle": 0.6237468170970257,
+      "file": "case-0056.npz",
+      "sha256": "10a44a5b6e7011815c5a555ffcdb8c14b7d697631ff1b2a9539d148ca3f79bda",
+      "wall_seconds": 3.0055909000000156,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 57,
+      "force": 1.4492055006515683,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 7.101934386243786e-05,
+      "windows": [
+        -8.705319870201286e-05,
+        0.00011241649896787712,
+        0.00013248189992936266,
+        0.00012623217525452562
+      ],
+      "min_angle_norm": 0.7122577532684762,
+      "max_absolute_angle": 0.8037446472016239,
+      "file": "case-0057.npz",
+      "sha256": "fa4f7eb121409b655099f165a7601f1b8b8c4c5232cce39973acbe29e19f2975",
+      "wall_seconds": 3.039881999999807,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 58,
+      "force": 1.5983915143552632,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0010431142167028962,
+      "windows": [
+        -0.0049714366594676715,
+        -0.0007179759597376526,
+        0.0010758642224495062,
+        0.0004410915299442337
+      ],
+      "min_angle_norm": 0.9447896521741828,
+      "max_absolute_angle": 0.9754480286108531,
+      "file": "case-0058.npz",
+      "sha256": "512c9e52dac5212c658539db62ef7afc5240118b38d92fbf9e07566f38af63ad",
+      "wall_seconds": 3.0458557999997993,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 59,
+      "force": 1.7629352303826054,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0005305688286546947,
+      "windows": [
+        -0.0006499314284786742,
+        -0.0005882638649765988,
+        -0.0004936936830879249,
+        -0.0003903863380755834
+      ],
+      "min_angle_norm": 1.1332950512617266,
+      "max_absolute_angle": 1.1680707015549954,
+      "file": "case-0059.npz",
+      "sha256": "816b0452468366b613674cdf4d07de43193efdac51fffb7e7d17a4f07823a129",
+      "wall_seconds": 3.0374817000001713,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 60,
+      "force": 1.9444176214723006,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.00044759911799048627,
+      "windows": [
+        -0.00036268965859104706,
+        -0.000504038155922899,
+        -0.000579004339918386,
+        -0.0003446643175296046
+      ],
+      "min_angle_norm": 1.2428877704504782,
+      "max_absolute_angle": 1.3625089124196386,
+      "file": "case-0060.npz",
+      "sha256": "bc5f23a633424dde40914556b424f4863cdcc166e400a154f4adefc7f738d20d",
+      "wall_seconds": 3.1773345999999947,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 61,
+      "force": 2.1445824109326304,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -6.433958366670508e-05,
+      "windows": [
+        0.0004038951322462134,
+        0.0010219477822425824,
+        0.0038531936361175965,
+        -0.005536394885273205
+      ],
+      "min_angle_norm": 1.326787835939782,
+      "max_absolute_angle": 1.5537224033583037,
+      "file": "case-0061.npz",
+      "sha256": "ec070275d3111663aa2bea9714f08a351b02e2f7ee6b7a9a3137adc020a50f47",
+      "wall_seconds": 3.135725000000093,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 62,
+      "force": 2.365352826724077,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0011795653115844109,
+      "windows": [
+        -0.0058321850254309335,
+        -7.268853595523381e-05,
+        0.0005947062272567954,
+        0.0005919060877917087
+      ],
+      "min_angle_norm": 1.3911391307022871,
+      "max_absolute_angle": 1.7318077501507079,
+      "file": "case-0062.npz",
+      "sha256": "6e9876e756ab24bf788ca5dade5d89ef377a440babbfe9cce67dd0f211678a01",
+      "wall_seconds": 3.11475889999997,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 63,
+      "force": 2.6088500802627066,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -5.510626880335295e-05,
+      "windows": [
+        0.0015144764713763347,
+        -0.0016386824436800565,
+        0.0015845884745603837,
+        -0.0016808075774700749
+      ],
+      "min_angle_norm": 1.4392795671237515,
+      "max_absolute_angle": 1.920001932391309,
+      "file": "case-0063.npz",
+      "sha256": "2888f88fe997634c4d6246f50b2f5c17fb9071222be6bbcb15f0c789662448cc",
+      "wall_seconds": 3.007638600000064,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 64,
+      "force": 2.8774137474927644,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 6.663035133297533e-07,
+      "windows": [
+        0.0003362466192401249,
+        0.0008254438622145159,
+        0.0016193199197974207,
+        -0.002778345187198743
+      ],
+      "min_angle_norm": 1.4738666275999308,
+      "max_absolute_angle": 2.101070351604317,
+      "file": "case-0064.npz",
+      "sha256": "10f6af5d23345cbf0e1b1d33548b6509fa6b27d807590a87922a45dfef97b483",
+      "wall_seconds": 3.0917704999999387,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 65,
+      "force": 3.1736242480543853,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.000917466612864581,
+      "windows": [
+        0.0003777194044402079,
+        0.0002344456611822361,
+        -0.0009503900818599615,
+        0.0040080914676958405
+      ],
+      "min_angle_norm": 1.4973327638149527,
+      "max_absolute_angle": 2.257829002264894,
+      "file": "case-0065.npz",
+      "sha256": "7453c9811d2db6e351f563dcab8ad2db32f8945a798fd2283ed4f7304ddae359",
+      "wall_seconds": 3.153867400000081,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 66,
+      "force": 3.5003276385312714,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -3.5995103467414415e-05,
+      "windows": [
+        0.0013026846604453684,
+        -0.0013915071095833953,
+        0.001238522185903041,
+        -0.0012936801506346718
+      ],
+      "min_angle_norm": 1.5122072999265388,
+      "max_absolute_angle": 2.393617499764258,
+      "file": "case-0066.npz",
+      "sha256": "b1275f0e9aec8fb5e581c9dbc75a411ad051dfc9c3246ba44aaf5c02b3f1c1c3",
+      "wall_seconds": 3.0816933000000972,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 67,
+      "force": 3.8606629579973957,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0006827077432631592,
+      "windows": [
+        -0.00022859206031251988,
+        -0.0007272815206202942,
+        0.00027909058067594484,
+        0.003407613973309502
+      ],
+      "min_angle_norm": 1.5214581069883564,
+      "max_absolute_angle": 2.5128851478998335,
+      "file": "case-0067.npz",
+      "sha256": "99908f21c845e1ea4be0a777a906fb6af51c0b913cecb8215d8ce2cae4ae33e2",
+      "wall_seconds": 3.1334412000001066,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 68,
+      "force": 4.258092388604853,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.000262166773521624,
+      "windows": [
+        -0.0010050771477304616,
+        0.0023862037269696277,
+        -0.0013466139191052357,
+        -0.001083179754220423
+      ],
+      "min_angle_norm": 1.5286810226855616,
+      "max_absolute_angle": 2.620792520478119,
+      "file": "case-0068.npz",
+      "sha256": "374e371f0a96d68841d96f88a6f66c28c2ec430ca3a6e0f8caef0bc386dfa975",
+      "wall_seconds": 3.0597897999998622,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 69,
+      "force": 4.696434521002495,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.00046465337144229694,
+      "windows": [
+        -0.0020539832194841194,
+        -0.0008212127581438268,
+        0.0004639027258184088,
+        0.0005526797660403579
+      ],
+      "min_angle_norm": 1.5379728176919139,
+      "max_absolute_angle": 2.7239400662302917,
+      "file": "case-0069.npz",
+      "sha256": "27b5404003d0303eb167512ca3261fa6d6ea9c5ac456cf0fa36f6e91bf242efe",
+      "wall_seconds": 3.155969000000141,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 70,
+      "force": 5.17990104420695,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0003540468815189803,
+      "windows": [
+        -0.0003433457177314901,
+        0.0009406786683123409,
+        -0.0011566507675155504,
+        0.001975505343010621
+      ],
+      "min_angle_norm": 1.5536714998017596,
+      "max_absolute_angle": 2.830982742833588,
+      "file": "case-0070.npz",
+      "sha256": "b18f8734db592e9cdf4774acb445a2bced10a37babf347e258e083eabfdf7e5c",
+      "wall_seconds": 3.1656814999998915,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 71,
+      "force": 5.713137212450447,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.00033743635503955395,
+      "windows": [
+        0.0016365857964997022,
+        -0.000753441350228041,
+        0.0006816344145483365,
+        -0.00021503344066178142
+      ],
+      "min_angle_norm": 1.582397354410941,
+      "max_absolute_angle": 2.952295280834307,
+      "file": "case-0071.npz",
+      "sha256": "df7aaf9e634dabb4e8cc4a78f556f001603e608b57bf17d012ff9c5e0caa1307",
+      "wall_seconds": 3.1688643999998476,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 72,
+      "force": 6.301266477819999,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0017573004196546665,
+      "windows": [
+        0.003811540234822775,
+        -0.0037757142206869005,
+        -0.0007542669641112277,
+        0.0077476426285940135
+      ],
+      "min_angle_norm": 1.4241768939976411,
+      "max_absolute_angle": 12.666207905120498,
+      "file": "case-0072.npz",
+      "sha256": "bc15785ae6bb67fa6d26e6e7b6713cb4fb1f19f042b40424302ccfcfe173c4f9",
+      "wall_seconds": 3.183614900000066,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 73,
+      "force": 6.949939717528262,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0010252586792598819,
+      "windows": [
+        0.0010499117691333262,
+        -0.0008370273197821439,
+        -0.004287486708115326,
+        -2.6432458275390736e-05
+      ],
+      "min_angle_norm": 1.4066238820604027,
+      "max_absolute_angle": 12.65201608512842,
+      "file": "case-0073.npz",
+      "sha256": "e56b2b4c56937918f2fda29fb7abebc73d1d1cbbed54fb2a66521ffd8c3bf98c",
+      "wall_seconds": 3.0873907000000145,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 74,
+      "force": 7.665389528802689,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0003261746456555957,
+      "windows": [
+        -0.002407373910925664,
+        0.0006843166781804824,
+        0.003522300324153147,
+        -0.0031039416740303518
+      ],
+      "min_angle_norm": 1.3913649385617874,
+      "max_absolute_angle": 12.679170351399899,
+      "file": "case-0074.npz",
+      "sha256": "074e3c35fffbde018dc93d2a3c0fdf14a3ac39b3f20ab7ca3d28c48ec48a75b9",
+      "wall_seconds": 3.1519564000000173,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 75,
+      "force": 8.454490113070387,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0009207761665009996,
+      "windows": [
+        0.0002600955104944236,
+        0.003122758232609474,
+        -0.002576663582130938,
+        0.0028769145050310304
+      ],
+      "min_angle_norm": 1.3809421827805504,
+      "max_absolute_angle": 12.731721057947654,
+      "file": "case-0075.npz",
+      "sha256": "b3d5151173c9e5d3548877b7e649c08e104a42682cdd5f7cb8a71febfeb7fc2e",
+      "wall_seconds": 3.1337467999999262,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 76,
+      "force": 9.3248233248193,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.00023591022578008572,
+      "windows": [
+        0.001229629445312453,
+        -0.0011361972744550154,
+        0.0002494078004891004,
+        -0.0012864808744668694
+      ],
+      "min_angle_norm": 1.3784524100567335,
+      "max_absolute_angle": 12.80755777728571,
+      "file": "case-0076.npz",
+      "sha256": "4eb5a1b8a9ca7e00091c6bbec1829ba6e4b267008674075430f641c955c57363",
+      "wall_seconds": 3.1239146999998866,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 77,
+      "force": 10.28475151974788,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0002039184153362237,
+      "windows": [
+        -0.0004850896343427151,
+        0.0020199443148172748,
+        -0.0031733836384727158,
+        0.0008228552966532801
+      ],
+      "min_angle_norm": 1.386910558929365,
+      "max_absolute_angle": 12.90774567188347,
+      "file": "case-0077.npz",
+      "sha256": "a7755acfe26fbcea48a20350cd9ff89ebcf80813432426095684d24634fb7dc4",
+      "wall_seconds": 3.090146400000094,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 78,
+      "force": 11.343497902144552,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.00027542807559712354,
+      "windows": [
+        -0.005808428568360452,
+        0.0011754391010551,
+        0.002545188271112993,
+        0.0009860888938038616
+      ],
+      "min_angle_norm": 1.408309031731033,
+      "max_absolute_angle": 22.640424806767058,
+      "file": "case-0078.npz",
+      "sha256": "97a6d9fd3d6dd0317cbd9e05b53e80afe3ac49929ed08cf5530a93b05e5fd114",
+      "wall_seconds": 3.0904253999999582,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 79,
+      "force": 12.51123514349252,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0013806382899707115,
+      "windows": [
+        -0.0028758256674595055,
+        -0.00019374405278519503,
+        0.005295109682111998,
+        -0.00774809312175015
+      ],
+      "min_angle_norm": 1.4354928062151997,
+      "max_absolute_angle": 22.732312196084578,
+      "file": "case-0079.npz",
+      "sha256": "fe0116648217dd54dd4578e2907fcae1e259615e222cbb27b8f38eb897c75bc6",
+      "wall_seconds": 3.2226788999998917,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 80,
+      "force": 13.799183123767259,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0004155614980799186,
+      "windows": [
+        0.0009657124338405291,
+        0.003694644248315205,
+        -0.002843911214533654,
+        -0.00015419947530241675
+      ],
+      "min_angle_norm": 1.4691478324551723,
+      "max_absolute_angle": 22.87469836435557,
+      "file": "case-0080.npz",
+      "sha256": "a4713735c2277d16e7e428f5f9660354916595b1ffc9e92d1c704e2f2b536360",
+      "wall_seconds": 3.140177300000005,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 81,
+      "force": 15.219716734546797,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.001287843412770077,
+      "windows": [
+        0.0004189227867113356,
+        0.0013182887097089532,
+        -0.0018259138235932001,
+        0.005240075978253198
+      ],
+      "min_angle_norm": 1.5023429478830022,
+      "max_absolute_angle": 32.697878599020775,
+      "file": "case-0081.npz",
+      "sha256": "5843b3f0bcd19b940cc878b3ab7e84787a69adb16e045259c2e44529d0ee18bd",
+      "wall_seconds": 3.22880629999986,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 82,
+      "force": 16.78648477973127,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.00023964569138219588,
+      "windows": [
+        0.0006210635505893882,
+        -0.0008056237598986465,
+        0.0008433403239238024,
+        0.0002998026509142439
+      ],
+      "min_angle_norm": 1.5297243428957894,
+      "max_absolute_angle": 32.9068091989688,
+      "file": "case-0082.npz",
+      "sha256": "1eda9f964c4a83917a1076f9d7e65452b99ce971385634d31545dd541f83cc50",
+      "wall_seconds": 3.182105899999897,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 83,
+      "force": 18.514541116296314,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.00011613481009012098,
+      "windows": [
+        0.0027413960701772083,
+        -0.0025599109134017595,
+        0.0032962417583499892,
+        -0.0030131876747649645
+      ],
+      "min_angle_norm": 1.5522983378294966,
+      "max_absolute_angle": 33.21043805245761,
+      "file": "case-0083.npz",
+      "sha256": "2393779d81608d2e5a9b5ef44d5eb4c7b77121b9f701cc525a25c02121401586",
+      "wall_seconds": 3.1613139999999476,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 84,
+      "force": 20.420489295109842,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.00017779024202576484,
+      "windows": [
+        -0.000537553908770144,
+        0.0030829698799325527,
+        0.0014509030667022168,
+        -0.0032851580697615766
+      ],
+      "min_angle_norm": 1.5942240649948798,
+      "max_absolute_angle": 43.17767382555606,
+      "file": "case-0084.npz",
+      "sha256": "b6f5227b0498b9d68a0eefa744c11a99b8644bcf0dd03742174318b15fd688d8",
+      "wall_seconds": 3.1505804000000808,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 85,
+      "force": 22.52264209155363,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0007422158525139875,
+      "windows": [
+        0.004607224913048517,
+        -0.004498081585060812,
+        -0.0006947945250142465,
+        0.0035545146070824923
+      ],
+      "min_angle_norm": 1.8195859805533037,
+      "max_absolute_angle": 43.689884219493194,
+      "file": "case-0085.npz",
+      "sha256": "92f850ba2d1d7b3ecee72e040ea2701bfa7a5fe8eea720409c85b514b018e220",
+      "wall_seconds": 3.1147743999999875,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 86,
+      "force": 24.841197458755335,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.00020020145523375597,
+      "windows": [
+        -0.0013312771598772732,
+        0.005292848591739253,
+        -0.002002596742629281,
+        -0.001158168868297671
+      ],
+      "min_angle_norm": 2.147068370875771,
+      "max_absolute_angle": 53.85787843819243,
+      "file": "case-0086.npz",
+      "sha256": "9d11262802af4d125d5034d5c9e28ca9259da58b094a52888af7225cada01ae9",
+      "wall_seconds": 3.1744836999998824,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 87,
+      "force": 27.39843259402901,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0005894101840930262,
+      "windows": [
+        0.0004599923077137968,
+        -0.00184536678675588,
+        4.109876887347153e-05,
+        -0.00101336502620348
+      ],
+      "min_angle_norm": 4.80624257656143,
+      "max_absolute_angle": 54.77169740557072,
+      "file": "case-0087.npz",
+      "sha256": "be53c18b624930d529b0adf1ab7ec7698abfe1ec32b5a17b77c3a3546226c405",
+      "wall_seconds": 3.142748099999835,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 88,
+      "force": 30.218917983157635,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -7.101362194218893e-05,
+      "windows": [
+        0.003181293393793713,
+        -0.002587878988402393,
+        0.002097353010481934,
+        -0.002974821903641999
+      ],
+      "min_angle_norm": 4.967743551129836,
+      "max_absolute_angle": 65.29143478771906,
+      "file": "case-0088.npz",
+      "sha256": "7d7f33596afcb0f1515b57e1337cde046466ba516b90f96f5c8b5c4b0369bb26",
+      "wall_seconds": 3.1126564999999573,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 89,
+      "force": 33.329753479103,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.000794399615954391,
+      "windows": [
+        -0.001436106500579725,
+        0.004457684555185355,
+        -0.0035377212187238543,
+        0.003693741627935791
+      ],
+      "min_angle_norm": 6.468778275545101,
+      "max_absolute_angle": 76.02298153749297,
+      "file": "case-0089.npz",
+      "sha256": "eedc78351a5ea97ac8dece4fd5846d409c1bc400bc9184b7bbe2e82c395fcb94",
+      "wall_seconds": 3.1962230999999974,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 90,
+      "force": 36.7608286834399,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0012642605593396977,
+      "windows": [
+        -0.003605035029873109,
+        0.0031242838275798673,
+        0.0006187166052428778,
+        -0.005195007640308446
+      ],
+      "min_angle_norm": 7.754494073668102,
+      "max_absolute_angle": 78.0431302082646,
+      "file": "case-0090.npz",
+      "sha256": "af705687b0f76cf9d9ceeecf165c2636ab098ad72a67059ed67acfe3b9fe759e",
+      "wall_seconds": 3.153047900000047,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 91,
+      "force": 40.54511013231732,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.0011249262918360953,
+      "windows": [
+        -0.002489138241209905,
+        0.005012930755479385,
+        0.0006551694550584325,
+        0.0013207431980164484
+      ],
+      "min_angle_norm": 8.202621656718245,
+      "max_absolute_angle": 89.39233855577247,
+      "file": "case-0091.npz",
+      "sha256": "51cb241eb4ac8e873ed0c2116be0282717820022fe953da28e35ed913cb9fd29",
+      "wall_seconds": 3.085333399999854,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 92,
+      "force": 44.71895804629375,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0009097538819016661,
+      "windows": [
+        -0.005671430933930101,
+        0.004932972000769729,
+        -0.0013141825903988883,
+        -0.0015863740040473826
+      ],
+      "min_angle_norm": 12.830356421839097,
+      "max_absolute_angle": 101.06863567947306,
+      "file": "case-0092.npz",
+      "sha256": "811896c2047eab29ad0d0f2d19b39ad061d0b6a489d07f391a077c909b45933d",
+      "wall_seconds": 3.065304099999821,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 93,
+      "force": 49.32247568744941,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": 0.00041919586541898596,
+      "windows": [
+        0.005301014443854209,
+        -0.00400697660521037,
+        0.00204752747722344,
+        -0.001664781854191305
+      ],
+      "min_angle_norm": 15.15973132275706,
+      "max_absolute_angle": 104.65948251600702,
+      "file": "case-0093.npz",
+      "sha256": "cfdabe5ec43883551b1f449ad0761b94dbb5564089f59ee6082455967c9195cb",
+      "wall_seconds": 3.1568286000001535,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 94,
+      "force": 54.39989468047677,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0007275287616154802,
+      "windows": [
+        0.001117566677196269,
+        -0.0022851147675663186,
+        0.0020632873886081995,
+        -0.0038058543447000753
+      ],
+      "min_angle_norm": 16.252774759829652,
+      "max_absolute_angle": 117.53555427448296,
+      "file": "case-0094.npz",
+      "sha256": "d1bcdd9b5a1cc9e81fbb14c20d79e7dde437fbaa388b9e6e238b9c7e80aae38f",
+      "wall_seconds": 3.174321299999974,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 95,
+      "force": 60.0,
+      "stiffness": [
+        1.0,
+        0.3,
+        1.0
+      ],
+      "leading_rate": -0.0012554182123708797,
+      "windows": [
+        -0.005294347755595969,
+        0.005431619180202332,
+        -0.004968615873234088,
+        -0.0001903284008557696
+      ],
+      "min_angle_norm": 13.41477910079035,
+      "max_absolute_angle": 129.8989399706011,
+      "file": "case-0095.npz",
+      "sha256": "eb2efd5da2619f4aedc20a7bcf888a955bd93890725a4c6877ce187354d5002b",
+      "wall_seconds": 3.1746338999998898,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 96,
+      "force": 0.6,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0833457732978391,
+      "windows": [
+        -0.083345773297837,
+        -0.083345773297837,
+        -0.083345773297837,
+        -0.083345773297837
+      ],
+      "min_angle_norm": 8.488697268249281e-38,
+      "max_absolute_angle": 5.537678262880296e-09,
+      "file": "case-0096.npz",
+      "sha256": "9469db2e99bac7dd9755b65d02321dcbbcf8b3fb64b82e997c70833e092f92ce",
+      "wall_seconds": 2.93650219999995,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 97,
+      "force": 0.6617659870749677,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.09943159402909536,
+      "windows": [
+        -0.09943159402910591,
+        -0.09943159402910591,
+        -0.09943159402910591,
+        -0.09943159402910591
+      ],
+      "min_angle_norm": 1.0580917184241576e-44,
+      "max_absolute_angle": 2.6542889528459937e-10,
+      "file": "case-0097.npz",
+      "sha256": "480122b29eb4c9213630ff36b6c3d4a389420dabfa8cf6283cb6ea24f2137efd",
+      "wall_seconds": 2.909920100000136,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 98,
+      "force": 0.7298903694155106,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.1295670728119004,
+      "windows": [
+        -0.12956707281188254,
+        -0.12956707281188254,
+        -0.12956707281188254,
+        -0.12956707281188254
+      ],
+      "min_angle_norm": 1.2774932120761287e-57,
+      "max_absolute_angle": 9.243672878568255e-13,
+      "file": "case-0098.npz",
+      "sha256": "2ddef87e06dba64782e1b519d55da28fb5988907f5462feb57b0150a6cc11ceb",
+      "wall_seconds": 2.924265200000036,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 99,
+      "force": 0.805027701287947,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.2200562351163045,
+      "windows": [
+        -0.23174992509898068,
+        -0.20834586910223457,
+        -0.22994506417420368,
+        -0.21018408208980063
+      ],
+      "min_angle_norm": 2.5923544181238533e-96,
+      "max_absolute_angle": 4.748385532195372e-20,
+      "file": "case-0099.npz",
+      "sha256": "7a95bd3c3434bf5443f0c033655dba5662a440b4954488ba36658d32d4f8ca6e",
+      "wall_seconds": 2.8835913000000346,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 100,
+      "force": 0.8878999189425175,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.16653287107720163,
+      "windows": [
+        -0.16609628090585601,
+        -0.17256909056746358,
+        -0.15964093217790945,
+        -0.16782518065757682
+      ],
+      "min_angle_norm": 1.5732845465141975e-73,
+      "max_absolute_angle": 7.608046128546091e-16,
+      "file": "case-0100.npz",
+      "sha256": "2646a190f40dc4f2600c4d6efcc7be9d705903a5cdda3eef50471cf091be4337",
+      "wall_seconds": 2.8882528999999977,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 101,
+      "force": 0.979303277137965,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.10638409543902211,
+      "windows": [
+        -0.10451710398540483,
+        -0.10862861451227307,
+        -0.11018817151763605,
+        -0.10220249174077471
+      ],
+      "min_angle_norm": 5.789771340965783e-48,
+      "max_absolute_angle": 6.605414228792965e-11,
+      "file": "case-0101.npz",
+      "sha256": "21d24771adff062efa5ee413f96fd9672809080d73d7821bedb6937d0c7c2d62",
+      "wall_seconds": 2.9215590999999677,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 102,
+      "force": 1.0801159997349268,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.04198007073888268,
+      "windows": [
+        -0.040143940998810655,
+        -0.04148541396620037,
+        -0.0430225232515368,
+        -0.04326840473898252
+      ],
+      "min_angle_norm": 1.287159761660681e-19,
+      "max_absolute_angle": 4.123953323734146e-05,
+      "file": "case-0102.npz",
+      "sha256": "bc0e7e61f3c9a9827cb167436058fbc6ff3cca273f87738f3a406c65daf33690",
+      "wall_seconds": 2.913479900000084,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 103,
+      "force": 1.191306717866749,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0010253707245938958,
+      "windows": [
+        0.0029603882503246616,
+        0.0002142097076107343,
+        -0.0037066613659075282,
+        0.004633546306347722
+      ],
+      "min_angle_norm": 0.18215600257673314,
+      "max_absolute_angle": 0.34074658491895254,
+      "file": "case-0103.npz",
+      "sha256": "3fe661a90ac570f03a982e0f63d426d33345f3f8578bb48162eff5899f5f8ff9",
+      "wall_seconds": 2.977447100000063,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 104,
+      "force": 1.3139437767635487,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -4.912707246952461e-05,
+      "windows": [
+        0.0002499819385288323,
+        0.00548905576422801,
+        -0.005153755555595239,
+        -0.0007817904370397166
+      ],
+      "min_angle_norm": 0.40756715301992613,
+      "max_absolute_angle": 0.6331220291869448,
+      "file": "case-0104.npz",
+      "sha256": "90c48a71a6ca388cd30ca6636b844d5fd869a50f313c21581f06d9d1275f27fc",
+      "wall_seconds": 2.998817899999949,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 105,
+      "force": 1.4492055006515683,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0007031082283455449,
+      "windows": [
+        0.0005377854277525384,
+        0.0006447942157717732,
+        0.0007610972441812227,
+        0.000868756025676661
+      ],
+      "min_angle_norm": 0.6278629498646973,
+      "max_absolute_angle": 0.848003313945185,
+      "file": "case-0105.npz",
+      "sha256": "8896b200266fa666d3c03d91ffd79b853e242daea30fd2ae48a97cdbd9872d4f",
+      "wall_seconds": 3.055501399999912,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 106,
+      "force": 1.5983915143552632,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00035947116393208626,
+      "windows": [
+        -0.000554293816419301,
+        0.0011854088663040068,
+        -0.0013048926315588172,
+        0.0021116622374024604
+      ],
+      "min_angle_norm": 0.8630451865728553,
+      "max_absolute_angle": 1.0402115976079311,
+      "file": "case-0106.npz",
+      "sha256": "62c28d5bd211cb5f9685f80ac8845db8305d5699415fc92ab5385246cb140b44",
+      "wall_seconds": 3.063809900000024,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 107,
+      "force": 1.7629352303826054,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0007693032840101543,
+      "windows": [
+        -0.001082140468231429,
+        -0.0008281977167039384,
+        -0.0006777218707883262,
+        -0.0004891530803169325
+      ],
+      "min_angle_norm": 1.119778502969997,
+      "max_absolute_angle": 1.226254280944217,
+      "file": "case-0107.npz",
+      "sha256": "da30f0139395086cf856fad6e28ed6154d77407ad439d637473e3685823f62ec",
+      "wall_seconds": 3.009352599999829,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 108,
+      "force": 1.9444176214723006,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0002457031255471099,
+      "windows": [
+        -0.0038728519270082103,
+        0.0009964774408764646,
+        0.001518900857698718,
+        0.002340286130621481
+      ],
+      "min_angle_norm": 1.3775942615991361,
+      "max_absolute_angle": 1.4157731894493533,
+      "file": "case-0108.npz",
+      "sha256": "013a5625f5bf57c7b1ce795592b23cf5025fdbaf736cfaa242f85d85566bb91d",
+      "wall_seconds": 3.1759958999998616,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 109,
+      "force": 2.1445824109326304,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0003487369806977912,
+      "windows": [
+        0.0036744984624387505,
+        -0.00385946058583987,
+        0.0027761877798911016,
+        -0.0011962777336987874
+      ],
+      "min_angle_norm": 1.4958036584731622,
+      "max_absolute_angle": 1.6158077329084326,
+      "file": "case-0109.npz",
+      "sha256": "757443183a963d9e43bd2c8ee2c91db27b30beea0a9966ca26a493a7cd874971",
+      "wall_seconds": 3.169652100000121,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 110,
+      "force": 2.365352826724077,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0004191557071334523,
+      "windows": [
+        -0.0010229305999526895,
+        0.003946522774803954,
+        -0.0033945483174703727,
+        0.0021475789711529153
+      ],
+      "min_angle_norm": 1.5969673065523031,
+      "max_absolute_angle": 1.8315717642361995,
+      "file": "case-0110.npz",
+      "sha256": "dc478696cd768e17e8afc3f7cd31b6653d3203acee8dea43bac979c93a79f236",
+      "wall_seconds": 3.150435600000037,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 111,
+      "force": 2.6088500802627066,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0003769276470198894,
+      "windows": [
+        -0.0018041516864173719,
+        -0.0012580646159695888,
+        0.008377708269390528,
+        -0.003807781378923995
+      ],
+      "min_angle_norm": 1.6850550966316122,
+      "max_absolute_angle": 2.066875072571284,
+      "file": "case-0111.npz",
+      "sha256": "f02d676b9570c962d59304501080e1381535ef4af52b6494578be6e56788f8ed",
+      "wall_seconds": 3.0752575000001343,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 112,
+      "force": 2.8774137474927644,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0009082652050356355,
+      "windows": [
+        -0.001279954240866222,
+        -0.00119692880961175,
+        -0.0011419667124752326,
+        -1.4211057189344682e-05
+      ],
+      "min_angle_norm": 1.761992077679596,
+      "max_absolute_angle": 2.324607283196381,
+      "file": "case-0112.npz",
+      "sha256": "0566b6c85bca62f77d8684a70ee4caf2846a02f1eda8675c833507090e7b90d6",
+      "wall_seconds": 3.0400942999999643,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 113,
+      "force": 3.1736242480543853,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.001028343075672717,
+      "windows": [
+        -0.0012812097881068523,
+        -0.0012217106545666522,
+        -0.0012061599621734948,
+        -0.0004042918978438732
+      ],
+      "min_angle_norm": 1.8289281917695754,
+      "max_absolute_angle": 2.6071215344456045,
+      "file": "case-0113.npz",
+      "sha256": "cb7ed0e3b2c0bdd54ccb75da3d927dc9fe956020d49e2b2bb9838276ce6f5f0e",
+      "wall_seconds": 3.027055899999823,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 114,
+      "force": 3.5003276385312714,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0002269607376157886,
+      "windows": [
+        -0.002090047717746743,
+        -0.0015326763858920043,
+        0.008767685867936732,
+        -0.004237118813834834
+      ],
+      "min_angle_norm": 1.8866267683100557,
+      "max_absolute_angle": 2.916416703633061,
+      "file": "case-0114.npz",
+      "sha256": "69d8aab066e51bf195972f8f524fb3bab5f90e1a811341852daf9e0b123040fd",
+      "wall_seconds": 3.093346399999973,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 115,
+      "force": 3.8606629579973957,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00063192406706761,
+      "windows": [
+        0.008156121320937277,
+        -0.006908342553881594,
+        -0.0017686107414396851,
+        0.0030485282426544625
+      ],
+      "min_angle_norm": 1.9355545036706518,
+      "max_absolute_angle": 3.254088491562522,
+      "file": "case-0115.npz",
+      "sha256": "f81eb892917f3d7e4219d589c3ff74f408263aed9589810a294816f03f8207de",
+      "wall_seconds": 3.143548500000179,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 116,
+      "force": 4.258092388604853,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.001657367191091464,
+      "windows": [
+        -0.013114273989596272,
+        0.0019992227407167294,
+        0.0019875442840806322,
+        0.0024980382004331342
+      ],
+      "min_angle_norm": 1.9758187021032705,
+      "max_absolute_angle": 3.620995970444213,
+      "file": "case-0116.npz",
+      "sha256": "180892947758ddc796a204c630b64998fbd5bbc830272fc46df3648e631cdab2",
+      "wall_seconds": 3.1154957000001104,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 117,
+      "force": 4.696434521002495,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00197409767618232,
+      "windows": [
+        -0.0018528650071005335,
+        0.004519239434170675,
+        -0.0037595634940940288,
+        0.008989579771753197
+      ],
+      "min_angle_norm": 2.0070338369046157,
+      "max_absolute_angle": 4.016469129285792,
+      "file": "case-0117.npz",
+      "sha256": "43f070c916934dc819da68d8cea634ba0235d2535e844b38d49c3d34df77c520",
+      "wall_seconds": 2.994580600000063,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 118,
+      "force": 5.17990104420695,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00015275084292614842,
+      "windows": [
+        -0.0023412468057723455,
+        -0.0020927966704118077,
+        0.008445581968788914,
+        -0.003400535120900098
+      ],
+      "min_angle_norm": 2.0282444707561647,
+      "max_absolute_angle": 4.436611039711806,
+      "file": "case-0118.npz",
+      "sha256": "6c7345da49da6dfca879d187bf671ee9093d07f23a7d840e9df8bef1089f0a24",
+      "wall_seconds": 3.0107883999999103,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 119,
+      "force": 5.713137212450447,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -5.738821870190312e-05,
+      "windows": [
+        0.005466895952659446,
+        -0.005581352668422722,
+        0.005402082453658005,
+        -0.0055171786127023534
+      ],
+      "min_angle_norm": 2.0381837597564147,
+      "max_absolute_angle": 4.870712756756213,
+      "file": "case-0119.npz",
+      "sha256": "25867a25070483003ab86658d855fb5336bab7d70e5fe35a525f0d828c759b90",
+      "wall_seconds": 3.034932900000058,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 120,
+      "force": 6.301266477819999,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0008236236557140953,
+      "windows": [
+        -0.0031854352573143343,
+        0.0068445660841118215,
+        -0.003896819098618125,
+        -0.0030568063510357413
+      ],
+      "min_angle_norm": 2.0361605559980833,
+      "max_absolute_angle": 5.307793290782283,
+      "file": "case-0120.npz",
+      "sha256": "c9348ac4e9a0377dbe9dd151cf5e59073a9037178a192010d170f14b21cc81cf",
+      "wall_seconds": 3.062803600000052,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 121,
+      "force": 6.949939717528262,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0005935476613487054,
+      "windows": [
+        0.0008003895213295655,
+        0.0009115530899257121,
+        -0.0009045753415853051,
+        -0.003181557915064789
+      ],
+      "min_angle_norm": 2.0230545737124714,
+      "max_absolute_angle": 5.782215968574196,
+      "file": "case-0121.npz",
+      "sha256": "18cf8a4c10e7cb6e1993666836cfd024b318d4b16074920370d00dee6f0c0bee",
+      "wall_seconds": 3.0093016999999236,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 122,
+      "force": 7.665389528802689,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -5.928223940114118e-05,
+      "windows": [
+        0.004578367586242687,
+        -0.004697153879747375,
+        0.00449128519228969,
+        -0.004609627856389561
+      ],
+      "min_angle_norm": 2.001061805874403,
+      "max_absolute_angle": 6.149410673961606,
+      "file": "case-0122.npz",
+      "sha256": "59a48cef7ad93406587a3b38b5356c97f8261e8773e3ea8b2028dd8a2d536bb1",
+      "wall_seconds": 3.0556980999999723,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 123,
+      "force": 8.454490113070387,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00023276146950589827,
+      "windows": [
+        0.0005347508420338389,
+        0.0004908173079740928,
+        0.0003095266826776362,
+        -0.0004040489546619699
+      ],
+      "min_angle_norm": 1.9723999868996895,
+      "max_absolute_angle": 6.364742513430185,
+      "file": "case-0123.npz",
+      "sha256": "8332da0c3f2fb96456b5dc7c417254b911464b013dbd7430e65317513fb59e8a",
+      "wall_seconds": 3.1386962000001404,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 124,
+      "force": 9.3248233248193,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0007405513702007627,
+      "windows": [
+        -0.0010346291133843113,
+        -0.0009002110733707518,
+        -0.0007965402933819085,
+        0.005693585960939994
+      ],
+      "min_angle_norm": 1.9386368470863082,
+      "max_absolute_angle": 6.446151460805207,
+      "file": "case-0124.npz",
+      "sha256": "5f23cbdbc6257f3246a7c526702f16b6418f00a1fa490f386341e356797cd58c",
+      "wall_seconds": 3.1454539999999724,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 125,
+      "force": 10.28475151974788,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0001907446638227428,
+      "windows": [
+        -0.00020402731853747454,
+        -0.00019386782296457758,
+        -0.00018579093997622188,
+        -0.00017929257381268883
+      ],
+      "min_angle_norm": 1.900781180578217,
+      "max_absolute_angle": 6.4304157408864215,
+      "file": "case-0125.npz",
+      "sha256": "a6f66c84a79ee82cd9ed9b3b88c75edce03b8e52087beaef2720f9521f805924",
+      "wall_seconds": 3.1352094000001216,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 126,
+      "force": 11.343497902144552,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0014163684722380545,
+      "windows": [
+        -0.005211025987878334,
+        0.001581470318676517,
+        0.0019612862599759045,
+        -0.00399720447972631
+      ],
+      "min_angle_norm": 1.8594450390637025,
+      "max_absolute_angle": 6.344493287041675,
+      "file": "case-0126.npz",
+      "sha256": "1f4d63ffe889f3c4bfa0103e84c39bb397ced29b1b37f1d9f2daa9e410400eea",
+      "wall_seconds": 3.115919399999939,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 127,
+      "force": 12.51123514349252,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0006843268366834072,
+      "windows": [
+        0.003260188066117585,
+        -0.002135897750164674,
+        -0.0016287846842862005,
+        0.003241801715066927
+      ],
+      "min_angle_norm": 1.8148034802408497,
+      "max_absolute_angle": 6.204967550979641,
+      "file": "case-0127.npz",
+      "sha256": "1b98a06552aa2d35c369b3afc1ba2a5e1cf1339e0758bcf328cfefb3e66a3daf",
+      "wall_seconds": 3.12205310000013,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 128,
+      "force": 13.799183123767259,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0006788023377671533,
+      "windows": [
+        0.00310211522011319,
+        -0.001947880574713517,
+        -0.0013775256242547873,
+        0.0029385003299237282
+      ],
+      "min_angle_norm": 1.7661344189902657,
+      "max_absolute_angle": 6.022583342948484,
+      "file": "case-0128.npz",
+      "sha256": "d542482165bbb4ea3976bdd8c911b51a1db0c48df3085c84502b7a61c901bca8",
+      "wall_seconds": 3.134425799999917,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 129,
+      "force": 15.219716734546797,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00024913303321758685,
+      "windows": [
+        0.00033088523174522983,
+        0.0003768155437647576,
+        0.0002820203716884516,
+        6.810985671904055e-06
+      ],
+      "min_angle_norm": 1.7105837807123505,
+      "max_absolute_angle": 5.805835026742509,
+      "file": "case-0129.npz",
+      "sha256": "99fe1e3e77e094e21f16e7f72a38c76b7c8300eb56c7184cef0d3a97423e0115",
+      "wall_seconds": 3.1477598999999827,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 130,
+      "force": 16.78648477973127,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0001071435070132859,
+      "windows": [
+        9.790872384033005e-05,
+        -0.0009552178935110331,
+        0.001078937242657324,
+        0.0002069459550665284
+      ],
+      "min_angle_norm": 1.6386894619348515,
+      "max_absolute_angle": 5.566255103796757,
+      "file": "case-0130.npz",
+      "sha256": "d1b7be5456b8da167ad5ff9642105d650d147341cbc8304a30752fee171c2800",
+      "wall_seconds": 3.1901186000000052,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 131,
+      "force": 18.514541116296314,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.00017071502601431144,
+      "windows": [
+        0.0020167497506743204,
+        -0.0034269168835189723,
+        0.0016957117838678445,
+        -0.0009684047550804334
+      ],
+      "min_angle_norm": 1.5942775695888134,
+      "max_absolute_angle": 15.557233969831275,
+      "file": "case-0131.npz",
+      "sha256": "2a5d8784818f39512c9d223e53e05f0809f774ca5cd9bc59a18a4d4468cde31e",
+      "wall_seconds": 3.2100404999998773,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 132,
+      "force": 20.420489295109842,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.0006288778372958771,
+      "windows": [
+        0.0008399732951843059,
+        0.00010656159339185768,
+        0.00025158816498744197,
+        0.00131738829561991
+      ],
+      "min_angle_norm": 1.5476967048982644,
+      "max_absolute_angle": 15.18038225242248,
+      "file": "case-0132.npz",
+      "sha256": "b842daeb52a51a6c4484bf568f302449c07605e77bf75a7996689dc8a83521f0",
+      "wall_seconds": 3.186488499999996,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 133,
+      "force": 22.52264209155363,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0007708778188183179,
+      "windows": [
+        -0.0035504879259852795,
+        0.0019016277125705483,
+        -0.0025976952180795177,
+        0.0011630441562209635
+      ],
+      "min_angle_norm": 1.4959808647080293,
+      "max_absolute_angle": 25.086518474113596,
+      "file": "case-0133.npz",
+      "sha256": "3227baf1568e1c19538cf0ec800ef75f1d3e0e9468525d320fb2b8721cda28bc",
+      "wall_seconds": 3.1617003999999724,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 134,
+      "force": 24.841197458755335,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00020034210492674435,
+      "windows": [
+        -0.0020259981455406613,
+        0.0012036384797372243,
+        8.119146660344058e-05,
+        0.0015425366189069805
+      ],
+      "min_angle_norm": 1.44402318487162,
+      "max_absolute_angle": 24.624238144871338,
+      "file": "case-0134.npz",
+      "sha256": "be76047345eddc6ae4b5431c8d1d7199ab681f3e2de10d078a1773e58a898a80",
+      "wall_seconds": 3.1355135999999675,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 135,
+      "force": 27.39843259402901,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0009719380734850669,
+      "windows": [
+        -0.00270288073302352,
+        0.0031133662915193722,
+        0.00016186228719435134,
+        -0.004460100139630475
+      ],
+      "min_angle_norm": 1.3962674771488033,
+      "max_absolute_angle": 34.419458194436444,
+      "file": "case-0135.npz",
+      "sha256": "865cfdf02f2eec7da083e93eb13f3b409d7102700ff41dd79117b27e51d6eba4",
+      "wall_seconds": 3.2297810999998546,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 136,
+      "force": 30.218917983157635,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 5.6198424088906536e-05,
+      "windows": [
+        0.0055746695776720265,
+        -0.0043743433532803175,
+        -0.0008741773365266509,
+        -0.00010135519150942976
+      ],
+      "min_angle_norm": 1.3745645692050859,
+      "max_absolute_angle": 33.955767080706806,
+      "file": "case-0136.npz",
+      "sha256": "50f19c532155397fdee31d88c80e5ac6519f151d7a3b290a6ad2a43ac5fda4bf",
+      "wall_seconds": 3.2993108999999095,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 137,
+      "force": 33.329753479103,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -3.429598678795879e-05,
+      "windows": [
+        0.0018258682481980288,
+        -0.0020244893256725887,
+        0.0011286070436297326,
+        -0.0010671699133070068
+      ],
+      "min_angle_norm": 1.417755614201248,
+      "max_absolute_angle": 43.69120451917755,
+      "file": "case-0137.npz",
+      "sha256": "6817bfae3c3c99ee7ca29dee92e54cd81ef43e7798051e7e3983df868b5a9593",
+      "wall_seconds": 3.228085100000044,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 138,
+      "force": 36.7608286834399,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00016555432001456093,
+      "windows": [
+        -0.000854795654076357,
+        0.00397076866288636,
+        -0.003104696234802458,
+        0.0006509405060507034
+      ],
+      "min_angle_norm": 1.5336169576976613,
+      "max_absolute_angle": 53.42751127285616,
+      "file": "case-0138.npz",
+      "sha256": "7110b2ec5d8eec911bbcde955a81d2894342e7cfe2032f4c17016172e13394ab",
+      "wall_seconds": 3.244976299999962,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 139,
+      "force": 40.54511013231732,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.0005152147061742461,
+      "windows": [
+        0.00010467397441158752,
+        -0.0034930447941691877,
+        -0.00022342985498934216,
+        0.0015509418500499563
+      ],
+      "min_angle_norm": 1.6599677225750067,
+      "max_absolute_angle": 63.18558946257182,
+      "file": "case-0139.npz",
+      "sha256": "5d76e64e0465b159953d2061887d073801f2621fe5c9f13906c68cbc10c5e11c",
+      "wall_seconds": 3.22329539999987,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 140,
+      "force": 44.71895804629375,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -0.00015715667806376167,
+      "windows": [
+        -0.0004045505540025733,
+        -8.391812067906623e-05,
+        0.0005219736478453032,
+        -0.0006621316854187027
+      ],
+      "min_angle_norm": 1.6320245856712587,
+      "max_absolute_angle": 72.99992258637405,
+      "file": "case-0140.npz",
+      "sha256": "74be961f0739736c0caa184ce6f12ce0f3fa920cc76afc23a8c213b2bacc6250",
+      "wall_seconds": 3.3770433999998204,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 141,
+      "force": 49.32247568744941,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -5.706399146680803e-05,
+      "windows": [
+        0.0021085236340765844,
+        -0.001592192837710166,
+        0.002091175589949137,
+        -0.002835762352182778
+      ],
+      "min_angle_norm": 1.5796537543118585,
+      "max_absolute_angle": 82.91934681011345,
+      "file": "case-0141.npz",
+      "sha256": "b6945c4e0ae87c734ed063a975a6a8d9b7569ad6febab1023e5c27a52222c600",
+      "wall_seconds": 3.2576970000000074,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 142,
+      "force": 54.39989468047677,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": -3.5930171546555664e-05,
+      "windows": [
+        0.0003175998243089393,
+        0.0003363275034767725,
+        -0.0006862749232720337,
+        -0.00011137309069989428
+      ],
+      "min_angle_norm": 1.5674906568992144,
+      "max_absolute_angle": 93.01309530999605,
+      "file": "case-0142.npz",
+      "sha256": "5d8c75d28c65684278d32a06558cd3437a738a3a44b2e3614a3ad14b06ae0720",
+      "wall_seconds": 3.332424799999899,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 143,
+      "force": 60.0,
+      "stiffness": [
+        1.0,
+        0.3,
+        3.0
+      ],
+      "leading_rate": 0.00027683733399278806,
+      "windows": [
+        -0.001358167027306101,
+        0.00329821151749908,
+        -0.00587446841410399,
+        0.005041773259882181
+      ],
+      "min_angle_norm": 1.9774021546810931,
+      "max_absolute_angle": 113.28584715128703,
+      "file": "case-0143.npz",
+      "sha256": "a6510aff7ccf894d03442723d57fd96771b1d562e7abc4fd580de780c600e9ab",
+      "wall_seconds": 3.250165100000004,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 144,
+      "force": 0.6,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.1451169793581072,
+      "windows": [
+        -0.14490801170958237,
+        -0.14810606341750984,
+        -0.14132773084040115,
+        -0.14612611146493515
+      ],
+      "min_angle_norm": 2.0488081330328772e-64,
+      "max_absolute_angle": 4.5158258856527555e-14,
+      "file": "case-0144.npz",
+      "sha256": "80a6517eebc9380f2ce8f6b8bfc5808506e418980055064e4024c324ffe85fdc",
+      "wall_seconds": 3.0940111999998408,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 145,
+      "force": 0.6617659870749677,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.10778055859988932,
+      "windows": [
+        -0.10779074682554247,
+        -0.10756931647472494,
+        -0.10773954612465592,
+        -0.10802262497463479
+      ],
+      "min_angle_norm": 1.3723436643636393e-48,
+      "max_absolute_angle": 3.5914143319310744e-11,
+      "file": "case-0145.npz",
+      "sha256": "5722f40f173ddb305ccc00c23989949fbfbcf5cf73cc8bd272c0127534848ca3",
+      "wall_seconds": 3.0364944999998897,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 146,
+      "force": 0.7298903694155106,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.06826894885292864,
+      "windows": [
+        -0.06822229947473979,
+        -0.06853053408574622,
+        -0.06655191006405503,
+        -0.06977105178717273
+      ],
+      "min_angle_norm": 3.4473354756432114e-31,
+      "max_absolute_angle": 1.6641511305447003e-07,
+      "file": "case-0146.npz",
+      "sha256": "00c8a578b897574512aed95c5b86c45171f794341d6f30e9e7a14f8a3a736033",
+      "wall_seconds": 3.098821199999975,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 147,
+      "force": 0.805027701287947,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.022499719616744348,
+      "windows": [
+        -0.021861945737449928,
+        -0.023331195114948036,
+        -0.02307979989878408,
+        -0.02172593771579531
+      ],
+      "min_angle_norm": 1.5032561469363777e-11,
+      "max_absolute_angle": 0.0011967724016871619,
+      "file": "case-0147.npz",
+      "sha256": "562221ff1999c3e65bef47896459fc76b87db7462a2e9a8a792bf63c82485b52",
+      "wall_seconds": 3.001079299999901,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 148,
+      "force": 0.8878999189425175,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -1.0788679635510744e-05,
+      "windows": [
+        0.00034168558654154254,
+        -0.0004490936714749834,
+        0.0010072338780960704,
+        -0.0009429805117046732
+      ],
+      "min_angle_norm": 0.33332669308196217,
+      "max_absolute_angle": 0.3791656995992652,
+      "file": "case-0148.npz",
+      "sha256": "a273b8e50b5d34d0b40661dc1162400dfe9c130c641910d8fba0514c55b16147",
+      "wall_seconds": 3.0546110999998746,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 149,
+      "force": 0.979303277137965,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -4.090882503832396e-05,
+      "windows": [
+        -0.0007927618841851244,
+        0.0005955495430200839,
+        2.1945571817691187e-05,
+        1.1631469194049006e-05
+      ],
+      "min_angle_norm": 0.5862286036661402,
+      "max_absolute_angle": 0.6787087233602518,
+      "file": "case-0149.npz",
+      "sha256": "48c12850ebe18fc019af31d39b4fadb3e189d023551fe46705c80cd9b2d0429e",
+      "wall_seconds": 3.0091551000000436,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 150,
+      "force": 1.0801159997349268,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.00033799014840636986,
+      "windows": [
+        -0.002061378567586352,
+        0.0009213847280629267,
+        -0.0012654150849706358,
+        0.001053448330868588
+      ],
+      "min_angle_norm": 0.738283402484459,
+      "max_absolute_angle": 0.9205616156291444,
+      "file": "case-0150.npz",
+      "sha256": "0f0f51d237ab09e536854c0d6823dc8e6927209e2e6afe4577b7a45c01b0836c",
+      "wall_seconds": 3.2252913999998327,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 151,
+      "force": 1.191306717866749,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -5.270506508684182e-05,
+      "windows": [
+        -0.0005904316753673779,
+        0.002028426057328102,
+        -0.0026833095322514005,
+        0.001034494889943315
+      ],
+      "min_angle_norm": 0.8532638668418521,
+      "max_absolute_angle": 1.1471357671077766,
+      "file": "case-0151.npz",
+      "sha256": "715c4fde3254276a83cfd1f7d17ee28afdf64c3510bf3bc7111db841be264451",
+      "wall_seconds": 3.236425199999985,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 152,
+      "force": 1.3139437767635487,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00034281690394435905,
+      "windows": [
+        0.0014166265540736455,
+        0.0005975672546538541,
+        -0.001965788124116291,
+        0.0013228619311662188
+      ],
+      "min_angle_norm": 0.9461475557309158,
+      "max_absolute_angle": 1.3718409310529345,
+      "file": "case-0152.npz",
+      "sha256": "ec6e701e3b3797d46057420ecb46f78567cc2f05431f9fadb4983fffe007cc91",
+      "wall_seconds": 3.2222670999999536,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 153,
+      "force": 1.4492055006515683,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.001110542673806269,
+      "windows": [
+        -0.004261705690453305,
+        -0.0012775311771680662,
+        0.00045629199304873927,
+        0.0006407741793475552
+      ],
+      "min_angle_norm": 1.02381055118514,
+      "max_absolute_angle": 1.6021392123383533,
+      "file": "case-0153.npz",
+      "sha256": "701b3160bf7fa9059bff430e64ac072df1d0bb86469b7887bb8ce8c944fa62ab",
+      "wall_seconds": 3.098234899999852,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 154,
+      "force": 1.5983915143552632,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -1.6507565707136442e-05,
+      "windows": [
+        -0.0013497744450114207,
+        0.00023096795265753971,
+        0.0016588044739956121,
+        -0.0006060282444702807
+      ],
+      "min_angle_norm": 1.090203015282818,
+      "max_absolute_angle": 1.843095166325337,
+      "file": "case-0154.npz",
+      "sha256": "39fa4c34ccf2b4afe5732991c7af7fc8abce3b3ff3ece7ff79ad2e390859cd4e",
+      "wall_seconds": 3.1237160999999105,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 155,
+      "force": 1.7629352303826054,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.001217126764782505,
+      "windows": [
+        -0.001349856338902794,
+        0.001209440888402463,
+        0.0010034539164650292,
+        0.00400546859316532
+      ],
+      "min_angle_norm": 1.1478790646903223,
+      "max_absolute_angle": 2.094619024890009,
+      "file": "case-0155.npz",
+      "sha256": "3a52177789b789c590a11a0a7df82a342a3f82a5d90a25731a8710253df782bb",
+      "wall_seconds": 3.127947400000039,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 156,
+      "force": 1.9444176214723006,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0003183487049492794,
+      "windows": [
+        0.004092220721709614,
+        -0.0034477409259168735,
+        -0.00040749709468220803,
+        0.0010364121186865857
+      ],
+      "min_angle_norm": 1.1986100341784602,
+      "max_absolute_angle": 2.3488854716767182,
+      "file": "case-0156.npz",
+      "sha256": "aaed976c3303b896d741e67e9f899edfb51353bf95ad4bc46d3c5d91f61d53ed",
+      "wall_seconds": 3.2006366999999045,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 157,
+      "force": 2.1445824109326304,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 7.254633983241762e-05,
+      "windows": [
+        -0.0010648855232659443,
+        -4.067982422585187e-06,
+        0.002449458539482291,
+        -0.0010903196744641063
+      ],
+      "min_angle_norm": 1.2436875443968958,
+      "max_absolute_angle": 2.5960950610089384,
+      "file": "case-0157.npz",
+      "sha256": "25b61f3e73b2d131042fe37e912ab273944b71a5a812b4288ea552898bde11b6",
+      "wall_seconds": 3.1912524000001667,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 158,
+      "force": 2.365352826724077,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0007430290735753651,
+      "windows": [
+        -0.0006821920398842835,
+        -0.0006361522271349845,
+        -0.00042378408581991614,
+        0.004714244647140638
+      ],
+      "min_angle_norm": 1.284087038261856,
+      "max_absolute_angle": 2.8337564671812525,
+      "file": "case-0158.npz",
+      "sha256": "71ed9a991140c9116b8ee7beaf8f70b928ddc28e60db81299235949e89ec5e3e",
+      "wall_seconds": 3.2081914000000324,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 159,
+      "force": 2.6088500802627066,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00044137285097834794,
+      "windows": [
+        -0.0007212539874261597,
+        -0.0006147104857023955,
+        0.0018017847420261168,
+        0.0012996711350158202
+      ],
+      "min_angle_norm": 1.3205623609646844,
+      "max_absolute_angle": 3.1108019110188345,
+      "file": "case-0159.npz",
+      "sha256": "4920ec14853023dcce348ce17bb8bba1fbda727c1186c1f013ef61e15e229c76",
+      "wall_seconds": 3.1034645000002,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 160,
+      "force": 2.8774137474927644,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.00015499212835179331,
+      "windows": [
+        -0.0008122210720758216,
+        0.0033642305410661287,
+        -0.00215372274275664,
+        -0.0010182552396408575
+      ],
+      "min_angle_norm": 1.3537046806389226,
+      "max_absolute_angle": 3.3871749224997743,
+      "file": "case-0160.npz",
+      "sha256": "a048ec8225a77c68bda6be656753518739dbd4fe55e28b0b135417202ef873ae",
+      "wall_seconds": 3.049845000000005,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 161,
+      "force": 3.1736242480543853,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 4.012151614414112e-05,
+      "windows": [
+        0.0021065086037353577,
+        -0.0020289499980536974,
+        0.002367606743532378,
+        -0.0022846792846374616
+      ],
+      "min_angle_norm": 1.3839827615148175,
+      "max_absolute_angle": 3.6648097744165367,
+      "file": "case-0161.npz",
+      "sha256": "4e0d7673c8f389921ed7f85451e0947c563aafb7761f8be36805924f44a524a2",
+      "wall_seconds": 3.0744558000001234,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 162,
+      "force": 3.5003276385312714,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.000663163832232238,
+      "windows": [
+        -0.002461307277422245,
+        0.0008186269290486079,
+        0.0024528770581965843,
+        -0.0034628520387518964
+      ],
+      "min_angle_norm": 1.4117720834569383,
+      "max_absolute_angle": 3.946300086804927,
+      "file": "case-0162.npz",
+      "sha256": "e7a30af68d6be838f05f0ae58a7b3b5d6188e85a61b200286669a81365609127",
+      "wall_seconds": 3.071527099999912,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 163,
+      "force": 3.8606629579973957,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0004419385341419488,
+      "windows": [
+        0.0002888020808740607,
+        0.00038490757910121363,
+        0.0005075174813150371,
+        0.0005865269952774707
+      ],
+      "min_angle_norm": 1.4373787898478476,
+      "max_absolute_angle": 4.234901605048407,
+      "file": "case-0163.npz",
+      "sha256": "b49b15fd2616073511a80a37f32439d3e40471b31a220ab6ac1184d9913864f4",
+      "wall_seconds": 3.081515300000092,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 164,
+      "force": 4.258092388604853,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00017413600520377895,
+      "windows": [
+        -0.0004901157266834248,
+        -0.00013285694703917773,
+        0.003471677507274851,
+        -0.0021521608127371378
+      ],
+      "min_angle_norm": 1.4610640017381376,
+      "max_absolute_angle": 4.5346561100540725,
+      "file": "case-0164.npz",
+      "sha256": "78d59a1bc68461d1fbc71381232282d1f78757a9e97b0a2393beb7f53cb38575",
+      "wall_seconds": 3.0581554999998843,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 165,
+      "force": 4.696434521002495,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0010213726415865055,
+      "windows": [
+        0.002222064090733272,
+        -0.001368222174627638,
+        -0.0009524089347161604,
+        0.004184057584956543
+      ],
+      "min_angle_norm": 1.4830778951113275,
+      "max_absolute_angle": 4.8506240500379825,
+      "file": "case-0165.npz",
+      "sha256": "67c0e07c78f7ef61b551c4148b0488feae60d7aaa1f079f16bcfdde3e5c29739",
+      "wall_seconds": 3.1444405999998253,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 166,
+      "force": 5.17990104420695,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -6.977811863651987e-05,
+      "windows": [
+        -0.0004939223422699357,
+        0.003948831913527509,
+        -0.003108280602944717,
+        -0.0006257414428589417
+      ],
+      "min_angle_norm": 1.5037381822737168,
+      "max_absolute_angle": 5.18923082295042,
+      "file": "case-0166.npz",
+      "sha256": "5eb2bf5df9639de3241c9bab0f3d8490c844c0e243c2a53b4edc33744103e58f",
+      "wall_seconds": 3.093746999999894,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 167,
+      "force": 5.713137212450447,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0001127921873409914,
+      "windows": [
+        0.00043480681510163916,
+        0.0012458257270905086,
+        -0.0015502351220567276,
+        -0.0005815661694993908
+      ],
+      "min_angle_norm": 1.5238180645801918,
+      "max_absolute_angle": 5.5587233852911515,
+      "file": "case-0167.npz",
+      "sha256": "34b8d1d3aeec8dfc4bcddcf131969ae8227482c55d39ffc7a5b1a6011129dab7",
+      "wall_seconds": 3.146513099999993,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 168,
+      "force": 6.301266477819999,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0011129691692877259,
+      "windows": [
+        0.0037378206146167926,
+        0.002930009320628465,
+        -0.003722383603270265,
+        0.001506430345175917
+      ],
+      "min_angle_norm": 1.5328158186427874,
+      "max_absolute_angle": 9.368407325549788,
+      "file": "case-0168.npz",
+      "sha256": "984c5b6ae0ae1bafe77c4049602c35f7270d57cc6bc376c0bbcb44510b4359b3",
+      "wall_seconds": 3.148084800000106,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 169,
+      "force": 6.949939717528262,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00027956156623436414,
+      "windows": [
+        0.00021921085604275595,
+        0.0002591176919724538,
+        0.0003031796679711254,
+        0.0003367380489511258
+      ],
+      "min_angle_norm": 1.5501412319729424,
+      "max_absolute_angle": 12.352517619488513,
+      "file": "case-0169.npz",
+      "sha256": "cc7674c69c4fab060723cbbed68b7189f33edd1df5eabbed89bd8660ae8bfa5a",
+      "wall_seconds": 3.1400873000000047,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 170,
+      "force": 7.665389528802689,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00043427890106795817,
+      "windows": [
+        0.0032048786102310467,
+        0.004124216735687712,
+        0.0076567798447224646,
+        -0.013248759586369372
+      ],
+      "min_angle_norm": 1.6202020424003063,
+      "max_absolute_angle": 18.57833680952648,
+      "file": "case-0170.npz",
+      "sha256": "e355de97c4aab99fef390271bdd25ecd0f27b718ba02676e774a619f98735a7e",
+      "wall_seconds": 3.215854199999967,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 171,
+      "force": 8.454490113070387,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -8.787516939259064e-06,
+      "windows": [
+        0.006607299314624877,
+        -0.006624892723904826,
+        0.006656036578047464,
+        -0.006673593236524575
+      ],
+      "min_angle_norm": 1.6965703534757464,
+      "max_absolute_angle": 20.442697198138166,
+      "file": "case-0171.npz",
+      "sha256": "9b668ed1480ad8c127358ca95dc98d6814e6cd15be82b431b757931997789a5d",
+      "wall_seconds": 3.158982299999934,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 172,
+      "force": 9.3248233248193,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.00038599534461452055,
+      "windows": [
+        0.00438658629692075,
+        -0.005133819906729211,
+        0.003884053590790217,
+        -0.00468080135943981
+      ],
+      "min_angle_norm": 1.8223138272253414,
+      "max_absolute_angle": 21.142676207058432,
+      "file": "case-0172.npz",
+      "sha256": "1fa48b53b61a2d7d8719b0a1c6c2c247067988f0c9a0fb6bc893f54af2c1d409",
+      "wall_seconds": 3.2178756999999223,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 173,
+      "force": 10.28475151974788,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0003621034328359077,
+      "windows": [
+        0.00671974013805211,
+        -0.005324694356530194,
+        -0.003262235865437888,
+        0.0033156038152596006
+      ],
+      "min_angle_norm": 2.0622887474272584,
+      "max_absolute_angle": 21.858333403977706,
+      "file": "case-0173.npz",
+      "sha256": "bad6f3a36e9e37830fffc244db803527c1535a5be9e2b15599a94c90881b4f68",
+      "wall_seconds": 3.1770879000000605,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 174,
+      "force": 11.343497902144552,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0004495425678982613,
+      "windows": [
+        -0.0035746160395587353,
+        -0.0021146542840846153,
+        0.00598959292013938,
+        -0.002098492868089038
+      ],
+      "min_angle_norm": 2.4532258496755865,
+      "max_absolute_angle": 22.62466911439646,
+      "file": "case-0174.npz",
+      "sha256": "ababda57de128a0592961c9ea7c2efd51d3c5ee6bfe6de8b106c12f0eeea28dc",
+      "wall_seconds": 3.2647613999999976,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 175,
+      "force": 12.51123514349252,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0013454664606656096,
+      "windows": [
+        0.0020373285934476015,
+        0.0013976421633764707,
+        0.0004009455894304195,
+        -0.009217782188916931
+      ],
+      "min_angle_norm": 3.0557259872137794,
+      "max_absolute_angle": 23.469233144809902,
+      "file": "case-0175.npz",
+      "sha256": "e0069d741d66b38c25ee52d6b3be3fde644dd18cef373a520f77ade081885286",
+      "wall_seconds": 3.2113176000000294,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 176,
+      "force": 13.799183123767259,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.00021576127965090069,
+      "windows": [
+        -0.0007395816759904627,
+        0.0003336816649973088,
+        0.0037307829902166146,
+        -0.004187928097827078
+      ],
+      "min_angle_norm": 4.035192006531058,
+      "max_absolute_angle": 24.4192015905943,
+      "file": "case-0176.npz",
+      "sha256": "9922dcc924a5a15a88ebe3151c1b761624c9a446222c26510aebe79c81b95f0e",
+      "wall_seconds": 3.331820500000049,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 177,
+      "force": 15.219716734546797,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00013749927652348772,
+      "windows": [
+        0.00014263413938983956,
+        0.0001389343002457,
+        0.00013567044928675944,
+        0.0001327582171716686
+      ],
+      "min_angle_norm": 5.3071791842305425,
+      "max_absolute_angle": 25.501205980548235,
+      "file": "case-0177.npz",
+      "sha256": "82ced4382d80a66ba6cca98f9bf158cd93b2b3019793da144c8fc169cca81a55",
+      "wall_seconds": 3.213655599999811,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 178,
+      "force": 16.78648477973127,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0013541458315653374,
+      "windows": [
+        -0.006603938389548314,
+        0.005352522235036059,
+        -0.00293689356068439,
+        -0.0012282736110646975
+      ],
+      "min_angle_norm": 5.349450264968659,
+      "max_absolute_angle": 26.73834958769448,
+      "file": "case-0178.npz",
+      "sha256": "439cf842c60ec2ba594e1eed3a04960e0e00ae5ad917ce4461c9cc4af37c70ad",
+      "wall_seconds": 3.101736800000026,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 179,
+      "force": 18.514541116296314,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0002844361102648808,
+      "windows": [
+        -0.0014983812264323907,
+        -0.0016819492994335293,
+        0.006151635427871564,
+        -0.0018335604609461523
+      ],
+      "min_angle_norm": 3.508880317510641,
+      "max_absolute_angle": 28.148173916865655,
+      "file": "case-0179.npz",
+      "sha256": "61044c6dff3932bc5ce3edcc8f0e28d136c94963f6e43b42b6a74a2a99ca760d",
+      "wall_seconds": 3.1675876999997854,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 180,
+      "force": 20.420489295109842,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 7.273999710719824e-05,
+      "windows": [
+        -0.0011695916285446373,
+        5.650286342480632e-05,
+        -0.0007040995077426453,
+        0.0021081482612912744
+      ],
+      "min_angle_norm": 1.694565016608541,
+      "max_absolute_angle": 29.744851048887433,
+      "file": "case-0180.npz",
+      "sha256": "313c2d9a925215aa6b09bad1d8a9f0c20f2cb5731db306d65b2740f84d3f156a",
+      "wall_seconds": 3.148304699999926,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 181,
+      "force": 22.52264209155363,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0003421582688973986,
+      "windows": [
+        0.0009490384515123265,
+        0.0022761778931093568,
+        -0.004518414646298387,
+        0.0026618313772662815
+      ],
+      "min_angle_norm": 1.703750297047089,
+      "max_absolute_angle": 31.542932670838297,
+      "file": "case-0181.npz",
+      "sha256": "7cd5359256de2d2f76fc9f997de4c4be4e903e3376107976c56e6c82f84550bf",
+      "wall_seconds": 3.1121350000000803,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 182,
+      "force": 24.841197458755335,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.00029904394480950616,
+      "windows": [
+        0.0002800336586862265,
+        -0.0001293610477310976,
+        0.0005132670569379025,
+        0.000532236111345002
+      ],
+      "min_angle_norm": 1.7122896888846664,
+      "max_absolute_angle": 33.55909052480105,
+      "file": "case-0182.npz",
+      "sha256": "6dee06f5aabac86ac1aa5b74470128cb3393a664d8adf032c2eee8c1d9522aa1",
+      "wall_seconds": 3.156741600000032,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 183,
+      "force": 27.39843259402901,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0007621611666237678,
+      "windows": [
+        -0.00016582074714528106,
+        0.0007191167678705966,
+        0.00028459608643077315,
+        0.002210752559338978
+      ],
+      "min_angle_norm": 1.7201923713023057,
+      "max_absolute_angle": 48.88062985332939,
+      "file": "case-0183.npz",
+      "sha256": "41e7962639a2a7319d6ba3189fb0e54b3a428999721d5dd8b0d9480bf5c78d32",
+      "wall_seconds": 3.149435100000119,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 184,
+      "force": 30.218917983157635,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0011558300998922276,
+      "windows": [
+        -0.0021611225375957306,
+        0.0029024447790111825,
+        -0.003315883278932118,
+        -0.002048759362052232
+      ],
+      "min_angle_norm": 1.7274889851468103,
+      "max_absolute_angle": 51.263915134506796,
+      "file": "case-0184.npz",
+      "sha256": "3efe2ee9e2942c14e8bfa241f8ef67e96737c2ee2993c1c281a1a46570cf8c44",
+      "wall_seconds": 3.1233124000000316,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 185,
+      "force": 33.329753479103,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -2.6864218218622983e-05,
+      "windows": [
+        0.0028096553130312653,
+        0.0002916906012660947,
+        0.0022536841782710244,
+        -0.005462486965442894
+      ],
+      "min_angle_norm": 1.734204744819032,
+      "max_absolute_angle": 53.953158683151166,
+      "file": "case-0185.npz",
+      "sha256": "ea30b235817eb7229a10e4b622508e7e5ae47141a2091e0277e1f9cba6c21e36",
+      "wall_seconds": 3.130217200000061,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 186,
+      "force": 36.7608286834399,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0004952138929600295,
+      "windows": [
+        0.0023032869518000865,
+        -0.0040658313500748396,
+        -0.0009489627129740451,
+        0.0007306515394086729
+      ],
+      "min_angle_norm": 1.7403701267675924,
+      "max_absolute_angle": 56.97463998472596,
+      "file": "case-0186.npz",
+      "sha256": "25334a3271436f047e8ec7222715b06de8de2554cbb64bce9f4377aa4fd426fd",
+      "wall_seconds": 3.4377256000000216,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 187,
+      "force": 40.54511013231732,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0006200758672934098,
+      "windows": [
+        0.0008565711433575763,
+        -0.002217703044836818,
+        0.002506749198851467,
+        -0.0036259207665458905
+      ],
+      "min_angle_norm": 1.746017865604656,
+      "max_absolute_angle": 60.35746985674129,
+      "file": "case-0187.npz",
+      "sha256": "83ba01863988b621af6e043b16efa0619882c16663656ac64b20e98fe804e52c",
+      "wall_seconds": 3.5128769999998894,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 188,
+      "force": 44.71895804629375,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.004085113632535453,
+      "windows": [
+        0.0007783450108498072,
+        -0.0012604743157574843,
+        -0.0001615006818737589,
+        -0.015696824543360365
+      ],
+      "min_angle_norm": 1.751182195588357,
+      "max_absolute_angle": 64.1343446884559,
+      "file": "case-0188.npz",
+      "sha256": "f7f98248071790d65a1ce0c1c68ffd54d0563b72d957b1850a09da6a3f36775b",
+      "wall_seconds": 3.433424599999853,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 189,
+      "force": 49.32247568744941,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": -0.0015481867033451057,
+      "windows": [
+        -0.0035763360116176017,
+        0.0030913012109430637,
+        -0.0009285456927147142,
+        -0.00477916631999119
+      ],
+      "min_angle_norm": 1.7558983531535437,
+      "max_absolute_angle": 81.30925451331679,
+      "file": "case-0189.npz",
+      "sha256": "406c4b252d6947581212eada553bef7bbcb89c1d37b720f90d8ae5e87443d823",
+      "wall_seconds": 3.211033000000043,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 190,
+      "force": 54.39989468047677,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.003995998970871261,
+      "windows": [
+        0.008903353285873952,
+        0.0014538779112108692,
+        0.00232059796243414,
+        0.0033061667239659837
+      ],
+      "min_angle_norm": 1.7602022368772012,
+      "max_absolute_angle": 85.90063178526646,
+      "file": "case-0190.npz",
+      "sha256": "38f9a16daf86eebd62572751ed2f29517b232b57d1edc019f747ab5d24244a34",
+      "wall_seconds": 3.2240099999999074,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 191,
+      "force": 60.0,
+      "stiffness": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "leading_rate": 0.0011452159401235834,
+      "windows": [
+        0.004395830872449321,
+        -0.0019046761304762842,
+        -0.0029191432990941374,
+        0.005008852317615458
+      ],
+      "min_angle_norm": 1.7641188205212301,
+      "max_absolute_angle": 91.02481696611035,
+      "file": "case-0191.npz",
+      "sha256": "533abb7fc1bee3889c5f55ee42a4cf95d23a52620983ea725de44edf8868b892",
+      "wall_seconds": 3.208481299999903,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 192,
+      "force": 0.6,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0945027332208668,
+      "windows": [
+        -0.09450273322085756,
+        -0.09450273322085756,
+        -0.09450273322085756,
+        -0.09450273322085756
+      ],
+      "min_angle_norm": 8.92786194673314e-43,
+      "max_absolute_angle": 4.5567310771514733e-10,
+      "file": "case-0192.npz",
+      "sha256": "60dd4492fdc4465d1e1a849021bf89d7cd4cb6e540c8b8234faa5f451871edff",
+      "wall_seconds": 2.9706277000000227,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 193,
+      "force": 0.6617659870749677,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.10225331665723962,
+      "windows": [
+        -0.10225331665726062,
+        -0.10225331665726062,
+        -0.10225331665726062,
+        -0.10225331665726062
+      ],
+      "min_angle_norm": 4.010160907434958e-46,
+      "max_absolute_angle": 1.0201094182678705e-10,
+      "file": "case-0193.npz",
+      "sha256": "61335f99e2c8fdf9ebf2e0d3780321f2d2d87480505e7396481bd8c39a821dfd",
+      "wall_seconds": 2.99228869999979,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 194,
+      "force": 0.7298903694155106,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.11218467762845091,
+      "windows": [
+        -0.11218467762845805,
+        -0.11218467762845805,
+        -0.11218467762845805,
+        -0.11218467762845805
+      ],
+      "min_angle_norm": 2.060005778182711e-50,
+      "max_absolute_angle": 1.4982190213851356e-11,
+      "file": "case-0194.npz",
+      "sha256": "7b44a7f877a0729bfab0acb0e618e403526788f799211df45e47e5ef6b850a7f",
+      "wall_seconds": 2.993412600000056,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 195,
+      "force": 0.805027701287947,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.125327205706764,
+      "windows": [
+        -0.1253272057067861,
+        -0.1253272057067861,
+        -0.1253272057067861,
+        -0.1253272057067861
+      ],
+      "min_angle_norm": 4.346756804471229e-56,
+      "max_absolute_angle": 1.1831249484358588e-12,
+      "file": "case-0195.npz",
+      "sha256": "f50140ad26b04cd922946d54e3ab99ad010d34e116fe4cc907fb312ae0ba8b26",
+      "wall_seconds": 2.979262700000163,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 196,
+      "force": 0.8878999189425175,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.14354195016305785,
+      "windows": [
+        -0.14354195016302643,
+        -0.14354195016302643,
+        -0.14354195016302643,
+        -0.14354195016302643
+      ],
+      "min_angle_norm": 5.931653630412005e-64,
+      "max_absolute_angle": 3.509001703416013e-14,
+      "file": "case-0196.npz",
+      "sha256": "ddb21094cf8398673721ac996c8a940b2cc7e916cd2e98aecce4213354e3162c",
+      "wall_seconds": 3.0369479999999385,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 197,
+      "force": 0.979303277137965,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.17072151624618556,
+      "windows": [
+        -0.1707215162461814,
+        -0.1707215162461814,
+        -0.1707215162461814,
+        -0.1707215162461814
+      ],
+      "min_angle_norm": 1.0982958234758779e-75,
+      "max_absolute_angle": 1.8494198708561257e-16,
+      "file": "case-0197.npz",
+      "sha256": "a4ffa457fc2b98fd63103c37dd9608234091ae91597fbb8fe3d61e58537150b3",
+      "wall_seconds": 2.9910691000000043,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 198,
+      "force": 1.0801159997349268,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.21768724387468105,
+      "windows": [
+        -0.21768724387463703,
+        -0.21768724387463703,
+        -0.21768724387463703,
+        -0.21768724387463703
+      ],
+      "min_angle_norm": 6.050831294064992e-96,
+      "max_absolute_angle": 2.1921003603770037e-20,
+      "file": "case-0198.npz",
+      "sha256": "94dc4339f8258417dd7383c89760547354047ecfd8ff6a32caf2957472bf911c",
+      "wall_seconds": 2.9520118999998886,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 199,
+      "force": 1.191306717866749,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.3891037972069649,
+      "windows": [
+        -0.3873449220157372,
+        -0.3889791794181161,
+        -0.3897699708602007,
+        -0.3903211165337963
+      ],
+      "min_angle_norm": 4.4834936154994926e-170,
+      "max_absolute_angle": 5.882648084101717e-35,
+      "file": "case-0199.npz",
+      "sha256": "9b22a467292a2f56cc2f7cabb4abb1e840b020625647822887995c7ad0c98d53",
+      "wall_seconds": 2.9792393000000175,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 200,
+      "force": 1.3139437767635487,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.3276741777586257,
+      "windows": [
+        -0.32526240673427886,
+        -0.32703037837772725,
+        -0.32838238708129697,
+        -0.3300215388412061
+      ],
+      "min_angle_norm": 9.593339012945796e-144,
+      "max_absolute_angle": 4.912439667737213e-30,
+      "file": "case-0200.npz",
+      "sha256": "761950225ba3ae48c9907796c3bc9a14c4036e6df767465aeda07e5db4c66e58",
+      "wall_seconds": 2.973666699999967,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 201,
+      "force": 1.4492055006515683,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.25790577896585654,
+      "windows": [
+        -0.2581394094125994,
+        -0.2579265832446358,
+        -0.2578009891932813,
+        -0.257756134012912
+      ],
+      "min_angle_norm": 8.778049911579177e-114,
+      "max_absolute_angle": 3.183956043922134e-24,
+      "file": "case-0201.npz",
+      "sha256": "261c4b1b82bf61ed6fe1af5cc4780ecd34d5dd216fb7c3c36f139d5d578f43e5",
+      "wall_seconds": 2.949040200000127,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 202,
+      "force": 1.5983915143552632,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.18086089162425864,
+      "windows": [
+        -0.18007104082364506,
+        -0.18316998811949187,
+        -0.1812518100434361,
+        -0.17895072751046334
+      ],
+      "min_angle_norm": 4.001151329348255e-80,
+      "max_absolute_angle": 2.4123104182957005e-17,
+      "file": "case-0202.npz",
+      "sha256": "d8b0577597c8c5cc878c6dc8b6447cd34795f9b249468f63af582e53b9928b6c",
+      "wall_seconds": 2.9094927999999527,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 203,
+      "force": 1.7629352303826054,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.09541040424204798,
+      "windows": [
+        -0.09737244375631512,
+        -0.09331574052699493,
+        -0.09675690002289337,
+        -0.09419653266198882
+      ],
+      "min_angle_norm": 6.0391348172888e-43,
+      "max_absolute_angle": 7.426292658812616e-10,
+      "file": "case-0203.npz",
+      "sha256": "924742caebd3cefdfca4b407c1ad7cecb9c9aa7d4faebc193ec4c7969a9437ef",
+      "wall_seconds": 2.977497600000106,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 204,
+      "force": 1.9444176214723006,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0016282698716653793,
+      "windows": [
+        -0.0031384256678058625,
+        -0.0016710146932334188,
+        -0.0010173450113674992,
+        -0.0006862941142547521
+      ],
+      "min_angle_norm": 0.04270114089200445,
+      "max_absolute_angle": 0.07531213292074106,
+      "file": "case-0204.npz",
+      "sha256": "1001622f8eb1113a00ee75cfc8e1e03da4a78eaece03bc104c2144561288c104",
+      "wall_seconds": 3.1410992999999507,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 205,
+      "force": 2.1445824109326304,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0001075624080812523,
+      "windows": [
+        -0.00016340048982470178,
+        -0.0004590551935620435,
+        0.00045916894379859443,
+        0.0005935363719131634
+      ],
+      "min_angle_norm": 0.48127646807984387,
+      "max_absolute_angle": 0.5826572709512721,
+      "file": "case-0205.npz",
+      "sha256": "aa178ba1d3158d8a0f54033a535e1babe2a9bc25b03af3a5001fd181571bd38f",
+      "wall_seconds": 3.085348999999951,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 206,
+      "force": 2.365352826724077,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 5.119451650111802e-05,
+      "windows": [
+        6.685689507443193e-05,
+        6.112591388758958e-05,
+        4.806987865462643e-05,
+        2.8725378387824834e-05
+      ],
+      "min_angle_norm": 0.6693112201932155,
+      "max_absolute_angle": 0.8755931255765552,
+      "file": "case-0206.npz",
+      "sha256": "d74f5f3d33918500c7c3ed3d660f801899eba19b9b3e9bbcc070013b91b1711e",
+      "wall_seconds": 3.0373713999999836,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 207,
+      "force": 2.6088500802627066,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -4.226167051002324e-06,
+      "windows": [
+        -0.0009268486007203484,
+        0.0016226872176221107,
+        -0.0014974672003504807,
+        0.0007847239152447123
+      ],
+      "min_angle_norm": 0.8018849465866016,
+      "max_absolute_angle": 1.1335281060202989,
+      "file": "case-0207.npz",
+      "sha256": "7179e4e62aa989e5837f639dd4cd7f020098990476e39d4efd8f6b42e6fd81c6",
+      "wall_seconds": 3.044623700000102,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 208,
+      "force": 2.8774137474927644,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.00046459806783918554,
+      "windows": [
+        -0.0014129270353224366,
+        -0.0004853452872637092,
+        0.0001555635566185923,
+        -0.00011568350538918819
+      ],
+      "min_angle_norm": 0.9042849602518217,
+      "max_absolute_angle": 1.3740950615126382,
+      "file": "case-0208.npz",
+      "sha256": "db51e608154abff53f361cc75be2101ced3dbb00db4b2eecbe6128902113ab31",
+      "wall_seconds": 3.0764612000000398,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 209,
+      "force": 3.1736242480543853,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -3.8385195908207563e-05,
+      "windows": [
+        0.0012299621454903487,
+        -0.0012106781066254179,
+        -0.0006822851720448875,
+        0.0005094603495471276
+      ],
+      "min_angle_norm": 0.9868008000330424,
+      "max_absolute_angle": 1.5983365031140169,
+      "file": "case-0209.npz",
+      "sha256": "aae4c5a8bc2fd3fd2457773169ae6a07d4bc77ea35e1ebfac3fad92c11c1ad48",
+      "wall_seconds": 3.1165502999999717,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 210,
+      "force": 3.5003276385312714,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0005420606770496412,
+      "windows": [
+        -0.0026625996782777307,
+        0.0016793508307213043,
+        -0.0018143505368443886,
+        0.0006293566762022626
+      ],
+      "min_angle_norm": 1.0550656475849987,
+      "max_absolute_angle": 1.8045758783596502,
+      "file": "case-0210.npz",
+      "sha256": "1207cd88dbce45524d5b057132b5645491b91e5cf5a9cb3f8aab7a7706b397e2",
+      "wall_seconds": 3.0993100000000595,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 211,
+      "force": 3.8606629579973957,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.00041564384845092816,
+      "windows": [
+        -0.0016398367199138098,
+        0.0007179137259325155,
+        0.001315760918805532,
+        -0.002056413318627961
+      ],
+      "min_angle_norm": 1.1127324818554853,
+      "max_absolute_angle": 1.9930944701465556,
+      "file": "case-0211.npz",
+      "sha256": "4a050add937b8d9c32b46d1969961284fe72d7e29a7fae9aea9b4bb77b42d30b",
+      "wall_seconds": 3.1178944999999203,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 212,
+      "force": 4.258092388604853,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -4.962706490972352e-05,
+      "windows": [
+        -5.884078593302626e-05,
+        -5.2927314175003555e-05,
+        -4.6696668976101655e-05,
+        -4.0043490554758926e-05
+      ],
+      "min_angle_norm": 1.1624731526881955,
+      "max_absolute_angle": 2.1713454751432115,
+      "file": "case-0212.npz",
+      "sha256": "0ff22ca0383ffb098c7fc3179f646483bbefa31ba1eaf36e06254b814f3a560a",
+      "wall_seconds": 3.135260799999969,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 213,
+      "force": 4.696434521002495,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -3.731102406288215e-05,
+      "windows": [
+        -0.000569070200852241,
+        -0.0006141366221163645,
+        0.0011926392211579282,
+        -0.0001586764944408549
+      ],
+      "min_angle_norm": 1.2064163853945502,
+      "max_absolute_angle": 2.3831344041785636,
+      "file": "case-0213.npz",
+      "sha256": "09bb45bb2b06773ed915df9c77859436359048b72dce99e8eccc251c6fe14048",
+      "wall_seconds": 3.0856999000000087,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 214,
+      "force": 5.17990104420695,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0004295238617126209,
+      "windows": [
+        -0.0025679936101901026,
+        0.00147059931408038,
+        -0.0009879041077174415,
+        0.00036720295697668145
+      ],
+      "min_angle_norm": 1.246327478280253,
+      "max_absolute_angle": 2.592252213172849,
+      "file": "case-0214.npz",
+      "sha256": "987a09774a51a47da84042fa77d36d6ec6fd48110e1df87d41f71e1dca8f909b",
+      "wall_seconds": 3.1207984000000124,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 215,
+      "force": 5.713137212450447,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0007874657882489091,
+      "windows": [
+        -0.003024601990820338,
+        0.0009472970070209927,
+        0.0005830153573573306,
+        -0.0016555735265536145
+      ],
+      "min_angle_norm": 1.2836744121485868,
+      "max_absolute_angle": 2.802738170783416,
+      "file": "case-0215.npz",
+      "sha256": "bbaccfbe2661f5a35ff8b4ed2f15351766d348266f2e4a32f1d50a113be74d73",
+      "wall_seconds": 3.0805493000000297,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 216,
+      "force": 6.301266477819999,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.00019065785675484906,
+      "windows": [
+        -0.001900863317861251,
+        -0.0008596841342680289,
+        0.001264081308106231,
+        0.0022590975710424493
+      ],
+      "min_angle_norm": 1.319704584652233,
+      "max_absolute_angle": 3.01845288943253,
+      "file": "case-0216.npz",
+      "sha256": "fbae4d9b1eae34a4806b260c7d312176bb7b53b9eaa1632f2360fa60222d5074",
+      "wall_seconds": 3.1207985000000917,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 217,
+      "force": 6.949939717528262,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.00027930883061283256,
+      "windows": [
+        -0.0007777922437129445,
+        0.0033847657573200184,
+        -0.003442074241331858,
+        0.0019523360501761198
+      ],
+      "min_angle_norm": 1.3557119445058197,
+      "max_absolute_angle": 3.2430847874082054,
+      "file": "case-0217.npz",
+      "sha256": "8fc036741a227a55aab48dbbc08bc4893115cb5a8e607aabef931a27d3484465",
+      "wall_seconds": 3.1277529000001323,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 218,
+      "force": 7.665389528802689,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -6.756337127758324e-05,
+      "windows": [
+        -3.4986542848550664e-05,
+        -5.8635327477636734e-05,
+        -7.969737714422005e-05,
+        -9.693423763992699e-05
+      ],
+      "min_angle_norm": 1.393951336743299,
+      "max_absolute_angle": 3.4805038728138444,
+      "file": "case-0218.npz",
+      "sha256": "8be3e9c4a503981d2e8c9405d20590f17033b93fcb59be2c1890ef77aae9d3d8",
+      "wall_seconds": 3.089783599999919,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 219,
+      "force": 8.454490113070387,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0005837283640029777,
+      "windows": [
+        0.00042156332543746985,
+        -0.0015875098711281394,
+        0.001572667421611084,
+        -0.002741634331932329
+      ],
+      "min_angle_norm": 1.3266915788608014,
+      "max_absolute_angle": 7.6304753826468925,
+      "file": "case-0219.npz",
+      "sha256": "8fcf8c0cb48e9e0549adbfe827d0f02ab22175392e313afebbd5acc7d302e8c1",
+      "wall_seconds": 3.174186899999995,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 220,
+      "force": 9.3248233248193,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0009867637989780331,
+      "windows": [
+        0.0024288850640340302,
+        -0.004429777700024345,
+        0.0020824271391213477,
+        0.0038655206927810937
+      ],
+      "min_angle_norm": 1.3499556864093296,
+      "max_absolute_angle": 10.286405506255457,
+      "file": "case-0220.npz",
+      "sha256": "9d3bf7aaf27f4159365f877f6f11bca13d04d8800ee60e35094326755f0fee9d",
+      "wall_seconds": 3.2494186999999783,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 221,
+      "force": 10.28475151974788,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 5.060147087842362e-05,
+      "windows": [
+        -0.003425221536231559,
+        -0.0025286586073647527,
+        0.00601192923795594,
+        0.0001443567891540967
+      ],
+      "min_angle_norm": 1.3742402167776555,
+      "max_absolute_angle": 14.101584240716733,
+      "file": "case-0221.npz",
+      "sha256": "d4f2c84dcaf4df9cccacfae1ca5675a5a69fd76bdbb200d45d6d50c49445791a",
+      "wall_seconds": 3.348996100000022,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 222,
+      "force": 11.343497902144552,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0016294108183670369,
+      "windows": [
+        -0.00027118758194395065,
+        0.0005161353594750412,
+        -0.001326334571298282,
+        0.007599030067235351
+      ],
+      "min_angle_norm": 1.3997057495586966,
+      "max_absolute_angle": 20.919448637149145,
+      "file": "case-0222.npz",
+      "sha256": "be189a87029e557dfe95f7985bdf5f96bff1c0e3af5412a7e0e3c3122f33ff07",
+      "wall_seconds": 3.5847329000000627,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 223,
+      "force": 12.51123514349252,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0002765561970271206,
+      "windows": [
+        0.0017545937546773205,
+        0.0025665066711479303,
+        0.003294707091966863,
+        -0.006509582729683657
+      ],
+      "min_angle_norm": 1.4263911087301657,
+      "max_absolute_angle": 21.02036899326766,
+      "file": "case-0223.npz",
+      "sha256": "cd02e4b675a964454c2e80c0847a4790959a7529eae7a868b851749811397b65",
+      "wall_seconds": 3.6229146999999102,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 224,
+      "force": 13.799183123767259,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 5.295239912699674e-06,
+      "windows": [
+        0.00042226103354255583,
+        0.002024917179075508,
+        0.003682348171616101,
+        -0.006108345424583336
+      ],
+      "min_angle_norm": 1.4540280104877927,
+      "max_absolute_angle": 21.2556755523881,
+      "file": "case-0224.npz",
+      "sha256": "cc4c6ddd838ee583e99a4b3ef2945ed8d105cd01f2731b07b8f8fa9f115c33f3",
+      "wall_seconds": 3.583944900000006,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 225,
+      "force": 15.219716734546797,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.001098764734510199,
+      "windows": [
+        0.0037504567186713218,
+        0.0020337707618531212,
+        -0.00424954188661525,
+        0.0028603733441315685
+      ],
+      "min_angle_norm": 1.4826822584487716,
+      "max_absolute_angle": 21.572045316335487,
+      "file": "case-0225.npz",
+      "sha256": "c8f34dc30eb521ccdbe8289fd6d38499cbf9c548679bd79c33281663c560e4b0",
+      "wall_seconds": 3.411532800000032,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 226,
+      "force": 16.78648477973127,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 2.257675271969122e-05,
+      "windows": [
+        0.00321871100658478,
+        -0.0031741469374861626,
+        0.003886173448942618,
+        -0.003840430507162465
+      ],
+      "min_angle_norm": 1.5308373729522218,
+      "max_absolute_angle": 21.97133607108702,
+      "file": "case-0226.npz",
+      "sha256": "ed829cd500222bd0bccb7755fc1a4bf1c2c79c204922de363932540078713d43",
+      "wall_seconds": 3.502432500000168,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 227,
+      "force": 18.514541116296314,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -3.0462241154917105e-05,
+      "windows": [
+        -0.0014300515241638114,
+        0.005706090361123376,
+        -0.0032508907316636314,
+        -0.0011469970699155923
+      ],
+      "min_angle_norm": 1.6345499363257956,
+      "max_absolute_angle": 22.472862751298514,
+      "file": "case-0227.npz",
+      "sha256": "ed04165e513a07b8df2372ce5aa3edac4c3877ca2696e7c186b257383f1de4a0",
+      "wall_seconds": 3.364296700000068,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 228,
+      "force": 20.420489295109842,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0009191938040562544,
+      "windows": [
+        0.0012607011008319263,
+        0.003509206440424058,
+        -0.0037239103343557484,
+        0.002630778009324801
+      ],
+      "min_angle_norm": 1.9515831393937446,
+      "max_absolute_angle": 23.111988029842152,
+      "file": "case-0228.npz",
+      "sha256": "0f886cec1ea5e1ad152c3efcd534ef3c339f38ebaaea09774c4b174bf44408f8",
+      "wall_seconds": 3.245978500000092,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 229,
+      "force": 22.52264209155363,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.0005297901068564169,
+      "windows": [
+        -0.0008496517646185492,
+        -7.877625464400053e-06,
+        -0.001401421367441008,
+        0.00013979033009829035
+      ],
+      "min_angle_norm": 3.2040661539436837,
+      "max_absolute_angle": 23.948038825459818,
+      "file": "case-0229.npz",
+      "sha256": "f188cf5b8c274ad8d199378e266bf7f9b94d3a29347aecf30f814f274f22e034",
+      "wall_seconds": 3.401069600000028,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 230,
+      "force": 24.841197458755335,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0009550730879405722,
+      "windows": [
+        -0.0021905033466665526,
+        -0.0007899750725549277,
+        -0.0010488188140197886,
+        0.007849589585003558
+      ],
+      "min_angle_norm": 1.746268945783432,
+      "max_absolute_angle": 41.09228548962404,
+      "file": "case-0230.npz",
+      "sha256": "5e362e932b569e86b0885614da88d074ae8e739c13fafcf44495da164d314b57",
+      "wall_seconds": 3.4053307000001496,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 231,
+      "force": 27.39843259402901,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0002759234909930176,
+      "windows": [
+        0.004236589407499102,
+        -0.0037281767278935602,
+        0.005926173799734374,
+        -0.005330892515367853
+      ],
+      "min_angle_norm": 2.4721074189531804,
+      "max_absolute_angle": 42.05782637220937,
+      "file": "case-0231.npz",
+      "sha256": "90520b6f3a09499f85e133d827b8c7e2fbbf23b8b965818e34b21acb85d6f028",
+      "wall_seconds": 3.6105901000000813,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 232,
+      "force": 30.218917983157635,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0014112822837148331,
+      "windows": [
+        0.0023929404266193905,
+        -0.0029045866551418633,
+        0.002361533837833345,
+        0.0037952415255484502
+      ],
+      "min_angle_norm": 4.168342168137463,
+      "max_absolute_angle": 43.33894430710491,
+      "file": "case-0232.npz",
+      "sha256": "79f625c43d2895c2e789cbeca8e915d06ac7eff82584967d26aa37b301b2868b",
+      "wall_seconds": 3.638635099999874,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 233,
+      "force": 33.329753479103,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 2.241865715473067e-05,
+      "windows": [
+        0.002011825234510367,
+        -0.003235745769709392,
+        -0.0025303668788530416,
+        0.0038439620426709907
+      ],
+      "min_angle_norm": 6.255899221498383,
+      "max_absolute_angle": 45.03811668905303,
+      "file": "case-0233.npz",
+      "sha256": "d791a9fb28e785289276c02d65746feefce3054f2fb7ccfff5fe998557273570",
+      "wall_seconds": 3.634372100000064,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 234,
+      "force": 36.7608286834399,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.00010953529218992773,
+      "windows": [
+        0.00012033004778285353,
+        0.00011264288776406637,
+        0.00010565362399329863,
+        9.951460921949699e-05
+      ],
+      "min_angle_norm": 8.270091119673578,
+      "max_absolute_angle": 47.23839205418349,
+      "file": "case-0234.npz",
+      "sha256": "a4aadf5a5deb273cc4ccd20fa5446c8da6f06e68a2d0536e21b25b3bbee9ef82",
+      "wall_seconds": 3.592860299999984,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 235,
+      "force": 40.54511013231732,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.00039235403970711534,
+      "windows": [
+        -0.0015254622499519318,
+        -0.0004527946973010073,
+        0.004835153792137239,
+        -0.0012874806860558325
+      ],
+      "min_angle_norm": 10.135381318751891,
+      "max_absolute_angle": 49.94022896250362,
+      "file": "case-0235.npz",
+      "sha256": "2a6f9269916ab17a1ee6b632f52ea22e031c2b2bdcd41f03a63dc0654248ee2b",
+      "wall_seconds": 3.8121572000000015,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 236,
+      "force": 44.71895804629375,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": -0.002768935138308187,
+      "windows": [
+        0.0023293832010602487,
+        -0.007032951322082439,
+        -2.1944991753824506e-06,
+        -0.0063699779330351845
+      ],
+      "min_angle_norm": 9.093115454661922,
+      "max_absolute_angle": 67.2000796064662,
+      "file": "case-0236.npz",
+      "sha256": "23fe776f124d7546ef7f575fd938a4846f2a469cee07d5964c6399095d39da46",
+      "wall_seconds": 3.9007929000001695,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 237,
+      "force": 49.32247568744941,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 1.3845193235356582e-05,
+      "windows": [
+        -0.00047489962055805317,
+        0.004872830026641307,
+        -0.0028364243348562444,
+        -0.0015061252982855847
+      ],
+      "min_angle_norm": 13.23487754475892,
+      "max_absolute_angle": 70.46433259545425,
+      "file": "case-0237.npz",
+      "sha256": "c0bce52f1ed67ede131cbce4c1205f75a0cc175a6c79ebbb9a47c79c277aa638",
+      "wall_seconds": 3.8211471000001893,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 238,
+      "force": 54.39989468047677,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 3.559086818144858e-05,
+      "windows": [
+        0.003404756259705993,
+        0.001505565273696251,
+        -0.0031430787110149267,
+        -0.0016248793496615149
+      ],
+      "min_angle_norm": 8.28678123593743,
+      "max_absolute_angle": 74.3177595512679,
+      "file": "case-0238.npz",
+      "sha256": "6e3bb26b03f5bc50605bed4c800046e93c384428d17470a22b44d12dd5aa7c5d",
+      "wall_seconds": 3.730170100000123,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 239,
+      "force": 60.0,
+      "stiffness": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "leading_rate": 0.0008412789906238567,
+      "windows": [
+        0.0024975160938479975,
+        0.0011739692555886138,
+        -0.0028288120482303147,
+        0.0025224426612891443
+      ],
+      "min_angle_norm": 3.862794913439782,
+      "max_absolute_angle": 78.77126325598138,
+      "file": "case-0239.npz",
+      "sha256": "4837a32220f320dfffe207313ea39813a7f8dab4c7e6fe1344cf2d0d6fd0949a",
+      "wall_seconds": 3.6151896999999735,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 240,
+      "force": 0.6,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.07855590473376138,
+      "windows": [
+        -0.07855590473376138,
+        -0.07855590473376138,
+        -0.07855590473376138,
+        -0.07855590473376138
+      ],
+      "min_angle_norm": 6.619082844674541e-36,
+      "max_absolute_angle": 8.946359190278596e-09,
+      "file": "case-0240.npz",
+      "sha256": "d32ea908e20769ea86702b69e1c8953d0977e24cd759bb1e5bdf2bc7a6f1b59c",
+      "wall_seconds": 3.4287435000001096,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 241,
+      "force": 0.6617659870749677,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.08245511506770027,
+      "windows": [
+        -0.0824551150676846,
+        -0.0824551150676846,
+        -0.0824551150676846,
+        -0.0824551150676846
+      ],
+      "min_angle_norm": 1.3646693991739808e-37,
+      "max_absolute_angle": 4.195021540017764e-09,
+      "file": "case-0241.npz",
+      "sha256": "834965df9f36dab9ccb087d09eb6e79443536390d2c25d5b93dd1bd7ea75f514",
+      "wall_seconds": 3.4774958999998944,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 242,
+      "force": 0.7298903694155106,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.08718007097174242,
+      "windows": [
+        -0.08718007097176107,
+        -0.08718007097176107,
+        -0.08718007097176107,
+        -0.08718007097176107
+      ],
+      "min_angle_norm": 1.2368302345509896e-39,
+      "max_absolute_angle": 1.6753915380771037e-09,
+      "file": "case-0242.npz",
+      "sha256": "51bba7cd9d455c24e9edc9fd9a9f826892ec0cc5e4f590a4ac14fb8061692d5d",
+      "wall_seconds": 3.422355899999957,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 243,
+      "force": 0.805027701287947,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.09299577928339459,
+      "windows": [
+        -0.09299577928338466,
+        -0.09299577928338466,
+        -0.09299577928338466,
+        -0.09299577928338466
+      ],
+      "min_angle_norm": 3.78551935826489e-42,
+      "max_absolute_angle": 5.412777761737017e-10,
+      "file": "case-0243.npz",
+      "sha256": "c21771b5d28b0e0098afada59f1ef15dea7f49f2a0366c7ebd1bf683a252c7bf",
+      "wall_seconds": 3.2749043999999685,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 244,
+      "force": 0.8878999189425175,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.10029597896121628,
+      "windows": [
+        -0.10029597896122475,
+        -0.10029597896122475,
+        -0.10029597896122475,
+        -0.10029597896122475
+      ],
+      "min_angle_norm": 2.6445227116001336e-45,
+      "max_absolute_angle": 1.3104307333839179e-10,
+      "file": "case-0244.npz",
+      "sha256": "a48afe6f0053c2c43ad1405051120da099c73f9ccae02bdb4092341e944fc1da",
+      "wall_seconds": 3.409808699999985,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 245,
+      "force": 0.979303277137965,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.10969546119488129,
+      "windows": [
+        -0.10969546119489301,
+        -0.10969546119489301,
+        -0.10969546119489301,
+        -0.10969546119489301
+      ],
+      "min_angle_norm": 2.2876350734771265e-49,
+      "max_absolute_angle": 2.1097524218162074e-11,
+      "file": "case-0245.npz",
+      "sha256": "fc58cc137df8104d88cbc24d95c8b1b73d9cd37eb7bbf830c02b65d8d8221bbd",
+      "wall_seconds": 3.2852596000000176,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    },
+    {
+      "id": 246,
+      "force": 1.0801159997349268,
+      "stiffness": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "leading_rate": -0.12221975892417175,
+      "windows": [
+        -0.12221975892419523,
+        -0.12221975892419523,
+        -0.12221975892419523,
+        -0.12221975892419523
+      ],
+      "min_angle_norm": 8.837418231348343e-55,
+      "max_absolute_angle": 1.851033747835864e-12,
+      "file": "case-0246.npz",
+      "sha256": "41fa6aa4878a9db05bc87b9b3f5f6169c4b72ee549fd9e69fe24b9fbbca566bc",
+      "wall_seconds": 3.2296774999999798,
+      "status": "fixed-step finite-time pilot; no attractor or novelty claim"
+    }
+  ]
+}

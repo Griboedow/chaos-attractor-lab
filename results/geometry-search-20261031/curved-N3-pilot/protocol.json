@@ -1,0 +1,51 @@
+{
+  "seed": 17346,
+  "count": 512,
+  "parameters": [
+    "force",
+    "k2",
+    "k3",
+    "drag2",
+    "drag3",
+    "length2",
+    "length3",
+    "rest_turn2",
+    "rest_turn3"
+  ],
+  "logarithmic_bounds": [
+    [
+      0.6,
+      0.1,
+      0.1,
+      0.2,
+      0.2,
+      0.5,
+      0.5
+    ],
+    [
+      60.0,
+      10.0,
+      10.0,
+      5.0,
+      5.0,
+      2.0,
+      2.0
+    ]
+  ],
+  "rest_turn_bounds": [
+    -1.4,
+    1.4
+  ],
+  "step": 0.001,
+  "warm": 100.0,
+  "duration": 400.0,
+  "sampler": "Scrambled Sobol, scipy",
+  "method": "FP64 RK4 state and analytic directional variation; normalization every .1 tau",
+  "device": "NVIDIA GeForce GTX 1080",
+  "driver": "582.28",
+  "field_relative_error": 7.034443356221942e-15,
+  "kernel_sha256": "4ceaf06169b476201a1cc4c964a33a364e1935d7e278259faba9691a5719ae10",
+  "model": "Three planar rigid rods, linear torsion springs with rest curvature, local isotropic bead drag, tangential compressive tip force.",
+  "scope": "Declared extension of De Canio2017 two-link model, not equations claimed verbatim from that paper.",
+  "limitations": "No contact or nonlocal hydrodynamics. Fixed-step pilot is not evidence of novelty or attraction."
+}

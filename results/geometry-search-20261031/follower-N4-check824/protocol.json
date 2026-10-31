@@ -1,0 +1,38 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\follower-N4\\complete.npz",
+  "source_sha256": "b0776c8e9894dacbee073e2f4dfa7ea361d1048fab3c560146343f99c582c6c2",
+  "id": 824,
+  "links": 4,
+  "parameters": [
+    28.358176965602198,
+    0.3832723147931191,
+    2.447721949165214,
+    2.038221509614029,
+    1.0287666059825502,
+    0.5339326496959879,
+    0.5210166081349753,
+    1.3913399468105048,
+    0.9198551809858749,
+    1.1904811314644916,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial": [
+    -1.0038199734712312,
+    -3.238106221706645,
+    -7.357809859464079,
+    -5.5464249474901965
+  ],
+  "warm": 100.0,
+  "duration": 2000.0,
+  "method": "DOP853 full variational QR; independent general-matrix complex-step and Radau controls",
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "max_step": 0.01,
+  "qr": 0.1,
+  "sampling": 0.01,
+  "field_jac_relative_error": 8.174513843355426e-16,
+  "short_2_tau_DOP853_Radau_error": 7.38005212497228e-11,
+  "selection": "Retained GPU scout; no new-attractor claim."
+}

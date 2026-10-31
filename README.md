@@ -2,6 +2,8 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[Current geometry search](docs/geometry-search-20261031.md):** no distinctive new attractor is established. A four-link chain has an independently checked chaotic numerical regime, but physical link crossings and an unpersuasive geometry prevent its promotion. Completed negative screens and prior-art exclusions are retained.
+
 **[Research manuscript: replication-induced instability of a certified five-cluster motor cycle](papers/replication-instability/README.md)** · **[PDF](papers/replication-instability/manuscript.pdf)**
 
 The attracting eight-row cycle becomes a saddle when its groups are replicated. A new interval calculation gives the complete count for every `N=8k`: **`2k-2` unstable, one neutral and `22k` stable directions**. The manuscript includes the proof, three vector figures, a rotating view and all nonlinear controls. [Exact index and scope](docs/motor-replication-index.md).
