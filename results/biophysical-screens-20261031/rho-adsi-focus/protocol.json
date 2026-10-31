@@ -1,0 +1,28 @@
+{
+  "seed": 2026103144,
+  "proposals": 16384,
+  "selected_tuples": 6430,
+  "lanes": 12860,
+  "design": "Scrambled Sobol log parameters GEF,GAP/GEF,inhibitor_speed,exchange_speed",
+  "low": [
+    0.1,
+    0.8,
+    0.02,
+    0.02
+  ],
+  "high": [
+    10.0,
+    5.0,
+    10.0,
+    30.0
+  ],
+  "selection": "At least one numerical positive equilibrium with RT<20 and max Re(lambda)>.002 per tau; first such root, perturbed RT by1%, plus fixed (.5,3,1) start.",
+  "exclusion_scope": "A search heuristic, not a proof that excluded tuples lack hidden attractors or that retained trajectories are bounded.",
+  "warm": 1000.0,
+  "observation": 4000.0,
+  "method": "Adaptive FP64 DP5(4) state and analytic tangent; rtol1e-9,atol1e-12,maxstep.05tau",
+  "time": "tau=.025*t, t in seconds",
+  "equilibrium_residual_max": 8.526512829121202e-13,
+  "rationale": "Follow-up after broad pilot; concentrate on local instability and avoid most large-concentration drift cases.",
+  "warning": "No extra reactions, clipping, forcing or model fitting. Not experimental calibration."
+}

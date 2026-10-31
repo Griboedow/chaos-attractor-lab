@@ -1,0 +1,39 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-checks02",
+  "time": "tau=.025*t, physical t in seconds",
+  "method": "Last100 upward section returns; independent one-period Radau and DOP853 at rtol2e-12,atol2e-14,maxstep.005tau.",
+  "runs": [
+    {
+      "file": "case-0429.npz",
+      "sha256": "cefda15fbe8810b24683e80e167c6006a468ea0f15f84ebced45b823c4e86577",
+      "section_events": 751,
+      "last_return_count": 100,
+      "median_period_tau": 10.641965331992651,
+      "period_min_tau": 10.641965331990832,
+      "period_max_tau": 10.64196533199356,
+      "maximum_consecutive_section_distance": 1.2044503031436342e-10,
+      "return_residuals": {
+        "Radau": 1.6473098837850897e-11,
+        "DOP853": 4.0855929052746617e-11
+      },
+      "independent_solver_discrepancy": 2.438283483590786e-11,
+      "interpretation": "Numerical periodic-return evidence; not a rigorous periodic-orbit or least-period certificate."
+    },
+    {
+      "file": "case-1612.npz",
+      "sha256": "fa8734a76542faebd8b548cb241abfc225cb213f920423a9fd9a4e17d135594a",
+      "section_events": 1034,
+      "last_return_count": 100,
+      "median_period_tau": 7.738005710984908,
+      "period_min_tau": 7.738005710982179,
+      "period_max_tau": 7.738005710987636,
+      "maximum_consecutive_section_distance": 1.9279369200137087e-11,
+      "return_residuals": {
+        "Radau": 2.7095515177505127e-12,
+        "DOP853": 6.056021072245688e-12
+      },
+      "independent_solver_discrepancy": 8.76553941684798e-12,
+      "interpretation": "Numerical periodic-return evidence; not a rigorous periodic-orbit or least-period certificate."
+    }
+  ]
+}

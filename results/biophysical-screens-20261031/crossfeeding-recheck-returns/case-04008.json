@@ -1,0 +1,86 @@
+{
+  "id": 4008,
+  "events": 53,
+  "return_tests": [
+    {
+      "lag": 1,
+      "maximum_distance": 1.2345216171877871e-08,
+      "scaled_distance": 2.501766466865401e-11
+    },
+    {
+      "lag": 2,
+      "maximum_distance": 1.1342666661548048e-08,
+      "scaled_distance": 2.2985991256544e-11
+    },
+    {
+      "lag": 3,
+      "maximum_distance": 1.0072083108654858e-08,
+      "scaled_distance": 2.041114503131556e-11
+    },
+    {
+      "lag": 4,
+      "maximum_distance": 1.206762264915511e-08,
+      "scaled_distance": 2.4455119503872823e-11
+    },
+    {
+      "lag": 5,
+      "maximum_distance": 1.2339691808673948e-08,
+      "scaled_distance": 2.5006469508988972e-11
+    },
+    {
+      "lag": 6,
+      "maximum_distance": 1.009020196931487e-08,
+      "scaled_distance": 2.0447863025869827e-11
+    },
+    {
+      "lag": 7,
+      "maximum_distance": 1.0169029371505528e-08,
+      "scaled_distance": 2.0607607293386124e-11
+    },
+    {
+      "lag": 8,
+      "maximum_distance": 1.1857992022141827e-08,
+      "scaled_distance": 2.403030161021416e-11
+    },
+    {
+      "lag": 9,
+      "maximum_distance": 1.1285873429579153e-08,
+      "scaled_distance": 2.287089938508018e-11
+    },
+    {
+      "lag": 10,
+      "maximum_distance": 1.013771719838327e-08,
+      "scaled_distance": 2.054415296125349e-11
+    },
+    {
+      "lag": 11,
+      "maximum_distance": 1.2277889023630029e-08,
+      "scaled_distance": 2.488122574409324e-11
+    },
+    {
+      "lag": 12,
+      "maximum_distance": 1.1140837400179136e-08,
+      "scaled_distance": 2.257698288350702e-11
+    }
+  ],
+  "first_numerical_period_lag": 1,
+  "budget_max_error": 1.2789769243681803e-13,
+  "minimum": [
+    0.249017093503012,
+    2.9424018312910283,
+    0.018127357209151665,
+    0.00038214541736946486,
+    0.18964246919421668
+  ],
+  "maximum": [
+    27.879328382911936,
+    34.73482127722257,
+    2421.0620014311753,
+    746.8741832449366,
+    0.8247014914295688
+  ],
+  "file": "case-04008.npz",
+  "sha256": "b3c5827da61963361dac5a9bf2b4089b95255bc179cece7cfd75580719149f5f",
+  "wall_seconds": 52.00158160000046,
+  "interpretation": "Finite numerical recurrence screen; neither a periodic-orbit proof nor an absence-of-chaos theorem."
+}

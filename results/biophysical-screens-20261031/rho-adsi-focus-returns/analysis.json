@@ -1,0 +1,746 @@
+{
+  "declared": 32,
+  "completed": 7,
+  "runs": [
+    {
+      "id": 415,
+      "events": 69,
+      "section_level": 0.11714488058475647,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 3.2308525142294428e-12,
+          "scaled_distance": 8.082843354069981e-13
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 3.2964229356795567e-12,
+          "scaled_distance": 8.246885334602178e-13
+        },
+        {
+          "lag": 3,
+          "maximum_distance": 3.3157913126017766e-12,
+          "scaled_distance": 8.29534051972604e-13
+        },
+        {
+          "lag": 4,
+          "maximum_distance": 3.32293615482037e-12,
+          "scaled_distance": 8.313215257179419e-13
+        },
+        {
+          "lag": 5,
+          "maximum_distance": 3.334543913470261e-12,
+          "scaled_distance": 8.342255176038511e-13
+        },
+        {
+          "lag": 6,
+          "maximum_distance": 3.353272860733853e-12,
+          "scaled_distance": 8.389110656519754e-13
+        },
+        {
+          "lag": 7,
+          "maximum_distance": 3.4322603941424384e-12,
+          "scaled_distance": 8.586719138075043e-13
+        },
+        {
+          "lag": 8,
+          "maximum_distance": 3.431801057004509e-12,
+          "scaled_distance": 8.585569983133355e-13
+        },
+        {
+          "lag": 9,
+          "maximum_distance": 3.353269926958057e-12,
+          "scaled_distance": 8.389103316893421e-13
+        },
+        {
+          "lag": 10,
+          "maximum_distance": 3.5014093826070394e-12,
+          "scaled_distance": 8.759713862962713e-13
+        },
+        {
+          "lag": 11,
+          "maximum_distance": 3.3238192716256773e-12,
+          "scaled_distance": 8.315424610521674e-13
+        },
+        {
+          "lag": 12,
+          "maximum_distance": 3.316241846376119e-12,
+          "scaled_distance": 8.296467650694628e-13
+        },
+        {
+          "lag": 13,
+          "maximum_distance": 3.205386896084908e-12,
+          "scaled_distance": 8.019134286116464e-13
+        },
+        {
+          "lag": 14,
+          "maximum_distance": 3.2352816717399193e-12,
+          "scaled_distance": 8.093924078488696e-13
+        },
+        {
+          "lag": 15,
+          "maximum_distance": 3.3055232942492127e-12,
+          "scaled_distance": 8.269652320238457e-13
+        },
+        {
+          "lag": 16,
+          "maximum_distance": 3.230410881859729e-12,
+          "scaled_distance": 8.081738492350432e-13
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 3.4243138122737253e-16,
+      "minimum": [
+        0.0017847833329439288,
+        0.29715138188314255,
+        0.1451334884548334
+      ],
+      "maximum": [
+        12.350379377283003,
+        6.7987272070835125,
+        9.202585165984408
+      ],
+      "wall_seconds": 74.0010955000007,
+      "file": "case-00415.npz",
+      "sha256": "e232344b884a7699cd8aa23fc06c92d6c781fbd0b4d4c45cae7362904c2987bb",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 622,
+      "events": 317,
+      "section_level": 1.0969862526713272,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 2.0852627809261756e-11,
+          "scaled_distance": 6.405854860707239e-12
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 2.701621181866488e-11,
+          "scaled_distance": 8.299286467848662e-12
+        },
+        {
+          "lag": 3,
+          "maximum_distance": 2.5445558909948464e-11,
+          "scaled_distance": 7.81678734774658e-12
+        },
+        {
+          "lag": 4,
+          "maximum_distance": 2.7747016229582765e-11,
+          "scaled_distance": 8.523787045460533e-12
+        },
+        {
+          "lag": 5,
+          "maximum_distance": 2.7179998653595435e-11,
+          "scaled_distance": 8.349601214855931e-12
+        },
+        {
+          "lag": 6,
+          "maximum_distance": 2.774043611996861e-11,
+          "scaled_distance": 8.521765658633828e-12
+        },
+        {
+          "lag": 7,
+          "maximum_distance": 2.8132675617634335e-11,
+          "scaled_distance": 8.642260270424068e-12
+        },
+        {
+          "lag": 8,
+          "maximum_distance": 2.785358063487067e-11,
+          "scaled_distance": 8.556523260763273e-12
+        },
+        {
+          "lag": 9,
+          "maximum_distance": 2.3065555837099533e-11,
+          "scaled_distance": 7.085658667363383e-12
+        },
+        {
+          "lag": 10,
+          "maximum_distance": 2.806424937324706e-11,
+          "scaled_distance": 8.621239965730696e-12
+        },
+        {
+          "lag": 11,
+          "maximum_distance": 2.441948421626274e-11,
+          "scaled_distance": 7.501580764474804e-12
+        },
+        {
+          "lag": 12,
+          "maximum_distance": 2.7029384619082862e-11,
+          "scaled_distance": 8.303333106399856e-12
+        },
+        {
+          "lag": 13,
+          "maximum_distance": 2.671530196889956e-11,
+          "scaled_distance": 8.206848006788243e-12
+        },
+        {
+          "lag": 14,
+          "maximum_distance": 2.5565839719288027e-11,
+          "scaled_distance": 7.853737194749335e-12
+        },
+        {
+          "lag": 15,
+          "maximum_distance": 2.6957986879381555e-11,
+          "scaled_distance": 8.281399968663325e-12
+        },
+        {
+          "lag": 16,
+          "maximum_distance": 2.4498178384690352e-11,
+          "scaled_distance": 7.525755339782164e-12
+        },
+        {
+          "lag": 17,
+          "maximum_distance": 3.10674025332564e-11,
+          "scaled_distance": 9.54379818925347e-12
+        },
+        {
+          "lag": 18,
+          "maximum_distance": 2.871873018126647e-11,
+          "scaled_distance": 8.82229419753493e-12
+        },
+        {
+          "lag": 19,
+          "maximum_distance": 2.621239011112106e-11,
+          "scaled_distance": 8.05235523023627e-12
+        },
+        {
+          "lag": 20,
+          "maximum_distance": 2.5466921159713325e-11,
+          "scaled_distance": 7.823349756702591e-12
+        },
+        {
+          "lag": 21,
+          "maximum_distance": 2.5155805368816935e-11,
+          "scaled_distance": 7.727776065962701e-12
+        },
+        {
+          "lag": 22,
+          "maximum_distance": 2.4269930437676832e-11,
+          "scaled_distance": 7.455638362958091e-12
+        },
+        {
+          "lag": 23,
+          "maximum_distance": 2.6464832273620302e-11,
+          "scaled_distance": 8.12990458605295e-12
+        },
+        {
+          "lag": 24,
+          "maximum_distance": 2.6889298476732103e-11,
+          "scaled_distance": 8.260299129862051e-12
+        },
+        {
+          "lag": 25,
+          "maximum_distance": 2.491647432688938e-11,
+          "scaled_distance": 7.654254400862592e-12
+        },
+        {
+          "lag": 26,
+          "maximum_distance": 2.7596665997884494e-11,
+          "scaled_distance": 8.477599976313063e-12
+        },
+        {
+          "lag": 27,
+          "maximum_distance": 2.720633824294455e-11,
+          "scaled_distance": 8.35769264525043e-12
+        },
+        {
+          "lag": 28,
+          "maximum_distance": 2.7166954050956075e-11,
+          "scaled_distance": 8.345593958217215e-12
+        },
+        {
+          "lag": 29,
+          "maximum_distance": 2.4113815792667296e-11,
+          "scaled_distance": 7.40768048605599e-12
+        },
+        {
+          "lag": 30,
+          "maximum_distance": 2.3946723567348778e-11,
+          "scaled_distance": 7.356350334598168e-12
+        },
+        {
+          "lag": 31,
+          "maximum_distance": 2.8099404001116048e-11,
+          "scaled_distance": 8.632039345351852e-12
+        },
+        {
+          "lag": 32,
+          "maximum_distance": 2.7038986615387283e-11,
+          "scaled_distance": 8.306282806325534e-12
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 2.804916369930771e-15,
+      "minimum": [
+        0.002815509850335772,
+        0.4638765318755069,
+        0.1970677347989273
+      ],
+      "maximum": [
+        7.719210444189103,
+        5.800017409405003,
+        13.356040525324344
+      ],
+      "wall_seconds": 283.8417607000001,
+      "file": "case-00622.npz",
+      "sha256": "768db9b3a4c08d897995073a7d40ef536d4beb015546c726f19e1337867288c6",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 816,
+      "events": 30,
+      "section_level": 1.2240269622705393,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 1.0188962770161593e-11,
+          "scaled_distance": 3.097358464430776e-12
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 1.0164847240941796e-11,
+          "scaled_distance": 3.090027547610478e-12
+        },
+        {
+          "lag": 3,
+          "maximum_distance": 1.0409956426498757e-11,
+          "scaled_distance": 3.1645386659372503e-12
+        },
+        {
+          "lag": 4,
+          "maximum_distance": 1.058149596801711e-11,
+          "scaled_distance": 3.216685235013193e-12
+        },
+        {
+          "lag": 5,
+          "maximum_distance": 1.0397000668844068e-11,
+          "scaled_distance": 3.1606002252401867e-12
+        },
+        {
+          "lag": 6,
+          "maximum_distance": 1.0309486265277667e-11,
+          "scaled_distance": 3.1339965870916788e-12
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 1.4135942417115518e-12,
+      "minimum": [
+        0.0089116837682371,
+        0.577753764592167,
+        0.5625699626374224
+      ],
+      "maximum": [
+        36.772741573793404,
+        5.713737947396638,
+        16.285272833726516
+      ],
+      "wall_seconds": 29.554274799999803,
+      "file": "case-00816.npz",
+      "sha256": "74114be643531d5e5bf7fea8bf54db2026cc5efdc827d3b2405ee364527c8fbe",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 848,
+      "events": 179,
+      "section_level": 0.38275137007484816,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 7.440428392603019e-12,
+          "scaled_distance": 1.910494242622634e-12
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 7.166474287639743e-12,
+          "scaled_distance": 1.840150478438907e-12
+        },
+        {
+          "lag": 3,
+          "maximum_distance": 7.328800464912242e-12,
+          "scaled_distance": 1.8818313079210325e-12
+        },
+        {
+          "lag": 4,
+          "maximum_distance": 7.520966731785697e-12,
+          "scaled_distance": 1.931174239149698e-12
+        },
+        {
+          "lag": 5,
+          "maximum_distance": 7.470639547847088e-12,
+          "scaled_distance": 1.9182516236645855e-12
+        },
+        {
+          "lag": 6,
+          "maximum_distance": 7.353710982419232e-12,
+          "scaled_distance": 1.888227633208588e-12
+        },
+        {
+          "lag": 7,
+          "maximum_distance": 7.499041599663188e-12,
+          "scaled_distance": 1.9255444774641424e-12
+        },
+        {
+          "lag": 8,
+          "maximum_distance": 7.483164068188129e-12,
+          "scaled_distance": 1.921467570749965e-12
+        },
+        {
+          "lag": 9,
+          "maximum_distance": 7.476712588424023e-12,
+          "scaled_distance": 1.919811010899463e-12
+        },
+        {
+          "lag": 10,
+          "maximum_distance": 7.465728048297218e-12,
+          "scaled_distance": 1.916990487730262e-12
+        },
+        {
+          "lag": 11,
+          "maximum_distance": 7.367119447902915e-12,
+          "scaled_distance": 1.8916705527230677e-12
+        },
+        {
+          "lag": 12,
+          "maximum_distance": 7.441569383969891e-12,
+          "scaled_distance": 1.9107872173442857e-12
+        },
+        {
+          "lag": 13,
+          "maximum_distance": 7.489171466302844e-12,
+          "scaled_distance": 1.9230101028335633e-12
+        },
+        {
+          "lag": 14,
+          "maximum_distance": 7.421774363443341e-12,
+          "scaled_distance": 1.9057044088347425e-12
+        },
+        {
+          "lag": 15,
+          "maximum_distance": 7.414962785813519e-12,
+          "scaled_distance": 1.9039553859077977e-12
+        },
+        {
+          "lag": 16,
+          "maximum_distance": 7.46165748126961e-12,
+          "scaled_distance": 1.915945279785221e-12
+        },
+        {
+          "lag": 17,
+          "maximum_distance": 7.498823963057164e-12,
+          "scaled_distance": 1.9254885944610606e-12
+        },
+        {
+          "lag": 18,
+          "maximum_distance": 7.252727532291041e-12,
+          "scaled_distance": 1.8622979031056975e-12
+        },
+        {
+          "lag": 19,
+          "maximum_distance": 7.46180489563716e-12,
+          "scaled_distance": 1.915983131678368e-12
+        },
+        {
+          "lag": 20,
+          "maximum_distance": 7.456479583950783e-12,
+          "scaled_distance": 1.9146157403427957e-12
+        },
+        {
+          "lag": 21,
+          "maximum_distance": 7.514331538436391e-12,
+          "scaled_distance": 1.929470506780586e-12
+        },
+        {
+          "lag": 22,
+          "maximum_distance": 7.057453754295644e-12,
+          "scaled_distance": 1.812157049795925e-12
+        },
+        {
+          "lag": 23,
+          "maximum_distance": 7.48488232691412e-12,
+          "scaled_distance": 1.9219087716096637e-12
+        },
+        {
+          "lag": 24,
+          "maximum_distance": 7.40737276019247e-12,
+          "scaled_distance": 1.902006479274305e-12
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 3.3555615081504463e-15,
+      "minimum": [
+        0.011374338404827973,
+        0.8380561997886941,
+        0.30287984602927487
+      ],
+      "maximum": [
+        4.619452830110976,
+        5.200786104361089,
+        8.707023080288621
+      ],
+      "wall_seconds": 136.00722170000063,
+      "file": "case-00848.npz",
+      "sha256": "5cb59530c085f5cb37aed0e3cc6685da60ff6f6b92488d6d74d8fd7f4c064fe8",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 1237,
+      "events": 28,
+      "section_level": 1.7862157025308645,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 2.3136683784784924e-12,
+          "scaled_distance": 7.274679436643107e-13
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 1.634217583583049e-12,
+          "scaled_distance": 5.138337525324272e-13
+        },
+        {
+          "lag": 3,
+          "maximum_distance": 2.128250870104094e-12,
+          "scaled_distance": 6.691686235062566e-13
+        },
+        {
+          "lag": 4,
+          "maximum_distance": 1.6050654268260811e-12,
+          "scaled_distance": 5.046676768205235e-13
+        },
+        {
+          "lag": 5,
+          "maximum_distance": 2.295320103933634e-12,
+          "scaled_distance": 7.21698844826683e-13
+        },
+        {
+          "lag": 6,
+          "maximum_distance": 1.4486191727060974e-12,
+          "scaled_distance": 4.55477552670799e-13
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 5.793302131881825e-13,
+      "minimum": [
+        0.016583171460745824,
+        0.8352689206451387,
+        0.8796325347028728
+      ],
+      "maximum": [
+        75.9313253310397,
+        4.463568764173902,
+        19.436861798265436
+      ],
+      "wall_seconds": 24.20169850000002,
+      "file": "case-01237.npz",
+      "sha256": "f257440cc1dc804fa7bdfbc1248f15974ffd4865b32a63b369350cdb1445c4b4",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 1238,
+      "events": 4,
+      "section_level": 1.1784203529491055,
+      "return_tests": [],
+      "first_numerical_period_lag": null,
+      "algebra_relative_error": 1.2979602184663707e-12,
+      "minimum": [
+        0.009258422765478475,
+        0.42680967174818624,
+        0.6254919810265259
+      ],
+      "maximum": [
+        64.08424321404534,
+        6.660172093936726,
+        16.21983180977558
+      ],
+      "wall_seconds": 7.786724399999912,
+      "file": "case-01238.npz",
+      "sha256": "03d0693713a9b696a76deb4e80f9090f87937a0a733e134dd14df14cf1bd4b1e",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 2256,
+      "events": 358,
+      "section_level": 0.7335048223877249,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 5.961832919191362e-12,
+          "scaled_distance": 1.6553681361323437e-12
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 6.2214480954872245e-12,
+          "scaled_distance": 1.7274531301805906e-12
+        },
+        {
+          "lag": 3,
+          "maximum_distance": 5.512275561842845e-12,
+          "scaled_distance": 1.5305436174305459e-12
+        },
+        {
+          "lag": 4,
+          "maximum_distance": 6.5257495669911e-12,
+          "scaled_distance": 1.8119457629888956e-12
+        },
+        {
+          "lag": 5,
+          "maximum_distance": 5.647498911927404e-12,
+          "scaled_distance": 1.5680898600081404e-12
+        },
+        {
+          "lag": 6,
+          "maximum_distance": 6.611753076039787e-12,
+          "scaled_distance": 1.8358255782075477e-12
+        },
+        {
+          "lag": 7,
+          "maximum_distance": 6.610388109397573e-12,
+          "scaled_distance": 1.835446580285762e-12
+        },
+        {
+          "lag": 8,
+          "maximum_distance": 5.356174874489219e-12,
+          "scaled_distance": 1.4872005537492849e-12
+        },
+        {
+          "lag": 9,
+          "maximum_distance": 6.8972612481671575e-12,
+          "scaled_distance": 1.915100045833712e-12
+        },
+        {
+          "lag": 10,
+          "maximum_distance": 5.493162963317654e-12,
+          "scaled_distance": 1.5252367953464439e-12
+        },
+        {
+          "lag": 11,
+          "maximum_distance": 6.132560649643662e-12,
+          "scaled_distance": 1.7027725583587991e-12
+        },
+        {
+          "lag": 12,
+          "maximum_distance": 4.8023957702051165e-12,
+          "scaled_distance": 1.3334377267608102e-12
+        },
+        {
+          "lag": 13,
+          "maximum_distance": 5.603029354409537e-12,
+          "scaled_distance": 1.5557424008389952e-12
+        },
+        {
+          "lag": 14,
+          "maximum_distance": 5.227213577821046e-12,
+          "scaled_distance": 1.4513930388134655e-12
+        },
+        {
+          "lag": 15,
+          "maximum_distance": 5.22110539198314e-12,
+          "scaled_distance": 1.4496970341882611e-12
+        },
+        {
+          "lag": 16,
+          "maximum_distance": 4.62612688049322e-12,
+          "scaled_distance": 1.2844947410422374e-12
+        },
+        {
+          "lag": 17,
+          "maximum_distance": 5.632662877195386e-12,
+          "scaled_distance": 1.5639704726494509e-12
+        },
+        {
+          "lag": 18,
+          "maximum_distance": 5.501797103796595e-12,
+          "scaled_distance": 1.5276341589132287e-12
+        },
+        {
+          "lag": 19,
+          "maximum_distance": 6.0509959722428e-12,
+          "scaled_distance": 1.6801252333107142e-12
+        },
+        {
+          "lag": 20,
+          "maximum_distance": 5.5295968295666064e-12,
+          "scaled_distance": 1.5353530569193703e-12
+        },
+        {
+          "lag": 21,
+          "maximum_distance": 6.3600954711284835e-12,
+          "scaled_distance": 1.7659500909149485e-12
+        },
+        {
+          "lag": 22,
+          "maximum_distance": 5.0275858123858e-12,
+          "scaled_distance": 1.3959642056898378e-12
+        },
+        {
+          "lag": 23,
+          "maximum_distance": 5.540623313934107e-12,
+          "scaled_distance": 1.5384146809405274e-12
+        },
+        {
+          "lag": 24,
+          "maximum_distance": 5.395199975221773e-12,
+          "scaled_distance": 1.498036299926282e-12
+        },
+        {
+          "lag": 25,
+          "maximum_distance": 5.062854645046245e-12,
+          "scaled_distance": 1.4057569829407313e-12
+        },
+        {
+          "lag": 26,
+          "maximum_distance": 6.080960846306658e-12,
+          "scaled_distance": 1.6884453084286958e-12
+        },
+        {
+          "lag": 27,
+          "maximum_distance": 5.068371009074224e-12,
+          "scaled_distance": 1.4072886617655147e-12
+        },
+        {
+          "lag": 28,
+          "maximum_distance": 5.660633889291312e-12,
+          "scaled_distance": 1.5717369301779604e-12
+        },
+        {
+          "lag": 29,
+          "maximum_distance": 5.133864231018815e-12,
+          "scaled_distance": 1.425473571374559e-12
+        },
+        {
+          "lag": 30,
+          "maximum_distance": 7.060488918059171e-12,
+          "scaled_distance": 1.9604219941903287e-12
+        },
+        {
+          "lag": 31,
+          "maximum_distance": 6.145140781851731e-12,
+          "scaled_distance": 1.706265569700753e-12
+        },
+        {
+          "lag": 32,
+          "maximum_distance": 4.929525051138208e-12,
+          "scaled_distance": 1.3687365624844053e-12
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 7.174651176854388e-15,
+      "minimum": [
+        0.006615268567087869,
+        0.7483625494089103,
+        0.2214823711769302
+      ],
+      "maximum": [
+        4.311237056915915,
+        5.148961376570098,
+        9.451128705656798
+      ],
+      "wall_seconds": 260.0636328999999,
+      "file": "case-02256.npz",
+      "sha256": "e744b0c37691ff50a187b790deba76d3303225061e1a177b88ad46487dda84c3",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    }
+  ]
+}

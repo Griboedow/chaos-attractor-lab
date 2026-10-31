@@ -1,0 +1,736 @@
+{
+  "count": 146,
+  "bytes": 15954569,
+  "files": [
+    {
+      "path": "audit.json",
+      "bytes": 16460,
+      "sha256": "ddbce9b0dd3d584c31b9ab7df82bb96b391993470f32d56762bcdefcbb2ee740"
+    },
+    {
+      "path": "crossfeeding-author-source-manifest.json",
+      "bytes": 1244,
+      "sha256": "b2ca13abab2b8dc57210825b4c6caa04de2f9176aa76153487a557608d3bd82e"
+    },
+    {
+      "path": "crossfeeding-pilot/analysis.json",
+      "bytes": 1763,
+      "sha256": "5c1fa2279b170498413cfb7373694581485e7214ff1b03a69b692ca56396d8a9"
+    },
+    {
+      "path": "crossfeeding-pilot/complete-or-budgeted.npz",
+      "bytes": 2290732,
+      "sha256": "3e414d24cb4318019f2b2eaa7280f47367b3eaf1e4536084ff16446b6083b226"
+    },
+    {
+      "path": "crossfeeding-pilot/crossfeeding.cl",
+      "bytes": 4283,
+      "sha256": "4d5a9cb2695892697bd55e885537d28de77290c5f4b514fb624f257155102a1f"
+    },
+    {
+      "path": "crossfeeding-pilot/crossfeeding.py",
+      "bytes": 2794,
+      "sha256": "9f1874fee84dea4fed0e3f8637753613708442673a0afda59c3547d4aa3d7f9f"
+    },
+    {
+      "path": "crossfeeding-pilot/declared-inputs.npz",
+      "bytes": 793179,
+      "sha256": "705a4cd95900aa199b189d408434de030aba13ad69ecb143d5fc708e8a18aace"
+    },
+    {
+      "path": "crossfeeding-pilot/flow-alignment.json",
+      "bytes": 20679,
+      "sha256": "22031f8aa153a7c5afce5ea4c0172a4860e04d583df9c37b0f0873d0c7dfb11d"
+    },
+    {
+      "path": "crossfeeding-pilot/independent-controls.json",
+      "bytes": 1531,
+      "sha256": "8334bcaf67b2bb38c38e571ab6715499ff0e950f0f64c835e6b3b9813615098c"
+    },
+    {
+      "path": "crossfeeding-pilot/protocol.json",
+      "bytes": 2170,
+      "sha256": "b5ffe8acfaf0aae7ad42e317bfde9012fbd02d52851542cb3277481128c7f0b9"
+    },
+    {
+      "path": "crossfeeding-pilot/search_crossfeeding.py",
+      "bytes": 8586,
+      "sha256": "1e3d1ccca3cd835ff47d4d2adc05f77b780c0518add4a4f1445c28ccca1883b0"
+    },
+    {
+      "path": "crossfeeding-recheck/analysis.json",
+      "bytes": 2193,
+      "sha256": "9e04566f0a27c56693fb2065f49657d7e49170360a36bec86de99a5270ea7096"
+    },
+    {
+      "path": "crossfeeding-recheck/complete-or-budgeted.npz",
+      "bytes": 2386003,
+      "sha256": "481bcaf7d87b28d2787ff7a74fc06f05655ca9d3a36bd63b38881f06e9b2dccc"
+    },
+    {
+      "path": "crossfeeding-recheck/crossfeeding.cl",
+      "bytes": 4687,
+      "sha256": "eec1c763db9b171a2d7355ccd45ccf7a98fb8df2cfc43ffcd72e44585939d64a"
+    },
+    {
+      "path": "crossfeeding-recheck/crossfeeding.py",
+      "bytes": 2794,
+      "sha256": "9f1874fee84dea4fed0e3f8637753613708442673a0afda59c3547d4aa3d7f9f"
+    },
+    {
+      "path": "crossfeeding-recheck/declared-inputs.npz",
+      "bytes": 793179,
+      "sha256": "705a4cd95900aa199b189d408434de030aba13ad69ecb143d5fc708e8a18aace"
+    },
+    {
+      "path": "crossfeeding-recheck/flow-alignment.json",
+      "bytes": 5676,
+      "sha256": "9650389e7e8233fdccd36f437e892ccdde3a835f4f798e8986e015001f70c97e"
+    },
+    {
+      "path": "crossfeeding-recheck/independent-controls.json",
+      "bytes": 1532,
+      "sha256": "e99e2cdb7c552b1aa416ecbdd20463399529763ad65aca6da7c7fc4d58cb587a"
+    },
+    {
+      "path": "crossfeeding-recheck/protocol.json",
+      "bytes": 2341,
+      "sha256": "29e5cacbf2315d3363e7e292ab4491beb94e013ae9e58e1878bf73ce11562b54"
+    },
+    {
+      "path": "crossfeeding-recheck/search_crossfeeding.py",
+      "bytes": 8759,
+      "sha256": "789b81a865d78513bd9430aa470d16ab3064f79b1536bd24cfc1909952b292b8"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/analysis.json",
+      "bytes": 12244,
+      "sha256": "0ba9d990d2f62d4de93bc0b942a81aeb23ad36fa0a40863a23124a9c91daea3b"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/case-02465.json",
+      "bytes": 2156,
+      "sha256": "d9d244f4797df8a609dae0b639eb47ee61ef9735384b4e232aa98d917cecf05c"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/case-04008.json",
+      "bytes": 2288,
+      "sha256": "e7fe84a8ba0f3bde4e0ad139dc186bdfb31ca43471f23c1df12f8a8b50c64589"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/case-04461.json",
+      "bytes": 2269,
+      "sha256": "e34a9168a6991b344c0ff50119092a08a0dde6b8120aac95a0089af5355eeb5d"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/case-05121.json",
+      "bytes": 3871,
+      "sha256": "335685e4140570fee5e8f3ad7386dca175442ff4265825c97fb09b6ce55b1643"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/crossfeeding.py",
+      "bytes": 2794,
+      "sha256": "9f1874fee84dea4fed0e3f8637753613708442673a0afda59c3547d4aa3d7f9f"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/protocol.json",
+      "bytes": 3993,
+      "sha256": "9793a2b3f4ecd50808b54456d342e40a5784ffbe5e7fdbff9142d65bbf1f98ff"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/screen_crossfeeding_returns.py",
+      "bytes": 4253,
+      "sha256": "35d75fd8bab765b55a25dbc15578c860357ff755e077fa3ba1d9d8f4e2dc517d"
+    },
+    {
+      "path": "crossfeeding-recheck-returns/selection-correction.json",
+      "bytes": 379,
+      "sha256": "5a84b34524c9cb43ff2186d367f35635604063752c6a9792accaeb6491d62a92"
+    },
+    {
+      "path": "crossfeeding-returns/analysis.json",
+      "bytes": 12673,
+      "sha256": "de82279a0d12b7dbaf83732828c7459995fdec6d99c6a80bfa33889d0a09d5d6"
+    },
+    {
+      "path": "crossfeeding-returns/case-00000.json",
+      "bytes": 3596,
+      "sha256": "8ceee89f0b4b70fd070181257e30ce376a31e09702359df9a0520c898b18266f"
+    },
+    {
+      "path": "crossfeeding-returns/case-02327.json",
+      "bytes": 2415,
+      "sha256": "463388d87070dfecdd91e80bd386d041ab3b471b83222e6619837d587654fb10"
+    },
+    {
+      "path": "crossfeeding-returns/case-04460.json",
+      "bytes": 2267,
+      "sha256": "e3e3d3b63a9a695f76c1253cdc71f9b29f418a1ab3c9dcbfdb3d70f2ced8cbb8"
+    },
+    {
+      "path": "crossfeeding-returns/case-06143.json",
+      "bytes": 2675,
+      "sha256": "b5cd668b97b8c1ad0bef8d3404e1c1dff732238e7cd30421e8c95b6dc0b1a448"
+    },
+    {
+      "path": "crossfeeding-returns/crossfeeding.py",
+      "bytes": 2794,
+      "sha256": "9f1874fee84dea4fed0e3f8637753613708442673a0afda59c3547d4aa3d7f9f"
+    },
+    {
+      "path": "crossfeeding-returns/protocol.json",
+      "bytes": 3793,
+      "sha256": "b3c08506ea38a071181490f599565eb45209d1d190cc2e8be43bcd106ef4356c"
+    },
+    {
+      "path": "crossfeeding-returns/screen_crossfeeding_returns.py",
+      "bytes": 4253,
+      "sha256": "35d75fd8bab765b55a25dbc15578c860357ff755e077fa3ba1d9d8f4e2dc517d"
+    },
+    {
+      "path": "crossfeeding-source/analysis.json",
+      "bytes": 738,
+      "sha256": "c18f23bb80fffa453e392a8b3ba3faf3ce60d1808fb60318184e2a01310d25cc"
+    },
+    {
+      "path": "crossfeeding-source/check_crossfeeding_source.py",
+      "bytes": 2988,
+      "sha256": "ec811b8dae17996b9781d1af066b8cd3bd90b8d75acf83cfd3076211420fec6a"
+    },
+    {
+      "path": "crossfeeding-source/crossfeeding.py",
+      "bytes": 2794,
+      "sha256": "9f1874fee84dea4fed0e3f8637753613708442673a0afda59c3547d4aa3d7f9f"
+    },
+    {
+      "path": "crossfeeding-source/protocol.json",
+      "bytes": 902,
+      "sha256": "ffaf4cfb67c3a8ad6219effd901c54ebf3f1f74600bf749a4b14916d864429ea"
+    },
+    {
+      "path": "crossfeeding-source/source-control.npz",
+      "bytes": 843246,
+      "sha256": "36d638647b6a072e3bedab41223c5d6643bd553f466a9cf78d3bbf88f23b4402"
+    },
+    {
+      "path": "local-inventory.json",
+      "bytes": 12906,
+      "sha256": "01eed47c996268f8878a1ce26feee4bd8c78549a586ae041d8cb9ef629129bbf"
+    },
+    {
+      "path": "motor-clutch-source/analysis.json",
+      "bytes": 4753,
+      "sha256": "51e68b59c2b9a954078f629daf7cefb5a4e197a1651cf8bb57f1e44b5b9fbe22"
+    },
+    {
+      "path": "motor-clutch-source/check_motor_clutch_source.py",
+      "bytes": 3075,
+      "sha256": "ce7ababbfd3bde409f256f6398535a8ff9b382abd6540115c6e9e2308e3f44e6"
+    },
+    {
+      "path": "motor-clutch-source/motor_clutch.py",
+      "bytes": 3031,
+      "sha256": "1228f2f9858a1d15cd669fe04f9c1ff754800dd00fbaece686f4ac68897e3656"
+    },
+    {
+      "path": "motor-clutch-source/protocol.json",
+      "bytes": 2049,
+      "sha256": "e6724df201c40140a104ac7bf9c1ebda00326b61b365d20d5eb47f6a9f96dd36"
+    },
+    {
+      "path": "motor-clutch-source/stopped.json",
+      "bytes": 263,
+      "sha256": "f556fa3af676857b5535bbfde48825c6dbbcd8bf7e36f41f64fdf86ded8cfcd1"
+    },
+    {
+      "path": "rho-adsi-checks/check_rho_adsi.py",
+      "bytes": 5666,
+      "sha256": "cda67c9d2ba3a67bbcd1d399241c785cc3e67e37a7c1963e72f36d8ab7c87296"
+    },
+    {
+      "path": "rho-adsi-checks/failure.json",
+      "bytes": 306,
+      "sha256": "5fc69b2f7aa9d002e58e7e2287915548ce632cfd6bc4d9d15ce2be350ff6632a"
+    },
+    {
+      "path": "rho-adsi-checks/protocol.json",
+      "bytes": 1461,
+      "sha256": "d965d13f6337c4232c082bae9214ec26191f6ba78eede2656abe67bc50fcc6ba"
+    },
+    {
+      "path": "rho-adsi-checks/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-checks02/analysis.json",
+      "bytes": 3886,
+      "sha256": "ca3fc638df0980dd8dad070e0bc981ebda87c21b49103858b5a39c5b122bbfb2"
+    },
+    {
+      "path": "rho-adsi-checks02/case-0429.json",
+      "bytes": 1624,
+      "sha256": "e742a1060e1019c92ab26c2a2d46254e75ca92b230351b878b3ec486b90ac6c8"
+    },
+    {
+      "path": "rho-adsi-checks02/case-1612.json",
+      "bytes": 1632,
+      "sha256": "34aff0a27a7bf5e19726723abbca72d5025a8d56c4252829182646fd4473dfd2"
+    },
+    {
+      "path": "rho-adsi-checks02/check_rho_adsi.py",
+      "bytes": 6835,
+      "sha256": "fc7a786ed0d3533a3031b981ed89e953f9255410812e22ccd1ad87e758c5522b"
+    },
+    {
+      "path": "rho-adsi-checks02/protocol.json",
+      "bytes": 1532,
+      "sha256": "43355da7949623f09c1730b7ec2d714c59a7e9774f228564f6a758de29085bcf"
+    },
+    {
+      "path": "rho-adsi-checks02/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-focus/analysis.json",
+      "bytes": 1789,
+      "sha256": "30bd853d45f6662e4e812b975e6232aac7c56ebb876abfc9fd9c1a31df48c17f"
+    },
+    {
+      "path": "rho-adsi-focus/complete-or-budgeted.npz",
+      "bytes": 2582632,
+      "sha256": "34cc95d7b4bb88149ff0c5c4b9eb3a1edbbcb2c7c43c891c7c8ddfa4d6c235e7"
+    },
+    {
+      "path": "rho-adsi-focus/declared-inputs.npz",
+      "bytes": 932899,
+      "sha256": "3eeaea1edf0c0ae444960a219c24aa30b96f5775f8988519bfc54a0d6ec9f818"
+    },
+    {
+      "path": "rho-adsi-focus/independent-controls.json",
+      "bytes": 821,
+      "sha256": "218ab8d9eaa4ab57e6fe202a16d32f8f6ee8818cf6deac0ac6d05b6ad1c7b9d5"
+    },
+    {
+      "path": "rho-adsi-focus/protocol.json",
+      "bytes": 1090,
+      "sha256": "0f7a4b9afce16d7719635b833f37bc5cb7ab558cd2ca2b728c7583997e10316b"
+    },
+    {
+      "path": "rho-adsi-focus/rho_adsi.cl",
+      "bytes": 3386,
+      "sha256": "20e4cf1f666387f8289f03ef7a293a1f3af07c1f538277533f6854719f002326"
+    },
+    {
+      "path": "rho-adsi-focus/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-focus/search_rho_adsi.py",
+      "bytes": 8092,
+      "sha256": "c71dbe74baed712bf31372fa831f96ba31482e4e26dbed0137921406cd9485ac"
+    },
+    {
+      "path": "rho-adsi-focus/search_rho_adsi_focus.py",
+      "bytes": 3942,
+      "sha256": "70f38665e282945bb7947c24d72c483e79d347ea0226dfbe564d1b6c0e9cfe20"
+    },
+    {
+      "path": "rho-adsi-focus/source-control.json",
+      "bytes": 400,
+      "sha256": "fa77ca316f3600e1c87dc82c79cbc7cfbefdd20daf24d2cb25b570bb96cc587d"
+    },
+    {
+      "path": "rho-adsi-focus/source-control.npz",
+      "bytes": 75831,
+      "sha256": "71febf2ecc41d62e3eb330a798c84c1049169218b9498fd214b3268fa9a87061"
+    },
+    {
+      "path": "rho-adsi-focus-returns/algebra-precision-audit.json",
+      "bytes": 7295,
+      "sha256": "6b8f0486320bb33b63a24ca4fd2d72c0059ff01d0445045639f98e8212e14b47"
+    },
+    {
+      "path": "rho-adsi-focus-returns/analysis.json",
+      "bytes": 22762,
+      "sha256": "ffe781873e3d8df3f12eb1c66c1eb378aeda43fd1f32b24b03b3d02f8fb69753"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-00415.json",
+      "bytes": 2742,
+      "sha256": "5fac7f6c9f8245df08a239160fb6e7fb2d068c816d895d93db4174933f0e49d6"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-00622.json",
+      "bytes": 4842,
+      "sha256": "1c9a7a4258efdfdd45aa8f5b671cbafb066045668d1730928c83a8eb02d62b05"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-00816.json",
+      "bytes": 1433,
+      "sha256": "551b626bc7f88fb3f7e08068909b547bb8e63d572765933525a8dd413346e89b"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-00848.json",
+      "bytes": 3792,
+      "sha256": "5cc279da22e350f771995bd9de81c7567d181806a57028e3195ea66428d159de"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-01237.json",
+      "bytes": 1426,
+      "sha256": "61d79afd74be54247d0e24ebb381ccdde5d66b93281402310fbefed9b923d9f3"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-01238.json",
+      "bytes": 646,
+      "sha256": "d7a252c54e7764091e41769ccc108c3de8c3c7a7a6d4e98639df99d850d02181"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-02256.json",
+      "bytes": 4853,
+      "sha256": "692ab270e6cab4a5e9c0c5af8f90ffe33ce5a820d0e95f709e0787b8d6792305"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-02257.json",
+      "bytes": 4860,
+      "sha256": "52bdb8a253e46cad908fd5bd9e152784cd6dc45ab5ea0ebecdfbebe108421349"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-03695.json",
+      "bytes": 3542,
+      "sha256": "6826c13368dada9aad5b86e74e830fe3a9e69b5204093eef5dd275064ed75b79"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-04166.json",
+      "bytes": 645,
+      "sha256": "a09add38b4efbf4ab08ebf2b978ea1cd0df12f09924ee4e3f40de42ffe21b374"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-04320.json",
+      "bytes": 4597,
+      "sha256": "1ac91da8d2114d2096c508607dbbed1edae22b028e4611b155feebfc3261ef4a"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-04321.json",
+      "bytes": 4466,
+      "sha256": "9ba166631f87d37218555e10d638006db691804ef549c65bdecf328b81f35ad8"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-06815.json",
+      "bytes": 1034,
+      "sha256": "98d6334c7ed734d0c49a9dce5a15e005a456265191ca842103fbcbdc05f117ac"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-06873.json",
+      "bytes": 4843,
+      "sha256": "c3059eedc73e591666b686cd2527f29def75bd8fca1ba210394fa5ab8c3d688f"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-07470.json",
+      "bytes": 1042,
+      "sha256": "1ea26da7221c9fa842a43bdefd4c80bb341d5447695a0c2f4beae51ca57655f7"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-07471.json",
+      "bytes": 1043,
+      "sha256": "796d313eee9f6105d05d2faf6b1d1be3dabe6c0664c818d450f4b2891b84d67c"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-07504.json",
+      "bytes": 3795,
+      "sha256": "d5b0f60ccc7320723026faefcad837ec8d0927c7166eeb21ec8240a210c2ffd8"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-07505.json",
+      "bytes": 3802,
+      "sha256": "43de37f5cfeaf9973a445d673508cf7549f5944e5bcdcb0a3888581a5948d084"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-07596.json",
+      "bytes": 1435,
+      "sha256": "bb81e3b7be9a20e76f92d900eb918aea2a447e223bcffcaca930388009f73ea7"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-08229.json",
+      "bytes": 3912,
+      "sha256": "940fc73c0e38b34e03433e852c098ab421dcc8be82e5db4b639f88fd77270036"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-08435.json",
+      "bytes": 4854,
+      "sha256": "187c78d903c4eff1f2bc12833cf2c64fe35f9bd3adf2f1968643d1c19c6f4884"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-08496.json",
+      "bytes": 2747,
+      "sha256": "c72afcc4b5b946ccf511f3828e33c5d50a28a7a552e7a6f54014c4cdaa0cff3b"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-08497.json",
+      "bytes": 2752,
+      "sha256": "3b566c87876f7a0386793da4664f7f9cdb5260b28c7345c88784b247991032c7"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-08623.json",
+      "bytes": 779,
+      "sha256": "18ed777ced7c4c5bc2f3c1b52edd9f6b312db9f271e2398d6b95a9cdf73dfe65"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-09919.json",
+      "bytes": 4870,
+      "sha256": "3491cc9051945cddbf3ad59d57a6bc01e24b1af86295b319ceb86d3d6c535b37"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-10910.json",
+      "bytes": 4866,
+      "sha256": "2655ed8c96c4ff442be553593ff954a32d6880b352ac7717de83db7bf9a494c2"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-11127.json",
+      "bytes": 4870,
+      "sha256": "cf55bc29def8f0a8caa782cf790a7938139c160dd16aadaaa750dcb1290a3c95"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-12105.json",
+      "bytes": 4325,
+      "sha256": "ec29a6d352d1db0ec27bdd3a793858ba0b8c706de62240cba467b6624dff2eea"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-12202.json",
+      "bytes": 4856,
+      "sha256": "0f357d46439ad807781de6d9de5c49196505678b5bc5a8e3853c69ff006107cb"
+    },
+    {
+      "path": "rho-adsi-focus-returns/case-12614.json",
+      "bytes": 1041,
+      "sha256": "d515236e183376915644bc5f5956e2fa075ee424e6cd2aea81c75b3391f87189"
+    },
+    {
+      "path": "rho-adsi-focus-returns/protocol.json",
+      "bytes": 21043,
+      "sha256": "d9d08bbe2edbf063a732e485a4f6db5436c5f7107d2f53a58977fbc4ef1f69a4"
+    },
+    {
+      "path": "rho-adsi-focus-returns/recovered-analysis.json",
+      "bytes": 121780,
+      "sha256": "36c1a46b27648ad764bcfa16b0685af3efead5cdd18b9e5cbc36838e556da7de"
+    },
+    {
+      "path": "rho-adsi-focus-returns/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-focus-returns/rho_adsi_kinetics.py",
+      "bytes": 2035,
+      "sha256": "e115e60d91892a5bbbf1545f0beb5f383de73cfe8f968a37362f88e531500087"
+    },
+    {
+      "path": "rho-adsi-focus-returns/screen_rho_adsi_sections.py",
+      "bytes": 5187,
+      "sha256": "40e4f63f62fcfccd4b257fb341a7a7921046edad78b9cc9f02aa14abcfb9ec25"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/analysis.json",
+      "bytes": 2419,
+      "sha256": "47374884c2e58b8525f08f31b300df4c33dfe695efc5e02451884e3fa78a4c0d"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/case-03221.json",
+      "bytes": 1111,
+      "sha256": "348802146f9bc67171ecedc520aa144a709392c2d1f665296918a056acd55bd8"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/case-08054.json",
+      "bytes": 978,
+      "sha256": "c346e920703e5e27bef99114f68d1276789f33da444aae4d2d7c819488fe4ca8"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/protocol.json",
+      "bytes": 2179,
+      "sha256": "37d3f8accd47bd7b322ff5938c16a33f30cbeff46366110b60566ec9f01d5f7f"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/rho_adsi_kinetics.py",
+      "bytes": 3230,
+      "sha256": "3207ffa7f80a87f9e627c5ca02aa367a5b6ae5bee9787aec3d0bca4ea5486c7c"
+    },
+    {
+      "path": "rho-adsi-focus-returns02/screen_rho_adsi_sections.py",
+      "bytes": 5755,
+      "sha256": "d2873cbf00d27721f76ee02546a55ee4a218a98e643b27de00ccf08ea701f7ac"
+    },
+    {
+      "path": "rho-adsi-kinetics/analysis.json",
+      "bytes": 4152,
+      "sha256": "e564be1b1d33d78752e47f9eff97281ae2282a9c0f9dbb2d0ed3d0d81cb0f51f"
+    },
+    {
+      "path": "rho-adsi-kinetics/complete-or-budgeted.npz",
+      "bytes": 1652855,
+      "sha256": "a8cfe52be8339b491954f19c6b030de517cfc94d1b7dcc5cc890d16950c1fa29"
+    },
+    {
+      "path": "rho-adsi-kinetics/declared-inputs.npz",
+      "bytes": 2544064,
+      "sha256": "7a4c5f1850593a3337ffa3131ecea7dfb9c7eeec06386a7ad26d450c33126e06"
+    },
+    {
+      "path": "rho-adsi-kinetics/flow-alignment.json",
+      "bytes": 16551,
+      "sha256": "168c1b4e012722d4e07d21d798c232220a4ed49af59a465e019960cf6fcd3317"
+    },
+    {
+      "path": "rho-adsi-kinetics/independent-controls.json",
+      "bytes": 1882,
+      "sha256": "42441e8f4a2484f0c1eaf39a2942a91be218e2812d126e9d0e1ecb20c5a12427"
+    },
+    {
+      "path": "rho-adsi-kinetics/protocol.json",
+      "bytes": 1540,
+      "sha256": "08b54b401a4415f36582a0fc544b15e2ac6cbc1c255c0a311e8f3c40a53febb6"
+    },
+    {
+      "path": "rho-adsi-kinetics/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-kinetics/rho_adsi_kinetics.cl",
+      "bytes": 3352,
+      "sha256": "af23b96c15eb0e0e21cb4d561cf8c7e747d99215819d889549f2aa5c5e94101a"
+    },
+    {
+      "path": "rho-adsi-kinetics/rho_adsi_kinetics.py",
+      "bytes": 2035,
+      "sha256": "e115e60d91892a5bbbf1545f0beb5f383de73cfe8f968a37362f88e531500087"
+    },
+    {
+      "path": "rho-adsi-kinetics/search_rho_adsi.py",
+      "bytes": 8148,
+      "sha256": "dde1c2190874c97fa2264f308144d405d4d7554c8849ed59cb8f7926c2838b50"
+    },
+    {
+      "path": "rho-adsi-kinetics/search_rho_adsi_kinetics.py",
+      "bytes": 6090,
+      "sha256": "52e33c96c6c4655012d3e56088ca9f2c7fa6f01885a058bca69dfd91ed84df2a"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/analysis.json",
+      "bytes": 10113,
+      "sha256": "99a94d83ccbbfa28ddabc92ae421028891ca2d78542088b76e68aca621415a4d"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/case-00528.json",
+      "bytes": 3015,
+      "sha256": "eab540cc34da1fac5fdd13aa432f9296706d044618c1ab19976625446fa30673"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/case-01535.json",
+      "bytes": 2613,
+      "sha256": "f61bc33344833af80bb1fe744725249c26dc54b971d39fd6ab02ec1cb85d844f"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/case-03227.json",
+      "bytes": 1036,
+      "sha256": "7f1f70cf971948f34fd6d5ed116775644fbb5a0200a91109d3e27eefd794c9ee"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/case-04436.json",
+      "bytes": 2077,
+      "sha256": "2680dd4fd64b2138097c10182406ffc7afbdda08b7a8e12b50655b6162491f91"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/protocol.json",
+      "bytes": 3462,
+      "sha256": "1dd4f258a86ccb32fb0b896d6d3bec25ecbb924c68437041d396c408cd6b2f2a"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/rho_adsi_kinetics.py",
+      "bytes": 2035,
+      "sha256": "e115e60d91892a5bbbf1545f0beb5f383de73cfe8f968a37362f88e531500087"
+    },
+    {
+      "path": "rho-adsi-kinetics-returns/screen_rho_adsi_sections.py",
+      "bytes": 5187,
+      "sha256": "40e4f63f62fcfccd4b257fb341a7a7921046edad78b9cc9f02aa14abcfb9ec25"
+    },
+    {
+      "path": "rho-adsi-pilot/analysis.json",
+      "bytes": 449,
+      "sha256": "bd8a6c171f8d1483b7fbcd98877d9531e673689a3a87d689cc1bffeee3a36579"
+    },
+    {
+      "path": "rho-adsi-pilot/complete-or-budgeted.npz",
+      "bytes": 314059,
+      "sha256": "a62cc065c18d841c4de93ace56b057d00d43d70e1e26ebc794188a02b48dc063"
+    },
+    {
+      "path": "rho-adsi-pilot/declared-inputs.npz",
+      "bytes": 33527,
+      "sha256": "5ca6751cf3fa2195ed9afc1f05d04adc34c3502be786cef88ac4a23c2085e41c"
+    },
+    {
+      "path": "rho-adsi-pilot/independent-controls.json",
+      "bytes": 821,
+      "sha256": "218ab8d9eaa4ab57e6fe202a16d32f8f6ee8818cf6deac0ac6d05b6ad1c7b9d5"
+    },
+    {
+      "path": "rho-adsi-pilot/protocol.json",
+      "bytes": 1415,
+      "sha256": "df0f8659833826ac3720522767c086f4059d1aa3f05a5cbd583de029db73832c"
+    },
+    {
+      "path": "rho-adsi-pilot/rho_adsi.cl",
+      "bytes": 3386,
+      "sha256": "20e4cf1f666387f8289f03ef7a293a1f3af07c1f538277533f6854719f002326"
+    },
+    {
+      "path": "rho-adsi-pilot/rho_adsi.py",
+      "bytes": 1645,
+      "sha256": "f7d0b1715f7c2fb8142efec801857d76c57013814f550f3959f3f648efcfb867"
+    },
+    {
+      "path": "rho-adsi-pilot/search_rho_adsi.py",
+      "bytes": 8092,
+      "sha256": "c71dbe74baed712bf31372fa831f96ba31482e4e26dbed0137921406cd9485ac"
+    },
+    {
+      "path": "rho-adsi-pilot/source-control.json",
+      "bytes": 400,
+      "sha256": "fa77ca316f3600e1c87dc82c79cbc7cfbefdd20daf24d2cb25b570bb96cc587d"
+    },
+    {
+      "path": "rho-adsi-pilot/source-control.npz",
+      "bytes": 75831,
+      "sha256": "71febf2ecc41d62e3eb330a798c84c1049169218b9498fd214b3268fa9a87061"
+    },
+    {
+      "path": "rho-adsi-return-audit/audit.json",
+      "bytes": 1697,
+      "sha256": "46e2f769393d9aa02541aaadd534366a579245b45dc63cd9bde4a2b635045d62"
+    },
+    {
+      "path": "rho-adsi-return-audit/audit_rho_adsi_returns.py",
+      "bytes": 2385,
+      "sha256": "5671c19061189372479bdd355cfa554bcd2387799c236dbbd898b597feff322d"
+    },
+    {
+      "path": "rho-adsi-return-audit/rho_adsi.py",
+      "bytes": 2538,
+      "sha256": "104bd9e4174f263a0e6ab95605a16f929e02d0a27c89b3ed3a7cab1054543c40"
+    }
+  ]
+}

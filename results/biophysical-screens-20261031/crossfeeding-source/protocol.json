@@ -1,0 +1,50 @@
+{
+  "source": "https://doi.org/10.1038/s41467-025-63986-y",
+  "author_commit": "bde791b4c82cd3bebe8d2b34553d8e50c7b47d01",
+  "parameters": [
+    "mu1_max",
+    "k13",
+    "k12",
+    "q13",
+    "q12",
+    "q11",
+    "mu2_max",
+    "k23",
+    "k21",
+    "q23",
+    "q21",
+    "q22",
+    "D",
+    "R1_in",
+    "R2_in",
+    "R3_in"
+  ],
+  "tuple": [
+    1.0,
+    10.0,
+    10.0,
+    1.0,
+    10.0,
+    20.0,
+    1.0,
+    10.0,
+    10.0,
+    1.0,
+    10.0,
+    20.0,
+    0.2,
+    1.0,
+    1.0,
+    11.1
+  ],
+  "initial": [
+    0.1,
+    0.11,
+    1.0,
+    1.0,
+    11.1
+  ],
+  "time": "tau=D*t; t in author hours; source time0..200 hours is tau0..40.",
+  "method": "DOP853 versus independent stoichiometric Radau, rtol2e-11 atol2e-13 maxstep.005tau.",
+  "limitation": "Continuous min branches; no smoothing, forcing, clipping or fitted parameter changes."
+}

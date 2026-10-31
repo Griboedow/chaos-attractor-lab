@@ -1,0 +1,53 @@
+{
+  "id": 7596,
+  "events": 29,
+  "section_level": 0.7875089324468958,
+  "return_tests": [
+    {
+      "lag": 1,
+      "maximum_distance": 3.9288130553175276e-12,
+      "scaled_distance": 1.0895544451918593e-12
+    },
+    {
+      "lag": 2,
+      "maximum_distance": 3.6103647793201566e-12,
+      "scaled_distance": 1.0012410717145922e-12
+    },
+    {
+      "lag": 3,
+      "maximum_distance": 2.9103801507038992e-12,
+      "scaled_distance": 8.071184822870897e-13
+    },
+    {
+      "lag": 4,
+      "maximum_distance": 3.2890656179442295e-12,
+      "scaled_distance": 9.121370790876729e-13
+    },
+    {
+      "lag": 5,
+      "maximum_distance": 3.3158662850960806e-12,
+      "scaled_distance": 9.195695493066068e-13
+    },
+    {
+      "lag": 6,
+      "maximum_distance": 3.3911031247684045e-12,
+      "scaled_distance": 9.40434536251256e-13
+    }
+  ],
+  "first_numerical_period_lag": 1,
+  "algebra_relative_error": 4.1934092558623234e-13,
+  "minimum": [
+    0.0034533077543398715,
+    0.40973564167718624,
+    0.3059142427478493
+  ],
+  "maximum": [
+    61.2377579895459,
+    6.113117706153711,
+    13.64217377791752
+  ],
+  "wall_seconds": 30.020340000000033,
+  "file": "case-07596.npz",
+  "sha256": "ce8d66bbdaf7e7f5ebc1251174c4fa5bc4d1425d83047e6dc59f68992cc99d31",
+  "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+}

@@ -1,0 +1,44 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-pilot\\complete-or-budgeted.npz",
+  "source_sha256": "a62cc065c18d841c4de93ace56b057d00d43d70e1e26ebc794188a02b48dc063",
+  "jobs": [
+    {
+      "id": 429,
+      "parameters": [
+        5.118333157769903,
+        9.278210617492382,
+        0.513815306393709,
+        4.098194785730595
+      ],
+      "initial": [
+        3.864949113768622,
+        3.828047163560732,
+        10.94451810056111
+      ],
+      "warm": 500.0,
+      "duration": 8000,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-checks"
+    },
+    {
+      "id": 1612,
+      "parameters": [
+        3.1273136299454043,
+        6.999231781883546,
+        0.665478418192097,
+        5.350721068552488
+      ],
+      "initial": [
+        0.009082406701713326,
+        3.079405184232365,
+        5.1918422951839265
+      ],
+      "warm": 500.0,
+      "duration": 8000,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-checks"
+    }
+  ],
+  "selection": "Exploratory follow-up of small, comparatively persistent positive finite-time rates, below the preregistered pilot retention threshold.",
+  "method": "Full3D QR every1tau; DOP853 rtol2e-10,atol2e-12,maxstep.025; samples .05tau",
+  "time": "tau=.025*t, with physical t in seconds; rates below are per tau",
+  "warning": "Finite-time diagnostic; no attraction, uniqueness or priority proof."
+}

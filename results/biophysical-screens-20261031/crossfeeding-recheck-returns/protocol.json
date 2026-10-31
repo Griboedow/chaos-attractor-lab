@@ -1,0 +1,136 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\crossfeeding-recheck\\complete-or-budgeted.npz",
+  "source_sha256": "481bcaf7d87b28d2787ff7a74fc06f05655ca9d3a36bd63b38881f06e9b2dccc",
+  "jobs": [
+    {
+      "id": 4008,
+      "parameters": [
+        1.0,
+        3.767542166772806,
+        7.719904398498159,
+        1.0,
+        10.0,
+        95.31107308226524,
+        0.8994399442904024,
+        8.142184641426525,
+        12.95352828714487,
+        1.0,
+        10.0,
+        38.47311737366267,
+        0.03623226629478524,
+        11.911872134014976,
+        0.3764762920727671,
+        38.940745635875224
+      ],
+      "initial": [
+        12.436799797938171,
+        3.0100318616547033,
+        1873.8077443538298,
+        0.000843027302560843,
+        0.42033370991720415
+      ],
+      "section_level": 14.064179268841283,
+      "duration": 400.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\crossfeeding-recheck-returns"
+    },
+    {
+      "id": 4461,
+      "parameters": [
+        1.0,
+        10.072088978122443,
+        8.55841028115022,
+        1.0,
+        10.0,
+        18.59394797701096,
+        0.6482540387073591,
+        3.396371163926802,
+        11.684412959290889,
+        1.0,
+        10.0,
+        50.054982163912385,
+        0.17921405198975532,
+        16.587797255962386,
+        0.18291748185337756,
+        9.469868711312847
+      ],
+      "initial": [
+        0.8458870881139845,
+        3.2752622295681895,
+        1.610348655879608,
+        77.20170508309629,
+        2.6850785081671074
+      ],
+      "section_level": 2.7439968478718524,
+      "duration": 400.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\crossfeeding-recheck-returns"
+    },
+    {
+      "id": 5121,
+      "parameters": [
+        1.0,
+        7.589745804782816,
+        22.674863775117874,
+        1.0,
+        10.0,
+        11.839939927053907,
+        0.5691196545874557,
+        12.217281407402933,
+        4.410169824690827,
+        1.0,
+        10.0,
+        16.115611406198525,
+        0.06779883168950951,
+        13.525846250654052,
+        0.0026188434877755587,
+        37.44786310263153
+      ],
+      "initial": [
+        12.084731433307137,
+        8.215844680478874,
+        28.951705685401194,
+        0.00019394447314111826,
+        1.406704719678696
+      ],
+      "section_level": 7.599031890081095,
+      "duration": 400.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\crossfeeding-recheck-returns"
+    },
+    {
+      "id": 2465,
+      "parameters": [
+        1.0,
+        3.825124612688618,
+        3.301457288604653,
+        1.0,
+        10.0,
+        39.254734831072405,
+        0.8773092137145044,
+        3.087580328910702,
+        30.289654312706425,
+        1.0,
+        10.0,
+        78.01935753693942,
+        0.05924695106676571,
+        0.16806088148455453,
+        15.202198113640609,
+        9.419549380185215
+      ],
+      "initial": [
+        1.6991276546319252,
+        4.7991925797647035,
+        0.0090376344706146,
+        106.12831190517846,
+        0.31949045380873214
+      ],
+      "section_level": 4.85969230611965,
+      "duration": 400.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\crossfeeding-recheck-returns"
+    }
+  ],
+  "selection": "Three largest mean leading rates among the complete weak-positive pilot lanes, plus the source control.",
+  "method": "Independent Radau state integration with analytic piecewise Jacobian; rtol2e-10,atol2e-12,maxstep.05tau.",
+  "section": "Upward N1 crossing of its pilot observation midpoint; all five state components retained.",
+  "recurrence": "Lags1..32 on the last max(100,half) events; scaled maximum distance<1e-7; at least four lag blocks.",
+  "time": "tau=D*t; author t in hours",
+  "scope": "Failure to recur is inconclusive. No Lyapunov estimate is inferred from this screen."
+}

@@ -1,0 +1,68 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-focus\\complete-or-budgeted.npz",
+  "source_sha256": "34cc95d7b4bb88149ff0c5c4b9eb3a1edbbcb2c7c43c891c7c8ddfa4d6c235e7",
+  "jobs": [
+    {
+      "id": 3221,
+      "kinetics": [
+        0.00625,
+        2.5795625073126116,
+        1.0,
+        0.0625,
+        0.7107740646542324,
+        1.4336425102200645,
+        0.4778800721306827,
+        0.00018033298847330438,
+        0.013522569695651519,
+        0.25,
+        0.0024044398463107255,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial": [
+        164.6201660212006,
+        2.814376198905466,
+        10.12517170087504
+      ],
+      "duration": 1000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-focus-returns02"
+    },
+    {
+      "id": 8054,
+      "kinetics": [
+        0.00625,
+        1.5086380370474068,
+        1.0,
+        0.0625,
+        0.41447475029177966,
+        0.3668681138088337,
+        0.1222891756066172,
+        0.00010328180516732534,
+        0.007744758296813837,
+        0.25,
+        0.001377090735564338,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial": [
+        70.10998613958526,
+        3.4058580745471736,
+        12.24617185464157
+      ],
+      "duration": 1000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-focus-returns02"
+    }
+  ],
+  "method": "Independent Radau state integration with analytic Jacobian;rtol2e-10,atol2e-12,maxstep.1tau.",
+  "selection": "All complete exploratory weak lanes with all4 windows>.001, unless explicit IDs supplied.",
+  "algebra_check": "70-digit Decimal source field; difference scaled by sum of absolute reaction fluxes, raw error retained. Complex-step source Jacobian separately checked.",
+  "time": "tau=.025*t, physical t in seconds",
+  "diagnostic": "UpwardRT section at median positive equilibrium RT; recurrence lags1..32 across last max(100,half) events; scaled tolerance1e-7.",
+  "scope": "Failure to recur is inconclusive. No positive-exponent assertion from this screen."
+}

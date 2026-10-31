@@ -1,0 +1,53 @@
+{
+  "source": "Chomchai et al.2025 Eq7/TableS2; same reaction laws, varied kinetic constants.",
+  "seed": 2026103147,
+  "proposals": 32768,
+  "selected_tuples": 4008,
+  "lanes": 8016,
+  "lower": [
+    0.1,
+    0.5,
+    0.005,
+    0.005,
+    0.01,
+    0.2,
+    0.05,
+    0.05
+  ],
+  "upper": [
+    10,
+    8,
+    20,
+    20,
+    100,
+    5,
+    20,
+    20
+  ],
+  "design_parameters": [
+    "GEF",
+    "GAP/GEF",
+    "inhibitor_speed",
+    "exchange_speed",
+    "k0_factor",
+    "inactive_pool_factor",
+    "k2_factor",
+    "k9_factor"
+  ],
+  "parameter_storage": "First11 entries: k0..k10 with GEF/GAP folded into k1/k4; last5 padding zeros.",
+  "selected": "high_activation<high_inhibition; positive equilibrium with RT<20, maxRe(eigenvalue)>.002/tau; first such numerical root.",
+  "high_activation": "(k1/k2)*(k5/k6)",
+  "high_inhibition": "k3+k4*(k7+k8/k9)/k10",
+  "selection_scope": "Heuristic only; not a global boundedness proof or exclusion of hidden attractors.",
+  "rejected_asymptotic_heuristic": 11159,
+  "equilibrium_residual_max": 1.8189894035458565e-11,
+  "initial": "1% active perturbation of selected equilibrium and (.5,k5/k6,1).",
+  "warm": 500.0,
+  "observation": 2000.0,
+  "rtol": 1e-09,
+  "atol": 1e-12,
+  "maxstep": 0.05,
+  "time": "tau=.025*t; physical t in seconds",
+  "retention": "All4 leading windows>.005/tau; separately declared exploratory>.001.",
+  "limitation": "Broad exploratory source-parameter family; no experimental calibration or novelty claim."
+}

@@ -1,0 +1,123 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-kinetics\\complete-or-budgeted.npz",
+  "source_sha256": "a8cfe52be8339b491954f19c6b030de517cfc94d1b7dcc5cc890d16950c1fa29",
+  "jobs": [
+    {
+      "id": 4436,
+      "kinetics": [
+        0.0006486826189074428,
+        0.6866706447023376,
+        4.679400196689537,
+        0.0625,
+        0.23165960130792168,
+        0.007901085516630024,
+        0.0009143768391604793,
+        0.0004314492187013841,
+        0.032352938746354455,
+        0.06795906632192851,
+        0.0057526562493517884,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial": [
+        1.55382628670232,
+        7.20759617312185,
+        0.21143104845869257
+      ],
+      "duration": 1000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-kinetics-returns"
+    },
+    {
+      "id": 528,
+      "kinetics": [
+        0.0008787071336242394,
+        1.3592193146824696,
+        15.795331743979714,
+        0.0625,
+        0.8318294881591931,
+        0.5835433133793438,
+        0.0660914103068832,
+        0.0006150044101821824,
+        0.04611713070486126,
+        0.23699852065221796,
+        0.0082000588024291,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial": [
+        2.7927321353341656,
+        6.9536584520921,
+        0.7702501454315513
+      ],
+      "duration": 1000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-kinetics-returns"
+    },
+    {
+      "id": 3227,
+      "kinetics": [
+        0.00033580759282838255,
+        1.1844775914488475,
+        9.41637386681158,
+        0.0625,
+        0.16382877871621257,
+        3.4544791111202446,
+        0.2631488787009816,
+        0.0002088138540248341,
+        0.015658254867142226,
+        0.3566119735058958,
+        0.0027841847203311215,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial": [
+        72.76259331402288,
+        2.462633940006556,
+        1.277299941993331
+      ],
+      "duration": 1000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-kinetics-returns"
+    },
+    {
+      "id": 1535,
+      "kinetics": [
+        0.0006248946359960774,
+        1.562529749905643,
+        2.110904153317075,
+        0.0625,
+        0.3901078596081588,
+        0.001740306399469857,
+        0.00012296689610185278,
+        0.0005707215914999016,
+        0.04279650974127262,
+        0.022303660798953934,
+        0.007609621219998689,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial": [
+        0.003781885927414477,
+        14.496870221781785,
+        5.962197492563447
+      ],
+      "duration": 1000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\rho-adsi-kinetics-returns"
+    }
+  ],
+  "method": "Independent Radau state integration with analytic Jacobian;rtol2e-10,atol2e-12,maxstep.1tau.",
+  "selection": "All complete exploratory weak lanes with all4 windows>.001, unless explicit IDs supplied.",
+  "time": "tau=.025*t, physical t in seconds",
+  "diagnostic": "UpwardRT section at median positive equilibrium RT; recurrence lags1..32 across last max(100,half) events; scaled tolerance1e-7.",
+  "scope": "Failure to recur is inconclusive. No positive-exponent assertion from this screen."
+}

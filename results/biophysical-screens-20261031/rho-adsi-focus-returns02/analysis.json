@@ -1,0 +1,73 @@
+{
+  "declared": 2,
+  "completed": 2,
+  "runs": [
+    {
+      "id": 3221,
+      "events": 15,
+      "section_level": 1.304794136335902,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 3.3986142268601927e-11,
+          "scaled_distance": 1.1106048848539848e-11
+        },
+        {
+          "lag": 2,
+          "maximum_distance": 1.501833939358542e-11,
+          "scaled_distance": 4.907718257956063e-12
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 1.2521349989463622e-12,
+      "decimal_source_absolute_field_error": 8.714640120643935e-12,
+      "decimal_source_flux_scaled_field_error": 9.110301181499804e-17,
+      "complex_step_jacobian_relative_error": 1.2521349989463622e-12,
+      "minimum": [
+        0.0015769387400062732,
+        0.21333487760992015,
+        0.2662298674444874
+      ],
+      "maximum": [
+        165.46117006010462,
+        6.486417247715939,
+        17.21248355609323
+      ],
+      "wall_seconds": 21.785938999999416,
+      "file": "case-03221.npz",
+      "sha256": "8cd95baeacb009f457e8392cb19fe79c9f075f81862fcfd67bd2c67ec8dea3a3",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    },
+    {
+      "id": 8054,
+      "events": 9,
+      "section_level": 1.2963046846241957,
+      "return_tests": [
+        {
+          "lag": 1,
+          "maximum_distance": 9.641897043404638e-12,
+          "scaled_distance": 3.2342587691942496e-12
+        }
+      ],
+      "first_numerical_period_lag": 1,
+      "algebra_relative_error": 2.718872856089843e-13,
+      "decimal_source_absolute_field_error": 3.806954751439662e-12,
+      "decimal_source_flux_scaled_field_error": 1.3209496181661452e-16,
+      "complex_step_jacobian_relative_error": 2.718872856089843e-13,
+      "minimum": [
+        0.0028209866120647896,
+        0.22895406372507576,
+        0.35980064040326315
+      ],
+      "maximum": [
+        73.00377961072154,
+        6.959531872412291,
+        16.9817709989835
+      ],
+      "wall_seconds": 15.266248100000666,
+      "file": "case-08054.npz",
+      "sha256": "660a2296fe39ef16e2212f12657fa5ad5e3dc2a2c254ac130b814715e62b3b2e",
+      "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+    }
+  ]
+}

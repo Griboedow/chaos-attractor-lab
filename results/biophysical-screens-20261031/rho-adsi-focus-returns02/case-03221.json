@@ -1,0 +1,36 @@
+{
+  "id": 3221,
+  "events": 15,
+  "section_level": 1.304794136335902,
+  "return_tests": [
+    {
+      "lag": 1,
+      "maximum_distance": 3.3986142268601927e-11,
+      "scaled_distance": 1.1106048848539848e-11
+    },
+    {
+      "lag": 2,
+      "maximum_distance": 1.501833939358542e-11,
+      "scaled_distance": 4.907718257956063e-12
+    }
+  ],
+  "first_numerical_period_lag": 1,
+  "algebra_relative_error": 1.2521349989463622e-12,
+  "decimal_source_absolute_field_error": 8.714640120643935e-12,
+  "decimal_source_flux_scaled_field_error": 9.110301181499804e-17,
+  "complex_step_jacobian_relative_error": 1.2521349989463622e-12,
+  "minimum": [
+    0.0015769387400062732,
+    0.21333487760992015,
+    0.2662298674444874
+  ],
+  "maximum": [
+    165.46117006010462,
+    6.486417247715939,
+    17.21248355609323
+  ],
+  "wall_seconds": 21.785938999999416,
+  "file": "case-03221.npz",
+  "sha256": "8cd95baeacb009f457e8392cb19fe79c9f075f81862fcfd67bd2c67ec8dea3a3",
+  "interpretation": "Finite numerical return screen, not a periodic-orbit proof or an absence-of-chaos theorem."
+}
