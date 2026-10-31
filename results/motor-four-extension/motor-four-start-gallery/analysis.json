@@ -1,0 +1,1215 @@
+{
+  "declared": 32,
+  "completed": 32,
+  "classes": [
+    {
+      "distinguished": 0,
+      "circulation_sign": -1,
+      "count": 4
+    },
+    {
+      "distinguished": 0,
+      "circulation_sign": 1,
+      "count": 5
+    },
+    {
+      "distinguished": 1,
+      "circulation_sign": -1,
+      "count": 5
+    },
+    {
+      "distinguished": 1,
+      "circulation_sign": 1,
+      "count": 3
+    },
+    {
+      "distinguished": 2,
+      "circulation_sign": -1,
+      "count": 3
+    },
+    {
+      "distinguished": 2,
+      "circulation_sign": 1,
+      "count": 4
+    },
+    {
+      "distinguished": 3,
+      "circulation_sign": -1,
+      "count": 4
+    },
+    {
+      "distinguished": 3,
+      "circulation_sign": 1,
+      "count": 4
+    }
+  ],
+  "best_median_range": [
+    0.001246473242285773,
+    0.0014493203644530845
+  ],
+  "best_p95_range": [
+    0.00642984083556802,
+    0.008040666158455978
+  ],
+  "near_permutation_counts": {
+    "3": 32
+  },
+  "runs": [
+    {
+      "id": 0,
+      "distinguished": 2,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "median": 0.0013303353228845097,
+        "p95": 0.008040666158455978,
+        "maximum": 0.02638693615251975
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "distinguished": 3,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "median": 0.0014366884332423489,
+        "p95": 0.007369258833125105,
+        "maximum": 0.020499213639618975
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "distinguished": 0,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "median": 0.0013720932400294525,
+        "p95": 0.006894265000475205,
+        "maximum": 0.018656247780221194
+      },
+      "near_permutations": [
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "distinguished": 2,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "median": 0.001246473242285773,
+        "p95": 0.007139448785235385,
+        "maximum": 0.020244026122714344
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "distinguished": 2,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "median": 0.0013465329167027266,
+        "p95": 0.0071595518663983984,
+        "maximum": 0.023418650230311155
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "distinguished": 0,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "median": 0.0013601528238538748,
+        "p95": 0.0073031702292988936,
+        "maximum": 0.0266099671343914
+      },
+      "near_permutations": [
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "distinguished": 0,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "median": 0.001315666784804028,
+        "p95": 0.007115154132387295,
+        "maximum": 0.01934060729167909
+      },
+      "near_permutations": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "distinguished": 2,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "median": 0.001272459882191445,
+        "p95": 0.00642984083556802,
+        "maximum": 0.029709674485635808
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "distinguished": 1,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "median": 0.001345576826336224,
+        "p95": 0.006745231072496532,
+        "maximum": 0.021483562336316136
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "distinguished": 1,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "median": 0.001325959569325114,
+        "p95": 0.007015305692530599,
+        "maximum": 0.020850422539381668
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "distinguished": 1,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "median": 0.0014222970895729108,
+        "p95": 0.007321959358009595,
+        "maximum": 0.018292873204111687
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "distinguished": 3,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "median": 0.0014493203644530845,
+        "p95": 0.007617493823725944,
+        "maximum": 0.018342121185172804
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "distinguished": 0,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "median": 0.001313260533651215,
+        "p95": 0.007282273219320996,
+        "maximum": 0.01754833658916409
+      },
+      "near_permutations": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "distinguished": 3,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "median": 0.0013368310175663515,
+        "p95": 0.007104167990436578,
+        "maximum": 0.01824890670279094
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "distinguished": 0,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "median": 0.0013212960751616838,
+        "p95": 0.006814990615517367,
+        "maximum": 0.01604778789574177
+      },
+      "near_permutations": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "distinguished": 3,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "median": 0.0013156560407059635,
+        "p95": 0.007727131430810924,
+        "maximum": 0.027010514007150495
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "distinguished": 3,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "median": 0.0013503666212797577,
+        "p95": 0.0070439810471792305,
+        "maximum": 0.022948080533114912
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "distinguished": 1,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "median": 0.0013649575882735566,
+        "p95": 0.006953494877803692,
+        "maximum": 0.02019407953743222
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "distinguished": 0,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "median": 0.0013225866821861454,
+        "p95": 0.006656281857331174,
+        "maximum": 0.02204077290023202
+      },
+      "near_permutations": [
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "distinguished": 1,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "median": 0.0013433321698966437,
+        "p95": 0.007069868654094026,
+        "maximum": 0.0210530364472805
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "distinguished": 1,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "median": 0.0013466855584094686,
+        "p95": 0.007271608013583332,
+        "maximum": 0.027078015276579184
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "distinguished": 2,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "median": 0.0014214364349054022,
+        "p95": 0.007538409743966241,
+        "maximum": 0.018727217750600704
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "distinguished": 3,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "median": 0.0013123084290083652,
+        "p95": 0.006535492345652146,
+        "maximum": 0.016617573937193104
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "distinguished": 3,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "median": 0.0013772457338623325,
+        "p95": 0.007317762976343601,
+        "maximum": 0.02344202790525265
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "distinguished": 1,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "median": 0.0013245825963078797,
+        "p95": 0.006948351122063959,
+        "maximum": 0.016827374095672032
+      },
+      "near_permutations": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "distinguished": 0,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "median": 0.0013388324830631744,
+        "p95": 0.007433623496413101,
+        "maximum": 0.023174461139461894
+      },
+      "near_permutations": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "distinguished": 3,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "median": 0.0013295781033801296,
+        "p95": 0.007552559834373082,
+        "maximum": 0.026712755532372925
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "distinguished": 2,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "median": 0.0013314588431113435,
+        "p95": 0.00733465984973885,
+        "maximum": 0.016322457713560272
+      },
+      "near_permutations": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "distinguished": 0,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "median": 0.0013052422044735274,
+        "p95": 0.007095696922244479,
+        "maximum": 0.01727769596480885
+      },
+      "near_permutations": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "distinguished": 1,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "median": 0.0013545114172112782,
+        "p95": 0.007500571056747727,
+        "maximum": 0.02382129891084761
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "distinguished": 0,
+      "circulation_sign": -1,
+      "best": {
+        "permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "median": 0.0013357452927076092,
+        "p95": 0.0072311355816280865,
+        "maximum": 0.020046771464930828
+      },
+      "near_permutations": [
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "distinguished": 2,
+      "circulation_sign": 1,
+      "best": {
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "median": 0.001345105926512909,
+        "p95": 0.0073964605763125425,
+        "maximum": 0.017819072422843137
+      },
+      "near_permutations": [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ]
+    }
+  ],
+  "criterion": "Near: median and p95 both at most three times that fresh start best-by-median permutation. Descriptive heuristic, not a proof.",
+  "comparison_direction": "Queries from each fresh-start history to the fixed full reference cloud; not symmetric Hausdorff distance.",
+  "representatives": "Lowest start ID in each (smallest mean position row, signed circulation of sorted remaining rows) class.",
+  "limitations": "Finite histories and one initialization family. No basin-probability, attraction, exact isotropy, conjugacy or novelty proof."
+}

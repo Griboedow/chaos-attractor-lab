@@ -1,6 +1,6 @@
 # Four motor groups: a thin chaotic braid under investigation
 
-The published molecular-motor family contains an unusually slender numerical chaotic regime with four groups and **eleven state variables**. Two 12,000-unit full-spectrum calculations retain positive leading growth. Its physical displacement projection resembles a folded three-armed braid. This is a visual and dynamical candidate, **not an established new attractor topology or a priority claim**.
+The published molecular-motor family contains an unusually slender numerical chaotic regime with four groups and **eleven state variables**. Two 12,000-unit full-spectrum calculations and a 100,000-unit continuation retain positive leading growth. Its physical displacement projection resembles a folded three-armed braid. This is a visual and dynamical candidate, **not an established new attractor topology or a priority claim**.
 
 ![Four motor groups in a rotating physical view](assets/motor-four-rotation.gif)
 
@@ -50,6 +50,8 @@ For case 3142, each long calculation has an additional 200-unit warm-up and a 12
 
 The near-zero exponent changes sign across windows, consistent with an unresolved finite-time flow direction. The spectrum has one persistently positive leading estimate; this is not a hyperchaos claim. Statistical agreement between settings is meaningful here; long chaotic trajectories need not agree point by point.
 
+A separate **100,000-unit continuation** at the first settings gives leading exponents **`.02079795, -.00001102, -.41171974`**. Its four 25,000-unit leading estimates are `.02190172, .02133481, .01948040, .02047486`. All eleven tangent directions are retained, the divergence residual is `5.62e-13` per unit, and the solver records 15,543 upward section events. This longer observation shows no numerical capture into a stable periodic orbit. It does not turn finite-time evidence into an asymptotic theorem. The full million-point history is hash-indexed; [all section events, the terminal segment and full spectrum](../results/motor-four-extension/motor-four-100k/) are archived separately from the original packet.
+
 The accumulated QR sum matches integrated divergence within `5.64e-13` per unit in the first run and `7.28e-14` in the refined run. The independent source force-constraint field and complex-step Jacobian agree on 17 distributed states within `8.13e-16` relative error. Three separate two-unit source-form Radau comparisons agree with DOP853 within `1.61e-13`. The long and refined runs contain 1,858 and 1,866 upward `X0=0` returns, respectively.
 
 The largest sampled `c_j²+s_j²` is below `2.85456`, inside the invariant bound `1+b²=3.25`. All six row pairs remain distinct in the sampled full row coordinates `(c_j,s_j,X_j)`, with a minimum distance of `0.289295`. This rules out a silently imposed synchronized pair in these samples; it is not an all-time separation proof.
@@ -76,7 +78,19 @@ The same audit on the earlier three-row ribbon finds only the identity close at 
 
 A separate declared study uses 32 fresh starts at the anchor and 64 logarithmic Sobol neighbors within five percent in each parameter, with two starts per neighbor. All 160 lanes finish a 500-unit warm-up and 6,000-unit observation. The retention rule requires a mean leading rate above `.01` and all four 1,500-unit estimates above `.005`.
 
-**All 32 anchor starts pass, and both starts pass at 41 of 64 neighboring tuples.** Anchor mean rates range from `.0181853` to `.0227875`. These observations support repeatability in the sampled initialization family. They do not establish a basin probability, a robust-chaos theorem, common attractor identity or common geometry. Independent fresh-start histories and a substantially longer continuation are separate ongoing checks, not included as completed evidence here.
+**All 32 anchor starts pass, and both starts pass at 41 of 64 neighboring tuples.** Anchor mean rates range from `.0181853` to `.0227875`. These observations support repeatability in the sampled initialization family. They do not establish a basin probability or a robust-chaos theorem.
+
+All 32 anchor starts have now also been integrated independently with DOP853: 500 units of warm-up and 3,000 observed units, sampled every `.05`, with relative tolerance `2e-10` and maximum step `.03`. For each history, **all 24 permutations** are compared in the full scaled `(c,s,X)` coordinates. Queries use every 61st new sample; the reference is every second point of the original 12,000-unit history. This is a one-direction nearest-cloud comparison, not a symmetric Hausdorff distance.
+
+The best-permutation median distances range from `.00124647` to `.00144932`; their 95th percentiles range from `.00642984` to `.00804067`. Every start has exactly three permutations whose median and 95th percentile are at most three times its best comparison. This supports a common sampled family after relabeling, with the earlier cyclic ambiguity. The threshold is descriptive, not an attractor-identity proof.
+
+![Separate fresh starts in the eight observed orientations](assets/motor-four-eight-orientations.png)
+
+The classes use the row with smallest mean displacement and the sign of the time-averaged circulation of the remaining rows, in their sorted label order. Their counts are `4,5,5,3,3,4,4,4` for rows 0 through 3 and signs minus/plus. These frequencies describe the 32 declared starts only. A net circulation sign does not imply monotonic phase rotation or exact phase/frequency locking.
+
+![Comparison before and after row relabeling](assets/motor-four-relabeling-overlay.png)
+
+Each color is a separately integrated trajectory. The right panel applies only the measured row permutation; it neither fits nor deforms the curves. Neither overlay is a single attractor trajectory. [Complete comparisons and source snapshots](../results/motor-four-extension/motor-four-start-histories02/) · [Selection and rendering record](../results/motor-four-extension/motor-four-start-gallery/). The original failed sampling-grid attempt is preserved in the extension packet alongside the corrected completed run.
 
 ## What is already known, and what remains open
 
@@ -89,6 +103,7 @@ The physical model is published, and symmetric chaos is old. The relevant compar
 | [Dias and Rodrigues, Hopf bifurcation with S_N symmetry](https://cmup.pt/cmup/apdias/SN_Final.pdf) | Standard permutation-symmetric Hopf branches, including four and five components | A symmetry label or rotating-wave organization alone is not a discovery |
 | [Karatetskaia et al., PRL 134, 167201 (2025)](https://doi.org/10.1103/PhysRevLett.134.167201) | Robust chaos and four-winged Lorenz-like attractors in four globally coupled identical phase oscillators | Different equations and a three-dimensional phase-difference reduction, but a strong predecessor against broad four-oscillator novelty claims |
 | [Letellier and Gilmore, 2007](https://doi.org/10.1088/1751-8113/40/21/011) | Symmetry, image and covering descriptions of three-dimensional systems | More apparent arms need not mean a new mechanism; their rotoreflection `S4` has order four, unlike the permutation group here |
+| [Ashwin and Burylko, 2015](https://arxiv.org/abs/1407.8070), [Bick and Ashwin, 2016](https://arxiv.org/abs/1509.08824), [Bick, 2017](https://doi.org/10.1007/s00332-016-9345-2) | Weak chimeras, chaotic partial frequency synchronization, and the distinction between set symmetry and frequency symmetry | A distinguished motor row alone is not a new mechanism or a proved weak chimera. The exclusion for fully symmetric phase-only networks does not automatically apply to this amplitude/occupancy model |
 
 Swift and Barany's 1991 work on chaos at a tetrahedral Hopf bifurcation is another relevant precedent; its bibliographic existence is confirmed in the [author's publication list](https://math.nmsu.edu/_files/professorcvs/barany_CV_24.pdf), but its full equations have not been compared. The complete Anello and Levillain theses remain unresolved exact-model priority gaps, as recorded in the [motor follow-up audit](motor-followup-priority.md).
 
