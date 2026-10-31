@@ -55,11 +55,25 @@ The maximum observed motor-disk radius squared is `1.366514`, below the invarian
 
 This audit uses **all** 600,000 samples. The bottom panels display the unfiltered upward section; the scalar successive-return plot is not asserted to be a single-valued one-dimensional map. Multiple thin bands or apparent crossings in a projection do not establish knot type, branched-manifold topology, or inequivalence to a known attractor.
 
+## Fresh starts and a local parameter neighborhood
+
+A separate declared experiment tests 32 fresh starts at the ribbon tuple and 64 logarithmic Sobol neighbors within approximately five percent in each of `rho`, `r`, and `b`, with two fresh starts per neighbor. Starts have `c=1`, `s=b`, and seeded small zero-sum displacements; they are not selected from a saved attractor. After 500 warm-up units, each trajectory is observed for 6,000 units. The rule requires a mean leading rate above `0.01` and all four 1,500-unit windows above `0.005`.
+
+All 160 trajectories finish. **All 32 anchor starts pass, and both starts pass at 42 of the 64 neighboring tuples.** The anchor mean estimates range from `0.02170` to `0.02588`. These finite samples support repeatability in this initialization family; they do not estimate a basin probability or prove an open chaotic parameter region.
+
+Seven full eight-direction DOP853 checks follow a selection declared before rendering: the anchor, four retained neighbors chosen for parameter-space coverage, and the lowest- and highest-rate nonretained controls. Each uses a further 200 warm-up and 3,000 observed units. The anchor's first three rates are `0.02156, -0.00013, -0.33300`. The four retained neighbors keep positive leading windows; the weak controls are deliberately included in the figure. In particular, case 86 has an imperfectly resolved neutral direction and is not classified as hyperchaotic.
+
+![The ribbon and seven independently checked local cases](assets/motor-ribbon-neighborhood.png)
+
+The same literal coordinate projection, camera, color scale and equal-axis limits are used throughout. **The thin ribbon shape is sensitive to parameters:** several neighbors have broader triangular projections even though their numerical leading growth persists. A visually distinct projection alone is not a distinct attractor topology.
+
+The [separate frozen neighborhood packet](../results/motor-ribbon-neighborhood/) contains all 160 scout records, exact starts, executed source snapshots, all seven spectra, rendering provenance and hashes of the large local histories. It leaves the original long-run packet unchanged.
+
 ## Priority and the remaining research decision
 
 The [exact-model priority audit](motor-rows-priority-audit.md) and [follow-up audit](motor-followup-priority.md) remain applicable. Motor and sarcomere chaos, and permutation-symmetric cluster chaos, already have prior literature. The complete Anello and Levillain theses remain unread gaps. Varying `b`, obtaining a new tuple, or improving a camera view does not close those gaps.
 
-This is a retained visual candidate, not the requested completed discovery of a unique attractor. A stronger claim would need a reproducible basin and parameter-neighborhood study, an identified global mechanism, geometric invariants appropriate to the full state, and a more complete equivalence/priority comparison. The search in other physical models continues.
+This is a retained visual candidate, not the requested completed discovery of a unique attractor. The local study above is a first reproducibility check. A stronger claim still needs a broader basin analysis, an identified global mechanism, geometric invariants appropriate to the full state, and a more complete equivalence/priority comparison. The search in other physical models continues.
 
 ## Reproduction and evidence
 

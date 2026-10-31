@@ -1,0 +1,33 @@
+{
+  "source": "https://zenodo.org/records/15399470",
+  "file": "helper.py",
+  "source_sha256": "c021a5b02b12b290f5320fdd705e2b98c61fb33d0e1be07e2fdc48a3c2930862",
+  "probe": "17-node source semicircle, zero velocities; t601, multiplier1.8,k5,declared midpoint1.5.",
+  "changed_input_state_max": 4.0,
+  "first_call_changed_memory_rows": [
+    1,
+    2
+  ],
+  "repeat_same_t_and_explicit_state_rhs_difference": 5.548100312502413e-10,
+  "translated_same_shape_torsional_force_difference": 0.18230205433219787,
+  "change_midpoint_argument_1_5_to_100_force_difference": 0.0,
+  "paper_pchip_positive_values_at_0_03_2pi3_2pi": [
+    0,
+    1.2,
+    0.1,
+    0.2
+  ],
+  "notebook_pchip_positive_values_at_0_03_2pi3_2pi": [
+    0.0,
+    0.2,
+    0.1,
+    1.2
+  ],
+  "conclusions": [
+    "The callback mutates explicit solver state and an external discrete-memory array.",
+    "Repeated RHS evaluation at identical t and explicit y depends on hidden mutable history; rejected solver stages are not rolled back by this helper.",
+    "The sigmoid-midpoint argument is overwritten by a neighboring x coordinate; a rigid translation changes the torsional forces in the probe.",
+    "The paper and notebook order the first and last nonzero positive PCHIP control values differently.",
+    "These are implementation/specification gates, not evidence against the experimental oscillations and not a no-chaos theorem."
+  ]
+}

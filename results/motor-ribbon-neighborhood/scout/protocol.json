@@ -1,0 +1,22 @@
+{
+  "source": "results\\motor-asymmetry\\long\\case-2566.npz",
+  "source_sha256": "e558a54c16e8ec021d6e90ee5222ed3265133c58bf3a2145e5563ee75036c9fe",
+  "anchor": [
+    2.0238144033191343,
+    5.193274038098629,
+    0.7
+  ],
+  "anchor_fresh_starts": 32,
+  "neighbor_tuples": 64,
+  "starts_per_neighbor": 2,
+  "box": "Each of rho,r,b lies independently in [.95,1.05] times the anchor; logarithmic scrambled Sobol.",
+  "parameter_seed": 2026103145,
+  "start_seed": 2026103146,
+  "initial": "c_j=1,s_j=b; independent uniform[-.1,.1] displacement triples centered to zero sum. No saved attractor endpoints.",
+  "warm": 500.0,
+  "observation": 6000.0,
+  "rtol": 1e-09,
+  "step_factor": 0.5,
+  "time": "original tau",
+  "limitation": "A local finite numerical survey, not a rigorous open basin, parameter robustness theorem, or probability over all physical starts."
+}

@@ -8,6 +8,8 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 An orthogonal view of three source coordinates in an eight-dimensional flow. The camera rotates around fixed data; this is not a claim of a new three-dimensional attractor. [Full numerical and visual audit](docs/motor-asymmetry-geometry.md).
 
+A [160-run fresh-start and neighborhood study](docs/motor-asymmetry-geometry.md#fresh-starts-and-a-local-parameter-neighborhood) supports numerical repeatability while showing that the thin shape changes with nearby parameters. Its seven-case gallery uses a shared camera and scale.
+
 **[Research manuscript: replication-induced instability of a certified five-cluster motor cycle](papers/replication-instability/README.md)** · **[PDF](papers/replication-instability/manuscript.pdf)**
 
 The attracting eight-row cycle becomes a saddle when its groups are replicated. A new interval calculation gives the complete count for every `N=8k`: **`2k-2` unstable, one neutral and `22k` stable directions**. The manuscript includes the proof, three vector figures, a rotating view and all nonlinear controls. [Exact index and scope](docs/motor-replication-index.md).

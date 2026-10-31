@@ -1,0 +1,179 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood\\complete-or-budgeted.npz",
+  "source_sha256": "47ebefb4625b4a23924f62ad0220941153f3335b047f75da883abc718adbe5a8",
+  "selection": "Anchor lane0; four farthest-point retained first-lane neighbors in logarithmic parameter distance; lowest/highest-rate nonretained first-lane neighbors.",
+  "selected": [
+    0,
+    34,
+    86,
+    90,
+    124,
+    130,
+    158
+  ],
+  "jobs": [
+    {
+      "id": 0,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        0.7
+      ],
+      "initial": [
+        -0.08120750105775902,
+        0.7000986036110202,
+        0.5479761078494998,
+        0.7106544697970608,
+        0.8495027173412223,
+        -0.6661179803637206,
+        0.7679969878389655,
+        0.5398566209089704
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    },
+    {
+      "id": 34,
+      "parameters": [
+        1.9450717946662004,
+        5.150440102952988,
+        0.6742909160478642
+      ],
+      "initial": [
+        0.3464846767975946,
+        0.46701169553778044,
+        0.29453422170463966,
+        0.6693053471752761,
+        -0.48975420588883356,
+        1.027872991077262,
+        0.8710359425463725,
+        -1.815971305195374
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    },
+    {
+      "id": 86,
+      "parameters": [
+        2.0689787518816676,
+        5.0076626618227955,
+        0.7349570211695481
+      ],
+      "initial": [
+        0.5194252223058389,
+        0.36958715773764034,
+        0.2972918732768043,
+        -0.41100772118935164,
+        1.054085787340137,
+        0.7416841406272711,
+        -1.8463506973355421,
+        1.0431228318546748
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    },
+    {
+      "id": 90,
+      "parameters": [
+        2.0024747181984948,
+        4.9590444560498765,
+        0.6667595653092664
+      ],
+      "initial": [
+        1.0487674685964594,
+        0.8295673117307512,
+        0.5498798350774428,
+        0.441084776742676,
+        0.47208920371573737,
+        0.6369417141947085,
+        0.5745317981123103,
+        0.3614868149422155
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    },
+    {
+      "id": 124,
+      "parameters": [
+        1.9327235418372466,
+        5.433219839987485,
+        0.6674432167655865
+      ],
+      "initial": [
+        0.32521932953458693,
+        0.29627307725629437,
+        0.2308901586427432,
+        0.995747994910616,
+        -0.3792431258450969,
+        0.6619078181872265,
+        1.2649077887066973,
+        -2.0278594534188703
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    },
+    {
+      "id": 130,
+      "parameters": [
+        1.9244370274637115,
+        5.0921213666938465,
+        0.7328037691770017
+      ],
+      "initial": [
+        0.8823632493225869,
+        0.797962744411766,
+        -0.2154592860635599,
+        0.6397879280706844,
+        -0.6229265775605155,
+        0.7513083011560767,
+        0.24808331297293615,
+        -0.8474788229016735
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    },
+    {
+      "id": 158,
+      "parameters": [
+        2.112409109664715,
+        4.953052235153041,
+        0.726435778356016
+      ],
+      "initial": [
+        0.9935597853948499,
+        1.131071223648964,
+        0.11899419976333146,
+        0.1201757112075621,
+        0.32051089362463825,
+        0.8096675416758192,
+        -0.8330603737780593,
+        -0.07108506978070275
+      ],
+      "warm": 200.0,
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-ribbon-neighborhood-checks",
+      "rtol": 2e-10,
+      "max_step": 0.02
+    }
+  ],
+  "method": "Independent DOP853 full8D QR.5tau;rtol2e-10,atol2e-12,maxstep.02,samples.02.",
+  "limitation": "Finite numerical checks, no proof of an open basin or a common attractor."
+}
