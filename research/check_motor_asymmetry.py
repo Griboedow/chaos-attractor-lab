@@ -12,28 +12,32 @@ from motor_rows import field_jac
 
 
 @njit(cache=True)
-def augmented(z,p):
+def augmented(z,p,n=3):
     rho,r,b=p
-    answer=np.empty(73)
-    mean_s=(z[3]+z[4]+z[5])/3
-    v=np.empty(3)
-    for i in range(3):
-        x=z[6+i] if i<2 else -z[6]-z[7]
-        v[i]=-rho*x+r*(z[3+i]-mean_s)
-        answer[i]=1-z[i]-v[i]*z[3+i]
-        answer[3+i]=b-z[3+i]+v[i]*z[i]
-        if i<2:answer[6+i]=v[i]
-    for col in range(8):
-        mean_ds=(z[8+3*8+col]+z[8+4*8+col]+z[8+5*8+col])/3
-        for i in range(3):
-            dc=z[8+i*8+col]
-            ds=z[8+(3+i)*8+col]
-            dx=z[8+(6+i)*8+col] if i<2 else -z[8+6*8+col]-z[8+7*8+col]
+    d=3*n-1;answer=np.empty(d+d*d+1)
+    mean_s=np.sum(z[n:2*n])/n
+    v=np.empty(n)
+    for i in range(n):
+        x=z[2*n+i] if i<n-1 else -np.sum(z[2*n:d])
+        v[i]=-rho*x+r*(z[n+i]-mean_s)
+        answer[i]=1-z[i]-v[i]*z[n+i]
+        answer[n+i]=b-z[n+i]+v[i]*z[i]
+        if i<n-1:answer[2*n+i]=v[i]
+    for col in range(d):
+        mean_ds=0.
+        for j in range(n):mean_ds+=z[d+(n+j)*d+col]/n
+        for i in range(n):
+            dc=z[d+i*d+col]
+            ds=z[d+(n+i)*d+col]
+            dx=0.
+            if i<n-1:dx=z[d+(2*n+i)*d+col]
+            else:
+                for j in range(n-1):dx-=z[d+(2*n+j)*d+col]
             dv=-rho*dx+r*(ds-mean_ds)
-            answer[8+i*8+col]=-dc-v[i]*ds-z[3+i]*dv
-            answer[8+(3+i)*8+col]=-ds+v[i]*dc+z[i]*dv
-            if i<2:answer[8+(6+i)*8+col]=dv
-    answer[-1]=-6-2*rho+(2*r/3)*(z[0]+z[1]+z[2])
+            answer[d+i*d+col]=-dc-v[i]*ds-z[n+i]*dv
+            answer[d+(n+i)*d+col]=-ds+v[i]*dc+z[i]*dv
+            if i<n-1:answer[d+(2*n+i)*d+col]=dv
+    answer[-1]=-2*n-(n-1)*rho+r*(1-1/n)*np.sum(z[:n])
     return answer
 
 
@@ -43,27 +47,29 @@ def write(p,x):
 
 def run(job):
     began=time.perf_counter()
-    p=np.array(job['parameters']);x=np.array(job['initial']);basis=np.eye(8)
-    reference,j=field_jac(x,p,3)
-    got=augmented(np.r_[x,basis.ravel(),0.],p)
-    error=max(float(max(abs(got[:8]-reference))),float(np.max(abs(got[8:72].reshape(8,8)-j))))
+    p=np.array(job['parameters']);x=np.array(job['initial']);d=len(x);n=(d+1)//3;basis=np.eye(d)
+    assert d==3*n-1
+    reference,j=field_jac(x,p,n)
+    got=augmented(np.r_[x,basis.ravel(),0.],p,n)
+    error=max(float(max(abs(got[:d]-reference))),float(np.max(abs(got[d:-1].reshape(d,d)-j))))
     assert error<1e-11
-    logs=np.zeros(8);trace=0.;states=[];times=[];windows=[]
-    section_times=[];section_states=[];previous=np.zeros(8);previous_trace=0.
+    logs=np.zeros(d);trace=0.;states=[];times=[];windows=[]
+    section_times=[];section_states=[];previous=np.zeros(d);previous_trace=0.
     warm_steps=int(round(job['warm']/.5));observed_steps=int(round(job['duration']/.5))
     assert observed_steps%4==0
-    def section(t,z):return z[6]
+    def section(t,z):return z[2*n]
     section.direction=1
     for it in range(warm_steps+observed_steps):
-        start,end=it*.5,(it+1)*.5;grid=np.linspace(start,end,26)
-        sol=solve_ivp(lambda t,z:augmented(z,p),(start,end),np.r_[x,basis.ravel(),0.],
+        start,end=it*.5,(it+1)*.5
+        grid=np.linspace(start,end,1+int(round(.5/job.get('sample_step',.02))))
+        sol=solve_ivp(lambda t,z:augmented(z,p,n),(start,end),np.r_[x,basis.ravel(),0.],
                       method='DOP853',rtol=job['rtol'],atol=job['rtol']*.01,max_step=job['max_step'],t_eval=grid,events=section)
         if not sol.success:raise RuntimeError(sol.message)
-        x=sol.y[:8,-1];basis,tri=np.linalg.qr(sol.y[8:72,-1].reshape(8,8))
+        x=sol.y[:d,-1];basis,tri=np.linalg.qr(sol.y[d:-1,-1].reshape(d,d))
         if it>=warm_steps:
             logs+=np.log(abs(np.diag(tri)));trace+=sol.y[-1,-1]
-            times.extend(grid[1:]);states.extend(sol.y[:8,1:].T)
-            section_times.extend(sol.t_events[0]);section_states.extend(np.asarray(sol.y_events[0]).reshape(-1,73)[:,:8])
+            times.extend(grid[1:]);states.extend(sol.y[:d,1:].T)
+            section_times.extend(sol.t_events[0]);section_states.extend(np.asarray(sol.y_events[0]).reshape(-1,d+d*d+1)[:,:d])
         if it+1>warm_steps and (it+1-warm_steps)%(observed_steps//4)==0:
             windows.append(dict(end=end,spectrum=((logs-previous)/(job['duration']/4)).tolist()))
             previous=logs.copy();previous_trace=trace
@@ -71,11 +77,11 @@ def run(job):
     path=Path(job['output'])/f"case-{job['id']:04}.npz"
     np.savez_compressed(path,time=times,states=states,parameters=p,final_state=x,final_basis=basis,
                         log_sums=logs,integrated_trace=trace,section_times=section_times,
-                        section_states=np.asarray(section_states).reshape(-1,8))
-    spectrum=logs/job['duration'];radius=float(np.max(states[:,:3]**2+states[:,3:6]**2))
+                        section_states=np.asarray(section_states).reshape(-1,d))
+    spectrum=logs/job['duration'];radius=float(np.max(states[:,:n]**2+states[:,n:2*n]**2))
     trace_error=float(abs(logs.sum()-trace)/job['duration'])
     assert radius<=1+p[2]**2+1e-7 and trace_error<1e-6
-    result=dict(id=job['id'],parameters=p.tolist(),spectrum=spectrum.tolist(),windows=windows,
+    result=dict(id=job['id'],N=n,dimension=d,parameters=p.tolist(),spectrum=spectrum.tolist(),windows=windows,
                 algebra_error=error,trace_residual_per_tau=trace_error,maximum_disk_radius_squared=radius,
                 samples=len(states),sections=len(section_times),file=path.name,
                 sha256=hashlib.sha256(path.read_bytes()).hexdigest(),wall_seconds=time.perf_counter()-began)
@@ -86,6 +92,7 @@ def run(job):
 def main(args):
     out=args.output.resolve();out.mkdir(parents=True,exist_ok=False)
     source=np.load(args.source);p=source['parameters'];good=(source['status']==0)&(source['lle_windows'].min(axis=1)>.01)
+    d=source['final_states'].shape[1];n=(d+1)//3
     selected=[]
     # For each asymmetry, choose three rate quantiles among unique retained tuples.
     # This spans weak and strong signals instead of selecting only a largest exponent.
@@ -104,10 +111,11 @@ def main(args):
         assert all(0<=i<len(p) and source['status'][i]==0 for i in selected)
         selection='Explicit follow-up IDs, selected after inspection of the first full-spectrum geometry gallery.'
     jobs=[dict(id=int(i),parameters=p[i].tolist(),initial=source['final_states'][i].tolist(),
-               warm=200.,duration=args.duration,output=str(out),rtol=args.rtol,max_step=args.max_step) for i in sorted(selected)]
+               warm=200.,duration=args.duration,output=str(out),rtol=args.rtol,max_step=args.max_step,sample_step=args.sample_step) for i in sorted(selected)]
+    assert args.sample_step>0 and abs(.5/args.sample_step-round(.5/args.sample_step))<1e-10
     write(out/'protocol.json',dict(source=str(args.source),source_sha256=hashlib.sha256(args.source.read_bytes()).hexdigest(),
         selection=selection,
-        selected=sorted(selected),jobs=jobs,method=f'DOP853 full 8D QR .5; rtol{args.rtol},atol{args.rtol*.01},maxstep{args.max_step}; uniform .02 samples',
+        selected=sorted(selected),jobs=jobs,N=n,dimension=d,method=f'DOP853 full {d}D QR .5; rtol{args.rtol},atol{args.rtol*.01},maxstep{args.max_step}; uniform {args.sample_step} samples',
         warning='Finite-time spectra and visual screening; no novel attractor claim.'))
     for name in ['check_motor_asymmetry.py','motor_rows.py']:
         (out/name).write_bytes(Path(__file__).with_name(name).read_bytes())
@@ -128,4 +136,5 @@ if __name__=='__main__':
     p.add_argument('--ids',type=int,nargs='+')
     p.add_argument('--rtol',type=float,default=2e-10)
     p.add_argument('--max-step',type=float,default=.02)
+    p.add_argument('--sample-step',type=float,default=.02)
     main(p.parse_args())

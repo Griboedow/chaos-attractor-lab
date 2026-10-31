@@ -2,13 +2,13 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
-**[Current visual candidate: a slender motor ribbon](docs/motor-asymmetry-geometry.md).** A 4,032-run asymmetry survey yields a more legible numerical chaotic regime, checked over 12,000 time units. Its topology and historical novelty remain unresolved. The [earlier geometry search](docs/geometry-search-20261031.md) and its negative screens remain available.
+**[Current visual candidate: a thin braid from four motor groups](docs/motor-four-geometry.md).** A 4,032-run survey yields a slender numerical chaotic regime in an eleven-dimensional physical model. Two 12,000-unit checks retain positive leading growth. Its topology and historical novelty remain unresolved.
 
-![Rotating slender numerical motor candidate](docs/assets/motor-ribbon-rotation.gif)
+![Four motor groups in a rotating physical view](docs/assets/motor-four-rotation.gif)
 
-An orthogonal view of three source coordinates in an eight-dimensional flow. The camera rotates around fixed data; this is not a claim of a new three-dimensional attractor. [Full numerical and visual audit](docs/motor-asymmetry-geometry.md).
+Orthonormal contrasts of the four physical displacements. The camera rotates around fixed data. A full-state comparison supports a candidate threefold cyclic symmetry with one distinguished group, rather than inferring symmetry from the silhouette. [Numerical, visual and prior-art audit](docs/motor-four-geometry.md).
 
-A [160-run fresh-start and neighborhood study](docs/motor-asymmetry-geometry.md#fresh-starts-and-a-local-parameter-neighborhood) supports numerical repeatability while showing that the thin shape changes with nearby parameters. Its seven-case gallery uses a shared camera and scale.
+The [earlier three-row ribbon and neighborhood gallery](docs/motor-asymmetry-geometry.md), [geometry search](docs/geometry-search-20261031.md), and negative screens remain available. The four-row candidate also passes a separate 32-start numerical screen; neither survey proves a new attractor class.
 
 **[Research manuscript: replication-induced instability of a certified five-cluster motor cycle](papers/replication-instability/README.md)** · **[PDF](papers/replication-instability/manuscript.pdf)**
 

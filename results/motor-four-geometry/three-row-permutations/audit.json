@@ -1,0 +1,116 @@
+{
+  "source": "results\\motor-asymmetry\\long\\case-2566.npz",
+  "sha256": "e558a54c16e8ec021d6e90ee5222ed3265133c58bf3a2145e5563ee75036c9fe",
+  "N": 3,
+  "dimension": 8,
+  "metric": "Euclidean distance of full(c,s,X) after c,s divided by sqrt(1+b^2), X additionally multiplied by rho/r. No learned projection.",
+  "reference": "Each half of the full observation, stride2; queries every37th reference sample; map first-half queries to second-half cloud and conversely.",
+  "database_counts": [
+    150000,
+    150000
+  ],
+  "query_counts": [
+    4055,
+    4055
+  ],
+  "scale": [
+    0.8192319205190405,
+    0.8192319205190405,
+    0.8192319205190405,
+    0.8192319205190405,
+    0.8192319205190405,
+    0.8192319205190405,
+    0.3192539712408958,
+    0.3192539712408958,
+    0.3192539712408958
+  ],
+  "equation_equivariance_relative_error": 9.716285271036239e-16,
+  "permutations": [
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "median": 0.0015115476577859791,
+      "p95": 0.004198283948831343,
+      "maximum": 0.010805597116764614,
+      "equivariance_relative_error": 0.0,
+      "median_ratio_to_identity": 1.0,
+      "p95_ratio_to_identity": 1.0,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "median": 0.21502474533337773,
+      "p95": 0.3819102052298463,
+      "maximum": 0.5234367928865211,
+      "equivariance_relative_error": 9.716285271036239e-16,
+      "median_ratio_to_identity": 142.25469122709143,
+      "p95_ratio_to_identity": 90.96816934837314,
+      "within_three_times_identity": false
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "median": 0.0642472050263119,
+      "p95": 0.19228260113966283,
+      "maximum": 0.2679627346219879,
+      "equivariance_relative_error": 0.0,
+      "median_ratio_to_identity": 42.50425363393252,
+      "p95_ratio_to_identity": 45.80028494575448,
+      "within_three_times_identity": false
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "median": 0.21424387065936484,
+      "p95": 0.39225438127354467,
+      "maximum": 0.5736432698177768,
+      "equivariance_relative_error": 9.716285271036239e-16,
+      "median_ratio_to_identity": 141.73808517104644,
+      "p95_ratio_to_identity": 93.43207511791448,
+      "within_three_times_identity": false
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "median": 0.21907533011446279,
+      "p95": 0.3787198317421274,
+      "maximum": 0.4952818710123753,
+      "equivariance_relative_error": 9.716285271036239e-16,
+      "median_ratio_to_identity": 144.93445111439667,
+      "p95_ratio_to_identity": 90.20824612102521,
+      "within_three_times_identity": false
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "median": 0.19525291449199658,
+      "p95": 0.39411165383678715,
+      "maximum": 0.5205278539335396,
+      "equivariance_relative_error": 9.716285271036239e-16,
+      "median_ratio_to_identity": 129.17417025275333,
+      "p95_ratio_to_identity": 93.87446362376089,
+      "within_three_times_identity": false
+    }
+  ],
+  "empirical_rule": "Both median and95th-percentile distances <=3times the identity cross-half baseline. Heuristic, not a certified symmetry decision.",
+  "limitation": "Finite point clouds cannot prove an invariant set symmetry, attraction, topology, equivalence or historical novelty."
+}

@@ -1,0 +1,40 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-asymmetry\\complete-or-budgeted.npz",
+  "source_sha256": "c77e92e4d745b31fa5045161cb0b3af8e47875d27368944c683b1ca8f911f7e4",
+  "selection": "Explicit follow-up IDs, selected after inspection of the first full-spectrum geometry gallery.",
+  "selected": [
+    3142
+  ],
+  "jobs": [
+    {
+      "id": 3142,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        1.5
+      ],
+      "initial": [
+        0.7778339475280193,
+        0.9772950123235913,
+        0.22809943836724209,
+        0.13780598859187057,
+        1.2898333376096789,
+        1.3101296062454415,
+        1.2186131969365344,
+        0.6990841555244417,
+        0.7898843795834658,
+        1.1876135670549404,
+        0.04482156443046654
+      ],
+      "warm": 200.0,
+      "duration": 12000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-refined",
+      "rtol": 2e-11,
+      "max_step": 0.01
+    }
+  ],
+  "N": 4,
+  "dimension": 11,
+  "method": "DOP853 full 11D QR .5; rtol2e-11,atol1.9999999999999998e-13,maxstep0.01; uniform .02 samples",
+  "warning": "Finite-time spectra and visual screening; no novel attractor claim."
+}

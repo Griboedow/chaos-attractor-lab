@@ -1,0 +1,24 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-long\\case-3142.npz",
+  "source_sha256": "bf99b99dfd3d80dafc7c1ddb0b780d35608f53e52e218807ed58578f45d03bfa",
+  "anchor": [
+    2.0238144033191343,
+    5.193274038098629,
+    1.5
+  ],
+  "N": 4,
+  "dimension": 11,
+  "anchor_fresh_starts": 32,
+  "neighbor_tuples": 64,
+  "starts_per_neighbor": 2,
+  "box": "Each of rho,r,b lies independently in [.95,1.05] times the anchor; logarithmic scrambled Sobol.",
+  "parameter_seed": 2026103145,
+  "start_seed": 2026103146,
+  "initial": "c_j=1,s_j=b; independent uniform[-.1,.1] displacement N-vectors centered to zero sum. No saved attractor endpoints.",
+  "warm": 500.0,
+  "observation": 6000.0,
+  "rtol": 1e-09,
+  "step_factor": 0.5,
+  "time": "original tau",
+  "limitation": "A local finite numerical survey, not a rigorous open basin, parameter robustness theorem, or probability over all physical starts."
+}

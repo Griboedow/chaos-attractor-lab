@@ -1,0 +1,45 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-long\\case-3142.npz",
+  "source_sha256": "bf99b99dfd3d80dafc7c1ddb0b780d35608f53e52e218807ed58578f45d03bfa",
+  "source_samples": 600000,
+  "section_samples": 1858,
+  "parameters": [
+    2.0238144033191343,
+    5.193274038098629,
+    1.5
+  ],
+  "contrast_matrix": [
+    [
+      0.5,
+      0.5,
+      -0.5,
+      -0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      0.5,
+      -0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      -0.5,
+      0.5
+    ]
+  ],
+  "physical_displacements": "X3=-(X0+X1+X2); contrast_matrix multiplies the four-vector. No nonlinear shape transformation.",
+  "camera_audit": "Full observation, stride3; fixed cameras27/-45,27/65,85/-90; allsectionevents.",
+  "animation": {
+    "display_samples": 30001,
+    "display_start": 11000.0,
+    "display_end": 12200.0,
+    "rule": "Final1200tau, stride2; uniform.04tau spacing. Bounds from the entire12ktau trace.",
+    "color": "Mean of four cosine occupancies; plasma map",
+    "frames": 72,
+    "fps": 10,
+    "elevation": 27,
+    "azimuth_start": -45
+  },
+  "warning": "A projection of an11D flow. Neither a proved3D embedding nor a proof of topological or historical novelty."
+}

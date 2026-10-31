@@ -71,6 +71,8 @@ The [separate frozen neighborhood packet](../results/motor-ribbon-neighborhood/)
 
 ## Priority and the remaining research decision
 
+A subsequent [full-state permutation audit](motor-four-geometry.md#equation-symmetry-is-not-attractor-symmetry) finds only the identity close to this three-row trajectory at the declared empirical threshold. The triangular silhouette is therefore not evidence for cyclic or full permutation symmetry of its invariant set. The same audit on a separate four-row candidate supports a different, candidate cyclic organization; neither result proves an invariant-set symmetry group.
+
 The [exact-model priority audit](motor-rows-priority-audit.md) and [follow-up audit](motor-followup-priority.md) remain applicable. Motor and sarcomere chaos, and permutation-symmetric cluster chaos, already have prior literature. The complete Anello and Levillain theses remain unread gaps. Varying `b`, obtaining a new tuple, or improving a camera view does not close those gaps.
 
 This is a retained visual candidate, not the requested completed discovery of a unique attractor. The local study above is a first reproducibility check. A stronger claim still needs a broader basin analysis, an identified global mechanism, geometric invariants appropriate to the full state, and a more complete equivalence/priority comparison. The search in other physical models continues.
