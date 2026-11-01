@@ -1,0 +1,31 @@
+{
+  "completed": [
+    "576-case pilot",
+    "40 cases continued for 500,000 steps",
+    "same 40 cases continued for another 5,000,000 steps",
+    "four full spectra",
+    "four arbitrary-precision runs",
+    "24 state controls",
+    "model and actual-state checks",
+    "40 recurrence checks"
+  ],
+  "development_failures": [
+    {
+      "stage": "Initial pilot compilation",
+      "outcome": "No simulations ran; builtin abs(array) was unsupported by Numba and was replaced with np.abs(array)."
+    },
+    {
+      "stage": "spectra01",
+      "outcome": "Case 43 completed, then the next input file was unavailable while the parent extension was running. The unchanged driver was rerun to completion as spectra02 after all parents finished."
+    },
+    {
+      "stage": "recurrence01",
+      "outcome": "PCA variance normalization underflowed for a near-zero state. Rescaling singular values fixed this diagnostic; recurrence02 is retained."
+    },
+    {
+      "stage": "controls01",
+      "outcome": "Ordinary Sinkhorn is singular and the trial tangent could become exactly zero. Floored log norms were not meaningful growth estimates. Replayed controls02 suppresses growth reporting for all four ordinary-update controls; state results are unchanged."
+    }
+  ],
+  "scope": "No infinite-time chaos, basin or historical-novelty certificate. Full pilot and continuation histories were not saved; retained windows are explicitly named."
+}

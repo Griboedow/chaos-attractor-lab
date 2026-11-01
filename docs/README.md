@@ -39,5 +39,9 @@ The [variational follow-up](hydrogel-variational-checks.md) differentiates the
 implicit evolution, checks refinement and exposes slow drift behind positive
 finite growth; it does not establish a chaotic attractor.
 
+The [overrelaxed Sinkhorn screen](sinkhorn-screen.md) records 576 matrix-scaling
+inputs, all-flag continuations, long transient rejections and exact absorbing
+bounds. Persistent finite growth remains distinct from established chaotic attraction.
+
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)

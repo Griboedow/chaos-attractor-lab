@@ -2,6 +2,8 @@
 
 `product-alphabet/` contains the [four-wing numerical candidate and multilevel companion](../docs/product-alphabet/manuscript.md): 1,753 scouts, all 175 flagged follow-ups, twelve long observations and dense portraits, five start/precision cohorts, 256 parameter neighbors, complete replay and a bounded spin/feedback literature review. Periodic windows, competing fixed points and precision-sensitive planar captures are retained. Historical uniqueness remains unresolved.
 
+`sinkhorn-screen/` records a [576-case overrelaxed Sinkhorn screen](../docs/sinkhorn-screen.md), all 40 flagged cases continued to 5,530,000 iterations, periodic captures, finite-growth survivors, precision controls and exact absorbing bounds. [Packet and reproduction](sinkhorn-screen/README.md).
+
 `hydrogel-variational-checks/` records [20 refinement and continuation runs](../docs/hydrogel-variational-checks.md), derivatives of the implicit evolution and a rotating control. Positive finite growth accompanies slow drift; the longer field-130 run develops subdiameter clearances and fails. No chaotic attractor is established.
 
 `hydrogel-slender-screen/` adds a [three-run thinner-rod screen](../docs/hydrogel-spatial-controls.md#circular-section-symmetry-and-thinner-filaments) and full-state comparisons modulo axial rotation. Both stronger-field traces have subdiameter clearances; the published field-117 periodic control remains unresolved in the tested window. No chaos candidate is retained.

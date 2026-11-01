@@ -1,0 +1,168 @@
+{
+  "files": [
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\pilot02\\n2-endpoints-and-last512.npz",
+      "bytes": 250007,
+      "sha256": "3185f61228b40340a4a1ea3bc015b53bfe95a02fa95611e9eb8736b0ea48e249",
+      "shapes": {
+        "endpoints": [
+          192,
+          2
+        ],
+        "last512": [
+          192,
+          512,
+          2
+        ]
+      },
+      "coverage": "Endpoints and the final 512 pilot steps; early-captured tails contain NaN outside their declared coverage."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\pilot02\\n3-endpoints-and-last512.npz",
+      "bytes": 719391,
+      "sha256": "53b283d6cc49d8157c6685c26488ae7a3b004f8757376df45df04b871b6aadbe",
+      "shapes": {
+        "endpoints": [
+          192,
+          4
+        ],
+        "last512": [
+          192,
+          512,
+          4
+        ]
+      },
+      "coverage": "Endpoints and the final 512 pilot steps; early-captured tails contain NaN outside their declared coverage."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\pilot02\\n4-endpoints-and-last512.npz",
+      "bytes": 1451679,
+      "sha256": "8b497b158778c77cc7560d218f5d20e680a5c0b8cc3e2a065b8b4e377379ebdb",
+      "shapes": {
+        "endpoints": [
+          192,
+          6
+        ],
+        "last512": [
+          192,
+          512,
+          6
+        ]
+      },
+      "coverage": "Endpoints and the final 512 pilot steps; early-captured tails contain NaN outside their declared coverage."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\followup01\\n3-final-25000-steps.npz",
+      "bytes": 4213587,
+      "sha256": "6f6724def996fa2abf7e91c59b96906e0ea707e408ef0212579fb5457d4846e2",
+      "shapes": {
+        "case": [
+          14
+        ],
+        "states": [
+          14,
+          25000,
+          4
+        ]
+      },
+      "coverage": "Every state of the final 25,000 steps of this continuation, not the full preceding trajectory."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\followup01\\n4-final-25000-steps.npz",
+      "bytes": 18117394,
+      "sha256": "47f8c4a7c360e8ad7dbb18e20dc49fbf15a203f3bdce82290d9dcd96523e9925",
+      "shapes": {
+        "case": [
+          26
+        ],
+        "states": [
+          26,
+          25000,
+          6
+        ]
+      },
+      "coverage": "Every state of the final 25,000 steps of this continuation, not the full preceding trajectory."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\extension01\\n3-final-25000-steps.npz",
+      "bytes": 2894648,
+      "sha256": "ab2a8c867e6d7962a1a36fd6c2f2f7976e9d04df46175436389543d859c9e1a9",
+      "shapes": {
+        "case": [
+          14
+        ],
+        "states": [
+          14,
+          25000,
+          4
+        ]
+      },
+      "coverage": "Every state of the final 25,000 steps of this continuation, not the full preceding trajectory."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\extension01\\n4-final-25000-steps.npz",
+      "bytes": 15026114,
+      "sha256": "cd643cbd81c907bbf1f2a232ec7bc707755d94c652f3711472bcef33362f48ed",
+      "shapes": {
+        "case": [
+          26
+        ],
+        "states": [
+          26,
+          25000,
+          6
+        ]
+      },
+      "coverage": "Every state of the final 25,000 steps of this continuation, not the full preceding trajectory."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\precision01\\n4-case55-100digits-all-observed-states.npy",
+      "bytes": 960128,
+      "sha256": "491acbe7ac7b375246db6a33175f453eaa2316f9415619e49f007466f53e3aa4",
+      "shapes": {
+        "states": [
+          20000,
+          6
+        ]
+      },
+      "coverage": "Every observed state of the 20,000-step precision run, converted to binary64 for summaries; high-precision final states retained in JSON."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\precision01\\n4-case55-70digits-all-observed-states.npy",
+      "bytes": 960128,
+      "sha256": "b75f408037b30212f694baf48d0bd3ce0ffca84593682ecc0ca73460fe5086e2",
+      "shapes": {
+        "states": [
+          20000,
+          6
+        ]
+      },
+      "coverage": "Every observed state of the 20,000-step precision run, converted to binary64 for summaries; high-precision final states retained in JSON."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\precision02\\n4-case64-100digits-all-observed-states.npy",
+      "bytes": 960128,
+      "sha256": "25ce4b1fe591bfd0a72506dfd7d2894fe6785a8be851f9fdc7755c30e078b5f0",
+      "shapes": {
+        "states": [
+          20000,
+          6
+        ]
+      },
+      "coverage": "Every observed state of the 20,000-step precision run, converted to binary64 for summaries; high-precision final states retained in JSON."
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-search-20261101\\precision02\\n4-case64-70digits-all-observed-states.npy",
+      "bytes": 960128,
+      "sha256": "b23c8e553af5e544f2912d919cb01de6fc20b36ce6eeea1e49878ab07be59eac",
+      "shapes": {
+        "states": [
+          20000,
+          6
+        ]
+      },
+      "coverage": "Every observed state of the 20,000-step precision run, converted to binary64 for summaries; high-precision final states retained in JSON."
+    }
+  ],
+  "total_bytes": 46513332
+}
