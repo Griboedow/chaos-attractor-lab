@@ -1,0 +1,94 @@
+{
+  "id": 1873,
+  "source_sha256": "4982d330c4ba07b393f63fc748ee13d3b1b72acc0cf7f62127329e5645ccc1db",
+  "states_sha256": "e12822ea5df05f56bc59ba60ab526dba2f72de547e99a15666b3b89e674e29ba",
+  "histogram_sha256": "b4d28572dfd0877fa5a1917394bbf7a7dbd08fb6780491a7702a4d312f61c8d4",
+  "center": [
+    -0.21338771511525062,
+    -0.49004811486432404,
+    -0.10726139551764677
+  ],
+  "basis": [
+    [
+      0.008949913914391655,
+      0.9904382603495131,
+      -0.13766608687964887
+    ],
+    [
+      0.3603003741952705,
+      0.12523022521635155,
+      0.9243922495602237
+    ],
+    [
+      0.9327934065995929,
+      -0.05787437367343094,
+      -0.3557344760860761
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.0610343967163922,
+  "minima": [
+    5.413091048733776e-07,
+    0.0006322016337436428
+  ],
+  "visits": [
+    45950,
+    0,
+    47993,
+    154060,
+    881454,
+    870543
+  ],
+  "portrait": {
+    "id": "constellation-1873",
+    "file": "docs\\assets\\experimental\\constellation-dense\\constellation-1873.png",
+    "sha256": "03e4d6e1caff75c87e64ef25a6b5b015e622da60b8a2bea1d9539cbaf101cee3",
+    "panels": [
+      {
+        "input": {
+          "label": "1873",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-1873-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "b4d28572dfd0877fa5a1917394bbf7a7dbd08fb6780491a7702a4d312f61c8d4",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            45,
+            124
+          ],
+          [
+            1532,
+            1546
+          ]
+        ],
+        "empty_margin": 60,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          1,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 8.52162867137384,
+        "occupied_bins": 26698,
+        "display_label": "Case 1873"
+      }
+    ]
+  }
+}

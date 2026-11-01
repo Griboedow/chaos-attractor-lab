@@ -1,0 +1,92 @@
+{
+  "id": 896,
+  "source_sha256": "1693182d64f55d1d52e1ccc6ec6119ea0359ac35d017ff54461876afc7dee7be",
+  "states_sha256": "b0ec6a2d51b9f7f0c2476e8e3b3cbc636ae75ab05e266fd021eab773143e6f65",
+  "histogram_sha256": "1ee8690bf8f56a53d28335c8a719c919cff95bf998e0e6d8168b330d0b6bdf60",
+  "center": [
+    0.1251778018717434,
+    -0.1853008256160422,
+    -0.4531232420143458
+  ],
+  "basis": [
+    [
+      -0.39832983612957373,
+      -0.4265206957130034,
+      -0.8120427561264755
+    ],
+    [
+      0.5048584960301757,
+      0.6371907146497126,
+      -0.5823279936172893
+    ],
+    [
+      0.7658010450731547,
+      -0.6419252988414493,
+      -0.038479475986294864
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.7644228667731177,
+  "minima": [
+    2.2676829325440906e-07,
+    0.00017001857854995593
+  ],
+  "visits": [
+    0,
+    1354482,
+    87133,
+    558385
+  ],
+  "portrait": {
+    "id": "constellation-896",
+    "file": "docs\\assets\\experimental\\constellation-dense\\constellation-896.png",
+    "sha256": "d9e3c1f2aa893089e39261c960bf55dac243b981b543b6fc85b401cba01d61fc",
+    "panels": [
+      {
+        "input": {
+          "label": "896",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-896-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "1ee8690bf8f56a53d28335c8a719c919cff95bf998e0e6d8168b330d0b6bdf60",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            271,
+            45
+          ],
+          [
+            1274,
+            1542
+          ]
+        ],
+        "empty_margin": 60,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          1,
+          1
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 6.165485010604455,
+        "occupied_bins": 95937,
+        "display_label": "Case 896"
+      }
+    ]
+  }
+}

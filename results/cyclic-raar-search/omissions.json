@@ -1,0 +1,390 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "results/cyclic-raar-search/runs/cyclic-raar-follow01/case-400.npz",
+      "bytes": 4546839,
+      "sha256": "e3a9b1594503a2ee939f5835b78050fddfbff7ed4e19fcfa7b80d3cf1b207dd8",
+      "group": "cyclic-raar-search",
+      "compact": {
+        "path": "results/compact-data/e3a9b1594503a2ee939f5835b78050fddfbff7ed4e19fcfa7b80d3cf1b207dd8.npz",
+        "bytes": 1189,
+        "sha256": "590cc1d3df51dd37f06a2a36ad8d1a2330329854722ebe0dc54628f40aac074c",
+        "keys": [
+          "params",
+          "rates",
+          "minimum_axis"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4800000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            12
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "minimum_axis",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-follow01. Original large payload case-400.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-follow01\\case-400.npz"
+    },
+    {
+      "path": "results/cyclic-raar-search/runs/cyclic-raar-follow01/case-502.npz",
+      "bytes": 4532404,
+      "sha256": "41c71c793f889d0b13ad1f5f3712b20d96569495fb1d9912143d8c64c0d2d183",
+      "group": "cyclic-raar-search",
+      "compact": {
+        "path": "results/compact-data/41c71c793f889d0b13ad1f5f3712b20d96569495fb1d9912143d8c64c0d2d183.npz",
+        "bytes": 1183,
+        "sha256": "2e73c8825ab53458ac9e6692b80f60d30ee621caa1084ce0281d692821645563",
+        "keys": [
+          "params",
+          "rates",
+          "minimum_axis"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4800000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            12
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "minimum_axis",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-follow01. Original large payload case-502.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-follow01\\case-502.npz"
+    },
+    {
+      "path": "results/cyclic-raar-search/runs/cyclic-raar-scout02/screen.npz",
+      "bytes": 1495050,
+      "sha256": "52b1f949ba4ae7429710493764085690b038ab5f175d0072113d31e3c8552e2d",
+      "group": "cyclic-raar-search",
+      "compact": {
+        "path": "results/compact-data/52b1f949ba4ae7429710493764085690b038ab5f175d0072113d31e3c8552e2d.npz",
+        "bytes": 361765,
+        "sha256": "bbf5f5369d05d075bfa5bae36ec0f48e1e4ab82965799a3482ec7765c80aff36",
+        "keys": [
+          "params",
+          "minaxis",
+          "boundratios",
+          "flags"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            4097,
+            12
+          ],
+          "dtype": "float64",
+          "bytes": 393312,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            4097,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 327760,
+          "retained": false
+        },
+        {
+          "key": "tails",
+          "shape": [
+            4097,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 201375744,
+          "retained": false
+        },
+        {
+          "key": "ends",
+          "shape": [
+            4097,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 98328,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            4097,
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 65552,
+          "retained": false
+        },
+        {
+          "key": "minaxis",
+          "shape": [
+            4097
+          ],
+          "dtype": "float64",
+          "bytes": 32776,
+          "retained": true
+        },
+        {
+          "key": "boundratios",
+          "shape": [
+            4097
+          ],
+          "dtype": "float64",
+          "bytes": 32776,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            4097
+          ],
+          "dtype": "bool",
+          "bytes": 4097,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-scout02. Original large payload screen.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-scout02\\screen.npz"
+    },
+    {
+      "path": "results/cyclic-raar-search/runs/cyclic-raar-follow02/case-2420.npz",
+      "bytes": 4293319,
+      "sha256": "f81f0778ddff6e1cd02660b15f78c0d8f8801a645ffa3c0b8b7a2b98e71099c0",
+      "group": "cyclic-raar-search",
+      "compact": {
+        "path": "results/compact-data/f81f0778ddff6e1cd02660b15f78c0d8f8801a645ffa3c0b8b7a2b98e71099c0.npz",
+        "bytes": 1184,
+        "sha256": "da7e910a46fe0bae2a959d5c33ef412a1cde1a259df5ef06a1b7b1a991a037a1",
+        "keys": [
+          "params",
+          "rates",
+          "minimum_axis"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4800000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            12
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "minimum_axis",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-follow02. Original large payload case-2420.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-follow02\\case-2420.npz"
+    },
+    {
+      "path": "results/cyclic-raar-search/runs/cyclic-raar-follow02/case-4047.npz",
+      "bytes": 4407427,
+      "sha256": "11ca520fdc2ec965d78ac0625a811dde2929afd206402e4c9eb0a56ab102ecd5",
+      "group": "cyclic-raar-search",
+      "compact": {
+        "path": "results/compact-data/11ca520fdc2ec965d78ac0625a811dde2929afd206402e4c9eb0a56ab102ecd5.npz",
+        "bytes": 1199,
+        "sha256": "f556d8ba851019158c030c5564966692c7b5df18bd0f42782ab1a2675f667951",
+        "keys": [
+          "params",
+          "rates",
+          "minimum_axis"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4800000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            12
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "minimum_axis",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-follow02. Original large payload case-4047.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-follow02\\case-4047.npz"
+    },
+    {
+      "path": "results/cyclic-raar-search/runs/cyclic-raar-follow02/case-637.npz",
+      "bytes": 4545434,
+      "sha256": "868e827c4fe09255d0168e44202e665676fa4bd7ac391db8de04cef82b971019",
+      "group": "cyclic-raar-search",
+      "compact": {
+        "path": "results/compact-data/868e827c4fe09255d0168e44202e665676fa4bd7ac391db8de04cef82b971019.npz",
+        "bytes": 1192,
+        "sha256": "a402e42940efbdd7f756f8e619182dae4a1f881fd94d782f3a7167f4fe931ec5",
+        "keys": [
+          "params",
+          "rates",
+          "minimum_axis"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4800000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            12
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "minimum_axis",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-follow02. Original large payload case-637.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-follow02\\case-637.npz"
+    }
+  ]
+}

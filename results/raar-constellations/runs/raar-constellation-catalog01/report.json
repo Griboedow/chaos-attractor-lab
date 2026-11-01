@@ -1,0 +1,5885 @@
+{
+  "ids": [
+    124,
+    611,
+    896,
+    1504,
+    1725,
+    1873
+  ],
+  "reference_files": {
+    "results/attractor-novelty/reference/trajectories/Aizawa.npz": "5452da1063ac0ed4c3692705f3244c18fd6a3b5f9b579373ca340222370b5a51",
+    "results/attractor-novelty/reference/trajectories/AnishchenkoAstakhov.npz": "f0c3e4e73687df843b97463aa26bf6faefe66b70d5c4095e07092a2aa4089220",
+    "results/attractor-novelty/reference/trajectories/Arneodo.npz": "70173d2d8877a4083f134ea83e28560ca904cc3cc49247256ee6f381cce9405f",
+    "results/attractor-novelty/reference/trajectories/Atlas-Aurelia.npz": "355b0d82e7277bc11cb761c36c30a95eb7b6100d229335af9d6cb83406dee8f9",
+    "results/attractor-novelty/reference/trajectories/Atlas-Cassiopea.npz": "a527664245d652baf545cb55537dd9747105e3a1ae9f1ca4a80e198b11e51f06",
+    "results/attractor-novelty/reference/trajectories/Atlas-Mobula.npz": "75f6626c9d6df146a7dcf5998516a9884217ef2354c33b892ec917a2a15b3012",
+    "results/attractor-novelty/reference/trajectories/Atlas-Naiad.npz": "28af1f8d303515a7d7ab1e7b7375ea5cc3f8d0ac0436f8126de11144844e5109",
+    "results/attractor-novelty/reference/trajectories/AtmosphericRegime.npz": "15f5c96ab904a9c48a03056fd77fe92377d09bf3b43b9533e6d20cb07cc2d3e2",
+    "results/attractor-novelty/reference/trajectories/BeerRNN.npz": "975986a93f9711aec02ea8f920a583c0ffa9b9f32b60bffeba211161af962ca2",
+    "results/attractor-novelty/reference/trajectories/BelousovZhabotinsky.npz": "6c69416b61e15d0911d3f3f03a4068ea991cb96696a927343de79b0919db4d76",
+    "results/attractor-novelty/reference/trajectories/Blasius.npz": "48c78cc3c239eb2f6428711c9a58c6f7bd4ac0f994c0173d3e8fc96f4b13a217",
+    "results/attractor-novelty/reference/trajectories/Bouali.npz": "4c632de36cca62d9bbaf557c4371ea47a7b1a4a18480bd240015d42039c75a39",
+    "results/attractor-novelty/reference/trajectories/Bouali2.npz": "3bde0c1284b07c1cd817118f6897caf6f4aeb20f04fce989c484bb9ea9b07601",
+    "results/attractor-novelty/reference/trajectories/BurkeShaw.npz": "ec1d0d094184d5488ceb5d52a6a1f3ca95a2db79fc4c38b8fd28381aa2720c33",
+    "results/attractor-novelty/reference/trajectories/CaTwoPlus.npz": "fe586d9d50e83476212d59f2054fceeebf7a55f4ea0d1e506bfc9265a83ee0ce",
+    "results/attractor-novelty/reference/trajectories/CaTwoPlusQuasiperiodic.npz": "c4d50eb9f2bce64e940c68df1d86b8be6687440720ff1d29f62a14f160ce1c65",
+    "results/attractor-novelty/reference/trajectories/CellularNeuralNetwork.npz": "b7b5b55c9f1934746013b3bca223613006b6d0b7797f96e98713571a37219a43",
+    "results/attractor-novelty/reference/trajectories/Chen.npz": "2e1f70d391e11264a335de760e63911c8c377bc1c4dbacf5ca8a6b1e6cead840",
+    "results/attractor-novelty/reference/trajectories/ChenLee.npz": "4464b608b92f7f03b51b253e0f57a458f3aafc6ec2e5cd1625a3561a0c84b034",
+    "results/attractor-novelty/reference/trajectories/Chua.npz": "fc1ed92f8a9fbf229ab85d0bfd2c486d0995f97f4f4b542ac07cc7a7bf6b8ce3",
+    "results/attractor-novelty/reference/trajectories/CoevolvingPredatorPrey.npz": "a1556f603e7437a843d84114e3c8ea9a6583ed4757a1c53214e14bee2daa7797",
+    "results/attractor-novelty/reference/trajectories/Colpitts.npz": "6917278bff7bfda8daf497c466875b2986d295259b0fe0e7b6d116f546d19273",
+    "results/attractor-novelty/reference/trajectories/Coullet.npz": "43b5dfd25dd93a583951eeee7c82a255d41dcaadb535107dd36a014d28f9fcbd",
+    "results/attractor-novelty/reference/trajectories/Dadras.npz": "bb054ba1ec637c69481ffff19abe3c7a8b10701784343c258ad5153c596e9684",
+    "results/attractor-novelty/reference/trajectories/DequanLi.npz": "4f174bdb97cba3542a32e3b1d4f7b3b632931dcf67392fa1051cacd5689af491",
+    "results/attractor-novelty/reference/trajectories/ExcitableCell.npz": "a284de8bc78779040a368162face2a9b2b00a34778b38cace29ae15364b8d3c8",
+    "results/attractor-novelty/reference/trajectories/Finance.npz": "915de8808caf44792760f2c8e4ccd39849a0bf85747ffc519758a811ce02f7d8",
+    "results/attractor-novelty/reference/trajectories/GenesioTesi.npz": "af9d817e4246fd20ac54774651c729de27f46ae8acf8c0347703d62a3ccd4568",
+    "results/attractor-novelty/reference/trajectories/GlycolyticOscillation.npz": "500158a5cc87477fc39e47b55e8de5daba2ec2eb413f1d8febbbda5f1379b369",
+    "results/attractor-novelty/reference/trajectories/GuckenheimerHolmes.npz": "13d915f0af0a3268b0675c78e785b2c718233c118c44e23c28ed05e471349687",
+    "results/attractor-novelty/reference/trajectories/Hadley.npz": "5c72b68d33f984a9a93e76d29cf569190a6803e710626fd25f1981bdbef6da06",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.3.npz": "29a074b3c1cbd2192fe831cd5e6658339736c0e1d1c5fe2cf57da9612fbccc2e",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.5.npz": "10228282473bafdb8abc42deb0f9dd31d3e2286a8a36f5fd7c21da32f149847b",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.6.npz": "76da764c30f5452f52c5bfe91d7aeeb0308d9e1f73ecdb9bf24c3ffa606a4757",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.7.npz": "273bf4c94720b4e37da50316fc6ff35bfbf83e8c4b735321acd809eb80653971",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.8.npz": "b4846ef844787f1259e93c8a7cd83a0bfdd6c8a45442cccb6ad866b420f5c7dd",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.85.npz": "00d02b9484a83a1120c3b598d7634692afa3aece855b28a83096009eec26aa8e",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.89.npz": "c24cdaccbdd995db77f86642205d61333a3a8e57a5a7c57aec5ab92738bdd90c",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a1.95.npz": "e37a73fc87c9a69627062f948211b44b939248cb0ffb6508b0e8d622ce4794b7",
+    "results/attractor-novelty/reference/trajectories/Halvorsen-a2.0.npz": "ff0552445bfebe9f1af097d4a108df2247427092e93d9beb6a9749e9f6cd101c",
+    "results/attractor-novelty/reference/trajectories/Halvorsen.npz": "06702e812e5dc6a6c583132124234f333a523a7f7192e11aa08a3a7758b2c7f0",
+    "results/attractor-novelty/reference/trajectories/HastingsPowell.npz": "37c53d42d9e5003ab8bc481662ca3a97eb306137a47ea55e5bdc3b2b93ef6008",
+    "results/attractor-novelty/reference/trajectories/Henon3D--0.02-0.85-0.7.npz": "970c9ffc3630bacd99f32f6628a1d429b62864df322086b5274b3075bc0556d3",
+    "results/attractor-novelty/reference/trajectories/Henon3D-0.0-0.815-0.7.npz": "062f40004ac3025644505665dfc357f86f1d997d2fe4aa85abf71d66c160cfd2",
+    "results/attractor-novelty/reference/trajectories/Henon3D-0.0-0.85-0.7.npz": "559e7ad772f96f9da0ad34e411c18a50a68d94b98e7330611de005a14f85d9c4",
+    "results/attractor-novelty/reference/trajectories/Henon3D-1.4-0.2-0.1.npz": "eac6ff3ad3db774b2dbb0c7cfd19c19e2266323b5998436f2318c04e609fc9ea",
+    "results/attractor-novelty/reference/trajectories/HindmarshRose.npz": "7b5609b4436b345599cbefc238ad86496f3fbd60a90674af5645b8dee0205f0f",
+    "results/attractor-novelty/reference/trajectories/IsothermalChemical.npz": "ece5243f481db0dfdc7acc6e2d952ce15a872f3ed2f3ee8df3208a9643a33f85",
+    "results/attractor-novelty/reference/trajectories/ItikBanksTumor.npz": "84b723c7b5d30ad548531ec726b297de987d2ce3f75961ab1e048c7ca7d15496",
+    "results/attractor-novelty/reference/trajectories/JerkCircuit.npz": "66d1c37dc3d81fa4ff0f1e3654bb60224dc6d6070043a9b5625c286e10ed37c1",
+    "results/attractor-novelty/reference/trajectories/KawczynskiStrizhak.npz": "b14fa50acc94f976f39e82ce7658642872e0e4445527e513ea76fc18984295e9",
+    "results/attractor-novelty/reference/trajectories/KickedTop-A15-b0.5.npz": "22f54fae0b5ebebc9d56d87c9bab539901b11a4db2f7302ba917a40e6587105d",
+    "results/attractor-novelty/reference/trajectories/KickedTop-A35-b0.1.npz": "8b5db84741efdd7a7aed6748a922effef60b97848057d57e7bace2949ec37ac1",
+    "results/attractor-novelty/reference/trajectories/Laser.npz": "f030c7b53ba25c6f8b011357edec629c98d44a880f5562d5ecb697e7c89dc184",
+    "results/attractor-novelty/reference/trajectories/LiuChen.npz": "51316782c164e57b663afe35c58731db533e6df36c58443bc9efc744068c0113",
+    "results/attractor-novelty/reference/trajectories/Lorenz.npz": "75e178ae4e458d1e5e47b163ca9abed597436297298c11ca45329a3d14464600",
+    "results/attractor-novelty/reference/trajectories/Lorenz84.npz": "5e5a260f0f6da17a4bbff7874873301dc86b3556c3da47bbb9fba2bf91379d82",
+    "results/attractor-novelty/reference/trajectories/LorenzBounded.npz": "fb5c4cea408f757d44cec4a5b0694221928128fc6b6b03f55b077bf78d322f00",
+    "results/attractor-novelty/reference/trajectories/LuChen.npz": "52afe0bd6cee65c4b8a3a5d045c2c4d48678239161c62bde4631ccdf989eb263",
+    "results/attractor-novelty/reference/trajectories/LuChenCheng.npz": "fd7d55ada6a7399bd2f13c63a303d49d5f7277c15a19f1b715a68f3ee5cf41c3",
+    "results/attractor-novelty/reference/trajectories/MooreSpiegel.npz": "cc3d11008ff268b78cdab0db574710cf5957924b442bbaa2c4f2623953081429",
+    "results/attractor-novelty/reference/trajectories/MultiChua.npz": "80124f06890beae306142bd39860b60b5e665a3e637016fac8d2ffc4b2d76a04",
+    "results/attractor-novelty/reference/trajectories/NewtonLiepnik.npz": "5fd8a32cbaa3436275dad9b88d7b52cb9703efa48227450e58be4acd61bd2b29",
+    "results/attractor-novelty/reference/trajectories/NoseHoover.npz": "600bf2aac2d4c21f7dc82a7bfc0116a25f70562bd4775632490e19298d739836",
+    "results/attractor-novelty/reference/trajectories/PanXuZhou.npz": "0ceb4ae73389246c0f91b23c21895d1912a2bd1685e2676df236bbca81ec918b",
+    "results/attractor-novelty/reference/trajectories/PehlivanWei.npz": "79d1b52999579010dfa2aed29dc7923764876cb7cad6149ad331653edbf06b47",
+    "results/attractor-novelty/reference/trajectories/QiChen.npz": "d3d6971e14755963809e1b549148667dea415a77c5ea773af67074955c61a5bb",
+    "results/attractor-novelty/reference/trajectories/RabinovichFabrikant.npz": "eb901f96e1d40a85dbf8c6970a971b9b8113be041e625ea39f3c5c7998703097",
+    "results/attractor-novelty/reference/trajectories/RayleighBenard.npz": "3528333c0e4c6c37814e774f218aaa5d9689427ca337b89819a22b3f80306015",
+    "results/attractor-novelty/reference/trajectories/RikitakeDynamo.npz": "13eff0047ea8e5d60d2e3c54906552b8d1617a23ec73a56299fad78fb9ec9279",
+    "results/attractor-novelty/reference/trajectories/Rossler.npz": "ed5e1511f6a69f69cb6c0f6effe071fb7d87645448517a235848adf7cde3e570",
+    "results/attractor-novelty/reference/trajectories/Rucklidge.npz": "a09f14e6bdeea1b6accc5a0cf7fd53d8ea4c16b9c6d6c9313e965032f21247aa",
+    "results/attractor-novelty/reference/trajectories/Sakarya.npz": "80e695a2d4d13986a85ef2e20b63b7da52c2dd5dd19b4a7553ffb49dd4e2900e",
+    "results/attractor-novelty/reference/trajectories/SaltonSea.npz": "cc59f98947cbaaed787b01fc9b2166282e0aa4867caaa5f2dfbf700505b8eeac",
+    "results/attractor-novelty/reference/trajectories/SanUmSrisuchinwong.npz": "7f20f20070dd6ab268e5bfe8b3d99d8f3fa360e5221ae892352aa05eac49c476",
+    "results/attractor-novelty/reference/trajectories/ShimizuMorioka.npz": "4a63cbeddf1e26e4e42ff71f282eb1959a1f997d58fd24a61294eccdd821c13d",
+    "results/attractor-novelty/reference/trajectories/SprottA.npz": "fbb12e3d4a44a52776f84901cba84a2283ecc5de4f7ae71de78dd598e6be2f6e",
+    "results/attractor-novelty/reference/trajectories/SprottB.npz": "dcf8517a25bc47d22d205581c54e470c44c457ae4e7f9eac19085cf81bed9619",
+    "results/attractor-novelty/reference/trajectories/SprottC.npz": "99a82cd7faa66018c112d4b297f18a15473ead5b9b5ea62a5acfa03ec3e5930f",
+    "results/attractor-novelty/reference/trajectories/SprottD.npz": "f138dc2eec82719ab081d4458e4769a0ce7e0be4cbf24fb3128d2f414d21d393",
+    "results/attractor-novelty/reference/trajectories/SprottE.npz": "caaddd2172a7200b7ef7977bd4a57d3921dd6686403a9bf2e0b55f9e45f65acf",
+    "results/attractor-novelty/reference/trajectories/SprottF.npz": "e38016f8c7ae10fea8549aec1d0f40ec2aba30fb1a26d1b7fddf3b952bf14f6c",
+    "results/attractor-novelty/reference/trajectories/SprottG.npz": "ed247a43e232efbc90dfd3fa46ec85490c902dd6e782fb8a2c6a5977f5a91e24",
+    "results/attractor-novelty/reference/trajectories/SprottH.npz": "2dcad9c03eafe5e5e95555e70f235f99ad1a8e38eb72a20c6a2507cd6a192436",
+    "results/attractor-novelty/reference/trajectories/SprottI.npz": "bb74f15a0cc912966a229023bcb0605fa18aa780ae07e7f01b16f7c5ffbd55fc",
+    "results/attractor-novelty/reference/trajectories/SprottJ.npz": "36697b2bbc8884c2f22872d9a9a7e612f19a5a05704349793057fa89b4402782",
+    "results/attractor-novelty/reference/trajectories/SprottJerk.npz": "dc82514ab0165321e8663132acdad40e2b357254fe417282c418269ec6639559",
+    "results/attractor-novelty/reference/trajectories/SprottK.npz": "b1d8bc94fe30a66eba5e63ecace710f5be71fb7a104b66e8ae5657e5be252a6c",
+    "results/attractor-novelty/reference/trajectories/SprottL.npz": "1a515d074dc71d56e3c883122d93238dc4cfd8ef9bcd4425501cbfec7ed429be",
+    "results/attractor-novelty/reference/trajectories/SprottM.npz": "dfec33884644d7b937f00ea5170fd3f6b23b01df69f9681a689c3873eafdbf43",
+    "results/attractor-novelty/reference/trajectories/SprottMore.npz": "fc9ab8efe0d2573cdca38874ccdb766f5f4d83f6cd44b4ab46e3154b88ca5ba0",
+    "results/attractor-novelty/reference/trajectories/SprottN.npz": "bc80423b194b5bbf6b9e6b54d0e8f273a94aa00d8f8aeb04ff7f50522beb10b1",
+    "results/attractor-novelty/reference/trajectories/SprottO.npz": "58bba1b1ac4026357f5f4b6db5a6b07503a158f62e08a94fcae5c395dcbcefdd",
+    "results/attractor-novelty/reference/trajectories/SprottP.npz": "61304e36b1d2edac023d623703c4a0b4fb11cce70672ea48cc82ffbde7ac3caf",
+    "results/attractor-novelty/reference/trajectories/SprottQ.npz": "4d594a8e0234132f0773d0cb70a7ff81499aa0ab43fa7208494e22db32b38da0",
+    "results/attractor-novelty/reference/trajectories/SprottR.npz": "584a4bb885fbe026715e328d268d2caeaedf7e4fd6154340241f1590f2a58a47",
+    "results/attractor-novelty/reference/trajectories/SprottS.npz": "6269a4d1aaaca600aa36e31d9b78f8253d496be1491ec006fedbd21f5485c1f3",
+    "results/attractor-novelty/reference/trajectories/SprottTorus.npz": "ae716b1f52607362ed0ffb1dfa3c41914ed31cec7d9a6ce30232773c11761a85",
+    "results/attractor-novelty/reference/trajectories/Thomas.npz": "317340116b148c66b4fe8b7a73f9dbb8bd631b18b2e9f212a2da50c9b3293b5c",
+    "results/attractor-novelty/reference/trajectories/ThomasLabyrinth.npz": "a9920bfb0766754bd98fe16ddae98649da1d66c02f2f49b2b773c7350cbac934",
+    "results/attractor-novelty/reference/trajectories/Torus.npz": "b820ce03a88730ac32b437422c6f19d08014881e87a59bef96f2eb856b8f5544",
+    "results/attractor-novelty/reference/trajectories/Tsucs2.npz": "5320fee462716bd3f20d41afa725ae9f52bb93d72a5e65de99a36b39e9ab30b4",
+    "results/attractor-novelty/reference/trajectories/VallisElNino.npz": "76ceca81bc5a130ca7ef5f272954eed7cb0370879616b740915c381e8797bc93",
+    "results/attractor-novelty/reference/trajectories/WangSun.npz": "70939fea6c406e7d330a09f4f6b50cb9b47480ec7a5a5e1dea19d6943a061bb5",
+    "results/attractor-novelty/reference/trajectories/WindmiReduced.npz": "778d88b5c4de6f472585e2e0bf17c3baaa69255caa27bc378c16cb459d4cd753",
+    "results/attractor-novelty/reference/trajectories/YuWang.npz": "5b4cf7d664c6df3a4d0de8b3d1a6b006f79a8ee48711d3449abfcd7e462162e8",
+    "results/attractor-novelty/reference/trajectories/YuWang2.npz": "56b10211a352cd592e5983e58b0de66e0542ac584d377a4c33e22aa11ad087a3",
+    "results/attractor-novelty/reference/trajectories/ZhouChen.npz": "6f3ea1cc0e399b57a3827f17479c0f8d010f0f060be81f8d9674de53e184a1c7"
+  },
+  "cases": {
+    "124": {
+      "similarity": {
+        "source_sha256": "bbe70dd8315126fc4625bc6397a58b55e499978c227023b08e30414b468b58a3",
+        "within_time_halves_fingerprint": 0.02335286535560243,
+        "within_time_halves_icp": 0.013442549380268422,
+        "nearest": [
+          {
+            "reference": "RabinovichFabrikant",
+            "fingerprint_distance": 0.36862796997050246,
+            "best_local_icp_rms": 0.25524303351246413
+          },
+          {
+            "reference": "SprottO",
+            "fingerprint_distance": 0.36956647396108416,
+            "best_local_icp_rms": 0.2768971082151377
+          },
+          {
+            "reference": "Sakarya",
+            "fingerprint_distance": 0.3766903037441234,
+            "best_local_icp_rms": 0.25813234954052877
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "SprottO",
+            "distance": 0.37245746161610843
+          },
+          {
+            "seed": 102,
+            "reference": "Sakarya",
+            "distance": 0.3748711779749088
+          },
+          {
+            "seed": 103,
+            "reference": "Sakarya",
+            "distance": 0.36446035886509986
+          },
+          {
+            "seed": 104,
+            "reference": "SprottO",
+            "distance": 0.37344855091564233
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.36862796997050246
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.36956647396108416
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.3766903037441234
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.38418177437107265
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.3853787810778226
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.38834999320762964
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.39690288741307883
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.4018816217311468
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.40468482404686484
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.40494404645924215
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.4078825016865749
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.4267634110764379
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.43227064116207703
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.4377786467124375
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.43789519881663586
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.43950712313041806
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.4403779275662529
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.443990036649473
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.44461204544292865
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.4449389774586719
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.4476174204346549
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.44768921479219914
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.450327224467832
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.45091206145914275
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.45361231711997174
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.45528949293362453
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.4570886923012188
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.4578511235692282
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.45948586829545496
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.4607500479651937
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.462061879561396
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.4627512759375152
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.46490074550417787
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.47049425067590944
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.47754354101912827
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.4810129209137575
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.48274552806852605
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.4842584520736186
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.4845708510130769
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.4864005546397303
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.48723367111650273
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.4887079627156393
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.49089074352929063
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.4972660325310172
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.4988136646059854
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.4988391123284456
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.5028491602558234
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.50646573617314
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.5075646636409192
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.5139839358726258
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.5181793049022376
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.5259288401268847
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.5282031494139287
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.5327411004558591
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.5353665697735323
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.5400883955121363
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.5466542824532997
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.5503322268613798
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.5513822872175815
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.5542153074426317
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.5555970735523599
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.5581197521355894
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.5620893967224911
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.5642054494569239
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.5657963495587136
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.5695991000817264
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.5715202103068437
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.5747806543057364
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.5756508044635649
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.5854934352993613
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.5868882757801832
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.5927598805184635
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.5931038951220856
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.5939324473468973
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.5949837652855886
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.5962563763666943
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.601425838076029
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.6014347380250247
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.6028275341200364
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.6054817570309194
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.6062747470818419
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.6070201346760392
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.6132951745603121
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.613733328880848
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.6139231982351676
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.6165457947042178
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.6169814279431322
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.6187902375313478
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.6188263895367204
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.6199546568070956
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.6206385343310507
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.6221745537416888
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.6265229318099422
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.6286972831340468
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.6297428158297737
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.6297581068232273
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.6315792765780076
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.6413901535086018
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6458187708192921
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.6645335530882538
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.6732929770921151
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.7040029875604004
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.7857251444977998
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.8132507910178608
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.8457888854257805
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.9015041350068538
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 1.0928208458768536
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.2943156887792406
+          }
+        ],
+        "excluded": {}
+      },
+      "affine": {
+        "source_sha256": "bbe70dd8315126fc4625bc6397a58b55e499978c227023b08e30414b468b58a3",
+        "within_time_halves_fingerprint": 0.02355264040542808,
+        "within_time_halves_icp": 0.020039559425505744,
+        "nearest": [
+          {
+            "reference": "Atlas-Cassiopea",
+            "fingerprint_distance": 0.20406686137473037,
+            "best_local_icp_rms": 0.2546415626633251
+          },
+          {
+            "reference": "SprottL",
+            "fingerprint_distance": 0.20830171943596437,
+            "best_local_icp_rms": 0.3072504856139055
+          },
+          {
+            "reference": "LorenzBounded",
+            "fingerprint_distance": 0.21742033650856232,
+            "best_local_icp_rms": 0.2774555476949172
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "SprottL",
+            "distance": 0.20218034200130214
+          },
+          {
+            "seed": 102,
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.20467378283470616
+          },
+          {
+            "seed": 103,
+            "reference": "SprottL",
+            "distance": 0.19774551817875746
+          },
+          {
+            "seed": 104,
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.20445307868870494
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.20406686137473037
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.20830171943596437
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.21742033650856232
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.2273373933096539
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.2286678448231446
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.22916743522018362
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.23014072496067925
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.23034977631931572
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.23203247522229647
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.23224671090170362
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.2375197932072165
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.2382852352197471
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.23849592928292584
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.24032417771545123
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.24095695051431576
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.24262459994073154
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.24404992992143035
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.24683295816879286
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.24728636765523782
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.2500468173671633
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.25054177604481026
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.25099399258170974
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.25112254154882296
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.25289849371746953
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.25348537098195284
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.25406984261396504
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.254549174692862
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.25609817470390306
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.2590402434547107
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.25928695198949103
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.2603360950772304
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.2637256957263122
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.2660748558347853
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.27154814580695297
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.2804542041068172
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.280785644601543
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.2841633027903474
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.2843576837748931
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.28547701055338315
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.28637648783576
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.28755957138118104
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.28965991074537384
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.28971512925842585
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.2908076145318463
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.29167480190434597
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.2921372768212588
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.2948225561544022
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.29778344734873563
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.3000308131225844
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.3011079512979671
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.3036886244356631
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.3052541751585403
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.30549351688033904
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.3060066898287298
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.3083449620384482
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.30847463442031775
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.3088591918080696
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.308989693124794
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.30902032866129564
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.3097296229967581
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.3117948935505237
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.314792789552821
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.31504285671086457
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.31517467039799835
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.31556152498255935
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.31818755402714227
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.3208076297455914
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.32148056376609063
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.33229558857710395
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.3335878876895722
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.33834632264227443
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.33837387877417013
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.33959011395421407
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.3398876298689555
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.34253101564161276
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.35000977604486705
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.35208311219803196
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.3524347848705564
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.3574644444739154
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.3596567289838911
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.3605340322161207
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.3703691634841004
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.3857880998353729
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3923301236194247
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.3933551146111591
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.39388589829118026
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.3973304038599019
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.4024589149717432
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.40923441741945743
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.41804601094144267
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.4268438954097518
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.4283527015805258
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.4305302655903457
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.44290393049908966
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.44920048348971053
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.4603867534850745
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.4741360284053767
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.48998557146943134
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.5051000173289211
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.5257581746267938
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.5327226929476849
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.5407608270767474
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.604498237509275
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 0.6405067225315585
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6825167775855758
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.7111600566327804
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.79291320655129
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.0410181764517827
+          }
+        ],
+        "excluded": {}
+      }
+    },
+    "611": {
+      "similarity": {
+        "source_sha256": "c456d4cafc286e5b7c8014a76964d782d630cb50141e95ed0a22bee054cfd8ec",
+        "within_time_halves_fingerprint": 0.03814375551171814,
+        "within_time_halves_icp": 0.036161115198193386,
+        "nearest": [
+          {
+            "reference": "LuChenCheng",
+            "fingerprint_distance": 0.21089057774978404,
+            "best_local_icp_rms": 0.26939894607280757
+          },
+          {
+            "reference": "LorenzBounded",
+            "fingerprint_distance": 0.22022440852187644,
+            "best_local_icp_rms": 0.2412637671602658
+          },
+          {
+            "reference": "SprottB",
+            "fingerprint_distance": 0.2247359532231399,
+            "best_local_icp_rms": 0.3052902733686864
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "LuChenCheng",
+            "distance": 0.20835144530080585
+          },
+          {
+            "seed": 102,
+            "reference": "LuChenCheng",
+            "distance": 0.2122375392110441
+          },
+          {
+            "seed": 103,
+            "reference": "LuChenCheng",
+            "distance": 0.21175792097361695
+          },
+          {
+            "seed": 104,
+            "reference": "LuChenCheng",
+            "distance": 0.19984885904284866
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.21089057774978404
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.22022440852187644
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.2247359532231399
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.22494861516932838
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.229501338286685
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.2301514033029265
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.24238171697134164
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.2444200276837572
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.25003746393528936
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.251607983635163
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.25505683549215374
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.25560840006504193
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.2571218815982331
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.25847747414357136
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.2614619926885029
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.2616967496544427
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.2622297725103347
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.2642449152418893
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.2656792459453794
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.26639742124412796
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.26656159466409135
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.26762706682509974
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.26782813977362757
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.2696987260216036
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.272594574524028
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.2752554144977283
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.2781707157267584
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.28341517307327974
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.2862175747272465
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.2938940294987055
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.30219491342708127
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.3134155740356539
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.3149188352494408
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.31899947974598397
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.32681955993423717
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.3277984428941136
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.3290761178375242
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.3306042257385969
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.3325935897578426
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.334750630724649
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.33620209479973356
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.33796292856568855
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.34259578504140265
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.35363749053285964
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.35489095296352263
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.3605481439536593
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.3642484983293185
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.37488785588576246
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.37584853405310226
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.37856872004282627
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.3801887547710091
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.38092582279811804
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.3986985069223975
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.40477061385707147
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.4057637325163969
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.4057895362055582
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.4071931765023445
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.4139564760148791
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.4194344460506262
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.42563024446393594
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.4267347422806618
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.42978663930725525
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.4310931878337862
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.4320336048616988
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.43508702812038524
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.4400732585567544
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.4409425082252707
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.44641929253829243
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.4494649168088664
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.45001768952139
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.4605248965909239
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.47260025810622563
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.48414219357347676
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.48979250663735197
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.493379074831993
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.49623749039684656
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.49664695614685034
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.5001112906041929
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.5003006914875966
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.5017802757014738
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.5045307963776023
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.5059684749315218
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.5101465248334478
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.5107366438369834
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.5139370109225119
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.5140516943967569
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.5144814535452932
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.5191606297064241
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.5249045384343178
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.5402441485213398
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.5474739936788358
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.5557952067845667
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.5577803756401915
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.5714281590787624
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.5775683525542403
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.5933564232649062
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.5957040921172033
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.5982212920152883
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.6369109589183922
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.6644719348326981
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.6797051216331894
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.6847607835774475
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6856131617447041
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.7185798249310773
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.7452942485118076
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.8240001778881111
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 1.150025201512506
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.3579620546177453
+          }
+        ],
+        "excluded": {}
+      },
+      "affine": {
+        "source_sha256": "c456d4cafc286e5b7c8014a76964d782d630cb50141e95ed0a22bee054cfd8ec",
+        "within_time_halves_fingerprint": 0.03965678604925531,
+        "within_time_halves_icp": 0.046544944965728134,
+        "nearest": [
+          {
+            "reference": "SprottE",
+            "fingerprint_distance": 0.15599292763195163,
+            "best_local_icp_rms": 0.3002577645661123
+          },
+          {
+            "reference": "JerkCircuit",
+            "fingerprint_distance": 0.18503103467052429,
+            "best_local_icp_rms": 0.22364729226814484
+          },
+          {
+            "reference": "HastingsPowell",
+            "fingerprint_distance": 0.21544395854447654,
+            "best_local_icp_rms": 0.22843665479105452
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "SprottE",
+            "distance": 0.16644424464379745
+          },
+          {
+            "seed": 102,
+            "reference": "SprottE",
+            "distance": 0.16230644300454444
+          },
+          {
+            "seed": 103,
+            "reference": "SprottE",
+            "distance": 0.15513919436668594
+          },
+          {
+            "seed": 104,
+            "reference": "SprottE",
+            "distance": 0.16405102045519462
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "SprottE",
+            "distance": 0.15599292763195163
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.18503103467052429
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.21544395854447654
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.21984134935468655
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.2207151301126593
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.22303679348180727
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.22788057774290552
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.22943552987098365
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.23043626414289642
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.2351488230390785
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.2377996256802809
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.24357315375928862
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.247069947026501
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.24910948930086807
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.25216050271671975
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.25715740980056717
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.25777448566271566
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.25958486065107855
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.2596327608728214
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.2635473006748278
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.2643777045329392
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.26499140463930826
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.2651164260206152
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.2656051983151202
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.26911469641441943
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.2699001599931533
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.2706334067610456
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.27067891778810316
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.27313521062066964
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.27350330691004315
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.2743532605643985
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.27437444401054234
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.27471738382491817
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.2758842576276781
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.27658900762471295
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.2775173706109387
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.279417447794747
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.2807255870930673
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.28195269671592443
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.283042892564868
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.28825558370618826
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.2891148526532309
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.292319740935951
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.29411508766900496
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.29687829044231456
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.2985398799408401
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.2989022635440153
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.30062564234175276
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.3031573099244407
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.304845895671596
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.3058770638130872
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.30661591638570673
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.31162460256152297
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.31432983817878046
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.31473269540132576
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.31853869790260103
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.32193540555584504
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.3222653068598452
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.32264840130494726
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.3234140540335032
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.32425327206983023
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.32519775787899036
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.32752635563538135
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.33216753801166377
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.3342372903612959
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.33434169157161403
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.33823604798192497
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.338441080269157
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.3445141466219378
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.3463509426147219
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.34839951910387645
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.35008448670368136
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.35284770597154785
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.35296114715616833
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.35425147409439595
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.35600727611174976
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.35729519439264684
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.35733957817215545
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.3597650009235546
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.36116387576924375
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.3652850712046357
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.3653149959303862
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.36697570126155105
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.37011040737602363
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.3702940318974808
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.3704156924754145
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.3768849713186042
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.3800873288206853
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.3819688828886022
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.3824713879979902
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.3837721920854468
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.40347730455076253
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.4034840131575893
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.404738598163527
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.4054004056882437
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.4071250303673709
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.41049190543716474
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.4170588407485483
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.417221327474978
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.4175419176304936
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.4354193320497203
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.4803837637285939
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.490012298443342
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 0.5082575980145332
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.5829253658926768
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.6538669014210567
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.7433395638649346
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 0.9427222958293776
+          }
+        ],
+        "excluded": {}
+      }
+    },
+    "896": {
+      "similarity": {
+        "source_sha256": "1693182d64f55d1d52e1ccc6ec6119ea0359ac35d017ff54461876afc7dee7be",
+        "within_time_halves_fingerprint": 0.028020736888324405,
+        "within_time_halves_icp": 0.0479394461686408,
+        "nearest": [
+          {
+            "reference": "GenesioTesi",
+            "fingerprint_distance": 0.148757928764311,
+            "best_local_icp_rms": 0.1924616179985526
+          },
+          {
+            "reference": "SprottQ",
+            "fingerprint_distance": 0.15596613987132643,
+            "best_local_icp_rms": 0.15722673606948517
+          },
+          {
+            "reference": "Lorenz",
+            "fingerprint_distance": 0.15719353540530204,
+            "best_local_icp_rms": 0.22433125825885966
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "Lorenz",
+            "distance": 0.16074725856470967
+          },
+          {
+            "seed": 102,
+            "reference": "GenesioTesi",
+            "distance": 0.15345890842620674
+          },
+          {
+            "seed": 103,
+            "reference": "GenesioTesi",
+            "distance": 0.15308021048821807
+          },
+          {
+            "seed": 104,
+            "reference": "GenesioTesi",
+            "distance": 0.15727047879810122
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.148757928764311
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.15596613987132643
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.15719353540530204
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.16446866301854102
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.17015205868158279
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.18710505874961048
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.18831818177343002
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.1923468955628963
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.19301755264503462
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.1948519538340942
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.2020347776878488
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.2126751205837213
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.21443040385125284
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.2157341180365545
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.21804026843369093
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.22229130284454768
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.22384546934860447
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.22695359651749683
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.22783067946486082
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.2289754043865855
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.23671738839803502
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.24726750683973028
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.24977592403878873
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.25106157203402774
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.2588101307821786
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.2620087334509985
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.26421175727504875
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.2795108896893221
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.28152925684414054
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.2867299845449337
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.2880160150977416
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.2891753154731367
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.3005226996214601
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.3038792585407949
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.30395066493067924
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.30422204808892284
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3054955555781314
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.3067177647556833
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.31426065727004304
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.3151647054145174
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.3261680839469874
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.32866049174515577
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.3413390203301065
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.3429496328384526
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.3452234752581422
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.3520975449350406
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.3579864003927343
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.36140375227835164
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.36538012252046226
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.3699460671812667
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.38342104173732255
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.3862118344271084
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.38854189368941944
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.38928227897880385
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.3914391206517836
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.39545411831719135
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.4000035163651637
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.40510136822127285
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.40609560673523964
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.40696294213229195
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.4114232195582751
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.4154635640801715
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.4167627941039537
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.41925863487564663
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.42135382339623
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.4246274757381817
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.42576501635205416
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.4295894765206647
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.44167122247402185
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.44198946001051
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.44591980162907874
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.45196330143937213
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.45248879823471166
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.45618141540943025
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.45915747476423746
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.4612225924356252
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.4670761105053067
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.4717358940292949
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.4755405684768673
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.47808986028223577
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.48033235468310426
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.48160354143491096
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.48911738175148645
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.48931661477216826
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.49853745977378
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.5120191825628762
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.525166390191146
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.5295044544839405
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.5332885463730594
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.5343830838399488
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.5412544165147004
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.5418055298455808
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.5427217664295508
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.5433413717277688
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.5446135322457897
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.5704165949119376
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.5785600859263083
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.6011658675938613
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.6243148526231396
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.6255475237512748
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.6441947684544839
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.6871678687158137
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6887235926065289
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.7079988871103273
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.711722650235796
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.849912824310805
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 1.162848756436115
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.3747195546298316
+          }
+        ],
+        "excluded": {}
+      },
+      "affine": {
+        "source_sha256": "1693182d64f55d1d52e1ccc6ec6119ea0359ac35d017ff54461876afc7dee7be",
+        "within_time_halves_fingerprint": 0.04099811794735414,
+        "within_time_halves_icp": 0.11097911645479018,
+        "nearest": [
+          {
+            "reference": "RikitakeDynamo",
+            "fingerprint_distance": 0.15928347906898288,
+            "best_local_icp_rms": 0.28181762993646076
+          },
+          {
+            "reference": "Blasius",
+            "fingerprint_distance": 0.17205642549664366,
+            "best_local_icp_rms": 0.31721923399698254
+          },
+          {
+            "reference": "SprottC",
+            "fingerprint_distance": 0.1730201072803056,
+            "best_local_icp_rms": 0.2623418131270978
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "Blasius",
+            "distance": 0.17088887999813918
+          },
+          {
+            "seed": 102,
+            "reference": "RikitakeDynamo",
+            "distance": 0.16591381811422
+          },
+          {
+            "seed": 103,
+            "reference": "RikitakeDynamo",
+            "distance": 0.16105349358377594
+          },
+          {
+            "seed": 104,
+            "reference": "RikitakeDynamo",
+            "distance": 0.17838432207014202
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.15928347906898288
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.17205642549664366
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.1730201072803056
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.18357364029859474
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.183718057015349
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.18904627215807132
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.20119446565439947
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.2042115057508933
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.20642341327814098
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.20766455412238521
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.20840265836551908
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.22482182906364134
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.22523309933965327
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.22707473756142765
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.2298652311536517
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.23117599674938144
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.23779437037604984
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.24021327990857708
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.2411690564310174
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.24134927608262816
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.24397277247147933
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.24480350698211953
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.24567012879342254
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.24609582770809066
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.250219529345546
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.2536226637807583
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.25375095644285983
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.25453231821482547
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.2546763464277749
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.25519712662794547
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.2555298255974577
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.25697097380321604
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.25823037842485114
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.25868427958907986
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.2592704087995804
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.2593400122306045
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.2610524708229236
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.26213624275693176
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.2622552218466404
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.2638355247592443
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.26523496461354235
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.2669314717783392
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.2674274571597514
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.27316771213390806
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.2752479590694234
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.2758298339242471
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.27625708310439157
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.2868435095543611
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.289424759818902
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.2907648467213176
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.2908325003994717
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.292666331332925
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.2956919076343104
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.29611439916119325
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.2966030692783247
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.30110693052215676
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.30211251570517317
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.30458582031855586
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.30572420370650444
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.31114008514989755
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.31470683345129585
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.3163333274411241
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.3168648496383506
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.31776761631292805
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3178608063146798
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.3181187558992537
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.31913607395456367
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.32256888808983
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.3229924279087462
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.32371524306636207
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.3263285194105733
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.327267907512721
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.328913734240766
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.34234706922765246
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.3440678679415982
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.344123616808354
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.3468093652352942
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.3509372933416187
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.3519340785006355
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.35366198565452833
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.3596047276594615
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.3710801828419572
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.37662667725030535
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.3840047330171189
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.38499752017720335
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.3877350811824444
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.388261902268081
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.389875254426
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.3922985025306226
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.39423930917569683
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.3944269915219907
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.39522476652605454
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.4066323481912539
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.4073355266201525
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.40796781114219033
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.4085408868379524
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.4143225534512341
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.41510399141272847
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.426708293383274
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.4461587547230282
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.4722282044863477
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 0.48530469885014843
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.5183596959201775
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.5242426192153331
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.5407112632961395
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.5604296039624457
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.7366449342952519
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 0.9276317534064323
+          }
+        ],
+        "excluded": {}
+      }
+    },
+    "1504": {
+      "similarity": {
+        "source_sha256": "0923772eddafbd6b812b52aeb700e816b91cecf754350ac2c0aeb63607bc9781",
+        "within_time_halves_fingerprint": 0.018613207987438648,
+        "within_time_halves_icp": 0.03360513915563304,
+        "nearest": [
+          {
+            "reference": "JerkCircuit",
+            "fingerprint_distance": 0.18971611450193993,
+            "best_local_icp_rms": 0.20425707964272943
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "fingerprint_distance": 0.1949308999309477,
+            "best_local_icp_rms": 0.21425700749838397
+          },
+          {
+            "reference": "Coullet",
+            "fingerprint_distance": 0.21275748453113508,
+            "best_local_icp_rms": 0.22587442723616222
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "JerkCircuit",
+            "distance": 0.1824964259788155
+          },
+          {
+            "seed": 102,
+            "reference": "JerkCircuit",
+            "distance": 0.19904355298304827
+          },
+          {
+            "seed": 103,
+            "reference": "JerkCircuit",
+            "distance": 0.18978624476848854
+          },
+          {
+            "seed": 104,
+            "reference": "JerkCircuit",
+            "distance": 0.18913608598270806
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.18971611450193993
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.1949308999309477
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.21275748453113508
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.24714711180787935
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.25260057261400604
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.2613449296401702
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.2634179398762275
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.2636826577347795
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.2711294498021316
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.27172885999550017
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.2719324178391611
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.2726076538000606
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.273655036460171
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.2865689013875127
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.29250510539442126
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.2994931174750143
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.30131478530974093
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.3042885625964762
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.30443256126236
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.3071487830691546
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.3107940657323592
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.31300816986205715
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.31626872971766173
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.3191313586864641
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.32026157958422374
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.3226795719147583
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.32389144901374867
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.32736260186707244
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.32739328868931145
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.333779708497601
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.3350392277444219
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3351014827666492
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.34318786749709274
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.3474610368150288
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.35038944441550013
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.3525338400812721
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.35335098615326627
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.3553806798472314
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.3564525930815626
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.3608045991422056
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.3613285489229112
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.3627978641340128
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.3729523460918908
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.3744072285834535
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.3769486377798471
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.377300453277871
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.3799738376537395
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.3813968522059692
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.38289096346269186
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.3877963849195968
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.39012003316400123
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.39146497652331413
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.3964002185864986
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.40114058600784264
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.40504239079898896
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.4053611999313684
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.41121583119352
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.4117601024538878
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.415812421538002
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.4228889624740786
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.4232905407317188
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.42722552760955296
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.43027305697256596
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.43294112930371
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.43946298473975165
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.44806739598599077
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.45061277688984724
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.45568336756919103
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.4631755791980644
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.46375255316387676
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.46755146699415895
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.4770075530130389
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.48030577495085747
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.48042857477091105
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.4808516736905351
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.48342396630885504
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.4839335832445293
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.48555584882509994
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.48603904790190244
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.49747839056244625
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.49843926820696793
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.5072117180698521
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.5138206990113662
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.515788465924523
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.5175795746122268
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.5292075250538604
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.5328891468546537
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.5423874940039629
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.5461326741094202
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.5638663310472919
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.5738529563292782
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.5762931581468836
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.5785653500685752
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.587606288301838
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.6138891169682846
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.6211385550893024
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.6244965983773836
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.6510289068419318
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.6616920581813815
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.6772690474450798
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.6829284772080488
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.6916218932801987
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.7440500582561488
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.7826313979877912
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.8181045564778822
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.910481803651439
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 1.197549503230979
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.4063754223209002
+          }
+        ],
+        "excluded": {}
+      },
+      "affine": {
+        "source_sha256": "0923772eddafbd6b812b52aeb700e816b91cecf754350ac2c0aeb63607bc9781",
+        "within_time_halves_fingerprint": 0.020686866745594855,
+        "within_time_halves_icp": 0.03722510642190961,
+        "nearest": [
+          {
+            "reference": "SprottO",
+            "fingerprint_distance": 0.18680125282174015,
+            "best_local_icp_rms": 0.22485112529913515
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "fingerprint_distance": 0.19465724788602254,
+            "best_local_icp_rms": 0.22742390032199333
+          },
+          {
+            "reference": "Hadley",
+            "fingerprint_distance": 0.20062097958647185,
+            "best_local_icp_rms": 0.24175350912019752
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "SprottO",
+            "distance": 0.1843261259773999
+          },
+          {
+            "seed": 102,
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.18587198305996444
+          },
+          {
+            "seed": 103,
+            "reference": "SprottO",
+            "distance": 0.18474962443381832
+          },
+          {
+            "seed": 104,
+            "reference": "SprottO",
+            "distance": 0.1750525499662238
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "SprottO",
+            "distance": 0.18680125282174015
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.19465724788602254
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.20062097958647185
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.20292734001442783
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.20333560421532815
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.20609750580963226
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.2126752162964135
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.2170502509347002
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.22228842151868267
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.23009699319497534
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.23110875863311434
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.23310400596854736
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.23495530948641208
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.23500632206052835
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.23590380787611323
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.23720714807909968
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.23833859263802332
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.23956653380668752
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.2406771300448054
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.24467585541275155
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.24786908942077163
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.24926877840575828
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.25674437299088454
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.2580133668392698
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.26016431873768586
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.26221738330497607
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.2623537828767275
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.26366878224024626
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.26677826036984686
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.2671733970044607
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.268682267217215
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.27704485069630924
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.2777016511074737
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.27819063131900945
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.2792358602186834
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.2811290411566345
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.2813386555429994
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.28192605258084114
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.28323702163230824
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.2841321218152855
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.28823953440397665
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.2898116073743128
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.29316149668618635
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.2949118708242317
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.29619243526934824
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.2978051457276227
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.29794844658577596
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.30218138500837866
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.30408712679057814
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.30441746304079464
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.3049727238306956
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.30769475796103185
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.30795060751944275
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.31739448510689783
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.3177830254851264
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.31785513326535453
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.3184669895322141
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.31974067901632136
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.32088823982428294
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.32168025851290316
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.32437039717146177
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.33032739668254474
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.33121675049996235
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.3368083068769562
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.33726584116655406
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.33867553910544956
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.3437733102971411
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.34452539756850165
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.3463790900231586
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.3491054182041594
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.35400924709321774
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.3556320252787999
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.3569950042994532
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.35748636987321764
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.36119347235604254
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.3624028708442395
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.36416753107815236
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.36500517200491855
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.3673352334008774
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.36941618423814865
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.3699968028894124
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.3716115197870453
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.37246692963286004
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.3818400290456187
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.38525418124011923
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.3855137923611685
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.40017305548402854
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.40073845495668214
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.40909710938383703
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.424369048478794
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.4406960069244475
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.4639271698429166
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.4712294124140743
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.47872333853924254
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.48079589798625944
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.48498027785208386
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.4976293350719613
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.5094365629361962
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.5169964705921823
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.534053687602247
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.5455574750391843
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.5530751051653798
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.6377518419447374
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 0.6687232699545888
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6773824395582958
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.7529855142678417
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.8420937698031215
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.0789556539546592
+          }
+        ],
+        "excluded": {}
+      }
+    },
+    "1725": {
+      "similarity": {
+        "source_sha256": "05116aadb70087294aa5f8786cd15738b275736f3ffadabfb457c6cd9e0c4a3b",
+        "within_time_halves_fingerprint": 0.028223560352508763,
+        "within_time_halves_icp": 0.041201356431433654,
+        "nearest": [
+          {
+            "reference": "Bouali",
+            "fingerprint_distance": 0.1893736625337636,
+            "best_local_icp_rms": 0.25126556788740345
+          },
+          {
+            "reference": "Dadras",
+            "fingerprint_distance": 0.23505220949541794,
+            "best_local_icp_rms": 0.3514440224182985
+          },
+          {
+            "reference": "SprottD",
+            "fingerprint_distance": 0.23616967489178098,
+            "best_local_icp_rms": 0.27728650914748193
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "Bouali",
+            "distance": 0.1918591043270334
+          },
+          {
+            "seed": 102,
+            "reference": "Bouali",
+            "distance": 0.18293289597461948
+          },
+          {
+            "seed": 103,
+            "reference": "Bouali",
+            "distance": 0.1850034772206725
+          },
+          {
+            "seed": 104,
+            "reference": "Bouali",
+            "distance": 0.20229265774551108
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "Bouali",
+            "distance": 0.1893736625337636
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.23505220949541794
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.23616967489178098
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.24130948555164924
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.2715434282979666
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.27267671445029884
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.27900036151516094
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.2940879166079794
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.2986710567129834
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.30384787218005427
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.3087389080364464
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.31765270154681724
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.3176890944992364
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.31914098597507373
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.3207522072018946
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.3213253425522709
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.3258454621229427
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.32914242891092305
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.3346562673564296
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.34297051515842836
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.3457954393245027
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.3471050169609001
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.3482779628374729
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.34976548944026997
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.35490830063021717
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.35490920633102585
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.3573617560421847
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.35741864377134486
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.35892784724162685
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.3589758308711809
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.3591908703214661
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.36125583987818555
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3658675428295397
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.3661746656900823
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.3672619136235742
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.36828131986278134
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.37159050519677883
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.3720588681123787
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.3746693961916322
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.3813177149469626
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.38213796448345566
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.382346449737402
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.38272079543531834
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.395106934688228
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.3967899846672004
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.3970262128922783
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.40369040287956104
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.41111264691814053
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.4119117490156003
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.4154001019178881
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.4169176828850796
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.4347429970570071
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.4379880579706083
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.43936147949219045
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.44162032205925716
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.4437282762232054
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.46136614135002063
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.4698004648984122
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.4709597069952055
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.4807297920130844
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.4813952358350507
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.486449872385605
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.48654827188037014
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.4910569420589017
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.4938549516243111
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.49584176363556226
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.5063743324869148
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.508689472802244
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.508897496657314
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.5097134202091972
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.5128431751441482
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.5189667830363276
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.5233381380115427
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.5241682314191011
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.5280806211299565
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.5285527330860307
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.5295853388663349
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.531824202065857
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.5446394118121125
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.5463978525829621
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.5524824356959462
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.5598101184382894
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.562671176313934
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.5628899531062626
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.5645618424556225
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.5701846090846545
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.5736091885854091
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.5779368467144164
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.5807680078499708
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.5889648871624114
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.5987811092516943
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.6056731042888841
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.6112931295107098
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.615394808560126
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.6405442638689287
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.6461072427583557
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6573492095650229
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.6719158583283343
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.6794246216536303
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.6895752905087711
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.7034470501476946
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.7564729427683362
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.7610413979845914
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.7983131463976993
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.8009476243427774
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.8212285750161352
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 1.1618161929671131
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.3868007058835914
+          }
+        ],
+        "excluded": {}
+      },
+      "affine": {
+        "source_sha256": "05116aadb70087294aa5f8786cd15738b275736f3ffadabfb457c6cd9e0c4a3b",
+        "within_time_halves_fingerprint": 0.026616689965301574,
+        "within_time_halves_icp": 0.03664085930735845,
+        "nearest": [
+          {
+            "reference": "Bouali",
+            "fingerprint_distance": 0.1629305784211143,
+            "best_local_icp_rms": 0.25168701107665864
+          },
+          {
+            "reference": "SprottH",
+            "fingerprint_distance": 0.1688492924967238,
+            "best_local_icp_rms": 0.27812019023737056
+          },
+          {
+            "reference": "SprottF",
+            "fingerprint_distance": 0.17592717453661783,
+            "best_local_icp_rms": 0.283964386463297
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "Bouali",
+            "distance": 0.15491739233966323
+          },
+          {
+            "seed": 102,
+            "reference": "Bouali",
+            "distance": 0.15841216713892667
+          },
+          {
+            "seed": 103,
+            "reference": "Bouali",
+            "distance": 0.1396107250761782
+          },
+          {
+            "seed": 104,
+            "reference": "Bouali",
+            "distance": 0.173272908742099
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "Bouali",
+            "distance": 0.1629305784211143
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.1688492924967238
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.17592717453661783
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.18449572599917152
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.18765271308109152
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.19492263804536328
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.19504278891966748
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.1950914388368656
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.2014012780440665
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.20147513766147318
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.2024247050785075
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.205043274093837
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.21190606958223795
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.2168505892506873
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.21720662790338385
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.21842265309210318
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.2184785989284915
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.2217431107445918
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.22374289071931444
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.22392022493458516
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.22435698808093799
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.2262072275821125
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.22651977677992213
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.22673242395284626
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.22726039697536965
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.2273835289409472
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.23587588636780057
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.23838957855625767
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.23854492517142406
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.23911138781609936
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.24206355130858415
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.2426667986878249
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.24467119744582266
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.2480647607979837
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.24934076784145326
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.2531072766096451
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.25316578150927954
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.2568073140994523
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.2569653925226046
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.2570619917382959
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.25841162591913425
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.2603827505874989
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.2613105155224368
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.26174301501568187
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.26632572781784747
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.2708121490466407
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.2823884956006421
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.2894307121921095
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.30261399476444334
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.30645419853022315
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.31323545373242123
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.315864051789832
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.3178808989002387
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.3183737278265738
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.320995826355274
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.3238426030373097
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.32517032226191633
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.32750437486692024
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.3315509387765098
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.33825456778616436
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.33850807605221844
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.3385595163460476
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.338696098556012
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.3418633844730111
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.34247940266258226
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.34256814139003633
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.34276703004905856
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.35551658366076855
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.3568911790858586
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.3682814300698287
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.36928835626899387
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.3702487585521962
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.37319354500085367
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.37350618208177466
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.3850490777479084
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.38620651348209833
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.3864579818391165
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.38755733664931563
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.391528609532382
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.39973315176020174
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.40837887515280075
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.40979574266288343
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.41698383837617553
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.4263522233067863
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.43049312953552366
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.43306506687378316
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.4341919705980362
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.43776536878270234
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.44255401746279205
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.44332884288583396
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.4462607278544307
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.4512888623314266
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.45459397746663177
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.47199606764641333
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.4873453980610575
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.48929616127663494
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 0.490277312165055
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.4936885337015447
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.5028745458407328
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.5133541389428724
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.5384879081537388
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.540703695025071
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.5448199886700089
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.5512231602060564
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.5790689327333397
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.6178368944672277
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.7072906723897
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 0.8683304331653888
+          }
+        ],
+        "excluded": {}
+      }
+    },
+    "1873": {
+      "similarity": {
+        "source_sha256": "4982d330c4ba07b393f63fc748ee13d3b1b72acc0cf7f62127329e5645ccc1db",
+        "within_time_halves_fingerprint": 0.021864222124812458,
+        "within_time_halves_icp": 0.03529488245045729,
+        "nearest": [
+          {
+            "reference": "Coullet",
+            "fingerprint_distance": 0.2022444132676063,
+            "best_local_icp_rms": 0.24839929790085152
+          },
+          {
+            "reference": "SprottG",
+            "fingerprint_distance": 0.24034880150595045,
+            "best_local_icp_rms": 0.3033281777151223
+          },
+          {
+            "reference": "Finance",
+            "fingerprint_distance": 0.24733945900541973,
+            "best_local_icp_rms": 0.2505263914304407
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "Coullet",
+            "distance": 0.2074438447799301
+          },
+          {
+            "seed": 102,
+            "reference": "Coullet",
+            "distance": 0.2107395081380416
+          },
+          {
+            "seed": 103,
+            "reference": "Coullet",
+            "distance": 0.2141855641164117
+          },
+          {
+            "seed": 104,
+            "reference": "Coullet",
+            "distance": 0.20259520689729624
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "Coullet",
+            "distance": 0.2022444132676063
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.24034880150595045
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.24733945900541973
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.25165638981575733
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.25174186938876497
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.2519221502028103
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.26204808717026806
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.26469653349073485
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.26777136351383213
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.270652266645838
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.2713806501926468
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.27160265709273224
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.2720823039741185
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.27296058332138223
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.2816422866342335
+          },
+          {
+            "reference": "NoseHoover",
+            "distance": 0.2863378776438266
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.2882296437949353
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.2888082201990758
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.3009014650905442
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.30466592004894455
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.30788156048260584
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.30932384287153597
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.30962482783957146
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.31148964047159206
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3132800970141609
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.3155129614030992
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.3179582340055452
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.33371033445560094
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.33457880516910443
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.3368574601767271
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.33819642840496966
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.33911120028260383
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.3450926179891005
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.3460361470362717
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.34743581970672927
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.3502156349253582
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.35294908332905234
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.35371896116043644
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.35606838108918565
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.3561968731437128
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.35757843228976316
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.35883842062866433
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.35956322698470194
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.3598482058109854
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.36286992746794383
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.36479638798879555
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.37120800922186187
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.3737046770534811
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.37493030338168987
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.3780621705760752
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.3807874563035145
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.3810281172614898
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.38170871177325943
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.38222060278210535
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.38668663924433067
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.391973442366772
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.39980246044671464
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.4133476231119225
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.42403175093054085
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.4252401530423361
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.43014595314974835
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.43075117067212276
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.4317314501768931
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.4362784087772275
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.438224798576191
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.44030245005371027
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.44142856969800237
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.4417758887254313
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.44281728100661916
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.4434161142646603
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.45372235660481
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.45770911466486286
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.4649894418426843
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.4683453084754541
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.47797030979582705
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.49034649550471343
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.49235312119427765
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.493367600368145
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.5015786241667202
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.5072007689046244
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.5165959786243338
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.5198864140618021
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.522463061570199
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.5377884344959566
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.5453605769001738
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.5481997638990296
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.5613699334736022
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.5873897540433377
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.5895719262757093
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.5911817659980623
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.5930870145708254
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.5972896840671312
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.6145940446623548
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.6313539106865742
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.633885167210288
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.6538752027494981
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.6757809280502051
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.6798204195478225
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.6834887049990321
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.6890398412596264
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.704825935534886
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.7381843578483896
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.7686823503779541
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.8277647640713899
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.8315685526547091
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.9341372435200277
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 1.2410063025217637
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.4458584059828887
+          }
+        ],
+        "excluded": {}
+      },
+      "affine": {
+        "source_sha256": "4982d330c4ba07b393f63fc748ee13d3b1b72acc0cf7f62127329e5645ccc1db",
+        "within_time_halves_fingerprint": 0.02752379914946579,
+        "within_time_halves_icp": 0.048544020881079224,
+        "nearest": [
+          {
+            "reference": "NoseHoover",
+            "fingerprint_distance": 0.18700303427501164,
+            "best_local_icp_rms": 0.25160048171988597
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "fingerprint_distance": 0.194973668822501,
+            "best_local_icp_rms": 0.28877170725024676
+          },
+          {
+            "reference": "VallisElNino",
+            "fingerprint_distance": 0.19537373760902269,
+            "best_local_icp_rms": 0.2652210708366878
+          }
+        ],
+        "subsample_rankings": [
+          {
+            "seed": 101,
+            "reference": "NoseHoover",
+            "distance": 0.18401499143580485
+          },
+          {
+            "seed": 102,
+            "reference": "NoseHoover",
+            "distance": 0.188976045960282
+          },
+          {
+            "seed": 103,
+            "reference": "NoseHoover",
+            "distance": 0.1864407157489687
+          },
+          {
+            "seed": 104,
+            "reference": "NoseHoover",
+            "distance": 0.1782931904363639
+          }
+        ],
+        "all_rankings": [
+          {
+            "reference": "NoseHoover",
+            "distance": 0.18700303427501164
+          },
+          {
+            "reference": "Henon3D-0.0-0.85-0.7",
+            "distance": 0.194973668822501
+          },
+          {
+            "reference": "VallisElNino",
+            "distance": 0.19537373760902269
+          },
+          {
+            "reference": "Atlas-Cassiopea",
+            "distance": 0.19798511400782465
+          },
+          {
+            "reference": "LorenzBounded",
+            "distance": 0.1998782369055933
+          },
+          {
+            "reference": "Atlas-Aurelia",
+            "distance": 0.2017197396726347
+          },
+          {
+            "reference": "Lorenz",
+            "distance": 0.20189764860930404
+          },
+          {
+            "reference": "ThomasLabyrinth",
+            "distance": 0.20225011347456823
+          },
+          {
+            "reference": "SprottC",
+            "distance": 0.20331358721691137
+          },
+          {
+            "reference": "ShimizuMorioka",
+            "distance": 0.20481978193233064
+          },
+          {
+            "reference": "SprottMore",
+            "distance": 0.2091108556912396
+          },
+          {
+            "reference": "RayleighBenard",
+            "distance": 0.21390423742267162
+          },
+          {
+            "reference": "Halvorsen",
+            "distance": 0.2147815853088778
+          },
+          {
+            "reference": "Finance",
+            "distance": 0.21516832929771051
+          },
+          {
+            "reference": "SprottA",
+            "distance": 0.2165609892778702
+          },
+          {
+            "reference": "NewtonLiepnik",
+            "distance": 0.21738185836485407
+          },
+          {
+            "reference": "MooreSpiegel",
+            "distance": 0.21917281490118556
+          },
+          {
+            "reference": "SprottP",
+            "distance": 0.21933420528048897
+          },
+          {
+            "reference": "HastingsPowell",
+            "distance": 0.22184353440637122
+          },
+          {
+            "reference": "SprottL",
+            "distance": 0.22237132698002612
+          },
+          {
+            "reference": "Rucklidge",
+            "distance": 0.22253993668832484
+          },
+          {
+            "reference": "Sakarya",
+            "distance": 0.2246352510714888
+          },
+          {
+            "reference": "YuWang",
+            "distance": 0.22494896120672325
+          },
+          {
+            "reference": "Colpitts",
+            "distance": 0.2257763433333655
+          },
+          {
+            "reference": "YuWang2",
+            "distance": 0.22672035874249855
+          },
+          {
+            "reference": "Halvorsen-a1.6",
+            "distance": 0.22721470505092728
+          },
+          {
+            "reference": "BurkeShaw",
+            "distance": 0.2298837415069538
+          },
+          {
+            "reference": "Thomas",
+            "distance": 0.2300441628326247
+          },
+          {
+            "reference": "Coullet",
+            "distance": 0.23096992099418512
+          },
+          {
+            "reference": "Halvorsen-a1.7",
+            "distance": 0.23120596087499623
+          },
+          {
+            "reference": "Halvorsen-a1.3",
+            "distance": 0.23419082098491695
+          },
+          {
+            "reference": "Halvorsen-a1.5",
+            "distance": 0.23517988664856684
+          },
+          {
+            "reference": "CaTwoPlusQuasiperiodic",
+            "distance": 0.2359726901464358
+          },
+          {
+            "reference": "Aizawa",
+            "distance": 0.2380693869689851
+          },
+          {
+            "reference": "SanUmSrisuchinwong",
+            "distance": 0.23867162150478297
+          },
+          {
+            "reference": "SprottS",
+            "distance": 0.2396150940847061
+          },
+          {
+            "reference": "DequanLi",
+            "distance": 0.239968438437769
+          },
+          {
+            "reference": "Henon3D--0.02-0.85-0.7",
+            "distance": 0.24025073220895085
+          },
+          {
+            "reference": "JerkCircuit",
+            "distance": 0.24058657234441402
+          },
+          {
+            "reference": "QiChen",
+            "distance": 0.24093819881878237
+          },
+          {
+            "reference": "LuChen",
+            "distance": 0.24103994152213887
+          },
+          {
+            "reference": "Arneodo",
+            "distance": 0.24148403531227236
+          },
+          {
+            "reference": "LuChenCheng",
+            "distance": 0.2436869228047845
+          },
+          {
+            "reference": "SprottQ",
+            "distance": 0.2448056143685119
+          },
+          {
+            "reference": "Hadley",
+            "distance": 0.2500674127616315
+          },
+          {
+            "reference": "Chen",
+            "distance": 0.25135693451648267
+          },
+          {
+            "reference": "GuckenheimerHolmes",
+            "distance": 0.2551769861590974
+          },
+          {
+            "reference": "SprottG",
+            "distance": 0.25835575564455193
+          },
+          {
+            "reference": "GenesioTesi",
+            "distance": 0.26018704799961834
+          },
+          {
+            "reference": "AnishchenkoAstakhov",
+            "distance": 0.2646459704042534
+          },
+          {
+            "reference": "Bouali",
+            "distance": 0.2653177466638922
+          },
+          {
+            "reference": "Henon3D-0.0-0.815-0.7",
+            "distance": 0.26639661951209764
+          },
+          {
+            "reference": "IsothermalChemical",
+            "distance": 0.2668770998811531
+          },
+          {
+            "reference": "RikitakeDynamo",
+            "distance": 0.27005738152821146
+          },
+          {
+            "reference": "KickedTop-A15-b0.5",
+            "distance": 0.27100794801018624
+          },
+          {
+            "reference": "SprottB",
+            "distance": 0.2714793660051551
+          },
+          {
+            "reference": "SprottF",
+            "distance": 0.2715316638150943
+          },
+          {
+            "reference": "SprottE",
+            "distance": 0.27340074061210223
+          },
+          {
+            "reference": "RabinovichFabrikant",
+            "distance": 0.27456568015840843
+          },
+          {
+            "reference": "SprottR",
+            "distance": 0.2762558078916339
+          },
+          {
+            "reference": "SprottH",
+            "distance": 0.27991940372256735
+          },
+          {
+            "reference": "SprottO",
+            "distance": 0.2840392017841023
+          },
+          {
+            "reference": "SprottN",
+            "distance": 0.28424238001817037
+          },
+          {
+            "reference": "Blasius",
+            "distance": 0.28617525642061775
+          },
+          {
+            "reference": "CaTwoPlus",
+            "distance": 0.2900847950548504
+          },
+          {
+            "reference": "Atlas-Mobula",
+            "distance": 0.29497959842896887
+          },
+          {
+            "reference": "SprottK",
+            "distance": 0.29569469101857093
+          },
+          {
+            "reference": "SprottJ",
+            "distance": 0.29615670431995655
+          },
+          {
+            "reference": "Chua",
+            "distance": 0.30159243689977294
+          },
+          {
+            "reference": "Laser",
+            "distance": 0.3028520149079591
+          },
+          {
+            "reference": "Lorenz84",
+            "distance": 0.3035391443027218
+          },
+          {
+            "reference": "SaltonSea",
+            "distance": 0.3041394243441687
+          },
+          {
+            "reference": "WindmiReduced",
+            "distance": 0.3083272950321075
+          },
+          {
+            "reference": "SprottI",
+            "distance": 0.30914220091029976
+          },
+          {
+            "reference": "Bouali2",
+            "distance": 0.313571688718101
+          },
+          {
+            "reference": "Rossler",
+            "distance": 0.31434027501731704
+          },
+          {
+            "reference": "SprottM",
+            "distance": 0.3210024208971398
+          },
+          {
+            "reference": "AtmosphericRegime",
+            "distance": 0.3312991506062323
+          },
+          {
+            "reference": "Halvorsen-a1.95",
+            "distance": 0.3328825928569451
+          },
+          {
+            "reference": "SprottJerk",
+            "distance": 0.3331251484179899
+          },
+          {
+            "reference": "Halvorsen-a1.89",
+            "distance": 0.3338312188789031
+          },
+          {
+            "reference": "Halvorsen-a1.85",
+            "distance": 0.3355578631676479
+          },
+          {
+            "reference": "Halvorsen-a1.8",
+            "distance": 0.3383211670616164
+          },
+          {
+            "reference": "CellularNeuralNetwork",
+            "distance": 0.34344577348588834
+          },
+          {
+            "reference": "Halvorsen-a2.0",
+            "distance": 0.34683235594402995
+          },
+          {
+            "reference": "Henon3D-1.4-0.2-0.1",
+            "distance": 0.34946013444201357
+          },
+          {
+            "reference": "PehlivanWei",
+            "distance": 0.35467057035089944
+          },
+          {
+            "reference": "BeerRNN",
+            "distance": 0.35554091410138067
+          },
+          {
+            "reference": "Atlas-Naiad",
+            "distance": 0.36181604013530855
+          },
+          {
+            "reference": "Torus",
+            "distance": 0.3669333761985055
+          },
+          {
+            "reference": "BelousovZhabotinsky",
+            "distance": 0.3793780507860946
+          },
+          {
+            "reference": "Dadras",
+            "distance": 0.37958473276513616
+          },
+          {
+            "reference": "WangSun",
+            "distance": 0.39083324217245274
+          },
+          {
+            "reference": "MultiChua",
+            "distance": 0.3952046557149048
+          },
+          {
+            "reference": "SprottD",
+            "distance": 0.40673183108809713
+          },
+          {
+            "reference": "CoevolvingPredatorPrey",
+            "distance": 0.41803740325129823
+          },
+          {
+            "reference": "Tsucs2",
+            "distance": 0.4459119266179674
+          },
+          {
+            "reference": "ZhouChen",
+            "distance": 0.4588259942985565
+          },
+          {
+            "reference": "KickedTop-A35-b0.1",
+            "distance": 0.4671442028659475
+          },
+          {
+            "reference": "GlycolyticOscillation",
+            "distance": 0.4686423859853268
+          },
+          {
+            "reference": "SprottTorus",
+            "distance": 0.4787769292403007
+          },
+          {
+            "reference": "ChenLee",
+            "distance": 0.4887801991694669
+          },
+          {
+            "reference": "ItikBanksTumor",
+            "distance": 0.5753718301132361
+          },
+          {
+            "reference": "ExcitableCell",
+            "distance": 0.603226640767162
+          },
+          {
+            "reference": "HindmarshRose",
+            "distance": 0.6377747706210015
+          },
+          {
+            "reference": "LiuChen",
+            "distance": 0.7160616742933884
+          },
+          {
+            "reference": "PanXuZhou",
+            "distance": 0.8025668249324303
+          },
+          {
+            "reference": "KawczynskiStrizhak",
+            "distance": 1.0272038757681792
+          }
+        ],
+        "excluded": {}
+      }
+    }
+  },
+  "scope": "108 frozen reference regimes, not all known models or parameters. Sampled geometric distance cannot establish dynamical inequivalence, topology or historical uniqueness. Whitening removes affine distortion; it does not test nonlinear conjugacy.",
+  "alignment": "1500-point samples; 48 PCA starts, reflected fits allowed, 20 local ICP steps. Best found residual is not a global minimum.",
+  "exact_affine_control": 2.0183475960220235e-15
+}

@@ -1,0 +1,586 @@
+{
+  "ids": [
+    124,
+    611,
+    896,
+    1504,
+    1725,
+    1873
+  ],
+  "warm": 100000,
+  "count": 2000000,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "camera": "Right-handed PCA basis followed by the same orthogonal camera for every case; equal spatial units.",
+  "density": "All consecutive states; no smoothing or synthetic samples.",
+  "cases": [
+    {
+      "id": 124,
+      "source_sha256": "bbe70dd8315126fc4625bc6397a58b55e499978c227023b08e30414b468b58a3",
+      "states_sha256": "af673e0a6122d89736079be0cd5bf42e250ac90ca67ec94f961bd8ae188917c8",
+      "histogram_sha256": "7ef707223bbf9c30e013a5839b1dfac0034371b79b385e10678a04dbd088e8f0",
+      "center": [
+        0.5929527583458422,
+        -0.08520836612637261,
+        0.2440470447389758
+      ],
+      "basis": [
+        [
+          -0.9722889157611881,
+          -0.1374284556063916,
+          -0.18912346199658983
+        ],
+        [
+          0.22811611001637633,
+          -0.3806735251039789,
+          -0.8961309656718193
+        ],
+        [
+          0.05115959967523222,
+          -0.9144403134565714,
+          0.4014742936808251
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.0250495815511307,
+      "minima": [
+        6.366434920357378e-07,
+        0.044514745343888176
+      ],
+      "visits": [
+        1728319,
+        0,
+        271681,
+        0
+      ],
+      "portrait": {
+        "id": "constellation-124",
+        "file": "docs\\assets\\experimental\\constellation-dense\\constellation-124.png",
+        "sha256": "31ac64990336e1eb2941bc70c4716a95305a14a10c95a1b2552d215a7363f567",
+        "panels": [
+          {
+            "input": {
+              "label": "124",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-124-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "7ef707223bbf9c30e013a5839b1dfac0034371b79b385e10678a04dbd088e8f0",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                382,
+                220
+              ],
+              [
+                1363,
+                1555
+              ]
+            ],
+            "empty_margin": 54,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.188835062389159,
+            "occupied_bins": 24764,
+            "display_label": "Case 124"
+          }
+        ]
+      }
+    },
+    {
+      "id": 611,
+      "source_sha256": "c456d4cafc286e5b7c8014a76964d782d630cb50141e95ed0a22bee054cfd8ec",
+      "states_sha256": "a602e63f0277e92050f6575d4110ae916ff2764096f0a86d5f5f7ad1acda8ac2",
+      "histogram_sha256": "69e7a260b892d8ad128de6700ad15dfba951924b9b5843838ccc5ac31921f9e7",
+      "center": [
+        0.06645678839201305,
+        0.25596681699995416,
+        -0.255907608265816
+      ],
+      "basis": [
+        [
+          -0.5256894126919573,
+          -0.18244700688387375,
+          -0.8308812978173843
+        ],
+        [
+          0.5953841355888572,
+          -0.7765357922801843,
+          -0.20617927732169206
+        ],
+        [
+          -0.607592274862587,
+          -0.6030798064824441,
+          0.5168426980623833
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 2.732636219151501,
+      "minima": [
+        4.054373274886558e-07,
+        0.0017851066784351438
+      ],
+      "visits": [
+        0,
+        597969,
+        0,
+        1092734,
+        36057,
+        0,
+        3420,
+        114318,
+        155500,
+        2,
+        0,
+        0
+      ],
+      "portrait": {
+        "id": "constellation-611",
+        "file": "docs\\assets\\experimental\\constellation-dense\\constellation-611.png",
+        "sha256": "9a8a9d6877e710eadc9e2540402da425c403821f4672c362275b0eac793cb93d",
+        "panels": [
+          {
+            "input": {
+              "label": "611",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-611-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "69e7a260b892d8ad128de6700ad15dfba951924b9b5843838ccc5ac31921f9e7",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                335
+              ],
+              [
+                1077,
+                1259
+              ]
+            ],
+            "empty_margin": 42,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.012517399909774,
+            "occupied_bins": 80221,
+            "display_label": "Case 611"
+          }
+        ]
+      }
+    },
+    {
+      "id": 896,
+      "source_sha256": "1693182d64f55d1d52e1ccc6ec6119ea0359ac35d017ff54461876afc7dee7be",
+      "states_sha256": "b0ec6a2d51b9f7f0c2476e8e3b3cbc636ae75ab05e266fd021eab773143e6f65",
+      "histogram_sha256": "1ee8690bf8f56a53d28335c8a719c919cff95bf998e0e6d8168b330d0b6bdf60",
+      "center": [
+        0.1251778018717434,
+        -0.1853008256160422,
+        -0.4531232420143458
+      ],
+      "basis": [
+        [
+          -0.39832983612957373,
+          -0.4265206957130034,
+          -0.8120427561264755
+        ],
+        [
+          0.5048584960301757,
+          0.6371907146497126,
+          -0.5823279936172893
+        ],
+        [
+          0.7658010450731547,
+          -0.6419252988414493,
+          -0.038479475986294864
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.7644228667731177,
+      "minima": [
+        2.2676829325440906e-07,
+        0.00017001857854995593
+      ],
+      "visits": [
+        0,
+        1354482,
+        87133,
+        558385
+      ],
+      "portrait": {
+        "id": "constellation-896",
+        "file": "docs\\assets\\experimental\\constellation-dense\\constellation-896.png",
+        "sha256": "d9e3c1f2aa893089e39261c960bf55dac243b981b543b6fc85b401cba01d61fc",
+        "panels": [
+          {
+            "input": {
+              "label": "896",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-896-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "1ee8690bf8f56a53d28335c8a719c919cff95bf998e0e6d8168b330d0b6bdf60",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                271,
+                45
+              ],
+              [
+                1274,
+                1542
+              ]
+            ],
+            "empty_margin": 60,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.165485010604455,
+            "occupied_bins": 95937,
+            "display_label": "Case 896"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1504,
+      "source_sha256": "0923772eddafbd6b812b52aeb700e816b91cecf754350ac2c0aeb63607bc9781",
+      "states_sha256": "147a5dd02822dd709924c5e2b47ec10d9e37696724b44b6a0c75bfce5e473a8d",
+      "histogram_sha256": "49d5a13836dfe034c8b80f17174f3f276dc942ef3ae726d8806fe0f65cd6793d",
+      "center": [
+        -0.21923618189192007,
+        0.7252968813131128,
+        0.005248241084452818
+      ],
+      "basis": [
+        [
+          -0.295957737264115,
+          0.8931564141148178,
+          0.33864529773653346
+        ],
+        [
+          -0.08157116220821914,
+          -0.3768648989821004,
+          0.9226694930532879
+        ],
+        [
+          0.9517117017508537,
+          0.24544748489396184,
+          0.18439188949008256
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.169145901380432,
+      "minima": [
+        4.913651578286604e-06,
+        0.14751872239861621
+      ],
+      "visits": [
+        1075759,
+        861957,
+        62284,
+        0
+      ],
+      "portrait": {
+        "id": "constellation-1504",
+        "file": "docs\\assets\\experimental\\constellation-dense\\constellation-1504.png",
+        "sha256": "1d1c1b5e2823e7cf7b77e2b150b3bae76a08ae1285b39d60a75d925f49fd8360",
+        "panels": [
+          {
+            "input": {
+              "label": "1504",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-1504-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "49d5a13836dfe034c8b80f17174f3f276dc942ef3ae726d8806fe0f65cd6793d",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                274,
+                91
+              ],
+              [
+                1362,
+                1555
+              ]
+            ],
+            "empty_margin": 59,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.358107201639269,
+            "occupied_bins": 157695,
+            "display_label": "Case 1504"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1725,
+      "source_sha256": "05116aadb70087294aa5f8786cd15738b275736f3ffadabfb457c6cd9e0c4a3b",
+      "states_sha256": "68cc8fe245acb20de55839b5556324868dbdf39af86e192ec4feff2bb52d79d6",
+      "histogram_sha256": "188c5a2f808ff8da5a8b4bb98b722bab9e6b51d3a8eab53bdd7ece431d086406",
+      "center": [
+        0.3081895251926249,
+        -0.8235180930103392,
+        -0.06911975182840811
+      ],
+      "basis": [
+        [
+          0.779884556824685,
+          0.4603301809609564,
+          0.4241181468916637
+        ],
+        [
+          0.1090162451973643,
+          0.5673354687828813,
+          -0.816238889139679
+        ],
+        [
+          -0.6163566632311475,
+          0.6828078722139643,
+          0.3922727027632758
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.9846647396629157,
+      "minima": [
+        3.504209585003526e-07,
+        0.08768819051357583
+      ],
+      "visits": [
+        378992,
+        1404796,
+        216212,
+        0,
+        0,
+        0
+      ],
+      "portrait": {
+        "id": "constellation-1725",
+        "file": "docs\\assets\\experimental\\constellation-dense\\constellation-1725.png",
+        "sha256": "d27271e3049cd7fbc3889715b580523b3ef47571f499fce1fd8700b9dda502c0",
+        "panels": [
+          {
+            "input": {
+              "label": "1725",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-1725-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "188c5a2f808ff8da5a8b4bb98b722bab9e6b51d3a8eab53bdd7ece431d086406",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                494,
+                45
+              ],
+              [
+                1205,
+                1167
+              ]
+            ],
+            "empty_margin": 45,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.454520710859712,
+            "occupied_bins": 73356,
+            "display_label": "Case 1725"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1873,
+      "source_sha256": "4982d330c4ba07b393f63fc748ee13d3b1b72acc0cf7f62127329e5645ccc1db",
+      "states_sha256": "e12822ea5df05f56bc59ba60ab526dba2f72de547e99a15666b3b89e674e29ba",
+      "histogram_sha256": "b4d28572dfd0877fa5a1917394bbf7a7dbd08fb6780491a7702a4d312f61c8d4",
+      "center": [
+        -0.21338771511525062,
+        -0.49004811486432404,
+        -0.10726139551764677
+      ],
+      "basis": [
+        [
+          0.008949913914391655,
+          0.9904382603495131,
+          -0.13766608687964887
+        ],
+        [
+          0.3603003741952705,
+          0.12523022521635155,
+          0.9243922495602237
+        ],
+        [
+          0.9327934065995929,
+          -0.05787437367343094,
+          -0.3557344760860761
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.0610343967163922,
+      "minima": [
+        5.413091048733776e-07,
+        0.0006322016337436428
+      ],
+      "visits": [
+        45950,
+        0,
+        47993,
+        154060,
+        881454,
+        870543
+      ],
+      "portrait": {
+        "id": "constellation-1873",
+        "file": "docs\\assets\\experimental\\constellation-dense\\constellation-1873.png",
+        "sha256": "03e4d6e1caff75c87e64ef25a6b5b015e622da60b8a2bea1d9539cbaf101cee3",
+        "panels": [
+          {
+            "input": {
+              "label": "1873",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-1873-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "b4d28572dfd0877fa5a1917394bbf7a7dbd08fb6780491a7702a4d312f61c8d4",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                124
+              ],
+              [
+                1532,
+                1546
+              ]
+            ],
+            "empty_margin": 60,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 8.52162867137384,
+            "occupied_bins": 26698,
+            "display_label": "Case 1873"
+          }
+        ]
+      }
+    }
+  ],
+  "seconds": 41.688260555267334
+}

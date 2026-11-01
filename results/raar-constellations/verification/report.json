@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "inventory_files": 172,
+  "inventory_sha256": "5140b21567f1ae8a5b02fb1d1f950d32d88a22517b74b1cdba81e5b1da887560",
+  "cases": [
+    {
+      "id": 124,
+      "long_steps": 5000000,
+      "dense_states": 2000000,
+      "long_replay": "bitwise equal",
+      "dense_replay": "bitwise equal",
+      "histogram": "bitwise equal"
+    },
+    {
+      "id": 611,
+      "long_steps": 5000000,
+      "dense_states": 2000000,
+      "long_replay": "bitwise equal",
+      "dense_replay": "bitwise equal",
+      "histogram": "bitwise equal"
+    },
+    {
+      "id": 896,
+      "long_steps": 5000000,
+      "dense_states": 2000000,
+      "long_replay": "bitwise equal",
+      "dense_replay": "bitwise equal",
+      "histogram": "bitwise equal"
+    },
+    {
+      "id": 1504,
+      "long_steps": 5000000,
+      "dense_states": 2000000,
+      "long_replay": "bitwise equal",
+      "dense_replay": "bitwise equal",
+      "histogram": "bitwise equal",
+      "reduced_fresh_run_bitwise_equal": true,
+      "observed_inactive_site_squared_distance_margin": 1.8166204502224368
+    },
+    {
+      "id": 1725,
+      "long_steps": 5000000,
+      "dense_states": 2000000,
+      "long_replay": "bitwise equal",
+      "dense_replay": "bitwise equal",
+      "histogram": "bitwise equal",
+      "reduced_fresh_run_bitwise_equal": false,
+      "observed_inactive_site_squared_distance_margin": 0.24164862449073315
+    },
+    {
+      "id": 1873,
+      "long_steps": 5000000,
+      "dense_states": 2000000,
+      "long_replay": "bitwise equal",
+      "dense_replay": "bitwise equal",
+      "histogram": "bitwise equal"
+    }
+  ],
+  "seconds": 46.977461099624634,
+  "scope": "Numerical replay and data accounting, not a proof of chaos, a basin or historical novelty."
+}

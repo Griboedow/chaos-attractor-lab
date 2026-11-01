@@ -1,0 +1,100 @@
+{
+  "id": 611,
+  "source_sha256": "c456d4cafc286e5b7c8014a76964d782d630cb50141e95ed0a22bee054cfd8ec",
+  "states_sha256": "a602e63f0277e92050f6575d4110ae916ff2764096f0a86d5f5f7ad1acda8ac2",
+  "histogram_sha256": "69e7a260b892d8ad128de6700ad15dfba951924b9b5843838ccc5ac31921f9e7",
+  "center": [
+    0.06645678839201305,
+    0.25596681699995416,
+    -0.255907608265816
+  ],
+  "basis": [
+    [
+      -0.5256894126919573,
+      -0.18244700688387375,
+      -0.8308812978173843
+    ],
+    [
+      0.5953841355888572,
+      -0.7765357922801843,
+      -0.20617927732169206
+    ],
+    [
+      -0.607592274862587,
+      -0.6030798064824441,
+      0.5168426980623833
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 2.732636219151501,
+  "minima": [
+    4.054373274886558e-07,
+    0.0017851066784351438
+  ],
+  "visits": [
+    0,
+    597969,
+    0,
+    1092734,
+    36057,
+    0,
+    3420,
+    114318,
+    155500,
+    2,
+    0,
+    0
+  ],
+  "portrait": {
+    "id": "constellation-611",
+    "file": "docs\\assets\\experimental\\constellation-dense\\constellation-611.png",
+    "sha256": "9a8a9d6877e710eadc9e2540402da425c403821f4672c362275b0eac793cb93d",
+    "panels": [
+      {
+        "input": {
+          "label": "611",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-611-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "69e7a260b892d8ad128de6700ad15dfba951924b9b5843838ccc5ac31921f9e7",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            45,
+            335
+          ],
+          [
+            1077,
+            1259
+          ]
+        ],
+        "empty_margin": 42,
+        "square_rebin_factor": 1,
+        "zero_padding": [
+          0,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 7.012517399909774,
+        "occupied_bins": 80221,
+        "display_label": "Case 611"
+      }
+    ]
+  }
+}

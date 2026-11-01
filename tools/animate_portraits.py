@@ -1,4 +1,4 @@
-"""Slow rigid-camera rotations of the seven main-page state portraits."""
+"""Slow rigid-camera rotations of the selected main-page state portraits."""
 from pathlib import Path
 import argparse,hashlib,json,subprocess,sys,time
 import numpy as np
@@ -25,7 +25,17 @@ def old_camera(az,el):
 
 def load_views(row):
     views=[];records=[];family=row['id']
-    if family=='icosahedral':
+    if row.get('animation_panels'):
+        assert len(row['animation_panels'])==len(row['panels'])
+        for spec in row['animation_panels']:
+            source=ROOT/spec['source'];metadata_path=ROOT/spec['metadata_source']
+            meta=json.loads(metadata_path.read_text(encoding='utf-8'))
+            with np.load(data_path(source)) as data:z=data[spec.get('key','states')][-spec['last_count']:]
+            basis=np.array(meta['basis']);C=full_camera(meta['projection'])
+            assert np.max(abs(basis.T@basis-np.eye(3)))<1e-12 and np.linalg.det(basis)>.999999999
+            q=((z-np.array(meta['center']))@basis)@C.T;views.append(q)
+            records.append({'source':spec['source'],'source_sha256':digest(source),'metadata_source':spec['metadata_source'],'metadata_sha256':digest(metadata_path),'samples':len(z),'center':meta['center'],'basis':basis.tolist(),'camera':C.tolist(),'mark':'density','selection':f"Last {spec['last_count']} consecutive states of the archived unthinned rendering input."})
+    elif family=='icosahedral':
         source=ROOT/'results/portrait-presentation/icosa-animation.npz'
         with np.load(data_path(source)) as d:
             for ident in [177,183]:

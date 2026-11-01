@@ -1,0 +1,164 @@
+{
+  "ids": [
+    1504,
+    1725
+  ],
+  "selected_after": "Dense portraits, five-million-step checks and 33-start cohorts.",
+  "sweep": {
+    "beta_grid": [
+      0.85,
+      0.9995,
+      300
+    ],
+    "warm": 5000,
+    "observed": 15000,
+    "windows": 10,
+    "initial": [
+      0.317,
+      -0.211,
+      0.419
+    ]
+  },
+  "reduction": "Remove sites unvisited in the dense post-warmup sample; fresh run from the original initial state. Numerical comparison only; no global inactive-site proof.",
+  "cases": [
+    {
+      "id": 1504,
+      "source_sha256": "147a5dd02822dd709924c5e2b47ec10d9e37696724b44b6a0c75bfce5e473a8d",
+      "active_sites": [
+        0,
+        1,
+        2
+      ],
+      "reduced_distance_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fixed_point_diagnostics": [
+        {
+          "branch": 0,
+          "radial_point_norm": 0.9491333361856442,
+          "radial_minus_beta": 0.016283291269260314,
+          "candidate": [
+            -0.951249733640622,
+            1.3552547610956815,
+            12.491479100831336
+          ],
+          "nearest": 1,
+          "branch_distance_excess": 53.45227926033181,
+          "admissible": false
+        },
+        {
+          "branch": 1,
+          "radial_point_norm": 0.4957482050829938,
+          "radial_minus_beta": -0.4371018398333901,
+          "admissible": false
+        },
+        {
+          "branch": 2,
+          "radial_point_norm": 1.2178315134559126,
+          "radial_minus_beta": 0.28498146853952866,
+          "candidate": [
+            -1.4716372172040468,
+            1.050813075049799,
+            3.5463613788052535
+          ],
+          "nearest": 1,
+          "branch_distance_excess": 16.44089780305928,
+          "admissible": false
+        },
+        {
+          "branch": 3,
+          "radial_point_norm": 1.6577561932793918,
+          "radial_minus_beta": 0.7249061483630079,
+          "candidate": [
+            5.395156853219479,
+            5.1807339158152015,
+            0.14728602514691355
+          ],
+          "nearest": 2,
+          "branch_distance_excess": 29.272876121937585,
+          "admissible": false
+        }
+      ],
+      "sweep_complete": 300,
+      "sweep_positive_all_windows": 236
+    },
+    {
+      "id": 1725,
+      "source_sha256": "68cc8fe245acb20de55839b5556324868dbdf39af86e192ec4feff2bb52d79d6",
+      "active_sites": [
+        0,
+        1,
+        2
+      ],
+      "reduced_distance_quantiles": [
+        8.897974590547209e-05,
+        0.0005558655216063129,
+        0.0017822471003312405
+      ],
+      "fixed_point_diagnostics": [
+        {
+          "branch": 0,
+          "radial_point_norm": 1.2718240932180223,
+          "radial_minus_beta": 0.3011632874422383,
+          "candidate": [
+            -4.602897229225257,
+            6.199253744702422,
+            16.627510499253564
+          ],
+          "nearest": 3,
+          "branch_distance_excess": 36.77956508622054,
+          "admissible": false
+        },
+        {
+          "branch": 1,
+          "radial_point_norm": 0.9122423113768511,
+          "radial_minus_beta": -0.058418494398932874,
+          "admissible": false
+        },
+        {
+          "branch": 2,
+          "radial_point_norm": 0.45290205474222883,
+          "radial_minus_beta": -0.5177587510335551,
+          "admissible": false
+        },
+        {
+          "branch": 3,
+          "radial_point_norm": 0.5692861237022734,
+          "radial_minus_beta": -0.40137468207351057,
+          "admissible": false
+        },
+        {
+          "branch": 4,
+          "radial_point_norm": 0.9748776487500569,
+          "radial_minus_beta": 0.0042168429742729385,
+          "candidate": [
+            1.7684819988087732,
+            -0.3663448808745692,
+            20.086604932524455
+          ],
+          "nearest": 1,
+          "branch_distance_excess": 32.833065090479806,
+          "admissible": false
+        },
+        {
+          "branch": 5,
+          "radial_point_norm": 1.3275465740813834,
+          "radial_minus_beta": 0.3568857683055995,
+          "candidate": [
+            -8.479482201042538,
+            4.303505622522369,
+            -2.8971442146690265
+          ],
+          "nearest": 2,
+          "branch_distance_excess": 23.836681032165615,
+          "admissible": false
+        }
+      ],
+      "sweep_complete": 300,
+      "sweep_positive_all_windows": 105
+    }
+  ],
+  "seconds": 13.184382438659668
+}

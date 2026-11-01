@@ -95,7 +95,7 @@
       "group": "Numerical algorithms",
       "report": "docs/raar-symbolic-dynamics.md",
       "source_portrait": "docs/assets/raar-circles-geometry.png",
-      "description": "Case 1051 has a certified symbolic invariant set with entropy at least log(2)/49 per iteration. Attraction of that set is unproved. Case 1483 is a numerical companion.",
+      "description": "Case 1051 has a certified attracting positive-entropy set containing the symbolic dynamics and a Whitney fold. Transitivity and equality with the numerical portrait remain unresolved. Case 1483 is a numerical companion.",
       "panels": [
         {
           "label": "1051",
@@ -114,6 +114,90 @@
       ],
       "featured": true,
       "coordinates": "Full spatial state (x, y, z); archived orthographic cameras."
+    },
+    {
+      "id": "raar-constellations",
+      "title": "RAAR with finite spatial point sets",
+      "group": "Numerical algorithms",
+      "report": "docs/raar-constellations.md",
+      "source_portrait": "docs/assets/experimental/constellation-dense/constellation-1504.png",
+      "description": "Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.",
+      "panels": [
+        {
+          "label": "1504",
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-1504-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "1725",
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-1725-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.",
+      "featured": true,
+      "animation_panels": [
+        {
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-1504-states.npz",
+          "metadata_source": "results/raar-constellations/runs/raar-constellation-render01/case-1504.json",
+          "key": "states",
+          "last_count": 250000
+        },
+        {
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-1725-states.npz",
+          "metadata_source": "results/raar-constellations/runs/raar-constellation-render01/case-1725.json",
+          "key": "states",
+          "last_count": 250000
+        }
+      ]
+    },
+    {
+      "id": "raar-constellation-columns",
+      "title": "Finite-point RAAR: fragmented columns and sheets",
+      "group": "Numerical algorithms",
+      "report": "docs/raar-constellations.md",
+      "source_portrait": "docs/assets/experimental/constellation-dense/constellation-124.png",
+      "description": "Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.",
+      "panels": [
+        {
+          "label": "124",
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-124-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "896",
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-896-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait."
+    },
+    {
+      "id": "raar-constellation-fans",
+      "title": "Finite-point RAAR: fans and sparse branches",
+      "group": "Numerical algorithms",
+      "report": "docs/raar-constellations.md",
+      "source_portrait": "docs/assets/experimental/constellation-dense/constellation-611.png",
+      "description": "Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.",
+      "panels": [
+        {
+          "label": "611",
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-611-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "1873",
+          "source": "results/raar-constellations/runs/raar-constellation-render01/case-1873-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait."
     },
     {
       "id": "anderson",

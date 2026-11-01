@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-01",
+  "verdict": "Known algorithm and known finite-alphabet phase-retrieval geometry. Exact historical status of the selected spatial configurations remains unresolved; unsuccessful searches do not establish novelty.",
+  "sources": [
+    {
+      "title": "Bit retrieval: intractability and application to digital watermarking",
+      "author": "Veit Elser",
+      "version": "arXiv math/0309387v1, submitted 2003-09-23",
+      "url": "https://arxiv.org/abs/math/0309387v1",
+      "pdf_sha256": "2e25d7f0a05594e8dd3135c8527ed4b9e97e71f2b36f8b342ee476b08e214406",
+      "reviewed": "PDF text page 13: torus / discrete hypercube projection formulas; page 25: difference-map relation and chaotic-mixing hypothesis. Abstract also read. No complete-paper review.",
+      "implication": "Discrete alphabet plus Fourier-modulus geometry and conjectural chaotic algorithmic search are established prior ideas."
+    },
+    {
+      "title": "The complexity of bit retrieval",
+      "author": "Veit Elser",
+      "version": "arXiv 1601.03428v1, submitted 2016-01-13",
+      "url": "https://arxiv.org/abs/1601.03428v1",
+      "pdf_sha256": "3cc04ad5e29e078fa5d094d3ca883b1a2ec7559148e09397f8f5e8aa5ad93ca3",
+      "reviewed": "Section 6 excerpts, printed pages 24-29 and 31-33, including equation 48 and its local discussion. Pages 32-33 and Figures 11-12 visually inspected. Other sections were searched, not completely reviewed.",
+      "implication": "RRR, a finite hypercube, an inconsistent 41-component example and attraction to Voronoi facets are already described. The flow-limit schematic is not an identified match to these fixed-beta RAAR clouds.",
+      "access": "An OSTI PDF request timed out; the arXiv PDF was successfully retrieved. Local scratch folder includes 2017 in its name, but the reviewed version is the 2016 preprint."
+    },
+    {
+      "title": "Analysis of crystallographic phase retrieval using iterative projection algorithms",
+      "authors": ["Michael J. Barnett", "Rick P. Millane", "Richard L. Kingston"],
+      "published_online": "2024-10-23",
+      "doi": "10.1107/S2059798324009902",
+      "url": "https://journals.iucr.org/d/issues/2024/11/00/nz5017/index.html",
+      "reviewed": "Publisher HTML abstract and Sections 2.1.3-2.1.4, equations 4a, 5a and 6. No full-paper review.",
+      "implication": "The exact RAAR expansion is established, and its distinction from RRR depends on the parameter and order of projections.",
+      "access": "Browser search tool successfully returned publisher full text. Direct archival HTTP request returned 403; no local HTML hash is asserted. Earlier PMC access returned a CAPTCHA."
+    }
+  ],
+  "equivalence_analysis": "Our explicit N=3 real-Fourier coordinate calculation turns a fixed signed DC component and a fixed conjugate-pair modulus into a circle; the binary alphabet becomes a rotated cube. This places the constraint geometry in an established class. Generic rotations and other finite alphabets need not equal that exact Fourier instance. Different input sets do not prove inequivalent attractor dynamics.",
+  "queries": [
+    "RAAR finite alphabet",
+    "Douglas Rachford constellation",
+    "circle quantizer strange attractor",
+    "relaxed averaged alternating reflections quantization",
+    "bit retrieval RAAR",
+    "bit retrieval attractor",
+    "Elser bit retrieval three bits circle",
+    "RAAR circle finite",
+    "Douglas Rachford finite set chaotic",
+    "circle discrete set attractor projection",
+    "relaxed averaged alternating attractor circle",
+    "Douglas-Rachford finite set circle",
+    "RAAR polyhedron chaos"
+  ],
+  "unreviewed_leads": [
+    "Bauschke, Dao and Lindstrom, Douglas-Rachford for a hyperplane and a doubleton: primary abstract/search result only in this campaign; curved-circle and beta<1 changes require separate analysis.",
+    "Elser 2025 monograph Chapter 5 remains an access/review gap from the earlier priority audit.",
+    "A systematic comparison with discontinuous quantized-feedback and digital-filter maps has not been completed."
+  ],
+  "catalog_scope": "108 specific frozen regimes, two empirical normalizations and local sample alignments. Neither all known parameters nor nonlinear coordinate changes are covered."
+}

@@ -26,7 +26,7 @@ no additional trajectory states are inferred. Discrete map images are not
 joined by curves. No symmetry replication, smoothing or synthetic image
 generation is used.
 
-The seven main-page portraits are 800 by 480 pixel lossless animated WebP files
+The main-page portraits are 800 by 480 pixel lossless animated WebP files
 in the same palette. A rigid camera rotates around the displayed vertical axis
 through 600 views, each shown for 40 milliseconds: 25 frames per second and
 one revolution in 24 seconds. Consecutive camera angles differ by 0.6 degrees. The
@@ -38,7 +38,8 @@ links to its static portrait; the gallery remains static.
 hashes, retained states, orthogonal transforms, frame counts and durations.
 The icosahedral inputs retain 320,000 states per case; Anderson uses its archived
 100,000-state sample. RAAR, RK45 and smooth Yogi use the last 250,000 consecutive
-states of their archived animation inputs. Motor projections use the same
+states of their archived animation inputs. Finite-point RAAR uses the last 250,000
+consecutive states of each two-million-state input, with the static PCA camera. Motor projections use the same
 saved states as the static portraits. The [icosahedral input record](../results/portrait-presentation/README.md)
 identifies the denser sample and its check against the frozen evidence.
 

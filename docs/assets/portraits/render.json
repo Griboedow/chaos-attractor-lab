@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "bd626788cca12124f5fe14f84bc73d0d505120fc17dc2e52ffe72cedc01e91a2",
-  "catalog_sha256": "d8884bfce5bdc9bb8258dbe82f83d258cfd10af909e4ad3fe2498cff9a7d1370",
+  "catalog_sha256": "24fe8be8692e1e408e434e3fadf2b81cb81772608f4fd9b47f0db3cf5350ac9d",
   "size": [
     1920,
     1080
@@ -360,6 +360,231 @@
           "log_saturation": 8.523148189626655,
           "occupied_bins": 52735,
           "display_label": "Case 1483"
+        }
+      ]
+    },
+    {
+      "id": "raar-constellations",
+      "file": "docs/assets/portraits/raar-constellations.png",
+      "sha256": "31f39b1b83ea54957f6b1d30dcd4925f8d384aa7886a84533045b187c014fb8e",
+      "panels": [
+        {
+          "input": {
+            "label": "1504",
+            "source": "results/raar-constellations/runs/raar-constellation-render01/case-1504-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "49d5a13836dfe034c8b80f17174f3f276dc942ef3ae726d8806fe0f65cd6793d",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              274,
+              91
+            ],
+            [
+              1362,
+              1555
+            ]
+          ],
+          "empty_margin": 59,
+          "square_rebin_factor": 3,
+          "zero_padding": [
+            0,
+            2
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.022918861190725,
+          "occupied_bins": 79412,
+          "display_label": "Case 1504"
+        },
+        {
+          "input": {
+            "label": "1725",
+            "source": "results/raar-constellations/runs/raar-constellation-render01/case-1725-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "188c5a2f808ff8da5a8b4bb98b722bab9e6b51d3a8eab53bdd7ece431d086406",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              494,
+              45
+            ],
+            [
+              1205,
+              1167
+            ]
+          ],
+          "empty_margin": 45,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.51588048496568,
+          "occupied_bins": 21002,
+          "display_label": "Case 1725"
+        }
+      ]
+    },
+    {
+      "id": "raar-constellation-columns",
+      "file": "docs/assets/portraits/raar-constellation-columns.png",
+      "sha256": "dc7d37bc8a26a6a3dcde0fe642a8c9352c7645703adf638e22ca79f7583c59fe",
+      "panels": [
+        {
+          "input": {
+            "label": "124",
+            "source": "results/raar-constellations/runs/raar-constellation-render01/case-124-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "7ef707223bbf9c30e013a5839b1dfac0034371b79b385e10678a04dbd088e8f0",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              382,
+              220
+            ],
+            [
+              1363,
+              1555
+            ]
+          ],
+          "empty_margin": 54,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.188835062389159,
+          "occupied_bins": 24764,
+          "display_label": "Case 124"
+        },
+        {
+          "input": {
+            "label": "896",
+            "source": "results/raar-constellations/runs/raar-constellation-render01/case-896-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "1ee8690bf8f56a53d28335c8a719c919cff95bf998e0e6d8168b330d0b6bdf60",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              271,
+              45
+            ],
+            [
+              1274,
+              1542
+            ]
+          ],
+          "empty_margin": 60,
+          "square_rebin_factor": 3,
+          "zero_padding": [
+            2,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 6.645090969505644,
+          "occupied_bins": 53022,
+          "display_label": "Case 896"
+        }
+      ]
+    },
+    {
+      "id": "raar-constellation-fans",
+      "file": "docs/assets/portraits/raar-constellation-fans.png",
+      "sha256": "00311fa9b87509fb76888f13d9f3db9c4447bf875fc5db46a2480cd3761b6b5c",
+      "panels": [
+        {
+          "input": {
+            "label": "611",
+            "source": "results/raar-constellations/runs/raar-constellation-render01/case-611-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "69e7a260b892d8ad128de6700ad15dfba951924b9b5843838ccc5ac31921f9e7",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              45,
+              335
+            ],
+            [
+              1077,
+              1259
+            ]
+          ],
+          "empty_margin": 42,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.894578910170772,
+          "occupied_bins": 29879,
+          "display_label": "Case 611"
+        },
+        {
+          "input": {
+            "label": "1873",
+            "source": "results/raar-constellations/runs/raar-constellation-render01/case-1873-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "b4d28572dfd0877fa5a1917394bbf7a7dbd08fb6780491a7702a4d312f61c8d4",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              45,
+              124
+            ],
+            [
+              1532,
+              1546
+            ]
+          ],
+          "empty_margin": 60,
+          "square_rebin_factor": 3,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 8.960610138200826,
+          "occupied_bins": 16786,
+          "display_label": "Case 1873"
         }
       ]
     },

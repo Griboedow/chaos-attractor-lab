@@ -1,0 +1,75 @@
+{
+  "id": 1725,
+  "source_sha256": "68cc8fe245acb20de55839b5556324868dbdf39af86e192ec4feff2bb52d79d6",
+  "active_sites": [
+    0,
+    1,
+    2
+  ],
+  "reduced_distance_quantiles": [
+    8.897974590547209e-05,
+    0.0005558655216063129,
+    0.0017822471003312405
+  ],
+  "fixed_point_diagnostics": [
+    {
+      "branch": 0,
+      "radial_point_norm": 1.2718240932180223,
+      "radial_minus_beta": 0.3011632874422383,
+      "candidate": [
+        -4.602897229225257,
+        6.199253744702422,
+        16.627510499253564
+      ],
+      "nearest": 3,
+      "branch_distance_excess": 36.77956508622054,
+      "admissible": false
+    },
+    {
+      "branch": 1,
+      "radial_point_norm": 0.9122423113768511,
+      "radial_minus_beta": -0.058418494398932874,
+      "admissible": false
+    },
+    {
+      "branch": 2,
+      "radial_point_norm": 0.45290205474222883,
+      "radial_minus_beta": -0.5177587510335551,
+      "admissible": false
+    },
+    {
+      "branch": 3,
+      "radial_point_norm": 0.5692861237022734,
+      "radial_minus_beta": -0.40137468207351057,
+      "admissible": false
+    },
+    {
+      "branch": 4,
+      "radial_point_norm": 0.9748776487500569,
+      "radial_minus_beta": 0.0042168429742729385,
+      "candidate": [
+        1.7684819988087732,
+        -0.3663448808745692,
+        20.086604932524455
+      ],
+      "nearest": 1,
+      "branch_distance_excess": 32.833065090479806,
+      "admissible": false
+    },
+    {
+      "branch": 5,
+      "radial_point_norm": 1.3275465740813834,
+      "radial_minus_beta": 0.3568857683055995,
+      "candidate": [
+        -8.479482201042538,
+        4.303505622522369,
+        -2.8971442146690265
+      ],
+      "nearest": 2,
+      "branch_distance_excess": 23.836681032165615,
+      "admissible": false
+    }
+  ],
+  "sweep_complete": 300,
+  "sweep_positive_all_windows": 105
+}

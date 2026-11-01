@@ -70,6 +70,48 @@ Full three-state coordinates; archived orthographic cameras.
 
 ## Numerical algorithms
 
+### RAAR with finite spatial point sets
+
+![RAAR with finite spatial point sets](assets/portraits/raar-constellations.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
+
+Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.
+
+[Report and prior art](raar-constellations.md)
+
+### Finite-point RAAR: fragmented columns and sheets
+
+![Finite-point RAAR: fragmented columns and sheets](assets/portraits/raar-constellation-columns.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
+
+Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.
+
+[Report and prior art](raar-constellations.md)
+
+### Finite-point RAAR: fans and sparse branches
+
+![Finite-point RAAR: fans and sparse branches](assets/portraits/raar-constellation-fans.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
+
+Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.
+
+[Report and prior art](raar-constellations.md)
+
 ### RAAR between spatial circles
 
 ![RAAR between spatial circles](assets/portraits/raar.png)

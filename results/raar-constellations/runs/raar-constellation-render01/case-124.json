@@ -1,0 +1,92 @@
+{
+  "id": 124,
+  "source_sha256": "bbe70dd8315126fc4625bc6397a58b55e499978c227023b08e30414b468b58a3",
+  "states_sha256": "af673e0a6122d89736079be0cd5bf42e250ac90ca67ec94f961bd8ae188917c8",
+  "histogram_sha256": "7ef707223bbf9c30e013a5839b1dfac0034371b79b385e10678a04dbd088e8f0",
+  "center": [
+    0.5929527583458422,
+    -0.08520836612637261,
+    0.2440470447389758
+  ],
+  "basis": [
+    [
+      -0.9722889157611881,
+      -0.1374284556063916,
+      -0.18912346199658983
+    ],
+    [
+      0.22811611001637633,
+      -0.3806735251039789,
+      -0.8961309656718193
+    ],
+    [
+      0.05115959967523222,
+      -0.9144403134565714,
+      0.4014742936808251
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.0250495815511307,
+  "minima": [
+    6.366434920357378e-07,
+    0.044514745343888176
+  ],
+  "visits": [
+    1728319,
+    0,
+    271681,
+    0
+  ],
+  "portrait": {
+    "id": "constellation-124",
+    "file": "docs\\assets\\experimental\\constellation-dense\\constellation-124.png",
+    "sha256": "31ac64990336e1eb2941bc70c4716a95305a14a10c95a1b2552d215a7363f567",
+    "panels": [
+      {
+        "input": {
+          "label": "124",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-render01\\case-124-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "7ef707223bbf9c30e013a5839b1dfac0034371b79b385e10678a04dbd088e8f0",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            382,
+            220
+          ],
+          [
+            1363,
+            1555
+          ]
+        ],
+        "empty_margin": 54,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          1,
+          1
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 7.188835062389159,
+        "occupied_bins": 24764,
+        "display_label": "Case 124"
+      }
+    ]
+  }
+}

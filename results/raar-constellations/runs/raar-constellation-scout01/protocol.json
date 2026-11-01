@@ -1,0 +1,27 @@
+{
+  "seed": 2026110115,
+  "count": 2048,
+  "kinds": [
+    "tetrahedron vertices",
+    "octahedron vertices",
+    "cube vertices",
+    "icosahedron vertices"
+  ],
+  "warm": 5000,
+  "observed": 15000,
+  "windows": 10,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "checks": {
+    "n": 64,
+    "nested_formula": 4.440892098500626e-16,
+    "relative_fd_jacobian": 2.492437367607181e-10
+  },
+  "map": "beta/2*(R_A R_B+I)+(1-beta)P_B",
+  "source": "https://arxiv.org/abs/math/0405208",
+  "scope": "Known algorithm. Piecewise smooth map with Voronoi jumps. Local derivative growth does not certify chaos. No novelty claim.",
+  "source_sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1504,
+  "source_sha256": "147a5dd02822dd709924c5e2b47ec10d9e37696724b44b6a0c75bfce5e473a8d",
+  "active_sites": [
+    0,
+    1,
+    2
+  ],
+  "reduced_distance_quantiles": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fixed_point_diagnostics": [
+    {
+      "branch": 0,
+      "radial_point_norm": 0.9491333361856442,
+      "radial_minus_beta": 0.016283291269260314,
+      "candidate": [
+        -0.951249733640622,
+        1.3552547610956815,
+        12.491479100831336
+      ],
+      "nearest": 1,
+      "branch_distance_excess": 53.45227926033181,
+      "admissible": false
+    },
+    {
+      "branch": 1,
+      "radial_point_norm": 0.4957482050829938,
+      "radial_minus_beta": -0.4371018398333901,
+      "admissible": false
+    },
+    {
+      "branch": 2,
+      "radial_point_norm": 1.2178315134559126,
+      "radial_minus_beta": 0.28498146853952866,
+      "candidate": [
+        -1.4716372172040468,
+        1.050813075049799,
+        3.5463613788052535
+      ],
+      "nearest": 1,
+      "branch_distance_excess": 16.44089780305928,
+      "admissible": false
+    },
+    {
+      "branch": 3,
+      "radial_point_norm": 1.6577561932793918,
+      "radial_minus_beta": 0.7249061483630079,
+      "candidate": [
+        5.395156853219479,
+        5.1807339158152015,
+        0.14728602514691355
+      ],
+      "nearest": 2,
+      "branch_distance_excess": 29.272876121937585,
+      "admissible": false
+    }
+  ],
+  "sweep_complete": 300,
+  "sweep_positive_all_windows": 236
+}
