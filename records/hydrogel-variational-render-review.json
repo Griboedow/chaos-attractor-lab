@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-01T17:58:55.385Z",
+  "revision": "5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7",
+  "browser": "156.0.4314.58",
+  "playwright_version": "1.64.1",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "scope": "Eight changed Markdown pages opened at the published commit in Edge. DOM checks, loaded images, visual inspection of changed sections and three navigation clicks. Screenshots stay outside Git.",
+  "visual_review": [
+    "README.md",
+    "docs/README.md",
+    "docs/candidate-queue.md",
+    "docs/hydrogel-spatial-controls.md",
+    "docs/hydrogel-variational-checks.md",
+    "docs/reproduction.md",
+    "results/README.md",
+    "results/hydrogel-variational-checks/README.md"
+  ],
+  "visual_findings": "All three new displayed equations retain their terms, fractions, indices and delimiters. The growth-rate and implementation-control tables, diagnostic image, reproduction commands and changed index rows are legible. Long shell commands scroll horizontally. Three initial viewport captures did not reach their requested index text; separate element screenshots were captured and reviewed for those exact rows/paragraphs.",
+  "totals": {
+    "pages": 8,
+    "formulas": 62,
+    "image_occurrences": 46
+  },
+  "navigation": [
+    {
+      "label": "Numerical packet and reproduction",
+      "landed": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/results/hydrogel-variational-checks/README.md",
+      "passed": true
+    },
+    {
+      "label": "Research index",
+      "landed": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/README.md#research-index",
+      "passed": true
+    },
+    {
+      "label": "Morphoelastic hydrogel filament",
+      "landed": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/docs/hydrogel-variational-checks.md",
+      "passed": true
+    }
+  ],
+  "pages": [
+    {
+      "file": "README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/README.md",
+      "source_sha256": "4a7e14d2afe0f11092122207502427740e2d765941a4435e884861e98ed8e9c9",
+      "expected_display_math": 0,
+      "expected_inline_math": 1,
+      "display_math_count": 0,
+      "total_math_count": 1,
+      "table_count": 5,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "41b07d50bee58af2bc9b4c51e6f0e9b604552b012cb168258208882587db6aef",
+      "passed": true
+    },
+    {
+      "file": "docs/README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/docs/README.md",
+      "source_sha256": "5ab9d3f4fa613de18df29d1339f123fd6e192bba504c9d229c5132dafef783d5",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "table_count": 1,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "7b3438d685826421686839788fd435916682562dc1ca0c08327cc7f54accb62f",
+      "passed": true
+    },
+    {
+      "file": "docs/candidate-queue.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/docs/candidate-queue.md",
+      "source_sha256": "3e2bd44240bc012174b5de9a4829ff498f3c249cfafa948adffe202aff7fe6ba",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "table_count": 1,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "30dfb0acbfdae444cd0d8865ed7c48a3dda5cc482af4678f53ab344e5bb15433",
+      "passed": true
+    },
+    {
+      "file": "docs/hydrogel-spatial-controls.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/docs/hydrogel-spatial-controls.md",
+      "source_sha256": "f2ec6ea1bb4d17fa4d1bb71cffd31d3f541913ed3a9ead5454932b0d320f69f7",
+      "expected_display_math": 12,
+      "expected_inline_math": 42,
+      "display_math_count": 12,
+      "total_math_count": 54,
+      "table_count": 4,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "3c9ea6c07e451e4fd4251ff8e1e458d1bae7a1a8ef66cbed71d37e79c23be4fc",
+      "passed": true
+    },
+    {
+      "file": "docs/hydrogel-variational-checks.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/docs/hydrogel-variational-checks.md",
+      "source_sha256": "e3a63b4702a14c7df02e411da0b6229c1bc1d270e51a47b454883e4289653452",
+      "expected_display_math": 3,
+      "expected_inline_math": 4,
+      "display_math_count": 3,
+      "total_math_count": 7,
+      "table_count": 2,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "9e6de6a8b3b4587df1e356befef75b92f6a73aff8bb4e671615b1930170e025a",
+      "passed": true
+    },
+    {
+      "file": "docs/reproduction.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/docs/reproduction.md",
+      "source_sha256": "9b806f6a066f036771ab1ece81369a98945e69a2eb1a45879869c90d0e1d0867",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "table_count": 1,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "9cd73268611150d59770f630327da3242c5321a1bb19606af71e3f1823b60c8d",
+      "passed": true
+    },
+    {
+      "file": "results/README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/results/README.md",
+      "source_sha256": "3480746fbbf926c496dc9d2df2a02178a4c728938254f2513832cf36c838985e",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "table_count": 0,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "f3810fd0ea2ce5e98a18cdca2abdbd54500f53e9455e06b0656364237a5b497d",
+      "passed": true
+    },
+    {
+      "file": "results/hydrogel-variational-checks/README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/5a1369d41ba74c56bcbb2e0eeb97084f900ca7d7/results/hydrogel-variational-checks/README.md",
+      "source_sha256": "c03cfdb73b80873161944dfaa7a8ab5ec656562a7d71cc2f69bd566650032ed3",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "table_count": 1,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "screenshot_sha256": "6defd5c24fbd04718c64d7636d69290129ed1b37851d95fc81f40fd9580a6320",
+      "passed": true
+    }
+  ],
+  "detail_screenshots": [
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\candidate-queue.png",
+      "sha256": "6b16ae1a973b3ebb8e2c421fa172a1fce330dc19592c77c4afdd98b44721878b"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\docs-index.png",
+      "sha256": "39ef82201ce26dfba4cdaba4be91a50075eaf174cf60c9c7fbb11d1e5da23fb8"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\main-index.png",
+      "sha256": "455a4e996d96c329ee922db152c485433ddc423cd472905bcb00166eafda97cc"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\packet-contents.png",
+      "sha256": "5356887a2cb43962af493487501ef1f691d96b9865bdd0785ed5145b6318cbcd"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\packet-details.png",
+      "sha256": "db7478c2ceb22d99382cca02b57deddfb45ef2347611e983c73d3ff88bac31b2"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\packet-reproduction.png",
+      "sha256": "e4c8071d21b012f37a4491a5e5a7221fa23cfeced7373ab4defe6b18d8834ab4"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-clearance.png",
+      "sha256": "0fcd93ecac7680b25cbb522360cadaf53d0d292f3f867b87627462cbb933bec4"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-controls.png",
+      "sha256": "c6a25737e3f9f65ac56b1c22b5529966058441cf9d253d8a5320d20978e9e55e"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-equations.png",
+      "sha256": "7f0e530d768fa2b6ffdcbbe66dbb440e81b8daf9aec629121b0c792c1a9d2ac1"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-growth.png",
+      "sha256": "f50b1dd97569b78995a11fe7adb85ed6940d881344a34f332c661df9009938b7"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-normalization.png",
+      "sha256": "d6ef0ed8e57b95ec5ee5f5ae681bb9a1fbb43a93a15a137cacc02eacb692bf44"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-priority.png",
+      "sha256": "fe2f0e0be6c458e4fd4f4f5a19457f8cd6847a7e25a08d1d28ce386ed3a294f9"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-refinement.png",
+      "sha256": "3702b32eb316d0837af0eeb7117832cc1397cfbd5818989679da6d88b450637b"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-result.png",
+      "sha256": "1854bfed7ba984c7416e7b721a35c5b0a1d61e54cc5f8e76a5c8499b420f1365"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\report-table.png",
+      "sha256": "5f3cc3ba2bbaf57c08b781dbe9db053ffc9b9b0109317c5d10461122df1c3010"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\reproduction.png",
+      "sha256": "ac2bff4c53b7c2464e00812613e0c7aeaa5f2b99e054e9320ca70212ce7093c0"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\results-index.png",
+      "sha256": "e73463e7941fa9a5a46473e6938af2f780c311b6cc44301825e5dc6f72389f65"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\fragments-01\\spatial-link.png",
+      "sha256": "cbff5f8a771e4fcf6852fafa8c962c7739c7f942fa9b21e8bd4e68340c8ac25d"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\rows-03\\candidate-row.png",
+      "sha256": "774dde5e04544dd53172704e9ad6051dd5eb7da018207d185dab2da3166cfffe"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\rows-03\\docs-paragraph.png",
+      "sha256": "e2610b879b4556a57589afab9f58e250d36228d40fb38e59d7d0b55c9e4f8df0"
+    },
+    {
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\rows-03\\main-row.png",
+      "sha256": "46c9d9277f5702ef58025b9192820b5b66ae335a6fcfe275c9d8fb8c65db04e3"
+    }
+  ],
+  "numerical_verification": {
+    "retained_hashes": 76,
+    "runs": 20,
+    "completed": 19,
+    "failed": 1,
+    "external_arrays": 40,
+    "command": "python research/verify_hydrogel_variational.py --numerical --workdir D:/Codex/hydrogel-variational-replay-check-20261101",
+    "scope": "Portable synthetic assembly, remeshing, complete-step tangent, circular symmetry, two-level QR and analytic relative-recurrence checks. No replay of the long integrations.",
+    "outputs": [
+      {
+        "external_path": "D:\\Codex\\hydrogel-variational-replay-check-20261101\\check_history-stdout.txt",
+        "sha256": "ee59147d7727bed14fc68d710893f4ecd50d15b98c37c37ed4ca9604fcca6f75"
+      },
+      {
+        "external_path": "D:\\Codex\\hydrogel-variational-replay-check-20261101\\check_portable-stdout.txt",
+        "sha256": "1ce0bdf614410d71fd5112db136e7d421ac82572ed2a0766aad17c99788c09f2"
+      },
+      {
+        "external_path": "D:\\Codex\\hydrogel-variational-replay-check-20261101\\check_tangent-stdout.txt",
+        "sha256": "ea5f50130539c0a5e5f530e7d5bc316831d6952c36b8f2c42d34fe47d02b661b"
+      },
+      {
+        "external_path": "D:\\Codex\\hydrogel-variational-replay-check-20261101\\recurrence-stdout.txt",
+        "sha256": "da532d2dd2002c5f6af36a8f2f202086541d9ea9f64e1d9779a941428124f266"
+      }
+    ]
+  }
+}
