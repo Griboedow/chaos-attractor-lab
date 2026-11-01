@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "scope": "Planar numerical controls and all eight scouts; no 3D solver, chaotic attractor or portrait.",
+  "files": [
+    {
+      "path": "arrays.json",
+      "bytes": 9965,
+      "sha256": "5f17f27b1c822b1284dda21db709067206287b4999cd57a48ed6ef76608f2a8b"
+    },
+    {
+      "path": "code/hydrogel_planar.py",
+      "bytes": 11560,
+      "sha256": "777be8e2742ec2a7f779054ddcab1cb3442f638b2dc2c43d4d4c63fb2b4249e3"
+    },
+    {
+      "path": "code/inspect_runs.py",
+      "bytes": 2320,
+      "sha256": "1891259dfc387a871c3efc9b6d8edeba559b93c609e2e4b3dc46db0b9cebce7d"
+    },
+    {
+      "path": "code/scout.py",
+      "bytes": 1319,
+      "sha256": "35d25773b552457eeafb235f7fbefdb1a159d1049f7f7c7196c548aa7f292654"
+    },
+    {
+      "path": "inspection.json",
+      "bytes": 12134,
+      "sha256": "9316b85936d50082fb34cce0654418d38c9ef2c720da44dc0cce250783d4a3c0"
+    },
+    {
+      "path": "linear.json",
+      "bytes": 3520,
+      "sha256": "632bd4fcb32c51cf5ed6174c6ae4c2292c8ebbc787cdab94d55eef9418257ddf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3850,
+      "sha256": "47e2088ca7dde4f6d635fa11139450809278345001807771da1aad5ce64e6400"
+    },
+    {
+      "path": "runs/event-16-BDF.json",
+      "bytes": 3209,
+      "sha256": "762c233bff9f2fb1668ea0482c1b2b15613289ac3f54b42210fc21758ae39521"
+    },
+    {
+      "path": "runs/event-32-BDF.json",
+      "bytes": 4038,
+      "sha256": "def4e809c27e6453b7ccb23ed2e6b5c06be0dbea77c64adc1901b1eaa4c46e8e"
+    },
+    {
+      "path": "runs/event-32-Radau.json",
+      "bytes": 4033,
+      "sha256": "eee1b520e6fc120e3b5eec6bf0626e2cf38098342a13a9d665701cbe1d841324"
+    },
+    {
+      "path": "runs/event-64-BDF.json",
+      "bytes": 5639,
+      "sha256": "7d3f365d29a2da20289ea27a8e858ca029201a14c59fe98ac1a73034f248ce0e"
+    },
+    {
+      "path": "runs/long-127-64.json",
+      "bytes": 8142,
+      "sha256": "82f76c40e5924383d23fec03bb987e0e11f41031ae5e9e63afc92992031e62d5"
+    },
+    {
+      "path": "runs/negative-32-BDF.json",
+      "bytes": 6048,
+      "sha256": "3a3864dc4087ba03321abf7af8199d3573e44bbe8fc9d2644e3ab269774d3e58"
+    },
+    {
+      "path": "runs/negative-64-Radau.json",
+      "bytes": 7680,
+      "sha256": "9c3a134cd4ac3a8b5b21eecdaa2870973c4a0f3be1b711504e47264d0ae7f8e0"
+    },
+    {
+      "path": "runs/scout-01-case-00.json",
+      "bytes": 3363,
+      "sha256": "1ca8b7a18ad7d5b6dd63875d5100f65a471a517d58962fb9e4d92d41a999a449"
+    },
+    {
+      "path": "runs/scout-01-case-01.json",
+      "bytes": 4340,
+      "sha256": "1ab89c6141112fb618497a6c61755c3d5a5dcd0173da8cf6f3dc4d97a5930ea6"
+    },
+    {
+      "path": "runs/scout-01-case-02.json",
+      "bytes": 4994,
+      "sha256": "e4f70fc27cb5dd8b8b5f49499daa3226d757d676d75c67c1cbf2d6c0bb18d1f2"
+    },
+    {
+      "path": "runs/scout-01-case-03.json",
+      "bytes": 3625,
+      "sha256": "67f80ef8efde777fe4576c6f9aa975c867af5ae9c0217ad88dbe1f4449fbdd64"
+    },
+    {
+      "path": "runs/scout-01-case-04.json",
+      "bytes": 3470,
+      "sha256": "21d47138983a7e2029e10431adacb35c7689647e3633b4dfaff5d55d8522ede4"
+    },
+    {
+      "path": "runs/scout-01-case-05.json",
+      "bytes": 4159,
+      "sha256": "40df9bc54d9f70f12a65c425f2055681d4849afc4c9ba2619b4bf6104b3fc078"
+    },
+    {
+      "path": "runs/scout-01-case-06.json",
+      "bytes": 3516,
+      "sha256": "7345194dc8b38c05b47e0c58277450235d3719d791b67229f57ce79ac1542608"
+    },
+    {
+      "path": "runs/scout-01-case-07.json",
+      "bytes": 3592,
+      "sha256": "8b5a2bb43aa60bf07e3f532168c0befd1d053f9aaf1b42572a2f19f7d426bd48"
+    },
+    {
+      "path": "source-audit.json",
+      "bytes": 1065,
+      "sha256": "8a64248cc26797ca053b044e4a89d51ac2d241f93468d5d2912dd09ebc6a28ac"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/hydrogel_planar.py",
+      "sha256": "777be8e2742ec2a7f779054ddcab1cb3442f638b2dc2c43d4d4c63fb2b4249e3"
+    }
+  ]
+}

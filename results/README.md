@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`hydrogel-planar-controls/` contains [independent controls for the morphoelastic filament](../docs/hydrogel-planar-controls.md): two linear spatial discretizations, four nonlinear periodic controls, eight planar scouts and three longer follow-ups. Six scouts self-intersect; the other two approach numerical cycles. Full three-dimensional dynamics remains untested. Generated arrays stay outside Git.
+
 `soft-symbolic-dynamics/` contains the [Case 156 entropy and periodic-structure certificates](../docs/soft-symbolic-dynamics/manuscript.md): two complete interval implementations of seven crossings, exact tiling audits, and independently located cycles with one and two unstable directions. The attracting set has entropy at least `log(2)/6`; historical uniqueness remains unresolved.
 
 `soft-trapping/` contains the [Case 156 trapping and entry certificate](../docs/soft-constellation-trapping.md): 35,784 exact dyadic cubes, exhaustive outward interval coverage, reverse-order replay and independent entry controls. Its frozen original packet predates the separate entropy certificate above.
