@@ -1,0 +1,95 @@
+{
+  "certificate": "results\\raar-cycle-structure\\cycle-proof\\base-unstable-period-7.json",
+  "certificate_sha256": "e24eabaa9b46296cc489a7b413d456e1fe35bfb4e7d82e776b7d4e7a26ee17bc",
+  "reference": "results\\raar-circles\\render\\case-1051-animation.npz",
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "camera_source": "results\\raar-circles\\render\\analysis.json",
+  "camera_sha256": "a4f7e804966211067cc1f71391b611c19b0722747d061e1eb392b7219424ed5d",
+  "params": [
+    0.9708823579074815,
+    1.9886915469542146,
+    0.9028818255996501,
+    -0.1435409113764763,
+    0.5745496526360512,
+    -0.7745124697685242
+  ],
+  "cycle_seed": [
+    0.005907460086282232,
+    -2.444586561951587,
+    4.139526201112402
+  ],
+  "unstable_eigenvector": [
+    -0.2323036470597354,
+    0.8662592186016529,
+    0.44230078199162143
+  ],
+  "numerical_multiplier": -2.5700108868633853,
+  "radii": [
+    1e-05,
+    1e-07,
+    1e-09
+  ],
+  "seed_counts": [
+    4096,
+    16384
+  ],
+  "returns": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    48,
+    64
+  ],
+  "phase_offsets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "maximum_main_iterations": 448,
+  "initial_rule": "Evenly spaced straight segment x + t*v, t in [-radius,+radius], even count omits t=0.",
+  "selection": "R1051 selected after the prior cycle study; all six declared radius/resolution combinations retained.",
+  "scope": "Finite tangent-seed evolution, not an exact or certified unstable manifold, basin/attraction proof, independent discovery trial or historical-priority claim.",
+  "histogram": {
+    "resolution": [
+      900,
+      700
+    ],
+    "x_bounds": [
+      -3.4,
+      3.4
+    ],
+    "y_bounds": [
+      -2.6444444444444444,
+      2.6444444444444444
+    ],
+    "camera_center": [
+      -0.024387683297494904,
+      -3.547765813862082,
+      3.6206000927808075
+    ],
+    "projection": [
+      [
+        0.10104317281293326,
+        -0.8995057886594264
+      ],
+      [
+        0.7193923189091364,
+        0.36118305338857354
+      ],
+      [
+        0.6872153728798791,
+        -0.2458376255032793
+      ]
+    ],
+    "all_65_return_windows_for_case": "radius 1e-7, 16384 seeds"
+  }
+}

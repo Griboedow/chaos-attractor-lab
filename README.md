@@ -12,6 +12,10 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 ![The serrated arch and its certified unstable seven-cycle](docs/assets/raar-cycle-geometry.png)
 
+**[Watch a tiny segment unfold into the arch](docs/raar-folding.md).** All six radius/resolution controls complete. A separate exact inverse calculation finds two or four preimages for each of 25 targets, independently verifying all 64 inputs. The [five-page note](papers/raar-folding/manuscript.pdf) derives the complete counts and explains why full-map noninjectivity does not establish a new attractor class.
+
+![Actual finite evolution near the unstable seven-cycle](docs/assets/raar-cycle-unfolding.gif)
+
 **[RK45: twin rosettes and folded fans inside an existing solver](docs/rk45-oscillator.md).** The two rosettes are exchanged by one numerical orbit. Two positive finite growth estimates survive five million steps, independent 70/90-digit calculations and unmodified SciPy execution. A declared narrow slice retains this criterion at 125 of 257 sampled settings, alongside periodic neighbors. Earlier work already explains near-half-turn numerical oscillations; the exact regime's historical uniqueness remains unresolved.
 
 ![Actual RK45 numerical states, viewed by rotating rigid cameras](docs/assets/rk45-oscillator-rotation.gif)
