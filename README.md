@@ -2,6 +2,16 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[New search checkpoint: a tetrahedral flow around a stable center](docs/tetrahedral-flow.md).** A single trajectory weaves ribbons through all twelve symmetry sectors. Its 3.2-million-state portrait survives 40,000 time units, step refinement, independent DOP853 integration and fresh basin starts. Comparisons cover 108 known regimes and six earlier repository candidates. Tetrahedral maps are established prior art; historical uniqueness remains open.
+
+![One tetrahedral-flow trajectory under a rotating rigid camera](docs/assets/tetrahedral-flow.gif)
+
+[Large portrait](docs/assets/tetrahedral-flow.png) · [Oblique view](docs/assets/tetrahedral-flow-oblique.png) · [Evidence and limitations](docs/tetrahedral-flow.md)
+
+**[A different setting: chaos in scalar acceleration memory](docs/anderson-memory.md).** Two bounded increasing scalar maps have interval-verified unique fixed points and globally convergent plain iterations. A three-history regularized acceleration instead admits numerically attracting chaotic clouds, surviving 80/110-digit checks. The exact linear reduction prevents counting scaled copies as separate findings. All negative screens, long-run failures and prior-art gaps are retained.
+
+![Two actual scalar-memory state clouds](docs/assets/anderson-memory.png)
+
 **[Another construction: three throats in a localized Gaussian-vortex flow](docs/gaussian-vortex.md).** A continuous three-state field produces a detailed folded geometry from 4.8 million actual states. A 30,000-unit spectrum, step refinement and an independent adaptive solver support chaos; fresh starts also expose a competing numerical cycle. The [108-regime novelty audit](docs/attractor-novelty-audit.md) compares this candidate and the earlier twist images, including affine-coordinate controls. Halvorsen is the new image's closest geometric reference, so threefold appearance is not claimed as new.
 
 ![Gaussian-vortex candidate: actual states under a rigid orthographic camera](docs/assets/gaussian-vortex-triskelion.png)
