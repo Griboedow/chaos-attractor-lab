@@ -1,0 +1,33 @@
+{
+  "seed": 2026110101,
+  "cases": 576,
+  "dimension": 4,
+  "sample_counts": [
+    8,
+    12,
+    16,
+    24,
+    32,
+    64
+  ],
+  "families": [
+    "normal",
+    "sphere",
+    "Gaussian mixture",
+    "Student t(2.5)",
+    "uniform cube",
+    "antipodal normal"
+  ],
+  "nonlinearities": [
+    "tanh(alpha*u), alpha in [1,2]",
+    "u*exp(-u*u/2)",
+    "u**3"
+  ],
+  "warmup": 1000,
+  "observed": 4000,
+  "window": 1000,
+  "period_test": "Tail 512, lags 1..128, sup norm Euclidean up to sign, threshold 1e-8.",
+  "source_sha256": "680461dfcc1bcfcdb6399067e69790085d45829e264743289068f2346c3a22bc",
+  "python": "3.12.14",
+  "numpy": "2.5.4"
+}

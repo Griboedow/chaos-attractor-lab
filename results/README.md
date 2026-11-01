@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`fastica/` records the [finite-sample FastICA investigation](../docs/fastica-dynamics.md): all 576 scout cases, five long spectra, 320 fresh starts, 96 input perturbations, independent precision and library controls, a rejected transient and stopping-state continuations. Exact selected inputs, unthinned portrait histograms and reproduction scripts are retained; generated trajectories stay on D:.
+
 Large generated arrays are now optional [cache data](../docs/data-storage.md).
 The original packet descriptions and manifests below refer to the full recorded
 calculations. [Compact records](compact-data/README.md), source code, parameters,

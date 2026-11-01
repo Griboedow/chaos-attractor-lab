@@ -1,0 +1,54 @@
+{
+  "seed": 2026110103,
+  "states_per_case": 64,
+  "maximum_step_error": 3.913536161803677e-15,
+  "maximum_tangent_relative_error": 5.39970871360155e-10,
+  "finite_difference_step": 2e-06,
+  "outcomes": [
+    {
+      "case": 40,
+      "endpoint": [
+        -0.9905393479332968,
+        0.05557583267791247,
+        -0.016338228385730444,
+        -0.124403333199925
+      ],
+      "one_step_residual": 1.8348750050158558e-16,
+      "antipodal_residual": 2.0,
+      "return_multiplier_moduli": [
+        0.02833508223037396,
+        0.2151590724810293,
+        0.6571877380981667
+      ],
+      "meaning": "Numerical projective fixed point; this is not an interval certificate."
+    },
+    {
+      "case": 246,
+      "library_stopping_state": [
+        0.05090260833256897,
+        -0.08601002457614575,
+        0.06871113538243724,
+        0.9926177411329138
+      ],
+      "one_step_projective_distance": 2.7522379544586273e-08,
+      "continuation_warmup": 1000,
+      "continuation_observed": 1000000,
+      "continuation_rates": [
+        0.3197043972991087,
+        0.3257502273559391,
+        0.31335846257464484,
+        0.33884956289020934,
+        0.32417794667472244,
+        0.3368812824485266,
+        0.31198975695398096,
+        0.32617944477671407,
+        0.33811883556490896,
+        0.3166545555524914
+      ],
+      "period_up_to_sign": 0,
+      "status": 0,
+      "meaning": "Continue the recorded library stopping state without the tolerance-based stopping rule."
+    }
+  ],
+  "source_sha256": "27cc10bfd2c4700a5e59091549c0260762603508824a842d418a6c2b46984a29"
+}

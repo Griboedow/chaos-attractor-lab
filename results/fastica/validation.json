@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-01T13:30:49.475732+00:00",
+  "frozen_packet_verifier": "passed",
+  "portrait_check": "tools/check_portraits.py --with-data passed; 26 families, 43 panels, 7 animations; prior render rows unchanged",
+  "manuscript_check": "10 Markdown manuscripts, 326 local links, no tracked PDFs or duplicate prose sources",
+  "storage_check": "No new large numerical payloads; FastICA trajectories remain external",
+  "portable_replay": {
+    "case": 204,
+    "digits": 70,
+    "result": "All four growth windows, minimum update norm and sphere residual reproduce exactly.",
+    "source_sha256": "6be0e64e8cdf52cd300e327e1491c79afdb52f2bf2bdf9aeac3c4dc2551a9d76"
+  }
+}

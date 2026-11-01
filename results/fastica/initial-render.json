@@ -1,0 +1,75 @@
+{
+  "id": "fastica",
+  "file": "docs/assets/fastica.png",
+  "sha256": "e687224a97c84b8e32790d8efcfd94fa276eecdfac05a1dc13775676ac4ee6df",
+  "panels": [
+    {
+      "input": {
+        "label": "204",
+        "source": "results/fastica/histograms/case-204-histogram.npz",
+        "key": "histogram",
+        "mode": "histogram"
+      },
+      "input_sha256": "6d1a54dddb420c53977a7cd27cadd6cd172cb695f5d9bd33730c403bb63b677f",
+      "original_shape": [
+        760,
+        760
+      ],
+      "original_count": 1000000,
+      "nonempty_crop": [
+        [
+          21,
+          67
+        ],
+        [
+          739,
+          693
+        ]
+      ],
+      "empty_margin": 29,
+      "square_rebin_factor": 2,
+      "zero_padding": [
+        0,
+        0
+      ],
+      "rendered_count": 1000000,
+      "log_saturation": 8.313536530616483,
+      "occupied_bins": 4858,
+      "display_label": "Case 204"
+    },
+    {
+      "input": {
+        "label": "351",
+        "source": "results/fastica/histograms/case-351-histogram.npz",
+        "key": "histogram",
+        "mode": "histogram"
+      },
+      "input_sha256": "02c1798663c2b788ed45b639f55eac580087835647c39056994ef568051230a7",
+      "original_shape": [
+        760,
+        760
+      ],
+      "original_count": 1000000,
+      "nonempty_crop": [
+        [
+          21,
+          27
+        ],
+        [
+          733,
+          723
+        ]
+      ],
+      "empty_margin": 29,
+      "square_rebin_factor": 2,
+      "zero_padding": [
+        0,
+        0
+      ],
+      "rendered_count": 1000000,
+      "log_saturation": 7.9965554953202655,
+      "occupied_bins": 7529,
+      "display_label": "Case 351"
+    }
+  ]
+}
