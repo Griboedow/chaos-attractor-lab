@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[New visual study: crowns and serrated wings inside Adamax](docs/adamax-geometry.md).** A standard optimizer's internal memory produces intricate full-state geometries on a one-variable quadratic objective. Four-million-step checks, independent 70/90-digit calculations and actual PyTorch runs support persistent chaos. The crown passes every declared cold-start and nearby-setting check; the wings coexist with two reflected 68-cycles. These are numerical candidates in a known algorithm, with historical uniqueness unresolved.
+
+![Two fixed Adamax state clouds viewed by a rotating orthographic camera](docs/assets/adamax-rotation.gif)
+
+[High-resolution portrait](docs/assets/adamax-geometry.png) · [Watch an initial volume approach](docs/assets/adamax-approach.png) · [Why the sheets form](docs/adamax-structure.md) · [Prior-art and equivalence audit](docs/adamax-priority.md)
+
 **[Geometry first: folded sail and medusa](docs/twist-geometry.md).** A search over 4,096 dissipative three-axis twist maps produced two intricate full-state geometries. Each image contains eight million actual iterates. Four-million-step spectra and independent 70/90-digit checks support chaos; the folded sail also has a competing regular regime. Exact-model priority and asymptotic chaotic attraction remain unresolved.
 
 ![Folded sail: actual three-dimensional map states in an orthographic view](docs/assets/twist-folded-sail.png)

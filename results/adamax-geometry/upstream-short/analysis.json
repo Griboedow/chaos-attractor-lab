@@ -1,0 +1,86 @@
+{
+  "torch_version": "2.15.0+cpu",
+  "torch_git_version": "d0f2af8b66b20da4baa50644c0cd3f887a2eae2e",
+  "source_file": "D:\\Codex\\optimizer-attractors-20261101\\venv\\Lib\\site-packages\\torch\\optim\\adamax.py",
+  "source_file_sha256": "ea1718360101c465575a90b0d74c5df5fa057f02dcb5c2810e9833849b68a616",
+  "dtype": "float64",
+  "alpha": 0.002,
+  "epsilon": 1e-08,
+  "steps_per_run": 50,
+  "runs": [
+    {
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "normalized_initial": 0.73,
+      "maximum_scaled_state_error": 3.2748397153492805e-16
+    },
+    {
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "normalized_initial": -0.73,
+      "maximum_scaled_state_error": 3.2748397153492805e-16
+    },
+    {
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "normalized_initial": 3.0,
+      "maximum_scaled_state_error": 4.68838530079722e-16
+    },
+    {
+      "beta1": 0.9,
+      "beta2": 0.99,
+      "normalized_initial": 0.73,
+      "maximum_scaled_state_error": 3.83863050227806e-16
+    },
+    {
+      "beta1": 0.9,
+      "beta2": 0.99,
+      "normalized_initial": -0.73,
+      "maximum_scaled_state_error": 3.83863050227806e-16
+    },
+    {
+      "beta1": 0.9,
+      "beta2": 0.99,
+      "normalized_initial": 3.0,
+      "maximum_scaled_state_error": 5.48001193596691e-16
+    },
+    {
+      "beta1": 0.52,
+      "beta2": 0.15,
+      "normalized_initial": 0.73,
+      "maximum_scaled_state_error": 1.90070862302263e-09
+    },
+    {
+      "beta1": 0.52,
+      "beta2": 0.15,
+      "normalized_initial": -0.73,
+      "maximum_scaled_state_error": 1.90070862302263e-09
+    },
+    {
+      "beta1": 0.52,
+      "beta2": 0.15,
+      "normalized_initial": 3.0,
+      "maximum_scaled_state_error": 4.837875467428023e-10
+    },
+    {
+      "beta1": 0.15,
+      "beta2": 0.9,
+      "normalized_initial": 0.73,
+      "maximum_scaled_state_error": 7.229846618109406e-14
+    },
+    {
+      "beta1": 0.15,
+      "beta2": 0.9,
+      "normalized_initial": -0.73,
+      "maximum_scaled_state_error": 7.229846618109406e-14
+    },
+    {
+      "beta1": 0.15,
+      "beta2": 0.9,
+      "normalized_initial": 3.0,
+      "maximum_scaled_state_error": 2.608518137566773e-13
+    }
+  ],
+  "maximum_scaled_state_error": 1.90070862302263e-09,
+  "scope": "Actual continuously bias-corrected upstream state updates versus an independent scalar normalization. Short controls, not a long trajectory or chaos claim."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\adamax-approach",
+  "threshold": 0.01,
+  "far_count": 436,
+  "weak_count": 1,
+  "warmup": 50000,
+  "observed": 500000,
+  "window": 50000,
+  "tail": 4096,
+  "selection": "Every 2048-step endpoint farther than .01 normalized distance from the reference, plus every declared volume check with any leading window <=.005. No subsampling.",
+  "scope": "Finite continuation of outliers. Regular closures and nonpositive windows remain negative outcomes."
+}

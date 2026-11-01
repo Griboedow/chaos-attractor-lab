@@ -1,0 +1,23 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\adamax-scout\\scout.npz",
+  "source_sha256": "f69d34c5b38d9849b05a2dc3b655b3e4a9b241f0420b3922a6dc9d093f6f353a",
+  "ids": [
+    847,
+    239,
+    4099,
+    4096
+  ],
+  "torch_version": "2.15.0+cpu",
+  "torch_git_version": "d0f2af8b66b20da4baa50644c0cd3f887a2eae2e",
+  "source_file": "D:\\Codex\\optimizer-attractors-20261101\\venv\\Lib\\site-packages\\torch\\optim\\adamax.py",
+  "source_file_sha256": "ea1718360101c465575a90b0d74c5df5fa057f02dcb5c2810e9833849b68a616",
+  "dtype": "float64",
+  "alpha": 0.002,
+  "epsilon": 1e-08,
+  "initial_theta": 0.00146,
+  "loss": "Independent scalar quadratic theta**2/2 for each parameter group. Exact gradient theta assigned each step.",
+  "warmup": 100000,
+  "observed": 200000,
+  "bias_correction": "Actual upstream optimizer at every step, including observation.",
+  "scope": "Complete optimizer state trajectories. Statistical comparisons are necessary because chaotic trajectories separate under roundoff."
+}

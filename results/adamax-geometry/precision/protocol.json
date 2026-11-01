@@ -1,0 +1,27 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\adamax-scout\\scout.npz",
+  "source_sha256": "f69d34c5b38d9849b05a2dc3b655b3e4a9b241f0420b3922a6dc9d093f6f353a",
+  "ids": [
+    847,
+    239,
+    4099,
+    4096
+  ],
+  "digits": [
+    70,
+    90
+  ],
+  "cold_start": [
+    0.73,
+    0,
+    0
+  ],
+  "bias_corrected_warmup": 100000,
+  "autonomous_alignment": 5000,
+  "autonomous_observed": 100000,
+  "window": 10000,
+  "method": "Independent scalar max recurrence, Euclidean finite separation renormalized every step; no analytic Jacobian or production map import.",
+  "parameter_semantics": "Exact promotion of the selected binary64 coefficients; same real coefficients at both precisions.",
+  "selection": "Visually distinct 847 and 4099, nearby crown 239, and standard default pair 4096; all passed the preceding million-step check.",
+  "scope": "Finite-time numerical check, not proof of asymptotic chaos or novelty."
+}

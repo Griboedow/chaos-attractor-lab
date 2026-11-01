@@ -1,0 +1,25 @@
+{
+  "scope": "Finite numerical candidates and exact elementary structural arguments; no certified chaotic attractor or historical uniqueness.",
+  "visual_QA": [
+    "2800x1680 dense portrait",
+    "72-frame1400x840 rotation, quarter-turn frames inspected and static labels checked identical",
+    "2760x1270 final approach figure, regular outcomes marked orange",
+    "2100x980 reset-sheet decomposition"
+  ],
+  "failures": [
+    "Gallery 01 completed but was rejected for NaN features and duplicate selection; review.json supersedes the inaccurate incomplete.json note.",
+    "Precision launch 01 used the wrong source filename and failed before calculation.",
+    "Upstream analysis 01 failed Numba compilation on array abs before calculation.",
+    "Outlier integrations completed; repeated nearest-neighbor queries were interrupted and replaced by exact global deduplication.",
+    "Outlier analysis 02 incorrectly asserted bitwise repeat lag 136 as least period. Analysis 03 closes the numerical least-period 68 cycle.",
+    "Approach image 01 had crowded row spacing; revision 02 fixes it. Revision 03 has insufficient color contrast; revision 04 uses brighter density and documented point markers."
+  ],
+  "negative_results": [
+    "Case 1103 reaches period four.",
+    "Case 239 coexists with an attracting four-cycle.",
+    "Case 4099 coexists with two sign-related stable 68-cycles.",
+    "Scout flags 3691 and 3979 have exact zero (x,m) tails despite positive tangent growth."
+  ],
+  "cohort_overlap": "The weak-volume 4099 record is Sobol start 87, already among the 436 far endpoints. There are 437 continuation records from 436 distinct original starts.",
+  "late_render_period_audit": "Final 4096 states of both eight-million-point render trajectories pass the posthoc check through lag 512, including the newly identified period 68."
+}

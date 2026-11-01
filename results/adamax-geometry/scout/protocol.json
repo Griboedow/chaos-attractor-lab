@@ -1,0 +1,18 @@
+{
+  "seed": 2026110122,
+  "count": 4101,
+  "alpha": 0.002,
+  "epsilon": 1e-08,
+  "normalized_epsilon": 5e-06,
+  "objective": "theta^2/2",
+  "coordinates": "(theta,M,U)/alpha",
+  "warmup": 10000,
+  "observed": 20000,
+  "window": 5000,
+  "tail": 256,
+  "design": "4096Sobol rows: beta1 uniform[.02,.99); first2048beta2uniform[.02,.99),last2048beta2=1-10^(-4+3.95u); five explicit controls.",
+  "initialization": "theta=.73*alpha,zero optimizer memories. Bias-corrected warmup, then autonomous observation.",
+  "primary_rule": "All four leading windows>.005,completed,observed x range>1e-4.",
+  "source": "Kingma&Ba2015Algorithm2; PyTorch2.15 Adamax epsilon inside gradient absolute value before maximum.",
+  "scope": "Exploratory numerical shape search. Optimizer chaos is known; no new model or priority claim."
+}

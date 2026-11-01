@@ -1,0 +1,49 @@
+{
+  "ids": [
+    847,
+    4099
+  ],
+  "count_per_case": 32768,
+  "seed": 2026110125,
+  "box_bounds": [
+    [
+      [
+        -0.7,
+        -0.2,
+        0.4
+      ],
+      [
+        0.7,
+        0.2,
+        0.8
+      ]
+    ],
+    [
+      [
+        -1.6,
+        -0.4,
+        0.8
+      ],
+      [
+        1.6,
+        0.4,
+        1.6
+      ]
+    ]
+  ],
+  "selection": "Boxes chosen from rounded candidate extents, with u bounded away from zero. A genuine 3D initial volume, not a cold-start line.",
+  "times": [
+    0,
+    1,
+    4,
+    16,
+    128,
+    2048
+  ],
+  "map": "Autonomous normalized Adamax limit.",
+  "expansion_cohort": "First 128 Sobol starts from each box, declared before simulation; 100000 autonomous warmup, 200000 observation in four 50000 windows.",
+  "support": "Directed endpoint Euclidean distance to the 2000000 preview states, divided by reference extent norm.",
+  "source_sha256": "cc152bc03b74dd2d8db05802e3180bf48475ed4f649e855c7a91a0ef369997b6",
+  "render_sha256": "318487210e26a4afb86c5eca73941c05b7ffcfacbee5fefb3b4b4b378981c947",
+  "scope": "Finite numerical approach from a declared volume; not a rigorous trapping region or basin measure."
+}
