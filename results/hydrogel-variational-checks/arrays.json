@@ -1,0 +1,2353 @@
+{
+  "scope": "Complete external arrays. No thinned replacements; all endpoints and tangent/BDF history checkpoints remain external.",
+  "files": [
+    {
+      "run": "pilot128",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\pilot128\\trajectory.npz",
+      "bytes": 65970,
+      "sha256": "9ff680ee64dddcf2bbfc851c9b2c9bb4f5aed8d50344be1f480814b353f7f552",
+      "arrays": {
+        "t": {
+          "shape": [
+            11
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            11,
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            11,
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            11,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "pilot128",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\pilot128\\checkpoint.npz",
+      "bytes": 18685,
+      "sha256": "f66d3fb14f671b82dd9f161f6a8b38b644c7467ab2162d890603291c7ab88128",
+      "arrays": {
+        "q": {
+          "shape": [
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            128,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "restart64-dt006",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\restart64-dt006\\trajectory.npz",
+      "bytes": 23772985,
+      "sha256": "90327a74d1263437627a06a01c4690614ebf6866d5e94f7f8279606d1026a037",
+      "arrays": {
+        "t": {
+          "shape": [
+            8001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            8001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            8001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            8001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "restart64-dt006",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\restart64-dt006\\checkpoint.npz",
+      "bytes": 10400,
+      "sha256": "e35f5907baeb54ef4a0d0155f5e56025e135e69ae6f73b63b3e2ad087d679ba6",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "restart64-dt003",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\restart64-dt003\\trajectory.npz",
+      "bytes": 31695131,
+      "sha256": "703e7b5012057c2adb46819230c9157d478892030950cede8274c8a7a128f0d8",
+      "arrays": {
+        "t": {
+          "shape": [
+            10668
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10668,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10668,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10668,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "restart64-dt003",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\restart64-dt003\\checkpoint.npz",
+      "bytes": 10394,
+      "sha256": "ebeea791c4230eafec70609c4981b6252dc068bd401f78279d663f2f02f65648",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "restart128-dt006",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\restart128-dt006\\trajectory.npz",
+      "bytes": 47336135,
+      "sha256": "8ce86ac0fd5ea87b185cda793d0723f511b89cee3eeaaafeb30c703c7296605f",
+      "arrays": {
+        "t": {
+          "shape": [
+            8001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            8001,
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            8001,
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            8001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "restart128-dt006",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\restart128-dt006\\checkpoint.npz",
+      "bytes": 18688,
+      "sha256": "bcc57efddc5756dccff6fdba23a2974cc9b8fa7f5eba7570a8d6c7fd8e0cbd8d",
+      "arrays": {
+        "q": {
+          "shape": [
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            128,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "accel128-dt006",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\accel128-dt006\\trajectory.npz",
+      "bytes": 47336516,
+      "sha256": "6a61a043cbe3bb2971f2d1e08d705b3e53aaf3ea92d40a03b27550656f26e077",
+      "arrays": {
+        "t": {
+          "shape": [
+            8001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            8001,
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            8001,
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            8001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "accel128-dt006",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\accel128-dt006\\checkpoint.npz",
+      "bytes": 18691,
+      "sha256": "55941855ebbd33317d5ca6a2334b77c1cedf1be1c780238099bf50fa3db2c719",
+      "arrays": {
+        "q": {
+          "shape": [
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            128,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "field121-n64",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field121-n64\\trajectory.npz",
+      "bytes": 23773300,
+      "sha256": "0717a52fed53a664c8bae13473b7d2fdf1c6c84cb489c5516adb77c2fca878e1",
+      "arrays": {
+        "t": {
+          "shape": [
+            8001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            8001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            8001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            8001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field121-n64",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field121-n64\\checkpoint.npz",
+      "bytes": 10406,
+      "sha256": "5f1b12e2bb7b8dbcf064f27225373d9686eed27c0525bdf01e48fb5dd49935aa",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "field124-n64",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-n64\\trajectory.npz",
+      "bytes": 23773166,
+      "sha256": "212ba9f2ad9b691d4ca77486335fac068089f747e451cbc7ad1ac72eb0aaab0c",
+      "arrays": {
+        "t": {
+          "shape": [
+            8001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            8001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            8001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            8001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field124-n64",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-n64\\checkpoint.npz",
+      "bytes": 10404,
+      "sha256": "9ca5d2764e0ddcfcf86496a68aefc762242c0e4bf8af5e162b52445d3a814f25",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "rotation-seed",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\rotation-seed\\trajectory.npz",
+      "bytes": 45329,
+      "sha256": "34333657bbd943bb9a0aaf6ece0f7c54ac5433daf9e48e10f2c75640040141a0",
+      "arrays": {
+        "t": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            16,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            16,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "rotation-seed",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\rotation-seed\\checkpoint.npz",
+      "bytes": 10226,
+      "sha256": "990470011daebd195be613b2a9982bcc15c0ff040290de7beb86486b1c85b0a7",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "spectrum117-n64",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum117-n64\\trajectory.npz",
+      "bytes": 29713802,
+      "sha256": "7eb4d84d17c0607b67d3e8cb0685d4f5a436da2ecfcae040ddbcb240eb9a9066",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum117-n64",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum117-n64\\checkpoint.npz",
+      "bytes": 26132,
+      "sha256": "37e65bedb65cf213c2621c7366ab407ec434328f0925e6a6bb3638ef2a6e3351",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-n64",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-n64\\trajectory.npz",
+      "bytes": 29714234,
+      "sha256": "ae31fec2782e65e26f8e28f351b7ff91207e7fb066cc75d3d738cc5710cca0af",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-n64",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-n64\\checkpoint.npz",
+      "bytes": 26140,
+      "sha256": "76c4c0d80f648b37de72caff51c4eedc38b52790adb94aeaa665a20c8ef70aa0",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum-rotation",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum-rotation\\trajectory.npz",
+      "bytes": 26318856,
+      "sha256": "8eac9ba447a051f1ae633cd22d26e8e46e4266d9bf61a356e03ebd34f2278d2c",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum-rotation",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum-rotation\\checkpoint.npz",
+      "bytes": 25859,
+      "sha256": "f7daa2e4cc54a47973bfad6ab65690c984b649c9a64fadc44cb4d5b088410cad",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field127-from124",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field127-from124\\trajectory.npz",
+      "bytes": 29714726,
+      "sha256": "9b3076c6aa9eb67661146a5054dedbfe2cf037cf7c3a20f3ce7224489d4dddd6",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field127-from124",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field127-from124\\checkpoint.npz",
+      "bytes": 10414,
+      "sha256": "8dc58234201411bb627ea3b4465c71415c760c0b8e18bb5fa5f55b8b06b800b3",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "field130-from124",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field130-from124\\trajectory.npz",
+      "bytes": 29714346,
+      "sha256": "19995bc41353c7d07eec1fe2b7fefd31242b34bf42c33063bb1c24f885f83922",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field130-from124",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field130-from124\\checkpoint.npz",
+      "bytes": 10403,
+      "sha256": "ff6c1f2c2c5c5e7fd492ccf37ffb23cc0d365b13871cb6e633eedc9882b3f73b",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "field124-n128-relax",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-n128-relax\\trajectory.npz",
+      "bytes": 11839625,
+      "sha256": "962adb617bdba403ef598ba565ba557eb4b72ff7a891b6b6eaa3dc60bf41c0e2",
+      "arrays": {
+        "t": {
+          "shape": [
+            2001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            2001,
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            2001,
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            2001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field124-n128-relax",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-n128-relax\\checkpoint.npz",
+      "bytes": 18699,
+      "sha256": "73bce5da7592da475c92308bf98130720f6a97d859599ba8d6c64fc69c6f30e1",
+      "arrays": {
+        "q": {
+          "shape": [
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            128,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-extension",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-extension\\trajectory.npz",
+      "bytes": 59424460,
+      "sha256": "794dfab88a95568866d06776b34b459d38bbb4e28588aeae7c58efbe42e3f027",
+      "arrays": {
+        "t": {
+          "shape": [
+            20001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            20001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            20001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            20001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-extension",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-extension\\checkpoint.npz",
+      "bytes": 26126,
+      "sha256": "93a515a1b4e6761b41c98734c176b029744795e2c5cd2c0ce10de9190edcaecb",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-n128",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-n128\\trajectory.npz",
+      "bytes": 59167711,
+      "sha256": "8e96d00f83ccb2ae869edc142ff73b8bdb898889e2f6cb15c38b40e1543eb532",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-n128",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-n128\\checkpoint.npz",
+      "bytes": 49138,
+      "sha256": "f7448be9c674707730bfacab785c381d8ff5084940339979e18fc5fe63bc495c",
+      "arrays": {
+        "q": {
+          "shape": [
+            128,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            129,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            128,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            128,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            128,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            129,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            129,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum127-n64",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum127-n64\\trajectory.npz",
+      "bytes": 29713708,
+      "sha256": "c191255292bd780c1d7266b6083974936cc5daa0338869d5a8b900a34669141c",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum127-n64",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum127-n64\\checkpoint.npz",
+      "bytes": 26146,
+      "sha256": "facb133984e7af9b2ec1a3732da60886dc42fde4723fc4d3d27ebeab599ef357",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field130-continuation",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field130-continuation\\trajectory.npz",
+      "bytes": 24111412,
+      "sha256": "eb418e9aab71db2357f8e17a6bf7440143b1e1eeb0507418a04088943607c738",
+      "arrays": {
+        "t": {
+          "shape": [
+            8113
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            8113,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            8113,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            8113,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field130-continuation",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field130-continuation\\checkpoint.npz",
+      "bytes": 10409,
+      "sha256": "68d80bb9bc3ae45096dde4e240772a11e6bab63fa845e3c74c34032bdb02958d",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "field124-dt003-relax",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-dt003-relax\\trajectory.npz",
+      "bytes": 7927112,
+      "sha256": "3821a45f019bdeeab15c1aeaf8822fd9a49e18b42b21480ed7c61ba319baa006",
+      "arrays": {
+        "t": {
+          "shape": [
+            2668
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            2668,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            2668,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            2668,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "field124-dt003-relax",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-dt003-relax\\checkpoint.npz",
+      "bytes": 10402,
+      "sha256": "1d7a37a97311832ec225c0a6424359c942d40bbcf497e71db89ca11506d1b0ef",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "completed_steps": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-dt003",
+      "kind": "trajectory.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-dt003\\trajectory.npz",
+      "bytes": 29713531,
+      "sha256": "5f29168b1544a144e0c057653fca286611a6155350a85262750c5ee381b45c61",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spectrum124-dt003",
+      "kind": "checkpoint.npz",
+      "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\spectrum124-dt003\\checkpoint.npz",
+      "bytes": 26133,
+      "sha256": "0213bb72171afe2ba4bf07185d3e6af6c3a80db97534dbc7f5b5dfec20cb5107",
+      "arrays": {
+        "q": {
+          "shape": [
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "k_previous": {
+          "shape": [
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "nodes_previous": {
+          "shape": [
+            65,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "predictor": {
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "time": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dt": {
+          "shape": [],
+          "dtype": "float64"
+        },
+        "dk": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dk_previous": {
+          "shape": [
+            64,
+            2,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "dnodes_previous": {
+          "shape": [
+            65,
+            3,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "log_growth": {
+          "shape": [
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    }
+  ],
+  "initial_inputs": [
+    {
+      "seed": "base117",
+      "trajectory": {
+        "external_path": "D:\\Codex\\hydrogel-slender-search-20261101\\lambda127-field117\\trajectory.npz",
+        "bytes": 23758486,
+        "sha256": "96803aaeaece3941902f575cf498096cc5805a34d1c69258f1dd81c4417b37da",
+        "arrays": {
+          "t": {
+            "shape": [
+              8001
+            ],
+            "dtype": "float64"
+          },
+          "q": {
+            "shape": [
+              8001,
+              64,
+              4
+            ],
+            "dtype": "float64"
+          },
+          "k": {
+            "shape": [
+              8001,
+              64,
+              2
+            ],
+            "dtype": "float64"
+          },
+          "tip": {
+            "shape": [
+              8001,
+              3
+            ],
+            "dtype": "float64"
+          }
+        }
+      },
+      "report": {
+        "external_path": "D:\\Codex\\hydrogel-slender-search-20261101\\lambda127-field117\\report.json",
+        "bytes": 1103,
+        "sha256": "b213a46326ea1cce7bc1447a98d6b477343b6c4b1bef72052918c46dd90e59b2"
+      }
+    },
+    {
+      "seed": "rotation",
+      "trajectory": {
+        "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\rotation-n64\\trajectory.npz",
+        "bytes": 36136219,
+        "sha256": "1ff8e33fe18053689d411cb91937be39f628ba00f5019a33c7b2f4e61a224eef",
+        "arrays": {
+          "t": {
+            "shape": [
+              12501
+            ],
+            "dtype": "float64"
+          },
+          "q": {
+            "shape": [
+              12501,
+              64,
+              4
+            ],
+            "dtype": "float64"
+          },
+          "k": {
+            "shape": [
+              12501,
+              64,
+              2
+            ],
+            "dtype": "float64"
+          },
+          "tip": {
+            "shape": [
+              12501,
+              3
+            ],
+            "dtype": "float64"
+          }
+        }
+      },
+      "report": {
+        "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\rotation-n64\\report.json",
+        "bytes": 1099,
+        "sha256": "53a3ce94e367c665b0c211f3d776aae824657147bf5245b45fe864d619277c59"
+      }
+    }
+  ]
+}

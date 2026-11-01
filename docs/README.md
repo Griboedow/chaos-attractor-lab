@@ -34,6 +34,9 @@ The [spatial extension](hydrogel-spatial-controls.md) adds twist equilibrium,
 spatial periodic controls and an explicit coarse-mesh artifact.
 Its [thinner-rod screen](hydrogel-spatial-controls.md#circular-section-symmetry-and-thinner-filaments)
 compares full states modulo axial rotation and records two close-contact outcomes.
+The [variational follow-up](hydrogel-variational-checks.md) differentiates the
+implicit evolution, checks refinement and exposes slow drift behind positive
+finite growth; it does not establish a chaotic attractor.
 
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)

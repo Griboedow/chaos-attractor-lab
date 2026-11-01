@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`hydrogel-variational-checks/` records [20 refinement and continuation runs](../docs/hydrogel-variational-checks.md), derivatives of the implicit evolution and a rotating control. Positive finite growth accompanies slow drift; the longer field-130 run develops subdiameter clearances and fails. No chaotic attractor is established.
+
 `hydrogel-slender-screen/` adds a [three-run thinner-rod screen](../docs/hydrogel-spatial-controls.md#circular-section-symmetry-and-thinner-filaments) and full-state comparisons modulo axial rotation. Both stronger-field traces have subdiameter clearances; the published field-117 periodic control remains unresolved in the tested window. No chaos candidate is retained.
 
 `hydrogel-spatial-controls/` records the [spatial morphoelastic rod extension](../docs/hydrogel-spatial-controls.md): ten completed runs, two Newton failures, planar and spatial controls, and an explicit coarse-mesh equilibrium absent from the continuum model. A stronger-field scout completes but develops subdiameter clearances. No new chaotic attractor is promoted.

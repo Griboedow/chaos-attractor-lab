@@ -1,0 +1,451 @@
+{
+  "parameters": {
+    "slenderness": 127.0,
+    "eta": 1.0,
+    "xi": 5e-06,
+    "chi": 124.0,
+    "nu": 0.5
+  },
+  "segments": 64,
+  "dt": 0.003,
+  "time_origin": 336.0,
+  "requested_duration": 120.0,
+  "completed_time": 456.0,
+  "final_accepted_time": 456.0,
+  "success": true,
+  "failure": null,
+  "plane": "spatial",
+  "order": 2,
+  "burn_duration": 24.0,
+  "observed_duration": 96.0,
+  "exponents": [
+    0.001982119275559257,
+    0.012826665185230504,
+    0.008927216063526715
+  ],
+  "max_scaled_residual": 9.99934551628483e-09,
+  "max_hinge_angle": 0.4952339220694311,
+  "newton_tolerance": 1e-08,
+  "drive_directional_difference_step": 1e-06,
+  "random_seed": 260409490,
+  "initial_tangents": "Three independent Gaussian curvature directions, copied to current and previous history; zero initial nodal variations; algebraic startup excluded by the burn interval.",
+  "qr_norm": "Mean squared body orientation variation plus squared curvature variation divided by chi squared; the same QR transform is applied to both BDF history states.",
+  "elapsed_seconds": 628.7292050999968,
+  "observations": [
+    {
+      "time": 339.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 16.13502139999764,
+      "residual": 8.81054853730685e-09
+    },
+    {
+      "time": 342.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 32.00687139999354,
+      "residual": 1.4193745941324732e-12
+    },
+    {
+      "time": 345.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 47.46086519998789,
+      "residual": 1.379509908591256e-12
+    },
+    {
+      "time": 348.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 62.96669899999688,
+      "residual": 3.720703983846923e-13
+    },
+    {
+      "time": 351.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 78.59868739999365,
+      "residual": 1.2682723668061419e-12
+    },
+    {
+      "time": 354.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 94.1799747999903,
+      "residual": 1.0225086353252368e-12
+    },
+    {
+      "time": 357.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 109.62558749999152,
+      "residual": 1.7491144501383473e-12
+    },
+    {
+      "time": 360.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 125.2287234999967,
+      "residual": 9.032570588179193e-13
+    },
+    {
+      "time": 363.0,
+      "observed_duration": 3.0,
+      "exponents": [
+        -0.025858803377181227,
+        -0.02844017414032335,
+        0.011869416764315436
+      ],
+      "elapsed": 140.92222009999387,
+      "residual": 7.027691987163003e-13
+    },
+    {
+      "time": 366.0,
+      "observed_duration": 6.0,
+      "exponents": [
+        0.002015717451198681,
+        -0.041539732319641386,
+        -0.06482533491097396
+      ],
+      "elapsed": 156.42324309999822,
+      "residual": 4.378265807207204e-13
+    },
+    {
+      "time": 369.0,
+      "observed_duration": 9.0,
+      "exponents": [
+        -0.0038183784728464654,
+        -0.01647586889141013,
+        -0.015236000562894592
+      ],
+      "elapsed": 172.1254908999981,
+      "residual": 2.531065051750948e-12
+    },
+    {
+      "time": 372.0,
+      "observed_duration": 12.0,
+      "exponents": [
+        -0.005931357589892275,
+        0.004688106401545021,
+        0.011479318122835423
+      ],
+      "elapsed": 187.78186819999246,
+      "residual": 1.3423850639807069e-12
+    },
+    {
+      "time": 375.0,
+      "observed_duration": 15.0,
+      "exponents": [
+        -0.0032544557379717777,
+        -0.0006678019985730481,
+        -0.004475410922722754
+      ],
+      "elapsed": 203.43601059999492,
+      "residual": 1.0435369144681125e-12
+    },
+    {
+      "time": 378.0,
+      "observed_duration": 18.0,
+      "exponents": [
+        -0.0015093087724395654,
+        -0.010656598883762596,
+        -0.025423721594214063
+      ],
+      "elapsed": 219.01023590000113,
+      "residual": 2.1137530299986033e-12
+    },
+    {
+      "time": 381.0,
+      "observed_duration": 21.0,
+      "exponents": [
+        -0.008384456396377341,
+        -0.012128791891721976,
+        0.016780329184789326
+      ],
+      "elapsed": 234.74478649999946,
+      "residual": 1.6754127291033825e-12
+    },
+    {
+      "time": 384.0,
+      "observed_duration": 24.0,
+      "exponents": [
+        -0.008557704802978471,
+        -0.0007384484340956788,
+        0.019160357611918314
+      ],
+      "elapsed": 250.20303689999855,
+      "residual": 2.0647441253512823e-12
+    },
+    {
+      "time": 387.0,
+      "observed_duration": 27.0,
+      "exponents": [
+        0.0020789635244631145,
+        0.005103646544872227,
+        0.023396779888734537
+      ],
+      "elapsed": 265.7533598999871,
+      "residual": 8.707214477662386e-13
+    },
+    {
+      "time": 390.0,
+      "observed_duration": 30.0,
+      "exponents": [
+        -0.005067325278341985,
+        0.0005428336047753623,
+        0.016484324599193478
+      ],
+      "elapsed": 281.4368553999957,
+      "residual": 1.1034709348264714e-12
+    },
+    {
+      "time": 393.0,
+      "observed_duration": 33.0,
+      "exponents": [
+        -0.012040676485041762,
+        -0.0064395271262480255,
+        0.00832179416125069
+      ],
+      "elapsed": 296.96078199999465,
+      "residual": 7.003536796061979e-09
+    },
+    {
+      "time": 396.0,
+      "observed_duration": 36.0,
+      "exponents": [
+        -0.0025586854231612307,
+        -0.003935256539226013,
+        0.01771715282627635
+      ],
+      "elapsed": 312.4663376999961,
+      "residual": 1.858708087365061e-12
+    },
+    {
+      "time": 399.0,
+      "observed_duration": 39.0,
+      "exponents": [
+        -0.0012716023319952617,
+        0.004110995933305604,
+        0.02141634101096229
+      ],
+      "elapsed": 328.3520048999926,
+      "residual": 1.725551818134604e-12
+    },
+    {
+      "time": 402.0,
+      "observed_duration": 42.0,
+      "exponents": [
+        -0.011179298547163872,
+        0.005067829937032178,
+        0.01643820401875926
+      ],
+      "elapsed": 343.9967331999942,
+      "residual": 5.156426797836552e-09
+    },
+    {
+      "time": 405.0,
+      "observed_duration": 45.0,
+      "exponents": [
+        -0.0012624213279630297,
+        0.006298078137602981,
+        0.018206909137295234
+      ],
+      "elapsed": 359.53163489999133,
+      "residual": 1.1723436862211343e-12
+    },
+    {
+      "time": 408.0,
+      "observed_duration": 48.0,
+      "exponents": [
+        -0.0014804351625933266,
+        0.002166307743997326,
+        0.018678984750501833
+      ],
+      "elapsed": 375.4259197999927,
+      "residual": 1.0981282450116692e-12
+    },
+    {
+      "time": 411.0,
+      "observed_duration": 51.0,
+      "exponents": [
+        -0.005430230511503559,
+        0.0019288060642230053,
+        0.015506801988821954
+      ],
+      "elapsed": 391.05648179999844,
+      "residual": 6.021602670567072e-09
+    },
+    {
+      "time": 414.0,
+      "observed_duration": 54.0,
+      "exponents": [
+        -0.0031185204302473487,
+        0.009338449243679102,
+        0.014868500615755308
+      ],
+      "elapsed": 406.3522346999962,
+      "residual": 8.65241765904903e-13
+    },
+    {
+      "time": 417.0,
+      "observed_duration": 57.0,
+      "exponents": [
+        -0.00039241130598027693,
+        0.011565417210953438,
+        0.0153384165699852
+      ],
+      "elapsed": 421.8263597999903,
+      "residual": 7.964717585451403e-13
+    },
+    {
+      "time": 420.0,
+      "observed_duration": 60.0,
+      "exponents": [
+        -0.0022633065900963885,
+        0.006618253156082283,
+        0.013428982234718325
+      ],
+      "elapsed": 437.2895232999872,
+      "residual": 5.993402035835894e-13
+    },
+    {
+      "time": 423.0,
+      "observed_duration": 63.0,
+      "exponents": [
+        -0.0017262664682172579,
+        0.00762610886388883,
+        0.01404482646089764
+      ],
+      "elapsed": 452.50527299998794,
+      "residual": 5.956630767697447e-09
+    },
+    {
+      "time": 426.0,
+      "observed_duration": 66.0,
+      "exponents": [
+        0.000447511434285283,
+        0.009646671786621076,
+        0.01377630279267783
+      ],
+      "elapsed": 469.21874739999475,
+      "residual": 5.547492924369704e-13
+    },
+    {
+      "time": 429.0,
+      "observed_duration": 69.0,
+      "exponents": [
+        -0.0010773184574240993,
+        0.009209492001642701,
+        0.011509218953808787
+      ],
+      "elapsed": 485.27303250000114,
+      "residual": 9.140109344707905e-13
+    },
+    {
+      "time": 432.0,
+      "observed_duration": 72.0,
+      "exponents": [
+        -0.00356702203336153,
+        0.012814433830675914,
+        0.011128113925950164
+      ],
+      "elapsed": 500.57236409999314,
+      "residual": 6.734529007581544e-13
+    },
+    {
+      "time": 435.0,
+      "observed_duration": 75.0,
+      "exponents": [
+        0.0021575662060162705,
+        0.014078526795875568,
+        0.011758376610967503
+      ],
+      "elapsed": 516.252753599998,
+      "residual": 7.093448169499031e-13
+    },
+    {
+      "time": 438.0,
+      "observed_duration": 78.0,
+      "exponents": [
+        0.0022865189096858275,
+        0.010836756075068552,
+        0.010983396610130982
+      ],
+      "elapsed": 532.0517634999997,
+      "residual": 1.328822851373901e-12
+    },
+    {
+      "time": 441.0,
+      "observed_duration": 81.0,
+      "exponents": [
+        0.00025085087153759237,
+        0.01062683948541687,
+        0.010716075424886647
+      ],
+      "elapsed": 547.6885041999922,
+      "residual": 7.647651959606704e-09
+    },
+    {
+      "time": 444.0,
+      "observed_duration": 84.0,
+      "exponents": [
+        -0.0009613289734649658,
+        0.012455579939400094,
+        0.010242526276697115
+      ],
+      "elapsed": 563.3251749999908,
+      "residual": 8.144177166410146e-13
+    },
+    {
+      "time": 447.0,
+      "observed_duration": 87.0,
+      "exponents": [
+        0.0013829628220016713,
+        0.011797588433557722,
+        0.0093354503328141
+      ],
+      "elapsed": 579.3398210999876,
+      "residual": 2.1562548124355878e-13
+    },
+    {
+      "time": 450.0,
+      "observed_duration": 90.0,
+      "exponents": [
+        -6.879776516499862e-05,
+        0.013751636356239603,
+        0.009932393040199858
+      ],
+      "elapsed": 595.845810999992,
+      "residual": 1.7695262650718228e-12
+    },
+    {
+      "time": 453.0,
+      "observed_duration": 93.0,
+      "exponents": [
+        0.0016810105993164024,
+        0.013931651574385617,
+        0.00974846180644638
+      ],
+      "elapsed": 611.7313805999875,
+      "residual": 1.160322634137829e-12
+    },
+    {
+      "time": 456.0,
+      "observed_duration": 96.0,
+      "exponents": [
+        0.001982119275559257,
+        0.012826665185230504,
+        0.008927216063526715
+      ],
+      "elapsed": 627.2821073999949,
+      "residual": 1.1057997996175391e-12
+    }
+  ],
+  "seed_checkpoint": {
+    "external_path": "D:\\Codex\\hydrogel-refinement-20261101\\field124-dt003-relax\\checkpoint.npz",
+    "sha256": "1d7a37a97311832ec225c0a6424359c942d40bbcf497e71db89ca11506d1b0ef"
+  },
+  "code_sha256": "dc126f6a1bf3080341e4d108c694386b0950eb96550db5e092d33c25924db340",
+  "solver_sha256": "f249da6e69aa3b3b7dc4fd9bf03cb97a6edba4d84614bed44dcc3c68ec76e7f1",
+  "scope": "Three finite-time exponents of the constant-step implicit BDF2 map. Derivatives of old-state forcing are analytic; the curvature-drive directional derivative is centered numerically. No continuous-time, asymptotic or continuum chaos certificate."
+}

@@ -1,0 +1,23 @@
+{
+  "identity_remesh_exact": true,
+  "constant_strain_interpolation_maximum_error": 1.1102230246251565e-16,
+  "remesh_equivariance_maximum_error": 7.105427357601002e-15,
+  "twist_projection": {
+    "initial_scaled_torque": 0.09196674608001468,
+    "final_scaled_torque": 6.712610280136201e-14,
+    "iterations": 2,
+    "maximum_material_spin": 0.002210110560562084
+  },
+  "twist_projection_centerline_maximum_change": 5.551115123125783e-17,
+  "replayed_pilot_checkpoint_errors": {
+    "q": 0.0,
+    "k": 0.0,
+    "nodes": 0.0,
+    "k_previous": 0.0,
+    "nodes_previous": 0.0,
+    "predictor": 0.0
+  },
+  "loaded_checkpoint_next_step_error": 0.0,
+  "seed_sha256": "96803aaeaece3941902f575cf498096cc5805a34d1c69258f1dd81c4417b37da",
+  "scope": "Initial-state interpolation, algebraic consistency and exact saved multistep-history checks; no asymptotic or spatial-convergence certificate."
+}

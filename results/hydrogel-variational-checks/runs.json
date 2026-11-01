@@ -1,0 +1,366 @@
+[
+  {
+    "run": "pilot128",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    },
+    "segments": 128,
+    "dt": 0.006,
+    "time_origin": 96.0,
+    "requested_duration": 0.12,
+    "completed_time": 96.12,
+    "final_accepted_time": 96.12,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "restart64-dt006",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 96.0,
+    "requested_duration": 96.0,
+    "completed_time": 192.0,
+    "final_accepted_time": 192.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "restart64-dt003",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.003,
+    "time_origin": 96.0,
+    "requested_duration": 96.0,
+    "completed_time": 192.0,
+    "final_accepted_time": 192.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "restart128-dt006",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    },
+    "segments": 128,
+    "dt": 0.006,
+    "time_origin": 96.0,
+    "requested_duration": 96.0,
+    "completed_time": 192.0,
+    "final_accepted_time": 192.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "accel128-dt006",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    },
+    "segments": 128,
+    "dt": 0.006,
+    "time_origin": 96.0,
+    "requested_duration": 96.0,
+    "completed_time": 192.0,
+    "final_accepted_time": 192.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "field121-n64",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 121.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 96.0,
+    "requested_duration": 96.0,
+    "completed_time": 192.0,
+    "final_accepted_time": 192.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "field124-n64",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 96.0,
+    "requested_duration": 96.0,
+    "completed_time": 192.0,
+    "final_accepted_time": 192.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "rotation-seed",
+    "parameters": {
+      "slenderness": 50,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": -33.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.004,
+    "time_origin": 100.0,
+    "requested_duration": 0.12,
+    "completed_time": 100.12,
+    "final_accepted_time": 100.12,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum117-n64",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 192.0,
+    "requested_duration": 120.0,
+    "completed_time": 312.0,
+    "final_accepted_time": 312.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum124-n64",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 192.0,
+    "requested_duration": 120.0,
+    "completed_time": 312.0,
+    "final_accepted_time": 312.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum-rotation",
+    "parameters": {
+      "slenderness": 50,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": -33.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.004,
+    "time_origin": 100.12,
+    "requested_duration": 120.0,
+    "completed_time": 220.12,
+    "final_accepted_time": 220.12,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "field127-from124",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 127.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 192.0,
+    "requested_duration": 120.0,
+    "completed_time": 312.0,
+    "final_accepted_time": 312.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "field130-from124",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 130.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 192.0,
+    "requested_duration": 120.0,
+    "completed_time": 312.0,
+    "final_accepted_time": 312.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "field124-n128-relax",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 128,
+    "dt": 0.006,
+    "time_origin": 312.0,
+    "requested_duration": 24.0,
+    "completed_time": 336.0,
+    "final_accepted_time": 336.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum124-extension",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 312.0,
+    "requested_duration": 240.0,
+    "completed_time": 552.0,
+    "final_accepted_time": 552.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum124-n128",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 128,
+    "dt": 0.006,
+    "time_origin": 336.0,
+    "requested_duration": 120.0,
+    "completed_time": 456.0,
+    "final_accepted_time": 456.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum127-n64",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 127.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 312.0,
+    "requested_duration": 120.0,
+    "completed_time": 432.0,
+    "final_accepted_time": 432.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "field130-continuation",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 130.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.006,
+    "time_origin": 312.0,
+    "requested_duration": 120.0,
+    "completed_time": 409.344,
+    "final_accepted_time": 409.35,
+    "success": false,
+    "failure": {
+      "attempted_step": 16226,
+      "time": 409.356,
+      "residual": 0.8412427022096927
+    }
+  },
+  {
+    "run": "field124-dt003-relax",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.003,
+    "time_origin": 312.0,
+    "requested_duration": 24.0,
+    "completed_time": 336.0,
+    "final_accepted_time": 336.0,
+    "success": true,
+    "failure": null
+  },
+  {
+    "run": "spectrum124-dt003",
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 124.0,
+      "nu": 0.5
+    },
+    "segments": 64,
+    "dt": 0.003,
+    "time_origin": 336.0,
+    "requested_duration": 120.0,
+    "completed_time": 456.0,
+    "final_accepted_time": 456.0,
+    "success": true,
+    "failure": null
+  }
+]

@@ -21,6 +21,10 @@ established.
 [Numerical packet and reproduction](../results/hydrogel-spatial-controls/README.md) ·
 [Earlier planar controls](hydrogel-planar-controls.md).
 
+The [longer refinement and variational study](hydrogel-variational-checks.md)
+tests the thinner circular regime, checks perturbation growth and shows why
+positive finite growth during slow drift does not establish a chaotic attractor.
+
 ## Spatial discretization
 
 The source retains translational resistive-force drag, neglects inertia and

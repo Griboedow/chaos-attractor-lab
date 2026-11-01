@@ -1,0 +1,38 @@
+[
+  {
+    "run": "spectrum127-n64",
+    "samples": 2501,
+    "window": "whole saved history",
+    "first_tested_time": 312.0,
+    "last_tested_time": 432.0,
+    "minimum_segment_index_gap": 4,
+    "minimum_material_gap": 0.046875,
+    "tube_diameter_threshold": 0.015748031496062992,
+    "minimum_clearance": 0.027468804805510713,
+    "time_of_minimum": 430.608,
+    "pair_at_minimum": [
+      12,
+      35
+    ],
+    "samples_below_threshold": 0,
+    "scope": "Sampled polygonal centerlines only. The material-gap cutoff omits nearby segments; no between-sample, finite-cross-section or continuum contact certificate."
+  },
+  {
+    "run": "field130-continuation",
+    "samples": 2029,
+    "window": "whole saved history",
+    "first_tested_time": 312.0,
+    "last_tested_time": 409.344,
+    "minimum_segment_index_gap": 4,
+    "minimum_material_gap": 0.046875,
+    "tube_diameter_threshold": 0.015748031496062992,
+    "minimum_clearance": 3.3409992965168624e-05,
+    "time_of_minimum": 398.544,
+    "pair_at_minimum": [
+      37,
+      57
+    ],
+    "samples_below_threshold": 496,
+    "scope": "Sampled polygonal centerlines only. The material-gap cutoff omits nearby segments; no between-sample, finite-cross-section or continuum contact certificate."
+  }
+]

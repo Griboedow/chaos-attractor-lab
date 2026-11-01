@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "Bounded keyword and primary-source follow-up. Neither exhaustive priority search nor dynamical-equivalence proof.",
+  "queries": [
+    "\"hydrogel filament\" chaos Noselli",
+    "\"morphoelastic\" \"chaotic\" rod",
+    "\"105225\" chaos",
+    "\"hydrogel\" \"quasiperiodic\" filament",
+    "\"Nonreciprocal oscillations of polyelectrolyte gel filaments\" chaotic",
+    "\"morphoelastic\" \"Lyapunov\" hydrogel",
+    "filament follower force chaotic dynamics De Canio Lauga Goldstein",
+    "\"follower force\" \"chaos\" \"filament\""
+  ],
+  "sources": [
+    {
+      "title": "A three-dimensional morphoelastic model for self-oscillations in polyelectrolyte hydrogel filaments",
+      "url": "https://link.springer.com/article/10.1007/s00707-026-04851-x",
+      "implemented_source": "https://arxiv.org/html/2604.09486v1",
+      "finding": "The source already reports periodic planar and spatial beating, hook rotation, secondary instability and initial-condition dependence. Its physical model is not ours to claim as new."
+    },
+    {
+      "title": "Nonreciprocal oscillations of polyelectrolyte gel filaments subject to a steady and uniform electric field",
+      "url": "https://doi.org/10.1016/j.jmps.2023.105225",
+      "accessible_author_source": "https://iris.sissa.it/bitstream/20.500.11767/130990/1/cicconofri_2023_preprint.pdf",
+      "finding": "The authors' abstract reports experiments and a morphoelastic model with flutter/divergence and self-sustained periodic oscillations. This search does not audit every equation or parameter regime of that predecessor."
+    },
+    {
+      "title": "Bifurcations and nonlinear dynamics of the follower force model for active filaments",
+      "url": "https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.9.073101",
+      "author_preprint": "https://arxiv.org/abs/2309.06294v2",
+      "finding": "Clarke, Hwang and Keaveny (2024) describe quasiperiodic states, intermittency and chaotic beating in a three-dimensional tip-driven filament. Broad novelty claims for chaotic active filaments are untenable."
+    },
+    {
+      "title": "Emergent programmable behavior and chaos in dynamically driven active filaments",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10334789/",
+      "doi": "10.1073/pnas.2304981120",
+      "finding": "Krishnamurthy and Prakash (2023) study time-dependent follower forcing and report a transition to chaos. This differs from the steady electric field and evolving internal curvature used here."
+    }
+  ],
+  "interpretation": "No matching chaos result for the exact 2026 morphoelastic law was located in this bounded query set. Different forcing laws do not establish inequivalence of attracting dynamics. Historical novelty remains unresolved."
+}
