@@ -1,0 +1,2169 @@
+{
+  "schema": 1,
+  "scope": "Every research file present in each declared completed run, including intermediate blocks. Explicitly listed runtime bytecode caches are excluded when requested. Optional array bytes remain in the hash-addressed cache and original run directory.",
+  "files": [
+    {
+      "run": "product-critical988-probe01",
+      "file": "cluster-labels.npz",
+      "bytes": 322386,
+      "sha256": "a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0.npz",
+        "bytes": 589,
+        "sha256": "825f4830903b31ab656b2290bb2be7b639b813c7e25b2483864c491e0721c53b",
+        "keys": [
+          "centroids",
+          "transition_counts"
+        ]
+      }
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "critical-images.npz",
+      "bytes": 9623262,
+      "sha256": "453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34.npz",
+        "bytes": 260391,
+        "sha256": "1088204e3aa278817ab10c9935c86d718fd34a1309f3b6d6f99aa06ffcf85c71",
+        "keys": [
+          "points",
+          "checkpoints",
+          "params",
+          "levels"
+        ]
+      }
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "report.json",
+      "bytes": 9091,
+      "sha256": "d49932a6ebdedc6040a787c02a8a1cddd6c9aad36c0b7776945059d04ea8607d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "trace_product_critical_surfaces.py",
+      "bytes": 6742,
+      "sha256": "8ce6263587e2871321f49494d4d5d2aae3f10478bd7e718def62f1b037e4747a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-audit01",
+      "file": "audit_product_local_geometry.py",
+      "bytes": 4845,
+      "sha256": "5c0cee69c5599743b5b7aff2957f9d6350a836d0d1b26f1d4fd3752017e2221e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-audit01",
+      "file": "audit_product_orientation.py",
+      "bytes": 10004,
+      "sha256": "f66355a0e5d84aebdcc66b2f01cc7a5fcdd4b927c3fe61e3c5cd5d31079e6ce3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-audit01",
+      "file": "report.json",
+      "bytes": 845,
+      "sha256": "d3325f5af5eb3d1dde3d47215f0ef6bb5990802526e32f2cd3c3aba2e679aaff",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate01",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate01",
+      "file": "certify_product_local_geometry.py",
+      "bytes": 7167,
+      "sha256": "9927982caeac5dcb1ff18d8f093c06ef3b043d4b5b29601878b2d2ff6df9d90c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate01",
+      "file": "failure.json",
+      "bytes": 173,
+      "sha256": "4bde09b309a0aef006b712b64657a96fd60aff8bdc44452b6647365cea7be2aa",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate01",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate01",
+      "file": "product_second_derivatives.py",
+      "bytes": 3303,
+      "sha256": "416c51983d90c55021fe533b07669b544d880e0a41743e509692fffb26074e27",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate01",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate02",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate02",
+      "file": "certify_product_local_geometry.py",
+      "bytes": 7158,
+      "sha256": "0642663af995b6eea444a6aa6373df0cc8d61b646ddcc5a31b822f144d73ee46",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate02",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate02",
+      "file": "product_second_derivatives.py",
+      "bytes": 3303,
+      "sha256": "416c51983d90c55021fe533b07669b544d880e0a41743e509692fffb26074e27",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate02",
+      "file": "report.json",
+      "bytes": 303280,
+      "sha256": "dbab9bd329e0904f0e3719068c3fdda50d12daae52a81519ee8533e80b4e5587",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "certify_product_local_geometry.py",
+      "bytes": 7158,
+      "sha256": "0642663af995b6eea444a6aa6373df0cc8d61b646ddcc5a31b822f144d73ee46",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "product_second_derivatives.py",
+      "bytes": 3305,
+      "sha256": "762587aceb04ced20b493c3acc2d29f95f2e1b1a3b821c0820f9224eb7e311e7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "report.json",
+      "bytes": 303280,
+      "sha256": "27271f04811565d310813fa2031a400097b49a34dc91845887a7640fe6daa6db",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent02",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent02",
+      "file": "certify_product_local_geometry.py",
+      "bytes": 7158,
+      "sha256": "0642663af995b6eea444a6aa6373df0cc8d61b646ddcc5a31b822f144d73ee46",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent02",
+      "file": "failure.json",
+      "bytes": 222,
+      "sha256": "b36dc472d5e789993a6080768f3eef01577c2b66235f0ab0d7efdec880f67006",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent02",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent02",
+      "file": "product_second_derivatives.py",
+      "bytes": 3303,
+      "sha256": "416c51983d90c55021fe533b07669b544d880e0a41743e509692fffb26074e27",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent02",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "certify_product_local_geometry.py",
+      "bytes": 7158,
+      "sha256": "0642663af995b6eea444a6aa6373df0cc8d61b646ddcc5a31b822f144d73ee46",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "product_second_derivatives.py",
+      "bytes": 3305,
+      "sha256": "762587aceb04ced20b493c3acc2d29f95f2e1b1a3b821c0820f9224eb7e311e7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "report.json",
+      "bytes": 360916,
+      "sha256": "7c8300ef0f459a68bad443c133b109153bd8d8b54b6c9d1880c5753c7693797c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-certificate03/certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-certificate03/certify_product_local_geometry.py",
+      "bytes": 7158,
+      "sha256": "0642663af995b6eea444a6aa6373df0cc8d61b646ddcc5a31b822f144d73ee46",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-certificate03/product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-certificate03/product_second_derivatives.py",
+      "bytes": 3305,
+      "sha256": "762587aceb04ced20b493c3acc2d29f95f2e1b1a3b821c0820f9224eb7e311e7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-certificate03/report.json",
+      "bytes": 303280,
+      "sha256": "a029eaa89331e19446d7df6086c0a98bacd0659ae24f545951bce34a15a5d1f4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-independent03/certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-independent03/certify_product_local_geometry.py",
+      "bytes": 7158,
+      "sha256": "0642663af995b6eea444a6aa6373df0cc8d61b646ddcc5a31b822f144d73ee46",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-independent03/product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-independent03/product_second_derivatives.py",
+      "bytes": 3305,
+      "sha256": "762587aceb04ced20b493c3acc2d29f95f2e1b1a3b821c0820f9224eb7e311e7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "product-local-geometry988-independent03/report.json",
+      "bytes": 360916,
+      "sha256": "0d499125fd071801379352b48f5af55c60f526457b0a1752465e088d53109d12",
+      "storage": "retained"
+    },
+    {
+      "run": "product-local-geometry988-replays01",
+      "file": "report.json",
+      "bytes": 378,
+      "sha256": "3ca699c4908fe3ba4194266fda1ded8a33a055224f2f8a40a1f8759c2a9b3d90",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison01",
+      "file": "compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison01",
+      "file": "compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison01",
+      "file": "compare_product_lotka_volterra.py",
+      "bytes": 4464,
+      "sha256": "cf0267568a15d0e2adc8c8d9f836df65dbfcc91acadbee1b115656d1ccc33e88",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison01",
+      "file": "failure.json",
+      "bytes": 200,
+      "sha256": "6a56be19b53a1ad8c49aa1fa701cb4a2d4faaac481dc9233fd156d736bc6b145",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison01",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "alignments.npz",
+      "bytes": 799188,
+      "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5.npz",
+        "bytes": 799188,
+        "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+        "keys": [
+          "similarity-0.65-candidate",
+          "similarity-0.65-reference",
+          "similarity-0.65-candidate-indices",
+          "similarity-0.65-reference-indices",
+          "similarity-0.6575-candidate",
+          "similarity-0.6575-reference",
+          "similarity-0.6575-candidate-indices",
+          "similarity-0.6575-reference-indices",
+          "similarity-0.665-candidate",
+          "similarity-0.665-reference",
+          "similarity-0.665-candidate-indices",
+          "similarity-0.665-reference-indices",
+          "similarity-0.66824-candidate",
+          "similarity-0.66824-reference",
+          "similarity-0.66824-candidate-indices",
+          "similarity-0.66824-reference-indices",
+          "similarity-0.675-candidate",
+          "similarity-0.675-reference",
+          "similarity-0.675-candidate-indices",
+          "similarity-0.675-reference-indices",
+          "affine-0.65-candidate",
+          "affine-0.65-reference",
+          "affine-0.65-candidate-indices",
+          "affine-0.65-reference-indices",
+          "affine-0.6575-candidate",
+          "affine-0.6575-reference",
+          "affine-0.6575-candidate-indices",
+          "affine-0.6575-reference-indices",
+          "affine-0.665-candidate",
+          "affine-0.665-reference",
+          "affine-0.665-candidate-indices",
+          "affine-0.665-reference-indices",
+          "affine-0.66824-candidate",
+          "affine-0.66824-reference",
+          "affine-0.66824-candidate-indices",
+          "affine-0.66824-reference-indices",
+          "affine-0.675-candidate",
+          "affine-0.675-reference",
+          "affine-0.675-candidate-indices",
+          "affine-0.675-reference-indices"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "compare_product_lotka_volterra.py",
+      "bytes": 4467,
+      "sha256": "4aab6d5ea5cc69b87da24653ebf12752c8d3c3e11a5657d36a086acb078d3ef1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "lv-0.65.npz",
+      "bytes": 2242955,
+      "sha256": "d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4.npz",
+        "bytes": 692,
+        "sha256": "2499470653688b5e82e057fcf1b05f9a5b41033f24f799d3e34b79b0be6a4bd4",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "lv-0.6575.npz",
+      "bytes": 2249462,
+      "sha256": "ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72.npz",
+        "bytes": 694,
+        "sha256": "aeb1c66517f0b4d48ac371ca3a64402afebfc7f4b7b6b5c6b14af74967b7cce3",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "lv-0.665.npz",
+      "bytes": 2257750,
+      "sha256": "675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b.npz",
+        "bytes": 695,
+        "sha256": "fed7ff76b7d3d1fade47f57c2b7dd03588db8db87e753f8f89489e8ba0435578",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "lv-0.66824.npz",
+      "bytes": 2257358,
+      "sha256": "7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf.npz",
+        "bytes": 695,
+        "sha256": "5c2ed8e5532a5e4dd4b66a358b6b86c8683df372187abe7bd275204b1537a91a",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "lv-0.675.npz",
+      "bytes": 2260273,
+      "sha256": "f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e.npz",
+        "bytes": 691,
+        "sha256": "9a15a6724eb5d47e9fd3c86dbd61b1a78a85a889af4782f404c2269043ca97e8",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "report.json",
+      "bytes": 5245,
+      "sha256": "a6dee267ffb009384195ffb4a8ceef2f1a6614c60c723c70f9b40ac2a3a16946",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "alignments.npz",
+      "bytes": 799188,
+      "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5.npz",
+        "bytes": 799188,
+        "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+        "keys": [
+          "similarity-0.65-candidate",
+          "similarity-0.65-reference",
+          "similarity-0.65-candidate-indices",
+          "similarity-0.65-reference-indices",
+          "similarity-0.6575-candidate",
+          "similarity-0.6575-reference",
+          "similarity-0.6575-candidate-indices",
+          "similarity-0.6575-reference-indices",
+          "similarity-0.665-candidate",
+          "similarity-0.665-reference",
+          "similarity-0.665-candidate-indices",
+          "similarity-0.665-reference-indices",
+          "similarity-0.66824-candidate",
+          "similarity-0.66824-reference",
+          "similarity-0.66824-candidate-indices",
+          "similarity-0.66824-reference-indices",
+          "similarity-0.675-candidate",
+          "similarity-0.675-reference",
+          "similarity-0.675-candidate-indices",
+          "similarity-0.675-reference-indices",
+          "affine-0.65-candidate",
+          "affine-0.65-reference",
+          "affine-0.65-candidate-indices",
+          "affine-0.65-reference-indices",
+          "affine-0.6575-candidate",
+          "affine-0.6575-reference",
+          "affine-0.6575-candidate-indices",
+          "affine-0.6575-reference-indices",
+          "affine-0.665-candidate",
+          "affine-0.665-reference",
+          "affine-0.665-candidate-indices",
+          "affine-0.665-reference-indices",
+          "affine-0.66824-candidate",
+          "affine-0.66824-reference",
+          "affine-0.66824-candidate-indices",
+          "affine-0.66824-reference-indices",
+          "affine-0.675-candidate",
+          "affine-0.675-reference",
+          "affine-0.675-candidate-indices",
+          "affine-0.675-reference-indices"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "compare_product_lotka_volterra.py",
+      "bytes": 4467,
+      "sha256": "4aab6d5ea5cc69b87da24653ebf12752c8d3c3e11a5657d36a086acb078d3ef1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "lv-0.65.npz",
+      "bytes": 2242955,
+      "sha256": "d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4.npz",
+        "bytes": 692,
+        "sha256": "2499470653688b5e82e057fcf1b05f9a5b41033f24f799d3e34b79b0be6a4bd4",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "lv-0.6575.npz",
+      "bytes": 2249462,
+      "sha256": "ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72.npz",
+        "bytes": 694,
+        "sha256": "aeb1c66517f0b4d48ac371ca3a64402afebfc7f4b7b6b5c6b14af74967b7cce3",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "lv-0.665.npz",
+      "bytes": 2257750,
+      "sha256": "675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b.npz",
+        "bytes": 695,
+        "sha256": "fed7ff76b7d3d1fade47f57c2b7dd03588db8db87e753f8f89489e8ba0435578",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "lv-0.66824.npz",
+      "bytes": 2257358,
+      "sha256": "7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf.npz",
+        "bytes": 695,
+        "sha256": "5c2ed8e5532a5e4dd4b66a358b6b86c8683df372187abe7bd275204b1537a91a",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "lv-0.675.npz",
+      "bytes": 2260273,
+      "sha256": "f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e.npz",
+        "bytes": 691,
+        "sha256": "9a15a6724eb5d47e9fd3c86dbd61b1a78a85a889af4782f404c2269043ca97e8",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "replay-audit.json",
+      "bytes": 589,
+      "sha256": "81c88a72d4929bf6f638b8f400d68cc582a94f293a5aca03e50c66c529c5618c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-lv-replay01",
+      "file": "report.json",
+      "bytes": 5244,
+      "sha256": "42038b7f736a4c8a6120ee5ff19bccf119d6fdf610a950b9ed76515b37a3c23d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "analyze_product_mechanism.py",
+      "bytes": 6416,
+      "sha256": "3c04193a9ae2df8483ca2c409c30cb4c571ace59888f9253385c179a6c73791f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "diagnostics.npz",
+      "bytes": 125443587,
+      "sha256": "500f25217943a5548ae00185cae368fe0a52b6b2e688b4755f7903dc91efd34b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/500f25217943a5548ae00185cae368fe0a52b6b2e688b4755f7903dc91efd34b.npz",
+        "bytes": 459,
+        "sha256": "31ddfc40ec50638ee121f7198426ec9f0d51af1dfabed6614496045b54982baa",
+        "keys": [
+          "params",
+          "levels"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "report.json",
+      "bytes": 155043,
+      "sha256": "14efa5a5d46b9f78671a707e9e6c09c1d5c8bcc9eac5964a7e3504e04efceb33",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-probe01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render01",
+      "file": "product-alphabet-mechanism.png",
+      "bytes": 1284868,
+      "sha256": "3564e8345a4b9a43ef46be01ab9d5d3cb38efb491f594b5918e3b4c0e397c988",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render01",
+      "file": "product-alphabet-parameter-mechanism.png",
+      "bytes": 1153055,
+      "sha256": "4e5aca493cf5d1948163a6fc296c65df3b6ab6852aad14120e605c4b4497cd9e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render01",
+      "file": "render_product_mechanism.py",
+      "bytes": 7619,
+      "sha256": "fd094f24f9e690f6fbed4252cd1ae8c5a487b6be12d2b112ac09395a0d86391c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render01",
+      "file": "report.json",
+      "bytes": 1978,
+      "sha256": "c1bf4b1e45becb95679173366cde7fed8229bc252c38ee1f9b0869d63b6c4ccf",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render02",
+      "file": "product-alphabet-mechanism.png",
+      "bytes": 1252749,
+      "sha256": "b7e9651584ac575e1a54a696d48f16e685c778b65e3dfc6cfb9a04e5bd020901",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render02",
+      "file": "product-alphabet-parameter-mechanism.png",
+      "bytes": 1581412,
+      "sha256": "75953f4574ed0ab513cf33b1dd5b1f9e6291ae9dadbf209a32baeb61b139f56e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render02",
+      "file": "render_product_mechanism.py",
+      "bytes": 7789,
+      "sha256": "d165be575aab6f5c0bd6189362c5352f998e335602c3428bd87ddb7a251ece42",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-render02",
+      "file": "report.json",
+      "bytes": 1978,
+      "sha256": "e161b079f089e8c542ce7b40b961d9918467f44ca82ee32ad10a70ecbd54d280",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/cluster-labels.npz",
+      "bytes": 322386,
+      "sha256": "a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0.npz",
+        "bytes": 589,
+        "sha256": "825f4830903b31ab656b2290bb2be7b639b813c7e25b2483864c491e0721c53b",
+        "keys": [
+          "centroids",
+          "transition_counts"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/critical-images.npz",
+      "bytes": 9623262,
+      "sha256": "453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34.npz",
+        "bytes": 260391,
+        "sha256": "1088204e3aa278817ab10c9935c86d718fd34a1309f3b6d6f99aa06ffcf85c71",
+        "keys": [
+          "points",
+          "checkpoints",
+          "params",
+          "levels"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/report.json",
+      "bytes": 9090,
+      "sha256": "41ac57ae3facdc2e326b2f331d4b412e79c78644484c901114078e4fac957ad9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-critical988-probe01/trace_product_critical_surfaces.py",
+      "bytes": 6742,
+      "sha256": "8ce6263587e2871321f49494d4d5d2aae3f10478bd7e718def62f1b037e4747a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/protocol.json",
+      "bytes": 30399,
+      "sha256": "3ba991967a727679e65bee7b1835a6114ddbaf3d6f3e45eb8d4aaa724544bf11",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/report.json",
+      "bytes": 421823,
+      "sha256": "b7c75d535f9f6491c4007178737be956c1a1c2826bcb234fc1be0da455d62f7a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/scan.npz",
+      "bytes": 56205661,
+      "sha256": "562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033.npz",
+        "bytes": 27156,
+        "sha256": "a501582c089cf588cfc41b0cd79a0999369232ed8f3a361191be2e90b9689bd4",
+        "keys": [
+          "params",
+          "levels",
+          "starts",
+          "minima",
+          "flags",
+          "active",
+          "periods"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/scan_product_mechanism.py",
+      "bytes": 4881,
+      "sha256": "3af7b8130e3ec85e04656ce5363c81498257fb620cbf9e7a96456db0721d12a1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "product-mechanism988-scan01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-replays01",
+      "file": "report.json",
+      "bytes": 360,
+      "sha256": "69d82530db4d8f64d3f0e217b6f736f01485036541a0b4dc9d12ac2cf479fb2d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "protocol.json",
+      "bytes": 30399,
+      "sha256": "3ba991967a727679e65bee7b1835a6114ddbaf3d6f3e45eb8d4aaa724544bf11",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "report.json",
+      "bytes": 421824,
+      "sha256": "2c1ec215437daf2ae78973fb49d5809cc527d27189ccc423704b1e5cda474922",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "scan.npz",
+      "bytes": 56205661,
+      "sha256": "562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033.npz",
+        "bytes": 27156,
+        "sha256": "a501582c089cf588cfc41b0cd79a0999369232ed8f3a361191be2e90b9689bd4",
+        "keys": [
+          "params",
+          "levels",
+          "starts",
+          "minima",
+          "flags",
+          "active",
+          "periods"
+        ]
+      }
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "scan_product_mechanism.py",
+      "bytes": 4881,
+      "sha256": "3af7b8130e3ec85e04656ce5363c81498257fb620cbf9e7a96456db0721d12a1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "report.json",
+      "bytes": 1838,
+      "sha256": "6b0cac09ed496919380e22b2635a050bfb6987dae7e56819bda31977f8ffb334",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "file": "verify_product_mechanism.py",
+      "bytes": 5387,
+      "sha256": "4e88c1e1d107a046e3a9335094a7506cb41bf44011df6a02d84bdc4da173617b",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit01",
+      "file": "audit_product_unstable_escape.py",
+      "bytes": 6712,
+      "sha256": "c3e88e391268661b0a78d77cf03da249f292b1874cec0cf0fa3fcb64df87f5ae",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit01",
+      "file": "failure.json",
+      "bytes": 183,
+      "sha256": "6496288d1315ce71963824cbf1b7bac06bf433f240496dce392c2a6a9f5320b7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit01",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit02",
+      "file": "audit_product_orientation.py",
+      "bytes": 10004,
+      "sha256": "f66355a0e5d84aebdcc66b2f01cc7a5fcdd4b927c3fe61e3c5cd5d31079e6ce3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit02",
+      "file": "audit_product_unstable_escape.py",
+      "bytes": 6751,
+      "sha256": "a043386531ece101dc1f95fe424a3de6ed964133973a4fc0eb429787a1b1d55a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit02",
+      "file": "report.json",
+      "bytes": 1270,
+      "sha256": "3a026714539b1ec446619f88803cee8a3d501986e5fe1fd5054ede44f2e8283a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit06",
+      "file": "audit_product_unstable_escape.py",
+      "bytes": 8432,
+      "sha256": "ed44cadfdecdb0d53e63c65b726a8badf273e85c01a96713dbd1b6f6a62feffd",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit06",
+      "file": "failure.json",
+      "bytes": 151,
+      "sha256": "882cee0502548fb337484998205585ea1f251d03a7858d3d3d72a428d97d2c27",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit06",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit07",
+      "file": "audit_product_orientation.py",
+      "bytes": 10004,
+      "sha256": "f66355a0e5d84aebdcc66b2f01cc7a5fcdd4b927c3fe61e3c5cd5d31079e6ce3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit07",
+      "file": "audit_product_unstable_escape.py",
+      "bytes": 8694,
+      "sha256": "8ad237f55aaf708dc4d11a74b7593a5355024070ade68de98ddf303da688237d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-audit07",
+      "file": "report.json",
+      "bytes": 1349,
+      "sha256": "bcb43b20d218be58a1b7057986c9e9def3852503c920e6b52e87537e5f193e58",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate01",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 10125,
+      "sha256": "19a8da41756f2856401b8115f45cc9044b97dd89a4699c38bfbae7f2364da3d6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate01",
+      "file": "failure.json",
+      "bytes": 235,
+      "sha256": "10150bca7dc411e2692d95d87df9f23e4b433e10585d987e1b84ce2f61e4c16b",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate01",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "atlas.json",
+      "bytes": 200371,
+      "sha256": "0b8acbba73a5d9d4aedeb8893912ee389dbf84940adcfe4b40311379ed2c81c8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 10241,
+      "sha256": "4aa1414001ffdd6538f733b41ebd2c73e894fa2af624538fc3ed78154a1c6d52",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "progress.json",
+      "bytes": 1131,
+      "sha256": "7c724f0ebe498c931d4bab16c6bbaefcca17f01b8ad55bf5a657cc656a83d8ea",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "report.json",
+      "bytes": 120121,
+      "sha256": "c634b09311b6ed2d063f2a3d61d04790c56d1e0a4be4821761e5e1f6003b0fbe",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "trajectory.json",
+      "bytes": 109986,
+      "sha256": "c9da5cae3c3d9628c66f96ac9844510666ea468f7d51fd084a505f3da8832f17",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate02",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "atlas.json",
+      "bytes": 200371,
+      "sha256": "0b8acbba73a5d9d4aedeb8893912ee389dbf84940adcfe4b40311379ed2c81c8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 10466,
+      "sha256": "0dbd99d53355cabf37d44d7fff502acc3887f69827acc69019cd00d1093dda2a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "progress.json",
+      "bytes": 1131,
+      "sha256": "7c724f0ebe498c931d4bab16c6bbaefcca17f01b8ad55bf5a657cc656a83d8ea",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "report.json",
+      "bytes": 120121,
+      "sha256": "0e898601dd24303f353adbee52f0304b3fbb29741f64c00ae00e1305750b2ad3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "trajectory.json",
+      "bytes": 381759,
+      "sha256": "7978c4e006cd7edd3e08c5282b6ac124fe70ee94480381912233b3f441e67348",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate04",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate04",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 11376,
+      "sha256": "08f6c7f1831aa0c386042174b031ad430ffcdf516a2c9bfb726e5cca48457ffd",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate04",
+      "file": "failure.json",
+      "bytes": 203,
+      "sha256": "c7bd9fe656dade1ffdf36da94c558067fb6fe8791fd460322c05f04149529d7a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate04",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate04",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate04",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate05",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate05",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 12071,
+      "sha256": "e421b59d9a3eaa5725cc4317e8b0380bfaf598374b252ec11c60f891db5847b4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate05",
+      "file": "failure.json",
+      "bytes": 209,
+      "sha256": "6e8ad98b484769acb21c954f3e072c55bfb2c487251a6033383adfe07053f569",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate05",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate05",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate05",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "atlas.json",
+      "bytes": 200371,
+      "sha256": "0b8acbba73a5d9d4aedeb8893912ee389dbf84940adcfe4b40311379ed2c81c8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 12612,
+      "sha256": "4bb0b2cadfc5e09bd0802df4bb8e3ed332376776881b8921f4debdbeca0eec6e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "progress.json",
+      "bytes": 1131,
+      "sha256": "7c724f0ebe498c931d4bab16c6bbaefcca17f01b8ad55bf5a657cc656a83d8ea",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "report.json",
+      "bytes": 157924,
+      "sha256": "7aeab686e43a54f4e6d80d9bfea0522fcb8a1f7d53d748ef4a4ef0b44ab11822",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "trajectory.json",
+      "bytes": 381759,
+      "sha256": "7978c4e006cd7edd3e08c5282b6ac124fe70ee94480381912233b3f441e67348",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "atlas.json",
+      "bytes": 234955,
+      "sha256": "5e692af829e761ed5594a2ce760d161b050b98a73169c990c106fcf18082f3d6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 10466,
+      "sha256": "0dbd99d53355cabf37d44d7fff502acc3887f69827acc69019cd00d1093dda2a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "progress.json",
+      "bytes": 1410,
+      "sha256": "97bc5819a217939cd1a73a72f973d77b8b35c986d41903c4776cdb49190807c3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "report.json",
+      "bytes": 143545,
+      "sha256": "6b1e3eed288b35f948330343de713c022e4eac63965d5f0d6ef4d9d5b7a37cf9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "trajectory.json",
+      "bytes": 458296,
+      "sha256": "793ac287220070333f22871a27943a0e03c604e00fd16c15900dabb7c15d6598",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent04",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent04",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 11376,
+      "sha256": "08f6c7f1831aa0c386042174b031ad430ffcdf516a2c9bfb726e5cca48457ffd",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent04",
+      "file": "failure.json",
+      "bytes": 203,
+      "sha256": "c7bd9fe656dade1ffdf36da94c558067fb6fe8791fd460322c05f04149529d7a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent04",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent04",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent04",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent05",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent05",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 12071,
+      "sha256": "e421b59d9a3eaa5725cc4317e8b0380bfaf598374b252ec11c60f891db5847b4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent05",
+      "file": "failure.json",
+      "bytes": 257,
+      "sha256": "acc1d0d22f95398f4081ac8b897e273d31e6bcd48ecd745da677280cff1bad6d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent05",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent05",
+      "file": "report.json",
+      "bytes": 176,
+      "sha256": "c12e7fe1ad0cbc07fc8193d9a8befcd74fe845c146e08f38be4dd84ad3d2a536",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent05",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "atlas.json",
+      "bytes": 234955,
+      "sha256": "5e692af829e761ed5594a2ce760d161b050b98a73169c990c106fcf18082f3d6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "certify_product_unstable_escape.py",
+      "bytes": 12612,
+      "sha256": "4bb0b2cadfc5e09bd0802df4bb8e3ed332376776881b8921f4debdbeca0eec6e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "progress.json",
+      "bytes": 1410,
+      "sha256": "97bc5819a217939cd1a73a72f973d77b8b35c986d41903c4776cdb49190807c3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "report.json",
+      "bytes": 475716,
+      "sha256": "299d190a8c814efc93be31bc776d3aad8c98e44190b6309b5f6439e9847b2c24",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "trajectory.json",
+      "bytes": 458296,
+      "sha256": "793ac287220070333f22871a27943a0e03c604e00fd16c15900dabb7c15d6598",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/atlas.json",
+      "bytes": 200371,
+      "sha256": "0b8acbba73a5d9d4aedeb8893912ee389dbf84940adcfe4b40311379ed2c81c8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/certify_product_unstable_escape.py",
+      "bytes": 10466,
+      "sha256": "0dbd99d53355cabf37d44d7fff502acc3887f69827acc69019cd00d1093dda2a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/progress.json",
+      "bytes": 1131,
+      "sha256": "7c724f0ebe498c931d4bab16c6bbaefcca17f01b8ad55bf5a657cc656a83d8ea",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/report.json",
+      "bytes": 120121,
+      "sha256": "96220a56b9effe7d336fdbcb54856a7fadb9ff89d56f27729205f879075466e8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/trajectory.json",
+      "bytes": 381759,
+      "sha256": "7978c4e006cd7edd3e08c5282b6ac124fe70ee94480381912233b3f441e67348",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-certificate03/verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/atlas.json",
+      "bytes": 234955,
+      "sha256": "5e692af829e761ed5594a2ce760d161b050b98a73169c990c106fcf18082f3d6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/certify_product_unstable_escape.py",
+      "bytes": 10466,
+      "sha256": "0dbd99d53355cabf37d44d7fff502acc3887f69827acc69019cd00d1093dda2a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/progress.json",
+      "bytes": 1410,
+      "sha256": "97bc5819a217939cd1a73a72f973d77b8b35c986d41903c4776cdb49190807c3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/report.json",
+      "bytes": 143544,
+      "sha256": "978b4cfe96b1fcb99c6c8d82d994318d6415de1bb97d2083f573904c59cd5197",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/trajectory.json",
+      "bytes": 458296,
+      "sha256": "793ac287220070333f22871a27943a0e03c604e00fd16c15900dabb7c15d6598",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "product-unstable-escape988-independent03/verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays02",
+      "file": "report.json",
+      "bytes": 380,
+      "sha256": "14c1342b01f8ae1922e9b533ff32d62f4f6a76077322650f6b88802e0f3d3007",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/atlas.json",
+      "bytes": 200371,
+      "sha256": "0b8acbba73a5d9d4aedeb8893912ee389dbf84940adcfe4b40311379ed2c81c8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/certify_product_unstable_escape.py",
+      "bytes": 12612,
+      "sha256": "4bb0b2cadfc5e09bd0802df4bb8e3ed332376776881b8921f4debdbeca0eec6e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/progress.json",
+      "bytes": 1131,
+      "sha256": "7c724f0ebe498c931d4bab16c6bbaefcca17f01b8ad55bf5a657cc656a83d8ea",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/report.json",
+      "bytes": 157924,
+      "sha256": "5507e105a779839a35537d7d9b696136a52c538bd182e38590e76583c21de9d3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/trajectory.json",
+      "bytes": 381759,
+      "sha256": "7978c4e006cd7edd3e08c5282b6ac124fe70ee94480381912233b3f441e67348",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-certificate06/verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/atlas.json",
+      "bytes": 234955,
+      "sha256": "5e692af829e761ed5594a2ce760d161b050b98a73169c990c106fcf18082f3d6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/certify_product_cycles.py",
+      "bytes": 9190,
+      "sha256": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/certify_product_unstable_escape.py",
+      "bytes": 12612,
+      "sha256": "4bb0b2cadfc5e09bd0802df4bb8e3ed332376776881b8921f4debdbeca0eec6e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/product_binary_interval.py",
+      "bytes": 2474,
+      "sha256": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/progress.json",
+      "bytes": 1410,
+      "sha256": "97bc5819a217939cd1a73a72f973d77b8b35c986d41903c4776cdb49190807c3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/report.json",
+      "bytes": 475717,
+      "sha256": "40ea4cd142ca656f352ae104194dace9f599be5d3fe8b7a0c5fc282f53e33538",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/trajectory.json",
+      "bytes": 458296,
+      "sha256": "793ac287220070333f22871a27943a0e03c604e00fd16c15900dabb7c15d6598",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "product-unstable-escape988-independent06/verify_product_coverings.py",
+      "bytes": 8659,
+      "sha256": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-unstable-escape988-replays07",
+      "file": "report.json",
+      "bytes": 380,
+      "sha256": "d11fd80ac3a019736611469434f3c998a7303e8989eae59251c92067d9c496d6",
+      "storage": "retained"
+    }
+  ],
+  "runtime_cache_exclusions": [
+    {
+      "run": "product-critical988-probe01",
+      "file": "__pycache__/follow_spherical_constellations.cpython-312.pyc",
+      "bytes": 11272,
+      "sha256": "7999bcf0b54f92c75f3128aa0b86f202053aaa49a9abed37f0c9b49e60c038ef"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "__pycache__/search_product_alphabet.cpython-312.pyc",
+      "bytes": 25150,
+      "sha256": "ab93ccd729da02cdcd1eb093f9f8ff898f76fd4b31ec1009df2fe20d83d45bde"
+    },
+    {
+      "run": "product-critical988-probe01",
+      "file": "__pycache__/search_spherical_constellations.cpython-312.pyc",
+      "bytes": 12463,
+      "sha256": "47e661b59d953b99cef4a8c447fb716ac909a628d685ef1a5c6b6536f9503734"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "__pycache__/certify_product_cycles.cpython-312.pyc",
+      "bytes": 21645,
+      "sha256": "f7f9257b99ad0654e5d7328cdad39a2cc51e0b1bbe3c3e068687ed27aba3c699"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "__pycache__/product_binary_interval.cpython-312.pyc",
+      "bytes": 7123,
+      "sha256": "6423ac309beb5e4dee5fc01dd73cd0a2c0a0aa3e2a7ad675ee02ebdf81892ffc"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "file": "__pycache__/product_second_derivatives.cpython-312.pyc",
+      "bytes": 12126,
+      "sha256": "f5619fd2ec343a228dbdc50d49d6146a91b0111483f3aa82fa94cb1b3f8c772f"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "__pycache__/certify_product_cycles.cpython-312.pyc",
+      "bytes": 21645,
+      "sha256": "b1816f8eb225950e024e1e96c1748e7ee44f687e9318015a39aa5c02f70c37b7"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "__pycache__/product_binary_interval.cpython-312.pyc",
+      "bytes": 7123,
+      "sha256": "640eb4f56e92e145763bc5daff782bfce1ab09ef801c45d0b4765e55c62ee1bb"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "file": "__pycache__/product_second_derivatives.cpython-312.pyc",
+      "bytes": 12126,
+      "sha256": "71932606e58c8a9a06a223eeb68b483f4f053f842886b88f367f5fd4d256512d"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "__pycache__/compare_affine_shapes.cpython-312.pyc",
+      "bytes": 6578,
+      "sha256": "dd595a70023cb147d6a4bff501b1b7d2e9cb97d4ba55fb534d35a3e07dbf15ca"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "__pycache__/compare_attractor_shapes.cpython-312.pyc",
+      "bytes": 13045,
+      "sha256": "07c89847e3395526ab70635481a486c05773bdd72b7f0b2b069607d42c9ce980"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "__pycache__/compare_product_lotka_volterra.simulate-14.py312.1.nbc",
+      "bytes": 232537,
+      "sha256": "9edca78aac43b0082beb3887ce73cb4d2c389081aac9da1613f43544f6ae422b"
+    },
+    {
+      "run": "product-mechanism988-lv-comparison02",
+      "file": "__pycache__/compare_product_lotka_volterra.simulate-14.py312.nbi",
+      "bytes": 1487,
+      "sha256": "39d5cdc91cf54311ee67607029849da231a22330923e5e8c7e910a91c085eea3"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "__pycache__/follow_spherical_constellations.cpython-312.pyc",
+      "bytes": 11272,
+      "sha256": "e356488fdb6894b74e6201bafa6042b556afd2743efbee902ce7e0ff8e6f361a"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "__pycache__/search_product_alphabet.cpython-312.pyc",
+      "bytes": 25150,
+      "sha256": "89b1c08a996ef445471bbbdb4dafb38fe8a91dd3f3ebf375789f00eefcb0b305"
+    },
+    {
+      "run": "product-mechanism988-scan01",
+      "file": "__pycache__/search_spherical_constellations.cpython-312.pyc",
+      "bytes": 12463,
+      "sha256": "168aacd80c37c6db34491c52fd7dbb01e784e39ee43e1d7e574057eced062291"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "__pycache__/certify_product_cycles.cpython-312.pyc",
+      "bytes": 21646,
+      "sha256": "dfec38c7af721f8fe2aa0330016bfbb48df7ef428fc0d29a44bdcc53ec4a1760"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "__pycache__/product_binary_interval.cpython-312.pyc",
+      "bytes": 7124,
+      "sha256": "b9d2c12c445b925ac58f3ad408262bac2c4d21e8dcfdfbffd46e293ac327675d"
+    },
+    {
+      "run": "product-unstable-escape988-certificate03",
+      "file": "__pycache__/verify_product_coverings.cpython-312.pyc",
+      "bytes": 26895,
+      "sha256": "1cb3be8c71449b6c9e205ca52cb8d0803d791cced23abede397f1322a29eb2bc"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "__pycache__/certify_product_cycles.cpython-312.pyc",
+      "bytes": 21646,
+      "sha256": "0147b8d61b38bcafd42527582d9e6de6ebe4d23b59aee16e0646f95ac983d23f"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "__pycache__/product_binary_interval.cpython-312.pyc",
+      "bytes": 7124,
+      "sha256": "697768ff589a39235f8937cae4e504256c654a84f9d0eb8dee4acf90056d47b0"
+    },
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "file": "__pycache__/verify_product_coverings.cpython-312.pyc",
+      "bytes": 26895,
+      "sha256": "1fcd3875433c57326c5b53981f123aed7690c0abb5083bc5ce8f420ae5c979e1"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "__pycache__/certify_product_cycles.cpython-312.pyc",
+      "bytes": 21646,
+      "sha256": "394443587f92247c99e86f255608350371dcd129fad1e6f1e2fd6ed7bef19a08"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "__pycache__/product_binary_interval.cpython-312.pyc",
+      "bytes": 7124,
+      "sha256": "c6b01396f619f9f45fc3785e577d35e9ff43df27757b1261cfff7b66dc4dbee6"
+    },
+    {
+      "run": "product-unstable-escape988-independent03",
+      "file": "__pycache__/verify_product_coverings.cpython-312.pyc",
+      "bytes": 26895,
+      "sha256": "8b24e114e8f7439f52544d5a8e190ee97fcac3250fe1366f30dc06081f6809cd"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "__pycache__/certify_product_cycles.cpython-312.pyc",
+      "bytes": 21646,
+      "sha256": "1212125e396e51003bd33adc3b2c4f32b02ceaa7780128b22e7314091b8d2bf5"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "__pycache__/product_binary_interval.cpython-312.pyc",
+      "bytes": 7124,
+      "sha256": "e2c8f995bd5bf91a94c814d8800437693ff26923b73e5d9666b854c27810ce29"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "file": "__pycache__/verify_product_coverings.cpython-312.pyc",
+      "bytes": 26895,
+      "sha256": "45bbb9549650a8eaad43ea9575ba095100a6f96697841f40808d2ab32be85ecb"
+    }
+  ]
+}

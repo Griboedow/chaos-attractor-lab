@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "replays": [
+    {
+      "run": "product-mechanism988-scan01",
+      "report_sha256": "2c1ec215437daf2ae78973fb49d5809cc527d27189ccc423704b1e5cda474922",
+      "identical_arrays": [
+        "scan.npz"
+      ],
+      "identical_report_keys": [
+        "cases",
+        "strictly_positive_cohorts",
+        "finite_periodic_cohorts",
+        "flagged_cohorts"
+      ]
+    },
+    {
+      "run": "product-critical988-probe01",
+      "report_sha256": "d49932a6ebdedc6040a787c02a8a1cddd6c9aad36c0b7776945059d04ea8607d",
+      "identical_arrays": [
+        "critical-images.npz",
+        "cluster-labels.npz"
+      ],
+      "identical_report_keys": [
+        "images",
+        "numerical_clusters",
+        "contraction_bound"
+      ]
+    }
+  ],
+  "independent_probes": 128,
+  "seed": 2026110157,
+  "maximum_formula_error": 4.3298697960381105e-15,
+  "maximum_jacobian_relative_error": 1.1621504246598895e-13,
+  "maximum_finite_difference_relative_error": 4.000908146450932e-09,
+  "full_site_tangent_steps": 2048,
+  "maximum_log_growth_error": 1.0946799022804043e-12,
+  "absorbing_bound": {
+    "site_norm_upper": "201/100",
+    "site_squared_norm_max": "10204500428574294325465357179945/2535301200456458802993406410752",
+    "beta": "1043493990121341/1125899906842624",
+    "radius": "40",
+    "forcing_upper": "148764050882772879/56294995342131200",
+    "strict_boundary_gap": "16047782559793121/56294995342131200",
+    "scope": "All indefinitely defined forward orbits eventually enter radius 40. The ball includes normalization singularities and is not a compact smooth-domain trapping certificate."
+  },
+  "numerical_switching_halfwidths": [
+    0.031116895198141536,
+    0.032985383218646996,
+    0.028539130848820142
+  ],
+  "scope": "Replay numerical geometry and parameter slices; check independent formulas."
+}

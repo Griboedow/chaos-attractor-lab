@@ -1,8 +1,9 @@
-# Folded wings, positive entropy and reversed returns in posterior-reflection maps
+# Folded wings, chaotic subsystems and their instability in posterior-reflection maps
 
 **Computational research article · 2026-11-01.** A compact invariant subsystem
-has certified positive entropy and an orientation-reversing period-92 orbit.
-Chaotic attraction and historical uniqueness are not certified.
+has certified positive entropy, an orientation-reversing period-92 orbit,
+and a certified failure of Lyapunov stability. A larger chaotic attractor
+and historical uniqueness remain unproved.
 
 ## Abstract
 
@@ -24,8 +25,14 @@ verifies every covering relation. An orientation audit places an exact
 least-period-92 orbit with negative return determinant in that subsystem.
 Local degree excludes ambient-neighborhood topological conjugacy to
 orientation-constant local diffeomorphisms, including standard three-dimensional
-Henon maps, and to smooth Euclidean flow return maps. This subsystem is not proved attracting
-or equal to the sampled cloud. A four-level companion produces layered arches
+Henon maps, and to smooth Euclidean flow return maps. A further unstable-graph
+certificate proves that this particular compact subsystem is not Lyapunov
+stable: arbitrarily nearby points leave its complete covering atlas. Six
+ordinary folds and two preimages of the normalization singularity are also
+certified. Numerical critical-set images and 1,452 parameter/start cohorts
+support a switching-and-folding explanation of the geometry, using established
+noninvertible-map concepts. A larger attracting set containing the certified
+subsystem is not established. A four-level companion produces layered arches
 but coexists with numerical fixed points. Complete selection records preserve periodic captures and
 precision-sensitive planar behavior. The contribution is a reproducible
 geometric study, a positive-entropy certificate and a precisely scoped
@@ -549,7 +556,8 @@ As a simpler consequence, choosing 23 self-loops or one excursion in each
 block gives arbitrary binary itineraries sampled every 92 original steps
 and the weaker bound $`\log(2)/92>0.0075342`$. Compactness also realizes
 infinite prescribed routes. Unique symbolic coding, a transverse homoclinic
-orbit, uniform hyperbolicity and attraction of C are not asserted.
+orbit and uniform hyperbolicity are not asserted. Section 6.3 proves that
+this C is not Lyapunov stable.
 
 **Search and unsuccessful certificates.** The window search starts from
 512 numerical cycle fits at periods 1–16, retaining 70 numerical cycles.
@@ -663,7 +671,7 @@ polynomial. The following numbers are rounded summaries of those brackets.
 
 | Local cycle identifier | Least period | Return multipliers | Return determinant | Membership information |
 | --- | ---: | --- | ---: | --- |
-| 14 | 4 | −11.46142820, −0.65951618, 0.30644260 | 2.31639883 | Certified inside $`N_0`$; may realize the self-loop in C |
+| 14 | 4 | −11.46142820, −0.65951618, 0.30644260 | 2.31639883 | Unique self-loop realization in $`N_0`$, hence in C; Section 6.3 |
 | 16 | 4 | 57.70879233, −0.73025254, 0.21613615 | −9.10840785 | No C or cloud membership claim |
 | 23 | 7 | 66.89511321, −0.11247103, 0.05138757 | −0.38662787 | No C or cloud membership claim |
 
@@ -674,7 +682,8 @@ on locating a numerical root of the 92-step map or on these short-cycle fits.
 **Limits.** The result excludes a specified class of ambient-neighborhood
 models. It does not exclude a conjugacy defined only on the invariant set,
 known noninvertible models, symbolic equivalence, or an alternative embedding.
-It does not prove that C attracts or equals the plotted numerical cloud.
+It does not identify C with the plotted numerical cloud. Section 6.3 rules
+out Lyapunov stability of C, without ruling out a larger attracting set.
 In the extension, a third grid proposal exhausted its eight-million-new-cell
 budget. Two elementary-domain scouts tested 224 box/ball and normalization
 cutoff combinations; every combination had a sampled violating witness.
@@ -721,6 +730,249 @@ the main portrait's visible envelope as invariant. Three additional completed
 uniform/nonuniform grid proposals also fail closure; their sampled bounds
 are retained as unsuccessful proposals, not interval proofs.
 
+### 6.3. The certified subsystem is not Lyapunov stable
+
+The [mechanism and instability packet](../../results/product-mechanism/README.md)
+resolves attraction of the specific set C negatively in the usual stable
+sense. This conclusion concerns C from Section 6, not every invariant set
+of Case 988 or the closure of an indefinitely continued numerical orbit.
+
+**Theorem.** Every invariant subset of the covering atlas X that contains
+the period-four cycle 14 is not Lyapunov stable. In particular, the set C
+constructed in Section 6 is not Lyapunov stable and cannot be the stable
+attractor obtained from a strict compact trapping neighborhood.
+
+**Proof.** Put $`G=F^4`$. First, the certified point p of cycle 14 is the
+unique G-fixed point in the whole affine window $`N_0`$. A Krawczyk
+inclusion refines p, and a complete subdivision of $`N_0`$ verifies
+
+```math
+\sup_{x\in N_0}\|I-B(DG(x)-I)\|_\infty\lt 1
+```
+
+for one fixed nonsingular rational matrix B. Convexity of $`N_0`$ and the
+mean-value integral imply injectivity of $`G-I`$ there. The factorized and
+full-site calculations require two and sixteen subcells respectively;
+the former contraction bound is below 0.683891. Thus every realization
+of the one-arrow self-loop equals p, and the definition of C includes p.
+
+Use an exact rational coordinate matrix E centered at this exact p,
+with coordinates $`(u,v)\in\mathbb R\times\mathbb R^2`$. On
+$`|u|\le r_0=2\cdot10^{-25}`$, $`\|v\|_\infty\le Lr_0`$,
+$`L=10^{-10}`$, write the derivative blocks of the local G map as
+$`a_{11},a_{12},a_{21},a_{22}`$. The horizontal derivative has fixed
+negative sign. Outward bounds A, B_1, C_1, D_1 satisfy
+
+```math
+|a_{11}|\ge A,\qquad \|a_{12}\|_1\le B_1,\qquad
+\|a_{21}\|_\infty\le C_1,\qquad \|a_{22}\|_\infty\le D_1.
+```
+
+The graph-transform inequalities are
+
+```math
+\mu=A-B_1L>11.46142819>1,\qquad
+\frac{C_1+D_1L}{\mu}\lt 5.755\cdot10^{-12}\lt L,
+```
+
+```math
+D_1+\frac{(C_1+D_1L)B_1}{\mu}\lt 0.659517\lt 1,
+\qquad C_1+D_1L\lt L.
+```
+
+For an L-Lipschitz graph through the origin, the horizontal image is
+strictly decreasing, expands secant lengths by at least $`\mu`$, and
+covers $`[-r_0,r_0]`$. The stable image stays within its allowed box.
+Restricting the image to this horizontal interval defines a graph
+transform. The first inequality bounds its slope; the second displayed
+line gives its contraction in the uniform norm. The complete space of
+L-Lipschitz graphs through zero therefore has a fixed graph h. Its
+horizontal inverse contracts by at most $`1/\mu`$, so backward G-iterates
+of every graph point approach p. All required original F-steps remain
+in the validated smooth domain.
+
+Take the true graph point $`q=p+E(\epsilon,h(\epsilon))`$,
+$`\epsilon=10^{-25}`$. Its unknown stable coordinates are enclosed by
+$`|h_i(\epsilon)|\le L\epsilon`$. Twenty validated G-steps, using
+mean-value propagation in the fixed rational chart, enclose $`F^{80}(q)`$
+in a box separated from all 92 enclosing boxes for X. The minimum certified
+coordinate gap exceeds **0.00011729734758437**. Thus its Euclidean distance
+from X also exceeds this number.
+
+Let $`q_{-n}`$ be successive backward graph iterates. Then
+$`q_{-n}\to p\in C`$, while $`F^{4n+80}(q_{-n})=F^{80}(q)`$ remains
+a fixed positive distance from X and hence from C. This contradicts
+Lyapunov stability. The same argument applies to every invariant subset
+of X containing p. ∎
+
+Both expressions independently validate the root, complete uniqueness
+partition, unstable graph and forward escape: factorized intervals at
+120 digits and eight-site automatic derivatives at 160 digits. Exact
+rational audits check the stored endpoint arithmetic, graph inequalities,
+partition coverage, matrix inverses and all 92 separation tests; frozen
+source replays reproduce the proof payloads exactly. The two expressions
+share mpmath interval arithmetic. Failed one-step propagation, excessive
+interval widths and implementation errors remain in the packet.
+
+The result does not exclude an unstable attractor in a weaker Milnor sense,
+nor a larger stable attracting set A containing C and the escaping unstable
+branch. It does show that identifying the covering subsystem itself with
+a stable attractor would be incorrect. Proving such a larger A requires
+a new trapping construction and an additional connection to the observed
+cloud; the entropy certificate alone does not supply either.
+
+### 6.4. Local folds, singular preimages and boundedness
+
+**Six ordinary folds.** On six fixed-coordinate lines, outward determinant
+brackets isolate roots of $`\det DF=0`$. Let $`n`$ be the cross product of
+the first two Jacobian rows. Each root box proves
+
+```math
+n\ne 0,\qquad \nabla(\det DF)\cdot n\ne 0.
+```
+
+At the root, n spans the one-dimensional kernel and the Jacobian has
+rank two. The second inequality makes that kernel transverse to the
+critical surface. By using two independent image coordinates as local
+coordinates, this is precisely the nonzero second derivative in the
+remaining kernel direction: an ordinary fold. This standard local
+criterion is applied here, not proposed as a new singularity type.
+
+The primary 120-digit calculation uses closed-form first and second
+derivatives of the binary posterior and radial normalization. The
+160-digit calculation uses all eight squared-distance weights, nested
+reflections and second-order automatic derivatives. Root radii along the
+free coordinate are $`10^{-35}`$ and $`2\cdot10^{-35}`$ respectively;
+the other two coordinates are exact rationals. An exact audit reconstructs
+determinant gradients, row cross products and transversality inequalities.
+The six source proposals lie between 0.0001225 and 0.00047595 from a saved
+state, numerically. This proximity proves no invariant-set membership.
+
+**Singular preimages.** Two further Krawczyk inclusions prove distinct
+points $`z_1,z_2`$ with $`F(z_i)=s`$, where s is the certified singularity
+from Section 6.2. Rounded locations are
+
+```math
+z_1\simeq(0.05229169138,\ 0.20646716127,\ 0.22534251566),
+\qquad
+z_2\simeq(0.08520179984,\ 0.10995101631,\ 0.26281243031).
+```
+
+Their entire tiny root boxes lie inside the original rendering coordinate
+box. Both derivatives are nonsingular; the rounded determinants are
+−4.18512 and 0.342455. The singular target is an interval enclosure, not
+a rounded point: uniform Krawczyk inclusion guarantees the inverse for
+the exact s. Thus F is smooth near these points but its second iterate
+is undefined at them. Removing only the central singularity from a
+coordinate box that still contains either point cannot produce a
+forward-invariant smooth-domain trap. No claim puts these points in C
+or in the long-orbit closure.
+
+**A weaker global bound.** Every posterior mean lies in the convex hull
+of the sites. An exact rational check gives a common norm bound
+$`M=2.01`$, and consequently
+
+```math
+\|F(x)\|\le\beta\|x\|+K,\qquad
+K=\beta+|1-2\beta|M.
+```
+
+For the exact Case 988 weight, $`40(1-\beta)-K>0.285`$. Every forward
+orbit that remains defined therefore eventually enters the radius-40
+ball and stays inside it. Iterating the scalar inequality proves this
+directly. The ball contains normalization singularities and is **not**
+a compact trapping region in the smooth domain. Boundedness must not
+be substituted for a chaotic-attractor theorem.
+
+### 6.5. Switching, postcritical images and parameter dependence
+
+For binary levels $`c_j\pm a_j`$, write
+$`h_j=2a_j(x_j-c_j)/\tau`$. The posterior slopes satisfy
+
+```math
+d_j=\frac{2a_j^2}{\tau}\,\mathrm{sech}^2 h_j.
+```
+
+When $`2a_j^2>\tau`$, the switching strip $`d_j>1`$ has half-width
+
+```math
+w_j=\frac{\tau}{2a_j}\,\mathrm{arcosh}
+\sqrt{\frac{2a_j^2}{\tau}}.
+```
+
+For Case 988 these widths are approximately 0.031117, 0.032985 and
+0.028539. Away from the three switching planes, decreasing noise drives
+each scalar posterior toward one of its two levels and its slope toward
+zero. The limiting map has eight saturated posterior branches coupled
+by the internal radial normalization. This explains the source of
+branch changes; it does not predict the exact invariant geometry.
+
+Let $`P=I-uu^T`$. Rearranging the derivative gives
+
+```math
+DF=\beta(I-P/r)+\left((1-2\beta)I+\frac{2\beta}{r}P\right)D.
+```
+
+Since P is an orthogonal projection, the Euclidean operator norm obeys
+
+```math
+\|DF\|_2\le\beta\max(1,|1-1/r|)
++\max(|1-2\beta|,|1-2\beta+2\beta/r|)\max_j d_j.
+```
+
+The bound is below one at 981,426 of the two million saved states
+(a floating evaluation of an analytic inequality). The first 1,000
+tangent steps are omitted from the following conditional statistics.
+
+| Coordinates with posterior slope above one | Saved states | Mean one-step leading log growth |
+| ---: | ---: | ---: |
+| 0 | 1,309,915 | −0.301774 |
+| 1 | 575,560 | 1.262434 |
+| 2 | 112,330 | 1.505396 |
+| 3 | 1,195 | 1.840909 |
+
+Thus the measured stretching is concentrated in switching regions,
+while the complement contracts on average along the propagated tangent.
+These are orbit-conditional finite statistics, not an invariant measure
+or a statement that every switching step expands.
+
+![Critical-set images, switching locations and conditional stretching](../assets/diagnostics/product-alphabet-mechanism.png)
+
+**Figure 5.** A 65-by-65 mesh in each pair of transverse coordinates,
+combined with sign-bracketed one-dimensional determinant roots, produces
+30,017 critical-source proposals. Colors identify the root-scan direction,
+not proven connected surface components. Panels A–D follow the 3,310
+proposals initially within 0.005 of the two-million-state reference cloud.
+Their median reference distance decreases from 0.003231 to 0.00004598
+after 32 steps. The complete unfiltered mesh and all ten checkpoints
+through step 1,024 are retained. Maximum source determinant residual is
+$`3.53\cdot10^{-11}`$. Only the six local folds in Section 6.4 are
+interval-certified; neither the mesh nor its images enclose an attractor
+boundary. Points are discrete states, with a fixed orthogonal camera and
+equal spatial units.
+
+![Parameter slices for geometry, tangent growth and posterior switching](../assets/diagnostics/product-alphabet-parameter-mechanism.png)
+
+**Figure 6.** The alphabet is fixed. One slice varies beta uniformly
+from 0.88 to 0.985; the other varies tau logarithmically from 0.004 to
+0.06. Each has 241 grid values plus the exact principal parameter, and
+three declared independent starts at every value. Each cohort discards
+20,000 updates and observes 80,000, retaining its last 2,048 states.
+The plot displays the last 512 x-coordinates, leading growth and the
+fraction of steps in switching strips. Of 1,452 cohorts, 1,193 have
+positive leading growth in all ten blocks; 254 meet the finite period
+test through period 512. All cohorts complete without a normalization
+or finite-value flag. The two slices show periodic windows and changes
+in geometry; no exact bifurcation location is certified.
+
+The numerical verifier reproduces every slice and every critical mesh
+array byte for byte in the recorded environment. At 128 separate probes,
+full-site formulas and finite differences check the analytic Jacobian;
+a full-site tangent pass checks the first 2,048 diagnostic steps.
+A four-cluster partition initialized at cycle 14 follows the suggested
+cyclic order on only 39.97% of transitions. The four visible wings
+therefore should not be labeled a verified period-four band attractor.
+
 ## 7. Prior art and geometric comparison
 
 The literature audit explicitly includes equivalent terminology. Its
@@ -739,6 +991,7 @@ reviewed equations, abstract-only evidence and uninspected figures.
 | Four-wing flows and generalized Henon maps | Four wings, double figure-eight forms and super figure-eight forms are established visual motifs. Section 6.1 supplies a neighborhood-conjugacy obstruction for particular ambient model classes, not a new shape classification. |
 | Learning on a sphere | Projected neural-network training already exhibits sustained irregular regimes; sphere-normalized optimization is not a new setting for such behavior. |
 | Recurrent attention and divisive normalization | Chaotic or nonstationary normalized neural dynamics have direct precedents, including a September 2026 repulsive-attention preprint. The fixed posterior sites and the complete reflected recurrence must be compared, not just the softmax component. |
+| Critical curves, critical surfaces and postcritical boundaries | Established tools for noninvertible maps, including three-dimensional Lotka–Volterra maps; the mechanism in Section 6.5 is not a new general principle. |
 
 [Ülgen and Sünel (2013)](https://dergipark.org.tr/en/download/article-file/192677)
 give the Blume–Capel mean-state recurrence in Section 2.1. The reviewed
@@ -887,28 +1140,79 @@ records the reviewed versions and visual scope. None of these comparisons
 supports a first-discovery claim for neural chaos or a proof of historical
 uniqueness for this candidate.
 
+The new geometric explanation has direct precedents.
+[Gardini and Mira (2010), *Noninvertible maps*](https://www.mdef.it/public/fileadmin/whoiswho/gardini/Publications/Contributions_in_Multiauthor_Books_and_Proceedings/GM_ch.2_2010.pdf)
+describe critical sets, changing inverse multiplicity and absorbing
+boundaries formed by critical-set images. Their equations (2.9)–(2.10)
+and Figure 2.5 were inspected. Calling folding or postcritical boundary
+formation a new mechanism would therefore be incorrect.
+
+[Bischi and Tramontana (2010)](https://doi.org/10.1016/j.cnsns.2009.10.021)
+study three-dimensional discrete Lotka–Volterra maps. Equation (1),
+Section 5, Appendix B and Figures 3, 8–9 were reviewed in the
+[author-hosted copy](https://www.mdef.it/public/fileadmin/whoiswho/bischi/Selected_publications/Research_papers/Bi-Tra-Commun_Nonlin_Sci-2010.pdf).
+Figures 8(b,c) were visually inspected: a three-lobed folded object is
+shown from two viewpoints. This is a relevant geometric and dynamical
+precedent. The inspected study uses polynomial population updates, not
+the displayed posterior/reflection formula; that distinction alone does
+not exclude conjugacy on an invariant set.
+
+A targeted reproduction evaluates all five displayed parameter values
+$`a=0.65,0.6575,0.665,0.66824,0.675`$ of that reference family, using
+the declared initial point (0.2, 0.3, 0.4), 100,000 discarded steps and
+one million observed steps each. Their last 100,000 states are compared
+with Case 988. The best local similarity alignment residual is 0.27967,
+against a candidate time-halves control of 0.05031. After affine whitening,
+the best residual is 0.25749 against 0.04948. All five results, including
+the different winners under the two normalizations, are retained and
+replayed. These finite fits find no geometric identification among those
+five sampled regimes; they neither exhaust the reference family nor
+exclude nonlinear equivalence. Its noninvertibility also means the
+orientation obstruction in Section 6.1 does not dispose of this comparison.
+
+[Glendinning and Simpson (2021)](https://arxiv.org/abs/2108.05999)
+combine trapping regions with induced maps and expanding cones in a
+two-dimensional border-collision normal form. Their abstract, introduction
+and opening theorem framework were read as a methodological comparison,
+not as a theorem applicable to the present three-dimensional noninvertible
+map. Positive entropy inside an isolated subsystem must still be connected
+to attraction. The new [reading receipt](../../results/product-mechanism/literature-review.json)
+records these scopes and the locally inspected figure pages.
+
 ## 8. Contribution and open questions
 
 The supported result is a fully specified four-wing numerical regime of
 an eight-site product posterior with sphere feedback, a multilevel
 companion with documented coexistence, and a complete search and control
-record. A separate certificate proves positive entropy on a compact invariant
-subsystem for the exact principal parameters. Its least-period-92 reversed
+record. Separate certificates prove positive entropy and failure of Lyapunov
+stability on a compact invariant subsystem for the exact principal parameters.
+Its least-period-92 reversed
 return excludes ambient-neighborhood topological conjugacy to specified
 invertible models and smooth Euclidean flow return maps. The unexpected setting is a quantized-signal posterior inside an
 established numerical reflection construction. It is not a new physical
-phenomenon established by measurement.
+phenomenon established by measurement. The additional local certificates
+and conditional-growth diagnostics explain concrete folding, switching
+and singularity obstructions in this instance.
 
 Neither a strange-attractor theorem nor a claim that the geometry has
 never appeared before is justified yet. Positive finite-time growth,
 multiple starts, precision controls and finite-library differences narrow
 the candidates; those numerical tests do not prove asymptotic chaos,
-transitivity, a fractal dimension, or historical uniqueness. Sections 6 and 6.1 supply
-positive entropy and an orientation obstruction, but leave attraction and equality
-with the depicted cloud open. The longer observation and certified finite
-excursions show why the visible core is insufficient as a trapping region.
-A useful next theoretical target is a verified trapping region containing
-the certified subsystem, followed by structural
-comparison with known noninvertible maps. The
-independent certificates for earlier cases do not transfer to this parameter
-set merely because the formulas belong to the same family.
+transitivity, a fractal dimension, or historical uniqueness. The four
+research questions now have distinct outcomes:
+
+| Question | Supported outcome | Remaining gap |
+| --- | --- | --- |
+| Does the regime attract a neighborhood? | All indefinitely defined orbits have an explicit absorbing norm bound; simple portrait boxes and central-hole repairs fail. | A compact trapping region avoiding singularities for a larger set A is not established. |
+| Is the entropy subsystem the attractor in the picture? | C is rigorously not Lyapunov stable. A direct identification with a stable attractor is ruled out. | Containment in a larger attracting A and identification of its observed component remain open. |
+| Is the dynamics meaningfully different from known models? | The period-92 orientation obstruction excludes specified invertible neighborhood models; a targeted five-regime noninvertible comparison finds no finite-cloud match. | Intrinsic conjugacy to known noninvertible sets and historical priority remain unresolved. |
+| Why does the figure have this geometry? | Six ordinary folds, singular preimages, an analytic derivative bound, postcritical images and parameter slices support a concrete mechanism. | A theorem identifying the full invariant boundary or bifurcation sequence is absent. |
+
+The defensible contribution is this explicit collection of numerical
+regimes, validated dynamical properties and a negative attraction result
+for the certified core. The study does not claim a new universal
+folding mechanism, a first four-wing shape, or a historically unique
+strange attractor. A further trapping proof must concern a larger set
+than C; even a trap containing C would not alone prove that its maximal
+invariant set is transitive or supports a physical chaotic measure.
+The certificates for other parameter cases do not transfer here.

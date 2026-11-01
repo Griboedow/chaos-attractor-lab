@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "certificates": [
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "report_sha256": "7aeab686e43a54f4e6d80d9bfea0522fcb8a1f7d53d748ef4a4ef0b44ab11822",
+      "atlas_boxes": 92,
+      "uniqueness_partition_cells": 2,
+      "four_step_blocks": 20,
+      "minimum_separation": 0.00011729734758437143,
+      "graph_expansion": 11.461428196186182,
+      "graph_contraction": 0.6595161798930058
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "report_sha256": "299d190a8c814efc93be31bc776d3aad8c98e44190b6309b5f6439e9847b2c24",
+      "atlas_boxes": 92,
+      "uniqueness_partition_cells": 16,
+      "four_step_blocks": 20,
+      "minimum_separation": 0.00011729734758437143,
+      "graph_expansion": 11.461428196186182,
+      "graph_contraction": 0.6595161798930058
+    }
+  ],
+  "replays": [
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "exact_payloads": true
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "exact_payloads": true
+    }
+  ],
+  "scope": "Exact rational checks of Krawczyk arithmetic, the unstable-graph inequalities, chart propagation and separation from all 92 atlas boxes; full frozen-source replays. Transcendental enclosures share mpmath interval arithmetic and are checked through two posterior formulas."
+}

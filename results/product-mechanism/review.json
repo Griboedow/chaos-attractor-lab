@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-01T22:28:09.045478+00:00",
+  "runs": 33,
+  "inventory_files": 246,
+  "retained_files": 227,
+  "optional_arrays": 19,
+  "accepted": [
+    {
+      "run": "product-unstable-escape988-certificate06",
+      "report_sha256": "7aeab686e43a54f4e6d80d9bfea0522fcb8a1f7d53d748ef4a4ef0b44ab11822"
+    },
+    {
+      "run": "product-unstable-escape988-independent06",
+      "report_sha256": "299d190a8c814efc93be31bc776d3aad8c98e44190b6309b5f6439e9847b2c24"
+    },
+    {
+      "run": "product-unstable-escape988-audit07",
+      "report_sha256": "bcb43b20d218be58a1b7057986c9e9def3852503c920e6b52e87537e5f193e58"
+    },
+    {
+      "run": "product-local-geometry988-certificate03",
+      "report_sha256": "27271f04811565d310813fa2031a400097b49a34dc91845887a7640fe6daa6db"
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "report_sha256": "7c8300ef0f459a68bad443c133b109153bd8d8b54b6c9d1880c5753c7693797c"
+    },
+    {
+      "run": "product-local-geometry988-audit01",
+      "report_sha256": "d3325f5af5eb3d1dde3d47215f0ef6bb5990802526e32f2cd3c3aba2e679aaff"
+    },
+    {
+      "run": "product-mechanism988-verification01",
+      "report_sha256": "6b0cac09ed496919380e22b2635a050bfb6987dae7e56819bda31977f8ffb334"
+    }
+  ],
+  "local_geometry_extra_check": "Exact endpoint check places both entire singular-preimage root boxes strictly inside the original dense-state coordinate envelope.",
+  "visual_review": {
+    "final_figures": [
+      "docs/assets/diagnostics/product-alphabet-mechanism.png",
+      "docs/assets/diagnostics/product-alphabet-parameter-mechanism.png"
+    ],
+    "inspected": "Both final PNGs inspected after the second render. Fixed equal-unit spatial views, readable legends, unclipped labels and darker parameter-state marks. These are diagnostics, not new main-page portraits."
+  },
+  "scope": "Complete packet inventory/cache byte checks and accepted audit links. Proof replays and independent numerical checks are recorded in the linked run reports; no extra dynamical conclusion is inferred from file integrity."
+}

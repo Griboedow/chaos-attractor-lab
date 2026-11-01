@@ -13,6 +13,7 @@ instructions](manuscript-editing.md).
 
 | Study | Instructions |
 | --- | --- |
+| Product-posterior instability and folds | [Two interval expressions, exact audits, parameter slices and reference replay](../results/product-mechanism/README.md#reproduction) |
 | Icosahedral flow | [Search and absorbing bounds](../research/icosahedral_search/README.md), [equilibria](icosahedral-structure.md), [numerical returns](../research/icosahedral_returns/README.md) |
 | RAAR symbolic dynamics | [Certificate and manuscript](raar-symbolic-dynamics/README.md) |
 | Scalar acceleration memory | [Reproducible search](../research/unexpected_search/README.md) |

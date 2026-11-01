@@ -1,0 +1,176 @@
+{
+  "status": "completed",
+  "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "paper": "https://doi.org/10.1016/j.cnsns.2009.10.021",
+  "author_pdf": "https://www.mdef.it/public/fileadmin/whoiswho/bischi/Selected_publications/Research_papers/Bi-Tra-Commun_Nonlin_Sci-2010.pdf",
+  "model": "x_i_next=x_i*(2+(A*x)_i); A=[[-1,a,-0.5],[-0.5,-1,a],[a,-0.5,-1]]",
+  "parameters": [
+    0.65,
+    0.6575,
+    0.665,
+    0.66824,
+    0.675
+  ],
+  "initial": [
+    0.2,
+    0.3,
+    0.4
+  ],
+  "warm": 100000,
+  "observed": 1000000,
+  "retained_last": 100000,
+  "seed": 2026110158,
+  "numerics": [
+    {
+      "a": 0.65,
+      "leading_blocks": [
+        -4.447575664386767e-06,
+        -4.785548523223294e-06,
+        2.2431992262342282e-06,
+        2.092470492987018e-06,
+        1.3505575852918054e-06,
+        2.9861830002387816e-06,
+        1.1781731604437547e-06,
+        -2.973807352866433e-06,
+        -5.807844378167954e-06,
+        1.1523099580910712e-08
+      ],
+      "minimum_coordinate": 0.359,
+      "maximum_coordinate": 1.6092390332450177
+    },
+    {
+      "a": 0.6575,
+      "leading_blocks": [
+        8.198489694685916e-07,
+        3.924139644183816e-06,
+        3.545563978110099e-06,
+        -9.533611697976671e-06,
+        2.209863573078138e-06,
+        2.1514639764481857e-07,
+        4.551775736102142e-06,
+        1.2744743957705567e-06,
+        -1.0113642442014422e-05,
+        4.825317132218796e-06
+      ],
+      "minimum_coordinate": 0.35945000000000005,
+      "maximum_coordinate": 1.6405854860543196
+    },
+    {
+      "a": 0.665,
+      "leading_blocks": [
+        -8.136644546512718e-06,
+        5.888030300484856e-06,
+        -6.86871365432538e-06,
+        4.783156855192861e-06,
+        -6.047074476227352e-06,
+        4.798115452475037e-06,
+        -6.103319510381403e-06,
+        6.162504071987703e-06,
+        -7.541244560640024e-06,
+        7.872991521313996e-06
+      ],
+      "minimum_coordinate": 0.35990000000000005,
+      "maximum_coordinate": 1.732603452858586
+    },
+    {
+      "a": 0.66824,
+      "leading_blocks": [
+        1.5559437236823233e-06,
+        5.064983150535815e-06,
+        1.216842011352725e-05,
+        -1.999123203149522e-05,
+        2.7108077812086424e-05,
+        -1.9851443276382228e-05,
+        -1.0566717414005249e-07,
+        1.3589736640032088e-06,
+        -2.7220994865925485e-06,
+        1.483770950675538e-05
+      ],
+      "minimum_coordinate": 0.31709297391400026,
+      "maximum_coordinate": 1.7577686138371456
+    },
+    {
+      "a": 0.675,
+      "leading_blocks": [
+        0.07306566245962619,
+        0.07356760557868336,
+        0.07372927636471403,
+        0.07397109979671379,
+        0.07510189571517116,
+        0.07309505368691356,
+        0.07432497992653869,
+        0.07485694031216723,
+        0.07364615482574831,
+        0.07268271613476404
+      ],
+      "minimum_coordinate": 0.14966492187729027,
+      "maximum_coordinate": 1.8075279374049125
+    }
+  ],
+  "comparisons": {
+    "similarity": {
+      "self_time_halves_rms": 0.05030559686542304,
+      "references": [
+        {
+          "a": 0.65,
+          "local_alignment_rms": 0.38686792622398,
+          "fingerprint_distance": 0.5908388897855699
+        },
+        {
+          "a": 0.6575,
+          "local_alignment_rms": 0.3655286005256621,
+          "fingerprint_distance": 0.5440111676595285
+        },
+        {
+          "a": 0.665,
+          "local_alignment_rms": 0.3226452466208686,
+          "fingerprint_distance": 0.4360488318199982
+        },
+        {
+          "a": 0.66824,
+          "local_alignment_rms": 0.3029604117215755,
+          "fingerprint_distance": 0.40937043419773045
+        },
+        {
+          "a": 0.675,
+          "local_alignment_rms": 0.2796745550601782,
+          "fingerprint_distance": 0.3469731524768899
+        }
+      ]
+    },
+    "affine": {
+      "self_time_halves_rms": 0.04947847294521536,
+      "references": [
+        {
+          "a": 0.65,
+          "local_alignment_rms": 0.27931374386386515,
+          "fingerprint_distance": 0.37273389441917937
+        },
+        {
+          "a": 0.6575,
+          "local_alignment_rms": 0.25748777160929137,
+          "fingerprint_distance": 0.30792064340616054
+        },
+        {
+          "a": 0.665,
+          "local_alignment_rms": 0.296959236463423,
+          "fingerprint_distance": 0.35059810124131063
+        },
+        {
+          "a": 0.66824,
+          "local_alignment_rms": 0.2795921661836204,
+          "fingerprint_distance": 0.3099296666478938
+        },
+        {
+          "a": 0.675,
+          "local_alignment_rms": 0.2578170808137543,
+          "fingerprint_distance": 0.3192278906372412
+        }
+      ]
+    }
+  },
+  "maximum_jacobian_fd_error": 2.5874193898545172e-09,
+  "seconds": 44.69848608970642,
+  "protocol": "Equation (1), Figure 3 parameters, Figure 8(b,c) at a=0.675. Initial point declared here; not specified by the inspected figure caption. 1500-point local ICP, 48 PCA starts, 20 iterations, reflections allowed.",
+  "scope": "Targeted comparison with Bischi--Tramontana (2010), Figures 3 and 8.\n\nFinite clouds at five published parameter values. Local alignment does not\nestablish conjugacy, topology, or historical novelty.\n"
+}

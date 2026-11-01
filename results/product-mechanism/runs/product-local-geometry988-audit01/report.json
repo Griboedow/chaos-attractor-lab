@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "certificates": [
+    {
+      "run": "product-local-geometry988-certificate03",
+      "report_sha256": "27271f04811565d310813fa2031a400097b49a34dc91845887a7640fe6daa6db",
+      "preimages": 2,
+      "folds": 6
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "report_sha256": "7c8300ef0f459a68bad443c133b109153bd8d8b54b6c9d1880c5753c7693797c",
+      "preimages": 2,
+      "folds": 6
+    }
+  ],
+  "replays": [
+    {
+      "run": "product-local-geometry988-certificate03",
+      "exact_payloads": true
+    },
+    {
+      "run": "product-local-geometry988-independent03",
+      "exact_payloads": true
+    }
+  ],
+  "scope": "Exact rational Krawczyk, rank, determinant-gradient and transversality arithmetic; frozen-source replays of both expressions. Both transcendental enclosures use mpmath."
+}

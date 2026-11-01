@@ -72,8 +72,8 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 9554414069,
-  "compact_bytes": 81419215,
+  "removed_bytes": 9836294246,
+  "compact_bytes": 82510465,
   "files": [
     {
       "path": "results/adabelief-quadratic/gallery.npz",
@@ -191295,6 +191295,2090 @@
       "recovery": "recompute",
       "recompute_command": "See results/product-highorder/README.md for run product-irregular-scout01. Original large payload screen.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-scout01\\screen.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-critical988-probe01/cluster-labels.npz",
+      "bytes": 322386,
+      "sha256": "a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0.npz",
+        "bytes": 589,
+        "sha256": "825f4830903b31ab656b2290bb2be7b639b813c7e25b2483864c491e0721c53b",
+        "keys": [
+          "centroids",
+          "transition_counts"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "labels",
+          "shape": [
+            2000000
+          ],
+          "dtype": "int32",
+          "bytes": 8000000,
+          "retained": false
+        },
+        {
+          "key": "centroids",
+          "shape": [
+            4,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "transition_counts",
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-critical988-probe01. Original large payload cluster-labels.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-critical988-probe01\\cluster-labels.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-critical988-probe01/critical-images.npz",
+      "bytes": 9623262,
+      "sha256": "453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34.npz",
+        "bytes": 260391,
+        "sha256": "1088204e3aa278817ab10c9935c86d718fd34a1309f3b6d6f99aa06ffcf85c71",
+        "keys": [
+          "points",
+          "checkpoints",
+          "params",
+          "levels"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            30017,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 720408,
+          "retained": true
+        },
+        {
+          "key": "tags",
+          "shape": [
+            30017
+          ],
+          "dtype": "int64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "checkpoints",
+          "shape": [
+            10
+          ],
+          "dtype": "int64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "snapshots",
+          "shape": [
+            10,
+            30017,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7204080,
+          "retained": false
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "source_residuals",
+          "shape": [
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "source_radii",
+          "shape": [
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "reference_distances",
+          "shape": [
+            10,
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 2401360,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-critical988-probe01. Original large payload critical-images.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-critical988-probe01\\critical-images.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-comparison02/alignments.npz",
+      "bytes": 799188,
+      "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5.npz",
+        "bytes": 799188,
+        "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+        "keys": [
+          "similarity-0.65-candidate",
+          "similarity-0.65-reference",
+          "similarity-0.65-candidate-indices",
+          "similarity-0.65-reference-indices",
+          "similarity-0.6575-candidate",
+          "similarity-0.6575-reference",
+          "similarity-0.6575-candidate-indices",
+          "similarity-0.6575-reference-indices",
+          "similarity-0.665-candidate",
+          "similarity-0.665-reference",
+          "similarity-0.665-candidate-indices",
+          "similarity-0.665-reference-indices",
+          "similarity-0.66824-candidate",
+          "similarity-0.66824-reference",
+          "similarity-0.66824-candidate-indices",
+          "similarity-0.66824-reference-indices",
+          "similarity-0.675-candidate",
+          "similarity-0.675-reference",
+          "similarity-0.675-candidate-indices",
+          "similarity-0.675-reference-indices",
+          "affine-0.65-candidate",
+          "affine-0.65-reference",
+          "affine-0.65-candidate-indices",
+          "affine-0.65-reference-indices",
+          "affine-0.6575-candidate",
+          "affine-0.6575-reference",
+          "affine-0.6575-candidate-indices",
+          "affine-0.6575-reference-indices",
+          "affine-0.665-candidate",
+          "affine-0.665-reference",
+          "affine-0.665-candidate-indices",
+          "affine-0.665-reference-indices",
+          "affine-0.66824-candidate",
+          "affine-0.66824-reference",
+          "affine-0.66824-candidate-indices",
+          "affine-0.66824-reference-indices",
+          "affine-0.675-candidate",
+          "affine-0.675-reference",
+          "affine-0.675-candidate-indices",
+          "affine-0.675-reference-indices"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "similarity-0.65-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.65-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.65-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.65-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-comparison02. Original large payload alignments.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-comparison02\\alignments.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-comparison02/lv-0.65.npz",
+      "bytes": 2242955,
+      "sha256": "d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4.npz",
+        "bytes": 692,
+        "sha256": "2499470653688b5e82e057fcf1b05f9a5b41033f24f799d3e34b79b0be6a4bd4",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-comparison02. Original large payload lv-0.65.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-comparison02\\lv-0.65.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-comparison02/lv-0.6575.npz",
+      "bytes": 2249462,
+      "sha256": "ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72.npz",
+        "bytes": 694,
+        "sha256": "aeb1c66517f0b4d48ac371ca3a64402afebfc7f4b7b6b5c6b14af74967b7cce3",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-comparison02. Original large payload lv-0.6575.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-comparison02\\lv-0.6575.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-comparison02/lv-0.665.npz",
+      "bytes": 2257750,
+      "sha256": "675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b.npz",
+        "bytes": 695,
+        "sha256": "fed7ff76b7d3d1fade47f57c2b7dd03588db8db87e753f8f89489e8ba0435578",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-comparison02. Original large payload lv-0.665.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-comparison02\\lv-0.665.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-comparison02/lv-0.66824.npz",
+      "bytes": 2257358,
+      "sha256": "7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf.npz",
+        "bytes": 695,
+        "sha256": "5c2ed8e5532a5e4dd4b66a358b6b86c8683df372187abe7bd275204b1537a91a",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-comparison02. Original large payload lv-0.66824.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-comparison02\\lv-0.66824.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-comparison02/lv-0.675.npz",
+      "bytes": 2260273,
+      "sha256": "f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e.npz",
+        "bytes": 691,
+        "sha256": "9a15a6724eb5d47e9fd3c86dbd61b1a78a85a889af4782f404c2269043ca97e8",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-comparison02. Original large payload lv-0.675.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-comparison02\\lv-0.675.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-replay01/alignments.npz",
+      "bytes": 799188,
+      "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5.npz",
+        "bytes": 799188,
+        "sha256": "11982d2f10c3ea9b501fee39036f59008fd944f0dfb434039889c5c12a2c37c5",
+        "keys": [
+          "similarity-0.65-candidate",
+          "similarity-0.65-reference",
+          "similarity-0.65-candidate-indices",
+          "similarity-0.65-reference-indices",
+          "similarity-0.6575-candidate",
+          "similarity-0.6575-reference",
+          "similarity-0.6575-candidate-indices",
+          "similarity-0.6575-reference-indices",
+          "similarity-0.665-candidate",
+          "similarity-0.665-reference",
+          "similarity-0.665-candidate-indices",
+          "similarity-0.665-reference-indices",
+          "similarity-0.66824-candidate",
+          "similarity-0.66824-reference",
+          "similarity-0.66824-candidate-indices",
+          "similarity-0.66824-reference-indices",
+          "similarity-0.675-candidate",
+          "similarity-0.675-reference",
+          "similarity-0.675-candidate-indices",
+          "similarity-0.675-reference-indices",
+          "affine-0.65-candidate",
+          "affine-0.65-reference",
+          "affine-0.65-candidate-indices",
+          "affine-0.65-reference-indices",
+          "affine-0.6575-candidate",
+          "affine-0.6575-reference",
+          "affine-0.6575-candidate-indices",
+          "affine-0.6575-reference-indices",
+          "affine-0.665-candidate",
+          "affine-0.665-reference",
+          "affine-0.665-candidate-indices",
+          "affine-0.665-reference-indices",
+          "affine-0.66824-candidate",
+          "affine-0.66824-reference",
+          "affine-0.66824-candidate-indices",
+          "affine-0.66824-reference-indices",
+          "affine-0.675-candidate",
+          "affine-0.675-reference",
+          "affine-0.675-candidate-indices",
+          "affine-0.675-reference-indices"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "similarity-0.65-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.65-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.65-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.65-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.6575-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.665-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.66824-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "similarity-0.675-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.65-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.6575-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.665-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.66824-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-candidate",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-reference",
+          "shape": [
+            1500,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 36000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-candidate-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        },
+        {
+          "key": "affine-0.675-reference-indices",
+          "shape": [
+            1500
+          ],
+          "dtype": "int64",
+          "bytes": 12000,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-replay01. Original large payload alignments.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-replay01\\alignments.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-replay01/lv-0.65.npz",
+      "bytes": 2242955,
+      "sha256": "d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/d6ec2ce6c874005f12d1bf03b48d8ea8c7e3373b20340c736072c00994d81ac4.npz",
+        "bytes": 692,
+        "sha256": "2499470653688b5e82e057fcf1b05f9a5b41033f24f799d3e34b79b0be6a4bd4",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-replay01. Original large payload lv-0.65.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-replay01\\lv-0.65.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-replay01/lv-0.6575.npz",
+      "bytes": 2249462,
+      "sha256": "ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/ad58205a1896f2bf8e5423b6751a2d31c0cf80cb879eca76071a93d4a42d1a72.npz",
+        "bytes": 694,
+        "sha256": "aeb1c66517f0b4d48ac371ca3a64402afebfc7f4b7b6b5c6b14af74967b7cce3",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-replay01. Original large payload lv-0.6575.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-replay01\\lv-0.6575.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-replay01/lv-0.665.npz",
+      "bytes": 2257750,
+      "sha256": "675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/675710ab484dd87ca8f498b86533673a2534dbb6b789f4c35bba78ae0df2e49b.npz",
+        "bytes": 695,
+        "sha256": "fed7ff76b7d3d1fade47f57c2b7dd03588db8db87e753f8f89489e8ba0435578",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-replay01. Original large payload lv-0.665.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-replay01\\lv-0.665.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-replay01/lv-0.66824.npz",
+      "bytes": 2257358,
+      "sha256": "7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/7f1485efe243bfe4801622e95854508d6030fd78bf85e3776e127b05da059eaf.npz",
+        "bytes": 695,
+        "sha256": "5c2ed8e5532a5e4dd4b66a358b6b86c8683df372187abe7bd275204b1537a91a",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-replay01. Original large payload lv-0.66824.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-replay01\\lv-0.66824.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-lv-replay01/lv-0.675.npz",
+      "bytes": 2260273,
+      "sha256": "f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/f452f6b407e27da1cdce07977799f1229bdb40baa889dddb95e4393504c71d3e.npz",
+        "bytes": 691,
+        "sha256": "9a15a6724eb5d47e9fd3c86dbd61b1a78a85a889af4782f404c2269043ca97e8",
+        "keys": [
+          "rates",
+          "params",
+          "initial"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-lv-replay01. Original large payload lv-0.675.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-lv-replay01\\lv-0.675.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-probe01/diagnostics.npz",
+      "bytes": 125443587,
+      "sha256": "500f25217943a5548ae00185cae368fe0a52b6b2e688b4755f7903dc91efd34b",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/500f25217943a5548ae00185cae368fe0a52b6b2e688b4755f7903dc91efd34b.npz",
+        "bytes": 459,
+        "sha256": "31ddfc40ec50638ee121f7198426ec9f0d51af1dfabed6614496045b54982baa",
+        "keys": [
+          "params",
+          "levels"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "values",
+          "shape": [
+            2000000,
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 128000000,
+          "retained": false
+        },
+        {
+          "key": "signs",
+          "shape": [
+            2000000
+          ],
+          "dtype": "int64",
+          "bytes": 16000000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-probe01. Original large payload diagnostics.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-probe01\\diagnostics.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-replays01/product-critical988-probe01/cluster-labels.npz",
+      "bytes": 322386,
+      "sha256": "a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/a2a13695b2da8a0d35796714d036d2fe20ad3feae2f2abeffe95145f862aebc0.npz",
+        "bytes": 589,
+        "sha256": "825f4830903b31ab656b2290bb2be7b639b813c7e25b2483864c491e0721c53b",
+        "keys": [
+          "centroids",
+          "transition_counts"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "labels",
+          "shape": [
+            2000000
+          ],
+          "dtype": "int32",
+          "bytes": 8000000,
+          "retained": false
+        },
+        {
+          "key": "centroids",
+          "shape": [
+            4,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "transition_counts",
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-replays01. Original large payload product-critical988-probe01/cluster-labels.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-replays01\\product-critical988-probe01\\cluster-labels.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-replays01/product-critical988-probe01/critical-images.npz",
+      "bytes": 9623262,
+      "sha256": "453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/453e7f21bdbccdec55a47b1b2b7da6828b541074f87e8477690be95e34428e34.npz",
+        "bytes": 260391,
+        "sha256": "1088204e3aa278817ab10c9935c86d718fd34a1309f3b6d6f99aa06ffcf85c71",
+        "keys": [
+          "points",
+          "checkpoints",
+          "params",
+          "levels"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            30017,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 720408,
+          "retained": true
+        },
+        {
+          "key": "tags",
+          "shape": [
+            30017
+          ],
+          "dtype": "int64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "checkpoints",
+          "shape": [
+            10
+          ],
+          "dtype": "int64",
+          "bytes": 80,
+          "retained": true
+        },
+        {
+          "key": "snapshots",
+          "shape": [
+            10,
+            30017,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7204080,
+          "retained": false
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "source_residuals",
+          "shape": [
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "source_radii",
+          "shape": [
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 240136,
+          "retained": false
+        },
+        {
+          "key": "reference_distances",
+          "shape": [
+            10,
+            30017
+          ],
+          "dtype": "float64",
+          "bytes": 2401360,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-replays01. Original large payload product-critical988-probe01/critical-images.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-replays01\\product-critical988-probe01\\critical-images.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-replays01/product-mechanism988-scan01/scan.npz",
+      "bytes": 56205661,
+      "sha256": "562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033.npz",
+        "bytes": 27156,
+        "sha256": "a501582c089cf588cfc41b0cd79a0999369232ed8f3a361191be2e90b9689bd4",
+        "keys": [
+          "params",
+          "levels",
+          "starts",
+          "minima",
+          "flags",
+          "active",
+          "periods"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            484,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 7744,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        },
+        {
+          "key": "starts",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            484,
+            3,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 116160,
+          "retained": false
+        },
+        {
+          "key": "tails",
+          "shape": [
+            484,
+            3,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 71368704,
+          "retained": false
+        },
+        {
+          "key": "minima",
+          "shape": [
+            484,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 11616,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            484,
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 11616,
+          "retained": true
+        },
+        {
+          "key": "active",
+          "shape": [
+            484,
+            3,
+            4
+          ],
+          "dtype": "int64",
+          "bytes": 46464,
+          "retained": true
+        },
+        {
+          "key": "periods",
+          "shape": [
+            484,
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 11616,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-replays01. Original large payload product-mechanism988-scan01/scan.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-replays01\\product-mechanism988-scan01\\scan.npz"
+    },
+    {
+      "path": "results/product-mechanism/runs/product-mechanism988-scan01/scan.npz",
+      "bytes": 56205661,
+      "sha256": "562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033",
+      "group": "product-mechanism",
+      "compact": {
+        "path": "results/compact-data/562ab34e745f06ba712afd96d7c678d8dbea9a4172b9bd939493b25ac5252033.npz",
+        "bytes": 27156,
+        "sha256": "a501582c089cf588cfc41b0cd79a0999369232ed8f3a361191be2e90b9689bd4",
+        "keys": [
+          "params",
+          "levels",
+          "starts",
+          "minima",
+          "flags",
+          "active",
+          "periods"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            484,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 7744,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        },
+        {
+          "key": "starts",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            484,
+            3,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 116160,
+          "retained": false
+        },
+        {
+          "key": "tails",
+          "shape": [
+            484,
+            3,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 71368704,
+          "retained": false
+        },
+        {
+          "key": "minima",
+          "shape": [
+            484,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 11616,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            484,
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 11616,
+          "retained": true
+        },
+        {
+          "key": "active",
+          "shape": [
+            484,
+            3,
+            4
+          ],
+          "dtype": "int64",
+          "bytes": 46464,
+          "retained": true
+        },
+        {
+          "key": "periods",
+          "shape": [
+            484,
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 11616,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-scan01. Original large payload scan.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-scan01\\scan.npz"
     }
   ]
 }
