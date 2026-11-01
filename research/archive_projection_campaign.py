@@ -12,7 +12,7 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def main(args):
     out=ROOT/'results'/args.name;out.mkdir(parents=True,exist_ok=False)
-    registry_path=ROOT/'provenance/generated-data.json';registry=json.loads(registry_path.read_text(encoding='utf-8'))
+    registry_path=ROOT/'records/generated-data.json';registry=json.loads(registry_path.read_text(encoding='utf-8'))
     omissions=[];inventory=[];ignored=[]
     inputs={'params','points','counts','kinds','active','starts','initial','flags'}
     for folder in args.runs:

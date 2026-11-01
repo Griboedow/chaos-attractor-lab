@@ -1,5 +1,5 @@
 {
-  "source_commit": "517c75025ced8bf7b09ce37788f9f4d2f776f6cf",
+  "source_commit": "50bd2b861e018563fb873247f07c47370d8ebfa4",
   "moves": [
     {
       "from": "PROVENANCE.md",
@@ -836,9 +836,9 @@
     {
       "from": "provenance/generated-data.json",
       "to": "records/generated-data.json",
-      "before_sha256": "06526acb1b5c01a5f4cf4b418e9fb6a4e7800e9e43b0b6918c94e23436eb7720",
-      "bytes": 1549561,
-      "after_sha256": "06526acb1b5c01a5f4cf4b418e9fb6a4e7800e9e43b0b6918c94e23436eb7720",
+      "before_sha256": "0ade8e056a8a782d0fcf0f709f5aaa75a7fb8d61f43a2983259b57f123b2dadd",
+      "bytes": 1841849,
+      "after_sha256": "0ade8e056a8a782d0fcf0f709f5aaa75a7fb8d61f43a2983259b57f123b2dadd",
       "bytes_unchanged": true
     },
     {
@@ -1004,9 +1004,9 @@
     {
       "from": "provenance/portrait-catalog.json",
       "to": "records/portrait-catalog.json",
-      "before_sha256": "140ca8c93355ab1c0d73c3e3c7deb4af2f5b540598942316955d4c9003b06121",
-      "bytes": 25229,
-      "after_sha256": "140ca8c93355ab1c0d73c3e3c7deb4af2f5b540598942316955d4c9003b06121",
+      "before_sha256": "38d0a323f172d1e6a4cfcb57f6556765b47e4a1215135a9176d797d801a3be44",
+      "bytes": 29528,
+      "after_sha256": "38d0a323f172d1e6a4cfcb57f6556765b47e4a1215135a9176d797d801a3be44",
       "bytes_unchanged": true
     },
     {
@@ -1044,9 +1044,9 @@
     {
       "from": "provenance/render-dates.json",
       "to": "records/render-dates.json",
-      "before_sha256": "22e8d1aa9e1e06e3c674f5ffb5bef7979ea6ff0d7247680f4319d762a6861dda",
-      "bytes": 106773,
-      "after_sha256": "f1c61fbc2a29f77551095725d2ac12e8195a489f955f2357814fbffd1280e5ba",
+      "before_sha256": "312ce43169d241de9e439232a59ddbe327a7c135de32841ea9d9c671f36b19e8",
+      "bytes": 114149,
+      "after_sha256": "1d594102bfd5d097e48761e8c0be6c7e4b9ed3324a1193a11d9fbd0ba9cb45c1",
       "bytes_unchanged": false
     },
     {
@@ -1073,8 +1073,8 @@
     },
     {
       "path": "tools/animate_portraits.py",
-      "before_sha256": "590b17ae43c36650231780899ebfe7fc44a5e87261d186500bb1c7d14321f1b4",
-      "after_sha256": "cc96debf35774fe137f3aa219b10e4c8cd44fe6cd4509a0c28a1653311bacb81",
+      "before_sha256": "2904a86a77165323fa83647d554917157d9767cd9826c24d99dd2c81873c87ab",
+      "after_sha256": "ede59ad8e52193c68b6b471b0dec6fa30b25639f6a6f928dca46eaa020382750",
       "replacements": [
         {
           "before": "ROOT/'provenance/",
@@ -1167,18 +1167,32 @@
           "after": "../../docs/raar-symbolic-dynamics/manuscript.md"
         }
       ]
+    },
+    {
+      "path": "research/archive_projection_campaign.py",
+      "before_sha256": "729fbf8c8019fd7f7755d3bf3e4ea0485f766b17392b0e169b16eb7195b5c9c5",
+      "after_sha256": "436b3bf4f0148ddd8b42629c3a82373701f55cda2aead2afa139e63de1b38133",
+      "scope": "Concurrent campaign archiver: registry lookup path only.",
+      "replacements": [
+        {
+          "before": "ROOT/'provenance/generated-data.json'",
+          "after": "ROOT/'records/generated-data.json'"
+        }
+      ]
     }
   ],
   "validation": {
-    "current_documentation_links_checked": 1657,
+    "current_documentation_links_checked": 1684,
     "unresolved_current_documentation_links": 0,
     "unchanged_display_math_blocks": 126,
     "manuscripts": 10,
-    "portrait_families": 26,
-    "animated_portraits": 7,
+    "portrait_families": 29,
+    "animated_portraits": 8,
     "image_date_records": "Identical apart from current file paths; historical evidence fields retained.",
     "historical_json_records": "All moved JSON files identical except current render-date path keys.",
     "archive_restore_check": "One archived original authoring source recovered and hash-verified into a separate D: directory.",
     "render_source_check": "Original hashes reproduced by reversing only the declared registry-path substitutions."
-  }
+  },
+  "prepared_from_commit": "517c75025ced8bf7b09ce37788f9f4d2f776f6cf",
+  "integration_note": "Rebased over the concurrent RAAR constellation study. Its added records, figures, camera loader and numerical packets are preserved. Before hashes refer to the integrated source commit."
 }
