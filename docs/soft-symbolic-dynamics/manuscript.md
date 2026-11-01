@@ -1,6 +1,6 @@
 # Positive entropy and mixed-index periodic points in a Gaussian-posterior reflection map
 
-**Computational research article Â· 2026-11-01**
+**Computational research article · 2026-11-01**
 
 ## Abstract
 
@@ -8,11 +8,11 @@ We study a three-dimensional discrete map obtained by combining a finite-prior
 Gaussian posterior mean with reflection in a circle. For one explicit six-site
 instance, a previously certified strict trapping region defines a compact
 attracting invariant set K. Here we certify seven one-step covering relations
-and prove `h_top(F|K) >= log(2)/6 > 0.11552` per iteration. Two interval
+and prove $`h_{\mathrm{top}}(F|_K)\ge\log(2)/6>0.11552`$ per iteration. Two interval
 implementations independently verify the crossings. Separate 200-digit
 certificates locate a fixed point with one unstable direction and two
 least-period-five orbits with two unstable directions, all in K. Their
-multipliers exclude local C1 equivalence to a dissipative planar HÃ©non map
+multipliers exclude local C1 equivalence to a dissipative planar Hénon map
 with an additional contracting fiber, and to a fixed-time map of an autonomous
 three-dimensional flow. The numerical portrait is a folded spatial band.
 Equality of its sampled closure with K, transitivity, and historical priority
@@ -38,15 +38,16 @@ geometry with a fixed scale.
 
 ## 1. Model and exact instance
 
-For six fixed sites b_i in R3, temperature Ï„ > 0, and 0 < Î² < 1, define
+For six fixed sites $`b_i\in\mathbb{R}^3`$, temperature $`\tau>0`$,
+and $`0<\beta<1`$, define
 
 ```math
 p_i(x)=\frac{\exp(-\|x-b_i\|^2/\tau)}{\sum_j\exp(-\|x-b_j\|^2/\tau)},
 \qquad m(x)=\sum_i p_i(x)b_i.
 ```
 
-Let A be the unit circle in the xy plane. With v = 2m(x)-x and
-r = sqrt(v_xÂ²+v_yÂ²), put
+Let A be the unit circle in the xy plane. With $`v=2m(x)-x`$ and
+$`r=\sqrt{v_x^2+v_y^2}`$, put
 
 ```math
 u(x)=P_A(v)=(v_x/r,v_y/r,0),\qquad
@@ -54,14 +55,14 @@ F(x)=\beta x+\beta u(x)+(1-2\beta)m(x).
 ```
 
 The map is smooth where r > 0. Equivalently it is
-`Î²(R_A(2m-I)+I)/2 + (1-Î²)m`, where `R_A=2P_A-I`.
+$`\beta(R_A\circ(2m-I)+I)/2+(1-\beta)m`$, where $`R_A=2P_A-I`$.
 At positive temperature m is generally not a projector, so this is not the
 standard finite-set RAAR iteration. The
 [operator comparison](../soft-constellation-priority.md) identifies m exactly
 as Gaussian mean shift, a finite-prior MMSE denoiser, a biased softmax update,
 and a proximal map of a generally nonconvex penalty.
 
-The instance uses `Î²=0.970660805775784` and `Ï„=0.03731678183231506`.
+The instance uses `β=0.970660805775784` and `τ=0.03731678183231506`.
 These decimals and all six site coordinates denote the exact real lifts of
 the stored binary64 values. The complete defining inputs are retained in
 [input.json](../../results/soft-symbolic-dynamics/runs/soft-covering-certificate01/input.json)
@@ -96,7 +97,7 @@ K=\bigcap_{n\ge0}F^n(Q)
 is nonempty, compact and satisfies F(K)=K. Since F(Q) lies in the interior
 of Q, a neighborhood of Q is mapped into Q. The nested compact images
 approach K uniformly in the sense that
-`sup_{x in F^n(Q)} dist(x,K) -> 0`; otherwise a convergent subsequence
+$`\sup_{x\in F^n(Q)}\mathrm{dist}(x,K)\to0`$; otherwise a convergent subsequence
 outside a fixed neighborhood of K contradicts their intersection.
 Thus K attracts a neighborhood. This is the attracting-set convention used
 here; no transitivity is included in the definition.
@@ -108,9 +109,9 @@ or prove that the displayed trajectory is dense in K.
 
 ## 3. Seven certified crossings
 
-Define six windows `N_i=c_i+S_i[-1,1]^3`, with one distinguished exit
+Define six windows $`N_i=c_i+S_i[-1,1]^3`$, with one distinguished exit
 coordinate and two entry coordinates. The centers and basis/radius factors
-are exact binary64 values; `S_i=B_i diag(r_i)` and its inverse are formed
+are exact binary64 values; $`S_i=B_i\mathrm{diag}(r_i)`$ and its inverse are formed
 over the rationals. The full rational matrices are stored in input.json.
 No inverse computed in ordinary floating point is treated as exact.
 
@@ -141,13 +142,13 @@ different enclosure is wider. Both engines retain every final leaf.
 
 | Edge | Binary64 leaves | 80-digit AD leaves |
 | --- | ---: | ---: |
-| 0 â†’ 0 | 655 | 2,132 |
-| 0 â†’ 1 | 107 | 186 |
-| 1 â†’ 2 | 1,317 | 1,979 |
-| 2 â†’ 3 | 217 | 377 |
-| 3 â†’ 4 | 3 | 52 |
-| 4 â†’ 5 | 319 | 524 |
-| 5 â†’ 0 | 2,119 | 4,668 |
+| 0 → 0 | 655 | 2,132 |
+| 0 → 1 | 107 | 186 |
+| 1 → 2 | 1,317 | 1,979 |
+| 2 → 3 | 217 | 377 |
+| 3 → 4 | 3 | 52 |
+| 4 → 5 | 319 | 524 |
+| 5 → 0 | 2,119 | 4,668 |
 | Total | 4,737 | 9,918 |
 
 Counts include the volume and both exit faces. Independent exact-rational
@@ -156,9 +157,9 @@ missing leaves, all strict inequalities, matrix inverses and file hashes.
 The smallest normalized inequality margins exceed `4.30e-5` and `6.03e-5`,
 respectively. These are coordinate margins, not parameter robustness radii.
 
-The same audit proves `N_0 âˆ© N_1 = empty` using an exact separating
+The same audit proves $`N_0\cap N_1=\varnothing`$ using an exact separating
 coordinate. The rectangular hull of N_0 meets only eight grid cubes, all
-belonging to Q. Hence `N_0 subset Q`. Other windows need not be separately
+belonging to Q. Hence $`N_0\subset Q`$. Other windows need not be separately
 proved subsets of Q for the periodic-orbit argument below.
 
 ![Six windows with a self-loop and an excursion](figures/soft-covering-graph.png)
@@ -179,21 +180,21 @@ h_{\rm top}(F|_K)\ \geq\ h_{\rm top}(F|_C)
 
 **Proof.** Concatenate the two six-step routes according to any binary word
 of length n. The resulting closed covering chain has length 6n. Theorem 9
-of [1] gives a point in N_0 fixed by F^(6n), with the prescribed visits.
+of [1] gives a point in N_0 fixed by $`F^{6n}`$, with the prescribed visits.
 Since N_0 lies in Q and Q is forward invariant, its entire periodic orbit
 lies in Q. Periodicity supplies arbitrarily long predecessors in Q, so
 every point of the orbit belongs to every F^j(Q), and therefore to K.
 
-Set Î´ = dist(N_0,N_1) > 0. If two words first differ in block k, at time
+Set $`\delta=\mathrm{dist}(N_0,N_1)>0`$. If two words first differ in block k, at time
 6k+1 their realizations lie in N_0 and N_1. Thus the 2^n selected initial
-points are `(6n,Î´/2)`-separated. They are distinct initial points, not
+points are $`(6n,\delta/2)`$-separated. They are distinct initial points, not
 necessarily 2^n distinct periodic orbits.
 
 Let C be the closure of the union of all these periodic orbits. It is a
 compact subset of K. Continuity gives forward invariance. Taking a
 convergent subsequence of periodic predecessors in the compact set K
 also gives C subset F(C); hence F(C)=C. The separated-set definition of
-topological entropy gives the stated bound. âˆŽ
+topological entropy gives the stated bound. ∎
 
 Periodic realizations of increasingly long prefixes also yield a realization
 of every one-sided binary sequence, by compactness and continuity. Unique
@@ -208,16 +209,16 @@ No explicit admissible parameter interval is certified here.
 
 ## 5. Periodic points with different unstable dimensions
 
-A numerical scout tested 640 initial guesses across periods 1â€“16 and
+A numerical scout tested 640 initial guesses across periods 1–16 and
 retained 65 distinct proposed cycles. All attempts are recorded. Three
 selected cycles subsequently received existence, least-period, multiplier
 and trapping-membership certificates.
 
 | Label | Stored cycle ID | Least period | Return multipliers, rounded | Unstable directions |
 | --- | ---: | ---: | --- | ---: |
-| P | 0 | 1 | âˆ’5.076094266; +0.674489464; âˆ’0.038745369 | 1 |
-| A | 5 | 5 | âˆ’6.045967086; âˆ’1.182206786; âˆ’0.000012489156 | 2 |
-| B | 6 | 5 | +5.188834590; âˆ’1.258408427; âˆ’0.000000626128 | 2 |
+| P | 0 | 1 | −5.076094266; +0.674489464; −0.038745369 | 1 |
+| A | 5 | 5 | −6.045967086; −1.182206786; −0.000012489156 | 2 |
+| B | 6 | 5 | +5.188834590; −1.258408427; −0.000000626128 | 2 |
 
 The first certificate uses 200-digit interval Krawczyk inclusions in boxes
 of coordinate radius `1e-100`, with contraction norms below one. Proper
@@ -229,7 +230,7 @@ strictly relative to the unit circle. Every phase box lies in Q.
 An independent 200-digit calculation uses the automatic-differentiation
 map expression and larger boxes of radius `1e-90`. These boxes contain
 the primary root boxes and independently contain unique roots. It checks
-the determinant `det(Î»I-DF^p)` directly at wider bracket endpoints, and
+the determinant $`\det(\lambda I-DF^p)`$ directly at wider bracket endpoints, and
 uses exact rational grid membership. The two certificates therefore concern
 the same three roots. Periodicity again puts every phase in K.
 
@@ -247,25 +248,25 @@ the appearance of Figure 1. A C1 conjugacy defined on neighborhoods of a
 periodic orbit makes its return derivatives similar and preserves their
 multipliers.
 
-**Dissipative planar HÃ©non map with a contracting extra coordinate.**
-Consider `H(u,v)=(1-a*uÂ²+b*v,u)` with `0 < |b| < 1`, and a C1 skew product
-`G(u,v,z)=(H(u,v),g(u,v,z))` satisfying `|âˆ‚g/âˆ‚z| <= q < 1` along the
+**Dissipative planar Hénon map with a contracting extra coordinate.**
+Consider $`H(u,v)=(1-au^2+bv,u)`$ with $`0<|b|<1`$, and a C1 skew product
+$`G(u,v,z)=(H(u,v),g(u,v,z))`$ satisfying $`|\partial g/\partial z|\le q<1`$ along the
 cycle. The return derivative is block triangular. Its planar determinant
-has modulus `|b|^p < 1`, so at most one planar multiplier can have modulus
-greater than one. The fiber multiplier has modulus at most q^p < 1.
+has modulus $`|b|^p<1`$, so at most one planar multiplier can have modulus
+greater than one. The fiber multiplier has modulus at most $`q^p<1`$.
 Thus every hyperbolic periodic orbit has at most one unstable direction.
 Either certified five-cycle contradicts C1 neighborhood conjugacy to this
-class. This statement does not cover general three-dimensional HÃ©non-like
+class. This statement does not cover general three-dimensional Hénon-like
 maps, noncontracting fibers, or a conjugacy defined only on a fractal set.
 
 **Fixed-time sampling of an autonomous three-dimensional flow.** Suppose
-F were C1 conjugate near a certified five-cycle to a time-T map Ï†_T of a
-C1 autonomous vector field V, for T â‰  0. A point of least period five for
-Ï†_T is not an equilibrium. The identity
-`DÏ†_(5T)(x)V(x)=V(Ï†_(5T)(x))=V(x)` supplies a nonzero eigenvector with
+F were C1 conjugate near a certified five-cycle to a time-T map $`\varphi_T`$ of a
+C1 autonomous vector field V, for $`T\ne0`$. A point of least period five for
+$`\varphi_T`$ is not an equilibrium. The identity
+$`D\varphi_{5T}(x)V(x)=V(\varphi_{5T}(x))=V(x)`$ supplies a nonzero eigenvector with
 multiplier one. All three certified multipliers avoid one, a contradiction.
 This excludes that precise fixed-time representation. It does not exclude
-a PoincarÃ© return map of a flow, a higher-dimensional realization, or a
+a Poincaré return map of a flow, a higher-dimensional realization, or a
 change involving state-dependent return times.
 
 These two exclusions narrow familiar comparison classes. They do not
@@ -284,8 +285,8 @@ Takahasi and Yorke [3] give explicit hetero-chaotic maps: their definition
 requires periodic points of different unstable dimensions to be dense,
 together with a dense trajectory. Our three located cycles and a positive
 entropy subset do not establish those stronger properties. Their baker-map
-examples and the HÃ©non-like precedents they cite remain relevant comparison
-classes; the restricted HÃ©non obstruction above does not dismiss them.
+examples and the Hénon-like precedents they cite remain relevant comparison
+classes; the restricted Hénon obstruction above does not dismiss them.
 
 The contribution established here is an explicit six-site posterior/circle
 instance with a reproducible attracting positive-entropy set, certified
@@ -321,19 +322,19 @@ external peer review.
 ## References
 
 [1] P. Zgliczynski and M. Gidea, *Covering relations for multidimensional
-dynamical systems*, Journal of Differential Equations 202 (2004), 32â€“58.
+dynamical systems*, Journal of Differential Equations 202 (2004), 32–58.
 [doi:10.1016/j.jde.2004.03.013](https://doi.org/10.1016/j.jde.2004.03.013).
 Theorems 9 and 16 in the [author preprint](https://ww2.ii.uj.edu.pl/~zgliczyn/papers/wts/cov.pdf),
 printed pages 11 and 17, were checked for this application.
 
 [2] R. L. Viana and C. Grebogi, *Unstable dimension variability and
-synchronization of chaotic systems*, Physical Review E 62 (2000), 462â€“468.
+synchronization of chaotic systems*, Physical Review E 62 (2000), 462–468.
 [Author-hosted paper](https://fisica.ufpr.br/viana/artigos/2000/mky.pdf).
 The abstract and introduction were reviewed; the full model analysis was
 not independently audited here.
 
 [3] Y. Saiki, H. Takahasi and J. A. Yorke, *Piecewise-linear maps with
-heterogeneous chaos*, Nonlinearity 34 (2021), 5744â€“5761.
+heterogeneous chaos*, Nonlinearity 34 (2021), 5744–5761.
 [doi:10.1088/1361-6544/ac0d45](https://doi.org/10.1088/1361-6544/ac0d45);
 [revised author text](https://arxiv.org/html/1811.01009v4).
 The abstract, introductory definitions, baker-map discussion and stated
