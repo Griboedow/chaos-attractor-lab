@@ -6,6 +6,12 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 [Native geometry and certified cycles](docs/assets/raar-symbolic-geometry.png) · [The two-route graph](docs/assets/raar-symbolic-graph.png) · [Coded excursions](docs/assets/raar-symbolic-itineraries.png) · [Reproduce the certificates](papers/raar-symbolic-dynamics/README.md)
 
+**[Sixty rotations in one three-dimensional flow](docs/icosahedral-flow.md).** One trajectory forms a hollow arrangement of folded ribbons and spiral fans. Two selected icosahedral candidates survive three integration steps, 16,000-unit observations and independent adaptive solvers. Interval bounds certify absorbing balls; fresh starts reveal both chaotic attraction and competing regular motion. A replay of Reiter's 1999 map strengthens the prior-art comparison. Historical uniqueness remains open.
+
+![A fixed icosahedral-flow trajectory viewed by a rotating rigid camera](docs/assets/icosahedral-177.gif)
+
+[Large portrait](docs/assets/icosahedral-177.png) · [Looped companion](docs/assets/icosahedral-183.png) · [Evidence, comparison and reproduction](docs/icosahedral-flow.md)
+
 **[New search checkpoint: a tetrahedral flow around a stable center](docs/tetrahedral-flow.md).** A single trajectory weaves ribbons through all twelve symmetry sectors. Its 3.2-million-state portrait survives 40,000 time units, step refinement, independent DOP853 integration and fresh basin starts. Comparisons cover 108 known regimes and six earlier repository candidates. Tetrahedral maps are established prior art; historical uniqueness remains open.
 
 ![One tetrahedral-flow trajectory under a rotating rigid camera](docs/assets/tetrahedral-flow.gif)
