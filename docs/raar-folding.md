@@ -6,7 +6,7 @@
 
 The animation shows actual states of the spatial-circle RAAR map. We start with 16,384 points on a straight segment of radius `1e-7`, tangent to the unstable direction of its certified seven-cycle. Each frame combines seven successive phase offsets. The camera, spatial scale and density scale are fixed; the early blue rings only locate subpixel clusters. The frames run from iterations 0–6 to 448–454. No interpolation connects states into artificial continuous orbits.
 
-[Five-page research note](../papers/raar-folding/manuscript.pdf) · [Editable source and reproduction](../papers/raar-folding/README.md) · [Rotate the long-run cloud](assets/raar-circles-rotation.gif) · [Periodic structure](raar-cycle-structure.md) · [Priority audit](raar-priority.md)
+[Six-page research note](../papers/raar-folding/manuscript.pdf) · [Editable source and reproduction](../papers/raar-folding/README.md) · [Rotate the long-run cloud](assets/raar-circles-rotation.gif) · [Periodic structure](raar-cycle-structure.md) · [Priority audit](raar-priority.md)
 
 ## All six controls
 
@@ -36,6 +36,12 @@ The initial near-cloud numerical search found one preimage per target. The subse
 
 ## What this adds, and what remains open
 
+![All seven time-residue samples of the same consecutive orbit](assets/raar-phase-classes.png)
+
+The seven visible tips do not give seven separable time-residue clouds in this finite diagnostic. Labeling each of the million states by its iteration number modulo seven produces similar density portraits. A nearest-neighbor classifier in the actual three coordinates predicts the phase of 400,000 held-out states with accuracy `0.1429225`, close to `1/7`. Training and test segments are separated by 200,000 steps. This is not an ergodicity, mixing or connectedness theorem. [Complete arrays and source](../results/raar-phase-classes/).
+
 The result adds a visible formation process and exact inverse-image structure to the existing spatial-circle case study. It does not introduce RAAR, projection-search chaos, period doubling, noninvertibility or interval verification as new ideas. The main text of [Elser, Rankenburg and Thibault (2007)](https://doi.org/10.1073/pnas.0606359104) is now reviewed; its supplement remains a gap. The [new review record](../results/raar-folding/priority/review.json) supplements earlier frozen reviews.
+
+The [extended priority audit](raar-priority.md) also credits Elser's explicit 2001 attractor portrait and distinguishes the RRR relaxation from RAAR. The six-page note includes both the earlier citation and the time-residue diagnostic.
 
 No exact match has been located in the bounded review. Proving a new attractor class still requires a broader equivalence review and rigorous asymptotic dynamics. The current evidence supports an unusual, reproducible **candidate**, not the assertion that nobody has seen an equivalent attractor.

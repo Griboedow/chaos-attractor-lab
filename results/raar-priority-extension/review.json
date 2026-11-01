@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "sources": [
+    {
+      "title": "Phase retrieval by iterated projections",
+      "author": "Veit Elser",
+      "preprint_date": "2001-11-07",
+      "journal": "JOSA A 20 (2003), 40\u201355",
+      "url": "https://arxiv.org/abs/math/0111080v1",
+      "pdf_sha256": "b87d5b1238da641644bc8519406c30fe09328268fb298786796274bed499e6e6",
+      "pdf_bytes": 678720,
+      "scope": "Sections 2 (Fourier/histogram definitions) and 8 (strange-attractor discussion); Figure 14 pixels inspected. Other proofs not fully reviewed.",
+      "finding": "Explicit earlier attractor portraits use a 32-component inconsistent Fourier/histogram problem and sections of four phase angles. They are not full three-coordinate spatial-circle portraits. No inequivalence theorem follows from this difference."
+    },
+    {
+      "title": "A unified evaluation of iterative projection algorithms for phase retrieval",
+      "author": "S. Marchesini",
+      "preprint": "physics/0603201v3, 22 December 2006",
+      "journal": "Review of Scientific Instruments 78 (2007), 011301",
+      "url": "https://arxiv.org/abs/physics/0603201v3",
+      "pdf_sha256": "7be488f1fc0104262c45eedc70686266bf93a286baa14dfe4f40e2f515b25b45",
+      "pdf_bytes": 709584,
+      "scope": "Section III and equation 25; Figure 4/5/6 pixels on PDF page 7. Related projector definitions read; remaining sections not fully reviewed.",
+      "finding": "Figure 5 uses a union of two circles as one constraint and a line as the other. Its RAAR setting beta=0.75 tends near a local minimum. This is a distinct benchmark, not proof of attractor inequivalence."
+    },
+    {
+      "title": "RRR origins",
+      "author": "Veit Elser",
+      "year": 2018,
+      "url": "https://uuuuuu.lassp.cornell.edu/sites/default/files/origins.pdf",
+      "scope": "Eight-slide text inspected, especially slides 4 and 7; no claim to inspect every embedded image.",
+      "finding": "Explicit ADMM-to-RRR variable change at relaxation one and the RRR update are prior descriptions. RRR and RAAR relaxation parameters must not be conflated."
+    },
+    {
+      "title": "Solving Problems with Projections, Chapter 5: Reflect-Reflect-Relax",
+      "author": "Veit Elser",
+      "year": 2025,
+      "url": "https://doi.org/10.1017/9781009475518.007",
+      "scope": "Publisher summary, public contents and index only. Chapter body requires access and was not read.",
+      "open_gap": "Priority review of the global-behavior and RRR/ADMM sections remains necessary.",
+      "contents_url": "https://assets.cambridge.org/97810094/75525/frontmatter/9781009475525_frontmatter.pdf",
+      "index_url": "https://assets.cambridge.org/97810094/75525/index/9781009475525_index.pdf"
+    }
+  ],
+  "queries": [
+    "\"RAAR\" \"circles\" \"chaotic\"",
+    "\"Douglas-Rachford\" \"noncoplanar\" circles",
+    "\"relaxed\" \"reflections\" \"two circles\" chaos",
+    "\"Elser\" \"circles\" \"strange attractor\"",
+    "\"RAAR\" \"spatial circles\"",
+    "\"Douglas-Rachford\" \"skew\" circles",
+    "\"Solving Problems with Projections\" \"chaos\"",
+    "\"reflect-reflect-relax\" \"attractor\" circle",
+    "\"RAAR\" \"bifurcation\" circle",
+    "\"Douglas\u2013Rachford\" \"period doubling\""
+  ],
+  "outcome": "No exact match located in a bounded search; historical uniqueness and attractor-class inequivalence remain unresolved.",
+  "access_gaps": [
+    "Elser 2007 supplementary information",
+    "Elser 2025 Chapter 5 body",
+    "Other unreviewed sources identified in prior packets"
+  ],
+  "redistribution": "Third-party PDFs and extracted full text remain local and are not included."
+}

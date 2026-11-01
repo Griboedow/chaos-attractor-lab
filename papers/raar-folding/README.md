@@ -1,8 +1,8 @@
 # From a tiny segment to a serrated arch
 
-[Read the five-page note](manuscript.pdf) · [Watch the evolution](../../docs/assets/raar-cycle-unfolding.gif) · [Illustrated report](../../docs/raar-folding.md) · [Base manuscript](../raar-circles/manuscript.pdf) · [Cycle companion](../raar-cycle-structure/manuscript.pdf)
+[Read the six-page note](manuscript.pdf) · [Watch the evolution](../../docs/assets/raar-cycle-unfolding.gif) · [Illustrated report](../../docs/raar-folding.md) · [Base manuscript](../raar-circles/manuscript.pdf) · [Cycle companion](../raar-cycle-structure/manuscript.pdf)
 
-The note contains three figures, six complete finite-evolution controls, a degree-eight inverse reduction, complete preimage counts for 25 exact targets, an independent interval verification and a carefully limited conjugacy exclusion. It is a research note, not a peer-reviewed publication or a declaration of historical priority.
+The note contains four figures, six complete finite-evolution controls, a degree-eight inverse reduction, complete preimage counts for 25 exact targets, an independent interval verification and a carefully limited conjugacy exclusion. The appendix checks the seven time-residue samples; the updated prior-art discussion credits an explicit attractor portrait in a 2001 preprint. It is a research note, not a peer-reviewed publication or a declaration of historical priority.
 
 The supported statements are separated from unresolved ones: tangent segments are not certified unstable manifolds; finite sample agreement is not asymptotic attraction; full-map noninjectivity is not noninjectivity on the attractor; no exact literature match is not a proof of novelty.
 
@@ -12,6 +12,7 @@ Run from the repository root, using a fresh output directory for each command:
 
 ```sh
 python research/verify_raar_folding.py
+python research/verify_raar_phase_review.py
 python research/audit_raar_folding_manuscript.py
 python research/trace_raar_cycle_seeds.py --out outputs/raar-seeds-replay
 python research/raar_seed_hires_histograms.py --source outputs/raar-seeds-replay --out outputs/raar-seeds-hires-replay

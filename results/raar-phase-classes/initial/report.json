@@ -1,0 +1,106 @@
+{
+  "source": "results\\raar-circles\\render\\case-1051-animation.npz",
+  "source_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "params": [
+    0.9708823579074815,
+    1.9886915469542146,
+    0.9028818255996501,
+    -0.1435409113764763,
+    0.5745496526360512,
+    -0.7745124697685242
+  ],
+  "train_indices": [
+    0,
+    400000
+  ],
+  "gap_indices": [
+    400000,
+    600000
+  ],
+  "test_indices": [
+    600000,
+    1000000
+  ],
+  "period": 7,
+  "accuracy": 0.1429225,
+  "balanced_uniform_reference": 0.14285714285714285,
+  "confusion": [
+    [
+      8141,
+      8062,
+      8237,
+      8228,
+      8131,
+      8255,
+      8089
+    ],
+    [
+      8188,
+      8172,
+      8009,
+      8197,
+      8198,
+      8178,
+      8200
+    ],
+    [
+      8228,
+      8121,
+      8213,
+      7984,
+      8216,
+      8234,
+      8147
+    ],
+    [
+      8227,
+      8187,
+      7964,
+      8186,
+      8132,
+      8184,
+      8263
+    ],
+    [
+      8191,
+      8227,
+      8187,
+      8062,
+      8202,
+      8080,
+      8194
+    ],
+    [
+      8235,
+      8126,
+      8182,
+      8227,
+      8067,
+      8146,
+      8160
+    ],
+    [
+      8091,
+      8173,
+      8147,
+      8177,
+      8328,
+      8118,
+      8109
+    ]
+  ],
+  "same_phase_distance_quantiles": [
+    0.0036744976498302197,
+    0.01412148841576688,
+    0.04142340148104004,
+    0.18644021159203528
+  ],
+  "all_phase_distance_quantiles": [
+    0.0015094523158862261,
+    0.006032406712742106,
+    0.018733059235677457,
+    0.14209069890104306
+  ],
+  "source_selection": "One million consecutive unthinned states already frozen for R1051; no new parameter selection.",
+  "scope": "Finite-sample residue-class diagnostic. Similar spatial clouds or chance-level classification do not prove ergodicity, topological mixing, absence of measurable components or asymptotic connectedness. The seven-cycle may organize local geometry without seven disjoint time-residue clouds."
+}
