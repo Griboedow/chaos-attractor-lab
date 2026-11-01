@@ -140,6 +140,9 @@ M(\theta)\dot\theta=-\beta B^TW(B\theta-k).
 ```
 
 Curvature relaxation samples the midpoint angle of each bending interval.
+The first straight segment approximates the clamped tangent through its
+half-cell bending energy; its pointwise boundary angle is not exactly zero at
+finite mesh size. The prescribed continuum angle is recovered under refinement.
 The drag mass integrates the position Jacobian exactly on each straight
 segment. In particular, the current-segment factors integrate to $`1/2`$ and
 $`1/3`$; replacing them by a midpoint lump would change the method. Refinement
