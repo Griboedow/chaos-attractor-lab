@@ -13,3 +13,4 @@ Full articles in editable Markdown. Each companion README maps claims to numeric
 | [Tolerance-scale geometry and numerical hyperchaos in an adaptive Runge-Kutta solver](rk23-controller/manuscript.md) | [Study notes](rk23-controller/README.md) |
 | [Twin rosettes and two expanding directions in an adaptive Dormand–Prince solver](rk45-controller/manuscript.md) | [Study notes](rk45-controller/README.md) |
 | [Bounded memory and numerical hyperchaos in scalar quadratic optimization](yogi-memory/manuscript.md) | [Study notes](yogi-memory/README.md) |
+| [A Whitney fold in the attracting spatial-circle RAAR set](raar-critical-membership/manuscript.md) | [Study notes](raar-critical-membership/README.md) |

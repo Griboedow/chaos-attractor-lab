@@ -20,8 +20,8 @@ retain their existing formats.
 
 ## Conversion and provenance
 
-On 2026-11-01, all nine articles were transferred from their original authoring
-sources to Markdown. The eight structured manuscripts retain the text and tables
+On 2026-11-01, all ten articles were transferred from their original authoring
+sources to Markdown. The nine structured manuscripts retain the text and tables
 actually consumed by their builders, including computed values. The motor article
 retains its abstract, proofs, appendices, numbered equations and bibliography.
 Only presentation and repository navigation changed.
@@ -39,7 +39,8 @@ for reading links. Their page counts,
 rendered-page hashes and PDF reviews must not be presented as reviews of a later
 Markdown edit. The removed artifacts and their replacements are listed in the
 [publication archive](../provenance/publication-archive.json), pinned to commit
-`856ac3709801b0e42bb796e55c0e4fc2d8a11e04`.
+`856ac3709801b0e42bb796e55c0e4fc2d8a11e04`. The concurrently published fold-membership
+article uses the per-file source commit `2ff2973cfdfaa9bac23a7e7b4cf1ff22439de228`.
 
 ## Replaying a frozen numerical packet
 
@@ -61,6 +62,6 @@ tree. Restored publication files are ignored by Git. For omitted numerical array
 use the separate procedure in [data storage](data-storage.md).
 
 To reproduce the original PDF build or publication audit, use a separate checkout
-of the pinned commit on D:. That revision contains the original authoring sources,
+of the relevant pinned commit on D:. That revision contains the original authoring sources,
 builders, auditors and publication file inventory. These historical audits are
 not checks for the current Markdown workflow.

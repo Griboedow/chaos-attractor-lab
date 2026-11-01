@@ -1,12 +1,12 @@
 # A Whitney fold in the attracting spatial-circle RAAR set
 
-[Manuscript](manuscript.pdf) · [Current report](../../docs/raar-critical-membership.md) · [Full proof](../../results/raar-critical-membership/theorem.md) · [Frozen packet](../../results/raar-critical-membership/README.md)
+[Manuscript](manuscript.md) · [Current report](../../docs/raar-critical-membership.md) · [Full proof](../../results/raar-critical-membership/theorem.md) · [Frozen packet](../../results/raar-critical-membership/README.md)
 
 The result places a smooth fold inside the previously certified attracting
 positive-entropy set. It excludes ambient conjugacy on an open neighborhood
 of that set to a map locally injective throughout the corresponding set.
 Noninjectivity restricted to K, transitivity, cloud equality and historical
-uniqueness remain unproved. The frozen trapping paper is unchanged.
+uniqueness remain unproved. The trapping theorem and its numerical certificates are unchanged.
 
 ## Verify the archived evidence
 
@@ -19,6 +19,8 @@ the original reference trajectory. Restore just these optional historical
 inputs at their ignored legacy paths first:
 
 ```powershell
+python tools/publication_archive.py --prefix results/raar-critical-membership --materialize
+python tools/publication_archive.py --prefix results/raar-symbolic-dynamics --materialize
 python tools/data_cache.py fetch --group raar-symbolic-dynamics --materialize
 python tools/data_cache.py fetch results/raar-circles/render/case-1051-animation.npz --materialize
 ```
@@ -67,12 +69,12 @@ using [its own commands](../raar-trapping/README.md).
 
 ```powershell
 python research/render_raar_critical_membership.py --proof results/raar-critical-membership/runs/raar-critical-thin-fold-region01 --out outputs/critical-figure
-python research/build_raar_critical_manuscript.py --output outputs/critical-paper/manuscript.pdf
-python research/audit_raar_critical_manuscript.py
 ```
 
-The builder consumes the frozen final figure and evidence. Editable prose is
-in `content.py`; review.json records visual inspection of every final page.
+Edit [manuscript.md](manuscript.md) directly and run
+`python tools/check_manuscripts.py`. The original build, review and manifest
+records describe the historical publication edition; see
+[editing and archive instructions](../../docs/manuscript-editing.md).
 The figure is a diagnostic and does not introduce another gallery candidate.
 The actual trajectory portrait and slow camera rotation remain on the
 [repository main page](../../README.md).

@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-01",
   "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
-  "method": "Eight ReportLab story streams captured before layout; one Pandoc LaTeX AST converted with explicit citations, anchors, figures, tables and literal paths. No OCR or prose summarization.",
+  "method": "Nine ReportLab story streams captured before layout; one Pandoc LaTeX AST converted with explicit citations, anchors, figures, tables and literal paths. No OCR or prose summarization.",
   "editorial_changes": [
     "PDF links now point to Markdown or PNG.",
     "Former build instructions replaced by direct Markdown editing instructions.",
@@ -43,6 +43,10 @@
       {
         "paper": "raar-trapping",
         "all_source_blocks_preserved": 58
+      },
+      {
+        "paper": "raar-critical-membership",
+        "all_source_blocks_preserved": 53
       }
     ],
     "replication_math_nodes": 189,
@@ -62,11 +66,11 @@
     "replication_prose_check": "All source prose word counts retained after excluding explicit internal reference labels and the documented replacement of vector PDF with SVG/PNG availability.",
     "math_syntax": {
       "parser": "KaTeX 0.16.22",
-      "expressions": 284,
+      "expressions": 293,
       "failures": []
     },
     "archive_check": {
-      "git_blob_hashes_verified": 112,
+      "git_blob_hashes_verified": 119,
       "sample_packet": "results/raar-trapping",
       "sample_manifest_entries_verified": 642,
       "materialization": "Reconstructed read paths on D:, without restoring PDFs into the working tree."
@@ -275,6 +279,28 @@
       },
       "verified_math_nodes": 189,
       "verified_literal_code_paths": 6
+    },
+    {
+      "paper": "raar-critical-membership",
+      "source_pdf_sha256": "6a6780072eac74c4920db7b4de662effe85ac6b201f6026622df58f0c65a7176",
+      "source_text_sha256": "00a2223dad1e5d23891b7ee7116cc349ee60caf249e5862ea332336a7dfe57c2",
+      "builder_sha256": "e0f3a9a511c39792828ae1ccf02801b8ae44d5f7e4d7533c1ddc42d8ab741328",
+      "pdf_pages": 5,
+      "markdown_sha256": "b76ac7d1a0d7f6d5d96ccf36fb2debec709625422531f0e9acaaa39ac0a648e7",
+      "blocks": {
+        "title": 1,
+        "meta": 1,
+        "body": 27,
+        "figure": 1,
+        "caption": 1,
+        "h1": 4,
+        "equation": 9,
+        "table": 3,
+        "h2": 1,
+        "ref": 5
+      },
+      "source_commit": "2ff2973cfdfaa9bac23a7e7b4cf1ff22439de228",
+      "verified_source_blocks": 53
     }
   ]
 }

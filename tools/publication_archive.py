@@ -37,7 +37,7 @@ def main() -> None:
             if result.returncode == 0:
                 data = result.stdout
             else:
-                url = f"https://raw.githubusercontent.com/Griboedow/chaos-attractor-lab/{registry['source_commit']}/{name}"
+                url = f"https://raw.githubusercontent.com/Griboedow/chaos-attractor-lab/{item.get('source_commit', registry['source_commit'])}/{name}"
                 with urllib.request.urlopen(url, timeout=60) as response:
                     data = response.read()
             if len(data) != item["bytes"] or hashlib.sha256(data).hexdigest() != item["sha256"]:
