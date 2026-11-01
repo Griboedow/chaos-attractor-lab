@@ -1,0 +1,73 @@
+{
+  "source_path": "results/twist-followup/prior-comparison/spectra.npz",
+  "source_sha256": "52465ff217b4cfacc6e44c72efdaa34b58a74dba413f5e48213acee0f0e7f597",
+  "source_commit": "689f1b75d2583010de732c4151550275c9be20b1",
+  "report": "docs/twist-priority-and-mechanism.md",
+  "coordinate_relation": "Uniform scale, rotation and translation conjugate the prior model to this twist-map slice.",
+  "excluded": {
+    "source_index": 0,
+    "A": -5.0,
+    "b": 0.5,
+    "reason": "Fixed-point outcome; singular point cloud, not usable for shape normalization. Earlier follow-up retains the OCR-caption reproduction gap and all 33 fixed-point runs."
+  },
+  "runs": [
+    {
+      "name": "KickedTop-A35-b0.1",
+      "source_index": 1,
+      "parameters_in_twist_coordinates": [
+        0.1,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        35.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start_in_twist_coordinates": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "warm_steps": 100000,
+      "observed_steps": 1000000,
+      "retained_final_points": 20000,
+      "spectrum": [
+        0.5386740115186316,
+        -1.7199944310967592,
+        -5.726434859404014
+      ]
+    },
+    {
+      "name": "KickedTop-A15-b0.5",
+      "source_index": 2,
+      "parameters_in_twist_coordinates": [
+        0.5,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start_in_twist_coordinates": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "warm_steps": 100000,
+      "observed_steps": 1000000,
+      "retained_final_points": 20000,
+      "spectrum": [
+        0.6309407023038969,
+        -0.14796810970837956,
+        -2.56241413427536
+      ]
+    }
+  ]
+}

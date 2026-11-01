@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-01",
+  "scope": "Targeted literature and author-repository search, not an exhaustive priority review.",
+  "queries": [
+    "\"attractor\" \"Gaussian vortices\"",
+    "\"chaotic\" \"Gaussian\" \"linear damping\"",
+    "\"three\" \"Gaussian vortices\" chaos",
+    "\"dissipative\" \"Gaussian\" \"vector field\" chaos",
+    "\"chaotic attractor\" \"Gaussian\" \"vortices\"",
+    "\"strange attractor\" \"vortex\" \"damping\"",
+    "\"chaotic\" \"Gaussian vortex\" \"three-dimensional\"",
+    "\"cyclic\" \"Gaussian\" \"attractor\" vortex",
+    "\"Gaussian\" \"linear damping\" \"chaos\" vortex"
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/GilpinLab/dysts/tree/2a03f1ae7b0680b0470458783dcb4664660e131a",
+      "inspected": "Pinned package source, metadata, license and selected trajectory interface; 89 eligible default models executed.",
+      "boundary": "A benchmark library is not an exhaustive catalog of prior art. Metadata labels are not independent proofs."
+    },
+    {
+      "url": "https://github.com/Sakeeb91/attractor-atlas/blob/821ebb816d3e90bb9f589556f48cb455c4d9f545/README.md",
+      "inspected": "Full README equations and parameter tables, fingerprint implementation and precomputed catalog descriptors; four equations independently simulated.",
+      "boundary": "The author's priority/certification claims and descriptor scores are not adopted. Our comparison does not use its orientation-dependent grid-fill feature."
+    },
+    {
+      "url": "https://sprott.physics.wisc.edu/fractals/symmetry/",
+      "inspected": "Author gallery index, dates and explanatory text.",
+      "boundary": "Establishes an older cyclic-symmetry visual precedent. The full collection of encoded polynomial examples was not simulated; copyrighted images were not redistributed."
+    },
+    {
+      "url": "https://elib.dlr.de/198138/1/103109_1_5.0164013.pdf",
+      "doi": "10.1063/5.0164013",
+      "inspected": "Halvorsen equations in Appendix A5.",
+      "boundary": "Source for known equations, not an exhaustive Halvorsen parameter classification."
+    },
+    {
+      "url": "https://chaos1.la.asu.edu/~ylai1/papers/PRE_04_DL2.pdf",
+      "inspected": "Gaussian wake-vortex definition, inertial dynamics and chaotic-attractor figure description.",
+      "boundary": "Relevant 2004 precedent; time-dependent wake model and inertial state differ from our constructed field."
+    },
+    {
+      "url": "https://www.ma.imperial.ac.uk/~dturaev/mypapers/bc2005.pdf",
+      "inspected": "Three-dimensional Henon map equation and Figure 1 / Figure 2a parameter values.",
+      "boundary": "Only three cited regimes simulated, without recreating all bifurcations or the paper's proofs."
+    },
+    {
+      "url": "https://doi.org/10.1063/5.0123426",
+      "author_copy": "https://www.hse.ru/data/2025/08/22/162159040/No_3%20Conjoined%20Lorenz%20twins.pdf",
+      "inspected": "Map definition and Figure 1b parameters for the conjoined-Lorenz-twins regime.",
+      "boundary": "One additional published regime simulated."
+    },
+    {
+      "url": "https://doi.org/10.1016/0375-9601(88)90503-8",
+      "inspected": "Initially publisher abstract only; later synchronized repository commit 689f1b75d2583010de732c4151550275c9be20b1 and read docs/twist-priority-and-mechanism.md, its explicit affine embedding, archived source metadata and prior-model simulations. Subsequently opened the public full text directly and inspected Eq. (3), equal-damping assumption and Figure 2/3 parameter captions.",
+      "public_full_text": "https://www.academia.edu/113918730/Kicked_top_with_pumping_and_dissipation_Classical_results",
+      "boundary": "The existing follow-up supplies an exact family inclusion from public full-text OCR. Restricted typeset PDF and one caption reproduction gap remain unresolved. The selected tuples lie outside that simple slice, which does not prove attractor inequivalence. Two prior-model clouds are now included in the 108-regime comparison."
+    },
+    {
+      "url": "https://arxiv.org/abs/1605.06859",
+      "inspected": "Primary abstract for three-dimensional Gaussian vortices in rotating stratified Boussinesq flow.",
+      "boundary": "Gaussian vortex physics precedent, not the same autonomous three-state ODE; no trajectory comparison performed."
+    },
+    {
+      "url": "https://arxiv.org/abs/1404.4660",
+      "inspected": "Primary abstract for three-dimensional linked twist dynamics.",
+      "boundary": "Related mechanism; exact model/topological equivalence not assessed."
+    }
+  ],
+  "conclusion": "No exact Gaussian-field match located in these searches. Known cyclic geometry, Gaussian-vortex dynamics and dissipative twist mechanisms prevent general novelty claims. Neither a new attractor topology nor universal historical priority is established."
+}

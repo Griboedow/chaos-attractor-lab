@@ -1,0 +1,171 @@
+{
+  "reference_count": 108,
+  "excluded": {},
+  "candidates": {
+    "Twist-1709": {
+      "within_time_halves": 0.02400872077569924,
+      "within_time_halves_icp": 0.04522957613833951,
+      "nearest": [
+        {
+          "reference": "Henon3D-0.0-0.85-0.7",
+          "fingerprint_distance": 0.1040465830632438
+        },
+        {
+          "reference": "YuWang",
+          "fingerprint_distance": 0.1271408144161708
+        },
+        {
+          "reference": "Arneodo",
+          "fingerprint_distance": 0.12757722942543137
+        },
+        {
+          "reference": "SprottP",
+          "fingerprint_distance": 0.1318893388893187
+        },
+        {
+          "reference": "Lorenz",
+          "fingerprint_distance": 0.13388166175045732
+        }
+      ],
+      "nearest_best_icp_symmetric_rms": 0.14620061755608166
+    },
+    "Twist-3254": {
+      "within_time_halves": 0.030053831004223153,
+      "within_time_halves_icp": 0.08061091852444215,
+      "nearest": [
+        {
+          "reference": "QiChen",
+          "fingerprint_distance": 0.09660777053692907
+        },
+        {
+          "reference": "SprottB",
+          "fingerprint_distance": 0.0966184686492485
+        },
+        {
+          "reference": "SprottR",
+          "fingerprint_distance": 0.0996025847097034
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "fingerprint_distance": 0.11324074928007487
+        },
+        {
+          "reference": "Sakarya",
+          "fingerprint_distance": 0.11485926209981909
+        }
+      ],
+      "nearest_best_icp_symmetric_rms": 0.2851913508684599
+    },
+    "Twist-307": {
+      "within_time_halves": 0.021928063237882916,
+      "within_time_halves_icp": 0.1244018692602017,
+      "nearest": [
+        {
+          "reference": "CaTwoPlusQuasiperiodic",
+          "fingerprint_distance": 0.17884156565412967
+        },
+        {
+          "reference": "SprottS",
+          "fingerprint_distance": 0.19891830698121377
+        },
+        {
+          "reference": "SprottQ",
+          "fingerprint_distance": 0.19893644884042178
+        },
+        {
+          "reference": "SprottM",
+          "fingerprint_distance": 0.20105701403184112
+        },
+        {
+          "reference": "RabinovichFabrikant",
+          "fingerprint_distance": 0.2014276997110736
+        }
+      ],
+      "nearest_best_icp_symmetric_rms": 0.22047181588955456
+    },
+    "Vortex-77": {
+      "within_time_halves": 0.024435374734403176,
+      "within_time_halves_icp": 0.03765052424101665,
+      "nearest": [
+        {
+          "reference": "Halvorsen",
+          "fingerprint_distance": 0.129547296153583
+        },
+        {
+          "reference": "Halvorsen-a1.3",
+          "fingerprint_distance": 0.13150606854473484
+        },
+        {
+          "reference": "Halvorsen-a1.6",
+          "fingerprint_distance": 0.1320841002277917
+        },
+        {
+          "reference": "Hadley",
+          "fingerprint_distance": 0.13630238016394775
+        },
+        {
+          "reference": "Colpitts",
+          "fingerprint_distance": 0.1482757051914575
+        }
+      ],
+      "nearest_best_icp_symmetric_rms": 0.17285658068232032
+    },
+    "Vortex-233": {
+      "within_time_halves": 0.02486480443721903,
+      "within_time_halves_icp": 0.06735745109697971,
+      "nearest": [
+        {
+          "reference": "Atlas-Mobula",
+          "fingerprint_distance": 0.11004279346028067
+        },
+        {
+          "reference": "CaTwoPlusQuasiperiodic",
+          "fingerprint_distance": 0.12699511404553895
+        },
+        {
+          "reference": "RabinovichFabrikant",
+          "fingerprint_distance": 0.1317767788152071
+        },
+        {
+          "reference": "SprottO",
+          "fingerprint_distance": 0.14662475447862905
+        },
+        {
+          "reference": "Hadley",
+          "fingerprint_distance": 0.15164801150619373
+        }
+      ],
+      "nearest_best_icp_symmetric_rms": 0.1646033466917063
+    },
+    "Vortex-738": {
+      "within_time_halves": 0.0418229720065226,
+      "within_time_halves_icp": 0.05185365498178544,
+      "nearest": [
+        {
+          "reference": "CaTwoPlusQuasiperiodic",
+          "fingerprint_distance": 0.11445691998885937
+        },
+        {
+          "reference": "RabinovichFabrikant",
+          "fingerprint_distance": 0.13219829769144306
+        },
+        {
+          "reference": "SprottO",
+          "fingerprint_distance": 0.15048868514878463
+        },
+        {
+          "reference": "Hadley",
+          "fingerprint_distance": 0.1620519549041533
+        },
+        {
+          "reference": "SprottM",
+          "fingerprint_distance": 0.16610713580933334
+        }
+      ],
+      "nearest_best_icp_symmetric_rms": 0.20547648361553383
+    }
+  },
+  "exact_affine_control": 2.0183475960220235e-15,
+  "meaning": "Whitening removes empirical covariance anisotropy. Affinely related full-rank clouds whiten to orthogonally related clouds. Sampling, time reparameterization, different invariant measures and nonlinear coordinate changes remain outside this test.",
+  "icp_limit": "Best local alignment among 48 PCA starts, not a certified global minimum."
+}

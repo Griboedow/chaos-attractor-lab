@@ -1,0 +1,556 @@
+{
+  "reference_count": 108,
+  "reference_names": [
+    "Aizawa",
+    "AnishchenkoAstakhov",
+    "Arneodo",
+    "Atlas-Aurelia",
+    "Atlas-Cassiopea",
+    "Atlas-Mobula",
+    "Atlas-Naiad",
+    "AtmosphericRegime",
+    "BeerRNN",
+    "BelousovZhabotinsky",
+    "Blasius",
+    "Bouali",
+    "Bouali2",
+    "BurkeShaw",
+    "CaTwoPlus",
+    "CaTwoPlusQuasiperiodic",
+    "CellularNeuralNetwork",
+    "Chen",
+    "ChenLee",
+    "Chua",
+    "CoevolvingPredatorPrey",
+    "Colpitts",
+    "Coullet",
+    "Dadras",
+    "DequanLi",
+    "ExcitableCell",
+    "Finance",
+    "GenesioTesi",
+    "GlycolyticOscillation",
+    "GuckenheimerHolmes",
+    "Hadley",
+    "Halvorsen",
+    "Halvorsen-a1.3",
+    "Halvorsen-a1.5",
+    "Halvorsen-a1.6",
+    "Halvorsen-a1.7",
+    "Halvorsen-a1.8",
+    "Halvorsen-a1.85",
+    "Halvorsen-a1.89",
+    "Halvorsen-a1.95",
+    "Halvorsen-a2.0",
+    "HastingsPowell",
+    "Henon3D--0.02-0.85-0.7",
+    "Henon3D-0.0-0.815-0.7",
+    "Henon3D-0.0-0.85-0.7",
+    "Henon3D-1.4-0.2-0.1",
+    "HindmarshRose",
+    "IsothermalChemical",
+    "ItikBanksTumor",
+    "JerkCircuit",
+    "KawczynskiStrizhak",
+    "KickedTop-A15-b0.5",
+    "KickedTop-A35-b0.1",
+    "Laser",
+    "LiuChen",
+    "Lorenz",
+    "Lorenz84",
+    "LorenzBounded",
+    "LuChen",
+    "LuChenCheng",
+    "MooreSpiegel",
+    "MultiChua",
+    "NewtonLiepnik",
+    "NoseHoover",
+    "PanXuZhou",
+    "PehlivanWei",
+    "QiChen",
+    "RabinovichFabrikant",
+    "RayleighBenard",
+    "RikitakeDynamo",
+    "Rossler",
+    "Rucklidge",
+    "Sakarya",
+    "SaltonSea",
+    "SanUmSrisuchinwong",
+    "ShimizuMorioka",
+    "SprottA",
+    "SprottB",
+    "SprottC",
+    "SprottD",
+    "SprottE",
+    "SprottF",
+    "SprottG",
+    "SprottH",
+    "SprottI",
+    "SprottJ",
+    "SprottJerk",
+    "SprottK",
+    "SprottL",
+    "SprottM",
+    "SprottMore",
+    "SprottN",
+    "SprottO",
+    "SprottP",
+    "SprottQ",
+    "SprottR",
+    "SprottS",
+    "SprottTorus",
+    "Thomas",
+    "ThomasLabyrinth",
+    "Torus",
+    "Tsucs2",
+    "VallisElNino",
+    "WangSun",
+    "WindmiReduced",
+    "YuWang",
+    "YuWang2",
+    "ZhouChen"
+  ],
+  "candidates": {
+    "Twist-1709": {
+      "within_interleaved": 0.0367683691898638,
+      "within_time_halves": 0.025601340317253588,
+      "within_time_halves_icp": 0.0400876501667833,
+      "nearest": [
+        {
+          "reference": "Finance",
+          "fingerprint_distance": 0.14515867046141118,
+          "best_icp_symmetric_rms": 0.1821709002823999
+        },
+        {
+          "reference": "SprottQ",
+          "fingerprint_distance": 0.14635833651242935,
+          "best_icp_symmetric_rms": 0.23854678746046554
+        },
+        {
+          "reference": "GenesioTesi",
+          "fingerprint_distance": 0.15285008902169805,
+          "best_icp_symmetric_rms": 0.21720517633814218
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "fingerprint_distance": 0.15376133871124067,
+          "best_icp_symmetric_rms": 0.24436700983773518
+        },
+        {
+          "reference": "BurkeShaw",
+          "fingerprint_distance": 0.16002885366583403,
+          "best_icp_symmetric_rms": 0.224115923975043
+        }
+      ]
+    },
+    "Twist-3254": {
+      "within_interleaved": 0.032169058004873796,
+      "within_time_halves": 0.02717840900806597,
+      "within_time_halves_icp": 0.06814753681101095,
+      "nearest": [
+        {
+          "reference": "SprottB",
+          "fingerprint_distance": 0.1323250242134713,
+          "best_icp_symmetric_rms": 0.2691900680867632
+        },
+        {
+          "reference": "WangSun",
+          "fingerprint_distance": 0.14366283338275976,
+          "best_icp_symmetric_rms": 0.26926887131346794
+        },
+        {
+          "reference": "Dadras",
+          "fingerprint_distance": 0.16814385337544996,
+          "best_icp_symmetric_rms": 0.27150747638674627
+        },
+        {
+          "reference": "RikitakeDynamo",
+          "fingerprint_distance": 0.17146783965694748,
+          "best_icp_symmetric_rms": 0.2778928604885521
+        },
+        {
+          "reference": "BurkeShaw",
+          "fingerprint_distance": 0.17243137926611318,
+          "best_icp_symmetric_rms": 0.2689959634907072
+        }
+      ]
+    },
+    "Twist-307": {
+      "within_interleaved": 0.03167478723447537,
+      "within_time_halves": 0.024223658587436962,
+      "within_time_halves_icp": 0.05354192794076938,
+      "nearest": [
+        {
+          "reference": "Atlas-Mobula",
+          "fingerprint_distance": 0.23360009125421205,
+          "best_icp_symmetric_rms": 0.21827504669795975
+        },
+        {
+          "reference": "Aizawa",
+          "fingerprint_distance": 0.24041708324305722,
+          "best_icp_symmetric_rms": 0.25077041804588035
+        },
+        {
+          "reference": "Atlas-Aurelia",
+          "fingerprint_distance": 0.24758866487341438,
+          "best_icp_symmetric_rms": 0.2247162477961979
+        },
+        {
+          "reference": "SprottA",
+          "fingerprint_distance": 0.2806255738269624,
+          "best_icp_symmetric_rms": 0.262572600702968
+        },
+        {
+          "reference": "Hadley",
+          "fingerprint_distance": 0.28666461827796197,
+          "best_icp_symmetric_rms": 0.22022148633659488
+        }
+      ]
+    },
+    "Vortex-77": {
+      "within_interleaved": 0.018488726154404937,
+      "within_time_halves": 0.02589557855962563,
+      "within_time_halves_icp": 0.030018387996737592,
+      "nearest": [
+        {
+          "reference": "Halvorsen",
+          "fingerprint_distance": 0.16042757916425102,
+          "best_icp_symmetric_rms": 0.18084529677112848
+        },
+        {
+          "reference": "Halvorsen-a1.3",
+          "fingerprint_distance": 0.17836764646115322,
+          "best_icp_symmetric_rms": 0.18330368258210472
+        },
+        {
+          "reference": "Hadley",
+          "fingerprint_distance": 0.18062608725992987,
+          "best_icp_symmetric_rms": 0.2369717895408782
+        },
+        {
+          "reference": "Halvorsen-a1.6",
+          "fingerprint_distance": 0.22970703480916083,
+          "best_icp_symmetric_rms": 0.2133729031635563
+        },
+        {
+          "reference": "KickedTop-A15-b0.5",
+          "fingerprint_distance": 0.24695545589116125,
+          "best_icp_symmetric_rms": 0.25517893903930144
+        }
+      ]
+    },
+    "Vortex-233": {
+      "within_interleaved": 0.022120202464388575,
+      "within_time_halves": 0.0284993453141421,
+      "within_time_halves_icp": 0.059629174784550563,
+      "nearest": [
+        {
+          "reference": "Hadley",
+          "fingerprint_distance": 0.14890756286609824,
+          "best_icp_symmetric_rms": 0.1659543714678029
+        },
+        {
+          "reference": "Lorenz84",
+          "fingerprint_distance": 0.21561677486246275,
+          "best_icp_symmetric_rms": 0.18741274352077592
+        },
+        {
+          "reference": "Halvorsen-a1.3",
+          "fingerprint_distance": 0.22681084217839997,
+          "best_icp_symmetric_rms": 0.14339325434135158
+        },
+        {
+          "reference": "Halvorsen",
+          "fingerprint_distance": 0.22943049208367497,
+          "best_icp_symmetric_rms": 0.1412908183420968
+        },
+        {
+          "reference": "Torus",
+          "fingerprint_distance": 0.24203029513398672,
+          "best_icp_symmetric_rms": 0.17097674798654602
+        }
+      ]
+    },
+    "Vortex-738": {
+      "within_interleaved": 0.018199622212674085,
+      "within_time_halves": 0.043980728189378065,
+      "within_time_halves_icp": 0.04448482734142744,
+      "nearest": [
+        {
+          "reference": "Halvorsen",
+          "fingerprint_distance": 0.18406626545686983,
+          "best_icp_symmetric_rms": 0.2182213185146148
+        },
+        {
+          "reference": "Halvorsen-a1.3",
+          "fingerprint_distance": 0.19709114426689836,
+          "best_icp_symmetric_rms": 0.22189284308235618
+        },
+        {
+          "reference": "ShimizuMorioka",
+          "fingerprint_distance": 0.20011131456850226,
+          "best_icp_symmetric_rms": 0.19488451870064827
+        },
+        {
+          "reference": "Rossler",
+          "fingerprint_distance": 0.20740536760445905,
+          "best_icp_symmetric_rms": 0.22789468848506403
+        },
+        {
+          "reference": "KickedTop-A15-b0.5",
+          "fingerprint_distance": 0.20879410111196198,
+          "best_icp_symmetric_rms": 0.25579738742516855
+        }
+      ]
+    }
+  },
+  "exact_similarity_control": 2.0026854743534788e-16,
+  "exact_similarity_icp_control": 2.253745259039404e-15,
+  "subsample_rankings": {
+    "Twist-1709": [
+      {
+        "seed": 101,
+        "nearest": "Finance",
+        "distance": 0.14433745742367113
+      },
+      {
+        "seed": 102,
+        "nearest": "Finance",
+        "distance": 0.1413480776385137
+      },
+      {
+        "seed": 103,
+        "nearest": "Finance",
+        "distance": 0.1389493379355976
+      },
+      {
+        "seed": 104,
+        "nearest": "Finance",
+        "distance": 0.13959295053918747
+      }
+    ],
+    "Twist-3254": [
+      {
+        "seed": 101,
+        "nearest": "WangSun",
+        "distance": 0.13607756444632826
+      },
+      {
+        "seed": 102,
+        "nearest": "SprottB",
+        "distance": 0.1372388667994892
+      },
+      {
+        "seed": 103,
+        "nearest": "SprottB",
+        "distance": 0.13550062725165674
+      },
+      {
+        "seed": 104,
+        "nearest": "SprottB",
+        "distance": 0.13307917159582977
+      }
+    ],
+    "Twist-307": [
+      {
+        "seed": 101,
+        "nearest": "Atlas-Aurelia",
+        "distance": 0.23734481676157904
+      },
+      {
+        "seed": 102,
+        "nearest": "Atlas-Mobula",
+        "distance": 0.23793537416933386
+      },
+      {
+        "seed": 103,
+        "nearest": "Atlas-Mobula",
+        "distance": 0.2366996944230904
+      },
+      {
+        "seed": 104,
+        "nearest": "Atlas-Mobula",
+        "distance": 0.22648544475790303
+      }
+    ],
+    "Vortex-77": [
+      {
+        "seed": 101,
+        "nearest": "Halvorsen",
+        "distance": 0.16503953134548194
+      },
+      {
+        "seed": 102,
+        "nearest": "Halvorsen",
+        "distance": 0.16780166357408538
+      },
+      {
+        "seed": 103,
+        "nearest": "Halvorsen",
+        "distance": 0.16864375716029079
+      },
+      {
+        "seed": 104,
+        "nearest": "Halvorsen",
+        "distance": 0.1676605032825822
+      }
+    ],
+    "Vortex-233": [
+      {
+        "seed": 101,
+        "nearest": "Hadley",
+        "distance": 0.15075132328451005
+      },
+      {
+        "seed": 102,
+        "nearest": "Hadley",
+        "distance": 0.15061166035777282
+      },
+      {
+        "seed": 103,
+        "nearest": "Hadley",
+        "distance": 0.15895754075205984
+      },
+      {
+        "seed": 104,
+        "nearest": "Hadley",
+        "distance": 0.14130070045871357
+      }
+    ],
+    "Vortex-738": [
+      {
+        "seed": 101,
+        "nearest": "Halvorsen",
+        "distance": 0.18439122811526543
+      },
+      {
+        "seed": 102,
+        "nearest": "Halvorsen",
+        "distance": 0.18921549708371932
+      },
+      {
+        "seed": 103,
+        "nearest": "Halvorsen",
+        "distance": 0.18701051455533835
+      },
+      {
+        "seed": 104,
+        "nearest": "Halvorsen",
+        "distance": 0.17079098186423153
+      }
+    ]
+  },
+  "reference_time_halves": {
+    "Aizawa": 0.03766653370915775,
+    "AnishchenkoAstakhov": 0.061451233244623274,
+    "Arneodo": 0.2449007914980007,
+    "Atlas-Aurelia": 0.04074927162856136,
+    "Atlas-Cassiopea": 0.03848055859559586,
+    "Atlas-Mobula": 0.03647060354173933,
+    "Atlas-Naiad": 0.05091141105337123,
+    "AtmosphericRegime": 0.03888285501867488,
+    "BeerRNN": 0.04576073805220762,
+    "BelousovZhabotinsky": 0.04909991704226833,
+    "Blasius": 0.05566288634183714,
+    "Bouali": 0.06523446300781396,
+    "Bouali2": 0.1598462355260885,
+    "BurkeShaw": 0.09104758834809043,
+    "CaTwoPlus": 0.05638856943531565,
+    "CaTwoPlusQuasiperiodic": 0.04806225273745289,
+    "CellularNeuralNetwork": 0.06921908317606923,
+    "Chen": 0.06568525390144347,
+    "ChenLee": 0.03378755808004462,
+    "Chua": 0.09743255411953744,
+    "CoevolvingPredatorPrey": 0.10431360033203899,
+    "Colpitts": 0.060695477845051166,
+    "Coullet": 0.17764538073340289,
+    "Dadras": 0.07465663503131614,
+    "DequanLi": 0.06803208215606307,
+    "ExcitableCell": 0.1025552252053492,
+    "Finance": 0.06657552131647873,
+    "GenesioTesi": 0.06748010375184843,
+    "GlycolyticOscillation": 0.037864419955024764,
+    "GuckenheimerHolmes": 0.17390735332955437,
+    "Hadley": 0.09964962154774008,
+    "Halvorsen-a1.3": 0.027286854251960067,
+    "Halvorsen-a1.5": 0.025049732264844388,
+    "Halvorsen-a1.6": 0.020328765906333198,
+    "Halvorsen-a1.7": 0.02146914886229335,
+    "Halvorsen-a1.8": 0.020052060335624722,
+    "Halvorsen-a1.85": 0.01999701090461439,
+    "Halvorsen-a1.89": 0.021664623059482555,
+    "Halvorsen-a1.95": 0.017946487902132047,
+    "Halvorsen-a2.0": 0.024237099880255842,
+    "Halvorsen": 0.04024681483802571,
+    "HastingsPowell": 0.03169330924922569,
+    "Henon3D--0.02-0.85-0.7": 0.032360036628289075,
+    "Henon3D-0.0-0.815-0.7": 0.0345765767053456,
+    "Henon3D-0.0-0.85-0.7": 0.03379005198228223,
+    "Henon3D-1.4-0.2-0.1": 0.033226210400085616,
+    "HindmarshRose": 0.052586092393308755,
+    "IsothermalChemical": 0.031029980066156128,
+    "ItikBanksTumor": 0.06805642460791356,
+    "JerkCircuit": 0.03609771142066315,
+    "KawczynskiStrizhak": 0.03159369037200736,
+    "KickedTop-A15-b0.5": 0.040913290096330136,
+    "KickedTop-A35-b0.1": 0.03333905098028476,
+    "Laser": 0.06082547830309937,
+    "LiuChen": 0.037190077424119214,
+    "Lorenz": 0.034162757372274234,
+    "Lorenz84": 0.05217228234202628,
+    "LorenzBounded": 0.11546268061013115,
+    "LuChen": 0.028235737051979237,
+    "LuChenCheng": 0.04285140624801252,
+    "MooreSpiegel": 0.08337750263691968,
+    "MultiChua": 0.3361105866159542,
+    "NewtonLiepnik": 0.04644663616249173,
+    "NoseHoover": 0.05491955230809881,
+    "PanXuZhou": 0.37957786875960636,
+    "PehlivanWei": 0.06368162356630534,
+    "QiChen": 0.07399792812208678,
+    "RabinovichFabrikant": 0.05065272249326853,
+    "RayleighBenard": 0.06552778994491341,
+    "RikitakeDynamo": 0.05519672547818531,
+    "Rossler": 0.11266216093283132,
+    "Rucklidge": 0.09277131913272176,
+    "Sakarya": 0.04968697014879668,
+    "SaltonSea": 0.07301560658438654,
+    "SanUmSrisuchinwong": 0.12150885275276671,
+    "ShimizuMorioka": 0.030825850823618287,
+    "SprottA": 0.029665745931459195,
+    "SprottB": 0.08673916182710774,
+    "SprottC": 0.15705131740764489,
+    "SprottD": 0.32686911091938625,
+    "SprottE": 0.03658421293707313,
+    "SprottF": 0.11087234075753259,
+    "SprottG": 0.04753056453071505,
+    "SprottH": 0.06781419194599234,
+    "SprottI": 0.03766523178828005,
+    "SprottJ": 0.060265535203297235,
+    "SprottJerk": 0.05683822872710966,
+    "SprottK": 0.053087058464494255,
+    "SprottL": 0.05611860976514618,
+    "SprottM": 0.056435525873744535,
+    "SprottMore": 0.2851449553917152,
+    "SprottN": 0.052137920309105586,
+    "SprottO": 0.052973370031907746,
+    "SprottP": 0.05684586641260139,
+    "SprottQ": 0.04871390937076847,
+    "SprottR": 0.07770844316853917,
+    "SprottS": 0.051288629623225536,
+    "SprottTorus": 0.11293107700274412,
+    "Thomas": 0.09657596777403614,
+    "ThomasLabyrinth": 0.07654091874402469,
+    "Torus": 0.01772465668076307,
+    "Tsucs2": 0.09144181168400517,
+    "VallisElNino": 0.0449265911261702,
+    "WangSun": 0.04697405418719654,
+    "WindmiReduced": 0.02845909095337637,
+    "YuWang": 0.056699475648246164,
+    "YuWang2": 0.05019084186971205,
+    "ZhouChen": 0.13331693558701488
+  },
+  "distance_definition": "Hellinger-embedding L2(D2,65 bins) + 0.5*L2(covariance eigenvalue fractions) + 0.25*L2(radial Hellinger embedding,33 bins)",
+  "scope": "89 eligible catalog defaults, four external atlas examples, four published 3D Henon regimes, nine successful Halvorsen parameter variants, and two archived pumped-kicked-top regimes. Two additional Halvorsen runs failed; one prior kicked-top outcome is a fixed point. These were excluded. Not an exhaustive search over parameters or coordinate changes.",
+  "icp_limit": "Local optimization with 48 PCA starts, uniform RMS normalization and reflections allowed. Residual is best alignment found, not a certified global minimum."
+}

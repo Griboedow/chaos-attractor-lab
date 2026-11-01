@@ -1,0 +1,64 @@
+{
+  "long-runs.npz": {
+    "all_array_keys_identical": [
+      "ids",
+      "parameters",
+      "starts",
+      "stepsizes",
+      "warm_time",
+      "observed_time",
+      "window_time",
+      "tail_stride",
+      "windows",
+      "tail",
+      "end",
+      "means",
+      "max_radius"
+    ]
+  },
+  "render-run.npz": {
+    "all_array_keys_identical": [
+      "parameters",
+      "stepsize",
+      "warm_time",
+      "observed_time",
+      "window_time",
+      "windows",
+      "tail",
+      "end",
+      "means",
+      "max_radius"
+    ]
+  },
+  "render-histogram.npz": {
+    "all_array_keys_identical": [
+      "counts"
+    ]
+  },
+  "gaussian-vortex-triskelion.png": {
+    "identical_sha256": "3532ed5d25da69173e6e6bb1cf13c4bae492e92012677f041dfe3112aa2db530"
+  },
+  "gaussian-vortex-triskelion.gif": {
+    "identical_sha256": "14c6c9589cfacc70938ab7a51416f900f904a187e09fba4f614d7662cdb9a72b"
+  },
+  "render_metadata_identical": true,
+  "sobol_parameter_array_identical": true,
+  "portable_catalog_lorenz_identical": true,
+  "parsed_sources": [
+    "research/build_atlas_references.py",
+    "research/build_attractor_references.py",
+    "research/build_nearby_references.py",
+    "research/check_gaussian_vortex.py",
+    "research/check_vortex_regular.py",
+    "research/compare_affine_shapes.py",
+    "research/compare_attractor_shapes.py",
+    "research/followup_gaussian_vortex.py",
+    "research/gaussian_vortex.py",
+    "research/import_kicked_top_references.py",
+    "research/render_gaussian_vortex.py",
+    "research/render_novelty_comparison.py",
+    "research/search_gaussian_vortex.py",
+    "research/study_gaussian_vortex.py"
+  ],
+  "scope": "Separate portable-wrapper replay: exact arrays and identical rendered PNG/GIF, plus source parsing and regenerated catalog control. Not a new chaos or priority proof."
+}

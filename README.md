@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[Another construction: three throats in a localized Gaussian-vortex flow](docs/gaussian-vortex.md).** A continuous three-state field produces a detailed folded geometry from 4.8 million actual states. A 30,000-unit spectrum, step refinement and an independent adaptive solver support chaos; fresh starts also expose a competing numerical cycle. The [108-regime novelty audit](docs/attractor-novelty-audit.md) compares this candidate and the earlier twist images, including affine-coordinate controls. Halvorsen is the new image's closest geometric reference, so threefold appearance is not claimed as new.
+
+![Gaussian-vortex candidate: actual states under a rigid orthographic camera](docs/assets/gaussian-vortex-triskelion.png)
+
+[Rotate the trajectory](docs/assets/gaussian-vortex-triskelion.gif) · [Equation, controls and reproduction](docs/gaussian-vortex.md) · [Known-shape comparisons and priority limits](docs/attractor-novelty-audit.md)
+
 **[RAAR: serrated arches and layered loops between two spatial circles](docs/raar-circles.md).** An existing geometric search algorithm produces intricate bounded state clouds from two simple circle constraints. Both portraits survive five-million-step, independent 70/90-digit and original ProxToolbox checks. Exact certificates show five selected maps have no fixed points; a sixth has two unstable points and linked input circles. Projection-search chaos is established prior work; the selected cases' historical uniqueness remains unresolved.
 
 ![Actual spatial-circle RAAR states, viewed by rotating rigid cameras](docs/assets/raar-circles-rotation.gif)
