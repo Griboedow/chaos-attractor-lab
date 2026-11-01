@@ -1,0 +1,167 @@
+{
+  "runs": [
+    {
+      "index": 0,
+      "parameters": [
+        0.1,
+        0.9,
+        1.0,
+        1e-08
+      ],
+      "state_after_two": [
+        0.9999999810475007,
+        399.9999984838,
+        0.9999999980050001
+      ],
+      "two_step_initial_residual": [
+        -1.8952499347690832e-08,
+        -1.5161999726842623e-06,
+        -1.9949999430224352e-09
+      ],
+      "state_after5000": [
+        0.9999750372521041,
+        399.98006795593653,
+        0.999950174877341
+      ],
+      "final_state": [
+        0.05000248150789999,
+        1.0001371670218844,
+        0.0025003479049576895
+      ],
+      "final_tail_x_span": 0.1004123814833588,
+      "final_tail_max_abs_x": 0.0502062404108658
+    },
+    {
+      "index": 1,
+      "parameters": [
+        0.1,
+        0.9,
+        1.0,
+        0.0
+      ],
+      "state_after_two": [
+        1.0,
+        400.0,
+        1.0
+      ],
+      "two_step_initial_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "state_after5000": [
+        1.0,
+        400.0,
+        1.0
+      ],
+      "final_state": [
+        1.0,
+        400.0,
+        1.0
+      ],
+      "final_tail_x_span": 2.0,
+      "final_tail_max_abs_x": 1.0
+    },
+    {
+      "index": 2,
+      "parameters": [
+        2.0,
+        0.9,
+        1.0,
+        1e-08
+      ],
+      "state_after_two": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "two_step_initial_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "state_after5000": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_state": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "final_tail_x_span": 2.0,
+      "final_tail_max_abs_x": 1.0
+    },
+    {
+      "index": 3,
+      "parameters": [
+        3.0,
+        0.9,
+        1.0,
+        1e-08
+      ],
+      "state_after_two": [
+        1.0000000237500002,
+        0.44444444655555554,
+        1.0000000025
+      ],
+      "two_step_initial_residual": [
+        2.3750000188726972e-08,
+        2.111111119251774e-09,
+        2.4999999848063226e-09
+      ],
+      "state_after5000": [
+        1.0000312807625291,
+        0.4444721972237948,
+        1.0000624375035378
+      ],
+      "final_state": [
+        1.5000000417068375,
+        1.0000000028313423,
+        2.2500000001205214
+      ],
+      "final_tail_x_span": 3.000000079247009,
+      "final_tail_max_abs_x": 1.5000000417068375
+    },
+    {
+      "index": 4,
+      "parameters": [
+        0.1,
+        0.9,
+        1.0,
+        1e-06
+      ],
+      "state_after_two": [
+        0.9999981047520123,
+        399.99984838023005,
+        0.9999998005002493
+      ],
+      "two_step_initial_residual": [
+        -1.8952479876599426e-06,
+        -0.0001516197699515942,
+        -1.9949975071931192e-07
+      ],
+      "state_after5000": [
+        0.9975006453427979,
+        398.0068054646902,
+        0.9950175124092873
+      ],
+      "final_state": [
+        -2e-323,
+        2.5e-323,
+        2.5e-323
+      ],
+      "final_tail_x_span": 0.0,
+      "final_tail_max_abs_x": 2e-323
+    }
+  ],
+  "completed": 5,
+  "declared": 5,
+  "steps_per_run": 100000000,
+  "wall_seconds": 6.72214669999812,
+  "exact_algebra_cases": 512,
+  "source_start_one_step_delta_memory_change": "-399/1000000010",
+  "identity": "(Va+E)b^2-(Vb+E)a^2=(b^2-a^2)[curvature^2*beta*(a^2+b^2)/(1+beta)+E]",
+  "scope": "Finite replay and exact algebra control. No global convergence or divergence theorem is inferred from a finite trace; absence of noncritical period2 follows from the separate written proof."
+}

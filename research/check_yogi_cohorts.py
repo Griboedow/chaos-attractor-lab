@@ -1,4 +1,4 @@
-"""Cold starts, nearby parameters and full-state boxes for four Yogi candidates."""
+"""Cold starts, nearby parameters and full-state boxes for selected Yogi candidates."""
 import argparse,hashlib,json,time
 from pathlib import Path
 import numpy as np
@@ -10,7 +10,7 @@ from yogi_map import spectra
 
 def main(args):
     out=args.output.resolve();out.mkdir(parents=True,exist_ok=False);set_num_threads(4)
-    source=np.load(args.source);reference=np.load(args.reference);ids=[44,7590,4214,5174]
+    source=np.load(args.source);reference=np.load(args.reference);ids=args.ids
     amplitudes=np.r_[-np.logspace(-6,2,10),np.logspace(-6,2,10),-.73,.73]
     factors=np.exp(.04*(qmc.Sobol(3,scramble=True,seed=2026110142).random_base2(5)-.5))
     volume=qmc.Sobol(3,scramble=True,seed=2026110143).random_base2(6)
@@ -64,4 +64,5 @@ def main(args):
 
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path,required=True);p.add_argument('--reference',type=Path,required=True);p.add_argument('--output',type=Path,required=True);main(p.parse_args())
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path,required=True);p.add_argument('--reference',type=Path,required=True);p.add_argument('--output',type=Path,required=True)
+    p.add_argument('--ids',type=int,nargs='+',default=[44,7590,4214,5174]);main(p.parse_args())

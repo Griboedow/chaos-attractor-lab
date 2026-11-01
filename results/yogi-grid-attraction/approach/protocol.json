@@ -1,0 +1,48 @@
+{
+  "grid_ids": [
+    670,
+    125
+  ],
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-plane-five-million\\histories.npz",
+  "source_sha256": "e5ccbb049d5c02f2d3fb6290ae6d6be5e5aeb49c622d3c0df3f4c210af7e7316",
+  "count_per_case": 32768,
+  "seed": 2026110151,
+  "times": [
+    0,
+    1,
+    16,
+    256,
+    8192
+  ],
+  "boxes": [
+    [
+      [
+        -0.2722748849265641,
+        -0.016774244022850045,
+        1e-08
+      ],
+      [
+        0.27588903788318353,
+        0.017131955624163066,
+        0.07527796784419953
+      ]
+    ],
+    [
+      [
+        -2.270219023068112,
+        -0.3895295534412236,
+        1e-08
+      ],
+      [
+        1.9926725862037156,
+        0.33342733074445785,
+        6.521119127351741
+      ]
+    ]
+  ],
+  "selection": "Full3D five-million-tail bounding box expanded10% in each direction, v lower bound clipped to1e-8. Same Sobol unit triples in both cases.",
+  "implementation": "Independent scalar autonomous Yogi recurrence; no interpolation, artificial noise or connecting lines.",
+  "expansion_cohort": "First128 Sobol starts per box, declared before simulation;100000 warmup,200000 observation,4x50000 windows,4096 retained tail.",
+  "support": "Directed nearest-neighbor distance to the full2m preview, divided by its extent norm; all endpoints retained.",
+  "scope": "Finite approach from a declared initial volume, not a trapping-region theorem or basin probability."
+}

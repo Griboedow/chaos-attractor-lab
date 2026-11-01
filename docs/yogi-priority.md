@@ -40,6 +40,8 @@ These papers are credited as predecessors. The present study does not rebrand th
 
 [Sebastian Bock's dissertation (repository year 2024), *3D Pose Estimation Problem and a Convergence Analysis of Adaptive Gradient Descent Algorithms*](https://epub.uni-regensburg.de/58326/) was checked separately, including selected sections of Chapters 4–5, the AdaDelta cycle analysis, and the full-state Adam figures 31 and 34. It explicitly omits AdaMax from Chapter 5's analysis. No Yogi or hyperchaos term was located in the extracted text. The broader cycles and chaotic portraits are prior work; the keyword result is not a non-equivalence proof. [Inspection record](../results/optimizer-priority-followup/bock-2024.json).
 
+A [subsequent equation-level AdaDelta audit](adadelta-cycle-audit.md) distinguishes the source's reproduced zero-epsilon cycle family from its positive-epsilon continuation claim. For the printed full scalar map, nontrivial period-two orbits with positive epsilon require `alpha*curvature=2`; the stated Figure 52 example instead drifts in both high-precision and actual-library replays. We therefore do not use that positive-epsilon claim as an established full-state cycle result. This narrow correction does not alter the cited Adam chaos evidence.
+
 ## Equivalent-language checks
 
 The searches covered not only `Yogi + chaos / attractor / Lyapunov / hyperchaos / bifurcation / limit cycle / quadratic`, but also signed adaptive accumulators, discontinuous maps, border collisions, lines of fixed points, memory maps, and embeddings of classical maps. Some broad Yogi searches mainly returned authors whose surname is Yogi; those are not optimizer evidence.

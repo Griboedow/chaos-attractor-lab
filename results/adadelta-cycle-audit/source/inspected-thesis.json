@@ -1,0 +1,47 @@
+{
+  "url": "https://epub.uni-regensburg.de/58326/1/Dissertation_Bock.pdf",
+  "retrieved_utc": "2026-11-01",
+  "bytes": 6647886,
+  "sha256": "cb3cf52dc191ce50526bc6c18ecc54c3b4197ae1850f3118d6d5261af407b26a",
+  "title": "3D Pose Estimation Problem and a Convergence Analysis of Adaptive Gradient Descent Algorithms",
+  "author": "Sebastian Bock",
+  "repository_year": 2024,
+  "cover_date": "2023-01-10",
+  "doi": "10.5283/epub.58326",
+  "inspected": [
+    "Contents and relationship-to-published-work statement",
+    "Chapter5 opening and Table13",
+    "Section5.2.3 full statement, cycle formula and Theorem5.4",
+    "Section5.2.5 and Table15",
+    "Section4.6 leading exponent method",
+    "Figures31/33/36 located for visual inspection"
+  ],
+  "full_text_hits": {
+    "yogi": 0,
+    "adamax": 3,
+    "hypercha": 0
+  },
+  "visual_inspection": {
+    "figure31": "Physical page65: fountain-like Adam portrait, inspected.",
+    "figure33": "Physical page66: discrete-cycle/bifurcation plots, inspected.",
+    "figure34": "Physical page67: Lorenz-like Adam portrait, inspected.",
+    "figure36": "Physical page68 was rendered; not yet visually inspected."
+  },
+  "scope": "AdaMax is explicitly omitted from the Chapter5 analysis; Yogi and hypercha terminology not located in full text. This does not establish absence of equivalent results elsewhere.",
+  "additional_inspection": {
+    "equation_5_2": "Typeset printed p91 / physical p96. Uses old update memory in ratio, new gradient memory in denominator, epsilon squared in both.",
+    "section_5_2_3": "Typeset printed pp100-102 / physical pp105-107; full text and printed pp101-102 inspected. Positive-epsilon continuation, Theorem5.4 and Figure52 convention checked.",
+    "source_example": {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "curvature": 1,
+      "epsilon": 0.0001,
+      "initial_x_d_v": [
+        1,
+        400,
+        1
+      ]
+    },
+    "reproduction_scope": "The zero-epsilon family is reproduced. The printed positive-epsilon full-map condition is assessed by the separate exact algebraic classification; no global convergence theorem is claimed."
+  }
+}

@@ -6,9 +6,11 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 ![The fixed feathered-arc Yogi state cloud viewed by a rotating orthographic camera](docs/assets/yogi-feathered-arc.gif)
 
-[Large portrait](docs/assets/yogi-feathered-arc.png) · [Complete parameter plane](docs/assets/yogi-parameter-plane.png) · [Long-run evidence](docs/assets/yogi-grid-directions.png) · [Prior-art and equivalence audit](docs/yogi-priority.md)
+[Large portrait](docs/assets/yogi-feathered-arc.png) · [Complete parameter plane](docs/assets/yogi-parameter-plane.png) · [Long-run evidence](docs/assets/yogi-grid-directions.png) · [Watch initial volumes approach](docs/assets/yogi-grid-approach.png) · [Prior-art and equivalence audit](docs/yogi-priority.md)
 
 The [earlier paired fans and sunburst](docs/yogi-geometry.md), their [rotation](docs/assets/yogi-rotation.gif), and the precision-sensitive switch initialization remain documented. A new [scalar first-exit proof](docs/scalar-optimizer-boundedness.md) establishes boundedness for all the stated Yogi, Adam and Adamax memory parameters and finite initial states, including continuous bias correction. It does not prove chaos or historical priority.
+
+The new Yogi cases pass all declared cold-start and nearby-parameter checks. A larger experiment follows 32,768 full-state starts per case toward the structured clouds or competing fixed states. A separate [AdaDelta prior-art replay](docs/adadelta-cycle-audit.md) finds slow drift in a published positive-epsilon cycle example and gives the exact full-map period-two condition; it is a reproducibility correction, not another attractor discovery.
 
 **[New visual study: crowns and serrated wings inside Adamax](docs/adamax-geometry.md).** A standard optimizer's internal memory produces intricate full-state geometries on a one-variable quadratic objective. Four-million-step checks, independent 70/90-digit calculations and actual PyTorch runs support persistent chaos. The crown passes every declared cold-start and nearby-setting check; the wings coexist with two reflected 68-cycles. These are numerical candidates in a known algorithm, with historical uniqueness unresolved.
 

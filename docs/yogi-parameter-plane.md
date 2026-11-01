@@ -59,6 +59,18 @@ Actual Optax 0.2.8 with JAX 0.12.0.1 supplies a separate six-case control: its o
 
 G0798 and G0028 also retain two positive directions throughout all windows of this library control. G0063 has a stronger expanding library history than its weak autonomous follow-up; this finite difference does not determine whether there are distinct asymptotic basins or a long transient. G1506 settles to a fixed state in Optax despite its expanding autonomous cold-start history. Initialization and bias-corrected early updates are therefore material parts of the experiment, and all six outcomes remain available.
 
+## Nearby parameters and approach from a full-state volume
+
+A subsequent cohort repeats the original design for G0670 and G0125: 22 signed cold-start amplitudes, 32 small parameter perturbations and 64 points from a full three-dimensional state box for each case. Every run receives 100,000 warmup and 200,000 observed steps. G0670 passes the leading rule for all cold starts and all parameter neighbors, and for 62 of 64 box starts; two box starts have detected fixed tails. G0125 passes both direction rules for all cold starts, all parameter neighbors and 60 of 64 box starts; four box starts have detected fixed tails. Reflected cold-start pairs are symmetry-related, not independent discoveries.
+
+![Complete ensembles approach the structured clouds or competing fixed states](assets/yogi-grid-approach.png)
+
+A larger, separately declared Sobol ensemble follows 32,768 full-state initial points for each case through updates 0, 1, 16, 256 and 8,192. Boxes are the long-run reference bounds expanded by 10%, with the lower accumulator bound clipped to `1e-8`. All endpoints and 64-state tails are retained. G0670 has 1,163 detected fixed tails; G0125 has 1,968. Every other endpoint lies within 0.02 of its two-million-point reference support after normalization by the reference extent norm. This directed finite-cloud distance is a diagnostic, not a Hausdorff-distance or attraction theorem.
+
+The first 128 Sobol starts in each box were declared in advance for longer full-spectrum checks. After 100,000 warmup and 200,000 observed steps, G0670 has 123 histories with all four first-direction windows above 0.005. G0125 has 120 with that property and all second-direction windows above 0.001. The competing outcomes remain included. The figures use one camera and spatial scale per row for the first five columns, followed by a clearly marked final zoom; cyan marks numerically detected fixed tails. Neither final zoom excludes any endpoint in this dataset.
+
+These finite ensembles support attraction from neighborhoods and coexistence with the fixed line. They do not establish basin probabilities, a uniform trapping region or asymptotic chaotic attraction. The [complete attraction packet](../results/yogi-grid-attraction/README.txt) preserves the original layout and corrected figure separately.
+
 ## An exact result alongside the numerical search
 
 The [scalar first-exit proof](scalar-optimizer-boundedness.md) establishes boundedness of every legal finite initial state for the stated Yogi, Adam and Adamax scalar-quadratic recurrences, for positive epsilon and every stated memory parameter. It also covers continuously corrected moments and nonzero initial memories. This removes a parameter restriction from the repository's earlier sufficient estimates. For Adamax it makes the finite-sheet, dimension-at-most-two omega-limit result apply to all legal finite initial states.
