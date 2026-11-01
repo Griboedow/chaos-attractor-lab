@@ -33,10 +33,10 @@ The transported flow direction is checked against the vector field after every Q
 
 The [fresh step control](../results/motor-activity-continuation/cpu/strict-control.json) starts from the exact inherited state and all 23 basis vectors. Over ten tau, the baseline reproduces the first 50 saved new states bitwise. Halving the maximum step to `0.015` and tightening the tolerances to `2e-13` and `2e-15` changes the states by at most `2.11e-13`, the final basis by `5.42e-13` and the logarithm sums by `4.71e-13`. This verifies the short numerical continuation; it does not give a global error bound for a chaotic trajectory over 20,000 tau.
 
-A new scalar quadrature independently checks the [weighted-volume identity](motor-volume-contraction.md). With $\vartheta=7/8$, $a_8=-16+7(r-\rho)$ and $\Phi=\vartheta(r\sum_jc_j+\rho\sum_jX_j^2/2)$, the residual is
+A new scalar quadrature independently checks the [weighted-volume identity](motor-volume-contraction.md). With $`\vartheta=7/8`$, $`a_8=-16+7(r-\rho)`$ and $`\Phi=\vartheta(r\sum_jc_j+\rho\sum_jX_j^2/2)`$, the residual is
 
 ```math
-R=\int\operatorname{div}f\,d\tau+\Phi_{\rm end}-\Phi_{\rm start}
+R=\int\mathrm{div}f\,d\tau+\Phi_{\rm end}-\Phi_{\rm start}
 -a_8\Delta\tau+\vartheta\int\sum_jV_j^2\,d\tau.
 ```
 

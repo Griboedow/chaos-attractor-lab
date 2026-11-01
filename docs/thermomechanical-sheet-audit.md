@@ -6,8 +6,10 @@ Shen's 2025 article [1] studies a heated elastic sheet using displacement, veloc
 
 Write `theta=T-T0` and `Delta=TH-T0`. The equations to investigate are
 
-$$m\ddot A+c\dot A+(k_0+\alpha\theta)A+\beta\dot A^3=\gamma\theta,
-\qquad \tau\dot\theta=\Delta-\theta-\mu A.$$
+```math
+m\ddot A+c\dot A+(k_0+\alpha\theta)A+\beta\dot A^3=\gamma\theta,
+\qquad \tau\dot\theta=\Delta-\theta-\mu A.
+```
 
 ## An equilibrium inconsistency
 
@@ -25,23 +27,31 @@ For an illustrative mathematical example `m=c=k0=gamma=mu=tau=Delta=1`, `alpha=-
 
 For positive `Delta,mu,tau`, put
 
-$$s=t/\tau,\quad X=\mu A/\Delta,\quad V=\tau\mu\dot A/\Delta,\quad Y=\theta/\Delta.$$
+```math
+s=t/\tau,\quad X=\mu A/\Delta,\quad V=\tau\mu\dot A/\Delta,\quad Y=\theta/\Delta.
+```
 
 Our transformation yields
 
-$$X'=V,\qquad V'=GY-K(1-SY)X-BV-DV^3,\qquad Y'=1-Y-X,$$
+```math
+X'=V,\qquad V'=GY-K(1-SY)X-BV-DV^3,\qquad Y'=1-Y-X,
+```
 
 where
 
-$$K=\frac{k_0\tau^2}{m},\quad G=\frac{\gamma\mu\tau^2}{m},\quad
+```math
+K=\frac{k_0\tau^2}{m},\quad G=\frac{\gamma\mu\tau^2}{m},\quad
 B=\frac{c\tau}{m},\quad S=-\frac{\alpha\Delta}{k_0},\quad
-D=\frac{\beta\Delta^2}{m\tau\mu^2}.$$
+D=\frac{\beta\Delta^2}{m\tau\mu^2}.
+```
 
 The physical equilibrium satisfies `X*=1-Y*` and `K(1-SY*)(1-Y*)=G Y*`. For positive `K,G` and nonnegative `S`, there is a unique root with `0<Y*<min(1,1/S)` (interpret `1/S` as infinity for `S=0`). The other algebraic branch is outside this interval.
 
 Set `Ke=K(1-SY*)` and `F=G+KSX*`. The characteristic polynomial is
 
-$$p(\lambda)=(\lambda+1)(\lambda^2+B\lambda+K_e)+F.$$
+```math
+p(\lambda)=(\lambda+1)(\lambda^2+B\lambda+K_e)+F.
+```
 
 At this physical equilibrium all coefficients are positive. Local stability is equivalent to `B(Ke+B+1)>F`; equality is a linear Hopf candidate with squared frequency `Ke+B`. The cubic damping has zero derivative at equilibrium, but affects nonlinear saturation. This local criterion follows from the literal equations and retains the displacement-dependent feedback omitted by substituting the plate temperature directly for the sheet temperature.
 
@@ -76,7 +86,9 @@ All four leading-exponent windows remain positive (`1.331..1.345`); the integrat
 
 The weak positive scout at index 5906 illustrates a different failure mode. Its four initial exponents are roughly `0.0101, 0.0087, 0.0077, 0.0054`, near the equilibrium's unstable growth rate `0.00635`. Longer observation removes the apparent positive asymptotic rate. Independent shooting finds a periodic orbit of period `0.2650092638`, with scaled closure error `2.3e-13` and Floquet multipliers approximately
 
-$$1,\quad0.99663815,\quad0.76411713.$$
+```math
+1,\quad0.99663815,\quad0.76411713.
+```
 
 Both transverse multipliers are inside the unit circle, providing a numerical stable-cycle control. Sampled displacement and temperature stay positive and the stiffness ratio exceeds `0.9843`. This is a concrete example of a slow departure from an unstable equilibrium masquerading as chaos in a short run.
 
@@ -88,7 +100,9 @@ The compact arrays, selection provenance, unresolved statuses and aggregate coun
 
 Eliminate the mechanical variables with `X=1-Y-Y'` and `V=-Y'-Y''`. Our exact affine coordinate change gives
 
-$$Y'''+(1+B)Y''+[B+K(1-SY)]Y'+GY-K(1-SY)(1-Y)+D(Y'+Y'')^3=0.$$
+```math
+Y'''+(1+B)Y''+[B+K(1-SY)]Y'+GY-K(1-SY)(1-Y)+D(Y'+Y'')^3=0.
+```
 
 The transformation was checked numerically on the same 32 algebra samples, with residual below `5.4e-15`. This is the same model, not an added degree of freedom.
 

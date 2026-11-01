@@ -31,13 +31,17 @@ physical measurements or identifiers from earlier surveys.
 Let A be the unit circle in the xy-plane and `b_i` the finite sites. For
 `tau>0`, define the posterior weights and mean
 
-$$p_i(x)=\frac{e^{-\|x-b_i\|^2/\tau}}{\sum_j e^{-\|x-b_j\|^2/\tau}},
-\qquad m(x)=\sum_i p_i(x)b_i.$$
+```math
+p_i(x)=\frac{e^{-\|x-b_i\|^2/\tau}}{\sum_j e^{-\|x-b_j\|^2/\tau}},
+\qquad m(x)=\sum_i p_i(x)b_i.
+```
 
 Writing `v=2m(x)-x`, `r=sqrt(v_x^2+v_y^2)` and
 `u=(v_x/r,v_y/r,0)`, the experiment iterates
 
-$$F(x)=\beta x+\beta u+(1-2\beta)m(x),\qquad 0<\beta<1.$$
+```math
+F(x)=\beta x+\beta u+(1-2\beta)m(x),\qquad 0<\beta<1.
+```
 
 Equivalently, `F=beta/2*(R_A R_m+I)+(1-beta)*m`, where `R_m=2m-I`.
 At positive temperature, `m` is not Euclidean projection onto the finite
@@ -56,7 +60,9 @@ as new.
 
 For `D=Dm=(2/tau) Cov_p(b)` and `t=(-u_y,u_x,0)`, the implemented Jacobian is
 
-$$DF=\beta I+\frac{\beta}{r}tt^T(2D-I)+(1-2\beta)D.$$
+```math
+DF=\beta I+\frac{\beta}{r}tt^T(2D-I)+(1-2\beta)D.
+```
 
 Stable shifted exponentials and centered covariance are used. The scalar
 high-precision control instead uses inner-product logits and nested
@@ -65,7 +71,9 @@ binary64 real value; ideal algebraic polyhedral symmetry is not assumed.
 
 Since the mean is a convex combination of the sites,
 
-$$\|F(x)\|\le\beta\|x\|+\beta+|1-2\beta|\max_i\|b_i\|.$$
+```math
+\|F(x)\|\le\beta\|x\|+\beta+|1-2\beta|\max_i\|b_i\|.
+```
 
 This bounds trajectories that remain defined. It does not certify avoidance
 of the circle-projection singularity or prove an attracting chaotic set.

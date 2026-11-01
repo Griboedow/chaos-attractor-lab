@@ -10,25 +10,35 @@ This continues the [published-model investigation](lce-slider-research.md) and [
 
 Starting from
 
-$$\dot u=v,\qquad \dot v=k(d-u-\phi)-bv,\qquad
-\dot\phi=I H(u)(1-\phi)-\phi,$$
+```math
+\dot u=v,\qquad \dot v=k(d-u-\phi)-bv,\qquad
+\dot\phi=I H(u)(1-\phi)-\phi,
+```
 
 set, for **positive** intensity,
 
-$$q=\frac{I}{1+I},\quad (U,V,Y)=\frac{(u,v,\phi)}q,\quad\delta=\frac dq.$$
+```math
+q=\frac{I}{1+I},\quad (U,V,Y)=\frac{(u,v,\phi)}q,\quad\delta=\frac dq.
+```
 
 The transformed equations are exactly
 
-$$\dot U=V,\qquad \dot V=k(\delta-U-Y)-bV,\qquad
-\dot Y=(1+I)H(U)-[1+I H(U)]Y.$$
+```math
+\dot U=V,\qquad \dot V=k(\delta-U-Y)-bV,\qquad
+\dot Y=(1+I)H(U)-[1+I H(U)]Y.
+```
 
 At each fixed positive intensity this is an invertible coordinate change, with the same time variable and Lyapunov exponents. The transformed vector fields have a finite limit at `I=0`, although the transformation itself becomes singular there:
 
-$$\dot U=V,\qquad \dot V=k(\delta-U-Y)-bV,\qquad \dot Y=H(U)-Y.$$
+```math
+\dot U=V,\qquad \dot V=k(\delta-U-Y)-bV,\qquad \dot Y=H(U)-Y.
+```
 
 Eliminating `V,Y` on each open branch gives
 
-$$U'''+(b+1)U''+(k+b)U'+kU=k[\delta-H(U)].$$
+```math
+U'''+(b+1)U''+(k+b)U'+kU=k[\delta-H(U)].
+```
 
 This is a biased, negative, zero-hysteresis relay around the stable plant with denominator `(s+1)(s²+bs+k)`. Its relative degree is three. Displacement, velocity and acceleration are continuous at a transverse switch; jerk jumps. For `k,b>0`, `Y` stays in `[0,1]`, and the stable mechanical subsystem has bounded forcing, hence bounded forward response. This argument does not settle solution uniqueness at every possible grazing contact.
 
@@ -59,7 +69,9 @@ Short-time validation also compares the original and normalized GPU models at po
 
 At `I=0` the exact reflection
 
-$$ (U,V,Y,\delta)\mapsto(-U,-V,1-Y,1-\delta) $$
+```math
+ (U,V,Y,\delta)\mapsto(-U,-V,1-Y,1-\delta)
+```
 
 maps trajectories into trajectories, reversing the two illumination branches. Thus only `0<delta<=1/2` needs a separate mathematical study. This symmetry does **not** hold at finite intensity, where light and dark relaxation rates differ.
 

@@ -12,7 +12,7 @@ The model is Warmington, Rossiter and Bloomfield-Gadêlha's discontinuously coup
 
 We independently implemented the pinned **author-code variant** [2], with the minus-sine rotor position. The discrepancy with the printed plus-sine formula is preserved in the [source audit](dcr-source-audit.md). There are 101 variables: backbone displacement and 100 rotor phases. Phases can be viewed modulo a full turn; any three-dimensional drawing would be a projection.
 
-Let the angular gate be $H_j$, the full distance-and-angle contact indicator be $C_j$, and the backbone velocity be $v$. The residual equations at zero extra load are
+Let the angular gate be $`H_j`$, the full distance-and-angle contact indicator be $`C_j`$, and the backbone velocity be $`v`$. The residual equations at zero extra load are
 
 ```math
 \begin{aligned}
@@ -27,7 +27,7 @@ F_s(\omega)&=1-\frac{\omega}{4\pi}\bigl(1+\tanh(40\omega)\bigr).
 \end{aligned}
 ```
 
-The source geometry is $c=0.14$, rotor spacing 1.204, tooth spacing 1.092, and contact distance 0.02. The angular interval and distance inequality are both **strict**. Ordinary distance to the wrapped tooth positions is used, not shortest distance on a circle. The source's optional callback is disabled, as in its default solver call; that callback is separately audited and is not treated as a derived contact law.
+The source geometry is $`c=0.14`$, rotor spacing 1.204, tooth spacing 1.092, and contact distance 0.02. The angular interval and distance inequality are both **strict**. Ordinary distance to the wrapped tooth positions is used, not shortest distance on a circle. The source's optional callback is disabled, as in its default solver call; that callback is separately audited and is not treated as a derived contact law.
 
 In FP64, the free-rotor force evaluates exactly to zero. Its mathematical value is exponentially small but nonzero. The [structural report](dcr-structure.md) distinguishes those conventions, proves uniqueness of the algebraic velocity for the source geometry and tested drag range, and derives conditional displacement bounds. These checks do not by themselves settle event continuation.
 
@@ -41,7 +41,7 @@ A finite-step solver can penetrate slightly into the band and then lock the resu
 
 The implementation uses SUNDIALS IDA through `scikit-sundae 1.2.0`, with a consistent initial derivative. It does not execute the authors' Julia file or reproduce their entire software environment. All starts use our seed **2026103021**, with the actual initial vectors saved. The source did not supply the same seeded phase realization, so a trajectory-by-trajectory reproduction is not claimed.
 
-An optimized nearest-tooth computation agrees with an explicit all-tooth calculation in 128 seeded off-interface controls. The largest distance difference is $1.78\times10^{-14}$; the residual difference is zero. Consistent initial derivatives satisfy the residual to $8.89\times10^{-15}$, and the analytic fixed-branch Jacobian agrees with directional finite differences to relative error $1.45\times10^{-9}$. These are algebra checks away from switching surfaces.
+An optimized nearest-tooth computation agrees with an explicit all-tooth calculation in 128 seeded off-interface controls. The largest distance difference is $`1.78\times10^{-14}`$; the residual difference is zero. Consistent initial derivatives satisfy the residual to $`8.89\times10^{-15}`$, and the analytic fixed-branch Jacobian agrees with directional finite differences to relative error $`1.45\times10^{-9}`$. These are algebra checks away from switching surfaces.
 
 At alpha = beta = 1, one 0.2-unit and four 1-unit controls completed. The following differences use the finest archived run as a numerical reference, not an exact solution:
 

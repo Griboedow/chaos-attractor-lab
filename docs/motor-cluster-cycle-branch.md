@@ -37,7 +37,7 @@ with critical pair
 \mu_\pm\approx-0.5729449387\pm0.8195938611\,i.
 ```
 
-The angle divided by $2\pi$ is approximately `0.34709956`. The numerical distances from resonances of orders 1 through 4 are nonzero; the smallest is the order-3 distance `0.25876`. A centered finite difference with rho increment `1e-5` gives $d|\mu|/d\rho\approx-46.27947$.
+The angle divided by $`2\pi`$ is approximately `0.34709956`. The numerical distances from resonances of orders 1 through 4 are nonzero; the smallest is the order-3 distance `0.25876`. A centered finite difference with rho increment `1e-5` gives $`d|\mu|/d\rho\approx-46.27947`$.
 
 At `rho_* - 1e-5`, the computed modulus minus one is `+0.000462870`; at `rho_* + 1e-5`, it is `-0.000462720`. These are floating-point sign checks, not interval enclosures. They support a complex-pair crossing as rho decreases. No bifurcation normal-form coefficient or invariant torus is computed, so a nondegenerate torus bifurcation is not asserted.
 

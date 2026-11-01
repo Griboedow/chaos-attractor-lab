@@ -20,27 +20,27 @@ Two noncoplanar circles provide a small geometric setting in which the establish
 
 Let A be the unit circle in the xy plane. Let B have radius r, center c and tilt θ, with the parametrization
 
-$$
+```math
 B(\gamma)=c+r(\cos\gamma,\cos\theta\sin\gamma,\sin\theta\sin\gamma).
-$$
+```
 
 For a circle of unit normal n, write v=(I−nn<sup>T</sup>)(x−c). Away from the projection axis v=0, its nearest-point projector and reflector are
 
-$$
+```math
 P(x)=c+r\frac{v}{\|v\|},\qquad R(x)=2P(x)-x.
-$$
+```
 
 The standard RAAR iteration of Luke [1], also called relaxed Douglas–Rachford [2], is
 
-$$
+```math
 F(x)=\frac{\beta}{2}(R_AR_Bx+x)+(1-\beta)P_Bx,\quad 0<\beta<1.
-$$
+```
 
 The ordered composition matters. Expanding it gives the familiar equivalent expression [6]
 
-$$
+```math
 F(x)=\beta x+\beta P_A(2P_Bx-x)+(1-2\beta)P_Bx.
-$$
+```
 
 The implementation stops if either projection-axis distance falls below 10<sup>−12</sup>; it introduces no arbitrary extension there. All declared trajectory experiments in this packet complete. The constraints are circumferences, not closed disks. The benchmark asks for feasibility of two sets that the certificates below show are disjoint.
 
@@ -109,15 +109,15 @@ Library spectra use the production analytic Jacobian along actual library states
 
 Because ||P<sub>A</sub>(y)||=1 and ||P<sub>B</sub>(x)|| ≤ ||c||+r, the expanded formula immediately yields
 
-$$
+```math
 \|F(x)\|\leq\beta\|x\|+C,\qquad C=\beta+|1-2\beta|(\|c\|+r).
-$$
+```
 
 Induction gives
 
-$$
+```math
 \|x_n\|\leq\beta^n\|x_0\|+\frac{1-\beta^n}{1-\beta}C.
-$$
+```
 
 Every ball of radius strictly greater than C/(1−β) absorbs every defined orbit. The estimate holds even for arbitrary nearest-point selections on projection axes. This elementary consequence for bounded constraints is not presented as a new general theorem. It does not prove a continuous invariant attracting set avoiding the axes.
 
@@ -125,19 +125,19 @@ Every ball of radius strictly greater than C/(1−β) absorbs every defined orbi
 
 At a regular point, DP=(r/||v||)tt<sup>T</sup>, with unit circle tangent t. Write DP<sub>A</sub>(R<sub>B</sub>x)=a uu<sup>T</sup>, DP<sub>B</sub>(x)=b vv<sup>T</sup>, and d=u<sup>T</sup>v. Then
 
-$$
+```math
 J=\beta I-\beta a uu^T+(1-2\beta)bvv^T+2\beta abd\,uv^T.
-$$
+```
 
 The characteristic polynomial is (λ−β)(λ²−T λ+D), with
 
-$$
+```math
 T=2\beta-\beta a+(1-2\beta)b+2\beta abd^2,
-$$
+```
 
-$$
+```math
 D=\beta[(1-a)(\beta+(1-2\beta)b)+abd^2],\qquad\det J=\beta D.
-$$
+```
 
 When u×v is nonzero, it is a left eigenvector with eigenvalue β. The same eigenvalue persists for parallel tangents. A separate symbolic calculation checks the complete characteristic polynomial after imposing the unit-tangent identity. Pointwise eigenvalues do not determine Lyapunov exponents of products whose eigendirections change; no exponent is asserted to equal log β.
 
@@ -147,45 +147,45 @@ Six additional million-step audits record axis distances, state radii, determina
 
 At a fixed point let b=P<sub>B</sub>x, a=P<sub>A</sub>(R<sub>B</sub>x), and k=β/(1−β). The map equation gives x=b+k(a−b). Projection stationarity requires a−b to be perpendicular to both circle tangents. Write
 
-$$
+```math
 X=c_x+r\cos\gamma,\quad Y=c_y+r\cos\theta\sin\gamma,\quad L=\sqrt{X^2+Y^2}.
-$$
+```
 
 If L>0, the A point has the form a=σ(X,Y,0)/L for σ=±1. The B stationarity condition becomes f+σ e/L=0, where
 
-$$
+```math
 f=-c_x\sin\gamma+(c_y\cos\theta+c_z\sin\theta)\cos\gamma,
-$$
+```
 
-$$
+```math
 e=c_x\sin\gamma-c_y\cos\theta\cos\gamma+r\sin^2\theta\sin\gamma\cos\gamma.
-$$
+```
 
 Set t=tan(γ/2), D₀=1+t², S=2t and Q=1−t². The polynomial numerators are
 
-$$
+```math
 X_0=c_xD_0+rQ,\qquad Y_0=c_yD_0+r\cos\theta S,
-$$
+```
 
-$$
+```math
 f_0=-c_xS+(c_y\cos\theta+c_z\sin\theta)Q,
-$$
+```
 
-$$
+```math
 e_0=c_xSD_0-c_y\cos\theta QD_0+r\sin^2\theta SQ.
-$$
+```
 
 Consequently every fixed point in this chart arises from a real root of the degree-eight polynomial
 
-$$
+```math
 P(t)=f_0^2(X_0^2+Y_0^2)-e_0^2.
-$$
+```
 
 A regular stationary pair is a valid nearest-projection fixed point precisely when the two radial factors are positive:
 
-$$
+```math
 (2b-x)^Ta>0,\qquad (x-c)^T(b-c)/r>0.
-$$
+```
 
 The certificate rejects the spurious branch introduced by squaring, checks these signs, and separately excludes γ=π, omitted by the half-angle chart. It also verifies that B never meets the A axis: (c<sub>x</sub>/r)²+(c<sub>y</sub>/(r cos θ))²−1 is nonzero. Every radial factor at an isolated candidate has a strict sign, excluding axis-degenerate fixed points as well.
 

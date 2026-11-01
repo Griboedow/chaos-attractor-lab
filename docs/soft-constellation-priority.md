@@ -12,10 +12,10 @@ Historical priority for this realization remains unresolved.
 
 For sites `b_i` and positive temperature `tau`, define
 
-$$
+```math
 m_\tau(x)=\sum_i p_i(x)b_i,\qquad
 p_i(x)=\frac{e^{-\|x-b_i\|^2/\tau}}{\sum_j e^{-\|x-b_j\|^2/\tau}}.
-$$
+```
 
 This is exactly the equal-weight, isotropic Gaussian **mean-shift update**,
 with bandwidth `sigma^2=tau/2`. Equation 7 of
@@ -39,7 +39,9 @@ other noise models were not audited.
 There is also a direct **softmax attention** expression. With columns
 `B=[b_1 ... b_N]` and biases `c_i=-||b_i||^2/tau`,
 
-$$m_\tau(x)=B\operatorname{softmax}(2B^Tx/\tau+c).$$
+```math
+m_\tau(x)=B\mathrm{softmax}(2B^Tx/\tau+c).
+```
 
 [Ramsauer et al., *Hopfield Networks is All You Need* (ICLR 2021)](https://arxiv.org/abs/2008.02217)
 uses the unbiased update `X softmax(k X^T x)` in equation 3 and relates it
@@ -57,21 +59,25 @@ state sequence without additional hypotheses.
 The following calculation makes the known connection concrete for this
 experiment. Put
 
-$$
+```math
 \psi(x)=\frac{\tau}{2}\log\sum_i
 \exp\!\left(\frac{2b_i\cdot x-\|b_i\|^2}{\tau}\right).
-$$
+```
 
 Then `grad psi=m_tau` and
 
-$$D m_\tau(x)=\frac{2}{\tau}\sum_i p_i(x)
-(b_i-m_\tau(x))(b_i-m_\tau(x))^T\succeq0.$$
+```math
+D m_\tau(x)=\frac{2}{\tau}\sum_i p_i(x)
+(b_i-m_\tau(x))(b_i-m_\tau(x))^T\succeq0.
+```
 
 Let `psi*` be the convex conjugate and set
 `phi(z)=psi*(z)-||z||^2/2`. Minimizing
 
-$$\tfrac12\|x-z\|^2+\phi(z)
-=\tfrac12\|x\|^2-x\cdot z+\psi^*(z)$$
+```math
+\tfrac12\|x-z\|^2+\phi(z)
+=\tfrac12\|x\|^2-x\cdot z+\psi^*(z)
+```
 
 is equivalent, by Fenchel equality, to `z in partial psi(x)`. Since
 `psi` is differentiable, the unique minimizer is `z=m_tau(x)`.
@@ -85,8 +91,10 @@ general Bregman proof was not audited.
 
 For the standalone iteration `y=m_tau(x)`, convexity gives
 
-$$E(y)-E(x)\le-\tfrac12\|y-x\|^2,
-\qquad E(x)=\tfrac12\|x\|^2-\psi(x).$$
+```math
+E(y)-E(x)\le-\tfrac12\|y-x\|^2,
+\qquad E(x)=\tfrac12\|x\|^2-\psi(x).
+```
 
 This excludes nonconstant finite cycles of the standalone update.
 All its iterates after the first lie in the compact convex hull of the

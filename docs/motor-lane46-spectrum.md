@@ -8,7 +8,7 @@ The starting point is the original 7,100-tau checkpoint in [`N8-lifetime-history
 
 The cluster weights are exactly `(1,2,2,2,1)/8`, with the source normalization and mean force unchanged. Five population pairs and four independent weighted-zero-sum displacements give the 14-dimensional quotient. The eliminated displacement is reconstructed using the final cluster's weight `1/8`.
 
-For each paired cluster $j$, the within-pair contrast evolves under the original field's three-dimensional variational matrix
+For each paired cluster $`j`$, the within-pair contrast evolves under the original field's three-dimensional variational matrix
 
 ```math
 B_j=\begin{pmatrix}
@@ -18,10 +18,10 @@ V_j&-1+rc_j&-\rho c_j\\
 \end{pmatrix}.
 ```
 
-The constant embedding $T$ places the quotient vectors and the three pair-contrast blocks in the full 23-dimensional coordinates. Its exact determinant is `-512`, so these blocks exhaust the tangent space. On the restriction,
+The constant embedding $`T`$ places the quotient vectors and the three pair-contrast blocks in the full 23-dimensional coordinates. Its exact determinant is `-512`, so these blocks exhaust the tangent space. On the restriction,
 
 ```math
-J_{\rm full}T=T\operatorname{diag}(J_q,B_1,B_2,B_3).
+J_{\rm full}T=T\mathrm{diag}(J_q,B_1,B_2,B_3).
 ```
 
 In particular, the four block traces sum to the full divergence. The spectrum union is therefore complete in dimension. The reported finite-time QR rates use a separate Euclidean norm in each block; they are not claimed to equal finite-time singular-value rates in the original full-state norm. If the asymptotic Lyapunov limits exist, a constant invertible change of coordinates preserves their union.
@@ -60,7 +60,7 @@ All 34 analysis checks pass. The largest block QR/trace discrepancy per tau is `
 
 Negative contrast estimates over this trajectory are conditional finite-time evidence. They do not establish uniform transverse stability, exclude exceptional trajectories or guarantee a full-space basin. Likewise, a positive quotient estimate does not prove asymptotic chaos. This is a separate cluster candidate, with no claim of novelty or of 32 verified chaotic attractors in the original cohort.
 
-At this lane, $a_8=-16+7(r-\rho)>0$. The weighted-volume identity remains valid, but the sufficient inequality used to prove zero global-attractor volume at other parameter points does not apply here. The general compact global-attractor result still applies for positive $\rho$.
+At this lane, $`a_8=-16+7(r-\rho)>0`$. The weighted-volume identity remains valid, but the sufficient inequality used to prove zero global-attractor volume at other parameter points does not apply here. The general compact global-attractor result still applies for positive $`\rho`$.
 
 ## Separate return-period diagnostic
 

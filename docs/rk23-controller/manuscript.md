@@ -20,25 +20,25 @@ A linearly damped spring has no physical chaotic attractor. Nevertheless, the ac
 
 Consider the real linear equation, with 0 < ζ < 1,
 
-$$
+```math
 \dot q=p,\qquad \dot p=-q-2\zeta p,\qquad \dot y=Ay,\quad y=(q,p)^T.
-$$
+```
 
 The eigenvalues have real part -ζ. Every exact solution tends to zero. For the existing Bogacki-Shampine 3(2) pair [1], advancing the third-order formula and estimating its local error with the embedded pair gives
 
-$$
+```math
 v=R(hA)y,\qquad e=E(hA)y,
-$$
+```
 
-$$
+```math
 R(z)=1+z+\frac{z^2}{2}+\frac{z^3}{6},\qquad E(z)=\frac{z^3(1+z)}{48}.
-$$
+```
 
 The signed error polynomial matches the inspected SciPy implementation; its sign disappears in the error norm. Let τ=atol > 0 and ρ=rtol ≥ 0. The original-coordinate error scales and norm are
 
-$$
+```math
 s_i=\tau+\rho\max(|y_i|,|v_i|),\qquad w=\left[\frac{1}{2}\sum_{i=1}^{2}\left(\frac{e_i}{s_i}\right)^2\right]^{1/2}.
-$$
+```
 
 A trial is accepted when w < 1. The next proposal is h times min(10,0.9 w<sup>-1/3</sup>); following one or more rejections, this factor is additionally capped at one. A rejected trial multiplies h by max(0.2,0.9 w<sup>-1/3</sup>) and retries the same y. Zero estimated error selects the maximum growth factor. These are existing SciPy rules [2], not a newly proposed controller.
 
@@ -146,15 +146,15 @@ The solution starts combine radii 0.01, 1, 100 and 10<sup>6</sup> with six decla
 
 Let P have diagonal entries 1 and off-diagonal entries ζ, and define the P-norm by ||y||<sub>P</sub>=sqrt(y<sup>T</sup>Py). Its eigenvalues are 1-ζ and 1+ζ. Direct multiplication gives A<sup>T</sup>P+PA=-2 ζ P. Since A+ζ I is skew-adjoint in the P inner product and its square equals -(1-ζ<sup>2</sup>)I, every real-coefficient polynomial f satisfies
 
-$$
+```math
 f(hA)^TPf(hA)=|f(h\lambda)|^2P,\qquad \lambda=-\zeta+i\sqrt{1-\zeta^2}.
-$$
+```
 
 **Theorem 1.** Put c=128 sqrt(2). If ρ < (1-ζ)/c, then every sequence of accepted RK23 steps satisfies
 
-$$
+```math
 \|y_n\|_P\leq\max\left\{\|y_0\|_P,\frac{c\tau\sqrt{1-\zeta}}{1-\zeta-c\rho}\right\}.
-$$
+```
 
 The conclusion is independent of the step-proposal policy: acceptance under the stated error norm is sufficient. It bounds position and velocity, not the step coordinate. The estimate is deliberately conservative and is not claimed as a new general technique.
 
@@ -162,13 +162,13 @@ The conclusion is independent of the step-proposal policy: acceptance under the 
 
 Write r=||y||<sub>P</sub>. The polynomial identity gives r<sub>new</sub>=|R(h λ)| r and ||e||<sub>P</sub>=|E(h λ)| r. Direct expansion yields
 
-$$
+```math
 |R(h\lambda)|^2-1=-2\zeta h\left(1-\zeta h+\frac{2}{3}\zeta^2h^2\right)
-$$
+```
 
-$$
+```math
 \qquad +\left(\frac{2}{3}\zeta^2-\frac{1}{12}\right)h^4-\frac{\zeta h^5}{6}+\frac{h^6}{36}.
-$$
+```
 
 For 0 < h ≤ 1, use 1-a+(2/3)a<sup>2</sup> ≥ 5/8, ζ<sup>2</sup> h<sup>4</sup> ≤ ζ h, and h<sup>6</sup> ≤ h<sup>4</sup>. The right side is at most -(7/12) ζ h-h<sup>4</sup>/18, which is strictly negative. Thus such steps reduce r.
 
@@ -176,17 +176,17 @@ For 0 < h ≤ 1, use 1-a+(2/3)a<sup>2</sup> ≥ 5/8, ζ<sup>2</sup> h<sup>4</sup
 
 For h ≥ 1, put ω=sqrt(1-ζ<sup>2</sup>). The coefficient triangle bound and |1+h λ|<sup>2</sup>=(h-ζ)<sup>2</sup>+ω<sup>2</sup> imply
 
-$$
+```math
 |R(h\lambda)|\leq\frac{8}{3}h^3,\qquad |E(h\lambda)|\geq\frac{h^3\omega}{48},\qquad \frac{|R|}{|E|}\leq K:=\frac{128}{\omega}.
-$$
+```
 
 ## 8. Completing the bound and an exact refinement
 
 Acceptance w < 1 gives ||e||<sub>2</sub> ≤ sqrt(2) max s<sub>i</sub>, hence
 
-$$
+```math
 |E|r\leq a\tau+b\rho\max(r,r_{\rm new}),\qquad a=\sqrt{2(1+\zeta)},\quad b=\sqrt{\frac{2(1+\zeta)}{1-\zeta}}.
-$$
+```
 
 This follows by comparing the Euclidean and P-norms using the extremal eigenvalues of P. If a step increases r, then h > 1 and multiplication by |R|/|E| ≤ K gives r<sub>new</sub> ≤ Ka τ+Kb ρ r<sub>new</sub>. Since Kb=c/(1-ζ), the hypothesis is exactly Kb ρ < 1. Rearranging gives the displayed bound. Every accepted step either decreases the radius or lands below that constant; induction completes the proof.
 
@@ -194,15 +194,15 @@ This follows by comparing the Euclidean and P-norms using the extremal eigenvalu
 
 The broad threshold covers the three main portraits and O37/O689, but not O526. A sharper choice of the small-step interval supplies a certificate for that case. Use its exact binary64 parameter values
 
-$$
+```math
 \zeta=\frac{386657974719873}{2251799813685248},\qquad \rho=\frac{707796418711107}{18014398509481984},\qquad H=\frac{23}{10}.
-$$
+```
 
 The rational polynomial Q(h)=(|R(h λ)|<sup>2</sup>-1)/h has no root on the closed interval [0,H], by an exact Sturm count, and Q(0) < 0. Therefore 0 < h ≤ H reduces the radius. The complete rational coefficients and endpoint values are archived. For h ≥ H, replace K with
 
-$$
+```math
 K_H=\frac{48\left(H^{-3}+H^{-2}+(2H)^{-1}+1/6\right)}{\sqrt{1-2\zeta H+H^2}}.
-$$
+```
 
 The numerator decreases with h and the denominator increases for h ≥ H > ζ. The exact rational squared condition (K<sub>H</sub>b ρ)<sup>2</sup> < 1 holds; its decimal value is approximately 0.785621322. The same induction gives ||y<sub>n</sub>||<sub>P</sub> ≤ max(||y<sub>0</sub>||<sub>P</sub>,C τ), with C=K<sub>H</sub>a/(1-K<sub>H</sub>b ρ), approximately 180.655179. The symbolic audit checks the polynomial identities, Sturm count and squared gain inequality exactly.
 
@@ -214,9 +214,9 @@ At the exact zero solution, the ideal controller has zero error and multiplies h
 
 The real accepted-step map has reflection symmetry (q,p,h) to (-q,-p,h). Absolute-tolerance scaling and reflection-related clouds do not define separate discoveries. A linear change of physical coordinates must transform the complete error rule to preserve the numerical algorithm. To expose this dependence, set
 
-$$
+```math
 z=q-i\frac{p+\zeta q}{\sqrt{1-\zeta^2}},\qquad \dot z=(-\zeta+i\sqrt{1-\zeta^2})z.
-$$
+```
 
 We deliberately replace the original componentwise RMS rule with the complex absolute-value error divided by 1+ρ max(|z<sub>old</sub>|,|z<sub>new</sub>|). The initial amplitude is 1/sqrt(1-ζ<sup>2</sup>), corresponding to physical (q,p)=(1,0). This changes the adaptive numerical algorithm for a conjugate linear equation. A fresh million-step comparison gives:
 

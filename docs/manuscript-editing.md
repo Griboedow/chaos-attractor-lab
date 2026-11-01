@@ -4,8 +4,16 @@ The complete articles are edited directly in `docs/<study>/manuscript.md`,
 alongside the shorter study reports. Use the [documentation index](README.md)
 to find the report, full article and reproduction notes for each study.
 They contain the proofs, equations, tables, references and links to the original
-PNG figures. No document compilation is required. Display equations use GitHub's
-`$$` math blocks; numerical results remain in the linked evidence packets.
+PNG figures. No document compilation is required. Display equations use fenced
+`math` blocks; numerical results remain in the linked evidence packets.
+The fences preserve TeX escapes and subscripts that ordinary Markdown can
+otherwise consume before mathematical rendering.
+Use GitHub's dollar/backtick delimiters for inline mathematics as well.
+Use upright math names such as `\mathrm{tr}` for nonstandard operators;
+the browser check on 2026-11-01 found that GitHub rejected the operator-name macro.
+Keep equation numbers as ordinary math text, for example `\qquad\text{(1)}`.
+Tagged equations produced unsupported labeled MathML rows in the inspected
+Chromium browser, stacking the formula vertically despite reporting no parse error.
 
 Run from the repository root after editing:
 
@@ -19,6 +27,20 @@ Use Markdown for new manuscripts and reports. Keep figures in the established
 image formats and style. Do not commit PDF exports or maintain a second prose
 source in Python or LaTeX. Numerical code and machine-readable proof records
 retain their existing formats.
+
+After publication, open each changed page on GitHub in a browser and wait for
+the equations to finish rendering. Inspect formulas, tables, images and links
+at the published revision. A successful source check alone does not establish
+correct browser rendering. In particular, check set braces, norm signs and
+subscripts as well as explicit error messages. The supported block syntax is
+documented in [GitHub's math guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks).
+
+[The browser checker](../tools/check_github_rendering.cjs) opens published pages
+in an installed Chromium browser, checks formula counts and image loading, and
+saves screenshots outside the repository. It requires `playwright-core` in an
+external Node environment; its header lists the command arguments.
+[The 2026-11-01 review](../records/github-rendering-review-20261101.json) records
+the checked revisions, source hashes and the scope of visual inspection.
 
 ## Conversion records
 

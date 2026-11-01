@@ -45,35 +45,35 @@ A 100-digit interval-Sturm calculation isolates every real root of the degree-ei
 
 Write b=B(γ), a=P<sub>A</sub>(2b−x), d=(b<sub>x</sub>−y<sub>x</sub>,b<sub>y</sub>−y<sub>y</sub>) and L=‖d‖. From F(x)=y and 2b−x=a+(b−y)/β, every regular preimage with L>0 has
 
-$$
+```math
 a=\sigma(d_x,d_y,0)/L,\quad x=[y-\beta a-(1-2\beta)b]/\beta,\quad \sigma\in\{-1,1\}.
-$$
+```
 
 Let u=(cos γ, cos θ sin γ, sin θ sin γ), and let τ=u′. Projection onto A is valid precisely when q<sub>A</sub>=1+σL/β>0. Projection onto B additionally requires τ·(x−c)=0 and q<sub>B</sub>=u·(x−c)>0. Substitution gives fL−βσe=0, where
 
-$$
+```math
 f=\tau\cdot[y-(1-\beta)c],\qquad e=\tau_{xy}\cdot d.
-$$
+```
 
 Put t=tan(γ/2), D=1+t², S=2t, C=1−t², k=cos θ and h=sin θ. Define polynomial numerators
 
-$$
+```math
 X=(c_x-y_x)D+rC,\qquad Y=(c_y-y_y)D+rkS,
-$$
+```
 
-$$
+```math
 f_n=-[y_x-(1-\beta)c_x]S+[k(y_y-(1-\beta)c_y)+h(y_z-(1-\beta)c_z)]C,
-$$
+```
 
-$$
+```math
 e_n=-(c_x-y_x)SD+k(c_y-y_y)CD-rh^2SC.
-$$
+```
 
 Then f=f<sub>n</sub>/D, e=e<sub>n</sub>/D² and L²=(X²+Y²)/D². Squaring the angular equation produces a polynomial of degree eight:
 
-$$
+```math
 P(t)=f_n^2(X^2+Y^2)-\beta^2e_n^2.
-$$
+```
 
 **Completeness.** Interval polynomial division gives a Sturm sequence with strictly determined leading-coefficient and endpoint signs. The variation difference at ±∞ equals the number of isolated roots in disjoint finite intervals. On every root interval, f and e have nonzero signs, so the only possible branch is σ=sign(f)sign(e). The signs of q<sub>A</sub> and q<sub>B</sub> then accept or reject that branch. Thus squaring introduces no unclassified roots.
 
@@ -133,9 +133,9 @@ The separate results/raar-phase-classes packet retains all distance arrays, labe
 
 A Jacobian minor lies in (0.8825,0.8826), establishing rank two at the root. Let v be the cross product of the two specified independent Jacobian rows. Then v spans its kernel. The certificate encloses
 
-$$
+```math
 \nabla\det DF\cdot v\ \in\ (-0.05230,-0.05228).
-$$
+```
 
 Consequently the critical set is locally a smooth hypersurface and the kernel is transverse to it. This is the standard equidimensional fold criterion [8], with local normal form (u₁,u₂,u₃)↦(u₁,u₂,u₃²) under separate smooth source and target coordinate changes. Such left-right equivalence is not a dynamical conjugacy.
 

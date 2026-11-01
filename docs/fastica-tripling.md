@@ -32,9 +32,9 @@ product of two six-element lists
 `[sqrt(3), -sqrt(3), 0, 0, 0, 0]`, denoting their entries by `xi, eta`.
 The resulting **720 equally weighted rows** are
 
-$$
+```math
 X=(x,y,\epsilon a+\sigma\xi,\epsilon b+\sigma\eta).
-$$
+```
 
 The data are fixed throughout iteration. In exact real arithmetic,
 `E[X]=0` and `E[XX^T]=I`. The construction is defined for
@@ -43,33 +43,33 @@ There is no time-dependent forcing, resampling, added memory or modified update.
 
 For a unit weight `w=(A,B,C,D)` in `S^3`, cubic FastICA uses
 
-$$
+```math
 h(w)=\mathbb E[X(X\cdot w)^3]-3\mathbb E[(X\cdot w)^2]w,
 \qquad F(w)=\frac{h(w)}{\|h(w)\|}.
-$$
+```
 
 With exact whitening, this equals `h=grad(P)/4`, where the homogeneous
 fourth-cumulant polynomial is
 
-$$
+```math
 \begin{aligned}
 P={}&A^4+B^4-6A^2B^2+24\epsilon(A^3C+B^3D)\\
  &+\epsilon^2[72(A^2C^2+B^2D^2)-36(A^2D^2+B^2C^2)]\\
  &+72\epsilon^3(AC^3+BD^3)
  -18\epsilon^4(C^4+D^4)-216\epsilon^4C^2D^2.
 \end{aligned}
-$$
+```
 
 For an independent derivation, put
 `V=x[A+epsilon C(R-4)]+y[B+epsilon D(R-4)]`. The base moments give
 
-$$
+```math
 \begin{aligned}
 \mathbb E[V^2]&=A^2+B^2+6\epsilon^2(C^2+D^2),\\
 \mathbb E[V^4]&=\frac25[(A-3\epsilon C)^4+(B-3\epsilon D)^4]
  +\frac{18}5[(A+2\epsilon C)^4+(B+2\epsilon D)^4].
 \end{aligned}
-$$
+```
 
 Each noise list has moments `(1,0,1,0,3)` through order four. Thus, with
 `N2=(1-6 epsilon^2)(C^2+D^2)`,
@@ -82,15 +82,15 @@ rounding.
 
 **Proposition.** For every `0 <= epsilon <= 1/25`, let
 
-$$
+```math
 T=\{(A,B,C,D)\in S^3:\sqrt{C^2+D^2}\leq \tfrac25\sqrt{A^2+B^2}\}.
-$$
+```
 
 Then `F` is defined on `T`, `F(T)` lies strictly inside `T`, and
 
-$$
+```math
 K=\bigcap_{n\geq0}F^n(T)
-$$
+```
 
 is nonempty, compact and invariant, and attracts `T` uniformly in distance.
 The restricted map `F|K` has a continuous onto factor
@@ -103,20 +103,20 @@ the equivalent ICA weights `w` and `-w`.
 Write `r=sqrt(A^2+B^2)` and `s=sqrt(C^2+D^2)`. The first two components at
 `epsilon=0` are
 
-$$
+```math
 G=(A^3-3AB^2,\ B^3-3BA^2),\qquad \|G\|=r^3.
-$$
+```
 
 In complex notation `G_1+iG_2=conjugate(A+iB)^3`. Direct differentiation
 of `P` and the triangle inequality give
 
-$$
+```math
 \begin{aligned}
 \|h_{AB}-G\|&\leq18\epsilon r^2s+36\epsilon^2rs^2+18\epsilon^3s^3,\\
 \|h_{CD}\|&\leq6\epsilon r^3+36\epsilon^2r^2s+54\epsilon^3rs^2
  +108\epsilon^4s^3.
 \end{aligned}
-$$
+```
 
 For example, the quadratic-in-`epsilon` terms in `h_AB` are
 `(36AC^2-18AD^2, 36BD^2-18BC^2)`, whose norm is at most `36 r s^2`.
@@ -127,29 +127,29 @@ inequalities.
 
 For `s/r <= k=2/5` define
 
-$$
+```math
 \begin{aligned}
 L(\epsilon)&=1-18\epsilon k-36\epsilon^2k^2-18\epsilon^3k^3,\\
 U(\epsilon)&=6\epsilon+36\epsilon^2k+54\epsilon^3k^2+108\epsilon^4k^3.
 \end{aligned}
-$$
+```
 
 `L` decreases and `U` increases on the parameter interval. At its endpoint,
 
-$$
+```math
 L_* = \frac{1372481}{1953125},\qquad
 U_* = \frac{12871614}{48828125},\qquad
 kL_*-U_* = \frac{853196}{48828125}>0.
-$$
+```
 
 Hence `||h_AB|| >= r^3 L_* > 0` and
 
-$$
+```math
 \frac{\|F_{CD}\|}{\|F_{AB}\|}
 \leq\frac{U_*}{L_*}
 =\frac{12871614}{34312025}
 \simeq0.3751342<0.4.
-$$
+```
 
 The normalization cancels in this ratio. This proves strict trapping and
 excludes a zero numerator everywhere in `T`. The nested nonempty compact
@@ -166,15 +166,15 @@ part because its distance from 1 is at most `1-L_*<1`. Its argument
 `q(w)` therefore has a continuous real branch in `(-pi/2,pi/2)`.
 The angular component of `F` satisfies
 
-$$
+```math
 \theta(Fw)=-3\theta(w)+q(w)\pmod{2\pi}.
-$$
+```
 
 The uniformly convergent series
 
-$$
+```math
 H(w)=\theta(w)+\sum_{j=0}^{\infty}(-3)^{-j-1}q(F^jw)\pmod{2\pi}
-$$
+```
 
 defines a continuous map with `H(Fw)=-3H(w)`.
 For each fixed `u`, the correction is periodic in `theta`, so `H` has

@@ -18,9 +18,9 @@ established features of this literature. They are not novelty claims for our
 
 For the overflow map displayed by Kocarev and Chua,
 
-$$
+```math
 G(x,y)=(y,-x+ay+2s(x,y)),
-$$
+```
 
 the integer-valued selector keeps the second coordinate in its prescribed
 interval. On each open selector region the Jacobian is the same matrix
@@ -38,23 +38,23 @@ novelty or topological inequivalence of their invariant sets.
 Let `H(x)=Mx+c`, with nonsingular constant `M`. If
 `H F H^{-1}=G`, then
 
-$$
+```math
 DG(Hx)=M\,DF(x)\,M^{-1},\qquad
-\operatorname{tr}DG(Hx)=\operatorname{tr}DF(x).
-$$
+\mathrm{tr}DG(Hx)=\mathrm{tr}DF(x).
+```
 
 On a fixed nearest-site branch of the circle map, let
 `r=|(2b-x)_xy|`. Its trace is
 
-$$
-\operatorname{tr}DF(x)=3\beta-\frac{\beta}{r}.
-$$
+```math
+\mathrm{tr}DF(x)=3\beta-\frac{\beta}{r}.
+```
 
 For the unit-sphere map, with `r=|2b-x|`, it is
 
-$$
-\operatorname{tr}DF(x)=3\beta-\frac{2\beta}{r}.
-$$
+```math
+\mathrm{tr}DF(x)=3\beta-\frac{2\beta}{r}.
+```
 
 For `0<beta<1`, either expression is nonconstant on every nonempty open
 subset of a regular branch. A piecewise-affine map has constant Jacobian on

@@ -10,13 +10,17 @@ Research notebook, 29 October 2026. This follows the [energy argument for the ph
 
 The moving-coil experiment of Dinavahi and Harris [1] uses optical feedback: a moving LED changes the photoresistor branch, which redistributes current. Their uncoupled mechanical equation has positive damping. At constant current, or when current is an instantaneous function of height alone, its force depends only on position and
 
-$$E=\tfrac12\dot x^2+U(x),\qquad \dot E=-b\dot x^2.$$
+```math
+E=\tfrac12\dot x^2+U(x),\qquad \dot E=-b\dot x^2.
+```
 
 This excludes a sustained non-equilibrium attractor in a compact interior region of that mechanical model. It does not exclude the experimentally observed oscillation, because the experiment includes additional feedback physics.
 
 Combining the printed flux approximation `Phi=L(x)*i` with a current source feeding a coil branch and a photoresistor branch gives the phenomenological electrical closure
 
-$$L(x)\dot i=R_p I_0-(R_s+R_p)i-L'(x)i\dot x.$$
+```math
+L(x)\dot i=R_p I_0-(R_s+R_p)i-L'(x)i\dot x.
+```
 
 **Subsequent consistency audit:** this closure omits permanent-magnet flux linkage. Paired with the paper's linear-in-current force, it is not a complete reciprocal magnetic transducer. The [energy and reciprocity audit](meminductor-energy-audit.md) derives the missing back-EMF issue and an exact exclusion for a reciprocal model under fixed DC drive. The assumed optical model below remains explicitly phenomenological; none of its archived data is retroactively interpreted as a calibrated passive circuit simulation.
 
@@ -30,16 +34,16 @@ The subsequently recovered official supplement does not provide that missing res
 
 Our dimensionless states are height `x>0`, velocity `v`, and photoactivation memory `z`:
 
-$$
+```math
 x'=v,\qquad
 v'=a\mu(x)j(z)/x^4-1-bv,\qquad
 z'=[j(z)S(x)-z]/\tau,
-$$
-$$
+```
+```math
 \mu(x)=8-\frac7{1+\exp[-8.75(x-6/7)]},\quad
 j(z)=\frac1{1.04+kz},\quad
 S(x)=\exp[-((x-1)/w)^2].
-$$
+```
 
 The bell-shaped illumination profile and first-order activation law are **modeling assumptions**, not equations fitted by the source authors. The parameter `a` sets force strength; `b` is damping; `tau` is response time; `k` is optical feedback gain; `w` is the illumination width. For positive parameters, `0 <= z <= 1` is forward invariant: its derivative points inward at both boundaries.
 
@@ -55,15 +59,21 @@ J=\begin{pmatrix}0&1&0\\-K&-b&-c\\d&0&-r\end{pmatrix},\qquad K,c,r>0.
 
 Its characteristic polynomial is
 
-$$p(\lambda)=\lambda^3+(b+r)\lambda^2+(K+br)\lambda+Kr+cd.$$
+```math
+p(\lambda)=\lambda^3+(b+r)\lambda^2+(K+br)\lambda+Kr+cd.
+```
 
 On the rising side of the illumination profile, `d>0`. The Routh–Hurwitz boundary is
 
-$$cd=b(K+br+r^2).$$
+```math
+cd=b(K+br+r^2).
+```
 
 Writing `r=r0/tau`, `d=d0/tau` gives a quadratic for the critical response times:
 
-$$bK\tau^2+(b^2r_0-cd_0)\tau+br_0^2=0.$$
+```math
+bK\tau^2+(b^2r_0-cd_0)\tau+br_0^2=0.
+```
 
 Two positive boundaries exist when `cd0 > b^2*r0 + 2*b*r0*sqrt(K)`. Very fast and very slow responses can both be stable, with an unstable interval between them. On the falling side, `d<0`, this Hopf-type condition cannot hold; a real-eigenvalue instability is still possible if the constant coefficient changes sign.
 

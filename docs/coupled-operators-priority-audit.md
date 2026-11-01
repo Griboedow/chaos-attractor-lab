@@ -6,7 +6,7 @@ The [numerical report](coupled-operators-research.md), [source interpretation](l
 
 ## An exact normalization makes the comparison clearer
 
-For the explicitly logistic-smoothed model, set $X_\pm=2x_\pm-1$, $V_\pm=2v_\pm$, $Y_\pm=2y_\pm-1$, and $a_\pm=2\delta_\pm-1$. With $P(D)=(D+1)(D^2+bD+k)$, the equations become exactly
+For the explicitly logistic-smoothed model, set $`X_\pm=2x_\pm-1`$, $`V_\pm=2v_\pm`$, $`Y_\pm=2y_\pm-1`$, and $`a_\pm=2\delta_\pm-1`$. With $`P(D)=(D+1)(D^2+bD+k)`$, the equations become exactly
 
 ```math
 P(D)X_-=k\tanh\left(\frac{X_+-a_+}{4w}\right),
@@ -14,7 +14,7 @@ P(D)X_-=k\tanh\left(\frac{X_+-a_+}{4w}\right),
 P(D)X_+=-k\tanh\left(\frac{X_--a_-}{4w}\right).
 ```
 
-This follows from $2S_w(z)-1=\tanh(z/(2w))$ and $P(D)1=k$. It is an invertible affine coordinate change, with unchanged time. Each unit has three states: a first-order relaxation and a damped second-order mechanical response. One cross-response is increasing and the other decreasing. Calling the response logistic rather than hyperbolic tangent cannot support mathematical novelty.
+This follows from $`2S_w(z)-1=\tanh(z/(2w))`$ and $`P(D)1=k`$. It is an invertible affine coordinate change, with unchanged time. Each unit has three states: a first-order relaxation and a damped second-order mechanical response. One cross-response is increasing and the other decreasing. Calling the response logistic rather than hyperbolic tangent cannot support mathematical novelty.
 
 The ideal-relay version has the same form with the two tanh expressions replaced by signs, away from switching surfaces. The linear input-to-displacement transfer for each unit is
 
@@ -26,7 +26,7 @@ The two static nonlinearities are separated by dynamic filters. Composing their 
 
 ## Closest informative primary comparisons
 
-**Third-order relay feedback.** The complete di Bernardo–Johansson–Vasca paper [2] was already cached and its model and final complexity discussion were reread. It studies $\dot q=Aq+Bu$, $y=Cq$, $u=-\mathrm{sgn}(y)$, with the example
+**Third-order relay feedback.** The complete di Bernardo–Johansson–Vasca paper [2] was already cached and its model and final complexity discussion were reread. It studies $`\dot q=Aq+Bu`$, $`y=Cq`$, $`u=-\mathrm{sgn}(y)`$, with the example
 
 ```math
 G_{\mathrm{DB}}(s)=
@@ -36,7 +36,7 @@ G_{\mathrm{DB}}(s)=
 
 The denominator is the same type of mechanical-plus-relaxation filter. Its numerator, relative degree, single-relay topology, and sliding dynamics differ from the optical pair. The paper reports a seemingly aperiodic attractor and preliminary positive-exponent evidence. This establishes substantial older feedback-system precedent, but not an exact equivalence or a completed proof for our candidate. In particular, its finite-frequency zeros and direct normal switch action cannot silently be removed. Our thermal switch changes a derivative tangent to its displacement switching surface.
 
-**A six-state coupled-ring comparison.** Mondal et al. [5] provide six ODEs for two three-stage inverter rings, with diode current $J=\max(p_3-q_3-1,0)$:
+**A six-state coupled-ring comparison.** Mondal et al. [5] provide six ODEs for two three-stage inverter rings, with diode current $`J=\max(p_3-q_3-1,0)`$:
 
 ```math
 \begin{aligned}
@@ -47,7 +47,7 @@ The denominator is the same type of mechanical-plus-relaxation filter. Its numer
 \end{aligned}
 ```
 
-Their source reports positive Lyapunov evidence and experimental chaos; equations (1–14) and numerical-results text were inspected. This is a closer dimensional precedent, but the coupling is one continuous piecewise-linear diode law of a coordinate difference. Both rings also have their own internal negative loops. Our pair has two bounded cross-response laws and no individually closed optical loop. In the diode-off branch, the first ring has characteristic polynomial $(s+1)^2(s+\beta)+\alpha^3\beta$. At their displayed $\alpha=3.6,\beta=0.1$, the cubic Routh test fails: $2.1(1.2)=2.52\lt4.7656$. This differs from our Hurwitz affine branches. No exact conjugacy is asserted. Their predecessors include Hosokawa–Nishio–Ushida (2001) [6], whose publisher abstract was inspected but whose full equations remain an access gap.
+Their source reports positive Lyapunov evidence and experimental chaos; equations (1–14) and numerical-results text were inspected. This is a closer dimensional precedent, but the coupling is one continuous piecewise-linear diode law of a coordinate difference. Both rings also have their own internal negative loops. Our pair has two bounded cross-response laws and no individually closed optical loop. In the diode-off branch, the first ring has characteristic polynomial $`(s+1)^2(s+\beta)+\alpha^3\beta`$. At their displayed $`\alpha=3.6,\beta=0.1`$, the cubic Routh test fails: $`2.1(1.2)=2.52\lt4.7656`$. This differs from our Hurwitz affine branches. No exact conjugacy is asserted. Their predecessors include Hosokawa–Nishio–Ushida (2001) [6], whose publisher abstract was inspected but whose full equations remain an access gap.
 
 **Two nonoscillatory inertial neurons.** The complete primary XML of Boui et al. [3] was recovered through Europe PMC. Equation (1) is
 

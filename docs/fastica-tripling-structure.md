@@ -20,9 +20,9 @@ or classify a particular Whitney fold.
 
 The strict trapping set
 
-$$
+```math
 T=\{(A,B,C,D)\in S^3:\sqrt{C^2+D^2}\leq\tfrac25\sqrt{A^2+B^2}\}
-$$
+```
 
 is a solid torus, hence connected. Each `F^n(T)` is nonempty, compact and
 connected; they form a decreasing sequence. Their intersection `K` is
@@ -54,10 +54,10 @@ Let `h=grad(P)/4` be the cubic numerator in the construction, and put
 `h(w) != 0`, choose oriented orthonormal frames `(w,V)` and `(F(w),U)` in
 four-dimensional space. Differentiating the normalization yields
 
-$$
+```math
 DF=\frac{(I-FF^{\mathsf T})J}{\|h\|},\qquad
 \det(U^{\mathsf T}DFV)=\frac{\det J}{3\|h\|^4}.
-$$
+```
 
 For the determinant identity, express `J` in these two frames. Its first
 column is `(3||h||,0,0,0)`, and its lower-right block is
@@ -69,40 +69,40 @@ oriented three-dimensional determinant has exactly the sign of `det J`.
 Consider the unnormalized vector `v_a=(1,0,t,0)`. The first numerator
 component and the condition for a parallel image are
 
-$$
+```math
 \begin{aligned}
 a_e(t)&=1+18et+36e^2t^2+18e^3t^3,\\
 Q_a(t)&=18e^3t^4+(36e^2+18e^4)t^3
  +(18e-54e^3)t^2+(1-36e^2)t-6e,
 \end{aligned}
-$$
+```
 
 where `e=epsilon` and `Q_a=t h_A-h_C`. The other two components vanish.
 For `0<e<=E=1/25`,
 
-$$
+```math
 \begin{aligned}
 Q_a(4e)/e &=2(2880e^6+720e^4+72e^2-1)<0,\\
 Q_a(6e)/e &=216e^2(126e^4+27e^2+2)>0.
 \end{aligned}
-$$
+```
 
 The first inequality follows by substituting `E` in its three positive
 terms. Hence a root `t_a` exists in `(4e,6e)`. It is unique in that interval:
 `Q_a'(t) >= 1-36E^2-648E^4 > 0` there.
 Since `a_e(t_a)>0`, homogeneity gives
 
-$$
+```math
 w_a=\frac{(1,0,t_a,0)}{\sqrt{1+t_a^2}},\qquad F(w_a)=w_a.
-$$
+```
 
 Its transverse-to-planar coordinate ratio is `t_a<6E=0.24<0.4`, so
 `w_a` lies in `T` and therefore in `K`. Direct differentiation gives
 
-$$
+```math
 \det J(1,0,t,0)
 =-2916e^4(1+6e^2t^2)^3(4+18et+15e^2t^2)<0
-$$
+```
 
 at `t=t_a`. Normalizing the input multiplies this degree-eight
 determinant by a positive factor and does not change its sign.
@@ -112,40 +112,40 @@ determinant by a positive factor and does not change its sign.
 Now take `v_d=(1,1,t,t)`. The numerator satisfies `h_A=h_B` and `h_C=h_D`.
 The corresponding expressions are
 
-$$
+```math
 \begin{aligned}
 b_e(t)&=2(-1+9et+9e^2t^2+9e^3t^3),\\
 Q_d(t)&=18e^3t^4+(18e^2+126e^4)t^3
  +(18e-54e^3)t^2-(2+18e^2)t-6e.
 \end{aligned}
-$$
+```
 
 At the endpoints,
 
-$$
+```math
 \begin{aligned}
 Q_d(-4e)/e&=2(1+180e^2-1008e^4-1728e^6)>0,\\
 Q_d(-2e)/e&=-2(1-54e^2+180e^4+360e^6)<0.
 \end{aligned}
-$$
+```
 
 For the first sign use `1-1008E^4-1728E^6>0`; for the second use
 `1-54E^2>0`. A root `t_d` lies in `(-4e,-2e)` and is unique there because
 `Q_d'(t) <= -2+1296E^4+6048E^6 < 0`. Throughout this interval,
 `b_e(t) <= -2+288E^4 < 0`. Therefore
 
-$$
+```math
 w_d=\frac{(1,1,t_d,t_d)}{\sqrt{2+2t_d^2}},\qquad
 F(w_d)=-w_d,\quad F(-w_d)=w_d.
-$$
+```
 
 The ratio is `|t_d|<4E=0.16<0.4`; both points lie in `T` and hence `K`.
 On this symmetry plane,
 
-$$
+```math
 \det J(1,1,t,t)
 =46656e^4(1+6et+3e^2t^2)^3(2-6et+15e^2t^2)>0.
-$$
+```
 
 Indeed, the first factor in parentheses is at least
 `1-24E^2=601/625>0`, and the last is positive for `t<0`.

@@ -11,6 +11,7 @@ and verification results.
 | [Markdown conversion](records/markdown-migration.json) | Original article conversion and content checks |
 | [Historical exports](records/publication-archive.json) | Removed publication files and their archived versions |
 | [Folder changes](records/layout-change.json) | Original and current paths after consolidating documentation |
+| [GitHub rendering review](records/github-rendering-review-20261101.json) | Published-page formula counts, image loading and browser-review scope |
 
 Historical records retain the paths and hashes from the revisions they checked.
 The folder-change record maps moved files to their current locations; old

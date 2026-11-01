@@ -13,8 +13,8 @@ The pinned file is `DCR_Model_available.jl` at commit `796c5e39468b06fd6fc2c3784
 | Angular contact window, lines 69–82 | Strictly between the two angular endpoints, after phase wrapping |
 | Contact test, lines 117–120 | Ordinary wrapped-tooth distance strictly less than 0.02 |
 | Contact phase velocity | Backbone velocity divided by the absolute phase cosine |
-| Noncontact phase velocity | Exactly $2\pi$ |
-| Default solver, lines 337–340 | IDA/LapackDense, maximum step $10^{-4}$, relative and absolute tolerances $10^{-7}$, BrownFullBasicInit |
+| Noncontact phase velocity | Exactly $`2\pi`$ |
+| Default solver, lines 337–340 | IDA/LapackDense, maximum step $`10^{-4}`$, relative and absolute tolerances $`10^{-7}`$, BrownFullBasicInit |
 | Optional callback | Only passed when `events=true` |
 
 The main article discusses contact detection and numerical convergence, but neither the examined main text, the two SI PDFs, nor these code files specifies a Filippov convention, persistent contact mode, complementarity rule, position reset, grazing rule, or ordering rule for simultaneous contacts. This is a bounded source finding, not a statement about every version the authors may possess. No package manifest fixes the installed SciML/SUNDIALS versions.
@@ -29,7 +29,7 @@ g=t_k-r_j,
 \qquad \dot t_k=v=\dot x.
 ```
 
-Within the angular window, $\cos\theta_j\lt0$. Therefore
+Within the angular window, $`\cos\theta_j\lt0`$. Therefore
 
 ```math
 \dot g=v+\cos\theta_j\dot\theta_j
@@ -43,7 +43,7 @@ The contact branch preserves whatever interior gap was captured. It does not dyn
 
 ### A local obstruction at a strict distance boundary
 
-Consider an isolated first entry at $g=d$, with $d=0.02$, away from angular boundaries, tooth wrapping, and other switching surfaces. Assume the free normal speed is strictly negative and remains bounded away from zero in a neighborhood. At equality the strict test selects **free motion**; just inside it selects the tangent contact branch. For $h=g-d$, the local rule has
+Consider an isolated first entry at $`g=d`$, with $`d=0.02`$, away from angular boundaries, tooth wrapping, and other switching surfaces. Assume the free normal speed is strictly negative and remains bounded away from zero in a neighborhood. At equality the strict test selects **free motion**; just inside it selects the tangent contact branch. For $`h=g-d`$, the local rule has
 
 ```math
 \dot h\le-\delta\quad\text{when }h\ge0,
@@ -51,7 +51,7 @@ Consider an isolated first entry at $g=d$, with $d=0.02$, away from angular boun
 \qquad \delta\gt0.
 ```
 
-There is no absolutely continuous solution starting at $h=0$ that satisfies this rule almost everywhere. Such a solution would be nonincreasing and could not become positive. It also cannot enter a negative interval: there its derivative is zero, making it constant, inconsistent with continuity from the first zero crossing. Remaining at zero contradicts the prescribed negative boundary derivative. The scalar example $\dot h=-1$ for $h\ge0$, and zero for $h\lt0$, has the same obstruction.
+There is no absolutely continuous solution starting at $`h=0`$ that satisfies this rule almost everywhere. Such a solution would be nonincreasing and could not become positive. It also cannot enter a negative interval: there its derivative is zero, making it constant, inconsistent with continuity from the first zero crossing. Remaining at zero contradicts the prescribed negative boundary derivative. The scalar example $`\dot h=-1`$ for $`h\ge0`$, and zero for $`h\lt0`$, has the same obstruction.
 
 This is a **conditional local derivation**, not an assertion that every initial condition reaches this configuration. The opposite distance boundary has the analogous inward-entry issue. It assumes a locally regular algebraic velocity branch and excludes simultaneous and grazing events.
 
@@ -59,7 +59,7 @@ A finite step can move a point slightly inside the contact band and then preserv
 
 ## The optional callback is a distinct numerical intervention
 
-`condition1_safe`, lines 183–224, evaluates the nearest tooth distance minus **0.023**, only while the rotor is in its angular window and its current derivative exceeds $0.9(2\pi)$. Otherwise it returns 1. Its guard depends on the integrator's derivative and on discontinuous gates. Consequently it is not globally a continuous function of physical state, despite being supplied to `VectorContinuousCallback` with root finding enabled.
+`condition1_safe`, lines 183–224, evaluates the nearest tooth distance minus **0.023**, only while the rotor is in its angular window and its current derivative exceeds $`0.9(2\pi)`$. Otherwise it returns 1. Its guard depends on the integrator's derivative and on discontinuous gates. Consequently it is not globally a continuous function of physical state, despite being supplied to `VectorContinuousCallback` with root finding enabled.
 
 The detection shell lies outside the residual's 0.02 contact band. At a detected event, `affect_safe!`, lines 227–260, assigns
 
@@ -69,7 +69,7 @@ The detection shell lies outside the residual's 0.02 contact band. At a detected
 -\frac{v^{\mathrm{old}}}{|\cos\theta_j|}\right|.
 ```
 
-It changes only `integrator.du[j+1]`. It does not set the derivative to the contact velocity, reset a phase or displacement, set a contact flag, recompute the backbone force balance, or explicitly request consistent DAE reinitialization. For example, free speed $2\pi$ and zero backbone speed produce an assigned speed $\pi$, although a rotor at distance 0.023 remains free under the residual and requires $2\pi$. Thus the assigned derivative is **not generally a consistent DAE derivative**. What a particular library version subsequently accepts or overwrites has not been established here.
+It changes only `integrator.du[j+1]`. It does not set the derivative to the contact velocity, reset a phase or displacement, set a contact flag, recompute the backbone force balance, or explicitly request consistent DAE reinitialization. For example, free speed $`2\pi`$ and zero backbone speed produce an assigned speed $`\pi`$, although a rotor at distance 0.023 remains free under the residual and requires $`2\pi`$. Thus the assigned derivative is **not generally a consistent DAE derivative**. What a particular library version subsequently accepts or overwrites has not been established here.
 
 The assignment is nonnegative even though the stated contact law permits negative phase velocity during spring-driven backtracking. It should not be described as a derived restitution law or as an exact enforcement of the mechanical constraint. The source has no separately specified entry and exit callback laws. The file's comment describes its intended contact-detection purpose; the executable expressions above are the evidence for what it actually assigns.
 
@@ -83,7 +83,7 @@ After specifying a valid hybrid convention, isolated transverse events with iden
 \qquad n=\nabla g.
 ```
 
-For capture into the gap-preserving branch, $n^{\mathsf T}f^+=0$, so $n^{\mathsf T}\Xi=0$: the update removes the normal variation to first order. Its singularity is expected for capture and is not itself a numerical defect or a proof of contraction of all directions. This formula requires a declared post-event mode; it does not repair the literal strict-field existence problem. At grazing, the denominator vanishes. Simultaneous events require separate sequence-sensitive treatment, not arbitrary multiplication of single-event updates. The within-branch Jacobian alone is insufficient for a Lyapunov spectrum.
+For capture into the gap-preserving branch, $`n^{\mathsf T}f^+=0`$, so $`n^{\mathsf T}\Xi=0`$: the update removes the normal variation to first order. Its singularity is expected for capture and is not itself a numerical defect or a proof of contraction of all directions. This formula requires a declared post-event mode; it does not repair the literal strict-field existence problem. At grazing, the denominator vanishes. Simultaneous events require separate sequence-sensitive treatment, not arbitrary multiplication of single-event updates. The within-branch Jacobian alone is insufficient for a Lyapunov spectrum.
 
 For the sigmoid force, even within a fixed contact set one should check the scalar algebraic root. Its derivative can have a small positive part during backdrive. The independent [structural audit](dcr-structure.md) gives the derivative bound and uses the source spacing to sharpen the maximum contact count. That algebraic issue is separate from the distance-boundary convention.
 

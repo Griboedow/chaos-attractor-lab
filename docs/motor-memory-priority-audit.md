@@ -23,7 +23,7 @@ The inverse is explicit:
 h=\rho x-rs,\qquad Y=-s,\qquad Z=1-c.
 ```
 
-Thus this is an invertible affine change of the same motor vector field, not an extra feedback law. Setting the complex memory variable to $z=c+is$ gives
+Thus this is an invertible affine change of the same motor vector field, not an extra feedback law. Setting the complex memory variable to $`z=c+is`$ gives
 
 ```math
 z'=(-1+iv)z+1.
@@ -45,7 +45,7 @@ x'=-\rho x+r\int_{-\infty}^{t}
 e^{-(t-u)}\sin[x(t)-x(u)]\,du.
 ```
 
-This is overdamped motion in a harmonic trap, driven by exponentially fading sinusoidal path memory. A complete-history memory satisfies $|z|\leq1$. Arbitrary ODE initial memories retain the explicitly displayed decaying homogeneous term; an arbitrary initial condition must not silently be identified with a prescribed past trajectory.
+This is overdamped motion in a harmonic trap, driven by exponentially fading sinusoidal path memory. A complete-history memory satisfies $`|z|\leq1`$. Arbitrary ODE initial memories retain the explicitly displayed decaying homogeneous term; an arbitrary initial condition must not silently be identified with a prescribed past trajectory.
 
 ## Primary comparison
 
@@ -58,14 +58,14 @@ P'=-P+\beta V-VQ,\qquad
 Q'=-Q+VP.
 ```
 
-Here the source has $\sigma=1/\kappa$, $r=\beta$, and $b=1$. Its parameters represent inertia relative to drag, wave forcing relative to drag, and trap strength. The exact algebraic zero-inertia reduction uses
+Here the source has $`\sigma=1/\kappa`$, $`r=\beta`$, and $`b=1`$. Its parameters represent inertia relative to drag, wave forcing relative to drag, and trap strength. The exact algebraic zero-inertia reduction uses
 
 ```math
 \kappa=0,\quad k=\rho,\quad \beta=r,\quad
 q=x,\quad P=rs,\quad Q=r(1-c),\quad V=P-kq.
 ```
 
-Substitution reproduces all three equations above. **This limiting identification is our derivation from the published equations.** The inspected source presents a four-state system at finite inertia; it does not demonstrate a chaotic attractor in this zero-inertia reduction. A nearby discussion of hyperchaotic Lorenz systems is not such a demonstration. Likewise, its illustrative unrestricted Lorenz plots with $b=8/3$ do not validate the physical sinusoidal-memory slice $b=1$ [1].
+Substitution reproduces all three equations above. **This limiting identification is our derivation from the published equations.** The inspected source presents a four-state system at finite inertia; it does not demonstrate a chaotic attractor in this zero-inertia reduction. A nearby discussion of hyperchaotic Lorenz systems is not such a demonstration. Likewise, its illustrative unrestricted Lorenz plots with $`b=8/3`$ do not validate the physical sinusoidal-memory slice $`b=1`$ [1].
 
 Durey (2020), Eqs. (1)-(6), derives the same cosine-wave memory construction without a trap [2]. Its three dynamical states are velocity and two wave variables. Our three states instead comprise position and two memories after eliminating velocity. Equal dimension does not make those two systems equivalent.
 

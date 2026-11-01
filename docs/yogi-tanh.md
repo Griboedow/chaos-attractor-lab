@@ -20,11 +20,11 @@ The [pinned TensorFlow Addons source](https://github.com/tensorflow/addons/blob/
 
 For `alpha=sqrt(k/10)`, `epsilon=alpha*e` and normalized coordinates `x=theta/alpha`, `m=M_physical/alpha`, `v=V_physical/alpha^2`, the late autonomous recurrence is
 
-$$
+```math
 M=bm+(1-b)x,\qquad
 V=v-(1-c)\tanh(k(v-x^2))x^2,\qquad
 X=x-\frac{M}{\sqrt V+e}.
-$$
+```
 
 During the library transient, multiply `M` in the position update by `sqrt(1-c^t)/(1-b^t)`. Keep epsilon outside the uncorrected square root. The library initializes physical `m=0`, `v=1e-6`, hence normalized `v=1e-5/k`. This convention differs from the Optax implementation used for the earlier sign-Yogi study. On a quadratic of curvature `h`, the equivalent normalization has `k=10*(alpha*h)^2` and `e=epsilon/(alpha*h)`; changing curvature and learning rate accordingly does not create a different map.
 

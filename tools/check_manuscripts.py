@@ -11,6 +11,32 @@ ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r"\]\(([^\s)]+)\)")
 
 
+def check_math_blocks(text: str, name: Path) -> list[str]:
+    """Keep TeX out of the ordinary Markdown escape/emphasis parser."""
+    failures = []
+    fence = None
+    math = False
+    for number, line in enumerate(text.splitlines(), 1):
+        if (fence is None or math) and r"\operatorname" in line:
+            failures.append(f"{name}:{number}: GitHub rejects operatorname; use an upright math name")
+        if math and re.search(r"\\tag\*?\{", line):
+            failures.append(f"{name}:{number}: use a text equation number; tagged MathML rows break Chromium layout")
+        match = re.match(r"^\s*(`{3,}|~{3,})(.*)$", line)
+        if match:
+            marker, language = match.groups()
+            if fence is None:
+                fence = marker
+                math = language.strip() == "math"
+            elif marker[0] == fence[0] and len(marker) >= len(fence) and not language.strip():
+                fence = None
+                math = False
+        elif fence is None and line.lstrip().startswith("$$"):
+            failures.append(f"{name}:{number}: use a fenced math block to preserve TeX escapes")
+    if fence and math:
+        failures.append(f"{name}: unclosed math fence")
+    return failures
+
+
 def main() -> None:
     failures = []
     manuscripts = sorted((ROOT / "docs").glob("*/manuscript.md"))
@@ -30,15 +56,14 @@ def main() -> None:
             failures.append(f"{name}: expected one document title")
         if "\ufffd" in text or re.search(r"\\(?:label|begin\{document|cite)\b", text):
             failures.append(f"{name}: unresolved conversion notation")
-        delimiters = re.findall(r"^\$\$$", text, re.M)
-        if len(delimiters) % 2 or len(delimiters) != text.count("$$"):
-            failures.append(f"{name}: display math delimiters must be paired on separate lines")
         anchors = re.findall(r'<a id="([^"]+)"></a>', text)
         if len(anchors) != len(set(anchors)):
             failures.append(f"{name}: duplicate explicit anchors")
         for target in LINK.findall(text):
             if target.startswith("#") and target[1:] not in anchors:
                 failures.append(f"{name}: missing explicit manuscript anchor {target}")
+    for path in [ROOT / "README.md", *(ROOT / "docs").rglob("*.md")]:
+        failures.extend(check_math_blocks(path.read_text(encoding="utf-8"), path.relative_to(ROOT)))
     documents = [ROOT / "README.md", ROOT / "RECORDS.md", ROOT / "docs/README.md", ROOT / "docs/manuscript-editing.md"]
     documents += manuscripts + sorted((ROOT / "docs").glob("*/README.md"))
     links = 0

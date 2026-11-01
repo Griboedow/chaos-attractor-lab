@@ -13,10 +13,10 @@ The 2,048 parameter sets and finite spatial point sets are bit-for-bit identical
 to the [circle survey](raar-constellations.md). Only the first constraint changes:
 `A={x in R3: |x|=1}` replaces the unit circle in the xy plane. With `b=P_B(x)`,
 
-$$
+```math
 u=\frac{2b-x}{|2b-x|},\qquad
 F(x)=\beta x+\beta u+(1-2\beta)b.
-$$
+```
 
 This remains the known RAAR operator `beta/2*(R_A R_B+I)+(1-beta)*P_B`.
 The full state is the native three-dimensional iterate. The finite sets are
@@ -26,10 +26,10 @@ are the exact real values of the stored binary64 inputs.
 
 On a fixed nearest-site branch, with `r=|2b-x|`,
 
-$$
+```math
 DF=\beta\left[I-\frac{I-uu^T}{r}\right],\qquad
 \det DF=\beta^3(1-1/r)^2.
-$$
+```
 
 The scout stops at the same relative nearest-site gap and projection-singularity
 thresholds as the circle survey. The elementary bound
@@ -103,18 +103,18 @@ and all unsuccessful outcomes remain available.
 
 Fix a site `b!=0`, assume `0<beta<1`, and define
 
-$$
+```math
 R=\frac{\beta}{1+\beta},\qquad
 a^2=R^2-\frac{|b|^2}{4}>0,\qquad
 C=\left\{\frac32b+w:\ w\cdot b=0,\ |w|=a\right\}.
-$$
+```
 
 For every `x in C`, `|2b-x|=R`. If `b` is the unique nearest site throughout
 `C`, direct substitution gives
 
-$$
+```math
 F(x)=3b-x,\qquad F^2(x)=x.
-$$
+```
 
 Since `a>0`, every point has least period two. The circle describes a family
 of antipodal pairs; a single trajectory alternates between two points rather
@@ -122,10 +122,10 @@ than travelling around the circle.
 
 To verify site admissibility uniformly, put `d=c-b` for each competing site and
 
-$$
+```math
 A_c=|c|^2-|b|^2-3b\cdot d,\qquad
 q_c=|d|^2-\frac{(b\cdot d)^2}{|b|^2}.
-$$
+```
 
 The minimum squared-distance advantage over the entire circle is
 `A_c-2*sqrt(a^2*q_c)`. For Case 1790 and site 6, exact rational arithmetic proves
@@ -135,20 +135,20 @@ Thus the full circle lies strictly inside one smooth nearest-site region.
 
 The tangent multiplier of `DF^2` is 1. Write
 
-$$
+```math
 \gamma=\frac{|b|^2}{2R^2}-1,\qquad
 \tau=(1+\beta)^2\gamma^2-2\beta,\qquad
 \delta=\beta^2.
-$$
+```
 
 The two normal multipliers have characteristic polynomial
 `t^2-tau*t+delta`. Since `-1<gamma<1`,
 
-$$
+```math
 1-\delta>0,\quad
 1-\tau+\delta=(1+\beta)^2(1-\gamma^2)>0,\quad
 1+\tau+\delta=(1-\beta)^2+(1+\beta)^2\gamma^2>0.
-$$
+```
 
 The quadratic Schur criterion puts both normal multipliers strictly inside
 the unit disk. Rotational symmetry about the b-axis reduces the normal motion

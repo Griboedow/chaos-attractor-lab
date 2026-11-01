@@ -20,25 +20,25 @@ A stable linear spring supplies an unexpectedly rich numerical state when its ad
 
 Let 0 < ζ < 1. The equation and its eigenvalues are
 
-$$
+```math
 \dot q=p,\quad \dot p=-q-2\zeta p,\qquad \lambda=-\zeta+i\sqrt{1-\zeta^2}.
-$$
+```
 
 Writing y=(q,p)<sup>T</sup> and y'=Ay, every exact solution tends to zero. The existing Dormand–Prince 5(4) pair [1,2] advances the fifth-order value and estimates error with its embedded pair. Its signed polynomials are
 
-$$
+```math
 R(z)=1+z+\frac{z^2}{2}+\frac{z^3}{6}+\frac{z^4}{24}+\frac{z^5}{120}+\frac{z^6}{600},
-$$
+```
 
-$$
+```math
 E(z)=\frac{z^5(5z^2-39z+97)}{120000},\qquad v=R(hA)y,\quad e=E(hA)y.
-$$
+```
 
 The audit derives these polynomials from the exact rational seven-stage tableau. With τ=atol > 0 and ρ=rtol ≥ 0, the existing original-axis scale and RMS error are
 
-$$
+```math
 s_i=\tau+\rho\max(|y_i|,|v_i|),\qquad w=\left[\frac{1}{2}\sum_{i=1}^2(e_i/s_i)^2\right]^{1/2}.
-$$
+```
 
 Acceptance requires w < 1. The next proposed step is h min(10,0.9 w<sup>-1/5</sup>), additionally capped at h after any rejected trial. A rejected trial replaces h by h max(0.2,0.9 w<sup>-1/5</sup>) and retries the same y. Zero error selects the maximum growth factor. These are existing SciPy rules, not a proposed integrator.
 
@@ -99,31 +99,31 @@ Reflection (q,p,h) to (-q,-p,h) is an exact map symmetry. All 7,999,999 consecut
 
 Error-controlled stability and boundedness have an established literature [8]. The following auxiliary estimate is an explicit sufficient bound for this pair and component scale, independent of the step-proposal policy. It concerns accepted solution coordinates, not the full controller state. Let
 
-$$
+```math
 P_{11}=P_{22}=1,\quad P_{12}=P_{21}=\zeta,\qquad r=\|y\|_P,
-$$
+```
 
-$$
+```math
 a=\sqrt{2(1+\zeta)},\qquad b=\sqrt{\frac{2(1+\zeta)}{1-\zeta}}.
-$$
+```
 
 **Theorem 1.** Suppose |R(h λ)| ≤ 1 for 0 < h ≤ H, and |R(h λ)/E(h λ)| ≤ K for all h ≥ H. If Kb ρ < 1, every sequence of accepted solution values satisfies
 
-$$
+```math
 \|y_n\|_P\leq\max\left\{\|y_0\|_P,\frac{Ka\tau}{1-Kb\rho}\right\}.
-$$
+```
 
 **Proof.** Direct multiplication gives A<sup>T</sup>P+PA=-2 ζ P. The matrix A+ζ I is skew-adjoint in this metric and its square is -(1-ζ<sup>2</sup>)I. Every real-coefficient polynomial f therefore obeys
 
-$$
+```math
 f(hA)^TPf(hA)=|f(h\lambda)|^2P.
-$$
+```
 
 Consequently r<sub>new</sub>=|R|r and ||e||<sub>P</sub>=|E|r. Acceptance gives ||e||<sub>2</sub> ≤ sqrt(2) max s<sub>i</sub>. Comparing Euclidean and P-norms with the eigenvalues 1-ζ and 1+ζ gives
 
-$$
+```math
 |E|r\leq a\tau+b\rho\max(r,r_{\rm new}).
-$$
+```
 
 For h ≤ H the radius cannot increase. For a larger step that does increase it, multiplication by |R/E| ≤ K yields r<sub>new</sub> ≤ Ka τ+Kb ρ r<sub>new</sub>. Rearrangement gives the claimed constant. Every accepted step either decreases the radius or lands below that constant; induction completes the proof.
 
@@ -131,13 +131,13 @@ For h ≤ H the radius cannot increase. For a larger step that does increase it,
 
 The error polynomial has no nonzero zero on this oscillator ray. In fact,
 
-$$
+```math
 |5(h\lambda)^2-39h\lambda+97|^2=25h^4+390\zeta h^3
-$$
+```
 
-$$
+```math
 \qquad +(551+1940\zeta^2)h^2+7566\zeta h+9409>0.
-$$
+```
 
 Thus |E| ≥ h<sup>7</sup>/24000. On 0 ≤ h ≤ 1/2 and 0 ≤ ζ ≤ 1, the degree-(11,6) polynomial (1-|R|<sup>2</sup>)/h has a nonnegative tensor Bernstein representation. All 84 rational coefficients and an exact reconstruction identity are archived. This proves contraction on the whole rectangle, not merely at sampled points.
 
@@ -145,9 +145,9 @@ Thus |E| ≥ h<sup>7</sup>/24000. On 0 ≤ h ≤ 1/2 and 0 ≤ ζ ≤ 1, the deg
 
 For H=1/2, the coefficient triangle bound gives
 
-$$
+```math
 \frac{|R(h\lambda)|}{|E(h\lambda)|}\leq K_H=24000\sum_{k=0}^{6}a_kH^{k-7}=5\,064\,880,\qquad h\geq H,
-$$
+```
 
 where a<sub>k</sub> are the coefficients of R. This broad constant is conservative. The selected cases admit substantially sharper exact certificates, treating their binary64 parameters as rational numbers.
 
@@ -155,9 +155,9 @@ where a<sub>k</sub> are the coefficients of R. This broad constant is conservati
 
 First, an exact Sturm count establishes zero roots of Q(h)=(|R(h λ)|<sup>2</sup>-1)/h on [0,H], and Q(0)<0. Thus the entire small-step interval contracts the P-radius. Next choose K such that every coefficient of the following polynomial in t is nonnegative and its constant is positive:
 
-$$
+```math
 K^2|E((H+t)\lambda)|^2-|R((H+t)\lambda)|^2.
-$$
+```
 
 This proves the ratio bound for every t ≥ 0, without a finite-grid extrapolation. Finally, (Kb ρ)<sup>2</sup><1 is checked as an exact rational inequality. The audit records all rational polynomial coefficients, endpoint values, chosen H and K, and gain inequalities.
 
@@ -180,9 +180,9 @@ The solution bounds do not give a uniform lower solution radius, a full-state tr
 
 A linear coordinate change diagonalizes the oscillator:
 
-$$
+```math
 z=q-i\frac{p+\zeta q}{\sqrt{1-\zeta^2}},\qquad \dot z=(-\zeta+i\sqrt{1-\zeta^2})z.
-$$
+```
 
 Transforming the complete error rule would give a conjugate algorithm. Instead, as an explicit control, we replace it with complex error modulus divided by 1+ρ max(|z<sub>old</sub>|,|z<sub>new</sub>|), keeping the pair and step factors. The initial amplitude is 1/sqrt(1-ζ<sup>2</sup>), corresponding to (q,p)=(1,0). This is deliberately a different numerical algorithm for a conjugate ODE.
 

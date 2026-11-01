@@ -15,7 +15,7 @@ All row indices are zero-based. Write the physical row state as an eight-entry l
 (a\circ b)_j=a_{b_j}.
 ```
 
-Thus $(q\cdot a)\cdot b=q\cdot(a\circ b)$. At the reference saddle the paired rows are $(2,3)$ and $(6,7)$, while rows $0,1,4,5$ are singletons. Define
+Thus $`(q\cdot a)\cdot b=q\cdot(a\circ b)`$. At the reference saddle the paired rows are $`(2,3)`$ and $`(6,7)`$, while rows $`0,1,4,5`$ are singletons. Define
 
 ```math
 H_0=\langle(2\ 3),(6\ 7)\rangle,\qquad
@@ -23,14 +23,14 @@ h=(0\ 1)(2\ 3)(4\ 5)(6\ 7),\qquad
 H=\langle H_0,h\rangle.
 ```
 
-The known half-period relation supplies the orbital symmetry $h$. The numerical outgoing permutations are
+The known half-period relation supplies the orbital symmetry $`h`$. The numerical outgoing permutations are
 
 ```text
 g_plus  = [5,4,6,7,2,3,0,1]
 g_minus = [5,4,7,6,2,3,1,0]
 ```
 
-If $H$ is the orbital stabilizer within the generated group, orbit labels are **left cosets** $Ha$. Transporting the observed connection by $a$ gives
+If $`H`$ is the orbital stabilizer within the generated group, orbit labels are **left cosets** $`Ha`$. Transporting the observed connection by $`a`$ gives
 
 ```math
 Ha\longrightarrow H(g_+\circ a),\qquad
@@ -41,7 +41,7 @@ The computation checks all eight representatives of every coset: the unordered t
 
 ## Exact group and graph
 
-Let $s_j=(2j\ 2j+1)$. The pair-flip kernel
+Let $`s_j=(2j\ 2j+1)`$. The pair-flip kernel
 
 ```math
 K=\langle s_0,s_1,s_2,s_3\rangle\cong C_2^4
@@ -62,7 +62,7 @@ G=\langle H,g_+,g_-\rangle
 \quad |G|=64,\quad |H_0|=4,\quad |H|=8.
 ```
 
-The set $\{kR^j:k\in K,\ 0\leq j<4\}$ is exactly $G$. Moreover, $g_+=R\circ s_0$ and both $g_+^4$ and $g_-^4$ equal $h$; each generator has permutation order eight and orbit-coset order four.
+The set $`\{kR^j:k\in K,\ 0\leq j<4\}`$ is exactly $`G`$. Moreover, $`g_+=R\circ s_0`$ and both $`g_+^4`$ and $`g_-^4`$ equal $`h`$; each generator has permutation order eight and orbit-coset order four.
 
 | Level | Nodes | Expanding pair | Contracting pair | Targets from either node |
 |---|---|---|---|---|
@@ -85,7 +85,7 @@ The negative-generator powers give
 L0a -> L1a -> L2a -> L3b -> L0a.
 ```
 
-These statements concern the two supplied destination permutations and their symmetry images. They do not establish the entire dynamical network under all of $S_8$.
+These statements concern the two supplied destination permutations and their symmetry images. They do not establish the entire dynamical network under all of $`S_8`$.
 
 The independently retained 40,000-tau trajectory follows a different four-cycle, according to [near-saddle phase matches classified by these exact cosets](../results/motor-log-contrasts/frozen-40k-node-visits.json):
 
@@ -93,13 +93,13 @@ The independently retained 40,000-tau trajectory follows a different four-cycle,
 L0a -> L1b -> L2a -> L3a -> L0a.
 ```
 
-Those visits use a distance threshold of $10^{-6}$ and retain the first and last matched sample times. This is a finite-time path through the candidate graph, with mixed departure choices; it is neither the selected positive-generator circuit nor traversal of the entire graph.
+Those visits use a distance threshold of $`10^{-6}`$ and retain the first and last matched sample times. This is a finite-time path through the candidate graph, with mixed departure choices; it is neither the selected positive-generator circuit nor traversal of the entire graph.
 
 ## Conditional lemma: eight distinct images without full isotropy
 
-Assume a nonconstant periodic orbit exists in the permutation-equivariant eight-row ODE, its six cluster triples are pairwise distinct at one phase with precisely the two pairs above, and $h$ maps this orbit to itself with a time shift. No least-period certificate is assumed here; a nonconstant periodic orbit has a mathematical least positive period.
+Assume a nonconstant periodic orbit exists in the permutation-equivariant eight-row ODE, its six cluster triples are pairwise distinct at one phase with precisely the two pairs above, and $`h`$ maps this orbit to itself with a time shift. No least-period certificate is assumed here; a nonconstant periodic orbit has a mathematical least positive period.
 
-Let $S$ be its full orbital stabilizer in $S_8$. Distinct cluster triples make the point stabilizer exactly $H_0$. By uniqueness of ODE solutions and equivariance, a permutation fixing one point fixes the entire trajectory. Therefore the kernel of the orbital phase-shift homomorphism is $H_0$, and $S/H_0$ is a finite subgroup of phase rotations, hence cyclic. In particular, $S$ normalizes $H_0$.
+Let $`S`$ be its full orbital stabilizer in $`S_8`$. Distinct cluster triples make the point stabilizer exactly $`H_0`$. By uniqueness of ODE solutions and equivariance, a permutation fixing one point fixes the entire trajectory. Therefore the kernel of the orbital phase-shift homomorphism is $`H_0`$, and $`S/H_0`$ is a finite subgroup of phase rotations, hence cyclic. In particular, $`S`$ normalizes $`H_0`$.
 
 The exact permutation calculation gives
 
@@ -107,19 +107,19 @@ The exact permutation calculation gives
 N_G(H_0)=K,\qquad K/H_0\cong C_2^2.
 ```
 
-One can also see the normalizer directly: only the identity power of the pair rotation preserves the set of the two paired base pairs; every flip in $K$ does. Consequently $(S\cap G)/H_0$ is a cyclic subgroup of an exponent-two group and has order at most two. The known $h\notin H_0$ supplies a subgroup of order two. It follows that
+One can also see the normalizer directly: only the identity power of the pair rotation preserves the set of the two paired base pairs; every flip in $`K`$ does. Consequently $`(S\cap G)/H_0`$ is a cyclic subgroup of an exponent-two group and has order at most two. The known $`h\notin H_0`$ supplies a subgroup of order two. It follows that
 
 ```math
 S\cap G=H,\qquad [G:S\cap G]=8.
 ```
 
-Thus the stated dynamical assumptions suffice for eight distinct periodic-orbit images **within $G$**, even if additional orbital symmetries exist outside $G$. This does not identify the full $S_8$ stabilizer and does not prove any connecting orbit. The computer calculation proves the finite-group ingredients; an orbit certificate must supply the dynamical assumptions.
+Thus the stated dynamical assumptions suffice for eight distinct periodic-orbit images **within $`G`$**, even if additional orbital symmetries exist outside $`G`$. This does not identify the full $`S_8`$ stabilizer and does not prove any connecting orbit. The computer calculation proves the finite-group ingredients; an orbit certificate must supply the dynamical assumptions.
 
 ## Numerical phase check
 
-The separate phase audit uses the frozen [six-cluster cycle](../results/motor-postcritical/six-cluster-cycle-rho-3p268/analysis.json) at $\rho=3.268$, with period approximately $13.633145767830683$. It compares all 64 permuted initial physical row states against the stored orbit, using periodic cubic interpolation of 1,001 samples. For each permutation it refines every local minimum found on the 1,000-phase grid and also retains the original grid candidates.
+The separate phase audit uses the frozen [six-cluster cycle](../results/motor-postcritical/six-cluster-cycle-rho-3p268/analysis.json) at $`\rho=3.268`$, with period approximately $`13.633145767830683`$. It compares all 64 permuted initial physical row states against the stored orbit, using periodic cubic interpolation of 1,001 samples. For each permutation it refines every local minimum found on the 1,000-phase grid and also retains the original grid candidates.
 
-The eight elements of $H$ have maximum Euclidean residual $1.3325\times10^{-13}$. The smallest residual among the other 56 permutations is **0.0714879262** in the 24 physical coordinates $(c_j,s_j,X_j)$. This is numerical support for the orbit identification, not an interval exclusion over all phases. Interpolation forces the final stored sample equal to the first; the unmodified endpoint discrepancy is recorded. No fresh ODE integration or GPU work was performed.
+The eight elements of $`H`$ have maximum Euclidean residual $`1.3325\times10^{-13}`$. The smallest residual among the other 56 permutations is **0.0714879262** in the 24 physical coordinates $`(c_j,s_j,X_j)`$. This is numerical support for the orbit identification, not an interval exclusion over all phases. Interpolation forces the final stored sample equal to the first; the unmodified endpoint discrepancy is recorded. No fresh ODE integration or GPU work was performed.
 
 ## Reproduction and evidence
 
