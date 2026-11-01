@@ -10,13 +10,13 @@ This is an application of standard electromechanical energy methods [3], not a c
 
 The 2025 article [1], Eqs. (2), (3), (5), (9) and (13), gives the following pair, with the mechanical coordinate increasing upward:
 
-$$
+```math
 \Phi=L(x)i,\qquad L(x)=c\mu(x),\quad c>0,
-$$
-$$
+```
+```math
 \mu(x)=8-\frac7{1+\exp[-250(x-0.03)]},\qquad
 F(x,i)=a(x)i,\quad a(x)=K_1\mu(x)/x^4>0,
-$$
+```
 $$m\ddot x=F-k_a\dot x-mg.$$
 
 The force is **linear in current** because the moving coil interacts with a permanent magnet. Replacing it by a pure reluctance force proportional to current squared would change the source model. Likewise, the experimental optical circuit has a position-dependent photoresistor branch and is not a fixed-voltage, fixed-resistance drive.
@@ -58,10 +58,10 @@ Choosing $\psi'=a$ reproduces the source's linear force term, but also requires 
 
 More generally, let $H(x,\Phi)$ be a smooth reversible magnetic energy. Assume a regular autonomous model
 
-$$
+```math
 \dot x=v,\qquad m\dot v=-U'(x)-b v-\partial_xH,
 \qquad \dot\Phi=V_s-Ri,\quad i=\partial_\Phi H,
-$$
+```
 
 with $m,b,R>0$ and constant $V_s$. Set $i_0=V_s/R$ and define
 
@@ -69,10 +69,10 @@ $$W=\tfrac12mv^2+U(x)+H(x,\Phi)-i_0\Phi.$$
 
 Direct differentiation cancels mechanical and magnetic power transfer:
 
-$$
+```math
 \dot W=-b v^2+(i-i_0)(V_s-Ri)
 =\boxed{-b v^2-R(i-i_0)^2}.
-$$
+```
 
 There is no assumption that $L/R$ is small. On any compact forward-invariant region where the equations remain regular, the invariant part of $\dot W=0$ consists of equilibria: $v=0$, $i=i_0$, $\dot\Phi=0$, and mechanical force balance. LaSalle's invariance argument excludes a non-equilibrium recurrent attractor there, including periodic, quasiperiodic and chaotic recurrent motion.
 

@@ -11,10 +11,10 @@ priority for those regimes remains unresolved.
 
 For sites `b_i` and positive temperature `tau`, define
 
-$$
+```math
 m_\tau(x)=\sum_i p_i(x)b_i,\qquad
 p_i(x)=\frac{e^{-\|x-b_i\|^2/\tau}}{\sum_j e^{-\|x-b_j\|^2/\tau}}.
-$$
+```
 
 This is exactly the equal-weight, isotropic Gaussian **mean-shift update**,
 with bandwidth `sigma^2=tau/2`. Equation 7 of
@@ -56,10 +56,10 @@ state sequence without additional hypotheses.
 The following calculation makes the known connection concrete for this
 experiment. Put
 
-$$
+```math
 \psi(x)=\frac{\tau}{2}\log\sum_i
 \exp\!\left(\frac{2b_i\cdot x-\|b_i\|^2}{\tau}\right).
-$$
+```
 
 Then `grad psi=m_tau` and
 

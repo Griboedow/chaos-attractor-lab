@@ -34,11 +34,11 @@ For fixed centered observations $x_i\in\mathbb R^4$, empirical whitening gives
 $N^{-1}\sum_i x_ix_i^T\simeq I$. The stored binary64 observations, rather than
 their random seeds alone, define the selected numerical problems. The update is
 
-$$
+```math
 u_i=x_i^Tw,\qquad
 h(w)=\frac1N\sum_i x_i g(u_i)-\left(\frac1N\sum_i g'(u_i)\right)w,
 \qquad F(w)=\frac{h(w)}{\|h(w)\|}.
-$$
+```
 
 The state lies on $S^3\subset\mathbb R^4$ wherever $h\ne0$. There is no changing
 data, external forcing, momentum, feedback term or sign canonicalization.
@@ -141,9 +141,9 @@ novelty.
 The tensor connection follows algebraically. Let $M=N^{-1}\sum_i x_i^{\otimes4}$
 and $C=N^{-1}\sum_i x_ix_i^T$. For the cube nonlinearity,
 
-$$
+```math
 h(w)=Mw^3-3(w^TCw)w.
-$$
+```
 
 With ideal whitening $C=I$ and $\|w\|=1$, this is $(M-3E)w^3$, where the
 symmetric fourth-order identity tensor satisfies $Ew^3=\|w\|^2w$. The update is

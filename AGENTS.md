@@ -56,3 +56,8 @@
   sources in Python/LaTeX. Preserve historical review and manifest records with
   their original scope. Follow `docs/manuscript-editing.md` and run
   `python tools/check_manuscripts.py` before publishing manuscript changes.
+- Use fenced `math` blocks for display equations so Markdown preserves TeX
+  escapes, braces and subscripts. After publishing Markdown changes, open the
+  changed pages on GitHub in a browser, wait for math rendering, and inspect
+  formulas, tables, images and navigation. Check the published revision, not
+  only a local preview. Fix rendering failures and repeat the browser check.

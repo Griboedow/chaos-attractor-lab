@@ -16,9 +16,9 @@ This note supplements the repository’s symbolic-dynamics study [3]. That study
 
 Let A be the unit circumference in the xy plane, and let B(γ) = c + r(cos γ, cos θ sin γ, sin θ sin γ). The ordered RAAR map of Luke [1] is
 
-$$
+```math
 F(x)=\beta x+\beta P_A(2P_B(x)-x)+(1-2\beta)P_B(x).
-$$
+```
 
 The nearest-circle projectors are smooth away from their axes. All stored parameter and grid entries denote their exact binary64 rational values; θ enters the real sine and cosine functions, enclosed independently by arbitrary-precision intervals.
 
@@ -41,33 +41,33 @@ The computation gives a uniform projection-axis lower bound 0.0118 on every acce
 
 For n(v)=v/‖v‖, put u=v/‖v‖ and write w=a u+b with b perpendicular to u. Direct differentiation gives
 
-$$
+```math
 \|D^2n(v)[w,w]\|^2=\frac{4a^2\|b\|^2+\|b\|^4}{\|v\|^4}\leq\frac{4\|w\|^4}{3\|v\|^4}.
-$$
+```
 
 The inequality follows because the numerator of the difference, after multiplying by 3, is (2a<sup>2</sup>−‖b‖<sup>2</sup>)<sup>2</sup>. Taylor’s integral remainder is therefore at most ‖w‖<sup>2</sup>/(√3 s<sub>min</sub><sup>2</sup>). We use the larger exact coefficient 3/5.
 
 Let X be an outward box for a source leaf, m a selected binary64 point inside X and |δ|≤ρ a symmetric box containing X−m. Let Π<sub>B</sub> project onto the plane of B. A positive lower bound q on ‖Π<sub>B</sub>(x−c)‖ over X ensures regularity along every segment from m to x. The B-projector remainder obeys
 
-$$
+```math
 P_B(m+\delta)=P_B(m)+D P_B(m)\delta+e_B,
-$$
+```
 
-$$
+```math
 \|e_B\|\leq E_B=\frac{3r}{5q^2}\max_{|\delta_j|\leq\rho_j}\|\Pi_B\delta\|^2.
-$$
+```
 
 The maximum of the convex squared norm is bounded at the eight box vertices. Put a<sub>0</sub> = ‖Π<sub>A</sub>(2P<sub>B</sub>(m)−m)‖, and bound the change of this reflected A-plane argument by
 
-$$
+```math
 D=\max_{|\delta_j|\leq\rho_j}\|\Pi_A(2D P_B(m)-I)\delta\|+2E_B.
-$$
+```
 
 When a = a<sub>0</sub>−D > 0, the entire straight segment in the A-plane argument avoids zero. A second Taylor bound gives E<sub>A</sub> = 3D<sup>2</sup>/(5a<sup>2</sup>). Put
 
-$$
+```math
 J_A=D P_A(2P_B(m)-m),\qquad M=2\beta J_A+(1-2\beta)I.
-$$
+```
 
 The exact nonlinear remainder of F is βe<sub>A</sub>+M e<sub>B</sub>. To bound its component i, multiply E<sub>B</sub> by the Euclidean norm of row i of M, then add βE<sub>A</sub> for the first two coordinates only. The third coordinate of e<sub>A</sub> is zero.
 
@@ -105,9 +105,9 @@ A binary word of length n yields an F<sup>49n</sup>-fixed point starting in N<su
 
 The exact window audit gives dist(N<sub>0</sub>,N<sub>1</sub>)=δ>0. Two words differing in block k have realizations separated by at least δ at time 49k+7. Thus K contains 2<sup>n</sup> distinct (49n,δ/2)-separated initial points. The standard definition of topological entropy gives
 
-$$
+```math
 h_{\mathrm{top}}(F|_K)\geq\frac{\log2}{49}>0.01414.
-$$
+```
 
 **Qualitative persistence.** The trapping margin, regularity bounds and finite covering inequalities are strict. Joint continuity in state and parameters therefore preserves them throughout some sufficiently small open parameter neighborhood. The same entropy lower bound holds for a corresponding attracting invariant set there. No explicit parameter radius is computed.
 

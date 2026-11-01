@@ -22,19 +22,19 @@ A scalar convex objective can generate complicated dynamics in an optimizer's in
 
 Let the objective be f(θ) = h θ<sup>2</sup>/2, with h > 0. The dense Yogi implementation [1,2] maintains first and second memories. In the existing tanh option, the second-memory increment uses tanh(10(g<sup>2</sup>-v)) in physical units. With learning rate α, use the normalization
 
-$$
+```math
 \theta=\alpha x,\quad m_{\rm phys}=\alpha h m,\quad v_{\rm phys}=(\alpha h)^2v,\quad e=\epsilon/(\alpha h),\quad k=10(\alpha h)^2.
-$$
+```
 
 For 0 ≤ b < 1, 0 < c < 1, e > 0 and k > 0, the late autonomous state map is
 
-$$
+```math
 T=\tanh(k(v-x^2)),\qquad M=bm+(1-b)x,
-$$
+```
 
-$$
+```math
 V=v-(1-c)Tx^2,\qquad F(x,m,v)=\left(x-\frac{M}{\sqrt{V}+e},M,V\right).
-$$
+```
 
 The legal domain is v ≥ 0. The actual library transient multiplies M in the position update by r<sub>t</sub> = sqrt(1-c<sup>t</sup>)/(1-b<sup>t</sup>), with updates numbered from t = 1. Epsilon stays outside the uncorrected square root. For h = 1, the default physical slots m = 0 and v = 10<sup>-6</sup> become m = 0 and v = 10<sup>-5</sup>/k. The experiments also declare autonomous starts with both memories zero. These starts need not approach the same set.
 
@@ -52,23 +52,23 @@ The contribution presented for assessment is therefore a concrete combination: a
 
 **Theorem 1.** Let e > 0, σ > 0 and 0 ≤ b < 1. Suppose real sequences satisfy
 
-$$
+```math
 u_{t+1}=a_tu_t+(1-a_t)x_t,\qquad x_{t+1}=x_t-u_{t+1}/d_t,
-$$
+```
 
-$$
+```math
 0\leq a_t\leq b,\qquad d_t\geq e,\qquad d_t\geq \sigma |x_t|.
-$$
+```
 
 Then every finite initial pair (x<sub>0</sub>,u<sub>0</sub>) generates bounded sequences. The denominator may depend on the preceding history; neither monotonicity nor an upper bound for it is required. Choose a positive integer L and define
 
-$$
+```math
 \kappa=\frac{\min(e,1)}{8},\quad L\geq1:\ b^L\leq\kappa,\quad K=\frac{1}{\sigma\kappa},\quad R_0=\max(|x_0|,|u_0|).
-$$
+```
 
-$$
+```math
 B=\max\left\{2(1+1/e)^L R_0,\ \frac{8LK}{e},\ 4(L+1)K\right\}.
-$$
+```
 
 Then |x<sub>t</sub>| ≤ B and |u<sub>t</sub>| ≤ B for every t ≥ 0. For b = 0, take L = 1. This deliberately loose bound can be enormous; it is not an estimate of the plotted cloud's diameter.
 
@@ -78,35 +78,35 @@ Set S = κ B and R<sub>t</sub> = max(|x<sub>t</sub>|,|u<sub>t</sub>|). Suppose N
 
 Whenever t < N and |x<sub>t</sub>| > S, the step obeys
 
-$$
+```math
 |x_{t+1}-x_t|\leq\frac{B}{\sigma S}=K. \tag{1}
-$$
+```
 
 Next, a point with |x<sub>t</sub>| ≤ S cannot be followed by a point of magnitude greater than B/2. For t < L this follows from the initial bound. Otherwise, work backward through the last L gradient inputs. A predecessor is either within [-S,S], or (1) bounds its distance from its successor by K. Every input in these L updates thus has magnitude at most S+LK.
 
 Unrolling the momentum recurrence leaves an old-momentum weight q, the product of L coefficients a<sub>j</sub>, with q ≤ b<sup>L</sup> ≤ κ. All remaining weights are nonnegative and sum to 1-q. Therefore
 
-$$
+```math
 |u_{t+1}|\leq qB+S+LK\leq2\kappa B+LK.
-$$
+```
 
 For a state inside [-S,S], the preceding estimate gives
 
-$$
+```math
 |x_{t+1}|\leq\kappa B+\frac{2\kappa B+LK}{e}\leq\frac{3}{8}B+\frac{1}{8}B=\frac{1}{2}B. \tag{2}
-$$
+```
 
 Here κ(1+2/e) ≤ 3/8 follows separately for e ≤ 1 and e ≥ 1, while LK/e ≤ B/8 follows from B's definition. A proposed positive exit x<sub>N</sub> > B must therefore have x<sub>N-1</sub> > B-K. Its predecessor cannot lie inside [-S,S], since (2) would put x<sub>N-1</sub> below B/2. Iterating this reasoning backward gives
 
-$$
+```math
 x_{N-j}>B-jK\geq\frac{3}{4}B,\qquad j=1,\ldots,L.
-$$
+```
 
 Unrolling momentum over these positive inputs yields
 
-$$
+```math
 u_N\geq(1-q)\frac{3}{4}B-qB\geq\left(\frac{3}{4}-\frac{7}{4}\kappa\right)B>0.
-$$
+```
 
 The next position must then move inward: x<sub>N</sub> = x<sub>N-1</sub>-u<sub>N</sub>/d<sub>N-1</sub> < x<sub>N-1</sub> ≤ B, a contradiction. Reflection of (x,u) excludes a negative first exit. Convexity gives the bound for u. This proves Theorem 1.
 
@@ -116,9 +116,9 @@ The next position must then move inward: x<sub>N</sub> = x<sub>N-1</sub>-u<sub>N
 
 For v ≥ x<sup>2</sup>, the second-memory update satisfies V ≥ v-(1-c)x<sup>2</sup> ≥ cv. For v < x<sup>2</sup>, it satisfies V ≥ v. The legal half-space is invariant, and V > 0 unless x = v = 0. A valid denominator constant is
 
-$$
+```math
 \sigma=\min\left\{e\sqrt{k},\sqrt{c},\frac{1}{\sqrt{2}},\sqrt{(1-c)\tanh(1/2)}\right\}.
-$$
+```
 
 For |x| < 1/sqrt(k), the floor e suffices. For larger |x|, split v into v ≥ x<sup>2</sup>, x<sup>2</sup>/2 ≤ v < x<sup>2</sup>, and v < x<sup>2</sup>/2. In these ranges V is bounded below by c x<sup>2</sup>, x<sup>2</sup>/2, and (1-c)tanh(1/2)x<sup>2</sup>, respectively. Theorem 1 bounds x and m for every b < 1. Once |x| ≤ B, v ≤ max(v<sub>0</sub>,(2-c)B<sup>2</sup>): above B<sup>2</sup> it cannot increase, and below it one update cannot exceed (2-c)B<sup>2</sup>.
 
@@ -148,15 +148,15 @@ The smooth map is continuous on v ≥ 0 and analytic on v > 0. Boundedness there
 
 Writing V<sub>v</sub> for the derivative of the new second memory, the derivative determinant is
 
-$$
+```math
 \det DF=bV_v=b\left[1-(1-c)kx^2\,{\rm sech}^2(k(v-x^2))\right].
-$$
+```
 
 For b > 0 the critical sheets are
 
-$$
+```math
 v=x^2\pm k^{-1}{\rm arcosh}\sqrt{(1-c)kx^2},\quad (1-c)kx^2\geq1,\quad v\geq0.
-$$
+```
 
 The map is globally noninjective. Choose x with (1-c)kx<sup>2</sup> > 1. The derivative of v to V is negative at v = x<sup>2</sup> and positive for large v. Hence two legal memory values have the same V. Setting m = -(1-b)x/b makes M = 0, so the full images also agree. When b = 0, the update already forgets m. This excludes global conjugacy to an invertible map on the whole domain, but not equivalence on an invariant subset.
 
@@ -164,21 +164,21 @@ The map is globally noninjective. Choose x with (1-c)kx<sup>2</sup> > 1. The der
 
 Assume 0 < b < 1. Set A = (1-b)/(1+b), d = A/2 and a = d-e > 0. Then
 
-$$
+```math
 z_+=(a,-Aa,a^2),\qquad z_-=(-a,Aa,a^2)
-$$
+```
 
 form a two-cycle: T = 0, V = a<sup>2</sup>, and the position step is 2a. This is the familiar antipodal Adam family [3,4] transferred to this map, not a new broad mechanism. We do not assert that every two-cycle is symmetric. Define
 
-$$
+```math
 r=a/d\in(0,1),\qquad q=(1-c)ka^2>0.
-$$
+```
 
 With R = diag(-1,-1,1) and L = R DF(z<sub>+</sub>), reflection symmetry gives DF<sup>2</sup>(z<sub>+</sub>) = L<sup>2</sup>. Direct differentiation gives the characteristic polynomial p(z) = z<sup>3</sup>+a<sub>1</sub>z<sup>2</sup>+a<sub>2</sub>z+a<sub>3</sub>, where
 
-$$
+```math
 a_1=-b-2+q(1+2r),\qquad a_2=1+2b+q(2br-b-1),\qquad a_3=b(q-1).
-$$
+```
 
 The symbolic controls verify this calculation against the derivative of the original map, rather than only a separately entered matrix. The next section derives the complete strict exponential-stability interval.
 
@@ -186,37 +186,37 @@ The symbolic controls verify this calculation against the derivative of the orig
 
 **Proposition 2.** The symmetric cycle is locally exponentially stable if and only if
 
-$$
+```math
 \max(0,q_-)<q<q_+,\qquad q_-=\frac{4br-(1-b)^2}{b(1-b+2r)},\quad q_+=\frac{2(1+b)}{1+b+r(1-b)}.
-$$
+```
 
 **Proof.** For a real monic cubic, let p*(z) = z<sup>3</sup>p(1/z). If |a<sub>3</sub>| < 1, define Q(z) = [p(z)-a<sub>3</sub>p*(z)]/z = Uz<sup>2</sup>+Wz+H, with
 
-$$
+```math
 U=1-a_3^2,\quad W=a_1-a_3a_2,\quad H=a_2-a_3a_1.
-$$
+```
 
 Put Q*(z) = z<sup>2</sup>Q(1/z). Rouche's theorem on the unit circle shows that p is Schur stable exactly when Q is: one direction uses p-a<sub>3</sub>p*, the other Up = zQ+a<sub>3</sub>Q*. A stable monic cubic necessarily has |a<sub>3</sub>| < 1 from its root product. The substitution z = (1+s)/(1-s) reduces the quadratic to the real left-half-plane criterion, giving U-H > 0 and U+H > |W|. Thus the cubic conditions are
 
-$$
+```math
 |a_3|<1,\quad p(1)>0,\quad -p(-1)>0,\quad 1-a_2+a_1a_3-a_3^2>0.
-$$
+```
 
 For the displayed coefficients these expressions factor as
 
-$$
+```math
 p(1)=2qr(1+b),\quad -p(-1)=4(1+b)-2q[(1+b)+r(1-b)],
-$$
+```
 
-$$
+```math
 1-a_2+a_1a_3-a_3^2=q[(1-b)^2-4br+b(1-b+2r)q].
-$$
+```
 
 They yield the claimed interval; q<sub>+</sub> ≤ 2 makes |b(q-1)| < 1 automatic inside it. The interval is nonempty because
 
-$$
+```math
 q_+-q_-=\frac{(1-b)(1+r)((1+b)^2-4br)}{b(1-b+2r)(1+b+r(1-b))}>0.
-$$
+```
 
 The eigenvalues of the full two-step derivative are squares of those of L, proving the strict exponential-stability statement. Nonhyperbolic boundary behavior is not decided by this criterion.
 

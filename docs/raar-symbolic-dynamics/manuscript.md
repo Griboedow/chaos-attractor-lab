@@ -12,13 +12,13 @@ A branching return graph behind a serrated numerical cloud<br>Chaos Attractor La
 
 Let A be the unit xy circumference and B be the tilted circumference given below. P denotes nearest-point projection onto a circumference, defined off its axis. We retain the ordered RAAR convention of the companion studies [1,3], with no change to the algorithm.
 
-$$
+```math
 B(\gamma)=c+r(\cos\gamma,\ \cos\theta\sin\gamma,\ \sin\theta\sin\gamma).
-$$
+```
 
-$$
+```math
 F(x)=\beta x+\beta P_A(2P_Bx-x)+(1-2\beta)P_Bx,\qquad G=F^7.
-$$
+```
 
 | Parameter | Exact binary64 input |
 | --- | --- |
@@ -37,9 +37,9 @@ For this exact map, the seven windows N<sub>i</sub> specified in the frozen inpu
 
 ### Exact window definition
 
-$$
+```math
 N_i=c_i+S_i[-1,1]^3,\qquad S_i=B_i\,\mathrm{diag}(r_i),\qquad 0\leq i\leq6.
-$$
+```
 
 All centers, basis entries and radii are stored in runs/raar-covering-refined01/input.json. Each factor is lifted exactly before multiplication. The SHA-256 digest is d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60. All S<sub>i</sub> are nonsingular. The first N<sub>0</sub>-coordinate of every point in N<sub>1</sub> belongs to (-2.491,-2.393), proving disjointness. The certified seven-cycle box from [3] lies strictly inside N<sub>0</sub>.
 
@@ -49,9 +49,9 @@ A covering relation is an existence statement for orbit segments. It does not sa
 
 Use the first local coordinate as the exit direction and the other two as entry coordinates, with the maximum norm. For each edge i to j, write y=S<sub>j</sub><sup>-1</sup>(G(x)-c<sub>j</sub>). Every accepted volume subcell satisfies at least one of the following strict interval conditions:
 
-$$
+```math
 y_0<-1\quad\mathrm{or}\quad y_0>1\quad\mathrm{or}\quad (|y_1|<1\ \mathrm{and}\ |y_2|<1).
-$$
+```
 
 The two exit faces additionally map strictly into opposite exterior sides y<sub>0</sub><-1 and y<sub>0</sub>>1, with either orientation. The volume condition places the full image in the interior of the union of the target and its two exterior sides and excludes the entry boundary. It is stronger than the horizontal-line condition in Theorem 16 of [2]. Therefore each verified edge is an h-set covering with nonzero degree.
 
@@ -87,9 +87,9 @@ Counts include volume and both exit-face tilings. Every leaf has its interval im
 
 **Compact invariant set.** Let Q be the finite union of F<sup>j</sup>(N<sub>i</sub>) for 0 ≤ i,j ≤ 6. Every selected periodic orbit, including intermediate phases, stays in Q. The certified axis bounds make F continuous on a neighborhood of Q. Let C be the closure of the union of these periodic orbits. Compactness gives C compact and F(C)=C: forward invariance follows by continuity, and preimages follow by taking limits of periodic predecessors in Q.
 
-$$
+```math
 h_{\mathrm{top}}(F|_C)\ \geq\ \lim_{n\to\infty}\frac{\log 2^n}{49n}=\frac{\log2}{49}>0.01414.
-$$
+```
 
 For an infinite one-sided binary sequence, periodic realizations of its successively longer prefixes have a convergent subsequence in N<sub>0</sub>. Continuity and closed windows preserve every finite prefix in the limit. Hence every such sequence is realized. This does not assert unique coding points, a hyperbolic Smale horseshoe, or attraction.
 
@@ -97,9 +97,9 @@ For an infinite one-sided binary sequence, periodic realizations of its successi
 
 A multiple-shooting solution for the excursion word 1 supplies a seed for a separate 200-digit interval Krawczyk certificate [4]. A radius-10<sup>-120</sup> box contains a unique root of F<sup>49</sup>(x)-x. Strict proper-divisor exclusions rule out periods 1 and 7, so the least period is 49. The interval orbit visits all seven windows in the prescribed order. The representative point begins:
 
-$$
+```math
 x\simeq(0.00630627102880642,\ -2.448779781118031,\ 4.144176440279049).
-$$
+```
 
 Interval signs of the characteristic cubic at 579.0979 and 579.0981 bracket an unstable real root. After deflation with that root interval, all three quadratic Schur margins are positive, placing the other two multipliers strictly inside the unit disk. Thus exactly one direction is unstable. Numerical 200-digit estimates are 579.0979600389606, 0.183541441192713 and -2.8374880613 x 10<sup>-15</sup>; the interval inequalities, not these rounded estimates, certify the classification.
 

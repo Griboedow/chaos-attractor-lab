@@ -26,27 +26,27 @@ An [independent DOP853/QR check of the repository-coefficient variant](../result
 
 For each ordered pair, let
 
-$$
+```math
 \Delta_{ij}=\theta_j-\theta_i,\qquad
 \mu_{ij}=\arg(\mathbf r_j-\mathbf r_i),\qquad
 \psi_i=\chi_i-\mu_{ij},\quad \psi_j=\chi_j-\mu_{ij}.
-$$
+```
 
 After removing the common phase, the implemented field is
 
-$$
+```math
 f_i=\sum_{j\ne i}d_{ij}^{-3}F_\theta(\Delta_{ij})\cos\psi_i\cos\psi_j,
 \qquad \theta_i'=f_i-N^{-1}\sum_k f_k,
-$$
-$$
+```
+```math
 \chi_i'=\sum_{j\ne i}d_{ij}^{-3}F_\chi(\Delta_{ij})\sin\psi_i\cos\psi_j,
-$$
-$$
+```
+```math
 F_\theta(\Delta)=2.921\cos\Delta+2.070\sin\Delta-0.781\cos3\Delta+0.312\sin3\Delta,
-$$
-$$
+```
+```math
 F_\chi(\Delta)=-5.351\cos\Delta+0.223\sin\Delta+3.009\cos3\Delta-1.359\sin3\Delta.
-$$
+```
 
 The common-phase subtraction is a symmetry reduction, not a change to relative-phase or orientation dynamics. Four oscillators leave seven effective dimensions. All coordinates are angles: the state space is compact, so a trajectory cannot escape to infinity on this space. A three-dimensional projection is not the full attractor and does not establish its dimension.
 

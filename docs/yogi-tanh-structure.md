@@ -6,18 +6,18 @@ This note studies the pre-existing TensorFlow Addons `Yogi(activation="tanh")` o
 
 For `0<=b<1`, `0<c<1`, `e>0`, `k>0` and state `(x,m,v)` with `v>=0`, write
 
-$$
+```math
 T=\tanh(k(v-x^2)),\quad M=bm+(1-b)x,\quad
 V=v-(1-c)Tx^2,\quad F(x,m,v)=(x-M/(\sqrt V+e),M,V).
-$$
+```
 
 In the [existing library implementation](https://github.com/tensorflow/addons/blob/d208d752e98c310280938efa939117bf635a60a8/tensorflow_addons/optimizers/yogi.py), the coefficient inside `tanh` is 10 in physical units. On `f(theta)=h*theta^2/2`, with `h>0`, the substitutions
 
-$$
+```math
 \theta=\alpha x,\quad m_{\rm phys}=\alpha h m,\quad
 v_{\rm phys}=(\alpha h)^2v,\quad
 e=\epsilon/(\alpha h),\quad k=10(\alpha h)^2
-$$
+```
 
 give the displayed map after the bias factors have decayed. Changing curvature can therefore compensate a change of learning rate. These are equivalent normalizations, not different discoveries. During the library transient, the first coordinate uses `r_t*M` instead of `M`, where `r_t=sqrt(1-c^t)/(1-b^t)`. Epsilon remains outside the uncorrected square root.
 
@@ -27,10 +27,10 @@ The legal half-space is invariant. If `v>=x^2`, then `V>=v-(1-c)x^2>=c*v`. If `v
 
 Set
 
-$$
+```math
 \sigma=\min\{e\sqrt{k},\sqrt c,1/\sqrt2,
 \sqrt{(1-c)\tanh(1/2)}\}>0.
-$$
+```
 
 The denominator `d=sqrt(V)+e` satisfies `d>=e` and `d>=sigma*|x|`. To see the second inequality, for `|x|<1/sqrt(k)` use `d>=e`. For larger `|x|`, split the memory into three ranges. If `v>=x^2`, then `V>=c*x^2`. If `x^2/2<=v<x^2`, then `V>=v>=x^2/2`. If `v<x^2/2`, then `k(x^2-v)>=1/2`, so `V>=(1-c)*tanh(1/2)*x^2`.
 
@@ -46,16 +46,16 @@ Every autonomous orbit consequently has a nonempty compact invariant omega-limit
 
 For `v>0`, the derivative determinant is
 
-$$
+```math
 \det DF=b[1-(1-c)kx^2\operatorname{sech}^2(k(v-x^2))].
-$$
+```
 
 For `b>0`, its critical sheets satisfy
 
-$$
+```math
 v=x^2\ \pm\ \frac{\operatorname{arcosh}\sqrt{(1-c)kx^2}}k,
 \qquad (1-c)kx^2\ge1,\quad v\ge0,
-$$
+```
 
 with arbitrary `m`. The map is globally noninjective for every legal parameter tuple. Choose `x` with `(1-c)kx^2>1`. The derivative of `v -> V` is negative at `v=x^2` and positive for sufficiently large `v`; hence two legal values of `v` have the same image. With `m=-(1-b)x/b`, both have `M=0` and `X=x`, so the full images agree. For `b=0`, the map already forgets `m`.
 
@@ -88,11 +88,11 @@ a_2=1+2b+q(2br-b-1),\quad a_3=b(q-1).$$
 
 The cycle is locally exponentially stable **if and only if**
 
-$$
+```math
 \max(0,q_-)<q<q_+,\qquad
 q_-={4br-(1-b)^2\over b(1-b+2r)},\quad
 q_+={2(1+b)\over1+b+r(1-b)}.
-$$
+```
 
 Here “exponentially” excludes undecided nonhyperbolic boundary cases. The interval is nonempty, because
 

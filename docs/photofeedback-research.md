@@ -30,16 +30,16 @@ The subsequently recovered official supplement does not provide that missing res
 
 Our dimensionless states are height `x>0`, velocity `v`, and photoactivation memory `z`:
 
-$$
+```math
 x'=v,\qquad
 v'=a\mu(x)j(z)/x^4-1-bv,\qquad
 z'=[j(z)S(x)-z]/\tau,
-$$
-$$
+```
+```math
 \mu(x)=8-\frac7{1+\exp[-8.75(x-6/7)]},\quad
 j(z)=\frac1{1.04+kz},\quad
 S(x)=\exp[-((x-1)/w)^2].
-$$
+```
 
 The bell-shaped illumination profile and first-order activation law are **modeling assumptions**, not equations fitted by the source authors. The parameter `a` sets force strength; `b` is damping; `tau` is response time; `k` is optical feedback gain; `w` is the illumination width. For positive parameters, `0 <= z <= 1` is forward invariant: its derivative points inward at both boundaries.
 
