@@ -6,7 +6,7 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 ![Rigid camera rotation around folded ribbons and a feathered crescent in the existing smooth Yogi map](docs/assets/yogi-tanh-rotation.gif)
 
-[Large portrait](docs/assets/yogi-tanh-geometry.png) · [Independent evidence](docs/assets/yogi-tanh-evidence.png) · [Exact structure and known equivalence](docs/yogi-tanh-structure.md)
+[Research manuscript (PDF)](papers/yogi-memory/manuscript.pdf) · [Proof, evidence and reproduction](papers/yogi-memory/README.md) · [Large portrait](docs/assets/yogi-tanh-geometry.png) · [Independent evidence](docs/assets/yogi-tanh-evidence.png) · [Exact structure and known equivalence](docs/yogi-tanh-structure.md)
 
 **[Yogi: a feathered arc and stronger two-direction expansion](docs/yogi-parameter-plane.md).** A new 2,048-setting grid finds a thin arc of repeated fans inside a published scalar-quadratic optimizer. A separate candidate retains two positive branch rates in all 100 windows of a five-million-step run, all independent 70/90-digit windows, and all actual Optax windows. The full grid, competing fixed outcomes and weaker continuations are retained. Historical uniqueness and asymptotic chaotic attraction remain unresolved.
 

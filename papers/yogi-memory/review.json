@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-01",
+  "pdf_sha256": "e8e4dcc8109c465f6675134d32ed988150d3b802e81d15e9a59326b4e9f0fcd2",
+  "visually_reviewed_pages": [
+    {
+      "page": 1,
+      "render_sha256": "7b7e874d40fe538d97660f11cc4444e189bda1a1348de68e8385b04c6e395fc3",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 2,
+      "render_sha256": "7a13d850c239afb2eef3c842d70f569d4183db66371172892c0b8af1c546a217",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 3,
+      "render_sha256": "fa80f470eacc7337fff84b8a9267a8fd6818e89149c58907715bdbaef9386b8f",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 4,
+      "render_sha256": "1a0f3cb981c75706779843c9b6a7dfe6fcde845228581a7c35852f6c643f0acf",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 5,
+      "render_sha256": "b6be1351400381ca4cee7aafcaaeeb8903b01160b183d420988d63782c9303ff",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 6,
+      "render_sha256": "6554a9e54224947b004809a7796c3245651a0ba4a9e135a3dbc8ffc7c8ab8a7e",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 7,
+      "render_sha256": "5fa4f89728c86ac942ed413f98a034aef030a54b4390c58a9ec5b801491e887c",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 8,
+      "render_sha256": "e642c5aca201161fbf7de0c0aaa16d8bac6732cb57e7d9d4b8f83ad327f7867b",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 9,
+      "render_sha256": "5227be9551965052a2af3018cd9c62763af58f60fed86cbc3860d6142b605025",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 10,
+      "render_sha256": "373abfee0243b97193e7fd47e404ed29a15d7226a9af0ea224b331bc6beda60c",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    },
+    {
+      "page": 11,
+      "render_sha256": "fd6a6cef5a5d6477a4f0bfe9d9161e99a0f5aaa2b4f223216abccb55cfefdd8b",
+      "status": "Visually inspected at 120 dpi; no clipping, overlapping text, missing mathematical glyphs or unreadable table/plot labels."
+    }
+  ],
+  "renderer": "Poppler pdftoppm, 120 dpi",
+  "visual_method": "All 11 pages reviewed individually; final changes on pages 3,6,7,8,9 re-rendered and inspected; remaining rendered-page bytes compared unchanged. A final build writes figures to its own output folder; all 11 rerendered pages are byte-identical to the inspected pages.",
+  "scientific_review": "Checked first-exit proof, legal-domain invariance, denominator split, fold determinant, Schur reduction and explicit local Adam equivalence. Numerical tables checked against frozen source arrays. No independent external peer review claimed.",
+  "layout_revisions": [
+    "Mathtext requires explicit fraction braces; normalized typesetting syntax before a successful build.",
+    "Initial pdfrw embedding was incompatible with installed ReportLab string encoding; replaced with pypdf vector-page merging. No scientific data changed.",
+    "Removed orphaned library-convention paragraph, completed notation definitions, and numbered table captions."
+  ],
+  "versions": {
+    "reportlab": "4.5.1",
+    "pypdf": "6.21.4",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0"
+  },
+  "drafts_retained_locally": "D:/Codex/chaos-attractor-search-20261031/yogi-manuscript-drafts"
+}
