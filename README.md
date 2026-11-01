@@ -391,7 +391,7 @@ steps and at 70 and 100 digits. Case 351 has regular competing outcomes. These
 are regimes of an established algorithm; historical priority and asymptotic
 chaotic attraction remain unresolved.
 
-Projection of the unit weight on $(w_1,w_2,w_4)$; every consecutive state is
+Projection of the unit weight on $`(w_1,w_2,w_4)`$; every consecutive state is
 retained. No sign folding. Spatial scale and density saturation differ between
 panels. Case numbers identify the exact data sets in the report.
 
