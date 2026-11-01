@@ -291,9 +291,9 @@ The certificates check the stronger, unrounded inequalities
 ```math
 \begin{gathered}
 \alpha=a_0-b_0L>1,\qquad
-\frac{c_0+d_0L}{\alpha}<L,\\
+\frac{c_0+d_0L}{\alpha}\lt L,\\
 \kappa=d_0+\frac{(c_0+d_0L)b_0}{\alpha}<1,\qquad
-c_0+d_0L<L.
+c_0+d_0L\lt L.
 \end{gathered}
 ```
 
