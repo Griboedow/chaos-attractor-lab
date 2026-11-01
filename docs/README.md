@@ -27,5 +27,8 @@ to ambient-neighborhood equivalence with solenoid embeddings.
 A [preimage audit](fastica-preimage-rejection.md) rejects one proposed intrinsic
 collision by proving that its extra branch is outside the attracting set.
 
+The [hydrogel-filament controls](hydrogel-planar-controls.md) document an
+independent planar solver, an eight-case screen and its physical limitations.
+
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)
