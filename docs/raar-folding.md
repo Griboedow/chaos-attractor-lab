@@ -4,10 +4,6 @@
 
 ![Actual tangent-seed evolution near the unstable seven-cycle](assets/raar-cycle-unfolding.gif)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2f165b68638003b2f527a412a401a6a667a21cc8/docs/assets/raar-cycle-unfolding.gif)).*
-<!-- /drawing-date -->
-
 The animation shows actual states of the spatial-circle RAAR map. We start with 16,384 points on a straight segment of radius `1e-7`, tangent to the unstable direction of its certified seven-cycle. Each frame combines seven successive phase offsets. The camera, spatial scale and density scale are fixed; the early blue rings only locate subpixel clusters. The frames run from iterations 0–6 to 448–454. No interpolation connects states into artificial continuous orbits.
 
 [Seven-page research note](../papers/raar-folding/manuscript.pdf) · [Editable source and reproduction](../papers/raar-folding/README.md) · [Rotate the long-run cloud](assets/raar-circles-rotation.gif) · [Periodic structure](raar-cycle-structure.md) · [Priority audit](raar-priority.md)
@@ -16,10 +12,6 @@ The animation shows actual states of the spatial-circle RAAR map. We start with 
 
 ![Radius and seed-density controls](assets/raar-cycle-seed-controls.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2f165b68638003b2f527a412a401a6a667a21cc8/docs/assets/raar-cycle-seed-controls.png)).*
-<!-- /drawing-date -->
-
 Three initial radii (`1e-5`, `1e-7`, `1e-9`) and two counts (4,096 and 16,384) give six runs. **All 61,440 trajectories complete.** Smaller radii delay the visible unfolding. Final median distances to the million-state reference are `0.00097658–0.00099755`; the median distance between two half-reference samples is `0.00136408`. These are unequal-density finite-sample comparisons, not proof of equality of invariant sets or asymptotic attraction.
 
 The initial segment is a numerical tangent construction, **not a certified invariant-manifold chart**. All ten saved snapshots and all 65 original histograms reproduce exactly in the higher-resolution rendering replay. Every point contributes to the histogram; no count is clipped by the common crop. The final animation displays native histogram pixels, with density normalized by pixel area.
@@ -27,10 +19,6 @@ The initial segment is a numerical tangent construction, **not a certified invar
 ## Exactly two or four preimages
 
 ![Four certified inputs with one common next state](assets/raar-four-preimages.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2f165b68638003b2f527a412a401a6a667a21cc8/docs/assets/raar-four-preimages.png)).*
-<!-- /drawing-date -->
 
 For 25 exact binary64 targets selected at evenly spaced indices of the reference cloud, an interval-Sturm calculation gives complete counts in the map's regular domain:
 
@@ -50,10 +38,6 @@ The initial near-cloud numerical search found one preimage per target. The subse
 
 ![Actual input and output states around a certified smooth fold](assets/raar-certified-fold.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2c967afdbaa365de51a6eb93c1e09c63b1170cb6/docs/assets/raar-certified-fold.png)).*
-<!-- /drawing-date -->
-
 The figure follows all 999,999 consecutive-state pairs through one update. Blue and gold indicate the sign of the full three-dimensional Jacobian determinant at the input. The same colors follow the points to their outputs. Overlapping colors in this projection do not assert equality of three-dimensional states.
 
 A 200-digit interval-Newton calculation certifies a critical point on the segment between exact reference states `857629` and `993053`, less than `0.000042` from the latter. A strictly nonzero Jacobian minor establishes rank two. The determinant gradient dotted with a certified kernel vector lies in `(-0.05230, -0.05228)`. Thus the critical hypersurface is smooth and the kernel is transverse to it: the standard smooth-fold criterion applies. Both projection-axis distances stay strictly positive.
@@ -63,10 +47,6 @@ This is a local property of the full map, not an artifact of viewing a three-dim
 ## What this adds, and what remains open
 
 ![All seven time-residue samples of the same consecutive orbit](assets/raar-phase-classes.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/53abe416e557a08278882f572cbf3d71c91241c4/docs/assets/raar-phase-classes.png)).*
-<!-- /drawing-date -->
 
 The seven visible tips do not give seven separable time-residue clouds in this finite diagnostic. Labeling each of the million states by its iteration number modulo seven produces similar density portraits. A nearest-neighbor classifier in the actual three coordinates predicts the phase of 400,000 held-out states with accuracy `0.1429225`, close to `1/7`. Training and test segments are separated by 200,000 steps. This is not an ergodicity, mixing or connectedness theorem. [Complete arrays and source](../results/raar-phase-classes/).
 

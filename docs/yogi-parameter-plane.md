@@ -5,7 +5,7 @@ The next search finds a thin arc built from repeated fan-like structures, and a 
 ![A rigid rotation of the actual G0670 state cloud](assets/yogi-feathered-arc.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c26d685d207acdbfb40f01f2ad6e72605596f6f5/docs/assets/yogi-feathered-arc.gif)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
 [Full portrait](assets/yogi-feathered-arc.png) · [Parameter plane](assets/yogi-parameter-plane.png) · [Windowed evidence](assets/yogi-grid-directions.png) · [Original equations and conventions](yogi-geometry.md) · [Prior-art audit](yogi-priority.md)
@@ -22,10 +22,6 @@ Two independent 32-by-32 grids start at `(x,m,v)=(0.73,0,0)`. Every setting rece
 The leading rule requires every first-direction window above 0.005, a retained `x` span above `1e-4`, and no detected return at lags 1–128. The two-direction rule additionally requires every second-direction window above 0.001. It is a finite screening rule, not a chaos theorem. Of the 1,686 periodic outcomes, 1,685 are detected fixed states and one has detected period 66. Six other settings satisfy neither the periodic detector nor the leading rule. All 2,048 histories are finite and retained.
 
 ![Grid outcomes at the actual sampled parameter coordinates](assets/yogi-parameter-plane.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c26d685d207acdbfb40f01f2ad6e72605596f6f5/docs/assets/yogi-parameter-plane.png)).*
-<!-- /drawing-date -->
 
 Cells show individual sampled settings, with saturated rate scales as indicated. Their area does not certify an open region of hyperchaos. The dotted curve is only `beta1^2=beta2`, a familiar hypothesis boundary in related Adam estimates, not a derived Yogi bifurcation curve.
 
@@ -47,10 +43,6 @@ The six follow-ups restart from the original cold state, discard 100,000 updates
 Each minimum covers all 100 disjoint 50,000-step windows. No selected tail passes the return detector at lags 1–128. G0063 fails the persistent-positive-window criterion and is not promoted as a verified visual candidate.
 
 ![All long-run windows for the arc and the stronger two-direction case](assets/yogi-grid-directions.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c26d685d207acdbfb40f01f2ad6e72605596f6f5/docs/assets/yogi-grid-directions.png)).*
-<!-- /drawing-date -->
 
 The feathered arc uses `(beta1,beta2,e)=(0.9806451612903226,0.6006451612903226,0.00009301461332493893)`. Its portrait contains eight million later states, and the animation rotates the last one million consecutive states. Both use the complete normalized `(x,m,v)` state, a rigid orthographic camera and equal spatial units on the image axes. The rectangular field of view retains every point; no nonlinear coordinate deformation, axis stretching, smoothing, or connecting line creates the feathers. The normalization itself, including the different dimensional scaling of `v`, is defined in the original report.
 
@@ -76,10 +68,6 @@ G0798 and G0028 also retain two positive directions throughout all windows of th
 A subsequent cohort repeats the original design for G0670 and G0125: 22 signed cold-start amplitudes, 32 small parameter perturbations and 64 points from a full three-dimensional state box for each case. Every run receives 100,000 warmup and 200,000 observed steps. G0670 passes the leading rule for all cold starts and all parameter neighbors, and for 62 of 64 box starts; two box starts have detected fixed tails. G0125 passes both direction rules for all cold starts, all parameter neighbors and 60 of 64 box starts; four box starts have detected fixed tails. Reflected cold-start pairs are symmetry-related, not independent discoveries.
 
 ![Complete ensembles approach the structured clouds or competing fixed states](assets/yogi-grid-approach.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d19eff15829192830547dd1db28ce5a45bef4586/docs/assets/yogi-grid-approach.png)).*
-<!-- /drawing-date -->
 
 A larger, separately declared Sobol ensemble follows 32,768 full-state initial points for each case through updates 0, 1, 16, 256 and 8,192. Boxes are the long-run reference bounds expanded by 10%, with the lower accumulator bound clipped to `1e-8`. All endpoints and 64-state tails are retained. G0670 has 1,163 detected fixed tails; G0125 has 1,968. Every other endpoint lies within 0.02 of its two-million-point reference support after normalization by the reference extent norm. This directed finite-cloud distance is a diagnostic, not a Hausdorff-distance or attraction theorem.
 

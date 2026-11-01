@@ -124,10 +124,6 @@ The observed near-saddle path is `L0a -> L1b -> L2a -> L3a -> L0a -> L1b -> L2a`
 
 ![Logarithmic contrasts and refined orbit matching](../results/motor-log-contrasts/orbit-matching-review/log-contrast-diagnostic.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/a3a075fd9390a9ef3fd762070ac9f6e9d3d894c5/results/motor-log-contrasts/orbit-matching-review/log-contrast-diagnostic.png)).*
-<!-- /drawing-date -->
-
 Pair `(4,5)` first reconstructs as zero in ordinary FP64 at the stored checkpoint `tau=118881.03109548356` in both runs, while its logarithmic representation remains finite. Its minimum **stored** `log10` norm is `-486.3740103711` in the main run and `-486.3740107682` in the strict run. By `tau=150000` it has regrown to `-455.6469731377` and `-455.6469738949`. This is partial regrowth by about thirty orders of magnitude while the amplitude remains unrepresentable as an ordinary FP64 number; a seventh threshold departure is not part of this frozen block.
 
 Across common checkpoints from 40k to 150k, the largest mean/representable-chart discrepancy is `1.23e-7`, the largest difference in `log10` contrast norms is `1.09e-6`, and the largest normalized direction-component discrepancy is `3.60e-7`. Squared gauge norms drift by at most `6.98e-7` and `1.25e-7` in the two histories, without renormalization. The evidence supports reproducibility of these events and the reported precision diagnostic. It is not a certified error enclosure for the exact distant trajectory.

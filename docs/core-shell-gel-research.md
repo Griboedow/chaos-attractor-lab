@@ -6,10 +6,6 @@ Research note, 30 October 2026. **No validated chaotic candidate emerged from th
 
 ![Source control, GPU survey, long windows and a closed periodic orbit](assets/core_shell_gel_survey.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/e2c70b18a2e00d523a47c7eb54e68ee02f101b60/docs/assets/core_shell_gel_survey.png)).*
-<!-- /drawing-date -->
-
 ## Model and scope
 
 Shinbo et al. [1] specify four chemical/mechanical states, then study a two-state quasi-steady approximation. We implement their full Eqs. 1–5 with constant external substrates. The Hill permeability and urease activity are retained literally. The surrounding bath is an effectively infinite reservoir; finite-fuel depletion and experimental calibration are separate issues. The article's two-state approximation is planar and cannot contain a classical autonomous strange attractor on a compact regular branch.

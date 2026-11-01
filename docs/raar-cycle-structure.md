@@ -6,10 +6,6 @@ The selected R1051 arch contains a visible seven-fold arrangement. A certified u
 
 ![Actual arch states and certified periodic points, using rigid cameras](assets/raar-cycle-geometry.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/689f1b75d2583010de732c4151550275c9be20b1/docs/assets/raar-cycle-geometry.png)).*
-<!-- /drawing-date -->
-
 The orange points are separate discrete states, labeled in iteration order. They are not a continuous closed curve. Their distances from the finite million-state reference sample range from 0.003886 to 0.004947. This visual correspondence does not prove membership in an asymptotic attracting set. The four inset cycles occur at different relaxation parameters, rather than coexisting at the base setting.
 
 ## What is certified
@@ -38,10 +34,6 @@ At each event the other two multipliers are inside the unit disk. The unique loc
 ## Every fine-slice outcome
 
 ![Complete fresh-start parameter slice and full-state growth estimates](assets/raar-cycle-bifurcation.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/689f1b75d2583010de732c4151550275c9be20b1/docs/assets/raar-cycle-bifurcation.png)).*
-<!-- /drawing-date -->
 
 All **1,025** independent settings complete: **90** pass the finite leading-growth criterion, **933** pass the numerical period test, and **2** remain unclassified. Each run discards 100,000 steps, then measures 400,000 in twenty windows. The slice was selected after the earlier broad scan exposed the sequence; it is an explanatory follow-up.
 

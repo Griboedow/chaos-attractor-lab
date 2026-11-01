@@ -6,10 +6,6 @@ Our additions are reproducible GPU/CPU checks, a careful treatment of extremely 
 
 ![GPU slice, physical projection, section and outbreak traces](assets/two_strain_candidate.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2e20f636a960a6b0ff1564bde9d396bd91140800/docs/assets/two_strain_candidate.png)).*
-<!-- /drawing-date -->
-
 ## Exact model and bounded state space
 
 Let `S` be susceptible population, `I1,I2` primary infections, `I12` secondary infection with strain 2, and `R1` recovery from strain 1. Recovery from strain 2 prevents further infection in this baseline. The remaining fully protected fraction is `R=1-S-I1-I2-I12-R1`. With `F2=beta2*(I2+eta2*I12)`, primary Eq. 2 is
@@ -88,24 +84,16 @@ At `R0,2=1.9`, the near-coexistence start approaches a small cycle; the near-inv
 
 ![Source-parameter initial-condition controls](assets/two_strain_source_controls.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2e20f636a960a6b0ff1564bde9d396bd91140800/docs/assets/two_strain_source_controls.png)).*
-<!-- /drawing-date -->
-
 An independent shooting calculation confirms the small cycle with **period 469.8264523867**, orbit-closure error `2.8e-13` in integration coordinates and largest Poincare multiplier magnitude **0.886087**. Its other resolved multiplier is `0.741846`; the dominant pair is `0.295033 ± 0.835527 i`. The smallest multiplier is below reliable double-precision relative resolution. The corresponding long CPU leading exponent is `5.1e-7`, close to the neutral flow direction, rather than the much larger positive candidate rate.
 
 ![Two physical projections](assets/two_strain_projections.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2e20f636a960a6b0ff1564bde9d396bd91140800/docs/assets/two_strain_projections.png)).*
-<!-- /drawing-date -->
 
 The candidate alternates nearly infection-free intervals with unequal bursts. In raw population coordinates, the projection contains excursions of different heights near a common low-prevalence region; including the recovered fraction exposes another part of the slow evolution. The three-dimensional pictures are projections of a five-state flow. Axis multipliers merely make small fractions readable. These shapes are not evidence of a new topological attractor type.
 
 ![Rotation of the physical projection](assets/two_strain_rotation.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2e20f636a960a6b0ff1564bde9d396bd91140800/docs/assets/two_strain_rotation.gif)).*
+*First recorded portrait: **2026-10-30**.*
 <!-- /drawing-date -->
 
 ## A boundary obstruction to a literal homoclinic return

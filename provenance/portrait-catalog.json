@@ -1,0 +1,620 @@
+{
+  "schema": 1,
+  "scope": "Current presentation portraits, rendered from archived counts or numerical states. Original figures and numerical packets are not overwritten.",
+  "rows": [
+    {
+      "id": "icosahedral",
+      "title": "Icosahedral Gaussian flow",
+      "group": "Constructed systems",
+      "report": "docs/icosahedral-flow.md",
+      "source_portrait": "docs/assets/icosahedral-177.png",
+      "description": "Cases 177 and 183 are three-state autonomous flows. Long integrations and independent solvers support chaotic motion; absorbing balls and local equilibria are interval certified. The directed geometric skeleton has a known integrable counterpart.",
+      "panels": [
+        {
+          "label": "177",
+          "source": "results/icosahedral-flow/icosa-final/portrait-177.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "183",
+          "source": "results/icosahedral-flow/icosa-final/portrait-183.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "featured": true,
+      "coordinates": "Full three-state coordinates; archived orthographic cameras."
+    },
+    {
+      "id": "tetrahedral",
+      "title": "Tetrahedral Gaussian flow",
+      "group": "Constructed systems",
+      "report": "docs/tetrahedral-flow.md",
+      "source_portrait": "docs/assets/tetrahedral-flow.png",
+      "description": "Cases 421 and 565 have a stable central equilibrium and sustained irregular outer motion. Three-dimensional tetrahedral chaos is established prior work.",
+      "panels": [
+        {
+          "label": "421",
+          "source": "results/unexpected-search/visuals/tetrahedral-flow-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "565",
+          "source": "results/unexpected-search/visuals/tetrahedral-vortex-565-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Full three-state coordinates; archived orthographic cameras."
+    },
+    {
+      "id": "gaussian-vortex",
+      "title": "Localized Gaussian vortices",
+      "group": "Constructed systems",
+      "report": "docs/gaussian-vortex.md",
+      "source_portrait": "docs/assets/gaussian-vortex-triskelion.png",
+      "description": "Case 77 survives a 30,000-unit spectrum and independent integration. A competing periodic orbit and resemblance to known threefold geometries limit interpretation.",
+      "panels": [
+        {
+          "label": "77",
+          "source": "results/gaussian-vortex/render-histogram.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Full three-state coordinates; archived orthographic camera."
+    },
+    {
+      "id": "twist",
+      "title": "Dissipative three-axis twist map",
+      "group": "Constructed systems",
+      "report": "docs/twist-geometry.md",
+      "source_portrait": "docs/assets/twist-folded-sail.png",
+      "description": "Cases 1709 and 3254 retain positive finite-time growth under long and high-precision controls. The first case also has a regular regime.",
+      "panels": [
+        {
+          "label": "1709",
+          "source": "results/twist-geometry/render-1709.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "3254",
+          "source": "results/twist-geometry/render-3254.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Full three-state coordinates; archived orthographic cameras."
+    },
+    {
+      "id": "raar",
+      "title": "RAAR between spatial circles",
+      "group": "Numerical algorithms",
+      "report": "docs/raar-symbolic-dynamics.md",
+      "source_portrait": "docs/assets/raar-circles-geometry.png",
+      "description": "Case 1051 has a certified symbolic invariant set with entropy at least log(2)/49 per iteration. Attraction of that set is unproved. Case 1483 is a numerical companion.",
+      "panels": [
+        {
+          "label": "1051",
+          "source": "results/raar-circles/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 0
+        },
+        {
+          "label": "1483",
+          "source": "results/raar-circles/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 1
+        }
+      ],
+      "featured": true,
+      "coordinates": "Full spatial state (x, y, z); archived orthographic cameras."
+    },
+    {
+      "id": "anderson",
+      "title": "Scalar iteration with acceleration memory",
+      "group": "Numerical algorithms",
+      "report": "docs/anderson-memory.md",
+      "source_portrait": "docs/assets/anderson-memory.png",
+      "description": "Plain scalar iteration is globally convergent for the two selected maps. Regularized three-history acceleration instead produces persistent irregular memory states, checked at 80 and 110 digits.",
+      "panels": [
+        {
+          "label": "54",
+          "source": "results/unexpected-search/visuals/anderson-54-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "449",
+          "source": "results/unexpected-search/visuals/anderson-449-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "featured": true,
+      "coordinates": "Three-history state; archived orthographic cameras."
+    },
+    {
+      "id": "rk45",
+      "title": "RK45 step-size controller",
+      "group": "Numerical algorithms",
+      "report": "docs/rk45-oscillator.md",
+      "source_portrait": "docs/assets/rk45-oscillator-geometry.png",
+      "description": "The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.",
+      "panels": [
+        {
+          "label": "335",
+          "source": "results/rk45-controller/oscillator/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 0
+        },
+        {
+          "label": "448",
+          "source": "results/rk45-controller/oscillator/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 1
+        }
+      ],
+      "featured": true,
+      "coordinates": "Position / atol, velocity / atol, proposed step; archived orthographic cameras."
+    },
+    {
+      "id": "rk23",
+      "title": "RK23 step-size controller",
+      "group": "Numerical algorithms",
+      "report": "docs/rk23-oscillator.md",
+      "source_portrait": "docs/assets/rk23-oscillator-geometry.png",
+      "description": "The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.",
+      "panels": [
+        {
+          "label": "381",
+          "source": "results/rk23-controller/oscillator/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 0
+        },
+        {
+          "label": "883",
+          "source": "results/rk23-controller/oscillator/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 1
+        }
+      ],
+      "featured": false,
+      "coordinates": "Position / atol, velocity / atol, proposed step; archived orthographic cameras."
+    },
+    {
+      "id": "yogi-tanh",
+      "title": "Smooth Yogi memory",
+      "group": "Numerical algorithms",
+      "report": "docs/yogi-tanh.md",
+      "source_portrait": "docs/assets/yogi-tanh-geometry.png",
+      "description": "The published tanh variant produces two positive finite growth rates in selected scalar-quadratic regimes. Independent high-precision and TensorFlow controls support the calculations.",
+      "panels": [
+        {
+          "label": "2850",
+          "source": "results/yogi-tanh/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 0
+        },
+        {
+          "label": "39",
+          "source": "results/yogi-tanh/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 1
+        }
+      ],
+      "featured": true,
+      "coordinates": "Normalized optimizer state (x, m, v); archived orthographic cameras."
+    },
+    {
+      "id": "yogi-arc",
+      "title": "Yogi parameter-plane candidate",
+      "group": "Numerical algorithms",
+      "report": "docs/yogi-parameter-plane.md",
+      "source_portrait": "docs/assets/yogi-feathered-arc.png",
+      "description": "Case 670 is retained after five million steps and independent controls. Case 125 has stronger evidence for a second expanding direction; their rates remain finite-time quantities.",
+      "panels": [
+        {
+          "label": "670",
+          "source": "results/yogi-plane/plane-arc02/portrait-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Normalized optimizer state (x, m, v); archived orthographic camera."
+    },
+    {
+      "id": "yogi",
+      "title": "Yogi memory",
+      "group": "Numerical algorithms",
+      "report": "docs/yogi-geometry.md",
+      "source_portrait": "docs/assets/yogi-geometry.png",
+      "description": "Cases 44 and 7590 are visually distinct numerical regimes of the same published optimizer. Initialization and precision controls are retained in the report.",
+      "panels": [
+        {
+          "label": "44",
+          "source": "results/yogi-geometry/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 0
+        },
+        {
+          "label": "7590",
+          "source": "results/yogi-geometry/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 1
+        }
+      ],
+      "coordinates": "Normalized optimizer state (x, m, v); archived orthographic cameras."
+    },
+    {
+      "id": "yogi-expansion",
+      "title": "Yogi: additional expanding regimes",
+      "group": "Numerical algorithms",
+      "report": "docs/yogi-parameter-plane.md",
+      "source_portrait": "docs/assets/yogi-two-directions.png",
+      "description": "Cases 4214 and 125 have numerical evidence for two expanding directions. Window lengths, library differences and branch discontinuities are reported separately.",
+      "panels": [
+        {
+          "label": "4214",
+          "source": "results/yogi-geometry/previews/case-4214-view-1.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "125",
+          "source": "results/yogi-plane/plane-preview/case-125-view-1.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Normalized optimizer states; archived preview cameras. Panels have separate scales.",
+      "additional_report": "docs/yogi-geometry.md"
+    },
+    {
+      "id": "adamax",
+      "title": "Adamax memory",
+      "group": "Numerical algorithms",
+      "report": "docs/adamax-geometry.md",
+      "source_portrait": "docs/assets/adamax-geometry.png",
+      "description": "Four-million-step, high-precision and PyTorch controls support the selected regimes. Case 4099 coexists with two reflected periodic orbits.",
+      "panels": [
+        {
+          "label": "847",
+          "source": "results/adamax-geometry/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 0
+        },
+        {
+          "label": "4099",
+          "source": "results/adamax-geometry/render/portrait-histograms.npz",
+          "key": "histograms",
+          "mode": "histogram",
+          "index": 1
+        }
+      ],
+      "coordinates": "Normalized optimizer state; archived orthographic cameras."
+    },
+    {
+      "id": "adabelief",
+      "title": "AdaBelief memory",
+      "group": "Numerical algorithms",
+      "report": "docs/adabelief-quadratic.md",
+      "source_portrait": "docs/assets/adabelief-candidate.png",
+      "description": "A scalar quadratic objective supports irregular full optimizer states at the selected memory parameters. Finite-time numerical evidence is separated from convergence and novelty claims.",
+      "panels": [
+        {
+          "label": "beta1 = 0.52, beta2 = 0.15",
+          "source": "results/adabelief-quadratic/long/run-000.npz",
+          "key": "tail",
+          "mode": "points",
+          "transform": "identity"
+        }
+      ],
+      "coordinates": "Normalized state (x, m, s); equal displayed coordinate units."
+    },
+    {
+      "id": "motor-four",
+      "title": "Four motor rows",
+      "group": "Physical and biological models",
+      "report": "docs/motor-four-b-study.md",
+      "source_portrait": "docs/assets/motor-b-regimes.gif",
+      "description": "At fixed mechanical parameters, b=1.5 gives a narrow braid and b=1.545 a broader regime. Long full-spectrum integrations support chaos in both; the displayed geometry is a projection of an eleven-dimensional flow.",
+      "panels": [
+        {
+          "label": "b = 1.500",
+          "source": "results/motor-four-b-study/motor-four-b-regimes/display-0.npz",
+          "key": "points",
+          "mode": "points",
+          "transform": "identity",
+          "mark": "line"
+        },
+        {
+          "label": "b = 1.545",
+          "source": "results/motor-four-b-study/motor-four-b-regimes/display-1.npz",
+          "key": "points",
+          "mode": "points",
+          "transform": "identity",
+          "mark": "line"
+        }
+      ],
+      "featured": true,
+      "coordinates": "Three orthonormal displacement contrasts; final 1,200 saved time units; common scale.",
+      "common_scale": true
+    },
+    {
+      "id": "motor-five",
+      "title": "Five motor rows",
+      "group": "Physical and biological models",
+      "report": "docs/motor-five-geometry.md",
+      "source_portrait": "docs/assets/motor-five-ribbon.gif",
+      "description": "The same saved fourteen-dimensional trajectory is shown in two projections of its four displacement contrasts. Neither view defines a three-dimensional embedding.",
+      "panels": [
+        {
+          "label": "Contrasts 1, 2, 3",
+          "source": "results/motor-five-geometry/rotation/display.npz",
+          "key": "contrasts",
+          "mode": "points",
+          "transform": "identity",
+          "columns": [
+            0,
+            1,
+            2
+          ],
+          "mark": "line"
+        },
+        {
+          "label": "Contrasts 1, 2, 4",
+          "source": "results/motor-five-geometry/rotation/display.npz",
+          "key": "contrasts",
+          "mode": "points",
+          "transform": "identity",
+          "columns": [
+            0,
+            1,
+            3
+          ],
+          "mark": "line"
+        }
+      ],
+      "coordinates": "Fourier displacement contrasts; final 800 saved time units."
+    },
+    {
+      "id": "motor-three-asymmetric",
+      "title": "Three motor rows with unequal rates",
+      "group": "Physical and biological models",
+      "report": "docs/motor-asymmetry-geometry.md",
+      "source_portrait": "docs/assets/motor-ribbon-rotation.gif",
+      "description": "Case 2566 is an eight-dimensional numerical candidate. The projection uses a fixed orthogonal rotation of the three cosine occupancies.",
+      "panels": [
+        {
+          "label": "2566",
+          "source": "results/motor-asymmetry/long/case-2566.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "motor_cosine",
+          "time_key": "time",
+          "last_duration": 600,
+          "stride": 2,
+          "mark": "line"
+        }
+      ],
+      "coordinates": "Rotated cosine occupancies; final 600 saved time units; stride 2."
+    },
+    {
+      "id": "motor-eight",
+      "title": "Eight motor rows: periodic and irregular motion",
+      "group": "Physical and biological models",
+      "report": "docs/motor-activity-continuation.md",
+      "source_portrait": "docs/assets/motor-regimes-rotation.gif",
+      "description": "A five-cluster periodic attractor is certified in all 23 state dimensions. The irregular comparison has six positive finite-time exponents over 20,000 units; it is not a certified chaotic attractor.",
+      "panels": [
+        {
+          "label": "Periodic orbit",
+          "source": "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz",
+          "key": "full_states",
+          "mode": "points",
+          "transform": "identity",
+          "columns": [
+            16,
+            17,
+            8
+          ],
+          "mark": "line"
+        },
+        {
+          "label": "Irregular trajectory",
+          "source": "results/motor-activity-continuation/cpu/run-01/block-16.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "identity",
+          "columns": [
+            16,
+            17,
+            8
+          ],
+          "mark": "points"
+        }
+      ],
+      "featured": true,
+      "coordinates": "Physical coordinates (X0, X1, s0) of the 23D model; common scale.",
+      "common_scale": true,
+      "additional_report": "docs/motor-five-cycle-certificate.md"
+    },
+    {
+      "id": "motor-three",
+      "title": "Three symmetric motor rows",
+      "group": "Physical and biological models",
+      "report": "docs/motor-rows-gpu-survey.md",
+      "source_portrait": "results/motor-rows/cpu-candidate-N3-783.gif",
+      "description": "Case 783 has an independently computed eight-dimensional spectrum with one positive and one near-zero rate. This image shows the three sine occupancies.",
+      "panels": [
+        {
+          "label": "783",
+          "source": "results/motor-rows/cpu-candidate-N3-783.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "identity",
+          "columns": [
+            3,
+            4,
+            5
+          ],
+          "time_key": "time",
+          "after": 200,
+          "mark": "points"
+        }
+      ],
+      "coordinates": "Sine occupancies (s0, s1, s2); a projection of the 8D flow."
+    },
+    {
+      "id": "motor-pair",
+      "title": "Motor-pair model",
+      "group": "Physical and biological models",
+      "report": "docs/motor-pair-gpu-survey.md",
+      "source_portrait": "docs/assets/motor_pair_candidate_rotation.gif",
+      "description": "Case 444 retains positive growth in a long independent CPU calculation. The neutral rate still needs convergence; priority and asymptotic attraction remain unresolved.",
+      "panels": [
+        {
+          "label": "444",
+          "source": "results/motor-pair/gpu-cpu-444-extended.npz",
+          "key": "balanced_states",
+          "mode": "points",
+          "transform": "motor_pair",
+          "time_key": "time",
+          "last_duration": 2000,
+          "mark": "points"
+        }
+      ],
+      "coordinates": "Physical coordinates (h, Y, Z); final 2,000 saved time units."
+    },
+    {
+      "id": "synchronematic",
+      "title": "Synchronematic oscillators",
+      "group": "Physical and biological models",
+      "report": "docs/synchronematic-research.md",
+      "source_portrait": "docs/assets/synchronematic_projection_rotation.gif",
+      "description": "The four-particle candidate is displayed through gauge-invariant collective observables. These do not form an embedding of the seven-dimensional reduced angular dynamics.",
+      "panels": [
+        {
+          "label": "Four particles",
+          "source": "results/synchronematic/n4-cpu-extended/trace.npz",
+          "key": "state",
+          "mode": "points",
+          "transform": "synchronematic",
+          "mark": "points"
+        }
+      ],
+      "coordinates": "Collective observables (Re Q, Im Q, C), not state coordinates."
+    },
+    {
+      "id": "lce-slider",
+      "title": "Light-driven elastomer slider",
+      "group": "Physical and biological models",
+      "report": "docs/lce-slider-research.md",
+      "source_portrait": "docs/assets/lce_slider_evidence.png",
+      "description": "The retained regime belongs to a three-state relay model. The report separates transverse growth estimates, switching assumptions and known related mechanisms.",
+      "panels": [
+        {
+          "label": "Relay model",
+          "source": "results/lce-slider/geometry-check/trace.npz",
+          "key": "trajectory",
+          "mode": "points",
+          "transform": "lce",
+          "mark": "line"
+        }
+      ],
+      "coordinates": "Scaled full state (u/q, v/(sqrt(k) q), phi/q); scaling is explicitly physical."
+    },
+    {
+      "id": "two-strain",
+      "title": "Two-strain epidemic model",
+      "group": "Physical and biological models",
+      "report": "docs/two-strain-research.md",
+      "source_portrait": "docs/assets/two_strain_rotation.gif",
+      "description": "The numerical five-state regime contains unequal outbreaks and extremely small prevalence. Related epidemic chaos is established; physical interpretation requires the qualifications in the report.",
+      "panels": [
+        {
+          "label": "Physical fractions",
+          "source": "results/two-strain/candidate-render-trace.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "two_strain",
+          "mark": "line"
+        }
+      ],
+      "coordinates": "Projection (S, 1000 I1, 1000 I2); explicit axis units, not an embedding."
+    },
+    {
+      "id": "optical-relay",
+      "title": "Coupled optical operators",
+      "group": "Physical and biological models",
+      "report": "docs/coupled-operators-research.md",
+      "source_portrait": "docs/assets/coupled_operators_1026.gif",
+      "description": "These six-state relay histories have persistent irregular motion in the recorded observation. Later continuations, captures and source-model assumptions are retained in the report.",
+      "panels": [
+        {
+          "label": "1026",
+          "source": "results/light-operators/coupled-cpu-1026.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "optical",
+          "mark": "points"
+        },
+        {
+          "label": "3054",
+          "source": "results/light-operators/coupled-cpu-3054.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "optical",
+          "mark": "points"
+        }
+      ],
+      "coordinates": "Projection (x_minus, x_plus, y_minus - y_plus); all saved adaptive event/QR knots.",
+      "sampling_note": "The knots are nonuniform in time. Point density is sampling density, not an invariant measure."
+    },
+    {
+      "id": "optical-smooth",
+      "title": "Smooth optical feedback",
+      "group": "Physical and biological models",
+      "report": "docs/coupled-operators-research.md",
+      "source_portrait": "docs/assets/coupled_operators_smooth_coexistence.gif",
+      "description": "At the same logistic-width parameters, saved starts produce regular and irregular histories. This is a finite coexistence observation, not an asymptotic attractor classification.",
+      "panels": [
+        {
+          "label": "Irregular history",
+          "source": "results/light-operators/smooth-section-w004.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "optical",
+          "last_count": 12000,
+          "mark": "line"
+        },
+        {
+          "label": "Regular history",
+          "source": "results/light-operators/smooth-section-w004-regular.npz",
+          "key": "states",
+          "mode": "points",
+          "transform": "optical",
+          "last_count": 760,
+          "mark": "line"
+        }
+      ],
+      "coordinates": "Projection (x_minus, x_plus, y_minus - y_plus); common scale.",
+      "common_scale": true
+    }
+  ]
+}

@@ -10,10 +10,6 @@ An exact [density-PDE lifting argument](motor-pde-lifting.md) transfers the loca
 
 ![Archived periodic motion and certified transverse root brackets](assets/motor-cycle-certificate.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/72ce491eca490b735aaa7107448aefac7e12698d/docs/assets/motor-cycle-certificate.png)).*
-<!-- /drawing-date -->
-
 The trajectory panel uses an approximate archived orbit for illustration. The spectral panel shows certified transverse root brackets. The drawing of the trajectory is not an interval enclosure and is not used to prove the statements.
 
 ## Model and exact parameter meanings

@@ -5,7 +5,6 @@ import argparse
 import hashlib
 import json
 import re
-from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / 'provenance/render-dates.json'
@@ -26,12 +25,16 @@ def image_path(document, raw):
     return relative
 
 
-def caption(row):
+def caption(row, ledger):
     date.fromisoformat(row['date'])
+    if row.get('source_portrait'):
+        source = ledger['images'][row['source_portrait']]
+        text = f"*First recorded portrait: **{source['date']}**"
+        if source['date'] != row['date']:
+            text += f" · Current rendering: {row['date']}"
+        return '\n\n<!-- drawing-date -->\n' + text + '.*\n<!-- /drawing-date -->'
     if row['kind'] == 'first_recorded':
-        evidence = row['evidence']
-        link = f"{evidence['repository']}/blob/{evidence['commit']}/{quote(evidence['path'])}"
-        text = f"*First recorded drawing: **{row['date']}** ([record]({link})).*"
+        text = f"*First recorded portrait: **{row['date']}**.*"
     elif row['kind'] == 'rendered':
         text = f"*Drawn: **{row['date']}**.*"
     else:
@@ -60,10 +63,13 @@ def synchronize(ledger, check):
             if path is None:
                 return match[0]
             if path not in ledger['images']:
-                missing.append(path)
+                if name in ledger['caption_documents']:
+                    missing.append(path)
+                return match[0]
+            if ledger['images'][path].get('role') != 'portrait':
                 return match[0]
             count += 1
-            return match[0] + caption(ledger['images'][path])
+            return match[0] + caption(ledger['images'][path], ledger)
 
         updated = IMAGE.sub(replace, bare)
         if updated != original:
@@ -87,6 +93,8 @@ def main():
     record.add_argument('image', help='Repository-relative image path.')
     record.add_argument('--date', help='Earlier drawing date, YYYY-MM-DD; requires evidence.')
     record.add_argument('--evidence', help='Render log or other source for an explicitly supplied date.')
+    record.add_argument('--role', choices=['portrait', 'diagnostic'], default='portrait')
+    record.add_argument('--source-portrait', help='Registered earlier portrait of the same study; preserves its first recorded date.')
     sub.add_parser('sync', help='Update dated captions in the README, gallery and current research pages.')
     sub.add_parser('check', help='Fail if an image or caption lacks its registered date.')
     args = parser.parse_args()
@@ -103,6 +111,8 @@ def main():
         return
     if args.date and not args.evidence:
         parser.error('--date requires --evidence; do not guess an earlier drawing date.')
+    if args.source_portrait and args.source_portrait not in ledger['images']:
+        parser.error('--source-portrait must name an existing registered image.')
     now = datetime.now().astimezone()
     drawn = date.fromisoformat(args.date) if args.date else now.date()
     if drawn > now.date():
@@ -110,10 +120,13 @@ def main():
     ledger['images'][key] = {
         'date': drawn.isoformat(),
         'kind': 'rendered',
+        'role': args.role,
         'recorded_at': now.isoformat(),
         'evidence': args.evidence or 'Recorded immediately after the first successful render.',
         'sha256_at_registration': hashlib.sha256(path.read_bytes()).hexdigest(),
     }
+    if args.source_portrait:
+        ledger['images'][key]['source_portrait'] = args.source_portrait
     ledger['images'] = dict(sorted(ledger['images'].items()))
     REGISTRY.write_text(json.dumps(ledger, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"Recorded drawing date {drawn.isoformat()}: {key}")

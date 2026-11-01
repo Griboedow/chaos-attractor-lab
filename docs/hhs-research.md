@@ -4,10 +4,6 @@
 
 ![Uncoupled control, full spectrum and follow-up results](assets/hhs-controls.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ecfd8a5672442c9b884e839b2826f2777d68207e/docs/assets/hhs-controls.png)).*
-<!-- /drawing-date -->
-
 The short-time estimates in the lower panels are not a chaos map. The right panel includes all fifteen preliminary candidates: they all completed follow-up and lost retention. The separate incomplete trajectory was selected by its high mean, not by the preliminary four-window criterion.
 
 ## Model, reference convention, and physical scope
@@ -78,10 +74,6 @@ Its finite-time full spectrum is approximately
 The sum agrees with the integrated divergence within `1.4e-9`. The four leading window estimates are approximately `(-0.0005825,-0.0010714,0.0010019,0.0009853)`. They coincide with an independently propagated, normalized flow direction within `3.2e-14`. Their small positive values reflect finite-window changes of speed along a neutral direction, not an independent unstable direction.
 
 ![Full-spectrum neutral control and independently closed cycle](assets/hhs-neutral-control.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ecfd8a5672442c9b884e839b2826f2777d68207e/docs/assets/hhs-neutral-control.png)).*
-<!-- /drawing-date -->
 
 Shooting closes a stable periodic orbit with period **12.4662339230156** and dominant transverse multiplier **0.00529688344**. Newton closure is `3.7e-15`, and a separate original-coordinate Radau integration closes within `1.1e-14`. The full trajectory and upward `M=Mref` section crossings are saved. The picture is a two-coordinate projection of the five-state cycle.
 

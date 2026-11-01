@@ -5,7 +5,7 @@ The asymmetry survey finds a more legible ribbon-like numerical candidate in the
 ![Rotating numerical motor ribbon](assets/motor-ribbon-rotation.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-31** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/cc4ac5c77a48cab8f3520d22bb645f64336e4569/docs/assets/motor-ribbon-rotation.gif)).*
+*First recorded portrait: **2026-10-31**.*
 <!-- /drawing-date -->
 
 The camera rotates around the final 600 units of one saved trajectory. Coordinates are a fixed orthogonal rotation of the literal cosine components `(c0,c1,c2)`. Color is their mean, and coordinate units remain equal. The displayed segment uses every second saved sample, at spacing `0.04`. There is no nonlinear embedding, wrapping, smoothing, or simulated deformation of the trajectory. [Poster](assets/motor-ribbon-poster.png) · [Rendering provenance](../results/motor-asymmetry/animation/animation.json).
@@ -28,10 +28,6 @@ For each `b`, the follow-up takes the first retained start per parameter tuple, 
 | 2935 | 1.5 | .006423, −.222359, −.229170 | Leading growth loses persistence across windows |
 
 ![Six stratified cases in three physical views](assets/motor-asymmetry-gallery.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-31** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/cc4ac5c77a48cab8f3520d22bb645f64336e4569/docs/assets/motor-asymmetry-gallery.png)).*
-<!-- /drawing-date -->
 
 ## Longer numerical checks
 
@@ -61,10 +57,6 @@ The maximum observed motor-disk radius squared is `1.366514`, below the invarian
 
 ![Rigid camera changes and return sections](assets/motor-ribbon-camera-audit.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-31** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/cc4ac5c77a48cab8f3520d22bb645f64336e4569/docs/assets/motor-ribbon-camera-audit.png)).*
-<!-- /drawing-date -->
-
 This audit uses **all** 600,000 samples. The bottom panels display the unfiltered upward section; the scalar successive-return plot is not asserted to be a single-valued one-dimensional map. Multiple thin bands or apparent crossings in a projection do not establish knot type, branched-manifold topology, or inequivalence to a known attractor.
 
 ## Fresh starts and a local parameter neighborhood
@@ -76,10 +68,6 @@ Case 2742 uses `(rho,r,b)=(9.319877940708889,12.219982160401562,.7)`. Its prelim
 The 60,000-unit quotient run gives leading means `(0.130689,0.001957)`. A continuation with another 1,000 warm-up units and **300,000 observed units** gives `(0.130440,0.002832)`. The second rate is positive in 11 of twelve consecutive 25,000-unit windows; its range is `[-0.005724,0.008940]`. This is evidence for a weak second expanding direction, with its asymptotic sign still unresolved. We do not classify the case as established hyperchaotic attraction.
 
 ![Second flow-quotient rate over consecutive long windows](../results/motor-three-transverse/motor-transverse-spectrum.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/62137bf53bfda3e4fc02b4033e595c8ae2930373/results/motor-three-transverse/motor-transverse-spectrum.png)).*
-<!-- /drawing-date -->
 
 Both runs use DOP853 with relative tolerance `2e-11`, absolute tolerance `2e-13`, maximum step `0.01`, and QR every `0.5` original time units. The transported flow agrees with the exact vector field to `7.0e-14`; the quotient sum plus the endpoint logarithmic speed ratio agrees with integrated divergence to `7.9e-14` per unit time. These checks validate the flow-direction removal numerically, not the infinite-time sign of the small rate. The continuation is not an independent initial-condition experiment.
 
@@ -94,10 +82,6 @@ All 160 trajectories finish. **All 32 anchor starts pass, and both starts pass a
 Seven full eight-direction DOP853 checks follow a selection declared before rendering: the anchor, four retained neighbors chosen for parameter-space coverage, and the lowest- and highest-rate nonretained controls. Each uses a further 200 warm-up and 3,000 observed units. The anchor's first three rates are `0.02156, -0.00013, -0.33300`. The four retained neighbors keep positive leading windows; the weak controls are deliberately included in the figure. In particular, case 86 has an imperfectly resolved neutral direction and is not classified as hyperchaotic.
 
 ![The ribbon and seven independently checked local cases](assets/motor-ribbon-neighborhood.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-31** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/22429e1baf74d149809fdb297bdac574e9de1264/docs/assets/motor-ribbon-neighborhood.png)).*
-<!-- /drawing-date -->
 
 The same literal coordinate projection, camera, color scale and equal-axis limits are used throughout. **The thin ribbon shape is sensitive to parameters:** several neighbors have broader triangular projections even though their numerical leading growth persists. A visually distinct projection alone is not a distinct attractor topology.
 

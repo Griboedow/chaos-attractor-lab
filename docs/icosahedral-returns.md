@@ -6,10 +6,6 @@ The novelty audit also found a closer predecessor: an integrable icosahedral sph
 
 ![Computed return images and input-output graphs for two narrow strips](assets/icosahedral-returns.png)
 
-<!-- drawing-date -->
-*Drawn: **2026-11-01**.*
-<!-- /drawing-date -->
-
 The dots are computed section crossings. Lines only connect samples. The targets are intentionally narrow; neither the displayed lines nor the shaded bands enclose behavior between samples. This is a diagnostic of the existing case 177, not a new attractor portrait.
 
 ## What was actually computed

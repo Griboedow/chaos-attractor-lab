@@ -4,10 +4,6 @@
 
 ![GPU survey and physical-domain controls](assets/epithelial_chain_audit.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/69b4da20bb8e4fc8c49e6f8eb77cbcd15e350e8c/docs/assets/epithelial_chain_audit.png)).*
-<!-- /drawing-date -->
-
 ## Exact discrete model
 
 The source couples overdamped vertex motion, an evolving rest length, and phosphorylated myosin. We use its discrete Eqs. (1–4), with fixed endpoints, rather than inventing a low-dimensional surrogate or discretizing its continuum approximation. The author manuscript [2], version 3, was downloaded; its equation page was visually checked. The source's geometric extension and elastic strain should not be conflated: the myosin feedback in Eq. (4) uses extension relative to the constant mean length.

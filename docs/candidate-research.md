@@ -6,10 +6,6 @@ Research log, 29 October 2026. This is an exploratory investigation, not a claim
 
 ![Quantum-neuron controls and candidate follow-up](assets/candidate_research.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/88d76526b99f8b3d54abbbadde1c5e4a3c90bc2c/docs/assets/candidate_research.png)).*
-<!-- /drawing-date -->
-
 ## Candidate selection and prior work
 
 | Candidate | What the checked literature establishes | Decision |

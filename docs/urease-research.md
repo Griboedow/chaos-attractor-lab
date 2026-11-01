@@ -4,10 +4,6 @@ Research note, 30 October 2026. **No validated chaotic candidate emerged.** All 
 
 ![Regular source control, full-model survey and independently closed stable cycles](assets/urease_survey.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/d73464c9e7d1dbfec35cc9ae377e9a1d42f29e87/docs/assets/urease_survey.png)).*
-<!-- /drawing-date -->
-
 ## The model being tested
 
 We implement the original four-species deterministic network from Straube et al. [1,2], before their additional quasi-steady reductions. Urea `S` and protons `H` exchange with maintained external reservoirs; ammonia `P` and ammonium `Q` leave at a common product rate `k`. The reaction rates and equations are

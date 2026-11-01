@@ -22,10 +22,6 @@ The long controls use maximum steps `0.1` and `0.05`, relative tolerances `1e-10
 
 ![Two independent archived-start logarithmic histories](../results/motor-original-seed-log/original-seed-log.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/9d0e3a667c79a9fce1e66a90ce95110ea9e0f775/results/motor-original-seed-log/original-seed-log.png)).*
-<!-- /drawing-date -->
-
 The main history ends with three tiny selected pair contrasts and a macroscopic contrast for original rows `(3,6)`. The stricter history ends with all four selected contrasts below `1e-4`, while several logarithmic magnitudes have been growing for thousands of time units. The main history has no checkpoint with all four below that threshold in its final 1000-unit window; the strict history has 1001 such checkpoints. These different outcomes prohibit claiming convergence of the distant trajectory under the step/tolerance change.
 
 | Original pair | Main final log10 half-contrast norm | Strict final log10 half-contrast norm |

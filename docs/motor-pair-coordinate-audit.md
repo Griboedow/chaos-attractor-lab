@@ -6,10 +6,6 @@ This is a numerical coordinate-precision diagnostic in the existing model, not a
 
 ![Small contrasts, saddle visits and seed-dependent departure](../results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/precision-diagnostic.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/491f87585b6ea563eca1c5e5e1004f679689e3f8/results/motor-pair-coordinates/seed-1e-12-step-0p1-extended/precision-diagnostic.png)).*
-<!-- /drawing-date -->
-
 The top panel connects checkpoints sampled once per reference period and at integration-block endpoints. The middle panel uses approximate phase/permutation matching to the archived periodic saddle; its floor near $10^{-9}$ is dominated by interpolation. The bottom panel compares two nonzero initial seeds. The figure does not provide interval enclosures.
 
 ## An invertible change of all 23 coordinates

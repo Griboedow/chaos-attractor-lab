@@ -6,10 +6,6 @@ Research notebook, 29 October 2026. This follows the [energy argument for the ph
 
 ![Linear stability and independent trajectories of an assumed optical-feedback model](assets/photofeedback_stability.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8a85fe10791124d745c6c7fcb079c258c4cb19ad/docs/assets/photofeedback_stability.png)).*
-<!-- /drawing-date -->
-
 ## The missing feedback state
 
 The moving-coil experiment of Dinavahi and Harris [1] uses optical feedback: a moving LED changes the photoresistor branch, which redistributes current. Their uncoupled mechanical equation has positive damping. At constant current, or when current is an instantaneous function of height alone, its force depends only on position and

@@ -7,6 +7,22 @@
   This records the actual local date and timestamp; use `--date` and `--evidence`
   when recording an earlier render with evidence. Never infer a drawing date
   from a clone, checkout, copy timestamp or scientific publication date.
+- Dates belong to attractor portraits, not diagnostic plots. Register spectra,
+  parameter scans and return diagrams with `--role diagnostic` when a record is
+  useful; do not add date captions beside them.
+- Keep the main README focused on key findings, their evidence level and links
+  to child reports. Use concise academic prose; omit promotional language,
+  conversational progress logs and repeated qualifications.
+- Group main-page findings under descriptive section headings, with a
+  subheading for each study. Use slow camera rotations (about 24 seconds per
+  revolution) from `tools/animate_portraits.py` on the main page and link each
+  to its static portrait. Keep trajectories and spatial scales fixed during
+  rotation; retain static images in the gallery.
+- Use `provenance/portrait-catalog.json` and `tools/render_portraits.py` for the
+  current README and gallery portraits. Keep the common layout and palette.
+  Render from numerical data, identify projections and physical unit changes,
+  and preserve archived originals. Use `--source-portrait` when a new
+  presentation asset depicts an already registered study.
 - Add new visual candidates to `docs/attractor-gallery.md`, including their
   evidence/status link. Keep paired cases identifiable. Preserve the first
   drawing date when changing the camera, resolution or rendering the same asset

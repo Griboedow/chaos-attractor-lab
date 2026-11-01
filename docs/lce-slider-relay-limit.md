@@ -6,10 +6,6 @@ This continues the [published-model investigation](lce-slider-research.md) and [
 
 ![Intensity continuation, bias survey and independent return sections](assets/lce_slider_relay_limit.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/a22a33a6c0e3faac84d4c0c1d0ecf81cfc1ba894/docs/assets/lce_slider_relay_limit.png)).*
-<!-- /drawing-date -->
-
 ## Exact scaling, singular physical limit
 
 Starting from

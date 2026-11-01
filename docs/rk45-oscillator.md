@@ -5,7 +5,7 @@
 ![Fixed actual-state clouds viewed by rotating rigid cameras](assets/rk45-oscillator-rotation.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/990d8e8a138a924679ba97c0f8a859bf7b22bba2/docs/assets/rk45-oscillator-rotation.gif)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
 [Large portrait](assets/rk45-oscillator-geometry.png) · [Initial-volume approach](assets/rk45-oscillator-approach.png) · [Independent evidence](assets/rk45-oscillator-evidence.png) · [Actual-library geometry](assets/rk45-library-clouds.png) · [Exact map and solution bounds](rk45-controller-structure.md) · [Prior-art and equivalence audit](rk45-priority.md)
@@ -43,10 +43,6 @@ An additional unaligned comparison uses 200,000 late states per method. Median a
 
 ![Same cameras and scales for transcription and actual SciPy](assets/rk45-library-clouds.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/990d8e8a138a924679ba97c0f8a859bf7b22bba2/docs/assets/rk45-library-clouds.png)).*
-<!-- /drawing-date -->
-
 | Case | Minimum leading rate, 70 digits | 90 digits | Actual SciPy |
 | --- | ---: | ---: | ---: |
 | D335 | 0.010076657 | 0.010662494 | 0.010387770 |
@@ -57,10 +53,6 @@ An additional unaligned comparison uses 200,000 late states per method. Median a
 For D335, the minimum **second** rate is 0.003728918, 0.001968641, 0.001327831, 0.002438311 in the five-million-step, 70-digit, 90-digit and actual-library checks respectively. All are positive. This is numerical support for hyperchaos, not a theorem about infinite-time Lyapunov exponents.
 
 ![Long-run and independent checks](assets/rk45-oscillator-evidence.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/990d8e8a138a924679ba97c0f8a859bf7b22bba2/docs/assets/rk45-oscillator-evidence.png)).*
-<!-- /drawing-date -->
 
 ## Two rosettes, one orbit
 
@@ -84,10 +76,6 @@ The 252 runs include four radii (0.01, 1, 100, 1e6) at six phases, six alternati
 At exact zero, proposed steps grow tenfold until the declared state cutoff is reached. This expected control excludes a compact global attractor for the unrestricted full-state map.
 
 ![Every initial point is retained in the approach view](assets/rk45-oscillator-approach.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/990d8e8a138a924679ba97c0f8a859bf7b22bba2/docs/assets/rk45-oscillator-approach.png)).*
-<!-- /drawing-date -->
 
 For each main portrait, 32,768 scrambled Sobol starts fill actual `q,p in [-4,4]`, `h in [0.25,8]`. All 65,536 complete 1,024 steps. Median distance to an independent 200,000-point reference falls from 2.65124 to 0.00242786 for D335, and from 2.42906 to 0.00131081 for D448. Reference half-cloud medians are 0.00325826 and 0.00188043. These are distances to finite samples, not certified distances to an invariant set or basin-volume estimates.
 
