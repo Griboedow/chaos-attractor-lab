@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "interval_audit": {
+    "status": "passed",
+    "runs": [
+      {
+        "run": "product-larger988-continuation02",
+        "report_sha256": "fc414a71f45ce75b6bdcd675980eab55e0a6edec09a19ed0bd5d931cc5bf83d6",
+        "steps": 200,
+        "minimum_escape_gap": 0.00011729734760020887,
+        "endpoint_distance_upper": 1.1198034420247118e-05,
+        "exact_chart_and_distance_audit": true,
+        "exact_trajectory_replay": true
+      },
+      {
+        "run": "product-larger988-independent02",
+        "report_sha256": "ef4ae9dca3b50ae77ecca53b32f787dbdcb58099184fd0692a2319c3832816c8",
+        "steps": 200,
+        "minimum_escape_gap": 0.00011729734760020887,
+        "endpoint_distance_upper": 1.1198034420258964e-05,
+        "exact_chart_and_distance_audit": true,
+        "exact_trajectory_replay": true
+      }
+    ],
+    "scope": "Exact rational audit of moving charts, initial graph-point enclosure, propagated errors, atlas escape and distance upper bounds; frozen-source replay of both interval expressions. The prior graph theorem is imported, and the reference state is numerical data, not a certified invariant-set point."
+  },
+  "numerical_verification": {
+    "status": "passed",
+    "probe_replays": [
+      {
+        "file": "branch-long.npz",
+        "arrays": 5,
+        "sha256": "3b9ea7750d647766f1f6bd53d01105776ca4344c0c9c268f5bcbad8e9d601b5a",
+        "same_environment_replay": true
+      },
+      {
+        "file": "distances.npz",
+        "arrays": 3,
+        "sha256": "89b755b84c0e2eb1f664da3383aa83296b1c3e03affdd0e52eccbadde1dbfb59",
+        "same_environment_replay": true
+      },
+      {
+        "file": "nearby-cohorts.npz",
+        "arrays": 7,
+        "sha256": "b849a956d00510053ecfdf93f6ee4c0028b91c3b92ef6b0664334bd7d0358e19",
+        "same_environment_replay": true
+      },
+      {
+        "file": "unstable-fan.npz",
+        "arrays": 5,
+        "sha256": "592d8e60f7a4bbea3e431f13c00aaf2e3e93eac6ecea98e60ab6fa6a54f734e4",
+        "same_environment_replay": true
+      }
+    ],
+    "report_equal_except_runtime": true,
+    "recurrence_checks": [
+      {
+        "start": 0,
+        "replayed_steps": 1000000,
+        "first_block_distances_and_counts_exact": true,
+        "closest_state_distances_checked": true
+      },
+      {
+        "start": 1,
+        "replayed_steps": 1000000,
+        "first_block_distances_and_counts_exact": true,
+        "closest_state_distances_checked": true
+      }
+    ],
+    "independent_formula_probes": 180,
+    "maximum_formula_error": 3.469446951953614e-15,
+    "scope": "All branch/perturbation arrays replay bit for bit. Recurrence first blocks replay; all saved closest-state distances and cumulative counts are checked. Full-site nested reflections independently check floating formulas. These tests are not an infinite-time theorem."
+  },
+  "figure": {
+    "final_run": "product-larger988-render02",
+    "sha256": "3165b35d037ac524c0c1c9b209121273bcbb2160bc1052d1750d0dd6f5b837f1",
+    "visually_reviewed": true,
+    "previous_render_retained": true
+  },
+  "raw_files": 92,
+  "runs": 11,
+  "optional_arrays": 8,
+  "optional_bytes": 218252574,
+  "all_retained_and_cached_hashes_verified": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

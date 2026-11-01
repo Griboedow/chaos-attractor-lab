@@ -1,0 +1,230 @@
+{
+  "status": "completed",
+  "sources": {
+    "results\\product-symbolic\\runs\\product-coverings988-certificate04\\input.json": "d9187b678b84290dc111df6751b44109255bd1ec23f8e9163a13569437585eb2",
+    "results\\product-mechanism\\runs\\product-unstable-escape988-certificate06\\report.json": "7aeab686e43a54f4e6d80d9bfea0522fcb8a1f7d53d748ef4a4ef0b44ab11822",
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8"
+  },
+  "parameters": [
+    0.9268088431125507,
+    0.020935697765931374
+  ],
+  "samples_per_branch": 128,
+  "launch_magnitudes": [
+    1e-27,
+    1.4e-25
+  ],
+  "launch_digits": 100,
+  "high_precision_steps": 88,
+  "fan_steps": 2048,
+  "fan_distance": {
+    "median": 3.984514762006756e-05,
+    "q90": 0.0009638325014719701,
+    "q99": 0.0045199447255644815,
+    "maximum": 0.05672357712566945
+  },
+  "fan_checkpoints": {
+    "88": {
+      "median": 0.001263686919240256,
+      "q90": 0.0020334211226980103,
+      "q99": 0.0028665431168307205,
+      "maximum": 0.004858794366690826
+    },
+    "92": {
+      "median": 0.001414903357534193,
+      "q90": 0.0024731565566830276,
+      "q99": 0.005124755162191755,
+      "maximum": 0.006403518905145954
+    },
+    "104": {
+      "median": 0.0002775978434351651,
+      "q90": 0.001421850161597378,
+      "q99": 0.004795087844266858,
+      "maximum": 0.01329132354055217
+    },
+    "152": {
+      "median": 4.060920158028239e-05,
+      "q90": 0.0011146896329317065,
+      "q99": 0.004434511685494346,
+      "maximum": 0.007467039178313668
+    },
+    "344": {
+      "median": 3.105727865158962e-05,
+      "q90": 0.0006176767415443144,
+      "q99": 0.004231946699981953,
+      "maximum": 0.009767262838192365
+    },
+    "1112": {
+      "median": 4.515717498241017e-05,
+      "q90": 0.0014999770611284784,
+      "q99": 0.005093551015318372,
+      "maximum": 0.006662504914050779
+    },
+    "2136": {
+      "median": 3.404781002606972e-05,
+      "q90": 0.000792002070743016,
+      "q99": 0.0030326861355548813,
+      "maximum": 0.003953333893140722
+    }
+  },
+  "perturbation_protocol": {
+    "directions": 64,
+    "radii": [
+      1e-06,
+      0.0001,
+      0.01,
+      0.1
+    ],
+    "warm": 20000,
+    "count": 40000,
+    "tail": 4096,
+    "blocks": 10
+  },
+  "nearby": [
+    {
+      "radius": 1e-06,
+      "count": 64,
+      "positive_every_block": 64,
+      "leading_mean_range": [
+        0.24086159148498973,
+        0.26268786219060203
+      ],
+      "tail_distance": {
+        "median": 3.804359950559237e-05,
+        "q90": 0.0009131860110914581,
+        "q99": 0.0044738233886928115,
+        "maximum": 0.06527745256111539
+      },
+      "minimum_normalization": 0.8847123309681201
+    },
+    {
+      "radius": 0.0001,
+      "count": 64,
+      "positive_every_block": 64,
+      "leading_mean_range": [
+        0.24000702279501412,
+        0.26422473324062845
+      ],
+      "tail_distance": {
+        "median": 3.936834362379097e-05,
+        "q90": 0.0009244338501130195,
+        "q99": 0.004538580292495209,
+        "maximum": 0.03984285674463277
+      },
+      "minimum_normalization": 0.8732641154015447
+    },
+    {
+      "radius": 0.01,
+      "count": 64,
+      "positive_every_block": 64,
+      "leading_mean_range": [
+        0.23751926794292805,
+        0.2577103548353912
+      ],
+      "tail_distance": {
+        "median": 3.903336632127085e-05,
+        "q90": 0.0009208125345093961,
+        "q99": 0.004526236424516098,
+        "maximum": 0.06827384127150858
+      },
+      "minimum_normalization": 1.4671348513919817
+    },
+    {
+      "radius": 0.1,
+      "count": 64,
+      "positive_every_block": 64,
+      "leading_mean_range": [
+        0.24004094502826073,
+        0.26382382129802984
+      ],
+      "tail_distance": {
+        "median": 3.93476870852146e-05,
+        "q90": 0.0009513507354611477,
+        "q99": 0.004559242257390116,
+        "maximum": 0.05593510897362272
+      },
+      "minimum_normalization": 0.35814147556683534
+    }
+  ],
+  "long_branch": {
+    "indices": [
+      127,
+      255
+    ],
+    "warm": 20000,
+    "count": 1000000,
+    "mean_leading": [
+      0.2534994204262376,
+      0.2512415870173377
+    ],
+    "minimum_leading_block": [
+      0.24969696535763994,
+      0.24282973291548202
+    ],
+    "forward_distance": [
+      {
+        "median": 4.051995451444956e-05,
+        "q90": 0.0009503692899818073,
+        "q99": 0.004517225527761782,
+        "maximum": 0.37855550959539047
+      },
+      {
+        "median": 3.8925793333600206e-05,
+        "q90": 0.000940674669845687,
+        "q99": 0.00453954024727875,
+        "maximum": 0.10351538247594956
+      }
+    ],
+    "reverse_distance": [
+      {
+        "median": 5.9677767148222474e-05,
+        "q90": 0.001259066143233854,
+        "q99": 0.0056933602653016675,
+        "maximum": 0.108905263692188
+      },
+      {
+        "median": 6.022166291899719e-05,
+        "q90": 0.001280223740234251,
+        "q99": 0.005781307654089503,
+        "maximum": 0.121095572875269
+      }
+    ],
+    "reverse_control": {
+      "median": 6.0497689301786115e-05,
+      "q90": 0.0012703276225165556,
+      "q99": 0.005811812449243302,
+      "maximum": 0.04560602707128
+    },
+    "grid_origin": [
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "grid_width": 0.02,
+    "grid_comparison": [
+      {
+        "total_variation": 0.027792,
+        "reference_mass_in_shared_cells": 0.998729,
+        "branch_mass_in_shared_cells": 0.998583,
+        "reference_cells": 8328,
+        "branch_cells": 8390
+      },
+      {
+        "total_variation": 0.024554000000000003,
+        "reference_mass_in_shared_cells": 0.998678,
+        "branch_mass_in_shared_cells": 0.99857,
+        "reference_cells": 8328,
+        "branch_cells": 8370
+      }
+    ],
+    "grid_control": {
+      "total_variation": 0.026623,
+      "reference_mass_in_shared_cells": 0.998581,
+      "branch_mass_in_shared_cells": 0.998641,
+      "reference_cells": 8328,
+      "branch_cells": 8266
+    }
+  },
+  "seconds": 50.05814337730408,
+  "scope": "Finite numerical evidence for an unstable-core-in-larger-regime hypothesis. Eigenline launches approximate the certified local graph but do not certify its global manifold, attraction, recurrence, transitivity, or historical novelty."
+}

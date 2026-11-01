@@ -31,8 +31,12 @@ stable: arbitrarily nearby points leave its complete covering atlas. Six
 ordinary folds and two preimages of the normalization singularity are also
 certified. Numerical critical-set images and 1,452 parameter/start cohorts
 support a switching-and-folding explanation of the geometry, using established
-noninvertible-map concepts. A larger attracting set containing the certified
-subsystem is not established. A four-level companion produces layered arches
+noninvertible-map concepts. A validated continuation of an escaping unstable
+point reaches the numerical wings, and both numerical outgoing branches recover
+their long-run geometry and occupancy. A fresh hundred-million-step recurrence
+search does not establish the reverse connection to the certified core.
+A larger attracting set containing that core remains unproved.
+A four-level companion produces layered arches
 but coexists with numerical fixed points. Complete selection records preserve periodic captures and
 precision-sensitive planar behavior. The contribution is a reproducible
 geometric study, a positive-entropy certificate and a precisely scoped
@@ -819,7 +823,8 @@ nor a larger stable attracting set A containing C and the escaping unstable
 branch. It does show that identifying the covering subsystem itself with
 a stable attractor would be incorrect. Proving such a larger A requires
 a new trapping construction and an additional connection to the observed
-cloud; the entropy certificate alone does not supply either.
+cloud; the entropy certificate alone does not supply either. Section 6.6
+tests the larger-set interpretation directly.
 
 ### 6.4. Local folds, singular preimages and boundedness
 
@@ -972,6 +977,112 @@ a full-site tangent pass checks the first 2,048 diagnostic steps.
 A four-cluster partition initialized at cycle 14 follows the suggested
 cyclic order on only 39.97% of transitions. The four visible wings
 therefore should not be labeled a verified period-four band attractor.
+
+### 6.6. Testing containment in a larger attracting set
+
+Failure of stability for C does not imply that C lies outside every attractor.
+The [larger-set investigation](../../results/product-larger-attractor/README.md)
+therefore follows the outgoing unstable directions of cycle 14, whose phase
+p belongs to C, and separately searches for returns from the observed regime.
+These are different tests: an external saddle can feed an attractor without
+belonging to it.
+
+![Unstable departures, long-run geometry and reverse recurrence](../assets/diagnostics/product-alphabet-larger-attractor.png)
+
+**A certified finite connection to the numerical cloud.** The exact graph
+point q from Section 6.3 has a validated continuation through 200 original
+iterations. The initial enclosure preserves the correlation of the unknown
+stable coordinates. Four-step propagation keeps the rational eigenvector
+chart during local departure and switches to rational moving charts after
+step 80. Factorized 120-digit intervals and full-eight-site 160-digit intervals
+both enclose the complete finite orbit in the smooth domain. At step 80,
+the separation from X remains greater than 0.00011729734758. At step 200,
+both calculations prove
+
+```math
+\|F^{200}(q)-z_*\|_2\lt 0.000011199,
+```
+
+where $`z_*`$ is an explicitly retained binary64 state from the reference
+trajectory. Exact rational audits check chart inverses, initial and propagated
+errors, atlas separation and squared-distance upper bounds; frozen-source
+replays reproduce both trajectories. The graph theorem is imported from
+Section 6.3, and both expressions share the mpmath interval library.
+This is a theorem about finite proximity to stored data, **not** a proof
+that q returns to an invariant set or belongs to an attractor. A first
+one-step propagation attempt stopped at step 129 because its interval width
+exceeded the declared limit; that attempt is retained.
+
+**Outgoing numerical branches.** There are 128 eigenline launches on each
+side of p, with horizontal magnitudes from $`10^{-27}`$ to
+$`1.4\cdot10^{-25}`$. The first 88 steps use 100-digit arithmetic, followed
+by 2,048 binary64 steps. The unknown local-graph stable coordinates are set
+to zero for these proposals, so the full fan is not a validated global
+unstable set. Both fans spread across the observed wings. Two selected
+launches, one from each side, then discard 20,000 steps and retain one
+million states each. Their finite leading growth rates are 0.253499 and
+0.251242; every one of their ten blocks is positive.
+
+No geometric alignment or rescaling is used in the comparison. On fixed
+native-coordinate cubes of side 0.02, the total variation between reference
+and branch cell frequencies is **2.7792%** and **2.4554%**. The same comparison
+between the two million-state halves of the reference gives **2.6623%**.
+More than 99.85% of the branch mass occupies cells shared with the reference.
+Reverse nearest-neighbor medians, from 200,000 reference states to each
+million-state branch sample, are 0.00005968 and 0.00006022; the disjoint
+reference control gives 0.00006050. These are finite distribution and support
+comparisons, not equality of invariant measures. Rare excursions remain:
+the maximum branch-to-reference distances are 0.37856 and 0.10352, so a
+uniformly close match of the entire clouds is not claimed.
+
+A further 256 starts surround p: 64 deterministic spherical directions at
+each radius $`10^{-6},10^{-4},10^{-2},0.1`$. Every cohort discards 20,000
+steps and observes 40,000. All ten leading-growth blocks are positive for
+all 256 starts. Their late-state median reference distances lie between
+0.00003804 and 0.00003937. This supports a common attracting numerical
+regime near p but establishes neither an open basin nor inclusion of p
+in its recurrent support.
+
+**The reverse connection remains unresolved.** Two fresh trajectories,
+with distinct declared initial states and an alternative tanh expression,
+each discard 20,000 steps and observe 50 million. The search records
+approaches to all four phases of cycle 14 and the other 22 window centers.
+The closest approaches to p are **0.000503336** and **0.000650731**.
+There are nine visits within 0.001 in total, none within 0.0005, and no
+visits to the affine window N_0. Longer observation improved the original
+two-million-state distance of 0.000973808, but did not resolve arbitrarily
+close recurrence. Absence of a finite hit proves no invariant exclusion.
+
+All branch and perturbation arrays replay bit for bit. The first million
+steps of each recurrence run replay, all retained closest-state distances
+and cumulative counts are checked, and 180 independent full-site formula
+probes agree within $`3.47\cdot10^{-15}`$. The remaining alternatives are
+(i) an embedded saddle core in a larger attracting set and (ii) a saddle
+core whose outgoing trajectories approach a different attracting component.
+The tests establish the outgoing association much more strongly than
+membership of the entire C.
+
+**What would establish containment.** If a compact nonsingular region N
+contains C and satisfies $`F(N)\subset\mathrm{int}(N)`$, then its attracting
+set $`A=\bigcap_{n\ge0}F^n(N)`$ contains C: invariance gives
+$`C=F^n(C)\subset F^n(N)`$ for every n. Conversely, any compact Lyapunov-stable
+A containing p must contain every defined point with a backward G-orbit
+converging to p. For any positive tolerance, stability supplies a neighborhood
+whose forward images remain within that tolerance of A; sufficiently late
+backward iterates lie in this neighborhood. Their fixed forward endpoint is
+therefore arbitrarily close to the closed set A and belongs to A.
+Thus the escaping unstable branch is something a proposed larger attractor
+must include. Such an N is still missing, and even its construction would
+not alone prove transitivity or identify a physical chaotic measure.
+
+This distinction has direct precedent. [Jelleyman and Osinga (2022)](https://link.springer.com/article/10.1140/epjs/s11734-022-00440-w),
+Sections 2–3, describe a noninvertible map in which saddle branches first
+approach separate attractors and, after a homoclinic transition, participate
+in a merged attractor described by the closure of the unstable set.
+Their setting demonstrates why outgoing association and embedded membership
+must be distinguished. Neither that bifurcation nor their wild-chaos
+criterion is established for Case 988; the larger-core interpretation itself
+is not a novelty claim.
 
 ## 7. Prior art and geometric comparison
 
@@ -1204,7 +1315,7 @@ research questions now have distinct outcomes:
 | Question | Supported outcome | Remaining gap |
 | --- | --- | --- |
 | Does the regime attract a neighborhood? | All indefinitely defined orbits have an explicit absorbing norm bound; simple portrait boxes and central-hole repairs fail. | A compact trapping region avoiding singularities for a larger set A is not established. |
-| Is the entropy subsystem the attractor in the picture? | C is rigorously not Lyapunov stable. A direct identification with a stable attractor is ruled out. | Containment in a larger attracting A and identification of its observed component remain open. |
+| Is the entropy subsystem the attractor in the picture? | C is rigorously not Lyapunov stable. Its cycle has an interval-validated outgoing connection near the numerical wings; both numerical branches recover the observed statistics. | A fresh 100-million-step recurrence search does not establish reverse membership. Containment of C in a larger attracting A remains open. |
 | Is the dynamics meaningfully different from known models? | The period-92 orientation obstruction excludes specified invertible neighborhood models; a targeted five-regime noninvertible comparison finds no finite-cloud match. | Intrinsic conjugacy to known noninvertible sets and historical priority remain unresolved. |
 | Why does the figure have this geometry? | Six ordinary folds, singular preimages, an analytic derivative bound, postcritical images and parameter slices support a concrete mechanism. | A theorem identifying the full invariant boundary or bifurcation sequence is absent. |
 

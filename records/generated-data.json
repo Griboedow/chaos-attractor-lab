@@ -72,8 +72,8 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 9836294246,
-  "compact_bytes": 82510465,
+  "removed_bytes": 10054546820,
+  "compact_bytes": 82549022,
   "files": [
     {
       "path": "results/adabelief-quadratic/gallery.npz",
@@ -193379,6 +193379,566 @@
       "recovery": "recompute",
       "recompute_command": "See results/product-mechanism/README.md for run product-mechanism988-scan01. Original large payload scan.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-mechanism988-scan01\\scan.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe-replay01/branch-long.npz",
+      "bytes": 45596659,
+      "git_blob": null,
+      "sha256": "3b9ea7750d647766f1f6bd53d01105776ca4344c0c9c268f5bcbad8e9d601b5a",
+      "group": "product-larger-attractor",
+      "compact": {
+        "path": "results/compact-data/3b9ea7750d647766f1f6bd53d01105776ca4344c0c9c268f5bcbad8e9d601b5a.npz",
+        "bytes": 1010,
+        "sha256": "06f24b0261cf6ccfd5497cc07a7af7ffe3872f051d9ee5e2fee2126d583a6d38",
+        "keys": [
+          "starts",
+          "rates",
+          "minimum_radii",
+          "flags"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        },
+        {
+          "key": "states",
+          "shape": [
+            2,
+            1000000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            2,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe-replay01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe-replay01\\branch-long.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe-replay01/distances.npz",
+      "bytes": 27432049,
+      "git_blob": null,
+      "sha256": "89b755b84c0e2eb1f664da3383aa83296b1c3e03affdd0e52eccbadde1dbfb59",
+      "group": "product-larger-attractor",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "fan",
+          "shape": [
+            256,
+            2049
+          ],
+          "dtype": "float64",
+          "bytes": 4196352,
+          "retained": false
+        },
+        {
+          "key": "nearby",
+          "shape": [
+            256,
+            4096
+          ],
+          "dtype": "float64",
+          "bytes": 8388608,
+          "retained": false
+        },
+        {
+          "key": "long",
+          "shape": [
+            2,
+            1000000
+          ],
+          "dtype": "float64",
+          "bytes": 16000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe-replay01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe-replay01\\distances.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe-replay01/nearby-cohorts.npz",
+      "bytes": 23933918,
+      "git_blob": null,
+      "sha256": "b849a956d00510053ecfdf93f6ee4c0028b91c3b92ef6b0664334bd7d0358e19",
+      "group": "product-larger-attractor",
+      "compact": {
+        "path": "results/compact-data/b849a956d00510053ecfdf93f6ee4c0028b91c3b92ef6b0664334bd7d0358e19.npz",
+        "bytes": 28199,
+        "sha256": "96ccc621f0ea97dec20815b9ea96a90be5eeb4637d1d4d978618e3dca708bedf",
+        "keys": [
+          "starts",
+          "radii",
+          "directions",
+          "rates",
+          "minimum_radii",
+          "flags"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6144,
+          "retained": true
+        },
+        {
+          "key": "radii",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "directions",
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 1536,
+          "retained": true
+        },
+        {
+          "key": "tails",
+          "shape": [
+            256,
+            4096,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 25165824,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            256,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 20480,
+          "retained": true
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            256
+          ],
+          "dtype": "int64",
+          "bytes": 2048,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe-replay01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe-replay01\\nearby-cohorts.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe-replay01/unstable-fan.npz",
+      "bytes": 12163661,
+      "git_blob": null,
+      "sha256": "592d8e60f7a4bbea3e431f13c00aaf2e3e93eac6ecea98e60ab6fa6a54f734e4",
+      "group": "product-larger-attractor",
+      "compact": {
+        "path": "results/compact-data/592d8e60f7a4bbea3e431f13c00aaf2e3e93eac6ecea98e60ab6fa6a54f734e4.npz",
+        "bytes": 9348,
+        "sha256": "8c31cd10e259adf316bc132517dad5416d7c615f368d6a1cacc695201f28398d",
+        "keys": [
+          "signed_u",
+          "starts",
+          "minimum_radii"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "signed_u",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "starts",
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6144,
+          "retained": true
+        },
+        {
+          "key": "prefix",
+          "shape": [
+            256,
+            89,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 546816,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            256,
+            2049,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 12589056,
+          "retained": false
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "bytes": 2048,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe-replay01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe-replay01\\unstable-fan.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe01/branch-long.npz",
+      "bytes": 45596659,
+      "git_blob": null,
+      "sha256": "3b9ea7750d647766f1f6bd53d01105776ca4344c0c9c268f5bcbad8e9d601b5a",
+      "group": "product-larger-attractor",
+      "compact": {
+        "path": "results/compact-data/3b9ea7750d647766f1f6bd53d01105776ca4344c0c9c268f5bcbad8e9d601b5a.npz",
+        "bytes": 1010,
+        "sha256": "06f24b0261cf6ccfd5497cc07a7af7ffe3872f051d9ee5e2fee2126d583a6d38",
+        "keys": [
+          "starts",
+          "rates",
+          "minimum_radii",
+          "flags"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": true
+        },
+        {
+          "key": "states",
+          "shape": [
+            2,
+            1000000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            2,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe01\\branch-long.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe01/distances.npz",
+      "bytes": 27432049,
+      "git_blob": null,
+      "sha256": "89b755b84c0e2eb1f664da3383aa83296b1c3e03affdd0e52eccbadde1dbfb59",
+      "group": "product-larger-attractor",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "fan",
+          "shape": [
+            256,
+            2049
+          ],
+          "dtype": "float64",
+          "bytes": 4196352,
+          "retained": false
+        },
+        {
+          "key": "nearby",
+          "shape": [
+            256,
+            4096
+          ],
+          "dtype": "float64",
+          "bytes": 8388608,
+          "retained": false
+        },
+        {
+          "key": "long",
+          "shape": [
+            2,
+            1000000
+          ],
+          "dtype": "float64",
+          "bytes": 16000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe01\\distances.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe01/nearby-cohorts.npz",
+      "bytes": 23933918,
+      "git_blob": null,
+      "sha256": "b849a956d00510053ecfdf93f6ee4c0028b91c3b92ef6b0664334bd7d0358e19",
+      "group": "product-larger-attractor",
+      "compact": {
+        "path": "results/compact-data/b849a956d00510053ecfdf93f6ee4c0028b91c3b92ef6b0664334bd7d0358e19.npz",
+        "bytes": 28199,
+        "sha256": "96ccc621f0ea97dec20815b9ea96a90be5eeb4637d1d4d978618e3dca708bedf",
+        "keys": [
+          "starts",
+          "radii",
+          "directions",
+          "rates",
+          "minimum_radii",
+          "flags"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6144,
+          "retained": true
+        },
+        {
+          "key": "radii",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": true
+        },
+        {
+          "key": "directions",
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 1536,
+          "retained": true
+        },
+        {
+          "key": "tails",
+          "shape": [
+            256,
+            4096,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 25165824,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            256,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 20480,
+          "retained": true
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            256
+          ],
+          "dtype": "int64",
+          "bytes": 2048,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe01\\nearby-cohorts.npz"
+    },
+    {
+      "path": "results/product-larger-attractor/runs/product-larger988-probe01/unstable-fan.npz",
+      "bytes": 12163661,
+      "git_blob": null,
+      "sha256": "592d8e60f7a4bbea3e431f13c00aaf2e3e93eac6ecea98e60ab6fa6a54f734e4",
+      "group": "product-larger-attractor",
+      "compact": {
+        "path": "results/compact-data/592d8e60f7a4bbea3e431f13c00aaf2e3e93eac6ecea98e60ab6fa6a54f734e4.npz",
+        "bytes": 9348,
+        "sha256": "8c31cd10e259adf316bc132517dad5416d7c615f368d6a1cacc695201f28398d",
+        "keys": [
+          "signed_u",
+          "starts",
+          "minimum_radii"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "signed_u",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "starts",
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6144,
+          "retained": true
+        },
+        {
+          "key": "prefix",
+          "shape": [
+            256,
+            89,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 546816,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            256,
+            2049,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 12589056,
+          "retained": false
+        },
+        {
+          "key": "minimum_radii",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "bytes": 2048,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-larger-attractor/README.md for run product-larger988-probe01. Recompute the full payload in a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-larger988-probe01\\unstable-fan.npz"
     }
   ]
 }

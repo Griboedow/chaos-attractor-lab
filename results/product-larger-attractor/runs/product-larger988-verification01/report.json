@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "probe_replays": [
+    {
+      "file": "branch-long.npz",
+      "arrays": 5,
+      "sha256": "3b9ea7750d647766f1f6bd53d01105776ca4344c0c9c268f5bcbad8e9d601b5a",
+      "same_environment_replay": true
+    },
+    {
+      "file": "distances.npz",
+      "arrays": 3,
+      "sha256": "89b755b84c0e2eb1f664da3383aa83296b1c3e03affdd0e52eccbadde1dbfb59",
+      "same_environment_replay": true
+    },
+    {
+      "file": "nearby-cohorts.npz",
+      "arrays": 7,
+      "sha256": "b849a956d00510053ecfdf93f6ee4c0028b91c3b92ef6b0664334bd7d0358e19",
+      "same_environment_replay": true
+    },
+    {
+      "file": "unstable-fan.npz",
+      "arrays": 5,
+      "sha256": "592d8e60f7a4bbea3e431f13c00aaf2e3e93eac6ecea98e60ab6fa6a54f734e4",
+      "same_environment_replay": true
+    }
+  ],
+  "report_equal_except_runtime": true,
+  "recurrence_checks": [
+    {
+      "start": 0,
+      "replayed_steps": 1000000,
+      "first_block_distances_and_counts_exact": true,
+      "closest_state_distances_checked": true
+    },
+    {
+      "start": 1,
+      "replayed_steps": 1000000,
+      "first_block_distances_and_counts_exact": true,
+      "closest_state_distances_checked": true
+    }
+  ],
+  "independent_formula_probes": 180,
+  "maximum_formula_error": 3.469446951953614e-15,
+  "scope": "All branch/perturbation arrays replay bit for bit. Recurrence first blocks replay; all saved closest-state distances and cumulative counts are checked. Full-site nested reflections independently check floating formulas. These tests are not an infinite-time theorem."
+}

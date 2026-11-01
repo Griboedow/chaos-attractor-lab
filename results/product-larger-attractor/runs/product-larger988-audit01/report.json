@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "run": "product-larger988-continuation02",
+      "report_sha256": "fc414a71f45ce75b6bdcd675980eab55e0a6edec09a19ed0bd5d931cc5bf83d6",
+      "steps": 200,
+      "minimum_escape_gap": 0.00011729734760020887,
+      "endpoint_distance_upper": 1.1198034420247118e-05,
+      "exact_chart_and_distance_audit": true,
+      "exact_trajectory_replay": true
+    },
+    {
+      "run": "product-larger988-independent02",
+      "report_sha256": "ef4ae9dca3b50ae77ecca53b32f787dbdcb58099184fd0692a2319c3832816c8",
+      "steps": 200,
+      "minimum_escape_gap": 0.00011729734760020887,
+      "endpoint_distance_upper": 1.1198034420258964e-05,
+      "exact_chart_and_distance_audit": true,
+      "exact_trajectory_replay": true
+    }
+  ],
+  "scope": "Exact rational audit of moving charts, initial graph-point enclosure, propagated errors, atlas escape and distance upper bounds; frozen-source replay of both interval expressions. The prior graph theorem is imported, and the reference state is numerical data, not a certified invariant-set point."
+}
