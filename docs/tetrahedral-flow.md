@@ -64,6 +64,8 @@ The same individual trajectories visit all twelve nearest-center direction secto
 
 ## Prior art and the novelty boundary
 
+**A closer predecessor is now documented:** Sandstede and Scheel (1995) treat tetrahedral chaos in three real flow dimensions. The [equation-and-theorem follow-up](tetrahedral-homoclinic-prior.md) explains the scope and remaining comparison. Neither three-dimensionality nor tetrahedral symmetry establishes novelty here.
+
 Tetrahedral attractor pictures are established prior work: **C. A. Reiter, “Chaotic attractors with the symmetry of a tetrahedron,” Computers & Graphics 21 (1997), 841–848**, [DOI](https://doi.org/10.1016/S0097-8493(97)00062-9), [author's bibliography](https://webbox.lafayette.edu/~reiterc/publist.html). His later [dodecahedral construction](https://webbox.lafayette.edu/~reiterc/dodec/dodec02_pp.pdf) explicitly uses group-averaged polynomial maps and parameter search. Neither group averaging nor polyhedral symmetry is claimed here as new.
 
 Swift and Barany's 1991 work also concerns chaos with tetrahedral symmetry. The equations reproduced in [Ashwin and Chossat's primary account](https://empslocal.ex.ac.uk/people/staff/pashwin/PAPERS/AshCho_1998_pre.pdf), Section 1.1, are a Hopf normal form on **C³**, hence six real state dimensions, rather than the present three-real-state autonomous flow. That dimensional difference is not a historical priority proof.
@@ -72,7 +74,7 @@ The public [Attractor Atlas](https://sakeeb91.github.io/attractors/) reports fai
 
 We compared both candidates with **108 frozen reference regimes plus six earlier repository candidates**, allowing rigid rotation/reflection and scale, then repeating after covariance whitening to remove nonsingular affine distortions. For row 421 the nearest descriptor match changes from Atlas-Mobula to SprottO. Their best local alignment discrepancies are `0.1845` and `0.2120`, compared with temporal-half controls `0.0512` and `0.0578`. For 565 the nearest changes from Atlas-Mobula to our earlier Vortex-233, with discrepancies `0.1865` and `0.1812`, versus controls `0.0781` and `0.0801`.
 
-These are finite empirical geometric differences under the stated metrics. The descriptor need not find the globally closest shape; ICP uses 48 local initializations and is not a certified global optimization. Time reparameterization, invariant-measure changes and nonlinear coordinate changes remain outside the comparison. **The 108-regime catalog does not contain Reiter's tetrahedral maps or the Swift–Barany normal form.** Full equation-and-image comparison with that prior work remains open. No “99% never seen before” probability is justified.
+These are finite empirical geometric differences under the stated metrics. The descriptor need not find the globally closest shape; ICP uses 48 local initializations and is not a certified global optimization. Time reparameterization, invariant-measure changes and nonlinear coordinate changes remain outside the comparison. **The 108-regime catalog does not contain Reiter's tetrahedral maps, the Swift–Barany normal form, or the Sandstede–Scheel unfolding.** Full equation-and-image comparison with that prior work remains open. No “99% never seen before” probability is justified.
 
 ## Reproduction and evidence
 

@@ -6,13 +6,13 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 [Native geometry and certified cycles](docs/assets/raar-symbolic-geometry.png) · [The two-route graph](docs/assets/raar-symbolic-graph.png) · [Coded excursions](docs/assets/raar-symbolic-itineraries.png) · [Reproduce the certificates](papers/raar-symbolic-dynamics/README.md)
 
-**[New search checkpoint: a tetrahedral flow around a stable center](docs/tetrahedral-flow.md).** A single trajectory weaves ribbons through all twelve symmetry sectors. Its 3.2-million-state portrait survives 40,000 time units, step refinement, independent DOP853 integration and fresh basin starts. Comparisons cover 108 known regimes and six earlier repository candidates. Tetrahedral maps are established prior art; historical uniqueness remains open.
+**[New search checkpoint: a tetrahedral flow around a stable center](docs/tetrahedral-flow.md).** A single trajectory weaves ribbons through all twelve symmetry sectors. Its 3.2-million-state portrait survives 40,000 time units, step refinement, independent DOP853 integration and fresh basin starts. Comparisons cover 108 known regimes and six earlier repository candidates. Tetrahedral maps and earlier three-dimensional tetrahedral chaos are established prior art; specific historical uniqueness remains open.
 
 ![One tetrahedral-flow trajectory under a rotating rigid camera](docs/assets/tetrahedral-flow.gif)
 
 [Large portrait](docs/assets/tetrahedral-flow.png) · [Oblique view](docs/assets/tetrahedral-flow-oblique.png) · [Evidence and limitations](docs/tetrahedral-flow.md)
 
-The [older-flow literature follow-up](docs/polyhedral-priority-followup.md) distinguishes a 1996 low-dimensional construction consisting of equilibria from the present numerical moving cloud. It credits the prior symmetry theory and preserves the unresolved comparison with Reiter's tetrahedral maps.
+The [closest older-flow follow-up](docs/tetrahedral-homoclinic-prior.md) identifies three-dimensional tetrahedral chaos in Sandstede and Scheel (1995). Specific novelty remains unresolved; the numerical shape catalog does not include that unfolding or Reiter's tetrahedral maps. The [earlier literature note](docs/polyhedral-priority-followup.md) separately clarifies the scope of a 1996 construction.
 
 The [equilibrium follow-up](docs/tetrahedral-equilibria.md) certifies at least 33 distinct equilibria for each of the two selected tetrahedral flows. Outward interval calculations at 60 and 90 decimal digits establish local uniqueness and unstable-direction counts. They do not certify chaos or an exhaustive equilibrium inventory.
 

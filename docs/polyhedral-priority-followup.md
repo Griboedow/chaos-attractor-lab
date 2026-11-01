@@ -2,6 +2,8 @@
 
 This addendum narrows the open priority claim for [our tetrahedral-flow candidate](tetrahedral-flow.md). It does not change the frozen numerical packet or establish first discovery.
 
+**Subsequent correction:** the [Sandstede–Scheel follow-up](tetrahedral-homoclinic-prior.md) identifies directly relevant 1995 work on three-dimensional tetrahedral chaos. The distinction below about the 1996 construction remains valid, but is not evidence that earlier three-dimensional chaotic examples were absent.
+
 Field, Melbourne and Nicol's **Symmetric attractors for diffeomorphisms and flows**, Proc. London Math. Soc. 72 (1996), 657–696, is relevant prior work. The [publisher abstract](https://doi.org/10.1112/plms/s3-72.3.657) must be read together with Section 5 of the [author-hosted preprint](https://math-ianmelbourne.github.io/papers/dif.pdf), pages 18–19.
 
 The authors treat noncyclic symmetries in three and four dimensions using a degenerate construction. Its limiting graph consists of equilibria: the field and all derivatives tend to zero there. Their Axiom A flow construction applies in dimensions at least five. Consequently, the paper establishes broad symmetry admissibility, but this particular low-dimensional construction is not an explicit chaotic three-state flow with continuing motion. That distinction comes from reading the construction, not inferring chaos from its abstract.
