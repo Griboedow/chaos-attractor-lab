@@ -10,6 +10,8 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 The [older-flow literature follow-up](docs/polyhedral-priority-followup.md) distinguishes a 1996 low-dimensional construction consisting of equilibria from the present numerical moving cloud. It credits the prior symmetry theory and preserves the unresolved comparison with Reiter's tetrahedral maps.
 
+The [equilibrium follow-up](docs/tetrahedral-equilibria.md) certifies at least 33 distinct equilibria for each of the two selected tetrahedral flows. Outward interval calculations at 60 and 90 decimal digits establish local uniqueness and unstable-direction counts. They do not certify chaos or an exhaustive equilibrium inventory.
+
 **[A different setting: chaos in scalar acceleration memory](docs/anderson-memory.md).** Two bounded increasing scalar maps have interval-verified unique fixed points and globally convergent plain iterations. A three-history regularized acceleration instead admits numerically attracting chaotic clouds, surviving 80/110-digit checks. The exact linear reduction prevents counting scaled copies as separate findings. All negative screens, long-run failures and prior-art gaps are retained.
 
 ![Two actual scalar-memory state clouds](docs/assets/anderson-memory.png)
