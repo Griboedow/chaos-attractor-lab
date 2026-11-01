@@ -62,3 +62,5 @@ results/yogi-smoothing/** -text whitespace=cr-at-eol
 results/yogi-tanh/** -text whitespace=cr-at-eol
 results/yogi-tanh/source/*.py -whitespace
 papers/yogi-memory/** -text whitespace=cr-at-eol
+# Preserve the generated SVG path formatting alongside its frozen hash.
+papers/yogi-memory/figures/*.svg -whitespace
