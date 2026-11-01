@@ -1,0 +1,36 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-plane-five-million\\histories.npz",
+  "source_sha256": "e5ccbb049d5c02f2d3fb6290ae6d6be5e5aeb49c622d3c0df3f4c210af7e7316",
+  "declared": 56,
+  "widths": [
+    0.0,
+    1e-06,
+    3.162277660168379e-06,
+    1e-05,
+    3.1622776601683795e-05,
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0
+  ],
+  "grid_ids": [
+    670,
+    125
+  ],
+  "start_kinds": [
+    "cold",
+    "original_late_state"
+  ],
+  "smooth_switch": "tanh((v-x^2)/(h*(v+x^2+e^2))) for h>0; original sign(v-x^2) at h=0.",
+  "warmup": 100000,
+  "observed": 1000000,
+  "window": 50000,
+  "tail": 4096,
+  "design": "Every width starts independently from the stated cold state or a fixed original-map endpoint, not continuation from the preceding width.",
+  "scope": "Mechanism comparison in an explicitly modified map. Positive widths are not published Yogi or an upstream-library control. Finite changes do not identify a bifurcation or prove equivalence."
+}

@@ -18,6 +18,8 @@ The strongest current article angle is the particular Yogi memory mechanism, its
 
 The [subsequent grid study](yogi-parameter-plane.md) broadens the finite evidence and adds a feathered-arc portrait. A separate [scalar boundedness proof](scalar-optimizer-boundedness.md) covers all the stated memory parameters and nonzero initial memories; its prior-art comparison does not claim that the bounding technique is historically new.
 
+The [smoothing control](yogi-smoothing-control.md) also credits the pre-existing `activation="tanh"` option in TensorFlow Addons. Its fixed coefficient in physical coordinates differs from our explicitly declared relative-width mechanism test. Smooth Yogi is not a new equation proposed here, and persistence under sampled smoothing does not establish a new attractor class.
+
 ## Original algorithm and convergence results
 
 [Zaheer, Reddi, Sachan, Kale and Kumar (2018), *Adaptive Methods for Nonconvex Optimization*](https://proceedings.neurips.cc/paper/2018/file/90365351ccc7437a1309dc64e4db32a3-Paper.pdf): Algorithm 2 and Section 3.2 were inspected; the [author's 18-page version](https://www.satyenkale.com/papers/yogi.pdf) additionally supplies Theorem 2 and Appendix B. The second-moment lower bound `v_t>=beta2*v_(t-1)` and a bounded-gradient upper bound are already there. Their displayed analysis uses zero first-moment coefficient, globally bounded gradients, and restrictive step/epsilon assumptions. Our fixed-step examples do not satisfy those hypotheses and are not counterexamples to that theorem.

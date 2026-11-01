@@ -12,6 +12,8 @@ The [earlier paired fans and sunburst](docs/yogi-geometry.md), their [rotation](
 
 The new Yogi cases pass all declared cold-start and nearby-parameter checks. A larger experiment follows 32,768 full-state starts per case toward the structured clouds or competing fixed states. A separate [AdaDelta prior-art replay](docs/adadelta-cycle-audit.md) finds slow drift in a published positive-epsilon cycle example and gives the exact full-map period-two condition; it is a reproducibility correction, not another attractor discovery.
 
+A [declared smoothing control](docs/yogi-smoothing-control.md) retains two expanding directions at small widths and also finds regular period-32 and period-4 outcomes. It explicitly distinguishes its modified equation from the already published TensorFlow Addons tanh option.
+
 **[New visual study: crowns and serrated wings inside Adamax](docs/adamax-geometry.md).** A standard optimizer's internal memory produces intricate full-state geometries on a one-variable quadratic objective. Four-million-step checks, independent 70/90-digit calculations and actual PyTorch runs support persistent chaos. The crown passes every declared cold-start and nearby-setting check; the wings coexist with two reflected 68-cycles. These are numerical candidates in a known algorithm, with historical uniqueness unresolved.
 
 ![Two fixed Adamax state clouds viewed by a rotating orthographic camera](docs/assets/adamax-rotation.gif)
