@@ -1,0 +1,44 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-five-asymmetry\\complete-or-budgeted.npz",
+  "source_sha256": "9972975ecabc432d0d6c8a4f663be93c0f6c195c11ac2d1b7cf2b32e7db03cb0",
+  "selection": "Explicit follow-up IDs, selected after inspection of the first full-spectrum geometry gallery.",
+  "selected": [
+    2816
+  ],
+  "jobs": [
+    {
+      "id": 2816,
+      "parameters": [
+        13.652749130273284,
+        31.74947392484949,
+        0.7
+      ],
+      "initial": [
+        0.5564638405923832,
+        0.14088141167094723,
+        0.644575919618252,
+        0.38157521135949923,
+        0.3852203026620375,
+        0.5693332571132717,
+        -0.40941463083471935,
+        0.6704022090246402,
+        0.3316753969561484,
+        0.5872596552640421,
+        0.6734804904516998,
+        -1.940794767961532,
+        0.9760440113175902,
+        -0.33065289290570243
+      ],
+      "warm": 200.0,
+      "duration": 12000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-five-refined",
+      "rtol": 2e-11,
+      "max_step": 0.01,
+      "sample_step": 0.05
+    }
+  ],
+  "N": 5,
+  "dimension": 14,
+  "method": "DOP853 full 14D QR .5; rtol2e-11,atol1.9999999999999998e-13,maxstep0.01; uniform 0.05 samples",
+  "warning": "Finite-time spectra and visual screening; no novel attractor claim."
+}

@@ -18,6 +18,8 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 Orthonormal contrasts of the four physical displacements. The camera rotates around fixed data with common bounds. The thin braid matches three row permutations; the larger sampled sets match all 24 closely. This is numerical symmetry evidence, not a new-topology claim. [New comparisons and neighboring cycle fold](docs/motor-four-b-study.md) · [Original braid audit](docs/motor-four-geometry.md).
 
+The [five-row extension](docs/motor-five-geometry.md) adds an interwoven ribbon, two 12,000-unit checks, sixteen fresh starts and full-state evidence of cyclic fivefold symmetry. [Rotate its two displacement projections](docs/assets/motor-five-ribbon.gif).
+
 The [earlier three-row ribbon and neighborhood gallery](docs/motor-asymmetry-geometry.md), [geometry search](docs/geometry-search-20261031.md), and negative screens remain available. All 32 fresh four-row histories match the reference family closely after row relabeling; eight symmetry-related orientations are observed. These are not eight discoveries or a proof of a new attractor class.
 
 **[Research manuscript: replication-induced instability of a certified five-cluster motor cycle](papers/replication-instability/README.md)** · **[PDF](papers/replication-instability/manuscript.pdf)**
