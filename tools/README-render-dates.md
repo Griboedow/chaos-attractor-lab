@@ -1,6 +1,6 @@
 # Portrait dates
 
-Dates accompany the principal attractor portraits in the README, gallery and
+Dates accompany the principal attractor portraits in the README and
 current reports. Spectra, parameter scans, return diagrams and other diagnostic
 figures do not receive drawing-date captions. All records remain in
 [`provenance/render-dates.json`](../provenance/render-dates.json).
@@ -33,7 +33,7 @@ python tools/render_dates.py check
 
 These commands synchronize registered portrait captions and remove stale date
 captions from diagnostic figures. New current `docs/*.md` pages are discovered
-automatically. New main-page or gallery images must be registered. Archived
+automatically. New main-page images must be registered. Archived
 reports listed under `frozen_document_exclusions` keep their original bytes.
 
 Historical records were reconstructed from complete Git history, including the

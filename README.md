@@ -2,9 +2,11 @@
 
 Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
 
-[Portrait gallery](docs/attractor-gallery.md) · [Research index](#research-index) · [Manuscripts](papers/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
+[Further portraits](#further-portraits) · [Research index](#research-index) · [Manuscripts](papers/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
 
-The portraits rotate once every 24 seconds at 25 frames per second. Each view uses fixed trajectory data and a constant scale; links below open the static portraits. Case numbers identify the saved parameter sets in the linked reports.
+The selected findings include camera rotations at 25 frames per second, with one revolution every 24 seconds. Each animation uses fixed trajectory data and a constant scale; its full-resolution static portrait appears directly below. Case numbers identify saved parameter sets in the linked reports.
+
+All retained portraits appear on this page. The figures use a common palette and caption convention; coordinate projections and changes of physical units are stated. Density saturation is independent between studies. Drawing dates record our images, not discovery priority.
 
 ## Constructed flows
 
@@ -16,7 +18,13 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/icosahedral.png)
+![Icosahedral Gaussian flow: static portrait](docs/assets/portraits/icosahedral.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Full three-state coordinates; archived orthographic cameras.
 
 **Numerical chaos; certified bounds and local equilibria.** A smooth three-state field produces thirty spiral regions around a stable center. Cases 177 and 183 survive 16,000-unit observations, step refinement and independent integration. The 60-edge geometric skeleton has a known integrable counterpart; the sampled return strips are not yet a covering proof.
 
@@ -32,7 +40,13 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/raar.png)
+![RAAR between spatial circles: static portrait](docs/assets/portraits/raar.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Full spatial state (x, y, z); archived orthographic cameras.
 
 **Certified attracting positive-entropy set.** For case 1051, an explicit strict trapping region contains the certified symbolic dynamics. Its maximal invariant set attracts a neighborhood and has topological entropy at least `log(2)/49` per iteration. A certified fold in this attracting set excludes ambient-neighborhood conjugacy to locally injective maps. Transitivity and equality with the numerical portrait remain unresolved; case 1483 is a numerical companion.
 
@@ -46,7 +60,13 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/anderson.png)
+![Scalar iteration with acceleration memory: static portrait](docs/assets/portraits/anderson.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Three-history state; archived orthographic cameras.
 
 **Numerical chaos with a convergent scalar baseline.** The unaccelerated maps have interval-verified unique fixed points and globally convergent iteration. Adding regularized three-history acceleration produces irregular memory states that persist under 80- and 110-digit checks.
 
@@ -60,7 +80,13 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/rk45.png)
+![RK45 step-size controller: static portrait](docs/assets/portraits/rk45.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Position / atol, velocity / atol, proposed step; archived orthographic cameras.
 
 **Numerical chaos in the solver state.** The physical linear oscillator decays, while RK45's position, velocity and proposed step can remain irregular near the error tolerance. Five-million-step, high-precision and unmodified-library controls agree. RK23 has related retained regimes.
 
@@ -74,7 +100,13 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/yogi-tanh.png)
+![Smooth Yogi memory: static portrait](docs/assets/portraits/yogi-tanh.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Normalized optimizer state (x, m, v); archived orthographic cameras.
 
 **Numerical evidence for two expanding directions.** The published tanh variant of Yogi retains two positive growth rates in selected regimes under five-million-step, high-precision and TensorFlow checks. Separate results cover standard Yogi, Adamax and AdaBelief. These are regimes of existing algorithms.
 
@@ -90,7 +122,13 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/motor-four.png)
+![Four motor rows: static portrait](docs/assets/portraits/motor-four.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Three orthonormal displacement contrasts; final 1,200 saved time units; common scale.
 
 **Numerical chaos in an eleven-dimensional physical model.** Changing the dimensionless transition-rate asymmetry `b` changes a narrow braid into a broader regime. Long full-spectrum calculations retain a positive leading rate. The portraits show orthonormal displacement contrasts, not three-dimensional embeddings.
 
@@ -104,15 +142,302 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 *First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-[Static portrait](docs/assets/portraits/motor-eight.png)
+![Eight motor rows: periodic and irregular motion: static portrait](docs/assets/portraits/motor-eight.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+Physical coordinates (X0, X1, s0) of the 23D model; common scale.
 
 **Certified periodic attraction in 23 dimensions.** At the stated exact parameters, a five-cluster periodic orbit has all 22 transverse Floquet multipliers inside the unit circle. The irregular comparison has six positive finite-time exponents over 20,000 units. The two panels show the same physical projection and scale; only the periodic attractor is certified.
 
 [Periodic-attractor certificate](docs/motor-five-cycle-certificate.md) · [Replication instability](docs/motor-five-replication-limit.md) · [Irregular regimes](docs/motor-activity-continuation.md)
 
+## Further portraits
+
+Additional numerical candidates and comparison regimes, grouped by system. Each entry links to its evidence and limitations.
+
+### Constructed systems
+
+#### Tetrahedral Gaussian flow
+
+![Tetrahedral Gaussian flow](docs/assets/portraits/tetrahedral.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 421 and 565 have a stable central equilibrium and sustained irregular outer motion. Three-dimensional tetrahedral chaos is established prior work.
+
+Full three-state coordinates; archived orthographic cameras.
+
+[Report](docs/tetrahedral-flow.md)
+
+#### Localized Gaussian vortices
+
+![Localized Gaussian vortices](docs/assets/portraits/gaussian-vortex.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Case 77 survives a 30,000-unit spectrum and independent integration. A competing periodic orbit and resemblance to known threefold geometries limit interpretation.
+
+Full three-state coordinates; archived orthographic camera.
+
+[Report](docs/gaussian-vortex.md)
+
+#### Dissipative three-axis twist map
+
+![Dissipative three-axis twist map](docs/assets/portraits/twist.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 1709 and 3254 retain positive finite-time growth under long and high-precision controls. The first case also has a regular regime.
+
+Full three-state coordinates; archived orthographic cameras.
+
+[Report](docs/twist-geometry.md)
+
+### Algorithmic dynamics
+
+#### RK23 step-size controller
+
+![RK23 step-size controller](docs/assets/portraits/rk23.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.
+
+Position / atol, velocity / atol, proposed step; archived orthographic cameras.
+
+[Report](docs/rk23-oscillator.md)
+
+#### Yogi parameter-plane candidate
+
+![Yogi parameter-plane candidate](docs/assets/portraits/yogi-arc.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Case 670 is retained after five million steps and independent controls. Case 125 has stronger evidence for a second expanding direction; their rates remain finite-time quantities.
+
+Normalized optimizer state (x, m, v); archived orthographic camera.
+
+[Report](docs/yogi-parameter-plane.md)
+
+#### Yogi memory
+
+![Yogi memory](docs/assets/portraits/yogi.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 44 and 7590 are visually distinct numerical regimes of the same published optimizer. Initialization and precision controls are retained in the report.
+
+Normalized optimizer state (x, m, v); archived orthographic cameras.
+
+[Report](docs/yogi-geometry.md)
+
+#### Yogi: additional expanding regimes
+
+![Yogi: additional expanding regimes](docs/assets/portraits/yogi-expansion.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 4214 and 125 have numerical evidence for two expanding directions. Window lengths, library differences and branch discontinuities are reported separately.
+
+Normalized optimizer states; archived preview cameras. Panels have separate scales.
+
+[Report](docs/yogi-parameter-plane.md) · [Related result](docs/yogi-geometry.md)
+
+#### Adamax memory
+
+![Adamax memory](docs/assets/portraits/adamax.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Four-million-step, high-precision and PyTorch controls support the selected regimes. Case 4099 coexists with two reflected periodic orbits.
+
+Normalized optimizer state; archived orthographic cameras.
+
+[Report](docs/adamax-geometry.md)
+
+#### AdaBelief memory
+
+![AdaBelief memory](docs/assets/portraits/adabelief.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+A scalar quadratic objective supports irregular full optimizer states at the selected memory parameters. Finite-time numerical evidence is separated from convergence and novelty claims.
+
+Normalized state (x, m, s); equal displayed coordinate units.
+
+[Report](docs/adabelief-quadratic.md)
+
+#### Finite-sample FastICA
+
+![Finite-sample FastICA](docs/assets/portraits/fastica.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 204 and 351 retain positive finite-time tangent growth over five million
+steps and at 70 and 100 digits. Case 351 has regular competing outcomes. These
+are regimes of an established algorithm; historical priority and asymptotic
+chaotic attraction remain unresolved.
+
+Projection of the unit weight on $(w_1,w_2,w_4)$; every consecutive state is
+retained. No sign folding. Spatial scale and density saturation differ between
+panels. Case numbers identify the exact data sets in the report.
+
+[Report and stopping-rule audit](docs/fastica-dynamics.md)
+
+### Physical and biological models
+
+#### Five motor rows
+
+![Five motor rows](docs/assets/portraits/motor-five.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+The same saved fourteen-dimensional trajectory is shown in two projections of its four displacement contrasts. Neither view defines a three-dimensional embedding.
+
+Fourier displacement contrasts; final 800 saved time units.
+
+[Report](docs/motor-five-geometry.md)
+
+#### Three motor rows with unequal rates
+
+![Three motor rows with unequal rates](docs/assets/portraits/motor-three-asymmetric.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-31** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+Case 2566 is an eight-dimensional numerical candidate. The projection uses a fixed orthogonal rotation of the three cosine occupancies.
+
+Rotated cosine occupancies; final 600 saved time units; stride 2.
+
+[Report](docs/motor-asymmetry-geometry.md)
+
+#### Three symmetric motor rows
+
+![Three symmetric motor rows](docs/assets/portraits/motor-three.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+Case 783 has an independently computed eight-dimensional spectrum with one positive and one near-zero rate. This image shows the three sine occupancies.
+
+Sine occupancies (s0, s1, s2); a projection of the 8D flow.
+
+[Report](docs/motor-rows-gpu-survey.md)
+
+#### Motor-pair model
+
+![Motor-pair model](docs/assets/portraits/motor-pair.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+Case 444 retains positive growth in a long independent CPU calculation. The neutral rate still needs convergence; priority and asymptotic attraction remain unresolved.
+
+Physical coordinates (h, Y, Z); final 2,000 saved time units.
+
+[Report](docs/motor-pair-gpu-survey.md)
+
+#### Synchronematic oscillators
+
+![Synchronematic oscillators](docs/assets/portraits/synchronematic.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+The four-particle candidate is displayed through gauge-invariant collective observables. These do not form an embedding of the seven-dimensional reduced angular dynamics.
+
+Collective observables (Re Q, Im Q, C), not state coordinates.
+
+[Report](docs/synchronematic-research.md)
+
+#### Light-driven elastomer slider
+
+![Light-driven elastomer slider](docs/assets/portraits/lce-slider.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+The retained regime belongs to a three-state relay model. The report separates transverse growth estimates, switching assumptions and known related mechanisms.
+
+Scaled full state (u/q, v/(sqrt(k) q), phi/q); scaling is explicitly physical.
+
+[Report](docs/lce-slider-research.md)
+
+#### Two-strain epidemic model
+
+![Two-strain epidemic model](docs/assets/portraits/two-strain.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+The numerical five-state regime contains unequal outbreaks and extremely small prevalence. Related epidemic chaos is established; physical interpretation requires the qualifications in the report.
+
+Projection (S, 1000 I1, 1000 I2); explicit axis units, not an embedding.
+
+[Report](docs/two-strain-research.md)
+
+#### Coupled optical operators
+
+![Coupled optical operators](docs/assets/portraits/optical-relay.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+These six-state relay histories have persistent irregular motion in the recorded observation. Later continuations, captures and source-model assumptions are retained in the report.
+
+Projection (x_minus, x_plus, y_minus - y_plus); all saved adaptive event/QR knots. The knots are nonuniform in time. Point density is sampling density, not an invariant measure.
+
+[Report](docs/coupled-operators-research.md)
+
+#### Smooth optical feedback
+
+![Smooth optical feedback](docs/assets/portraits/optical-smooth.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
+<!-- /drawing-date -->
+
+At the same logistic-width parameters, saved starts produce regular and irregular histories. This is a finite coexistence observation, not an asymptotic attractor classification.
+
+Projection (x_minus, x_plus, y_minus - y_plus); common scale.
+
+[Report](docs/coupled-operators-research.md)
+
 ## Research index
 
-The [portrait gallery](docs/attractor-gallery.md) provides static views of the retained visual candidates. This index also includes periodic captures, failed searches, source discrepancies and structural exclusions.
+This index covers the illustrated studies above, periodic captures, failed searches, source discrepancies and structural exclusions.
 
 “Certified” refers to the particular interval or analytical statement in a report. Positive finite-time growth and a persistent point cloud are numerical evidence. Neither category establishes historical priority without a separate comparison.
 

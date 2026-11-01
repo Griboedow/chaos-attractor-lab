@@ -87,7 +87,7 @@ if args.with_data:
         for ident in [177,183]:
             assert dense[f'points_{ident}'].shape==(320000,3)
             assert np.array_equal(dense[f'points_{ident}'][::4],frozen['tail'][list(frozen['ids']).index(ident)])
-documents=['README.md','docs/attractor-gallery.md','docs/research-index.md','docs/reproduction.md','docs/data-storage.md','tools/README-portraits.md','tools/README-render-dates.md','results/portrait-presentation/README.md','results/compact-data/README.md']
+documents=['README.md','docs/research-index.md','docs/reproduction.md','docs/data-storage.md','tools/README-portraits.md','tools/README-render-dates.md','results/portrait-presentation/README.md','results/compact-data/README.md']
 bad=[];links=0
 for name in documents:
     file=ROOT/name
@@ -98,13 +98,26 @@ for name in documents:
 assert not bad,bad
 main=(ROOT/'README.md').read_text(encoding='utf-8')
 main_images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',main,re.M)
-assert main_images==[f"docs/assets/portraits/{row['id']}.webp" for row in featured]
-for row in featured:assert f"[Static portrait](docs/assets/portraits/{row['id']}.png)" in main
+expected_static={f"docs/assets/portraits/{row['id']}.png" for row in catalog['rows']}
+static_images=[p for p in main_images if p.endswith('.png')]
+animated_images=[p for p in main_images if p.endswith('.webp')]
+assert len(static_images)==len(expected_static) and set(static_images)==expected_static
+assert animated_images==[f"docs/assets/portraits/{row['id']}.webp" for row in featured]
+assert len(main_images)==len(static_images)+len(animated_images)
+sections=re.split(r'^#{2,4} ',main,flags=re.M)
+for row in catalog['rows']:
+    still=f"docs/assets/portraits/{row['id']}.png"
+    section=next(s for s in sections if f']({still})' in s)
+    images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',section,re.M)
+    expected=[f"docs/assets/portraits/{row['id']}.webp",still] if row.get('featured') else [still]
+    assert images==expected,(row['id'],'Embed the animation followed by its static portrait in one study section.')
+    assert re.search(r'\]\((?:docs|papers|research)/[^)]+\.md(?:#[^)]*)?\)',section),row['id']
 assert main.count('\n## Research index\n')==1
-selected_results=main.split('\n## Research index\n',1)[0]
+assert main.count('\n## Further portraits\n')==1
+selected_results,additional=main.split('\n## Further portraits\n',1)
 assert len(re.findall(r'^### ',selected_results,re.M))==len(featured)
-gallery=(ROOT/'docs/attractor-gallery.md').read_text(encoding='utf-8')
-gallery_images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',gallery,re.M)
-assert len(gallery_images)==len(catalog['rows']) and all(p.startswith('assets/portraits/') for p in gallery_images)
+assert not re.search(r'^!\[',additional.split('\n## Research index\n',1)[1],re.M)
+assert not (ROOT/'docs/attractor-gallery.md').exists(),'The README is the canonical portrait collection.'
+assert 'docs/attractor-gallery.md' not in ledger['caption_documents']
 subprocess.run([sys.executable,str(ROOT/'tools/render_dates.py'),'check'],check=True)
-print(json.dumps({'families':len(catalog['rows']),'panels':panels,'main_portraits':len(main_images),'local_links':links,'input_receipts':'passed','animation_checks':'passed','input_recomputation':'passed' if args.with_data else 'not requested','icosahedral_sample_match':'bitwise' if args.with_data else 'not requested'}))
+print(json.dumps({'families':len(catalog['rows']),'panels':panels,'main_static_portraits':len(static_images),'main_animations':len(animated_images),'local_links':links,'input_receipts':'passed','animation_checks':'passed','input_recomputation':'passed' if args.with_data else 'not requested','icosahedral_sample_match':'bitwise' if args.with_data else 'not requested'}))

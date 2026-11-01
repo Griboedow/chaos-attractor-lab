@@ -95,7 +95,7 @@ def main():
     record.add_argument('--evidence', help='Render log or other source for an explicitly supplied date.')
     record.add_argument('--role', choices=['portrait', 'diagnostic'], default='portrait')
     record.add_argument('--source-portrait', help='Registered earlier portrait of the same study; preserves its first recorded date.')
-    sub.add_parser('sync', help='Update dated captions in the README, gallery and current research pages.')
+    sub.add_parser('sync', help='Update dated captions in the README and current research pages.')
     sub.add_parser('check', help='Fail if an image or caption lacks its registered date.')
     args = parser.parse_args()
     ledger = json.loads(REGISTRY.read_text(encoding='utf-8'))
