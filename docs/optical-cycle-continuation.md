@@ -24,9 +24,9 @@ k=74.1567393414624,\qquad b=1.784180421282182,
 \qquad \delta_+=0.25683679452165964.
 ```
 
-Only the positive logistic width varies. We solve the six-component closure equation for five free initial coordinates and the period, fixing the section $x_-=\delta_-$ with positive crossing velocity. A Newton step uses the complete variational matrix, not a finite-difference trajectory Lyapunov estimate. Velocities are divided by $\sqrt{k}$ when measuring residuals and state differences.
+Only the positive logistic width varies. We solve the six-component closure equation for five free initial coordinates and the period, fixing the section $`x_-=\delta_-`$ with positive crossing velocity. A Newton step uses the complete variational matrix, not a finite-difference trajectory Lyapunov estimate. Velocities are divided by $`\sqrt{k}`$ when measuring residuals and state differences.
 
-If $M$ is the full-period variational matrix and $f$ the final vector field, the derivative of the section return is obtained from
+If $`M`$ is the full-period variational matrix and $`f`$ the final vector field, the derivative of the section return is obtained from
 
 ```math
 D\mathcal P=
@@ -35,7 +35,7 @@ D\mathcal P=
 
 The notation removes the section-normal coordinate and leaves five tangent coordinates. Its eigenvalues are the Poincare multipliers. All magnitudes below one imply local numerical attraction; a multiplier outside the unit circle implies instability. The autonomous flow's neutral direction is removed by this projection.
 
-We continued at width increments 0.0005 in both directions, starting from the independently checked controls at 0.003 and 0.04. There are **75 common widths**, with maximum discrepancies of $1.37\times10^{-10}$ in balanced state, $2.23\times10^{-10}$ in period, and $2.04\times10^{-8}$ in matched multipliers. This agreement checks branch tracking; it is not an exhaustive inventory of periodic solutions.
+We continued at width increments 0.0005 in both directions, starting from the independently checked controls at 0.003 and 0.04. There are **75 common widths**, with maximum discrepancies of $`1.37\times10^{-10}`$ in balanced state, $`2.23\times10^{-10}`$ in period, and $`2.04\times10^{-8}`$ in matched multipliers. This agreement checks branch tracking; it is not an exhaustive inventory of periodic solutions.
 
 ## Two isolated real-multiplier crossings
 
@@ -46,13 +46,13 @@ We continued at width increments 0.0005 in both directions, starting from the in
 | Critical multiplier | −1 | −1 |
 | Numerically differentiated multiplier slope versus width | −70.1376 | +23.3608 |
 
-Other section multipliers remain strictly inside the unit circle at both crossings. Independent implicit Radau integrations checked four representative cycles and the two crossing cycles, using a smaller maximum step and tighter tolerance than the original continuation. Maximum closure discrepancy was $1.86\times10^{-10}$ and maximum multiplier discrepancy $2.98\times10^{-11}$. All six controls have one upward section crossing per full period; their half-period states do not close. The variational determinant also agrees with the exact integrated divergence $-2(b+1)T$.
+Other section multipliers remain strictly inside the unit circle at both crossings. Independent implicit Radau integrations checked four representative cycles and the two crossing cycles, using a smaller maximum step and tighter tolerance than the original continuation. Maximum closure discrepancy was $`1.86\times10^{-10}`$ and maximum multiplier discrepancy $`2.98\times10^{-11}`$. All six controls have one upward section crossing per full period; their half-period states do not close. The variational determinant also agrees with the exact integrated divergence $`-2(b+1)T`$.
 
 These are isolated, transverse numerical crossings of −1. They identify local flip candidates. By themselves, they do not establish the nonlinear criticality, a cascade, or a route to a chaotic attractor [2].
 
 ## An unstable doubled branch near the first crossing
 
-At width **0.0064**, a perturbation in the critical section direction leads shooting to a distinct closed orbit with period **3.67032710049**, two upward section crossings and largest multiplier **1.05588589**. It is unstable. Its half-period discrepancy is about 0.002495 in the stated balanced norm, so it is not simply the parent orbit traversed twice. Independent Radau integration closes it to approximately $4\times10^{-13}$.
+At width **0.0064**, a perturbation in the critical section direction leads shooting to a distinct closed orbit with period **3.67032710049**, two upward section crossings and largest multiplier **1.05588589**. It is unstable. Its half-period discrepancy is about 0.002495 in the stated balanced norm, so it is not simply the parent orbit traversed twice. Independent Radau integration closes it to approximately $`4\times10^{-13}`$.
 
 Continuing that doubled orbit through six widths up to 0.00658 yields:
 
@@ -69,7 +69,7 @@ Continuing that doubled orbit through six widths up to 0.00658 yields:
 
 The doubled branch stays on the stable-parent side, approaches the parent's shape and twice its period, and its unstable multiplier approaches +1. Squared half-period separation is approximately proportional to distance from the first flip in these samples. Together, these observations support a **subcritical** local picture: an unstable doubled orbit approaches the cycle that is about to lose stability. No normal-form coefficient or interval-arithmetic certification was computed, so this remains numerical evidence rather than a theorem.
 
-All six doubled cycles were checked with Radau; the largest balanced closure discrepancy is $1.07\times10^{-10}$ and the largest multiplier discrepancy $8.38\times10^{-13}$. Each has two upward section crossings and fails half-period closure. Five shooting attempts above the crossing, at 0.0067, either return the repeated parent or fail; their records are retained. That finite set of attempts does not prove absence of other doubled cycles.
+All six doubled cycles were checked with Radau; the largest balanced closure discrepancy is $`1.07\times10^{-10}`$ and the largest multiplier discrepancy $`8.38\times10^{-13}`$. Each has two upward section crossings and fails half-period closure. Five shooting attempts above the crossing, at 0.0067, either return the repeated parent or fail; their records are retained. That finite set of attempts does not prove absence of other doubled cycles.
 
 ## What this explains, and what remains open
 

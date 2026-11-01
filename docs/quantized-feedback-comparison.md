@@ -40,20 +40,20 @@ Let `H(x)=Mx+c`, with nonsingular constant `M`. If
 
 ```math
 DG(Hx)=M\,DF(x)\,M^{-1},\qquad
-\operatorname{tr}DG(Hx)=\operatorname{tr}DF(x).
+\mathrm{tr}DG(Hx)=\mathrm{tr}DF(x).
 ```
 
 On a fixed nearest-site branch of the circle map, let
 `r=|(2b-x)_xy|`. Its trace is
 
 ```math
-\operatorname{tr}DF(x)=3\beta-\frac{\beta}{r}.
+\mathrm{tr}DF(x)=3\beta-\frac{\beta}{r}.
 ```
 
 For the unit-sphere map, with `r=|2b-x|`, it is
 
 ```math
-\operatorname{tr}DF(x)=3\beta-\frac{2\beta}{r}.
+\mathrm{tr}DF(x)=3\beta-\frac{2\beta}{r}.
 ```
 
 For `0<beta<1`, either expression is nonconstant on every nonempty open

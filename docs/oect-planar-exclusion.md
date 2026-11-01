@@ -4,8 +4,12 @@ Research notebook, 29 October 2026. **The published autonomous two-state model i
 
 Bisquert and Tessler [1] obtain sustained oscillations using one organic electrochemical transistor and passive RC components. The two independent states are the external capacitor voltage `u` and the internal electrochemical potential `v`. With constant applied voltage, their Eqs. 31–32 can be written
 
-$$\dot v=G(u,v)=\frac{-v+[R_1u+R_t(v)V_{app}]/[R_1+R_t(v)]}{R_3C_\mu},$$
-$$\dot u=\frac{-u/R_0+(V_{app}-u)/[R_1+R_t(v)]-C_\mu G(u,v)}{C_0}.$$
+```math
+\dot v=G(u,v)=\frac{-v+[R_1u+R_t(v)V_{app}]/[R_1+R_t(v)]}{R_3C_\mu},
+```
+```math
+\dot u=\frac{-u/R_0+(V_{app}-u)/[R_1+R_t(v)]-C_\mu G(u,v)}{C_0}.
+```
 
 All parameters are fixed here. On a region where the capacitances and resistances are positive and the constitutive function is smooth, this is an autonomous planar vector field. Transconductance changes its stability, not its state dimension. The Poincare–Bendixson restriction rules out a classical recurrent chaotic strange attractor for bounded regular motion; a positive short-time stretching rate near an unstable equilibrium would not evade that restriction.
 

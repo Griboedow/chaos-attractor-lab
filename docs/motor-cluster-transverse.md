@@ -10,7 +10,7 @@ The left panel separates perturbations that preserve both clusters from perturba
 
 ## Exact restriction and transverse perturbations
 
-Set $N=8$, with rows 1–4 in cluster A and rows 5–8 in cluster B. The exact five-state restriction is
+Set $`N=8`$, with rows 1–4 in cluster A and rows 5–8 in cluster B. The exact five-state restriction is
 
 ```math
 \begin{aligned}
@@ -47,17 +47,17 @@ V&-1+rc&-\rho c\\
 \end{pmatrix}.
 ```
 
-There are three independent contrasts in each group of four. Thus the full tangent system decomposes into a five-state cluster block, three copies of the A block and three copies of the B block: $5+3\times3+3\times3=23$. A leading tangent vector of the whole system was not projected to estimate these exponents; the dedicated blocks were integrated directly.
+There are three independent contrasts in each group of four. Thus the full tangent system decomposes into a five-state cluster block, three copies of the A block and three copies of the B block: $`5+3\times3+3\times3=23`$. A leading tangent vector of the whole system was not projected to estimate these exponents; the dedicated blocks were integrated directly.
 
-On the computed cycle the clusters exchange after half a period. The corresponding base-state transformation is $(h,Y,Z,u,v)\mapsto(-h,-Y,Z,-u,v)$. The sampled identity agrees within $8\times10^{-13}$ at the endpoints. Accordingly, the A and B Floquet spectra coincide numerically. This spatiotemporal symmetry explains why each transverse multiplier has six copies in the full eight-row system.
+On the computed cycle the clusters exchange after half a period. The corresponding base-state transformation is $`(h,Y,Z,u,v)\mapsto(-h,-Y,Z,-u,v)`$. The sampled identity agrees within $`8\times10^{-13}`$ at the endpoints. Accordingly, the A and B Floquet spectra coincide numerically. This spatiotemporal symmetry explains why each transverse multiplier has six copies in the full eight-row system.
 
 ## Source activity path and the crossing
 
-All calculations keep $r=4.755146047751339$ and $b=1$, with the source Table 1 mechanical constants unchanged. Chemical activity follows $\Omega_{\rm src}=(1+\delta)\Omega_0$. The published positive control has $\delta=0.1$ and $\rho=3.580391273684344$. Increasing activity reduces $\rho$ while preserving $r$.
+All calculations keep $`r=4.755146047751339`$ and $`b=1`$, with the source Table 1 mechanical constants unchanged. Chemical activity follows $`\Omega_{\rm src}=(1+\delta)\Omega_0`$. The published positive control has $`\delta=0.1`$ and $`\rho=3.580391273684344`$. Increasing activity reduces $`\rho`$ while preserving $`r`$.
 
-We first integrated a declared near-equilibrium cluster start $(h,Y,Z,u,v)=(0.02,0,0,0,1)$ for 300 normalized time units, then used section returns to initialize shooting. This is our explicit start, not a recovered random source seed. The phase condition is $h(0)=0$ with $h'(0)>0$. Eighteen continued cycles connect the source control to the candidate parameter point.
+We first integrated a declared near-equilibrium cluster start $`(h,Y,Z,u,v)=(0.02,0,0,0,1)`$ for 300 normalized time units, then used section returns to initialize shooting. This is our explicit start, not a recovered random source seed. The phase condition is $`h(0)=0`$ with $`h'(0)>0`$. Eighteen continued cycles connect the source control to the candidate parameter point.
 
-The initially stable transverse spectrum develops a negative real multiplier that crosses $-1$ at approximately
+The initially stable transverse spectrum develops a negative real multiplier that crosses $`-1`$ at approximately
 
 ```math
 \rho_*=3.37021839958,\qquad
@@ -65,9 +65,9 @@ The initially stable transverse spectrum develops a negative real multiplier tha
 T_*=3.34200881522.
 ```
 
-A centered derivative gives $d m_{\perp}/d\rho\simeq6.7333191$. Halving the difference step from $10^{-4}$ to $5\times10^{-5}$ changes that estimate by about $8.2\times10^{-8}$. Radau independently reproduces the multiplier at the crossing and the near-unit flow multiplier. This is a resolved numerical crossing with nonzero slope.
+A centered derivative gives $`d m_{\perp}/d\rho\simeq6.7333191`$. Halving the difference step from $`10^{-4}`$ to $`5\times10^{-5}`$ changes that estimate by about $`8.2\times10^{-8}`$. Radau independently reproduces the multiplier at the crossing and the near-unit flow multiplier. This is a resolved numerical crossing with nonzero slope.
 
-It is a **symmetry-degenerate transverse flip candidate**: the multiplier $-1$ occurs six times in the full system. The generic theorem for a single simple flip multiplier cannot be applied without further work. We did not compute the nonlinear equivariant normal form, establish doubled branches, or demonstrate a period-doubling cascade.
+It is a **symmetry-degenerate transverse flip candidate**: the multiplier $`-1`$ occurs six times in the full system. The generic theorem for a single simple flip multiplier cannot be applied without further work. We did not compute the nonlinear equivariant normal form, establish doubled branches, or demonstrate a period-doubling cascade.
 
 At the same point as the independently checked hyperchaotic candidate,
 
@@ -75,7 +75,7 @@ At the same point as the independently checked hyperchaotic candidate,
 \rho=2.934090909090909,\qquad \delta=0.63797222637,
 ```
 
-the periodic cycle has period $T=3.47405656015$. Its cluster-subspace Floquet exponents are approximately
+the periodic cycle has period $`T=3.47405656015`$. Its cluster-subspace Floquet exponents are approximately
 
 ```math
 (0,-0.585054,-0.585054,-1,-1).
@@ -97,7 +97,7 @@ The full periodic orbit therefore has six positive exponents, one neutral expone
 
 ## Complete continued branch
 
-All exponents below use the original normalized time $\tau$. The neutral flow exponent is omitted from the cluster column. Each transverse exponent listed has six copies.
+All exponents below use the original normalized time $`\tau`$. The neutral flow exponent is omitted from the cluster column. Each transverse exponent listed has six copies.
 
 | rho | Source delta | Period | Largest non-neutral cluster exponent | Largest transverse exponent |
 | ---: | ---: | ---: | ---: | ---: |
@@ -122,15 +122,15 @@ All exponents below use the original normalized time $\tau$. The neutral flow ex
 
 ## Validation and numerical limits
 
-The [reproduction script](../research/analyze_motor_cluster_cycle.py) checks the five-state field against the independently implemented source force constraint, and checks both transverse embeddings against the full reduced Jacobian at 64 seeded random states. Maximum normalized errors are below $6.5\times10^{-15}$. These are algebraic implementation checks, not proofs of numerical bifurcation statements.
+The [reproduction script](../research/analyze_motor_cluster_cycle.py) checks the five-state field against the independently implemented source force constraint, and checks both transverse embeddings against the full reduced Jacobian at 64 seeded random states. Maximum normalized errors are below $`6.5\times10^{-15}`$. These are algebraic implementation checks, not proofs of numerical bifurcation statements.
 
-Periodic shooting uses DOP853 with relative tolerance $2\times10^{-11}$, absolute tolerance $2\times10^{-13}$ and maximum step 0.05. All 18 declared branch points completed. The largest achieved closure residual is $5.8\times10^{-12}$. The section remains transverse; $h'$ is about 1.23 at the source control and 2.25 at the target.
+Periodic shooting uses DOP853 with relative tolerance $`2\times10^{-11}`$, absolute tolerance $`2\times10^{-13}`$ and maximum step 0.05. All 18 declared branch points completed. The largest achieved closure residual is $`5.8\times10^{-12}`$. The section remains transverse; $`h'`$ is about 1.23 at the source control and 2.25 at the target.
 
-Independent Radau integrations check both the orbit and its variational matrices at the source control, target and refined crossing. Maximum DOP853/Radau transverse matrix discrepancy at the target is $2.8\times10^{-12}$. At the crossing, base closure is below $1.9\times10^{-14}$ and the complete augmented endpoint discrepancy is below $9.3\times10^{-13}$.
+Independent Radau integrations check both the orbit and its variational matrices at the source control, target and refined crossing. Maximum DOP853/Radau transverse matrix discrepancy at the target is $`2.8\times10^{-12}`$. At the crossing, base closure is below $`1.9\times10^{-14}`$ and the complete augmented endpoint discrepancy is below $`9.3\times10^{-13}`$.
 
-An additional integration of the complete **23-state field and 23-by-23 monodromy** verifies the repeated-block decomposition at both endpoint cycles. The matrix reconstruction errors are $5.1\times10^{-14}$ at the source control and $1.35\times10^{-12}$ at the target. The time-translation direction is checked separately through $M f(y_0)=f(y_0)$; its residual at the crossing is below $3.6\times10^{-14}$.
+An additional integration of the complete **23-state field and 23-by-23 monodromy** verifies the repeated-block decomposition at both endpoint cycles. The matrix reconstruction errors are $`5.1\times10^{-14}`$ at the source control and $`1.35\times10^{-12}`$ at the target. The time-translation direction is checked separately through $`M f(y_0)=f(y_0)`$; its residual at the crossing is below $`3.6\times10^{-14}`$.
 
-The branch stays inside the stated physical domain. Sampled row radii satisfy $c_j^2+s_j^2<2$, and the invariant-disk argument bounds the complete trajectories. The source rate harmonic amplitude is at most 0.025853, well below its nonnegativity limit of 0.5. The disk therefore bounds the reconstructed density throughout this branch within approximately $0.4741\leq\ell Q_j\leq0.5259$; saved samples give narrower bounds. No state clipping or fitted correction is used.
+The branch stays inside the stated physical domain. Sampled row radii satisfy $`c_j^2+s_j^2<2`$, and the invariant-disk argument bounds the complete trajectories. The source rate harmonic amplitude is at most 0.025853, well below its nonnegativity limit of 0.5. The disk therefore bounds the reconstructed density throughout this branch within approximately $`0.4741\leq\ell Q_j\leq0.5259`$; saved samples give narrower bounds. No state clipping or fitted correction is used.
 
 The three recorded blocks took about 14 seconds of CPU wall time in total, within the declared 600-second budget. There were no hidden failed shooting attempts or filtered branch points. Accuracy statements are numerical comparisons, not interval-arithmetic proofs of an exact bifurcation location.
 

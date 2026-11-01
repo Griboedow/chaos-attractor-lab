@@ -4,7 +4,7 @@ Audit date: 2026-10-30 UTC. This is a literature and analytical screening result
 
 ## 1. Halide-perovskite memristor: an exact three-state negative-feedback loop
 
-Bisquert and Guerrero [1] study a mixed ionic/electronic memristor and report simulated self-sustained spiking under current drive. The model follows Berruet et al. [2]. With constant applied current, its three states are voltage $u$, delayed internal current $i$, and occupation $f$. Equations (1), (11), and (12) are:
+Bisquert and Guerrero [1] study a mixed ionic/electronic memristor and report simulated self-sustained spiking under current drive. The model follows Berruet et al. [2]. With constant applied current, its three states are voltage $`u`$, delayed internal current $`i`$, and occupation $`f`$. Equations (1), (11), and (12) are:
 
 ```math
 C_m\dot u=I-\frac{u}{R_b}-i,
@@ -13,13 +13,13 @@ C_m\dot u=I-\frac{u}{R_b}-i,
 \qquad E(u)=\exp\!\left(-\frac{u-V_T}{V_m}\right).
 ```
 
-All capacitance, resistance, time, current-scale, and voltage-scale parameters are positive; $I$ is the imposed constant drive. In particular, the last equation is **not** the constant-time-constant relaxation $\tau_k\dot f=f_{ss}(u)-f$.
+All capacitance, resistance, time, current-scale, and voltage-scale parameters are positive; $`I`$ is the imposed constant drive. In particular, the last equation is **not** the constant-time-constant relaxation $`\tau_k\dot f=f_{ss}(u)-f`$.
 
-Figure 5b of [1] uses $R_b=1$, $i_0=10$, $V_T=1$, $V_m=0.05$, $(\tau_m,\tau_d,\tau_k)=(0.1,0.1,0.1)$, $I=6$, with $\tau_m=R_bC_m$. Figure 5c changes $\tau_k$ to 1. Equations and figure labels were checked visually in the institutional manuscript, pages 7 and 10. The paper predicts these spiking regimes; its conclusion does not claim their experimental observation.
+Figure 5b of [1] uses $`R_b=1`$, $`i_0=10`$, $`V_T=1`$, $`V_m=0.05`$, $`(\tau_m,\tau_d,\tau_k)=(0.1,0.1,0.1)`$, $`I=6`$, with $`\tau_m=R_bC_m`$. Figure 5c changes $`\tau_k`$ to 1. Equations and figure labels were checked visually in the institutional manuscript, pages 7 and 10. The paper predicts these spiking regimes; its conclusion does not claim their experimental observation.
 
 ### Physical domain and boundedness: our derivation
 
-The strip $0\le f\le1$, $0\le i\le i_0$ is forward invariant. At the two occupation boundaries the vector field points inward, while the current equation preserves its interval. Voltage satisfies
+The strip $`0\le f\le1`$, $`0\le i\le i_0`$ is forward invariant. At the two occupation boundaries the vector field points inward, while the current equation preserves its interval. Voltage satisfies
 
 ```math
 u_-\le u(t)\le u_+,
@@ -29,7 +29,7 @@ u_- = \min\{u(0),R_b(I-i_0)\},
 u_+ = \max\{u(0),R_b I\}.
 ```
 
-Let $E_-=E(u_+)>0$ and $E_+=E(u_-)\lt \infty$. Comparison with scalar linear equations gives
+Let $`E_-=E(u_+)>0`$ and $`E_+=E(u_-)\lt \infty`$. Comparison with scalar linear equations gives
 
 ```math
 \liminf_{t\to\infty}f(t)\ge\frac{1}{1+E_+}>0,
@@ -47,7 +47,7 @@ whose right-hand side is strictly increasing from minus infinity to plus infinit
 
 ### The theorem mapping, including equilibrium-containing limit sets
 
-Set $g=\log[f/(1-f)]$, write $\sigma(g)=(1+e^{-g})^{-1}$, and order the coordinates as $(u,g,i)$. The transformed vector field is smooth on all of $\mathbb R^3$:
+Set $`g=\log[f/(1-f)]`$, write $`\sigma(g)=(1+e^{-g})^{-1}`$, and order the coordinates as $`(u,g,i)`$. The transformed vector field is smooth on all of $`\mathbb R^3`$:
 
 ```math
 \dot u=\frac{I-u/R_b-i}{C_m},
@@ -87,7 +87,7 @@ a=\frac1{\tau_m},\quad b=\frac1{\tau_d},
 \quad d=\frac{i_0(1-f_*)}{C_m\tau_d\tau_kV_m}.
 ```
 
-Therefore $c_0=abc+d$. Equation (20) on page 9 of the accessible institutional manuscript displays only $d$, omitting the positive term $abc$. Its displayed Jacobian agrees with the original ODE. This mismatch was checked visually, rather than inferred from PDF text extraction. The final publisher equation image was not independently recovered, so this is specifically a **manuscript consistency observation**, not an assertion about an uninspected final typeset equation or an erratum. No numerical Hopf boundary should be copied from that coefficient without recomputation. The cyclic-feedback conclusion does not depend on this discrepancy.
+Therefore $`c_0=abc+d`$. Equation (20) on page 9 of the accessible institutional manuscript displays only $`d`$, omitting the positive term $`abc`$. Its displayed Jacobian agrees with the original ODE. This mismatch was checked visually, rather than inferred from PDF text extraction. The final publisher equation image was not independently recovered, so this is specifically a **manuscript consistency observation**, not an assertion about an uninspected final typeset equation or an erratum. No numerical Hopf boundary should be copied from that coefficient without recomputation. The cyclic-feedback conclusion does not depend on this discrepancy.
 
 ### Citation and equivalence screen
 

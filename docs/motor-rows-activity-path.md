@@ -2,7 +2,7 @@
 
 Status: 30 October 2026. The exact eight-row model of Alouges et al. gives a strong **numerical hyperchaotic candidate while only its prescribed chemical activity is changed**. All mechanical constants and the transition-rate coefficients' defining law remain those of the source. An independent 23-dimensional CPU calculation has six substantial positive finite-time exponents, a near-zero flow direction, and sixteen negative estimates. Scientific priority and an asymptotic attractor are not proved.
 
-This follows the [exact model/source audit](motor-rows-source-audit.md). It addresses a more specific question than the earlier independent $(\rho,r)$ rectangle: can the phenomenon occur on the source's own one-parameter activity path?
+This follows the [exact model/source audit](motor-rows-source-audit.md). It addresses a more specific question than the earlier independent $`(\rho,r)`$ rectangle: can the phenomenon occur on the source's own one-parameter activity path?
 
 Follow-up: the [longer continuation](motor-activity-continuation.md) preserves this historical study and its inputs, extends the same CPU spectrum to 20,000 observed units, and carries the entire GPU cohort a further 20,000 units under two settings. It also resolves the formerly unclassified lane49 as a numerical periodic saddle and adds cluster and physical-perturbation checks. The original durations and counts below describe the earlier frozen experiment.
 
@@ -10,7 +10,7 @@ Follow-up: the [longer continuation](motor-activity-continuation.md) preserves t
 
 ## Keeping the source constants fixed
 
-Section 3.1 of arXiv v2 defines $a_0=c\sqrt\Omega$ and $a_1=b_1=d\Omega$, with $d$ determined once by Eq. (65) at the chosen $\Omega_0$. Table 1 is held fixed. Under the normalization in our source audit,
+Section 3.1 of arXiv v2 defines $`a_0=c\sqrt\Omega`$ and $`a_1=b_1=d\Omega`$, with $`d`$ determined once by Eq. (65) at the chosen $`\Omega_0`$. Table 1 is held fixed. Under the normalization in our source audit,
 
 ```math
 \Omega=\left(\frac{k}{\eta c\rho}\right)^2,
@@ -24,26 +24,26 @@ r=-\frac{2\pi^2 U d}{\eta\ell^2c^2}
 =4.7551460477513405.
 ```
 
-Thus changing activity moves $\rho$ while leaving $r$ fixed. The critical value is $\rho_0=r-1=3.75514604775134$. The source's two illustrated controls, $\delta=(\Omega-\Omega_0)/\Omega_0=\pm0.1$, are included exactly.
+Thus changing activity moves $`\rho`$ while leaving $`r`$ fixed. The critical value is $`\rho_0=r-1=3.75514604775134`$. The source's two illustrated controls, $`\delta=(\Omega-\Omega_0)/\Omega_0=\pm0.1`$, are included exactly.
 
-The same numerical activity convention that reproduces the source's printed $d=-56.4588$ is used: $\Omega_0=15k_BT=0.064002$ in its numerical nN nm convention. This is not a new experimental calibration of the rate law. For $\rho\in[1,4.7]$, the activity ranges from approximately 0.9025 to 0.0408556, corresponding to $\delta\in[-0.36165,13.10112]$. The full survey therefore extends well beyond the illustrated $\pm0.1$ interval.
+The same numerical activity convention that reproduces the source's printed $`d=-56.4588`$ is used: $`\Omega_0=15k_BT=0.064002`$ in its numerical nN nm convention. This is not a new experimental calibration of the rate law. For $`\rho\in[1,4.7]`$, the activity ranges from approximately 0.9025 to 0.0408556, corresponding to $`\delta\in[-0.36165,13.10112]`$. The full survey therefore extends well beyond the illustrated $`\pm0.1`$ interval.
 
-The first-harmonic rates remain positive throughout: $|A|\sqrt2\leq0.0758526<1/2$. From the source's equilibrium-density starts, the invariant disks $c_j^2+s_j^2\leq2$ also keep the reconstructed densities positive. The exact activity, rates, density bounds and physical-time conversion for every tuple are retained in [mapping.json](../results/motor-rows/activity-path/mapping.json).
+The first-harmonic rates remain positive throughout: $`|A|\sqrt2\leq0.0758526<1/2`$. From the source's equilibrium-density starts, the invariant disks $`c_j^2+s_j^2\leq2`$ also keep the reconstructed densities positive. The exact activity, rates, density bounds and physical-time conversion for every tuple are retained in [mapping.json](../results/motor-rows/activity-path/mapping.json).
 
 ## Screen and tighter continuation
 
-The grid contains 45 equally spaced $\rho$ values plus the exact below-onset, above-onset and critical control values: **48 distinct tuples**. Each has three source-style starts, with seeds 20251030–20251032. The Fourier densities start at equilibrium, $c_j=s_j=1$; absolute interior shifts are drawn uniformly from $[-0.01,0.01]$ nm, endpoints fixed, then differenced. These are declared seeds, not recovered source random draws.
+The grid contains 45 equally spaced $`\rho`$ values plus the exact below-onset, above-onset and critical control values: **48 distinct tuples**. Each has three source-style starts, with seeds 20251030–20251032. The Fourier densities start at equilibrium, $`c_j=s_j=1`$; absolute interior shifts are drawn uniformly from $`[-0.01,0.01]`$ nm, endpoints fixed, then differenced. These are declared seeds, not recovered source random draws.
 
-All durations here are original normalized time $\tau=a_0t$. No slow-time multiplier is applied. The initial FP64 OpenCL calculation discarded 200 units and observed 400, using four windows, relative tolerance $10^{-9}$ and the validated analytic tangent equations. Every lane completed within the domain checks.
+All durations here are original normalized time $`\tau=a_0t`$. No slow-time multiplier is applied. The initial FP64 OpenCL calculation discarded 200 units and observed 400, using four windows, relative tolerance $`10^{-9}`$ and the validated analytic tangent equations. Every lane completed within the domain checks.
 
 | System | State dimension | Scout trajectories | Preliminary positive | Retained after tighter continuation |
 | --- | ---: | ---: | ---: | ---: |
 | Three rows | 8 | 144 | 18 | 18 |
 | Eight rows | 23 | 144 | 42 | 32 |
 
-The screening rule is mean leading estimate above 0.005, with each of four windows above 0.001. All 60 selected states and aligned tangents were then continued: another 300 discarded and 1,200 observed units, tolerance $10^{-10}$ and half the step cap. No failures or censored trajectories occurred. The initial screen used about 21.65 GPU seconds; the tighter runs about 64.81 seconds.
+The screening rule is mean leading estimate above 0.005, with each of four windows above 0.001. All 60 selected states and aligned tangents were then continued: another 300 discarded and 1,200 observed units, tolerance $`10^{-10}`$ and half the step cap. No failures or censored trajectories occurred. The initial screen used about 21.65 GPU seconds; the tighter runs about 64.81 seconds.
 
-All three starts at six consecutive sampled $\rho$ values, 2.42955–2.85, retained positive growth for three rows. Eight-row results span a wider sampled interval with gaps and start dependence. These counts are conditional numerical screening results, not probabilities or a complete phase diagram. In particular, subthreshold trajectories and the slowly converging critical point are not classified by exclusion.
+All three starts at six consecutive sampled $`\rho`$ values, 2.42955–2.85, retained positive growth for three rows. Eight-row results span a wider sampled interval with gaps and start dependence. These counts are conditional numerical screening results, not probabilities or a complete phase diagram. In particular, subthreshold trajectories and the slowly converging critical point are not classified by exclusion.
 
 The exact source controls behave consistently with the established implementation controls: below onset the mean estimates are approximately −0.10156; the source's above-onset oscillatory control gives estimates near zero. Their finite residuals are retained rather than rounded into exact zero.
 
@@ -65,9 +65,9 @@ The representative is source lane 69, with
 (\rho,r,b)=(2.934090909090909,\;4.7551460477513405,\;1).
 ```
 
-It corresponds to $\delta=0.63797223$, $\Omega=0.10483350$, $a_0=323.7800$ s⁻¹ and $A=B=-0.01828024$ under the source convention. Its activity is about 64% above the specified onset activity; the source's illustrated oscillatory control was 10% above it. The rate/density lower bound is 0.47414784 in normalized units.
+It corresponds to $`\delta=0.63797223`$, $`\Omega=0.10483350`$, $`a_0=323.7800`$ s⁻¹ and $`A=B=-0.01828024`$ under the source convention. Its activity is about 64% above the specified onset activity; the source's illustrated oscillatory control was 10% above it. The rate/density lower bound is 0.47414784 in normalized units.
 
-The CPU check uses all 23 reduced states and the complete $23\times23$ variational basis. Before it, analytic Jacobians were checked by complex differentiation and the field was reconstructed independently from the source force-difference constraints. DOP853 and Radau agreed over two time units in the full state and an analytic tangent to about $2.4\times10^{-14}$; the independent force reconstruction agreed in state to $3.6\times10^{-15}$.
+The CPU check uses all 23 reduced states and the complete $`23\times23`$ variational basis. Before it, analytic Jacobians were checked by complex differentiation and the field was reconstructed independently from the source force-difference constraints. DOP853 and Radau agreed over two time units in the full state and an analytic tangent to about $`2.4\times10^{-14}`$; the independent force reconstruction agreed in state to $`3.6\times10^{-15}`$.
 
 After 200 discarded units, the initial 1,000-unit full-spectrum record was preserved. Its exact endpoint, QR frame, accumulated logarithms, trace integral and flow-vector diagnostic were loaded for a further 3,000 units. The original JSON and NPZ remain unchanged. Complete checkpoints were saved every 100 units. The resulting **4,000-unit observed spectrum** begins
 
@@ -78,7 +78,7 @@ After 200 discarded units, the initial 1,000-unit full-spectrum record was prese
 
 All remaining estimates are negative. The first six stay positive separately in **each of the four consecutive 1,000-unit blocks**. For example, the sixth is 0.03177, 0.03099, 0.02446 and 0.02561. The near-zero seventh direction is not counted as an additional expanding direction when a shorter interval gives a tiny positive value.
 
-The exact flow-vector finite-time rate is 0.000128929, consistent with the near-zero direction. It agrees with the telescopic vector-field norm ratio to about $9\times10^{-16}$. The sum of all 23 QR estimates agrees with the time-averaged divergence, −8.76809255, to $8.9\times10^{-14}$. Local QR conditioning and flow identities are retained in the records. There are **843 upward $X_1=0$ section returns**. The GPU representative's mean over the additional 5,000 units is 0.209217, consistent in scale with the independent CPU leading estimate.
+The exact flow-vector finite-time rate is 0.000128929, consistent with the near-zero direction. It agrees with the telescopic vector-field norm ratio to about $`9\times10^{-16}`$. The sum of all 23 QR estimates agrees with the time-averaged divergence, −8.76809255, to $`8.9\times10^{-14}`$. Local QR conditioning and flow identities are retained in the records. There are **843 upward $`X_1=0`$ section returns**. The GPU representative's mean over the additional 5,000 units is 0.209217, consistent in scale with the independent CPU leading estimate.
 
 These are strong numerical indications of hyperchaos: expansion in several independent tangent directions. They do not establish an exact asymptotic count of positive exponents or a mathematical attractor proof. No fractal dimension is inferred from these finite records.
 
@@ -94,7 +94,7 @@ The calculation did not impose a cluster reduction. Over the 4,000 observed unit
 
 Temporary proximity does occur. The closest pair's identity changes 5,449 times in the saved samples. At a normalized full-row distance threshold of 0.01, 18,984 of 20,000 samples have eight separate connected components, and 1,016 have seven. At a looser threshold, more rows can form short-lived proximity groups. These threshold-graph diagnostics describe sampled similarity, including transitive chains; they do not prove invariant clusters, symbolic dynamics or a new mechanism.
 
-The invariant density disks remain respected: maximum sampled $c_j^2+s_j^2=1.9967645<2$, and the reconstructed sum of row shifts remains below $9\times10^{-16}$ in magnitude. The model's boundedness argument comes from the exact equations, independently of the finite-time plot.
+The invariant density disks remain respected: maximum sampled $`c_j^2+s_j^2=1.9967645<2`$, and the reconstructed sum of row shifts remains below $`9\times10^{-16}`$ in magnitude. The model's boundedness argument comes from the exact equations, independently of the finite-time plot.
 
 ## Reproduction and remaining questions
 

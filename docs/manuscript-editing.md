@@ -8,6 +8,9 @@ PNG figures. No document compilation is required. Display equations use fenced
 `math` blocks; numerical results remain in the linked evidence packets.
 The fences preserve TeX escapes and subscripts that ordinary Markdown can
 otherwise consume before mathematical rendering.
+Use GitHub's dollar/backtick delimiters for inline mathematics as well.
+Use upright math names such as `\mathrm{tr}` for nonstandard operators;
+the browser check on 2026-11-01 found that GitHub rejected the operator-name macro.
 
 Run from the repository root after editing:
 

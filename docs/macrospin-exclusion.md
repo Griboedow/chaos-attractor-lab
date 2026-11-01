@@ -4,21 +4,29 @@ Arun et al. [1] report self-oscillations driven by self-induced torque (SIT) in 
 
 The following reduction is our own algebra applied to their Eq. 1. Write `z=m_z`, `p=e_z`, `w=m cross p`, `q=m cross (m cross p)`, and `kappa=gamma G`. Every scalar coefficient, including `alpha`, `G`, and `Hs`, depends at most on `z` under these assumptions. With `H_eff=Hz(z) p`, the implicit equation is
 
-$$\dot m=\gamma(\beta H_s-H_z)w+\alpha m\times\dot m+\gamma H_s q+\kappa[p\cdot(m\times\dot m)]q.$$
+```math
+\dot m=\gamma(\beta H_s-H_z)w+\alpha m\times\dot m+\gamma H_s q+\kappa[p\cdot(m\times\dot m)]q.
+```
 
 For `dot m=a w+b q`, use `m cross w=q`, `m cross q=-w` and `p dot (m cross dot m)=-a(1-z^2)`. Define
 
-$$c(z)=\alpha-\kappa(1-z^2),\qquad d(z)=1+\alpha c(z).$$
+```math
+c(z)=\alpha-\kappa(1-z^2),\qquad d(z)=1+\alpha c(z).
+```
 
 On a regular branch with `d(z)!=0`, solving the two linear equations gives
 
-$$a=\frac{\gamma[(\beta-\alpha)H_s-H_z]}{d},\qquad
-b=\frac{\gamma[(1+\beta c)H_s-cH_z]}{d}.$$
+```math
+a=\frac{\gamma[(\beta-\alpha)H_s-H_z]}{d},\qquad
+b=\frac{\gamma[(1+\beta c)H_s-cH_z]}{d}.
+```
 
 Consequently,
 
-$$\dot z=\frac{\gamma(1-z^2)[cH_z-(1+\beta c)H_s]}{d},\qquad
-\dot\varphi=\frac{\gamma[H_z-(\beta-\alpha)H_s]}{d}.$$
+```math
+\dot z=\frac{\gamma(1-z^2)[cH_z-(1+\beta c)H_s]}{d},\qquad
+\dot\varphi=\frac{\gamma[H_z-(\beta-\alpha)H_s]}{d}.
+```
 
 The tilt is governed by a **scalar autonomous ODE**, with azimuth slaved to it. A scalar trajectory cannot repeatedly cross its equilibria on a smooth unique-solution branch. Constant tilt permits steady precession, which explains periodic Cartesian components without providing a chaotic mechanism. A singular denominator is a failure of the regular ODE description, not evidence for chaos.
 

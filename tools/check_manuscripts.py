@@ -17,6 +17,8 @@ def check_math_blocks(text: str, name: Path) -> list[str]:
     fence = None
     math = False
     for number, line in enumerate(text.splitlines(), 1):
+        if (fence is None or math) and r"\operatorname" in line:
+            failures.append(f"{name}:{number}: GitHub rejects operatorname; use an upright math name")
         match = re.match(r"^\s*(`{3,}|~{3,})(.*)$", line)
         if match:
             marker, language = match.groups()
@@ -26,7 +28,7 @@ def check_math_blocks(text: str, name: Path) -> list[str]:
             elif marker[0] == fence[0] and len(marker) >= len(fence) and not language.strip():
                 fence = None
                 math = False
-        elif fence is None and line.strip() == "$$":
+        elif fence is None and line.lstrip().startswith("$$"):
             failures.append(f"{name}:{number}: use a fenced math block to preserve TeX escapes")
     if fence and math:
         failures.append(f"{name}: unclosed math fence")

@@ -1,6 +1,6 @@
 # An order constraint on the smooth two-operator model
 
-**Verified conclusion:** when $k,b>0$ and $b^2\ge4k$, the explicitly logistic-smoothed two-operator model is a strongly 2-cooperative cyclic negative-feedback system after an invertible linear change of coordinates. Every compact omega-limit set that **contains no equilibrium** is a periodic orbit. This is an application of an established theorem, not a new chaos result.
+**Verified conclusion:** when $`k,b>0`$ and $`b^2\ge4k`$, the explicitly logistic-smoothed two-operator model is a strongly 2-cooperative cyclic negative-feedback system after an invertible linear change of coordinates. Every compact omega-limit set that **contains no equilibrium** is a periodic orbit. This is an application of an established theorem, not a new chaos result.
 
 The equilibrium-free qualification is retained. The algebra needed for a stronger classical cyclic-feedback conclusion is favorable, but the original 1990 full theorem was not recovered in this audit. We do not infer a global no-chaos theorem from equilibrium uniqueness alone.
 
@@ -27,14 +27,14 @@ This audit applies to positive widths. It does **not** apply the smooth theorem 
 
 ## Positive mechanical stages when the poles are real
 
-For $b^2\ge4k$, define positive real rates
+For $`b^2\ge4k`$, define positive real rates
 
 ```math
 r_1+r_2=b,\qquad r_1r_2=k,\qquad
 r_2=\frac{b+\sqrt{b^2-4k}}2,\qquad r_1=\frac{k}{r_2}.
 ```
 
-Set $z_\pm=v_\pm+r_1x_\pm$. Then each mechanical subsystem becomes
+Set $`z_\pm=v_\pm+r_1x_\pm`$. Then each mechanical subsystem becomes
 
 ```math
 \dot z_\pm=ky_\pm-r_2z_\pm,
@@ -42,7 +42,7 @@ Set $z_\pm=v_\pm+r_1x_\pm$. Then each mechanical subsystem becomes
 \dot x_\pm=z_\pm-r_1x_\pm.
 ```
 
-This is an exact change of coordinates, not removal of inertia or a slow-manifold approximation. It remains invertible at critical damping $r_1=r_2=\sqrt{k}$: the inverse is simply $v_\pm=z_\pm-r_1x_\pm$.
+This is an exact change of coordinates, not removal of inertia or a slow-manifold approximation. It remains invertible at critical damping $`r_1=r_2=\sqrt{k}`$: the inverse is simply $`v_\pm=z_\pm-r_1x_\pm`$.
 
 In cyclic order
 
@@ -63,7 +63,7 @@ the equations read
 \end{aligned}
 ```
 
-Each equation depends only on its own coordinate and its predecessor. The five forward links have positive derivatives; the closing link $u_6\to u_1$ has a negative derivative. All are strictly nonzero for finite states and $w>0$. The sign product is negative. The whole loop is not an ordinary cooperative system, despite the positive mechanical stages.
+Each equation depends only on its own coordinate and its predecessor. The five forward links have positive derivatives; the closing link $`u_6\to u_1`$ has a negative derivative. All are strictly nonzero for finite states and $`w>0`$. The sign product is negative. The whole loop is not an ordinary cooperative system, despite the positive mechanical stages.
 
 ## Boundedness and the theorem's hypotheses
 
@@ -74,7 +74,7 @@ An explicit invariant box is
 \qquad 0\le z_\pm\le r_1.
 ```
 
-At a thermal boundary the sigmoid points inward; at $z=r_1$, the derivative is $k(y-1)\le0$; at $x=1$, it is $z-r_1\le0$. Lower boundaries are also inward. The previously used physical starts with thermal fractions and displacements in $[0,1]$ and zero velocities belong to this box because $z=r_1x$.
+At a thermal boundary the sigmoid points inward; at $`z=r_1`$, the derivative is $`k(y-1)\le0`$; at $`x=1`$, it is $`z-r_1\le0`$. Lower boundaries are also inward. The previously used physical starts with thermal fractions and displacements in $`[0,1]`$ and zero velocities belong to this box because $`z=r_1x`$.
 
 More generally, any finite initial state has a bounded forward orbit: each thermal equation is a stable first-order filter of a bounded sigmoid, followed by two stable first-order mechanical filters. The smooth field is globally Lipschitz for each fixed positive width. Thus omega-limit sets are nonempty and compact. These bounds concern the normalized model, not the validity of arbitrary actual cantilever deflections.
 
@@ -84,16 +84,16 @@ Weiss and Margaliot [3], Corollary 4 and Theorems 5–6, give the corresponding 
 
 ## Equilibrium uniqueness and the remaining stronger-theorem check
 
-At equilibrium, $y_\pm=x_\pm$ and $v_\pm=0$. Eliminating $x_+$ gives
+At equilibrium, $`y_\pm=x_\pm`$ and $`v_\pm=0`$. Eliminating $`x_+`$ gives
 
 ```math
 x_-=
 S_w\big(S_w(\delta_--x_-)-\delta_+\big).
 ```
 
-The right side is strictly decreasing, while the left side increases. The difference is positive at $x_-=0$ and negative at $x_-=1$, so there is exactly one equilibrium, with both displacements strictly between zero and one.
+The right side is strictly decreasing, while the left side increases. The difference is positive at $`x_-=0`$ and negative at $`x_-=1`$, so there is exactly one equilibrium, with both displacements strictly between zero and one.
 
-Let $a_-,a_+>0$ be the two illumination-slope magnitudes there. The exact characteristic polynomial and determinant are
+Let $`a_-,a_+>0`$ be the two illumination-slope magnitudes there. The exact characteristic polynomial and determinant are
 
 ```math
 \det(\lambda I-J)
@@ -112,7 +112,7 @@ Our six-cycle has the same relevant sign structure and a positive determinant, m
 
 For the two existing references:
 
-| Reference | $b^2/(4k)$ | Actual $b$ | Critical-damping $b=2\sqrt{k}$ |
+| Reference | $`b^2/(4k)`$ | Actual $`b`$ | Critical-damping $`b=2\sqrt{k}`$ |
 |---|---:|---:|---:|
 | A, scout 1026 | 0.0107317 | 1.78418 | 17.2229 |
 | B, scout 3054 | 0.000646340 | 4.71772 | 185.568 |
@@ -121,13 +121,13 @@ Both are strongly underdamped and lie outside this order argument. Their numeric
 
 The mechanical distinction has a direct interpretation. A cascade of the two real positive stages has a nonnegative impulse response. An underdamped second-order mechanical filter instead has an exponentially decaying sine impulse response and can overshoot or reverse its response to past heating. Thus real-pole mechanics allow the cyclic order argument; mechanical ringing removes this particular route to excluding complex recurrent dynamics.
 
-Within the stated smooth family, underdamping is therefore necessary to evade this **equilibrium-free** exclusion. It has not been proved here to be necessary for every possible notion of chaos, and it is certainly not sufficient to produce chaos. Changing damping also changes equilibrium stability, transient times, and periodic orbits; the threshold $b^2=4k$ is not asserted to be an attractor bifurcation boundary.
+Within the stated smooth family, underdamping is therefore necessary to evade this **equilibrium-free** exclusion. It has not been proved here to be necessary for every possible notion of chaos, and it is certainly not sufficient to produce chaos. Changing damping also changes equilibrium stability, transient times, and periodic orbits; the threshold $`b^2=4k`$ is not asserted to be an attractor bifurcation boundary.
 
 ## Reproduction
 
 Run `python research/audit_coupled_order.py`. No GPU or trajectory integration is used. The [JSON results](../results/coupled-operators/order-audit.json) contain 128 seeded algebra checks, including 32 critical-damping cases, direct equilibrium controls, and exact reference parameters. They verify field conjugacy, Jacobian similarity, the positive invariant box, and the Metzler/irreducible second-compound pattern. Four matrix-exponential controls compare the additive-compound exponential with all corresponding minors of the original exponential.
 
-Maximum relative field and Jacobian discrepancies are $2.5\times10^{-15}$ and $2.2\times10^{-14}$; the compound identity agrees within $1.2\times10^{-16}$. These are implementation checks of the derivations. They are not numerical evidence for the theorem itself and do not constitute a new trajectory survey.
+Maximum relative field and Jacobian discrepancies are $`2.5\times10^{-15}`$ and $`2.2\times10^{-14}`$; the compound identity agrees within $`1.2\times10^{-16}`$. These are implementation checks of the derivations. They are not numerical evidence for the theorem itself and do not constitute a new trajectory survey.
 
 ## References
 

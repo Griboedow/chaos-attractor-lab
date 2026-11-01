@@ -11,7 +11,7 @@ Ding, Cardoso, and Cartwright [1] couple precipitate concentration to internal p
 \dot p=N+[-p+cp]H(1-c).
 ```
 
-Here $M,N>0$ are constants and $H$ is the Heaviside function. The active physical interior is $0<c<1$, $p>0$. The membrane thickness and flow areas are fixed. The concentration and osmotic-pressure gradients supply energy; the model assumes them maintained over the interval considered. It also uses the approximation that osmotic pressure is much larger than internal pressure. A pressure excursion invalidating that approximation is not a new physical attractor.
+Here $`M,N>0`$ are constants and $`H`$ is the Heaviside function. The active physical interior is $`0<c<1`$, $`p>0`$. The membrane thickness and flow areas are fixed. The concentration and osmotic-pressure gradients supply energy; the model assumes them maintained over the interval considered. It also uses the approximation that osmotic pressure is much larger than internal pressure. A pressure excursion invalidating that approximation is not a new physical attractor.
 
 For reference, the dimensional definitions are
 
@@ -45,9 +45,9 @@ There is no hidden third state in these definitions. Assigning an independent re
 
 ## Why the oscillations are not a chaos lead
 
-Inside $c<1$, this is a smooth autonomous planar polynomial flow. The planar limit-set restriction excludes a regular bounded strange attractor in a compact subset of that interior. At $c>1$, the printed cutoff gives $\dot c=0$ and $\dot p=N>0$, not recurrent bounded dynamics. The exact convention at the switch must be specified for numerical integration; it does not provide a reset or another state. We have not replaced it with a smoothing or invented rupture-and-reformation rule.
+Inside $`c<1`$, this is a smooth autonomous planar polynomial flow. The planar limit-set restriction excludes a regular bounded strange attractor in a compact subset of that interior. At $`c>1`$, the printed cutoff gives $`\dot c=0`$ and $`\dot p=N>0`$, not recurrent bounded dynamics. The exact convention at the switch must be specified for numerical integration; it does not provide a reset or another state. We have not replaced it with a smoothing or invented rupture-and-reformation rule.
 
-An algebraic check also makes the known stability mechanism transparent. For $0<M<N$, the interior equilibrium is
+An algebraic check also makes the known stability mechanism transparent. For $`0<M<N`$, the interior equilibrium is
 
 ```math
 c_e=\frac{M}{N},\qquad p_e=\frac{N^2}{N-M}.
@@ -70,20 +70,20 @@ This is the linear oscillatory-instability condition, not by itself a proof of t
 
 ## The three-state predecessor does not repair the problem
 
-The full author manuscript of Ding et al. [2] has concentration $c$, pressure $p$, and membrane thickness $L_m$ as states. Its equations (2a)–(2c), visually checked on manuscript page 6, retain the concentration/pressure balances above and add
+The full author manuscript of Ding et al. [2] has concentration $`c`$, pressure $`p`$, and membrane thickness $`L_m`$ as states. Its equations (2a)–(2c), visually checked on manuscript page 6, retain the concentration/pressure balances above and add
 
 ```math
 \dot L_m=K\left[-\dot c+\frac{u_{\mathrm{in}}c_{\mathrm{Si}}}{L_r}\right]
 H(u_{\mathrm{out}}),\qquad K=\frac{MR}{\rho_s}>0.
 ```
 
-Here $K$ abbreviates the positive dimensional material prefactor printed in that paper; its $M$ is not the dimensionless control parameter above. In the active interior, where $u_{\mathrm{out}}>0$ and $c>0$, substitution of the concentration balance yields the exact identity
+Here $`K`$ abbreviates the positive dimensional material prefactor printed in that paper; its $`M`$ is not the dimensionless control parameter above. In the active interior, where $`u_{\mathrm{out}}>0`$ and $`c>0`$, substitution of the concentration balance yields the exact identity
 
 ```math
 \dot L_m=\frac{K}{R}u_{\mathrm{out}}c>0.
 ```
 
-Consequently there is no periodic orbit or recurrent compact invariant set wholly within an active physical region on which this derivative stays positive. More specifically, any compact invariant set lying strictly inside that region would have a positive lower bound on $\dot L_m$, contradicting bounded thickness. This is a scoped structural exclusion; it is not a theorem about arbitrary boundary extensions, dissolution, repair, or a newly forced model.
+Consequently there is no periodic orbit or recurrent compact invariant set wholly within an active physical region on which this derivative stays positive. More specifically, any compact invariant set lying strictly inside that region would have a positive lower bound on $`\dot L_m`$, contradicting bounded thickness. This is a scoped structural exclusion; it is not a theorem about arbitrary boundary extensions, dissolution, repair, or a newly forced model.
 
 The primary paper describes loss of permeability and rupture following all three tested regimes. On manuscript page 12 it explicitly raises possible **transient chaos**, then reports no change in explosion time when initial dimensionless pressure was varied from 0 to at least 10 and initial concentration from 0 to 0.4. The authors interpret the experimental spread as likely stochastic rather than produced by their model. This is already a published chaos question with a limited negative test, not evidence of a sustained strange attractor. It also does not rigorously exclude all transient chaotic scattering.
 

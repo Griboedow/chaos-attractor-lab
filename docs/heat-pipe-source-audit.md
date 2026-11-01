@@ -12,7 +12,7 @@ Three states per pair do not establish the number of independent asymptotic degr
 
 ## What was actually recovered: the 2024 predecessor
 
-The author-upload manuscript [3], equations (5), (6), (12), (13), supplies the following **isothermal predecessor**, not a substitute for [1]. Let $\theta_i$ denote a slug meniscus, $v_i$ its velocity, $\gamma_i$ its fixed length, $\phi_i$ scaled vapor mass and $\ell$ total scaled tube length. Indices are cyclic.
+The author-upload manuscript [3], equations (5), (6), (12), (13), supplies the following **isothermal predecessor**, not a substitute for [1]. Let $`\theta_i`$ denote a slug meniscus, $`v_i`$ its velocity, $`\gamma_i`$ its fixed length, $`\phi_i`$ scaled vapor mass and $`\ell`$ total scaled tube length. Indices are cyclic.
 
 ```math
 \dot\theta_i=v_i,\qquad
@@ -30,9 +30,9 @@ p_i=\frac{\phi_i}{\beta_i},\qquad
 e(\theta)=-R\,\mathrm{clip}\!\left(\frac{Y(\theta)}{\epsilon},-1,1\right).
 ```
 
-Here $Y$ is the vertical coordinate along the specified serpentine tube, and clip limits its argument to the stated interval. The source already derives $S=\sum_i\gamma_i\theta_i=c_1+c_2e^{-\nu t}$. Section 3.2 describes apparent torus-to-chaotic motion for three slugs and stronger irregularity for five; it explicitly leaves precise attractor characterization unresolved.
+Here $`Y`$ is the vertical coordinate along the specified serpentine tube, and clip limits its argument to the stated interval. The source already derives $`S=\sum_i\gamma_i\theta_i=c_1+c_2e^{-\nu t}`$. Section 3.2 describes apparent torus-to-chaotic motion for three slugs and stronger irregularity for five; it explicitly leaves precise attractor characterization unresolved.
 
-The figures use $r/L=0.1$, $h/L=0.03$, $\nu=0.5$, $\sigma=R/\epsilon$: three slugs at approximately $0.617$ and $1$, five at $0.65$ and approximately $0.834$. These captions alone are **not a complete reproducible tuple**: the global geometry, separate $R,\epsilon$, initial menisci and masses must also be specified. Published oscillation shapes are not a Lyapunov calculation.
+The figures use $`r/L=0.1`$, $`h/L=0.03`$, $`\nu=0.5`$, $`\sigma=R/\epsilon`$: three slugs at approximately $`0.617`$ and $`1`$, five at $`0.65`$ and approximately $`0.834`$. These captions alone are **not a complete reproducible tuple**: the global geometry, separate $`R,\epsilon`$, initial menisci and masses must also be specified. Published oscillation shapes are not a Lyapunov calculation.
 
 ## Low-cost mathematical consequences
 
@@ -42,11 +42,11 @@ These are direct checks of the displayed predecessor equations, using unwrapped 
 P=\sum_i\gamma_i v_i,\qquad \dot P=-\nu P.
 ```
 
-For positive damping, every compact recurrent set must lie in $P=0$: any nonzero value decays forward and grows without bound backward. On that set $S$ is constant. Thus the attractor analysis must respect an invariant leaf, rather than treating all $3N$ plotted coordinates as independent recurrent directions. This is consistent with the source's existing reduction, not a new discovery.
+For positive damping, every compact recurrent set must lie in $`P=0`$: any nonzero value decays forward and grows without bound backward. On that set $`S`$ is constant. Thus the attractor analysis must respect an invariant leaf, rather than treating all $`3N`$ plotted coordinates as independent recurrent directions. This is consistent with the source's existing reduction, not a new discovery.
 
 For one pair on the closed ring, pressure differences telescope to zero in its sole mechanical equation. The velocity decays; this one-pair limit cannot be identified with the **open-ended** single-branch oscillator used in older chaos studies. Equal nominal state counts do not establish equivalence.
 
-Positive plug lengths and vapor masses are necessary physical conditions. The denominator $\beta_i$ makes collision/plug collapse a singular boundary. The displayed evaporation law does not automatically enforce $\phi_i\ge0$: its right-hand side can be negative at zero mass. Consequently, numerical boundedness in unconstrained coordinates would not establish a physically admissible attractor. A future implementation needs boundary detection and an explicit, sourced decision about termination or merger. No closure is supplied here.
+Positive plug lengths and vapor masses are necessary physical conditions. The denominator $`\beta_i`$ makes collision/plug collapse a singular boundary. The displayed evaporation law does not automatically enforce $`\phi_i\ge0`$: its right-hand side can be negative at zero mass. Consequently, numerical boundedness in unconstrained coordinates would not establish a physically admissible attractor. A future implementation needs boundary detection and an explicit, sourced decision about termination or merger. No closure is supplied here.
 
 The serpentine drawing is the **fixed apparatus geometry**, not an attractor. Any three-dimensional plot of a many-slug state would be a projection. Visual resemblance to a coiled pipe would therefore not be evidence of a new attractor topology.
 

@@ -8,9 +8,11 @@ We tested another specific published system: the electrically heated elastomer o
 
 The source combines a spring, an elastomer, a mass and a displacement-controlled rheostat. Dropping bars from its dimensionless variables, its full equations (15)–(17) reduce to
 
-$$\dot u=v,\qquad
+```math
+\dot u=v,\qquad
 \dot v=-K u+\alpha T-C_1v-C_2|v|v,\qquad
-\tau\dot T=Q_0-\beta u-T,\qquad K=1+j.$$
+\tau\dot T=Q_0-\beta u-T,\qquad K=1+j.
+```
 
 We retain the paper's assumed heating law `Q=Q0-beta*u`. It is not derived here from a newly chosen resistor characteristic. The full model has three states; the source's fast-thermal approximation (24) is a different, planar model. That autonomous planar approximation cannot have a classical strange attractor on a regular bounded region. This dimensional argument does not exclude chaos in the full three-state equations.
 
@@ -20,21 +22,29 @@ The equations describe a constitutive idealization. Negative electrical heating,
 
 For positive `alpha,C2,K,tau,beta`, shift to the equilibrium
 
-$$u_0=\frac{\alpha Q_0}{K+\alpha\beta},\qquad
-T_0=\frac{KQ_0}{K+\alpha\beta}.$$
+```math
+u_0=\frac{\alpha Q_0}{K+\alpha\beta},\qquad
+T_0=\frac{KQ_0}{K+\alpha\beta}.
+```
 
 With `s=sqrt(K)t`, set
 
-$$X=C_2(u-u_0),\quad V=\frac{C_2v}{\sqrt K},\quad
-Y=\frac{\alpha C_2(T-T_0)}K.$$
+```math
+X=C_2(u-u_0),\quad V=\frac{C_2v}{\sqrt K},\quad
+Y=\frac{\alpha C_2(T-T_0)}K.
+```
 
 The exact transformed equations are
 
-$$X'=V,\qquad V'=-X-cV-|V|V+Y,\qquad Y'=-r(Y+gX),$$
+```math
+X'=V,\qquad V'=-X-cV-|V|V+Y,\qquad Y'=-r(Y+gX),
+```
 
 where
 
-$$c=\frac{C_1}{\sqrt K},\qquad r=\frac1{\tau\sqrt K},\qquad g=\frac{\alpha\beta}K.$$
+```math
+c=\frac{C_1}{\sqrt K},\qquad r=\frac1{\tau\sqrt K},\qquad g=\frac{\alpha\beta}K.
+```
 
 Thus `Q0` shifts the operating point, and `C2>0` sets the amplitude scale. Neither is an additional independent parameter of the normalized dynamics. Exponents quoted below use time `s`; multiplying by `sqrt(K)` converts them to the source's dimensionless time. The normalization is singular at `C2=0`, where the original equations become linear. No nonlinear attractor claim is made for that boundary.
 
@@ -51,17 +61,23 @@ Negative divergence is volume contraction, not by itself a global boundedness pr
 
 The equilibrium's exact characteristic polynomial is
 
-$$p(\lambda)=\lambda^3+(c+r)\lambda^2+(1+cr)\lambda+r(1+g).$$
+```math
+p(\lambda)=\lambda^3+(c+r)\lambda^2+(1+cr)\lambda+r(1+g).
+```
 
 For `c,r,g>0`, Routh–Hurwitz gives local asymptotic stability precisely when
 
-$$g<g_H(c,r)=\frac cr+c^2+cr.$$
+```math
+g<g_H(c,r)=\frac cr+c^2+cr.
+```
 
 At equality the eigenvalues are `±i sqrt(1+cr)` and `-(c+r)`. This is an exact **linear crossing condition**, not an automatically certified nonlinear Hopf bifurcation.
 
 For fixed `c>0`, the threshold is smallest at `r=1`, with minimum `c²+2c`. If `g>c²+2c`, the equilibrium is unstable only between
 
-$$r_\pm=\frac{g-c^2\pm\sqrt{(g-c^2)^2-4c^2}}{2c}.$$
+```math
+r_\pm=\frac{g-c^2\pm\sqrt{(g-c^2)^2-4c^2}}{2c}.
+```
 
 Both very fast and very slow heat exchange can restore local stability. For example, `c=.2,g=1` gives `r_-=.2182575771` and `r_+=4.5817424229`. Local stability does not rule out remote coexisting attractors.
 

@@ -96,7 +96,7 @@ B_2=\begin{pmatrix}
 1-b&b
 \end{pmatrix},
 \qquad
-\operatorname{tr}B_2=1-b-4e/\kappa,\quad
+\mathrm{tr}B_2=1-b-4e/\kappa,\quad
 \det B_2=b(3-4e/\kappa).
 ```
 

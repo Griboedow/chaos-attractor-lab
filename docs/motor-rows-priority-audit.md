@@ -8,9 +8,9 @@ The [numerical report](motor-rows-gpu-survey.md) contains the independent calcul
 
 ## Exact target and equivalence standard
 
-The target is the constant-total-rate, cosine-potential N-row system of Alouges et al. (2025), with the fixed-endpoint mechanical constraint. The independent first-harmonic subsystem has dimension $3N-1$, hence eight states for $N=3$. Its normalized parameters are $(\rho,r,b)$; the reported three-row candidate has $b=1$.
+The target is the constant-total-rate, cosine-potential N-row system of Alouges et al. (2025), with the fixed-endpoint mechanical constraint. The independent first-harmonic subsystem has dimension $`3N-1`$, hence eight states for $`N=3`$. Its normalized parameters are $`(\rho,r,b)`$; the reported three-row candidate has $`b=1`$.
 
-For comparison, write $z_j=c_j+i s_j$. Our algebraic rewriting of the already verified field is
+For comparison, write $`z_j=c_j+i s_j`$. Our algebraic rewriting of the already verified field is
 
 ```math
 z_j'=(-1+iV_j)z_j+1+ib,\qquad

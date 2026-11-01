@@ -36,7 +36,9 @@ The denominator `d=sqrt(V)+e` satisfies `d>=e` and `d>=sigma*|x|`. To see the se
 
 The [scalar first-exit theorem](scalar-optimizer-boundedness.md) now bounds both `x` and `m` from every finite legal initial state, for every `0<=b<1`. If `|x|<=B`, then
 
-$$v_t\le\max\{v_0,(2-c)B^2\}.$$
+```math
+v_t\le\max\{v_0,(2-c)B^2\}.
+```
 
 Indeed, above `B^2` the second memory cannot increase, and below it the next value is at most `(2-c)B^2`. The same argument covers the time-dependent bias factors: `0<r_t<=1/(1-b)`, so the effective denominator `d/r_t` has floors `(1-b)e` and `(1-b)sigma*|x|`.
 
@@ -47,13 +49,13 @@ Every autonomous orbit consequently has a nonempty compact invariant omega-limit
 For `v>0`, the derivative determinant is
 
 ```math
-\det DF=b[1-(1-c)kx^2\operatorname{sech}^2(k(v-x^2))].
+\det DF=b[1-(1-c)kx^2\mathrm{sech}^2(k(v-x^2))].
 ```
 
 For `b>0`, its critical sheets satisfy
 
 ```math
-v=x^2\ \pm\ \frac{\operatorname{arcosh}\sqrt{(1-c)kx^2}}k,
+v=x^2\ \pm\ \frac{\mathrm{arcosh}\sqrt{(1-c)kx^2}}k,
 \qquad (1-c)kx^2\ge1,\quad v\ge0,
 ```
 
@@ -67,24 +69,32 @@ Symmetric two-cycles of Adam on quadratics are already described by [Bock and We
 
 Assume `0<b<1`, define `A=(1-b)/(1+b)`, `d=A/2`, and take `0<e<d`. Then `a=d-e>0` and
 
-$$z_+=(a,-Aa,a^2),\qquad z_-=(-a,Aa,a^2)$$
+```math
+z_+=(a,-Aa,a^2),\qquad z_-=(-a,Aa,a^2)
+```
 
 form a two-cycle, since `T=0`, `V=a^2` and the position update subtracts `2a`. This asserts the existence of this symmetric family, not a classification of every two-cycle. Put
 
-$$r=a/d\in(0,1),\qquad q=(1-c)ka^2>0.$$
+```math
+r=a/d\in(0,1),\qquad q=(1-c)ka^2>0.
+```
 
 For the reflection `R=diag(-1,-1,1)`, let `L=R*DF(z_+)`. Symmetry gives `DF^2(z_+)=L^2`. Direct differentiation yields
 
-$$L=\begin{pmatrix}
+```math
+L=\begin{pmatrix}
 1+2b-2rq & 2b/A & -2(1-q)/A\\
 -(1-b)&-b&0\\
 qrA&0&1-q
-\end{pmatrix}.$$
+\end{pmatrix}.
+```
 
 Its characteristic polynomial is `p(z)=z^3+a1*z^2+a2*z+a3`, with
 
-$$a_1=-b-2+q(1+2r),\quad
-a_2=1+2b+q(2br-b-1),\quad a_3=b(q-1).$$
+```math
+a_1=-b-2+q(1+2r),\quad
+a_2=1+2b+q(2br-b-1),\quad a_3=b(q-1).
+```
 
 The cycle is locally exponentially stable **if and only if**
 
@@ -96,28 +106,40 @@ q_+={2(1+b)\over1+b+r(1-b)}.
 
 Here “exponentially” excludes undecided nonhyperbolic boundary cases. The interval is nonempty, because
 
-$$q_+-q_-={ (1-b)(1+r)((1+b)^2-4br)\over
-b(1-b+2r)(1+b+r(1-b))}>0.$$
+```math
+q_+-q_-={ (1-b)(1+r)((1+b)^2-4br)\over
+b(1-b+2r)(1+b+r(1-b))}>0.
+```
 
 ### Proof of the root criterion used here
 
 For a real monic cubic `p`, set `p*(z)=z^3*p(1/z)`. When `|a3|<1`, its Schur transform
 
-$$Q(z)=[p(z)-a_3p^*(z)]/z=Uz^2+Wz+H$$
+```math
+Q(z)=[p(z)-a_3p^*(z)]/z=Uz^2+Wz+H
+```
 
 has `U=1-a3^2`, `W=a1-a3*a2`, `H=a2-a3*a1`. All roots of `p` are in the open unit disk if and only if all roots of `Q` are there. In one direction apply Rouche's theorem to `p-a3*p*` on the unit circle; the converse follows from `U*p=z*Q+a3*Q*` and the same theorem. A stable monic cubic necessarily has `|a3|<1` from its root product.
 
 For the quadratic, the substitution `z=(1+s)/(1-s)` gives coefficients `U-W+H`, `2(U-H)`, `U+W+H`. The elementary real quadratic left-half-plane criterion therefore gives `U-H>0` and `U+H>|W|`. Consequently the cubic conditions are
 
-$$|a_3|<1,\quad p(1)>0,\quad -p(-1)>0,\quad
-1-a_2+a_1a_3-a_3^2>0.$$
+```math
+|a_3|<1,\quad p(1)>0,\quad -p(-1)>0,\quad
+1-a_2+a_1a_3-a_3^2>0.
+```
 
 In this case they factor as
 
-$$p(1)=2qr(1+b),$$
-$$-p(-1)=4(1+b)-2q[(1+b)+r(1-b)],$$
-$$1-a_2+a_1a_3-a_3^2
-=q[(1-b)^2-4br+b(1-b+2r)q].$$
+```math
+p(1)=2qr(1+b),
+```
+```math
+-p(-1)=4(1+b)-2q[(1+b)+r(1-b)],
+```
+```math
+1-a_2+a_1a_3-a_3^2
+=q[(1-b)^2-4br+b(1-b+2r)q].
+```
 
 They give the interval above; `q_+<=2` makes `|b(q-1)|<1` automatic inside it. Eigenvalues of the full two-step derivative are squares of those of `L`, proving the exponential stability statement.
 

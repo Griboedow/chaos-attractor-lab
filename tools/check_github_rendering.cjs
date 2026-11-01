@@ -48,7 +48,7 @@ async function main() {
         const response = await page.goto(url, {waitUntil: 'domcontentloaded', timeout: 60000});
         await page.locator('article.markdown-body').waitFor({timeout: 30000});
         await page.waitForFunction(() => [...document.querySelectorAll('math-renderer')].every(e =>
-          e.querySelector('math,mjx-container') || /error|missing|undefined|unrecognized/i.test(e.innerText)
+          e.querySelector('math,mjx-container') || /error|missing|undefined|unrecognized|not allowed/i.test(e.innerText)
         ), {}, {timeout: 30000}).catch(() => {});
         const body = page.locator('article.markdown-body');
         const data = await body.evaluate(a => {
@@ -69,7 +69,7 @@ async function main() {
         await page.waitForFunction(() => [...document.querySelectorAll('article.markdown-body img')].every(e => e.complete), {}, {timeout: 60000}).catch(() => {});
         data.images = await body.locator('img').evaluateAll(images => images.map(e => ({src: e.getAttribute('src'), loaded: e.complete && e.naturalWidth > 0})));
         const screenshot = file.replaceAll('/', '--').replace(/\.md$/, '') + '.png';
-        await body.screenshot({path: path.join(output, screenshot), timeout: 60000});
+        await page.screenshot({path: path.join(output, screenshot), fullPage: true, timeout: 60000});
         row = {
           file, url, status: response.status(),
           source_sha256: crypto.createHash('sha256').update(source).digest('hex'),

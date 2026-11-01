@@ -33,11 +33,15 @@ Scaled closure residuals are below `5e-17`; neutral multipliers agree with one t
 
 The smooth model has exactly one equilibrium because `u + I S(u)/(1+I S(u)) = d` is strictly increasing. At that equilibrium define `a=1+I S(u)` and `c=I(1-phi) S'(u)`. Our direct calculation gives
 
-$$p(\lambda)=(\lambda+a)(\lambda^2+b\lambda+k)+kc.$$
+```math
+p(\lambda)=(\lambda+a)(\lambda^2+b\lambda+k)+kc.
+```
 
 All coefficients are positive, so Routh–Hurwitz stability reduces to
 
-$$b(k+ab+a^2)>kc.$$
+```math
+b(k+ab+a^2)>kc.
+```
 
 For this reference, equality occurs at `w/q=0.00278283773`, with eigenvalues approximately `±28.80126 i` and `-14.49196`. This is a **linear Hopf candidate**; nonlinear criticality and nondegeneracy have not been established. At `w/q=0.01`, the simulation endpoint agrees with the stable equilibrium to `1.6e-18`. Local stability does not exclude coexisting remote attractors.
 
@@ -47,11 +51,15 @@ The physical implication remains conditional: chaos survives a narrow smooth tra
 
 For the **ideal** switch, eliminating `Y` from the normalized equations on each open branch gives, with `r=1+I H(U)`,
 
-$$U'''+(b+r)U''+(k+br)U'+rkU=rk\delta-k(1+I)H(U).$$
+```math
+U'''+(b+r)U''+(k+br)U'+rkU=rk\delta-k(1+I)H(U).
+```
 
 Displacement, velocity and acceleration remain continuous at a transverse switch; jerk jumps. The normalized limit `I -> 0`, at fixed `delta`, is
 
-$$U'''+(b+1)U''+(k+b)U'+kU=k[\delta-H(U)].$$
+```math
+U'''+(b+1)U''+(k+b)U'+kU=k[\delta-H(U)].
+```
 
 At `delta=1/2`, its forcing is `-(k/2) sgn(U)`. The linear denominator `(s+1)(s^2+bs+k)` is stable for positive `b,k`. This connects the slider to classical negative relay feedback. The subsequent [weak-light and bias study](lce-slider-relay-limit.md) now simulates this normalized limit with independent CPU/GPU checks and a stable symmetric periodic control. Physical amplitudes shrink and the threshold must be retuned as intensity decreases.
 

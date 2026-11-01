@@ -116,7 +116,9 @@ Independent relative perturbations of the eight Fourier coefficients retain `114
 
 For a harmonic `n=1,3`, define
 
-$$C_n=\frac{A_n^\chi-nB_n^\theta}{n^2+1}.$$
+```math
+C_n=\frac{A_n^\chi-nB_n^\theta}{n^2+1}.
+```
 
 The potential
 

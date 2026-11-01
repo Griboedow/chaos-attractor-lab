@@ -68,7 +68,9 @@ coordinate margin implies `F(Q) subset int(Q)`.
 
 **Proposition.** For this exact model and region,
 
-$$K=\bigcap_{n\ge0}F^n(Q)$$
+```math
+K=\bigcap_{n\ge0}F^n(Q)
+```
 
 is nonempty, compact, satisfies `F(K)=K`, and attracts a neighborhood of `Q`.
 
@@ -140,7 +142,9 @@ inclusion itself rests on exhaustive interval coverage of `Q`.
 Let `x0=(0.317,-0.211,0.419)`, again interpreted as exact binary64 lifts.
 An interval propagation proves
 
-$$F^{11}(x_0+[-2^{-35},2^{-35}]^3)\subset Q.$$
+```math
+F^{11}(x_0+[-2^{-35},2^{-35}]^3)\subset Q.
+```
 
 Thus this explicit neighborhood of the original start approaches `K`.
 Natural and mean-value interval enclosures are intersected at each step.

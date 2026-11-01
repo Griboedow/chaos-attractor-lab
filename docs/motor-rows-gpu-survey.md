@@ -16,7 +16,7 @@ This is a **numerically supported candidate in an existing model**. Its scientif
 
 The source describes molecular motor populations driving relative sliding between elastically coupled rows. Constant total transition rate and a cosine motor potential yield an exact first-harmonic closure of the population equations. Mechanical force balance supplies the mean coupling; it is not an added feedback term selected for this search.
 
-For row $j$, $c_j$ and $s_j$ are normalized cosine and sine population coefficients, and $X_j$ is normalized relative displacement. With $\bar s$ denoting the row mean, the implemented equations are
+For row $`j`$, $`c_j`$ and $`s_j`$ are normalized cosine and sine population coefficients, and $`X_j`$ is normalized relative displacement. With $`\bar s`$ denoting the row mean, the implemented equations are
 
 ```math
 V_j=-\rho X_j+r(s_j-\bar s),\qquad
@@ -25,13 +25,13 @@ s_j'=-s_j+V_jc_j+b,\qquad
 X_j'=V_j,\qquad \sum_jX_j=0.
 ```
 
-Time is the dimensionless source time $\tau$. Eliminating the last displacement gives $3N-1$ independent states: eight for three rows, eleven for four, and twenty-three for eight. The [source audit](motor-rows-source-audit.md) derives the normalization, independent force-constraint reconstruction, Jacobian, invariant bounds, source parameters and initial-condition mapping.
+Time is the dimensionless source time $`\tau`$. Eliminating the last displacement gives $`3N-1`$ independent states: eight for three rows, eleven for four, and twenty-three for eight. The [source audit](motor-rows-source-audit.md) derives the normalization, independent force-constraint reconstruction, Jacobian, invariant bounds, source parameters and initial-condition mapping.
 
-All searches here fix $b=1$. They vary dimensionless ratios independently, so they cover a broader family than the source's single calibrated activity path. Admissible transition-rate amplitudes can still be chosen within that family: for example $A=-0.1$ satisfies $|A|\sqrt{2}\lt1/2$. This does not turn the exploratory tuples into predictions for a particular apparatus.
+All searches here fix $`b=1`$. They vary dimensionless ratios independently, so they cover a broader family than the source's single calibrated activity path. Admissible transition-rate amplitudes can still be chosen within that family: for example $`A=-0.1`$ satisfies $`|A|\sqrt{2}\lt1/2`$. This does not turn the exploratory tuples into predictions for a particular apparatus.
 
 ## Search and verification
 
-The first survey used an NVIDIA GTX 1080 through OpenCL with FP64 arithmetic. It covered 16 logarithmically spaced values of $\rho$ from 0.03 to 10 and 20 values of $r/(\rho+1)$ from 1.05 to 30, with three declared seeded starts at each tuple. The starts follow the source prescription of equilibrium populations and small random **absolute** shifts; relative displacements are then obtained by differencing fixed-endpoint positions.
+The first survey used an NVIDIA GTX 1080 through OpenCL with FP64 arithmetic. It covered 16 logarithmically spaced values of $`\rho`$ from 0.03 to 10 and 20 values of $`r/(\rho+1)`$ from 1.05 to 30, with three declared seeded starts at each tuple. The starts follow the source prescription of equilibrium populations and small random **absolute** shifts; relative displacements are then obtained by differencing fixed-endpoint positions.
 
 | Rows | Independent states | Completed lanes | Wall-censored lanes | Preliminary positive lanes |
 | ---: | ---: | ---: | ---: | ---: |
@@ -41,13 +41,13 @@ The first survey used an NVIDIA GTX 1080 through OpenCL with FP64 arithmetic. It
 
 These are trajectories at parameter/start combinations, not counts of distinct attractors. None of the 2,880 lanes failed a numerical or invariant-domain check. The 120 wall-censored lanes remain unresolved. Four-row and eight-row positives have screening-level evidence only.
 
-The scout discarded 100 and observed 300 units of computational time $s=\min(1,\rho)\tau$. Every saved exponent is converted to original $\tau$. The preliminary rule required all four original-time windows to exceed 0.001 and their mean to exceed 0.005. This arbitrary screening cutoff is documented; values below it do not prove absence of chaos.
+The scout discarded 100 and observed 300 units of computational time $`s=\min(1,\rho)\tau`$. Every saved exponent is converted to original $`\tau`$. The preliminary rule required all four original-time windows to exceed 0.001 and their mean to exceed 0.005. This arbitrary screening cutoff is documented; values below it do not prove absence of chaos.
 
-Before the survey, nine short state/tangent controls across three dimensions and stiff parameter choices agreed with independent DOP853 and Radau solutions. The largest GPU state difference was about $2.04\times10^{-10}$. Both published eight-row source regimes were also checked to $\tau=300$: the oscillatory control differed from independent Radau by $5.05\times10^{-11}$, and the resting control by $2.22\times10^{-14}$. The [validation record](../results/motor-rows/gpu-validation.json) retains these results.
+Before the survey, nine short state/tangent controls across three dimensions and stiff parameter choices agreed with independent DOP853 and Radau solutions. The largest GPU state difference was about $`2.04\times10^{-10}`$. Both published eight-row source regimes were also checked to $`\tau=300`$: the oscillatory control differed from independent Radau by $`5.05\times10^{-11}`$, and the resting control by $`2.22\times10^{-14}`$. The [validation record](../results/motor-rows/gpu-validation.json) retains these results.
 
-All forty three-row positives then continued from their saved states and aligned tangents, with an additional 300 discarded and 1,200 observed units of **original** time, requested relative tolerance $10^{-10}$ and half the scout's step cap. All completed. Twenty-four lanes across nine tuples retained the four-window screen; sixteen weaker candidates relaxed to near-zero or mixed-sign windows. No candidate or failed check was silently discarded. The [refinement data](../results/motor-rows/gpu-refined-N3.npz) and [metadata](../results/motor-rows/gpu-refined-N3.json) preserve the complete cohort.
+All forty three-row positives then continued from their saved states and aligned tangents, with an additional 300 discarded and 1,200 observed units of **original** time, requested relative tolerance $`10^{-10}`$ and half the scout's step cap. All completed. Twenty-four lanes across nine tuples retained the four-window screen; sixteen weaker candidates relaxed to near-zero or mixed-sign windows. No candidate or failed check was silently discarded. The [refinement data](../results/motor-rows/gpu-refined-N3.npz) and [metadata](../results/motor-rows/gpu-refined-N3.json) preserve the complete cohort.
 
-The final-quarter distances between each pair of full row states $(c_j,s_j,X_j)$ remained macroscopic for the twenty-four retained lanes. For the strongest tuple, all three pair RMS distances were approximately 1.27–1.42. This rules out a fixed two-plus-one collapse at the observed numerical resolution; it does not rule out close approaches, changing approximate clusters, or a different lower-dimensional description.
+The final-quarter distances between each pair of full row states $`(c_j,s_j,X_j)`$ remained macroscopic for the twenty-four retained lanes. For the strongest tuple, all three pair RMS distances were approximately 1.27–1.42. This rules out a fixed two-plus-one collapse at the observed numerical resolution; it does not rule out close approaches, changing approximate clusters, or a different lower-dimensional description.
 
 ## A fixed-cohort long continuation
 
@@ -63,7 +63,7 @@ At the strongest tuple, the results are:
 
 All eighty windows remain positive for each of these starts. This makes a short transient explanation less plausible, while remaining a finite-time result.
 
-The complete cohort gives a more qualified picture. Twenty-two lanes remain above 0.005 cumulatively, and twenty-one exceed 0.005 over the final 2,000 units. Starts 483 and 485, at approximately $\rho=0.665,r=2.085$, relax to near-zero growth; start 291 weakens substantially late in the run. These outcomes remain in the data. Negative short windows alone also do not exclude chaos, so the full histories matter more than a single screening count.
+The complete cohort gives a more qualified picture. Twenty-two lanes remain above 0.005 cumulatively, and twenty-one exceed 0.005 over the final 2,000 units. Starts 483 and 485, at approximately $`\rho=0.665,r=2.085`$, relax to near-zero growth; start 291 weakens substantially late in the run. These outcomes remain in the data. Negative short windows alone also do not exclude chaos, so the full histories matter more than a single screening count.
 
 There are no numerical or domain failures. The largest motor-disk radius squared is below 1.999, and the largest observed relative-displacement magnitude is about 7.26 across the cohort. Row-pair ranges were recorded at accepted endpoints in the **last 125 units of each block**; they show no fixed pair collapse in those sampled windows. They do not continuously cover the entire continuation.
 
@@ -77,15 +77,15 @@ The separate CPU calculation starts from scout row 783, discards another 200 and
 (0.26795,\;-0.00014,\;-0.08156,\;-0.45801,\;-0.76242,\;-0.88742,\;-0.96765,\;-0.99672).
 ```
 
-The sum matches integrated divergence to $1.96\times10^{-14}$, while the independently tracked flow direction has exponent $0.000116$, consistent with the neutral direction expected in a nonstationary autonomous flow. There are 636 upward returns to $X_1=0$. The maximum sampled motor-disk radius squared is below 1.974, within the exact bound 2. The eliminated displacement preserves the sum constraint.
+The sum matches integrated divergence to $`1.96\times10^{-14}`$, while the independently tracked flow direction has exponent $`0.000116`$, consistent with the neutral direction expected in a nonstationary autonomous flow. There are 636 upward returns to $`X_1=0`$. The maximum sampled motor-disk radius squared is below 1.974, within the exact bound 2. The eliminated displacement preserves the sum constraint.
 
 These checks support a dissipative chaotic candidate, with one expanding direction. They do not establish hyperchaos. The finite-time Kaplan–Yorke estimate is approximately **3.41**, which is a numerical descriptor rather than a rigorous dimension calculation. Full settings, local identity checks, solver limits and data are in [the independent CPU record](../results/motor-rows/cpu-candidate-N3-783.json).
 
 ## What the pictures show
 
-Every three-dimensional picture is a **projection of the eight-dimensional state**. The curved triangular envelope in $(s_1,s_2,s_3)$ is visually interesting, and the $(X_1,X_2,s_1)$ view displays a folded sheet. The figures use the source's physical normalized coordinates.
+Every three-dimensional picture is a **projection of the eight-dimensional state**. The curved triangular envelope in $`(s_1,s_2,s_3)`$ is visually interesting, and the $`(X_1,X_2,s_1)`$ view displays a folded sheet. The figures use the source's physical normalized coordinates.
 
-The equations are symmetric under permutation of the three rows. In the saved trajectory, only about 3.58% of the total variance of $(s_1,s_2,s_3)$ lies along the fixed common-mode direction $(1,1,1)/\sqrt{3}$. The contrast directions dominate. This is consistent with a flattened, permutation-symmetric envelope, but the common mode is not conserved: its row mean ranges from about 0.583 to 0.941. The [derived geometry summary](../results/motor-rows/cpu-candidate-N3-783-summary.json) records the calculation and its sampling convention.
+The equations are symmetric under permutation of the three rows. In the saved trajectory, only about 3.58% of the total variance of $`(s_1,s_2,s_3)`$ lies along the fixed common-mode direction $`(1,1,1)/\sqrt{3}`$. The contrast directions dominate. This is consistent with a flattened, permutation-symmetric envelope, but the common mode is not conserved: its row mean ranges from about 0.583 to 0.941. The [derived geometry summary](../results/motor-rows/cpu-candidate-N3-783-summary.json) records the calculation and its sampling convention.
 
 ![Rotating physical-coordinate projection of the eight-dimensional candidate](../results/motor-rows/cpu-candidate-N3-783.gif)
 

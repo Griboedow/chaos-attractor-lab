@@ -110,7 +110,7 @@ The companion packet contains four numerical branches (1,604 settings), five iso
 Krawczyk verification is an established method [7]. For G=F<sup>p</sup>−I, the computed enclosure is
 
 ```math
-K(X)=x_0-CG(x_0)+(I-CDG(X))(X-x_0)\subset\operatorname{int}X.
+K(X)=x_0-CG(x_0)+(I-CDG(X))(X-x_0)\subset\mathrm{int}X.
 ```
 
 The preconditioner C need not be an exact inverse. All inclusions and margin signs use interval arithmetic; ordinary high-precision Newton solves only propose centers. The computations trust mpmath 1.3.0 interval arithmetic and Python. They are computer-assisted certificates, not proof-assistant formalizations or an independent audit of the arithmetic library. Reproduction commands and package versions are in the companion README.

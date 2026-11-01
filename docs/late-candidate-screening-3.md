@@ -6,7 +6,7 @@ Audit: 2026-10-30 UTC. No trajectories were simulated. This block recovers one e
 
 The early preprint by Dewan, Mondal, and Sarkar [1] is titled *Oscillation death by mechanochemical feedback*. Its latest version [2] adds an author, changes the title to *Symmetry-protected phases in a 1D active solid with mechanochemical feedback*, and corresponds to PRL **137**, 078401 (2026), DOI [10.1103/p1bw-v87g](https://doi.org/10.1103/p1bw-v87g). Checking only the initial version would miss material prior art: the latest main text explicitly reports **spatiotemporal chaos**, and supplementary section X discusses Lyapunov spectra.
 
-The precise follow-up retained here is the **single-cell**, five-state equation S2 of [2], with the source's explicit choice $f(L,t)=0$. It is distinct from the spatial model and retains no externally varying drive:
+The precise follow-up retained here is the **single-cell**, five-state equation S2 of [2], with the source's explicit choice $`f(L,t)=0`$. It is distinct from the spatial model and retains no externally varying drive:
 
 ```math
 \dot M=a-(b+1)M+cM^2E,
@@ -21,7 +21,7 @@ The precise follow-up retained here is the **single-cell**, five-state equation 
 \tau_R\dot L=L_0-L.
 ```
 
-We use $E_r$ to distinguish the **fixed reference concentration** called $E_0$ in the source from an initial condition. The source parameters are $a=c=1$, $b=3$, $D_0=0.1$, $\tau_R=1$, with $\tau_D=1.1$, $\tau_L=1.2$ as defaults. The source initializes chemical variables on the uncoupled limit cycle, with $D=D_0$ and $L=L_0=1$.
+We use $`E_r`$ to distinguish the **fixed reference concentration** called $`E_0`$ in the source from an initial condition. The source parameters are $`a=c=1`$, $`b=3`$, $`D_0=0.1`$, $`\tau_R=1`$, with $`\tau_D=1.1`$, $`\tau_L=1.2`$ as defaults. The source initializes chemical variables on the uncoupled limit cycle, with $`D=D_0`$ and $`L=L_0=1`$.
 
 ### Exact normalization and implementation checks: our calculations
 
@@ -35,9 +35,9 @@ M_r=0.6137372763943942,
 E_r=\frac{3M_r}{M_r^2+0.1}=3.8626272360560576.
 ```
 
-The cubic is strictly increasing, so this real root is unique. The two chemical residuals are below $3\times10^{-16}$ in floating-point arithmetic. Initializing every state exactly at this equilibrium is not a useful oscillator test.
+The cubic is strictly increasing, so this real root is unique. The two chemical residuals are below $`3\times10^{-16}`$ in floating-point arithmetic. Initializing every state exactly at this equilibrium is not a useful oscillator test.
 
-For $\alpha>0$, put $x=(1-L)/\alpha$, $y=(1-L_0)/\alpha$, and $\mu=\alpha\beta$. This is an invertible affine transformation, not a new constitutive law. The last three equations become
+For $`\alpha>0`$, put $`x=(1-L)/\alpha`$, $`y=(1-L_0)/\alpha`$, and $`\mu=\alpha\beta`$. This is an invertible affine transformation, not a new constitutive law. The last three equations become
 
 ```math
 \tau_D\dot D=D_0-D+\mu Dx,
@@ -47,9 +47,9 @@ For $\alpha>0$, put $x=(1-L)/\alpha$, $y=(1-L_0)/\alpha$, and $\mu=\alpha\beta$.
 \tau_R\dot x=y-x.
 ```
 
-Thus the single-cell dynamical search can use $(\mu,\tau_D,\tau_L)$, fixing $\tau_R=1$. The separate value of $\alpha$ is still needed to reconstruct physical lengths; $\beta=\mu/\alpha$ must be reported. This reduction **does not** survive inserting the spatial model's cubic regularizers without further changes.
+Thus the single-cell dynamical search can use $`(\mu,\tau_D,\tau_L)`$, fixing $`\tau_R=1`$. The separate value of $`\alpha`$ is still needed to reconstruct physical lengths; $`\beta=\mu/\alpha`$ must be reported. This reduction **does not** survive inserting the spatial model's cubic regularizers without further changes.
 
-For state order $(M,E,D,y,x)$, the full trajectory-dependent Jacobian is
+For state order $`(M,E,D,y,x)`$, the full trajectory-dependent Jacobian is
 
 ```math
 J=\begin{pmatrix}
@@ -61,20 +61,20 @@ b-2cME & -cM^2-D & -E & 0 & 0\\
 \end{pmatrix}.
 ```
 
-In particular, an equilibrium Jacobian evaluated at $D_0,L=1$ must not be used throughout a nonlinear orbit. For a future spectrum calculation, the sum should match the time average of
+In particular, an equilibrium Jacobian evaluated at $`D_0,L=1`$ must not be used throughout a nonlinear orbit. For a future spectrum calculation, the sum should match the time average of
 
 ```math
 \mathrm{div}F=-(b+1)+2cME-cM^2-D
 +\frac{-1+\mu x}{\tau_D}-\frac1{\tau_L}-\frac1{\tau_R}.
 ```
 
-An exact pipeline control is available at $\mu=0$. On the stable planar chemical limit cycle with $D=D_0$, the complete five-state spectrum consists of the chemical pair $\{0,\lambda_{\mathrm{rad}}\}$, with $\lambda_{\mathrm{rad}}\lt0$, and the three exponents $-1/\tau_D,-1/\tau_L,-1/\tau_R$. The mechanical variables are then driven linear filters. This follows from the block-triangular variational equations; it is not a spectrum measured here.
+An exact pipeline control is available at $`\mu=0`$. On the stable planar chemical limit cycle with $`D=D_0`$, the complete five-state spectrum consists of the chemical pair $`\{0,\lambda_{\mathrm{rad}}\}`$, with $`\lambda_{\mathrm{rad}}\lt0`$, and the three exponents $`-1/\tau_D,-1/\tau_L,-1/\tau_R`$. The mechanical variables are then driven linear filters. This follows from the block-triangular variational equations; it is not a spectrum measured here.
 
 ### Physical interpretation and guards
 
-The nonnegative chemical octant is forward invariant: at its respective boundaries, $\dot M=a$, $\dot E=bM$, and $\tau_D\dot D=D_0$. There is no finite fuel inventory in this maintained-feed phenomenological model. However, positivity of chemical variables does not establish boundedness or physical length positivity.
+The nonnegative chemical octant is forward invariant: at its respective boundaries, $`\dot M=a`$, $`\dot E=bM`$, and $`\tau_D\dot D=D_0`$. There is no finite fuel inventory in this maintained-feed phenomenological model. However, positivity of chemical variables does not establish boundedness or physical length positivity.
 
-The $L_0=0$ boundary can point outward if $E>E_r+1/\alpha$. Therefore, $L,L_0>0$ must be checked throughout any proposed physical orbit; do not clip negative lengths. In normalized coordinates these conditions are $\alpha x\lt1$ and $\alpha y\lt1$. Linear-elastic validity additionally limits deformation. A bounded trace may allow a small enough $\alpha$ for positive lengths at the same $\mu$, but that is a parameter choice to disclose, not a proof of long-time boundedness or an experimental calibration.
+The $`L_0=0`$ boundary can point outward if $`E>E_r+1/\alpha`$. Therefore, $`L,L_0>0`$ must be checked throughout any proposed physical orbit; do not clip negative lengths. In normalized coordinates these conditions are $`\alpha x\lt1`$ and $`\alpha y\lt1`$. Linear-elastic validity additionally limits deformation. A bounded trace may allow a small enough $`\alpha`$ for positive lengths at the same $`\mu`$, but that is a parameter choice to disclose, not a proof of long-time boundedness or an experimental calibration.
 
 The continuum model in [2] contains extra cubic saturation terms, and its mechanical equation conserves total length. A spatially uniform limit of that PDE is not obtained by simply replacing it with the single-cell relaxation equation. We retain the source's S2 literally and do not transfer the PDE's boundedness or chaos claims to it.
 
@@ -90,7 +90,7 @@ The OpenAlex record returned zero forward citations for the merged preprint/jour
 
 ## 2. Inertial mechanochemical solid: an already published chaotic three-state model
 
-Sarkar et al. [4] derive a single-mode Galerkin model of a chemically driven elastic solid. In units where $\tau_{\mathrm{el}}=1$, their equation (5) is
+Sarkar et al. [4] derive a single-mode Galerkin model of a chemically driven elastic solid. In units where $`\tau_{\mathrm{el}}=1`$, their equation (5) is
 
 ```math
 \dot U=V,
@@ -100,9 +100,9 @@ Sarkar et al. [4] derive a single-mode Galerkin model of a chemically driven ela
 \mathsf{Ch}\dot X=X(1-X^2)-A_uU-A_vV.
 ```
 
-Figure 4e explicitly reports a chaotic strange attractor for $\mathsf{Vi}=0.16$, $\mathsf{Ch}=100$, $A_u=50$, $A_v=84$. The neighboring illustrated values $A_v=68$, $78.5$, and $106$ give a cycle, period doubling, and a larger cycle, respectively. This is decisive exact-model prior art, not an inference from a visually irregular figure. Both the initial and revised primary manuscripts were checked; [4] is PRL **135**, 258301 (2025), DOI [10.1103/19rh-3whq](https://doi.org/10.1103/19rh-3whq).
+Figure 4e explicitly reports a chaotic strange attractor for $`\mathsf{Vi}=0.16`$, $`\mathsf{Ch}=100`$, $`A_u=50`$, $`A_v=84`$. The neighboring illustrated values $`A_v=68`$, $`78.5`$, and $`106`$ give a cycle, period doubling, and a larger cycle, respectively. This is decisive exact-model prior art, not an inference from a visually irregular figure. Both the initial and revised primary manuscripts were checked; [4] is PRL **135**, 258301 (2025), DOI [10.1103/19rh-3whq](https://doi.org/10.1103/19rh-3whq).
 
-The variables are modal amplitudes, and the ODE is a published spatial approximation. Its physical derivation assumes small strain and small reaction chemical potentials. A mathematical ODE solution alone does not validate those approximations. Our direct checks show inversion symmetry $(U,V,X)\mapsto(-U,-V,-X)$ and divergence $-\mathsf{Vi}+(1-3X^2)/\mathsf{Ch}$, which is strictly negative for the stated example. Neither property is a proof of chaos.
+The variables are modal amplitudes, and the ODE is a published spatial approximation. Its physical derivation assumes small strain and small reaction chemical potentials. A mathematical ODE solution alone does not validate those approximations. Our direct checks show inversion symmetry $`(U,V,X)\mapsto(-U,-V,-X)`$ and divergence $`-\mathsf{Vi}+(1-3X^2)/\mathsf{Ch}`$, which is strictly negative for the stated example. Neither property is a proof of chaos.
 
 The source explicitly cites related control-system and hearing models; no equivalence to Lorenz or Rössler is established here. The indexed forward-citation query returned three records, saved in the companion JSON. **Decision:** exclude from first-chaos searching; optionally useful as a known physical-model benchmark, without a novelty claim.
 

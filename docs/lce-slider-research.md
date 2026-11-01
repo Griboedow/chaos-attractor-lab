@@ -10,17 +10,23 @@ The physical idea is a hanging photo-responsive fiber that moves a slider and th
 
 Dropping dimensionless bars, the model is
 
-$$\dot x=v_x,\qquad \dot v_x=g-k(x+C\phi)-b v_x,\qquad
-\dot\phi=I H(x-h)(1-\phi)-\phi.$$
+```math
+\dot x=v_x,\qquad \dot v_x=g-k(x+C\phi)-b v_x,\qquad
+\dot\phi=I H(x-h)(1-\phi)-\phi.
+```
 
 Here `H` switches between zero and one. We use the dimensionless differential equations as printed, without claiming a calibrated conversion back to a device. For `C>0`, set
 
-$$u=(x-h)/C,\quad v=v_x/C,\quad d=(g/k-h)/C.$$
+```math
+u=(x-h)/C,\quad v=v_x/C,\quad d=(g/k-h)/C.
+```
 
 Then
 
-$$\dot u=v,\qquad \dot v=k(d-u-\phi)-bv,\qquad
-\dot\phi=I H(u)(1-\phi)-\phi.$$
+```math
+\dot u=v,\qquad \dot v=k(d-u-\phi)-bv,\qquad
+\dot\phi=I H(u)(1-\phi)-\phi.
+```
 
 This is an exact change of variables. The dynamic parameters reduce to **four**: `k,b,I,d`. Gravity, contraction and switch position enter the normalized dynamics only through `d`; changing `C` also rescales the physical amplitude.
 
@@ -38,13 +44,17 @@ This distinction matters: **two individually stable affine flows can generate co
 
 Within a lighting interval, let `r=1+I` and `q_on=I/(1+I)` when illuminated, or `r=1`, `q_on=0` in darkness. Then
 
-$$\phi(t)=q_{on}+(\phi_0-q_{on})e^{-rt}.$$
+```math
+\phi(t)=q_{on}+(\phi_0-q_{on})e^{-rt}.
+```
 
 The forced mechanical solution is a sum of this exponential and damped sine/cosine terms. Our independent implementation evaluates it analytically, brackets the next transverse crossing of `u=0`, and bisects to locate that event. It does not update the light state only at fixed sampling times. The implementation currently covers the underdamped case `k>b^2/4`.
 
 We differentiate the **event-defined map**, including the dependence of crossing time on the initial condition. If `M(t)` is the affine tangent propagator, `n=(1,0,0)` and `f` is the incoming vector field at the crossing, its derivative is obtained from
 
-$$\left(I-\frac{f n^T}{n^Tf}\right)M(t).$$
+```math
+\left(I-\frac{f n^T}{n^Tf}\right)M(t).
+```
 
 Restriction to the velocity/concentration coordinates gives a two-dimensional section map. Two successive crossings define a full return. A negative largest transverse exponent is compatible with a stable periodic orbit; the continuous flow's neutral time direction has been removed.
 

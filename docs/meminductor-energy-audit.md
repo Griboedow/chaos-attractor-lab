@@ -17,18 +17,24 @@ The 2025 article [1], Eqs. (2), (3), (5), (9) and (13), gives the following pair
 \mu(x)=8-\frac7{1+\exp[-250(x-0.03)]},\qquad
 F(x,i)=a(x)i,\quad a(x)=K_1\mu(x)/x^4>0,
 ```
-$$m\ddot x=F-k_a\dot x-mg.$$
+```math
+m\ddot x=F-k_a\dot x-mg.
+```
 
 The force is **linear in current** because the moving coil interacts with a permanent magnet. Replacing it by a pure reluctance force proportional to current squared would change the source model. Likewise, the experimental optical circuit has a position-dependent photoresistor branch and is not a fixed-voltage, fixed-resistance drive.
 
-For a reversible magnetic transducer with a differentiable coenergy function $C(x,i)$, the same sign convention requires
+For a reversible magnetic transducer with a differentiable coenergy function $`C(x,i)`$, the same sign convention requires
 
-$$\Phi=\partial_i C,\qquad F=\partial_x C,
-\qquad \boxed{\partial_i F=\partial_x\Phi}.$$
+```math
+\Phi=\partial_i C,\qquad F=\partial_x C,
+\qquad \boxed{\partial_i F=\partial_x\Phi}.
+```
 
 Taking the printed pair literally gives
 
-$$\partial_iF=a(x)>0,\qquad \partial_x\Phi=L'(x)i<0\quad(i>0).$$
+```math
+\partial_iF=a(x)>0,\qquad \partial_x\Phi=L'(x)i<0\quad(i>0).
+```
 
 The cross derivatives have opposite signs. This conclusion does not depend on the positive scale chosen for inductance. Thus these two expressions cannot, together, be the complete constitutive law of a reversible magnetic transducer with these two ports and coordinates. They can still be separate empirical approximations; omitted magnetic bias, additional internal states, or a different meaning of the measured inductance must be resolved before constructing a closed energy-consistent circuit model.
 
@@ -40,32 +46,42 @@ The earlier experimental paper [2] distinguishes motion-dependent flux from the 
 
 One possible reversible constitutive form is
 
-$$\Phi=L(x)i+\psi(x),\qquad L(x)>0,$$
-$$H(x,\Phi)=\frac{[\Phi-\psi(x)]^2}{2L(x)}.$$
+```math
+\Phi=L(x)i+\psi(x),\qquad L(x)>0,
+```
+```math
+H(x,\Phi)=\frac{[\Phi-\psi(x)]^2}{2L(x)}.
+```
 
-Here $\psi$ is the permanent-magnet flux linkage, and $H$ is stored magnetic energy. An additional zero-current magnetic potential can be included in the mechanical potential $U(x)$. Differentiation at fixed flux gives
+Here $`\psi`$ is the permanent-magnet flux linkage, and $`H`$ is stored magnetic energy. An additional zero-current magnetic potential can be included in the mechanical potential $`U(x)`$. Differentiation at fixed flux gives
 
-$$i=\partial_\Phi H,\qquad
-F=-\partial_xH=\tfrac12L'(x)i^2+\psi'(x)i.$$
+```math
+i=\partial_\Phi H,\qquad
+F=-\partial_xH=\tfrac12L'(x)i^2+\psi'(x)i.
+```
 
 Consequently the voltage equation contains both motional terms:
 
-$$L(x)\dot i=V_s-Ri-[L'(x)i+\psi'(x)]\dot x.$$
+```math
+L(x)\dot i=V_s-Ri-[L'(x)i+\psi'(x)]\dot x.
+```
 
-Choosing $\psi'=a$ reproduces the source's linear force term, but also requires the reluctance contribution $L'i^2/2$ and the associated back EMF. This is a **changed, uncalibrated completion**, not an assertion that these are the fitted equations of the published device.
+Choosing $`\psi'=a`$ reproduces the source's linear force term, but also requires the reluctance contribution $`L'i^2/2`$ and the associated back EMF. This is a **changed, uncalibrated completion**, not an assertion that these are the fitted equations of the published device.
 
 ## Exact DC exclusion with the electrical state retained
 
-More generally, let $H(x,\Phi)$ be a smooth reversible magnetic energy. Assume a regular autonomous model
+More generally, let $`H(x,\Phi)`$ be a smooth reversible magnetic energy. Assume a regular autonomous model
 
 ```math
 \dot x=v,\qquad m\dot v=-U'(x)-b v-\partial_xH,
 \qquad \dot\Phi=V_s-Ri,\quad i=\partial_\Phi H,
 ```
 
-with $m,b,R>0$ and constant $V_s$. Set $i_0=V_s/R$ and define
+with $`m,b,R>0`$ and constant $`V_s`$. Set $`i_0=V_s/R`$ and define
 
-$$W=\tfrac12mv^2+U(x)+H(x,\Phi)-i_0\Phi.$$
+```math
+W=\tfrac12mv^2+U(x)+H(x,\Phi)-i_0\Phi.
+```
 
 Direct differentiation cancels mechanical and magnetic power transfer:
 
@@ -74,39 +90,49 @@ Direct differentiation cancels mechanical and magnetic power transfer:
 =\boxed{-b v^2-R(i-i_0)^2}.
 ```
 
-There is no assumption that $L/R$ is small. On any compact forward-invariant region where the equations remain regular, the invariant part of $\dot W=0$ consists of equilibria: $v=0$, $i=i_0$, $\dot\Phi=0$, and mechanical force balance. LaSalle's invariance argument excludes a non-equilibrium recurrent attractor there, including periodic, quasiperiodic and chaotic recurrent motion.
+There is no assumption that $`L/R`$ is small. On any compact forward-invariant region where the equations remain regular, the invariant part of $`\dot W=0`$ consists of equilibria: $`v=0`$, $`i=i_0`$, $`\dot\Phi=0`$, and mechanical force balance. LaSalle's invariance argument excludes a non-equilibrium recurrent attractor there, including periodic, quasiperiodic and chaotic recurrent motion.
 
 This identity alone does **not** establish global boundedness, uniqueness of equilibrium, or convergence to a single point when the equilibrium set is non-isolated. An invariant set can contain connecting transients; the exclusion concerns recurrent non-equilibrium dynamics. Singular constitutive laws and additional hysteretic states require a separate analysis.
 
-The same argument works for a static strictly increasing series voltage law $\rho(i)$, with $V_s=\rho(i_0)$:
+The same argument works for a static strictly increasing series voltage law $`\rho(i)`$, with $`V_s=\rho(i_0)`$:
 
-$$\dot W=-b v^2-(i-i_0)[\rho(i)-\rho(i_0)]\le0.$$
+```math
+\dot W=-b v^2-(i-i_0)[\rho(i)-\rho(i_0)]\le0.
+```
 
-A constant current source shunted by a **constant** resistor also reduces to a fixed Thevenin drive. A photoresistor that changes with position or its own state does not: its effective source and resistance vary together, and the constant-$i_0$ cancellation need not hold. This is why the optical experiment remains a separate candidate.
+A constant current source shunted by a **constant** resistor also reduces to a fixed Thevenin drive. A photoresistor that changes with position or its own state does not: its effective source and resistance vary together, and the constant-$`i_0`$ cancellation need not hold. This is why the optical experiment remains a separate candidate.
 
 ### Passive impacts do not automatically remove the exclusion
 
-The recovered supplement makes contact worth considering explicitly. At a fixed wall, suppose position and flux are continuous and the velocity resets as $v^+=-e v^-$, with restitution $0\le e\le1$. Under these additional assumptions the same shifted energy jumps by
+The recovered supplement makes contact worth considering explicitly. At a fixed wall, suppose position and flux are continuous and the velocity resets as $`v^+=-e v^-`$, with restitution $`0\le e\le1`$. Under these additional assumptions the same shifted energy jumps by
 
-$$W^+-W^-=-\tfrac12m(1-e^2)(v^-)^2\le0.$$
+```math
+W^+-W^-=-\tfrac12m(1-e^2)(v^-)^2\le0.
+```
 
 Thus a passive mechanical bounce cannot replenish energy lost between impacts in the reciprocal fixed-DC model. A regular recurrent orbit with nonzero integrated dissipation cannot close its energy balance. This observation is not a global hybrid convergence theorem: sticking, accumulating impacts, impulsive electrical changes and additional internal states need their own laws. In particular, the measured voltage spikes in the source are not a calibrated proof of flux continuity. The identity is a conditional audit, not a fitted simulation of those collisions.
 
 ## Why a missing back EMF can mislead a numerical search
 
-For the literal pair $\Phi=Li$, $F=ai$, the natural trial energy $E=mv^2/2+U+Li^2/2$ obeys
+For the literal pair $`\Phi=Li`$, $`F=ai`$, the natural trial energy $`E=mv^2/2+U+Li^2/2`$ obeys
 
-$$\dot E=i\dot\Phi-bv^2+[ai-\tfrac12L'i^2]v.$$
+```math
+\dot E=i\dot\Phi-bv^2+[ai-\tfrac12L'i^2]v.
+```
 
 The last term is unaccounted power with no fixed sign. A numerically accurate integration of this closure would not establish energy consistency.
 
 Locally, a quasi-static expansion of its electrical equation gives
 
-$$\delta i\simeq-\frac{L'i_0}{R}v.$$
+```math
+\delta i\simeq-\frac{L'i_0}{R}v.
+```
 
-With $L'<0$ and $F_i=a>0$, the force correction points along velocity: apparent negative damping. In a reciprocal model, both the force derivative and motional-voltage coefficient are instead the same quantity $h=L'i_0+\psi'$, giving
+With $`L'<0`$ and $`F_i=a>0`$, the force correction points along velocity: apparent negative damping. In a reciprocal model, both the force derivative and motional-voltage coefficient are instead the same quantity $`h=L'i_0+\psi'`$, giving
 
-$$\delta i\simeq-hv/R,\qquad \delta F\simeq-h^2v/R.$$
+```math
+\delta i\simeq-hv/R,\qquad \delta F\simeq-h^2v/R.
+```
 
 That correction is dissipative. These are local fast-response expansions, not proofs of oscillation in the inconsistent closure; the exact energy exclusion above does not rely on the expansions.
 
@@ -121,15 +147,19 @@ python research/audit_meminductor_energy.py --impacts
 
 The [script](../research/audit_meminductor_energy.py) audits the source cross derivatives and independently checks the shifted-energy gradient and its derivative at 128 random states. It then integrates a deliberately illustrative reciprocal model with
 
-$$L=1+0.3\tanh x,\quad \psi=0.2\tanh x,\quad U=x^2/2,$$
-$$m=1,\quad b=0.3,\quad i_0=0.8,$$
+```math
+L=1+0.3\tanh x,\quad \psi=0.2\tanh x,\quad U=x^2/2,
+```
+```math
+m=1,\quad b=0.3,\quad i_0=0.8,
+```
 
-for $R=0.1,1,10$, starting at $(x,v,i)=(-1.5,1,-0.5)$. This model has positive bounded inductance and a confining shifted energy. These dimensionless choices are **not a fit to the apparatus**.
+for $`R=0.1,1,10`$, starting at $`(x,v,i)=(-1.5,1,-0.5)`$. This model has positive bounded inductance and a confining shifted energy. These dimensionless choices are **not a fit to the apparatus**.
 
-- Maximum direct energy-derivative identity error: $1.43\times10^{-14}$.
-- Maximum gradient finite-difference discrepancy: $7.22\times10^{-10}$.
-- Maximum integrated energy-balance residual over 200 time units: $8.12\times10^{-13}$.
-- All three illustrative trajectories approach the same equilibrium, $(x,v,i)\approx(0.241618,0,0.8)$.
+- Maximum direct energy-derivative identity error: $`1.43\times10^{-14}`$.
+- Maximum gradient finite-difference discrepancy: $`7.22\times10^{-10}`$.
+- Maximum integrated energy-balance residual over 200 time units: $`8.12\times10^{-13}`$.
+- All three illustrative trajectories approach the same equilibrium, $`(x,v,i)\approx(0.241618,0,0.8)`$.
 
 These CPU controls check the implementation and algebra; the exclusion follows from the analytical identity. A GPU parameter sweep cannot overturn that identity inside its assumptions, so no bulk search was spent on this class. Compact data, solver tolerances and the explicit calibration disclaimer are in [results/meminductor-energy](../results/meminductor-energy/).
 
