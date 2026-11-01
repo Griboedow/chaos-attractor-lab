@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "eta": 0.73,
+      "order": 1,
+      "drag_assembly_relative_error": 3.0847691212175184e-16,
+      "drag_finite_difference_relative_error": 3.6590475746439464e-11,
+      "full_jacobian_relative_error": 3.644645799364576e-16
+    },
+    {
+      "eta": 0.73,
+      "order": 2,
+      "drag_assembly_relative_error": 3.0851326248753793e-16,
+      "drag_finite_difference_relative_error": 3.619503304927417e-11,
+      "full_jacobian_relative_error": 3.6468511973302576e-16
+    },
+    {
+      "eta": 1.0,
+      "order": 1,
+      "drag_assembly_relative_error": 3.0911657868440716e-16,
+      "drag_finite_difference_relative_error": 7.797842433058862e-11,
+      "full_jacobian_relative_error": 2.4961195013302716e-16
+    },
+    {
+      "eta": 1.0,
+      "order": 2,
+      "drag_assembly_relative_error": 4.1223238110393576e-16,
+      "drag_finite_difference_relative_error": 8.291560955089651e-11,
+      "full_jacobian_relative_error": 3.332792060406318e-16
+    }
+  ],
+  "one_step_maximum_difference": 3.552713678800501e-15,
+  "jacobian_seconds": {
+    "previous": 0.009558013333298731,
+    "accelerated": 0.002650343333273971
+  },
+  "timing_scope": "Warm 64-segment Jacobian calls on this machine while other runs are active; not a universal speed claim.",
+  "source_sha256": {
+    "spatial_fast.py": "abac3a4882acc6f63cc206ccfc61a12bba5c48289140cec787407201faadc47f",
+    "spatial_accelerated.py": "f249da6e69aa3b3b7dc4fd9bf03cb97a6edba4d84614bed44dcc3c68ec76e7f1",
+    "check_accelerated.py": "9d6d55361c7990f668d7d9716a9fee1e0a402ada3b9d79b17d298ae4c926f8ae"
+  }
+}

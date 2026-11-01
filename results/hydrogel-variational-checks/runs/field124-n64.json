@@ -1,0 +1,52 @@
+{
+  "parameters": {
+    "slenderness": 127.0,
+    "eta": 1.0,
+    "xi": 5e-06,
+    "chi": 124.0,
+    "nu": 0.5
+  },
+  "segments": 64,
+  "dt": 0.006,
+  "time_origin": 96.0,
+  "requested_duration": 96.0,
+  "completed_time": 192.0,
+  "final_accepted_time": 192.0,
+  "success": true,
+  "failure": null,
+  "plane": "spatial",
+  "order": 2,
+  "startup": "One backward-Euler step for a new endpoint-initialized IVP",
+  "newton_tolerance": 1e-08,
+  "max_scaled_residual": 2.214133952095946e-12,
+  "max_hinge_angle": 0.4720687768110218,
+  "max_newton_iterations": 4,
+  "mean_newton_iterations": 3.0000625,
+  "initial_twist": {
+    "initial_scaled_torque": 1.616506149094024e-14,
+    "final_scaled_torque": 1.616506149094024e-14,
+    "iterations": 0,
+    "maximum_material_spin": 0.0
+  },
+  "elapsed_seconds": 231.13476159999846,
+  "seed": {
+    "external_path": "D:\\Codex\\hydrogel-slender-search-20261101\\lambda127-field117\\trajectory.npz",
+    "sha256": "96803aaeaece3941902f575cf498096cc5805a34d1c69258f1dd81c4417b37da",
+    "report_sha256": "b213a46326ea1cce7bc1447a98d6b477343b6c4b1bef72052918c46dd90e59b2",
+    "segments": 64,
+    "time": 96.0,
+    "parameters": {
+      "slenderness": 127.0,
+      "eta": 1.0,
+      "xi": 5e-06,
+      "chi": 117.0,
+      "nu": 0.5
+    }
+  },
+  "remeshing": "None",
+  "code_sha256": "5ba63420f9b21d8b8180a2f7d7e0055321810c38f70e8d7b2924a3dacc27d52f",
+  "solver_sha256": "f249da6e69aa3b3b7dc4fd9bf03cb97a6edba4d84614bed44dcc3c68ec76e7f1",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "scope": "A new initial-value run from a saved endpoint. It is not a bitwise continuation of the earlier BDF history. Spatially refined initial states are explicitly interpolated and twist-projected."
+}

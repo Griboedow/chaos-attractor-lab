@@ -1,0 +1,386 @@
+{
+  "schema": 1,
+  "scope": "Endpoint refinement, finite BDF tangent growth and long transients; no established chaotic attractor or priority claim.",
+  "files": [
+    {
+      "path": "analysis/clearance-all-completed.json",
+      "bytes": 12196,
+      "sha256": "2fe4d5aff307482a5b834775cfbb51de81fc50bd78cfa44669305693e0902c0c"
+    },
+    {
+      "path": "analysis/clearance-extension.json",
+      "bytes": 652,
+      "sha256": "68c4df14470617ab745f270eb7265357b3261f78d61736ef1857cd300183466a"
+    },
+    {
+      "path": "analysis/clearance-later.json",
+      "bytes": 1299,
+      "sha256": "19b28d419eed7a59e04bd69c01f1e3d4dfad87c8733eb988aab0482be726f4eb"
+    },
+    {
+      "path": "analysis/clearance-refined-space.json",
+      "bytes": 647,
+      "sha256": "a25f4915bb52908e0a681644ae371ea6d236926278101526a32b13523c3b5cc8"
+    },
+    {
+      "path": "analysis/clearance-refined-time.json",
+      "bytes": 645,
+      "sha256": "cca487aae4f7dcb284fc8b02e17b201f78c330a7cc6e3bdb6d6eebacd0e546f6"
+    },
+    {
+      "path": "analysis/clearance-whole-initial.json",
+      "bytes": 2580,
+      "sha256": "ac859ad522f3bea548d83f33ac87975d0eb713fd9b38314b30b25dc6b0f5e04a"
+    },
+    {
+      "path": "analysis/clearance.json",
+      "bytes": 3229,
+      "sha256": "54a82d6de1f9389beaf3b9fa5574e840e006626a11d8af3f8f44ec0b113434c1"
+    },
+    {
+      "path": "analysis/drift-refined-space.json",
+      "bytes": 3626,
+      "sha256": "f57db644aeb4a35f4d58172ae091c3c1e2842f2991f3dbef1b3b8b27713f684f"
+    },
+    {
+      "path": "analysis/drift-refined-time.json",
+      "bytes": 3631,
+      "sha256": "c6db8fab90b0b960953120437d7e8f1b0ddaeacfde7de1317b72845c5102d66e"
+    },
+    {
+      "path": "analysis/drift.json",
+      "bytes": 20815,
+      "sha256": "064d9462d8909fe733377ae6a5d25f38b420971e2fbd678b9a02c268a5ca85f9"
+    },
+    {
+      "path": "analysis/initial-recurrence.json",
+      "bytes": 15476,
+      "sha256": "9fa5b71319b2d2e068f099eb06e0e7ec207fe66fc13589aba7f34161ac2183a0"
+    },
+    {
+      "path": "analysis/intermediate-fields-recurrence.json",
+      "bytes": 32114,
+      "sha256": "565f771989efc8d077fbbd49bd14802b8de1ab2b8e0ddf7c6d7b85f53fb9ab85"
+    },
+    {
+      "path": "analysis/long-lag-recurrence.json",
+      "bytes": 123187,
+      "sha256": "e27ac4fe6d4233afb4c90a128732893041121cb37ee50ec308dc709767fc105f"
+    },
+    {
+      "path": "analysis/recurrence64-dt006.json",
+      "bytes": 15508,
+      "sha256": "f70e4ad43138d27fde980d77434aaafa4a2c0f3214541fdf9cd9ce2f55337b9a"
+    },
+    {
+      "path": "analysis/refined-recurrence.json",
+      "bytes": 31570,
+      "sha256": "c37955e70f52a6aa0530b3add43a4e73265e4d4e9b93f9961053fcdd3ee1225a"
+    },
+    {
+      "path": "analysis/returns64-dt006.json",
+      "bytes": 12437,
+      "sha256": "61d2b4f4d693dceb51b11809b50a62c3385a2ade0a5692dee6f7f62309e60f3d"
+    },
+    {
+      "path": "analysis/source-audit.json",
+      "bytes": 2797,
+      "sha256": "de556efd5464cd92f68add11c6b2cec6385ee0addb03148405096aca1a28a1f1"
+    },
+    {
+      "path": "arrays.json",
+      "bytes": 51337,
+      "sha256": "727f3cd80856be09c31d40e88ee5fb76591f4b13bc0f469d4f177d4bcee80388"
+    },
+    {
+      "path": "checks/accelerated-check.json",
+      "bytes": 1632,
+      "sha256": "ad5a8ea496798bee20c16b654601318ffebc8ec8aa4dd1efafd2b3660cd1994a"
+    },
+    {
+      "path": "checks/assembly-history-check.json",
+      "bytes": 1238,
+      "sha256": "a6df0d81a4a98580992772973e86c63893e78d70e91c2cd9f23ca0704178697e"
+    },
+    {
+      "path": "checks/history-check.json",
+      "bytes": 381,
+      "sha256": "17bb01db29e4b62aec00c950e2470eaf0583c234ae62c95414f6bd32d2ff7d8c"
+    },
+    {
+      "path": "checks/portable-check.json",
+      "bytes": 875,
+      "sha256": "f4a6fc315bd2ad04233a7031d7e881d783ab7f5a331241656b4fce38ca916f63"
+    },
+    {
+      "path": "checks/recurrence-check.json",
+      "bytes": 629,
+      "sha256": "05048527ba1a295bd4462757e7855a36c7fa539ea7ebf86d34078a40f5ba1e70"
+    },
+    {
+      "path": "checks/refined-tangent-check.json",
+      "bytes": 411,
+      "sha256": "50dbd9b61d9c8ec8a6d225d41172d3cee11693d4e21ae5e9a61a98823cf94ad5"
+    },
+    {
+      "path": "checks/restart-check.json",
+      "bytes": 913,
+      "sha256": "0b10d3f0184dc5cd6e40806a1a9f9f218da2b99fdd43a2dece87a57b5bf1ad77"
+    },
+    {
+      "path": "checks/tangent-check.json",
+      "bytes": 877,
+      "sha256": "a49c381efdbf282b65b4253d9daf869f0f897286abe37f3e31fa6ece032e54bc"
+    },
+    {
+      "path": "code/build_accelerated.py",
+      "bytes": 3438,
+      "sha256": "a7deae34f4a8093239eeba4245d7950e8404b3230e1fe4a6264042e94ef36191"
+    },
+    {
+      "path": "code/build_extension.py",
+      "bytes": 2282,
+      "sha256": "6254dab54b4ded6d7ec5c2fe1623bda31a03b2c420e386e9b85b128d39fccada"
+    },
+    {
+      "path": "code/check_accelerated.py",
+      "bytes": 2988,
+      "sha256": "9d6d55361c7990f668d7d9716a9fee1e0a402ada3b9d79b17d298ae4c926f8ae"
+    },
+    {
+      "path": "code/check_history.py",
+      "bytes": 1790,
+      "sha256": "312c3f0703e2bcbd75ea71789a92dc8e95ee30cb91242c9baa026937c5ca6432"
+    },
+    {
+      "path": "code/check_portable.py",
+      "bytes": 2039,
+      "sha256": "b0e159782a88792a43c9a9b3ebfc01eda0fec8e73ec55cee374c0bc3dd82e181"
+    },
+    {
+      "path": "code/check_refined_tangent.py",
+      "bytes": 2312,
+      "sha256": "7b99350d0eac197c0ab76615b05f5a6fcb657af8324cca7f43bb21b518d42d69"
+    },
+    {
+      "path": "code/check_restart.py",
+      "bytes": 3406,
+      "sha256": "61474f9b49032b42c99b0fda2a8af5a0fb94b1ea5027cf0a1515592a776ebc6e"
+    },
+    {
+      "path": "code/check_tangent.py",
+      "bytes": 2870,
+      "sha256": "6b4a52fb9b3740716906c6f94e3a7d1aee3d613ce7055c0b7f78bb530963dbc1"
+    },
+    {
+      "path": "code/clearance.py",
+      "bytes": 3074,
+      "sha256": "fd93ba95a7fe310e515abfb769329c3f591da47455b5345934352b3c6c2653bc"
+    },
+    {
+      "path": "code/compare_assembly.py",
+      "bytes": 1067,
+      "sha256": "3233be984a315eceae6f15654c7e23d65b1a17cf60e02914586d0c9ee8264669"
+    },
+    {
+      "path": "code/preview_selected.py",
+      "bytes": 1454,
+      "sha256": "5cda664f4a1ed0643b791bea84f9e4e44d05318d7faaeab180fa75a783c22263"
+    },
+    {
+      "path": "code/recurrence.py",
+      "bytes": 4379,
+      "sha256": "0fddd9b40a4bd3fa89e04b04a9fa52d138de4134c4e6c7a98c6e61750a20f70a"
+    },
+    {
+      "path": "code/render_diagnostics.py",
+      "bytes": 2174,
+      "sha256": "80b0c4f9f535c088d4631b1279fd43ea1504faee8351fb32a2233e096b2b96ce"
+    },
+    {
+      "path": "code/replay.py",
+      "bytes": 2934,
+      "sha256": "56e6ab25a9bffa09e2da04f5e5ef0481344d86a6dbd78286a55d1697e891a356"
+    },
+    {
+      "path": "code/restart.py",
+      "bytes": 7053,
+      "sha256": "cae6db1836f4ca300a4ca743ce07175bb775cd401faa0c6ec87ca42754af0258"
+    },
+    {
+      "path": "code/restart_accelerated.py",
+      "bytes": 7321,
+      "sha256": "5ba63420f9b21d8b8180a2f7d7e0055321810c38f70e8d7b2924a3dacc27d52f"
+    },
+    {
+      "path": "code/returns.py",
+      "bytes": 3627,
+      "sha256": "16783f40827925391b3d8451a450ad02aa4a6cf885d4f9db4801557a5ad43413"
+    },
+    {
+      "path": "code/spatial_accelerated.py",
+      "bytes": 15519,
+      "sha256": "f249da6e69aa3b3b7dc4fd9bf03cb97a6edba4d84614bed44dcc3c68ec76e7f1"
+    },
+    {
+      "path": "code/spatial_fast.py",
+      "bytes": 14217,
+      "sha256": "abac3a4882acc6f63cc206ccfc61a12bba5c48289140cec787407201faadc47f"
+    },
+    {
+      "path": "code/stationarity.py",
+      "bytes": 1346,
+      "sha256": "0113546528c2b176655edaaa98a41a8f0440b52486bc7b7dfa9deb82d89fe818"
+    },
+    {
+      "path": "code/symmetry.py",
+      "bytes": 4439,
+      "sha256": "b98ee969f6b810aee91ed18ae2885eb93bbfff3530cceb8923052f67d4675963"
+    },
+    {
+      "path": "code/tangent.py",
+      "bytes": 8159,
+      "sha256": "dc126f6a1bf3080341e4d108c694386b0950eb96550db5e092d33c25924db340"
+    },
+    {
+      "path": "code/tangent_extended.py",
+      "bytes": 9058,
+      "sha256": "47219eb999bbc297cfb38526c60e883d751b91150dd6ee0f940493b6b69bb29c"
+    },
+    {
+      "path": "code/time_refinement.py",
+      "bytes": 605,
+      "sha256": "0488daebb9f133cd0c6439855e3514e2b6c5b7ffa6df011f5473e4170d9f3a07"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 207,
+      "sha256": "6d3ca410f2cd35320acbe5c86cac4f33f7279cb1724248018a9de6d69b9115c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4297,
+      "sha256": "c03cfdb73b80873161944dfaa7a8ab5ec656562a7d71cc2f69bd566650032ed3"
+    },
+    {
+      "path": "runs/accel128-dt006.json",
+      "bytes": 1944,
+      "sha256": "11a7f0443264ac90ecea0539e92c19d132885ef4a6fdde03b1ad4266fe317912"
+    },
+    {
+      "path": "runs/field121-n64.json",
+      "bytes": 1771,
+      "sha256": "aee74e9a7ca5c3a5816faeedbbdb2fcb9cd1b72d5e3e5b948bd2a0062652e6f5"
+    },
+    {
+      "path": "runs/field124-dt003-relax.json",
+      "bytes": 1765,
+      "sha256": "85ec34934e61462b095fb32c60aa8b84cdbb734b2a65e06b7455850e16dc8653"
+    },
+    {
+      "path": "runs/field124-n128-relax.json",
+      "bytes": 1896,
+      "sha256": "3d28538e0946c30b3b6376d619675a7c5c3935e0506ef6bbb7da2e043c2a5bad"
+    },
+    {
+      "path": "runs/field124-n64.json",
+      "bytes": 1772,
+      "sha256": "eda4f06d85d4dc11664453e80f8f7836973c71f16952e3964409b37c158d1ea2"
+    },
+    {
+      "path": "runs/field127-from124.json",
+      "bytes": 1723,
+      "sha256": "5bf976bdb9b0c30758d6ddba0edc0311970eac82ed236e34e3db1c4f56ed3b01"
+    },
+    {
+      "path": "runs/field130-continuation.json",
+      "bytes": 1828,
+      "sha256": "6446a359476a5f508631c56d6c2b1db70856f3daec2c7ffb0a2593393181cdfd"
+    },
+    {
+      "path": "runs/field130-from124.json",
+      "bytes": 1722,
+      "sha256": "8c96d67ca3b3f8307ecee5b957223f6543960bf1a9d15a5818647c20494a8692"
+    },
+    {
+      "path": "runs/pilot128.json",
+      "bytes": 1804,
+      "sha256": "496c7c4d4c81ebeb1ce8efb548edf06f8131e85009372bd7e0db6ccafa56b715"
+    },
+    {
+      "path": "runs/restart128-dt006.json",
+      "bytes": 1810,
+      "sha256": "80a1edd2a041858eb10298f1f65dcb4b9f26f271909da23b47d8f4df9d202f46"
+    },
+    {
+      "path": "runs/restart64-dt003.json",
+      "bytes": 1636,
+      "sha256": "b8a238a2d9c5dbaba4f26d8e9ae9bc96a2b57908fc3020cc3b2f2a741fe4522b"
+    },
+    {
+      "path": "runs/restart64-dt006.json",
+      "bytes": 1637,
+      "sha256": "133b823427e6defc27e4c13efcc5398349cf68154987e9cebd84bb0dfa76af14"
+    },
+    {
+      "path": "runs/rotation-seed.json",
+      "bytes": 1767,
+      "sha256": "b84fe0e48c46dc84139eb695c1e1c802e607c05505bc33d51de6c0de0213c799"
+    },
+    {
+      "path": "runs/spectrum-rotation.json",
+      "bytes": 9431,
+      "sha256": "0b2ebb932cca81135ab70578c8c683a75ad15715efdc48c62cb548de62e3db7e"
+    },
+    {
+      "path": "runs/spectrum117-n64.json",
+      "bytes": 6896,
+      "sha256": "93602cb0bd45c8f36fce6d35fe9f73899c8581fd8cd77ab4bf8b1bc63c84314f"
+    },
+    {
+      "path": "runs/spectrum124-dt003.json",
+      "bytes": 11980,
+      "sha256": "acd9e97ee9be60e7809cbfb6b044132e6de6fd8ab22ef851016f3a7de9fab7a0"
+    },
+    {
+      "path": "runs/spectrum124-extension.json",
+      "bytes": 12842,
+      "sha256": "53ffede4f55e8df43ad6dc2024c6c5aa4f31304b83d8e5868e884a9ff566b941"
+    },
+    {
+      "path": "runs/spectrum124-n128.json",
+      "bytes": 6864,
+      "sha256": "ad4fece9a702df4328b5918afca08a95619ef97c1afddaa781779025d3556ad3"
+    },
+    {
+      "path": "runs/spectrum124-n64.json",
+      "bytes": 6836,
+      "sha256": "ab4ce444c596b96062a1f123aa8e9d84fe50732c9cd707d3eeb54cfc6756f7d6"
+    },
+    {
+      "path": "runs/spectrum127-n64.json",
+      "bytes": 6839,
+      "sha256": "3ce27792e4a2496b8b91671acaf655a419aca41fa2f4f0afcaa2bef69127cbfa"
+    },
+    {
+      "path": "runs.json",
+      "bytes": 7807,
+      "sha256": "8a58b26aeb246b6774d88aa0e966a3cc3d71ae63f0602c275f2c8e3387474739"
+    },
+    {
+      "path": "workflow.json",
+      "bytes": 3838,
+      "sha256": "2fe126cc51a8d57d321c2952598eee7e1f3465a3050986ee49f61ac03a17d565"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/hydrogel_spatial.py",
+      "sha256": "abac3a4882acc6f63cc206ccfc61a12bba5c48289140cec787407201faadc47f"
+    },
+    {
+      "path": "docs/assets/hydrogel-finite-growth.png",
+      "sha256": "13a5063787c103605b1631d6a18ad0ab42de43314b09e22f1e94c38306ac87ab"
+    }
+  ]
+}

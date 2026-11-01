@@ -1,0 +1,32 @@
+{
+  "runs": [
+    "restart128-dt006",
+    "accel128-dt006"
+  ],
+  "maximum_absolute_differences": {
+    "trajectory.npz": {
+      "t": 0.0,
+      "q": 7.452996553247715e-13,
+      "k": 1.864641774318443e-11,
+      "tip": 3.503707740604156e-14
+    },
+    "checkpoint.npz": {
+      "q": 5.476870855707777e-13,
+      "k": 7.357670028795837e-12,
+      "nodes": 3.4083846855992306e-14,
+      "k_previous": 7.704059612478886e-12,
+      "nodes_previous": 3.3806291099836017e-14,
+      "predictor": 4.0984576843428044e-14,
+      "time": 0.0,
+      "dt": 0.0,
+      "completed_steps": 0.0
+    }
+  },
+  "input_sha256": {
+    "restart128-dt006/trajectory.npz": "8ce86ac0fd5ea87b185cda793d0723f511b89cee3eeaaafeb30c703c7296605f",
+    "restart128-dt006/checkpoint.npz": "bcc57efddc5756dccff6fdba23a2974cc9b8fa7f5eba7570a8d6c7fd8e0cbd8d",
+    "accel128-dt006/trajectory.npz": "6a61a043cbe3bb2971f2d1e08d705b3e53aaf3ea92d40a03b27550656f26e077",
+    "accel128-dt006/checkpoint.npz": "55941855ebbd33317d5ca6a2334b77c1cedf1be1c780238099bf50fa3db2c719"
+  },
+  "scope": "Identical mesh, time step and endpoint-initialized IVP. Complete sampled histories and final BDF checkpoints compared; not a continuum refinement test."
+}

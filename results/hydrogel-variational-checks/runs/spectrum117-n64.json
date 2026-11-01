@@ -1,0 +1,247 @@
+{
+  "parameters": {
+    "slenderness": 127.0,
+    "eta": 1.0,
+    "xi": 5e-06,
+    "chi": 117.0,
+    "nu": 0.5
+  },
+  "segments": 64,
+  "dt": 0.006,
+  "time_origin": 192.0,
+  "requested_duration": 120.0,
+  "completed_time": 312.0,
+  "final_accepted_time": 312.0,
+  "success": true,
+  "failure": null,
+  "plane": "spatial",
+  "order": 2,
+  "burn_duration": 24.0,
+  "observed_duration": 96.0,
+  "exponents": [
+    0.0006150458650237585,
+    0.0005455492155612202,
+    -7.988964018817986e-05
+  ],
+  "max_scaled_residual": 2.134610069083312e-12,
+  "max_hinge_angle": 0.43980192445517013,
+  "newton_tolerance": 1e-08,
+  "drive_directional_difference_step": 1e-06,
+  "random_seed": 260409490,
+  "initial_tangents": "Three independent Gaussian curvature directions, copied to current and previous history; zero initial nodal variations; algebraic startup excluded by the burn interval.",
+  "qr_norm": "Mean squared body orientation variation plus squared curvature variation divided by chi squared; the same QR transform is applied to both BDF history states.",
+  "elapsed_seconds": 369.2673469000001,
+  "observations": [
+    {
+      "time": 198.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 24.269670299996505,
+      "residual": 8.834617080938441e-13
+    },
+    {
+      "time": 204.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 40.88581720000366,
+      "residual": 4.241273760673812e-13
+    },
+    {
+      "time": 210.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 57.43011000000115,
+      "residual": 6.966045566222976e-13
+    },
+    {
+      "time": 216.0,
+      "observed_duration": 0,
+      "exponents": null,
+      "elapsed": 73.99109260000114,
+      "residual": 6.660553302453512e-13
+    },
+    {
+      "time": 222.0,
+      "observed_duration": 6.0,
+      "exponents": [
+        -0.0018882078787939363,
+        -0.01296081268481785,
+        0.0028418437731270708
+      ],
+      "elapsed": 90.46279950000462,
+      "residual": 2.8186113574245377e-13
+    },
+    {
+      "time": 228.0,
+      "observed_duration": 12.0,
+      "exponents": [
+        -0.00041810640300623576,
+        0.013050209759534097,
+        0.006905616682960024
+      ],
+      "elapsed": 107.18908759999613,
+      "residual": 1.0751135811940594e-12
+    },
+    {
+      "time": 234.0,
+      "observed_duration": 18.0,
+      "exponents": [
+        -0.016923374751930714,
+        -0.015882285777820988,
+        -0.0003289211647800322
+      ],
+      "elapsed": 124.64059680000355,
+      "residual": 1.1041558950591384e-12
+    },
+    {
+      "time": 240.0,
+      "observed_duration": 24.0,
+      "exponents": [
+        0.0031883271368069945,
+        0.004726326701831166,
+        0.0015369076393593854
+      ],
+      "elapsed": 141.28725609999674,
+      "residual": 4.4042942960485484e-13
+    },
+    {
+      "time": 246.0,
+      "observed_duration": 30.0,
+      "exponents": [
+        0.0034301225158032637,
+        0.0004895328725303586,
+        -0.0008958415317802676
+      ],
+      "elapsed": 158.19130679999944,
+      "residual": 4.2810014541684956e-13
+    },
+    {
+      "time": 252.0,
+      "observed_duration": 36.0,
+      "exponents": [
+        -0.0057245481651355574,
+        -0.0030357366820304367,
+        0.0005646990606516404
+      ],
+      "elapsed": 175.35429419999127,
+      "residual": 8.767490978137079e-13
+    },
+    {
+      "time": 258.0,
+      "observed_duration": 42.0,
+      "exponents": [
+        -0.00011019490998745874,
+        0.002217456742587952,
+        0.0005108886360953343
+      ],
+      "elapsed": 194.00431129999924,
+      "residual": 8.203083746419505e-13
+    },
+    {
+      "time": 264.0,
+      "observed_duration": 48.0,
+      "exponents": [
+        0.001179437389781984,
+        -0.002907949549180358,
+        0.0016486079553326117
+      ],
+      "elapsed": 213.4137492000009,
+      "residual": 8.878454535829126e-13
+    },
+    {
+      "time": 270.0,
+      "observed_duration": 54.0,
+      "exponents": [
+        -0.00018373301127663555,
+        0.001790679356634045,
+        0.0007706818933529251
+      ],
+      "elapsed": 232.7262572000036,
+      "residual": 1.0251114842093712e-12
+    },
+    {
+      "time": 276.0,
+      "observed_duration": 60.0,
+      "exponents": [
+        -0.0043931248745008485,
+        -0.0031134843529686605,
+        -0.00018949021751831548
+      ],
+      "elapsed": 251.6655272999924,
+      "residual": 6.120804639111949e-13
+    },
+    {
+      "time": 282.0,
+      "observed_duration": 66.0,
+      "exponents": [
+        -1.6876161908508592e-05,
+        0.001474035686477905,
+        0.0011003469598788696
+      ],
+      "elapsed": 271.11255760000495,
+      "residual": 9.709996258286815e-13
+    },
+    {
+      "time": 288.0,
+      "observed_duration": 72.0,
+      "exponents": [
+        0.0004134505366823694,
+        0.0007771807060257558,
+        0.0020475316026400616
+      ],
+      "elapsed": 290.4094857000018,
+      "residual": 8.427065742501601e-13
+    },
+    {
+      "time": 294.0,
+      "observed_duration": 78.0,
+      "exponents": [
+        -0.0011096972339942918,
+        -0.0004860716619594753,
+        0.0009175590902016746
+      ],
+      "elapsed": 309.6941564000008,
+      "residual": 4.278261613237828e-13
+    },
+    {
+      "time": 300.0,
+      "observed_duration": 84.0,
+      "exponents": [
+        -0.00010015668940642276,
+        0.0015879271899389847,
+        -0.00036096531552469246
+      ],
+      "elapsed": 329.3498771000013,
+      "residual": 3.1049247346793265e-13
+    },
+    {
+      "time": 306.0,
+      "observed_duration": 90.0,
+      "exponents": [
+        -0.0023122132111681047,
+        -0.0017926002859659433,
+        0.0009544725288915688
+      ],
+      "elapsed": 348.65718090000155,
+      "residual": 8.307197701784882e-13
+    },
+    {
+      "time": 312.0,
+      "observed_duration": 96.0,
+      "exponents": [
+        0.0006150458650237585,
+        0.0005455492155612202,
+        -7.988964018817986e-05
+      ],
+      "elapsed": 367.709958499996,
+      "residual": 5.937235296757203e-13
+    }
+  ],
+  "seed_checkpoint": {
+    "external_path": "restart64-dt006\\checkpoint.npz",
+    "sha256": "e35f5907baeb54ef4a0d0155f5e56025e135e69ae6f73b63b3e2ad087d679ba6"
+  },
+  "code_sha256": "dc126f6a1bf3080341e4d108c694386b0950eb96550db5e092d33c25924db340",
+  "solver_sha256": "f249da6e69aa3b3b7dc4fd9bf03cb97a6edba4d84614bed44dcc3c68ec76e7f1",
+  "scope": "Three finite-time exponents of the constant-step implicit BDF2 map. Derivatives of old-state forcing are analytic; the curvature-drive directional derivative is centered numerically. No continuous-time, asymptotic or continuum chaos certificate."
+}

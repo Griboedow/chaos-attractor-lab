@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "order": 1,
+      "complete_step_difference_errors": [
+        1.3016440821967525e-08,
+        9.718623046011662e-10,
+        5.547148018703041e-10
+      ],
+      "neutral_symmetry_errors": [
+        2.182763518543407e-12,
+        8.037487342349436e-12,
+        1.5584755708175635e-14
+      ]
+    },
+    {
+      "order": 2,
+      "complete_step_difference_errors": [
+        5.724145987000435e-09,
+        5.12757632875498e-10,
+        2.5034332939988246e-10
+      ],
+      "neutral_symmetry_errors": [
+        3.3599087054247967e-12,
+        3.693156891415583e-12,
+        1.660303838857402e-14
+      ]
+    }
+  ],
+  "finite_difference_step": 1e-05,
+  "scope": "Two BDF orders checked against independently perturbed nonlinear solves and the exact circular rotation tangent. Numerical checks, not interval bounds."
+}

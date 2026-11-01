@@ -1,0 +1,182 @@
+[
+  {
+    "run": "pilot128",
+    "script": "restart.py",
+    "seed": "base117",
+    "segments": 128,
+    "dt": 0.006,
+    "duration": 0.12,
+    "chi_or_burn": null
+  },
+  {
+    "run": "restart64-dt006",
+    "script": "restart.py",
+    "seed": "base117",
+    "segments": 64,
+    "dt": 0.006,
+    "duration": 96,
+    "chi_or_burn": null
+  },
+  {
+    "run": "restart64-dt003",
+    "script": "restart.py",
+    "seed": "base117",
+    "segments": 64,
+    "dt": 0.003,
+    "duration": 96,
+    "chi_or_burn": null
+  },
+  {
+    "run": "restart128-dt006",
+    "script": "restart.py",
+    "seed": "base117",
+    "segments": 128,
+    "dt": 0.006,
+    "duration": 96,
+    "chi_or_burn": null
+  },
+  {
+    "run": "accel128-dt006",
+    "script": "restart_accelerated.py",
+    "seed": "base117",
+    "segments": 128,
+    "dt": 0.006,
+    "duration": 96,
+    "chi_or_burn": null
+  },
+  {
+    "run": "field121-n64",
+    "script": "restart_accelerated.py",
+    "seed": "base117",
+    "segments": 64,
+    "dt": 0.006,
+    "duration": 96,
+    "chi_or_burn": 121
+  },
+  {
+    "run": "field124-n64",
+    "script": "restart_accelerated.py",
+    "seed": "base117",
+    "segments": 64,
+    "dt": 0.006,
+    "duration": 96,
+    "chi_or_burn": 124
+  },
+  {
+    "run": "rotation-seed",
+    "script": "restart_accelerated.py",
+    "seed": "rotation",
+    "segments": 64,
+    "dt": 0.004,
+    "duration": 0.12,
+    "chi_or_burn": null
+  },
+  {
+    "run": "spectrum117-n64",
+    "script": "tangent.py",
+    "seed": "restart64-dt006",
+    "segments": null,
+    "dt": null,
+    "duration": 120,
+    "chi_or_burn": 24
+  },
+  {
+    "run": "spectrum124-n64",
+    "script": "tangent.py",
+    "seed": "field124-n64",
+    "segments": null,
+    "dt": null,
+    "duration": 120,
+    "chi_or_burn": 24
+  },
+  {
+    "run": "spectrum-rotation",
+    "script": "tangent.py",
+    "seed": "rotation-seed",
+    "segments": null,
+    "dt": null,
+    "duration": 120,
+    "chi_or_burn": 24
+  },
+  {
+    "run": "field127-from124",
+    "script": "restart_accelerated.py",
+    "seed": "field124-n64",
+    "segments": 64,
+    "dt": 0.006,
+    "duration": 120,
+    "chi_or_burn": 127
+  },
+  {
+    "run": "field130-from124",
+    "script": "restart_accelerated.py",
+    "seed": "field124-n64",
+    "segments": 64,
+    "dt": 0.006,
+    "duration": 120,
+    "chi_or_burn": 130
+  },
+  {
+    "run": "field124-n128-relax",
+    "script": "restart_accelerated.py",
+    "seed": "spectrum124-n64",
+    "segments": 128,
+    "dt": 0.006,
+    "duration": 24,
+    "chi_or_burn": null
+  },
+  {
+    "run": "spectrum124-extension",
+    "script": "tangent_extended.py",
+    "seed": "spectrum124-n64",
+    "segments": null,
+    "dt": null,
+    "duration": 240,
+    "chi_or_burn": 0
+  },
+  {
+    "run": "spectrum124-n128",
+    "script": "tangent.py",
+    "seed": "field124-n128-relax",
+    "segments": null,
+    "dt": null,
+    "duration": 120,
+    "chi_or_burn": 24
+  },
+  {
+    "run": "spectrum127-n64",
+    "script": "tangent.py",
+    "seed": "field127-from124",
+    "segments": null,
+    "dt": null,
+    "duration": 120,
+    "chi_or_burn": 24
+  },
+  {
+    "run": "field130-continuation",
+    "script": "restart_accelerated.py",
+    "seed": "field130-from124",
+    "segments": 64,
+    "dt": 0.006,
+    "duration": 120,
+    "chi_or_burn": null
+  },
+  {
+    "run": "field124-dt003-relax",
+    "script": "restart_accelerated.py",
+    "seed": "spectrum124-n64",
+    "segments": 64,
+    "dt": 0.003,
+    "duration": 24,
+    "chi_or_burn": null
+  },
+  {
+    "run": "spectrum124-dt003",
+    "script": "tangent.py",
+    "seed": "field124-dt003-relax",
+    "segments": null,
+    "dt": null,
+    "duration": 120,
+    "chi_or_burn": 24
+  }
+]
