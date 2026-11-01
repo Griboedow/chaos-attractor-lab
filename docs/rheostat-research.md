@@ -68,7 +68,7 @@ p(\lambda)=\lambda^3+(c+r)\lambda^2+(1+cr)\lambda+r(1+g).
 For `c,r,g>0`, Routh–Hurwitz gives local asymptotic stability precisely when
 
 ```math
-g<g_H(c,r)=\frac cr+c^2+cr.
+g\lt g_H(c,r)=\frac cr+c^2+cr.
 ```
 
 At equality the eigenvalues are `±i sqrt(1+cr)` and `-(c+r)`. This is an exact **linear crossing condition**, not an automatically certified nonlinear Hopf bifurcation.

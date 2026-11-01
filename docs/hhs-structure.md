@@ -101,7 +101,7 @@ For the common initial choice $`x=y=0`$, one has $`h=-E_r`$ and $`\delta=\min\{D
 At a positive equilibrium,
 
 ```math
-\frac{a}{b+1}<M<a,\qquad
+\frac{a}{b+1}\lt M\lt a,\qquad
 E=\frac{(b+1)M-a}{cM^2},\qquad
 D=\frac{a-M}{E},\qquad x=y=E-E_r.
 ```

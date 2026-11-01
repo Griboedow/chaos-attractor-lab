@@ -99,7 +99,7 @@ a_2=1+2b+q(2br-b-1),\quad a_3=b(q-1).
 The cycle is locally exponentially stable **if and only if**
 
 ```math
-\max(0,q_-)<q<q_+,\qquad
+\max(0,q_-)\lt q\lt q_+,\qquad
 q_-={4br-(1-b)^2\over b(1-b+2r)},\quad
 q_+={2(1+b)\over1+b+r(1-b)}.
 ```

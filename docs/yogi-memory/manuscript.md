@@ -187,7 +187,7 @@ The symbolic controls verify this calculation against the derivative of the orig
 **Proposition 2.** The symmetric cycle is locally exponentially stable if and only if
 
 ```math
-\max(0,q_-)<q<q_+,\qquad q_-=\frac{4br-(1-b)^2}{b(1-b+2r)},\quad q_+=\frac{2(1+b)}{1+b+r(1-b)}.
+\max(0,q_-)\lt q\lt q_+,\qquad q_-=\frac{4br-(1-b)^2}{b(1-b+2r)},\quad q_+=\frac{2(1+b)}{1+b+r(1-b)}.
 ```
 
 **Proof.** For a real monic cubic, let p*(z) = z<sup>3</sup>p(1/z). If |a<sub>3</sub>| < 1, define Q(z) = [p(z)-a<sub>3</sub>p*(z)]/z = Uz<sup>2</sup>+Wz+H, with

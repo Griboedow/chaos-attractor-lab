@@ -76,7 +76,7 @@ The value of $`r_*`$ agrees with the activity path implemented from the source m
 <a id="eq-period"></a>
 
 ```math
-25.0016843758970971<T<25.0016843758970972.\qquad\text{(4)}
+25.0016843758970971\lt T<25.0016843758970972.\qquad\text{(4)}
 ```
 
 For every integer $`k\geq1`$, replication to multiplicities $`(2k,2k,k,2k,k)`$ is an exact periodic solution of the $`N=8k`$ system at the same parameters and with the same return period. Its Floquet index is

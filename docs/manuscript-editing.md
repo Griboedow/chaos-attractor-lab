@@ -18,6 +18,10 @@ The same browser also misplaced a scripted norm delimiter inside a larger
 bracketed sum. Its MathML and formula counts were valid. Inspect such formulas
 visually; splitting differences into named terms and using traces or scalar
 products avoids that delimiter structure without changing the mathematics.
+In display math, write less-than signs before letters as `\lt`, with a
+following space. The 2026-11-01 browser review found that a literal `<q`
+could silently hide terms as if they were HTML; `<L` also broke a grouped
+formula. A successful math-element count did not detect the missing terms.
 
 Run from the repository root after editing:
 
