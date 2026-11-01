@@ -326,12 +326,27 @@ spin-1/Blume–Capel formula. Earlier chaotic spin-1 recursions and feedback
 Potts flows therefore belong in the comparison, even when their papers do
 not use denoising or projection terminology.
 
-The extension's [prior-art section](product-alphabet/manuscript.md#6-prior-art-and-geometric-comparison)
+The extension's [prior-art section](product-alphabet/manuscript.md#7-prior-art-and-geometric-comparison)
 and [review receipt](../results/product-alphabet/literature-review.json)
 record the exact source scope. The supported contribution is a reproducible
 four-wing parameter regime and controlled numerical geometry, with regular
 nearby outcomes retained. A different displayed recurrence and a poor finite
 cloud fit do not establish historical uniqueness or nonlinear inequivalence.
+
+The subsequent [symbolic certificate](product-alphabet/manuscript.md#6-a-certified-positive-entropy-subsystem)
+proves positive entropy for a compact invariant subsystem of the exact binary
+Case 988, using established covering-relation theorems. It does not certify
+attraction or identify the subsystem with the four-wing cloud. This is a new
+instance-specific certificate in the repository, not a new general chaos mechanism.
+
+[Barnett, Millane and Kingston (2024)](https://journals.iucr.org/d/issues/2024/11/00/nz5017/index.html)
+also compare DM, RRR and RAAR in crystallographic phase retrieval. Equation
+(6) uses the same RAAR algebra with metric projections; Sections 6–7 describe
+persistent fluctuations near a stationary mean. The reviewed model uses
+Fourier-amplitude, solvent and histogram constraints, rather than our
+three-coordinate posterior. Irregular reflected reconstruction trajectories
+are therefore established prior art. Only the text and Figure 7 caption
+were reviewed; image retrieval failed, so no figure-level comparison is claimed.
 
 ## Remaining novelty question
 

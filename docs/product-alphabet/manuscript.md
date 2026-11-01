@@ -1,7 +1,8 @@
 # Folded wings in product-alphabet posterior-reflection maps
 
-**Numerical research article · 2026-11-01.** Chaotic attraction and historical
-uniqueness are not certified.
+**Computational research article · 2026-11-01.** Positive entropy is certified
+on a compact invariant subsystem. Chaotic attraction and historical uniqueness
+are not certified.
 
 ## Abstract
 
@@ -12,10 +13,14 @@ four-level Cartesian alphabets. All 175 initial nonperiodic flags receive
 longer follow-up; twelve visually selected regimes receive five-million-step
 observations. The principal binary candidate retains positive leading growth
 at all 33 tested starts and in independent 70- and 100-digit calculations.
-A four-level companion produces layered arches but coexists with numerical
-fixed points. Complete selection records preserve periodic captures and
+A separate interval certificate proves a compact invariant subsystem with
+topological entropy above 0.0254 per original iteration for the exact binary
+parameters. A second, full-eight-site automatic-derivative implementation
+verifies every covering relation. This subsystem is not proved attracting
+or equal to the sampled cloud. A four-level companion produces layered arches
+but coexists with numerical fixed points. Complete selection records preserve periodic captures and
 precision-sensitive planar behavior. The contribution is a reproducible
-geometric and numerical study of these parameter regimes. Posterior means,
+geometric study and an explicit positive-entropy certificate. Posterior means,
 spin responses, reflection algorithms and feedback-induced chaos are known;
 neither a new general operator nor historical priority is claimed.
 
@@ -247,7 +252,130 @@ and 82 steps in Case 489. Thus these sampled irregular regimes depend on
 the reflection feedback. This control does not claim that posterior-mean
 iterations are globally convergent for every finite prior.
 
-## 6. Prior art and geometric comparison
+## 6. A certified positive-entropy subsystem
+
+The [separate symbolic packet](../../results/product-symbolic/README.md)
+uses exactly the binary64 parameters and eight sites of Case 988. Put
+$`G=F^4`$. Twenty-three affine windows
+$`N_i=c_i+S_i[-1,1]^3`$ have one exit coordinate and two entry coordinates.
+The centers, basis factors and radii are exact real lifts of stored binary64
+values. The matrices $`S_i`$ and their inverses are formed over the rationals;
+their complete entries are retained in
+[input.json](../../results/product-symbolic/runs/product-coverings988-certificate04/input.json).
+
+The certified graph is
+
+```math
+N_0\longrightarrow N_0,\qquad
+N_0\longrightarrow N_1\longrightarrow\cdots\longrightarrow N_{22}
+\longrightarrow N_0,
+\qquad\text{each arrow represents }G=F^4.
+```
+
+For each arrow, the full source volume maps either strictly outside the
+target exit interval, or strictly inside both target entry intervals.
+The two exit faces map strictly to opposite exterior sides. These are
+sufficient conditions for Theorem 16 of
+[Zgliczynski and Gidea (2004)](https://ww2.ii.uj.edu.pl/~zgliczyn/papers/wts/cov.pdf).
+Theorem 9 of that work realizes every closed chain by a periodic point.
+These established covering theorems supply the topological step; the new
+calculation supplies their hypotheses for the exact Case 988 map.
+
+**Two interval implementations.** The primary calculation uses 80-digit
+outward intervals, the exact binary posterior factorization and its analytic
+Jacobian. It composes four original steps and applies mean-value enclosures
+in exact rational window coordinates. The second calculation uses 110-digit
+intervals, all eight Gaussian squared-distance weights, nested spherical
+reflections and forward automatic derivatives. Its weighted sum is centered
+at one site by an exact algebraic identity to reduce interval overestimation.
+It revisits every primary leaf in reverse order and subdivides further when
+needed. Both implementations share mpmath interval arithmetic, the supplied
+windows and the mean-value enclosure principle.
+
+| Coverings | Primary leaves | Full-site AD leaves |
+| --- | ---: | ---: |
+| 0 to 0 | 16 | 16 |
+| 0 to 1 | 11 | 11 |
+| Remaining 22 arrows | 151 | 183 |
+| Total, including volumes and both exit faces | 178 | 210 |
+
+Exact-rational audits check complete binary subdivision trees, all strict
+inequalities using stored binary interval endpoints, matrix inverses,
+source hashes and $`N_0\cap N_1=\varnothing`$. Minimum normalized margins
+exceed 0.00629 and 0.01915, respectively. The sphere-normalization radius
+exceeds 2.3799 throughout all four-step source enclosures in both checks.
+These are bounds on the validated windows and their intermediate images,
+not on the entire numerical cloud or a parameter neighborhood.
+
+![Locations of covering-window centers and their two return routes](../assets/diagnostics/product-alphabet-coverings.png)
+
+**Figure 3.** The background is the same two-million-state numerical cloud
+seen through an orthogonal, equal-unit camera. Orange markers locate window
+centers; the blue diamond marks N_0. Symbols are enlarged, and many centers
+overlap at this scale. The right panel is schematic: 23 self-loops and one
+23-arrow excursion each use 92 original iterations. Window centers are not
+asserted to constitute an exact orbit. Attraction is not inferred from
+their plotted proximity to the cloud.
+
+**Theorem.** For the exact Case 988 instance, there is a nonempty compact set
+$`C`$ in the smooth domain with $`F(C)=C`$ and
+
+```math
+h_{\mathrm{top}}(F|_C)\ge\frac{\log\rho}{4}>0.0254,
+\qquad \rho>1,\qquad \rho^{23}-\rho^{22}-1=0.
+```
+
+**Proof.** A return to N_0 may use either one self-loop or the 23-arrow
+excursion. Let $`a_n`$ count words in these two returns with total length n
+in G-steps. Then $`a_0=1`$, $`a_n=0`$ for negative n, and
+$`a_n=a_{n-1}+a_{n-23}`$. Each word gives a closed covering chain and hence
+a point fixed by $`G^n=F^{4n}`$ with its prescribed visits.
+
+Let $`\delta=\mathrm{dist}(N_0,N_1)>0`$. Two distinct equal-length words have
+a first different return choice after a common prefix. One G-step later
+their realizing points lie in N_0 and N_1. Therefore these $`a_n`$ points
+are $`(4n,\delta/2)`$-separated for F. This argument does not require the
+other windows to be pairwise disjoint.
+
+All these periodic orbits lie in the compact set
+
+```math
+X=\bigcup_{i=0}^{22}\ \bigcup_{j=0}^{3}F^j(N_i).
+```
+
+The validated normalization bound puts X in the smooth domain. Let C be
+the closure of the union of the selected periodic orbits. Continuity gives
+$`F(C)\subset C`$. Compactness of X supplies a convergent subsequence of
+periodic predecessors for each limit point, giving $`C\subset F(C)`$.
+Thus $`F(C)=C`$. The positive root rho above obeys
+$`\rho^n=\rho^{n-1}+\rho^{n-23}`$. Upper and lower positive multiples of
+$`\rho^n`$ bound $`a_n`$, first for n from 0 to 22 and then by induction.
+The separated-set definition of entropy gives the stated bound. The audit
+checks $`(1.10695)^{22}(1.10695-1)<1`$ exactly and bounds its logarithm
+by a positive rational series, establishing the displayed decimal lower
+bound without a floating-point root assumption. ∎
+
+As a simpler consequence, choosing 23 self-loops or one excursion in each
+block gives arbitrary binary itineraries sampled every 92 original steps
+and the weaker bound $`\log(2)/92>0.0075342`$. Compactness also realizes
+infinite prescribed routes. Unique symbolic coding, a transverse homoclinic
+orbit, uniform hyperbolicity and attraction of C are not asserted.
+
+**Search and unsuccessful certificates.** The window search starts from
+512 numerical cycle fits at periods 1–16, retaining 70 numerical cycles.
+A period-four saddle proposal guides linear unstable-line searches and
+multiple shooting with linear endpoint constraints. These guides are not
+used as invariant-manifold certificates. Early window programs failed;
+the default absolute linear-program feasibility tolerance also exceeded
+some proposed widths. Rescaling and explicit constraint checks corrected
+that numerical issue before the interval validation. Two grid-trapping
+proposals did not close. A wider, uncentered full-site interval expression
+was stopped incomplete after the algebraically centered implementation
+passed. All these outcomes and executed sources are inventoried separately
+from the frozen numerical survey. None of the unsuccessful trapping runs
+is used to claim that C attracts a neighborhood.
+
+## 7. Prior art and geometric comparison
 
 The literature audit explicitly includes equivalent terminology. Its
 [receipt](../../results/product-alphabet/literature-review.json) distinguishes
@@ -261,6 +389,7 @@ reviewed equations, abstract-only evidence and uninspected figures.
 | Chaotic spin-1 recursion | Tomé and Salinas (1989) already report strange-attractor evidence in a two-dimensional competing-interaction recursion. |
 | Spin models with feedback | Sinelschikov and colleagues (2023) study oscillations and chaos in feedback lattice models, including a four-dimensional mean-field Potts flow. |
 | Labyrinth and polyhedral attractors | Spatial loops, folded threads and polyhedral organization have direct precedents; their appearance alone is not novel. |
+| Iterative phase retrieval | RAAR and RRR trajectories can retain stationary fluctuations; this algorithmic behavior predates the present examples. |
 
 [Ülgen and Sünel (2013)](https://dergipark.org.tr/en/download/article-file/192677)
 give the Blume–Capel mean-state recurrence in Section 2.1. The reviewed
@@ -307,21 +436,36 @@ whose local fit is better despite a worse fingerprint rank. No global
 alignment optimum, topological invariant, nonlinear conjugacy test or
 historical exclusion follows from these finite distances.
 
-## 7. Contribution and open questions
+[Barnett, Millane and Kingston (2024)](https://journals.iucr.org/d/issues/2024/11/00/nz5017/index.html)
+compare DM, RRR and RAAR in crystallographic phase retrieval. Their Section
+2.1.4, equation (6), is the same RAAR algebra with metric projections;
+Sections 6–7 discuss persistent fluctuations around a stationary mean.
+Those observations prevent claiming the first irregular reflected
+reconstruction trajectory. The reviewed constraints are Fourier amplitudes,
+solvent flatness and histogram matching, rather than this three-coordinate
+product posterior. The text and Figure 7 caption were reviewed; the image
+download was inaccessible, so no visual comparison to that figure is claimed.
+The supplementary [review receipt](../../results/product-symbolic/literature-review.json)
+records this scope and the covering-theorem source.
+
+## 8. Contribution and open questions
 
 The supported result is a fully specified four-wing numerical regime of
 an eight-site product posterior with sphere feedback, a multilevel
 companion with documented coexistence, and a complete search and control
-record. The unexpected setting is a quantized-signal posterior inside an
+record. A separate certificate proves positive entropy on a compact invariant
+subsystem for the exact principal parameters. The unexpected setting is a quantized-signal posterior inside an
 established numerical reflection construction. It is not a new physical
 phenomenon established by measurement.
 
 Neither a strange-attractor theorem nor a claim that the geometry has
 never appeared before is justified yet. Positive finite-time growth,
 multiple starts, precision controls and finite-library differences narrow
-the candidates; they do not prove asymptotic chaos, transitivity, a fractal
-dimension, or historical uniqueness. A useful next theoretical target is
-a verified trapping region and recurrent expanding dynamics for Case 988,
-followed by structural comparison with known noninvertible maps. The
+the candidates; those numerical tests do not prove asymptotic chaos,
+transitivity, a fractal dimension, or historical uniqueness. Section 6 supplies
+an independent positive-entropy theorem, but leaves attraction and equality
+with the depicted cloud open. A useful next theoretical target is a verified
+trapping region containing the certified subsystem, followed by structural
+comparison with known noninvertible maps. The
 independent certificates for earlier cases do not transfer to this parameter
 set merely because the formulas belong to the same family.

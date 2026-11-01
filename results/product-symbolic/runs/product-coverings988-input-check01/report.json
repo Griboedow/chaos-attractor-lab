@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "case": 988,
+  "dependencies": {
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-coverings988-certificate04\\input.json": "d9187b678b84290dc111df6751b44109255bd1ec23f8e9163a13569437585eb2",
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-coverings988-certificate04\\report.json": "d1a329f6ab461a58ec18e7f7c620bac79e2d6f826bed0742cb4bb2c8d323e39e",
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-coverings988-independent04\\report.json": "8601fe36ed34de33b43f27888fe775965e6eee832196e79587ee84e977e9f708",
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-coverings988-audit04\\report.json": "d069db495d7f834589851e4bb97ec47e9fb44e24e3be71823163d94a4ee36108",
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-coverings988-audit05\\report.json": "e095c7ff6bb2893a1d4d38f8f5ad624797504af34fbc004a250b5c95328aae60"
+  },
+  "exact_parameters_hex": [
+    "0x1.da86b04d9fbe8p-1",
+    "0x1.5702ae4e4fb77p-6"
+  ],
+  "exact_sites_hex": [
+    [
+      "-0x1.224ec9ba66666p+0",
+      "-0x1.6421cc4199999p-1",
+      "-0x1.3509cdbe66666p+0"
+    ],
+    [
+      "-0x1.224ec9ba66666p+0",
+      "-0x1.6421cc4199999p-1",
+      "0x1.10eda33e66666p+0"
+    ],
+    [
+      "-0x1.224ec9ba66666p+0",
+      "0x1.21d2795400000p+0",
+      "-0x1.3509cdbe66666p+0"
+    ],
+    [
+      "-0x1.224ec9ba66666p+0",
+      "0x1.21d2795400000p+0",
+      "0x1.10eda33e66666p+0"
+    ],
+    [
+      "0x1.ba2628f4ccccdp-1",
+      "-0x1.6421cc4199999p-1",
+      "-0x1.3509cdbe66666p+0"
+    ],
+    [
+      "0x1.ba2628f4ccccdp-1",
+      "-0x1.6421cc4199999p-1",
+      "0x1.10eda33e66666p+0"
+    ],
+    [
+      "0x1.ba2628f4ccccdp-1",
+      "0x1.21d2795400000p+0",
+      "-0x1.3509cdbe66666p+0"
+    ],
+    [
+      "0x1.ba2628f4ccccdp-1",
+      "0x1.21d2795400000p+0",
+      "0x1.10eda33e66666p+0"
+    ]
+  ],
+  "same_exact_instance": true,
+  "window_centers_to_finite_cloud": {
+    "states": 2000000,
+    "distances": [
+      0.0009738075217173069,
+      0.0009630873849695614,
+      0.001325727998041864,
+      0.0016457858086600143,
+      0.0011149206750081303,
+      0.0009063579672790081,
+      0.0032772661808209286,
+      0.0012879302540579633,
+      0.001372769941954693,
+      0.0009328906021261516,
+      0.000675696364400197,
+      0.0008280187205810973,
+      0.0009498229568731855,
+      0.0009529846435120973,
+      0.0009761722867381666,
+      0.0009688116335472586,
+      0.0009760544063278403,
+      0.0009720103664319836,
+      0.0009748980172816471,
+      0.0009730602355860637,
+      0.0009742921483399588,
+      0.0009734855569192563,
+      0.0009740192182918921
+    ],
+    "nearest_state_indices": [
+      503106,
+      503106,
+      1504851,
+      409822,
+      1466951,
+      1682935,
+      1094372,
+      1500538,
+      1819095,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106,
+      503106
+    ],
+    "maximum": 0.0032772661808209286,
+    "scope": "Numerical distances to a finite cloud, not membership in its infinite closure or an attracting set."
+  },
+  "scope": "Bitwise model-input and certificate-dependency binding. Covering enclosures and complete trees are verified by their separate programs."
+}

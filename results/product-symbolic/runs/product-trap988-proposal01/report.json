@@ -1,0 +1,35 @@
+{
+  "status": "not_closed",
+  "reason": "Image enclosure leaves proposed domain",
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-long01\\case-988.npz",
+  "source_sha256": "217575f605df11329bd7cdaebf82c307d04f7456c4f75fcc5d90d9e0feaf1ddd",
+  "source_code_sha256": "6423a266366fd5d1a91bc7cec0644ef0bb7e29c305052ec778cb4b950f8f6cc8",
+  "step": 0.015625,
+  "slack": 1e-08,
+  "curvature": 2.0,
+  "initial_pad": 1,
+  "domain_pad": 0.4,
+  "require_alternation": false,
+  "shape": [
+    93,
+    88,
+    98
+  ],
+  "initial_occupied": 26172,
+  "final_occupied": 82126,
+  "failing_key": 281206,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 26172,
+      "processed": 3130,
+      "added": 55954,
+      "status": 2,
+      "minimum_sampled_radius": 2.1663805357275137,
+      "minimum_sampled_enclosure_flip_margin": -0.7862081626692996,
+      "maximum_sampled_remainder": 0.517919431123852,
+      "seconds": 14.08896017074585
+    }
+  ],
+  "scope": "Sampled closure proposal only. Corner residual inflation is not a rigorous remainder bound. No proof of trapping, alternation, chaos, attraction, or novelty."
+}

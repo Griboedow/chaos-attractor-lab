@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01",
+  "previous_audit": "../product-alphabet/literature-review.json",
+  "sources": [
+    {
+      "authors": [
+        "Piotr Zgliczynski",
+        "Marian Gidea"
+      ],
+      "year": 2004,
+      "title": "Covering relations for multidimensional dynamical systems",
+      "doi": "10.1016/j.jde.2004.03.013",
+      "url": "https://ww2.ii.uj.edu.pl/~zgliczyn/papers/wts/cov.pdf",
+      "reviewed": "Author preprint dated April 20, 2004: Theorem 9, printed page 11; Theorem 16, printed page 17; surrounding definitions and Corollary 12.",
+      "relationship": "Established closed-chain existence and one-exit covering criteria used in the proof. The present finite inequalities are instance-specific, not a new theorem or chaos mechanism.",
+      "visual_review": false
+    },
+    {
+      "authors": [
+        "Michael J. Barnett",
+        "Rick P. Millane",
+        "Richard L. Kingston"
+      ],
+      "year": 2024,
+      "title": "Analysis of crystallographic phase retrieval using iterative projection algorithms",
+      "doi": "10.1107/S2059798324009902",
+      "url": "https://journals.iucr.org/d/issues/2024/11/00/nz5017/index.html",
+      "reviewed": "Abstract; Sections 2.1.3-2.2, including equations 4-6; Sections 6-7 and Figure 7 caption.",
+      "relationship": "RAAR algebra and persistent fluctuations in reflected phase-retrieval trajectories predate this study. Their constraints are Fourier amplitudes, solvent flatness and histogram matching; no identification with this three-coordinate posterior recurrence was found in the reviewed sections.",
+      "visual_review": false,
+      "access_limit": "Figure 7 image URL was discovered, but the direct image request returned HTTP 403; no visual comparison or full experiment reproduction."
+    }
+  ],
+  "queries": [
+    "\"difference map\" \"tanh\"",
+    "\"Douglas Rachford\" \"MMSE\" sphere",
+    "\"relaxed reflect reflect\" \"binary\" chaos",
+    "\"sphere\" \"soft projection\" chaos attractor"
+  ],
+  "scope": "Bounded supplementary review. No claim of exhaustive historical search, nonlinear inequivalence or first discovery. Search result absence is not evidence of uniqueness."
+}

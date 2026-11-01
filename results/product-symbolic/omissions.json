@@ -1,0 +1,548 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "results/product-symbolic/runs/product-returns988-01/trace.npz",
+      "bytes": 13824929,
+      "sha256": "81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337",
+      "group": "product-symbolic",
+      "compact": {
+        "path": "results/compact-data/81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337.npz",
+        "bytes": 1171,
+        "sha256": "c0c4fcd4115d05f1e0552b1256c79eceda4d2fe30fc0680718e21759e39396b3",
+        "keys": [
+          "params",
+          "points",
+          "center",
+          "basis",
+          "multipliers"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "basis",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "multipliers",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "grid",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "bytes": 131080,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "coordinates",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            16385
+          ],
+          "dtype": "int64",
+          "bytes": 131080,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-symbolic/README.md for run product-returns988-01. Original large payload trace.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-returns988-01\\trace.npz"
+    },
+    {
+      "path": "results/product-symbolic/runs/product-returns988-prepend2/trace.npz",
+      "bytes": 13824929,
+      "sha256": "81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337",
+      "group": "product-symbolic",
+      "compact": {
+        "path": "results/compact-data/81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337.npz",
+        "bytes": 1171,
+        "sha256": "c0c4fcd4115d05f1e0552b1256c79eceda4d2fe30fc0680718e21759e39396b3",
+        "keys": [
+          "params",
+          "points",
+          "center",
+          "basis",
+          "multipliers"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "basis",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "multipliers",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "grid",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "bytes": 131080,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "coordinates",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            16385
+          ],
+          "dtype": "int64",
+          "bytes": 131080,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-symbolic/README.md for run product-returns988-prepend2. Original large payload trace.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-returns988-prepend2\\trace.npz"
+    },
+    {
+      "path": "results/product-symbolic/runs/product-returns988-prepend4/trace.npz",
+      "bytes": 13824929,
+      "sha256": "81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337",
+      "group": "product-symbolic",
+      "compact": {
+        "path": "results/compact-data/81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337.npz",
+        "bytes": 1171,
+        "sha256": "c0c4fcd4115d05f1e0552b1256c79eceda4d2fe30fc0680718e21759e39396b3",
+        "keys": [
+          "params",
+          "points",
+          "center",
+          "basis",
+          "multipliers"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "basis",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "multipliers",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "grid",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "bytes": 131080,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "coordinates",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            16385
+          ],
+          "dtype": "int64",
+          "bytes": 131080,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-symbolic/README.md for run product-returns988-prepend4. Original large payload trace.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-returns988-prepend4\\trace.npz"
+    },
+    {
+      "path": "results/product-symbolic/runs/product-returns988-refined01/trace.npz",
+      "bytes": 13824929,
+      "sha256": "81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337",
+      "group": "product-symbolic",
+      "compact": {
+        "path": "results/compact-data/81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337.npz",
+        "bytes": 1171,
+        "sha256": "c0c4fcd4115d05f1e0552b1256c79eceda4d2fe30fc0680718e21759e39396b3",
+        "keys": [
+          "params",
+          "points",
+          "center",
+          "basis",
+          "multipliers"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "basis",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "multipliers",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "grid",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "bytes": 131080,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "coordinates",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            16385
+          ],
+          "dtype": "int64",
+          "bytes": 131080,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-symbolic/README.md for run product-returns988-refined01. Original large payload trace.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-returns988-refined01\\trace.npz"
+    },
+    {
+      "path": "results/product-symbolic/runs/product-trap988-proposal02/proposal.npz",
+      "bytes": 11887088,
+      "sha256": "908573e1d4546df91d3067b2268d254fa566d89c8a8d54ffc35f88980bcd947f",
+      "group": "product-symbolic",
+      "compact": {
+        "path": "results/compact-data/908573e1d4546df91d3067b2268d254fa566d89c8a8d54ffc35f88980bcd947f.npz",
+        "bytes": 1422,
+        "sha256": "380ef9dddf71a55a0fcd0ab57729d47845ec454d3bf946ae28626b756d8685f6",
+        "keys": [
+          "params",
+          "points",
+          "origin",
+          "shape",
+          "step",
+          "split",
+          "cut"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "origin",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "shape",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "step",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "occupied",
+          "shape": [
+            5966953
+          ],
+          "dtype": "int64",
+          "bytes": 47735624,
+          "retained": false
+        },
+        {
+          "key": "pending",
+          "shape": [
+            1550833
+          ],
+          "dtype": "int64",
+          "bytes": 12406664,
+          "retained": false
+        },
+        {
+          "key": "split",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "cut",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-symbolic/README.md for run product-trap988-proposal02. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-trap988-proposal02\\proposal.npz"
+    }
+  ]
+}

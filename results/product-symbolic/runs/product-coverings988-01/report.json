@@ -1,0 +1,1561 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-returns988-01",
+  "source_sha256": "81d284054289cd4a8453c7bdca56465da338096d8b4a377930e900d435a6d337",
+  "selection": "Smallest terminal distance, up to the declared count at each return length; every selected outcome retained.",
+  "per_length": 5,
+  "grid": 9,
+  "proposals": [
+    {
+      "steps": 3,
+      "parameter": -0.000278994294672586,
+      "grid_index": 7049,
+      "end_distance": 0.03998482146586311,
+      "maximum_basis_condition": 3.731580336915795,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 0
+    },
+    {
+      "steps": 4,
+      "parameter": 0.0008151782346159293,
+      "grid_index": 11530,
+      "end_distance": 0.009802924083219661,
+      "maximum_basis_condition": 17.818602957823593,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 1
+    },
+    {
+      "steps": 4,
+      "parameter": -0.00021996309257854574,
+      "grid_index": 7291,
+      "end_distance": 0.015955117352893556,
+      "maximum_basis_condition": 3.731580336915795,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": true,
+          "minimum_sampled_margin": -2679510.038693367,
+          "radii": [
+            [
+              0.00028121988524414094,
+              0.0077503048108966835,
+              0.01652246311024584
+            ],
+            [
+              1.8762777984603346e-09,
+              0.005531417499364875,
+              0.006180297002101057
+            ],
+            [
+              6.173505424922571e-07,
+              0.003900183363336872,
+              0.0017793100077340444
+            ],
+            [
+              7.787658799785784e-05,
+              0.0003879098950097402,
+              0.0014418675556310417
+            ]
+          ],
+          "sampled_remainders": [
+            [
+              0.012674830751935606,
+              0.002518861349040719,
+              0.0033939599181461956
+            ],
+            [
+              0.012712284681497345,
+              0.0019222924973136823,
+              0.0031828514594164853
+            ],
+            [
+              0.15397090883097345,
+              0.0011141947126318105,
+              0.015570448463575158
+            ],
+            [
+              0.08631468480464663,
+              0.001722311179727523,
+              0.00718670208501753
+            ],
+            [
+              0.0002026492667843707,
+              3.6073620284757496e-05,
+              5.422149714975926e-05
+            ]
+          ],
+          "checks": [
+            {
+              "source": 0,
+              "target": 0,
+              "face_margin": -29.888014437461948,
+              "stable_margin": 0.015482234942402084
+            },
+            {
+              "source": 0,
+              "target": 1,
+              "face_margin": -2679510.038693367,
+              "stable_margin": -0.20858903185506006
+            },
+            {
+              "source": 1,
+              "target": 2,
+              "face_margin": -249405.84627548166,
+              "stable_margin": -8.593166562514243
+            },
+            {
+              "source": 2,
+              "target": 3,
+              "face_margin": -1099.2600992513676,
+              "stable_margin": -4.884300955348307
+            },
+            {
+              "source": 3,
+              "target": 0,
+              "face_margin": -0.5746114883996551,
+              "stable_margin": 0.09583158210088272
+            }
+          ]
+        },
+        {
+          "iteration": 1,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 2
+    },
+    {
+      "steps": 4,
+      "parameter": 0.0008252246932252382,
+      "grid_index": 11572,
+      "end_distance": 0.01610955084104596,
+      "maximum_basis_condition": 31.12954816540202,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 3
+    },
+    {
+      "steps": 4,
+      "parameter": 0.0013370837114211412,
+      "grid_index": 13668,
+      "end_distance": 0.019993396185558874,
+      "maximum_basis_condition": 37.768527889844435,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 4
+    },
+    {
+      "steps": 4,
+      "parameter": -0.0002134238999198222,
+      "grid_index": 7317,
+      "end_distance": 0.02319228253635357,
+      "maximum_basis_condition": 3.731580336915795,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": true,
+          "minimum_sampled_margin": -2182.699261129958,
+          "radii": [
+            [
+              0.00023310867757982587,
+              0.0010880981457067115,
+              0.02602902918944224
+            ],
+            [
+              5.873143765940621e-08,
+              0.0012303409864928307,
+              0.009181292181655913
+            ],
+            [
+              1.8148862521846578e-05,
+              0.002922411015112983,
+              0.0024718553615095604
+            ],
+            [
+              0.00010003827634565351,
+              0.0005059095019119675,
+              0.0012095902798891262
+            ]
+          ],
+          "sampled_remainders": [
+            [
+              0.004008055531481722,
+              0.0002566637128230306,
+              0.0005546466316464728
+            ],
+            [
+              0.00400946944432287,
+              0.0003475270197491095,
+              0.000444099367032518
+            ],
+            [
+              0.03961568693028627,
+              0.0009795121547921252,
+              0.0002761394846636998
+            ],
+            [
+              0.0015015383081046492,
+              2.4891299023611783e-05,
+              4.138849070228778e-05
+            ],
+            [
+              5.7384845517257125e-05,
+              8.388187482642816e-06,
+              1.314520436058558e-05
+            ]
+          ],
+          "checks": [
+            {
+              "source": 0,
+              "target": 0,
+              "face_margin": -4.782135186767845,
+              "stable_margin": 0.10460095069466047
+            },
+            {
+              "source": 0,
+              "target": 1,
+              "face_margin": 1512.4385487993568,
+              "stable_margin": -0.06221472465508571
+            },
+            {
+              "source": 1,
+              "target": 2,
+              "face_margin": -2182.699261129958,
+              "stable_margin": -0.0007074230010752913
+            },
+            {
+              "source": 2,
+              "target": 3,
+              "face_margin": -14.889635441103712,
+              "stable_margin": 0.050799403985214986
+            },
+            {
+              "source": 3,
+              "target": 0,
+              "face_margin": -0.10865146333420672,
+              "stable_margin": 0.10016231061314917
+            }
+          ]
+        },
+        {
+          "iteration": 1,
+          "linear_feasible": true,
+          "minimum_sampled_margin": -76.33646005185481,
+          "radii": [
+            [
+              0.0007772272765792801,
+              0.0017375627324107557,
+              0.026320925930853896
+            ],
+            [
+              0.0001730902652765286,
+              0.002469861483203213,
+              0.010398387527168282
+            ],
+            [
+              0.0004313261815350028,
+              0.005275379602470192,
+              0.004029329247003193
+            ],
+            [
+              0.00036652782119514076,
+              0.0009350998526981516,
+              0.002166552973234675
+            ]
+          ],
+          "sampled_remainders": [
+            [
+              0.005458777103077085,
+              0.0014860212446425032,
+              0.0019530112448129973
+            ],
+            [
+              0.00546938947724342,
+              0.0012337439919371388,
+              0.0019782991158702893
+            ],
+            [
+              0.09240120346327951,
+              0.005094765457742373,
+              0.0025108050034456826
+            ],
+            [
+              0.006448905266595788,
+              0.00047912244298545627,
+              0.000166199019427329
+            ],
+            [
+              0.00019425371681869145,
+              5.747469482174578e-05,
+              7.548916301424298e-05
+            ]
+          ],
+          "checks": [
+            {
+              "source": 0,
+              "target": 0,
+              "face_margin": 3.438029420098017,
+              "stable_margin": -0.5147493274127468
+            },
+            {
+              "source": 0,
+              "target": 1,
+              "face_margin": 32.05219530437848,
+              "stable_margin": 0.03676953577746811
+            },
+            {
+              "source": 1,
+              "target": 2,
+              "face_margin": -76.33646005185481,
+              "stable_margin": -0.32650542386042747
+            },
+            {
+              "source": 2,
+              "target": 3,
+              "face_margin": -11.329602081377962,
+              "stable_margin": -0.3724472933829517
+            },
+            {
+              "source": 3,
+              "target": 0,
+              "face_margin": 0.02098403533290516,
+              "stable_margin": 0.10119500555590999
+            }
+          ]
+        },
+        {
+          "iteration": 2,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 5
+    },
+    {
+      "steps": 5,
+      "parameter": 0.0010122596329724056,
+      "grid_index": 12338,
+      "end_distance": 0.017230341829905294,
+      "maximum_basis_condition": 198.48030516372773,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 6
+    },
+    {
+      "steps": 5,
+      "parameter": -0.0012165472466812506,
+      "grid_index": 3209,
+      "end_distance": 0.01736728790630998,
+      "maximum_basis_condition": 3.731580336915795,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": true,
+          "minimum_sampled_margin": -39257.982017582,
+          "radii": [
+            [
+              0.0012725824146822013,
+              0.0013256084355127292,
+              0.019911875735695913
+            ],
+            [
+              1.42841965246191e-07,
+              0.005962838600574263,
+              0.015798013493623437
+            ],
+            [
+              7.790871558631056e-07,
+              0.005190711482580665,
+              0.004671468763513514
+            ],
+            [
+              1.3028912388288373e-05,
+              0.001430268732476444,
+              0.005847503828281303
+            ],
+            [
+              0.0004682128963315146,
+              0.0014561405465004383,
+              0.0008226372866779759
+            ]
+          ],
+          "sampled_remainders": [
+            [
+              0.00826159695380108,
+              0.0025842823768731198,
+              0.00863559241751687
+            ],
+            [
+              0.010119945014350356,
+              0.0017578736636008783,
+              0.005858930208214709
+            ],
+            [
+              0.030587529798560328,
+              0.001002873836602041,
+              0.0013434653954170431
+            ],
+            [
+              0.012566259260959833,
+              0.0008978720473374205,
+              0.0002895879444465917
+            ],
+            [
+              0.017237726523327716,
+              0.0021225475230288145,
+              0.0009627037067990501
+            ],
+            [
+              3.1519186101293915e-05,
+              4.963709176923072e-05,
+              5.403803095879652e-05
+            ]
+          ],
+          "checks": [
+            {
+              "source": 0,
+              "target": 0,
+              "face_margin": 3.9694345473057835,
+              "stable_margin": -1.609022766944403
+            },
+            {
+              "source": 0,
+              "target": 1,
+              "face_margin": -7155.772652100181,
+              "stable_margin": -0.2499429257130601
+            },
+            {
+              "source": 1,
+              "target": 2,
+              "face_margin": -39257.982017582,
+              "stable_margin": -0.18758945278841876
+            },
+            {
+              "source": 2,
+              "target": 3,
+              "face_margin": -964.3702534040809,
+              "stable_margin": -0.47703682907138445
+            },
+            {
+              "source": 3,
+              "target": 4,
+              "face_margin": -36.696000602261655,
+              "stable_margin": -0.9571749620111087
+            },
+            {
+              "source": 4,
+              "target": 0,
+              "face_margin": 0.09523230264881732,
+              "stable_margin": 0.10122546321219472
+            }
+          ]
+        },
+        {
+          "iteration": 1,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 7
+    },
+    {
+      "steps": 5,
+      "parameter": 0.0010321107253751622,
+      "grid_index": 12419,
+      "end_distance": 0.024900682090170354,
+      "maximum_basis_condition": 183.3945548912863,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 8
+    },
+    {
+      "steps": 5,
+      "parameter": 0.00102917725745144,
+      "grid_index": 12407,
+      "end_distance": 0.025544030444720346,
+      "maximum_basis_condition": 166.35446944252928,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 9
+    },
+    {
+      "steps": 5,
+      "parameter": 0.0013760845969406099,
+      "grid_index": 13828,
+      "end_distance": 0.027422987273653644,
+      "maximum_basis_condition": 45.089713528544024,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 10
+    },
+    {
+      "steps": 6,
+      "parameter": 0.0010321772313123527,
+      "grid_index": 12419,
+      "end_distance": 0.0077873089402875195,
+      "maximum_basis_condition": 184.03446027488857,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 11
+    },
+    {
+      "steps": 6,
+      "parameter": 0.001029023747721527,
+      "grid_index": 12406,
+      "end_distance": 0.008046871438683762,
+      "maximum_basis_condition": 163.84535758552872,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 12
+    },
+    {
+      "steps": 6,
+      "parameter": 0.0010210106617751591,
+      "grid_index": 12374,
+      "end_distance": 0.01596192141973933,
+      "maximum_basis_condition": 251.69331542235017,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 13
+    },
+    {
+      "steps": 6,
+      "parameter": 0.0010197049269771719,
+      "grid_index": 12368,
+      "end_distance": 0.016029639377424933,
+      "maximum_basis_condition": 211.04165765885463,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 14
+    },
+    {
+      "steps": 6,
+      "parameter": -0.0007885814178862098,
+      "grid_index": 4961,
+      "end_distance": 0.018590908459984963,
+      "maximum_basis_condition": 3.731580336915795,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 15
+    },
+    {
+      "steps": 7,
+      "parameter": 0.001165038304066448,
+      "grid_index": 12963,
+      "end_distance": 0.008155579037627883,
+      "maximum_basis_condition": 106.73296374306818,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 16
+    },
+    {
+      "steps": 7,
+      "parameter": 0.0015945758026293712,
+      "grid_index": 14723,
+      "end_distance": 0.04788879438806212,
+      "maximum_basis_condition": 21.193680026193295,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 17
+    },
+    {
+      "steps": 8,
+      "parameter": -0.00031420912648751477,
+      "grid_index": 6904,
+      "end_distance": 0.03881514188795177,
+      "maximum_basis_condition": 6.078684394952078,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 18
+    },
+    {
+      "steps": 8,
+      "parameter": -0.0003376467063391877,
+      "grid_index": 6808,
+      "end_distance": 0.07394547665722606,
+      "maximum_basis_condition": 5.5602025384129545,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 19
+    },
+    {
+      "steps": 8,
+      "parameter": -0.00010937472735174486,
+      "grid_index": 7744,
+      "end_distance": 0.08313906986808316,
+      "maximum_basis_condition": 24.115207036712736,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 20
+    },
+    {
+      "steps": 8,
+      "parameter": -0.0003798836111152693,
+      "grid_index": 6635,
+      "end_distance": 0.10502539711889884,
+      "maximum_basis_condition": 16.100826746849595,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 21
+    },
+    {
+      "steps": 8,
+      "parameter": 0.0007645639521610327,
+      "grid_index": 11323,
+      "end_distance": 0.10606532425748509,
+      "maximum_basis_condition": 4.580662267638706,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 22
+    },
+    {
+      "steps": 10,
+      "parameter": -0.0009818949705623625,
+      "grid_index": 4170,
+      "end_distance": 0.030845064251029678,
+      "maximum_basis_condition": 31.11656016826674,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 23
+    },
+    {
+      "steps": 10,
+      "parameter": -0.000629398905198672,
+      "grid_index": 5613,
+      "end_distance": 0.0779591430928953,
+      "maximum_basis_condition": 6.218600126307291,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 24
+    },
+    {
+      "steps": 10,
+      "parameter": -0.0005332070893614858,
+      "grid_index": 6007,
+      "end_distance": 0.07892011902866625,
+      "maximum_basis_condition": 14.370582718748123,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 25
+    },
+    {
+      "steps": 11,
+      "parameter": 0.0012948242362251974,
+      "grid_index": 13495,
+      "end_distance": 0.07806848055610421,
+      "maximum_basis_condition": 56.00811976249781,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 26
+    },
+    {
+      "steps": 11,
+      "parameter": -0.0006836018219491904,
+      "grid_index": 5391,
+      "end_distance": 0.07862866269093752,
+      "maximum_basis_condition": 14.209657928699373,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 27
+    },
+    {
+      "steps": 11,
+      "parameter": -0.0011840268796784687,
+      "grid_index": 3342,
+      "end_distance": 0.07882558281847897,
+      "maximum_basis_condition": 14.409609265956323,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 28
+    },
+    {
+      "steps": 11,
+      "parameter": 0.0003503381793501692,
+      "grid_index": 9626,
+      "end_distance": 0.10603540165885326,
+      "maximum_basis_condition": 8.943374130695608,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 29
+    },
+    {
+      "steps": 11,
+      "parameter": 0.00045564675073543837,
+      "grid_index": 10058,
+      "end_distance": 0.14546883377778502,
+      "maximum_basis_condition": 13.952188712364295,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 30
+    },
+    {
+      "steps": 12,
+      "parameter": -0.0016037598894330877,
+      "grid_index": 1622,
+      "end_distance": 0.04297723528623365,
+      "maximum_basis_condition": 12.054398386854507,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 31
+    },
+    {
+      "steps": 12,
+      "parameter": -0.0015507225054343188,
+      "grid_index": 1840,
+      "end_distance": 0.048690072378148846,
+      "maximum_basis_condition": 15.498841824321694,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 32
+    },
+    {
+      "steps": 12,
+      "parameter": -0.001296570647679031,
+      "grid_index": 2881,
+      "end_distance": 0.06211570458036083,
+      "maximum_basis_condition": 62.200358831735514,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 33
+    },
+    {
+      "steps": 12,
+      "parameter": -0.0011337159921902917,
+      "grid_index": 3548,
+      "end_distance": 0.06532982038801835,
+      "maximum_basis_condition": 11.032328244782278,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 34
+    },
+    {
+      "steps": 12,
+      "parameter": -0.001732963280461105,
+      "grid_index": 1093,
+      "end_distance": 0.07852484891379352,
+      "maximum_basis_condition": 21.35781138566086,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 35
+    },
+    {
+      "steps": 13,
+      "parameter": 0.0003784039780735958,
+      "grid_index": 9741,
+      "end_distance": 0.10083618120634762,
+      "maximum_basis_condition": 31.399101199801617,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 36
+    },
+    {
+      "steps": 13,
+      "parameter": -0.000990716045702208,
+      "grid_index": 4134,
+      "end_distance": 0.14094377351929432,
+      "maximum_basis_condition": 5.600460833705804,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 37
+    },
+    {
+      "steps": 13,
+      "parameter": 0.0013622232391136391,
+      "grid_index": 13771,
+      "end_distance": 0.14522990027551874,
+      "maximum_basis_condition": 42.74433442967143,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 38
+    },
+    {
+      "steps": 14,
+      "parameter": 0.0019422117269677548,
+      "grid_index": 16147,
+      "end_distance": 0.07181855495685265,
+      "maximum_basis_condition": 199.60782817578558,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 39
+    },
+    {
+      "steps": 14,
+      "parameter": 0.00041503637644249683,
+      "grid_index": 9891,
+      "end_distance": 0.10545097055033391,
+      "maximum_basis_condition": 11.401653995890122,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 40
+    },
+    {
+      "steps": 14,
+      "parameter": 0.001374999529012368,
+      "grid_index": 13823,
+      "end_distance": 0.10603719963972201,
+      "maximum_basis_condition": 44.870557368253245,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 41
+    },
+    {
+      "steps": 14,
+      "parameter": 0.001978514047484431,
+      "grid_index": 16295,
+      "end_distance": 0.10662590031489,
+      "maximum_basis_condition": 9.509174445244161,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 42
+    },
+    {
+      "steps": 15,
+      "parameter": -0.0014143031869598805,
+      "grid_index": 2399,
+      "end_distance": 0.05651124392609647,
+      "maximum_basis_condition": 9.21326706740115,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 43
+    },
+    {
+      "steps": 15,
+      "parameter": -3.635618875058927e-05,
+      "grid_index": 8043,
+      "end_distance": 0.07126241084226022,
+      "maximum_basis_condition": 16.84228491013141,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 44
+    },
+    {
+      "steps": 15,
+      "parameter": -0.0011511215081069384,
+      "grid_index": 3477,
+      "end_distance": 0.07170933025933061,
+      "maximum_basis_condition": 9.806025694591565,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 45
+    },
+    {
+      "steps": 15,
+      "parameter": 0.0002557666376531173,
+      "grid_index": 9239,
+      "end_distance": 0.07181854318932797,
+      "maximum_basis_condition": 52.127323319522496,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 46
+    },
+    {
+      "steps": 15,
+      "parameter": 0.0013925647118653778,
+      "grid_index": 13895,
+      "end_distance": 0.10606750036466357,
+      "maximum_basis_condition": 46.604494617723375,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 47
+    },
+    {
+      "steps": 16,
+      "parameter": -0.0013010284574729105,
+      "grid_index": 2862,
+      "end_distance": 0.07117209181397872,
+      "maximum_basis_condition": 23.033605254068643,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 48
+    },
+    {
+      "steps": 16,
+      "parameter": 0.001624853652205379,
+      "grid_index": 14847,
+      "end_distance": 0.1450779505517796,
+      "maximum_basis_condition": 48.22127501630164,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 49
+    },
+    {
+      "steps": 17,
+      "parameter": -0.001192626899372694,
+      "grid_index": 3307,
+      "end_distance": 0.026739909280291345,
+      "maximum_basis_condition": 115.42471576567628,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": true,
+          "minimum_sampled_margin": -43668708.48300597,
+          "radii": [
+            [
+              0.0012820513481184848,
+              0.0012888749088986998,
+              0.029802141302270903
+            ],
+            [
+              1e-09,
+              0.006353425045408025,
+              0.018964874922245935
+            ],
+            [
+              1e-09,
+              0.006247730835191,
+              0.005437947123045886
+            ],
+            [
+              1e-09,
+              0.0017340376378804782,
+              0.011459105054497938
+            ],
+            [
+              1e-09,
+              0.0018772074759928297,
+              0.0027877112473684157
+            ],
+            [
+              1e-09,
+              0.000681945838283837,
+              0.00323005851131831
+            ],
+            [
+              1e-09,
+              0.003085403408702591,
+              0.0009910912805006018
+            ],
+            [
+              1e-09,
+              0.0005854572702855883,
+              0.0004716329753554328
+            ],
+            [
+              1e-09,
+              0.0026509493060377317,
+              0.0004514457659567291
+            ],
+            [
+              1e-09,
+              0.0006616403107437164,
+              0.00016526745625350004
+            ],
+            [
+              1e-09,
+              6.331519872618064e-05,
+              0.00015293815211189082
+            ],
+            [
+              1e-09,
+              1.6147977622689775e-05,
+              4.5737900105220914e-05
+            ],
+            [
+              1e-09,
+              9.250352939258188e-06,
+              6.78289377897452e-06
+            ],
+            [
+              2.293453223259249e-08,
+              3.1756344104855077e-06,
+              2.5769095236224902e-05
+            ],
+            [
+              1.046088721862659e-06,
+              4.231005068692395e-06,
+              3.0857494864136423e-06
+            ],
+            [
+              5.709000025854707e-06,
+              1.1945000855015114e-06,
+              2.2009274196657514e-06
+            ],
+            [
+              0.0009469183491664678,
+              4.021579044871586e-06,
+              3.077906284698936e-06
+            ]
+          ],
+          "sampled_remainders": [
+            [
+              0.008732838304794585,
+              0.003126864203119626,
+              0.008875911086796993
+            ],
+            [
+              0.010479817340438263,
+              0.0018434564229193708,
+              0.006096210920503088
+            ],
+            [
+              0.04366873305544113,
+              0.0015978898352267002,
+              0.0016407521815205162
+            ],
+            [
+              0.019235413681503527,
+              0.0010119178270888048,
+              0.001095456262011017
+            ],
+            [
+              0.00030301313735721174,
+              0.0003600061345571117,
+              0.00020814902720082398
+            ],
+            [
+              8.126666522930243e-05,
+              1.716472677545869e-06,
+              0.00010376212735472385
+            ],
+            [
+              0.003966607557195826,
+              0.005005950561625027,
+              0.002527515742161578
+            ],
+            [
+              0.00022655447724677485,
+              8.24665737171439e-05,
+              6.839145970649428e-05
+            ],
+            [
+              0.0072766472736515726,
+              0.008874743116307886,
+              0.0011582853234360037
+            ],
+            [
+              2.064977338751072e-05,
+              2.1488989649327177e-05,
+              1.0163171533372044e-06
+            ],
+            [
+              1.5262851930173742e-05,
+              6.100491889047037e-06,
+              9.659303765845184e-07
+            ],
+            [
+              1.9368737044050298e-08,
+              2.3874812872910227e-08,
+              1.3664949552425767e-08
+            ],
+            [
+              1.0238578157496131e-07,
+              2.6806526089680948e-09,
+              7.390096386876151e-10
+            ],
+            [
+              3.1490424622456183e-09,
+              1.1557997641316615e-09,
+              9.915133810296545e-09
+            ],
+            [
+              2.0103141912142557e-08,
+              5.988178463653683e-11,
+              3.6729212771008867e-10
+            ],
+            [
+              5.98719157192876e-09,
+              4.3443492039191035e-09,
+              4.65491920698667e-10
+            ],
+            [
+              2.5407791664845084e-05,
+              2.1349648500133793e-05,
+              9.76160579011102e-06
+            ],
+            [
+              0.0001000589740756373,
+              4.2523892060362576e-05,
+              5.175733103556319e-05
+            ]
+          ],
+          "checks": [
+            {
+              "source": 0,
+              "target": 0,
+              "face_margin": 3.649814669471141,
+              "stable_margin": -2.085557824074939
+            },
+            {
+              "source": 0,
+              "target": 1,
+              "face_margin": -757292.6852342531,
+              "stable_margin": -0.16978278661953694
+            },
+            {
+              "source": 1,
+              "target": 2,
+              "face_margin": -43668708.48300597,
+              "stable_margin": -0.20172267114680986
+            },
+            {
+              "source": 2,
+              "target": 3,
+              "face_margin": -19235396.930334076,
+              "stable_margin": -0.035313508040780706
+            },
+            {
+              "source": 3,
+              "target": 4,
+              "face_margin": -303013.9837558521,
+              "stable_margin": 0.05337720956475023
+            },
+            {
+              "source": 4,
+              "target": 5,
+              "face_margin": -81263.40698631205,
+              "stable_margin": 0.07055853385346267
+            },
+            {
+              "source": 5,
+              "target": 6,
+              "face_margin": -3966598.3292694082,
+              "stable_margin": -1.389365947737157
+            },
+            {
+              "source": 6,
+              "target": 7,
+              "face_margin": -226554.49768543267,
+              "stable_margin": -0.02340281909972486
+            },
+            {
+              "source": 7,
+              "target": 8,
+              "face_margin": -7276625.534702599,
+              "stable_margin": -2.7106550283585755
+            },
+            {
+              "source": 8,
+              "target": 9,
+              "face_margin": -20650.533636448843,
+              "stable_margin": 0.07713255778401118
+            },
+            {
+              "source": 9,
+              "target": 10,
+              "face_margin": -15262.835116718381,
+              "stable_margin": 0.009206247333880202
+            },
+            {
+              "source": 10,
+              "target": 11,
+              "face_margin": -20.057849614858963,
+              "stable_margin": 0.09971338370643745
+            },
+            {
+              "source": 11,
+              "target": 12,
+              "face_margin": -91.06981172283939,
+              "stable_margin": 0.09973786830991538
+            },
+            {
+              "source": 12,
+              "target": 13,
+              "face_margin": -1.0165293553601435,
+              "stable_margin": 0.09963177243792898
+            },
+            {
+              "source": 13,
+              "target": 14,
+              "face_margin": 0.10102155056531137,
+              "stable_margin": 0.09997185142942022
+            },
+            {
+              "source": 14,
+              "target": 15,
+              "face_margin": 0.11899681177347943,
+              "stable_margin": 0.09657840313130905
+            },
+            {
+              "source": 15,
+              "target": 16,
+              "face_margin": 0.09316818109268876,
+              "stable_margin": -5.208710400050166
+            },
+            {
+              "source": 16,
+              "target": 0,
+              "face_margin": 0.0419571373907246,
+              "stable_margin": 0.06703511795758654
+            }
+          ]
+        },
+        {
+          "iteration": 1,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 50
+    },
+    {
+      "steps": 17,
+      "parameter": 0.0009117590893235295,
+      "grid_index": 11926,
+      "end_distance": 0.0718185436470023,
+      "maximum_basis_condition": 181.56875920210493,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 51
+    },
+    {
+      "steps": 17,
+      "parameter": 0.0009110381543548949,
+      "grid_index": 11923,
+      "end_distance": 0.07181855521333474,
+      "maximum_basis_condition": 194.45956923178431,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 52
+    },
+    {
+      "steps": 17,
+      "parameter": 0.0009182846297963272,
+      "grid_index": 11953,
+      "end_distance": 0.0718185552182965,
+      "maximum_basis_condition": 372.4011444447351,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 53
+    },
+    {
+      "steps": 17,
+      "parameter": -0.0011196254590010823,
+      "grid_index": 3606,
+      "end_distance": 0.1060346609149295,
+      "maximum_basis_condition": 19.559633531713164,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 54
+    },
+    {
+      "steps": 18,
+      "parameter": -9.400426355326758e-05,
+      "grid_index": 7806,
+      "end_distance": 0.14507800308717625,
+      "maximum_basis_condition": 341.91609284361465,
+      "history": [
+        {
+          "iteration": 0,
+          "linear_feasible": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ],
+      "sampled_passed": false,
+      "id": 55
+    }
+  ],
+  "seconds": 12.111984252929688,
+  "scope": "Linear programs and sampled nonlinear remainders only. No interval covering relation, invariant manifold, entropy or historical priority claim."
+}

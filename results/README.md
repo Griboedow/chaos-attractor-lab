@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`product-symbolic/` contains the [positive-entropy certificate for the four-wing Case 988](../docs/product-alphabet/manuscript.md#6-a-certified-positive-entropy-subsystem): 24 coverings of the fourth iterate, two interval implementations, exact complete-tree audits and all exploratory failures. It proves a compact invariant subsystem with entropy above 0.0254 per original iteration; attraction and equality with the numerical cloud remain open.
+
 `product-alphabet/` contains the [four-wing numerical candidate and multilevel companion](../docs/product-alphabet/manuscript.md): 1,753 scouts, all 175 flagged follow-ups, twelve long observations and dense portraits, five start/precision cohorts, 256 parameter neighbors, complete replay and a bounded spin/feedback literature review. Periodic windows, competing fixed points and precision-sensitive planar captures are retained. Historical uniqueness remains unresolved.
 
 `sinkhorn-screen/` records a [576-case overrelaxed Sinkhorn screen](../docs/sinkhorn-screen.md), all 40 flagged cases continued to 5,530,000 iterations, periodic captures, finite-growth survivors, precision controls and exact absorbing bounds. [Packet and reproduction](sinkhorn-screen/README.md).

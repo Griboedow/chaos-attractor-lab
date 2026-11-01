@@ -1,0 +1,27 @@
+{
+  "status": "incomplete",
+  "precision_digits": 80,
+  "mpmath_version": "1.3.0",
+  "input_sha256": "f76975581c2da3e92579f4caf2b3ee203386402d5b4bbf85737ed6c5dc71552d",
+  "sources": {
+    "certify_product_coverings.py": "af466fe20a858460a44f7538323643ceeb1d9d422b9686d917d46f54805b112f",
+    "product_binary_interval.py": "d37ed6b5f65d52d7f358dd4355202cffe94dedd792cd4c6aa728b5d9bd77c53c"
+  },
+  "checks": [
+    {
+      "edge": 0,
+      "source": 0,
+      "target": 0,
+      "kind": "volume",
+      "status": "incomplete",
+      "examined": 2000,
+      "leaves": 995,
+      "pending": 11,
+      "maximum_depth": 21,
+      "minimum_radius": "2.3780730386889338221168999533779204187126455524973615883806069735034880414640221",
+      "certificate_sha256": "3652c29f83a892b5e76c84f38d58a56dc03dfade45670b8b7ff519a23f80da1c"
+    }
+  ],
+  "seconds": 31.95989727973938,
+  "scope": "Outward covering relations for G=F^4 with disjoint N0,N1. No trapping region or attraction certificate. Symbolic consequences require a complete coverage and source audit. No historical priority claim."
+}
