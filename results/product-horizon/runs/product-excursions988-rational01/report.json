@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "singularities": [
+    {
+      "run": "product-singularity988-primary01",
+      "report_sha256": "dde9d8a3dbd18a4ac52bc212daf586ed643ef05475d740ed0839ae300ccd4ab1",
+      "contraction_upper": 4.4290170927941544e-48
+    },
+    {
+      "run": "product-singularity988-independent02",
+      "report_sha256": "7661706a0b0e78fd3c0a9539e64d45bc11eec5b8661528bc6e2becfbc9dc8c3b",
+      "contraction_upper": 2.907009055733342e-47
+    }
+  ],
+  "excursions": [
+    {
+      "run": "product-excursions988-primary01",
+      "report_sha256": "134cc48fd60978ad976662eaba6c8ff6fea03f46c7efb4bf215829e7a650afe6",
+      "cases": [
+        {
+          "block": 33,
+          "first_escape": 33,
+          "largest_margin": 0.46319556406957163,
+          "minimum_normalization_lower": 0.24682751577357304
+        },
+        {
+          "block": 27,
+          "first_escape": 33,
+          "largest_margin": 0.40401857714710454,
+          "minimum_normalization_lower": 0.3332496583031496
+        },
+        {
+          "block": 25,
+          "first_escape": 33,
+          "largest_margin": 0.18140270997304364,
+          "minimum_normalization_lower": 0.427421928524401
+        }
+      ]
+    },
+    {
+      "run": "product-excursions988-independent01",
+      "report_sha256": "4ea7b73158da471372ad5529fea3905126ee2595b6bb79826740414a4f628760",
+      "cases": [
+        {
+          "block": 33,
+          "first_escape": 33,
+          "largest_margin": 0.46319556406957163,
+          "minimum_normalization_lower": 0.24682751577357304
+        },
+        {
+          "block": 27,
+          "first_escape": 33,
+          "largest_margin": 0.40401857714710454,
+          "minimum_normalization_lower": 0.3332496583031496
+        },
+        {
+          "block": 25,
+          "first_escape": 33,
+          "largest_margin": 0.18140270997304364,
+          "minimum_normalization_lower": 0.427421928524401
+        }
+      ]
+    }
+  ],
+  "cross_engine_state_intersections": true,
+  "replays": [
+    {
+      "run": "product-excursions988-primary01",
+      "payloads": 3,
+      "exact": true
+    },
+    {
+      "run": "product-excursions988-independent01",
+      "payloads": 3,
+      "exact": true
+    }
+  ],
+  "scope": "Exact rational audit of supplied interval arithmetic and escape inequalities; six deterministic payload replays. Transcendental enclosures depend on mpmath interval arithmetic, checked through two formulas sharing that library. No long-orbit shadowing assertion."
+}

@@ -348,6 +348,20 @@ three-coordinate posterior. Irregular reflected reconstruction trajectories
 are therefore established prior art. Only the text and Figure 7 caption
 were reviewed; image retrieval failed, so no figure-level comparison is claimed.
 
+## Additional attention and normalization precedents
+
+The fixed-key softmax identity also requires comparison with recurrent
+self-attention. The expanded [product-alphabet review](product-alphabet/manuscript.md#7-prior-art-and-geometric-comparison)
+examines Poc-López and Aguilera (2024), Tomihari and Karakida (2025), and
+Gao, Yang and Chen (September 2026), alongside ORGaNICs divisive normalization
+and discrete leaky neural networks. These are established neighboring
+settings for nonstationary or chaotic dynamics. Fixed posterior sites,
+moving tokens, context memory and the placement of normalization must be
+distinguished at the equation level. The
+[review receipt](../records/product-attention-literature-20261101.json)
+states which equations and figures were inspected. No first neural-chaos
+claim or general nonlinear inequivalence follows from these differences.
+
 ## Remaining novelty question
 
 The [orientation extension for Case 988](product-alphabet/manuscript.md#61-a-reversed-return-and-an-equivalence-obstruction)

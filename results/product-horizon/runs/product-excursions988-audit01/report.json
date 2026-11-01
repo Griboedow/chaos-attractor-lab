@@ -1,0 +1,1388 @@
+{
+  "case": 988,
+  "horizon_protocol_sha256": "ebe576dc0d27b696088ba24ab63a53f4daff1ae9f8acaab9978a70f922b0d8ce",
+  "reference_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "reference_lower": [
+    -0.3549988421066652,
+    -0.29863366981458794,
+    -0.3648205305268576
+  ],
+  "reference_upper": [
+    0.2842339238298941,
+    0.3430703441496309,
+    0.35404106033719085
+  ],
+  "padding": 0.02,
+  "threshold_lower": [
+    -0.37499884210666523,
+    -0.31863366981458796,
+    -0.3848205305268576
+  ],
+  "threshold_upper": [
+    0.3042339238298941,
+    0.3630703441496309,
+    0.37404106033719087
+  ],
+  "observed": 100000000,
+  "exceedance_count": 56,
+  "fraction": 5.6e-07,
+  "group_gap": 128,
+  "groups": 56,
+  "uniform_stride": 50,
+  "rows": [
+    {
+      "block": 0,
+      "start": 0,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.2505739826658115,
+      "minimum_radius_at": 1021586,
+      "minimum_radius_state": [
+        -0.13838721186336866,
+        0.21747651349847985,
+        -0.0746440306109113
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": -1,
+      "maximum_excess_state": [
+        0.1867866233960559,
+        0.323816043887083,
+        0.18635306973492827
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 1,
+      "start": 2000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.3171380797529788,
+      "minimum_radius_at": 3652178,
+      "minimum_radius_state": [
+        -0.1368973295098208,
+        0.20621822784977129,
+        -0.06899729624872875
+      ],
+      "maximum_excess": 0.05291871513522528,
+      "maximum_excess_at": 3075164,
+      "maximum_excess_state": [
+        -0.1301929784445252,
+        -0.37155238494981324,
+        0.011274225296051259
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 2,
+      "start": 4000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.5688428583433439,
+      "minimum_radius_at": 5274852,
+      "minimum_radius_state": [
+        -0.13200016725366004,
+        0.2146441719664105,
+        -0.07030143542504319
+      ],
+      "maximum_excess": 0.17912487009298844,
+      "maximum_excess_at": 5274853,
+      "maximum_excess_state": [
+        0.48335879392288256,
+        -0.29982119418831676,
+        -0.05317383936926497
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 3,
+      "start": 6000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.449930523674352,
+      "minimum_radius_at": 7854401,
+      "minimum_radius_state": [
+        -0.1375545150715172,
+        -0.0701534820548716,
+        -0.06950975814525717
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 5999999,
+      "maximum_excess_state": [
+        0.2307309057303396,
+        0.2919064782086782,
+        -0.3164222855022446
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 4,
+      "start": 8000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.4075623672087991,
+      "minimum_radius_at": 9948556,
+      "minimum_radius_state": [
+        -0.1320835157034708,
+        0.21321301052643982,
+        -0.06453404584480105
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 7999999,
+      "maximum_excess_state": [
+        -0.19120195143542196,
+        -0.18842209420102374,
+        0.2899307609985464
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 5,
+      "start": 10000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.840567947132243,
+      "minimum_radius_at": 10490053,
+      "minimum_radius_state": [
+        -0.13237762788533158,
+        0.21536900040598994,
+        -0.07318735274672494
+      ],
+      "maximum_excess": 0.185983181288224,
+      "maximum_excess_at": 10302360,
+      "maximum_excess_state": [
+        -0.24485210686986525,
+        0.1147971496985562,
+        -0.5708037118150816
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 6,
+      "start": 12000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.464121608715582,
+      "minimum_radius_at": 13720054,
+      "minimum_radius_state": [
+        -0.134135033352111,
+        -0.07404260761950177,
+        -0.07287573667325387
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 11999999,
+      "maximum_excess_state": [
+        -0.11797146312453233,
+        0.2070999391548315,
+        0.22892804973763914
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 7,
+      "start": 14000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.8193167614862329,
+      "minimum_radius_at": 14195555,
+      "minimum_radius_state": [
+        -0.13847864451915265,
+        0.21887695122534978,
+        -0.07099791082877316
+      ],
+      "maximum_excess": 0.21097400306366598,
+      "maximum_excess_at": 14195556,
+      "maximum_excess_state": [
+        -0.5859728451703312,
+        0.33049612507357035,
+        -0.16658766228006236
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 8,
+      "start": 16000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.434900334637954,
+      "minimum_radius_at": 17162317,
+      "minimum_radius_state": [
+        -0.13305508709228153,
+        0.21526526016070824,
+        -0.07119476592823515
+      ],
+      "maximum_excess": 0.1696402404590972,
+      "maximum_excess_at": 16497835,
+      "maximum_excess_state": [
+        0.4738741642889913,
+        -0.32699694164011794,
+        -0.22865281438909033
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 9,
+      "start": 18000000,
+      "count": 2000000,
+      "exceedance_count": 3,
+      "minimum_radius": 0.8457621083966311,
+      "minimum_radius_at": 19789308,
+      "minimum_radius_state": [
+        -0.13875042419587186,
+        0.2150233204019103,
+        -0.06957621858307106
+      ],
+      "maximum_excess": 0.21624196323121858,
+      "maximum_excess_at": 19789309,
+      "maximum_excess_state": [
+        -0.5912408053378838,
+        -0.08223354050036555,
+        0.07391680794914152
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 10,
+      "start": 20000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 1.0822396173778297,
+      "minimum_radius_at": 20259002,
+      "minimum_radius_state": [
+        -0.13178999729394036,
+        0.21493247430119367,
+        -0.06622275406657385
+      ],
+      "maximum_excess": 0.01274231329748865,
+      "maximum_excess_at": 20503003,
+      "maximum_excess_state": [
+        -0.0950816738578952,
+        -0.3313759831120766,
+        0.06239929111129064
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 11,
+      "start": 22000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.0816361086178636,
+      "minimum_radius_at": 22302429,
+      "minimum_radius_state": [
+        -0.1342955580250653,
+        0.2164937819580287,
+        -0.07494069407833781
+      ],
+      "maximum_excess": 0.11673393504163843,
+      "maximum_excess_at": 22302430,
+      "maximum_excess_state": [
+        -0.05002478158615446,
+        0.08171848407687626,
+        -0.501554465568496
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 12,
+      "start": 24000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.8218063000402464,
+      "minimum_radius_at": 25287148,
+      "minimum_radius_state": [
+        -0.13189191889320118,
+        0.21508231941615563,
+        -0.07277045441430519
+      ],
+      "maximum_excess": 0.08005125876846492,
+      "maximum_excess_at": 25287149,
+      "maximum_excess_state": [
+        0.26735320297100973,
+        -0.08520190940456067,
+        -0.4648717892953225
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 13,
+      "start": 26000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.5222511650783207,
+      "minimum_radius_at": 26926931,
+      "minimum_radius_state": [
+        -0.1363950761342616,
+        0.21653766774958016,
+        -0.06868124980548596
+      ],
+      "maximum_excess": 0.17419316604030533,
+      "maximum_excess_at": 26926932,
+      "maximum_excess_state": [
+        -0.5491920081469706,
+        0.03428512450055167,
+        0.4742421088127873
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 14,
+      "start": 28000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.4557895598682697,
+      "minimum_radius_at": 29134992,
+      "minimum_radius_state": [
+        -0.1349794781002761,
+        0.04626214185552069,
+        -0.07110608119194892
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 27999999,
+      "maximum_excess_state": [
+        0.16191032787345894,
+        0.32544379781268495,
+        0.19728506353048691
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 15,
+      "start": 30000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.1633258128770028,
+      "minimum_radius_at": 31622405,
+      "minimum_radius_state": [
+        -0.13827227802689368,
+        0.2135892334330769,
+        -0.06682148869262261
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 29999999,
+      "maximum_excess_state": [
+        -0.12840028432384754,
+        -0.16695377014389357,
+        0.1701729717320175
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 16,
+      "start": 32000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.8363260532692373,
+      "minimum_radius_at": 32298139,
+      "minimum_radius_state": [
+        -0.13233845414877327,
+        0.21534463704773427,
+        -0.07314255020875604
+      ],
+      "maximum_excess": 0.12643429884540935,
+      "maximum_excess_at": 32298140,
+      "maximum_excess_state": [
+        0.20494735354404348,
+        -0.05329003571514126,
+        -0.511254829372267
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 17,
+      "start": 34000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.512615506365473,
+      "minimum_radius_at": 34546285,
+      "minimum_radius_state": [
+        -0.13681108266246217,
+        0.017922001651303754,
+        -0.06884951846460796
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 33999999,
+      "maximum_excess_state": [
+        -0.010185652016698854,
+        -0.013521884639830062,
+        0.030181722893917518
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 18,
+      "start": 36000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.9470604702984986,
+      "minimum_radius_at": 37756263,
+      "minimum_radius_state": [
+        -0.13935609060113657,
+        0.21848178605453328,
+        -0.07122266393835142
+      ],
+      "maximum_excess": 0.18066077361701827,
+      "maximum_excess_at": 37756264,
+      "maximum_excess_state": [
+        -0.5556596157236835,
+        0.2478869931026519,
+        -0.16867059801363726
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 19,
+      "start": 38000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.7464970286726715,
+      "minimum_radius_at": 39086953,
+      "minimum_radius_state": [
+        -0.1343133508774113,
+        0.2126329072418175,
+        -0.06846122843392577
+      ],
+      "maximum_excess": 0.07187033835532647,
+      "maximum_excess_at": 39086954,
+      "maximum_excess_state": [
+        -0.037444404409634126,
+        -0.39050400816991443,
+        0.31532707413720606
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 20,
+      "start": 40000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.4521751149164936,
+      "minimum_radius_at": 41943623,
+      "minimum_radius_state": [
+        -0.13480972424279303,
+        0.046443463100932836,
+        -0.07104316444152259
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 39999999,
+      "maximum_excess_state": [
+        -0.06200482739658708,
+        0.15762439554148544,
+        0.1138232369241935
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 21,
+      "start": 42000000,
+      "count": 2000000,
+      "exceedance_count": 3,
+      "minimum_radius": 0.6133523923297054,
+      "minimum_radius_at": 43090564,
+      "minimum_radius_state": [
+        -0.13349635522287287,
+        0.21579181806959447,
+        -0.07254396461448753
+      ],
+      "maximum_excess": 0.2569928549917735,
+      "maximum_excess_at": 43090565,
+      "maximum_excess_state": [
+        0.13802968381989744,
+        -0.07552540699116858,
+        -0.6418133855186311
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 22,
+      "start": 44000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.5485063916757976,
+      "minimum_radius_at": 45733462,
+      "minimum_radius_state": [
+        -0.1333001704432064,
+        0.21420334711851685,
+        -0.0690108482001619
+      ],
+      "maximum_excess": 0.08080076019424892,
+      "maximum_excess_at": 45733463,
+      "maximum_excess_state": [
+        0.21744089601787195,
+        -0.3994344300088369,
+        0.3430509415951777
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 23,
+      "start": 46000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.5048784904311023,
+      "minimum_radius_at": 47207978,
+      "minimum_radius_state": [
+        -0.13484911072737096,
+        -0.07098870443084049,
+        -0.06717241714669753
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 45999999,
+      "maximum_excess_state": [
+        -0.28023044940017583,
+        0.09333438597479848,
+        0.24351137615524088
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 24,
+      "start": 48000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.4723290609842594,
+      "minimum_radius_at": 48061488,
+      "minimum_radius_state": [
+        -0.1311396089082306,
+        -0.07277934129067243,
+        -0.07130146591089215
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 47999999,
+      "maximum_excess_state": [
+        0.15151514952895917,
+        0.05407856791217891,
+        -0.08185998443892284
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 25,
+      "start": 50000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.427421921839011,
+      "minimum_radius_at": 50205697,
+      "minimum_radius_state": [
+        -0.13340244333053494,
+        0.21546889972108468,
+        -0.07148292772556519
+      ],
+      "maximum_excess": 0.1814025599175545,
+      "maximum_excess_at": 50205698,
+      "maximum_excess_state": [
+        0.292357037003944,
+        -0.27143577609154534,
+        -0.5662230904444121
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 26,
+      "start": 52000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.47353099540685,
+      "minimum_radius_at": 52632217,
+      "minimum_radius_state": [
+        -0.1357038153388648,
+        0.21643659420404393,
+        -0.06854366803783818
+      ],
+      "maximum_excess": 0.21874658418302617,
+      "maximum_excess_at": 52632218,
+      "maximum_excess_state": [
+        -0.41474882568659077,
+        0.00027670868830755035,
+        0.592787644520217
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 27,
+      "start": 54000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.33324970728524056,
+      "minimum_radius_at": 54728358,
+      "minimum_radius_state": [
+        -0.13610279509416756,
+        0.21766217988849867,
+        -0.07053165198988187
+      ],
+      "maximum_excess": 0.40401854162175144,
+      "maximum_excess_at": 54728359,
+      "maximum_excess_state": [
+        -0.7790173837284167,
+        0.3946444761989921,
+        -0.20377660166285122
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 28,
+      "start": 56000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.3940507556831718,
+      "minimum_radius_at": 57792167,
+      "minimum_radius_state": [
+        -0.1281056422848174,
+        0.21240358417489602,
+        -0.06736639054205351
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 55999999,
+      "maximum_excess_state": [
+        -0.2777609762669725,
+        0.10737146103980222,
+        0.18896667836129455
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 29,
+      "start": 58000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.2794630039748633,
+      "minimum_radius_at": 58303735,
+      "minimum_radius_state": [
+        -0.1397861693385603,
+        0.21166144887541816,
+        -0.07210717980585257
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 57999999,
+      "maximum_excess_state": [
+        0.10945673989303717,
+        0.26145097321854505,
+        -0.13142241072338556
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 30,
+      "start": 60000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 1.0005286907212263,
+      "minimum_radius_at": 61460608,
+      "minimum_radius_state": [
+        -0.13663077029718318,
+        0.21767764332787365,
+        -0.07410561029049034
+      ],
+      "maximum_excess": 0.10594025199582702,
+      "maximum_excess_at": 61460609,
+      "maximum_excess_state": [
+        -0.2685567329265386,
+        0.17070056223853877,
+        -0.4907607825226846
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 31,
+      "start": 62000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 1.2826050528829667,
+      "minimum_radius_at": 62792955,
+      "minimum_radius_state": [
+        -0.1415834185687306,
+        0.21411531892677405,
+        -0.0699224689044774
+      ],
+      "maximum_excess": 0.05418832839410026,
+      "maximum_excess_at": 62792956,
+      "maximum_excess_state": [
+        -0.4291871705007655,
+        -0.015217286241952316,
+        -0.011896580641503073
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 32,
+      "start": 64000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.6307338443422941,
+      "minimum_radius_at": 64937934,
+      "minimum_radius_state": [
+        -0.13523950751385228,
+        0.2139595487102875,
+        -0.06843494174256148
+      ],
+      "maximum_excess": 0.04546974803246595,
+      "maximum_excess_at": 64937935,
+      "maximum_excess_state": [
+        -0.21222868480057314,
+        -0.3465228571088271,
+        0.4195108083696568
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 33,
+      "start": 66000000,
+      "count": 2000000,
+      "exceedance_count": 3,
+      "minimum_radius": 0.24682742833416463,
+      "minimum_radius_at": 67367110,
+      "minimum_radius_state": [
+        -0.13572916885798483,
+        0.21743620402181246,
+        -0.0702359357200778
+      ],
+      "maximum_excess": 0.46319560920414804,
+      "maximum_excess_at": 67367111,
+      "maximum_excess_state": [
+        -0.8381944513108133,
+        0.3939831620264587,
+        -0.0314510438857138
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 34,
+      "start": 68000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.1094604193713136,
+      "minimum_radius_at": 69692630,
+      "minimum_radius_state": [
+        -0.1400622190719546,
+        0.2189139494188439,
+        -0.07178876279710544
+      ],
+      "maximum_excess": 0.10057724006214191,
+      "maximum_excess_at": 69692631,
+      "maximum_excess_state": [
+        -0.47557608216880715,
+        0.24006474498950828,
+        -0.19061621290947142
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 35,
+      "start": 70000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 1.3751110376703308,
+      "minimum_radius_at": 71796357,
+      "minimum_radius_state": [
+        -0.13330970002696763,
+        -0.05458991992510498,
+        -0.0692812522968852
+      ],
+      "maximum_excess": 0.039029279620526935,
+      "maximum_excess_at": 71796358,
+      "maximum_excess_state": [
+        -0.011482842188949148,
+        -0.3576629494351149,
+        0.02319162928339978
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 36,
+      "start": 72000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.4172612654813785,
+      "minimum_radius_at": 73029150,
+      "minimum_radius_state": [
+        -0.13530800612942306,
+        0.20470454122550114,
+        -0.06779353180578973
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 71999999,
+      "maximum_excess_state": [
+        -0.11430096696251513,
+        0.20368666371288768,
+        0.22004337620851644
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 37,
+      "start": 74000000,
+      "count": 2000000,
+      "exceedance_count": 3,
+      "minimum_radius": 1.1025142732880449,
+      "minimum_radius_at": 75070854,
+      "minimum_radius_state": [
+        -0.13931507472178906,
+        0.21214496719726145,
+        -0.0700150880619882
+      ],
+      "maximum_excess": 0.05634969298128267,
+      "maximum_excess_at": 75070855,
+      "maximum_excess_state": [
+        -0.4313485350879479,
+        -0.17108545234621633,
+        -0.012127100502828562
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 38,
+      "start": 76000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.2945437866966099,
+      "minimum_radius_at": 76243366,
+      "minimum_radius_state": [
+        -0.12990771014931568,
+        0.21190142548403468,
+        -0.07336562962646143
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 75999999,
+      "maximum_excess_state": [
+        -0.11140893788084483,
+        -0.09764590567740183,
+        -0.1711519181259228
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 39,
+      "start": 78000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.1897911739690619,
+      "minimum_radius_at": 78438539,
+      "minimum_radius_state": [
+        -0.13915881837208297,
+        0.21130553669101,
+        -0.0715782695076913
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 77999999,
+      "maximum_excess_state": [
+        0.17311234802531283,
+        0.23735431035835386,
+        -0.16997967550351945
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 40,
+      "start": 80000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.1377211461632606,
+      "minimum_radius_at": 80692314,
+      "minimum_radius_state": [
+        -0.13793644494104768,
+        0.21161080513152797,
+        -0.06775369842008117
+      ],
+      "maximum_excess": 0.015989716528715503,
+      "maximum_excess_at": 80806177,
+      "maximum_excess_state": [
+        -0.1320783228081033,
+        -0.33462338634330346,
+        0.06869487368519672
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 41,
+      "start": 82000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.4434273960210087,
+      "minimum_radius_at": 82765924,
+      "minimum_radius_state": [
+        -0.13212159400717505,
+        -0.07302893461614213,
+        -0.07185693271012183
+      ],
+      "maximum_excess": 0.0016440990084415352,
+      "maximum_excess_at": 82765925,
+      "maximum_excess_state": [
+        0.027761720466063844,
+        -0.3202777688230295,
+        -0.12099231523537687
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 42,
+      "start": 84000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.8177609836487618,
+      "minimum_radius_at": 85975472,
+      "minimum_radius_state": [
+        -0.1318070909241426,
+        0.2150306023732947,
+        -0.07268134732237441
+      ],
+      "maximum_excess": 0.06879215581816855,
+      "maximum_excess_at": 85975473,
+      "maximum_excess_state": [
+        0.28030660698613447,
+        -0.09211871464662957,
+        -0.45361268634502616
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 43,
+      "start": 86000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.460547061880784,
+      "minimum_radius_at": 86026751,
+      "minimum_radius_state": [
+        -0.13336135252719195,
+        0.038534050839718836,
+        -0.06938584078520316
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 85999999,
+      "maximum_excess_state": [
+        -0.11242027525494047,
+        -0.09921732467911915,
+        -0.1757711251147539
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 44,
+      "start": 88000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.1659525445286352,
+      "minimum_radius_at": 89190183,
+      "minimum_radius_state": [
+        -0.13736339730603622,
+        0.21127045760997087,
+        -0.06730233792831763
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 87999999,
+      "maximum_excess_state": [
+        -0.06179370469914258,
+        0.10905854798255651,
+        0.10328309590669649
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 45,
+      "start": 90000000,
+      "count": 2000000,
+      "exceedance_count": 3,
+      "minimum_radius": 0.6163848787458481,
+      "minimum_radius_at": 91488049,
+      "minimum_radius_state": [
+        -0.13758941845039557,
+        0.2177536735195985,
+        -0.07093189589944437
+      ],
+      "maximum_excess": 0.3148089599262309,
+      "maximum_excess_at": 91488050,
+      "maximum_excess_state": [
+        -0.6898078020328962,
+        0.25518443681250735,
+        -0.2184270654500878
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 46,
+      "start": 92000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.3513983989041527,
+      "minimum_radius_at": 92829185,
+      "minimum_radius_state": [
+        -0.137113619002991,
+        -0.22990427652179557,
+        -0.06821013807499395
+      ],
+      "maximum_excess": 0.09708546899240422,
+      "maximum_excess_at": 92829186,
+      "maximum_excess_state": [
+        -0.19551170131526258,
+        -0.4157191388069922,
+        0.09213163859455567
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 47,
+      "start": 94000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 1.2038850310052298,
+      "minimum_radius_at": 94461618,
+      "minimum_radius_state": [
+        -0.13345433959870007,
+        0.21462414045024003,
+        -0.06504316409217392
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 93999999,
+      "maximum_excess_state": [
+        0.1817022582516492,
+        0.24559724959463347,
+        0.13288917021215596
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 48,
+      "start": 96000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 1.1288899540575479,
+      "minimum_radius_at": 96823899,
+      "minimum_radius_state": [
+        -0.13060299554854493,
+        0.21215035353877032,
+        -0.07270028837075393
+      ],
+      "maximum_excess": 0.05417519072019472,
+      "maximum_excess_at": 97038010,
+      "maximum_excess_state": [
+        -0.09527742855992043,
+        -0.3728088605347827,
+        -0.11904120853792313
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 49,
+      "start": 98000000,
+      "count": 2000000,
+      "exceedance_count": 2,
+      "minimum_radius": 0.5708750237585567,
+      "minimum_radius_at": 99677904,
+      "minimum_radius_state": [
+        -0.13198985102870905,
+        0.2146357158750134,
+        -0.07027842192422473
+      ],
+      "maximum_excess": 0.17861140321987956,
+      "maximum_excess_at": 99677905,
+      "maximum_excess_state": [
+        0.4828453270497737,
+        -0.29931397847223634,
+        -0.046309338470624205
+      ],
+      "checkpoint_exact": true
+    }
+  ],
+  "minimum_segments": [
+    {
+      "block": 0,
+      "start": 1021554,
+      "minimum_offset": 32,
+      "source": "block-000-minimum.npz"
+    },
+    {
+      "block": 1,
+      "start": 3652146,
+      "minimum_offset": 32,
+      "source": "block-001-minimum.npz"
+    },
+    {
+      "block": 2,
+      "start": 5274820,
+      "minimum_offset": 32,
+      "source": "block-002-minimum.npz"
+    },
+    {
+      "block": 3,
+      "start": 7854369,
+      "minimum_offset": 32,
+      "source": "block-003-minimum.npz"
+    },
+    {
+      "block": 4,
+      "start": 9948524,
+      "minimum_offset": 32,
+      "source": "block-004-minimum.npz"
+    },
+    {
+      "block": 5,
+      "start": 10490021,
+      "minimum_offset": 32,
+      "source": "block-005-minimum.npz"
+    },
+    {
+      "block": 6,
+      "start": 13720022,
+      "minimum_offset": 32,
+      "source": "block-006-minimum.npz"
+    },
+    {
+      "block": 7,
+      "start": 14195523,
+      "minimum_offset": 32,
+      "source": "block-007-minimum.npz"
+    },
+    {
+      "block": 8,
+      "start": 17162285,
+      "minimum_offset": 32,
+      "source": "block-008-minimum.npz"
+    },
+    {
+      "block": 9,
+      "start": 19789276,
+      "minimum_offset": 32,
+      "source": "block-009-minimum.npz"
+    },
+    {
+      "block": 10,
+      "start": 20258970,
+      "minimum_offset": 32,
+      "source": "block-010-minimum.npz"
+    },
+    {
+      "block": 11,
+      "start": 22302397,
+      "minimum_offset": 32,
+      "source": "block-011-minimum.npz"
+    },
+    {
+      "block": 12,
+      "start": 25287116,
+      "minimum_offset": 32,
+      "source": "block-012-minimum.npz"
+    },
+    {
+      "block": 13,
+      "start": 26926899,
+      "minimum_offset": 32,
+      "source": "block-013-minimum.npz"
+    },
+    {
+      "block": 14,
+      "start": 29134960,
+      "minimum_offset": 32,
+      "source": "block-014-minimum.npz"
+    },
+    {
+      "block": 15,
+      "start": 31622373,
+      "minimum_offset": 32,
+      "source": "block-015-minimum.npz"
+    },
+    {
+      "block": 16,
+      "start": 32298107,
+      "minimum_offset": 32,
+      "source": "block-016-minimum.npz"
+    },
+    {
+      "block": 17,
+      "start": 34546253,
+      "minimum_offset": 32,
+      "source": "block-017-minimum.npz"
+    },
+    {
+      "block": 18,
+      "start": 37756231,
+      "minimum_offset": 32,
+      "source": "block-018-minimum.npz"
+    },
+    {
+      "block": 19,
+      "start": 39086921,
+      "minimum_offset": 32,
+      "source": "block-019-minimum.npz"
+    },
+    {
+      "block": 20,
+      "start": 41943591,
+      "minimum_offset": 32,
+      "source": "block-020-minimum.npz"
+    },
+    {
+      "block": 21,
+      "start": 43090532,
+      "minimum_offset": 32,
+      "source": "block-021-minimum.npz"
+    },
+    {
+      "block": 22,
+      "start": 45733430,
+      "minimum_offset": 32,
+      "source": "block-022-minimum.npz"
+    },
+    {
+      "block": 23,
+      "start": 47207946,
+      "minimum_offset": 32,
+      "source": "block-023-minimum.npz"
+    },
+    {
+      "block": 24,
+      "start": 48061456,
+      "minimum_offset": 32,
+      "source": "block-024-minimum.npz"
+    },
+    {
+      "block": 25,
+      "start": 50205665,
+      "minimum_offset": 32,
+      "source": "block-025-minimum.npz"
+    },
+    {
+      "block": 26,
+      "start": 52632185,
+      "minimum_offset": 32,
+      "source": "block-026-minimum.npz"
+    },
+    {
+      "block": 27,
+      "start": 54728326,
+      "minimum_offset": 32,
+      "source": "block-027-minimum.npz"
+    },
+    {
+      "block": 28,
+      "start": 57792135,
+      "minimum_offset": 32,
+      "source": "block-028-minimum.npz"
+    },
+    {
+      "block": 29,
+      "start": 58303703,
+      "minimum_offset": 32,
+      "source": "block-029-minimum.npz"
+    },
+    {
+      "block": 30,
+      "start": 61460576,
+      "minimum_offset": 32,
+      "source": "block-030-minimum.npz"
+    },
+    {
+      "block": 31,
+      "start": 62792923,
+      "minimum_offset": 32,
+      "source": "block-031-minimum.npz"
+    },
+    {
+      "block": 32,
+      "start": 64937902,
+      "minimum_offset": 32,
+      "source": "block-032-minimum.npz"
+    },
+    {
+      "block": 33,
+      "start": 67367078,
+      "minimum_offset": 32,
+      "source": "block-033-minimum.npz"
+    },
+    {
+      "block": 34,
+      "start": 69692598,
+      "minimum_offset": 32,
+      "source": "block-034-minimum.npz"
+    },
+    {
+      "block": 35,
+      "start": 71796325,
+      "minimum_offset": 32,
+      "source": "block-035-minimum.npz"
+    },
+    {
+      "block": 36,
+      "start": 73029118,
+      "minimum_offset": 32,
+      "source": "block-036-minimum.npz"
+    },
+    {
+      "block": 37,
+      "start": 75070822,
+      "minimum_offset": 32,
+      "source": "block-037-minimum.npz"
+    },
+    {
+      "block": 38,
+      "start": 76243334,
+      "minimum_offset": 32,
+      "source": "block-038-minimum.npz"
+    },
+    {
+      "block": 39,
+      "start": 78438507,
+      "minimum_offset": 32,
+      "source": "block-039-minimum.npz"
+    },
+    {
+      "block": 40,
+      "start": 80692282,
+      "minimum_offset": 32,
+      "source": "block-040-minimum.npz"
+    },
+    {
+      "block": 41,
+      "start": 82765892,
+      "minimum_offset": 32,
+      "source": "block-041-minimum.npz"
+    },
+    {
+      "block": 42,
+      "start": 85975440,
+      "minimum_offset": 32,
+      "source": "block-042-minimum.npz"
+    },
+    {
+      "block": 43,
+      "start": 86026719,
+      "minimum_offset": 32,
+      "source": "block-043-minimum.npz"
+    },
+    {
+      "block": 44,
+      "start": 89190151,
+      "minimum_offset": 32,
+      "source": "block-044-minimum.npz"
+    },
+    {
+      "block": 45,
+      "start": 91488017,
+      "minimum_offset": 32,
+      "source": "block-045-minimum.npz"
+    },
+    {
+      "block": 46,
+      "start": 92829153,
+      "minimum_offset": 32,
+      "source": "block-046-minimum.npz"
+    },
+    {
+      "block": 47,
+      "start": 94461586,
+      "minimum_offset": 32,
+      "source": "block-047-minimum.npz"
+    },
+    {
+      "block": 48,
+      "start": 96823867,
+      "minimum_offset": 32,
+      "source": "block-048-minimum.npz"
+    },
+    {
+      "block": 49,
+      "start": 99677872,
+      "minimum_offset": 32,
+      "source": "block-049-minimum.npz"
+    }
+  ],
+  "seconds": 190.77799105644226,
+  "scope": "Exploratory threshold selected after inspecting extended-run bounds. Every block endpoint and normalization minimum replay exactly. Excursion counts are finite-orbit observations, not probabilities, a crisis classification or an asymptotic invariant-set result."
+}

@@ -150,11 +150,13 @@ Native three-state iterates; fixed data, rigid camera and equal spatial units wi
 
 Native three-state iterates; rigid orthogonal camera and equal spatial units within each panel. Panel scales and density saturation differ.
 
-**Numerical spatial candidates from quantized-coordinate posteriors.** A complete 1,753-case survey yields four folded wings in the binary Case 988 and layered arches in the four-level Case 489. Both retain positive leading growth over five million iterations and at 70/100 digits. All 33 tested starts remain irregular in Case 988; Case 489 has twenty competing fixed outcomes. Nearby parameter sets include periodic windows. Spin responses, reflection algorithms and feedback chaos are known; asymptotic chaotic attraction and historical uniqueness remain unresolved.
+**Numerical spatial candidates from quantized-coordinate posteriors.** A complete 1,753-case survey yields four folded wings in the binary Case 988 and layered arches in the four-level Case 489. Both retain positive leading growth over 100 million binary64 iterations and in separate 70/100-digit controls. All 33 tested starts remain irregular in Case 988; Case 489 has twenty competing fixed outcomes. Nearby parameter sets include periodic windows. Spin responses, reflection algorithms and feedback chaos are known; asymptotic chaotic attraction and historical uniqueness remain unresolved.
+
+The portrait shows the frequently visited core. The longer Case 988 record contains 56 rare exits beyond its original coordinate box enlarged by 0.02. Three short escapes are interval-certified; the [full-range diagnostic and evidence](docs/product-alphabet/manuscript.md#41-a-hundred-million-step-horizon-and-rare-excursions) explain why the pictured envelope is not a trapping region.
 
 **Certified dynamics for Case 988:** two interval formulas establish a compact invariant subsystem with entropy above **0.0254 per iteration** and a **least-period-92 orbit with reversed orientation**. The return excludes neighborhood topological conjugacy to standard three-dimensional Henon maps and smooth Euclidean flow return maps. Attraction of the subsystem, equality with the cloud and intrinsic conjugacy remain open.
 
-[Article, approach trajectories and prior art](docs/product-alphabet/manuscript.md) · [Numerical campaign](results/product-alphabet/README.md) · [Entropy certificate](results/product-symbolic/README.md) · [Orientation and equivalence certificate](results/product-orientation/README.md)
+[Article, approach trajectories and prior art](docs/product-alphabet/manuscript.md) · [Numerical campaign](results/product-alphabet/README.md) · [Entropy certificate](results/product-symbolic/README.md) · [Orientation and equivalence certificate](results/product-orientation/README.md) · [Long horizon and certified excursions](results/product-horizon/README.md)
 
 ### Acceleration memory in a scalar iteration
 

@@ -1,0 +1,59 @@
+{
+  "status": "not_closed",
+  "reason": "Enclosure leaves domain",
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz",
+  "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "arguments": {
+    "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz",
+    "out": "D:\\Codex\\chaos-attractor-search-20261031\\product-nonuniform988-proposal03",
+    "step": 0.01,
+    "alpha": 1.0,
+    "halfwidth": 1.0,
+    "curvature": 2.0,
+    "slack": 1e-08,
+    "budget": 15000000,
+    "max_cells": 100000000,
+    "generations": 100
+  },
+  "shape": [
+    400,
+    383,
+    428
+  ],
+  "initial_occupied": 117461,
+  "final_occupied": 21766205,
+  "failing_key": 31067873,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 117461,
+      "processed": 117461,
+      "added": 2826256,
+      "status": 0,
+      "minimum_sampled_radius": 1.2440466505090668,
+      "maximum_sampled_remainder": 0.0013265995943536617,
+      "seconds": 10.015787363052368
+    },
+    {
+      "generation": 1,
+      "sources": 2826256,
+      "processed": 2826256,
+      "added": 8000629,
+      "status": 0,
+      "minimum_sampled_radius": 0.5913656415978003,
+      "maximum_sampled_remainder": 0.0013578371930557396,
+      "seconds": 105.51328992843628
+    },
+    {
+      "generation": 2,
+      "sources": 8000629,
+      "processed": 2760178,
+      "added": 10821859,
+      "status": 2,
+      "minimum_sampled_radius": 0.06665722009718372,
+      "maximum_sampled_remainder": 0.045816544900462296,
+      "seconds": 198.53241634368896
+    }
+  ],
+  "scope": "Proposal only: sampled corner residuals are not rigorous bounds. No trapping, attraction, chaos or novelty certificate."
+}

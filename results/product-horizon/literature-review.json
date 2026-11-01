@@ -1,0 +1,106 @@
+{
+  "review_date": "2026-11-01",
+  "scope": "Targeted additional primary-source review; not an exhaustive novelty search or nonlinear conjugacy classification.",
+  "sources": [
+    {
+      "authors": "Poc-Lopez and Aguilera",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2406.07247v1",
+      "reviewed": "Abstract; Sections 2-4, especially equations 13-16 and Section 4 classification method.",
+      "figures_viewed": [
+        3,
+        4
+      ],
+      "finding": "History-dependent attention and positional drive; planar mean-field projections, not an equation-level match to the fixed-site recurrence."
+    },
+    {
+      "authors": "Gao, Yang and Chen",
+      "year": 2026,
+      "version": "arXiv:2609.28448v1, submitted 2026-09-23",
+      "url": "https://arxiv.org/html/2609.28448v1",
+      "reviewed": "Abstract, Sections I-II and III.8; equations 4-8 and hard-routing discussion.",
+      "figures_viewed": [
+        1,
+        3,
+        13
+      ],
+      "finding": "Moving-token normalized self-attention with repulsive values. Direct precedent for softmax/norm feedback chaos; no full recurrence match established."
+    },
+    {
+      "authors": "Tomihari and Karakida",
+      "year": 2025,
+      "version": "arXiv:2505.19458v3",
+      "url": "https://arxiv.org/html/2505.19458v3",
+      "reviewed": "Abstract and Sections 3-5.1; equations 5-9.",
+      "figures_viewed": [],
+      "finding": "Normalized iterative self-attention and Jacobian analysis are established."
+    },
+    {
+      "authors": "Morone, Rawat, Heeger and Martiniani",
+      "year": 2025,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12139785/",
+      "journal_record": "https://pubmed.ncbi.nlm.nih.gov/42490376/",
+      "journal_doi": "10.1073/pnas.2601841123",
+      "journal_date": "2026-07-23",
+      "reviewed": "Preprint abstract, Section II equations 1-3, and journal bibliographic record; journal full text not reviewed.",
+      "figures_viewed": [],
+      "finding": "Continuous principal/inhibitory dynamics implementing divisive normalization; distinct displayed architecture."
+    },
+    {
+      "authors": "Liz and Ruiz-Herrera",
+      "year": 2014,
+      "url": "https://www.dma.uvigo.es/~eliz/pdf/nonlinearity.pdf",
+      "doi": "10.1088/0951-7715/27/2/289",
+      "reviewed": "Abstract and Section 1, especially equation 1.1 on printed page 290.",
+      "figures_viewed": [],
+      "finding": "Discrete leaky weighted scalar responses with delays; prior chaos results, no radial-feedback identity established."
+    },
+    {
+      "authors": "Grebogi, Ott, Romeiras and Yorke",
+      "year": 1987,
+      "title": "Critical exponents for crisis-induced intermittency",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.36.5365",
+      "doi": "10.1103/PhysRevA.36.5365",
+      "reviewed": "Publisher abstract only; no full equations or figures inspected.",
+      "figures_viewed": [],
+      "finding": "Rare departures from a former attractor domain after widening crises are established. The present finite excursions do not identify a crisis or its critical scaling."
+    }
+  ],
+  "visual_review": {
+    "status": "all_five_screenshots_viewed",
+    "screenshots": [
+      {
+        "source": "https://arxiv.org/html/2406.07247v1",
+        "figure": 3,
+        "screenshot": "poc-lopez-2024-figure-3.png",
+        "sha256": "002321db75bc40ffdbe22eb9fff9a0418457f14eb544aef706609ffaef3b91dd"
+      },
+      {
+        "source": "https://arxiv.org/html/2406.07247v1",
+        "figure": 4,
+        "screenshot": "poc-lopez-2024-figure-4.png",
+        "sha256": "98ff1b43bdeb53a95452ab77bf5d42888ac78d887986c0ba7a50c5d277d37e94"
+      },
+      {
+        "source": "https://arxiv.org/html/2609.28448v1",
+        "figure": 1,
+        "screenshot": "gao-2026-figure-1.png",
+        "sha256": "3c2a53a670fc7883f95d508c7a22704bb6e77dcbc8daf946cacb96f11b2fbcb9"
+      },
+      {
+        "source": "https://arxiv.org/html/2609.28448v1",
+        "figure": 3,
+        "screenshot": "gao-2026-figure-3.png",
+        "sha256": "696fec9732914be88bb6be7841e0fc3e464bde99c367e64098ed13039af12389"
+      },
+      {
+        "source": "https://arxiv.org/html/2609.28448v1",
+        "figure": 13,
+        "screenshot": "gao-2026-figure-13.png",
+        "sha256": "fb08a58e38c4efbab31e77c99d9c06c3f61f0c829e37fbb1de7fb93ce1ba5e19"
+      }
+    ],
+    "storage": "External review screenshots only; third-party figures and captions are not redistributed in this repository."
+  },
+  "limitations": "Different displayed state spaces and formulas do not exclude an invariant restriction, nonlinear coordinate change or alternative embedding. The period-92 obstruction retains only its stated ambient-neighborhood scope."
+}

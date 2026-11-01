@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "packet_manifest_sha256": "f64c72b6c2ee87ace688af590819e515b905a4b602fab7db8f6b9e3805e2511b",
+  "staged_blobs_exact": 278,
+  "checks": {
+    "manuscripts": "14 manuscripts, 554 local links",
+    "dates": "91 dated image occurrences across 92 documents",
+    "portraits": "35 families, 61 panels, 14 animations; receipts and animations passed",
+    "storage": "1746 omitted payloads, 1646 compact files; passed after staging the new files",
+    "raw_inventory": "269 research files from 15 runs, all original byte hashes verified",
+    "numerical": "Both hundred-million-step state histories replayed by fifty blocks; all state/frame chains and means verified",
+    "intervals": "Six exact short-trajectory payload replays; two Krawczyk formulas and rational audit",
+    "figure": "Histogram and all event projections recomputed exactly; two rendered versions visually inspected"
+  },
+  "scope": "Local validation of the staged scientific extension. Published browser review is recorded separately after push."
+}

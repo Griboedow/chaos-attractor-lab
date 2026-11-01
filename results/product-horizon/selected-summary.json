@@ -1,0 +1,55 @@
+{
+  "observed_steps_per_case": 100000000,
+  "cases": [
+    {
+      "id": 988,
+      "spectrum": [
+        0.25123736589578005,
+        -0.2805815188252913,
+        -0.4405155613784212
+      ],
+      "minimum_leading_block": 0.24965006610410864,
+      "maximum_leading_block": 0.25255900912075474,
+      "minimum_radius": 0.24682742833416463,
+      "detected_period": null,
+      "tail_variance_fractions": [
+        0.23788970417521554,
+        0.3280245575312563,
+        0.4340857382935282
+      ]
+    },
+    {
+      "id": 489,
+      "spectrum": [
+        0.33789527377130135,
+        -0.40688156381404483,
+        -0.7879661666062966
+      ],
+      "minimum_leading_block": 0.3364770039010838,
+      "maximum_leading_block": 0.33917818478524137,
+      "minimum_radius": 0.4165780909157708,
+      "detected_period": null,
+      "tail_variance_fractions": [
+        0.02074681687997703,
+        0.08593682765335248,
+        0.8933163554666705
+      ]
+    }
+  ],
+  "threshold_exceedances": {
+    "988": 56,
+    "489": 0
+  },
+  "case988_fraction": 5.6e-07,
+  "certified_escape_update": 33,
+  "initial_box_radii": [
+    "1e-80",
+    "2e-80"
+  ],
+  "normalization_zero": [
+    -0.13450686123118413,
+    0.21689038326807392,
+    -0.07024042185930943
+  ],
+  "scope": "Finite-time numerical evidence; exact short escapes and isolated singularity. No new trapping theorem, cloud identification, asymptotic chaos, crisis mechanism or historical uniqueness claim."
+}

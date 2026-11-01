@@ -1,0 +1,91 @@
+{
+  "inputs": [
+    {
+      "id": 988,
+      "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz",
+      "sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8"
+    },
+    {
+      "id": 489,
+      "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-489-states.npz",
+      "sha256": "8a760500fc88d486b9a677e4dfcd48b1eadc1f2142af2c34695ead509a0f1b28"
+    }
+  ],
+  "ids": [
+    988,
+    489
+  ],
+  "warm": 100000,
+  "observed": 100000000,
+  "block": 2000000,
+  "initial": [
+    [
+      0.317,
+      -0.211,
+      0.419
+    ],
+    [
+      0.317,
+      -0.211,
+      0.419
+    ]
+  ],
+  "params": [
+    [
+      0.9268088431125507,
+      0.020935697765931374
+    ],
+    [
+      0.9699380761357025,
+      0.035825792302107334
+    ]
+  ],
+  "levels": [
+    [
+      [
+        -1.1340147094801067,
+        0.8635723875835538,
+        0.0,
+        0.0
+      ],
+      [
+        -0.6955703573301434,
+        1.132117827422917,
+        0.0,
+        0.0
+      ],
+      [
+        -1.207180842384696,
+        1.066126063093543,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        -0.9244054118171333,
+        -0.23851865461717048,
+        0.44736810258279236,
+        1.1332548597827552
+      ],
+      [
+        -0.7305470814928413,
+        -0.6134534236664574,
+        -0.49635976584007346,
+        -0.37926610801368954
+      ],
+      [
+        -0.264372487179935,
+        -0.13884664718061684,
+        -0.013320807181298744,
+        0.11220503281801938
+      ]
+    ]
+  ],
+  "orders": [
+    2,
+    4
+  ],
+  "selection": "The two already published principal portraits, chosen before this extended-horizon calculation.",
+  "scope": "Fresh-start binary64 finite-time continuation. No proof of asymptotic attraction, transitivity or uniqueness."
+}

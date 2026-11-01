@@ -72,8 +72,8 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 8386300649,
-  "compact_bytes": 74044609,
+  "removed_bytes": 8636154742,
+  "compact_bytes": 74064194,
   "files": [
     {
       "path": "results/adabelief-quadratic/gallery.npz",
@@ -173283,6 +173283,563 @@
       "recovery": "recompute",
       "recompute_command": "See results/product-orientation/README.md for run product-trap988-proposal03. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-trap988-proposal03\\proposal.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-horizon01/case-489-tail.npz",
+      "bytes": 2282698,
+      "sha256": "ef2b7e73a94b8ed0b3e2bc9706ba9db771b54cc58a2b2955194c2c1391aa05b0",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/ef2b7e73a94b8ed0b3e2bc9706ba9db771b54cc58a2b2955194c2c1391aa05b0.npz",
+        "bytes": 965,
+        "sha256": "a001505dee9dd79fdc0e814f9e4aa668a62b9517a82a30af2831fd0a77eb0b55",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "final_frame"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "final_frame",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-horizon01. Original large payload case-489-tail.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-horizon01\\case-489-tail.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-horizon01/case-988-tail.npz",
+      "bytes": 2280822,
+      "sha256": "580daad732b81cb959c5d8f3189e330ff2fde1379aba2d27b33f1e985e05b2cb",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/580daad732b81cb959c5d8f3189e330ff2fde1379aba2d27b33f1e985e05b2cb.npz",
+        "bytes": 920,
+        "sha256": "320155479d2544602f9843c2b2fc2a067408415cb5e321969d05a967297a5ea5",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "final_frame"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "final_frame",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-horizon01. Original large payload case-988-tail.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-horizon01\\case-988-tail.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-excursions988-audit01/uniform-sample.npz",
+      "bytes": 45604477,
+      "sha256": "297cef890ddf8f42240fdcaeb5c12f551458e434b2fa47544bfc3dce968aa2a4",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/297cef890ddf8f42240fdcaeb5c12f551458e434b2fa47544bfc3dce968aa2a4.npz",
+        "bytes": 1049,
+        "sha256": "5e549bfb2232dadcf9f5de85da0ce163a9f970717c8f185929a1a8e3f5e68e54",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "stride",
+          "first_observed_update"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            2000000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48000000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "first_observed_update",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-excursions988-audit01. Original large payload uniform-sample.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-excursions988-audit01\\uniform-sample.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-excursions489-audit01/uniform-sample.npz",
+      "bytes": 45635801,
+      "sha256": "5bfb00fa481eda0ea96908c872da1a4677059cface73744f3dabb5f63740eceb",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/5bfb00fa481eda0ea96908c872da1a4677059cface73744f3dabb5f63740eceb.npz",
+        "bytes": 1093,
+        "sha256": "e3a49319f48e5ea1a02c94bd47096b6078819337434845556b196e2e9596973c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "stride",
+          "first_observed_update"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            2000000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48000000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "first_observed_update",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-excursions489-audit01. Original large payload uniform-sample.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-excursions489-audit01\\uniform-sample.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-nonuniform988-proposal02/proposal.npz",
+      "bytes": 5139797,
+      "sha256": "2dd4bf94f938987fd4b865b03305720e933f061b68744f088f03b7c71db3f505",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/2dd4bf94f938987fd4b865b03305720e933f061b68744f088f03b7c71db3f505.npz",
+        "bytes": 4766,
+        "sha256": "92bfa7b95c356e1897ffa60f864657b34064ddf0405d8b1e80dbdfe19537b4b0",
+        "keys": [
+          "edges",
+          "shape",
+          "params",
+          "levels",
+          "order"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "edges",
+          "shape": [
+            3,
+            185
+          ],
+          "dtype": "float64",
+          "bytes": 4440,
+          "retained": true
+        },
+        {
+          "key": "shape",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "occupied",
+          "shape": [
+            2165587
+          ],
+          "dtype": "int64",
+          "bytes": 17324696,
+          "retained": false
+        },
+        {
+          "key": "pending",
+          "shape": [
+            1008991
+          ],
+          "dtype": "int64",
+          "bytes": 8071928,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-nonuniform988-proposal02. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-nonuniform988-proposal02\\proposal.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-nonuniform988-proposal03/proposal.npz",
+      "bytes": 47997322,
+      "sha256": "f68505ab6fdccfc718f1ea40af05be20f230637f5dd36e95d24986a2255275ae",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/f68505ab6fdccfc718f1ea40af05be20f230637f5dd36e95d24986a2255275ae.npz",
+        "bytes": 9369,
+        "sha256": "f8feeb127d520b28236aaf646fc915cab34a02ced8c02c71838a60381c0a16b9",
+        "keys": [
+          "edges",
+          "shape",
+          "params",
+          "levels",
+          "order"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "edges",
+          "shape": [
+            3,
+            429
+          ],
+          "dtype": "float64",
+          "bytes": 10296,
+          "retained": true
+        },
+        {
+          "key": "shape",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "occupied",
+          "shape": [
+            21766205
+          ],
+          "dtype": "int64",
+          "bytes": 174129640,
+          "retained": false
+        },
+        {
+          "key": "pending",
+          "shape": [
+            8000629
+          ],
+          "dtype": "int64",
+          "bytes": 64005032,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-nonuniform988-proposal03. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-nonuniform988-proposal03\\proposal.npz"
+    },
+    {
+      "path": "results/product-horizon/runs/product-trap988-proposal04/proposal.npz",
+      "bytes": 100913176,
+      "sha256": "2c648a1d052fbba41b560de44d4108e4ce8e579e9881af04ff0a755cb029f049",
+      "group": "product-horizon",
+      "compact": {
+        "path": "results/compact-data/2c648a1d052fbba41b560de44d4108e4ce8e579e9881af04ff0a755cb029f049.npz",
+        "bytes": 1423,
+        "sha256": "0d1b92ae601936bfe4e56c1ef3ac66b16212349ff57d009073445142dda0ecb8",
+        "keys": [
+          "params",
+          "points",
+          "origin",
+          "shape",
+          "step",
+          "split",
+          "cut"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "origin",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "shape",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "step",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "occupied",
+          "shape": [
+            38229697
+          ],
+          "dtype": "int64",
+          "bytes": 305837576,
+          "retained": false
+        },
+        {
+          "key": "pending",
+          "shape": [
+            17718904
+          ],
+          "dtype": "int64",
+          "bytes": 141751232,
+          "retained": false
+        },
+        {
+          "key": "split",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "cut",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-horizon/README.md for run product-trap988-proposal04. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-trap988-proposal04\\proposal.npz"
     }
   ]
 }

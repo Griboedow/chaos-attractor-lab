@@ -13,7 +13,7 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def main(args):
     out=ROOT/'results'/args.name;out.mkdir(parents=True,exist_ok=False)
     registry_path=ROOT/'records/generated-data.json';registry=json.loads(registry_path.read_text(encoding='utf-8'))
-    omissions=[];inventory=[];ignored=[]
+    omissions=[];inventory=[];ignored=[];runtime_caches=[]
     inputs={'params','points','counts','kinds','active','starts','initial','flags'}
     for folder in args.runs:
         assert (folder/'report.json').is_file(),folder
@@ -22,6 +22,9 @@ def main(args):
             relative=source.relative_to(folder);dest=out/'runs'/folder.name/relative
             dest.parent.mkdir(parents=True,exist_ok=True)
             item=dict(run=folder.name,file=relative.as_posix(),bytes=source.stat().st_size,sha256=sha(source))
+            if args.skip_runtime_cache and '__pycache__' in relative.parts:
+                runtime_caches.append(item)
+                continue
             if source.suffix=='.npz' and source.stat().st_size>=registry['threshold_bytes']:
                 checksum=item['sha256'];cache=Path('D:/Codex/chaos-attractor-cache')/checksum[:2]/(checksum+'.npz');cache.parent.mkdir(parents=True,exist_ok=True)
                 if not cache.exists():shutil.copyfile(source,cache)
@@ -44,7 +47,7 @@ def main(args):
             else:
                 shutil.copyfile(source,dest);assert sha(dest)==item['sha256'];item['storage']='retained'
             inventory.append(item)
-    (out/'inventory.json').write_text(json.dumps(dict(schema=1,scope='Every file present in each declared completed run, including intermediate blocks. Optional array bytes remain in the hash-addressed cache and original run directory.',files=inventory),indent=2)+'\n',encoding='utf-8')
+    (out/'inventory.json').write_text(json.dumps(dict(schema=1,scope='Every research file present in each declared completed run, including intermediate blocks. Explicitly listed runtime bytecode caches are excluded when requested. Optional array bytes remain in the hash-addressed cache and original run directory.',files=inventory,runtime_cache_exclusions=runtime_caches),indent=2)+'\n',encoding='utf-8')
     (out/'omissions.json').write_text(json.dumps(dict(schema=1,files=omissions),indent=2)+'\n',encoding='utf-8')
     (out/Path(__file__).name).write_bytes(Path(__file__).read_bytes())
     unique_compact={r['compact']['path']:r['compact'] for r in registry['files'] if r['compact']}
@@ -55,4 +58,6 @@ def main(args):
 
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--name',required=True);p.add_argument('--runs',type=Path,nargs='+',required=True);main(p.parse_args())
+    p=argparse.ArgumentParser();p.add_argument('--name',required=True);p.add_argument('--runs',type=Path,nargs='+',required=True)
+    p.add_argument('--skip-runtime-cache',action='store_true',help='Inventory but do not copy __pycache__ files; preserve the external files.')
+    main(p.parse_args())

@@ -1,0 +1,46 @@
+{
+  "status": "not_closed",
+  "reason": "Image enclosure leaves proposed domain",
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz",
+  "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "source_code_sha256": "6423a266366fd5d1a91bc7cec0644ef0bb7e29c305052ec778cb4b950f8f6cc8",
+  "step": 0.00048828125,
+  "slack": 1e-08,
+  "curvature": 2.0,
+  "initial_pad": 0,
+  "domain_pad": 0.05,
+  "require_alternation": false,
+  "shape": [
+    1515,
+    1521,
+    1678
+  ],
+  "initial_occupied": 648006,
+  "final_occupied": 38229697,
+  "failing_key": 1407241978,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 648006,
+      "processed": 648006,
+      "added": 17718904,
+      "status": 0,
+      "minimum_sampled_radius": 1.1568809362565522,
+      "minimum_sampled_enclosure_flip_margin": -0.35503822666683915,
+      "maximum_sampled_remainder": 0.003512228352935262,
+      "seconds": 134.09383130073547
+    },
+    {
+      "generation": 1,
+      "sources": 17718904,
+      "processed": 4770846,
+      "added": 19862787,
+      "status": 2,
+      "minimum_sampled_radius": 1.3930696613272995,
+      "minimum_sampled_enclosure_flip_margin": -0.30270824707558397,
+      "maximum_sampled_remainder": 0.0022137359258212405,
+      "seconds": 731.6511571407318
+    }
+  ],
+  "scope": "Sampled closure proposal only. Corner residual inflation is not a rigorous remainder bound. No proof of trapping, alternation, chaos, attraction, or novelty."
+}

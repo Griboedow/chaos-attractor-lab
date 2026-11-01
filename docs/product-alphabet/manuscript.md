@@ -13,6 +13,10 @@ four-level Cartesian alphabets. All 175 initial nonperiodic flags receive
 longer follow-up; twelve visually selected regimes receive five-million-step
 observations. The principal binary candidate retains positive leading growth
 at all 33 tested starts and in independent 70- and 100-digit calculations.
+A subsequent hundred-million-step observation of both displayed cases retains
+positive leading growth in every block. The principal case has rare excursions
+beyond the original portrait envelope; short interval calculations certify
+three such exits and isolate a nearby normalization singularity.
 A separate interval certificate proves a compact invariant subsystem with
 topological entropy above 0.0254 per original iteration for the exact binary
 parameters. A second, full-eight-site automatic-derivative implementation
@@ -46,6 +50,9 @@ states after 100,000 discarded iterations. No symmetry replication,
 interpolation, smoothing, or nonlinear visual transformation is applied.
 Centering and orthogonal cameras preserve native geometry; spatial units
 are equal within each panel. Panel scales and density saturation differ.
+The displayed window represents the frequently visited core. Section 4.1
+shows rare exits found in a much longer run; this portrait is not a complete
+boundary of an invariant set.
 
 The [24-second rotation](../assets/portraits/product-alphabet.webp) uses
 the last 250,000 consecutive states of the same rendering inputs, with
@@ -236,6 +243,64 @@ rejected this discrepancy and is preserved. The corrected verifier records
 both rates and tests the local identity separately. Both selected candidates
 also pass the accumulated three-rate agreement check. Numerical replay uses
 the production recurrence and does not independently certify its dynamics.
+
+### 4.1. A hundred-million-step horizon and rare excursions
+
+The [horizon extension](../../results/product-horizon/README.md) restarts both
+published cases from the same initial state, discards 100,000 updates and
+observes 100 million binary64 updates in fifty blocks. Full QR spectra remain
+positive in their leading component in every block. Neither final recorded
+tail has a detected period through lag 512.
+
+| Case | Mean QR rates per iteration | Leading block range | Smallest sampled normalization radius |
+| --- | --- | --- | --- |
+| 988 | (0.251237, −0.280582, −0.440516) | 0.249650–0.252559 | 0.246827 |
+| 489 | (0.337895, −0.406882, −0.787966) | 0.336477–0.339178 | 0.416578 |
+
+![Long-horizon core, all threshold exceedances, and normalization minima](../assets/diagnostics/product-alphabet-excursions.png)
+
+For Case 988, define E as the coordinatewise bounding box of the original
+two-million-state portrait enlarged by 0.02 in each direction. Its exact
+binary64 endpoints are retained in the extension. This threshold was selected
+after inspecting the longer run, not preregistered. There are **56 observed
+states outside E**, a finite-record fraction of $`5.6\cdot10^{-7}`$.
+All are separated by more than 128 updates. This fraction is not an invariant
+probability, a return-time law or a confidence estimate.
+
+The left panel uses every fiftieth state of the full run for density, with
+every threshold exceedance overlaid separately. The camera is the original
+orthogonal projection, at equal coordinate scales and with a wider viewport.
+No plotted state is clipped. Rings mark discrete observations; they do not
+trace a continuous outer orbit. The right panels show exceedance magnitudes
+and normalization minima in two-million-step blocks. Every Case 988 block
+endpoint and normalization minimum is reproduced exactly in a second pass.
+The same replay passes for Case 489, which has no observed exits from its
+analogously enlarged original envelope over this window.
+
+**Three finite escapes are certified.** Choose the three blocks with the
+smallest normalization minima and restart 32 updates before each minimum,
+using that stored binary64 state as an exact real initial center. Interval
+boxes of radius $`10^{-80}`$, propagated for forty steps at 140 digits,
+start strictly inside E and leave it at update 33. Full-eight-site automatic
+derivatives at 180 digits repeat the check with radius $`2\cdot10^{-80}`$.
+The respective certified exit margins exceed 0.46319, 0.40401 and 0.18140
+in a coordinate direction. Every normalization denominator along these
+short boxes is strictly positive. An exact rational endpoint audit and six
+deterministic payload replays pass.
+
+Consequently E is **not forward invariant** for the exact recurrence. These
+certificates concern trajectories from tiny open neighborhoods of three
+restart states; they do not shadow the full hundred-million-step numerical
+orbit or put the restart neighborhoods in the certified subsystem C.
+The largest midpoint discrepancy from the binary64 short segment is below
+$`6.8\cdot10^{-7}`$ over the forty updates. The precise input states,
+selection history and all enclosing endpoints are retained.
+
+Rare bursts are an established phenomenon: the publisher abstract of
+[Grebogi, Ott, Romeiras and Yorke (1987)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.36.5365)
+describes intermittent departures after attractor-widening crises. No crisis
+parameter, collision mechanism or critical scaling law is established here,
+so these observations are not classified as crisis-induced intermittency.
 
 ## 5. Approach from multiple starts
 
@@ -495,6 +560,47 @@ budget. Two elementary-domain scouts tested 224 box/ball and normalization
 cutoff combinations; every combination had a sampled violating witness.
 Those unsuccessful proposals are retained and are not trapping proofs.
 
+### 6.2. A normalization singularity and its local image limits
+
+A separate interval Krawczyk calculation isolates a zero $`s`$ of
+$`v(x)=2m(x)-x`$ near
+
+```math
+s\simeq(-0.13450686123118413,\ 0.21689038326807392,\ -0.07024042185930943).
+```
+
+The factorized calculation uses 160 digits and box radius $`10^{-50}`$;
+the full-eight-site calculation uses 200 digits and radius $`2\cdot10^{-50}`$.
+Both have strict Krawczyk inclusion and contraction bounds below
+$`3\cdot10^{-47}`$. Positive diagonal-dominance margins above 156 prove
+that $`Dv`$ is nonsingular throughout each root box. The two formulas share
+mpmath interval arithmetic and a Newton center proposal; they are not
+independent interval libraries. An exact rational audit verifies the supplied
+Krawczyk inclusions and derivative inequalities.
+
+The map F is undefined at s. The inverse-function theorem gives a useful
+local consequence: its cluster set of images as x approaches s is exactly
+
+```math
+\left\{\frac{s}{2}+\beta u:\ u\in\mathbb R^3,\ \|u\|=1\right\}.
+```
+
+Indeed, local invertibility of v supplies points $`x(t)=v^{-1}(tu)`$ for
+every unit direction u and small positive t. Since $`m(s)=s/2`$,
+$`F(x(t))\to s/2+\beta u`$. Conversely, every accumulation direction
+of $`v(x)/\|v(x)\|`$ is a unit vector and the remaining terms tend to s/2.
+This is an elementary consequence of normalization and local invertibility,
+not a new general theorem or a spherical-attractor claim.
+
+The three certified short excursions pass close to this singularity before
+their large jumps. We have not proved that s belongs to the closure of the
+long numerical orbit. The positive-entropy subsystem C remains in its
+separately certified smooth domain, away from zero normalization. A trapping
+proof for the observed regime must address these exits rather than treating
+the main portrait's visible envelope as invariant. Three additional completed
+uniform/nonuniform grid proposals also fail closure; their sampled bounds
+are retained as unsuccessful proposals, not interval proofs.
+
 ## 7. Prior art and geometric comparison
 
 The literature audit explicitly includes equivalent terminology. Its
@@ -512,6 +618,7 @@ reviewed equations, abstract-only evidence and uninspected figures.
 | Iterative phase retrieval | RAAR and RRR trajectories can retain stationary fluctuations; this algorithmic behavior predates the present examples. |
 | Four-wing flows and generalized Henon maps | Four wings, double figure-eight forms and super figure-eight forms are established visual motifs. Section 6.1 supplies a neighborhood-conjugacy obstruction for particular ambient model classes, not a new shape classification. |
 | Learning on a sphere | Projected neural-network training already exhibits sustained irregular regimes; sphere-normalized optimization is not a new setting for such behavior. |
+| Recurrent attention and divisive normalization | Chaotic or nonstationary normalized neural dynamics have direct precedents, including a September 2026 repulsive-attention preprint. The fixed posterior sites and the complete reflected recurrence must be compared, not just the softmax component. |
 
 [Ülgen and Sünel (2013)](https://dergipark.org.tr/en/download/article-file/192677)
 give the Blume–Capel mean-state recurrence in Section 2.1. The reviewed
@@ -604,6 +711,49 @@ distinction is not by itself an equivalence theorem. The updated
 [review receipt](../../results/product-orientation/literature-review.json)
 records all reviewed scopes, including the degree and flow identities.
 
+The attention terminology requires a further comparison. Our posterior is
+exactly a biased fixed-key attention update, as derived in the shared
+priority note. [Poc-López and Aguilera (2024)](https://arxiv.org/html/2406.07247v1)
+derive recurrent attention mean-field equations with tanh responses,
+equations (13)–(16), and report irregular regimes with a four-token context.
+Their Section 4 classifies the displayed regimes by visual inspection and
+point counts. Figures 3–4 were inspected: the latter contains planar
+projections of selected mean-field variables. Their history-dependent
+attention and positional drive differ from our fixed eight-site memory;
+the visual comparison does not establish dynamical inequivalence.
+
+[Gao, Yang and Chen (September 2026)](https://arxiv.org/html/2609.28448v1)
+study repulsive recurrent self-attention. Their equations (4)–(8) recompute
+attention between moving tokens and normalize each updated token, whereas
+our sites remain fixed and only an internal reflected vector is normalized.
+Sections II and III.8 and Figures 1, 3 and 13 were reviewed. Those figures
+show token configurations, a schematic and projected high-dimensional
+states, rather than a three-state orbit matching the present portrait.
+This is direct prior art for chaos with softmax and norm feedback; it is
+not an identified equivalent of the full Case 988 recurrence.
+
+[Tomihari and Karakida (2025)](https://arxiv.org/html/2505.19458v3)
+likewise analyze recurrent attention through Jacobians and normalization;
+their Section 3, equations (5)–(9), defines spherical normalization, AKOrN
+and iterative self-attention. The abstract and Sections 3–5.1 were reviewed,
+without a figure audit. [Morone and colleagues](https://pmc.ncbi.nlm.nih.gov/articles/PMC12139785/)
+study dynamical divisive normalization in the ORGaNICs model; the reviewed
+2025 preprint, Section II, equations (1)–(3), uses continuous principal and
+inhibitory states. Its [2026 journal record](https://pubmed.ncbi.nlm.nih.gov/42490376/)
+was checked separately. These precedents rule out claiming normalization
+as a new neural feedback principle.
+
+Even discrete leaky neural recurrences have established chaos results:
+[Liz and Ruiz-Herrera (2014)](https://www.dma.uvigo.es/~eliz/pdf/nonlinearity.pdf),
+abstract and Section 1, equation (1.1). Their fixed weighted sum of scalar
+responses, with delays, differs from the state-dependent radial coupling
+here. Only that displayed architecture was compared; the generality of
+their result is not an equivalence exclusion. The supplementary
+[attention and neural review](../../records/product-attention-literature-20261101.json)
+records the reviewed versions and visual scope. None of these comparisons
+supports a first-discovery claim for neural chaos or a proof of historical
+uniqueness for this candidate.
+
 ## 8. Contribution and open questions
 
 The supported result is a fully specified four-wing numerical regime of
@@ -622,8 +772,10 @@ multiple starts, precision controls and finite-library differences narrow
 the candidates; those numerical tests do not prove asymptotic chaos,
 transitivity, a fractal dimension, or historical uniqueness. Sections 6 and 6.1 supply
 positive entropy and an orientation obstruction, but leave attraction and equality
-with the depicted cloud open. A useful next theoretical target is a verified
-trapping region containing the certified subsystem, followed by structural
+with the depicted cloud open. The longer observation and certified finite
+excursions show why the visible core is insufficient as a trapping region.
+A useful next theoretical target is a verified trapping region containing
+the certified subsystem, followed by structural
 comparison with known noninvertible maps. The
 independent certificates for earlier cases do not transfer to this parameter
 set merely because the formulas belong to the same family.
