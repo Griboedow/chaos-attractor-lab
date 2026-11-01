@@ -2,7 +2,7 @@
 
 Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
 
-[Portrait gallery](docs/attractor-gallery.md) · [Research index](#research-index) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
+[Portrait gallery](docs/attractor-gallery.md) · [Research index](#research-index) · [Manuscripts](papers/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
 
 The portraits rotate once every 24 seconds at 25 frames per second. Each view uses fixed trajectory data and a constant scale; links below open the static portraits. Case numbers identify the saved parameter sets in the linked reports.
 
@@ -78,7 +78,7 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 
 **Numerical chaos in the solver state.** The physical linear oscillator decays, while RK45's position, velocity and proposed step can remain irregular near the error tolerance. Five-million-step, high-precision and unmodified-library controls agree. RK23 has related retained regimes.
 
-[RK45 results](docs/rk45-oscillator.md) · [RK23 results](docs/rk23-oscillator.md) · [RK45 manuscript](papers/rk45-controller/manuscript.pdf) · [Prior art](docs/rk45-priority.md)
+[RK45 results](docs/rk45-oscillator.md) · [RK23 results](docs/rk23-oscillator.md) · [RK45 manuscript](papers/rk45-controller/manuscript.md) · [Prior art](docs/rk45-priority.md)
 
 ### Optimizer memory on a scalar quadratic
 
@@ -92,7 +92,7 @@ The portraits rotate once every 24 seconds at 25 frames per second. Each view us
 
 **Numerical evidence for two expanding directions.** The published tanh variant of Yogi retains two positive growth rates in selected regimes under five-million-step, high-precision and TensorFlow checks. Separate results cover standard Yogi, Adamax and AdaBelief. These are regimes of existing algorithms.
 
-[Smooth Yogi](docs/yogi-tanh.md) · [Manuscript](papers/yogi-memory/manuscript.pdf) · [Standard Yogi](docs/yogi-parameter-plane.md) · [Adamax](docs/adamax-geometry.md) · [AdaBelief](docs/adabelief-quadratic.md)
+[Smooth Yogi](docs/yogi-tanh.md) · [Manuscript](papers/yogi-memory/manuscript.md) · [Standard Yogi](docs/yogi-parameter-plane.md) · [Adamax](docs/adamax-geometry.md) · [AdaBelief](docs/adabelief-quadratic.md)
 
 ## Molecular-motor dynamics
 
@@ -148,7 +148,7 @@ The [portrait gallery](docs/attractor-gallery.md) provides static views of the r
 | [Cyclic three-circle RAAR](docs/cyclic-raar-search.md) | Positive finite-time growth, but visually thin configurations | [Complete survey](results/cyclic-raar-search/README.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |
 | [RK45](docs/rk45-oscillator.md), [RK23](docs/rk23-oscillator.md) | Irregular adaptive-controller states for a decaying oscillator | [RK45 structure](docs/rk45-controller-structure.md), [RK23 structure](docs/rk23-controller-structure.md), [RK45 prior art](docs/rk45-priority.md), [RK23 prior art](docs/rk23-priority.md) |
-| [Smooth Yogi](docs/yogi-tanh.md) | Two positive finite growth rates in selected regimes | [Structure](docs/yogi-tanh-structure.md), [manuscript](papers/yogi-memory/manuscript.pdf) |
+| [Smooth Yogi](docs/yogi-tanh.md) | Two positive finite growth rates in selected regimes | [Structure](docs/yogi-tanh-structure.md), [manuscript](papers/yogi-memory/manuscript.md) |
 | [Yogi parameter plane](docs/yogi-parameter-plane.md) | Retained irregular regimes and regular windows | [Earlier cases](docs/yogi-geometry.md), [smoothing control](docs/yogi-smoothing-control.md), [boundedness theorem](docs/scalar-optimizer-boundedness.md), [prior art](docs/yogi-priority.md) |
 | [Adamax](docs/adamax-geometry.md) | Irregular memory and competing cycles | [Structure](docs/adamax-structure.md), [prior art](docs/adamax-priority.md) |
 | [AdaBelief](docs/adabelief-quadratic.md) | Numerical scalar-quadratic candidate | [AdaDelta cycle audit](docs/adadelta-cycle-audit.md) |

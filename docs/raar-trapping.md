@@ -4,7 +4,7 @@ The serrated-arch instance now has a computer-assisted proof of a **compact attr
 
 ![Actual states approaching the serrated arch from a volume of starts](assets/raar-trapping-approach.png)
 
-[Manuscript](../papers/raar-trapping/manuscript.pdf) · [Subsequent fold-membership theorem](raar-critical-membership.md) · [Reproduction](../papers/raar-trapping/README.md) · [Frozen evidence](../results/raar-trapping/README.md) · [Native-state rotation](assets/raar-circles-rotation.gif)
+[Manuscript](../papers/raar-trapping/manuscript.md) · [Subsequent fold-membership theorem](raar-critical-membership.md) · [Reproduction](../papers/raar-trapping/README.md) · [Frozen evidence](../results/raar-trapping/README.md) · [Native-state rotation](assets/raar-circles-rotation.gif)
 
 Gold points show the same 2,048 starts sampled from the surrounding region, after 0, 16 and 256 iterations. All points are actual discrete states; the camera is rigid and unchanged. All 4,196,352 tested finite state memberships through iteration 2,048 stay in the region. That numerical illustration is separate from the exhaustive proof.
 

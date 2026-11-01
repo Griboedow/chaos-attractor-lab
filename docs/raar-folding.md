@@ -6,7 +6,7 @@
 
 The animation shows actual states of the spatial-circle RAAR map. We start with 16,384 points on a straight segment of radius `1e-7`, tangent to the unstable direction of its certified seven-cycle. Each frame combines seven successive phase offsets. The camera, spatial scale and density scale are fixed; the early blue rings only locate subpixel clusters. The frames run from iterations 0–6 to 448–454. No interpolation connects states into artificial continuous orbits.
 
-[Seven-page research note](../papers/raar-folding/manuscript.pdf) · [Editable source and reproduction](../papers/raar-folding/README.md) · [Rotate the long-run cloud](assets/raar-circles-rotation.gif) · [Periodic structure](raar-cycle-structure.md) · [Priority audit](raar-priority.md)
+[Seven-page research note](../papers/raar-folding/manuscript.md) · [Editable source and reproduction](../papers/raar-folding/README.md) · [Rotate the long-run cloud](assets/raar-circles-rotation.gif) · [Periodic structure](raar-cycle-structure.md) · [Priority audit](raar-priority.md)
 
 ## All six controls
 
@@ -30,7 +30,7 @@ For 25 exact binary64 targets selected at evenly spaced indices of the reference
 
 The four-preimage indices are `254999, 499999, 540832, 826665, 867499, 908332, 949165`. The figure uses target `254999`; arrows denote a single discrete update. An independent nested-reflector map and derivative verify all 64 inputs by strict Krawczyk inclusion, positive projection-axis distances and containment in the corresponding Sturm boxes.
 
-The proof reduces `F(x)=y` to a degree-eight polynomial in `tan(γ/2)`. It isolates all real roots, removes extraneous sign branches using both nearest-projection radial tests, and excludes the omitted angle and zero-length exceptional case. The [note](../papers/raar-folding/manuscript.pdf) provides the derivation. The [packet](../results/raar-folding/) retains numerical proposals, complete interval certificates, every revision and independent checks.
+The proof reduces `F(x)=y` to a degree-eight polynomial in `tan(γ/2)`. It isolates all real roots, removes extraneous sign branches using both nearest-projection radial tests, and excludes the omitted angle and zero-length exceptional case. The [note](../papers/raar-folding/manuscript.md) provides the derivation. The [packet](../results/raar-folding/) retains numerical proposals, complete interval certificates, every revision and independent checks.
 
 The initial near-cloud numerical search found one preimage per target. The subsequent global search found the extra inputs away from the finite reference sample. Both outcomes are retained. Thus **the full map is noninjective**, but noninjectivity of its restriction to an asymptotic attracting set is unproved. This excludes a global coordinate conjugacy to an injective map on a domain containing the certified inputs and common image. It does not distinguish the candidate from all known noninvertible chaotic maps.
 

@@ -48,3 +48,9 @@
   remain labeled **First recorded drawing**, not exact rendering timestamps.
 - Keep frozen numerical packets, images and their manifests unchanged when
   adding date captions. Use D: for temporary work and caches where possible.
+
+- Edit manuscripts directly in `papers/<study>/manuscript.md`; use Markdown for
+  new manuscripts and reports. Do not commit PDF exports or duplicate prose
+  sources in Python/LaTeX. Preserve historical review and manifest records with
+  their original scope. Follow `docs/manuscript-editing.md` and run
+  `python tools/check_manuscripts.py` before publishing manuscript changes.

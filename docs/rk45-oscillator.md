@@ -10,7 +10,7 @@
 
 [Large portrait](assets/rk45-oscillator-geometry.png) · [Initial-volume approach](assets/rk45-oscillator-approach.png) · [Independent evidence](assets/rk45-oscillator-evidence.png) · [Actual-library geometry](assets/rk45-library-clouds.png) · [Exact map and solution bounds](rk45-controller-structure.md) · [Prior-art and equivalence audit](rk45-priority.md)
 
-[Research manuscript (PDF)](../papers/rk45-controller/manuscript.pdf) · [Editable text, figures and review](../papers/rk45-controller/README.md)
+[Research manuscript (Markdown)](../papers/rk45-controller/manuscript.md) · [Editable text, figures and review](../papers/rk45-controller/README.md)
 
 ## Why these two cases are interesting
 

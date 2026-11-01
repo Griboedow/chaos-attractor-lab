@@ -1,6 +1,6 @@
 # Replication-induced instability of a certified five-cluster motor cycle
 
-**[Read the manuscript (PDF)](manuscript.pdf)** · [Editable LaTeX](main.tex) · [Figures](figures/) · [Exact index certificate](../../results/motor-replication-article/exact-index-recheck.json)
+**[Read the manuscript (Markdown)](manuscript.md)** · [Figures](figures/) · [Exact index certificate](../../results/motor-replication-article/exact-index-recheck.json)
 
 The eight-row molecular-motor model has an attracting periodic orbit with five groups of sizes **2 + 2 + 1 + 2 + 1**. Exact replication preserves that motion, but makes it unstable. For every integer `k >= 1`, the `N = 8k` replica has exactly **`2k - 2` unstable, one neutral and `22k` stable directions**. Two groups that were singletons acquire internal differences; each new block has a real multiplier near **-23.083469**, so its unstable perturbation changes sign and amplifies at each return.
 
@@ -16,7 +16,7 @@ The contribution is the **explicit certified motor cycle and the complete stabil
 
 ![Rotating physical projection of the certified orbit beside its five cluster waveforms](figures/cycle-rotation.gif)
 
-The animation rotates the camera around a fixed numerical rendering; it does not animate physical time. [Figure 1](figures/figure-1-cycle.png) shows the orbit and group waveforms. [Figure 2](figures/figure-2-dynamics.png) compares full-state attraction with growth of new contrasts. [Figure 3](figures/figure-3-replication.png) explains the mechanism, exact count and alternating sign. Every static figure has a vector PDF, an editable SVG and a high-resolution PNG. The [existing evolution animation](../../docs/assets/motor-cycle-attraction.gif) separately shows actual trajectories approaching the orbit.
+The animation rotates the camera around a fixed numerical rendering; it does not animate physical time. [Figure 1](figures/figure-1-cycle.png) shows the orbit and group waveforms. [Figure 2](figures/figure-2-dynamics.png) compares full-state attraction with growth of new contrasts. [Figure 3](figures/figure-3-replication.png) explains the mechanism, exact count and alternating sign. Every static figure has an editable SVG and a high-resolution PNG. The [existing evolution animation](../../docs/assets/motor-cycle-attraction.gif) separately shows actual trajectories approaching the orbit.
 
 ## Claim-to-evidence map
 
@@ -24,7 +24,7 @@ The animation rotates the camera around a fixed numerical rendering; it does not
 | --- | --- | --- |
 | Exact normalized source equations | [Model/source audit](../../docs/motor-rows-source-audit.md), manuscript Appendix A | Constant total transition rate and sinusoidal potential/forcing; no added network interaction |
 | Existence and full-space attraction at `N=8` | [512-bit cycle record](../../results/motor-five-cycle-proof/recheck-01.json), [report](../../docs/motor-five-cycle-certificate.md) | Strict multiple-shooting inclusion; all 22 nonflow multipliers below `0.13` |
-| Exact replication spectrum | Proposition 2 and its proof in [main.tex](main.tex) | Analytic invariant direct sum for arbitrary integer replication |
+| Exact replication spectrum | Proposition 2 and its proof in [manuscript.md](manuscript.md) | Analytic invariant direct sum for arbitrary integer replication |
 | New block index `(1,0,2)` | [New 640-bit integration](../../results/motor-replication-article/reintegration-640.json), [768-bit spectral replay](../../results/motor-replication-article/exact-index-recheck.json) | Strict negative-root bracket plus quadratic Jury inequalities; retains all interval radii |
 | Same conclusion from the earlier integration | [Independent replay of earlier matrices](../../results/motor-replication-article/exact-index.json) | Different variational integration settings; same proof method/library |
 | Complete count `(2k-2,1,22k)` | Theorem 1, invariant decomposition and both replay records | Every `k >= 1` at fixed normalized parameters and cluster weights |
@@ -36,7 +36,7 @@ The numerical eigenvectors used for the illustrations propose starting direction
 
 ## Reproduction
 
-Run commands from the repository root and choose unused output folders. The proof environment needs only `python-flint==0.9.0`; the article environment uses [requirements-article.txt](../../requirements-article.txt) for numerical trajectories, figures and PDF auditing. The checked environment versions are recorded in [review.json](review.json).
+Run commands from the repository root and choose unused output folders. The proof environment needs only `python-flint==0.9.0`; the article environment uses [requirements-article.txt](../../requirements-article.txt) for numerical trajectories and figures. The checked environment versions are recorded in [review.json](review.json).
 
 ```bash
 python -m venv .venv-proof
@@ -58,21 +58,11 @@ python research/illustrate_motor_replication.py --output outputs/article-nonline
 python research/render_motor_replication_article.py --animate --output outputs/article-figures
 ```
 
-The renderer reads the **archived** nonlinear packet, not the newly generated `outputs/article-nonlinear` folder. This keeps the published figure provenance fixed. Compare a fresh simulation packet with the archived analysis before substituting data. Regeneration creates vector PDF/SVG files, PNG previews and the rotating GIF, with an input/output hash manifest.
+The renderer reads the **archived** nonlinear packet, not the newly generated `outputs/article-nonlinear` folder. This keeps the published figure provenance fixed. Compare a fresh simulation packet with the archived analysis before substituting data. The renderer also produces historical export formats in its output directory. Publish the PNG/SVG figures and GIF, retaining their provenance; keep generated PDF exports outside Git.
 
-Compile `main.tex` from this directory with a current LaTeX distribution, or:
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.
 
-```bash
-tectonic main.tex --outdir ../../outputs/article-build
-```
-
-The saved `manuscript.pdf` is a publication copy of the checked build. The [article audit](../../research/audit_motor_replication_article.py) checks the evidence chain, numerical controls, figure provenance and frozen packet integrity.
-
-```bash
-python research/audit_motor_replication_article.py
-```
-
-Run that audit from the repository root. [Revision 2](revision.json) changes attribution and presentation only. It preserves all inherited scientific data, figures and scientific calculation scripts byte for byte. The first [review packet](revisions/v1/README.md) remains tied to its original Git commit; the current manifest and audit additionally verify every inherited file outside the explicit editorial allowlist. Existing review records must not be overwritten in place when preparing another revision.
+The [revision record](revision.json) and [first review packet](revisions/v1/README.md) retain their original provenance. Replaying those publication audits requires the corresponding historical checkout. Numerical proof commands above remain unchanged.
 
 ## Scientific and editorial status
 

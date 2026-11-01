@@ -2150,6 +2150,32 @@
       "current_sha256_at_backfill": "41bf6dd7c9a036bf26132396bc7cdd5fd467ad07ff845705c5e1eee4d5536d64",
       "role": "diagnostic"
     },
+    "papers/raar-circles/manuscript-figures/figure-1-geometry.png": {
+      "date": "2026-11-01",
+      "kind": "first_recorded",
+      "role": "portrait",
+      "evidence": {
+        "repository": "https://github.com/Griboedow/chaos-attractor-lab",
+        "commit": "8207072661685646c5e201a99c742cfafef20706",
+        "timestamp": "2026-11-01T08:37:02+01:00",
+        "path": "papers/raar-circles/manuscript-figures/figure-1-geometry.png",
+        "git_blob": "a5a44bcee7497de8bbf729a74005079c35e85384"
+      },
+      "current_sha256_at_backfill": "9df7730e5762b25217f823a603172ca390d8d68c9d185e780d600c6e8b0bf38e"
+    },
+    "papers/replication-instability/figures/figure-1-cycle.png": {
+      "date": "2026-10-30",
+      "kind": "first_recorded",
+      "role": "portrait",
+      "evidence": {
+        "repository": "https://github.com/Griboedow/chaos-attractor-lab",
+        "commit": "b5afd472f26e7fa247ab0b5dd8644d9ffaabacc6",
+        "timestamp": "2026-10-30T15:52:41+01:00",
+        "path": "papers/replication-instability/figures/figure-1-cycle.png",
+        "git_blob": "8fe10fbc63bd596dc70ad06bff873eacf71042ee"
+      },
+      "current_sha256_at_backfill": "6f8baf9efc3ee3734263b8277496bb0649591e1fa8aaca1d0eaab2a6acfadc0e"
+    },
     "papers/replication-instability/figures/figure-3-replication.png": {
       "date": "2026-10-30",
       "kind": "first_recorded",
@@ -2162,6 +2188,45 @@
       },
       "current_sha256_at_backfill": "319c9431ac7d8bb7582145ce7db8e68052df35987efd232c11d3f70fccff48db",
       "role": "diagnostic"
+    },
+    "papers/rk23-controller/figures/figure-1-geometry.png": {
+      "date": "2026-11-01",
+      "kind": "first_recorded",
+      "role": "portrait",
+      "evidence": {
+        "repository": "https://github.com/Griboedow/chaos-attractor-lab",
+        "commit": "545097f9fe70b15c9855ca2be612f02701c98180",
+        "timestamp": "2026-11-01T07:00:58+01:00",
+        "path": "papers/rk23-controller/figures/figure-1-geometry.png",
+        "git_blob": "e5c112c1f1bd4bc979f75588aef42931e0a246a1"
+      },
+      "current_sha256_at_backfill": "59b14db4cec80cdf8f6b85d3068647d9b92b149d7631d06699470ef689fe95d2"
+    },
+    "papers/rk45-controller/figures/figure-1-geometry.png": {
+      "date": "2026-11-01",
+      "kind": "first_recorded",
+      "role": "portrait",
+      "evidence": {
+        "repository": "https://github.com/Griboedow/chaos-attractor-lab",
+        "commit": "990d8e8a138a924679ba97c0f8a859bf7b22bba2",
+        "timestamp": "2026-11-01T08:06:56+01:00",
+        "path": "papers/rk45-controller/figures/figure-1-geometry.png",
+        "git_blob": "46d609ef74aaccb85903159a37959eb661d174aa"
+      },
+      "current_sha256_at_backfill": "cbdb871659f5d4d6534ca512c06a4cd4fb6e9d2bf361b2f292fb94e71e57876b"
+    },
+    "papers/yogi-memory/figures/figure-1-geometry.png": {
+      "date": "2026-11-01",
+      "kind": "first_recorded",
+      "role": "portrait",
+      "evidence": {
+        "repository": "https://github.com/Griboedow/chaos-attractor-lab",
+        "commit": "74ddb24ddae3b3207bde8bf6625deed8b9917064",
+        "timestamp": "2026-11-01T05:57:55+01:00",
+        "path": "papers/yogi-memory/figures/figure-1-geometry.png",
+        "git_blob": "d039d0ac685fb534ba4928bb6513b5f013e9deab"
+      },
+      "current_sha256_at_backfill": "dd6159ba2fca454a169542ff9b629c15aca7f3b5294ef9f6e6701314aa28cfef"
     },
     "results/motor-activity-continuation/cluster-cycle-branch/audit/branch.png": {
       "date": "2026-10-30",
@@ -2386,7 +2451,9 @@
     }
   },
   "caption_discovery": [
-    "docs/*.md"
+    "docs/*.md",
+    "papers/*/manuscript.md",
+    "papers/*/README.md"
   ],
   "frozen_document_exclusions": [
     "docs/adabelief-quadratic.md",
