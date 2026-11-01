@@ -1,0 +1,137 @@
+{
+  "ids": [
+    1051,
+    1483,
+    820,
+    1679
+  ],
+  "source_sha256": "8e6a60e6d13b5c28bf090b5c0b09ebbf3f358cb465e48fb5afdfddd4f209c3a6",
+  "method": "Unmodified upstream RAAR.evaluate and Algorithm constructor/computeRelaxation, using independent circle projector adapters. Full imaging package and monitor not invoked.",
+  "spectrum": "Analytic transcription Jacobian evaluated along actual upstream states, not an independent tangent implementation.",
+  "runs": [
+    {
+      "id": 1679,
+      "params": [
+        0.7336199349360542,
+        1.9129241697490216,
+        1.4305160395114762,
+        0.9061275720596313,
+        -0.40509021282196045,
+        1.4860367737710476
+      ],
+      "steps": 400000,
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.24724368340659367,
+        -0.17419688231538505,
+        -1.3997466681973811
+      ],
+      "minima": [
+        0.23320438162891277,
+        -0.18436181200061846,
+        -1.4292244409148893
+      ],
+      "max_step_residual": 1.5709655798445965e-14,
+      "min_projection_axis_distance": 0.01605010225645115,
+      "max_determinant_identity": 9.103828801926284e-15,
+      "max_relaxation_roundoff": 1.1102230246251565e-16,
+      "seconds": 18.957456350326538
+    },
+    {
+      "id": 820,
+      "params": [
+        0.9438628623355181,
+        0.3142594050616026,
+        0.8280637703155799,
+        -0.28122344613075256,
+        -0.1512797400355339,
+        0.10656211525201797
+      ],
+      "steps": 400000,
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.17392225014494642,
+        0.009846087817099983,
+        -0.37052866830642184
+      ],
+      "minima": [
+        0.16642849677939783,
+        -0.002810381000715222,
+        -0.3914745100330621
+      ],
+      "max_step_residual": 1.0746958878371515e-13,
+      "min_projection_axis_distance": 0.0004526636310143192,
+      "max_determinant_identity": 3.1086244689504383e-15,
+      "max_relaxation_roundoff": 0.0,
+      "seconds": 19.074963569641113
+    },
+    {
+      "id": 1051,
+      "params": [
+        0.9708823579074815,
+        1.9886915469542146,
+        0.9028818255996501,
+        -0.1435409113764763,
+        0.5745496526360512,
+        -0.7745124697685242
+      ],
+      "steps": 400000,
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.16013785165043803,
+        -0.03618800272789029,
+        -0.6110136545869858
+      ],
+      "minima": [
+        0.15036858964016522,
+        -0.0370038535924846,
+        -0.6260839531072248
+      ],
+      "max_step_residual": 4.884981308350689e-14,
+      "min_projection_axis_distance": 0.03767610723147409,
+      "max_determinant_identity": 4.884981308350689e-15,
+      "max_relaxation_roundoff": 0.0,
+      "seconds": 19.326825618743896
+    },
+    {
+      "id": 1483,
+      "params": [
+        0.9479219977855682,
+        1.7114126864820718,
+        1.380623693686775,
+        -0.2015250399708748,
+        -1.2923902235925198,
+        -0.3580900579690933
+      ],
+      "steps": 400000,
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.15175363155165283,
+        -0.07580962579752476,
+        -0.33846895766050483
+      ],
+      "minima": [
+        0.1457509315036971,
+        -0.07784729472032004,
+        -0.35552784769715506
+      ],
+      "max_step_residual": 4.574118861455645e-14,
+      "min_projection_axis_distance": 0.04363728613840347,
+      "max_determinant_identity": 2.609024107869118e-15,
+      "max_relaxation_roundoff": 1.1102230246251565e-16,
+      "seconds": 19.432336807250977
+    }
+  ]
+}

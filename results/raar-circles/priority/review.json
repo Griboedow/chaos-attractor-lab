@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-01",
+  "reviews": [
+    {
+      "key": "luke-2004-raar",
+      "scope": "PDF abstract, introduction, sections 2.1-2.3, equations (10),(11),(14), theorem 2.2 inspected. Numerical imaging section not reviewed.",
+      "finding": "Exact pre-existing algorithm. beta=1 connects RAAR, HPR, AAR and a difference-map instance; beta!=1 is not that difference-map family. Convex conclusions do not automatically extend to two nonconvex circles."
+    },
+    {
+      "key": "borwein-2017-ellipses",
+      "scope": "arXiv v3 2018, pages 1-9 and 13-18 read as extracted text; local proof pages 10-12 inspected only in part. Figure pixels not yet inspected.",
+      "finding": "Line/ellipse and line/p-sphere examples have periodic domains and long complicated transients. Circle-line singular-set irregular behavior was already reported. Attractive domains and transient paths must not be confused with a persistent strange attractor. DOI final publication 10.1007/s11228-017-0457-0."
+    },
+    {
+      "key": "luke-martins-2019",
+      "scope": "arXiv v2, 36 pages. Example 2.7, Examples 3.9 and 3.17, Remark 3.14, Section 5 pages 29-35 read; full general convergence proof not independently audited.",
+      "finding": "RAAR, also relaxed Douglas-Rachford, on TWO PLANAR CIRCLES is explicitly prior art, including intersecting, separated, nested, concentric and tangent cases. Local convergence statements need their hypotheses; do not imply global convergence of our noncoplanar 3D configurations. Published SIAM J Optimization 30(1),542-584 (2020), DOI 10.1137/18M1229638."
+    },
+    {
+      "key": "elser-rankenburg-thibault-2007",
+      "url": "https://doi.org/10.1073/pnas.0606359104",
+      "scope": "Publisher-indexed abstract and body excerpts including strange-attractor discussion read. Direct DOI open unavailable; PMC challenge not bypassed. Not a full-paper review.",
+      "finding": "Strange-attractor search dynamics in projection/difference-map methods were explicitly proposed. This excludes any claim to discover chaos in constraint-search algorithms in general."
+    },
+    {
+      "key": "marchesini-2007",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc877846/m1/10/",
+      "scope": "Institutional full figure-5 caption and indexed text read; full article not yet reviewed.",
+      "finding": "Two circles used as a UNION constituting one constraint, with a line as the other. This differs from two separate noncoplanar spatial circle constraints, but establishes elementary circle examples and failure mechanisms as prior art."
+    },
+    {
+      "key": "elser-2025-origins",
+      "url": "https://doi.org/10.1017/9781009475518.003",
+      "scope": "Publisher chapter excerpt only, not full book.",
+      "finding": "Nonconvex projection chaos is established background, not a new mechanism claim."
+    },
+    {
+      "key": "ProxToolbox-source",
+      "url": "https://gitlab.gwdg.de/nam/ProxPython/-/blob/702154fc33a0b05747ef7f2980c88613236e3626/proxtoolbox/algorithms/RAAR.py",
+      "scope": "Original RAAR.py, Algorithm constructor and computeRelaxation, cell type and LICENSE inspected; all relevant evaluator source pinned and copied verbatim.",
+      "finding": "Our map matches the published evaluator. Four 400000-step upstream runs remain nonperiodic with positive leading finite growth. R820 has positive mean second growth but one 10000-step window is negative, so uniform positivity at every observed window length is not claimed. The installed imaging framework was not invoked."
+    }
+  ],
+  "searches": [
+    "RAAR two circles",
+    "Douglas-Rachford circles chaos",
+    "relaxed averaged alternating reflections hyperchaos",
+    "RAAR strange attractor",
+    "Douglas-Rachford linked circles",
+    "spatial circles Douglas Rachford",
+    "relaxed Douglas strange attractor"
+  ],
+  "conclusion": "No exact match to the six recorded noncoplanar circle cases located in this bounded search. This is neither proof of priority nor an exhaustive equivalence classification. Existing algorithm, planar-circle studies and projection chaos must be credited.",
+  "open_gaps": [
+    "A complete review of earlier projection-algorithm chaos papers and supplementary material",
+    "General conjugacy and symbolic-dynamics equivalences",
+    "A rigorous asymptotic strange-attractor proof"
+  ]
+}

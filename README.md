@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[RAAR: serrated arches and layered loops between two spatial circles](docs/raar-circles.md).** An existing geometric search algorithm produces intricate bounded state clouds from two simple circle constraints. Both portraits survive five-million-step, independent 70/90-digit and original ProxToolbox checks. Exact certificates show five selected maps have no fixed points; a sixth has two unstable points and linked input circles. Projection-search chaos is established prior work; the selected cases' historical uniqueness remains unresolved.
+
+![Actual spatial-circle RAAR states, viewed by rotating rigid cameras](docs/assets/raar-circles-rotation.gif)
+
+[Research manuscript (PDF)](papers/raar-circles/manuscript.pdf) · [Claims and reproduction](papers/raar-circles/README.md) · [Large portrait](docs/assets/raar-circles-geometry.png) · [Initial-volume approach](docs/assets/raar-circles-approach.png) · [Original-library comparison](docs/assets/raar-library-clouds.png) · [Exact geometric certificates](docs/raar-structure.md) · [Prior-art and equivalence audit](docs/raar-priority.md)
+
 **[RK45: twin rosettes and folded fans inside an existing solver](docs/rk45-oscillator.md).** The two rosettes are exchanged by one numerical orbit. Two positive finite growth estimates survive five million steps, independent 70/90-digit calculations and unmodified SciPy execution. A declared narrow slice retains this criterion at 125 of 257 sampled settings, alongside periodic neighbors. Earlier work already explains near-half-turn numerical oscillations; the exact regime's historical uniqueness remains unresolved.
 
 ![Actual RK45 numerical states, viewed by rotating rigid cameras](docs/assets/rk45-oscillator-rotation.gif)

@@ -1,0 +1,33 @@
+{
+  "count": 2051,
+  "seed": 2026110191,
+  "warm": 10000,
+  "observed": 30000,
+  "windows": 10,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "parameters": [
+    "beta",
+    "radius_B",
+    "tilt_B",
+    "center_B_x",
+    "center_B_y",
+    "center_B_z"
+  ],
+  "checks": {
+    "checks": 256,
+    "max_relative_jacobian_difference": 5.252300400160337e-10,
+    "max_reflector_formula_residual": 4.440892098500626e-16
+  },
+  "source_sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5",
+  "map": "beta/2*(R_A R_B+I)+(1-beta)P_B; circles, not closed disks",
+  "primary": "https://arxiv.org/pdf/math/0405208, equations (10)-(11),(14)",
+  "scope": "Known RAAR algorithm, explicit geometric benchmark. Projection-axis distance below 1e-12 stops the numerical run; no arbitrary smooth extension. No novelty or asymptotic-chaos claim.",
+  "seconds": 66.47636151313782,
+  "complete": 2051,
+  "flags": 53,
+  "max_bound_ratio": 0.9983555364027745
+}

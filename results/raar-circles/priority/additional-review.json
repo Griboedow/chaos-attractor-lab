@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "reviews": [
+    {
+      "title": "Cyclic Relaxed Douglas-Rachford Splitting for Inconsistent Nonconvex Feasibility",
+      "authors": "Thi Lan Dinh, G. S. Matthijs Jansen, D. Russell Luke",
+      "url": "https://arxiv.org/html/2502.12285v1",
+      "doi": "10.1007/s10957-026-02996-2",
+      "scope": "Abstract and selected HTML sections, especially Section 3.1 Lemma 4 and Theorem 1. Not a full proof review. Search within HTML found no circle occurrence.",
+      "finding": "Expanded RAAR formula and fixed-point linear combinations are explicitly known. General cyclic fixed-point/convergence theory is relevant background, not a discovery of this study."
+    },
+    {
+      "title": "Algorithmic approaches to avoiding bad local minima in nonconvex inconsistent feasibility",
+      "authors": "Thi Lan Dinh, Wiebke Bennecke, G. S. Matthijs Jansen, D. Russell Luke, Stefan Mathias",
+      "url": "https://arxiv.org/html/2502.19052v1",
+      "scope": "Abstract, introduction, Section 3.2, selected Section 3.4 results, Sections 3.4.2, 4.1, 4.2 and conclusion text inspected. Figure captions read; not all figure pixels or convergence proofs reviewed. HTML header says v1 26 February 2025 while rendered manuscript date says 24 August 2026; version-date discrepancy left explicit.",
+      "finding": "Product-space relaxed Douglas-Rachford already used to escape bad minima in real orbital tomography. Section 4.1 reports nonvanishing iterate changes with convergent gaps for lambda=0.7. This is established nonconvergent behavior, not evidence of an identical 3D two-circle attractor. No occurrence of chaos, attractor or circle in the inspected HTML search."
+    },
+    {
+      "title": "Local saddle structure in relaxed averaged alternating reflections Algorithms on phase retrieval",
+      "author": "Pengwen Chen",
+      "url": "https://arxiv.org/abs/2101.11145",
+      "doi": "10.1088/1361-6420/ac37fa",
+      "scope": "Primary arXiv abstract and metadata only; full paper not reviewed.",
+      "finding": "RAAR/ADMM and primal-dual saddle interpretations, parameter-dependent attraction basins and screening of stationary points are prior art. These algorithmic equivalences must be considered in further priority searches."
+    },
+    {
+      "title": "Dynamics of the Douglas-Rachford method for ellipses and p-spheres",
+      "key": "borwein-2017-ellipses-visual-update",
+      "url": "https://arxiv.org/abs/1610.03975",
+      "scope": "Visual supplement to the earlier review: PDF pages 4, 5, 7, 8 and 9 inspected as rendered pixels. Remaining figures not fully inspected.",
+      "finding": "Earlier periodic domains and transient spirals visually distinct from the selected portraits; visual distinction does not establish inequivalence or priority."
+    }
+  ],
+  "additional_queries": ["RAAR noncoplanar", "Douglas Rachford noncoplanar", "RAAR linked circles", "two circles strange attractor"],
+  "claim_boundary": "No exact match located in this bounded review. No claim that nobody has seen these attractors, no exhaustive equivalence classification, no new algorithm or general chaos mechanism claim."
+}

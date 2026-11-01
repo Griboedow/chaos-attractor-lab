@@ -1,0 +1,10 @@
+{
+  "stage": "After one-million observations of R75, before result files",
+  "error": "Absolute left-eigenvector residual exceeded 1e-10 threshold",
+  "observed": {
+    "min_axis": 0.0022132811902919277,
+    "relative_determinant_residual": 1.3833105721950385e-11,
+    "absolute_left_eigenvector_residual": 5.933671887170533e-10
+  },
+  "resolution": "Retain absolute residual and also report a residual normalized by max(1,max(abs(J))); geometric cancellation near projection axis amplifies absolute roundoff. Do not change map or trajectories."
+}
