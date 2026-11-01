@@ -1,0 +1,123 @@
+{
+  "source": "Peplowski and Stefanski (1988), Physics Letters A132,408-413,Eq.(3),b_perp=b_parallel=b.",
+  "doi": "10.1016/0375-9601(88)90503-8",
+  "url": "https://www.academia.edu/113918730/Kicked_top_with_pumping_and_dissipation_Classical_results",
+  "access": "Public author-linked full-text OCR read; typeset PDF download was restricted and not bypassed.",
+  "original_map": [
+    "b*(Y*cos(X)-Z*sin(X))",
+    "-b*X",
+    "A*(1-b)+b*(Y*sin(X)+Z*cos(X))"
+  ],
+  "coordinate_change": "C(X,Y,Z)=((Z,-Y,X)/A-(1-b)*(1,0,0))/b; A!=0,0<b<1.",
+  "identity": "C composed with G equals F composed with C, with p=(b,0,-pi/2,0,0,0,A,0,0,0).",
+  "seed": 2026110120,
+  "states_per_pair": 1024,
+  "checks": [
+    {
+      "b": 0.1,
+      "A": 35.0,
+      "parameters": [
+        0.1,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        35.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_scaled_state_error": 1.0316598765392933e-15,
+      "maximum_scaled_jacobian_error": 9.896839744022566e-16,
+      "maximum_determinant_error": 1.734723475976807e-18,
+      "trivial_fixed_point_residual": 0.0,
+      "characteristic_polynomial_error": 4.440892098500626e-16
+    },
+    {
+      "b": 0.5,
+      "A": -5.0,
+      "parameters": [
+        0.5,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        -5.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_scaled_state_error": 6.372137948674117e-16,
+      "maximum_scaled_jacobian_error": 8.277641722224341e-16,
+      "maximum_determinant_error": 8.326672684688674e-17,
+      "trivial_fixed_point_residual": 0.0,
+      "characteristic_polynomial_error": 0.0
+    },
+    {
+      "b": 0.5,
+      "A": 15.0,
+      "parameters": [
+        0.5,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_scaled_state_error": 1.1767836611455228e-15,
+      "maximum_scaled_jacobian_error": 1.786337037767497e-15,
+      "maximum_determinant_error": 8.326672684688674e-17,
+      "trivial_fixed_point_residual": 0.0,
+      "characteristic_polynomial_error": 8.881784197001252e-16
+    },
+    {
+      "b": 0.7,
+      "A": 32.0,
+      "parameters": [
+        0.7,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_scaled_state_error": 2.450377925664783e-15,
+      "maximum_scaled_jacobian_error": 3.639023914038683e-15,
+      "maximum_determinant_error": 3.3306690738754696e-16,
+      "trivial_fixed_point_residual": 0.0,
+      "characteristic_polynomial_error": 5.551115123125783e-17
+    },
+    {
+      "b": 0.9,
+      "A": 128.0,
+      "parameters": [
+        0.9,
+        0.0,
+        -1.5707963267948966,
+        0.0,
+        0.0,
+        0.0,
+        128.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_scaled_state_error": 1.0206318456519263e-14,
+      "maximum_scaled_jacobian_error": 1.43617670862748e-14,
+      "maximum_determinant_error": 1.1102230246251565e-15,
+      "trivial_fixed_point_residual": 0.0,
+      "characteristic_polynomial_error": 0.0
+    }
+  ],
+  "scope": "Explicit algebraic family inclusion plus floating-point controls. The selected1709/3254tuples are not this special slice; no conjugacy classification of their attractors is established."
+}

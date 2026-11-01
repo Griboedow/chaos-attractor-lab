@@ -1,0 +1,14 @@
+{
+  "source": "results\\twist-geometry\\candidates.json",
+  "sha256": "24b8d81c69c8eccd4f8a27fabe03315069d1cc44d66a4939fa2defb75303af89",
+  "candidates": [
+    1709,
+    3254
+  ],
+  "warm": 100000,
+  "observed": 200000,
+  "padding_each_end": 10000,
+  "method": "Forward inverse-transpose plane normal and backward inverse tangent stable line; binary64 analytic map derivative; no trajectory interpolation.",
+  "quantities": "Angle between strongest stable line and leading2D plane; one-step log area in plane and log length in line; sums over every sliding block.",
+  "scope": "Finite-trajectory necessary diagnostics only. No uniform hyperbolicity, pseudohyperbolicity, dominated splitting or basin proof."
+}

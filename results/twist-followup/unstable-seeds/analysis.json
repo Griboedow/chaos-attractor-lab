@@ -1,0 +1,138 @@
+{
+  "runs": [
+    {
+      "id": 1709,
+      "sha256": "12eced624a263aadc4224a1334ad65e60ba804d7f7d971582b29536a700088c5",
+      "fixed_point": {
+        "least_period": 1,
+        "states": [
+          [
+            -0.11397496576477495,
+            0.13085101512430813,
+            -0.08068882674006556
+          ]
+        ],
+        "residual": 1.3771620545963985e-13,
+        "multipliers": [
+          [
+            -0.06750399795124634,
+            1.3432511687060151
+          ],
+          [
+            -0.06750399795124634,
+            -1.3432511687060151
+          ],
+          [
+            0.24442598745281227,
+            0.0
+          ]
+        ],
+        "moduli": [
+          1.3449462784696933,
+          1.3449462784696933,
+          0.24442598745281227
+        ],
+        "unstable_directions": 2,
+        "volume_identity_error": 2.220446049250313e-16,
+        "nearest_reference_distance": [
+          0.00533476110652993
+        ]
+      },
+      "groups": [
+        {
+          "radius": 1e-06,
+          "positive_all_windows": 128,
+          "period3": 0,
+          "unclassified": 0,
+          "minimum_leading_window": 0.09473585207786048,
+          "positive_reference_distance_quantiles": [
+            0.00012405703536134038,
+            0.0004996806103845094,
+            0.0007909249033304377,
+            0.0018758447157656729
+          ]
+        },
+        {
+          "radius": 1e-08,
+          "positive_all_windows": 128,
+          "period3": 0,
+          "unclassified": 0,
+          "minimum_leading_window": 0.09474103562562608,
+          "positive_reference_distance_quantiles": [
+            0.00011460138683820885,
+            0.00048579909636882663,
+            0.0007701383680092528,
+            0.002225811162725225
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3254,
+      "sha256": "ad7258fe8f88295abd1cbd2ac400e82dc1a86393c289d91bbfcf9e56ed6cf48a",
+      "fixed_point": {
+        "least_period": 1,
+        "states": [
+          [
+            0.4235940578349269,
+            0.3694395697633604,
+            0.3961870631747304
+          ]
+        ],
+        "residual": 1.5463617361248926e-15,
+        "multipliers": [
+          [
+            -3.955290545172936,
+            0.0
+          ],
+          [
+            0.9190227063740947,
+            0.0
+          ],
+          [
+            -0.16448810418945053,
+            0.0
+          ]
+        ],
+        "moduli": [
+          3.955290545172936,
+          0.9190227063740947,
+          0.16448810418945053
+        ],
+        "unstable_directions": 1,
+        "volume_identity_error": 0.0,
+        "nearest_reference_distance": [
+          0.005524339819040915
+        ]
+      },
+      "groups": [
+        {
+          "radius": 1e-06,
+          "positive_all_windows": 128,
+          "period3": 0,
+          "unclassified": 0,
+          "minimum_leading_window": 0.24210866458057026,
+          "positive_reference_distance_quantiles": [
+            0.0009316602127907331,
+            0.0039103114713600114,
+            0.008119957874796328,
+            0.04783116808464185
+          ]
+        },
+        {
+          "radius": 1e-08,
+          "positive_all_windows": 128,
+          "period3": 0,
+          "unclassified": 0,
+          "minimum_leading_window": 0.2388326132042916,
+          "positive_reference_distance_quantiles": [
+            0.0009410615355692298,
+            0.004304450597794058,
+            0.009450932194758024,
+            0.0554627415820344
+          ]
+        }
+      ]
+    }
+  ]
+}

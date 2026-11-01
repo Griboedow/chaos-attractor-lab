@@ -1,0 +1,130 @@
+{
+  "runs": [
+    {
+      "id": 1709,
+      "angle_degrees_quantiles": [
+        0.0005096551041112156,
+        0.003922786614254709,
+        0.04382002745583528,
+        0.4601413643937116,
+        4.786053757003217,
+        26.74873523676274,
+        89.75986837731152
+      ],
+      "quantiles": [
+        0,
+        0.0001,
+        0.001,
+        0.01,
+        0.1,
+        0.5,
+        1
+      ],
+      "mean_log_area": 0.0692748296196415,
+      "mean_log_line": -0.8854110356165099,
+      "maximum_line_invariance_defect": 7.052403901934821e-15,
+      "blocks": [
+        {
+          "length": 1,
+          "minimum_mean_log_area": -2.6527518041839357,
+          "maximum_mean_log_line": 1.6967775002121925,
+          "fraction_nonpositive_area": 0.462205,
+          "fraction_noncontracting_line": 0.07836
+        },
+        {
+          "length": 5,
+          "minimum_mean_log_area": -1.3016847221337229,
+          "maximum_mean_log_line": 0.41920412908657456,
+          "fraction_nonpositive_area": 0.3472319446388928,
+          "fraction_noncontracting_line": 0.0022050441008820178
+        },
+        {
+          "length": 20,
+          "minimum_mean_log_area": -0.5603817359047752,
+          "maximum_mean_log_line": -0.3133600779071912,
+          "fraction_nonpositive_area": 0.25940964391617205,
+          "fraction_noncontracting_line": 0.0
+        },
+        {
+          "length": 100,
+          "minimum_mean_log_area": -0.15664097070923164,
+          "maximum_mean_log_line": -0.6646990774988081,
+          "fraction_nonpositive_area": 0.12139008809360634,
+          "fraction_noncontracting_line": 0.0
+        },
+        {
+          "length": 1000,
+          "minimum_mean_log_area": 0.0008205377797467008,
+          "maximum_mean_log_line": -0.8173288730605709,
+          "fraction_nonpositive_area": 0.0,
+          "fraction_noncontracting_line": 0.0
+        }
+      ],
+      "file": "case-1709.npz",
+      "sha256": "07349cbc0f24da6664c8bf03c5777ea3cec572930369f7bc98a525e20aa8095b"
+    },
+    {
+      "id": 3254,
+      "angle_degrees_quantiles": [
+        0.002904165757486216,
+        0.012113222049969374,
+        0.0914620616117601,
+        0.7661691691642742,
+        7.423034559580257,
+        35.023075215235764,
+        89.91703060754912
+      ],
+      "quantiles": [
+        0,
+        0.0001,
+        0.001,
+        0.01,
+        0.1,
+        0.5,
+        1
+      ],
+      "mean_log_area": 0.1681084349756268,
+      "mean_log_line": -0.682422714903237,
+      "maximum_line_invariance_defect": 1.6900113161446242e-14,
+      "blocks": [
+        {
+          "length": 1,
+          "minimum_mean_log_area": -1.9507266242981132,
+          "maximum_mean_log_line": 1.3377572638491984,
+          "fraction_nonpositive_area": 0.41384,
+          "fraction_noncontracting_line": 0.166415
+        },
+        {
+          "length": 5,
+          "minimum_mean_log_area": -0.9318213860999094,
+          "maximum_mean_log_line": 0.3750093814131105,
+          "fraction_nonpositive_area": 0.36924238484769695,
+          "fraction_noncontracting_line": 0.01120022400448009
+        },
+        {
+          "length": 20,
+          "minimum_mean_log_area": -0.4310257096993837,
+          "maximum_mean_log_line": 0.006327357387635857,
+          "fraction_nonpositive_area": 0.22230111860626758,
+          "fraction_noncontracting_line": 5.0004750451292875e-06
+        },
+        {
+          "length": 100,
+          "minimum_mean_log_area": -0.10440118533442728,
+          "maximum_mean_log_line": -0.4006746754911728,
+          "fraction_nonpositive_area": 0.004087023076422829,
+          "fraction_noncontracting_line": 0.0
+        },
+        {
+          "length": 1000,
+          "minimum_mean_log_area": 0.07742437711825187,
+          "maximum_mean_log_line": -0.5906695900483464,
+          "fraction_nonpositive_area": 0.0,
+          "fraction_noncontracting_line": 0.0
+        }
+      ],
+      "file": "case-3254.npz",
+      "sha256": "34d49241e88a9359a6951bc4aa1b91335e57750b3ccf388c1007d647361efd8a"
+    }
+  ]
+}

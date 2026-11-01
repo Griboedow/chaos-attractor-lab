@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "long-runs.npz": "7903f9e1c690faf1994df69d23c4de8333003dd036364bb574362a53a951bb91",
+    "basins.npz": "6244fc2b42e4a032fac7bfd60bd222fc3b4eee602c09cbaa7be00ab06f21760e",
+    "candidates.json": "24b8d81c69c8eccd4f8a27fabe03315069d1cc44d66a4939fa2defb75303af89"
+  },
+  "candidates": [
+    1709,
+    3254,
+    307
+  ],
+  "sobol_seed": 2026110116,
+  "fixed_point_starts": "All unit-ball points in a 2048-row Sobol cube, plus 128 uniformly indexed reference-tail states.",
+  "period_three_starts": "256 reference-tail states with smallest three-step return distance, plus one last state from every archived fresh-start run.",
+  "root": "SciPy hybr with analytic derivative,xtol1e-11. Accept residual<1e-10 and radius<=1+1e-8 regardless of solver status; retain every status.",
+  "deduplication": "Orbit points agree within1e-7, allowing cyclic shifts. Check period1 first, then3.",
+  "scope": "Non-exhaustive numerical periodic-orbit skeleton. No global classification, homoclinic connection, attractor membership or novelty proof."
+}

@@ -1,0 +1,19 @@
+{
+  "skeleton": "D:\\Codex\\chaos-attractor-search-20261031\\twist-periodic-skeleton\\analysis.json",
+  "skeleton_sha256": "a8c228ae2ff7fc74f09b04b4a54b97e00ff6b151120440346d03387405895519",
+  "reference": "results\\twist-geometry\\long-runs.npz",
+  "reference_sha256": "7903f9e1c690faf1994df69d23c4de8333003dd036364bb574362a53a951bb91",
+  "selection": "For each1709/3254, choose the numerical fixed point closest to the archived reference cloud among all found roots.",
+  "radii": [
+    1e-06,
+    1e-08
+  ],
+  "starts_per_radius": 128,
+  "warmup": 4096,
+  "observed": 50000,
+  "window": 10000,
+  "tail": 256,
+  "one_dimensional": "64 equally spaced positive magnitudes in[epsilon/4,epsilon]and their negatives.",
+  "two_dimensional": "128 equally spaced angles on a circle in an orthonormal real basis of the complex unstable eigenspace.",
+  "scope": "Linear unstable seeds, not exact manifold points. Finite approach does not prove a homoclinic connection or attractor classification."
+}

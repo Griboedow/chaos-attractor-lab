@@ -1,0 +1,173 @@
+{
+  "sources": [
+    {
+      "id": 1709,
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\twist-approach\\case-1709.npz",
+      "sha256": "61e335fa3182c89bf540a14681a48761d4e925a9f49ac809c5d2e6748daf5c28",
+      "points_per_panel": 32768,
+      "period3_endpoint_count": 12314,
+      "bounds": [
+        {
+          "iterate": 0,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1319077702845208
+        },
+        {
+          "iterate": 4,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1319077702845208
+        },
+        {
+          "iterate": 16,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1319077702845208
+        },
+        {
+          "iterate": 256,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1319077702845208
+        },
+        {
+          "iterate": 4096,
+          "center": [
+            0.013554255478629568,
+            -0.05937759496663587
+          ],
+          "halfwidth": 0.1365909174588736
+        }
+      ],
+      "pca_basis_columns": [
+        [
+          -0.5085122317757532,
+          -0.4404765574195611,
+          -0.7398619550282707
+        ],
+        [
+          -0.20528892886457828,
+          0.8964922066536654,
+          -0.39262982451015715
+        ],
+        [
+          0.8362247101228696,
+          -0.047771600067976094,
+          -0.5463022134376434
+        ]
+      ],
+      "projection_after_pca": [
+        [
+          0.9210609940028851,
+          0.0,
+          0.3894183423086505
+        ],
+        [
+          0.1335306957605727,
+          0.9393727128473789,
+          -0.31582979537632794
+        ]
+      ],
+      "center": [
+        -0.12618388631631267,
+        0.08656760582677162,
+        -0.05533027212989902
+      ]
+    },
+    {
+      "id": 3254,
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\twist-approach\\case-3254.npz",
+      "sha256": "124a1079a80ea4ea997f2646660c1867b0d89e67458551b9214c40bdd33fbb42",
+      "points_per_panel": 32768,
+      "period3_endpoint_count": 0,
+      "bounds": [
+        {
+          "iterate": 0,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1240519032743879
+        },
+        {
+          "iterate": 4,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1240519032743879
+        },
+        {
+          "iterate": 16,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1240519032743879
+        },
+        {
+          "iterate": 256,
+          "center": [
+            0.0,
+            0.0
+          ],
+          "halfwidth": 1.1240519032743879
+        },
+        {
+          "iterate": 4096,
+          "center": [
+            -0.023821746695166846,
+            -0.002978711028543024
+          ],
+          "halfwidth": 0.7505036444440325
+        }
+      ],
+      "pca_basis_columns": [
+        [
+          0.30773392403688477,
+          0.8837928278190936,
+          0.35243448964650215
+        ],
+        [
+          0.8020308879776655,
+          -0.04166348895659718,
+          -0.5958276667105353
+        ],
+        [
+          -0.5119045679876455,
+          0.4660197326117137,
+          -0.7216504154297211
+        ]
+      ],
+      "projection_after_pca": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9393727128473789,
+          -0.34289780745545134
+        ]
+      ],
+      "center": [
+        -0.002260365093375849,
+        0.14782420629528722,
+        0.0491578480868064
+      ]
+    }
+  ],
+  "classification": "Each initial point is colored by its own final lag3 return rule, including earlier snapshots.",
+  "clipped_spatial_points": 0,
+  "projection": "Same rigid PCA and orthographic camera as original stills; declared camera translation and late zoom only."
+}

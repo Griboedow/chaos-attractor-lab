@@ -8,6 +8,8 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 [Rotate the folded sail](docs/assets/twist-folded-sail.gif) · [View the medusa](docs/assets/twist-medusa.png) · [Rotate the medusa](docs/assets/twist-medusa.gif) · [Equations, data and reproduction](docs/twist-geometry.md)
 
+**[Attraction and priority follow-up](docs/twist-priority-and-mechanism.md):** see 32,768 initial states approach each geometry. An explicit affine change of coordinates identifies the 1988 pumped kicked top as a special case of this family. Local saddle structures suggest familiar mechanisms; a new attractor class remains unestablished. [Approach figure](docs/assets/twist-approach.png) · [Known-case comparison](docs/assets/twist-prior-comparison.png).
+
 **[A different search direction: chaos inside a scalar optimizer](docs/adabelief-quadratic.md).** AdaBelief's internal memory produces a branching numerical candidate while minimizing only `theta^2/2`. Two million observed iterations, upstream-code checks and 70/90-decimal calculations retain positive expansion. The supported nonrectified branch and atypical primary memory coefficients are explicit; optimizer chaos is already known in related methods, and exact-candidate priority remains unresolved. [Rotating full-state view](docs/assets/adabelief-rotation.gif).
 
 ![Scalar AdaBelief candidate and independent long-run evidence](docs/assets/adabelief-candidate.png)
