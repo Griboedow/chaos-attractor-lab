@@ -83,3 +83,10 @@ Four independently seeded 6,000-point resamples all select HastingsPowell in the
 The closest selected reference discrepancies exceed the temporal-half comparison scales. This supports geometric distinctiveness relative to these finite samples under this protocol. It does **not** exclude all affine equivalents, because invariant measures, sampling and local optimization affect the comparison; it does not test nonlinear conjugacies or certify topology. The collection is not an exhaustive list of attractors or parameters. These distances are neither novelty probabilities nor a historical-priority certificate.
 
 Reproduce with `research/compare_raar_catalog.py` and `research/render_raar_catalog.py`; audit with `research/verify_raar_catalog.py`. The earlier six-candidate audit remains unchanged and retains its own scope.
+
+
+## Certified symbolic complexity in the selected instance
+
+The [symbolic-dynamics study](raar-symbolic-dynamics.md) adds eight interval-certified covering relations and a compact invariant set with entropy at least log(2)/49. Two map implementations pass; a least-period-49 saddle is separately located and classified. This upgrades the exact-map evidence beyond finite growth-rate estimates. It does not identify an attracting set or settle historical uniqueness.
+
+The proof uses the established covering theory of [Zgliczynski and Gidea (2004)](https://doi.org/10.1016/j.jde.2004.03.013), specifically Theorems 9 and 16 of the author preprint. A targeted 1 November 2026 search under RAAR/Douglas-Rachford, symbolic dynamics, covering relations, horseshoe and topological entropy found no exact matching result among the returned sources. The [query and source record](../results/raar-symbolic-dynamics/priority.json) preserves that bounded scope. General projection-search chaos, RAAR and the covering method remain credited prior work. The unread 2007 supplement and 2025 chapter remain gaps.

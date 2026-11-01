@@ -1,6 +1,10 @@
 # Chaos Attractor Lab
 
-Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
+Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic and symbolic dynamics, numerical attractor candidates, known literature results and open hypotheses.
+
+**[Certified symbolic dynamics behind the serrated RAAR arch](docs/raar-symbolic-dynamics.md).** Eight covering relations pass two interval map implementations. Two 49-step routes realize arbitrary binary sequences and prove a compact invariant set with topological entropy at least log(2)/49. A separate certificate locates a least-period-49 saddle with exactly one unstable multiplier. The [seven-page article](papers/raar-symbolic-dynamics/manuscript.pdf) includes the proof, actual-state figures, all failed proposals and explicit limits: attraction of this set and historical uniqueness remain unresolved.
+
+[Native geometry and certified cycles](docs/assets/raar-symbolic-geometry.png) · [The two-route graph](docs/assets/raar-symbolic-graph.png) · [Coded excursions](docs/assets/raar-symbolic-itineraries.png) · [Reproduce the certificates](papers/raar-symbolic-dynamics/README.md)
 
 **[Another construction: three throats in a localized Gaussian-vortex flow](docs/gaussian-vortex.md).** A continuous three-state field produces a detailed folded geometry from 4.8 million actual states. A 30,000-unit spectrum, step refinement and an independent adaptive solver support chaos; fresh starts also expose a competing numerical cycle. The [108-regime novelty audit](docs/attractor-novelty-audit.md) compares this candidate and the earlier twist images, including affine-coordinate controls. Halvorsen is the new image's closest geometric reference, so threefold appearance is not claimed as new.
 

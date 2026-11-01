@@ -1,0 +1,261 @@
+{
+  "status": "passed",
+  "mode": "primary",
+  "checked_edges": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "complete_graph": false,
+  "input_sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60",
+  "checks": [
+    {
+      "edge": 0,
+      "kind": "volume",
+      "cells": 2432,
+      "maximum_depth": 12,
+      "minimum_axis": "0.124835510948383130112778488522062636339520348803737047939898629191950544197",
+      "minimum_strict_margin": "0.1024594917506819286254601779",
+      "classification_counts": {
+        "left-exterior": 192,
+        "stable-interior": 2048,
+        "right-exterior": 192
+      }
+    },
+    {
+      "edge": 0,
+      "kind": "left",
+      "cells": 16,
+      "maximum_depth": 4,
+      "minimum_axis": "0.125512519621290694556449406334247437749494068581500479252615196438656051539",
+      "minimum_strict_margin": "0.1063028914461489739132878564",
+      "classification_counts": {
+        "exit-face": 16
+      }
+    },
+    {
+      "edge": 0,
+      "kind": "right",
+      "cells": 16,
+      "maximum_depth": 4,
+      "minimum_axis": "0.124149472874763525430665982363799964387739900732220842546587514095224168069",
+      "minimum_strict_margin": "0.143629587325277210809723731",
+      "classification_counts": {
+        "exit-face": 16
+      }
+    },
+    {
+      "edge": 1,
+      "kind": "volume",
+      "cells": 939,
+      "maximum_depth": 14,
+      "minimum_axis": "0.125005855851697502478108897427445801973007342194165765668552515999378475153",
+      "minimum_strict_margin": "0.0009757905660507113311012057988",
+      "classification_counts": {
+        "stable-interior": 498,
+        "left-exterior": 393,
+        "right-exterior": 48
+      }
+    },
+    {
+      "edge": 1,
+      "kind": "left",
+      "cells": 16,
+      "maximum_depth": 4,
+      "minimum_axis": "0.125512519621290694556449406334247437749494068581500479252615196438656051539",
+      "minimum_strict_margin": "316.1534687496591661367523049",
+      "classification_counts": {
+        "exit-face": 16
+      }
+    },
+    {
+      "edge": 1,
+      "kind": "right",
+      "cells": 64,
+      "maximum_depth": 6,
+      "minimum_axis": "0.124947556771667782370674420951879650808572910669168247628810845372551740757",
+      "minimum_strict_margin": "1.904421429999871267558350826",
+      "classification_counts": {
+        "exit-face": 64
+      }
+    },
+    {
+      "edge": 2,
+      "kind": "volume",
+      "cells": 631,
+      "maximum_depth": 13,
+      "minimum_axis": "0.127584802428659290728433774829293864047046851570392535105707895099882327188",
+      "minimum_strict_margin": "0.00003344334333439400946495660879",
+      "classification_counts": {
+        "stable-interior": 631
+      }
+    },
+    {
+      "edge": 2,
+      "kind": "left",
+      "cells": 256,
+      "maximum_depth": 8,
+      "minimum_axis": "0.127544448378993322509330607469463335066161889477919963963938775344833025631",
+      "minimum_strict_margin": "0.046870597410507641689496830",
+      "classification_counts": {
+        "exit-face": 256
+      }
+    },
+    {
+      "edge": 2,
+      "kind": "right",
+      "cells": 374,
+      "maximum_depth": 9,
+      "minimum_axis": "0.127588216119364732483344654700214244604430618166718195110344994226857474119",
+      "minimum_strict_margin": "0.0009163243016665765802761946300",
+      "classification_counts": {
+        "exit-face": 374
+      }
+    },
+    {
+      "edge": 3,
+      "kind": "volume",
+      "cells": 221,
+      "maximum_depth": 10,
+      "minimum_axis": "0.121903645926902384302675961247567438412607683731309717045286597098095145418",
+      "minimum_strict_margin": "0.002716855272376581860403532986",
+      "classification_counts": {
+        "stable-interior": 221
+      }
+    },
+    {
+      "edge": 3,
+      "kind": "left",
+      "cells": 256,
+      "maximum_depth": 8,
+      "minimum_axis": "0.121925404756720868067745591919144036623504245600562680317746554235635036096",
+      "minimum_strict_margin": "0.052491393421513736952625920",
+      "classification_counts": {
+        "exit-face": 256
+      }
+    },
+    {
+      "edge": 3,
+      "kind": "right",
+      "cells": 256,
+      "maximum_depth": 8,
+      "minimum_axis": "0.121897170628480093042267023240908261404980375776309898996333624707568689448",
+      "minimum_strict_margin": "0.08958461151992908671706625701",
+      "classification_counts": {
+        "exit-face": 256
+      }
+    },
+    {
+      "edge": 4,
+      "kind": "volume",
+      "cells": 734,
+      "maximum_depth": 12,
+      "minimum_axis": "0.137689550314930893679699576480167171954118328079015902206762828692312380954",
+      "minimum_strict_margin": "0.0004016028771795535472724662968",
+      "classification_counts": {
+        "stable-interior": 734
+      }
+    },
+    {
+      "edge": 4,
+      "kind": "left",
+      "cells": 128,
+      "maximum_depth": 7,
+      "minimum_axis": "0.137631220869647733647035503620582045508271666563974837021450171495012120655",
+      "minimum_strict_margin": "0.019255513817060650079609930",
+      "classification_counts": {
+        "exit-face": 128
+      }
+    },
+    {
+      "edge": 4,
+      "kind": "right",
+      "cells": 156,
+      "maximum_depth": 8,
+      "minimum_axis": "0.137733723692043785016206403638491153041807766558300476065684895539762578303",
+      "minimum_strict_margin": "0.0001400077298075627442582960047",
+      "classification_counts": {
+        "exit-face": 156
+      }
+    },
+    {
+      "edge": 5,
+      "kind": "volume",
+      "cells": 321,
+      "maximum_depth": 10,
+      "minimum_axis": "0.103691252015227498695026072399484810656413323019918861432742486947754488506",
+      "minimum_strict_margin": "0.001426862246815437257150703565",
+      "classification_counts": {
+        "stable-interior": 321
+      }
+    },
+    {
+      "edge": 5,
+      "kind": "left",
+      "cells": 128,
+      "maximum_depth": 7,
+      "minimum_axis": "0.103763072469389640672421762300027982746457985758751005610411911774828276097",
+      "minimum_strict_margin": "0.079296287951514462139961116",
+      "classification_counts": {
+        "exit-face": 128
+      }
+    },
+    {
+      "edge": 5,
+      "kind": "right",
+      "cells": 128,
+      "maximum_depth": 7,
+      "minimum_axis": "0.103672118598113599453775235578525643742136786092147567240790164269594178991",
+      "minimum_strict_margin": "0.09174382136332356031085818430",
+      "classification_counts": {
+        "exit-face": 128
+      }
+    },
+    {
+      "edge": 6,
+      "kind": "volume",
+      "cells": 653,
+      "maximum_depth": 12,
+      "minimum_axis": "0.238356435844175001415685458211530667540704457096959890372433051101797886568",
+      "minimum_strict_margin": "0.0001197554020794950597918774030",
+      "classification_counts": {
+        "stable-interior": 653
+      }
+    },
+    {
+      "edge": 6,
+      "kind": "left",
+      "cells": 32,
+      "maximum_depth": 5,
+      "minimum_axis": "0.238279678296437252301569460914388546549986393872579306279767203219334051016",
+      "minimum_strict_margin": "0.054753624383743899135041081",
+      "classification_counts": {
+        "exit-face": 32
+      }
+    },
+    {
+      "edge": 6,
+      "kind": "right",
+      "cells": 32,
+      "maximum_depth": 5,
+      "minimum_axis": "0.239012754218104343475950625229084010594762874924571800777944380692933819258",
+      "minimum_strict_margin": "0.05775793846865178961743696966",
+      "classification_counts": {
+        "exit-face": 32
+      }
+    }
+  ],
+  "total_accepted_cells": 7789,
+  "global_minimum_axis": "0.103672118598113599453775235578525643742136786092147567240790164269594178991",
+  "window_0_1_separation_exact": [
+    "-6928257167377243005521704757376638799250328340639454530132642921883/2782135872853537569482195063865214426026421414614830072859231857408",
+    "-59943453094580614448703045799875217391916335443813391572510673966477/25039222855681838125339755574786929834237792731533470655733086716672"
+  ],
+  "certified_cycle_box_inside_window_0": true,
+  "entropy_bound": "log(2)/49 > 0.01414 per F iterate, conditional on the complete graph and the covering theorem",
+  "scope": "The audit validates stored strict inequalities, complete closed dyadic tilings, exact window invertibility/separation and source identity. It does not independently recompute the interval image enclosures or certify attraction/novelty."
+}

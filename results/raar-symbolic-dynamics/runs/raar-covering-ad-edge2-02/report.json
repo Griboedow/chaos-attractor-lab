@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "edges": [
+    2
+  ],
+  "checks": [
+    {
+      "edge": 2,
+      "source": 1,
+      "target": 2,
+      "kind": "volume",
+      "status": "passed",
+      "examined": 799,
+      "accepted": 400,
+      "pending": 0,
+      "maximum_depth": 12,
+      "minimum_axis": "[0.127598333142524559198134902686705564022364662268129782745521352006300218442121101143739216968796741687671, 0.127598333142524559198134902686705564022364662268129782745521352006300218442121101143739216968796741687671]",
+      "certificate_sha256": "cfb82bc7b01dfcfd9a2b52d223d14e43635fd52b9d5b27c24b138b390ad5f878"
+    },
+    {
+      "edge": 2,
+      "source": 1,
+      "target": 2,
+      "kind": "left",
+      "status": "passed",
+      "examined": 511,
+      "accepted": 256,
+      "pending": 0,
+      "maximum_depth": 8,
+      "minimum_axis": "[0.127578539439541992086368588406965028104368878153041009646583696503680520506629261294135789822108671772252, 0.127578539439541992086368588406965028104368878153041009646583696503680520506629261294135789822108671772252]",
+      "certificate_sha256": "aad6826b8f6d70ae885c8b687e8a6e68ed32a108ab051fed7973277e85a01db9"
+    },
+    {
+      "edge": 2,
+      "source": 1,
+      "target": 2,
+      "kind": "right",
+      "status": "passed",
+      "examined": 575,
+      "accepted": 288,
+      "pending": 0,
+      "maximum_depth": 9,
+      "minimum_axis": "[0.127607732313174512957913082825445983565646349096709062860366298283263981789007770490824247773330119484151, 0.127607732313174512957913082825445983565646349096709062860366298283263981789007770490824247773330119484151]",
+      "certificate_sha256": "0ac28a059fcd0c57fc77841d0a88676512e39adf83e2db650dedfc7ce9bc8854"
+    }
+  ],
+  "interval_digits": 100,
+  "mpmath": "1.3.0",
+  "input_sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60",
+  "source_sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a",
+  "window_0_1_separation": "[-2.49026556717777289992384258411047556696485004349699292327193070626724163348010431512836195888181011695543, -2.39398217109515422830269497418446893693529625675125384875707616240627163354965350967281440032490569392289]",
+  "seconds": 49.66626167297363,
+  "scope": "Strict interval covering conditions for the listed G=F^7 window edges. Full branching graph requires all edges; attracting chaos, manifold smoothness and historical novelty are not certified.",
+  "second_implementation": "Scalar orthonormal circle coordinates; nested reflectors; forward interval automatic differentiation; exact rational Gaussian matrix inversion. Shared subdivision driver and interval library.",
+  "second_source_sha256": "494161d1219c66016bc7ceac0da8b9d32ebb91366b2cd7ca572a8c3e50a2d742"
+}

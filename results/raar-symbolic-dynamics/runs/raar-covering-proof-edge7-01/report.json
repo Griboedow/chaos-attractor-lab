@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "edges": [
+    7
+  ],
+  "checks": [
+    {
+      "edge": 7,
+      "source": 6,
+      "target": 0,
+      "kind": "volume",
+      "status": "passed",
+      "examined": 17227,
+      "accepted": 8614,
+      "pending": 0,
+      "maximum_depth": 14,
+      "minimum_axis": "[0.126600979542692185152702723633837698149394782869315087147536542642203636192, 0.126600979542692185152702723633837698149394782869315087147536542642203636192]",
+      "certificate_sha256": "1c23cd2690ae4fe2b145ccd6c9ab16825924ad46fa20192ba8c00a53a861c523"
+    },
+    {
+      "edge": 7,
+      "source": 6,
+      "target": 0,
+      "kind": "left",
+      "status": "passed",
+      "examined": 63,
+      "accepted": 32,
+      "pending": 0,
+      "maximum_depth": 5,
+      "minimum_axis": "[0.126416461787103372047273318972801494285457977368949419784828475665224505438, 0.126416461787103372047273318972801494285457977368949419784828475665224505438]",
+      "certificate_sha256": "ead1c859aafd958a959410de393dbacd7f2016964f40a14abc592dcb35ccf124"
+    },
+    {
+      "edge": 7,
+      "source": 6,
+      "target": 0,
+      "kind": "right",
+      "status": "passed",
+      "examined": 63,
+      "accepted": 32,
+      "pending": 0,
+      "maximum_depth": 5,
+      "minimum_axis": "[0.127043681548888821504343973299957877145408872273702814012426468021070936466, 0.127043681548888821504343973299957877145408872273702814012426468021070936466]",
+      "certificate_sha256": "c94c3b875a6d5b935ecda9d7f64e0c4c8786390f60db25ba31eedadfcfcae178"
+    }
+  ],
+  "interval_digits": 70,
+  "mpmath": "1.3.0",
+  "input_sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60",
+  "source_sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a",
+  "window_0_1_separation": "[-2.49026556717777289992384258411047556696485004349699292327193070626724198333, -2.39398217109515422830269497418446893693529625675125384875707616240627131435]",
+  "seconds": 436.4676125049591,
+  "scope": "Strict interval covering conditions for the listed G=F^7 window edges. Full branching graph requires all edges; attracting chaos, manifold smoothness and historical novelty are not certified."
+}
