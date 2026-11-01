@@ -20,6 +20,8 @@ The [subsequent grid study](yogi-parameter-plane.md) broadens the finite evidenc
 
 The [smoothing control](yogi-smoothing-control.md) also credits the pre-existing `activation="tanh"` option in TensorFlow Addons. Its fixed coefficient in physical coordinates differs from our explicitly declared relative-width mechanism test. Smooth Yogi is not a new equation proposed here, and persistence under sampled smoothing does not establish a new attractor class.
 
+The [smooth-variant study](yogi-tanh.md) now tests that actual existing option, including unmodified TensorFlow executions. Its [cycle analysis](yogi-tanh-structure.md#what-is-already-equivalent-to-adam) explicitly identifies an Adam local-Jacobian equivalence. The particular numerical regimes and the all-parameter scalar boundedness argument are the concrete results to assess; the known optimizer, symmetric cycle and broad chaos setting are not relabeled as discoveries.
+
 ## Original algorithm and convergence results
 
 [Zaheer, Reddi, Sachan, Kale and Kumar (2018), *Adaptive Methods for Nonconvex Optimization*](https://proceedings.neurips.cc/paper/2018/file/90365351ccc7437a1309dc64e4db32a3-Paper.pdf): Algorithm 2 and Section 3.2 were inspected; the [author's 18-page version](https://www.satyenkale.com/papers/yogi.pdf) additionally supplies Theorem 2 and Appendix B. The second-moment lower bound `v_t>=beta2*v_(t-1)` and a bounded-gradient upper bound are already there. Their displayed analysis uses zero first-moment coefficient, globally bounded gradients, and restrictive step/epsilon assumptions. Our fixed-step examples do not satisfy those hypotheses and are not counterexamples to that theorem.

@@ -1,0 +1,22 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-tanh\\scout.npz",
+  "source_sha256": "77c5b52b805c04c22d81886b40d56b6024f57e05e5a0495cd95c477e9c3e59aa",
+  "ids": [
+    7239,
+    1703,
+    8007,
+    1149
+  ],
+  "tensorflow": "2.14.1",
+  "tensorflow_addons": "0.22.0",
+  "numpy": "1.26.4",
+  "python": "3.10.20",
+  "installed_source": "D:\\Codex\\chaos-attractor-search-20261031\\tfa-env\\lib\\site-packages\\tensorflow_addons\\optimizers\\yogi.py",
+  "installed_source_sha256": "5ca7f95061565c3e6f1ccdda73db71cf75ebb9118d577a60183892d4a8a94f3c",
+  "source_url": "https://github.com/tensorflow/addons/blob/v0.22.0/tensorflow_addons/optimizers/yogi.py",
+  "dtype": "float64 state and tensor-valued learning rate,beta2,epsilon. beta1 uses the public Python-float argument and is stored as float32 by upstream Keras add_weight, then promoted to float64. The exact effective value is recorded and used in controls. Unmodified optimizer implementation.",
+  "objective": "theta^2/2",
+  "steps": 300000,
+  "initialization": "theta=.73*alpha,m=0,v=1e-6 from library slot creation; continuous library bias correction; no regularization.",
+  "scope": "Actual library histories. Autonomous derivative analysis is performed separately after a long warmup; tiny parameter-rounding differences are recorded."
+}

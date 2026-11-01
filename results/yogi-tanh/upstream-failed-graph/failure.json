@@ -1,0 +1,5 @@
+{
+  "status": "Failed before any long history was produced",
+  "reason": "Passing beta1 as a Tensor caused the unmodified library's Python conditional self._beta1 == 0.0 to reject symbolic graph execution. The first20 eager steps passed their independent arithmetic assertion.",
+  "correction": "Use the public Python-float beta1 argument with Keras floatx set to float64, verify the resulting hyperparameters exactly, and retain this failed driver and protocol. No library code is changed."
+}

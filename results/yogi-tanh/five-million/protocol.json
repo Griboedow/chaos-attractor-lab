@@ -1,0 +1,21 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-tanh\\scout.npz",
+  "sha256": "77c5b52b805c04c22d81886b40d56b6024f57e05e5a0495cd95c477e9c3e59aa",
+  "ids": [
+    2850,
+    39,
+    7207,
+    7239,
+    1703,
+    8007,
+    8205,
+    7974
+  ],
+  "selection": "All primary scout flags, or explicit IDs supplied on the command line.",
+  "warmup": 100000,
+  "observed": 5000000,
+  "window": 50000,
+  "tail": 4096,
+  "initialization": "Fresh original scout starts, retaining each prescribed bias-correction setting throughout. No continuation from the scout endpoint.",
+  "scope": "Finite smooth-map full derivative spectra. No theorem of chaos, infinite-time positivity, attractor existence or historical uniqueness."
+}

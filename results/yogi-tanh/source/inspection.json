@@ -1,0 +1,13 @@
+{
+  "audit_date": "2026-11-01",
+  "source_url": "https://github.com/tensorflow/addons/blob/d208d752e98c310280938efa939117bf635a60a8/tensorflow_addons/optimizers/yogi.py",
+  "release_url": "https://github.com/tensorflow/addons/blob/v0.22.0/tensorflow_addons/optimizers/yogi.py",
+  "master_commit": "d208d752e98c310280938efa939117bf635a60a8",
+  "fetched_release_equals_master_text": true,
+  "read_scope": "Full class, constructor defaults, slot creation, dense and sparse updates, bias correction and serialized configuration.",
+  "finding": "The tanh activation is an existing library feature, not a newly proposed optimizer. It uses tanh(10*(g^2-v)), a fixed coefficient10 in physical coordinates. No regularization is used in these experiments.",
+  "normalization": "On theta^2/2, theta=alpha*x, M=alpha*m, V=alpha^2*v and epsilon=alpha*e give k=10*alpha^2. Thus k is tied to the actual learning rate.",
+  "library_bias": "alpha*sqrt(1-beta2^t)/(1-beta1^t) multiplies the update, with epsilon outside the uncorrected square root. This differs from Optax epsilon placement during the transient.",
+  "priority_scope": "Focused searches included Yogi optimizer + tanh, smooth, attractor, chaos, hyperchaos, dynamical systems. No matching regime was located in these bounded searches. This does not establish absence or non-equivalence.",
+  "prior_models": "See docs/yogi-priority.md for original Yogi, Adam/RMSProp quadratic chaos, memristor embeddings, piecewise maps, and remaining inaccessible-primary-source gaps."
+}

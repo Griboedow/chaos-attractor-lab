@@ -1,0 +1,20 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-tanh\\scout.npz",
+  "source_sha256": "77c5b52b805c04c22d81886b40d56b6024f57e05e5a0495cd95c477e9c3e59aa",
+  "ids": [
+    39,
+    7239,
+    2850
+  ],
+  "digits": [
+    70,
+    90
+  ],
+  "warmup": 100000,
+  "alignment": 5000,
+  "observed": 100000,
+  "window": 10000,
+  "method": "Independent scalar mpmath recurrence and two finite-separation directions, reorthogonalized twice each step. No production map or analytic derivative is imported.",
+  "initialization": "Exact promotion of stored binary64 coefficients and coordinates; retain original declared bias warmup. Bias powers below10^(-digits-10) are set to0, after their subtraction has rounded to1 at working precision.",
+  "scope": "Finite numerical reproducibility, not asymptotic Lyapunov positivity or historical uniqueness."
+}

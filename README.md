@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[Smooth Yogi: folded ribbons and two expanding directions](docs/yogi-tanh.md).** An existing TensorFlow Addons option produces a feathered crescent on a scalar quadratic. Two selected regimes pass five-million-step, independent 70/90-digit and actual-library checks for two positive finite growth rates. The companion proof bounds every legal orbit and explicitly identifies the known Adam two-cycle's local equivalence. The algorithm is prior work; a new attractor class remains unestablished.
+
+![Rigid camera rotation around folded ribbons and a feathered crescent in the existing smooth Yogi map](docs/assets/yogi-tanh-rotation.gif)
+
+[Large portrait](docs/assets/yogi-tanh-geometry.png) · [Independent evidence](docs/assets/yogi-tanh-evidence.png) · [Exact structure and known equivalence](docs/yogi-tanh-structure.md)
+
 **[Yogi: a feathered arc and stronger two-direction expansion](docs/yogi-parameter-plane.md).** A new 2,048-setting grid finds a thin arc of repeated fans inside a published scalar-quadratic optimizer. A separate candidate retains two positive branch rates in all 100 windows of a five-million-step run, all independent 70/90-digit windows, and all actual Optax windows. The full grid, competing fixed outcomes and weaker continuations are retained. Historical uniqueness and asymptotic chaotic attraction remain unresolved.
 
 ![The fixed feathered-arc Yogi state cloud viewed by a rotating orthographic camera](docs/assets/yogi-feathered-arc.gif)

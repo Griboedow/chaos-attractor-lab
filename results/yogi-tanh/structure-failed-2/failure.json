@@ -1,0 +1,1 @@
+{"stage":"Adam Jacobian symbolic comparison","reason":"The expression substituted a=r*(1-b)/(2*(1+b)) before simplifying sqrt(a^2) using a>0; SymPy has no 0<b<1 assumption and retains absolute values. Simplify at the positive amplitude before substitution. No mathematical formula changed."}

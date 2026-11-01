@@ -1,0 +1,16 @@
+{
+  "seed": 2026110162,
+  "declared": 8256,
+  "parameter_rows": 4128,
+  "objective": "theta^2/2",
+  "warmup": 20000,
+  "observed": 50000,
+  "window": 10000,
+  "tail": 512,
+  "design": "4096 scrambled Sobol rows plus 32 controls. b=.02+.975*u in first half and .7+.299*u in second; c=.02+.975*u; e=.1 on even rows and 10^(-6+5*u) on odd rows; k=10^(-3+8*u).",
+  "initialization": "Each row has x=.73,m=0: even trial v=0, autonomous; odd trial v=1e-5/k, with continuous TFA bias correction sqrt(1-c^t)/(1-b^t). Library initial physical v=1e-6.",
+  "normalization": "alpha=sqrt(k/10), physical epsilon=alpha*e; x=theta/alpha,m=M/alpha,v=V/alpha^2. tanh coefficient in original library is fixed at10.",
+  "primary_rule": "Complete; every leading10k window>.005; tail x span>1e-4; no tail return at lags1..32 under tolerance1e-9*(1+maxabsstate).",
+  "source": "https://github.com/tensorflow/addons/blob/d208d752e98c310280938efa939117bf635a60a8/tensorflow_addons/optimizers/yogi.py",
+  "scope": "Existing library variant, independently transcribed. This scout is not actual TensorFlow execution or a historical-novelty proof."
+}

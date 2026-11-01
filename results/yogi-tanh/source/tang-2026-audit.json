@@ -1,0 +1,13 @@
+{
+  "audit_date": "2026-11-01",
+  "url": "https://arxiv.org/html/2609.18314v2",
+  "title": "Beyond Quadratic Loss: The Stability Phase Diagram of Adam",
+  "authors": [
+    "Gaoxiang Tang",
+    "Huanran Chen",
+    "Ziming Liu"
+  ],
+  "version": "v2, 25 September 2026",
+  "read_scope": "Abstract, introduction, Section 3, Appendix C.1-C.2, period-detection description B.2; not an exhaustive audit of every proof or cited paper.",
+  "finding": "Adam memory-parameter phase diagrams and quadratic-loss oscillations are already studied. The quadratic baseline uses 250000 updates with 125000 discarded and threshold crossings to estimate a macroscopic period. Appendix C varies curvature, learning rate and epsilon. These diagnostics differ from full derivative spectra. The superquadratic right-boundary result treats n>2 with epsilon and bias factors neglected. No tanh-Yogi map or matching hyperchaotic regime was identified in the sections inspected. This is not a non-equivalence or priority certificate."
+}

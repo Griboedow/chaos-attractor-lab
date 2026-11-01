@@ -1,0 +1,84 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-tanh\\scout.npz",
+  "source_sha256": "77c5b52b805c04c22d81886b40d56b6024f57e05e5a0495cd95c477e9c3e59aa",
+  "reference": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-tanh-five-million\\histories.npz",
+  "reference_sha256": "57cade6cc01bfdb28e9354ab2e695934f5c62861baa087ef899e168ed1288d94",
+  "ids": [
+    39,
+    7239,
+    2850
+  ],
+  "declared": 420,
+  "amplitudes": [
+    -1e-06,
+    -7.742636826811277e-06,
+    -5.994842503189409e-05,
+    -0.00046415888336127773,
+    -0.003593813663804626,
+    -0.02782559402207126,
+    -0.21544346900318823,
+    -1.6681005372000557,
+    -12.915496650148826,
+    -100.0,
+    1e-06,
+    7.742636826811277e-06,
+    5.994842503189409e-05,
+    0.00046415888336127773,
+    0.003593813663804626,
+    0.02782559402207126,
+    0.21544346900318823,
+    1.6681005372000557,
+    12.915496650148826,
+    100.0,
+    -0.73,
+    0.73
+  ],
+  "neighbor_design": "32Sobol4tuples seed2026110163; multiply(1-b,1-c,e,k) by exp(.04*(u-.5)), approximately+/-2%. Retain original source-row bias convention.",
+  "boxes": [
+    {
+      "id": 39,
+      "lower": [
+        -0.5683266648020058,
+        -0.03447822222960348,
+        1e-12
+      ],
+      "upper": [
+        0.5626077692938943,
+        0.034569342092911896,
+        0.3539647278428827
+      ]
+    },
+    {
+      "id": 7239,
+      "lower": [
+        -0.6706296978040985,
+        -0.07824160191236872,
+        1e-12
+      ],
+      "upper": [
+        0.71114571715477,
+        0.08603538350525651,
+        0.6606647827315573
+      ]
+    },
+    {
+      "id": 2850,
+      "lower": [
+        -0.6915512914261486,
+        -0.637620258021989,
+        0.08750588523102566
+      ],
+      "upper": [
+        0.6896660441020961,
+        0.6362251938828272,
+        0.3425230126651204
+      ]
+    }
+  ],
+  "box_design": "64Sobol3tuples seed2026110164 in reference-tail box expanded10%; lower v clipped to1e-12. Autonomous histories.",
+  "warmup": 100000,
+  "observed": 500000,
+  "window": 50000,
+  "tail": 4096,
+  "scope": "Finite robustness and attraction evidence only. Library-style runs are independent transcriptions at scout coefficients, not actual TensorFlow executions. Reflection-related plus/minus starts are not independent discoveries."
+}

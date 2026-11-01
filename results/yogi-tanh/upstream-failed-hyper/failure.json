@@ -1,0 +1,7 @@
+{
+  "status": "Failed at hyperparameter equality assertion, before any integration",
+  "reason": "Keras legacy OptimizerV2.add_weight defaults to tf.float32 at lines1354-1355 even when backend.floatx is float64. Consequently the public Python-float beta1 is rounded to float32 before casting to the variable dtype.",
+  "requested_beta1": 0.05067918724846095,
+  "effective_beta1": 0.05067918822169304,
+  "correction": "Retain unmodified library behavior, record the effective beta1, and use that exact value in independent arithmetic and derivative analysis. Do not claim exact equality to the original scout parameter."
+}

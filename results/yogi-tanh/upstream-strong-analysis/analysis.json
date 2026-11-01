@@ -1,0 +1,127 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-tanh-upstream-strong",
+  "runs": [
+    {
+      "id": 7239,
+      "parameters": [
+        0.9664813280105591,
+        0.1086456582462415,
+        0.001926981470950336,
+        3341.612640680699
+      ],
+      "spectrum": [
+        0.15586984832742487,
+        0.03163231998639689,
+        -0.16813207675936648
+      ],
+      "window_minima": [
+        0.14849646358746715,
+        0.02660271746116984,
+        -0.17824231346661606
+      ],
+      "window_maxima": [
+        0.16507510887709995,
+        0.03618472614044744,
+        -0.1602601142848057
+      ],
+      "period_up_to128": null,
+      "exact_fixed_line_linear_rates": null,
+      "step_max_scaled_residual": 7.750071670698051e-14,
+      "determinant_sum_max_residual": 6.8486882831564344e-15,
+      "source_sha256": "1eb4474b8766115b2e29cddc3675d3cf173eb555b950b0f0a8e5aa55ec6e5958"
+    },
+    {
+      "id": 1703,
+      "parameters": [
+        0.9722046852111816,
+        0.031479428224265575,
+        0.006539367641449245,
+        846.5397434213663
+      ],
+      "spectrum": [
+        0.1803915022451885,
+        0.031299586203482284,
+        -0.23441617991778194
+      ],
+      "window_minima": [
+        0.17240856385390402,
+        0.0253387849953516,
+        -0.2516609316678665
+      ],
+      "window_maxima": [
+        0.1907007861187689,
+        0.039491891068022186,
+        -0.22165460205567547
+      ],
+      "period_up_to128": null,
+      "exact_fixed_line_linear_rates": null,
+      "step_max_scaled_residual": 6.061727054293669e-15,
+      "determinant_sum_max_residual": 2.976785484776201e-15,
+      "source_sha256": "7b77dd5e9e43bd9337bb2b8ccce2da739a231a3f231a345ed0bf5342e562a1da"
+    },
+    {
+      "id": 8007,
+      "parameters": [
+        0.9708292484283447,
+        0.2272958458214998,
+        1.948654020834775e-05,
+        810.7646820376824
+      ],
+      "spectrum": [
+        0.14756524869312485,
+        0.02814254642001327,
+        -0.1432713167332282
+      ],
+      "window_minima": [
+        0.13894048748136897,
+        0.02455444225351747,
+        -0.14875098595755293
+      ],
+      "window_maxima": [
+        0.15498905855597353,
+        0.03051214246436984,
+        -0.13912750920881645
+      ],
+      "period_up_to128": null,
+      "exact_fixed_line_linear_rates": null,
+      "step_max_scaled_residual": 2.0793545060898116e-14,
+      "determinant_sum_max_residual": 4.558853294867049e-15,
+      "source_sha256": "edda11507c9241ead2e55a0dd119cee184b4aae24394f0c22410d7b3f5e4857e"
+    },
+    {
+      "id": 1149,
+      "parameters": [
+        0.12529386579990387,
+        0.8483641119021922,
+        0.1,
+        758.512981711651
+      ],
+      "spectrum": [
+        0.26932302612898357,
+        -0.28524117313517894,
+        -2.033093311206846
+      ],
+      "window_minima": [
+        0.2575360664318229,
+        -0.30071361155539583,
+        -2.040933215958384
+      ],
+      "window_maxima": [
+        0.2835246062257408,
+        -0.2747504857425991,
+        -2.027455072793631
+      ],
+      "period_up_to128": null,
+      "exact_fixed_line_linear_rates": null,
+      "step_max_scaled_residual": 6.93313455250552e-16,
+      "determinant_sum_max_residual": 1.5232259897857148e-13,
+      "source_sha256": "c97e01664d18925dd2feb850442f1890a3a5d5233b7a8245ebe9871d4248901e"
+    }
+  ],
+  "completed": 4,
+  "declared": 4,
+  "warmup": 100000,
+  "alignment_transitions": 9999,
+  "observed_transitions": 190000,
+  "scope": "Actual library states with analytic full tangents at the exact effective library coefficients. No inference of equality with a different autonomous basin."
+}
