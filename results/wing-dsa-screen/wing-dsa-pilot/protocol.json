@@ -1,0 +1,55 @@
+{
+  "source": "https://sponberg.gatech.edu/wp-content/uploads/2022/08/Gau-et-al-2022_02.pdf",
+  "equations": "4 and9; no clipping, forcing or added state",
+  "parameters": [
+    "r3/omega_n",
+    "kappa",
+    "mu/k",
+    "clock_factor"
+  ],
+  "lower": [
+    0.03,
+    0.01,
+    0.001
+  ],
+  "upper": [
+    30.0,
+    0.99,
+    100.0
+  ],
+  "clock_factor": 1.0,
+  "seed": 2026110103,
+  "power": 13,
+  "selection": "Origin largest real eigenvalue>.001; does not search hidden attractors with a stable origin.",
+  "lanes": 8196,
+  "starts": [
+    [
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.5,
+      -0.3,
+      0.2
+    ]
+  ],
+  "warm": 500.0,
+  "observation": 2000.0,
+  "rtol": 1e-09,
+  "atol": 1e-12,
+  "maxstep": 0.03,
+  "retention": "Every one of four windows>.005; exploratory weak threshold>.001",
+  "time": "tau=sqrt(k/I)*t; nonlinear drag sets the coordinate amplitude unit",
+  "source_control_sha256": "d5c67b6fa0b14840f1d1845cfeee9259b7a28721a8b047beafddb6f342f1dbce",
+  "limitations": "Mathematical physical-sign parameter family, not fitted insect or robot predictions. The source quadratic-drag coefficient is not recovered; physical angular amplitudes are not claimed.",
+  "status_codes": {
+    "0": "complete",
+    "1": "magnitude cutoff1e7",
+    "2": "numerical failure",
+    "3": "step budget unresolved",
+    "4": "wall budget unresolved"
+  }
+}

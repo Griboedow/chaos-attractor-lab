@@ -1,0 +1,26 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-pilot\\complete-or-budgeted.npz",
+  "source_sha256": "99d4d83d589053837e822e581071a8a9ed1a324af3f1cf8e9a9d52cae7511d35",
+  "source_ids": [
+    61,
+    1534,
+    2956,
+    3205,
+    3362,
+    3363,
+    3844,
+    4344,
+    6470,
+    6613
+  ],
+  "selection": "Every weak pilot signal, all four windows>.001; independent800tau checks had too few crossings to classify.",
+  "warm": 2000.0,
+  "observation": 40000.0,
+  "rtol": 2e-10,
+  "atol": 2e-13,
+  "maxstep": 0.03,
+  "wall_budget": 1200.0,
+  "step_budget": 10000000,
+  "retention": "Every one of four10000tau windows>.001",
+  "limitation": "Finite continuation, not an asymptotic classification."
+}

@@ -1,0 +1,103 @@
+{
+  "source": "https://sponberg.gatech.edu/wp-content/uploads/2022/08/Gau-et-al-2022_02.pdf",
+  "equations": "4,9 and12",
+  "controls": [
+    {
+      "name": "stable",
+      "parameters": [
+        0.5,
+        0.5,
+        0.2,
+        1.0
+      ],
+      "solver_scaled_difference": 2.6021554593434002e-11,
+      "equilibrium_eigenvalues": [
+        [
+          -0.017131812895929355,
+          0.9856789338790848
+        ],
+        [
+          -0.017131812895929355,
+          -0.9856789338790848
+        ],
+        [
+          -0.3578681871040707,
+          0.02345586624376773
+        ],
+        [
+          -0.3578681871040707,
+          -0.02345586624376773
+        ]
+      ],
+      "tail_amplitude": 3.23576978178628e-11,
+      "sha256": "cd0f46777d37dfd0c160345f60c6389585c3d6780b9142c83fe5aa1163b6f3e2"
+    },
+    {
+      "name": "beyond_threshold",
+      "parameters": [
+        0.5,
+        0.5,
+        4.0,
+        1.0
+      ],
+      "solver_scaled_difference": 1.1150107579091568e-09,
+      "equilibrium_eigenvalues": [
+        [
+          -0.5086626124173139,
+          1.020847331461661
+        ],
+        [
+          -0.5086626124173139,
+          -1.020847331461661
+        ],
+        [
+          0.13366261241731403,
+          0.2796856683440045
+        ],
+        [
+          0.13366261241731403,
+          -0.2796856683440045
+        ]
+      ],
+      "tail_amplitude": 21.868443232197883,
+      "sha256": "ff1ca3505eabd9cba3ab727fe26a14bd1759a1613734ac28686b5d9713ecc08d"
+    },
+    {
+      "name": "reported_mechanics",
+      "parameters": [
+        2.4024226554427544,
+        0.5,
+        0.14423076923076925,
+        1.0
+      ],
+      "solver_scaled_difference": 4.343188460444467e-10,
+      "equilibrium_eigenvalues": [
+        [
+          0.010101053203498328,
+          0.9814350290176134
+        ],
+        [
+          0.010101053203498328,
+          -0.9814350290176134
+        ],
+        [
+          -2.34795658677935,
+          0.0
+        ],
+        [
+          -1.2758795027917758,
+          0.0
+        ]
+      ],
+      "tail_amplitude": 0.024687895805311773,
+      "sha256": "e76ba152f0838b0dde85dd56f27777217929e60f0c142321930f270ad9b6e2ea"
+    }
+  ],
+  "algebra_error": 8.752236349782379e-16,
+  "jacobian_error": 2.7282619059406345e-10,
+  "characteristic_polynomial_error": 2.135652254716703e-14,
+  "time": "tau=sqrt(k/I)*t",
+  "scope": "Exact dimensionless mathematical model. Quadratic drag sets the amplitude unit and is not inferred from a source figure.",
+  "physical_control": "k=.416Nm/rad,I=.00196kg m^2,r3=35/s,kappa=.5,mu=.06 as reported mechanical/gain values. Drag=.003 is an arbitrary algebra-test unit, not a fitted source value.",
+  "limitations": "No quantitative experimental-amplitude reproduction. The 2022 paper neglects bearing friction; printed Eq10 omits drag division by inertia, so literal dimensional Eq9 is used."
+}

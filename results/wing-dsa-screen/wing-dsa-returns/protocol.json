@@ -1,0 +1,222 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-pilot\\complete-or-budgeted.npz",
+  "source_sha256": "99d4d83d589053837e822e581071a8a9ed1a324af3f1cf8e9a9d52cae7511d35",
+  "jobs": [
+    {
+      "id": 61,
+      "parameters": [
+        0.1425033132762125,
+        0.07967354564608894,
+        1.2374957486449711,
+        1.0
+      ],
+      "initial": [
+        -125.37274274130202,
+        -7.49923883366816,
+        -181.55784041046647,
+        -6.693129559188386
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 1534,
+      "parameters": [
+        0.03871315557952671,
+        0.3292869505409806,
+        2.2948347145646144,
+        1.0
+      ],
+      "initial": [
+        -608.2387679443876,
+        -15.259705995764731,
+        -841.0182576477004,
+        -12.841204491762749
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 2956,
+      "parameters": [
+        0.08680172937914626,
+        0.05347633470528534,
+        1.1687676272448406,
+        1.0
+      ],
+      "initial": [
+        116.16747559065257,
+        -0.4712598609588825,
+        115.90335201294016,
+        -0.5110439881921807
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 3205,
+      "parameters": [
+        0.06744582803605718,
+        0.19738396849495046,
+        1.5874433777149908,
+        1.0
+      ],
+      "initial": [
+        -213.3916861109598,
+        7.089544975723775,
+        -163.03242844646135,
+        8.470380143171974
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 3362,
+      "parameters": [
+        0.12714933355185173,
+        0.011352236841292043,
+        1.1304747937804283,
+        1.0
+      ],
+      "initial": [
+        2431.863976783497,
+        34.238017259488295,
+        3604.0900328576517,
+        33.15751433537617
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 3363,
+      "parameters": [
+        0.12714933355185173,
+        0.011352236841292043,
+        1.1304747937804283,
+        1.0
+      ],
+      "initial": [
+        -686.3658242756914,
+        -35.95346801707201,
+        -1979.0341519330357,
+        -37.13678322715639
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 3844,
+      "parameters": [
+        0.06411020440767927,
+        0.46825679412681526,
+        2.857605717809356,
+        1.0
+      ],
+      "initial": [
+        -14.139807513978946,
+        0.27072640128686765,
+        -14.041357623633385,
+        0.284392584691585
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 4344,
+      "parameters": [
+        0.25152590369034095,
+        0.052041558834946454,
+        1.13561424283904,
+        1.0
+      ],
+      "initial": [
+        -6.732591635577319,
+        -3.6366414163494603,
+        -19.953481158994403,
+        -3.6014825588603028
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 6470,
+      "parameters": [
+        0.045572261720846635,
+        0.08590717625640286,
+        1.363035696007925,
+        1.0
+      ],
+      "initial": [
+        995.8773308182148,
+        -8.747844359223182,
+        919.2361770561507,
+        -10.782931821992198
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    },
+    {
+      "id": 6613,
+      "parameters": [
+        0.05688917208093049,
+        0.04301143655636797,
+        1.2655477124373784,
+        1.0
+      ],
+      "initial": [
+        2916.381754118357,
+        -41.88284294970482,
+        1162.1024638416275,
+        -50.82419529505869
+      ],
+      "duration": 800.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\wing-dsa-returns"
+    }
+  ],
+  "selection": "All completed scout lanes with all four leading-rate windows>.001; no primary .005 candidate existed.",
+  "method": "Saved endpoints, DOP853500tau warm, Radau800tau observation in independently transformed dimensional Eq9; exact Jacobian.",
+  "recurrence": "Solver-root x=0 upward events, last100, all4 coordinates, maximum scaled error<1e-7, lags1..16.",
+  "tangent_alignment": [
+    {
+      "id": 61,
+      "one_minus_absolute_flow_cosine": 7.114977718980509e-05
+    },
+    {
+      "id": 1534,
+      "one_minus_absolute_flow_cosine": 0.006851505962603199
+    },
+    {
+      "id": 2956,
+      "one_minus_absolute_flow_cosine": 0.003807922965822108
+    },
+    {
+      "id": 3205,
+      "one_minus_absolute_flow_cosine": 0.00030168831630139614
+    },
+    {
+      "id": 3362,
+      "one_minus_absolute_flow_cosine": 0.0011147710159918889
+    },
+    {
+      "id": 3363,
+      "one_minus_absolute_flow_cosine": 0.000846780384578083
+    },
+    {
+      "id": 3844,
+      "one_minus_absolute_flow_cosine": 0.0039801922229011355
+    },
+    {
+      "id": 4344,
+      "one_minus_absolute_flow_cosine": 8.59936424901786e-06
+    },
+    {
+      "id": 6470,
+      "one_minus_absolute_flow_cosine": 0.003468017613607488
+    },
+    {
+      "id": 6613,
+      "one_minus_absolute_flow_cosine": 0.0014643939204542766
+    }
+  ],
+  "limitation": "Finite numerical returns; no global absence-of-chaos theorem."
+}
