@@ -1,0 +1,96 @@
+{
+  "id": 1790,
+  "source_sha256": "55fb400e96c209cf4274a995a9b10d8c2fb272a24a9d794305c781cce94303f1",
+  "states_sha256": "555d664e1a79e27ca945a178d423fcaa518b53bbaafcb43caf2585dfe529aa15",
+  "histogram_sha256": "3c00a24e56458c9fc00b90841411501dae106846a81f6371d346d52c802d0c0a",
+  "center": [
+    0.03924904793742014,
+    0.5345695400958417,
+    -0.6636135246897157
+  ],
+  "basis": [
+    [
+      -0.6417728172385941,
+      0.7667667168922916,
+      -0.014016166375111404
+    ],
+    [
+      -0.0051729845938930374,
+      -0.022604369771567434,
+      -0.999731105196603
+    ],
+    [
+      -0.7668773639142243,
+      -0.6415277424503536,
+      0.018473342483795396
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.712989495535969,
+  "minima": [
+    5.81416868622453e-07,
+    4.113056765487896e-05
+  ],
+  "visits": [
+    35,
+    95083,
+    141,
+    464310,
+    140,
+    89984,
+    999042,
+    351265
+  ],
+  "portrait": {
+    "id": "spherical-constellation-1790",
+    "file": "docs\\assets\\experimental\\spherical-constellation-dense\\spherical-constellation-1790.png",
+    "sha256": "a9d81009ec7c5d3d8bc6c21137563d38b19cc06658180ff5d353eb2175060782",
+    "panels": [
+      {
+        "input": {
+          "label": "1790",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-render01\\case-1790-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "3c00a24e56458c9fc00b90841411501dae106846a81f6371d346d52c802d0c0a",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            397,
+            60
+          ],
+          [
+            1555,
+            1339
+          ]
+        ],
+        "empty_margin": 52,
+        "square_rebin_factor": 1,
+        "zero_padding": [
+          0,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 7.0766158370983305,
+        "occupied_bins": 78898,
+        "display_label": "Case 1790"
+      }
+    ]
+  }
+}

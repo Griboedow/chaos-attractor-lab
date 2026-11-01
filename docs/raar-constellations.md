@@ -85,6 +85,13 @@ a fixed signed DC component `q0=d` and a fixed nonzero Fourier magnitude give a 
 
 The defensible contribution at this stage is a documented family of spatial numerical examples, their layered morphology, and reproducible controls. A new topological class, a new general mechanism and historical uniqueness remain unestablished. The [source-review record](../results/raar-constellations/priority-review.json) records inspected material and access limits.
 
+The [extended quantized-feedback audit](quantized-feedback-comparison.md) adds
+overflow filters and sigma-delta terminology. Nonconstant branch trace excludes
+ambient affine conjugacy on an open set to ordinary piecewise-affine filters;
+nonlinear equivalence and reductions confined to invariant sets remain open.
+The [paired sphere survey](spherical-constellation-search.md) also shows how a
+visually intricate million-step transient can ultimately settle into a cycle.
+
 ## Other selected views and reproducibility
 
 ![Fragmented columns and sheets, cases 124 and 896](assets/portraits/raar-constellation-columns.png)

@@ -1,0 +1,100 @@
+{
+  "id": 1119,
+  "source_sha256": "51a118e280ac63ed754e806e38725e1916011574a560cacb3d5e2bf84b729b82",
+  "states_sha256": "df44f4230841ac123f19a1b3915ca23ec3ba108b405e6a4f39b5c26ebf303de7",
+  "histogram_sha256": "6b3c50837f242c4a8e5ea1153d8ce2d70b0ad0b3c0004680a28298b94c4e8650",
+  "center": [
+    0.450172485061227,
+    -0.2964270666111388,
+    -0.7062218815982704
+  ],
+  "basis": [
+    [
+      -0.4826931526452868,
+      0.7175963801880831,
+      -0.5020585180338186
+    ],
+    [
+      -0.870455841842275,
+      -0.3299244105335182,
+      0.3653170003391125
+    ],
+    [
+      0.09650879644887678,
+      0.6133557845778178,
+      0.7838882150746489
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.2114576658388125,
+  "minima": [
+    1.2528277293366585e-07,
+    0.002868162353397287
+  ],
+  "visits": [
+    283788,
+    56656,
+    56320,
+    13981,
+    18116,
+    588467,
+    11885,
+    219230,
+    65375,
+    11098,
+    625844,
+    49240
+  ],
+  "portrait": {
+    "id": "spherical-constellation-1119",
+    "file": "docs\\assets\\experimental\\spherical-constellation-dense\\spherical-constellation-1119.png",
+    "sha256": "2455f29c4c3e3d07feee3b8ceea9524fda6aa7defb024a7efbdfe61c4a189428",
+    "panels": [
+      {
+        "input": {
+          "label": "1119",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-render01\\case-1119-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "6b3c50837f242c4a8e5ea1153d8ce2d70b0ad0b3c0004680a28298b94c4e8650",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            184,
+            265
+          ],
+          [
+            1553,
+            1555
+          ]
+        ],
+        "empty_margin": 55,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          1,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 4.174387269895637,
+        "occupied_bins": 233109,
+        "display_label": "Case 1119"
+      }
+    ]
+  }
+}

@@ -47,8 +47,8 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 4510521694,
-  "compact_bytes": 66290024,
+  "removed_bytes": 4604490389,
+  "compact_bytes": 66701481,
   "files": [
     {
       "path": "results/adabelief-quadratic/gallery.npz",
@@ -76355,6 +76355,1176 @@
       "recovery": "recompute",
       "recompute_command": "See results/cyclic-raar-search/README.md for run cyclic-raar-follow02. Original large payload case-637.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\cyclic-raar-follow02\\case-637.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-scout01/screen.npz",
+      "bytes": 2210516,
+      "sha256": "376c52a9687a99fcfb887e48a28aae1744206ba353f9abd85033d9f504dc35ef",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/376c52a9687a99fcfb887e48a28aae1744206ba353f9abd85033d9f504dc35ef.npz",
+        "bytes": 389272,
+        "sha256": "e498d663b0f02eabd976b678fd5a0ca5d90544e726b386eb47c40b4ff3d6764e",
+        "keys": [
+          "params",
+          "points",
+          "counts",
+          "kinds",
+          "status",
+          "minima",
+          "boundratios",
+          "flags",
+          "circle_flags"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2048,
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 131072,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            2048,
+            12,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 589824,
+          "retained": true
+        },
+        {
+          "key": "counts",
+          "shape": [
+            2048
+          ],
+          "dtype": "int64",
+          "bytes": 16384,
+          "retained": true
+        },
+        {
+          "key": "kinds",
+          "shape": [
+            2048
+          ],
+          "dtype": "int64",
+          "bytes": 16384,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            2048,
+            10
+          ],
+          "dtype": "float64",
+          "bytes": 163840,
+          "retained": false
+        },
+        {
+          "key": "tails",
+          "shape": [
+            2048,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 100663296,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            2048,
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 32768,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2048,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32768,
+          "retained": true
+        },
+        {
+          "key": "boundratios",
+          "shape": [
+            2048
+          ],
+          "dtype": "float64",
+          "bytes": 16384,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            2048
+          ],
+          "dtype": "bool",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "circle_flags",
+          "shape": [
+            2048
+          ],
+          "dtype": "bool",
+          "bytes": 2048,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-scout01. Original large payload screen.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-scout01\\screen.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-follow01/case-1119.npz",
+      "bytes": 2297218,
+      "sha256": "51a118e280ac63ed754e806e38725e1916011574a560cacb3d5e2bf84b729b82",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/51a118e280ac63ed754e806e38725e1916011574a560cacb3d5e2bf84b729b82.npz",
+        "bytes": 2383,
+        "sha256": "72cd4d3462a7a33ad08202d34c6cc4e9846d3cbaaf7f04ca8a7fc44ce38a8ac8",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            12,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 288,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-follow01. Original large payload case-1119.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-follow01\\case-1119.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-follow01/case-1346.npz",
+      "bytes": 2295395,
+      "sha256": "b005fd6f81928130a94a9234994322e0f66eabda18697c1810e86f8a4721c4df",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/b005fd6f81928130a94a9234994322e0f66eabda18697c1810e86f8a4721c4df.npz",
+        "bytes": 2288,
+        "sha256": "6c43bb16b232762d586057470723e637a5ba700b2418f91e5f17b5875c6ea566",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-follow01. Original large payload case-1346.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-follow01\\case-1346.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-follow01/case-1694.npz",
+      "bytes": 2280294,
+      "sha256": "521b2170e0d625753bf3d62e80b4568767fcd7e51bc1809cf91cccb916f615a0",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/521b2170e0d625753bf3d62e80b4568767fcd7e51bc1809cf91cccb916f615a0.npz",
+        "bytes": 2284,
+        "sha256": "68d9e178e3f935725484901a8f78d286587043cef4db0df5bd83a458b5bd3f3e",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-follow01. Original large payload case-1694.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-follow01\\case-1694.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-follow01/case-1790.npz",
+      "bytes": 2300780,
+      "sha256": "55fb400e96c209cf4274a995a9b10d8c2fb272a24a9d794305c781cce94303f1",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/55fb400e96c209cf4274a995a9b10d8c2fb272a24a9d794305c781cce94303f1.npz",
+        "bytes": 2294,
+        "sha256": "d9e22a09e550695318eeaab0708220b6d8417c0b05e951be42447affc6388cf8",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-follow01. Original large payload case-1790.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-follow01\\case-1790.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-follow01/case-668.npz",
+      "bytes": 2251046,
+      "sha256": "1df65d35a71a69d134e51e76c4f5bf74b354fbbb97dee19cbc43a79012a8aab9",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/1df65d35a71a69d134e51e76c4f5bf74b354fbbb97dee19cbc43a79012a8aab9.npz",
+        "bytes": 2135,
+        "sha256": "27638570b7263126427358974d179d84eb4f142adf0ff1f5732eba2c1fb4c472",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            4,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-follow01. Original large payload case-668.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-follow01\\case-668.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-long01/case-1119.npz",
+      "bytes": 2297435,
+      "sha256": "699182927f97d4594811912a767639c8ef9f2e1bb8f8ae8f6906c0091eb41e62",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/699182927f97d4594811912a767639c8ef9f2e1bb8f8ae8f6906c0091eb41e62.npz",
+        "bytes": 2376,
+        "sha256": "51d224379f32ec4671a3f128d1f2acac04f649430bccaf4ea3dca9c408664cba",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            12,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 288,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-long01. Original large payload case-1119.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-long01\\case-1119.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-long02/case-1346.npz",
+      "bytes": 2295321,
+      "sha256": "7fb1fdc834ec81ca6c3d256dd86389a9266c8330e7b4c5dc06e18fae5e8f64cb",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/7fb1fdc834ec81ca6c3d256dd86389a9266c8330e7b4c5dc06e18fae5e8f64cb.npz",
+        "bytes": 2260,
+        "sha256": "e504dcd2142d21194d10fd9c37901144303b56274e98ca9b4d93284118c4465e",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-long02. Original large payload case-1346.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-long02\\case-1346.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-long02/case-1694.npz",
+      "bytes": 2280952,
+      "sha256": "b2d1096998406f14b6bcf0e645ffe810028c5553a0485b98683e119d11a46f51",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/b2d1096998406f14b6bcf0e645ffe810028c5553a0485b98683e119d11a46f51.npz",
+        "bytes": 2269,
+        "sha256": "5577d762bec5f5b181b00dcd6e45c3857dd6a0cd5e6e3b282e4c49c77d8ca6a0",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-long02. Original large payload case-1694.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-long02\\case-1694.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-long02/case-668.npz",
+      "bytes": 2251515,
+      "sha256": "593daf0c48f86dd05c74f47ac605cba2df60d62db6ccac7aea3110e870c03de7",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/593daf0c48f86dd05c74f47ac605cba2df60d62db6ccac7aea3110e870c03de7.npz",
+        "bytes": 2112,
+        "sha256": "58b2f660ae426cc3e3c00ade4a56d89ec52db50f016820e7724676eba7426b75",
+        "keys": [
+          "params",
+          "points",
+          "rates",
+          "status",
+          "minima",
+          "kind",
+          "volume_rates"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            100000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2400000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            4,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 480,
+          "retained": true
+        },
+        {
+          "key": "status",
+          "shape": [
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "volume_rates",
+          "shape": [
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 160,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-long02. Original large payload case-668.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-long02\\case-668.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-render01/case-1119-histogram.npz",
+      "bytes": 530864,
+      "sha256": "6b3c50837f242c4a8e5ea1153d8ce2d70b0ad0b3c0004680a28298b94c4e8650",
+      "group": "spherical-constellations",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "histogram",
+          "shape": [
+            1600,
+            1600
+          ],
+          "dtype": "uint32",
+          "bytes": 10240000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-render01. Original large payload case-1119-histogram.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-render01\\case-1119-histogram.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-render01/case-1119-states.npz",
+      "bytes": 46528164,
+      "sha256": "df44f4230841ac123f19a1b3915ca23ec3ba108b405e6a4f39b5c26ebf303de7",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/df44f4230841ac123f19a1b3915ca23ec3ba108b405e6a4f39b5c26ebf303de7.npz",
+        "bytes": 942,
+        "sha256": "30e7b974ecb8c7014b431feebe6b9cdddd8c85efc637e677930a513264417064",
+        "keys": [
+          "params",
+          "points",
+          "kind"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            2000000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48000000,
+          "retained": false
+        },
+        {
+          "key": "branches",
+          "shape": [
+            2000000
+          ],
+          "dtype": "uint8",
+          "bytes": 2000000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            12,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 288,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-render01. Original large payload case-1119-states.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-render01\\case-1119-states.npz"
+    },
+    {
+      "path": "results/spherical-constellations/runs/spherical-constellation-render01/case-1790-states.npz",
+      "bytes": 24149195,
+      "sha256": "555d664e1a79e27ca945a178d423fcaa518b53bbaafcb43caf2585dfe529aa15",
+      "group": "spherical-constellations",
+      "compact": {
+        "path": "results/compact-data/555d664e1a79e27ca945a178d423fcaa518b53bbaafcb43caf2585dfe529aa15.npz",
+        "bytes": 842,
+        "sha256": "c205b2424670cd6535c42e0121c8ab32986cbedb59816b7798884821d544a2fa",
+        "keys": [
+          "params",
+          "points",
+          "kind"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            2000000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48000000,
+          "retained": false
+        },
+        {
+          "key": "branches",
+          "shape": [
+            2000000
+          ],
+          "dtype": "uint8",
+          "bytes": 2000000,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "kind",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-render01. Original large payload case-1790-states.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-render01\\case-1790-states.npz"
     }
   ]
 }

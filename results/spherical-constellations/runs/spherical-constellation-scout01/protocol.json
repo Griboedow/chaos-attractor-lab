@@ -1,0 +1,21 @@
+{
+  "input": "D:\\Codex\\chaos-attractor-search-20261031\\raar-constellation-scout01\\screen.npz",
+  "input_sha256": "da0a0c2a665a02c36bc408e931a5a771fa89447222bf9e3819f15b0d7c2eeb54",
+  "count": 2048,
+  "warm": 5000,
+  "observed": 15000,
+  "windows": 10,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "checks": {
+    "n": 64,
+    "nested_formula": 2.498001805406602e-16,
+    "relative_fd_jacobian": 1.8427848136326475e-10
+  },
+  "map": "beta/2*(R_A R_B+I)+(1-beta)P_B; A=unit sphere; B=finite vertices",
+  "scope": "Known RAAR formula with a changed constraint. Paired input parameters are identical to the circle survey. Discontinuous map; local derivative growth does not certify chaos or novelty.",
+  "source_sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+}

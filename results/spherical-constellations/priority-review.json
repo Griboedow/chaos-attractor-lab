@@ -1,0 +1,75 @@
+{
+  "review_date": "2026-11-01",
+  "scope": "Bounded extension of the projection-algorithm audit to quantized feedback; no exhaustive historical novelty claim.",
+  "sources": [
+    {
+      "title": "Properties of Admissible Symbolic Sequences in a Second Order Digital Filter with Overflow Nonlinearity",
+      "authors": ["C. W. Wu", "L. O. Chua"],
+      "version": "UCB/ERL M92/18, 1992-02-07",
+      "url": "https://digicoll.lib.berkeley.edu/record/137497/files/ERL-92-18.pdf",
+      "bytes": 575589,
+      "sha256": "ab4a75fd4ee1afb961176881d39330e2f1218f3af410a01bab8980ac9d1235d7",
+      "reviewed": "Abstract, introduction and Section 2, PDF pages 5-7. PDF page 6 inspected as a rendered image, including equations 1-6 and Figure 1.",
+      "finding": "Piecewise-affine overflow filter and symbolic region coding are established. The reviewed map is not a demonstrated nonlinear equivalent of the RAAR maps.",
+      "limit": "Not a complete paper or proof audit. Copyrighted PDF is held in the external reading directory, not redistributed in this repository."
+    },
+    {
+      "title": "On Chaos in Digital Filters: Case b = -1",
+      "authors": ["Lj. Kocarev", "L. O. Chua"],
+      "version": "UCB/ERL M92/74, 1992-07-10",
+      "url": "https://digicoll.lib.berkeley.edu/record/134463/files/ERL-92-74.pdf",
+      "bytes": 591260,
+      "sha256": "f9c448247b77db11d69becea7d9acd20e339e1894fc8d73c1d52ae672ab55bbd",
+      "reviewed": "Abstract and Section 2 through the statement of Theorem 1, PDF pages 5-8. PDF pages 6-7 inspected as rendered images; equation and half-open interval conventions checked visually.",
+      "finding": "The branch formula is (y,-x+a*y+2*s) with an integer selector, hence a constant branch Jacobian. This supplies an exact comparison class, not a claim that every quantized model is affine.",
+      "limit": "The report's chaos classification proof was not fully audited. Copyrighted PDF is held externally and not redistributed."
+    },
+    {
+      "title": "Application of Non-Linear Analysis Techniques to Sigma-Delta Modulators",
+      "authors": ["Ronan Farrell", "Orla Feely"],
+      "version": "1997 conference paper, six PDF pages",
+      "url": "https://mural.maynoothuniversity.ie/id/eprint/9754/1/RF-Application-1997.pdf",
+      "reviewed": "Web-retrieved text of PDF pages 1-4: introduction, spectral and geometric analysis, nonlinear dynamics and references.",
+      "finding": "Affine regions, switching, parabolic trajectories and chaotic modulators predate this survey.",
+      "limit": "Equation 2 extraction is unreliable; no exact band-pass equation equivalence is claimed. Screenshot retrieval timed out. Direct local download failed certificate validation, so no local source hash or visual figure review is available."
+    },
+    {
+      "title": "Nonlinear dynamics and chaos in Sigma-Delta modulation",
+      "authors": ["Orla Feely"],
+      "version": "Journal of the Franklin Institute 331(6), 903-936, November 1994",
+      "url": "https://doi.org/10.1016/0016-0032(94)90092-2",
+      "reviewed": "Publisher abstract and bibliographic metadata only.",
+      "limit": "Full article and figures unreviewed."
+    }
+  ],
+  "other_retrieval_limits": [
+    "The Berkeley PDFs initially failed through the web viewer but downloaded successfully with ordinary HTTPS and were read locally.",
+    "Chaos in digital filters: A global picture, author-hosted 1994 PDF: web retrieval timed out; direct HTTPS rejected an expired certificate. Body unreviewed.",
+    "Third-order digital-filter paper, sigma-delta references and outer-billiards equivalences remain leads rather than completed comparisons."
+  ],
+  "queries": [
+    "RAAR sphere finite",
+    "Douglas Rachford sphere discrete chaos",
+    "strange attractors vector quantization",
+    "quantized feedback strange attractor",
+    "sigma delta strange attractors dynamical systems",
+    "digital filters strange attractors quantization",
+    "sphere finite set Douglas-Rachford",
+    "Chaos in Digital Filters Chua Lin pdf 1988",
+    "Nonlinear dynamics and chaos in Sigma-Delta modulation Feely pdf",
+    "Chaotic rounding error in digital control systems pdf",
+    "sphere point RAAR cycle",
+    "relaxed averaged alternating reflections two-cycle",
+    "Douglas-Rachford sphere period two",
+    "RAAR circle 2-cycle"
+  ],
+  "own_mathematical_comparisons": [
+    "Nonconstant trace of a regular RAAR branch excludes ambient affine conjugacy on an open set to ordinary piecewise-affine maps. Does not exclude nonlinear or invariant-set equivalence.",
+    "An explicit admissible attracting circle of two-cycles explains the numerical terminal behavior of sphere Case 1790. No historical priority is asserted for this elementary construction."
+  ],
+  "remaining_gaps": [
+    "Nonlinear conjugacy and invariant-set reductions to known finite-alphabet projection algorithms.",
+    "Systematic comparison with third-order and nonlinear quantized-feedback models.",
+    "No exhaustive prior-art search for the individual seven sphere configurations."
+  ]
+}
