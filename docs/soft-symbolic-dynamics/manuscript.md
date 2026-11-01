@@ -359,8 +359,8 @@ study unstable-dimension variability in coupled chaotic maps. Saiki,
 Takahasi and Yorke [3] give explicit hetero-chaotic maps: their definition
 requires periodic points of different unstable dimensions to be dense,
 together with a dense trajectory. Our three located cycles and a positive
-entropy subset do not establish those stronger properties. Their baker-map
-examples remain relevant noninvertible comparisons. Invertible Hénon-like
+entropy subset do not establish those stronger properties. Their
+piecewise-defined baker maps remain relevant precedents. Invertible Hénon-like
 precedents are excluded as ambient neighborhood models by Section 6.1;
 equivalence restricted to invariant sets is still unresolved.
 
