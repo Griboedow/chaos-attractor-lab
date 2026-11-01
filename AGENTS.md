@@ -20,6 +20,9 @@
 - Keep the main README focused on key findings, their evidence level and links
   to child reports. Use concise academic prose; omit promotional language,
   conversational progress logs and repeated qualifications.
+- Keep the research index near the end of the main README, after the selected
+  findings. `docs/research-index.md` is a compatibility link to that section,
+  not a second copy of the index.
 - Group main-page findings under descriptive section headings, with a
   subheading for each study. Use slow, smooth camera rotations (24 seconds per
   revolution at 25 frames per second) from `tools/animate_portraits.py` on the main page and link each

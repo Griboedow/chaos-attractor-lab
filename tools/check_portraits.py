@@ -100,7 +100,9 @@ main=(ROOT/'README.md').read_text(encoding='utf-8')
 main_images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',main,re.M)
 assert main_images==[f"docs/assets/portraits/{row['id']}.webp" for row in featured]
 for row in featured:assert f"[Static portrait](docs/assets/portraits/{row['id']}.png)" in main
-assert len(re.findall(r'^### ',main,re.M))==len(featured)
+assert main.count('\n## Research index\n')==1
+selected_results=main.split('\n## Research index\n',1)[0]
+assert len(re.findall(r'^### ',selected_results,re.M))==len(featured)
 gallery=(ROOT/'docs/attractor-gallery.md').read_text(encoding='utf-8')
 gallery_images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',gallery,re.M)
 assert len(gallery_images)==len(catalog['rows']) and all(p.startswith('assets/portraits/') for p in gallery_images)

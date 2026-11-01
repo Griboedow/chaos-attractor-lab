@@ -1,6 +1,6 @@
 # Attractor portraits
 
-[Selected results](../README.md) · [Research index](research-index.md) · [Figure provenance](../tools/README-portraits.md)
+[Selected results](../README.md) · [Research index](../README.md#research-index) · [Figure provenance](../tools/README-portraits.md)
 
 The gallery shows finite numerical trajectories and one separately certified periodic attractor. Each entry links to its evidence and limitations. Different pictures do not by themselves establish different dynamical classes.
 
