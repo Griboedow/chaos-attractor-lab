@@ -6,7 +6,7 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 ![Fixed RK23 accepted-step clouds viewed by rotating orthographic cameras](docs/assets/rk23-oscillator-rotation.gif)
 
-[Large portrait](docs/assets/rk23-oscillator-geometry.png) · [32,768 initial states approach each cloud](docs/assets/rk23-oscillator-approach.png) · [Independent evidence](docs/assets/rk23-oscillator-evidence.png) · [Exact structure](docs/rk23-controller-structure.md) · [Prior-art and equivalence audit](docs/rk23-priority.md)
+[Research manuscript (PDF)](papers/rk23-controller/manuscript.pdf) · [Proof, evidence and reproduction](papers/rk23-controller/README.md) · [Large portrait](docs/assets/rk23-oscillator-geometry.png) · [32,768 initial states approach each cloud](docs/assets/rk23-oscillator-approach.png) · [Independent evidence](docs/assets/rk23-oscillator-evidence.png) · [Exact structure](docs/rk23-controller-structure.md) · [Prior-art and equivalence audit](docs/rk23-priority.md)
 
 **[Smooth Yogi: folded ribbons and two expanding directions](docs/yogi-tanh.md).** An existing TensorFlow Addons option produces a feathered crescent on a scalar quadratic. Two selected regimes pass five-million-step, independent 70/90-digit and actual-library checks for two positive finite growth rates. The companion proof bounds every legal orbit and explicitly identifies the known Adam two-cycle's local equivalence. The algorithm is prior work; a new attractor class remains unestablished.
 
