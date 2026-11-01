@@ -94,3 +94,7 @@ The proof uses the established covering theory of [Zgliczynski and Gidea (2004)]
 ## A proved fold in the attracting set
 
 The [fold-membership study](raar-critical-membership.md) now certifies a smooth fold belonging to K. It excludes conjugacy on an open neighborhood of K, by an ambient homeomorphism, to a map locally injective throughout the corresponding set. This does not establish noninjectivity of F restricted to K or exclude conjugacies only between invariant-set restrictions. The new report gives a concrete known-map comparison and retains prior noninvertible folded-attractor literature; historical uniqueness remains unresolved.
+
+## RRR flow-limit follow-up
+
+[Lal, arXiv:2512.23843](https://arxiv.org/abs/2512.23843) analyzes local small-step RRR behavior near feasible intersections and finite-set switching. Its smooth no-recurrence result has local geometric assumptions; its numerical example concerns LEDM, and its outlook leaves infeasible global dynamics open. These statements do not cover our disjoint spatial-circle configuration. They also do not establish its novelty. The [review record](../results/raar-priority-flow-limit/review.json) pins the retrieved PDF and records the sections inspected and differing displayed dates. The RRR/RAAR formula distinction above still applies; different formulas alone are not an inequivalence proof.

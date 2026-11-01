@@ -1,10 +1,14 @@
 # Attractor portraits
 
-[Selected results](../README.md) · [Research index](research-index.md) · [Figure provenance](../tools/README-portraits.md)
+[Selected results](../README.md) · [Research index](../README.md#research-index) · [Figure provenance](../tools/README-portraits.md)
 
 The gallery shows finite numerical trajectories and one separately certified periodic attractor. Each entry links to its evidence and limitations. Different pictures do not by themselves establish different dynamical classes.
 
 All portraits use the same background, palette, dimensions and caption convention. Higher-dimensional systems are identified as projections; explicit physical unit changes are stated. Dates retain the earliest recorded portrait of a study. A later rendering is dated separately when it falls on another day.
+
+Labels such as `Case 177` identify saved parameter sets in the linked reports.
+They are identifiers, not measured quantities; physical parameter labels name
+the quantity being varied.
 
 ## Constructed systems
 

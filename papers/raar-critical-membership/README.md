@@ -14,6 +14,19 @@ Run from the repository root with Python, NumPy, Numba, mpmath and Matplotlib
 available. The original runtime used Python 3.12.14, NumPy 2.5.4, Numba 0.68.1
 and mpmath 1.3.0. Choose unused output folders.
 
+The verifier also checks the older frozen symbolic-dynamics packet and uses
+the original reference trajectory. Restore just these optional historical
+inputs at their ignored legacy paths first:
+
+```powershell
+python tools/data_cache.py fetch --group raar-symbolic-dynamics --materialize
+python tools/data_cache.py fetch results/raar-circles/render/case-1051-animation.npz --materialize
+```
+
+The nine optional proposal arrays listed in this packet's `omissions.json`
+are not required. The complete final figure input is retained as an explicitly
+registered essential input. See [storage instructions](../../docs/data-storage.md).
+
 ```powershell
 python research/verify_raar_critical_membership.py --out outputs/critical-verification
 ```

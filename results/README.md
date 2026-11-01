@@ -1,5 +1,11 @@
 # Recorded evidence beyond Chua
 
+Large generated arrays are now optional [cache data](../docs/data-storage.md).
+The original packet descriptions and manifests below refer to the full recorded
+calculations. [Compact records](compact-data/README.md), source code, parameters,
+certificates and published figures remain tracked; full payloads can be recovered
+selectively when an archived verification requires them.
+
 `gaussian-vortex/` records the [localized-vortex construction](../docs/gaussian-vortex.md): all 1,024 scout summaries, 45 denser follow-ups, six 12,000-unit spectra, a 30,000-unit render run, sixteen fresh starts, thirteen parameter controls, an independent adaptive spectrum and four periodic-return controls. The 4.8-million-state still histogram, camera, exact parameters, failed search outcomes and source snapshots are retained; large exploratory clouds are hash-indexed on D:.
 
 `attractor-novelty/` contains the [bounded priority and shape audit](../docs/attractor-novelty-audit.md): 108 reference clouds, pinned source metadata and licenses, six candidates' descriptor and point-cloud comparisons, general affine controls, and literature inspection limits. It includes two prior-model kicked-top tails from the earlier frozen follow-up. The shared `gaussian-vortex/manifest.json` covers both new packets. No universal novelty, topological inequivalence or asymptotic chaos certificate is asserted.
