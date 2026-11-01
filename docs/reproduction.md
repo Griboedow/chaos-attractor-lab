@@ -16,6 +16,7 @@ instructions](manuscript-editing.md).
 | Icosahedral flow | [Search and absorbing bounds](../research/icosahedral_search/README.md), [equilibria](icosahedral-structure.md), [numerical returns](../research/icosahedral_returns/README.md) |
 | RAAR symbolic dynamics | [Certificate and manuscript](raar-symbolic-dynamics/README.md) |
 | Scalar acceleration memory | [Reproducible search](../research/unexpected_search/README.md) |
+| Overrelaxed Sinkhorn | [All inputs, continuation drivers, precision and verification](../results/sinkhorn-screen/README.md) |
 | Adaptive solvers | [RK45](rk45-controller/README.md), [RK23](rk23-controller/README.md) |
 | Optimizer memory | [Yogi](yogi-memory/README.md), [Adamax](adamax-geometry.md) |
 | Motor periodic attractor | [Five-cluster certificate](motor-five-cycle-certificate.md), [proof implementation review](motor-proof-review.md) |

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded web search and primary-source inspection; no exhaustive novelty or equivalence certificate.",
+  "queries": [
+    "\"overrelaxed Sinkhorn\" \"chaos\"",
+    "\"Sinkhorn\" \"periodic orbit\"",
+    "\"Sinkhorn\" \"nonconvergence\" overrelaxation",
+    "\"Sinkhorn\" \"cycles\" \"relaxation\"",
+    "\"overrelaxed\" \"Sinkhorn\" divergence",
+    "\"Sinkhorn\" \"chaotic transients\"",
+    "\"Sinkhorn\" \"hidden\" \"attractor\"",
+    "\"matrix scaling\" \"chaos\""
+  ],
+  "primary_findings": [
+    {
+      "url": "https://arxiv.org/html/2012.12562v2",
+      "location": "Equations 2 and 7; Theorems 1 and 3",
+      "finding": "The exact unsafeguarded multiplicative update, its product-projective formulation, local convergence below relaxation 2 and a smaller sufficient global interval are established prior work."
+    },
+    {
+      "url": "https://arxiv.org/html/1711.01851v2",
+      "location": "Section 4.1, paragraph following equation 20; Remark 2",
+      "finding": "Possible nonconvergence of fixed overrelaxation is explicitly reported. The proposed adaptive Lyapunov safeguard changes the iteration. Nonconvergence itself is not a new finding."
+    },
+    {
+      "url": "https://doi.org/10.3934/jcd.2024006",
+      "read_copy": "https://research.chalmers.se/publication/539831/file/539831_Fulltext.pdf",
+      "location": "Equation 11 and Remark 1.4",
+      "finding": "The same relaxed log update is a Trotter-Euler discretization. Renaming the dynamics as an integration artifact does not create a distinct mechanism."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.14104v2",
+      "location": "Theorems 3.3 and 3.6",
+      "finding": "Operator-scaling overrelaxation has related local and global convergence results. It is a noncommutative extension, not the classical matrix map tested here."
+    },
+    {
+      "url": "https://arxiv.org/html/2603.12955v1",
+      "location": "Abstract and algorithm formulation",
+      "finding": "Equivalent operator-Sinkhorn implementations have different numerical stability for ill-conditioned inputs. This motivates, but does not replace, the independent precision checks of the classical map."
+    }
+  ],
+  "conclusion": "No matching attractor classification was identified in the examined sources. This search does not establish historical uniqueness or inequivalence with known dynamical systems."
+}
