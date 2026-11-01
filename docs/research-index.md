@@ -17,7 +17,7 @@
 
 | System | Main result | Further evidence |
 | --- | --- | --- |
-| [Spatial-circle RAAR](raar-circles.md) | Certified attracting positive-entropy set at R1051; numerical companion portraits | [Trapping certificate](raar-trapping.md), [Symbolic-dynamics certificate](raar-symbolic-dynamics.md), [cycle structure](raar-cycle-structure.md), [folding and preimages](raar-folding.md), [exact structure](raar-structure.md), [prior art](raar-priority.md) |
+| [Spatial-circle RAAR](raar-circles.md) | Certified attracting positive-entropy set at R1051; numerical companion portraits | [Trapping certificate](raar-trapping.md), [fold membership and equivalence obstruction](raar-critical-membership.md), [Symbolic-dynamics certificate](raar-symbolic-dynamics.md), [cycle structure](raar-cycle-structure.md), [folding and preimages](raar-folding.md), [exact structure](raar-structure.md), [prior art](raar-priority.md) |
 | [Scalar acceleration memory](anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](../research/unexpected_search/README.md) |
 | [RK45](rk45-oscillator.md), [RK23](rk23-oscillator.md) | Irregular adaptive-controller states for a decaying oscillator | [RK45 structure](rk45-controller-structure.md), [RK23 structure](rk23-controller-structure.md), [RK45 prior art](rk45-priority.md), [RK23 prior art](rk23-priority.md) |
 | [Smooth Yogi](yogi-tanh.md) | Two positive finite growth rates in selected regimes | [Structure](yogi-tanh-structure.md), [manuscript](../papers/yogi-memory/manuscript.pdf) |

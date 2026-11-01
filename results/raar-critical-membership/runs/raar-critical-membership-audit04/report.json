@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "input_sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6",
+  "original_input_sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60",
+  "thin_window_contained_in_original_window": true,
+  "dependency_manifests": {
+    "raar-symbolic-dynamics": "b20a8fe9c3779d61be2419296876ef278926e7ca3c7bad5cb9251754fda1a54d",
+    "raar-trapping": "875bebafb2b72e04b94ac083c7f5710d49521d376042a67865bd39df057323f0"
+  },
+  "closure_report_sha256": "a21b25895dc3da4932801ae8aa82c12d8e955487792726049439c59f704300e9",
+  "coverings": [
+    {
+      "run": "raar-critical-thin-cover01",
+      "kind": "volume",
+      "cells": 60,
+      "maximum_depth": 8,
+      "minimum_axis": "0.125452632883287627816067904674418965458778256851692566388538479743326674001",
+      "minimum_strict_margin": "0.005813678807748440613255065217",
+      "classification_counts": {
+        "left-exterior": 4,
+        "stable-interior": 53,
+        "right-exterior": 3
+      }
+    },
+    {
+      "run": "raar-critical-thin-cover01",
+      "kind": "left",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis": "0.127040399860370025457844777666127735997104599290688946863415167664481692185",
+      "minimum_strict_margin": "1.528468219533617065641358985",
+      "classification_counts": {
+        "exit-face": 1
+      }
+    },
+    {
+      "run": "raar-critical-thin-cover01",
+      "kind": "right",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis": "0.125674898297008819674177171957805674740731240597637529114591068208015342052",
+      "minimum_strict_margin": "1.611636103051570190773695309",
+      "classification_counts": {
+        "exit-face": 1
+      }
+    },
+    {
+      "run": "raar-critical-thin-cover-ad01",
+      "kind": "volume",
+      "cells": 41,
+      "maximum_depth": 7,
+      "minimum_axis": "0.125657487593021015915600630826957041863583614111166326250172880995837972829338627130626959196483018898176",
+      "minimum_strict_margin": "0.009560977694166031280286667413",
+      "classification_counts": {
+        "left-exterior": 4,
+        "stable-interior": 34,
+        "right-exterior": 3
+      }
+    },
+    {
+      "run": "raar-critical-thin-cover-ad01",
+      "kind": "left",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis": "0.127049515838091045461810970651938623837773289075408327061250511224374136649012872216070264476742748451027",
+      "minimum_strict_margin": "1.528580765969520626138124127",
+      "classification_counts": {
+        "exit-face": 1
+      }
+    },
+    {
+      "run": "raar-critical-thin-cover-ad01",
+      "kind": "right",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis": "0.125683998289995493823482497162507071300464948974265264368219286191453155339929619172512980873002595058365",
+      "minimum_strict_margin": "1.611753815784476882617075474",
+      "classification_counts": {
+        "exit-face": 1
+      }
+    }
+  ],
+  "faces": [
+    {
+      "run": "raar-critical-thin-faces01",
+      "face": -1,
+      "cells": 1,
+      "absolute_determinant_lower": "0.0311979432007007365611706515203978174371395616139577772664296687054887599499",
+      "minimum_axis": "0.0881051585054089363812649476889597455419553127325784095379240702772152142754"
+    },
+    {
+      "run": "raar-critical-thin-faces01",
+      "face": 1,
+      "cells": 1,
+      "absolute_determinant_lower": "0.174483682283137817300808324233460457228489913765767389927210771642608304236",
+      "minimum_axis": "0.102851948496029850209832812645298518172606708858666389832630858947799634652"
+    },
+    {
+      "run": "raar-critical-thin-faces-ad01",
+      "face": -1,
+      "cells": 1,
+      "absolute_determinant_lower": "0.0316744438402932780022458881195745427619162419699007521430080702509881197749116725234514999782565547198342",
+      "minimum_axis": "0.088112132935012155747192988264485928194891592332751747374389349551646957917927310017872158491248204999812"
+    },
+    {
+      "run": "raar-critical-thin-faces-ad01",
+      "face": 1,
+      "cells": 1,
+      "absolute_determinant_lower": "0.174609173410148834709142992940619667120457900382282997306656209857916312714178188065441316342236784239652",
+      "minimum_axis": "0.102863724052639652855005827556135112352125739747931280416878125302819777587599868239903277019967230440806"
+    },
+    {
+      "run": "raar-critical-thin-faces-natural01",
+      "face": -1,
+      "cells": 4,
+      "absolute_determinant_lower": "0.0154101206933600456973849214217204487582023703611797625822337974049359901664",
+      "minimum_axis": "0.0880353653449003743732697206941269778081280209255566783788368400920458827222"
+    },
+    {
+      "run": "raar-critical-thin-faces-natural01",
+      "face": 1,
+      "cells": 1,
+      "absolute_determinant_lower": "0.110237763504804338313274757792192195594749582657081639551386528555965808645",
+      "minimum_axis": "0.102683876854784196320416834688794378874192545196480072561928113138770372464"
+    }
+  ],
+  "fold_classification": {
+    "run": "raar-critical-thin-fold-ad01",
+    "cells": 283,
+    "maximum_depth": 9,
+    "classifications": {
+      "regular": 270,
+      "fold_if_critical": 13
+    },
+    "report_sha256": "e13b4b71aeb6d4d83768753e827efcb7a95622e8dd42b3619a3a67b72f7ec6fd"
+  },
+  "scope": "Complete partition, inequality, exact-window-containment and frozen-evidence-binding audit. Interval image inclusion is checked by the separate computations. Attractor membership uses the stated crossing-continuum lemma; no claim of injectivity failure restricted to K or historical novelty."
+}

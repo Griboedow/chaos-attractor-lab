@@ -34,9 +34,9 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 [Static portrait](docs/assets/portraits/raar.png)
 
-**Certified attracting positive-entropy set.** For case 1051, an explicit strict trapping region contains the certified symbolic dynamics. Its maximal invariant set attracts a neighborhood and has topological entropy at least `log(2)/49` per iteration. Transitivity and equality with the numerical portrait remain unresolved; case 1483 is a numerical companion.
+**Certified attracting positive-entropy set.** For case 1051, an explicit strict trapping region contains the certified symbolic dynamics. Its maximal invariant set attracts a neighborhood and has topological entropy at least `log(2)/49` per iteration. A certified fold in this attracting set excludes ambient-neighborhood conjugacy to locally injective maps. Transitivity and equality with the numerical portrait remain unresolved; case 1483 is a numerical companion.
 
-[Trapping theorem and evidence](docs/raar-trapping.md) · [Manuscript](papers/raar-trapping/manuscript.pdf) · [Symbolic certificate](docs/raar-symbolic-dynamics.md) · [Model and trajectories](docs/raar-circles.md) · [Prior art](docs/raar-priority.md)
+[Trapping theorem and article](docs/raar-trapping.md) · [Fold membership and article](docs/raar-critical-membership.md) · [Symbolic certificate](docs/raar-symbolic-dynamics.md) · [Model and trajectories](docs/raar-circles.md) · [Prior art](docs/raar-priority.md)
 
 ### Acceleration memory in a scalar iteration
 

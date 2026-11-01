@@ -78,7 +78,7 @@ Case 1051 has a certified attracting invariant set with entropy at least log(2)/
 
 Full spatial state (x, y, z); archived orthographic cameras.
 
-[Trapping report](raar-trapping.md) · [Symbolic certificate](raar-symbolic-dynamics.md)
+[Trapping report](raar-trapping.md) · [Fold in the attracting set](raar-critical-membership.md) · [Symbolic certificate](raar-symbolic-dynamics.md)
 
 ### Scalar iteration with acceleration memory
 

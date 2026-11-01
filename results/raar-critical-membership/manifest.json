@@ -1,0 +1,849 @@
+{
+  "files": [
+    {
+      "path": "archive_raar_critical_membership.py",
+      "bytes": 2214,
+      "sha256": "a1ec468ff64febb2001a95de3b50ca96557dab316a2d54064bd586245da4ef60"
+    },
+    {
+      "path": "externalize_raar_critical_trials.py",
+      "bytes": 2781,
+      "sha256": "7236ad260194df12cf10754264923c6bfee70a97185aa32c047a0e39b30fe649"
+    },
+    {
+      "path": "omissions.json",
+      "bytes": 16951,
+      "sha256": "728fa46ecc66650b635424173b1a04e89d65a4a6e819c2092a8cf60979136bf7"
+    },
+    {
+      "path": "priority.json",
+      "bytes": 3155,
+      "sha256": "f664eeb05c63937f525ebfdd9a22400c8ec0958e3b4a978de5c6c3879b2000f1"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 51920,
+      "sha256": "1151e3560cd6fadd4f5c35273203b3f42eaf6762f345714e988e2781195e2115"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2200,
+      "sha256": "9ffc66d3c546bac0a6782fc5d01884dfe072ef8281121b7cb9cbebe4aa02d597"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/check_raar_coverings_ad.py",
+      "bytes": 4946,
+      "sha256": "494161d1219c66016bc7ceac0da8b9d32ebb91366b2cd7ca572a8c3e50a2d742"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/check_raar_critical_crossing_ad.py",
+      "bytes": 2469,
+      "sha256": "b0c0a65e419ce932d211e2716f1eb1c1a3e64dc9d87734aaaf8a3c8422bbd794"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/face--1.jsonl.gz",
+      "bytes": 242593,
+      "sha256": "c3c94d6ae8a280e6cf9db18340279abf10e252a713dac0cbe7ffa42d8cdad8ae"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/face-1.jsonl.gz",
+      "bytes": 121603,
+      "sha256": "3cb46bdb603d94790e73642a073ba1d897807ade6aa59b5566e905e3dd03fefb"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/progress.json",
+      "bytes": 1512,
+      "sha256": "61ce01a6a428af8396b524151d094218a484dc0f35313ad879fc990faf454594"
+    },
+    {
+      "path": "runs/raar-critical-crossing-ad01/report.json",
+      "bytes": 2658,
+      "sha256": "2087809ec536a1e99ff01c9a306dd22a1dc6687860ca48732105faa9fb4adabb"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/certify_raar_critical_doubleton.py",
+      "bytes": 3139,
+      "sha256": "f6fb767143288f6439ce33f519751a35161f025b966ffaacabfc9ba4e0bd81a1"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/face--1.jsonl.gz",
+      "bytes": 39,
+      "sha256": "b1ac9687fffda96bcbcadb7900bd33e86c5512b5f37ee74062455664ab8294e0"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/failure.json",
+      "bytes": 252,
+      "sha256": "608aa8c14d3029ce499e9cf24eb199014b7615cee7e0c634eb7fcd904aeecf28"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton01/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/face--1-pending.json",
+      "bytes": 712,
+      "sha256": "09ed6cddff509363c717e1bc1b327adb28ce67cf070b7d0924d31a0b9e375afa"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/face--1.jsonl.gz",
+      "bytes": 86069,
+      "sha256": "d7805e180fec7b3f0387734eac38c1c8c01e248c331a9fe394b6feccaebdfad3"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/face-1-pending.json",
+      "bytes": 727,
+      "sha256": "aac2a0a592434aaf6170efa7c0b3d55a195e55b91d43f0bc3d9bde871b237eb2"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/face-1.jsonl.gz",
+      "bytes": 85503,
+      "sha256": "7afd2e6b1a6070a9c4a296d9422362e4ca2ab599606fac2ce8f69b600d3881cc"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/progress.json",
+      "bytes": 1280,
+      "sha256": "88257b9f11792707623a7a40af7180b9364b2ff963aaae86588a78c3a22aad7b"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton02/report.json",
+      "bytes": 2140,
+      "sha256": "a119ce70960dc1f4449de82401f3e2c16b8257aa6420092d39f119a93009353c"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/face--1.jsonl.gz",
+      "bytes": 266542,
+      "sha256": "101ef5b78a5dc79fa1d3dfaaec021a4e5a91649f07447ec046287474a89a9ef9"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/face-1.jsonl.gz",
+      "bytes": 175346,
+      "sha256": "69a6425e25720b809457518dd0b7e79c5d9b889c4987521e21398e781ede0e8c"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/progress.json",
+      "bytes": 1280,
+      "sha256": "b6827e155ecd26ff6df66c8b68e0e595eefcba74b00038408ee4f03a4674e77f"
+    },
+    {
+      "path": "runs/raar-critical-crossing-doubleton03/report.json",
+      "bytes": 2135,
+      "sha256": "5270db21a7ed2727200436a23e203c9038ff43a15220f6b8c759fedc61696607"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/face--1-pending.json",
+      "bytes": 1621,
+      "sha256": "3ea2115733373e3668940a117138a584a6975bfc76bd4e7e763b156dea33eff5"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/face--1.jsonl.gz",
+      "bytes": 84400,
+      "sha256": "cae81b72a56a1a936ee8d93e4c5eceb40d87644b9b72b6b5effdf8f4f8ccff2c"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/face-1-pending.json",
+      "bytes": 974,
+      "sha256": "4bf4b003b3c1df6fe33da9d48203fa189eae8dd2cf891fa540e478a5a5f65b3d"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/face-1.jsonl.gz",
+      "bytes": 84626,
+      "sha256": "b6a7142902cec15f3e84981da78678e72328a530a0d702ee77009b94094d9b98"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/progress.json",
+      "bytes": 1280,
+      "sha256": "7936e47dcd62bfed8e610b8f0c0cdc9a6bf4b782bab9b3a012869f56b223a935"
+    },
+    {
+      "path": "runs/raar-critical-crossing-pilot01/report.json",
+      "bytes": 1892,
+      "sha256": "087c4115bafd025a48fe35319e13280d01bdf6896259cb960f1e50d8c02de48f"
+    },
+    {
+      "path": "runs/raar-critical-crossing-proposal01/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-crossing-proposal01/propose_raar_critical_crossing.py",
+      "bytes": 2789,
+      "sha256": "758665ed9b29ebe2a63cd717908194dbafe951df6a222c9393b984d74f8ad4e2"
+    },
+    {
+      "path": "runs/raar-critical-crossing-proposal01/report.json",
+      "bytes": 5064,
+      "sha256": "1a5b45af1ff3add5b02dd1246bb66d5a360d8b58db65cb119ab1a9ab82815610"
+    },
+    {
+      "path": "runs/raar-critical-crossing-proposal01/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_critical_fold_region.py",
+      "bytes": 5928,
+      "sha256": "5d4866f6507a298b1cb82fd4b433aae4f55a9063f23f8730f57f025d2ea76081"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_fold.py",
+      "bytes": 6009,
+      "sha256": "0feb86a2b1c1a38cd47136524cb5ec243340000391bf4df7989eb827fd18207d"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/certify_raar_multiplier_events.py",
+      "bytes": 6869,
+      "sha256": "a34f82793a42690a388ed069eac6f97b6be6aebd1a947a0dfaca46f370a8ca03"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/input.json",
+      "bytes": 4387,
+      "sha256": "d6330277f1f10f5c7bc2118acb69dba5a10fbd025761c8f5b83beb5344b13b60"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/interrupted.json",
+      "bytes": 884,
+      "sha256": "0020d2a7ca10b76862fe5401f03613947d3d4466857a648d17ab8056da2a8851"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/recovered-complete-records.jsonl.gz",
+      "bytes": 363492,
+      "sha256": "c1faa2205c4d17301a77efbc48ab06abad3c32901b597c8f321298e4cb5edb99"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/recovery.json",
+      "bytes": 282,
+      "sha256": "f66f91253fe83df7cbae803198a7bcf3927e136cc6df6d1cc6fb01e0818e8e29"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "runs/raar-critical-fold-region01/volume.jsonl.gz",
+      "bytes": 363547,
+      "sha256": "743d577cded13363cbe78f7fd970ba8f55117d6b1f206af2b6746b00a74d61c9"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit01/audit_raar_critical_membership.py",
+      "bytes": 8259,
+      "sha256": "b23295ed4d08b315f1cc7002dd56949bea6f1ba403f0c56bb13bc8b224561d70"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit01/failure.json",
+      "bytes": 251,
+      "sha256": "91dc4453d91b97038981fcacc5bf0e6d65ce15687f2a90b1e2bf27405750647b"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit02/audit_raar_critical_membership.py",
+      "bytes": 8272,
+      "sha256": "5cf5b945611b0015cccfd56f3504b7c2b3d8845e6bdb13c3be1641df759f0e58"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit02/report.json",
+      "bytes": 5445,
+      "sha256": "65984ed8e0f7e726e1bccd5cab10055c70634ce5499396d71de86f59f3ba9eaf"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit03/audit_raar_critical_membership.py",
+      "bytes": 8272,
+      "sha256": "5cf5b945611b0015cccfd56f3504b7c2b3d8845e6bdb13c3be1641df759f0e58"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit03/report.json",
+      "bytes": 5716,
+      "sha256": "b166ddc36764bbbbac5b138767df5e118c22696b8fc5338b692f0002e30510d3"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit04/audit_raar_critical_membership.py",
+      "bytes": 8272,
+      "sha256": "5cf5b945611b0015cccfd56f3504b7c2b3d8845e6bdb13c3be1641df759f0e58"
+    },
+    {
+      "path": "runs/raar-critical-membership-audit04/report.json",
+      "bytes": 5711,
+      "sha256": "209590611f4dc64ff9633ff895a907eed370b0d969cfc5550ef7a5dc527431d4"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/analysis.json",
+      "bytes": 1349,
+      "sha256": "731b48a47276c2537c8047270675812af01ee38cd7f10adb6babe4a0a0acc114"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/propose_raar_critical_crossing.py",
+      "bytes": 2789,
+      "sha256": "758665ed9b29ebe2a63cd717908194dbafe951df6a222c9393b984d74f8ad4e2"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/raar-critical-membership.pdf",
+      "bytes": 113361,
+      "sha256": "a0dec2ddef42465144e85471c12075e80e29b9f54779ab822dbfe1ad34dac2b8"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/raar-critical-membership.png",
+      "bytes": 391356,
+      "sha256": "312112a220984a2ed39768d9cf866db022e86ffdffb56cebda997d4be88f5ef6"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/render_raar_critical_membership.py",
+      "bytes": 6899,
+      "sha256": "b7a69878e3ef62eb26c167051352c68a6d96c74000bdd8cc4418b37480d9706b"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/render_twist.py",
+      "bytes": 4487,
+      "sha256": "3571e3f49be113b33d5a9ed4213607b7510b341ba6d4c896a37eb2fc64add58f"
+    },
+    {
+      "path": "runs/raar-critical-membership-render01/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/analysis.json",
+      "bytes": 1349,
+      "sha256": "45636f782f493e09874e425ea063463ebf3c4ec5c64c0616022670c8997715ee"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/figure-data.npz",
+      "bytes": 423586,
+      "sha256": "1e956ca39ce934b8f7c4e900ba9e1105a3fd3c8e4fec81bc36ca3853daab3c3c"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/propose_raar_critical_crossing.py",
+      "bytes": 2789,
+      "sha256": "758665ed9b29ebe2a63cd717908194dbafe951df6a222c9393b984d74f8ad4e2"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/raar-critical-membership.pdf",
+      "bytes": 113364,
+      "sha256": "21ff9e739c075221a8504abe0b5c8e524a16adc764448cdbf08987e647eb7bc9"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/raar-critical-membership.png",
+      "bytes": 390131,
+      "sha256": "49e11485b00d70cf6aaf5de6bedefa11211fde2a34846c98bdbe017d738bb949"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/render_raar_critical_membership.py",
+      "bytes": 6943,
+      "sha256": "381c57a4f6d28cff8d54abef6be36a5ec7d30ce09d415e7812b023ca4db00a7f"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/render_twist.py",
+      "bytes": 4487,
+      "sha256": "3571e3f49be113b33d5a9ed4213607b7510b341ba6d4c896a37eb2fc64add58f"
+    },
+    {
+      "path": "runs/raar-critical-membership-render02/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/check_raar_coverings_ad.py",
+      "bytes": 4946,
+      "sha256": "494161d1219c66016bc7ceac0da8b9d32ebb91366b2cd7ca572a8c3e50a2d742"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/edge-0-left.jsonl.gz",
+      "bytes": 508,
+      "sha256": "89af3b35d2936148bbd23c5d42243efb1382b7309d4aa4544361dae7ee1afe7b"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/edge-0-right.jsonl.gz",
+      "bytes": 511,
+      "sha256": "53615644d5c8ec8e6638ecc10e6d01b6373e6ed58f85b23bd24749b414b2de7a"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/edge-0-volume.jsonl.gz",
+      "bytes": 16485,
+      "sha256": "e3c75c6b2dbe25d1364fcb39e074bb5c95e9e8aef8e6dab2ebc378099aed1dbf"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/progress.json",
+      "bytes": 1598,
+      "sha256": "2a583420d22e2c1fa3aa288aa5b4023ba46d8012535bbfdce1d8472288cb4c55"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover-ad01/report.json",
+      "bytes": 2781,
+      "sha256": "39b6402e07a48091cc30401125a99890dafe9d13dacee03af85050b10c548f2f"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/edge-0-left.jsonl.gz",
+      "bytes": 401,
+      "sha256": "f1a80c286f3a75cb37644d85394de700b8ec8c885491c2c3752f434b1882619b"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/edge-0-right.jsonl.gz",
+      "bytes": 405,
+      "sha256": "666e1bbad94507707332d38ddb77ea6089e68e01f0d13b147042b2eff5a31b9f"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/edge-0-volume.jsonl.gz",
+      "bytes": 17561,
+      "sha256": "836b86b4779ccf1d11bb6091235cac321e8e9dfe71d339a06b9067f92b1bf625"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/progress.json",
+      "bytes": 1419,
+      "sha256": "6861e87c96d69d5c7891456d13c4955d953cfccd3eb5241e958cfcb8d2385896"
+    },
+    {
+      "path": "runs/raar-critical-thin-cover01/report.json",
+      "bytes": 2222,
+      "sha256": "a15a4bbbb24e57eed2f2ad649f740d3ae0f4814211729cfaa25e9fcae9f737e3"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/check_raar_coverings_ad.py",
+      "bytes": 4946,
+      "sha256": "494161d1219c66016bc7ceac0da8b9d32ebb91366b2cd7ca572a8c3e50a2d742"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/check_raar_critical_crossing_ad.py",
+      "bytes": 2469,
+      "sha256": "b0c0a65e419ce932d211e2716f1eb1c1a3e64dc9d87734aaaf8a3c8422bbd794"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/face--1.jsonl.gz",
+      "bytes": 629,
+      "sha256": "648a60a1a7c1f69d564b6b85d131cfa0e4050e1a12dcf2b54ab4574787e1f602"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/face-1.jsonl.gz",
+      "bytes": 627,
+      "sha256": "7b8bcdec76114886854005d8d6c88d0ea678902b90b5d44781ce6fc82b291566"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/progress.json",
+      "bytes": 1501,
+      "sha256": "5b75a1c241f6135c204d736a22ef1d5925a8533694547e1feca32ac4212379ba"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-ad01/report.json",
+      "bytes": 2648,
+      "sha256": "a8017b7988ea572a340d1829a0bc0e054fcecaa7e9947e0415f51f5c2ceac15a"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/face--1.jsonl.gz",
+      "bytes": 1613,
+      "sha256": "2ec8e806f147cec43966dafdf08a43286ade9ccd38de64a74efd078b7ef78321"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/face-1.jsonl.gz",
+      "bytes": 493,
+      "sha256": "d64ab9a311305b886aba47746afa41740ffce52dc746a41b24ffff00ae7f57aa"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/progress.json",
+      "bytes": 1263,
+      "sha256": "3ffcbb6f30ff24247315ad65c35d3d335819064d682d315dcc9c9b7f6d42b7be"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces-natural01/report.json",
+      "bytes": 1871,
+      "sha256": "9989a48d34f6b04880a5c3adfdceed24525ab3b5ba5ea89752b8f3837024536a"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/face--1.jsonl.gz",
+      "bytes": 495,
+      "sha256": "51febf2ca73bd13d17d15bc492e1bdbfaa0c90ad52990339711f06872ff4ae50"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/face-1.jsonl.gz",
+      "bytes": 489,
+      "sha256": "605f005a6d222919138e55ef0d38f0dec819ca25afdd8a2294843cc2945c7c64"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/progress.json",
+      "bytes": 1263,
+      "sha256": "956099c4b05d6db786c0dddf810149e40ac40de48f9aaec3e33e57e5bbaf145f"
+    },
+    {
+      "path": "runs/raar-critical-thin-faces01/report.json",
+      "bytes": 2119,
+      "sha256": "5046abbaff2faa8b71f88cc40451673afb482c805f5c23dff005818cea19a646"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_critical_fold_region.py",
+      "bytes": 5928,
+      "sha256": "5d4866f6507a298b1cb82fd4b433aae4f55a9063f23f8730f57f025d2ea76081"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_fold.py",
+      "bytes": 6009,
+      "sha256": "0feb86a2b1c1a38cd47136524cb5ec243340000391bf4df7989eb827fd18207d"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/certify_raar_multiplier_events.py",
+      "bytes": 6869,
+      "sha256": "a34f82793a42690a388ed069eac6f97b6be6aebd1a947a0dfaca46f370a8ca03"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/check_raar_coverings_ad.py",
+      "bytes": 4946,
+      "sha256": "494161d1219c66016bc7ceac0da8b9d32ebb91366b2cd7ca572a8c3e50a2d742"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/check_raar_critical_crossing_ad.py",
+      "bytes": 2469,
+      "sha256": "b0c0a65e419ce932d211e2716f1eb1c1a3e64dc9d87734aaaf8a3c8422bbd794"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/check_raar_critical_fold_ad.py",
+      "bytes": 4760,
+      "sha256": "0cf812a2b3e0383afff522f76f2d841b6d3b982f1fee2eafb593d83cc588a44c"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/report.json",
+      "bytes": 2402,
+      "sha256": "e13b4b71aeb6d4d83768753e827efcb7a95622e8dd42b3619a3a67b72f7ec6fd"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-ad01/volume.jsonl.gz",
+      "bytes": 147940,
+      "sha256": "da0b0cac1fc4221e7ecc98a6e0b97c2254fa28d8bef23d3357c276b9d5149117"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_coverings.py",
+      "bytes": 7179,
+      "sha256": "84a8f9a8e6b8ac8d2822339450489b2c2e450afd7fd42a07c3d89d23aa8e3a3a"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_critical_crossing.py",
+      "bytes": 5356,
+      "sha256": "9367506d617b8f8f9a6c22684fa9c92b5c026e36ce389b9664cd308a3536c0ff"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_critical_doubleton.py",
+      "bytes": 3287,
+      "sha256": "c65d9593bf81c8d6b1bfb4231b4fb1d4666e240b9273ec02c600793425fa8e48"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_critical_fold_region.py",
+      "bytes": 5928,
+      "sha256": "5d4866f6507a298b1cb82fd4b433aae4f55a9063f23f8730f57f025d2ea76081"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_cycles.py",
+      "bytes": 6100,
+      "sha256": "95998a762383609f8160c50f0199c8266793a67cdacf7ae959d4676f4c619907"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_fold.py",
+      "bytes": 6009,
+      "sha256": "0feb86a2b1c1a38cd47136524cb5ec243340000391bf4df7989eb827fd18207d"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/certify_raar_multiplier_events.py",
+      "bytes": 6869,
+      "sha256": "a34f82793a42690a388ed069eac6f97b6be6aebd1a947a0dfaca46f370a8ca03"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/report.json",
+      "bytes": 1748,
+      "sha256": "9dbeae165f32c02626de06daca50aa79bcaa372d866fe494fd258d1f9c6c8997"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "runs/raar-critical-thin-fold-region01/volume.jsonl.gz",
+      "bytes": 184430,
+      "sha256": "61c44b0e8d8b650aeb140ef81743b7db62ff598e1788893be5cdaf5e67c53b3c"
+    },
+    {
+      "path": "runs/raar-critical-thin-window01/input.json",
+      "bytes": 4357,
+      "sha256": "303c6ea10783c0fbc9cf2d4d430bb7f37d1b206694433fe523acabf69e04a6b6"
+    },
+    {
+      "path": "runs/raar-critical-thin-window01/propose_raar_thin_window.py",
+      "bytes": 2746,
+      "sha256": "08bf99da408810fc612402371aba39aec27c560a4739628974bb2beb38bfade9"
+    },
+    {
+      "path": "runs/raar-critical-thin-window01/report.json",
+      "bytes": 14322,
+      "sha256": "138185dbb3f039e5c9ac604564e4294329f5718ab558212dfbbdba7a38cbe6c7"
+    },
+    {
+      "path": "runs/raar-critical-thin-window01/search_raar_circles.py",
+      "bytes": 5881,
+      "sha256": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+    },
+    {
+      "path": "theorem.md",
+      "bytes": 9518,
+      "sha256": "a0de60a8f6ba8337e531c8fd856fb1fef4b42e74535270577eb7e41a1166ff5d"
+    }
+  ]
+}

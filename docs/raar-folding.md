@@ -42,6 +42,8 @@ The figure follows all 999,999 consecutive-state pairs through one update. Blue 
 
 A 200-digit interval-Newton calculation certifies a critical point on the segment between exact reference states `857629` and `993053`, less than `0.000042` from the latter. A strictly nonzero Jacobian minor establishes rank two. The determinant gradient dotted with a certified kernel vector lies in `(-0.05230, -0.05228)`. Thus the critical hypersurface is smooth and the kernel is transverse to it: the standard smooth-fold criterion applies. Both projection-axis distances stay strictly positive.
 
+A [later membership theorem](raar-critical-membership.md) proves that a smooth fold belongs to the certified attracting set K. It does not identify that fold with the particular near-cloud point located here.
+
 This is a local property of the full map, not an artifact of viewing a three-dimensional object in a flat picture. However, membership of the certified point in an asymptotic attractor is unproved, and this calculation does not identify the cause of the entire arch. Folds themselves are classical; the normal form uses different source and target coordinates and is not a dynamical conjugacy. The criterion is stated in [Montgomery (2014), Appendix B](https://doi.org/10.3842/SIGMA.2014.101). The [complete packet](../results/raar-fold-certificate/) retains the proposal, sampled determinants, both proof revisions, independent Hessian cross-check and both rendering revisions.
 
 ## What this adds, and what remains open
