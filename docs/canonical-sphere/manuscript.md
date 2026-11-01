@@ -246,8 +246,8 @@ the outward-rounded bounds
 
 ```math
 \begin{gathered}
-0.03710<q(t)<0.96290,\qquad
-\|2m(x)-x\|>0.06426\quad(x\in Q),\\
+0.03710\lt q(t)\lt0.96290,\qquad
+\|2m(x)-x\|\gt0.06426\quad(x\in Q),\\
 F(Q)\subset[-1.63971,-0.09001]^3\subset\mathrm{int}(Q).
 \end{gathered}
 ```
