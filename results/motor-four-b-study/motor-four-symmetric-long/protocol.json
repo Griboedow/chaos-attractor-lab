@@ -1,0 +1,97 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-b-slice\\complete-or-budgeted.npz",
+  "source_sha256": "5eb580ef08d75bf766fb51e773a208a9aa333c1ed461b45b393b494e45dc0359",
+  "selection": "Explicit follow-up IDs, selected after inspection of the first full-spectrum geometry gallery.",
+  "selected": [
+    296,
+    298,
+    300
+  ],
+  "jobs": [
+    {
+      "id": 296,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        1.54
+      ],
+      "initial": [
+        -0.17045439575612215,
+        0.4389102944342691,
+        1.1571653174596845,
+        -0.3260213652595629,
+        1.3315858115070969,
+        1.55128778277183,
+        -0.9364788452821782,
+        0.9197187315390697,
+        0.491903194046022,
+        1.015616124588676,
+        -0.6223220166698048
+      ],
+      "warm": 200.0,
+      "duration": 60000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-symmetric-long",
+      "rtol": 2e-10,
+      "max_step": 0.02,
+      "sample_step": 0.1
+    },
+    {
+      "id": 298,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        1.545
+      ],
+      "initial": [
+        0.4359496406479541,
+        0.08400727167673762,
+        0.5968330642392213,
+        0.1444524815302945,
+        1.386215165255454,
+        1.1547205674722596,
+        1.4904160200645618,
+        0.4627654774639831,
+        0.9533973425062237,
+        -0.0215309988724776,
+        1.42734821908359
+      ],
+      "warm": 200.0,
+      "duration": 60000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-symmetric-long",
+      "rtol": 2e-10,
+      "max_step": 0.02,
+      "sample_step": 0.1
+    },
+    {
+      "id": 300,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        1.55
+      ],
+      "initial": [
+        0.2404989931524592,
+        1.2724695196149716,
+        0.970436001819689,
+        0.01213235005845573,
+        1.3150668806643924,
+        1.1113214106560096,
+        1.2547173893238945,
+        0.8655668129493191,
+        0.1203683320090932,
+        0.940730473607114,
+        0.6707346093389335
+      ],
+      "warm": 200.0,
+      "duration": 60000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-symmetric-long",
+      "rtol": 2e-10,
+      "max_step": 0.02,
+      "sample_step": 0.1
+    }
+  ],
+  "N": 4,
+  "dimension": 11,
+  "method": "DOP853 full 11D QR .5; rtol2e-10,atol2e-12,maxstep0.02; uniform 0.1 samples",
+  "warning": "Finite-time spectra and visual screening; no novel attractor claim."
+}

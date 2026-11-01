@@ -2,11 +2,11 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
-**[Current visual candidate: a thin braid from four motor groups](docs/motor-four-geometry.md).** A 4,032-run survey yields a slender numerical chaotic regime in an eleven-dimensional physical model. Two 12,000-unit checks and a 100,000-unit continuation retain positive leading growth. Its topology and historical novelty remain unresolved.
+**[Current visual candidates: two chaotic geometries from four motor groups](docs/motor-four-b-study.md).** A thin braid survives a 100,000-unit numerical check; nearby, three larger regimes retain chaos through 60,000 units each. Full-state symmetry and close-pair comparisons distinguish their behavior. Their topology and historical novelty remain unresolved.
 
-![Four motor groups in a rotating physical view](docs/assets/motor-four-rotation.gif)
+![Two four-motor regimes with a common rotating camera and scale](docs/assets/motor-b-regimes.gif)
 
-Orthonormal contrasts of the four physical displacements. The camera rotates around fixed data. A full-state comparison supports a candidate threefold cyclic symmetry with one distinguished group, rather than inferring symmetry from the silhouette. [Numerical, visual and prior-art audit](docs/motor-four-geometry.md).
+Orthonormal contrasts of the four physical displacements. The camera rotates around fixed data with common bounds. The thin braid matches three row permutations; the larger sampled sets match all 24 closely. This is numerical symmetry evidence, not a new-topology claim. [New comparisons and neighboring cycle fold](docs/motor-four-b-study.md) · [Original braid audit](docs/motor-four-geometry.md).
 
 The [earlier three-row ribbon and neighborhood gallery](docs/motor-asymmetry-geometry.md), [geometry search](docs/geometry-search-20261031.md), and negative screens remain available. All 32 fresh four-row histories match the reference family closely after row relabeling; eight symmetry-related orientations are observed. These are not eight discoveries or a proof of a new attractor class.
 

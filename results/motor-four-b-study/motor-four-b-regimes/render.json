@@ -1,0 +1,70 @@
+{
+  "sources": [
+    {
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-100k\\case-3142.npz",
+      "sha256": "7608dd9e60447000dc5049617915fbffc088404ac200684decc74098eaae09cf",
+      "source_samples": 1000000,
+      "source_duration": 99999.9,
+      "display_samples": 12001,
+      "display_start": 99000.0,
+      "display_end": 100200.0,
+      "sample_spacing": 0.09999999999854481,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        1.5
+      ]
+    },
+    {
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-symmetric-long\\case-0298.npz",
+      "sha256": "aa211df5cbb285ff8051beebf40d081f45eb26e15916080c13785e75806f7203",
+      "source_samples": 600000,
+      "source_duration": 59999.9,
+      "display_samples": 12001,
+      "display_start": 59000.0,
+      "display_end": 60200.0,
+      "sample_spacing": 0.09999999999854481,
+      "parameters": [
+        2.0238144033191343,
+        5.193274038098629,
+        1.545
+      ]
+    }
+  ],
+  "contrast_matrix": [
+    [
+      0.5,
+      0.5,
+      -0.5,
+      -0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      0.5,
+      -0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      -0.5,
+      0.5
+    ]
+  ],
+  "shared_axis_center": [
+    2.193847010789618e-05,
+    -0.004241961884890344,
+    0.00026005026290953914
+  ],
+  "shared_axis_radius": 3.4628425431758076,
+  "bounds": "Entire source histories, common bounds and equal axis units.",
+  "color": "Mean cosine occupancy with common plasma limits.",
+  "color_limits": [
+    -0.38184586498854983,
+    0.7160719151146916
+  ],
+  "row_permutation": "None; original labels retained in both histories.",
+  "frames": 72,
+  "fps": 10,
+  "scope": "Fixed linear physical projections, no inferred 3D embedding, topology or historical novelty."
+}

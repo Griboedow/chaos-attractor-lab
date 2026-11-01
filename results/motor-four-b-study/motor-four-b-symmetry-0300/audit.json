@@ -1,0 +1,395 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-b-checks\\case-0300.npz",
+  "sha256": "5542e80e89c96e6f817042199904cce9aac8d440ced9ba3880f696078e0f6e8a",
+  "N": 4,
+  "dimension": 11,
+  "metric": "Euclidean distance of full(c,s,X) after c,s divided by sqrt(1+b^2), X additionally multiplied by rho/r. No learned projection.",
+  "reference": "Each half of the full observation, stride2; queries every37th reference sample; map first-half queries to second-half cloud and conversely.",
+  "database_counts": [
+    30000,
+    30000
+  ],
+  "query_counts": [
+    811,
+    811
+  ],
+  "scale": [
+    0.5421268698220931,
+    0.5421268698220931,
+    0.5421268698220931,
+    0.5421268698220931,
+    0.5421268698220931,
+    0.5421268698220931,
+    0.5421268698220931,
+    0.5421268698220931,
+    0.21126637252787167,
+    0.21126637252787167,
+    0.21126637252787167,
+    0.21126637252787167
+  ],
+  "equation_equivariance_relative_error": 1.2301750922421808e-15,
+  "permutations": [
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "median": 0.009569044117333919,
+      "p95": 0.08915479569034167,
+      "maximum": 0.647794314875173,
+      "equivariance_relative_error": 0.0,
+      "median_ratio_to_identity": 1.0,
+      "p95_ratio_to_identity": 1.0,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "median": 0.009338791490536583,
+      "p95": 0.07904850618130897,
+      "maximum": 0.5877357991418617,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9759377609744485,
+      "p95_ratio_to_identity": 0.8866433439639688,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "median": 0.008959888348644494,
+      "p95": 0.0854444899866386,
+      "maximum": 0.5995289758826208,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.9363410011261245,
+      "p95_ratio_to_identity": 0.9583835544125978,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "median": 0.008742663135835216,
+      "p95": 0.08662721274894367,
+      "maximum": 0.6161620001685812,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.913640174361643,
+      "p95_ratio_to_identity": 0.9716495010523386,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "median": 0.00892592532821531,
+      "p95": 0.0873832673288984,
+      "maximum": 0.5512437414878867,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9327917416585397,
+      "p95_ratio_to_identity": 0.9801297468327306,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "median": 0.00826772531795632,
+      "p95": 0.0746004446848225,
+      "maximum": 0.5459313408813735,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.8640074407201953,
+      "p95_ratio_to_identity": 0.8367518999643014,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "median": 0.00902096351882398,
+      "p95": 0.07848172375857955,
+      "maximum": 0.6260397016830636,
+      "equivariance_relative_error": 0.0,
+      "median_ratio_to_identity": 0.9427235790963578,
+      "p95_ratio_to_identity": 0.8802860592173579,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "median": 0.008880208427186283,
+      "p95": 0.07654160464991244,
+      "maximum": 0.6426879936709174,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9280141588123897,
+      "p95_ratio_to_identity": 0.858524816946043,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "median": 0.009167170897432915,
+      "p95": 0.08612642277470811,
+      "maximum": 0.5376541041191795,
+      "equivariance_relative_error": 1.666373047824189e-16,
+      "median_ratio_to_identity": 0.9580027832484305,
+      "p95_ratio_to_identity": 0.9660324170765653,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "median": 0.00914562605094597,
+      "p95": 0.07881955926768,
+      "maximum": 0.5375175147400121,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9557512682357745,
+      "p95_ratio_to_identity": 0.8840753731458407,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "median": 0.008630376238903727,
+      "p95": 0.08624798799647153,
+      "maximum": 0.6135666461228647,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9019057842224978,
+      "p95_ratio_to_identity": 0.9673959468880815,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "median": 0.009160896355410052,
+      "p95": 0.08938066545985629,
+      "maximum": 0.6497453083712685,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9573470707294028,
+      "p95_ratio_to_identity": 1.0025334561956614,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "median": 0.009085942968676888,
+      "p95": 0.08334685612589643,
+      "maximum": 0.5859366935814656,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.949514168527877,
+      "p95_ratio_to_identity": 0.9348555563447449,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "median": 0.00823057280580966,
+      "p95": 0.08589919438244253,
+      "maximum": 0.6604343904966693,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.860124867738913,
+      "p95_ratio_to_identity": 0.9634837219614444,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "median": 0.008815695682788432,
+      "p95": 0.08377165954621904,
+      "maximum": 0.5259618559397818,
+      "equivariance_relative_error": 1.666373047824189e-16,
+      "median_ratio_to_identity": 0.921272341802581,
+      "p95_ratio_to_identity": 0.9396203412004925,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "median": 0.008962972593598201,
+      "p95": 0.08725506056924211,
+      "maximum": 0.5133347582213506,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9366633159692676,
+      "p95_ratio_to_identity": 0.9786917225664692,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "median": 0.00916713623533394,
+      "p95": 0.09171877695214897,
+      "maximum": 0.5324759532774411,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.9579991609327059,
+      "p95_ratio_to_identity": 1.028758758762823,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "median": 0.00879554098670836,
+      "p95": 0.0925711637465064,
+      "maximum": 0.5486523178269015,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.9191661025760774,
+      "p95_ratio_to_identity": 1.0383195096765259,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "median": 0.00896775298396605,
+      "p95": 0.08528673471170384,
+      "maximum": 0.616583549930377,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9371628841925125,
+      "p95_ratio_to_identity": 0.9566141008042615,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "median": 0.00927076912333272,
+      "p95": 0.0892914733550377,
+      "maximum": 0.4431515671034737,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.9688291755849588,
+      "p95_ratio_to_identity": 1.0015330377198188,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "median": 0.008751686929753116,
+      "p95": 0.08714655247177062,
+      "maximum": 0.5197499523140979,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9145831937277628,
+      "p95_ratio_to_identity": 0.9774746472915915,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "median": 0.009019390868408143,
+      "p95": 0.09272927249583553,
+      "maximum": 0.5119747926194396,
+      "equivariance_relative_error": 7.228022661662719e-16,
+      "median_ratio_to_identity": 0.9425592313938544,
+      "p95_ratio_to_identity": 1.0400929280115112,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "median": 0.008762768882276482,
+      "p95": 0.08791062077245038,
+      "maximum": 0.5290992477830987,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.9157412981724158,
+      "p95_ratio_to_identity": 0.986044778542114,
+      "within_three_times_identity": true
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "median": 0.009093954713072786,
+      "p95": 0.08090724373448575,
+      "maximum": 0.4511920556107473,
+      "equivariance_relative_error": 1.2301750922421808e-15,
+      "median_ratio_to_identity": 0.9503514250289087,
+      "p95_ratio_to_identity": 0.9074917743684607,
+      "within_three_times_identity": true
+    }
+  ],
+  "empirical_rule": "Both median and95th-percentile distances <=3times the identity cross-half baseline. Heuristic, not a certified symmetry decision.",
+  "limitation": "Finite point clouds cannot prove an invariant set symmetry, attraction, topology, equivalence or historical novelty."
+}

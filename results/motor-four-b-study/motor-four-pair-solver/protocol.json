@@ -1,0 +1,44 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\motor-four-pair-dispersion",
+  "source_sha256": "be452bdc2f33af7d8b36e03f37492c3922d511e80fe814e8b90720d865f8cfae",
+  "pair_ids": [
+    0,
+    11,
+    21,
+    31,
+    32,
+    43,
+    53,
+    63,
+    64,
+    75,
+    85,
+    95,
+    96,
+    107,
+    117,
+    127,
+    128,
+    139,
+    149,
+    159,
+    160,
+    171,
+    181,
+    191
+  ],
+  "phases": [
+    0,
+    11,
+    21,
+    31
+  ],
+  "times": [
+    2.0,
+    20.0
+  ],
+  "independent": "Both members integrated with source force-constraint field and Radau, rtol2e-12,atol2e-14,maxstep.01.",
+  "gpu": "Original2e-11/.25 and refined2e-12/.125 settings; each target time integrated afresh from saved inputs.",
+  "correction": "The earlier independent-controls.json tested only one base trajectory per model despite its source comment saying pair. This is the actual paired control.",
+  "scope": "Short-horizon state and separation accuracy, not pointwise agreement after chaotic decorrelation."
+}
