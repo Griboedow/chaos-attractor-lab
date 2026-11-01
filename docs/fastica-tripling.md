@@ -12,6 +12,11 @@ independent-source ICA model is not assumed. The algorithm and the expanding
 circle mechanism are established mathematics. Historical priority of this
 particular finite-data realization remains unresolved.
 
+A [structural extension](fastica-tripling-structure.md) proves that, for
+`0 < epsilon <= 1/25`, `K` contains a point where the full map is not locally
+injective. This excludes ambient-neighborhood conjugacy to a classical
+solenoid embedding; it leaves intrinsic equivalence on invariant sets open.
+
 [Main-page portraits](../README.md#structured-data-fastica) ·
 [Evidence and reproduction](../results/fastica-tripling/README.md) ·
 [Earlier empirical FastICA study](fastica-dynamics.md)
@@ -264,6 +269,6 @@ not locate this exact construction in the returned material. This is a bounded
 search result, not a historical uniqueness certificate.
 
 Transitivity of `K`, equality of `K` with a sampled orbit closure, uniform
-hyperbolicity, a Smale--Williams conjugacy, and priority of the finite-data
+hyperbolicity, an intrinsic Smale--Williams conjugacy, and priority of the finite-data
 construction remain unproved. The entropy theorem does not settle those
 questions or establish the requested visual novelty.
