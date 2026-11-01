@@ -19,6 +19,8 @@ def check_math_blocks(text: str, name: Path) -> list[str]:
     for number, line in enumerate(text.splitlines(), 1):
         if (fence is None or math) and r"\operatorname" in line:
             failures.append(f"{name}:{number}: GitHub rejects operatorname; use an upright math name")
+        if math and re.search(r"\\tag\*?\{", line):
+            failures.append(f"{name}:{number}: use a text equation number; tagged MathML rows break Chromium layout")
         match = re.match(r"^\s*(`{3,}|~{3,})(.*)$", line)
         if match:
             marker, language = match.groups()

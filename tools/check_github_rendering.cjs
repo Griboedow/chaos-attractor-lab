@@ -77,6 +77,7 @@ async function main() {
             display_math_count: maths.filter(e => e.classList.contains('js-display-math')).length,
             total_math_count: maths.length,
             math_errors: maths.filter(e => !e.querySelector('math,mjx-container') || e.querySelector('merror,mjx-merror')).map(e => e.innerText),
+            unsupported_labeled_rows: a.querySelectorAll('math mlabeledtr').length,
             images: [...a.querySelectorAll('img')].map(e => ({src: e.getAttribute('src'), loaded: e.complete && e.naturalWidth > 0})),
             width: a.clientWidth, scroll_width: a.scrollWidth,
             raw_display_delimiters: /(^|\n)\s*\$\$/.test(a.innerText),
@@ -96,6 +97,7 @@ async function main() {
           screenshot, screenshot_sha256: crypto.createHash('sha256').update(fs.readFileSync(path.join(output, screenshot))).digest('hex')
         };
         row.passed = row.status === 200 && !row.math_errors.length && !row.raw_display_delimiters &&
+          row.unsupported_labeled_rows === 0 &&
           row.display_math_count === expected.display &&
           row.total_math_count === expected.display + expected.inline && row.images.every(e => e.loaded);
       } catch (error) {

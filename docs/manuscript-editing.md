@@ -11,6 +11,9 @@ otherwise consume before mathematical rendering.
 Use GitHub's dollar/backtick delimiters for inline mathematics as well.
 Use upright math names such as `\mathrm{tr}` for nonstandard operators;
 the browser check on 2026-11-01 found that GitHub rejected the operator-name macro.
+Keep equation numbers as ordinary math text, for example `\qquad\text{(1)}`.
+Tagged equations produced unsupported labeled MathML rows in the inspected
+Chromium browser, stacking the formula vertically despite reporting no parse error.
 
 Run from the repository root after editing:
 

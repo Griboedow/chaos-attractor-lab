@@ -47,14 +47,14 @@ For $`N\geq2`$, write the state of row $`j`$ as $`(c_j,s_j,X_j)`$ and impose $`\
 
 ```math
 V_j=-\rho X_j+r(s_j-\bar s),
- \bar s=\frac1N\sum_{i=1}^N s_i,\tag{1}
+ \bar s=\frac1N\sum_{i=1}^N s_i,\qquad\text{(1)}
 ```
 
 <a id="eq-model"></a>
 
 ```math
 c_j'=1-c_j-V_js_j,
- s_j'=b-s_j+V_jc_j, X_j'=V_j.\tag{2}
+ s_j'=b-s_j+V_jc_j, X_j'=V_j.\qquad\text{(2)}
 ```
 
 The first harmonic of the motor density determines $`(c_j,s_j)`$; $`X_j`$ is the normalized relative displacement. Eliminating $`X_N`$ gives a $`3N-1`$ dimensional autonomous polynomial system. The mean term in [(1)](#eq-velocity) follows from the mechanical displacement constraint. The normalization and its relation to the published equations are given in the accompanying source audit. This manuscript uses
@@ -64,7 +64,7 @@ The first harmonic of the motor density determines $`(c_j,s_j)`$; $`X_j`$ is the
 ```math
 \rho_* = \frac{129}{55},\qquad
  r_* = 1+\frac{19/20}{\sqrt{32001/500000}},\qquad b_*=1.
- \tag{3}
+ \qquad\text{(3)}
 ```
 
 The value of $`r_*`$ agrees with the activity path implemented from the source model. The rational value of $`\rho_*`$ specifies the theorem exactly and avoids identifying a floating-point grid point with an exact parameter.
@@ -76,7 +76,7 @@ The value of $`r_*`$ agrees with the activity path implemented from the source m
 <a id="eq-period"></a>
 
 ```math
-25.0016843758970971<T<25.0016843758970972.\tag{4}
+25.0016843758970971<T<25.0016843758970972.\qquad\text{(4)}
 ```
 
 For every integer $`k\geq1`$, replication to multiplicities $`(2k,2k,k,2k,k)`$ is an exact periodic solution of the $`N=8k`$ system at the same parameters and with the same return period. Its Floquet index is
@@ -84,7 +84,7 @@ For every integer $`k\geq1`$, replication to multiplicities $`(2k,2k,k,2k,k)`$ i
 <a id="eq-index"></a>
 
 ```math
-(u,n,s)=(2k-2,\,1,\,22k),\tag{5}
+(u,n,s)=(2k-2,\,1,\,22k),\qquad\text{(5)}
 ```
 
 where $`u,n,s`$ count multipliers outside, on and inside the unit circle, with algebraic multiplicity. The sole neutral multiplier is the simple flow multiplier $`1`$. Every stable multiplier has modulus below $`0.13`$. Every unstable multiplier belongs to $`(-23.084,-23.083)`$. In particular, the $`N=8`$ orbit is locally orbitally exponentially attracting; the $`N=8k`$ replicas are hyperbolic periodic saddles for $`k\geq2`$.
@@ -109,7 +109,7 @@ We retain a direct derivation of the established cluster decomposition only to s
 
 ```math
 V_a=-\rho X_a+r\left(s_a-\sum_{b=1}^K w_b s_b\right),
- \qquad \sum_{a=1}^K w_a X_a=0,\tag{6}
+ \qquad \sum_{a=1}^K w_a X_a=0,\qquad\text{(6)}
 ```
 
 with the same three row equations. It has dimension $`3K-1`$. Multiplying every $`m_a`$ by the same positive integer leaves all weights unchanged. Therefore every quotient trajectory, periodic or otherwise, embeds exactly in every balanced replica.
@@ -124,7 +124,7 @@ Along a cluster trajectory, an internal perturbation has zero sum within one clu
  -1&-V_a-rs_a&\rho s_a\\
  V_a&-1+rc_a&-\rho c_a\\
  0&r&-\rho
- \end{pmatrix}.\tag{7}
+ \end{pmatrix}.\qquad\text{(7)}
 ```
 
 There are $`m_a-1`$ such three-dimensional copies. The remaining tangent directions are constant within each cluster and form the quotient tangent space. This is a direct sum: decomposing row perturbations into their cluster averages and zero-sum residuals gives unique components.
@@ -137,7 +137,7 @@ There are $`m_a-1`$ such three-dimensional copies. The remaining tangent directi
 
 ```math
 M_Q\ \oplus\ \bigoplus_{a=1}^K
-      \left(\mathrm{I}_{km_a-1}\otimes M_a\right).\tag{8}
+      \left(\mathrm{I}_{km_a-1}\otimes M_a\right).\qquad\text{(8)}
 ```
 
 Equivalently, its characteristic polynomial is
@@ -146,7 +146,7 @@ Equivalently, its characteristic polynomial is
 
 ```math
 \chi_{8k}(z)=\chi_Q(z)\prod_{a=1}^5\chi_a(z)^{km_a-1}
- \tag{9}
+ \qquad\text{(9)}
 ```
 
 for the five-cluster family considered here.
@@ -167,7 +167,7 @@ Let $`q`$ denote the 14 independent quotient coordinates, with the last displace
 
 ```math
 (Pq)_a=q_{\pi(a)},\qquad \pi=(4,1,5,2,3),\qquad P^6=\mathrm{I},
- \tag{10}
+ \qquad\text{(10)}
 ```
 
 where the list specifies the image index for each group. The certified relative closure is $`\phi_L(q_0)=Pq_0`$ with $`L=T/6`$. It cyclically exchanges the three paired groups and swaps the singletons.
@@ -182,7 +182,7 @@ F(q_0,q_1,q_2,\ell)=
  \phi_\ell(q_0)-q_1\\
  \phi_\ell(q_1)-q_2\\
  \phi_\ell(q_2)-Pq_0
- \end{pmatrix}=0.\tag{11}
+ \end{pmatrix}=0.\qquad\text{(11)}
 ```
 
 The Jacobian includes the endpoint vector field as the derivative with respect to duration. A ball $`\mathcal B`$ around an approximate solution $`\hat q`$ and a fixed invertible preconditioner $`C`$ satisfy
@@ -192,7 +192,7 @@ The Jacobian includes the endpoint vector field as the derivative with respect t
 ```math
 -CF(\hat q)+\bigl(\mathrm{I}-C[DF(\mathcal B)]\bigr)
        (\mathcal B-\hat q)
-       \subset\mathrm{int}(\mathcal B-\hat q).\tag{12}
+       \subset\mathrm{int}(\mathcal B-\hat q).\qquad\text{(12)}
 ```
 
 The induced infinity norm of $`\mathrm{I}-C[DF(\mathcal B)]`$ is strictly below one. Thus $`q\mapsto q-CF(q)`$ is a contraction of the box into itself; its unique fixed point is a zero of $`F`$ because $`C`$ is invertible. The verified positive section velocity and duration exclude a stationary solution. Pairwise disjoint coordinate enclosures at the section verify that all five cluster states are distinct. Uniqueness of the ODE then prevents any two cluster states from coinciding at another time.
@@ -206,7 +206,7 @@ Write $`H=D\phi_L(q_0)`$ and $`Q=P^{-1}H`$. Equivariance gives
 <a id="eq-relative"></a>
 
 ```math
-M_Q=Q^6.\tag{13}
+M_Q=Q^6.\qquad\text{(13)}
 ```
 
 The nonzero vector field at the section is an exact eigenvector of $`Q`$ with eigenvalue one. After an invertible, exactly stored dyadic similarity, the interval characteristic polynomial is divided by the exact factor $`z-1`$. A Schur recursion certifies all 13 remaining roots of $`Q`$ inside radius $`0.7`$. Consequently the 13 nonflow multipliers of $`M_Q`$ satisfy $`|\mu|<0.7^6=0.117649`$.
@@ -216,7 +216,7 @@ Let $`B_a`$ be the return of [(7)](#eq-contrast) over the relative interval $`L`
 <a id="eq-pairs"></a>
 
 ```math
-M_1=(B_2B_4B_1)^2.\tag{14}
+M_1=(B_2B_4B_1)^2.\qquad\text{(14)}
 ```
 
 The other two paired groups use the corresponding cyclic products. Each of these three enclosed cubic characteristic polynomials passes a Schur test at radius $`0.13`$. At $`N=8`$, these blocks supply nine stable directions. Together with the quotient, this proves the $`(0,1,22)`$ index and full-space local attraction. The spectrum in a restricted cluster subspace alone would not imply this conclusion.
@@ -228,7 +228,7 @@ The two singleton blocks follow the alternating group path $`3,5,3,5,3,5`$, so t
 <a id="eq-singleton"></a>
 
 ```math
-M_3=(B_5B_3)^3,\qquad M_5=(B_3B_5)^3.\tag{15}
+M_3=(B_5B_3)^3,\qquad M_5=(B_3B_5)^3.\qquad\text{(15)}
 ```
 
 These matrices are similar because $`B_3`$ is a fundamental matrix and is invertible. They therefore have the same spectrum. We nevertheless enclose and check both separately, retaining the uncertainty in every matrix product.
@@ -238,7 +238,7 @@ For each cubic $`p(z)=z^3+a_2z^2+a_1z+a_0`$, strict interval signs first give a 
 <a id="eq-root"></a>
 
 ```math
--23.083470<\mu_u<-23.083469.\tag{16}
+-23.083470<\mu_u<-23.083469.\qquad\text{(16)}
 ```
 
 For an exact root $`u`$ in this bracket, synthetic division gives
@@ -247,7 +247,7 @@ For an exact root $`u`$ in this bracket, synthetic division gives
 
 ```math
 p(z)=(z-u)\left[z^2+\alpha z+\beta\right],\quad
- \alpha=a_2+u,\quad \beta=a_1+u(a_2+u).\tag{17}
+ \alpha=a_2+u,\quad \beta=a_1+u(a_2+u).\qquad\text{(17)}
 ```
 
 All admissible coefficients and roots are enclosed when evaluating $`\alpha`$ and $`\beta`$. For a real monic quadratic, roots lie within radius $`R`$ if
@@ -257,7 +257,7 @@ All admissible coefficients and roots are enclosed when evaluating $`\alpha`$ an
 ```math
 1-|\beta|/R^2>0,\qquad
  1+\alpha/R+\beta/R^2>0,\qquad
- 1-\alpha/R+\beta/R^2>0.\tag{18}
+ 1-\alpha/R+\beta/R^2>0.\qquad\text{(18)}
 ```
 
 These strict inequalities hold at $`R=0.13`$ for the entire enclosing coefficient box. Thus each singleton block has exactly one unstable root and two stable roots. A failed stability test alone would not give this classification; the root bracket and quadratic inequalities supply it.
@@ -360,7 +360,7 @@ For transition-rate Fourier coefficients $`a_1,b_1`$, put $`A=a_1/a_0`$ and $`B=
 
 ```math
 \partial_\tau q_j+V_j\partial_\theta q_j
- =-q_j+\frac12+A\cos\theta+B\sin\theta.\tag{19}
+ =-q_j+\frac12+A\cos\theta+B\sin\theta.\qquad\text{(19)}
 ```
 
 Setting the first Fourier coefficients to $`Ac_j`$ and $`As_j`$, with $`b=B/A`$ and $`r=-\gamma A`$, gives [(2)](#eq-model). Only the first sine coefficient enters the force. Thus this finite system is an exact closure under the stated assumptions. Higher-mode relaxation is already present in the source model [\[1\]](#ref-1).

@@ -46,7 +46,7 @@ First, `R_t=max(|x_t|,|u_t|)` satisfies `R_(t+1)<=(1+1/e)R_t`. Consequently `|x_
 Second, whenever `t<N` and `|x_t|>S`, the displacement obeys
 
 ```math
-|x_{t+1}-x_t|\le\frac{B}{\sigma S}=K. \tag{1}
+|x_{t+1}-x_t|\le\frac{B}{\sigma S}=K. \qquad\text{(1)}
 ```
 
 Third, a state with `|x_t|<=S` cannot be followed by a state of magnitude greater than `B/2`. For `t<L`, the preceding initial bound already proves this. For `t>=L-1`, work backward through the last `L` gradient inputs. At each backward step, either the predecessor is inside `[-S,S]`, or (1) limits its distance from its successor by `K`. Thus every one of these inputs has magnitude at most `S+LK`. Unrolling the convex recurrence for `L` steps leaves an old-momentum weight
@@ -65,7 +65,7 @@ and hence
 
 ```math
 |x_{t+1}|\le\kappa B+\frac{2\kappa B+LK}{e}
-\le\frac38B+\frac18B=\frac12B. \tag{2}
+\le\frac38B+\frac18B=\frac12B. \qquad\text{(2)}
 ```
 
 Here `kappa*(1+2/e)<=3/8` follows separately for `e<=1` and `e>=1`, and `LK/e<=B/8` follows from the definition of `B`.

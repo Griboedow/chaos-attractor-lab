@@ -79,7 +79,7 @@ Set S = κ B and R<sub>t</sub> = max(|x<sub>t</sub>|,|u<sub>t</sub>|). Suppose N
 Whenever t < N and |x<sub>t</sub>| > S, the step obeys
 
 ```math
-|x_{t+1}-x_t|\leq\frac{B}{\sigma S}=K. \tag{1}
+|x_{t+1}-x_t|\leq\frac{B}{\sigma S}=K. \qquad\text{(1)}
 ```
 
 Next, a point with |x<sub>t</sub>| ≤ S cannot be followed by a point of magnitude greater than B/2. For t < L this follows from the initial bound. Otherwise, work backward through the last L gradient inputs. A predecessor is either within [-S,S], or (1) bounds its distance from its successor by K. Every input in these L updates thus has magnitude at most S+LK.
@@ -93,7 +93,7 @@ Unrolling the momentum recurrence leaves an old-momentum weight q, the product o
 For a state inside [-S,S], the preceding estimate gives
 
 ```math
-|x_{t+1}|\leq\kappa B+\frac{2\kappa B+LK}{e}\leq\frac{3}{8}B+\frac{1}{8}B=\frac{1}{2}B. \tag{2}
+|x_{t+1}|\leq\kappa B+\frac{2\kappa B+LK}{e}\leq\frac{3}{8}B+\frac{1}{8}B=\frac{1}{2}B. \qquad\text{(2)}
 ```
 
 Here κ(1+2/e) ≤ 3/8 follows separately for e ≤ 1 and e ≥ 1, while LK/e ≤ B/8 follows from B's definition. A proposed positive exit x<sub>N</sub> > B must therefore have x<sub>N-1</sub> > B-K. Its predecessor cannot lie inside [-S,S], since (2) would put x<sub>N-1</sub> below B/2. Iterating this reasoning backward gives
