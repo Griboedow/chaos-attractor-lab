@@ -8,6 +8,10 @@ Follow-up: the [longer continuation](motor-activity-continuation.md) preserves t
 
 ![Screening along the source activity path](../results/motor-rows/activity-path/activity-path.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8dcf0ce558e91840964f88332f4b60092f258271/results/motor-rows/activity-path/activity-path.png)).*
+<!-- /drawing-date -->
+
 ## Keeping the source constants fixed
 
 Section 3.1 of arXiv v2 defines $a_0=c\sqrt\Omega$ and $a_1=b_1=d\Omega$, with $d$ determined once by Eq. (65) at the chosen $\Omega_0$. Table 1 is held fixed. Under the normalization in our source audit,
@@ -55,6 +59,10 @@ All 320 lane-block integrations completed. **31 of 32 trajectories remain above 
 
 ![Persistence cohort and independent full-row diagnostics](../results/motor-rows/activity-path/N8-persistence.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8dcf0ce558e91840964f88332f4b60092f258271/results/motor-rows/activity-path/N8-persistence.png)).*
+<!-- /drawing-date -->
+
 The cohort is selected from earlier positive screens. Its 31/32 count is not an estimate of the fraction of physical initial conditions that are chaotic, a universal escape rate, or proof of infinite lifetime. [lifetime-summary.json](../results/motor-rows/activity-path/lifetime-summary.json) and each immutable block record preserve all IDs and outcomes.
 
 ## Independent full 23-dimensional spectrum
@@ -84,9 +92,17 @@ These are strong numerical indications of hyperchaos: expansion in several indep
 
 ![Full-state projections, section and spectrum](../results/motor-rows/activity-path/N8-geometry.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8dcf0ce558e91840964f88332f4b60092f258271/results/motor-rows/activity-path/N8-geometry.png)).*
+<!-- /drawing-date -->
+
 ## Geometry and row structure
 
 ![Rotating projection of the eight-row trajectory](../results/motor-rows/activity-path/N8-rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8dcf0ce558e91840964f88332f4b60092f258271/results/motor-rows/activity-path/N8-rotation.gif)).*
+<!-- /drawing-date -->
 
 Every three-dimensional view is a **projection of a 23-dimensional state**. The figures show normalized row shifts and motor Fourier coefficients, without inventing dimensional laboratory coordinates. The constraint on the sum of all eight shifts is retained exactly. Sampled points are not connected across unresolved motion; the rotation makes no topology or geometric-originality claim.
 

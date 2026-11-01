@@ -4,6 +4,10 @@
 
 ![Slider trajectory, return map, independent spectra and parameter sensitivity](assets/lce_slider_evidence.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/0e8678d2f6d8dde8df8313472d3b5663a0864ec1/docs/assets/lce_slider_evidence.png)).*
+<!-- /drawing-date -->
+
 The physical idea is a hanging photo-responsive fiber that moves a slider and thereby switches its own illumination. The paper investigates steady and periodic motion. Its full text, including Eqs. 9 and 11–13, was read before implementation. No author software was used.
 
 ## Exact reduction of the printed equations

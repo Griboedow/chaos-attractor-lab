@@ -115,7 +115,15 @@ Run `.venv/Scripts/python.exe research/synchronematic_observables.py` to repeat 
 
 ![Gauge-invariant collective projection and comparison](assets/attractor_geometry_baseline.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/attractor_geometry_baseline.png)).*
+<!-- /drawing-date -->
+
 ![Rotation of the corrected projection](assets/synchronematic_projection_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/synchronematic_projection_rotation.gif)).*
+<!-- /drawing-date -->
 
 These are projections of a seven-dimensional angular flow, not embeddings. Smooth invariant observables can identify distinct states. A new silhouette after this correction is not new dynamics and does not establish a new topological type.
 

@@ -23,6 +23,10 @@ At the final parameter, the periodic branch's unstable directions are within the
 
 ![Floquet moduli and complex-pair crossing](../results/motor-activity-continuation/cluster-cycle-branch/audit/branch.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/ed812367be804421d6e7d8ca891c9f6584ee0938/results/motor-activity-continuation/cluster-cycle-branch/audit/branch.png)).*
+<!-- /drawing-date -->
+
 ## Refined numerical crossing
 
 The [refinement record](../results/motor-activity-continuation/cluster-cycle-branch/crossing-refinement/analysis.json) gives

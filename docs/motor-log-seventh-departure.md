@@ -34,6 +34,10 @@ The departure is the first upward crossing of half-contrast norm `1e-4` after a 
 
 ![Seven departures with logarithmic contrast recovery and growing residence times](../results/motor-log-contrasts/seventh-review/log-contrast-diagnostic.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/08769b249a224e233f272d77f1dc77a58dfb9cd7/results/motor-log-contrasts/seventh-review/log-contrast-diagnostic.png)).*
+<!-- /drawing-date -->
+
 The refined phase matching identifies the sequence `L0a → L1b → L2a → L3a → L0a → L1b → L2a → L3a` in the [exact candidate graph](motor-network-combinatorics.md). Its threshold for a near visit is distance `1e-6`. A further false excursion from the coarse matcher at `tau=163000` changes from distance `0.04375` to `9.76e-9` after refinement; both raw and refined diagnostics are preserved. The displayed seven excursions remain after this check. The figure was inspected locally; no GitHub browser rendering check was available.
 
 ## Numerical audit

@@ -30,6 +30,10 @@ All three initially paired groups remain paired in the saved full-equation sampl
 
 ![Distance to the fitted saddle allowing row permutation and phase](../results/motor-activity-continuation/tuple15-excluded/phase-refinement/orbit-distance.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/bbe0edab55b3e18abee97b4ada9039b2f9d566e7/results/motor-activity-continuation/tuple15-excluded/phase-refinement/orbit-distance.png)).*
+<!-- /drawing-date -->
+
 The blue curve stays at numerical orbit-matching accuracy. The orange curve leaves the periodic saddle's neighborhood. An exploratory fit of log distance over added tau 0 through 150 gives slope `0.0509`, near the expanding Floquet rate `0.04818`; this descriptive fit was made after observing the data and does not prove a connection or predict an asymptotic trajectory.
 
 ## Checks, scope and reproduction

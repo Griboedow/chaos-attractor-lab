@@ -43,7 +43,12 @@ def synchronize(ledger, check):
     missing, changed = [], []
     updates = []
     count = 0
-    for name in ledger['caption_documents']:
+    documents = set(ledger['caption_documents'])
+    for pattern in ledger.get('caption_discovery', []):
+        documents.update(p.relative_to(ROOT).as_posix() for p in ROOT.glob(pattern)
+                         if IMAGE.search(p.read_text(encoding='utf-8')))
+    documents.difference_update(ledger.get('frozen_document_exclusions', []))
+    for name in sorted(documents):
         document = (ROOT / name).resolve()
         document.relative_to(ROOT)
         original = document.read_text(encoding='utf-8')
@@ -72,7 +77,7 @@ def synchronize(ledger, check):
     if not check:
         for document, updated in updates:
             document.write_text(updated, encoding='utf-8')
-    print(json.dumps({'dated_image_occurrences': count, 'documents': len(ledger['caption_documents']), 'updated': [] if check else changed}))
+    print(json.dumps({'dated_image_occurrences': count, 'documents': len(documents), 'updated': [] if check else changed}))
 
 
 def main():
@@ -82,7 +87,7 @@ def main():
     record.add_argument('image', help='Repository-relative image path.')
     record.add_argument('--date', help='Earlier drawing date, YYYY-MM-DD; requires evidence.')
     record.add_argument('--evidence', help='Render log or other source for an explicitly supplied date.')
-    sub.add_parser('sync', help='Update dated captions in the README and gallery.')
+    sub.add_parser('sync', help='Update dated captions in the README, gallery and current research pages.')
     sub.add_parser('check', help='Fail if an image or caption lacks its registered date.')
     args = parser.parse_args()
     ledger = json.loads(REGISTRY.read_text(encoding='utf-8'))

@@ -12,6 +12,10 @@ Research snapshot updated 1 November 2026. **We have several independently check
 
 ![Rotating comparison of the periodic motor attractor and hyperchaos candidate](assets/motor-regimes-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/efd6cf451595d47335b30225c92a1904ddead33c/docs/assets/motor-regimes-rotation.gif)).*
+<!-- /drawing-date -->
+
 The rotating views use the same physical coordinates and scales. The periodic orbit on the left has a separate attraction certificate; the irregular trajectory on the right remains a finite-time candidate. [Visualization sources and reproduction](attractor-geometry.md#motor-regimes-in-physical-coordinates).
 
 **A five-cluster periodic attractor is now rigorously certified.** At exact `rho=129/55`, interval multiple shooting proves an orbit with multiplicities `2+2+1+2+1`, one neutral flow multiplier and twenty-two multipliers of modulus below 0.13. A recomputation at higher precision and changed discretization passes independently. Exact symmetry algebra gives 840 labeled copies of this one orbit class. The displayed positive period is about 25.0016843758970971; its minimality and historical novelty are not asserted. [Theorem, archived certificates and controls](motor-five-cycle-certificate.md).
@@ -23,6 +27,10 @@ The [numerical periodic branch](motor-cluster-cycle-branch.md) continues from th
 **The periodic motor mechanism now has a computer-assisted local theorem.** Recomputed interval certificates establish a nonconstant four-plus-four orbit, its least positive period and the full count of six unstable, one neutral and sixteen stable directions. A [subsequent derivative certificate](motor-crossing-certificate.md) isolates a unique nearby transverse crossing, with exact multiplicity six and strictly nonzero speed. This is stronger than a floating-point cycle calculation, but it does not establish a nonlinear flip theorem or an attracting chaotic set. [The base theorem, implementation and executable certificates](motor-cycle-certificate.md).
 
 ![Certified motor-cycle spectral intervals](assets/motor-cycle-certificate.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/72ce491eca490b735aaa7107448aefac7e12698d/docs/assets/motor-cycle-certificate.png)).*
+<!-- /drawing-date -->
 
 The finite-dimensional result also [lifts to the original density PDE under the source's sinusoidal assumptions](motor-pde-lifting.md). Mean deviations and higher Fourier modes decay exactly at unit normalized rate and do not feed back into the mechanical subsystem. They add infinitely many stable linearized directions; they cannot create additional critical directions or alter the certified crossing speed. This is an exact closure argument, not a numerical PDE truncation.
 
@@ -46,9 +54,17 @@ The [global geometry argument](motor-global-geometry.md) also proves connectedne
 
 ![Periodic branch splitting and transverse stability](assets/motor-postcritical-branches.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/3502bc8cd0f89500082123fcaed7e56fe8879955/docs/assets/motor-postcritical-branches.png)).*
+<!-- /drawing-date -->
+
 **The eight-row motor model supports a numerical hyperchaotic candidate on its prescribed activity path.** Holding all source constants and the transition-rate law fixed, changing chemical activity gives a regime with six positive exponents in an independent full 23-dimensional CPU calculation, now continued without resetting its tangent basis to 20,000 observed units. The sixth stays positive in every new 1,000-unit block. Flow, divergence and the weighted-volume identity are checked. The complete original GPU cohort retains the same 31 of 32 positives through another 20,000 units under both numerical settings. Its subthreshold member is independently identified as a periodic saddle; several positive members also need transverse cluster checks. These qualifications preserve the original counts while sharpening their meaning. The representative's activity is about 64% above the defined onset. [Long continuation and perturbation audit](motor-activity-continuation.md), [exact activity mapping and original evidence](motor-rows-activity-path.md).
 
 ![Six expanding directions in the published eight-row model](../results/motor-rows/activity-path/N8-geometry.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8dcf0ce558e91840964f88332f4b60092f258271/results/motor-rows/activity-path/N8-geometry.png)).*
+<!-- /drawing-date -->
 
 A separate [five-cluster candidate](motor-lane46-spectrum.md) has one positive quotient estimate and nine contracting pair-splitting directions in its complete conditional spectrum, supported by a longer strict control. Small full-space perturbations retain positive growth and return near the same pairs over the tested interval. Source-start reruns also expose numerical capture on unstable periodic states, so finite ensemble counts cannot be interpreted as physical basin fractions. A [logarithmic rerun of the original start](motor-original-seed-log.md) retains and recovers extremely small contrasts, but its two distant trajectories disagree; the exact start's asymptotic outcome remains unresolved. At another parameter, a physical departure from a periodic saddle supplied the seed for the separately certified attracting five-cluster cycle above. These [follow-ups](motor-activity-continuation.md) distinguish collective hyperchaos, possible cluster chaos and periodic capture; their numerical evidence does not prove a new strange attractor.
 
@@ -56,9 +72,17 @@ A separate [five-cluster candidate](motor-lane46-spectrum.md) has one positive q
 
 ![Local stability of the continued periodic motor clusters](../results/motor-rows/cluster-cycles/transverse-stability.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/dad689b819d5d3dc308858b18282bbc5c3f29ab4/results/motor-rows/cluster-cycles/transverse-stability.png)).*
+<!-- /drawing-date -->
+
 **The three-row motor ensemble supplies another full-spectrum candidate and an interesting projection.** At one declared parameter tuple, three starts retain leading exponents about 0.256–0.260 through an additional 10,000 original time units, with all 80 windows per start positive. Independent CPU integration over 2,000 observed units gives one positive exponent, one near zero and six negative exponents, with 636 section returns and checked divergence/flow identities. There is no observed fixed two-plus-one row collapse. [Collective-motor report](motor-rows-gpu-survey.md).
 
 ![Physical-coordinate views and full-spectrum checks](../results/motor-rows/cpu-candidate-N3-783.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ece041347ed4bb2b99c856dda10a8b417c7c29db/results/motor-rows/cpu-candidate-N3-783.png)).*
+<!-- /drawing-date -->
 
 The curved triangular envelope is an eight-dimensional trajectory projected onto three physical observables. Its shape is consistent with row-permutation symmetry and a relatively quiet common mode, which is not conserved. The finite-time Kaplan–Yorke estimate is about 3.41; it is not a proof of fractal dimension or a new topological class. Of the 24 continued three-row candidates, two relax to neutral growth and another weakens late. All outcomes are archived. Four-row positives and eight-row points outside the separately checked activity study retain only screening-level evidence. Neither scientific priority nor asymptotic attraction is established.
 
@@ -70,6 +94,10 @@ In a fixed cohort of 32 initial conditions per optical width, all starts at widt
 
 ![Long expansion can end in a periodic cycle](assets/optical_lifetime_extension.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/b60418fc2fbdd8a34ab873c5581e31f1b9c0727a/docs/assets/optical_lifetime_extension.png)).*
+<!-- /drawing-date -->
+
 The capture cycles at all three widths lie on the same continued periodic branch. It loses and regains stability between them. A separately checked unstable doubled branch approaches the first stability crossing, supporting a local subcritical period-doubling picture. This describes part of the model's organization; it does not establish the global route to chaos or identify the set responsible for long transients. [Periodic-orbit study](optical-cycle-continuation.md).
 
 Following the branch through a [numerically resolved fold](optical-cycle-arclength.md) finds a second, unstable periodic orbit at the same broad width 0.04. Stable and saddle cycles meet at width 0.0404788044. Independent Radau calculations confirm both cycles and the unit-multiplier crossing. This supplies a concrete target for basin-boundary work, without yet identifying that boundary or a chaotic crisis.
@@ -79,6 +107,10 @@ The [first departure test](optical-saddle-departure.md) takes four small perturb
 **Four coupled synchronematic colloid oscillators remain a promising collective-chaos candidate.** The published phase-and-orientation approximation has seven effective angular states after removing its common phase. A long independent CPU spectrum, GPU step checks, different initial states and coefficient variants retain positive leading exponents. We found a sign discrepancy between the printed paper and author code; both variants were tested and remain separate in the archive. The simpler two-oscillator case admits a first-integral restriction. Single-particle Quincke chaos and chaos in other four-oscillator networks are already known, so a priority claim would have to concern this precise collective model. [Model and evidence](synchronematic-research.md), [symmetry and priority](synchronematic-priority-audit.md).
 
 ![Three physical observables of the synchronematic candidate](assets/synchronematic_projection_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/synchronematic_projection_rotation.gif)).*
+<!-- /drawing-date -->
 
 This rotating picture is a projection of a seven-dimensional flow. Its physical observables respect the particle symmetries. The appearance does not demonstrate a new three-dimensional topology. [Geometry comparison](attractor-geometry.md).
 

@@ -4,6 +4,10 @@
 
 ![Two fixed Yogi state clouds viewed by a rotating camera](assets/yogi-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2e5b356a7e2b1bf51e832fb815ae6b29c8afaba3/docs/assets/yogi-rotation.gif)).*
+<!-- /drawing-date -->
+
 Each panel is a real trajectory of the same optimizer on the scalar objective `f(theta)=theta^2/2`. The full state contains the parameter and two memory variables. The camera rotates; the point clouds are fixed. These are discrete iterates, not closed curves or a time animation. The [large portrait](assets/yogi-geometry.png) contains eight million consecutive states per case; the rotation uses the last one million without thinning.
 
 ## The map and the question
@@ -36,6 +40,10 @@ All four principal autonomous runs start at `(x,m,v)=(0.73,0,0)`, discard 100,00
 Exact values, all windows, the last 100,000 states, switching margins, and return residuals are in the [frozen packet](../results/yogi-geometry/README.txt). Case 4214 has two positive rates in all 100 windows. Case 5174 does not pass that stronger condition. No selected tail closes at a lag of 1–128 under the declared tolerance. Finite tests cannot exclude a very long transient or a longer period.
 
 ![Yogi4214 geometry and independent expansion evidence](assets/yogi-two-directions.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2e5b356a7e2b1bf51e832fb815ae6b29c8afaba3/docs/assets/yogi-two-directions.png)).*
+<!-- /drawing-date -->
 
 The identity `det DF=b` on each smooth branch supplies a separate implementation check: window sums agree with `log(b)` to better than `1e-9`. This does not prove chaos. It verifies that the three directions and the implemented derivative are mutually consistent.
 

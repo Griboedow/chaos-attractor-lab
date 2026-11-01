@@ -6,6 +6,10 @@ This establishes chaotic complexity in the exact map. It does not yet establish 
 
 ![Actual reference states and certified cycles](assets/raar-symbolic-geometry.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/90ade9c9edd87e8b181d56e33bca6095760161d2/docs/assets/raar-symbolic-geometry.png)).*
+<!-- /drawing-date -->
+
 [Manuscript](../papers/raar-symbolic-dynamics/manuscript.pdf) · [Reproduction](../papers/raar-symbolic-dynamics/README.md) · [Frozen evidence](../results/raar-symbolic-dynamics/README.md) · [Rotate the native geometry](assets/raar-circles-rotation.gif)
 
 ## Exact model and windows
@@ -32,6 +36,10 @@ Write `G=F^7`. Seven affine windows are `N_i = c_i + B_i diag(r_i) [-1,1]^3`. Ev
 ## Eight certified coverings
 
 ![The two-route covering graph](assets/raar-symbolic-graph.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/90ade9c9edd87e8b181d56e33bca6095760161d2/docs/assets/raar-symbolic-graph.png)).*
+<!-- /drawing-date -->
 
 The directed edges are `0->0`, `0->1`, `1->2`, `2->3`, `3->4`, `4->5`, `5->6`, `6->0`. Each represents one application of G. A covering is an existence relation, not a claim that every point in a source window lands inside the target window.
 
@@ -66,6 +74,10 @@ Compactness also realizes every infinite one-sided binary itinerary. This argume
 A separate 200-digit Krawczyk certificate encloses a root of `F^49(x)-x`, excludes the proper divisors 1 and 7, and checks the full window itinerary. One multiplier lies in `(579.0979,579.0981)`; quadratic Schur inequalities place the other two strictly inside the unit disk. There is exactly one unstable direction. The longer numerical examples below illustrate the coded routes; only the 49-cycle receives this additional located-root certificate.
 
 ![Numerical coded itineraries](assets/raar-symbolic-itineraries.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/90ade9c9edd87e8b181d56e33bca6095760161d2/docs/assets/raar-symbolic-itineraries.png)).*
+<!-- /drawing-date -->
 
 ## What is new in this repository, and what is already known
 

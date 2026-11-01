@@ -4,6 +4,10 @@ Status: 30 October 2026. **Small perturbations on opposite sides of the same sad
 
 ![Section distances, return intervals and physical projection](assets/optical_saddle_departure.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ffd3892941a27d5e7fe7bfb9166585599c6693f5/docs/assets/optical_saddle_departure.png)).*
+<!-- /drawing-date -->
+
 ## The unchanged model and the question
 
 This follows the [periodic-orbit fold study](optical-cycle-arclength.md) of the six-state optical operator pair. It retains the same continuous thermal balance and the same explicitly assumed logistic illumination profile. That profile is not calibrated to the apparatus in Guo et al. [1]. No additional feedback, forcing or state is introduced here.
@@ -50,6 +54,10 @@ A check using saved samples further supports the periodic phase explanation: the
 The saddle is now a concrete candidate for organizing the separation between the stable cycle and the irregular regime. Its stable manifold has codimension one locally. Opposite departures giving different outcomes is consistent with that manifold forming part of a basin boundary. Four perturbed starts do not locate a whole boundary, demonstrate that the irregular set attracts forever, or prove a boundary crisis. They also do not show that all nearby initial conditions share these outcomes.
 
 ![Rotation of the physical projection](assets/optical_saddle_departure_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ffd3892941a27d5e7fe7bfb9166585599c6693f5/docs/assets/optical_saddle_departure_rotation.gif)).*
+<!-- /drawing-date -->
 
 The rotation shows two displacements and one temperature. Red points are sampled irregular motion; the blue curve is the previously closed stable cycle. The full flow has six state variables. Apparent intersections or overlapping sheets in this projection are not intersections of full-state trajectories, and this appearance does not establish a new topological class.
 

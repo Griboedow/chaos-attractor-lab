@@ -1,0 +1,10 @@
+{
+  "dense_source_shape": [
+    1280000,
+    3
+  ],
+  "dense_source_sha256": "d62ed5b89f43af263188f944f1823d59152c83a6278d8994c10fdaaebbe12eb1",
+  "frozen_sample": "results/icosahedral-flow/icosa-long/sample.npz",
+  "equality_checked": "dense[::16] is bitwise equal to tail[ids.index(177)]; therefore dense[::128] is the frozen tail[::8].",
+  "portable_change": "Use the identical 10000 states from the existing frozen sample instead of requiring the large scratch array."
+}

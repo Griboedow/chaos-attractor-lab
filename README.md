@@ -22,6 +22,8 @@ The [structural follow-up](docs/icosahedral-structure.md) certifies 161 local eq
 
 The [cycle follow-up](docs/icosahedral-cycles.md) resolves a neighborhood-size ambiguity: sixty consistently oriented edges remain, and the earlier apparent reversals skip shallow visits. Two unstable numerical orbits circle triangular and pentagonal faces, checked by full-cycle shooting, RK4 and 80/110-digit Taylor integration. [See the circuits inside the cloud](docs/assets/icosahedral-cycles.png). Periodic existence, asymptotic chaos and historical novelty remain uncertified.
 
+The [return-map follow-up](docs/icosahedral-returns.md) finds two promising return strips: all 578 sampled starts have positive boundary margins, with measured unstable-coordinate expansion above 447. This is a numerical proposal, not a covering certificate. A closer prior-art comparison identifies the same sixty directed geometric edges in a known integrable sphere flow after time reversal; the skeleton itself is not new.
+
 **[New search checkpoint: a tetrahedral flow around a stable center](docs/tetrahedral-flow.md).** A single trajectory weaves ribbons through all twelve symmetry sectors. Its 3.2-million-state portrait survives 40,000 time units, step refinement, independent DOP853 integration and fresh basin starts. Comparisons cover 108 known regimes and six earlier repository candidates. Tetrahedral maps and earlier three-dimensional tetrahedral chaos are established prior art; specific historical uniqueness remains open.
 
 ![One tetrahedral-flow trajectory under a rotating rigid camera](docs/assets/tetrahedral-flow.gif)

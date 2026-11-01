@@ -4,6 +4,10 @@ An exploratory screen of the six-state long-cavity whistle model produces **no r
 
 ![Source cycle, independent endpoint cycle and complete screen](assets/whistle-screen.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/1e3cd8ed1a605978274bd7ddbf6cdd421f4e1126/docs/assets/whistle-screen.png)).*
+<!-- /drawing-date -->
+
 The top panels show two literal observables at common axis limits. Their projections do not determine the dimension of the underlying flow. The final plot includes every completed lane, sorted by its minimum window estimate. [Rendering provenance](../results/whistle-screen/whistle-figure02/render.json).
 
 ## Source and interpretation

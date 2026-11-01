@@ -4,7 +4,13 @@ Case 177 now has two independently checked **numerical unstable periodic orbits*
 
 ![Two numerical periodic orbits against the chaotic cloud](assets/icosahedral-cycles.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/55853230c82faff15b9da302c3cd5ddda1ae1fb9/docs/assets/icosahedral-cycles.png)).*
+<!-- /drawing-date -->
+
 Each panel uses its own rigid camera, facing the relevant circuit. Colored curves are direct full-period integrations, with no rotated trajectory copies. The dim background is the previously computed chaotic cloud; circles and arrows are annotations. These are periodic orbits of the same candidate, not two new attractors.
+
+The [later return-map follow-up](icosahedral-returns.md) adds two sampled return strips and a closer known sphere flow with the same directed geometric skeleton after time reversal. This corrects the scope of any geometric novelty claim without changing the frozen cycle evidence.
 
 ## Correcting the interpretation of the visit graph
 

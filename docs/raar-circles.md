@@ -4,6 +4,10 @@
 
 ![Rigid rotations of actual RAAR states](assets/raar-circles-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-circles-rotation.gif)).*
+<!-- /drawing-date -->
+
 [Large portrait](assets/raar-circles-geometry.png) · [Research manuscript](../papers/raar-circles/manuscript.pdf) · [Exact structure and certificates](raar-structure.md) · [Prior-art and equivalence audit](raar-priority.md)
 
 The unexpected setting is a geometric search algorithm: two circles in different planes have no common point, but repeated relaxed reflections generate intricate bounded spatial clouds. This is a toy feasibility benchmark, not a new algorithm or a physical experiment. The portraits are actual (x,y,z) states, with rigid cameras, equal units and visit-density color. The lines do not represent closed continuous-time orbits: the dynamics is a discrete map.
@@ -44,19 +48,35 @@ Each row uses 100,000 warm-up steps and five million measured steps in twenty wi
 
 ![Numerical evidence](assets/raar-circles-evidence.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-circles-evidence.png)).*
+<!-- /drawing-date -->
+
 Twelve independent 70/90-digit calculations use the nested-reflector expression and finite separations, without the production Jacobian. All six cases retain positive leading growth. R820 has two positive directions in all of those windows and in the long run. Its original ProxToolbox evaluation has positive mean second growth (0.00984609) but one negative 10,000-step second-rate window (minimum −0.00281038). Uniform positivity across every window length is therefore not claimed.
 
 Four 400,000-step runs execute the unmodified official ProxToolbox RAAR evaluator, constructor and relaxation schedule, with independent circle-projector adapters. The full imaging application is not run. Its spectra use the production analytic Jacobian along library states; the high-precision finite-separation check provides the independent tangent test.
 
 ![Same-camera original-library comparison](assets/raar-library-clouds.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-library-clouds.png)).*
+<!-- /drawing-date -->
+
 ## Approach and parameter dependence
 
 ![Initial volumes approach the selected clouds](assets/raar-circles-approach.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-circles-approach.png)).*
+<!-- /drawing-date -->
+
 Four sets of 32,768 starts in the full box [−4,4]³ were followed to step 1,024. All 131,072 completed. The distance plots use 200,000-point finite reference clouds and explicitly show their sampling floor. They do not certify a basin volume. In a separate cohort, all 32 starts for each of six cases pass the leading-growth criterion; nearby parameter settings include regular outcomes.
 
 ![Declared relaxation slices](assets/raar-relaxation.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-relaxation.png)).*
+<!-- /drawing-date -->
 
 All 771 slice settings are retained. For R1051, R1483 and R820 respectively, 151, 218 and 232 of 257 settings pass the declared leading criterion; 106, 39 and 25 have detected periods. R820 has 82 two-positive settings. These are sampled parameter slices, not certified open intervals of structural stability.
 

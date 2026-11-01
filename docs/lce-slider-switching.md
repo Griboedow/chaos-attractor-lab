@@ -4,6 +4,10 @@ This extends the [slider notebook](lce-slider-research.md). The new numerical re
 
 ![Switching-width spectra, periodic controls and equilibrium stability](assets/lce_slider_switch_width.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/343df50e976d2ea2565799565fd13d9f14a588f6/docs/assets/lce_slider_switch_width.png)).*
+<!-- /drawing-date -->
+
 ## Chaos, periodic windows and rest
 
 The reference parameters and late ideal-relay starting state are unchanged. Five DOP853 calculations evolve the full three-dimensional variational system, with QR every 0.1 time units, 200 discarded and 800 observed time units, `rtol=1e-10`, `atol=1e-12`, and maximum step 0.01.

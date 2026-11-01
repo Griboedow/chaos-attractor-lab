@@ -6,6 +6,10 @@ The equations and reference-A parameters are exactly those of the [optical cycle
 
 ![Fold and physical cycle projections](assets/optical_cycle_arclength.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/f0010d127ec8cb424ae2055f9fb2166c6eb32fb0/docs/assets/optical_cycle_arclength.png)).*
+<!-- /drawing-date -->
+
 ## Two cycles at the same broad width
 
 At `w=0.04`, which also supports the [long-lived irregular numerical cohort](optical-lifetime-extension.md), shooting now identifies both the familiar attracting capture cycle and a distinct saddle cycle:

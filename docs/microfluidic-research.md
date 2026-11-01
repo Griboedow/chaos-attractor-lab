@@ -4,6 +4,10 @@
 
 ![Independent numerical controls and the printed vortex coefficient](assets/microfluidic-controls.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/0e683964fd0a97caf45d67df35dc5b452db4c14e/docs/assets/microfluidic-controls.png)).*
+<!-- /drawing-date -->
+
 Case, Angilella and Motter [1] describe a rigid five-channel network in which flow changes a vortex, the vortex changes hydraulic resistance, and pressure coupling feeds back on the flows. The full Navier–Stokes simulations and the fitted dynamical closure are distinct models. Our [equation and unit extraction](late-candidate-screening-4.md) gives the four independent states, algebraic pressure solve and all fitted constants. We implement those printed equations without modifying their signs or refitting coefficients.
 
 ## Numerical source control

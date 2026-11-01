@@ -8,6 +8,10 @@ asymptotic chaotic attraction remain unproved.**
 
 ![Fixed accepted-step state clouds, viewed by rotating orthographic cameras](assets/rk23-oscillator-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d67a116f4074ec6ae0920c57568474ab18948984/docs/assets/rk23-oscillator-rotation.gif)).*
+<!-- /drawing-date -->
+
 [Research manuscript (PDF)](../papers/rk23-controller/manuscript.pdf) ·
 [Proof, evidence and reproduction](../papers/rk23-controller/README.md) ·
 [Large portrait](assets/rk23-oscillator-geometry.png) ·
@@ -58,6 +62,10 @@ window values are `0.083727`, `0.172882` and `0.216943`, respectively.
 
 ![Long-run, independent precision, full screen and neighboring-parameter evidence](assets/rk23-oscillator-evidence.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d67a116f4074ec6ae0920c57568474ab18948984/docs/assets/rk23-oscillator-evidence.png)).*
+<!-- /drawing-date -->
+
 The verification has several independent components:
 
 - **Analytic derivative and implementation.** The real-coordinate Jacobian was
@@ -92,6 +100,10 @@ reported as unknown.
 ## Approach and nearby periodic regimes
 
 ![Initial volumes and distances to the sampled reference cloud](assets/rk23-oscillator-approach.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d67a116f4074ec6ae0920c57568474ab18948984/docs/assets/rk23-oscillator-approach.png)).*
+<!-- /drawing-date -->
 
 For each portrait, 32,768 scrambled Sobol initial states fill the declared box
 `q/atol,p/atol in [-4,4]`, `h in [0.25,8]`. All 65,536 trajectories complete

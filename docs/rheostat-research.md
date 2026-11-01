@@ -4,6 +4,10 @@ We tested another specific published system: the electrically heated elastomer o
 
 ![Full-model stability, periodic control and near-threshold amplitude](assets/rheostat_audit.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/f44d0e64a84073fcc7bf9ce7aca911ba83098ea5/docs/assets/rheostat_audit.png)).*
+<!-- /drawing-date -->
+
 ## The model actually tested
 
 The source combines a spring, an elastomer, a mass and a displacement-controlled rheostat. Dropping bars from its dimensionless variables, its full equations (15)–(17) reduce to

@@ -8,7 +8,7 @@ Paired panels share the displayed date. Repeat views, periodic skeletons and sym
 
 ## Icosahedral spiral fans — case 177
 
-[Evidence and current status](icosahedral-flow.md)
+[Evidence and current status](icosahedral-flow.md) · [Return-map proposal and closer prior art](icosahedral-returns.md)
 
 ![Icosahedral spiral fans — case 177](assets/icosahedral-177.png)
 

@@ -6,6 +6,10 @@ The model is Warmington, Rossiter and Bloomfield-Gadêlha's discontinuously coup
 
 ![Short DCR controls and their numerical differences](assets/dcr-controls.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/3cf58d03dc2d0398e084967a726e1a2d64080a82/docs/assets/dcr-controls.png)).*
+<!-- /drawing-date -->
+
 *These are short source-solver diagnostics, not an attractor portrait. The trajectories use the same saved initial phases. The right panel samples the contact count every 0.001 time unit; it does not locate all events.*
 
 ## Which equations were implemented?

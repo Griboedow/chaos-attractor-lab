@@ -98,6 +98,10 @@ A separate binary64 continuation to 100,000,000 updates reaches `x≈0.05000248`
 
 ![A short oscillatory view, its small amplitude drift, and the long continuation](assets/adadelta-cycle-drift.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d19eff15829192830547dd1db28ce5a45bef4586/docs/assets/adadelta-cycle-drift.png)).*
+<!-- /drawing-date -->
+
 ## Consequence for the literature comparison
 
 The source's zero-epsilon cycle family is reproduced. Its continuation argument treats the squared-gradient memory as a fixed parameter in a reduced system. A root of that reduced system must still satisfy the omitted memory return equation to be a cycle of the full map. The classification above shows that a nontrivial positive-`E` cycle cannot satisfy all three return equations away from `alpha*k=2`.

@@ -12,6 +12,10 @@ This is a **numerically supported candidate in an existing model**. Its scientif
 
 ![Physical projections and independent eight-dimensional diagnostics](../results/motor-rows/cpu-candidate-N3-783.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ece041347ed4bb2b99c856dda10a8b417c7c29db/results/motor-rows/cpu-candidate-N3-783.png)).*
+<!-- /drawing-date -->
+
 ## What the system represents
 
 The source describes molecular motor populations driving relative sliding between elastically coupled rows. Constant total transition rate and a cosine motor potential yield an exact first-harmonic closure of the population equations. Mechanical force balance supplies the mean coupling; it is not an added feedback term selected for this search.
@@ -88,6 +92,10 @@ Every three-dimensional picture is a **projection of the eight-dimensional state
 The equations are symmetric under permutation of the three rows. In the saved trajectory, only about 3.58% of the total variance of $(s_1,s_2,s_3)$ lies along the fixed common-mode direction $(1,1,1)/\sqrt{3}$. The contrast directions dominate. This is consistent with a flattened, permutation-symmetric envelope, but the common mode is not conserved: its row mean ranges from about 0.583 to 0.941. The [derived geometry summary](../results/motor-rows/cpu-candidate-N3-783-summary.json) records the calculation and its sampling convention.
 
 ![Rotating physical-coordinate projection of the eight-dimensional candidate](../results/motor-rows/cpu-candidate-N3-783.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ece041347ed4bb2b99c856dda10a8b417c7c29db/results/motor-rows/cpu-candidate-N3-783.gif)).*
+<!-- /drawing-date -->
 
 An unusual projection is not a proof of new topology. The full system has no equilibrium homoclinic orbit above its Hopf threshold, as derived in the source audit, but periodic-orbit connections and other mechanisms remain possible. No specific global route to chaos has yet been established.
 

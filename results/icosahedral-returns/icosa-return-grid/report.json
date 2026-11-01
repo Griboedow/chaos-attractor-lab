@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "strip": 0,
+      "u_interval": [
+        -8e-06,
+        2e-06
+      ],
+      "v_interval": [
+        -0.0002,
+        0.0002
+      ],
+      "sample_count": 289,
+      "minimum_left_edge_u_output": 0.003621320695868655,
+      "maximum_right_edge_u_output": -0.0007506350388629871,
+      "left_margin_beyond_both_targets": 0.0015013206958686552,
+      "right_margin_beyond_both_targets": 0.0007426350388629871,
+      "maximum_abs_v_output": 2.1604263849210464e-05,
+      "stable_margin": 0.00017839573615078955,
+      "return_time_range": [
+        13.86744716921481,
+        13.95489474682745
+      ],
+      "minimum_crossing_speed": 0.7749106599029905,
+      "unstable_cone_slope": 0.1,
+      "sampled_minimum_unstable_expansion": 447.914095490156,
+      "sampled_maximum_image_cone_slope": 0.008952547311842566
+    },
+    {
+      "strip": 1,
+      "u_interval": [
+        0.002105,
+        0.00212
+      ],
+      "v_interval": [
+        -0.0002,
+        0.0002
+      ],
+      "sample_count": 289,
+      "minimum_left_edge_u_output": 0.003206545001661399,
+      "maximum_right_edge_u_output": -0.001069131925422041,
+      "left_margin_beyond_both_targets": 0.0010865450016613993,
+      "right_margin_beyond_both_targets": 0.001061131925422041,
+      "maximum_abs_v_output": 9.323034729884069e-05,
+      "stable_margin": 0.00010676965270115932,
+      "return_time_range": [
+        19.798920803646034,
+        20.05781044674893
+      ],
+      "minimum_crossing_speed": 0.7514233182848181,
+      "unstable_cone_slope": 0.1,
+      "sampled_minimum_unstable_expansion": 499.63750315029483,
+      "sampled_maximum_image_cone_slope": 0.024876307443271677
+    }
+  ],
+  "seconds": 248.35077571868896,
+  "all_sampled_margins_positive": true,
+  "limits": "Only 17 by 17 point samples on each strip. No bounds between samples, validated flow tube, all-point crossing, compact invariant set, horseshoe, or entropy lower bound is certified."
+}

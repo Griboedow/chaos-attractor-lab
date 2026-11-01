@@ -8,6 +8,10 @@ Research notebook, 29 October 2026. This continues the [search beyond Chua](cand
 
 ![Geometry, independent Lyapunov estimates, a state-space projection and collective order](assets/synchronematic_evidence.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8a85fe10791124d745c6c7fcb079c258c4cb19ad/docs/assets/synchronematic_evidence.png)).*
+<!-- /drawing-date -->
+
 The later [symmetry and priority audit](synchronematic-priority-audit.md) corrects the plotted observables to respect each particle's physical phase/orientation equivalence. The figures now use invariant pair signals and synchronematic coherence; the trajectories and Lyapunov estimates are unchanged. That audit also compares the full equations with older four-phase-oscillator chaos and swarmalator models. Neither an unusual projection nor the already published gradient/solenoidal decomposition establishes novelty.
 
 ## Why this candidate?
@@ -96,6 +100,10 @@ Validation also includes analytic-Jacobian finite differences and short-state co
 
 ![Geometry and coefficient perturbations and controlled equation changes](assets/synchronematic_robustness.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8a85fe10791124d745c6c7fcb079c258c4cb19ad/docs/assets/synchronematic_robustness.png)).*
+<!-- /drawing-date -->
+
 For the reference geometry, all **128** new random angular starts passed the four-window criterion after transient 1,000 and observation 2,000. This is evidence for a substantial basin within that ensemble, not a proof about every initial state.
 
 Each geometry experiment draws 32 perturbations and four starts per perturbation. Each coordinate is displaced uniformly within the indicated fraction of the original minimum separation; the resulting geometry is renormalized to remove uniform time scaling.
@@ -146,6 +154,10 @@ In a coarse 61-value scan from 0 to 1.5, with eight starts per value, the gradie
 The follow-up samples 126 values from `eta=0.93` to `1.18` in steps of `0.002`, using the **same eight initial states at every value**, discarding 2,000 and observing 4,000 units. It retains 552 of 1,008 trajectories. All eight starts are regular-looking at `1.074, 1.076, 1.078`; partial retention occurs at `1.080` (2/8) and `1.082` (5/8), followed by 8/8 at `1.084` and another regular window. Differences between starts can reflect coexistence or long transients; this scan alone cannot distinguish them.
 
 ![Finer continuation through regular and irregular windows](assets/synchronematic_transition.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/0e8678d2f6d8dde8df8313472d3b5663a0864ec1/docs/assets/synchronematic_transition.png)).*
+<!-- /drawing-date -->
 
 An independent CPU spectrum at `eta=1.074`, with 1,000 discarded and 4,000 observed units, is `[-0.0000152, -0.044947, -0.330186, -1.079680, -2.636193, -3.565713, -6.470759]`. One approximately neutral exponent and six negative exponents support a stable periodic regime. The divergence identity error is `1.1e-11`. This is a control experiment that changes the interaction law, not a newly sampled physical parameter of the original paper.
 

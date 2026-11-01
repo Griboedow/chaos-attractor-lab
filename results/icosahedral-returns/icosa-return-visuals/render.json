@@ -1,0 +1,13 @@
+{
+  "source": "icosa-return-grid/data.npz",
+  "image": "icosahedral-returns.png",
+  "sample_count": 578,
+  "panels": "Two input-output graphs and one returned-state section, all from the stored grid.",
+  "connecting_lines": "Visual interpolation only; no enclosure between samples.",
+  "transforms": {
+    "u_input": 1000000.0,
+    "u_output": 1000,
+    "v_output": 1000000.0
+  },
+  "limits": "A diagnostic of an existing candidate, not a new attractor portrait or proof of chaos."
+}

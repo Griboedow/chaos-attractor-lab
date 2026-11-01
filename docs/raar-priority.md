@@ -63,6 +63,10 @@ The [smooth-fold certificate](../results/raar-fold-certificate/) establishes a c
 
 ![Actual sampled clouds in paired comparison coordinates](assets/raar-catalog-comparison.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/6bbadedd328fdfb38e11dec8ce62fb6871a57516/docs/assets/raar-catalog-comparison.png)).*
+<!-- /drawing-date -->
+
 The [frozen reference collection](attractor-novelty-audit.md) provides 108 simulated regimes: 89 catalog defaults, four external atlas examples, four three-dimensional Henon regimes, nine additional Halvorsen settings and two pumped-kicked-top settings. The new [RAAR comparison packet](../results/raar-catalog-comparison/) uses the already frozen million consecutive R1051 states and these exact reference files; it does not reintegrate or replace any reference. All 108 are retained in both comparisons.
 
 The first representation removes translation and uniform scale while preserving aspect ratios. The second whitens empirical covariance, removing nonsingular affine distortions up to orthogonal transformations. The descriptor combines pair-distance and radial histograms with covariance eigenvalue fractions, using the [existing definition and limitations](attractor-novelty-audit.md#comparison-method-and-controls). Three nearest descriptor matches per representation receive a local point-cloud alignment with 48 initial orientations, allowing reflections. Each fit uses 1,500 states; its reported residual is a symmetric nearest-neighbor RMS, not a certified optimal alignment.

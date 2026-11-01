@@ -6,6 +6,10 @@ These are new numerical observations in the existing Alouges et al. equations, o
 
 ![Periodic cluster branch and its transverse stability](../results/motor-rows/cluster-cycles/transverse-stability.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/dad689b819d5d3dc308858b18282bbc5c3f29ab4/results/motor-rows/cluster-cycles/transverse-stability.png)).*
+<!-- /drawing-date -->
+
 The left panel separates perturbations that preserve both clusters from perturbations that split their rows. The right panel shows the continued periodic orbit, including where it is unstable in the full system. It is not a picture of the hyperchaotic trajectory.
 
 ## Exact restriction and transverse perturbations

@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "name": "icosa-return-scout",
+    "count": 513,
+    "width": 0.015,
+    "step": 0.005,
+    "horizon": 100.0
+  },
+  "seconds": 105.61770915985107,
+  "trajectories": 513,
+  "with_local_return": 513,
+  "total_recorded_crossings": 1972,
+  "numerical_local_multipliers": [
+    -456.1722635701831,
+    -6.786434525452023e-09
+  ],
+  "section_normal": [
+    0.25784147979764893,
+    -0.9131163222869194,
+    0.3158106288093695
+  ],
+  "section_basis": [
+    [
+      -0.9521147436622321,
+      0.0977053838520573
+    ],
+    [
+      -0.18454575590288425,
+      -0.30054525139010424
+    ],
+    [
+      0.2437629563310125,
+      -0.9487498141413159
+    ]
+  ],
+  "section_patch_half_width": 0.15,
+  "minimum_crossing_speed": 0.05,
+  "limits": "Finite RK4 scout near an approximate periodic orbit. Sampled returns and derivatives do not prove a horseshoe, invariant domain, periodic existence or chaos."
+}

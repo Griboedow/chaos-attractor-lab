@@ -10,6 +10,10 @@ The subsequent [motor-asymmetry investigation](motor-asymmetry-geometry.md) reta
 
 ![Rotating physical projections of two motor regimes](assets/motor-regimes-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/efd6cf451595d47335b30225c92a1904ddead33c/docs/assets/motor-regimes-rotation.gif)).*
+<!-- /drawing-date -->
+
 The left panel shows one saved period of the [five-cluster periodic attractor](motor-five-cycle-certificate.md). Its floating-point starting state differs from the certified shooting-box midpoint by at most `5.39e-14`; the plotted curve is an illustration, rather than an interval enclosure. The right panel displays all 5,000 saved samples from the final 1,000-unit block of the [full CPU continuation](motor-activity-continuation.md). The six positive finite-time exponents were measured over the full 20,000 observed time units; they are not inferred from the cloud's shape.
 
 Both panels directly plot `(X0, X1, s0)` with zero-based row labels: the normalized displacements of rows 0 and 1 and row 0's sine-density coefficient. No fitted embedding, nonlinear coordinate transform or per-panel rescaling is used. The axis limits and camera angles are identical. The 96-frame looping GIF rotates the camera through 360 degrees around fixed saved data; it does not animate elapsed simulation time. A projection of the 23-dimensional model can have apparent crossings that are absent from its full state space.
@@ -27,6 +31,10 @@ The [renderer](../research/render_motor_regimes.py) uses NumPy, Matplotlib and P
 ## Approach to the periodic orbit
 
 ![Six full-space trajectories approaching the same periodic orbit](assets/motor-cycle-attraction.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/437cc8f7cf524b361f9ccd6cb137f9d63b33bfc7/docs/assets/motor-cycle-attraction.png)).*
+<!-- /drawing-date -->
 
 The dashed black curve is the periodic reference orbit. Each colored trajectory starts at a different phase with a generic perturbation of all physical row variables. Initial pair differences are nonzero, and the full 23-dimensional equations evolve freely: no cluster equality, projection or artificial damping is imposed. The left panel plots the physical displacements `(X0, X1, X4)`, including a singleton cluster as well as paired clusters. These coordinates differ from the comparison above, which uses `(X0, X1, s0)`.
 
@@ -52,6 +60,10 @@ The numerical driver records the protocol before integration and retains every d
 ## Earlier geometry baseline
 
 ![Existing-candidate geometry baseline](assets/attractor_geometry_baseline.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/attractor_geometry_baseline.png)).*
+<!-- /drawing-date -->
 
 ## Three separate questions
 
@@ -86,6 +98,10 @@ The two dimension estimates are descriptive evidence, not a ranking of novelty. 
 ## Rotation preview
 
 ![Camera rotation of a three-observable projection](assets/synchronematic_projection_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/synchronematic_projection_rotation.gif)).*
+<!-- /drawing-date -->
 
 This preview rotates the camera around the saved synchronematic data, changing azimuth and elevation. It shows a projection of a seven-dimensional flow. It is not a new simulation, a time evolution animation, or evidence that its topology differs from known examples.
 

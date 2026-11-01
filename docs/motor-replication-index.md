@@ -10,6 +10,10 @@ All stable multipliers satisfy `|mu|<0.13`. Each formerly singleton contrast blo
 
 ![Replication mechanism and the exact unstable count](../papers/replication-instability/figures/figure-3-replication.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/b5afd472f26e7fa247ab0b5dd8644d9ffaabacc6/papers/replication-instability/figures/figure-3-replication.png)).*
+<!-- /drawing-date -->
+
 ## New proof step
 
 The old sign bracket established at least one unstable root in each new block. The new [spectral checker](../research/certify_motor_replication_index.py) narrows that real-root bracket and encloses synthetic division of the interval characteristic polynomial by the corresponding exact linear factor. Three strict real quadratic Jury inequalities place **both remaining roots** within radius `0.13`. This turns a lower bound into a complete block index.

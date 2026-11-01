@@ -19,6 +19,10 @@ These are finite, explicitly bounded searches. Negative screening results do not
 
 ![Four-link geometry and physical contact audit](assets/follower-chain-geometry-audit.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-31** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d1dd6ebe53ad245cedef39f6d3acfcd70a220960/docs/assets/follower-chain-geometry-audit.png)).*
+<!-- /drawing-date -->
+
 The figure uses all 200,000 saved samples from the independent continuation. Four panels show literal triples of unwrapped physical angles with equal units along each axis. The section is the upward crossing of angle 1 through zero, projected onto angles 2 and 3. The final panel shows the physical tip path and twelve chain configurations. No nonlinear embedding, angle wrapping, fitted projection, or duplicated trajectory is used. A three-coordinate projection of a four-dimensional flow is not a certified embedding.
 
 The dimensionless parameters, with the first length, spring stiffness and bead drag fixed to one, are:

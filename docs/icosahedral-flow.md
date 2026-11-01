@@ -4,7 +4,13 @@
 
 ![Actual trajectory of case 177, viewed along a fivefold direction](assets/icosahedral-177.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8d5d8b58d0087a4f0ed59cc4258838b2d22568ac/docs/assets/icosahedral-177.png)).*
+<!-- /drawing-date -->
+
 [Rotate case 177](assets/icosahedral-177.gif) · [Looped case 183](assets/icosahedral-183.png) · [Rotate case 183](assets/icosahedral-183.gif) · [Full view-selection gallery](../results/icosahedral-flow/icosa-render/gallery.png)
+
+The [return-map and prior-art follow-up](icosahedral-returns.md) records a two-strip numerical proposal and identifies the observed directed geometric skeleton in an earlier integrable sphere flow. The skeleton itself is not a novelty claim.
 
 ## Equation and selection
 

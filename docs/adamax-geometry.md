@@ -4,6 +4,10 @@ Status: 1 November 2026. **A known optimizer produces two visually distinct, num
 
 ![Rigid rotation of two fixed Adamax state clouds](assets/adamax-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c388a6daad6ac84be88aae1b44ab18b5550761e9/docs/assets/adamax-rotation.gif)).*
+<!-- /drawing-date -->
+
 [High-resolution still](assets/adamax-geometry.png) · [Exact structural results](adamax-structure.md) · [Prior and equivalent formulations](adamax-priority.md) · [Evidence packet](../results/adamax-geometry/manifest.json)
 
 Each portrait contains eight million actual iterates. The animation rotates a fixed, contiguous one-million-state tail; it does not evolve or deform the data. The three axes have the same units, and only translation and proper rigid rotation are applied. Brightness represents logarithmic visit density. Descriptive labels identify silhouettes, not new dynamical classes.
@@ -54,6 +58,10 @@ These controls address implementation mistakes, ordinary roundoff and short tran
 
 ![A fixed initial volume evolving toward the two Adamax geometries](assets/adamax-approach.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c388a6daad6ac84be88aae1b44ab18b5550761e9/docs/assets/adamax-approach.png)).*
+<!-- /drawing-date -->
+
 Each row follows 32,768 scrambled Sobol points from a declared three-dimensional box through 2,048 updates. Every point is retained at all six displayed times. One camera and one spatial scale apply throughout each row. The picture therefore shows collapse and folding of an initial volume, not just a long curve already on the candidate.
 
 For **847**, no member meets the short-period criterion through period eight. The largest final distance to the two-million-state reference cloud is `0.003135` times its extent norm. All 128 predeclared volume starts followed for another 100,000 discarded and 200,000 observed updates have four positive leading windows; the smallest is `0.459332`.
@@ -76,6 +84,10 @@ An exactly zero cold start is an absorbing fixed state and is checked separately
 ## Why the crown has these layers
 
 ![Actual crown states grouped by updates since the last maximum-memory reset](assets/adamax-sheets.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c388a6daad6ac84be88aae1b44ab18b5550761e9/docs/assets/adamax-sheets.png)).*
+<!-- /drawing-date -->
 
 At a reset, the old position can be eliminated from the update equations. The output lies on one of two quadratic sheets:
 

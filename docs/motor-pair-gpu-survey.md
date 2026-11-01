@@ -8,6 +8,10 @@ A subsequent [equation-level memory comparison](motor-memory-priority-audit.md) 
 
 ![Survey, tightened finite-time growth and independent CPU convergence diagnostics](assets/motor_pair_gpu_survey.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/d52a5d1f604348dcc2848088ac444e408aa5b1f4/docs/assets/motor_pair_gpu_survey.png)).*
+<!-- /drawing-date -->
+
 ## What was actually computed
 
 The survey used the exact three-state field, without extra forcing, delay, clipping or phenomenological feedback. For conditioning, the internal state was the constant linear transformation
@@ -83,7 +87,15 @@ The resumed CPU path stays inside the invariant cylinder: sampled maximum $|Q|$ 
 
 ![Physical projections and sampled Poincare returns](assets/motor_pair_candidate_geometry.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/d52a5d1f604348dcc2848088ac444e408aa5b1f4/docs/assets/motor_pair_candidate_geometry.png)).*
+<!-- /drawing-date -->
+
 ![Rotation of the finite-time motor-pair trajectory in physical coordinates](assets/motor_pair_candidate_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/d52a5d1f604348dcc2848088ac444e408aa5b1f4/docs/assets/motor_pair_candidate_rotation.gif)).*
+<!-- /drawing-date -->
 
 These are actual three-dimensional state samples, not projections of a higher-dimensional model. The panels use the original variables, several projections, and the upward $h=0$ section. The rotating point cloud covers the final 2,000 units of the CPU path. Saved QR endpoints are approximately 0.05 units apart; the fastest excursions are sparsely sampled, so points are deliberately not joined by straight lines that would introduce artificial spikes. This sampling is insufficient to settle the detailed geometry. The section panel contains 13 new returns from the 3,000-unit extension; it is far too small a sample for a fractal-dimension or return-map topology claim.
 

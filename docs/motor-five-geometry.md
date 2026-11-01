@@ -4,6 +4,10 @@ Five interacting motor rows produce a thin interwoven numerical geometry in the 
 
 ![Two rotating linear projections of the five-row displacement set](assets/motor-five-ribbon.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/e809319c54abd65d7c32642e9eab561ed13e94c3/docs/assets/motor-five-ribbon.gif)).*
+<!-- /drawing-date -->
+
 [Full-resolution still](assets/motor-five-ribbon.png) · [Complete six-page selection gallery](../results/motor-five-geometry/gallery/) · [Evidence manifest](../results/motor-five-geometry/manifest.json)
 
 ## Model and selection

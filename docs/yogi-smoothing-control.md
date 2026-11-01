@@ -4,6 +4,10 @@ The two-direction numerical regime survives small, explicitly declared smoothing
 
 ![All smoothing rates and selected full-state portraits](assets/yogi-smoothing-control.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/94ba114329065336fe19783583bc90708ac2e265/docs/assets/yogi-smoothing-control.png)).*
+<!-- /drawing-date -->
+
 ## Distinguish two smooth equations
 
 For the original normalized [Yogi map](yogi-structure.md), put `b=beta1`, `c=beta2`, `e=epsilon/alpha`, and `M=b*m+(1-b)*x`. The original second-memory update uses `sign(v-x^2)`. Here we deliberately replace it by
