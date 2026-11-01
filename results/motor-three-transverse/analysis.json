@@ -1,0 +1,34 @@
+{
+  "runs": [
+    {
+      "run": "quotient-60000",
+      "duration": 60000,
+      "leading": [
+        0.13068866009967503,
+        0.0019570619104639633
+      ],
+      "second_window_min": -0.012086672301294014,
+      "second_window_max": 0.01778839191603839,
+      "positive_second_windows": 7,
+      "windows": 12,
+      "flow_identity_max_error": 5.10702591327572e-14,
+      "divergence_residual": 2.0857745160659154e-14
+    },
+    {
+      "run": "quotient-300000",
+      "duration": 300000.0,
+      "leading": [
+        0.1304404462143393,
+        0.0028323964450203964
+      ],
+      "second_window_min": -0.005724233734012369,
+      "second_window_max": 0.008940053383814456,
+      "positive_second_windows": 11,
+      "windows": 12,
+      "flow_identity_max_error": 6.994405055138486e-14,
+      "divergence_residual": 7.838631669680277e-14
+    }
+  ],
+  "interpretation": "The autonomous flow direction is removed explicitly. The second quotient mean is positive but one of twelve long windows is negative. These finite estimates do not establish an asymptotic second positive exponent or hyperchaotic attraction.",
+  "independence": "The 300000-unit run continues the 60000-unit endpoint after another 1000-unit warmup; these are not independent initial-condition trials."
+}

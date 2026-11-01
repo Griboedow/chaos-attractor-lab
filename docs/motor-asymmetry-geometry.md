@@ -57,6 +57,20 @@ This audit uses **all** 600,000 samples. The bottom panels display the unfiltere
 
 ## Fresh starts and a local parameter neighborhood
 
+### Separate follow-up of the two-positive case 2742
+
+Case 2742 uses `(rho,r,b)=(9.319877940708889,12.219982160401562,.7)`. Its preliminary full eight-dimensional calculation gave a positive second finite-time rate but an imperfectly resolved autonomous neutral direction. A subsequent calculation explicitly removes the flow direction from the tangent dynamics at every QR boundary. This seven-dimensional quotient concerns the full three-row state; it does not impose a synchronized cluster.
+
+The 60,000-unit quotient run gives leading means `(0.130689,0.001957)`. A continuation with another 1,000 warm-up units and **300,000 observed units** gives `(0.130440,0.002832)`. The second rate is positive in 11 of twelve consecutive 25,000-unit windows; its range is `[-0.005724,0.008940]`. This is evidence for a weak second expanding direction, with its asymptotic sign still unresolved. We do not classify the case as established hyperchaotic attraction.
+
+![Second flow-quotient rate over consecutive long windows](../results/motor-three-transverse/motor-transverse-spectrum.png)
+
+Both runs use DOP853 with relative tolerance `2e-11`, absolute tolerance `2e-13`, maximum step `0.01`, and QR every `0.5` original time units. The transported flow agrees with the exact vector field to `7.0e-14`; the quotient sum plus the endpoint logarithmic speed ratio agrees with integrated divergence to `7.9e-14` per unit time. These checks validate the flow-direction removal numerically, not the infinite-time sign of the small rate. The continuation is not an independent initial-condition experiment.
+
+The [separate frozen packet](../results/motor-three-transverse/) includes the preliminary full spectrum, both quotient calculations, all full-state histories and exact source snapshots. The [reproduction script](../research/check_motor_transverse_spectrum.py) accepts `--source`, `--output`, `--warm`, `--duration`, `--rtol` and `--max-step`; the frozen protocols record the executed values. The existing motor priority audit remains applicable.
+
+### Local neighborhood of the ribbon case 2566
+
 A separate declared experiment tests 32 fresh starts at the ribbon tuple and 64 logarithmic Sobol neighbors within approximately five percent in each of `rho`, `r`, and `b`, with two fresh starts per neighbor. Starts have `c=1`, `s=b`, and seeded small zero-sum displacements; they are not selected from a saved attractor. After 500 warm-up units, each trajectory is observed for 6,000 units. The rule requires a mean leading rate above `0.01` and all four 1,500-unit windows above `0.005`.
 
 All 160 trajectories finish. **All 32 anchor starts pass, and both starts pass at 42 of the 64 neighboring tuples.** The anchor mean estimates range from `0.02170` to `0.02588`. These finite samples support repeatability in this initialization family; they do not estimate a basin probability or prove an open chaotic parameter region.
