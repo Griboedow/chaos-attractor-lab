@@ -256,14 +256,23 @@ r_i\mapsto Z_\psi r_i.
 
 Here the two-component curvature is embedded as
 $`\kappa=(\kappa_1,\kappa_2,0)`$. A changing laboratory-frame trace can
-therefore reflect a common rotation. We compare all director frames and
-curvatures, minimizing the squared distance
+therefore reflect a common rotation. Define frame and curvature differences
+
+```math
+\Delta R_i(\psi)=R_i^A-Z_\psi R_i^B Z_\psi^T,\qquad
+\Delta\kappa_i(\psi)=\kappa_i^A-Z_\psi\kappa_i^B.
+```
+
+We compare all director frames and curvatures by minimizing
 
 ```math
 D^2(A,B)=\min_\psi\frac1N\sum_i
-\left[\frac12\lVert R_i^A-Z_\psi R_i^B Z_\psi^T\rVert_F^2
-+\frac{\lVert\kappa_i^A-Z_\psi\kappa_i^B\rVert^2}{\chi_1^2}\right].
+\left[\frac12\mathrm{tr}(\Delta R_i^T\Delta R_i)
++\frac{\Delta\kappa_i^T\Delta\kappa_i}{\chi_1^2}\right].
 ```
+
+All differences inside the minimum are evaluated at the same angle $`\psi`$.
+The trace term is half the squared Frobenius norm of the frame difference.
 
 The angular part contains only first and second harmonics. Maximizing
 $`a\cos\psi+b\sin\psi+c\cos2\psi+d\sin2\psi`$ reduces its stationary
