@@ -88,9 +88,9 @@ Full three-state iterates; rigid camera and equal spatial units within each pane
 
 Full three-state iterates; rigid camera and equal spatial units within each panel.
 
-**Folded regimes; certified trapping for Case 156.** Gaussian posterior averaging and a circle reflector produce two spatial numerical candidates. Both survive five million iterations, 33 initial states and independent 70/100-digit checks. For Case 156, an interval certificate proves an attracting invariant set in a 35,784-cube region and entry of the original start after eleven steps. Chaos on that set and historical uniqueness remain unresolved. Case 29 has alternating folded lobes; alternating chaotic bands are known from earlier maps.
+**Certified attracting positive-entropy set for Case 156.** Gaussian posterior averaging and a circle reflector produce a folded spatial band. A strict trapping region and seven independently checked crossings prove an attracting invariant set with entropy at least `log(2)/6` per iteration. Certified fixed and five-period points have one and two unstable directions, excluding two stated classes of smooth local equivalence. Transitivity, equality with the numerical portrait and historical uniqueness remain unresolved. Case 29 is a numerical companion with alternating folded lobes, a behavior known from earlier maps.
 
-[Model, geometry and controls](docs/soft-constellations.md) · [Trapping and entry certificate](docs/soft-constellation-trapping.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
+[Entropy and periodic-structure article](docs/soft-symbolic-dynamics/manuscript.md) · [Trapping and entry certificate](docs/soft-constellation-trapping.md) · [Model and numerical controls](docs/soft-constellations.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
 
 ### Acceleration memory in a scalar iteration
 
@@ -546,7 +546,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | --- | --- | --- |
 | [Spatial-circle RAAR](docs/raar-circles.md) | Certified attracting positive-entropy set at R1051; numerical companion portraits | [Trapping certificate](docs/raar-trapping.md), [fold membership and equivalence obstruction](docs/raar-critical-membership.md), [Symbolic-dynamics certificate](docs/raar-symbolic-dynamics.md), [cycle structure](docs/raar-cycle-structure.md), [folding and preimages](docs/raar-folding.md), [exact structure](docs/raar-structure.md), [prior art](docs/raar-priority.md) |
 | [Circle / finite-point RAAR](docs/raar-constellations.md) | Layered spatial numerical candidates; three active sites in the selected observations | [Complete survey and controls](results/raar-constellations/README.md), [known phase-retrieval connections](docs/raar-constellations.md#prior-art-and-equivalent-terms) |
-| [Gaussian posterior mean and a circle](docs/soft-constellations.md) | Certified trapping and entry for Case 156; chaos numerical | [Complete temperature sweep](results/soft-constellations/README.md), [mean-shift, MMSE, proximal and softmax equivalents](docs/soft-constellation-priority.md) |
+| [Gaussian posterior mean and a circle](docs/soft-constellations.md) | Attracting positive-entropy set and mixed-index cycles for Case 156 | [Article and equivalence obstructions](docs/soft-symbolic-dynamics/manuscript.md), [complete temperature sweep](results/soft-constellations/README.md), [prior art](docs/soft-constellation-priority.md) |
 | [Cyclic three-circle RAAR](docs/cyclic-raar-search.md) | Positive finite-time growth, but visually thin configurations | [Complete survey](results/cyclic-raar-search/README.md) |
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |

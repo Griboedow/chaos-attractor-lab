@@ -4,8 +4,9 @@
 attracting invariant set for Case 156 of the
 [Gaussian-posterior circle experiment](soft-constellations.md). The original
 initial state, and a small explicit neighborhood of it, enter the trapping
-region after eleven iterations. Chaotic dynamics on the limiting set and
-historical uniqueness are not established by this certificate.
+region after eleven iterations. A subsequent [symbolic-dynamics certificate](soft-symbolic-dynamics.md)
+proves positive entropy and mixed-index periodic points in this same
+limiting set. Historical uniqueness remains unresolved.
 
 The [published portrait and rotation](soft-constellations.md) depict numerical
 states, rather than a rendering of a proved complete invariant set. The
@@ -176,7 +177,9 @@ The known Gaussian mean-shift/MMSE/proximal ingredients and earlier
 reflection dynamics are documented in the
 [priority review](soft-constellation-priority.md). Two-band alternation
 is also established prior art. The present additional result is a
-reproducible trapping and entry certificate for this parameter set;
-historical priority and a proof of chaotic attraction remain open.
+reproducible trapping and entry certificate for this parameter set.
+The separate [entropy and periodic-structure article](soft-symbolic-dynamics/manuscript.md)
+extends the result to an attracting positive-entropy set. Historical priority
+and identification of the complete numerical ribbon remain open.
 
 [Evidence packet and reproduction](../results/soft-trapping/README.md).

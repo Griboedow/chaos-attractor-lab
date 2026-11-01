@@ -1,0 +1,53 @@
+{
+  "status": "bounded review completed; historical priority unresolved",
+  "review_date": "2026-11-01",
+  "queries": [
+    "\"unstable dimension variability\" \"Douglas Rachford\"",
+    "\"hetero-chaos\" \"periodic\" \"dense\" Saiki Yorke",
+    "\"unstable dimension variability\" \"Gaussian\" \"map\"",
+    "\"Obstructions to shadowing\" \"Dawson\" 1994",
+    "\"Gaussian\" \"posterior mean\" \"chaos\" \"reflection\"",
+    "\"mean shift\" \"Douglas\" \"chaos\"",
+    "\"RAAR\" \"unstable dimension\"",
+    "\"softmax\" \"hetero-chaos\""
+  ],
+  "sources": [
+    {
+      "url": "https://ww2.ii.uj.edu.pl/~zgliczyn/papers/wts/cov.pdf",
+      "work": "Zgliczynski and Gidea (2004), Covering relations for multidimensional dynamical systems",
+      "reviewed": "Author preprint Theorems 9 and 16, printed pages 11 and 17; text checked against the implemented stronger crossing conditions. Full paper proof not independently replicated.",
+      "use": "Established covering method and closed-chain periodic realizations."
+    },
+    {
+      "url": "https://arxiv.org/html/1811.01009v4",
+      "work": "Saiki, Takahasi and Yorke, Piecewise-linear maps with heterogeneous chaos; Nonlinearity 34 (2021), revised preprint 2022",
+      "reviewed": "Abstract; introductory definitions and baker-map discussion; stated density results in Sections 2.6-2.7 and cited Henon-like precedents. No full proof replication or figure similarity audit.",
+      "use": "Mixed unstable dimensions are known. Hetero-chaos requires stronger density/transitivity properties than the three located cycles establish."
+    },
+    {
+      "url": "https://fisica.ufpr.br/viana/artigos/2000/mky.pdf",
+      "work": "Viana and Grebogi (2000), Unstable dimension variability and synchronization of chaotic systems",
+      "reviewed": "Abstract and introduction, PDF pages 1-2. Full model analysis and figures not audited.",
+      "use": "Earlier unstable-dimension-variability precedent in coupled chaotic maps."
+    },
+    {
+      "url": "https://doi.org/10.1103/PhysRevLett.73.1927",
+      "work": "Dawson, Grebogi, Sauer and Yorke (1994), Obstructions to Shadowing When a Lyapunov Exponent Fluctuates about Zero",
+      "reviewed": "Publisher abstract only.",
+      "use": "Context only; no claim that the present map fails shadowing."
+    }
+  ],
+  "own_obstructions": [
+    "C1 neighborhood conjugacy to a dissipative constant-Jacobian planar Henon base with uniformly contracting one-dimensional fiber is excluded by two unstable multipliers.",
+    "C1 neighborhood conjugacy to a fixed-time map of an autonomous three-dimensional flow is excluded by a least-period-five cycle without multiplier one."
+  ],
+  "not_excluded": [
+    "General three-dimensional Henon-like maps",
+    "Poincare return maps and higher-dimensional flow realizations",
+    "Conjugacy defined only on a fractal invariant set",
+    "Other nonlinear coordinates, symbolic equivalences, time changes and known discrete models"
+  ],
+  "exact_match_found_in_returned_sources": false,
+  "priority_established": false,
+  "scope": "Bounded targeted review. An unsuccessful search is not evidence of universal historical uniqueness. Existing operator-equivalence audit remains applicable."
+}

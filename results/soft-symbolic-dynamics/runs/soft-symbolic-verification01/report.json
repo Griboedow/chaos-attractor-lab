@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "report_hashes": {
+    "soft-cycles01/report.json": "680932a71cb333b086994e2acabcc6ae5165685f72290f20e63c861e4961e99c",
+    "soft-returns01/report.json": "98e33de0f4140f59fdac80750e443ad309fe0d6b28a0363deafa3ec427781a68",
+    "soft-covering-proposals01/report.json": "2ac46b2d18ca7c94dd0192bc9aa2849e9c49186605ca3b6b1e5b432e0b3f0c1b",
+    "soft-covering-certificate01/report.json": "94a0ef77415946f8dc5a7ec982e039fd7304afc99bca768511e1e64bd1a554e9",
+    "soft-covering-audit01/report.json": "9d1bdc659e958347121c79cbdf6939a7b27d63ff6da1819436272cc9f50e2003",
+    "soft-covering-ad01/report.json": "b55488fd43fd62521659de7063b5a794a751d28f61f5c6ea4d9fbe0534eebae6",
+    "soft-covering-ad-audit01/report.json": "21f212fbc8f99c7a73c75821bce5e546aa61a09de0fd6211613b859797f275d8",
+    "soft-cycle-certificates01/report.json": "6182c0cfac25ee6df3b3e6c8a493e7cd09ec56a74d095ddcf5cfb754ebd0de64",
+    "soft-cycle-ad01/report.json": "edd7e69665ae7396d87995ce5bbb513e1b95f608b81d304fb1c732d2f8be48ab",
+    "soft-symbolic-render01/report.json": "325cf84698d0f93d37c826d2f8d31d373c60f3f1cc86f9dc36896d89f4bf0f3f",
+    "soft-symbolic-render02/report.json": "8490998c3c0fa52c2a0e3880613edcb82b425f8388f6437a0ea3445d3e0b4966"
+  },
+  "all_source_snapshots_match": true,
+  "declared_search_attempts": 640,
+  "numerical_cycles": 65,
+  "window_proposals": 39,
+  "complete_covering_leaves": [
+    4737,
+    9918
+  ],
+  "same_periodic_roots_independently_certified": [
+    {
+      "id": 0,
+      "period": 1,
+      "unstable_dimensions": 1
+    },
+    {
+      "id": 5,
+      "period": 5,
+      "unstable_dimensions": 2
+    },
+    {
+      "id": 6,
+      "period": 5,
+      "unstable_dimensions": 2
+    }
+  ],
+  "all_three_orbits_pairwise_disjoint": true,
+  "final_figure_hashes": {
+    "soft-periodic-structure.png": "5fab7f055113445a3c308101426e22d10b9bd12f3e7d5d81e58acc24cf0b997e",
+    "soft-covering-graph.png": "aee12b8bfe85d2e3659e83239ca8becc985342b510aebfbf7acd4bc1113ea4c9"
+  },
+  "scope": "Cross-packet identities and exact saved-inequality checks, distinct periodic orbits and display provenance. Complete interval recomputation is supplied by the two separate engines and their audits, not repeated here."
+}

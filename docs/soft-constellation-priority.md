@@ -3,9 +3,10 @@
 **Review date: 2026-11-01.** The averaging map, its Bayesian interpretation,
 its proximity-operator representation, and the use of nonprojectors in
 reflection algorithms are established ideas. The [current experiment](soft-constellations.md)
-does not introduce these ingredients. Its contribution is a reproducible
-temperature continuation and selected spatial numerical regimes. Historical
-priority for those regimes remains unresolved.
+does not introduce these ingredients. Its contribution includes a reproducible
+temperature continuation and, for Case 156, a [certified attracting
+positive-entropy set with mixed-index periodic points](soft-symbolic-dynamics/manuscript.md).
+Historical priority for this realization remains unresolved.
 
 ## Equivalent descriptions of the averaging map
 
@@ -138,6 +139,23 @@ target, not an originality claim. Even a rigorous trapping and alternation
 proof would establish that property for this model without making the
 property itself new. Equivalence to a two-band map through nonlinear
 coordinates, or to a higher-dimensional extension, remains unresolved.
+
+## Periodic structure and limited equivalence obstructions
+
+Case 156 has certified periodic points with one and two unstable directions
+inside the same attracting invariant set. Mixed unstable dimensions are
+known; see [Viana and Grebogi (2000)](https://fisica.ufpr.br/viana/artigos/2000/mky.pdf)
+and [Saiki, Takahasi and Yorke (2021)](https://arxiv.org/html/1811.01009v4).
+The latter's hetero-chaos requires density properties not established here.
+The [article](soft-symbolic-dynamics/manuscript.md) gives the reviewed scopes
+and distinguishes our located cycles from those stronger known results.
+
+Their certified multipliers exclude C1 neighborhood conjugacy to a
+dissipative planar Hénon base with a uniformly contracting extra coordinate,
+and to a fixed-time map of an autonomous three-dimensional flow. These are
+explicit, restricted obstructions. They leave general three-dimensional
+Hénon-like maps, Poincaré maps, higher-dimensional realizations and
+equivalence only on the invariant set unresolved.
 
 ## Remaining novelty question
 

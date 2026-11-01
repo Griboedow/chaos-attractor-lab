@@ -1,6 +1,8 @@
 # Recorded evidence beyond Chua
 
-`soft-trapping/` contains the [Case 156 trapping and entry certificate](../docs/soft-constellation-trapping.md): 35,784 exact dyadic cubes, exhaustive outward interval coverage, reverse-order replay and independent entry controls. Chaos on the attracting invariant set and historical uniqueness remain unresolved.
+`soft-symbolic-dynamics/` contains the [Case 156 entropy and periodic-structure certificates](../docs/soft-symbolic-dynamics/manuscript.md): two complete interval implementations of seven crossings, exact tiling audits, and independently located cycles with one and two unstable directions. The attracting set has entropy at least `log(2)/6`; historical uniqueness remains unresolved.
+
+`soft-trapping/` contains the [Case 156 trapping and entry certificate](../docs/soft-constellation-trapping.md): 35,784 exact dyadic cubes, exhaustive outward interval coverage, reverse-order replay and independent entry controls. Its frozen original packet predates the separate entropy certificate above.
 
 `soft-constellations/` records the [Gaussian-posterior circle experiment](../docs/soft-constellations.md): 198 temperature cases, all 157 flagged follow-ups, seven long runs, two selected folded regimes, multiple-start and precision controls. The [equivalence review](../docs/soft-constellation-priority.md) identifies established mean-shift, MMSE, proximal and softmax ingredients; historical novelty remains unresolved.
 

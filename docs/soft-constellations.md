@@ -5,8 +5,10 @@ a known Gaussian posterior-mean operator. Cases 29 and 156 retain positive
 finite-time growth over five million steps, 33 initial states and independent
 70/100-digit checks. Their geometry is more coherent than the fragmented
 hard-projection controls. Case 156 now has a [trapping and eleven-step entry
-certificate](soft-constellation-trapping.md). Chaos on the certified invariant
-set and historical uniqueness remain unresolved.
+certificate](soft-constellation-trapping.md), followed by a [positive-entropy
+and mixed-index cycle certificate](soft-symbolic-dynamics/manuscript.md)
+inside that attracting invariant set. Equality with the pictured ribbon,
+transitivity and historical uniqueness remain unresolved.
 
 ![Gaussian posterior mean and a circle, cases 29 and 156](assets/portraits/soft-constellations.png)
 
@@ -173,9 +175,11 @@ The original start, including a coordinate neighborhood of radius `2^-35`,
 is certified to enter `Q` after eleven steps.
 
 This proves attraction to an invariant set in the region containing the
-sampled folded band. It does not prove that the whole limiting set is
-chaotic, that it equals the rendered cloud, or that it is historically new.
-Case 29 still has numerical attraction evidence only.
+sampled folded band. The subsequent [symbolic-dynamics article](soft-symbolic-dynamics/manuscript.md)
+proves positive entropy on that attracting set and locates periodic points
+with one and two unstable directions. Equality with the rendered cloud and
+historical uniqueness remain open. Case 29 still has numerical attraction
+evidence only.
 
 ## Geometry comparison and remaining claim
 
@@ -198,10 +202,10 @@ and their return maps have not been exhausted.
 
 The present result is a reproducible pair of visually distinctive
 three-state numerical regimes, with explicit known-operator identifications
-and controls. The Case 156 trapping certificate
-strengthens the attraction evidence; a proof of chaos on that invariant set
-and a stronger dynamical comparison are still required before making a
-discovery claim.
+and controls. Case 156 additionally has certified attraction, positive
+entropy and mixed-index cycles, with two restricted smooth-equivalence
+obstructions. A broader dynamical and historical comparison is still
+required before making a uniqueness claim.
 
 [Run inventory, exact parameters and reproduction](../results/soft-constellations/README.md)
 · [Prior art and equivalent terminology](soft-constellation-priority.md).

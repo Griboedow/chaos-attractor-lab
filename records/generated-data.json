@@ -47,8 +47,8 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 5406627863,
-  "compact_bytes": 68093490,
+  "removed_bytes": 5419910313,
+  "compact_bytes": 68094744,
   "files": [
     {
       "path": "results/adabelief-quadratic/gallery.npz",
@@ -98070,6 +98070,116 @@
       "recovery": "recompute",
       "recompute_command": "See results/soft-trapping/README.md for run soft-trapping-proposal05. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\soft-trapping-proposal05\\proposal.npz"
+    },
+    {
+      "path": "results/soft-symbolic-dynamics/runs/soft-returns01/trace.npz",
+      "bytes": 13282450,
+      "sha256": "230be080f850f8ec24403bfbd14640507a785866170ac803a0b1571b84150210",
+      "group": "soft-symbolic-dynamics",
+      "compact": {
+        "path": "results/compact-data/230be080f850f8ec24403bfbd14640507a785866170ac803a0b1571b84150210.npz",
+        "bytes": 1254,
+        "sha256": "175197fa3b90ad286b644b0aec3cd157d723a70e38eb9b03ef64920484dadb6b",
+        "keys": [
+          "params",
+          "points",
+          "center",
+          "basis",
+          "multipliers"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            6,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 144,
+          "retained": true
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "basis",
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": true
+        },
+        {
+          "key": "multipliers",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "grid",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "bytes": 131080,
+          "retained": false
+        },
+        {
+          "key": "states",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "coordinates",
+          "shape": [
+            19,
+            16385,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7471560,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            16385
+          ],
+          "dtype": "int64",
+          "bytes": 131080,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/soft-symbolic-dynamics/README.md for run soft-returns01. Original large payload trace.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\soft-returns01\\trace.npz"
     }
   ]
 }

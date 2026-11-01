@@ -1,0 +1,281 @@
+{
+  "status": "passed",
+  "source_report_sha256": "94a0ef77415946f8dc5a7ec982e039fd7304afc99bca768511e1e64bd1a554e9",
+  "input_sha256": "54bfc223d865c6337dfdc271d8f61c30ed4086aad446677eb57117048a4925fc",
+  "complete_graph": true,
+  "total_leaves": 4737,
+  "checks": [
+    {
+      "edge": 0,
+      "kind": "volume",
+      "cells": 651,
+      "maximum_depth": 12,
+      "minimum_axis_exact": "4560996975592143/4503599627370496",
+      "minimum_strict_margin_exact": "760598268545/2251799813685248",
+      "minimum_strict_margin": 0.0003377734840914748,
+      "modes": {
+        "left-exterior": 40,
+        "stable-interior": 571,
+        "right-exterior": 40
+      }
+    },
+    {
+      "edge": 0,
+      "kind": "left",
+      "cells": 2,
+      "maximum_depth": 1,
+      "minimum_axis_exact": "2265002719684073/2251799813685248",
+      "minimum_strict_margin_exact": "1068529469026151/562949953421312",
+      "minimum_strict_margin": 1.8980896304053214,
+      "modes": {
+        "exit-face": 2
+      }
+    },
+    {
+      "edge": 0,
+      "kind": "right",
+      "cells": 2,
+      "maximum_depth": 1,
+      "minimum_axis_exact": "560986723918833/562949953421312",
+      "minimum_strict_margin_exact": "2184291632560135/1125899906842624",
+      "minimum_strict_margin": 1.9400406903714673,
+      "modes": {
+        "exit-face": 2
+      }
+    },
+    {
+      "edge": 1,
+      "kind": "volume",
+      "cells": 96,
+      "maximum_depth": 10,
+      "minimum_axis_exact": "69278781232203/70368744177664",
+      "minimum_strict_margin_exact": "667960529649853/9007199254740992",
+      "minimum_strict_margin": 0.07415851595580814,
+      "modes": {
+        "right-exterior": 32,
+        "stable-interior": 64
+      }
+    },
+    {
+      "edge": 1,
+      "kind": "left",
+      "cells": 10,
+      "maximum_depth": 4,
+      "minimum_axis_exact": "2345737312320597/2251799813685248",
+      "minimum_strict_margin_exact": "358661298539903/4503599627370496",
+      "minimum_strict_margin": 0.07963880633619147,
+      "modes": {
+        "exit-face": 10
+      }
+    },
+    {
+      "edge": 1,
+      "kind": "right",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis_exact": "4292575472005615/4503599627370496",
+      "minimum_strict_margin_exact": "4594729525477921/8796093022208",
+      "minimum_strict_margin": 522.3602699377262,
+      "modes": {
+        "exit-face": 1
+      }
+    },
+    {
+      "edge": 2,
+      "kind": "volume",
+      "cells": 349,
+      "maximum_depth": 10,
+      "minimum_axis_exact": "4587872254356261/4503599627370496",
+      "minimum_strict_margin_exact": "18542799443581/9007199254740992",
+      "minimum_strict_margin": 0.0020586642883270168,
+      "modes": {
+        "stable-interior": 349
+      }
+    },
+    {
+      "edge": 2,
+      "kind": "left",
+      "cells": 584,
+      "maximum_depth": 10,
+      "minimum_axis_exact": "2296748127822341/2251799813685248",
+      "minimum_strict_margin_exact": "3265503319231/4503599627370496",
+      "minimum_strict_margin": 0.0007250873944000258,
+      "modes": {
+        "exit-face": 584
+      }
+    },
+    {
+      "edge": 2,
+      "kind": "right",
+      "cells": 384,
+      "maximum_depth": 9,
+      "minimum_axis_exact": "286814819720343/281474976710656",
+      "minimum_strict_margin_exact": "77882397050987/4503599627370496",
+      "minimum_strict_margin": 0.017293366083800832,
+      "modes": {
+        "exit-face": 384
+      }
+    },
+    {
+      "edge": 3,
+      "kind": "volume",
+      "cells": 132,
+      "maximum_depth": 10,
+      "minimum_axis_exact": "5583197336140259/4503599627370496",
+      "minimum_strict_margin_exact": "5891882645075/9007199254740992",
+      "minimum_strict_margin": 0.0006541303770951634,
+      "modes": {
+        "stable-interior": 132
+      }
+    },
+    {
+      "edge": 3,
+      "kind": "left",
+      "cells": 32,
+      "maximum_depth": 5,
+      "minimum_axis_exact": "2790596730358193/2251799813685248",
+      "minimum_strict_margin_exact": "6950060231415/2251799813685248",
+      "minimum_strict_margin": 0.0030864467565794307,
+      "modes": {
+        "exit-face": 32
+      }
+    },
+    {
+      "edge": 3,
+      "kind": "right",
+      "cells": 53,
+      "maximum_depth": 6,
+      "minimum_axis_exact": "5581474734048645/4503599627370496",
+      "minimum_strict_margin_exact": "337624458135/562949953421312",
+      "minimum_strict_margin": 0.0005997415153569108,
+      "modes": {
+        "exit-face": 53
+      }
+    },
+    {
+      "edge": 4,
+      "kind": "volume",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis_exact": "4374522477122243/4503599627370496",
+      "minimum_strict_margin_exact": "775032336440333/9007199254740992",
+      "minimum_strict_margin": 0.08604587447450884,
+      "modes": {
+        "stable-interior": 1
+      }
+    },
+    {
+      "edge": 4,
+      "kind": "left",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis_exact": "273427846215281/281474976710656",
+      "minimum_strict_margin_exact": "400411044273981/4503599627370496",
+      "minimum_strict_margin": 0.08890911213343533,
+      "modes": {
+        "exit-face": 1
+      }
+    },
+    {
+      "edge": 4,
+      "kind": "right",
+      "cells": 1,
+      "maximum_depth": 0,
+      "minimum_axis_exact": "8749075908733889/9007199254740992",
+      "minimum_strict_margin_exact": "400078902186467/4503599627370496",
+      "minimum_strict_margin": 0.08883536177483431,
+      "modes": {
+        "exit-face": 1
+      }
+    },
+    {
+      "edge": 5,
+      "kind": "volume",
+      "cells": 187,
+      "maximum_depth": 10,
+      "minimum_axis_exact": "1148532722366837/1125899906842624",
+      "minimum_strict_margin_exact": "4553304164741/9007199254740992",
+      "minimum_strict_margin": 0.0005055183121817075,
+      "modes": {
+        "stable-interior": 187
+      }
+    },
+    {
+      "edge": 5,
+      "kind": "left",
+      "cells": 68,
+      "maximum_depth": 7,
+      "minimum_axis_exact": "2303174332568333/2251799813685248",
+      "minimum_strict_margin_exact": "9245929962843/2251799813685248",
+      "minimum_strict_margin": 0.004106017731527967,
+      "modes": {
+        "exit-face": 68
+      }
+    },
+    {
+      "edge": 5,
+      "kind": "right",
+      "cells": 64,
+      "maximum_depth": 6,
+      "minimum_axis_exact": "2304009741272865/2251799813685248",
+      "minimum_strict_margin_exact": "128882832175217/4503599627370496",
+      "minimum_strict_margin": 0.028617737551965172,
+      "modes": {
+        "exit-face": 64
+      }
+    },
+    {
+      "edge": 6,
+      "kind": "volume",
+      "cells": 2103,
+      "maximum_depth": 12,
+      "minimum_axis_exact": "2355053833343059/2251799813685248",
+      "minimum_strict_margin_exact": "387765580157/9007199254740992",
+      "minimum_strict_margin": 4.305062752474331e-05,
+      "modes": {
+        "stable-interior": 2103
+      }
+    },
+    {
+      "edge": 6,
+      "kind": "left",
+      "cells": 8,
+      "maximum_depth": 3,
+      "minimum_axis_exact": "2346374043121681/2251799813685248",
+      "minimum_strict_margin_exact": "30198509338747/1125899906842624",
+      "minimum_strict_margin": 0.026821664301787784,
+      "modes": {
+        "exit-face": 8
+      }
+    },
+    {
+      "edge": 6,
+      "kind": "right",
+      "cells": 8,
+      "maximum_depth": 3,
+      "minimum_axis_exact": "4680319107741651/4503599627370496",
+      "minimum_strict_margin_exact": "45463721585237/2251799813685248",
+      "minimum_strict_margin": 0.020189948195631136,
+      "modes": {
+        "exit-face": 8
+      }
+    }
+  ],
+  "exact_separation": [
+    "2342882539260959171140891104708693686523683092537198977587019624227/477398389063311105174694247315511523021348569803392252066754902272",
+    "2358825126553146664600069342965208897099910326954472370624870895837/477398389063311105174694247315511523021348569803392252066754902272"
+  ],
+  "window0_in_trap": true,
+  "window0_hull_cube_keys": [
+    1580483,
+    1580484,
+    1580673,
+    1580674,
+    1608983,
+    1608984,
+    1609173,
+    1609174
+  ],
+  "entropy_bound": "log(2)/6 > 0.11552 per original iterate, using the covering theorem and the separately certified trap",
+  "scope": "Exact complete-tiling, inequality, matrix, separation, trapping-membership and hash audit. Enclosures themselves require independent recomputation."
+}

@@ -149,3 +149,11 @@ research/soft_interval.py -text
 research/validate_soft_interval.py -text
 results/fastica-local-injectivity/** -text whitespace=cr-at-eol
 research/fastica_local_injectivity.py -text whitespace=cr-at-eol
+
+# Preserve the executed soft-map covering and periodic-point certificates.
+results/soft-symbolic-dynamics/** -text whitespace=cr-at-eol,-blank-at-eof
+research/*soft_coverings.py -text
+research/*soft_cycles.py -text
+research/*soft_cycles_ad.py -text
+research/*soft_returns.py -text
+research/*soft_symbolic*.py -text
