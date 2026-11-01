@@ -2,6 +2,8 @@
 
 Research snapshot updated 1 November 2026. **We have several independently checked numerical chaos candidates, but no established discovery of a previously unpublished attractor or a new topological attractor class.** That distinction is the central result of this investigation.
 
+**A geometry-first construction now provides two detailed three-dimensional images.** The [three-axis twist search](twist-geometry.md) selects a folded sail and a medusa-like form from 4,096 parameter rows. Each still shows eight million actual iterates; four-million-step full spectra and 70/90-digit finite separations retain positive growth. Fresh-start and nearby-parameter cohorts expose a competing three-cycle for the sail. The explicit norm and determinant identities establish a compact global attractor of zero volume, but do not prove chaos of either pictured component or historical novelty.
+
 **A new direction examines the correction algorithm itself.** The [scalar-quadratic AdaBelief study](adabelief-quadratic.md) finds a branching three-state numerical candidate with spectrum approximately `(0.20261, -0.37938, -2.37428)` over two million observed iterations. Upstream-code execution and high-precision finite secants support the positive rate. A nearby apparent positive instead settles into a 54-step numerical cycle. Rectification and AMSGrad controls, exact option choices, related Adam/RMSProp precedents and the unresolved priority boundary are recorded explicitly.
 
 ## The most informative observations

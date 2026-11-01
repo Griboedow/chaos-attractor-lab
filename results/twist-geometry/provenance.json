@@ -1,0 +1,70 @@
+{
+  "excluded_local_full_histories": [
+    {
+      "path_relative_to_local_scratch": "pilot-v2/pilot.npz",
+      "bytes": 128699368,
+      "sha256": "595163d76571184092e1a37b6710dbc689f69a7b9e2bf427494db7f1e11b20d5"
+    },
+    {
+      "path_relative_to_local_scratch": "dense/data.npz",
+      "bytes": 110006618,
+      "sha256": "0bc04d3aff12727ab628c59ec174e1abc84d36dac714245190fc7f98b30d064e"
+    },
+    {
+      "path_relative_to_local_scratch": "views/data.npz",
+      "bytes": 109844672,
+      "sha256": "d9f6787af6984a315700710e92853123145d2de30d4ae1dd67f33c7b627e6da0"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "numba": "0.68.1",
+    "matplotlib": "3.11.2",
+    "pillow": "13.0.0",
+    "mpmath": "1.3.0"
+  },
+  "search": {
+    "sobol_dimension": 10,
+    "seed": 20261104,
+    "power": 12,
+    "warmup": 5000,
+    "observed": 12000,
+    "windows": 4,
+    "tail": 2048,
+    "linear_lanes": 2048,
+    "cubic_lanes": 2048,
+    "leading_positive_all_windows_gt_0_008": 2647,
+    "initial_geometry_filter_count": 674,
+    "dense_filter": "min(w)>0.025; mean(w)<1.15; minimum covariance eigenvalue fraction>0.007; grid16 occupancy fraction<0.55",
+    "dense_filter_count": 1832,
+    "dense_selection": "96 farthest-point selections in standardized 13 moment/occupancy features",
+    "dense_warmup": 10000,
+    "dense_observed": 60000,
+    "dense_tail": 50000,
+    "view_ids": [
+      307,
+      3254,
+      1709,
+      3555,
+      815,
+      2259
+    ],
+    "view_warmup": 100000,
+    "view_observed": 1000000,
+    "view_tail": 800000,
+    "final_ids": [
+      1709,
+      3254,
+      307
+    ],
+    "final_selection": "subjective visual inspection, not a prespecified quantitative novelty score"
+  },
+  "notes": [
+    "The first compilation failed before simulation; no results came from that attempt.",
+    "Raw exploratory source snapshots preserve the actual absolute scratch paths; research/search_twist.py is the portable replay.",
+    "Pilot occupancy grid8/2048<0.45 was redundant; the dense selection instead uses grid16/2048<0.55.",
+    "The gallery uses only the first two orthonormal rows of its projection matrix; the unused third row is not a rotation."
+  ]
+}
