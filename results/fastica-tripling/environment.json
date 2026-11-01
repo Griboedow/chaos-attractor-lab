@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.1",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "pillow": "13.0.0"
+  },
+  "threads": {
+    "numba": 6,
+    "openblas": 1,
+    "mkl": 1
+  },
+  "arithmetic": "Exact SymPy identities and rational bounds; binary64 NumPy/Numba; separate mpmath 70/100 decimal digit runs.",
+  "calculation_directory": "D:/Codex/fastica-structured-20261101"
+}

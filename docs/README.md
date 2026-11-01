@@ -18,5 +18,8 @@ article to its shorter report and numerical evidence.
 | RK45 controller dynamics | [Report](rk45-oscillator.md) | [Article](rk45-controller/manuscript.md) | [Study notes](rk45-controller/README.md) |
 | Scalar optimizer memory | [Report](yogi-tanh.md) | [Article](yogi-memory/manuscript.md) | [Study notes](yogi-memory/README.md) |
 
+The [structured-data FastICA report](fastica-tripling.md) contains its full
+analytic proof, numerical controls and prior-art discussion in one document.
+
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "scope": "Retained packet and presentation validation; long observations and exact algebra have their own records.",
+  "checks": {
+    "exact_stage_via_public_reproduction_driver": "passed in separate D:/Codex/fastica-tripling-reproduction-check-01",
+    "packet_verifier": "passed: 80 pilot cases, 4 long runs, 256 fresh starts, 4 arbitrary-precision controls, 2 actual-library controls",
+    "new_static_and_animation_coordinates": "recomputed from external cached arrays; both 500000-state counts and four camera checkpoints match",
+    "all_portraits": "30 families, 51 panels, 30 static and 9 animated main-page portraits; 600 frames at 40 ms for each animation",
+    "existing_catalog_entries_and_render_rows": "unchanged against e5c03c0",
+    "existing_drawing_dates": "unchanged against e5c03c0",
+    "local_links": 1791,
+    "broken_local_links": 0,
+    "manuscripts": "10 Markdown manuscripts; 414 article links; no tracked PDFs",
+    "omitted_study_payload_bytes": 126860499
+  },
+  "source_sha256": {
+    "research/fastica_tripling.py": "5d869a19782be1d21a8dadd380fcc90240fcea3f488252426510dc4663db48aa",
+    "research/verify_fastica_tripling.py": "bc935dd7242487c9150b1daddc9328da00e0015d2900dd23ebc9a53b3a48346c",
+    "research/archive_fastica_tripling.py": "ad02ea4295d8a378169cf48ff775711944227cd7f764a94c6b254877f0226281",
+    "tools/check_portraits.py": "1a00cad63ea9d001dbf59f3ca94f5845bfa690b36e28833422722584cfa57380"
+  }
+}

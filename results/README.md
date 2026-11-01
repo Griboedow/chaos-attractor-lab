@@ -1,6 +1,7 @@
 # Recorded evidence beyond Chua
 
 `soft-constellations/` records the [Gaussian-posterior circle experiment](../docs/soft-constellations.md): 198 temperature cases, all 157 flagged follow-ups, seven long runs, two selected folded regimes, multiple-start and precision controls. The [equivalence review](../docs/soft-constellation-priority.md) identifies established mean-shift, MMSE, proximal and softmax ingredients; historical novelty remains unresolved.
+`fastica-tripling/` records an [explicit finite-data FastICA construction](../docs/fastica-tripling.md) with an exact trapping and entropy proof. It retains all 80 pilot outcomes, four long spectra, 256 fresh starts, arbitrary-precision and actual-library controls. Large trajectory and presentation arrays remain external.
 
 `fastica/` records the [finite-sample FastICA investigation](../docs/fastica-dynamics.md): all 576 scout cases, five long spectra, 320 fresh starts, 96 input perturbations, independent precision and library controls, a rejected transient and stopping-state continuations. Exact selected inputs, unthinned portrait histograms and reproduction scripts are retained; generated trajectories stay on D:.
 

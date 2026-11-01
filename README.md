@@ -194,6 +194,28 @@ Physical coordinates (X0, X1, s0) of the 23D model; common scale.
 
 [Periodic-attractor certificate](docs/motor-five-cycle-certificate.md) · [Replication instability](docs/motor-five-replication-limit.md) · [Irregular regimes](docs/motor-activity-continuation.md)
 
+## Constructed data
+
+### Structured-data FastICA
+
+![Structured-data FastICA: rotating projections](docs/assets/portraits/fastica-tripling.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+![Structured-data FastICA: static projections](docs/assets/portraits/fastica-tripling.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Projection `(A,B,C)` of a unit weight in four dimensions; equal units and a common scale. The parameter `epsilon` controls the coupling in the fixed input data. Each panel contains 500,000 consecutive iterates.
+
+**Analytically proved attracting positive-entropy set.** A 720-row data construction gives standard cubic FastICA a strict trapping tube and a continuous angle-tripling factor for `0 <= epsilon <= 1/25`. Its attracting set has topological entropy at least `log(3)` per iteration, including after ICA sign identification. The left panel lies in that interval; the right panel is a numerical companion. Both retain positive growth over five million steps and at 70/100 digits. The tripling mechanism is known; priority of this finite-data realization and equality of the sampled portrait with the proved set remain unresolved.
+
+[Construction and proof](docs/fastica-tripling.md) · [Numerical controls and reproduction](results/fastica-tripling/README.md)
+
 ## Further portraits
 
 Additional numerical candidates and comparison regimes, grouped by system. Each entry links to its evidence and limitations.
@@ -529,6 +551,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |
 | [Finite-sample FastICA](docs/fastica-dynamics.md) | Four numerical regimes; five-million-step spectra and independent precision controls; one rejected long transient | [Portrait and stopping-rule audit](docs/fastica-dynamics.md), [complete evidence](results/fastica/README.md), [reproduction](research/fastica/README.md) |
+| [Structured-data FastICA](docs/fastica-tripling.md) | Exact parameter interval with a strict trapping tube, circle-tripling factor and entropy at least `log(3)`; larger parameters studied numerically | [Proof](docs/fastica-tripling.md#attracting-set-and-entropy), [evidence and reproduction](results/fastica-tripling/README.md) |
 | [RK45](docs/rk45-oscillator.md), [RK23](docs/rk23-oscillator.md) | Irregular adaptive-controller states for a decaying oscillator | [RK45 structure](docs/rk45-controller-structure.md), [RK23 structure](docs/rk23-controller-structure.md), [RK45 prior art](docs/rk45-priority.md), [RK23 prior art](docs/rk23-priority.md) |
 | [Smooth Yogi](docs/yogi-tanh.md) | Two positive finite growth rates in selected regimes | [Structure](docs/yogi-tanh-structure.md), [manuscript](docs/yogi-memory/manuscript.md) |
 | [Yogi parameter plane](docs/yogi-parameter-plane.md) | Retained irregular regimes and regular windows | [Earlier cases](docs/yogi-geometry.md), [smoothing control](docs/yogi-smoothing-control.md), [boundedness theorem](docs/scalar-optimizer-boundedness.md), [prior art](docs/yogi-priority.md) |

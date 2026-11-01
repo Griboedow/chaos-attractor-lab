@@ -36,12 +36,16 @@ assert rendering_source_matches('tools/data_cache.py',render['data_resolver_sha2
 assert [r['id'] for r in render['rows']]==[r['id'] for r in catalog['rows']]
 panels=0
 for study,saved in zip(catalog['rows'],render['rows']):
+    if 'renderer_sha256' in saved:
+        assert rendering_source_matches('tools/render_portraits.py',saved['renderer_sha256'])
+        assert rendering_source_matches('tools/data_cache.py',saved['data_resolver_sha256'])
     path=ROOT/saved['file'];assert path.is_file() and digest(path)==saved['sha256']
     with Image.open(path) as im:
         assert im.size==(1920,1080) and im.getpixel((0,0))[:3]==(255,255,255)
     row=ledger['images'][saved['file']]
-    assert row['role']=='portrait' and row['source_portrait']==study['source_portrait']
-    assert row['source_portrait'] in ledger['images']
+    source=row.get('source_portrait',saved['file'])
+    assert row['role']=='portrait' and source==study['source_portrait']
+    assert source in ledger['images']
     for expected in saved['panels']:
         assert expected['display_label']==panel_label(expected['input'])
         assert recorded_hash(expected['input']['source'])==expected['input_sha256']
@@ -63,6 +67,10 @@ assert rendering_source_matches('tools/data_cache.py',animation['data_resolver_s
 featured=[r for r in catalog['rows'] if r.get('featured')]
 assert [r['id'] for r in animation['rows']]==[r['id'] for r in featured]
 for study,saved in zip(featured,animation['rows']):
+    if 'renderer_sha256' in saved:
+        assert rendering_source_matches('tools/animate_portraits.py',saved['renderer_sha256'])
+        assert rendering_source_matches('tools/render_portraits.py',saved['static_renderer_sha256'])
+        assert rendering_source_matches('tools/data_cache.py',saved['data_resolver_sha256'])
     path=ROOT/saved['file'];assert digest(path)==saved['sha256']
     assert path.stat().st_size==saved['bytes']<50_000_000
     assert saved['frames']==FRAMES and saved['duration_ms']==[DURATION]*FRAMES

@@ -760,6 +760,47 @@
         }
       ],
       "coordinates": "Projection of the unit weight on (w1, w2, w4); every consecutive state is retained. No sign folding. Spatial scale and density saturation differ between panels."
+    },
+    {
+      "id": "fastica-tripling",
+      "title": "Structured-data FastICA",
+      "group": "Numerical algorithms",
+      "report": "docs/fastica-tripling.md",
+      "source_portrait": "docs/assets/portraits/fastica-tripling.png",
+      "featured": true,
+      "common_scale": true,
+      "description": "An explicit finite-data construction has a certified attracting positive-entropy set for 0 <= epsilon <= 1/25. The epsilon=0.15 companion is numerical only. Expanding-circle dynamics are known; historical priority of this realization is unresolved.",
+      "coordinates": "Projection (A,B,C) of a unit weight in S3; D is omitted. Equal units, common scale, 500000 consecutive states per panel; no sign folding.",
+      "panels": [
+        {
+          "label": "epsilon = 0.04",
+          "source": "results/fastica-tripling/presentation/points-040.npz",
+          "key": "points",
+          "mode": "points",
+          "transform": "identity"
+        },
+        {
+          "label": "epsilon = 0.15",
+          "source": "results/fastica-tripling/presentation/points-150.npz",
+          "key": "points",
+          "mode": "points",
+          "transform": "identity"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/fastica-tripling/presentation/points-040.npz",
+          "key": "points",
+          "metadata_source": "results/fastica-tripling/presentation/view-040.json",
+          "last_count": 500000
+        },
+        {
+          "source": "results/fastica-tripling/presentation/points-150.npz",
+          "key": "points",
+          "metadata_source": "results/fastica-tripling/presentation/view-150.json",
+          "last_count": 500000
+        }
+      ]
     }
   ]
 }
