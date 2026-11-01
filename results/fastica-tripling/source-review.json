@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded primary-source review; not a historical-priority certificate.",
+  "sources": [
+    {
+      "title": "Fast and Robust Fixed-Point Algorithms for Independent Component Analysis",
+      "author": "Aapo Hyvarinen",
+      "year": 1999,
+      "url": "https://www.princeton.edu/~sswang/awake_cerebellar_ms_refs/hyvarinen99_ieee_trans_neural_netw.pdf",
+      "read_scope": "Original algorithm and ICA-model framing; also reviewed in the earlier empirical FastICA packet.",
+      "implication": "Algorithm is established; constructed inputs do not establish a new algorithm."
+    },
+    {
+      "title": "A study of the fixed points and spurious solutions of the FastICA algorithm",
+      "author": "Tianwen Wei",
+      "url": "https://arxiv.org/abs/1408.6693",
+      "read_scope": "Abstract and Section 2.1; earlier packet covers fixed-point and sampling discussion.",
+      "implication": "Independence of latent sources is an explicit model hypothesis; not asserted for our construction."
+    },
+    {
+      "title": "Shifted Power Method for Computing Tensor Eigenpairs",
+      "authors": [
+        "Tamara G. Kolda",
+        "Jackson R. Mayo"
+      ],
+      "year": 2011,
+      "url": "https://arxiv.org/abs/1007.1267",
+      "read_scope": "Introduction, gradient identity and Section 3.2, especially Example 3.5.",
+      "implication": "Unshifted symmetric tensor power nonconvergence is established. The 2002 example is reproduced, with 3-dimensional tensor coefficients distinct from our 4-dimensional construction; this dimension observation does not rule out dynamical equivalence."
+    },
+    {
+      "title": "On the Best Rank-1 Approximation of Higher-Order Supersymmetric Tensors",
+      "authors": [
+        "Eleftherios Kofidis",
+        "Phillip A. Regalia"
+      ],
+      "year": 2002,
+      "url": "https://doi.org/10.1137/S0895479801387413",
+      "read_scope": "Publisher abstract only. Its numerical counterexample was read as reproduced by Kolda and Mayo.",
+      "implication": "Convergence assumptions and known nonconvergence must be credited."
+    }
+  ],
+  "queries": [
+    "\"FastICA\" \"solenoid\"",
+    "\"FastICA\" \"tripling\"",
+    "\"FastICA\" \"expanding\" circle chaos",
+    "\"normalized gradient\" \"tripling\"",
+    "\"tensor\" \"power method\" \"chaotic\"",
+    "\"FastICA\" \"periodic orbits\"",
+    "\"FastICA\" \"chaotic attractor\" -inflation -cosmic",
+    "\"power method\" \"Smale\" tensor"
+  ],
+  "outcome": "No exact 720-row realization with this trapping interval was located in the returned material. Known tensor power iteration and circle expansion prevent a new-mechanism claim.",
+  "open_questions": [
+    "Priority of the explicit finite-data realization",
+    "Equivalence of the positive-epsilon attracting set to known circle extensions",
+    "Transitivity and equality with sampled orbit closure",
+    "Uniform hyperbolicity and injectivity; no Smale-Williams classification established"
+  ],
+  "visual_assessment": "Nested narrow strands at epsilon=0.04; broader bands at 0.15. Visually distinct topology is not established."
+}

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "bd626788cca12124f5fe14f84bc73d0d505120fc17dc2e52ffe72cedc01e91a2",
-  "catalog_sha256": "38d0a323f172d1e6a4cfcb57f6556765b47e4a1215135a9176d797d801a3be44",
+  "catalog_sha256": "fb34db070755b17e9e1a0eb7639e24f14068394b5aa0557c7e5ce3a434e26286",
   "size": [
     1920,
     1080
@@ -1967,6 +1967,85 @@
           "display_label": "Case 351"
         }
       ]
+    },
+    {
+      "id": "fastica-tripling",
+      "file": "docs/assets/portraits/fastica-tripling.png",
+      "sha256": "438d2c161659933a6ca07ccda99e30583432f55c990a45965809085eef9a3995",
+      "panels": [
+        {
+          "input": {
+            "label": "epsilon = 0.04",
+            "source": "results/fastica-tripling/presentation/points-040.npz",
+            "key": "points",
+            "mode": "points",
+            "transform": "identity"
+          },
+          "input_sha256": "b105b30243d56541a7ecf826031c218e96def28813c7dbc5b0f318a8ba8a9c66",
+          "original_count": 500000,
+          "coordinate_sha256": "ef4766b068d09026bcc8d13c180f097af1cfed7345a9420568fa2f4ecee81671",
+          "center": [
+            -0.0008704342229081674,
+            -0.0018780344561268314,
+            -0.002862082802830568
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 1.0582359903032723,
+          "spatially_clipped": 0,
+          "rendered_count": 500000,
+          "log_saturation": 5.293460213521026,
+          "occupied_bins": 15939,
+          "display_label": "epsilon = 0.04"
+        },
+        {
+          "input": {
+            "label": "epsilon = 0.15",
+            "source": "results/fastica-tripling/presentation/points-150.npz",
+            "key": "points",
+            "mode": "points",
+            "transform": "identity"
+          },
+          "input_sha256": "b80532285c44828596a00e24424fe479fe59ecf30cbe189d39b08ced0ed0f348",
+          "original_count": 500000,
+          "coordinate_sha256": "6235f2b8e0f116c71ab41641a966720211b9c6474b4f209fb4051a6073ba12fc",
+          "center": [
+            -0.0008704342229081674,
+            -0.0018780344561268314,
+            -0.002862082802830568
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 1.0582359903032723,
+          "spatially_clipped": 0,
+          "rendered_count": 500000,
+          "log_saturation": 4.787491742782046,
+          "occupied_bins": 140454,
+          "display_label": "epsilon = 0.15"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
     }
   ],
   "data_resolver_sha256": "9e0398ae991c0e711f39fce1e791a7acd233e70ff469aee5cb486e15183c364f",
@@ -1976,5 +2055,13 @@
     "previous_catalog_sha256": "24fe8be8692e1e408e434e3fadf2b81cb81772608f4fd9b47f0db3cf5350ac9d",
     "upstream": "326061d",
     "existing": "5b892d9"
-  }
+  },
+  "extensions": [
+    {
+      "study": "fastica-tripling",
+      "previous_catalog_sha256": "38d0a323f172d1e6a4cfcb57f6556765b47e4a1215135a9176d797d801a3be44",
+      "current_catalog_sha256": "fb34db070755b17e9e1a0eb7639e24f14068394b5aa0557c7e5ce3a434e26286",
+      "scope": "Append one study; existing catalog entries and render rows preserved. New rows record their actual renderer hashes separately from the original batch."
+    }
+  ]
 }

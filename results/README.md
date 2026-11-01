@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`fastica-tripling/` records an [explicit finite-data FastICA construction](../docs/fastica-tripling.md) with an exact trapping and entropy proof. It retains all 80 pilot outcomes, four long spectra, 256 fresh starts, arbitrary-precision and actual-library controls. Large trajectory and presentation arrays remain external.
+
 `fastica/` records the [finite-sample FastICA investigation](../docs/fastica-dynamics.md): all 576 scout cases, five long spectra, 320 fresh starts, 96 input perturbations, independent precision and library controls, a rejected transient and stopping-state continuations. Exact selected inputs, unthinned portrait histograms and reproduction scripts are retained; generated trajectories stay on D:.
 
 Large generated arrays are now optional [cache data](../docs/data-storage.md).

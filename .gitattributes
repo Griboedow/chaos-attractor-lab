@@ -137,3 +137,6 @@ research/render_projection_gallery.py -text
 research/archive_projection_campaign.py -text
 results/spherical-constellations/** -text whitespace=cr-at-eol,-blank-at-eof
 research/*spherical*.py -text
+
+# Preserve executed structured FastICA sources and numerical receipts.
+results/fastica-tripling/** -text whitespace=cr-at-eol

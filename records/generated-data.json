@@ -47,7 +47,7 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 4604490389,
+  "removed_bytes": 4731350888,
   "compact_bytes": 66701481,
   "files": [
     {
@@ -77525,6 +77525,224 @@
       "recovery": "recompute",
       "recompute_command": "See results/spherical-constellations/README.md for run spherical-constellation-render01. Original large payload case-1790-states.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-render01\\case-1790-states.npz"
+    },
+    {
+      "path": "results/fastica-tripling/pilot-01/survey.npz",
+      "bytes": 12071338,
+      "sha256": "f2873a824590f3cd2223803447b99fdc1731a7517af8846c5ca57055973e0846",
+      "group": "fastica-tripling",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "epsilon",
+          "shape": [
+            80
+          ],
+          "dtype": "float64",
+          "bytes": 640,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            80,
+            5,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 9600,
+          "retained": false
+        },
+        {
+          "key": "clouds",
+          "shape": [
+            80,
+            10000,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 25600000,
+          "retained": false
+        },
+        {
+          "key": "minima",
+          "shape": [
+            80,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 1280,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            80,
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 1280,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/fastica-tripling/README.md; run research/fastica_tripling.py into a new external directory. Presentation arrays are states[:, :3] from long-01/portrait-*.npz. Recomputed chaotic trajectories can differ across environments."
+    },
+    {
+      "path": "results/fastica-tripling/long-01/runs.npz",
+      "bytes": 61199096,
+      "sha256": "adca735041836201695f35370c0e9fc67860f9e54ef38b38e04e796eca0d7d84",
+      "group": "fastica-tripling",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "epsilon",
+          "shape": [
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 32,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            4,
+            10,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 960,
+          "retained": false
+        },
+        {
+          "key": "clouds",
+          "shape": [
+            4,
+            500000,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 64000000,
+          "retained": false
+        },
+        {
+          "key": "minima",
+          "shape": [
+            4,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "endpoints",
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 128,
+          "retained": false
+        },
+        {
+          "key": "status",
+          "shape": [
+            4,
+            2
+          ],
+          "dtype": "int64",
+          "bytes": 64,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/fastica-tripling/README.md; run research/fastica_tripling.py into a new external directory. Presentation arrays are states[:, :3] from long-01/portrait-*.npz. Recomputed chaotic trajectories can differ across environments."
+    },
+    {
+      "path": "results/fastica-tripling/long-01/portrait-040.npz",
+      "bytes": 15324629,
+      "sha256": "289d6bc41280c273eb809491f146b193553a78cdd800ca0ea69a926aa0c5cfa2",
+      "group": "fastica-tripling",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            500000,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 16000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/fastica-tripling/README.md; run research/fastica_tripling.py into a new external directory. Presentation arrays are states[:, :3] from long-01/portrait-*.npz. Recomputed chaotic trajectories can differ across environments."
+    },
+    {
+      "path": "results/fastica-tripling/long-01/portrait-150.npz",
+      "bytes": 15307105,
+      "sha256": "03285b62ed1ca93eb64527093bf51876a315168f60e8215f0dd831a2fb80cd06",
+      "group": "fastica-tripling",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            500000,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 16000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/fastica-tripling/README.md; run research/fastica_tripling.py into a new external directory. Presentation arrays are states[:, :3] from long-01/portrait-*.npz. Recomputed chaotic trajectories can differ across environments."
+    },
+    {
+      "path": "results/fastica-tripling/presentation/points-040.npz",
+      "bytes": 11483404,
+      "sha256": "b105b30243d56541a7ecf826031c218e96def28813c7dbc5b0f318a8ba8a9c66",
+      "group": "fastica-tripling",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            500000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 12000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/fastica-tripling/README.md; run research/fastica_tripling.py into a new external directory. Presentation arrays are states[:, :3] from long-01/portrait-*.npz. Recomputed chaotic trajectories can differ across environments."
+    },
+    {
+      "path": "results/fastica-tripling/presentation/points-150.npz",
+      "bytes": 11474927,
+      "sha256": "b80532285c44828596a00e24424fe479fe59ecf30cbe189d39b08ced0ed0f348",
+      "group": "fastica-tripling",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            500000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 12000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/fastica-tripling/README.md; run research/fastica_tripling.py into a new external directory. Presentation arrays are states[:, :3] from long-01/portrait-*.npz. Recomputed chaotic trajectories can differ across environments."
     }
   ]
 }
