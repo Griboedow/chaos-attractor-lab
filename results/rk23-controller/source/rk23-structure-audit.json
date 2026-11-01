@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "sympy": "1.14.0",
+  "checks": [
+    "Lyapunov metric identity",
+    "matrix R and E norm identities",
+    "stability polynomial expansion",
+    "nonnegative small-step bound certificate",
+    "large-step error denominator",
+    "large-step solution triangle bound",
+    "positive square-root constant identities",
+    "O526 exact Sturm small-step certificate and rational gain inequality"
+  ],
+  "special_case": {
+    "id": 526,
+    "zeta": "386657974719873/2251799813685248",
+    "rtol": "707796418711107/18014398509481984",
+    "H": "23/10",
+    "polynomial_descending_coefficients": [
+      "1/36",
+      "-128885991573291/4503599627370496",
+      "-484320910699640752795530466559/7605903601369376408980219232256",
+      "-19269021474243905437394957471552850791530539/2854495385411919762116571938898990272765493248",
+      "149504389414473947952821136129/2535301200456458802993406410752",
+      "-386657974719873/1125899906842624"
+    ],
+    "sturm_roots_on_closed_interval": 0,
+    "endpoint_values": [
+      "-386657974719873/1125899906842624",
+      "-10034687313549897013397062208314174563866185628263/321130730858840973238114343126136405686117990400000"
+    ],
+    "squared_controller_gain": "3024786625753420123347645612619738272421313225907165201/3850183977680652446124406416491663162617505410627665920",
+    "squared_controller_gain_decimal": 0.7856213218090292,
+    "normalized_P_bound_constant": 180.65517859719336,
+    "rationale": "The exact polynomial has no root on [0,23/10] and is negative at 0. Above H, the triangle-ratio numerator decreases and its denominator increases. The same accepted-solution proof applies with this sharper K."
+  },
+  "small_step_certificate": "-h**6/36 + h**5*z/6 + h**4/36 + 4*h*z*(h*z - 3/4)**2/3 + 2*h*z*(-h**3*z + 1)/3",
+  "scope": "Exact symbolic identities supporting the written proof. Positivity uses its explicit 0<zeta<1 and h domains. No invariant-set or chaos proof.",
+  "source_sha256": "dc3516d3d84441e9d4f1e2a6b11a27e9858147c3b6eb6ae7c48459465918d844"
+}

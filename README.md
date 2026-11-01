@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[RK23: folded triangles and scissor wings inside a numerical solver](docs/rk23-oscillator.md).** A stable linear spring decays, while its standard adaptive solver produces intricate tolerance-scale geometry in position, velocity and proposed step. Both portraits pass five-million-step, independent 70/90-digit and actual SciPy checks. A separate setting retains two positive finite growth estimates across independent checks. Exact solution-coordinate bounds, periodic neighbors and the established step-control literature are documented; a new attractor class is not claimed.
+
+![Fixed RK23 accepted-step clouds viewed by rotating orthographic cameras](docs/assets/rk23-oscillator-rotation.gif)
+
+[Large portrait](docs/assets/rk23-oscillator-geometry.png) · [32,768 initial states approach each cloud](docs/assets/rk23-oscillator-approach.png) · [Independent evidence](docs/assets/rk23-oscillator-evidence.png) · [Exact structure](docs/rk23-controller-structure.md) · [Prior-art and equivalence audit](docs/rk23-priority.md)
+
 **[Smooth Yogi: folded ribbons and two expanding directions](docs/yogi-tanh.md).** An existing TensorFlow Addons option produces a feathered crescent on a scalar quadratic. Two selected regimes pass five-million-step, independent 70/90-digit and actual-library checks for two positive finite growth rates. The companion proof bounds every legal orbit and explicitly identifies the known Adam two-cycle's local equivalence. The algorithm is prior work; a new attractor class remains unestablished.
 
 ![Rigid camera rotation around folded ribbons and a feathered crescent in the existing smooth Yogi map](docs/assets/yogi-tanh-rotation.gif)

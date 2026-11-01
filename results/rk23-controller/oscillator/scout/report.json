@@ -1,0 +1,18 @@
+{
+  "scipy_version": "1.18.1",
+  "checks": {
+    "checks": 256,
+    "max_finite_difference_jacobian_error": 1.6729817531313529e-09,
+    "max_unmodified_scipy_one_step_residual": 5.995204332975845e-15
+  },
+  "count": 1027,
+  "warm": 20000,
+  "observed": 50000,
+  "windows": 10,
+  "retained": 396,
+  "completed": 1027,
+  "seconds": 144.5800576210022,
+  "seed": 2026110175,
+  "source_sha256": "119f6924abd2d195e236718c970ba5dd71947b36d12fc78d7a9c8ac2d6f656c4",
+  "scope": "Controller state for a stable linear oscillator. Numerical behavior near atol, not physical ODE chaos."
+}

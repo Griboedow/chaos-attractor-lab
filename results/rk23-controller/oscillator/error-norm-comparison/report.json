@@ -1,0 +1,150 @@
+{
+  "runs": [
+    {
+      "id": 381,
+      "oscillator_params": [
+        0.4435243054088205,
+        3.3379616873243337e-10
+      ],
+      "complex_params": [
+        1.1112692365078762,
+        3.3379616873243337e-10
+      ],
+      "complex_initial_amplitude": 1.1157447436268033,
+      "means": [
+        -0.016994790711115065,
+        -0.11676313515951935
+      ],
+      "minima": [
+        -0.017009273834189577,
+        -0.11679711856022328
+      ],
+      "quotient_period": 3,
+      "rejections": 333333,
+      "seconds": 6.244879722595215
+    },
+    {
+      "id": 354,
+      "oscillator_params": [
+        0.4803776211887598,
+        0.0011646941675974745
+      ],
+      "complex_params": [
+        1.0697111125710412,
+        0.0011646941675974745
+      ],
+      "complex_initial_amplitude": 1.1401705546547618,
+      "means": [
+        -0.017457393595484778,
+        -0.0684991736880265
+      ],
+      "minima": [
+        -0.01748892984184913,
+        -0.06852940330823208
+      ],
+      "quotient_period": 23,
+      "rejections": 260870,
+      "seconds": 1.5037586688995361
+    },
+    {
+      "id": 883,
+      "oscillator_params": [
+        0.9588936367407441,
+        3.71684809666591e-12
+      ],
+      "complex_params": [
+        0.28771900838765996,
+        3.71684809666591e-12
+      ],
+      "complex_initial_amplitude": 3.524033630876279,
+      "means": [
+        -0.21229738134304768,
+        -0.2122974996499261
+      ],
+      "minima": [
+        -0.21232797296800393,
+        -0.21232770247871552
+      ],
+      "quotient_period": 1,
+      "rejections": 0,
+      "seconds": 1.3642454147338867
+    },
+    {
+      "id": 37,
+      "oscillator_params": [
+        0.3691010416541249,
+        3.3565875310975507e-12
+      ],
+      "complex_params": [
+        1.192754749173051,
+        3.3565875310975507e-12
+      ],
+      "complex_initial_amplitude": 1.0759754054494517,
+      "means": [
+        -0.04449967215810356,
+        -0.052529158992005255
+      ],
+      "minima": [
+        -0.04453612942236644,
+        -0.05253808573600901
+      ],
+      "quotient_period": 3,
+      "rejections": 333333,
+      "seconds": 1.472524881362915
+    },
+    {
+      "id": 526,
+      "oscillator_params": [
+        0.1717106344755739,
+        0.03929059404001495
+      ],
+      "complex_params": [
+        1.3982304946376893,
+        0.03929059404001495
+      ],
+      "complex_initial_amplitude": 1.0150764951255835,
+      "means": [
+        -0.044378057605345675,
+        -0.08773399695639099
+      ],
+      "minima": [
+        -0.0443960478453012,
+        -0.08777932375141195
+      ],
+      "quotient_period": 30,
+      "rejections": 99999,
+      "seconds": 1.3842675685882568
+    },
+    {
+      "id": 689,
+      "oscillator_params": [
+        0.1774223265387118,
+        1.6019329296343152e-12
+      ],
+      "complex_params": [
+        1.3924297252594307,
+        1.6019329296343152e-12
+      ],
+      "complex_initial_amplitude": 1.0161209552225479,
+      "means": [
+        -0.012289643224986917,
+        -0.013337237111669412
+      ],
+      "minima": [
+        -0.012317837863052003,
+        -0.01336992963331041
+      ],
+      "quotient_period": 29,
+      "rejections": 103449,
+      "seconds": 1.3548476696014404
+    }
+  ],
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk23-oscillator-scout01\\screen.npz",
+  "source_sha256": "9ffe2763b5dc6559cbf5ce70fa02b2bc8d71df0ab6084caf9736aa60cad9e681",
+  "warm": 100000,
+  "observed": 1000000,
+  "windows": 20,
+  "transformation": "z=q-i*(p+zeta*q)/sqrt(1-zeta^2); then z_dot=(-zeta+i*sqrt(1-zeta^2))*z. Initial physical (q,p)=(1,0) has |z|=1/sqrt(1-zeta^2).",
+  "changed_rule": "Uses |embedded complex error| / [1+rtol*max(|z_old|,|z_new|)], rather than original-axis componentwise scales and RMS.",
+  "scope": "Error-norm ablation, intentionally a different numerical algorithm for a conjugate linear ODE. Exact phase symmetry contributes a neutral direction when amplitudes remain nonzero and bounded. Not an invariant-set inequivalence proof or a new coordinate-dependence discovery."
+}

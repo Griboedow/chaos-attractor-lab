@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "experiment": "Heun/Euler PI on scalar decay; raw and declared guarded maps, not an upstream solver run",
+  "source_sha256": "24bb71bd30d8601c2ac579b3ed18598ce3feb71120bc97ae22515eeb49655471",
+  "parameters": [
+    "a=current-error exponent",
+    "b=previous-error exponent",
+    "safety"
+  ],
+  "state": [
+    "log(proposed h)",
+    "log(abs(y)/atol)",
+    "log(previous accepted normalized error)"
+  ],
+  "policies": {
+    "0": "raw PI, all steps accepted",
+    "1": "if error>1 recompute h=safety*sqrt(2/u), then PI factor clamped to [.1,5]"
+  },
+  "status_codes": {
+    "0": "completed",
+    "1": "left declared log box or nonfinite",
+    "2": "tangent underflow/nonfinite"
+  },
+  "seed": 2026110170,
+  "sobol_power": 12,
+  "warm": 10000,
+  "steps": 30000,
+  "windows": 10,
+  "checks": {
+    "finite_difference_checks": 512,
+    "max_absolute_jacobian_error": 1.3636954065976425e-09,
+    "default_fixed_eigenvalues": [
+      [
+        0.5999999999999999,
+        0.5744562646538028
+      ],
+      [
+        0.5999999999999999,
+        -0.5744562646538028
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "count": 8198,
+  "flag_count": 1089,
+  "completed_by_policy": [
+    518,
+    2609
+  ],
+  "flags_by_policy": [
+    0,
+    1089
+  ],
+  "seconds": 35.666552782058716
+}

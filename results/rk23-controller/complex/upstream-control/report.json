@@ -1,0 +1,26 @@
+{
+  "runs": [
+    {
+      "id": 1024,
+      "parameters": [
+        0.0,
+        0.001
+      ],
+      "atol": 1.0,
+      "first_step": 0.1,
+      "steps": 400000,
+      "seconds": 26.632212162017822,
+      "first20_max_one_step_log_residual": 3.469446951953614e-15,
+      "evaluations": 1200025,
+      "columns": [
+        "Re y",
+        "Im y",
+        "proposed h",
+        "time",
+        "previous accepted h"
+      ],
+      "scipy_version": "1.18.1",
+      "installed_source_sha256": "54fb9365032395cd9c087df03b386972c6084108e1371b803d658ae97e171540"
+    }
+  ]
+}

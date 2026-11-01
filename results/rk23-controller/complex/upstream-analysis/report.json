@@ -1,0 +1,97 @@
+{
+  "runs": [
+    {
+      "id": 11,
+      "params": [
+        1.3785755672735762,
+        1.2290512355474323e-12
+      ],
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk23-controller-upstream01\\case-11.npz",
+      "source_sha256": "733a4eaedc90fc796b6d8e15d790a5f2d51b44dcbaae0d7b5b490bf7a114e530",
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.0270286227829153,
+        -0.021429602047730204
+      ],
+      "minima": [
+        0.025656684181693323,
+        -0.02202287052125578
+      ],
+      "max_one_step_log_residual": 1.4782872148622062e-10,
+      "max_determinant_identity_residual": 1.5352302762394743e-16
+    },
+    {
+      "id": 396,
+      "params": [
+        1.2104824959695366,
+        0.04934912951266506
+      ],
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk23-controller-upstream01\\case-396.npz",
+      "source_sha256": "98c31697cba4a0ca0b59bf96405f63fd8373837a4fc7ec73d304b91c0428a522",
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.08840478965710914,
+        -0.08537233091289682
+      ],
+      "minima": [
+        0.08513095772265436,
+        -0.0965843740340555
+      ],
+      "max_one_step_log_residual": 3.9428116327400176e-10,
+      "max_determinant_identity_residual": 6.557254739192331e-16
+    },
+    {
+      "id": 719,
+      "params": [
+        0.9767512361317415,
+        4.363493199029084e-12
+      ],
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk23-controller-upstream01\\case-719.npz",
+      "source_sha256": "1fc4707ac926f48781d9133292e4a9a0b2b9be37bad8f76a609c464253bb57ff",
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        0.005468334322342481,
+        -0.011929451606570699
+      ],
+      "minima": [
+        0.00529240819185068,
+        -0.01204988966890226
+      ],
+      "max_one_step_log_residual": 1.335807367497388e-10,
+      "max_determinant_identity_residual": 7.979727989493313e-17
+    },
+    {
+      "id": 1024,
+      "params": [
+        0.0,
+        0.001
+      ],
+      "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk23-controller-upstream-control02\\case-1024.npz",
+      "source_sha256": "555082abef9f35c34a9a967b38fd97fb534d08d4984931af41fb3cee7338bd38",
+      "warm": 100000,
+      "alignment": 10000,
+      "observed": 290000,
+      "windows": 29,
+      "means": [
+        -0.0977157963064842,
+        -0.09771891290465753
+      ],
+      "minima": [
+        -0.09783676930181909,
+        -0.097838049259602
+      ],
+      "max_one_step_log_residual": 9.570344516873774e-11,
+      "max_determinant_identity_residual": 1.0269562977782698e-15
+    }
+  ],
+  "scope": "Two-dimensional amplitude/step quotient only. Exact phase symmetry adds a neutral direction; these are not three-dimensional novelty claims."
+}
