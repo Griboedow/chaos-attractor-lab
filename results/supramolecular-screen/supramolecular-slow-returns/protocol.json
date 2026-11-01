@@ -1,0 +1,75 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-pilot\\declared-inputs.npz",
+  "source_sha256": "99401483280b72f000c5274fbaf5dc52da691daf5bfcc50b1ae33ceca1c88a1f",
+  "jobs": [
+    {
+      "id": 415,
+      "parameters": [
+        0.01862792386505667,
+        2398.567272431012,
+        2.962055595969315,
+        4.6
+      ],
+      "physical_initial": [
+        0.9999976038236353,
+        1.961815978332846,
+        0.01808955654740978
+      ],
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-slow-returns"
+    },
+    {
+      "id": 548,
+      "parameters": [
+        0.00702307558477562,
+        2550.391176052941,
+        4.156147507977776,
+        4.6
+      ],
+      "physical_initial": [
+        1.000001391823175,
+        3.1560083256602756,
+        0.011193266933733098
+      ],
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-slow-returns"
+    },
+    {
+      "id": 2750,
+      "parameters": [
+        0.007699673859707197,
+        822.2847753259915,
+        14.279935510330978,
+        4.6
+      ],
+      "physical_initial": [
+        1.0000143473557666,
+        13.278500774754315,
+        0.05163126328229616
+      ],
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-slow-returns"
+    },
+    {
+      "id": 1832,
+      "parameters": [
+        0.03529697165424215,
+        3266.4245674740027,
+        2.3224965962770834,
+        4.6
+      ],
+      "physical_initial": [
+        1.000002464046984,
+        1.3222501915786764,
+        0.023569070903644244
+      ],
+      "duration": 3000.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-slow-returns"
+    }
+  ],
+  "selection": "Explicit source control and strongest raw-coordinate signals, including cases near the physical approximation limit; selection before log-coordinate recheck outcome.",
+  "method": "Fresh physical starts; DOP853 warm500tau at2e-11/.02; independent Radau observation at2e-10/.02 with exact log-coordinate Jacobian.",
+  "section": "x=1 upward, solver root events, all returned coordinates retained.",
+  "recurrence": "Last100 section points; max coordinate difference scaled by1+max absolute coordinate <1e-7, at least10 events; lags1..16.",
+  "caveat": "No asymptotic chaos or novelty decision from finite-time signals."
+}

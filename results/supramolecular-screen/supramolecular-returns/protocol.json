@@ -1,0 +1,91 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-pilot\\declared-inputs.npz",
+  "source_sha256": "99401483280b72f000c5274fbaf5dc52da691daf5bfcc50b1ae33ceca1c88a1f",
+  "jobs": [
+    {
+      "id": 0,
+      "parameters": [
+        0.2,
+        1000.0,
+        10.0,
+        4.6
+      ],
+      "physical_initial": [
+        1.0002219327289068,
+        8.977806727109325,
+        0.9067584794380419
+      ],
+      "duration": 200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-returns"
+    },
+    {
+      "id": 1958,
+      "parameters": [
+        0.3832020082876139,
+        2083.011721134726,
+        6.929109882031404,
+        4.6
+      ],
+      "physical_initial": [
+        1.0001663373690257,
+        5.912476145128831,
+        1.1441647300468187
+      ],
+      "duration": 200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-returns"
+    },
+    {
+      "id": 3170,
+      "parameters": [
+        0.3023386743258461,
+        1765.8767876083593,
+        5.2606624289972395,
+        4.6
+      ],
+      "physical_initial": [
+        1.000105413317497,
+        4.250121097247553,
+        0.6489128690243985
+      ],
+      "duration": 200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-returns"
+    },
+    {
+      "id": 3316,
+      "parameters": [
+        1.494358464809638,
+        5345.670557569107,
+        6.649941613511375,
+        4.6
+      ],
+      "physical_initial": [
+        1.0003264950659736,
+        5.617292106914016,
+        4.23909524468404
+      ],
+      "duration": 200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-returns"
+    },
+    {
+      "id": 415,
+      "parameters": [
+        0.01862792386505667,
+        2398.567272431012,
+        2.962055595969315,
+        4.6
+      ],
+      "physical_initial": [
+        0.9999976038236353,
+        1.961815978332846,
+        0.01808955654740978
+      ],
+      "duration": 200.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-returns"
+    }
+  ],
+  "selection": "Explicit source control and strongest raw-coordinate signals, including cases near the physical approximation limit; selection before log-coordinate recheck outcome.",
+  "method": "Fresh physical starts; DOP853 warm500tau at2e-11/.02; independent Radau observation at2e-10/.02 with exact log-coordinate Jacobian.",
+  "section": "x=1 upward, solver root events, all returned coordinates retained.",
+  "recurrence": "Last100 section points; max coordinate difference scaled by1+max absolute coordinate <1e-7, at least10 events; lags1..16.",
+  "caveat": "No asymptotic chaos or novelty decision from finite-time signals."
+}

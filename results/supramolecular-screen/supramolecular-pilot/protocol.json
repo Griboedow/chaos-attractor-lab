@@ -1,0 +1,36 @@
+{
+  "source": "Sharko2022 simplified moment closure, thesis Eqs5.6/5.12; Singh2026 Eqs1-4.",
+  "source_control_sha256": "547d49b9c4180d4f4ef559f25b3c6609ce68f1e69c7ec5e05d024d5515f905a1",
+  "seed": 2026103149,
+  "proposals": 8192,
+  "selected_tuples": 1697,
+  "lanes": 3394,
+  "lower": [
+    0.005,
+    10.0,
+    1.05
+  ],
+  "upper": [
+    20.0,
+    10000.0,
+    100.0
+  ],
+  "parameters": [
+    "alpha=ka/kd3",
+    "beta=kd2/kd3",
+    "T=ctot/kd2",
+    "C=4.6 fixed"
+  ],
+  "state": "x=a1/kd2,y=d/kd2,z=m0/kd3; k+=1.",
+  "selection": "Source plus positive equilibrium with maxRe>.001 and mean length>10. Heuristic, not a global exclusion.",
+  "initial": "Two opposite 1% active-monomer/mass exchanges and polymer-number perturbations around the equilibrium; declared exact arrays.",
+  "warm": 100.0,
+  "observation": 800.0,
+  "rtol": 1e-09,
+  "atol": 1e-12,
+  "maxstep": 0.02,
+  "time": "tau=kd3*t, original source t in units1/(k+K).",
+  "retention": "All4 leading windows>.005; separately exploratory>.001. Minimum observed polymer length>10 required for long-polymer-closure interpretation.",
+  "error_norm": "Componentwise state tolerance; tangent tolerance scaled by full tangent norm.",
+  "limitations": "Approximate long-polymer moment closure, not full size network. No new-model, calibration, chaos or historical-priority claim."
+}

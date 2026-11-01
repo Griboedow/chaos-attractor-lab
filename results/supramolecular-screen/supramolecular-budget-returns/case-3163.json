@@ -1,0 +1,103 @@
+{
+  "id": 3163,
+  "parameters": [
+    1.3629898381134258,
+    7482.0851572518295,
+    17.03355140771803,
+    4.6
+  ],
+  "events": 484,
+  "first_numerical_period_lag": 1,
+  "return_distances": [
+    {
+      "lag": 1,
+      "maximum_scaled_distance": 3.669421851808002e-11,
+      "median_scaled_distance": 3.664104687094002e-11
+    },
+    {
+      "lag": 2,
+      "maximum_scaled_distance": 3.6726983136466935e-11,
+      "median_scaled_distance": 1.0958853550693462e-13
+    },
+    {
+      "lag": 3,
+      "maximum_scaled_distance": 3.672188137927866e-11,
+      "median_scaled_distance": 3.662336077935401e-11
+    },
+    {
+      "lag": 4,
+      "maximum_scaled_distance": 3.67442157385251e-11,
+      "median_scaled_distance": 1.3329564950728163e-13
+    },
+    {
+      "lag": 5,
+      "maximum_scaled_distance": 3.671462554683312e-11,
+      "median_scaled_distance": 3.584392565336787e-11
+    },
+    {
+      "lag": 6,
+      "maximum_scaled_distance": 3.671507903636096e-11,
+      "median_scaled_distance": 8.108392757895092e-13
+    },
+    {
+      "lag": 7,
+      "maximum_scaled_distance": 3.6719840676403353e-11,
+      "median_scaled_distance": 7.922462051478035e-13
+    },
+    {
+      "lag": 8,
+      "maximum_scaled_distance": 3.67344657136764e-11,
+      "median_scaled_distance": 3.5866600129760194e-11
+    },
+    {
+      "lag": 9,
+      "maximum_scaled_distance": 3.6718140090673926e-11,
+      "median_scaled_distance": 7.742199964159058e-13
+    },
+    {
+      "lag": 10,
+      "maximum_scaled_distance": 3.671281158872173e-11,
+      "median_scaled_distance": 3.583944744428039e-11
+    },
+    {
+      "lag": 11,
+      "maximum_scaled_distance": 3.671360519539546e-11,
+      "median_scaled_distance": 8.11179392935394e-13
+    },
+    {
+      "lag": 12,
+      "maximum_scaled_distance": 3.6742515152795677e-11,
+      "median_scaled_distance": 7.728028416413855e-13
+    },
+    {
+      "lag": 13,
+      "maximum_scaled_distance": 3.6685262099905055e-11,
+      "median_scaled_distance": 3.58739693345877e-11
+    },
+    {
+      "lag": 14,
+      "maximum_scaled_distance": 3.673990758801056e-11,
+      "median_scaled_distance": 1.2915069567353226e-13
+    },
+    {
+      "lag": 15,
+      "maximum_scaled_distance": 3.6711791237284076e-11,
+      "median_scaled_distance": 3.661270377544962e-11
+    },
+    {
+      "lag": 16,
+      "maximum_scaled_distance": 3.6709637162026806e-11,
+      "median_scaled_distance": 5.368182285882727e-14
+    }
+  ],
+  "minimum_log_polymer_number": -14.824424848918845,
+  "minimum_polymer_number": 3.646146301540043e-07,
+  "minimum_length": 9.791305756829896,
+  "maximum_length": 199.2284629220775,
+  "mean_tail_return_interval": 0.2064032449147844,
+  "source_algebra_error": 5.473067119050877e-15,
+  "sha256": "021fc6961b30518607c66a0c10d3abf666807e824ec07be2cec382b9b8eda708",
+  "file": "case-3163.npz",
+  "wall_seconds": 205.92253979999987,
+  "limitation": "Finite numerical return test, not an exact periodic-orbit proof. Approximate long-polymer closure can fail when polymer number becomes very small."
+}

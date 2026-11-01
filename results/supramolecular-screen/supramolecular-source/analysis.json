@@ -1,0 +1,39 @@
+{
+  "source": "Sharko2022 simplified moment closure; thesis pp48-49 Eqs5.6/5.12 and Figure14; k+=kd3=1,ctot10000,ka.2,kd21000,C4.6.",
+  "parameters": [
+    0.2,
+    1000.0,
+    10.0,
+    4.6
+  ],
+  "equilibrium": [
+    1.0,
+    8.977806727109325,
+    0.8977806727109325
+  ],
+  "equilibrium_eigenvalues": [
+    [
+      -66.54768101010006,
+      0.0
+    ],
+    [
+      0.0758649969931802,
+      11.788365631745716
+    ],
+    [
+      0.0758649969931802,
+      -11.788365631745716
+    ]
+  ],
+  "independent_four_state_solver_scaled_error": 1.009548242002719e-08,
+  "source_mass_balance_error": 2.0736479200422764e-10,
+  "source_jacobian_relative_error": 2.338379198604647e-15,
+  "period_tau": 0.7460556001464838,
+  "source_rounded_period": 0.75,
+  "observed_length_range": [
+    14.60628104564541,
+    39.379295281871975
+  ],
+  "warning": "Approximate moment model for long polymers; not the full size-distribution equations. No chaos or novelty claim.",
+  "sha256": "bddc1515e8b928b0e738a27b4a458080be188cd08e480a13aac973441a2094a4"
+}

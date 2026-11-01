@@ -1,0 +1,99 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-log-long\\complete-or-budgeted.npz",
+  "source_sha256": "5478e88cbedce191d239173f7bd719ed1edbd846b2ac4b8ca99ce2be3fdb1508",
+  "jobs": [
+    {
+      "id": 152,
+      "parameters": [
+        3.5513186718583367,
+        5984.479802162774,
+        2.0797452102335217,
+        4.6
+      ],
+      "physical_initial": [
+        1.1811588094275953,
+        0.8046555391134272,
+        8.064739379519805
+      ],
+      "log_initial": [
+        1.1811588094275953,
+        2.087501396054387,
+        4.2151136709639525
+      ],
+      "warm": 50.0,
+      "duration": 100.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-budget-returns"
+    },
+    {
+      "id": 1531,
+      "parameters": [
+        1.575073366798023,
+        3729.9572637693464,
+        14.874952353024959,
+        4.6
+      ],
+      "physical_initial": [
+        1.1628436745213593,
+        12.914916986847198,
+        35.3719785657957
+      ],
+      "log_initial": [
+        1.1628436745213593,
+        3.5659199407480133,
+        4.407492862667626
+      ],
+      "warm": 50.0,
+      "duration": 100.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-budget-returns"
+    },
+    {
+      "id": 3163,
+      "parameters": [
+        1.3629898381134258,
+        7482.0851572518295,
+        17.03355140771803,
+        4.6
+      ],
+      "physical_initial": [
+        0.21298493007822974,
+        16.73036589058926,
+        41.29518608305229
+      ],
+      "log_initial": [
+        0.21298493007822974,
+        3.7207459334409836,
+        2.6632641243330895
+      ],
+      "warm": 50.0,
+      "duration": 100.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-budget-returns"
+    },
+    {
+      "id": 3285,
+      "parameters": [
+        0.23143509223449335,
+        2848.1176458440154,
+        53.57712092283067,
+        4.6
+      ],
+      "physical_initial": [
+        2.5579625596498645,
+        50.79544990381243,
+        6.218340836669403
+      ],
+      "log_initial": [
+        2.5579625596498645,
+        1.827503124651735,
+        4.609786544753481
+      ],
+      "warm": 50.0,
+      "duration": 100.0,
+      "output": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-budget-returns"
+    }
+  ],
+  "selection": "All four step-budget exits from the long log-coordinate continuation.",
+  "method": "Saved log endpoints and DOP853 warm50tau; warm at2e-11/.02; independent Radau observation at2e-10/.02 with exact log-coordinate Jacobian.",
+  "section": "x=1 upward, solver root events, all returned coordinates retained.",
+  "recurrence": "Last100 section points; max coordinate difference scaled by1+max absolute coordinate <1e-7, at least10 events; lags1..16.",
+  "caveat": "No asymptotic chaos or novelty decision from finite-time signals."
+}

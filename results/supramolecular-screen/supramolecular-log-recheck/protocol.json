@@ -1,0 +1,15 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\supramolecular-pilot\\declared-inputs.npz",
+  "source_sha256": "99401483280b72f000c5274fbaf5dc52da691daf5bfcc50b1ae33ceca1c88a1f",
+  "design": "Identical parameter tuples and physical starts as the raw-coordinate scout; no new coverage.",
+  "lanes": 3394,
+  "state": "x=a1/kd2,u=log(m0/kd3),v=log(L-2), L=polymer mass/polymer number; no concentration clipping.",
+  "warm": 100.0,
+  "observation": 800.0,
+  "rtol": 1e-09,
+  "atol": 1.0000000000000002e-12,
+  "maxstep": 0.02,
+  "method": "Adaptive FP64 Dormand-Prince5(4), exact transformed tangent, full tangent-norm error scale.",
+  "retention": "All4 log-coordinate leading windows>.005; exploratory>.001. Minimum observed L>10 is a separate approximation screen.",
+  "limitations": "Approximate polymer moment closure. Finite-time exponents change under nonlinear coordinates; no chaos or priority claim. Very low polymer populations can invalidate the physical closure even when numerically resolved."
+}
