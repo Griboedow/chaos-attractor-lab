@@ -104,3 +104,6 @@ results/tetrahedral-equilibria/** -text whitespace=cr-at-eol
 research/tetrahedral_equilibria/** -text whitespace=cr-at-eol
 results/icosahedral-flow/** -text whitespace=cr-at-eol
 research/icosahedral_search/** -text whitespace=cr-at-eol
+# Preserve the executed source's final blank line alongside its archived hash.
+research/icosahedral_search/icosa_dop853_177.py whitespace=cr-at-eol,-blank-at-eof
+results/icosahedral-flow/source-original/icosa_dop853_177.py whitespace=cr-at-eol,-blank-at-eof
