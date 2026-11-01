@@ -1,0 +1,19 @@
+{
+  "scipy_version": "1.18.1",
+  "checks": {
+    "checks": 256,
+    "max_finite_difference_jacobian_error": 1.87349395719405e-09,
+    "max_unmodified_scipy_one_step_residual": 9.5679020262196e-13,
+    "checks_with_rejections": 23
+  },
+  "count": 2051,
+  "warm": 20000,
+  "observed": 50000,
+  "windows": 10,
+  "seed": 2026110181,
+  "source_sha256": "2edeb4ce1359d872711d078e5dc02bcdc2559b3a9e77898743d1d4b9d6805da2",
+  "scope": "Standard RK45 controller state for a stable linear oscillator; finite screen, no physical chaos or priority claim.",
+  "retained": 1061,
+  "completed": 2050,
+  "seconds": 242.46067786216736
+}

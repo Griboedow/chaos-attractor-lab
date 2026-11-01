@@ -1,0 +1,99 @@
+{
+  "runs": [
+    {
+      "id": 335,
+      "points": 300000,
+      "discarded_accepted_steps": 100000,
+      "source_sha256": "3257dbe57dc87c8e39c768d1d45d4a1694a8b8ef65ba57952f911119ba0bedf1",
+      "distance_from_half_turn_quantiles": [
+        8.647820814999818e-07,
+        0.008913489080507153,
+        0.031777796716139894,
+        0.0532451932967065,
+        0.15172511567089497
+      ],
+      "quantile_levels": [
+        0,
+        0.1,
+        0.5,
+        0.9,
+        1
+      ],
+      "fraction_negative_real_R": 1.0,
+      "mean_log_modulus": 3.1802921096630544e-06,
+      "max_complex_step_residual": 2.95728838717733e-14
+    },
+    {
+      "id": 448,
+      "points": 300000,
+      "discarded_accepted_steps": 100000,
+      "source_sha256": "e011fda46f76a729e36e0feb5262e06f0a06b7348df8111bf03c9629d38e55e4",
+      "distance_from_half_turn_quantiles": [
+        1.0215986601640465,
+        1.0218725594190396,
+        1.0308058943030727,
+        1.0824048204845271,
+        1.4215347837886783
+      ],
+      "quantile_levels": [
+        0,
+        0.1,
+        0.5,
+        0.9,
+        1
+      ],
+      "fraction_negative_real_R": 1.0,
+      "mean_log_modulus": -6.862373421852767e-07,
+      "max_complex_step_residual": 2.6749348700754716e-14
+    },
+    {
+      "id": 1890,
+      "points": 300000,
+      "discarded_accepted_steps": 100000,
+      "source_sha256": "b88587e3ed1c07fbd63bfafa1b359ac3499b3632a52ae73271d0a9c7d7700b6f",
+      "distance_from_half_turn_quantiles": [
+        0.7463950689033947,
+        0.773849690697804,
+        0.8828676123319759,
+        1.0602852535935112,
+        1.0999827055822409
+      ],
+      "quantile_levels": [
+        0,
+        0.1,
+        0.5,
+        0.9,
+        1
+      ],
+      "fraction_negative_real_R": 1.0,
+      "mean_log_modulus": -8.357882163874629e-09,
+      "max_complex_step_residual": 1.0258853354181965e-14
+    },
+    {
+      "id": 2006,
+      "points": 300000,
+      "discarded_accepted_steps": 100000,
+      "source_sha256": "a712ec73d4a7e14c91cab4413e52a4bbb50a80e5fdafa6e5bca645b474c6d55b",
+      "distance_from_half_turn_quantiles": [
+        0.2858421901589847,
+        1.705816787076626,
+        2.0138626203023913,
+        2.138826822694814,
+        2.2113111851283573
+      ],
+      "quantile_levels": [
+        0,
+        0.1,
+        0.5,
+        0.9,
+        1
+      ],
+      "fraction_negative_real_R": 0.04988666666666667,
+      "mean_log_modulus": -2.731188683454364e-06,
+      "max_complex_step_residual": 2.9264434391092564e-14
+    }
+  ],
+  "scope": "Finite phase statistics of actual-library accepted steps. Near-half-turn spurious oscillation is credited to earlier work, not proposed as a new mechanism.",
+  "prior_source": "https://math.mcgill.ca/humphries/research/papers/psthetarep.pdf",
+  "prior_section": "5.2, report page 20"
+}

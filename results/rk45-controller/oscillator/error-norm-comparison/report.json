@@ -1,0 +1,155 @@
+{
+  "checks": {
+    "finite_difference_count": 512,
+    "max_jacobian_error": 9.025314717803212e-09,
+    "max_installed_rk_stage_polynomial_error": 4.567862841974983e-14
+  },
+  "runs": [
+    {
+      "id": 335,
+      "oscillator_params": [
+        0.8877198030073196,
+        1.4674009503231292e-10
+      ],
+      "complex_params": [
+        0.4784278704849795,
+        1.4674009503231292e-10
+      ],
+      "complex_initial_amplitude": 2.1720991775046197,
+      "means": [
+        -0.00048518438429954504,
+        -0.3338842664167821
+      ],
+      "minima": [
+        -0.0005142858109558135,
+        -0.3339138560743592
+      ],
+      "quotient_period": 0,
+      "rejections": 255469,
+      "seconds": 7.7329792976379395
+    },
+    {
+      "id": 448,
+      "oscillator_params": [
+        0.9463349944557995,
+        6.210996908104011e-06
+      ],
+      "complex_params": [
+        0.3290956824441596,
+        6.210996908104011e-06
+      ],
+      "complex_initial_amplitude": 3.0941802885178404,
+      "means": [
+        0.0037285787236838405,
+        -0.19659222570752155
+      ],
+      "minima": [
+        0.0036625094558996704,
+        -0.1968825213495658
+      ],
+      "quotient_period": 0,
+      "rejections": 206089,
+      "seconds": 4.238830804824829
+    },
+    {
+      "id": 1890,
+      "oscillator_params": [
+        0.03178502897918224,
+        0.08298635177976654
+      ],
+      "complex_params": [
+        1.5390059433751542,
+        0.08298635177976654
+      ],
+      "complex_initial_amplitude": 1.0005055271118755,
+      "means": [
+        -0.008481935315724583,
+        -3.800710506706209
+      ],
+      "minima": [
+        -0.008481935315724585,
+        -3.8007105067062086
+      ],
+      "quotient_period": 1,
+      "rejections": 0,
+      "seconds": 3.515728712081909
+    },
+    {
+      "id": 508,
+      "oscillator_params": [
+        0.7295305218137801,
+        1.965057883934229e-06
+      ],
+      "complex_params": [
+        0.7531610512351065,
+        1.965057883934229e-06
+      ],
+      "complex_initial_amplitude": 1.4620989092548131,
+      "means": [
+        -0.005444743011760592,
+        -0.0054429222815940165
+      ],
+      "minima": [
+        -0.0054616822851245965,
+        -0.005460554350652459
+      ],
+      "quotient_period": 1,
+      "rejections": 0,
+      "seconds": 6.265707969665527
+    },
+    {
+      "id": 2006,
+      "oscillator_params": [
+        0.43700747704692183,
+        0.03663624012810815
+      ],
+      "complex_params": [
+        1.1185273825030275,
+        0.03663624012810815
+      ],
+      "complex_initial_amplitude": 1.1117808073078117,
+      "means": [
+        0.0011612901575925926,
+        -0.5745694222129312
+      ],
+      "minima": [
+        0.0009521211239915306,
+        -0.5767460664423824
+      ],
+      "quotient_period": 0,
+      "rejections": 263796,
+      "seconds": 7.336777448654175
+    },
+    {
+      "id": 726,
+      "oscillator_params": [
+        0.4301832093652338,
+        0.00833414593269467
+      ],
+      "complex_params": [
+        1.1261006119341206,
+        0.00833414593269467
+      ],
+      "complex_initial_amplitude": 1.1077366921593796,
+      "means": [
+        -0.03791099611520778,
+        -0.15807488058003227
+      ],
+      "minima": [
+        -0.037969962154468406,
+        -0.1581400021677065
+      ],
+      "quotient_period": 111,
+      "rejections": 261261,
+      "seconds": 6.965843915939331
+    }
+  ],
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk45-oscillator-scout01\\screen.npz",
+  "source_sha256": "03b2da5d842016b92d7b54a1c632d2fb1db24c4787cfd6ecb306caba620c1f85",
+  "warm": 100000,
+  "observed": 1000000,
+  "windows": 20,
+  "transformation": "z=q-i*(p+zeta*q)/sqrt(1-zeta^2); then z_dot=(-zeta+i*sqrt(1-zeta^2))*z. Initial physical (q,p)=(1,0) has |z|=1/sqrt(1-zeta^2).",
+  "changed_rule": "Uses |embedded complex error| / [1+rtol*max(|z_old|,|z_new|)], rather than original-axis componentwise scales and RMS.",
+  "scope": "Error-norm ablation, intentionally a different numerical algorithm for a conjugate linear ODE. Exact phase symmetry contributes a neutral direction when amplitudes remain nonzero and bounded. Not an invariant-set inequivalence proof or a new coordinate-dependence discovery."
+}

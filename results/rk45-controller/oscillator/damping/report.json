@@ -1,0 +1,53 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\rk45-oscillator-scout01\\screen.npz",
+  "source_sha256": "03b2da5d842016b92d7b54a1c632d2fb1db24c4787cfd6ecb306caba620c1f85",
+  "base_id": 335,
+  "base_params": [
+    0.8877198030073196,
+    1.4674009503231292e-10
+  ],
+  "count": 514,
+  "widths": [
+    0.018,
+    0.0005
+  ],
+  "points_per_slice": 257,
+  "warm": 100000,
+  "observed": 400000,
+  "windows": 20,
+  "initial": "Fresh normalized q=1,p=0,h=.1 for every setting",
+  "scope": "Finite parameter slices, not a structural-stability proof or a certified bifurcation diagram.",
+  "seconds": 698.9813094139099,
+  "groups": [
+    {
+      "group": "wide",
+      "count": 257,
+      "complete": 257,
+      "positive": 211,
+      "two_positive": 4,
+      "periodic": 41,
+      "two_positive_damping_bounds": [
+        0.8874385530073196,
+        0.8878604280073196
+      ]
+    },
+    {
+      "group": "narrow",
+      "count": 257,
+      "complete": 257,
+      "positive": 194,
+      "two_positive": 125,
+      "periodic": 63,
+      "two_positive_damping_bounds": [
+        0.8873330842573196,
+        0.8878916780073196
+      ]
+    }
+  ],
+  "duplicate_base_rows": [
+    128,
+    385
+  ],
+  "duplicate_base_identical": true,
+  "max_determinant_identity": 1.6764367671839864e-13
+}

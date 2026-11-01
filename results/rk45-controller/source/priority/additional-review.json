@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded title, keyword and reference-chain review; no exhaustive priority certificate.",
+  "sources": [
+    {
+      "title": "A Unified Approach to Spurious Solutions Introduced by Time Discretisation. Part I: Basic Theory",
+      "authors": [
+        "A. Iserles",
+        "A. T. Peplow",
+        "A. M. Stuart"
+      ],
+      "year": 1991,
+      "url": "https://epubs.siam.org/doi/10.1137/0728086",
+      "read_scope": "Publisher abstract and reference chain, not full text",
+      "consequence": "Spurious fixed points, period-two solutions, invariant curves and numerical bifurcations are prior work."
+    },
+    {
+      "title": "Dynamics of numerical methods for cosymmetric ordinary differential equations",
+      "authors": [
+        "V. N. Govorukhin",
+        "V. G. Tsybulin",
+        "B. Karasözen"
+      ],
+      "year": 2001,
+      "doi": "10.1142/S0218127401003504",
+      "url": "https://avesis.metu.edu.tr/yayin/5f4593c4-7ec2-4f63-af78-88ecb6c8b341/dynamics-of-numerical-methods-for-cosymmetric-ordinary-differential-equations",
+      "read_scope": "Institutional abstract plus author publication list https://users.metu.edu.tr/bulent/Publications.html, not full text",
+      "consequence": "Numerical transitions to chaos in cosymmetric systems are prior work; no exact adaptive RK45 match identified."
+    }
+  ],
+  "queries": [
+    "Dormand Prince chaotic linear",
+    "Dormand-Prince stepsize equilibrium stability",
+    "Runge-Kutta chaotic stepsize",
+    "adaptive time stepping bifurcation",
+    "step-size border collision",
+    "Runge-Kutta spurious chaos linear",
+    "stepsize Lyapunov",
+    "adaptive integration hyperchaos",
+    "Dormand-Prince hyperchaos",
+    "stepsize chaotic attractor",
+    "Wain Long term dynamics thesis",
+    "Wain adaptive algorithms Dundee 1998"
+  ],
+  "gaps": [
+    "Hall 1986 full text",
+    "Wain 1998 thesis",
+    "Soderlind 2002 full text",
+    "Full Iserles-Peplow-Stuart and cosymmetric papers",
+    "Exhaustive older numerical-dynamics books",
+    "Invariant-set equivalence classification"
+  ],
+  "access": "Prior 403 routes were not bypassed; a simple step size selection algorithm for ODE codes, https://www.sciencedirect.com/science/article/pii/037704279400007N, also returned 403 and was not used for a substantive claim."
+}

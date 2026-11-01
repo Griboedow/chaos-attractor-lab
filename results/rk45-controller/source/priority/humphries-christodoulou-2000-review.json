@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "title": "Phase Space Error Control for Dynamical Systems II",
+  "authors": [
+    "A. R. Humphries",
+    "N. Christodoulou"
+  ],
+  "version": "Sussex Research Report 2000/13, 14 September 2000",
+  "url": "https://math.mcgill.ca/humphries/research/papers/psthetarep.pdf",
+  "pdf_sha256": "c1f7a7ea89cb9d04c6f348450e76341146fa390f494694b2d62097369b837d13",
+  "bytes": 859383,
+  "read_scope": "Abstract, Introduction and Sections 2, 5.2 and 7; relevant text and figure captions, not a full review of all 34 pages.",
+  "finding": "Section 5.2 explicitly connects numerical rotations near pi with perturbed oscillation and chaotic-looking dynamics, and examines DOPRI5(4) stability/phase regions. The report also gives standard-DOPRI spurious fixed-point examples and norm-dependent irregular step sequences.",
+  "consequence": "Neither alternating orbit bands nor irregular-looking Dormand-Prince trajectories constitute a new mechanism claim. No exact D335 hyperchaotic invariant-set classification identified in the inspected sections.",
+  "redistributed": false,
+  "additional_visual_review": {
+    "pdf_pages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "printed_pages": "17-22 and 26-32",
+    "finding": "Printed p20 explicitly connects phase near pi with perturbed oscillation and chaotic-looking dynamics. Figures 6-9 concern stability/acceptable regions, not invariant clouds. Numerical examples inspected do not supply a matching full-state portrait. This is still not an exhaustive full-report review."
+  }
+}

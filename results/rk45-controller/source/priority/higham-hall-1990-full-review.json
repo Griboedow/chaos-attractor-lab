@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "source": "https://webhomes.maths.ed.ac.uk/~dhigham/Publications/P6.pdf",
+  "title": "Embedded Runge-Kutta formulae with stable equilibrium states",
+  "authors": [
+    "D. J. Higham",
+    "G. Hall"
+  ],
+  "year": 1990,
+  "pdf_sha256": "009c2a95c1fa09749377d9b6422ca1a76d2733477d198785818620efc3abab50",
+  "read_scope": "All nine pages visually inspected: prior opening-page review plus pages 3-9 in this continuation.",
+  "findings": [
+    "The Dormand-Prince family solution and error polynomials and coupled solution-step equilibrium matrix appear on page 27.",
+    "Computer search chooses pair coefficients for equilibrium stability; all three proposed methods are tabulated.",
+    "Figures 1-4 compare equilibrium spectral radius and absolute stability regions; the standard M pair has unstable sectors.",
+    "Section 3 uses a three-dimensional linear test with a dominant complex pair and compares rejected-step counts over 500 steps.",
+    "Page 32 states practical sensitivity to nonnormal dominant subsystems and error norms.",
+    "The inspected paper does not classify the selected long-lived real-coordinate clouds or their topology."
+  ],
+  "consequence": "Neither adaptive-map formulation, unstable controller equilibrium, Dormand-Prince parameter search nor norm/nonnormality dependence is a novelty claim here. Exact-case historical priority remains open."
+}

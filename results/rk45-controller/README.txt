@@ -1,0 +1,5 @@
+Standard Dormand-Prince RK45 controller study, 2026-11-01.
+All 2051 scout settings and all 1061 flagged follow-ups are retained, including failed, regular and weak outcomes. Six selected five-million-step checks; eight independent 70/90-digit checks; four unmodified SciPy trajectories; 252 start/parameter controls; 65536 volume trajectories; 514 declared damping-slice settings.
+The physical linear oscillator is stable. D335 and D448 are numerical-controller candidates; names describe appearance only. Exact solution-coordinate bounds do not certify a full-state attractor, asymptotic chaos or historical uniqueness.
+All 24 gallery clouds, exact portrait histograms, consecutive animation states, rigid cameras, source snapshots and algebra certificates are public. Two raw eight-million-state portraits remain local with hashes and regeneration information. Duplicate scout/follow blocks were compared with their public aggregates before omission. No prior-paper PDFs are redistributed.
+See docs/rk45-oscillator.md, docs/rk45-controller-structure.md and docs/rk45-priority.md.

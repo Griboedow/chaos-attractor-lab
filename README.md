@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[RK45: twin rosettes and folded fans inside an existing solver](docs/rk45-oscillator.md).** The two rosettes are exchanged by one numerical orbit. Two positive finite growth estimates survive five million steps, independent 70/90-digit calculations and unmodified SciPy execution. A declared narrow slice retains this criterion at 125 of 257 sampled settings, alongside periodic neighbors. Earlier work already explains near-half-turn numerical oscillations; the exact regime's historical uniqueness remains unresolved.
+
+![Actual RK45 numerical states, viewed by rotating rigid cameras](docs/assets/rk45-oscillator-rotation.gif)
+
+[Research manuscript (PDF)](papers/rk45-controller/manuscript.pdf) · [Claims and reproduction](papers/rk45-controller/README.md) · [Large portrait](docs/assets/rk45-oscillator-geometry.png) · [Initial-volume approach](docs/assets/rk45-oscillator-approach.png) · [Actual-library comparison](docs/assets/rk45-library-clouds.png) · [Exact solution bounds](docs/rk45-controller-structure.md) · [Prior-art and equivalence audit](docs/rk45-priority.md)
+
 **[RK23: folded triangles and scissor wings inside a numerical solver](docs/rk23-oscillator.md).** A stable linear spring decays, while its standard adaptive solver produces intricate tolerance-scale geometry in position, velocity and proposed step. Both portraits pass five-million-step, independent 70/90-digit and actual SciPy checks. A separate setting retains two positive finite growth estimates across independent checks. Exact solution-coordinate bounds, periodic neighbors and the established step-control literature are documented; a new attractor class is not claimed.
 
 ![Fixed RK23 accepted-step clouds viewed by rotating orthographic cameras](docs/assets/rk23-oscillator-rotation.gif)
