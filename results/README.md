@@ -107,3 +107,5 @@ All angles, time scalings, selection thresholds and source variants are describe
 
 - `light-operators/lifetimes-extension/`: the original 96-member cohort continued to a 100,000-unit horizon, with all 16 additional captures checked independently. Both narrow cohorts reach cycles; 26 broad-width survivors remain finite-time candidates. See [the full extension](../docs/optical-lifetime-extension.md), preserved segment drivers and provenance manifest.
 - `candidate-audits/thermal-flutter-source-audit.json`: source autonomy, coefficient-closure and thermal-energy checks; [the exact-model simulation gate](../docs/thermal-flutter-source-audit.md) remains closed.
+
+- `soft-sphere/`: [Gaussian posterior mean and a sphere](../docs/soft-sphere/manuscript.md); complete 429-case sweep, all-flag follow-ups, long spatial candidates, precision controls, regular captures and bounded prior-art comparison.

@@ -18,6 +18,7 @@ article to its shorter report and numerical evidence.
 | RK45 controller dynamics | [Report](rk45-oscillator.md) | [Article](rk45-controller/manuscript.md) | [Study notes](rk45-controller/README.md) |
 | Scalar optimizer memory | [Report](yogi-tanh.md) | [Article](yogi-memory/manuscript.md) | [Study notes](yogi-memory/README.md) |
 | Gaussian-posterior reflected dynamics | [Report](soft-symbolic-dynamics.md) | [Article](soft-symbolic-dynamics/manuscript.md) | [Study notes](soft-symbolic-dynamics/README.md) |
+| Gaussian posterior mean and a sphere | [Main portraits](../README.md#gaussian-posterior-mean-and-a-sphere) | [Numerical article](soft-sphere/manuscript.md) | [Evidence and reproduction](../results/soft-sphere/README.md) |
 
 The [structured-data FastICA report](fastica-tripling.md) contains its full
 analytic proof, numerical controls and prior-art discussion in one document.

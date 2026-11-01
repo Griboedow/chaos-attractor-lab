@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "conclusion": "Historical priority unresolved; component operators and reflection substitution are established.",
+  "shared_review": "docs/soft-constellation-priority.md",
+  "queries": [
+    "chaos Gaussian mixture Douglas",
+    "strange attractor mean shift",
+    "sphere RAAR chaotic",
+    "plug-and-play strange attractor",
+    "chaotic attractor spherical constraint denoiser reflected proximal iteration",
+    "chaos Gaussian mixture posterior mean reflected map",
+    "Hopfield spherical chaos",
+    "mean shift overrelaxation convergence",
+    "Zhou Chen A simple smooth chaotic system with a 3-layer attractor pdf"
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/1801.00605",
+      "title": "Scene-Adapted Plug-and-Play Algorithm with Guaranteed Convergence",
+      "reviewed": "Abstract, introduction, Theorem 2, Section IV Corollaries 1-2 and remarks.",
+      "finding": "Fixed posterior weights and convex penalties delimit the convergence result; no contradiction from this state-dependent, nonconvex sphere experiment.",
+      "not_reviewed": "Full proofs and experimental figures."
+    },
+    {
+      "url": "https://arxiv.org/html/2310.00133v1",
+      "title": "Prior Mismatch and Adaptation in PnP-ADMM with a Nonconvex Convergence Analysis",
+      "reviewed": "Abstract, Algorithm 1, Section 3.2 assumptions 1-6 and Theorems 1-2.",
+      "finding": "Assumption 2 requires continuously differentiable data fidelity; sphere indicator fails it. No exact identity with this ADMM formulation asserted.",
+      "not_reviewed": "Full proofs and experiments."
+    },
+    {
+      "url": "https://www.actaphys.uj.edu.pl/R/42/2/235/pdf",
+      "title": "A 3-D Spherical Chaotic Attractor",
+      "reviewed": "Abstract and Sections 2-3 through Figure 7 description, text only.",
+      "finding": "Reports a transient correction to a three-layer example and another spherical-shaped chaotic system. Spherical appearance is prior art. Printed predecessor equations differ from the literal dysts ZhouChen formula, so its bibliographic identification remains unverified.",
+      "not_reviewed": "No figure screenshot audit, independent numerical reproduction or exhaustive equivalence test."
+    }
+  ],
+  "access_limits": [
+    "Elser 2007 supplement links did not yield a readable body; previous shared audit gap remains open.",
+    "Original 2004 three-layer article DOI was not readable; no full-primary-text equation audit claimed."
+  ],
+  "scope": "Search terms and inspected sources are a bounded record, not evidence that no equivalent attractor exists.",
+  "reference_label": {
+    "name": "dysts ZhouChen",
+    "source": "results/attractor-novelty/reference/dysts-flows.py",
+    "source_sha256": "88dde98b7cf087f06ea007d09c14724d512c7ccce8c14dbd1b6c5825e3fb400a",
+    "rhs": [
+      "a*x+b*y+y*z",
+      "c*y-x*z+d*y*z",
+      "e*z-x*y"
+    ],
+    "parameters": {
+      "a": 2.97,
+      "b": 0.15,
+      "c": -3.0,
+      "d": 1.0,
+      "e": -8.78
+    },
+    "bibliography": "unverified against the full cited 2004 primary text"
+  }
+}

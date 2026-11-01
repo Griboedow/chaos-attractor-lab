@@ -130,6 +130,29 @@ and [projection-dynamics audit](raar-priority.md) remain applicable.
 They already rule out a first-discovery claim for chaos in nonconvex
 reflection algorithms.
 
+Two further convergence results delimit the comparison; our experiment
+does not refute either theorem.
+
+- [Teodoro, Bioucas-Dias and Figueiredo, *Scene-Adapted Plug-and-Play
+  Algorithm with Guaranteed Convergence* (2018)](https://arxiv.org/pdf/1801.00605)
+  fixes the posterior mixture weights during ADMM. Its resulting linear
+  denoiser is a convex proximity operator. The text explicitly distinguishes
+  this modification from a pure MMSE denoiser, which may be expansive.
+  Corollary 2 additionally assumes convexity of the other penalties. Our
+  weights depend on the current state, and the circle or sphere indicator
+  is nonconvex. Reviewed the abstract, introduction, Theorem 2, and Section
+  IV's Corollaries 1–2 and surrounding remarks; no full proof or experimental
+  figure audit is claimed.
+- [Shoushtari et al., *Prior Mismatch and Adaptation in PnP-ADMM with a
+  Nonconvex Convergence Analysis* (2023 preprint)](https://arxiv.org/html/2310.00133v1)
+  allows expansive MMSE denoisers and nonconvex data fidelity, subject to
+  additional assumptions. Assumption 2 requires continuously differentiable
+  data fidelity; a circle or sphere indicator does not satisfy it. The
+  theorem is therefore not a convergence certificate for our substitution.
+  Reviewed the abstract, Algorithm 1, Section 3.2's assumptions and Theorems
+  1–2; the full proofs and experiments were not audited. No exact identity
+  between our relaxed reflected map and that ADMM formulation is asserted.
+
 ## Alternating lobes are established dynamics
 
 Strict alternation between two separated chaotic bands is not a new

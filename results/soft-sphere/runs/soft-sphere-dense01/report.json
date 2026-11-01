@@ -1,0 +1,436 @@
+{
+  "ids": [
+    155,
+    196,
+    251,
+    388,
+    389
+  ],
+  "warm": 100000,
+  "count": 2000000,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "camera": "Right-handed PCA basis followed by the same orthogonal camera for every case; equal spatial units.",
+  "density": "All consecutive states; no smoothing, interpolation or synthetic samples.",
+  "cases": [
+    {
+      "id": 155,
+      "source_sha256": "ab964ec7945af022d99f18364dcdebd7db22e27227435511590f48fe437443a5",
+      "states_sha256": "a176fb99ad7dfc7bd67d4f8ad133973698fdca536f57aef13f094267c9415a77",
+      "histogram_sha256": "8d8daf53b4a55804353b183ae39aa70442848d620b3ed46b8b590b786b91898c",
+      "center": [
+        -0.5343546057267763,
+        0.8887631866446122,
+        0.15030692301324902
+      ],
+      "basis": [
+        [
+          0.5990825975195935,
+          0.3646245807163012,
+          -0.7128456750844732
+        ],
+        [
+          0.2617936029260317,
+          0.7521596544856566,
+          0.6047478512826857
+        ],
+        [
+          0.7566796883861651,
+          -0.5489123512014278,
+          0.35514937685759285
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.6183227061506926,
+      "minimum_radius": 0.0032922854172811886,
+      "portrait": {
+        "id": "soft-sphere-155",
+        "file": "docs\\assets\\experimental\\soft-sphere-dense\\soft-sphere-155.png",
+        "sha256": "11d84d2640a2d1e81dd8b03cf8dc12034c1d8e1d0b59772fe93f1dd0b35c2462",
+        "panels": [
+          {
+            "input": {
+              "label": "155",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-dense01\\case-155-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "8d8daf53b4a55804353b183ae39aa70442848d620b3ed46b8b590b786b91898c",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                350,
+                45
+              ],
+              [
+                1450,
+                1189
+              ]
+            ],
+            "empty_margin": 46,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.710243014871567,
+            "occupied_bins": 109865,
+            "display_label": "Case 155"
+          }
+        ]
+      }
+    },
+    {
+      "id": 196,
+      "source_sha256": "01ca0aec739c946c8b1b2cbdcff7e4ce233253b998d298c0f49221831b049861",
+      "states_sha256": "65d3e71d3810341749d1c0f9d4816a2ba833a9c38a302248932fbf1a4dddf4dd",
+      "histogram_sha256": "da64c57f88d2523a4002d8b0ba5107bc59cfccd48e2b5f57272e56449220449f",
+      "center": [
+        0.3293762067539922,
+        -0.26614963221957477,
+        -0.5895907057353121
+      ],
+      "basis": [
+        [
+          -0.6504653983004626,
+          0.6364748130763808,
+          0.4144810947838352
+        ],
+        [
+          0.2756678618901527,
+          -0.31066117001523597,
+          0.9096685480798361
+        ],
+        [
+          0.7077443009553185,
+          0.7059670316411033,
+          0.026618690822747815
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.9834038091944004,
+      "minimum_radius": 0.06827860909403309,
+      "portrait": {
+        "id": "soft-sphere-196",
+        "file": "docs\\assets\\experimental\\soft-sphere-dense\\soft-sphere-196.png",
+        "sha256": "3fc1699b46b9ef4897530aa42c0dd01f82ea930463381a96aa5d7b562ec343a4",
+        "panels": [
+          {
+            "input": {
+              "label": "196",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-dense01\\case-196-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "da64c57f88d2523a4002d8b0ba5107bc59cfccd48e2b5f57272e56449220449f",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                117,
+                310
+              ],
+              [
+                1133,
+                1555
+              ]
+            ],
+            "empty_margin": 50,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 5.6131281063880705,
+            "occupied_bins": 202398,
+            "display_label": "Case 196"
+          }
+        ]
+      }
+    },
+    {
+      "id": 251,
+      "source_sha256": "14f678fc0a87949ad9b4c5f59dfb7e2b9bcf99d2b3bd83df5a263d7ff644865e",
+      "states_sha256": "f989d4e069e72dda69a18e7dd96f2edd1d236e98fb6b99974b7c8c165e459a7a",
+      "histogram_sha256": "be39cfff7c4b48ff5229a37b8530d7ab8e93072aa0755e9edc52e2a5ba967574",
+      "center": [
+        0.017000680989715408,
+        0.04609186726142677,
+        0.012783834731372193
+      ],
+      "basis": [
+        [
+          0.7405240871488394,
+          0.04346475960027535,
+          -0.6706227635752222
+        ],
+        [
+          -0.6699072288473247,
+          -0.03150670139569385,
+          -0.7417759988738251
+        ],
+        [
+          -0.053370226629424394,
+          0.9985580315835696,
+          0.005785885366218376
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.1305312501924398,
+      "minimum_radius": 0.16901615612436896,
+      "portrait": {
+        "id": "soft-sphere-251",
+        "file": "docs\\assets\\experimental\\soft-sphere-dense\\soft-sphere-251.png",
+        "sha256": "245185b8844a803c3eee9d373c22233b3b62d38cb33dba1c1d42c1f975f8177b",
+        "panels": [
+          {
+            "input": {
+              "label": "251",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-dense01\\case-251-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "be39cfff7c4b48ff5229a37b8530d7ab8e93072aa0755e9edc52e2a5ba967574",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                53,
+                45
+              ],
+              [
+                1430,
+                1283
+              ]
+            ],
+            "empty_margin": 56,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.240488146971202,
+            "occupied_bins": 93226,
+            "display_label": "Case 251"
+          }
+        ]
+      }
+    },
+    {
+      "id": 388,
+      "source_sha256": "1eaffb29852b3f7bcf8697f0ee0d934f69795d8ab2c4c034fb8c95aec098d578",
+      "states_sha256": "21cce72bff18cc8c87c5c463bca9369d9f7a44ad615e0511b019f291b85fe63c",
+      "histogram_sha256": "49f5e5c3b852c9ab3bba0cc500346884c2435755481472142b21a606aeb5a602",
+      "center": [
+        0.33800547929390445,
+        0.5934466685257744,
+        -0.5553897613793485
+      ],
+      "basis": [
+        [
+          -0.7128233535111815,
+          -0.7012874725934238,
+          -0.008873977270720488
+        ],
+        [
+          -0.059581924536590836,
+          0.04794524385973664,
+          0.9970713353916791
+        ],
+        [
+          -0.6988081717879302,
+          0.7112644616278521,
+          -0.07596054678352693
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.282032301905778,
+      "minimum_radius": 0.07499836675350789,
+      "portrait": {
+        "id": "soft-sphere-388",
+        "file": "docs\\assets\\experimental\\soft-sphere-dense\\soft-sphere-388.png",
+        "sha256": "e52cc56cd8a7b74f7dd0cea2ac237d72e78d54e9bab775863f48f4e462af25b5",
+        "panels": [
+          {
+            "input": {
+              "label": "388",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-dense01\\case-388-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "49f5e5c3b852c9ab3bba0cc500346884c2435755481472142b21a606aeb5a602",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                68
+              ],
+              [
+                1249,
+                1508
+              ]
+            ],
+            "empty_margin": 58,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 8.329298502212177,
+            "occupied_bins": 47861,
+            "display_label": "Case 388"
+          }
+        ]
+      }
+    },
+    {
+      "id": 389,
+      "source_sha256": "8f9cef5db410fc389b224f96a76d69ed5be9852b60fb35149d4f2cae31bbec3b",
+      "states_sha256": "066f350744ee14da1be0e22d34f213c9a38bb78d2059e48554b11196310d2e01",
+      "histogram_sha256": "41c61f7afe5ca5be7b6de1a04e3b03ee07f1a14276eedb2d51e308c719393fef",
+      "center": [
+        0.8538839994311762,
+        0.6694213727860441,
+        -0.010795195216992327
+      ],
+      "basis": [
+        [
+          -0.9968906261714104,
+          0.07825976581110826,
+          -0.009191762984558984
+        ],
+        [
+          0.07828859259843583,
+          0.9969267528485671,
+          -0.002818816022475301
+        ],
+        [
+          0.008942914543366529,
+          -0.0035296614572668528,
+          -0.9999537818166735
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.5352732009080721,
+      "minimum_radius": 0.13632700031476405,
+      "portrait": {
+        "id": "soft-sphere-389",
+        "file": "docs\\assets\\experimental\\soft-sphere-dense\\soft-sphere-389.png",
+        "sha256": "ac7246be3d7277b1757db88ae209a29a714e7d0483f5e97c5e137daeae0030d7",
+        "panels": [
+          {
+            "input": {
+              "label": "389",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-dense01\\case-389-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "41c61f7afe5ca5be7b6de1a04e3b03ee07f1a14276eedb2d51e308c719393fef",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                221
+              ],
+              [
+                1225,
+                1386
+              ]
+            ],
+            "empty_margin": 48,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.646991176176047,
+            "occupied_bins": 115611,
+            "display_label": "Case 389"
+          }
+        ]
+      }
+    }
+  ],
+  "seconds": 89.66521716117859
+}

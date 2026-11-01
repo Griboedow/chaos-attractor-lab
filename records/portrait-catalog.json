@@ -192,6 +192,44 @@
       "coordinates": "Full three-state iterates; centering, orthogonal principal-axis basis, and rigid orthographic camera. Equal spatial units within each panel; independent scales."
     },
     {
+      "id": "soft-sphere",
+      "title": "Gaussian posterior mean and a sphere",
+      "group": "Numerical algorithms",
+      "report": "docs/soft-sphere/manuscript.md",
+      "source_portrait": "docs/assets/portraits/soft-sphere.png",
+      "featured": true,
+      "description": "Cases 155 and 251 retain positive finite-time growth over five million steps, 33 starts and independent 70/100-digit checks. Folded spatial candidates in a known reflection construction; asymptotic attraction and historical uniqueness remain unresolved.",
+      "coordinates": "Native three-state iterates, centered and orthogonally rotated; equal units within each panel. Independent spatial scales and density saturation.",
+      "panels": [
+        {
+          "label": "155",
+          "source": "results/soft-sphere/runs/soft-sphere-dense01/case-155-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "251",
+          "source": "results/soft-sphere/runs/soft-sphere-dense01/case-251-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/soft-sphere/runs/soft-sphere-dense01/case-155-states.npz",
+          "key": "states",
+          "metadata_source": "results/soft-sphere/runs/soft-sphere-dense01/case-155.json",
+          "last_count": 250000
+        },
+        {
+          "source": "results/soft-sphere/runs/soft-sphere-dense01/case-251-states.npz",
+          "key": "states",
+          "metadata_source": "results/soft-sphere/runs/soft-sphere-dense01/case-251.json",
+          "last_count": 250000
+        }
+      ]
+    },
+    {
       "id": "raar-constellation-columns",
       "title": "Finite-point RAAR: fragmented columns and sheets",
       "group": "Numerical algorithms",

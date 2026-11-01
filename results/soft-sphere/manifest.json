@@ -1,0 +1,732 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "scope": "Retained sphere experiment packet; optional full arrays are separately bound by inventory, omissions and the data registry. Does not freeze later article wording or shared presentation metadata.",
+  "files": [
+    {
+      "path": "accounting.json",
+      "bytes": 293,
+      "sha256": "d8e371d066ba726739d9bc611390431585f8ce0c86142352c177e2101b6c5e54"
+    },
+    {
+      "path": "archive_projection_campaign.py",
+      "bytes": 4273,
+      "sha256": "436b3bf4f0148ddd8b42629c3a82373701f55cda2aead2afa139e63de1b38133"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 122920,
+      "sha256": "f1b4b2466bc9cfdadf4aee44e0f8fed4a10346f14ace680252b1472d5fedff59"
+    },
+    {
+      "path": "literature-review.json",
+      "bytes": 3087,
+      "sha256": "e3fbd5e6a0164cefb95de80023705edb000c428f0358c95740542f05825b63e1"
+    },
+    {
+      "path": "omissions.json",
+      "bytes": 378929,
+      "sha256": "64afe28953ac14a9cb773708bc9b86459ba7de39b5ee37a83fd1a3819cacbb30"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4798,
+      "sha256": "9428b4626077b3c11bf38996e4819e8859697eebf36e99d184504d4cb8ccc1d4"
+    },
+    {
+      "path": "runs/soft-sphere-catalog01/compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958"
+    },
+    {
+      "path": "runs/soft-sphere-catalog01/compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1"
+    },
+    {
+      "path": "runs/soft-sphere-catalog01/compare_constellation_catalog.py",
+      "bytes": 4518,
+      "sha256": "e3b6b73077f5a194cafbd761b4efb017d4f3eda7ab6974a39e684ba22d651de5"
+    },
+    {
+      "path": "runs/soft-sphere-catalog01/partial.json",
+      "bytes": 124417,
+      "sha256": "7147af94ef96c353fff30def049da60aefb3ed4648d0d1d14ef9f6337d1c0f60"
+    },
+    {
+      "path": "runs/soft-sphere-catalog01/report.json",
+      "bytes": 124468,
+      "sha256": "e0e753533761309bcf6d2f5f770358996d6a39e34eed1b6f54ff774120d28823"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/case-155.json",
+      "bytes": 7062,
+      "sha256": "60377778892aaf68a27dc29d7286ffee001df0140a6ecfc1a16d5555e5563961"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/case-196.json",
+      "bytes": 7015,
+      "sha256": "5d716142e96c0f7a48b5a87b002c73e1d758dde9ac3a75a26655076f1c8a9087"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/case-251.json",
+      "bytes": 6943,
+      "sha256": "aab1c8b04cbb78508b72bb83e3958f727c64ce04f6ab6b0fa8881fa113577f22"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/case-389.json",
+      "bytes": 6888,
+      "sha256": "b478244968320736e7433bfcd17c4a0c773713c019ea5a393278be305f5b3f34"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/cohort_soft_sphere.py",
+      "bytes": 3724,
+      "sha256": "b9962fb48ebb986fd4e338ebd2816752a4cdd0f8e3c56d117de2d886bdc72418"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/protocol.json",
+      "bytes": 3315,
+      "sha256": "5a1b7f4020664d1ec920c18f3af57512bfae848901cc0fa95711e45845ae8749"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/report.json",
+      "bytes": 37836,
+      "sha256": "de42850c08fb929a47cef1600e92fc616050832af632e76741954864e8d34ab9"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/soft-sphere-cohort01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-155-histogram.npz",
+      "bytes": 187940,
+      "sha256": "8d8daf53b4a55804353b183ae39aa70442848d620b3ed46b8b590b786b91898c"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-155.json",
+      "bytes": 2030,
+      "sha256": "a8bf9a8895335a7b34f2f4112072330817470875a4628f81489ce57d39902d09"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-196-histogram.npz",
+      "bytes": 227649,
+      "sha256": "da64c57f88d2523a4002d8b0ba5107bc59cfccd48e2b5f57272e56449220449f"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-196.json",
+      "bytes": 2033,
+      "sha256": "81b181154b4cad0883b2581d465b1959304cc4865b1c0d15e76a1def8083b5bf"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-251.json",
+      "bytes": 2037,
+      "sha256": "3cd07b07ede79a8f18b59ee571842b48fcce07d40f5488c46a57dbdfe03dd628"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-388-histogram.npz",
+      "bytes": 173816,
+      "sha256": "49f5e5c3b852c9ab3bba0cc500346884c2435755481472142b21a606aeb5a602"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-388.json",
+      "bytes": 2034,
+      "sha256": "cb2c3145d37465022a226b98b02159ab49c12d97eca3d0f2264944f0bc9a6ea2"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-389-histogram.npz",
+      "bytes": 204551,
+      "sha256": "41c61f7afe5ca5be7b6de1a04e3b03ee07f1a14276eedb2d51e308c719393fef"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/case-389.json",
+      "bytes": 2042,
+      "sha256": "57a7af3f9fc676bafece37118e1ffd0b47a6672ce37af4a16e9377f09e0b7894"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/protocol.json",
+      "bytes": 358,
+      "sha256": "aef6cd9833d210cdc100a21472df21e36814d72beffe8539bf6ce8786615f755"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/render_soft_sphere.py",
+      "bytes": 3920,
+      "sha256": "7b91128d9ae35e9bb5e870f3fc90e76f7aaa31425e98497bdebbaafdc3adcfbb"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/report.json",
+      "bytes": 12248,
+      "sha256": "516deb1385533dcd8dfd7b5253a3e7c2d63c2b4c9f44b6840e7367294b7c489a"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/soft-sphere-dense01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-132.npz",
+      "bytes": 11904,
+      "sha256": "54f294dbbc9e74461b7cfe4ecdf1a585d150c6a42f403bc11d7ecdd5b53dd92a"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-133.npz",
+      "bytes": 11917,
+      "sha256": "386c70ef0c2437f86395d7de3d2bec9ae0abb22665e7da7414492061b1045d0b"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-134.npz",
+      "bytes": 9584,
+      "sha256": "3b24dffe6573eb0d177b083f85a525ccfaec2673f7b447870b833b5e5d8fc775"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-135.npz",
+      "bytes": 11937,
+      "sha256": "70db2d5c8c1907543c81d14752f9863fab588142e396fe47dcc998f78d8ab58f"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-136.npz",
+      "bytes": 11894,
+      "sha256": "583bcfd6bc9f674853a4d30b1b03b061252b8198315522ae23b8540d88983f79"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-137.npz",
+      "bytes": 11978,
+      "sha256": "32020f7d5c4b6311b2515d13f02b3153767390c8c4b6ce4d71dc2810a600676f"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-138.npz",
+      "bytes": 11945,
+      "sha256": "980254f5e1ffb8a02fb62aa9adb3183ee4251ebc7f61edf563e382c1177733c0"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-139.npz",
+      "bytes": 13210,
+      "sha256": "e61fb09cb973b9c62b0488df454ffb10e68a00b71f8a11d4dce9a5728a8a6796"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-140.npz",
+      "bytes": 12009,
+      "sha256": "86ccdbb8261469d4fa42e3ee48c245cde5a59fa399161b4a3577534f0d0d43fb"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-141.npz",
+      "bytes": 11944,
+      "sha256": "dcf98a1856e0862997785db0297d1c2701c1a64956b84a3ad1bdef09d89f1278"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-143.npz",
+      "bytes": 11955,
+      "sha256": "e464079e5450378ea97470cb3f61c7a55c97ce4179d2ce5fc4695fbbaa8deef4"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-144.npz",
+      "bytes": 11944,
+      "sha256": "bec3c4dd5eeddfd6b9a5689dfec3c2d7d00811edc3686d09375a4357359e6c6a"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-145.npz",
+      "bytes": 11992,
+      "sha256": "66b4081282f08774a8547eb8d689ccf4af8362252f89fac76ae6161558bceadb"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-147.npz",
+      "bytes": 11949,
+      "sha256": "1d03f6a1cf79cb5788722530cef9a83f3ac663aece4c12eae853d207a40cdce5"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-148.npz",
+      "bytes": 11972,
+      "sha256": "25eb2f47ae9306625b10ad9bbba389a886144d27a821fba1751b021320e6e218"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-150.npz",
+      "bytes": 11941,
+      "sha256": "e7697c2ee80e8bae6452849e618e6247c7ec8b30cfe02428b6255c37ca795aaf"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-151.npz",
+      "bytes": 12015,
+      "sha256": "a91b4a43c061efd43b92fc27928995019b2c2540d2c9ff89ede9bfc16877f066"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-199.npz",
+      "bytes": 11973,
+      "sha256": "41f0a747785524907e42e598a1540b6713e1569db8f87e671f19ca467d82cf39"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-200.npz",
+      "bytes": 11936,
+      "sha256": "59ea23366b85ecf5766d339ef0b304d6d63637773a94912351b9d3cd4675961d"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-206.npz",
+      "bytes": 13176,
+      "sha256": "cc0150f470dca8e38ef3f372312edd94fd0ffca12b529be12a0829bf55e87093"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-330.npz",
+      "bytes": 14348,
+      "sha256": "ec33eb049c630544cdd33003fe945fbd0dff1b045ed4e618e81397da774adf60"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-333.npz",
+      "bytes": 15731,
+      "sha256": "3a9daf7308dc14848aae2014ccf1d1cfabb3df8ac62fe8a6448ae1627040abb6"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-337.npz",
+      "bytes": 14329,
+      "sha256": "ee1b65f7b72092bc2d2fe270caad70f128693a16ad7ec7e654617f680bc1a0ad"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-364.npz",
+      "bytes": 15945,
+      "sha256": "252d788a3502e6635dc42f575c4e48b29d053dc9906c3d92beafb080f86ec6e4"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-365.npz",
+      "bytes": 15841,
+      "sha256": "6c03944e990e52ffca15bebbacec5dd1d7058c3986e5869410e7953c7e9e450c"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-368.npz",
+      "bytes": 17509,
+      "sha256": "4847bc608f92c8522553d6de7a239daeb1732a71b86a1050d9e552c570e32f13"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-370.npz",
+      "bytes": 15962,
+      "sha256": "b87a59241c0959366efee9c01e9e363da56ffb83113a10c53c822210b52eb364"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-371.npz",
+      "bytes": 14472,
+      "sha256": "67a25da10cfa8c566ea4ede765b8a1c5607ca1fd3f0bb75c8143dbc40cf217fb"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-372.npz",
+      "bytes": 14513,
+      "sha256": "c5a2e79d554710a19f61f5b947762e392f4eb3993c82e3fb94726cee53a1c270"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-373.npz",
+      "bytes": 17495,
+      "sha256": "45b544824a2666b67044e64007818786f828b697b0217d79b46abadc1eec15dc"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-376.npz",
+      "bytes": 11972,
+      "sha256": "4f54a078c676077a2886d6f77f905dc1d54e2aa50d0373c633304d859ffe38c5"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-377.npz",
+      "bytes": 15844,
+      "sha256": "13a07807dd54915e9b0bbc7b6a929d3884a64c6c857d53aae0059a557c3307fd"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-379.npz",
+      "bytes": 13216,
+      "sha256": "371318a6ac3b51a4bf265933799d2ba50c6c5acb707b93086fcca252c9d0a43b"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-387.npz",
+      "bytes": 10482,
+      "sha256": "0e443d8878cc3586e8d906bbf15889d4e6f46729a878b962e51c53678f3ff52f"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-67.npz",
+      "bytes": 18936,
+      "sha256": "c665238187158f61ae4c7652145fca87b83b29cfb5a01cce0876169388b2e93f"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-69.npz",
+      "bytes": 10704,
+      "sha256": "0f5077963f4410d12171cf4b370822e64fe31c8042da9997f950f676d2db4048"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-71.npz",
+      "bytes": 10682,
+      "sha256": "47b797b2fb6e1913e41d00ae4640c1940cc743bd0d0d83aca6f7fa3ba6148c30"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-72.npz",
+      "bytes": 10702,
+      "sha256": "9dfc8c35c48c8ad377e3a4cae41af74f809401012d3f08ecedcc3a320db8873f"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-73.npz",
+      "bytes": 11917,
+      "sha256": "74b6221549998742be88563ee0cc36ec33b172eac05ea4e7c4ec978c5c961aa1"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-74.npz",
+      "bytes": 10692,
+      "sha256": "d6a81e1d39c6ea9daa71172aeb9a314df3005374f7fe68c6af8bcbe3ed2bf0c3"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-75.npz",
+      "bytes": 10691,
+      "sha256": "39daa16789a6bf344f6dd25c756184973e6d4c654c112522604b7229fde34cba"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-76.npz",
+      "bytes": 10826,
+      "sha256": "95d88cef6b86aebab0ffb3efc045fab9d552057460eb7397aaa32dfbc62306f1"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/case-77.npz",
+      "bytes": 10650,
+      "sha256": "a695a124d6cfc5f85119d3cc292752306a7213c58c63c69377f92be37275e34e"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/partial.json",
+      "bytes": 2066597,
+      "sha256": "b3bdb30d5c671a3b7b696166fe82475a729a35494a539c567c64138e98704ed7"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/protocol.json",
+      "bytes": 1786,
+      "sha256": "02b6e8da81a185551339d3342d345c5de7dfde7b4fa81a3ace8235680ea79761"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/report.json",
+      "bytes": 2066597,
+      "sha256": "d471e2475db9bcfd8e3bae06de73031da28dacfd5d827fead7d136572088320a"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/soft-sphere-follow01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/soft-sphere-long01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/soft-sphere-long01/partial.json",
+      "bytes": 105888,
+      "sha256": "31ef0c008dfbd947efb61560c44a9549792b2fba6c36f5dbdd3886fb4704df53"
+    },
+    {
+      "path": "runs/soft-sphere-long01/protocol.json",
+      "bytes": 751,
+      "sha256": "847d42c8032a7a6fe56003f31483e0fa14f5ec5b9b9253ec4c71466b536aa7b6"
+    },
+    {
+      "path": "runs/soft-sphere-long01/report.json",
+      "bytes": 105888,
+      "sha256": "450692313e1a00dbc85242c7ef585b1daea0a85b0a854ede57c6eaf199feb5f3"
+    },
+    {
+      "path": "runs/soft-sphere-long01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-long01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-long01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/soft-sphere-long01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-155-digits-100.json",
+      "bytes": 1406,
+      "sha256": "571d1809cfbb436439080fa3294ccfd22c9d59a605f74d8df507e182ccd0a120"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-155-digits-100.npz",
+      "bytes": 230189,
+      "sha256": "af3baddaa6404267385d1749aec781718984220a2fd273fe97cba606ad7c5fc5"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-196-digits-100.json",
+      "bytes": 1407,
+      "sha256": "b188418fb6cd8eb9d367913e06a56521881408a744af7c9068c72974a9e76efe"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-196-digits-100.npz",
+      "bytes": 229946,
+      "sha256": "407300ea32876a8ecd539debb237cbd298401f11df00f88c9a881b5ac463ddfc"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-251-digits-100.json",
+      "bytes": 1402,
+      "sha256": "f6c718083701453ecbf6cb84962fe23accdf243853b38eca4a1d7e31ef1e0820"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-251-digits-100.npz",
+      "bytes": 230389,
+      "sha256": "c0da4f9fe26e6666acb7d80d02daea1f4f19e0af5f8ac437bae37f88e48c1a7c"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-389-digits-100.json",
+      "bytes": 1400,
+      "sha256": "5f6a4ba845bee20875c02954760993f054f32bd14a0f5a7d597ba4a9bcafee6a"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/case-389-digits-100.npz",
+      "bytes": 229134,
+      "sha256": "24c17416cf4f539454c57abc509bce8e9798992b8ff3c743591fa510ea2adbdd"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/protocol.json",
+      "bytes": 557,
+      "sha256": "d7cf0c890338bf5ae368c88ba46c01b9efe8802575d5db396157cd0c064929fe"
+    },
+    {
+      "path": "runs/soft-sphere-precision100/report.json",
+      "bytes": 6646,
+      "sha256": "c71c7fa7c2988e1db9983ecfe0efaa46baa087c37f74b31e4c5fe83fa84d9b37"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-155-digits-70.json",
+      "bytes": 1074,
+      "sha256": "827073734fd9f30190b27a2a3db1c1701f2ee7f5fe6d6f268141d42af0143cf7"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-155-digits-70.npz",
+      "bytes": 230122,
+      "sha256": "c8053caf9468665a58a5598b4b0aef4683fda3a8bd96fce6c17648d8b09b3b3a"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-196-digits-70.json",
+      "bytes": 1075,
+      "sha256": "9e27509227834d14f9341f58b5ed655eceb5c64a6c96ffbc515624804553bc2a"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-196-digits-70.npz",
+      "bytes": 229936,
+      "sha256": "9bf2b4cbb5d0166e5cf74ca0da5aa6390065f9b06108cb9b1e523f15b94cb403"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-251-digits-70.json",
+      "bytes": 1071,
+      "sha256": "1f05f64c74f1a4c0006a8e3c64a31e8f3467e311b2abbce1c65bb09ac0ebb99d"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-251-digits-70.npz",
+      "bytes": 230370,
+      "sha256": "183ddcd43c2bd2b1a0d83832890d0a0066f85e6e326ab94111c1dccbbb4c7772"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-389-digits-70.json",
+      "bytes": 1073,
+      "sha256": "b5d49d7df5f640bb971c0fd224f780fa11d522a4cf08ad601153f3510d7ee8a3"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/case-389-digits-70.npz",
+      "bytes": 229093,
+      "sha256": "73079b54f6a7b90423873069dfb0594e3c49dbe4310c79730e577cfe0c71724e"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/protocol.json",
+      "bytes": 556,
+      "sha256": "2fc38d40a31218acbc9b45e447070106dc6508f83d49ff9e9e337443eb252c2a"
+    },
+    {
+      "path": "runs/soft-sphere-precision70/report.json",
+      "bytes": 5323,
+      "sha256": "e6628f2654100d996744e55fbe0db9e5fba5990f1efba8479d62adf53e45a6ce"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/block-0000.npz",
+      "bytes": 145148,
+      "sha256": "9b5158da05d41b209913211151d51823e989c2cce33407fb00579ca0d01a1b45"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/block-0099.npz",
+      "bytes": 46770,
+      "sha256": "54a26999600dc12466782f025ecac59e81ec9d5bdb530779fd783f351f7de63f"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/block-0297.npz",
+      "bytes": 62106,
+      "sha256": "2f8c2ecb286a9f02b5a64f19c1a7b9ee193413c05f8367316be929379441f09a"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/block-0396.npz",
+      "bytes": 10394,
+      "sha256": "b55d09e09ea588124ee73b0495a1b7e77291e3e9a212294b9ec3acac922018c2"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/protocol.json",
+      "bytes": 1905,
+      "sha256": "f39f38e697a9cf84b82291c6c292bdd6bdfc487f788efbd6a96bfeae1ad9691b"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/report.json",
+      "bytes": 4070,
+      "sha256": "b1e9c37a9e2df61754d9736c85831cf07df60e4eedd24336da4d1668ff956231"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/soft-sphere-scout01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/soft-sphere-structure01/analyze_soft_constellations.py",
+      "bytes": 3392,
+      "sha256": "8657d8cf45ef095c8b6bdf1af1cb2872bf04cba0e51d07a8a2a03bd69d5321c8"
+    },
+    {
+      "path": "runs/soft-sphere-structure01/analyze_soft_sphere.py",
+      "bytes": 3658,
+      "sha256": "43ff91ff22696a616192bbb5afa4c41c663ea695d362a6fc6c934cf1e49f34a0"
+    },
+    {
+      "path": "runs/soft-sphere-structure01/report.json",
+      "bytes": 2214561,
+      "sha256": "c1d3f38dae4d9e00a2b2e08ca3ced39a8b228e420b6d4990eefb515025e40fde"
+    },
+    {
+      "path": "runs/soft-sphere-structure01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-structure01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/render_soft_sphere.py",
+      "bytes": 3920,
+      "sha256": "7b91128d9ae35e9bb5e870f3fc90e76f7aaa31425e98497bdebbaafdc3adcfbb"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/report.json",
+      "bytes": 41455,
+      "sha256": "878334afd5ad5496faec2480fe144f6392a9d9eb3faf87b278715a6c08639806"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/soft-sphere-verification01/verify_soft_sphere.py",
+      "bytes": 5893,
+      "sha256": "5c1b16699c29849f4913baa3327b3766215d9bd00f09c8c4820aa97a3076a2d3"
+    }
+  ]
+}

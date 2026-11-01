@@ -1,0 +1,83 @@
+{
+  "id": 155,
+  "source_sha256": "ab964ec7945af022d99f18364dcdebd7db22e27227435511590f48fe437443a5",
+  "states_sha256": "a176fb99ad7dfc7bd67d4f8ad133973698fdca536f57aef13f094267c9415a77",
+  "histogram_sha256": "8d8daf53b4a55804353b183ae39aa70442848d620b3ed46b8b590b786b91898c",
+  "center": [
+    -0.5343546057267763,
+    0.8887631866446122,
+    0.15030692301324902
+  ],
+  "basis": [
+    [
+      0.5990825975195935,
+      0.3646245807163012,
+      -0.7128456750844732
+    ],
+    [
+      0.2617936029260317,
+      0.7521596544856566,
+      0.6047478512826857
+    ],
+    [
+      0.7566796883861651,
+      -0.5489123512014278,
+      0.35514937685759285
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.6183227061506926,
+  "minimum_radius": 0.0032922854172811886,
+  "portrait": {
+    "id": "soft-sphere-155",
+    "file": "docs\\assets\\experimental\\soft-sphere-dense\\soft-sphere-155.png",
+    "sha256": "11d84d2640a2d1e81dd8b03cf8dc12034c1d8e1d0b59772fe93f1dd0b35c2462",
+    "panels": [
+      {
+        "input": {
+          "label": "155",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-dense01\\case-155-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "8d8daf53b4a55804353b183ae39aa70442848d620b3ed46b8b590b786b91898c",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            350,
+            45
+          ],
+          [
+            1450,
+            1189
+          ]
+        ],
+        "empty_margin": 46,
+        "square_rebin_factor": 1,
+        "zero_padding": [
+          0,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 7.710243014871567,
+        "occupied_bins": 109865,
+        "display_label": "Case 155"
+      }
+    ]
+  }
+}
