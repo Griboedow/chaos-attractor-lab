@@ -1,0 +1,11 @@
+{
+  "source": "Bergner and Spichtinger, arXiv:2507.03475v1 Eq.55--57, final DOI10.1063/5.0297531.",
+  "source_pdf_sha256": "145cd553d7aec8fe6fbaa19fbd7e6db1a66f5acd96a9ea351360c80703360c5d",
+  "source_scope": "Positive-interior full nucleation-mass model, frozen pressure and temperature with updraft source retained.",
+  "conventions": "cp=1005 is declared, not a recovered source constant; final printed sedimentation coefficients retained without inserting an earlier air-drag factor.",
+  "failure": "Original five-point Jacobian assertion failed after all three source integrations. Independent dimensional complex-step control replays the same smooth-side states and passes; original records remain.",
+  "extension": "The coefficient function gained an optional r0 argument after original controls. Default r0=3 and equations are unchanged. Executed source snapshots are frozen in every experiment.",
+  "selection": "All 2048 scout lanes complete; zero primary and two weak. Both starts at both weak tuples receive independent physical-field Radau returns, all numerical period one.",
+  "archive": "All saved source-control histories, scout inputs/endpoints, independent return histories and events are included in full. The original control stores its final ten tau, not every internal solver step.",
+  "limitation": "No global absence theorem, new attractor, first cloud chaos or observational validation claim."
+}

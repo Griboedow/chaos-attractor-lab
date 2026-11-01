@@ -1,0 +1,12 @@
+{
+  "source": "https://arxiv.org/abs/2507.03475v1; final article DOI10.1063/5.0297531",
+  "model": "Full Eq55--57 including nonzero nucleation mass and piecewise evaporation; no n_small regularization.",
+  "controls": "Three published low/middle/high updraft examples at declared T230K,p300hPa,F1,Na300/cm3,cp1005J/kg/K. Reproduces qualitative branch types, not exact source figure traces.",
+  "normalization": "u=log(n/n0),v=log(q/q0),s; full positive equilibrium n0,q0; tau=As*t.",
+  "caveats": [
+    "Specific heat cp1005 is a declared standard convention; no numerical value or author implementation was recovered.",
+    "The source sometimes uses Na10000/cm3 for reference comparisons. Here Na300/cm3 is explicit.",
+    "The final2026 article was identified, but this implementation is pinned to the accessible2025 preprint v1.",
+    "Constant p,T with updraft forcing is the published autonomous approximation, not a rising parcel thermodynamic history."
+  ]
+}
