@@ -1,0 +1,161 @@
+{
+  "rows": [
+    {
+      "index": 0,
+      "segments": 3,
+      "point": [
+        -1.0776618005076668,
+        0.04561237206305864,
+        0.11748519187281951
+      ],
+      "segment_time": 4.626992214451449,
+      "period": 13.880976643354348,
+      "shooting_residual": 3.328184856442318e-14,
+      "adaptive_full_closure_error": 4.530904900846947e-12,
+      "multipliers_direct": [
+        [
+          -456.17226357027386,
+          0.0
+        ],
+        [
+          1.0000000000032196,
+          0.0
+        ],
+        [
+          -6.786267305403325e-09,
+          0.0
+        ]
+      ],
+      "unstable_multiplier": -456.17226357027386,
+      "stable_modulus_inferred_from_divergence": 6.78629667378326e-09,
+      "rotation": 38,
+      "segment_symmetry_residual": 2.779623550759476e-14,
+      "rk4": [
+        {
+          "nominal_h": 0.004,
+          "actual_h": 0.003999128966682325,
+          "steps": 3471,
+          "endpoint": [
+            -1.0776617572845302,
+            0.04561225434083875,
+            0.1174852307459231
+          ],
+          "closure_error": 1.3129310255117896e-07
+        },
+        {
+          "nominal_h": 0.002,
+          "actual_h": 0.001999852563514529,
+          "steps": 6941,
+          "endpoint": [
+            -1.0776617979825993,
+            0.04561236510385103,
+            0.11748519417699797
+          ],
+          "closure_error": 7.7534363215902e-09
+        },
+        {
+          "nominal_h": 0.001,
+          "actual_h": 0.0009999983173657769,
+          "steps": 13881,
+          "endpoint": [
+            -1.0776618003553886,
+            0.045612371640617516,
+            0.11748519201289347
+          ],
+          "closure_error": 4.703890542439434e-10
+        },
+        {
+          "nominal_h": 0.0005,
+          "actual_h": 0.0004999991586828884,
+          "steps": 27762,
+          "endpoint": [
+            -1.077661800500614,
+            0.045612372043200206,
+            0.11748519187942269
+          ],
+          "closure_error": 2.2083962040290054e-11
+        }
+      ],
+      "seconds": 114.40260744094849
+    },
+    {
+      "index": 20,
+      "segments": 5,
+      "point": [
+        0.8815381478611759,
+        -0.4739734165953503,
+        0.56228698156911
+      ],
+      "segment_time": 5.2754419777388355,
+      "period": 26.37720988869418,
+      "shooting_residual": 2.2015679860119302e-13,
+      "adaptive_full_closure_error": 5.916725609164452e-10,
+      "multipliers_direct": [
+        [
+          -137613.74745039246,
+          0.0
+        ],
+        [
+          1.0000000221189829,
+          0.0
+        ],
+        [
+          1.5655542384457046e-11,
+          0.0
+        ]
+      ],
+      "unstable_multiplier": -137613.74745039246,
+      "stable_modulus_inferred_from_divergence": 2.4686195385625683e-16,
+      "rotation": 20,
+      "segment_symmetry_residual": 5.558881251808166e-15,
+      "rk4": [
+        {
+          "nominal_h": 0.004,
+          "actual_h": 0.003999576935359238,
+          "steps": 6595,
+          "endpoint": [
+            0.8829555913949904,
+            -0.47278852856021647,
+            0.5613657954563798
+          ],
+          "closure_error": 0.002064386030189767
+        },
+        {
+          "nominal_h": 0.002,
+          "actual_h": 0.001999940093160526,
+          "steps": 13189,
+          "endpoint": [
+            0.8816318632918552,
+            -0.47389582457798696,
+            0.5622269220739071
+          ],
+          "closure_error": 0.0001356843619210858
+        },
+        {
+          "nominal_h": 0.001,
+          "actual_h": 0.000999970046580263,
+          "steps": 26378,
+          "endpoint": [
+            0.8815441450187235,
+            -0.4739684543656784,
+            0.5622831417124241
+          ],
+          "closure_error": 8.679523105257129e-06
+        },
+        {
+          "nominal_h": 0.0005,
+          "actual_h": 0.0004999945007808583,
+          "steps": 52755,
+          "endpoint": [
+            0.8815385297129612,
+            -0.4739731006524273,
+            0.562286737091717
+          ],
+          "closure_error": 5.526299957593726e-07
+        }
+      ],
+      "seconds": 15.093234777450562
+    }
+  ],
+  "limits": "Full periodic-orbit multiple shooting uses the actual rounded coefficient field. Direct tiny Floquet multipliers can lose precision; the stable magnitude is also inferred from exact divergence and the neutral multiplier. Existence and least period are not interval certified."
+}

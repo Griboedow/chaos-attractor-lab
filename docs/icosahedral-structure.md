@@ -36,6 +36,8 @@ At a representative outer fan center of case 177, the numerical eigenvalues are 
 
 ## Finite visits between the fans
 
+**Follow-up:** a [neighborhood-size audit](icosahedral-cycles.md#correcting-the-interpretation-of-the-visit-graph) finds 60 consistently oriented edges at radii 0.16–0.30. All 194 apparently reversed transitions in the radius-0.12 record below skip one intermediate visit. The original measurements are retained; the larger-neighborhood comparison sharpens their interpretation.
+
 We place disjoint radius-`0.12` neighborhoods around the thirty fan centers. From the previously archived 16,000-unit orbit, sampled every `0.0125` units, consecutive visits to the same center are merged even if an excursion temporarily leaves all neighborhoods. The resulting record contains:
 
 - 1,797 visits, covering all thirty centers;

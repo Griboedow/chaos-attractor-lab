@@ -1,0 +1,514 @@
+{
+  "thresholds": [
+    {
+      "radius": 0.12,
+      "events": 1797,
+      "directed_edges": 118,
+      "same_sequence_as_02": false,
+      "reverse_edges_vs_02": 58,
+      "reverse_transitions_vs_02": 194
+    },
+    {
+      "radius": 0.16,
+      "events": 1992,
+      "directed_edges": 60,
+      "same_sequence_as_02": true,
+      "reverse_edges_vs_02": 0,
+      "reverse_transitions_vs_02": 0
+    },
+    {
+      "radius": 0.2,
+      "events": 1992,
+      "directed_edges": 60,
+      "same_sequence_as_02": true,
+      "reverse_edges_vs_02": 0,
+      "reverse_transitions_vs_02": 0
+    },
+    {
+      "radius": 0.25,
+      "events": 1993,
+      "directed_edges": 60,
+      "same_sequence_as_02": false,
+      "reverse_edges_vs_02": 0,
+      "reverse_transitions_vs_02": 0
+    },
+    {
+      "radius": 0.3,
+      "events": 1993,
+      "directed_edges": 60,
+      "same_sequence_as_02": false,
+      "reverse_edges_vs_02": 0,
+      "reverse_transitions_vs_02": 0
+    }
+  ],
+  "one_direction_per_geometric_edge": true,
+  "outdegree": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "indegree": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "faces": [
+    {
+      "vertices": [
+        0,
+        1,
+        2
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        0,
+        3,
+        4
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        1,
+        5,
+        9
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        2,
+        6,
+        10
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        3,
+        7,
+        11
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        4,
+        8,
+        12
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        5,
+        7,
+        14
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        6,
+        8,
+        15
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        9,
+        13,
+        17
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        10,
+        13,
+        18
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        11,
+        16,
+        19
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        12,
+        16,
+        20
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        14,
+        21,
+        23
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        15,
+        22,
+        24
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        17,
+        21,
+        25
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        18,
+        22,
+        26
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        19,
+        23,
+        27
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        20,
+        24,
+        28
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        25,
+        26,
+        29
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        27,
+        28,
+        29
+      ],
+      "size": 3,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        1,
+        2,
+        9,
+        10,
+        13
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        3,
+        4,
+        11,
+        12,
+        16
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        5,
+        9,
+        14,
+        17,
+        21
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        6,
+        10,
+        15,
+        18,
+        22
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        7,
+        11,
+        14,
+        19,
+        23
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        8,
+        12,
+        15,
+        20,
+        24
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        13,
+        17,
+        18,
+        25,
+        26
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        16,
+        19,
+        20,
+        27,
+        28
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        21,
+        23,
+        25,
+        27,
+        29
+      ],
+      "size": 5,
+      "directed_cycle": true
+    },
+    {
+      "vertices": [
+        22,
+        24,
+        26,
+        28,
+        29
+      ],
+      "size": 5,
+      "directed_cycle": true
+    }
+  ],
+  "missed_visit_path_lengths": {
+    "2": 194
+  },
+  "missed_visit_examples": [
+    {
+      "narrow": [
+        7,
+        14
+      ],
+      "wide_path": [
+        7,
+        5,
+        14
+      ]
+    },
+    {
+      "narrow": [
+        3,
+        11
+      ],
+      "wide_path": [
+        3,
+        7,
+        11
+      ]
+    },
+    {
+      "narrow": [
+        27,
+        28
+      ],
+      "wide_path": [
+        27,
+        29,
+        28
+      ]
+    },
+    {
+      "narrow": [
+        12,
+        4
+      ],
+      "wide_path": [
+        12,
+        8,
+        4
+      ]
+    },
+    {
+      "narrow": [
+        6,
+        2
+      ],
+      "wide_path": [
+        6,
+        10,
+        2
+      ]
+    }
+  ],
+  "cycles": [
+    {
+      "index": 0,
+      "visits_cyclic": [
+        0,
+        2,
+        1
+      ],
+      "distinct_centers": 3,
+      "matches_face": true,
+      "all_edges_follow_02_orientation": true,
+      "min_distance_to_focus": 0.11951400045330411,
+      "max_distance_to_nearest_focus": 0.39402712190725747
+    },
+    {
+      "index": 20,
+      "visits_cyclic": [
+        26,
+        29,
+        28,
+        24,
+        22
+      ],
+      "distinct_centers": 5,
+      "matches_face": true,
+      "all_edges_follow_02_orientation": true,
+      "min_distance_to_focus": 0.10558437235788543,
+      "max_distance_to_nearest_focus": 0.38483842964319653
+    }
+  ],
+  "limits": "Finite orbit and numerical cycles only; no invariant partition, heteroclinic connection, or certified periodic orbit is asserted."
+}

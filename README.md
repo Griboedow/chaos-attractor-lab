@@ -14,6 +14,8 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 The [structural follow-up](docs/icosahedral-structure.md) certifies 161 local equilibria for case 177 and records 1,796 transitions between thirty spiral centers along an icosidodecahedral graph. [Watch actual trajectory motion](docs/assets/icosahedral-motion.gif), with a fixed camera and an explicitly dimmed full-cloud background. The empirical graph is not a certified heteroclinic network.
 
+The [cycle follow-up](docs/icosahedral-cycles.md) resolves a neighborhood-size ambiguity: sixty consistently oriented edges remain, and the earlier apparent reversals skip shallow visits. Two unstable numerical orbits circle triangular and pentagonal faces, checked by full-cycle shooting, RK4 and 80/110-digit Taylor integration. [See the circuits inside the cloud](docs/assets/icosahedral-cycles.png). Periodic existence, asymptotic chaos and historical novelty remain uncertified.
+
 **[New search checkpoint: a tetrahedral flow around a stable center](docs/tetrahedral-flow.md).** A single trajectory weaves ribbons through all twelve symmetry sectors. Its 3.2-million-state portrait survives 40,000 time units, step refinement, independent DOP853 integration and fresh basin starts. Comparisons cover 108 known regimes and six earlier repository candidates. Tetrahedral maps and earlier three-dimensional tetrahedral chaos are established prior art; specific historical uniqueness remains open.
 
 ![One tetrahedral-flow trajectory under a rotating rigid camera](docs/assets/tetrahedral-flow.gif)

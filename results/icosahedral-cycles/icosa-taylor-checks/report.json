@@ -1,0 +1,48 @@
+{
+  "coefficient_checks": [
+    {
+      "point": [
+        -1.0776618005076668,
+        0.04561237206305864,
+        0.11748519187281951
+      ],
+      "first_order_error": 1.6653345369377348e-16,
+      "second_order_error": 5.438959822042073e-16
+    },
+    {
+      "point": [
+        0.31,
+        -0.82,
+        0.4
+      ],
+      "first_order_error": 3.4021815010030383e-16,
+      "second_order_error": 1.1157603309187458e-15
+    },
+    {
+      "point": [
+        1.0,
+        0.2,
+        -0.3
+      ],
+      "first_order_error": 1.5716250041522723e-16,
+      "second_order_error": 2.5438405243138006e-16
+    }
+  ],
+  "endpoint_checks": [
+    {
+      "index": 0,
+      "order24_step_halving_difference": "2.41587518968e-15",
+      "order24_h002_vs_order32_h004": "5.72067660269e-20",
+      "order32_80_vs_110_digits": "6.40532652067e-77",
+      "high_precision_closure_error": "3.0652214970445901623352930127375363498622486145155683934777280503157967427737222846364167566876241788770984041e-12"
+    },
+    {
+      "index": 20,
+      "order24_step_halving_difference": "9.87139189871e-13",
+      "order24_h002_vs_order32_h004": "1.57056802109e-17",
+      "order32_80_vs_110_digits": "6.22913171268e-74",
+      "high_precision_closure_error": "6.2535129846646817268247363002752224914802620325549266791669333543769124125995252879442676983107017583850832144e-11"
+    }
+  ],
+  "limits": "Consistency and convergence evidence only. Truncation error is not enclosed and the binary64 shooting initial data are not exact periodic roots."
+}
