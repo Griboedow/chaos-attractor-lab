@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "scope": "Executed algebraic-check source, retained report and primary-source review; no large numerical arrays.",
+  "files": [
+    {
+      "path": "check-source.py",
+      "bytes": 9184,
+      "sha256": "002fe72aa55307675379e5f0dd98a25153046d85c5f56feea68a79c4570e0f49"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2343,
+      "sha256": "e03b53741eb1b91a46f39d59acf26024ec6bbb90e1721ecda038c584bf30c0b6"
+    },
+    {
+      "path": "report.json",
+      "bytes": 16859,
+      "sha256": "8f9617d2438ce2489ca6973b17b15de29d67c3cea14956fdb5bb2735fc1786ab"
+    },
+    {
+      "path": "source-review.json",
+      "bytes": 2572,
+      "sha256": "eaf0095db4c5af7a80a23ad0414a4acd6569c2e3a53c6af6a708d764feec7f9d"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/fastica_local_injectivity.py",
+      "sha256": "002fe72aa55307675379e5f0dd98a25153046d85c5f56feea68a79c4570e0f49"
+    },
+    {
+      "path": "results/fastica-tripling/exact-check.json",
+      "sha256": "f69a97befee253c834b3df42e51cd120401cf1dbfc55507d4a345342a0504c6a"
+    },
+    {
+      "path": "results/fastica-tripling/code/precision_check.py",
+      "sha256": "1dd042c80d9155cdb328852ab97e85a141d3715f5bd068a8329cf2695f7ed0af"
+    }
+  ]
+}

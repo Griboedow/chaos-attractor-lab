@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-01",
+  "scope": "Primary sources for the local topological argument and the specified classical-solenoid comparison. Not an exhaustive priority audit.",
+  "sources": [
+    {
+      "title": "Algebraic Topology",
+      "author": "Allen Hatcher",
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+      "read_scope": "Theorem 2B.3, printed page 172, and local orientations on printed pages 233-235.",
+      "use": "A continuous local injection between equal-dimensional manifolds is a local homeomorphism. Comparison of pulled-back and chosen orientations is locally constant. The application to our connected K is derived in the report."
+    },
+    {
+      "title": "Family of Smale-Williams Solenoid Attractors as Orbits of Differential Equations: Exact Solution and Conjugacy",
+      "authors": [
+        "Yi-Chiuan Chen",
+        "Wei-Ting Lin"
+      ],
+      "url": "https://web.ma.utexas.edu/mp_arc/c/14/14-41.pdf",
+      "read_scope": "Abstract and Section I, especially the explicit embedding and contraction condition on manuscript page 3.",
+      "use": "Concrete classical solenoid map with an injective ambient realization."
+    },
+    {
+      "title": "On tame embeddings of solenoids into 3-space",
+      "authors": [
+        "Boju Jiang",
+        "Shicheng Wang",
+        "Hao Zheng",
+        "Qing Zhou"
+      ],
+      "year": 2011,
+      "doi": "10.4064/fm214-1-4",
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/89068",
+      "read_scope": "Introduction and Definition 3.8 on printed page 67.",
+      "use": "Classical Smale-solenoid definition uses a homeomorphism and nested solid tori."
+    }
+  ],
+  "bounded_queries": [
+    "\"FastICA\" \"solenoid\" attractor",
+    "\"normalized gradient\" \"critical\" \"attractor\"",
+    "\"tensor power iteration\" \"chaos\"",
+    "invariance of domain injective differentiable map determinant same sign connected domain theorem",
+    "Smale Williams solenoid embedding solid torus definition pdf author"
+  ],
+  "conclusion": "A proved ambient-neighborhood obstruction to locally injective maps; no claim of intrinsic nonequivalence, a new general mechanism, or first discovery. Earlier tensor-power and FastICA prior art remains applicable.",
+  "open_gaps": [
+    "Injectivity of F restricted to K",
+    "Intrinsic equivalence with known invariant-set dynamics",
+    "Whitney fold classification and location",
+    "Transitivity and equality with the sampled orbit closure",
+    "Historical priority of the exact finite-data realization"
+  ]
+}

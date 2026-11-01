@@ -20,6 +20,8 @@ article to its shorter report and numerical evidence.
 
 The [structured-data FastICA report](fastica-tripling.md) contains its full
 analytic proof, numerical controls and prior-art discussion in one document.
+Its [structural extension](fastica-tripling-structure.md) proves an obstruction
+to ambient-neighborhood equivalence with solenoid embeddings.
 
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)

@@ -21,6 +21,7 @@ instructions](manuscript-editing.md).
 | Motor periodic attractor | [Five-cluster certificate](motor-five-cycle-certificate.md), [proof implementation review](motor-proof-review.md) |
 | Presentation figures | [Rendering and date conventions](../tools/README-portraits.md) |
 | Structured-data FastICA | [Exact algebra, long runs, precision and library controls](../results/fastica-tripling/README.md) |
+| FastICA local noninjectivity | [Uniform algebraic checks and periodic-point controls](../results/fastica-local-injectivity/README.md) |
 
 ## Recorded environments and runtime checks
 
