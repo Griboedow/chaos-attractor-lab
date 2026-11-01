@@ -1,0 +1,715 @@
+{
+  "status": "passed",
+  "reviewed_at_utc": "2026-11-01T22:34:02.573242+00:00",
+  "scientific_revision": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+  "final_article_revision": "2ce73c35ad00831a389aeb69e5554b32a9e1416d",
+  "frozen_manifest_sha256": "9ea1fb3df7c16c3193a28ae5bad56de8dcb3a647ad960005a69dafcca9f9fbe7",
+  "browser": "156.0.4314.58",
+  "playwright": "1.64.1",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "primary_page_checks": [
+    {
+      "file": "README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/38b4cc824167d15088280102a2d8efaa7dd3c9dc/README.md",
+      "status": 200,
+      "source_sha256": "42168df96148061ebe146b33f6fcf7194cf9da059319be397cbfc3ded7cec229",
+      "expected_display_math": 0,
+      "expected_inline_math": 1,
+      "heading_count": 52,
+      "table_count": 5,
+      "display_math_count": 0,
+      "total_math_count": 1,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/icosahedral.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/icosahedral.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/raar.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/raar.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/raar-constellations.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/raar-constellations.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/soft-constellations.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/soft-constellations.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/soft-sphere.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/soft-sphere.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/canonical-sphere.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/canonical-sphere.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/product-alphabet.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/product-alphabet.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/product-irregular.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/product-irregular.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/anderson.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/anderson.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/rk45.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/rk45.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/yogi-tanh.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/yogi-tanh.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/sinkhorn-balanced.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/sinkhorn-balanced.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-four.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-four.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-eight.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-eight.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/fastica-tripling.webp",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/fastica-tripling.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/tetrahedral.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/gaussian-vortex.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/twist.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/raar-constellation-columns.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/raar-constellation-fans.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/rk23.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/yogi-arc.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/yogi.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/yogi-expansion.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/adamax.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/adabelief.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/fastica.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-five.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-three-asymmetric.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-three.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/motor-pair.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/synchronematic.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/lce-slider.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/two-strain.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/optical-relay.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/optical-smooth.png",
+          "loaded": true
+        }
+      ],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [],
+      "page_errors": [],
+      "screenshot": "README.png",
+      "screenshot_sha256": "83af661147ed3e09288ecad27ac6b723b7fea18b376ad683af112eeab43f2d5e",
+      "passed": true
+    },
+    {
+      "file": "docs/README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/README.md",
+      "status": 200,
+      "source_sha256": "58df1e216162887d136376bf44beacd611f31bb88bedb00866193dd65b50d102",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "heading_count": 1,
+      "table_count": 1,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [],
+      "page_errors": [],
+      "screenshot": "docs--README.png",
+      "screenshot_sha256": "b96b178e528bf74320a0f4638f31e2123c574d4a7776724f4919d2b919fb3dc7",
+      "passed": true
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/product-alphabet/manuscript.md",
+      "status": 200,
+      "source_sha256": "8980ea6130cef1e7c614e0eee3027509b55d1a2b52fe512655aa31d914317648",
+      "expected_display_math": 24,
+      "expected_inline_math": 106,
+      "heading_count": 18,
+      "table_count": 11,
+      "display_math_count": 24,
+      "total_math_count": 130,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/product-alphabet.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/portraits/product-irregular.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-irregular-approach.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-excursions.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-approach.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-coverings.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-orientation.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-mechanism.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-parameter-mechanism.png",
+          "loaded": true
+        }
+      ],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [
+        ",()=\u2061(\u2212(\u2212,)/)\u2211=\u2212\u2061(\u2212(\u2212,)/),()=\u2211=\u2212,(),.",
+        "()=()\u2212,()=\u2225()\u2225,()=()/(),()=+()+(\u2212)().",
+        "=(+)+(\u2212).",
+        "=\u2211,(,\u2212),=+(\u2212)+(\u2212)(\u2212).",
+        "=(\u2212),=+\u2061.",
+        "=+\u2061\u2061(/)+\u2061.",
+        "\u27f6,\u27f6\u27f6\u22ef\u27f6\u27f6,=.",
+        "(|)\u2265\u2061>,>,\u2212\u2212=",
+        "=\u22c3=\u22c3=().",
+        "det()()=\u220f=det()<",
+        "det()()=(det()())/\u2265,",
+        "\u2243(\u2212,,\u2212).",
+        "{+:\u2208,\u2225\u2225=}.",
+        "sup\u2208\u2225\u2212(()\u2212)\u2225<",
+        "||\u2265,\u2225\u2225\u2264,\u2225\u2225\u2264,\u2225\u2225\u2264.",
+        "=\u2212>>,+<\u22c5\u2212<,",
+        "+(+)<<,+<.",
+        "\u2260,(det)\u22c5\u2260",
+        "\u2243(,,),\u2243(,,).",
+        "\u2225()\u2225\u2264\u2225\u2225+,=+|\u2212|.",
+        "=.",
+        "=.",
+        "=(\u2212/)+((\u2212)+).",
+        "\u2225\u2225\u2264max(,|\u2212/|)+max(|\u2212|,|\u2212+/|)max."
+      ],
+      "page_errors": [],
+      "screenshot": "docs--product-alphabet--manuscript.png",
+      "screenshot_sha256": "11c7530f10ed6b0b27b53a176d0ce3b92c3b9651c14f7fd41dcd9748d12ef0b6",
+      "passed": true
+    },
+    {
+      "file": "docs/reproduction.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/reproduction.md",
+      "status": 200,
+      "source_sha256": "9ff6a50787308d2bdae0732c510450a6a82e5ff619af58b0c15d5a4eeefa9fba",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "heading_count": 3,
+      "table_count": 1,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [],
+      "page_errors": [],
+      "screenshot": "docs--reproduction.png",
+      "screenshot_sha256": "146829571abdf974060aad941f578bcbaa83c3fb228a89f4d3acd98063506286",
+      "passed": true
+    },
+    {
+      "file": "results/README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/38b4cc824167d15088280102a2d8efaa7dd3c9dc/results/README.md",
+      "status": 200,
+      "source_sha256": "32415fc3d461f6bf6b17f299282f382a91622d38098b42357ba367b05d880fe5",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "heading_count": 1,
+      "table_count": 0,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [],
+      "page_errors": [],
+      "screenshot": "results--README.png",
+      "screenshot_sha256": "5640ee27c2828a91ec2fa13e8f226238691c45f064817c944d6477aca4a0a1d9",
+      "passed": true
+    },
+    {
+      "file": "results/product-mechanism/README.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/38b4cc824167d15088280102a2d8efaa7dd3c9dc/results/product-mechanism/README.md",
+      "status": 200,
+      "source_sha256": "969001dd266a6f6270a27013c899bde970c65eb4920954f0c5bb46b5251c5340",
+      "expected_display_math": 0,
+      "expected_inline_math": 0,
+      "heading_count": 5,
+      "table_count": 1,
+      "display_math_count": 0,
+      "total_math_count": 0,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-mechanism.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/38b4cc824167d15088280102a2d8efaa7dd3c9dc/docs/assets/diagnostics/product-alphabet-parameter-mechanism.png",
+          "loaded": true
+        }
+      ],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [],
+      "page_errors": [],
+      "screenshot": "results--product-mechanism--README.png",
+      "screenshot_sha256": "8a4228f395e8fb5be8e6960d97ad5611a90eb81533067e481b4afbf00c6906e1",
+      "passed": true
+    }
+  ],
+  "revised_article_check": [
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/product-alphabet/manuscript.md",
+      "status": 200,
+      "source_sha256": "61930cc679f46e331c00a3060d666ea2de2d254e09d312cf8b962aa78341f87b",
+      "expected_display_math": 24,
+      "expected_inline_math": 107,
+      "heading_count": 18,
+      "table_count": 11,
+      "display_math_count": 24,
+      "total_math_count": 131,
+      "math_errors": [],
+      "unsupported_labeled_rows": 0,
+      "images": [
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/portraits/product-alphabet.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/portraits/product-irregular.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-irregular-approach.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-alphabet-excursions.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-alphabet-approach.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-alphabet-coverings.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-alphabet-orientation.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-alphabet-mechanism.png",
+          "loaded": true
+        },
+        {
+          "src": "/Griboedow/chaos-attractor-lab/raw/2ce73c35ad00831a389aeb69e5554b32a9e1416d/docs/assets/diagnostics/product-alphabet-parameter-mechanism.png",
+          "loaded": true
+        }
+      ],
+      "width": 1012,
+      "scroll_width": 1012,
+      "raw_display_delimiters": false,
+      "formula_symbols": [
+        ",()=\u2061(\u2212(\u2212,)/)\u2211=\u2212\u2061(\u2212(\u2212,)/),()=\u2211=\u2212,(),.",
+        "()=()\u2212,()=\u2225()\u2225,()=()/(),()=+()+(\u2212)().",
+        "=(+)+(\u2212).",
+        "=\u2211,(,\u2212),=+(\u2212)+(\u2212)(\u2212).",
+        "=(\u2212),=+\u2061.",
+        "=+\u2061\u2061(/)+\u2061.",
+        "\u27f6,\u27f6\u27f6\u22ef\u27f6\u27f6,=.",
+        "(|)\u2265\u2061>,>,\u2212\u2212=",
+        "=\u22c3=\u22c3=().",
+        "det()()=\u220f=det()<",
+        "det()()=(det()())/\u2265,",
+        "\u2243(\u2212,,\u2212).",
+        "{+:\u2208,\u2225\u2225=}.",
+        "sup\u2208\u2225\u2212(()\u2212)\u2225<",
+        "||\u2265,\u2225\u2225\u2264,\u2225\u2225\u2264,\u2225\u2225\u2264.",
+        "=\u2212>>,+<\u22c5\u2212<,",
+        "+(+)<<,+<.",
+        "\u2260,(det)\u22c5\u2260",
+        "\u2243(,,),\u2243(,,).",
+        "\u2225()\u2225\u2264\u2225\u2225+,=+|\u2212|.",
+        "=.",
+        "=.",
+        "=(\u2212/)+((\u2212)+).",
+        "\u2225\u2225\u2264max(,|\u2212/|)+max(|\u2212|,|\u2212+/|)max."
+      ],
+      "page_errors": [],
+      "screenshot": "docs--product-alphabet--manuscript.png",
+      "screenshot_sha256": "6eb86e330fb20017e6e9cf070f0c3fdac8212a676333f56c39783c9ba233eb56",
+      "passed": true
+    }
+  ],
+  "targeted_viewports": [
+    {
+      "file": "README.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "main-status.png",
+      "sha256": "b5ec84e5ed4099b7d0241748cb04c80b18f8a7bafbd1edfb874543e0738be1ea"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "article-opening.png",
+      "sha256": "7cdbdc55f0c9120946b94584ec0c1886c147c97a11a470ed306eb88e76dc5a8d"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "instability-theorem.png",
+      "sha256": "e7ef3be86b8f811264b300030b80ef5b856221d8628bb9f1bcfc2bddd12b20b0"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "uniqueness-formula.png",
+      "sha256": "37221a1911dc99f4a9a7bb80bfd3178ae08c2a7948524751a631a2a357caaf6c"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "graph-inequalities.png",
+      "sha256": "1f4a2ca58b6680d8673e59a56086db9cdb4e497e759a8519fc4c684c993b9a12"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "escape-proof.png",
+      "sha256": "e21ebaf030aef7a8a0021ad669c08483af8ada78d9117300c25e195048c9714d"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "proof-limits.png",
+      "sha256": "a875dec80bbc798239247671ee29983d05a3d16089c6f44729754b4bd3024793"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "fold-criterion.png",
+      "sha256": "3ec2b2c0e46ca18deb83f6f50faec987759d7784e7e8321ecfc87bffc154b49b"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "singular-preimages.png",
+      "sha256": "0859f6f7b5c7b821f5696c78cc291679300c03683718982ff45146a05149bcf4"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "absorbing-bound.png",
+      "sha256": "94f927cceee59fafc23e3e44b205eea31a6d1f5bcffc477ee358e9129f774e9f"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "switching-formula.png",
+      "sha256": "fcd850febf209458587664fae0d1a0984757c34e48a219cc42eec8a9dd1cc52b"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "norm-bound-growth-table.png",
+      "sha256": "0e77a3796d1ad9260cce9d892534ca4e82914b32ea0b128592a78fe14cf22d87"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "mechanism-figure.png",
+      "sha256": "daf23b5a349806c2b7cf7d828c66d964f6d9f4d7da9889ceee8878a0be7daaa9"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "parameter-figure.png",
+      "sha256": "debbd976b194852b2bff0e61efcd705a3b789e2629edd6394ce6733c12a53976"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "mechanism-prior-art.png",
+      "sha256": "b862d516648dfa2431d1e3209f94ca002d4d5095975fd32003fa7a1a5b627855"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "reference-comparison.png",
+      "sha256": "8b84ee45a9d209324d3f6fa99bc5d499e993e82d86bf57937c1aeae749844c5a"
+    },
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "four-question-outcomes.png",
+      "sha256": "778559273cbb0202ce97de4831e70224905b6fea9c720bdb267c7f2aedd21818"
+    },
+    {
+      "file": "docs/README.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "docs-index.png",
+      "sha256": "5c4af8510fc05e0bac1456332f5dc3251b689ef6cc535fd3d70728de4844f386"
+    },
+    {
+      "file": "docs/reproduction.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "reproduction-link.png",
+      "sha256": "0e6a8a652fa0c08802ed478b624ffea39bec58b657a589898779ce698c1eb1ee"
+    },
+    {
+      "file": "results/README.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "results-index.png",
+      "sha256": "45286e49951ff22d872dc8909a413ee562127ea9bed17771e6305933e19776bf"
+    },
+    {
+      "file": "results/product-mechanism/README.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "packet-certificate-table.png",
+      "sha256": "5510edc5401a36103b1870ac2ce8ad5feda5b50280a4a33f7bba924550760796"
+    },
+    {
+      "file": "results/product-mechanism/README.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "packet-inventory.png",
+      "sha256": "c1514f00988f897b96258bee1fe64154a6ee194403ef132b95eaee84d1710d11"
+    },
+    {
+      "file": "results/product-mechanism/README.md",
+      "ref": "38b4cc824167d15088280102a2d8efaa7dd3c9dc",
+      "screenshot": "packet-reproduction.png",
+      "sha256": "95959f2dbeec984294e04f208eeec4d30f5546018e0c31eecc69f305c9af5fda"
+    }
+  ],
+  "remote_byte_checks": [
+    {
+      "file": "docs/product-alphabet/manuscript.md",
+      "sha256": "8980ea6130cef1e7c614e0eee3027509b55d1a2b52fe512655aa31d914317648",
+      "bytes": 70239
+    },
+    {
+      "file": "results/product-mechanism/README.md",
+      "sha256": "969001dd266a6f6270a27013c899bde970c65eb4920954f0c5bb46b5251c5340",
+      "bytes": 9212
+    },
+    {
+      "file": "results/product-mechanism/manifest.json",
+      "sha256": "9ea1fb3df7c16c3193a28ae5bad56de8dcb3a647ad960005a69dafcca9f9fbe7",
+      "bytes": 49709
+    },
+    {
+      "file": "results/product-mechanism/literature-review.json",
+      "sha256": "a1e8ccd6ebddd86a9a684db9f403e1a4f0644d74defdcc3c137b2bdd00f23f20",
+      "bytes": 3611
+    },
+    {
+      "file": "docs/assets/diagnostics/product-alphabet-mechanism.png",
+      "sha256": "b7e9651584ac575e1a54a696d48f16e685c778b65e3dfc6cfb9a04e5bd020901",
+      "bytes": 1252749
+    },
+    {
+      "file": "docs/assets/diagnostics/product-alphabet-parameter-mechanism.png",
+      "sha256": "75953f4574ed0ab513cf33b1dd5b1f9e6291ae9dadbf209a32baeb61b139f56e",
+      "bytes": 1581412
+    }
+  ],
+  "revised_slope_viewport": {
+    "ref": "2ce73c35ad00831a389aeb69e5554b32a9e1416d",
+    "file": "docs/product-alphabet/manuscript.md",
+    "sha256": "61930cc679f46e331c00a3060d666ea2de2d254e09d312cf8b962aa78341f87b",
+    "screenshot_sha256": "de3e51c966a6a042f0bc7e6820c7cd4ae8c0c2370b981adc8278ece27a230875",
+    "scope": "Published revised slope paragraph, equations and raw article bytes."
+  },
+  "visual_review": {
+    "status": "passed",
+    "inspected": "All 23 targeted published screenshots plus the revised slope paragraph. Theorem statements, complete uniqueness/graph inequalities, fold criterion, singular-preimage coordinates, absorbing bound, switching-width and derivative-norm formulas, conditional-growth table, both figures and captions, prior-art comparison, four-question outcome table, indices and reproduction blocks were inspected.",
+    "findings": "No missing math terms, unsupported operators, broken image loads or clipped table content found. Long reproduction commands use native horizontal code-block scrolling. One prose reference was clarified to name the slope ratio explicitly; the revised published paragraph and full article DOM were rechecked.",
+    "not_claimed": "This publication review is not another numerical proof or a historical novelty certificate. The 24-second rotations are unchanged and covered by the existing portrait checks."
+  },
+  "local_checks": {
+    "manuscripts": "14 passed; 580 local links",
+    "render_dates": "sync/check passed; 94 dated occurrences; no caption changes",
+    "portraits": "36 families, 63 panels, 15 animations; input receipts and animation checks passed",
+    "storage": "1919 optional payloads;1805 compact files; policy check passed",
+    "packet": "All 246 inventoried files checked against retained bytes or external cache; all 233 manifest payloads match staged Git bytes exactly",
+    "interval_audits": [
+      "product-unstable-escape988-audit07",
+      "product-local-geometry988-audit01"
+    ],
+    "numerical_audit": "product-mechanism988-verification01; complete scan/critical-array replay, 128 formula/derivative probes and 2048 tangent updates",
+    "reference_replay": "Five Lotka-Volterra regimes, every saved array and comparison summary matched the frozen-source replay"
+  },
+  "scope": "Published HTML and exact remote bytes at named revisions. The final article differs from the scientific revision by one clarified slope sentence; the frozen numerical packet and figures are unchanged."
+}
