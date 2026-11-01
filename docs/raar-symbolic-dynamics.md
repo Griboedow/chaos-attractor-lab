@@ -2,7 +2,7 @@
 
 The serrated-arch example now has a computer-assisted proof of a compact invariant set with positive topological entropy. Eight covering relations pass two interval implementations. Arbitrary binary sequences are realized by concatenating two 49-step routes. A separately located saddle has exact least period 49.
 
-This establishes chaotic complexity in the exact map. It does not yet establish that the certified set attracts an open set of starts, that it equals the displayed cloud, or that the attractor is historically new.
+This establishes chaotic complexity in the exact map. The [later trapping-region study](raar-trapping.md) places this symbolic set inside a compact attracting invariant set with the same entropy lower bound. Attraction of the symbolic subset itself, equality of the containing set with the displayed cloud, and historical uniqueness are not asserted. This page and its original manuscript describe the earlier covering result.
 
 ![Actual reference states and certified cycles](assets/raar-symbolic-geometry.png)
 

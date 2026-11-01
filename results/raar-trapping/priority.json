@@ -1,0 +1,40 @@
+{
+  "review_date": "2026-11-01",
+  "queries": [
+    "\"RAAR\" \"topological entropy\"",
+    "\"relaxed averaged alternating reflections\" \"attractor\"",
+    "\"Douglas Rachford\" \"circles\" chaos attractor proof",
+    "\"Douglas-Rachford\" \"positive entropy\"",
+    "\"RAAR\" \"computer-assisted\" chaos",
+    "\"projection\" \"circle\" \"trapping region\" \"attractor\""
+  ],
+  "outcome": "No exact matching spatial-circle trapping/entropy result located among returned sources. This bounded search does not prove priority or inequivalence.",
+  "additional_primary_source": {
+    "authors": "Albert Fannjiang and Zheqing Zhang",
+    "title": "Fixed Point Analysis of Douglas-Rachford Splitting for Ptychography and Phase Retrieval",
+    "journal": "SIAM Journal on Imaging Sciences 13(2), 609-650 (2020)",
+    "doi": "10.1137/19M128781X",
+    "author_pdf": "https://www.math.ucdavis.edu/~fannjiang/home/papers/DRS-ptycho-reprint.pdf",
+    "pdf_sha256": "e5a7eeff9e36abd85394b9fff5f377ea9e2795ad83dd188b68c7279a9e8033ad",
+    "inspection": "Abstract; Theorem 4.6 statement; opening of Section 7, its discussion preceding Section 7.1 and RAAR equation 7.3; concluding discussion on printed pages 640-641. Extracted text read locally and matched to the author-hosted web text. Not every proof or figure was reviewed; no figure-level comparison is claimed.",
+    "prior_result": "Gaussian-DRS sequences are bounded under the theorem's hypotheses. The discussion considers possible nontrivial and strange attractors in imaging, with their detailed analysis left open there.",
+    "comparison": "The constraints and dimension differ from the present pair of spatial circles. Neither this distinction nor the paper's open discussion proves attractor inequivalence or establishes priority for our later exact instance. This source reinforces the need to credit prior algorithmic-attractor work."
+  },
+  "bibliography_checks": [
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1229638",
+      "scope": "Publisher metadata confirms Luke and Martins, SIAM Journal on Optimization 30(1), 542-584 (2020). Earlier detailed source review remains in the existing priority packets."
+    },
+    {
+      "url": "https://doi.org/10.1088/0266-5611/21/1/004",
+      "scope": "Publisher metadata confirms Luke, Inverse Problems 21 (2005), 37-50; online publication 9 November 2004."
+    }
+  ],
+  "retained_gaps": [
+    "Elser et al. 2007 supplementary information remains unread; earlier access challenges were not bypassed.",
+    "Full Elser 2025 Reflect-Reflect-Relax/global-behavior chapter remains unread.",
+    "No exhaustive classification or nonlinear-conjugacy comparison with all known attractors."
+  ],
+  "new_repository_contribution": "An explicit regular strict trapping region at the exact R1051 spatial-circle parameters, combined with the existing certified covering graph to place positive entropy in an attracting invariant set. Transitivity, equality with the finite visual cloud, and historical uniqueness remain unproved.",
+  "redistribution": "Source hashes and review scope only. No third-party publication PDF is included."
+}

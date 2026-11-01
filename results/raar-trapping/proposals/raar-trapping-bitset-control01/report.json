@@ -1,0 +1,28 @@
+{
+  "status": "not_closed",
+  "reason": "Iteration limit or sampled closure",
+  "step": 0.01,
+  "initial_pad": 0,
+  "image_buffer": 0,
+  "image_shape": "zonotope",
+  "domain_pad": 0.35,
+  "grid_cells": 39693888,
+  "initial_occupied": 142614,
+  "final_occupied": 785526,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 142614,
+      "processed": 142614,
+      "added": 642912,
+      "status": 0,
+      "minimum_sampled_axis": 0.03074520550121189,
+      "seconds": 33.96119499206543
+    }
+  ],
+  "failing_key": -1,
+  "failing_position": 142614,
+  "source_sha256": "ae3f3be9df6a8db46c9a6753555bf9132a3ddb6789c4d02daf41d2d5363f5b70",
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Numerical forward-closure proposal from box vertices and centers. Zonotope remainder is sampled, not an interval bound. No invariant-region theorem, attraction proof or historical novelty claim. All attempted resolutions and failures are retained."
+}

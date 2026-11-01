@@ -10,7 +10,7 @@ The selected R1051 arch contains a visible seven-fold arrangement. A certified u
 *First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/689f1b75d2583010de732c4151550275c9be20b1/docs/assets/raar-cycle-geometry.png)).*
 <!-- /drawing-date -->
 
-The orange points are separate discrete states, labeled in iteration order. They are not a continuous closed curve. Their distances from the finite million-state reference sample range from 0.003886 to 0.004947. This visual correspondence does not prove membership in an asymptotic attracting set. The four inset cycles occur at different relaxation parameters, rather than coexisting at the base setting.
+The orange points are separate discrete states, labeled in iteration order. They are not a continuous closed curve. Their distances from the finite million-state reference sample range from 0.003886 to 0.004947. This visual correspondence alone does not prove attraction. The [later trapping proof](raar-trapping.md) places the base seven-cycle inside a compact attracting invariant set with positive entropy. The four inset cycles occur at different relaxation parameters, rather than coexisting at the base setting.
 
 ## What is certified
 

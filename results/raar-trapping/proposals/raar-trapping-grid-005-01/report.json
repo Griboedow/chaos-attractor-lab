@@ -1,0 +1,27 @@
+{
+  "status": "not_closed",
+  "reason": "New-cell budget exceeded",
+  "step": 0.005,
+  "initial_pad": 1,
+  "image_buffer": 0,
+  "domain_pad": 0.35,
+  "grid_cells": 316153187,
+  "initial_occupied": 2265378,
+  "final_occupied": 4382342,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 2265378,
+      "processed": 979508,
+      "added": 2116964,
+      "status": 4,
+      "minimum_sampled_axis": 0.024763493271431035,
+      "seconds": 5.174131393432617
+    }
+  ],
+  "failing_key": 153397060,
+  "failing_position": 979508,
+  "source_sha256": "836c8a0447cf4024552ce65e776a15acfe1ecd6ee229a69aa732b828817ac0f2",
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Numerical forward-closure proposal from box vertices and centers. No interval enclosure, invariant-region theorem, attraction proof or historical novelty claim. All attempted resolutions and failures are retained."
+}

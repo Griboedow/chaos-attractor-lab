@@ -1,0 +1,27 @@
+{
+  "status": "not_closed",
+  "reason": "Occupied cube intersects B projection axis",
+  "step": 0.02,
+  "initial_pad": 2,
+  "image_buffer": 1,
+  "domain_pad": 0.35,
+  "grid_cells": 4988412,
+  "initial_occupied": 284038,
+  "final_occupied": 902635,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 284038,
+      "processed": 127909,
+      "added": 618597,
+      "status": 1,
+      "minimum_sampled_axis": 0.009225461137880258,
+      "seconds": 4.373622417449951
+    }
+  ],
+  "failing_key": 2374406,
+  "failing_position": 127909,
+  "source_sha256": "836c8a0447cf4024552ce65e776a15acfe1ecd6ee229a69aa732b828817ac0f2",
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Numerical forward-closure proposal from box vertices and centers. No interval enclosure, invariant-region theorem, attraction proof or historical novelty claim. All attempted resolutions and failures are retained."
+}

@@ -4,7 +4,15 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 **[Gallery with drawing dates](docs/attractor-gallery.md).** Every portrait has its date beside it. Older dates identify the first recorded drawing in project history; new images record their actual drawing date. These are our image dates, not historical discovery dates. [Date records and workflow](tools/README-render-dates.md).
 
-**[Certified symbolic dynamics behind the serrated RAAR arch](docs/raar-symbolic-dynamics.md).** Eight covering relations pass two interval map implementations. Two 49-step routes realize arbitrary binary sequences and prove a compact invariant set with topological entropy at least log(2)/49. A separate certificate locates a least-period-49 saddle with exactly one unstable multiplier. The [seven-page article](papers/raar-symbolic-dynamics/manuscript.pdf) includes the proof, actual-state figures, all failed proposals and explicit limits: attraction of this set and historical uniqueness remain unresolved.
+**[A certified attracting positive-entropy set around the RAAR arch](docs/raar-trapping.md).** All 21,405,802 cubes of an explicit region map strictly inside it, with a positive margin and no projection singularities. The previously certified symbolic dynamics lies in the resulting attracting invariant set, whose entropy is at least log(2)/49. The [new article](papers/raar-trapping/manuscript.pdf) gives the proof and full reproduction. Transitivity, equality with the numerical cloud and historical uniqueness remain unresolved.
+
+![Actual RAAR states approaching the serrated arch from a volume of starts](docs/assets/raar-trapping-approach.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-01**.*
+<!-- /drawing-date -->
+
+**[The underlying certified symbolic dynamics](docs/raar-symbolic-dynamics.md).** Eight covering relations pass two interval map implementations. Two 49-step routes realize arbitrary binary sequences; a separate certificate locates a least-period-49 saddle with exactly one unstable multiplier. The original [seven-page article](papers/raar-symbolic-dynamics/manuscript.pdf) retains its proof and explicit original scope. The new trapping result establishes attraction for a containing invariant set, not necessarily for the symbolic subset itself.
 
 [Native geometry and certified cycles](docs/assets/raar-symbolic-geometry.png) · [The two-route graph](docs/assets/raar-symbolic-graph.png) · [Coded excursions](docs/assets/raar-symbolic-itineraries.png) · [Reproduce the certificates](papers/raar-symbolic-dynamics/README.md)
 

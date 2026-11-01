@@ -1,0 +1,79 @@
+{
+  "method": "geometric",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "numba": "0.68.1",
+    "mpmath": "1.3.0",
+    "numba_path": "C:\\Users\\urfin\\Documents\\ChatGPT\\\u043c\u0430\u0440\u043a\u0435\u0440\u044b \u0434\u043b\u044f \u0432\u044f\u0437\u0430\u043d\u0438\u044f\\chaos-attractor-lab\\outputs\\search-env\\Lib\\site-packages\\numba\\__init__.py"
+  },
+  "primitive_checks": 7026,
+  "independent_point_and_jacobian_checks": 1024,
+  "rows": [
+    {
+      "radius": 0.0,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        2.917432961879741e-11,
+        2.925082398519408e-11,
+        2.9216185026825776e-11
+      ]
+    },
+    {
+      "radius": 0.0001,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        9.890558728156308e-06,
+        1.0719536197341704e-05,
+        1.1103457029164222e-05
+      ]
+    },
+    {
+      "radius": 0.00125,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        0.0016423264511533672,
+        0.0017792807705904726,
+        0.001834383455531981
+      ]
+    },
+    {
+      "radius": 0.005,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        0.032396428621585524,
+        0.03502943158107097,
+        0.03526677374240603
+      ]
+    }
+  ],
+  "parameters": [
+    0.9708823579074815,
+    1.9886915469542146,
+    0.9028818255996501,
+    -0.1435409113764763,
+    0.5745496526360512,
+    -0.7745124697685242
+  ],
+  "trig_intervals": [
+    [
+      0.785115025936579,
+      0.7851150259365792
+    ],
+    [
+      0.6193499786458415,
+      0.6193499786458417
+    ]
+  ],
+  "seconds_per_enclosure": 0.00012503191828727722,
+  "total_seconds": 23.366101264953613,
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Implementation sanity checks, not exhaustive tests or a trapping certificate. Arithmetic enclosures rely on the stated IEEE binary64 and correctly rounded sqrt assumptions.",
+  "raar_interval64.py_sha256": "4257c430e1be70fbc0065caa96b69123c3f00e33742d0ae76720e93ebb98acdc",
+  "raar_geometric_enclosure.py_sha256": "5ec12efa3a2aaa62cc926f3d3b170a3321485f228033c1fa443f376842805925",
+  "validate_raar_interval64.py_sha256": "32bfb5302f14f49a04712911ebdfcce29c4d6c65f9932f712a40be661212b5c9"
+}

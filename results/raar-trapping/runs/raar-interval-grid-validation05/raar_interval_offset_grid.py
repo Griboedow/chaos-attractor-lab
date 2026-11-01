@@ -1,0 +1,162 @@
+"""Outward rasterization of RAAR image enclosures onto a packed cubical grid.
+
+Cell coordinates are exact origin + binary64_step * integer. Subdivision uses
+integer addresses at dyadic depths. Separating directions are arbitrary chosen
+binary64 vectors: their construction need not be exact. Only outward dot
+products may reject target cells. The positive image margin is included before
+rasterization. A completed forward closure still needs its provenance and
+processed-cell accounting audited before an invariant-set claim is made.
+"""
+import numpy as np
+from numba import njit
+from propose_raar_trapping_bitset import marked, mark
+from search_raar_circles import step
+from raar_interval_scalar import add, sub, mul, up, down
+from raar_geometric_scalar import point, remainder
+
+
+@njit(cache=False)
+def coordinate_interval(origin, step_size, address):
+    return add(point(origin), mul(point(step_size), point(address)))
+
+
+@njit(cache=False)
+def target_separated(index, origin, h, center, directions, support, offset):
+    displacement = np.empty((3, 2))
+    for j in range(3):
+        displacement[j] = sub(coordinate_interval(origin[j], h, index[j]-offset[j]+.5), point(center[j]))
+    for k in range(len(directions)):
+        projection = point(0.)
+        for j in range(3):
+            projection = add(projection, mul(point(directions[k, j]), displacement[j]))
+        if projection[0] > support[k] or projection[1] < -support[k]:
+            return True
+    return False
+
+
+@njit(cache=False)
+def raster_parameters(center, J, radii, errors, origin, h, offset):
+    directions = np.zeros((15, 3))
+    directions[:3] = np.eye(3)
+    k = 3
+    for i in range(3):
+        for j in range(i+1, 3):
+            directions[k] = np.cross(J[:, i], J[:, j]); k += 1
+    for i in range(3):
+        for j in range(3):
+            directions[k] = np.cross(J[:, i], np.eye(3)[j]); k += 1
+    support = np.empty(15)
+    for k in range(15):
+        length = np.linalg.norm(directions[k])
+        if length > 1e-15:
+            directions[k] /= length
+        bound = 0.
+        for j in range(3):
+            projected_column = point(0.)
+            for i in range(3):
+                projected_column = add(projected_column, mul(point(directions[k, i]), point(J[i, j])))
+            bound = up(bound+up(max(abs(projected_column[0]), abs(projected_column[1]))*radii[j]))
+        for i in range(3):
+            bound = up(bound+up(abs(directions[k, i])*up(errors[i]+.5*h)))
+        support[k] = bound
+    lower_index, upper_index = np.empty(3, np.int64), np.empty(3, np.int64)
+    for i in range(3):
+        radius = errors[i]
+        for j in range(3):
+            radius = up(radius+up(abs(J[i, j])*radii[j]))
+        lower, upper = down(center[i]-radius), up(center[i]+radius)
+        lower_index[i] = int(np.floor(down(down(lower-origin[i])/h)))+offset[i]
+        upper_index[i] = int(np.floor(up(up(upper-origin[i])/h)))+offset[i]
+    return lower_index, upper_index, directions, support
+
+
+@njit(cache=False)
+def bounds(center, J, radii, errors, origin, h, offset):
+    a, b = np.empty(3, np.int64), np.empty(3, np.int64)
+    for i in range(3):
+        radius = errors[i]
+        for j in range(3):
+            radius = up(radius+up(abs(J[i, j])*radii[j]))
+        lo, hi = down(center[i]-radius), up(center[i]+radius)
+        a[i] = int(np.floor(down(down(lo-origin[i])/h)))+offset[i]
+        b[i] = int(np.floor(up(up(hi-origin[i])/h)))+offset[i]
+    return a, b
+
+
+@njit(cache=False)
+def advance(frontier, mask, shape, origin, h, p, trig, margin, max_new, max_depth, offset):
+    """Validate images, refining only uncertain membership; add final enclosures.
+
+    Every accepted leaf's image plus the margin is contained in the current
+    monotonically growing mask. Newly marked cells are returned for processing.
+    No source is skipped because its center alone maps inside the mask.
+    """
+    ny, nz = shape[1], shape[2]
+    new = [np.int64(0) for _ in range(0)]
+    minimum, largest_remainder = 1e100, 0.
+    splits, leaves, deepest, bbox_accepts = 0, 0, 0, 0
+    for pos, key in enumerate(frontier):
+        ix, iy, iz = key//(ny*nz), (key//nz)%ny, key%nz
+        stack = [(ix, iy, iz, 0)]
+        while stack:
+            sx, sy, sz, depth = stack.pop()
+            scale = 2**depth
+            physical = np.array([sx, sy, sz])-offset*scale
+            width = h/scale
+            box, mid = np.empty((3, 2)), np.empty(3)
+            for j in range(3):
+                box[j, 0] = coordinate_interval(origin[j], width, float(physical[j]))[0]
+                box[j, 1] = coordinate_interval(origin[j], width, float(physical[j]+1))[1]
+                mid[j] = origin[j]+width*(physical[j]+.5)
+                assert box[j, 0] <= mid[j] <= box[j, 1]
+            center, J, _, center_flag = step(mid, p)
+            if center_flag or not np.isfinite(center).all() or not np.isfinite(J).all():
+                return np.array(new), 2, pos, key, minimum, splits, leaves, deepest, bbox_accepts
+            radii, errors, axis, flag = remainder(box, mid, center, J, p, trig, margin)
+            outside, covered = False, False
+            missing = [np.int64(0) for _ in range(0)]
+            if not flag and np.isfinite(errors).all():
+                a, b = bounds(center, J, radii, errors, origin, h, offset)
+                outside = np.any(a < 0) or np.any(b >= shape)
+                if not outside:
+                    covered = True
+                    for tx in range(a[0], b[0]+1):
+                        for ty in range(a[1], b[1]+1):
+                            for tz in range(a[2], b[2]+1):
+                                if not marked(mask, (tx*ny+ty)*nz+tz):
+                                    covered = False; break
+                            if not covered: break
+                        if not covered: break
+                    if covered:
+                        bbox_accepts += 1
+                    else:
+                        aa, bb, directions, support = raster_parameters(center, J, radii, errors, origin, h, offset)
+                        assert np.all(aa == a) and np.all(bb == b)
+                        for tx in range(a[0], b[0]+1):
+                            for ty in range(a[1], b[1]+1):
+                                for tz in range(a[2], b[2]+1):
+                                    target = (tx*ny+ty)*nz+tz
+                                    if marked(mask, target): continue
+                                    if not target_separated(np.array([tx, ty, tz]), origin, h, center, directions, support, offset):
+                                        missing.append(target)
+                        covered = len(missing) == 0
+            else:
+                flag = flag or 2
+            if not covered and depth < max_depth:
+                splits += 1
+                for k in range(8):
+                    stack.append((2*sx+(k&1), 2*sy+((k>>1)&1), 2*sz+((k>>2)&1), depth+1))
+                continue
+            if flag or outside:
+                return np.array(new), (1 if flag else 3), pos, key, minimum, splits, leaves, deepest, bbox_accepts
+            for target in missing:
+                if not marked(mask, target):
+                    mark(mask, target); new.append(target)
+            leaves += 1
+            deepest = max(deepest, depth)
+            minimum = min(minimum, axis)
+        if len(new) > max_new:
+            return np.array(new), 4, pos, key, minimum, splits, leaves, deepest, bbox_accepts
+    return np.array(new), 0, len(frontier), -1, minimum, splits, leaves, deepest, bbox_accepts
+
+

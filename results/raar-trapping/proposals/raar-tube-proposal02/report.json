@@ -1,0 +1,106 @@
+{
+  "tangent": 0.01,
+  "axis_fraction": 0.08,
+  "neighbors": 64,
+  "radius_mode": "curvature-budget",
+  "frames_source": "D:\\Codex\\chaos-attractor-search-20261031\\raar-tube-proposal01\\frames.npz",
+  "frames_sha256": "4fba8f6505c5b880574bf544f208f64ab669795891851ba924a61b35cd503c71",
+  "rows": [
+    {
+      "epsilon": 1e-06,
+      "samples": 5000,
+      "points": 135000,
+      "undefined": 0,
+      "inside": 81412,
+      "inside_fraction": 0.6030518518518518,
+      "all_vertices_inside_boxes": 2057,
+      "score_quantiles": [
+        0.0,
+        0.8218571727696544,
+        4.130445300071737,
+        19.448602409400216,
+        224.2080192811381
+      ],
+      "minimum_sampled_axis": 0.045012859309536045,
+      "normal_radius_quantiles": [
+        1.0000257116224766e-06,
+        2.7991054416830115e-06,
+        8.017282242103402e-06,
+        0.00021001089623139674
+      ],
+      "tangent_radius_quantiles": [
+        2.0781546720653375e-05,
+        0.0008830318206554842,
+        0.0038738737713558077,
+        0.01
+      ],
+      "B_axis_intersecting_boxes": 0,
+      "seconds": 12.047176122665405
+    },
+    {
+      "epsilon": 1e-05,
+      "samples": 5000,
+      "points": 135000,
+      "undefined": 0,
+      "inside": 103532,
+      "inside_fraction": 0.7669037037037038,
+      "all_vertices_inside_boxes": 2640,
+      "score_quantiles": [
+        0.0,
+        0.659254033481047,
+        1.933583034336703,
+        10.672597276546126,
+        149.36757376449978
+      ],
+      "minimum_sampled_axis": 0.04498078390266169,
+      "normal_radius_quantiles": [
+        1.0000257116224767e-05,
+        2.7991054416830122e-05,
+        8.017282242103403e-05,
+        0.0021001089623139675
+      ],
+      "tangent_radius_quantiles": [
+        6.571702093846762e-05,
+        0.0027923917996766487,
+        0.01,
+        0.01
+      ],
+      "B_axis_intersecting_boxes": 0,
+      "seconds": 14.631109476089478
+    },
+    {
+      "epsilon": 0.0001,
+      "samples": 5000,
+      "points": 135000,
+      "undefined": 0,
+      "inside": 123052,
+      "inside_fraction": 0.9114962962962962,
+      "all_vertices_inside_boxes": 3736,
+      "score_quantiles": [
+        0.0,
+        0.44540339203123414,
+        0.9462149412576047,
+        4.58131768553315,
+        33.15208552350763
+      ],
+      "minimum_sampled_axis": 0.04476669652616633,
+      "normal_radius_quantiles": [
+        0.00010000257116224767,
+        0.0002799105441683012,
+        0.0008017282242103401,
+        0.021001089623139676
+      ],
+      "tangent_radius_quantiles": [
+        0.00020781546720653377,
+        0.008827432940806228,
+        0.01,
+        0.01
+      ],
+      "B_axis_intersecting_boxes": 0,
+      "seconds": 17.30965256690979
+    }
+  ],
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "source_sha256": "f6940a0f7df376675206d3e36d8d6b8e81b515463697c00fe191836a35f0b327",
+  "scope": "Finite local-frame and vertex diagnostics only. Tangent frames, transported radii, nonlinear remainder estimates and membership searches are numerical. No enclosure of whole boxes or proof of trapping/attraction."
+}

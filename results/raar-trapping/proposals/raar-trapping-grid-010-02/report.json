@@ -1,0 +1,81 @@
+{
+  "status": "not_closed",
+  "reason": "Occupied cube intersects B projection axis",
+  "step": 0.01,
+  "initial_pad": 0,
+  "image_buffer": 0,
+  "domain_pad": 0.35,
+  "grid_cells": 39693888,
+  "initial_occupied": 142614,
+  "final_occupied": 13975120,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 142614,
+      "processed": 142614,
+      "added": 1433932,
+      "status": 0,
+      "minimum_sampled_axis": 0.03074520550121189,
+      "seconds": 1.1682460308074951
+    },
+    {
+      "generation": 1,
+      "sources": 1433932,
+      "processed": 1433932,
+      "added": 1002039,
+      "status": 0,
+      "minimum_sampled_axis": 0.023543104897219218,
+      "seconds": 7.190353631973267
+    },
+    {
+      "generation": 2,
+      "sources": 1002039,
+      "processed": 1002039,
+      "added": 572581,
+      "status": 0,
+      "minimum_sampled_axis": 0.0229709350991864,
+      "seconds": 11.261252164840698
+    },
+    {
+      "generation": 3,
+      "sources": 572581,
+      "processed": 572581,
+      "added": 1395733,
+      "status": 0,
+      "minimum_sampled_axis": 0.013754778711729655,
+      "seconds": 13.66313648223877
+    },
+    {
+      "generation": 4,
+      "sources": 1395733,
+      "processed": 1395733,
+      "added": 1090673,
+      "status": 0,
+      "minimum_sampled_axis": 0.011188697648512205,
+      "seconds": 19.423168420791626
+    },
+    {
+      "generation": 5,
+      "sources": 1090673,
+      "processed": 1090673,
+      "added": 2840798,
+      "status": 0,
+      "minimum_sampled_axis": 0.0052440928528398045,
+      "seconds": 23.999117136001587
+    },
+    {
+      "generation": 6,
+      "sources": 2840798,
+      "processed": 437282,
+      "added": 5496750,
+      "status": 1,
+      "minimum_sampled_axis": 0.0035436722507454638,
+      "seconds": 25.937519073486328
+    }
+  ],
+  "failing_key": 18980707,
+  "failing_position": 437282,
+  "source_sha256": "836c8a0447cf4024552ce65e776a15acfe1ecd6ee229a69aa732b828817ac0f2",
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Numerical forward-closure proposal from box vertices and centers. No interval enclosure, invariant-region theorem, attraction proof or historical novelty claim. All attempted resolutions and failures are retained."
+}

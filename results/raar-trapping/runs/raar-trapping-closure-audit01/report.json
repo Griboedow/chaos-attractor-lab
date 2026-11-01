@@ -1,0 +1,199 @@
+{
+  "status": "closed_accounting_verified",
+  "source_cells": 21405802,
+  "new_unprocessed_cells": 0,
+  "batches": [
+    {
+      "start": 0,
+      "stop": 5351450,
+      "processed": 5351450,
+      "added": 0,
+      "declaration_sha256": "8170238a0ec419043ab573ce811576841d8425383dedd0268a1bbba7608fd99b",
+      "report_sha256": "40b5f023408703ee3cc164dd07c9f3685c1ffb7fde0fcc961ea7a43563d78a67"
+    },
+    {
+      "start": 5351450,
+      "stop": 10702901,
+      "processed": 5351451,
+      "added": 0,
+      "declaration_sha256": "e72d85fe6f79874effa8cd58098821d84faef939bcc606e50a18a7d6b54432ca",
+      "report_sha256": "a098bddfbcde83736989320c899bf38dbb5ee5e29a144f115bb1b6160106fd20"
+    },
+    {
+      "start": 10702901,
+      "stop": 16054351,
+      "processed": 5351450,
+      "added": 0,
+      "declaration_sha256": "4795e2b1dd8bd0d373e769bf71ea669a3d06e7d3191d82d91f978af0494c5118",
+      "report_sha256": "36327ad584b6c4923e127072a19067aa18b83e1d055f498ed01c96e4399bb2b2"
+    },
+    {
+      "start": 16054351,
+      "stop": 21405802,
+      "processed": 5351451,
+      "added": 0,
+      "declaration_sha256": "8cb25320b13a08a0ec6e7b7bff92544943c451e37498d35f2cd3a23a9b5be923",
+      "report_sha256": "3b84eeba9065bac3bb5f155a0260d8e7ed58738dc647eeccb8e838bb7464eb4d"
+    }
+  ],
+  "accepted_leaves": 23055541,
+  "subdivision_splits": 235677,
+  "bounding_box_acceptances": 20505561,
+  "axis_lower_bound": 0.011815285515047664,
+  "image_margin_exact": [
+    1,
+    34359738368
+  ],
+  "candidate_volume_exact": [
+    2050268507103632969040912152233608508474659233604265375,
+    766247770432944429179173513575154591809369561091801088
+  ],
+  "candidate_volume_approximate": 2.67572525,
+  "exact_window_inclusion": [
+    {
+      "lower_index": [
+        455,
+        669,
+        612
+      ],
+      "upper_index": [
+        456,
+        672,
+        615
+      ],
+      "checked_cells": 32
+    },
+    {
+      "lower_index": [
+        456,
+        669,
+        612
+      ],
+      "upper_index": [
+        456,
+        671,
+        614
+      ],
+      "checked_cells": 9
+    },
+    {
+      "lower_index": [
+        455,
+        670,
+        613
+      ],
+      "upper_index": [
+        456,
+        673,
+        615
+      ],
+      "checked_cells": 24
+    },
+    {
+      "lower_index": [
+        456,
+        667,
+        611
+      ],
+      "upper_index": [
+        457,
+        669,
+        613
+      ],
+      "checked_cells": 18
+    },
+    {
+      "lower_index": [
+        454,
+        675,
+        616
+      ],
+      "upper_index": [
+        454,
+        677,
+        617
+      ],
+      "checked_cells": 6
+    },
+    {
+      "lower_index": [
+        465,
+        643,
+        598
+      ],
+      "upper_index": [
+        465,
+        645,
+        600
+      ],
+      "checked_cells": 9
+    },
+    {
+      "lower_index": [
+        455,
+        669,
+        614
+      ],
+      "upper_index": [
+        455,
+        670,
+        615
+      ],
+      "checked_cells": 4
+    }
+  ],
+  "located_cycle_inclusion": [
+    {
+      "period": 7,
+      "certificate": "results/raar-cycle-structure/cycle-proof/base-unstable-period-7.json",
+      "certificate_sha256": "e24eabaa9b46296cc489a7b413d456e1fe35bfb4e7d82e776b7d4e7a26ee17bc",
+      "cube_bounds": [
+        [
+          456,
+          456
+        ],
+        [
+          671,
+          671
+        ],
+        [
+          613,
+          613
+        ]
+      ],
+      "checked_cells": 1,
+      "full_period_determinant_interval": "[-0.017095266303443212591182706535429793185168230475523000482099002280849556575894335180655489263668967906832363855699524231930151, -0.017095266303443212591182706535429793185168230475523000482099002280849556575894335180655489263668967906832363831771678706507025]"
+    },
+    {
+      "period": 49,
+      "certificate": "results/raar-symbolic-dynamics/runs/raar-symbolic-cycle-proof01/symbolic-period-49.json",
+      "certificate_sha256": "b8457bc684e81cf6e54c8db7ffd13ca527e46dc4e771fac607725ee47c53e7fe",
+      "cube_bounds": [
+        [
+          456,
+          456
+        ],
+        [
+          670,
+          670
+        ],
+        [
+          614,
+          614
+        ]
+      ],
+      "checked_cells": 1
+    }
+  ],
+  "protocol_sha256": "5630d38c52fc85151531693d4b4e093caa32c2d442a0f8422d944deb9a9c3a0c",
+  "interval_source_sha256": {
+    "audit_raar_trapping_batch_fast.py": "f8bed17044dde3ea9eb18671c859ce0a98e36e9cf09add166fbb093cdf66be55",
+    "raar_interval_offset_grid_fast.py": "8148cba624220721452b5289fcbe0855c5dee1046b93124a9b74d29fdeaa9353",
+    "raar_geometric_scalar.py": "3d9b26e002b46e0ee170f6e89fe2f985ca5c75a8c80cb025f7b17b44b7c85164",
+    "raar_interval_scalar.py": "7290f9e4d0c5592c2516fa35a633ef962c31a8650dd3f916352edf4b442c2c4d",
+    "propose_raar_trapping_bitset.py": "ae3f3be9df6a8db46c9a6753555bf9132a3ddb6789c4d02daf41d2d5363f5b70",
+    "search_raar_circles.py": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+  },
+  "auditor_sha256": "0e1d54da8fdaa2e9b03e150f1ed3b9cf21dce9f39375e2d143ee6dae8b0ec2f3",
+  "scope": "Input and exhaustive computational coverage audit. Invariance relies on the separately inspected outward geometric enclosure and raster kernels; attraction and entropy are mathematical consequences under their stated arithmetic assumptions. No transitivity or historical-priority claim."
+}

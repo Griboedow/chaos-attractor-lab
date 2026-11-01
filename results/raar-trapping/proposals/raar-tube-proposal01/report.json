@@ -1,0 +1,82 @@
+{
+  "tangent": 0.01,
+  "axis_fraction": 0.08,
+  "neighbors": 32,
+  "rows": [
+    {
+      "epsilon": 1e-06,
+      "samples": 5000,
+      "points": 135000,
+      "undefined": 0,
+      "inside": 128014,
+      "inside_fraction": 0.9482518518518519,
+      "all_vertices_inside_boxes": 3292,
+      "score_quantiles": [
+        0.0,
+        0.39680485128620735,
+        0.9330182532456199,
+        2.159446710987312,
+        53.40517150802331
+      ],
+      "minimum_sampled_axis": 0.04384542202457563,
+      "normal_radius_quantiles": [
+        2.0234698965559774e-05,
+        0.00048647355103163223,
+        0.009744233344018104,
+        0.07443538616607108
+      ],
+      "seconds": 30.96357250213623
+    },
+    {
+      "epsilon": 1e-05,
+      "samples": 5000,
+      "points": 135000,
+      "undefined": 0,
+      "inside": 128697,
+      "inside_fraction": 0.9533111111111111,
+      "all_vertices_inside_boxes": 3469,
+      "score_quantiles": [
+        0.0,
+        0.3897117656600376,
+        0.9183707348669441,
+        2.0613631907408263,
+        43.54165535447033
+      ],
+      "minimum_sampled_axis": 0.043828565512064536,
+      "normal_radius_quantiles": [
+        3.278475657999394e-05,
+        0.0005136390523496691,
+        0.00979799612842654,
+        0.07632548423215366
+      ],
+      "seconds": 32.078468799591064
+    },
+    {
+      "epsilon": 0.0001,
+      "samples": 5000,
+      "points": 135000,
+      "undefined": 0,
+      "inside": 130683,
+      "inside_fraction": 0.9680222222222222,
+      "all_vertices_inside_boxes": 4115,
+      "score_quantiles": [
+        0.0,
+        0.3730864074523569,
+        0.8512035490685967,
+        1.6403484850300203,
+        27.348737633211876
+      ],
+      "minimum_sampled_axis": 0.043660006141586216,
+      "normal_radius_quantiles": [
+        0.00012281835818947357,
+        0.0007855330559204592,
+        0.010359023189205745,
+        0.09522646489297937
+      ],
+      "seconds": 33.20604872703552
+    }
+  ],
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "source_sha256": "10b68eae36037c6e15eba7c8a9f418b5d5c43b5a2d2d6e6209e6ea347867588d",
+  "scope": "Finite local-frame and vertex diagnostics only. Tangent frames, transported radii, nonlinear remainder estimates and membership searches are numerical. No enclosure of whole boxes or proof of trapping/attraction."
+}

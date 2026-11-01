@@ -1,6 +1,6 @@
 # Serrated arches and layered loops between two spatial circles
 
-**Status: numerical strange-attractor candidates in the existing RAAR algorithm. Historical uniqueness and asymptotic chaotic attraction are unresolved.**
+**Status:** numerical strange-attractor portraits in the existing RAAR algorithm. For the serrated arch R1051, a [later strict trapping proof](raar-trapping.md) now establishes a compact attracting invariant set with positive topological entropy. Equality with the pictured cloud, transitivity and historical uniqueness remain unresolved; the other portraits retain their numerical status.
 
 ![Rigid rotations of actual RAAR states](assets/raar-circles-rotation.gif)
 

@@ -1,0 +1,82 @@
+{
+  "status": "not_closed",
+  "reason": "Sampled image leaves declared bounding domain",
+  "step": 0.01,
+  "initial_pad": 0,
+  "image_buffer": 0,
+  "image_shape": "zonotope",
+  "domain_pad": 0.35,
+  "grid_cells": 39693888,
+  "initial_occupied": 142614,
+  "final_occupied": 2783536,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 142614,
+      "processed": 142614,
+      "added": 642912,
+      "status": 0,
+      "minimum_sampled_axis": 0.03074520550121189,
+      "seconds": 30.138021230697632
+    },
+    {
+      "generation": 1,
+      "sources": 642912,
+      "processed": 642912,
+      "added": 485802,
+      "status": 0,
+      "minimum_sampled_axis": 0.023543104897219218,
+      "seconds": 64.1276843547821
+    },
+    {
+      "generation": 2,
+      "sources": 485802,
+      "processed": 485802,
+      "added": 299629,
+      "status": 0,
+      "minimum_sampled_axis": 0.023543104897219218,
+      "seconds": 85.62584233283997
+    },
+    {
+      "generation": 3,
+      "sources": 299629,
+      "processed": 299629,
+      "added": 425860,
+      "status": 0,
+      "minimum_sampled_axis": 0.016234705036084637,
+      "seconds": 108.81658673286438
+    },
+    {
+      "generation": 4,
+      "sources": 425860,
+      "processed": 425860,
+      "added": 419773,
+      "status": 0,
+      "minimum_sampled_axis": 0.014114556447886574,
+      "seconds": 135.04782366752625
+    },
+    {
+      "generation": 5,
+      "sources": 419773,
+      "processed": 419773,
+      "added": 216110,
+      "status": 0,
+      "minimum_sampled_axis": 0.019179224111751617,
+      "seconds": 152.1716811656952
+    },
+    {
+      "generation": 6,
+      "sources": 216110,
+      "processed": 59704,
+      "added": 150836,
+      "status": 3,
+      "minimum_sampled_axis": 0.007721031888238837,
+      "seconds": 157.56177592277527
+    }
+  ],
+  "failing_key": 19114983,
+  "failing_position": 59704,
+  "source_sha256": "f89d127970c508075dcc2471cda124e334f0e0563de671d36e4ae5563b2c8cc7",
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Numerical forward-closure proposal from box vertices and centers. Zonotope remainder is sampled, not an interval bound. No invariant-region theorem, attraction proof or historical novelty claim. All attempted resolutions and failures are retained."
+}

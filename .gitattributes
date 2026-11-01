@@ -116,3 +116,9 @@ research/icosahedral_cycles/** -text whitespace=cr-at-eol,-blank-at-eof
 results/icosahedral-returns/** -text whitespace=cr-at-eol,-blank-at-eof
 research/icosahedral_returns/** -text whitespace=cr-at-eol,-blank-at-eof
 research/verify_icosahedral_returns.py -text whitespace=cr-at-eol,-blank-at-eof
+results/raar-trapping/** -text whitespace=cr-at-eol,-blank-at-eof
+papers/raar-trapping/** -text whitespace=cr-at-eol,-blank-at-eof
+# Preserve the exact executed interval sources, including their final blank lines.
+research/raar_interval_offset_grid.py whitespace=cr-at-eol,-blank-at-eof
+research/raar_interval_offset_grid_fast.py whitespace=cr-at-eol,-blank-at-eof
+research/raar_interval_scalar.py whitespace=cr-at-eol,-blank-at-eof

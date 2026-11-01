@@ -1,0 +1,55 @@
+{
+  "status": "identical_common_results",
+  "parts": [
+    {
+      "part": 0,
+      "compared_sources": 5351450,
+      "compared_chunks": 54,
+      "old_completed": true,
+      "old_checkpoint_file": "progress.json",
+      "old_progress_sha256": "a86a451845a39d95a8057a2a81e34b42ca793d4c2690d229ecd2718690d39715",
+      "new_report_sha256": "40b5f023408703ee3cc164dd07c9f3685c1ffb7fde0fcc961ea7a43563d78a67"
+    },
+    {
+      "part": 1,
+      "compared_sources": 5000000,
+      "compared_chunks": 50,
+      "old_completed": false,
+      "old_checkpoint_file": "completed-checkpoint.json",
+      "old_progress_sha256": "14dc64376dc4d70aedd1ad354065b42d335cc6bb294ed32a3e9c2ba1bcfd45d1",
+      "new_report_sha256": "a098bddfbcde83736989320c899bf38dbb5ee5e29a144f115bb1b6160106fd20"
+    },
+    {
+      "part": 2,
+      "compared_sources": 5351450,
+      "compared_chunks": 54,
+      "old_completed": true,
+      "old_checkpoint_file": "progress.json",
+      "old_progress_sha256": "43dc9ec908a809c2f033b0cce019203501eb21babce546045645eba96320dbbc",
+      "new_report_sha256": "36327ad584b6c4923e127072a19067aa18b83e1d055f498ed01c96e4399bb2b2"
+    },
+    {
+      "part": 3,
+      "compared_sources": 5351451,
+      "compared_chunks": 54,
+      "old_completed": true,
+      "old_checkpoint_file": "progress.json",
+      "old_progress_sha256": "b55359206532444e16662a12955608194134acfc26616089974a114175b5f84d",
+      "new_report_sha256": "3b84eeba9065bac3bb5f155a0260d8e7ed58738dc647eeccb8e838bb7464eb4d"
+    }
+  ],
+  "total_compared_sources": 21054351,
+  "validation_arrays_identical": [
+    "source_keys",
+    "new_keys",
+    "params",
+    "trig",
+    "origin",
+    "step",
+    "shape",
+    "image_margin",
+    "grid_offset"
+  ],
+  "source_sha256": "cd7b285aea89679609779c66b22f556d27140849ff60aad303978e876b28544c",
+  "scope": "Two raster control flows with the same outward arithmetic and enclosures. This is not an independent arithmetic proof stack. Only completed common chunks are compared; incomplete work is excluded."
+}

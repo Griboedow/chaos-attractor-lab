@@ -1,0 +1,25 @@
+{
+  "input_protocol_sha256": "5630d38c52fc85151531693d4b4e093caa32c2d442a0f8422d944deb9a9c3a0c",
+  "input_mask_sha256": "69dc2b0ab274f954c29a6294b85a6dacae8f000417442bef3c373a6576914b1c",
+  "input_keys_sha256": "2a0f3bee49a1a6d918b2bb97d4ee297bbc125cd6115cdfcc604e444dd3b8c33d",
+  "start": 5351450,
+  "stop": 10702901,
+  "sample_count": 0,
+  "source_count": 5351451,
+  "max_depth": 6,
+  "source_sha256": {
+    "audit_raar_trapping_batch.py": "616f7fe46f16c1109051e69f834a4ee90c43afdeac9909cd854adedacf5072a7",
+    "raar_interval_offset_grid.py": "851566caa5b377c9f5ebf3908258350fbdf54e7bbe06a0f2fea6c1bc92ced211",
+    "raar_geometric_scalar.py": "3d9b26e002b46e0ee170f6e89fe2f985ca5c75a8c80cb025f7b17b44b7c85164",
+    "raar_interval_scalar.py": "7290f9e4d0c5592c2516fa35a633ef962c31a8650dd3f916352edf4b442c2c4d",
+    "propose_raar_trapping_bitset.py": "ae3f3be9df6a8db46c9a6753555bf9132a3ddb6789c4d02daf41d2d5363f5b70",
+    "search_raar_circles.py": "b87e5e09863e2f8eafea0dba168201165cee2a7eea1e1d18828263e631ec28d5"
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "numba": "0.68.1"
+  },
+  "cache": "Disabled for all outward arithmetic and raster kernels.",
+  "scope": "One source batch only. A global closure claim requires a separate coverage, union and pending-source audit."
+}

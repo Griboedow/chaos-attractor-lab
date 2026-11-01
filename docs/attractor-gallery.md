@@ -76,6 +76,16 @@ Paired panels share the displayed date. Repeat views, periodic skeletons and sym
 *First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-circles-geometry.png)).*
 <!-- /drawing-date -->
 
+## Spatial-circle RAAR — approach from a volume of starts
+
+[Trapping proof and claim boundaries](raar-trapping.md). A new diagnostic view of R1051, not a separate candidate. The same 2,048 starts evolve under the original map.
+
+![Spatial-circle RAAR — approach from a volume of starts](assets/raar-trapping-approach.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-01**.*
+<!-- /drawing-date -->
+
 ## RK45 controller — twin rosettes and folded fans
 
 [Evidence and current status](rk45-oscillator.md)

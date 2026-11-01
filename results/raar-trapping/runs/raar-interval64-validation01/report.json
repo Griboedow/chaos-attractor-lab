@@ -1,0 +1,70 @@
+{
+  "primitive_checks": 7026,
+  "independent_point_and_jacobian_checks": 1024,
+  "rows": [
+    {
+      "radius": 0.0,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        2.917432961879743e-11,
+        2.92508239851941e-11,
+        2.9216185026825795e-11
+      ]
+    },
+    {
+      "radius": 0.0001,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        0.0001237509367301405,
+        8.918454726144953e-05,
+        3.74381839563049e-05
+      ]
+    },
+    {
+      "radius": 0.00125,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        0.020294205384412557,
+        0.014981254387105049,
+        0.0062094209038867755
+      ]
+    },
+    {
+      "radius": 0.005,
+      "boxes": 64,
+      "extension_failures": 0,
+      "maximum_remainder": [
+        0.43742889092075493,
+        0.35003280061341635,
+        0.12415865992182905
+      ]
+    }
+  ],
+  "parameters": [
+    0.9708823579074815,
+    1.9886915469542146,
+    0.9028818255996501,
+    -0.1435409113764763,
+    0.5745496526360512,
+    -0.7745124697685242
+  ],
+  "trig_intervals": [
+    [
+      0.785115025936579,
+      0.7851150259365792
+    ],
+    [
+      0.6193499786458415,
+      0.6193499786458417
+    ]
+  ],
+  "seconds_per_box": 9.376183152198792e-05,
+  "total_seconds": 42.02021813392639,
+  "reference_sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32",
+  "scope": "Implementation sanity checks, not exhaustive tests or a trapping certificate. Arithmetic enclosures rely on the stated IEEE binary64 and correctly rounded sqrt assumptions.",
+  "raar_interval64.py_sha256": "4257c430e1be70fbc0065caa96b69123c3f00e33742d0ae76720e93ebb98acdc",
+  "validate_raar_interval64.py_sha256": "4621df981a6c6ff5eafe9168deae8d57eba365399845644912a75e4bad29a017"
+}
