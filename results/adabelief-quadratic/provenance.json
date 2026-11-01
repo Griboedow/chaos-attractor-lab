@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-11-01T00:46:23.557192+00:00",
+  "base_commit": "fb3d15496c2137821591a0a2828e1d18f5533815",
+  "disk": "All new environments, computations, caches and artifacts are on D:.",
+  "pilot_replay_arrays_identical": {
+    "b": true,
+    "c": true,
+    "windows": true,
+    "end": true,
+    "lo": true,
+    "hi": true
+  },
+  "periodic_followups": [
+    {
+      "run": 0,
+      "first_lag_below_1e_10": 54,
+      "residual": 0.0,
+      "comparison_states": 1024,
+      "note": "Floating-point return, not an interval-certified least period."
+    },
+    {
+      "run": 1,
+      "first_lag_below_1e_10": 3,
+      "residual": 3.885780586188048e-16,
+      "comparison_states": 1024,
+      "note": "Floating-point return, not an interval-certified least period."
+    }
+  ],
+  "upstream_repository": "juntang-zhuang/Adabelief-Optimizer",
+  "upstream_commit": "2855178eff6776762793f915ce2c615f776a1e4b",
+  "upstream_path": "pypi_packages/adabelief_pytorch0.2.1/adabelief_pytorch/AdaBelief.py",
+  "upstream_git_blob": "cf31bd8ac0fbc7b22e87fa71512452103c1d097c",
+  "upstream_copy_note": "Executed source adds one terminal newline to the recovered upstream blob; no code changes.",
+  "limitations": [
+    "Finite-time numerical evidence, no chaotic-attractor theorem or priority claim.",
+    "Cold starts contain sign-related pairs, not independent basin samples.",
+    "rectify=False and amsgrad=False; this is not the package default rectified algorithm.",
+    "The broad pilot is exploratory; unselected lanes are not attractor classifications."
+  ],
+  "failed_noncomputational_attempts": [
+    "One shell-quoted inline follow-up command failed before execution; replaced with analyze_adabelief.py.",
+    "First packet-verifier pass hit Windows default decoding on a UTF-8 report; explicit UTF-8 decoding fixed before publication."
+  ],
+  "omitted": [
+    "Virtual environment and caches",
+    "First-render images superseded only for color visibility"
+  ]
+}

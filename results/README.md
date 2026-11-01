@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`adabelief-quadratic/` records the [algorithmic search direction](../docs/adabelief-quadratic.md): a 4,101-lane exploratory design and exact-array replay, five two-million-step checks, complete start/parameter/epsilon cohorts, actual upstream-code runs and 70/90-decimal independent finite secants. Positive candidates, a rejected long transient and numerical periodic controls are archived together. All updates are deterministic; the nonrectified algorithm options and unresolved scientific priority are explicit.
+
 `motor-asymmetry/` records the [asymmetry and ribbon investigation](../docs/motor-asymmetry-geometry.md): all 4,032 scout lanes, six stratified full spectra, two 12,000-unit checks, a stricter recalculation, and source-form controls. The dense selected ribbon trace is included; other large histories are hash-indexed. The rotation and camera audit preserve explicit physical projections. Priority and topology remain unresolved.
 
 `geometry-search-20261031/` records the [geometry-led screening block](../docs/geometry-search-20261031.md): motor comparisons, 432 reconciled straight-chain cases, 4,096 curved-chain scouts and 2,048 four-link scouts. The independently continued four-link candidate has strong finite-time expansion but frequent physical link crossings. No new attractor claim is made. The compact manifest includes all selected adaptive traces and GPU endpoints; excluded large local histories are separately hash-indexed.

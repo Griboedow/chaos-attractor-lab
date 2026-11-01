@@ -1,6 +1,8 @@
 # What this search found
 
-Research snapshot, 30 October 2026. **We have several independently checked numerical chaos candidates, but no established discovery of a previously unpublished attractor or a new topological attractor class.** That distinction is the central result of this investigation.
+Research snapshot updated 1 November 2026. **We have several independently checked numerical chaos candidates, but no established discovery of a previously unpublished attractor or a new topological attractor class.** That distinction is the central result of this investigation.
+
+**A new direction examines the correction algorithm itself.** The [scalar-quadratic AdaBelief study](adabelief-quadratic.md) finds a branching three-state numerical candidate with spectrum approximately `(0.20261, -0.37938, -2.37428)` over two million observed iterations. Upstream-code execution and high-precision finite secants support the positive rate. A nearby apparent positive instead settles into a 54-step numerical cycle. Rectification and AMSGrad controls, exact option choices, related Adam/RMSProp precedents and the unresolved priority boundary are recorded explicitly.
 
 ## The most informative observations
 

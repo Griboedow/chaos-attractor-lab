@@ -1,0 +1,21 @@
+{
+  "runs": [
+    {
+      "rectify": true,
+      "amsgrad": false,
+      "iterations": 20000,
+      "final_parameter": 3.8504208897112084e-91,
+      "maximum_last_1000": 9.88535441184831e-87
+    },
+    {
+      "rectify": false,
+      "amsgrad": true,
+      "iterations": 20000,
+      "final_parameter": -6.4e-323,
+      "maximum_last_1000": 6.4e-323
+    }
+  ],
+  "symbolic_determinant_residual": "0",
+  "torch": "2.15.0+cpu",
+  "sympy": "1.14.0"
+}
