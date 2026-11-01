@@ -1,0 +1,17 @@
+{
+  "cases": [
+    15,
+    40,
+    204,
+    246,
+    351
+  ],
+  "warmup": 5000,
+  "observed": 200000,
+  "window": 20000,
+  "stride": 2,
+  "dimension": 4,
+  "state": "Unmodified unit-norm weight vector. No sign folding.",
+  "tangent": "Analytic normalized-update Jacobian; QR on the three-dimensional tangent space.",
+  "source_sha256": "ee14e10f29f43db9d446af6fae873b90b15b2e28b68c1252c370c1496d78847d"
+}

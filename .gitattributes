@@ -4,6 +4,8 @@
 *.webp binary
 *.png binary
 *.pdf binary
+results/fastica/** -text whitespace=cr-at-eol
+research/fastica/*.py -text
 # Preserve exact certificate/evidence bytes: manifests hash archived inputs.
 results/motor-proof/** -text
 results/motor-period-proof/** -text

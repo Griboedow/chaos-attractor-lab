@@ -1,0 +1,16 @@
+{
+  "cases": [
+    15,
+    40,
+    204,
+    246,
+    351
+  ],
+  "starts_per_case": 64,
+  "seed": 2026110102,
+  "warmup": 5000,
+  "observed": 200000,
+  "window": 50000,
+  "gate": "All four leading rates > 0.005; no recurrence at lags 1..128 up to sign; update norm >1e-8; status=0.",
+  "source_sha256": "80c96dbc14be291e4f034296d09acff7b84ace62c9118df163ec2365c390e446"
+}

@@ -699,6 +699,29 @@
       ],
       "coordinates": "Projection (x_minus, x_plus, y_minus - y_plus); common scale.",
       "common_scale": true
+    },
+    {
+      "id": "fastica",
+      "title": "Finite-sample FastICA",
+      "group": "Numerical algorithms",
+      "report": "docs/fastica-dynamics.md",
+      "source_portrait": "docs/assets/fastica.png",
+      "description": "Cases 204 and 351 retain positive finite-time tangent growth over five million steps and at 70 and 100 digits. Case 351 has regular competing outcomes. These are regimes of an established algorithm; historical priority and asymptotic chaotic attraction remain unresolved.",
+      "panels": [
+        {
+          "label": "204",
+          "source": "results/fastica/histograms/case-204-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "351",
+          "source": "results/fastica/histograms/case-351-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "coordinates": "Projection of the unit weight on (w1, w2, w4); every consecutive state is retained. No sign folding. Spatial scale and density saturation differ between panels."
     }
   ]
 }

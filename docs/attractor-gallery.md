@@ -252,6 +252,25 @@ Normalized state (x, m, s); equal displayed coordinate units.
 
 [Report](adabelief-quadratic.md)
 
+### Finite-sample FastICA
+
+![Finite-sample FastICA](assets/portraits/fastica.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 204 and 351 retain positive finite-time tangent growth over five million
+steps and at 70 and 100 digits. Case 351 has regular competing outcomes. These
+are regimes of an established algorithm; historical priority and asymptotic
+chaotic attraction remain unresolved.
+
+Projection of the unit weight on $(w_1,w_2,w_4)$; every consecutive state is
+retained. No sign folding. Spatial scale and density saturation differ between
+panels. Case numbers identify the exact data sets in the report.
+
+[Report and stopping-rule audit](fastica-dynamics.md)
+
 ## Physical and biological models
 
 ### Four motor rows

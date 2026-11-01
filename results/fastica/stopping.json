@@ -1,0 +1,116 @@
+{
+  "source_sha256": "5087a459a578a74689bf0c43777ac09553c17d32760f5c28d985139d9666c23e",
+  "scope": "Default tolerance, raised max_iter, frozen whitened inputs, explicit first-unit initialization. No claim about the rest of the demixing matrix.",
+  "rows": [
+    {
+      "case": 15,
+      "tolerance": 0.0001,
+      "max_iter": 200000,
+      "iterations_before_first_unit_exit": 19449,
+      "terminal": [
+        0.20186175074335128,
+        0.4789358094555651,
+        0.7547984434455668,
+        0.4001894973386
+      ],
+      "continuation_warmup": 1000,
+      "continuation_observed": 200000,
+      "continuation_rates": [
+        0.35321907524578405,
+        0.3519269187080253,
+        0.349025851641419,
+        0.3508826681669835
+      ],
+      "period_up_to_sign": 0,
+      "status": 0
+    },
+    {
+      "case": 40,
+      "tolerance": 0.0001,
+      "max_iter": 200000,
+      "iterations_before_first_unit_exit": 522,
+      "terminal": [
+        0.4629309434786786,
+        0.3580151374494705,
+        0.4554047551608311,
+        0.6709147575541028
+      ],
+      "continuation_warmup": 1000,
+      "continuation_observed": 200000,
+      "continuation_rates": [
+        0.17714038468438034,
+        -0.5581187925269666,
+        -0.7572970193826555,
+        -0.7572970193826555
+      ],
+      "period_up_to_sign": 1,
+      "status": 0
+    },
+    {
+      "case": 204,
+      "tolerance": 0.0001,
+      "max_iter": 200000,
+      "iterations_before_first_unit_exit": 6,
+      "terminal": [
+        0.10061356162990742,
+        -0.22747636726890108,
+        -0.9405213879125256,
+        0.2314107439800178
+      ],
+      "continuation_warmup": 1000,
+      "continuation_observed": 200000,
+      "continuation_rates": [
+        0.15072997218212367,
+        0.1490617874845397,
+        0.14927787988715507,
+        0.1489678348238553
+      ],
+      "period_up_to_sign": 0,
+      "status": 0
+    },
+    {
+      "case": 246,
+      "tolerance": 0.0001,
+      "max_iter": 200000,
+      "iterations_before_first_unit_exit": 5601,
+      "terminal": [
+        0.04895881541899817,
+        -0.08713474522305478,
+        0.0640154721007227,
+        0.992931311773077
+      ],
+      "continuation_warmup": 1000,
+      "continuation_observed": 200000,
+      "continuation_rates": [
+        0.317912791460307,
+        0.36142596465072296,
+        0.30869127092329945,
+        0.34161846591007955
+      ],
+      "period_up_to_sign": 0,
+      "status": 0
+    },
+    {
+      "case": 351,
+      "tolerance": 0.0001,
+      "max_iter": 200000,
+      "iterations_before_first_unit_exit": 3109,
+      "terminal": [
+        0.86888916536097,
+        -0.478859878860195,
+        -0.09368747232216575,
+        0.08335161825783421
+      ],
+      "continuation_warmup": 1000,
+      "continuation_observed": 200000,
+      "continuation_rates": [
+        0.24268747010109895,
+        0.24204591646219586,
+        0.24049017637790146,
+        0.2407614918005322
+      ],
+      "period_up_to_sign": 0,
+      "status": 0
+    }
+  ]
+}
