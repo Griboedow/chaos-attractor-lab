@@ -14,6 +14,10 @@ the browser check on 2026-11-01 found that GitHub rejected the operator-name mac
 Keep equation numbers as ordinary math text, for example `\qquad\text{(1)}`.
 Tagged equations produced unsupported labeled MathML rows in the inspected
 Chromium browser, stacking the formula vertically despite reporting no parse error.
+The same browser also misplaced a scripted norm delimiter inside a larger
+bracketed sum. Its MathML and formula counts were valid. Inspect such formulas
+visually; splitting differences into named terms and using traces or scalar
+products avoids that delimiter structure without changing the mathematics.
 
 Run from the repository root after editing:
 

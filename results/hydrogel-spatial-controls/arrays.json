@@ -1,0 +1,449 @@
+{
+  "scope": "Unthinned generated arrays outside Git. Failed runs retain accepted samples only.",
+  "files": [
+    {
+      "run": "pilot-8",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\pilot-8\\trajectory.npz",
+      "bytes": 39608,
+      "sha256": "020a9498bb5ae3de0866f0cd3691c3a0bc2f447eb4895f626dc63836f3450dfd",
+      "arrays": {
+        "t": {
+          "shape": [
+            101
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            101,
+            8,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            101,
+            8,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            101,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "planar-16-dt001",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\planar-16-dt001\\trajectory.npz",
+      "bytes": 806116,
+      "sha256": "6d8fa17ebbe8a0e16a560bc270550df93dc8171c5db1dd0b7ff0ef856f961a13",
+      "arrays": {
+        "t": {
+          "shape": [
+            2001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            2001,
+            16,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            2001,
+            16,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            2001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "planar-16-dt002",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\planar-16-dt002\\trajectory.npz",
+      "bytes": 806050,
+      "sha256": "a0c9ffdfff1fdc43933b934fcb1b9e8a1bf36c35f06301a0a5dd161327984c15",
+      "arrays": {
+        "t": {
+          "shape": [
+            2001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            2001,
+            16,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            2001,
+            16,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            2001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "rotation-n16",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\rotation-n16\\trajectory.npz",
+      "bytes": 7183150,
+      "sha256": "d468a36dd60b038904c97950a79bbbeea94104284dd8881adeac8e7841aa5f61",
+      "arrays": {
+        "t": {
+          "shape": [
+            10001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            10001,
+            16,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            10001,
+            16,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            10001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "rotation-n32",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\rotation-n32\\trajectory.npz",
+      "bytes": 18203875,
+      "sha256": "84afb9f4bd0fbc81113046e98e5b5ebe62c429c4ef49b57dbebcce78d89a9c1f",
+      "arrays": {
+        "t": {
+          "shape": [
+            12501
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            12501,
+            32,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            12501,
+            32,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            12501,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "rotation-n64",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\rotation-n64\\trajectory.npz",
+      "bytes": 36136219,
+      "sha256": "1ff8e33fe18053689d411cb91937be39f628ba00f5019a33c7b2f4e61a224eef",
+      "arrays": {
+        "t": {
+          "shape": [
+            12501
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            12501,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            12501,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            12501,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "scout-150-n16",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\scout-150-n16\\trajectory.npz",
+      "bytes": 682133,
+      "sha256": "53f06d731dd2bd8da2c2c694ae67c522679a1c35cab5969a5f078454d2d3f656",
+      "arrays": {
+        "t": {
+          "shape": [
+            896
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            896,
+            16,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            896,
+            16,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            896,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "scout-150-n64",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\scout-150-n64\\trajectory.npz",
+      "bytes": 22300898,
+      "sha256": "a17bb7ebdc1ea579e43efd79c7791e7a6e2684b999693a9a741739f6c1f05613",
+      "arrays": {
+        "t": {
+          "shape": [
+            7501
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            7501,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            7501,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            7501,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spatial-16-dt002",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\spatial-16-dt002\\trajectory.npz",
+      "bytes": 3186125,
+      "sha256": "018c4f49256f28ed0f4822f8d5cab3384a1b055a97ec8b54000022068b51380d",
+      "arrays": {
+        "t": {
+          "shape": [
+            4175
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            4175,
+            16,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            4175,
+            16,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            4175,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spatial-32-dt001",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\spatial-32-dt001\\trajectory.npz",
+      "bytes": 9009134,
+      "sha256": "9c6d40d7d08dac26de2f50a6e7beaaaff74256d4f19c75cd42c8e23f5937e8a1",
+      "arrays": {
+        "t": {
+          "shape": [
+            6001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            6001,
+            32,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            6001,
+            32,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            6001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spatial-32-dt002",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\spatial-32-dt002\\trajectory.npz",
+      "bytes": 9009575,
+      "sha256": "c7568f37c3e6bbcc5d9d454351cfa90e5fae40d048eeb68439c585761369e922",
+      "arrays": {
+        "t": {
+          "shape": [
+            6001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            6001,
+            32,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            6001,
+            32,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            6001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "run": "spatial-64-dt002",
+      "external_path": "D:\\Codex\\hydrogel-spatial-20261101\\spatial-64-dt002\\trajectory.npz",
+      "bytes": 17862183,
+      "sha256": "39c6ca581154e2720e6b16e0d86558f0a44bcd7adcb5cc4e6bfa14790f9d838c",
+      "arrays": {
+        "t": {
+          "shape": [
+            6001
+          ],
+          "dtype": "float64"
+        },
+        "q": {
+          "shape": [
+            6001,
+            64,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "k": {
+          "shape": [
+            6001,
+            64,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "tip": {
+          "shape": [
+            6001,
+            3
+          ],
+          "dtype": "float64"
+        }
+      }
+    }
+  ]
+}

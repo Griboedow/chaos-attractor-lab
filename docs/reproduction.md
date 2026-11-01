@@ -23,7 +23,7 @@ instructions](manuscript-editing.md).
 | Structured-data FastICA | [Exact algebra, long runs, precision and library controls](../results/fastica-tripling/README.md) |
 | FastICA local noninjectivity | [Uniform algebraic checks and periodic-point controls](../results/fastica-local-injectivity/README.md) |
 | FastICA rejected preimage | [Exact root box, predecessor exclusion and partition audit](../results/fastica-preimage-rejection/README.md) |
-| Morphoelastic hydrogel filament | [Independent planar controls and complete eight-case screen](../results/hydrogel-planar-controls/README.md) |
+| Morphoelastic hydrogel filament | [Planar controls and eight-case screen](../results/hydrogel-planar-controls/README.md), [spatial controls and mesh artifacts](../results/hydrogel-spatial-controls/README.md), [thinner-rod screen and symmetry checks](../results/hydrogel-slender-screen/README.md) |
 
 ## Recorded environments and runtime checks
 

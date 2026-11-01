@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "scope": "Spatial solver checks, all twelve declared runs, failed and close-contact outcomes, and an explicit discrete equilibrium. No chaotic-attractor certificate.",
+  "files": [
+    {
+      "path": "algebra.json",
+      "bytes": 350,
+      "sha256": "2f477817d99bc3eacf37319fa1e83afbf52d7877fb3ca8643c4108aec620b099"
+    },
+    {
+      "path": "analysis.json",
+      "bytes": 17727,
+      "sha256": "424c3cdd76af12a96e005d72bce4d0360532ff180ee9db02820c97ef4cf52490"
+    },
+    {
+      "path": "arrays.json",
+      "bytes": 9856,
+      "sha256": "578ff07b8a49ca344c4471860359b4ffd148a323b988a1ed3a8fc0a5f2001092"
+    },
+    {
+      "path": "clearance.json",
+      "bytes": 6331,
+      "sha256": "12bce47a95a5ea42da0f8c19a2b8fd325f5f56206a5d9a5ded1fb3af6eaef090"
+    },
+    {
+      "path": "code/analyze.py",
+      "bytes": 2466,
+      "sha256": "31af20151340ac8192d7bdd9472ffd0d3c89cf18b27c3a05e8cfe613c352940c"
+    },
+    {
+      "path": "code/check_algebra.py",
+      "bytes": 3151,
+      "sha256": "9b53692e9ac2f4cac0be3580effc98e2a5950aef90568e71b8fcab9f91e7549e"
+    },
+    {
+      "path": "code/check_fast.py",
+      "bytes": 1938,
+      "sha256": "fa976034d3bf5b33ded0d9560c70ba9e8c5e529cb00fd6e2c552d26068d63725"
+    },
+    {
+      "path": "code/clearance.py",
+      "bytes": 2565,
+      "sha256": "6fad6bdafe098d138c72f1cb2e2630f4e7c3cbd9f8c7cdfac91ca066078e811e"
+    },
+    {
+      "path": "code/equilibrium_check.py",
+      "bytes": 2425,
+      "sha256": "19f53a3bf6287cfd7ea853adb083e6ad97152a3b14e22ea76d9619ac530f7dfb"
+    },
+    {
+      "path": "code/planar_compare.py",
+      "bytes": 1501,
+      "sha256": "d373531c74a0077cbf9ce9a551c42eaf635dab0364f2cbfd01252f2e34d4a6f3"
+    },
+    {
+      "path": "code/rotation_summary.py",
+      "bytes": 945,
+      "sha256": "6df66cd045cf88c20be3e37bac7255542e25ff3f7e81ff012c18feda4492c29a"
+    },
+    {
+      "path": "code/spatial.py",
+      "bytes": 10889,
+      "sha256": "98eb8abe247683b150520e3429e819fb7419ad75f5f768150281b470d64e57ba"
+    },
+    {
+      "path": "code/spatial_fast.py",
+      "bytes": 14217,
+      "sha256": "abac3a4882acc6f63cc206ccfc61a12bba5c48289140cec787407201faadc47f"
+    },
+    {
+      "path": "fast-check.json",
+      "bytes": 392,
+      "sha256": "3b72c8d61648af2277470daab4db8771495a34bcfe1ad3d072f4fbc2d7599c6e"
+    },
+    {
+      "path": "planar-comparison.json",
+      "bytes": 1087,
+      "sha256": "a77905eecf6ef8576405f7d0336e55502e2f5c6fc1d9596d3953ef788994cdc1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4425,
+      "sha256": "3f631a6ec43451ee7bc7bc2ac1e7b64ac524f4e41ad1a2794b6c33a870c6f20b"
+    },
+    {
+      "path": "rotation-summary.json",
+      "bytes": 1278,
+      "sha256": "166e9e7bcab9711b962ba7a4d82e575caa19a688858f38ef98d658d5d7d0d033"
+    },
+    {
+      "path": "runs/pilot-8.json",
+      "bytes": 1102,
+      "sha256": "7b75316139fa70e887c4112ef03b158d09478f668ad901071e8f78bde1aa1885"
+    },
+    {
+      "path": "runs/planar-16-dt001.json",
+      "bytes": 1023,
+      "sha256": "e3eda209f40c73a9ba72bc5c5e158e31002cf423892295f6b74d3596d8e7c1f2"
+    },
+    {
+      "path": "runs/planar-16-dt002.json",
+      "bytes": 1022,
+      "sha256": "2b87aa3a32f419e31124f499b57110269e44d4f585a6af2070e51b97aa126b63"
+    },
+    {
+      "path": "runs/rotation-n16.json",
+      "bytes": 1098,
+      "sha256": "1f1fa0c6fed87fcee76f214cd36cd89a79d9702e29b1704da7f0c1a2572d77a5"
+    },
+    {
+      "path": "runs/rotation-n32.json",
+      "bytes": 1099,
+      "sha256": "d227c3ce4505e370aa7dba1ac0cc35617039a9c26567359bf5dd8cec1c61c460"
+    },
+    {
+      "path": "runs/rotation-n64.json",
+      "bytes": 1099,
+      "sha256": "53a3ce94e367c665b0c211f3d776aae824657147bf5245b45fe864d619277c59"
+    },
+    {
+      "path": "runs/scout-150-n16.json",
+      "bytes": 1104,
+      "sha256": "89322de6b3fb6d1dfaba745d9cf15fcf6305b3b11318b0d6e0e7f68b3d785ca3"
+    },
+    {
+      "path": "runs/scout-150-n64.json",
+      "bytes": 1098,
+      "sha256": "5e80f539a75bdb9fa53a61c6c2451df188fb45e34632b94cee913f1061aceacf"
+    },
+    {
+      "path": "runs/spatial-16-dt002.json",
+      "bytes": 1102,
+      "sha256": "180951d40d72490170e25858f7dd86e9cc721c2d4628889774cdaba0a9507951"
+    },
+    {
+      "path": "runs/spatial-32-dt001.json",
+      "bytes": 1101,
+      "sha256": "b2c375a284234a585e0aa1edf6d5db3dfcfa75feb37120cbc7eef5b80a105ed4"
+    },
+    {
+      "path": "runs/spatial-32-dt002.json",
+      "bytes": 1096,
+      "sha256": "0002e72d9244d00e86bcde8f0c5bc2b5cee1ff1afabe30ff0579b8457fa9f3ca"
+    },
+    {
+      "path": "runs/spatial-64-dt002.json",
+      "bytes": 1104,
+      "sha256": "41f40ac50805c1c3dba9ee382bf8e7ca5f6222885c3ce199859eb10ab8534cb5"
+    },
+    {
+      "path": "source-audit.json",
+      "bytes": 972,
+      "sha256": "b39d683bcc3acd2ea07081262ec7cc14634f05bfc121a4b8e2d17912749f9ba7"
+    },
+    {
+      "path": "spurious-equilibrium.json",
+      "bytes": 2106,
+      "sha256": "95c499cd3050e8e491f0d45f35becddf732f06f120487dcdc08b06400225d91d"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/hydrogel_spatial.py",
+      "sha256": "abac3a4882acc6f63cc206ccfc61a12bba5c48289140cec787407201faadc47f"
+    },
+    {
+      "path": "research/hydrogel_planar.py",
+      "sha256": "777be8e2742ec2a7f779054ddcab1cb3442f638b2dc2c43d4d4c63fb2b4249e3"
+    },
+    {
+      "path": "results/hydrogel-planar-controls/arrays.json",
+      "sha256": "5f17f27b1c822b1284dda21db709067206287b4999cd57a48ed6ef76608f2a8b"
+    }
+  ]
+}

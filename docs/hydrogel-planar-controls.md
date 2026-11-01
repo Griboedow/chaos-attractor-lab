@@ -212,6 +212,12 @@ retained chaos candidates, without proving global exclusion of chaos.
 
 ## Priority and remaining work
 
+The [spatial follow-up](hydrogel-spatial-controls.md) now implements twist
+equilibrium, recovers spatial beating and rotation, and identifies a
+coarse-mesh equilibrium absent from the continuum model. Its stronger-field
+scout fails the sampled clearance screen. The planar records on this page
+remain unchanged.
+
 The 2026 article, its 2024 planar predecessor and targeted author/model/chaos
 queries were checked. This is a bounded source audit, not a comprehensive
 citation or equivalence search. Absence of a matching search result does not
