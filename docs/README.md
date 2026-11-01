@@ -43,5 +43,9 @@ The [overrelaxed Sinkhorn screen](sinkhorn-screen.md) records 576 matrix-scaling
 inputs, all-flag continuations, long transient rejections and exact absorbing
 bounds. Persistent finite growth remains distinct from established chaotic attraction.
 
+The [rectangular and unequal-rate extension](sinkhorn-unequal-rates.md) retains
+4,864 inputs and two spatial numerical candidates followed for 106 million
+steps, together with high-precision controls and escaping alternatives.
+
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)

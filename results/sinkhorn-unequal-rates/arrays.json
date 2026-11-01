@@ -1,0 +1,745 @@
+{
+  "files": [
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\pilot01\\2x3-endpoints-and-last2048.npz",
+      "bytes": 1918614,
+      "sha256": "4325fc737ca025adf7877200e81cc581fb1d99d13dcabced253e054351753244",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            384,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            384,
+            2048,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\pilot01\\2x4-endpoints-and-last2048.npz",
+      "bytes": 2814231,
+      "sha256": "7904027d272a1fcec53c82feb92c906199780dfe6c960a67c8e92dbb8d6aa5cb",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            384,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            384,
+            2048,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\pilot01\\3x2-endpoints-and-last2048.npz",
+      "bytes": 1649016,
+      "sha256": "f1d3caf4020504af7e691ae37b7a43af3303653e027abbaf5ed77b2077c89fd8",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            384,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            384,
+            2048,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\pilot01\\4x2-endpoints-and-last2048.npz",
+      "bytes": 2700759,
+      "sha256": "2b3a092f286feca9139453e23f5d053af104a1dd3c61e4fb8c633c65b4eb26f7",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            384,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            384,
+            2048,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\followup01\\2x3-final-50000-states.npz",
+      "bytes": 1181565,
+      "sha256": "02f11a3b0fa0f0f65206759b3071e853732570e0393572034ef8813f5a761a42",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            4
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            4,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\followup01\\2x4-final-50000-states.npz",
+      "bytes": 3015489,
+      "sha256": "787ae63aa95cf7e24910f73ae610d059bd5c2a59f085e4696b5a09d222cd72e3",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            8
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            8,
+            50000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\followup01\\3x2-final-50000-states.npz",
+      "bytes": 21034,
+      "sha256": "e17c2eeebae8de2f6ae2a0b1cb0b6effe206e3c6bdaeddce902713d293b6717f",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            3
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            3,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\followup01\\4x2-final-50000-states.npz",
+      "bytes": 53860,
+      "sha256": "e3229fb1a4125478f39536f22255ef389f5f0a42e7c499e72b68a55dfb85fc69",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            5
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            5,
+            50000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\rectangular-long01\\2x3-final-50000-states.npz",
+      "bytes": 1180842,
+      "sha256": "6d4c33196407ced81fbdc7d202e5f4c6c1ad29574cf80d77d6fba5a872e2e04f",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            4
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            4,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\rectangular-long01\\2x4-final-50000-states.npz",
+      "bytes": 2975724,
+      "sha256": "8bea9e6bc62f046a1dd5d5207dfc94ebda72abcddcba89dbb7f3c9621bf397f5",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            8
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            8,
+            50000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\rectangular-long01\\3x2-final-50000-states.npz",
+      "bytes": 21020,
+      "sha256": "8b5d96376706de694a76329ebfa17c23c06d59a9ab28b2392412b52cda668032",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            3
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            3,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\rectangular-long01\\4x2-final-50000-states.npz",
+      "bytes": 53806,
+      "sha256": "09dcb2f0d3f646a49946d999a7e378c129057b372baa67a308f021bde365cf03",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            5
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            5,
+            50000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual01\\2x2-endpoints-and-last2048.npz",
+      "bytes": 1703877,
+      "sha256": "10f07a763bbd4f4cedf929dc972ed858b137630dcbcc3daf27fcc42a4553259f",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            768,
+            2
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            768,
+            2048,
+            2
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual01\\2x3-endpoints-and-last2048.npz",
+      "bytes": 2016133,
+      "sha256": "ba1108fa94d4a5cbc205ce6f8720a913eb4235d13d43d4fece0b7d2c9a290fdc",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            768,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            768,
+            2048,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual01\\3x2-endpoints-and-last2048.npz",
+      "bytes": 3078509,
+      "sha256": "6cbb0954d4fc9c277898b9ac34606f213c3afc090c4f91e692eddd8f40c7eb64",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            768,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            768,
+            2048,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual-follow01\\2x2-final-50000-states.npz",
+      "bytes": 3061201,
+      "sha256": "644a4e1deabdb2e38b64fe9e41331ff9bfe430d393fccfd82fc93fe284edb4e2",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            4
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            4,
+            50000,
+            2
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual-follow01\\2x3-final-50000-states.npz",
+      "bytes": 2298671,
+      "sha256": "f0b3a8c9754d86425780837d93ef428fd13cacacc081f62f4975b23bc53b935c",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            2
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            2,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual-follow01\\3x2-final-50000-states.npz",
+      "bytes": 5693005,
+      "sha256": "3b5bc59387cc6c865c572051907f178e83e3dde0dfb4178255fee0b03cef0c90",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            6
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            6,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual-long01\\2x2-final-50000-states.npz",
+      "bytes": 3061204,
+      "sha256": "ecf1f7c37b943e8f23802d902433ab26b86c410ef5c5ee299f2facaa4676d947",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            4
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            4,
+            50000,
+            2
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual-long01\\2x3-final-50000-states.npz",
+      "bytes": 2298740,
+      "sha256": "ffc68d004a98f0c5f0ede6f4851f04e6f5bdb4aabd50040a43160d3889c91f20",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            2
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            2,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\dual-long01\\3x2-final-50000-states.npz",
+      "bytes": 5690767,
+      "sha256": "75516409507363037272ab9f1d4840862020845985fc97b4ab5deb0cc9f94b0b",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            5
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            5,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\balanced01\\3x2-endpoints-and-last2048.npz",
+      "bytes": 5158931,
+      "sha256": "ae5567b07da5ca0a48484168c3a3f98848638601dfb1629e72b0aa7ee6949d30",
+      "arrays": [
+        {
+          "key": "endpoints",
+          "shape": [
+            1024,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "key": "last2048",
+          "shape": [
+            1024,
+            2048,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\balanced-follow01\\3x2-final-50000-states.npz",
+      "bytes": 60095107,
+      "sha256": "a06807468a0c51c38853bceae398728b7454ea5a053f11f23aabdcd53b8b27db",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            57
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            57,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\balanced-long01\\3x2-final-50000-states.npz",
+      "bytes": 58916557,
+      "sha256": "12b903f325121b27e102139358954ccf33fce955787223ab72ec6e95357efc78",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            53
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            53,
+            50000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\selected-100m\\3x2-final-250000-states.npz",
+      "bytes": 11470923,
+      "sha256": "4f0ffd40f8c5251e4de25b87c6474cb3e7e0ea94c7166f4152416a640e844a57",
+      "arrays": [
+        {
+          "key": "case",
+          "shape": [
+            2
+          ],
+          "dtype": "int64"
+        },
+        {
+          "key": "states",
+          "shape": [
+            2,
+            250000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\controls-balanced01\\last2048-states.npz",
+      "bytes": 4806056,
+      "sha256": "a8c6f052fb27db2c33227419b5ae0ae10123b015faa38cc0ddc7891676fce99c",
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            116,
+            2048,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced01\\3x2-case150-100digits-all-observed-states.npy",
+      "bytes": 480128,
+      "sha256": "eb89975a86ace7727c39fbe05fa7c7ff462492664f9992bbd050138ab94f0122",
+      "arrays": [
+        {
+          "shape": [
+            20000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced01\\3x2-case150-70digits-all-observed-states.npy",
+      "bytes": 480128,
+      "sha256": "a66ae278a66d8be6e4c8d4c9308671778762f2c2a39d876328d10d7cdd50d0d8",
+      "arrays": [
+        {
+          "shape": [
+            20000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced01\\3x2-case987-100digits-all-observed-states.npy",
+      "bytes": 480128,
+      "sha256": "11c97f112fac7fb405b0fe887f8f9e2ca244c980e0dbc8e234ffd370a8da62b4",
+      "arrays": [
+        {
+          "shape": [
+            20000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced01\\3x2-case987-70digits-all-observed-states.npy",
+      "bytes": 480128,
+      "sha256": "d20159f27495465a38055244c932129cf4e23b46beefd741f4fb7241d3202580",
+      "arrays": [
+        {
+          "shape": [
+            20000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-rectangular01\\2x4-case326-100digits-all-observed-states.npy",
+      "bytes": 640128,
+      "sha256": "9c9318a1410c5b617a38b0c7e4e8a8fbc6b24151cb0a4ac07a8d4c69fcf876b6",
+      "arrays": [
+        {
+          "shape": [
+            20000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-rectangular01\\2x4-case326-70digits-all-observed-states.npy",
+      "bytes": 640128,
+      "sha256": "57055e7a8e3bbc78827fcfe1cc089664ac4975ff2365f43cd597bcdc1f232515",
+      "arrays": [
+        {
+          "shape": [
+            20000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced-6m\\3x2-case150-100digits-all-observed-states.npy",
+      "bytes": 4800128,
+      "sha256": "89f2f4a7d1aa33431012acc2fbaea963ad35ed070f88e5fc458ffbdd079d5468",
+      "arrays": [
+        {
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced-6m\\3x2-case150-70digits-all-observed-states.npy",
+      "bytes": 4800128,
+      "sha256": "b7f5f57b488d9020cbc9230126c700895980986bd5a47a909ef55d0fb9d8d7ba",
+      "arrays": [
+        {
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced-6m\\3x2-case987-100digits-all-observed-states.npy",
+      "bytes": 4800128,
+      "sha256": "48aad9b3ee3f55ee2d3543bdc848089c37d56d14aa4647b6f84c5c7efc206792",
+      "arrays": [
+        {
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    {
+      "path": "D:\\Codex\\sinkhorn-rectangular-20261101\\precision-balanced-6m\\3x2-case987-70digits-all-observed-states.npy",
+      "bytes": 4800128,
+      "sha256": "4a738da541fca909e2ec97cd3ed7d4f191e7d9203fca17bcc48c93fa43f62188",
+      "arrays": [
+        {
+          "shape": [
+            200000,
+            3
+          ],
+          "dtype": "float64"
+        }
+      ]
+    }
+  ],
+  "total_bytes": 209336921,
+  "scope": "External numerical arrays. Each tail filename names its actual retained final window. Earlier full histories were not stored; no hidden thinning. NaN rows denote windows not reached after escape or numerical capture."
+}

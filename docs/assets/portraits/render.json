@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "44f123b1f3dc6428f38c197d0f898497764a98f279bbca77def130e64a546e96",
+  "catalog_sha256": "f13df9e170e9df4f7fef82a3437e51141899f21382d777e2193673a4316f6ae9",
   "size": [
     1920,
     1080
@@ -1195,6 +1195,85 @@
           "display_label": "Case 39"
         }
       ]
+    },
+    {
+      "id": "sinkhorn-balanced",
+      "file": "docs/assets/portraits/sinkhorn-balanced.png",
+      "sha256": "20d7176358a7876ec00c2ba4c0c2ecf3bf4fb1954a807cafed7c92b18cd5fd15",
+      "panels": [
+        {
+          "input": {
+            "label": "150",
+            "source": "results/sinkhorn-unequal-rates/presentation/case-150-points.npz",
+            "key": "points",
+            "mode": "points",
+            "transform": "identity"
+          },
+          "input_sha256": "84f299e9b285685838c2ce3f8511b54de1713448faf04fc807a5d060121410be",
+          "original_count": 250000,
+          "coordinate_sha256": "3434ae62d643e538afc221ee604d23a90d9e59f61048cebcd3c1cd9c7623b9c2",
+          "center": [
+            0.05839411824575569,
+            -0.01652038414413426,
+            -0.008159196478950359
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 2.0335187822017837,
+          "spatially_clipped": 0,
+          "rendered_count": 250000,
+          "log_saturation": 5.0106352940962555,
+          "occupied_bins": 30550,
+          "display_label": "Case 150"
+        },
+        {
+          "input": {
+            "label": "987",
+            "source": "results/sinkhorn-unequal-rates/presentation/case-987-points.npz",
+            "key": "points",
+            "mode": "points",
+            "transform": "identity"
+          },
+          "input_sha256": "2b6ef5e07cfafe6ec1fb5cb885b3cdebe11fe53aa157418c4949eedd2eebfb90",
+          "original_count": 250000,
+          "coordinate_sha256": "366ca9a1c509f249c3d02fa3cb598c32fd75ea038612418b7d178a39f8f04ddc",
+          "center": [
+            0.14222936435502398,
+            -0.09861730860992729,
+            0.017132177413112792
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 1.579929313690329,
+          "spatially_clipped": 0,
+          "rendered_count": 250000,
+          "log_saturation": 5.10464715936782,
+          "occupied_bins": 42806,
+          "display_label": "Case 987"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
     },
     {
       "id": "yogi-arc",

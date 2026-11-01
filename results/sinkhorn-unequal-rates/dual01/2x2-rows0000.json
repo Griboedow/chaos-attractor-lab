@@ -1,0 +1,2028 @@
+{
+  "runs": [
+    {
+      "case": 0,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 1.1,
+      "wy": 1.8,
+      "log_kernel": [
+        [
+          -31.959472816744537,
+          -6.568381460330709
+        ],
+        [
+          0.0,
+          -101.97230975349143
+        ]
+      ],
+      "initial_state": [
+        0.0005215511446502201,
+        -5.382974782673437e-05
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.08000000000000007,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 0.00016640427023013565,
+      "final_abs_state": 0.0001664041636863057,
+      "rates": {
+        "mean": -2.0246249121878114e-11,
+        "first": -2.024624912187519e-11,
+        "last": -2.024624912187519e-11
+      }
+    },
+    {
+      "case": 1,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 1.8,
+      "wy": 2.02,
+      "log_kernel": [
+        [
+          -5.331544887597719,
+          -10.48008060313446
+        ],
+        [
+          0.0,
+          -16.20496737801661
+        ]
+      ],
+      "initial_state": [
+        -0.00023844428270428512,
+        0.0004539795130776883
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.8160000000000001,
+      "status": "numerical capture",
+      "completed_steps": 173,
+      "max_abs_state": 0.0010768168609803478,
+      "final_abs_state": 6.626291248218843e-12,
+      "rates": null
+    },
+    {
+      "case": 2,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 2.02,
+      "wy": 0.5,
+      "log_kernel": [
+        [
+          -12.328160307659411,
+          -17.283809253156548
+        ],
+        [
+          0.0,
+          -13.150251623603257
+        ]
+      ],
+      "initial_state": [
+        0.00481491498443007,
+        -0.18099506995808912
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.51,
+      "status": "escape threshold",
+      "completed_steps": 840,
+      "max_abs_state": 101473.63141760392,
+      "final_abs_state": 101473.63141760392,
+      "rates": null
+    },
+    {
+      "case": 3,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 1.95,
+      "wy": 1.8,
+      "log_kernel": [
+        [
+          0.0,
+          -5.17152555831796
+        ],
+        [
+          -3.623968370642208,
+          -5.740252161315096
+        ]
+      ],
+      "initial_state": [
+        0.1026257214811136,
+        -0.39273464271334557
+      ],
+      "start_scale": 1.0,
+      "determinant": 0.76,
+      "status": "numerical capture",
+      "completed_steps": 176,
+      "max_abs_state": 0.33318102943609895,
+      "final_abs_state": 7.287381122845908e-12,
+      "rates": null
+    },
+    {
+      "case": 4,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 1.8,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          -3.2886759153219933,
+          -1.737146671810022
+        ],
+        [
+          0.0,
+          -0.7598895293912604
+        ]
+      ],
+      "initial_state": [
+        -13.946168741172178,
+        -24.17628004923838
+      ],
+      "start_scale": 20.0,
+      "determinant": -0.24000000000000005,
+      "status": "numerical capture",
+      "completed_steps": 78,
+      "max_abs_state": 9.408568922479033,
+      "final_abs_state": 7.2043151542269484e-12,
+      "rates": null
+    },
+    {
+      "case": 5,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.1,
+      "wy": 2.3,
+      "log_kernel": [
+        [
+          -4.633357885884909,
+          -1.9780512459158661
+        ],
+        [
+          -8.572173154070589,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        0.05679558502094876,
+        -0.04208493458992643
+      ],
+      "start_scale": 0.1,
+      "determinant": 0.1300000000000001,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 2.295477175763797,
+      "final_abs_state": 2.295477175763797,
+      "rates": {
+        "mean": -0.519911363025957,
+        "first": -0.519911363025874,
+        "last": -0.519911363025874
+      }
+    },
+    {
+      "case": 6,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 2.6,
+      "wy": 0.5,
+      "log_kernel": [
+        [
+          -3.391725380625143,
+          -1.1438302693874454
+        ],
+        [
+          0.0,
+          -1.7528946663213136
+        ]
+      ],
+      "initial_state": [
+        -0.8305934145568682,
+        2.9398948229284416
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.8,
+      "status": "escape threshold",
+      "completed_steps": 24,
+      "max_abs_state": 111601.73308243006,
+      "final_abs_state": 111601.73308243006,
+      "rates": null
+    },
+    {
+      "case": 7,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 0.7,
+      "wy": 1.95,
+      "log_kernel": [
+        [
+          -12.396932684911874,
+          -10.571942406160371
+        ],
+        [
+          -21.28384892100827,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        -0.9159145854770785,
+        0.8814983705685409
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.28500000000000003,
+      "status": "numerical capture",
+      "completed_steps": 118,
+      "max_abs_state": 0.33415839090453314,
+      "final_abs_state": 8.693617738635912e-12,
+      "rates": null
+    },
+    {
+      "case": 8,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 2.3,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -45.309225383984746,
+          0.0
+        ],
+        [
+          -38.10400516328445,
+          -3.388666304436036
+        ]
+      ],
+      "initial_state": [
+        0.000588085675956413,
+        -0.0008664435802293787
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.1300000000000001,
+      "status": "escape threshold",
+      "completed_steps": 73,
+      "max_abs_state": 122265.89176232448,
+      "final_abs_state": 122265.89176232448,
+      "rates": null
+    },
+    {
+      "case": 9,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 0.3,
+      "wy": 2.3,
+      "log_kernel": [
+        [
+          0.0,
+          -46.64306647930074
+        ],
+        [
+          -30.756362996495103,
+          -3.3573896174706186
+        ]
+      ],
+      "initial_state": [
+        1.9896706907505688,
+        -10.21435280035556
+      ],
+      "start_scale": 20.0,
+      "determinant": -0.9099999999999998,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 9.022596360541634,
+      "final_abs_state": 3.2815051959117585,
+      "rates": {
+        "mean": -1.254857329166005e-11,
+        "first": -1.254857329166135e-11,
+        "last": -1.254857329166135e-11
+      }
+    },
+    {
+      "case": 10,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 1.8,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -13.674274444836357,
+          -1.9591973820195046
+        ],
+        [
+          0.0,
+          -5.337565403368223
+        ]
+      ],
+      "initial_state": [
+        -0.0006939009222195905,
+        -0.001248958243088882
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.4,
+      "status": "numerical capture",
+      "completed_steps": 88,
+      "max_abs_state": 0.0019068636201949921,
+      "final_abs_state": 8.515210447205937e-12,
+      "rates": null
+    },
+    {
+      "case": 11,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 0.5,
+      "wy": 2.1,
+      "log_kernel": [
+        [
+          -1.3477991336838753,
+          0.0
+        ],
+        [
+          -0.7011743862387175,
+          -2.2539919643376205
+        ]
+      ],
+      "initial_state": [
+        0.9382466051434575,
+        0.8698896288711777
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.55,
+      "status": "numerical capture",
+      "completed_steps": 173,
+      "max_abs_state": 0.731803798582665,
+      "final_abs_state": 9.29547170937962e-12,
+      "rates": null
+    },
+    {
+      "case": 12,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 1.95,
+      "wy": 1.99,
+      "log_kernel": [
+        [
+          -131.61605076437468,
+          -122.5851731877853
+        ],
+        [
+          -74.57368437354293,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        0.0014154824159509432,
+        4.677320277510579e-06
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.9405,
+      "status": "numerical capture",
+      "completed_steps": 1299,
+      "max_abs_state": 0.0013447093863926801,
+      "final_abs_state": 9.993537832112907e-12,
+      "rates": null
+    },
+    {
+      "case": 13,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 0.3,
+      "wy": 2.3,
+      "log_kernel": [
+        [
+          -5.095084121321351,
+          0.0
+        ],
+        [
+          -7.966180958687531,
+          -8.64438880195133
+        ]
+      ],
+      "initial_state": [
+        -0.03969829047445325,
+        0.10760579244780609
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.9099999999999998,
+      "status": "escape threshold",
+      "completed_steps": 54,
+      "max_abs_state": 129988.40323707735,
+      "final_abs_state": 129988.40323707735,
+      "rates": null
+    },
+    {
+      "case": 14,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 2.02,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -1.101482000170555,
+          0.0
+        ],
+        [
+          -1.3481693620911819,
+          -0.4900561680506072
+        ]
+      ],
+      "initial_state": [
+        -0.00012268093579756618,
+        0.0005124849718921347
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.10200000000000009,
+      "status": "escape threshold",
+      "completed_steps": 1283,
+      "max_abs_state": 100386.4055614071,
+      "final_abs_state": 100386.4055614071,
+      "rates": null
+    },
+    {
+      "case": 15,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 0.7,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -28.835177252018315,
+          -58.094246028787936
+        ],
+        [
+          -0.3967637686576353,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        0.24615672583420783,
+        0.13390438514575304
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.03000000000000003,
+      "status": "numerical capture",
+      "completed_steps": 20,
+      "max_abs_state": 0.016308503081622773,
+      "final_abs_state": 3.517864795428764e-12,
+      "rates": null
+    },
+    {
+      "case": 16,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 2.3,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          -107.42309260102301,
+          0.0
+        ],
+        [
+          -44.03701634036285,
+          -179.81538896459253
+        ]
+      ],
+      "initial_state": [
+        -7.6074174208242535,
+        -13.133632887026284
+      ],
+      "start_scale": 20.0,
+      "determinant": -0.39,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 20.31771299308892,
+      "final_abs_state": 16.75151495482762,
+      "rates": {
+        "mean": -1.1102230246251565e-16,
+        "first": -1.1102230246251565e-16,
+        "last": -1.1102230246251565e-16
+      }
+    },
+    {
+      "case": 17,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 1.8,
+      "wy": 1.95,
+      "log_kernel": [
+        [
+          0.0,
+          -42.22190952939783
+        ],
+        [
+          -15.600955194691924,
+          -41.90604352719109
+        ]
+      ],
+      "initial_state": [
+        -0.00013551021499060974,
+        -0.0013856414391779843
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.76,
+      "status": "numerical capture",
+      "completed_steps": 349,
+      "max_abs_state": 0.001194102864363024,
+      "final_abs_state": 9.591386674926831e-12,
+      "rates": null
+    },
+    {
+      "case": 18,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 2.3,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          0.0,
+          -10.801189757691253
+        ],
+        [
+          -16.964513612357834,
+          -10.617675419386423
+        ]
+      ],
+      "initial_state": [
+        0.09475449831192642,
+        -0.20712703871582855
+      ],
+      "start_scale": 1.0,
+      "determinant": 0.1300000000000001,
+      "status": "numerical capture",
+      "completed_steps": 25,
+      "max_abs_state": 0.3522768678184344,
+      "final_abs_state": 6.9104749701355566e-12,
+      "rates": null
+    },
+    {
+      "case": 19,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 0.9,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -1.4345477825522648,
+          -1.998623997635975
+        ],
+        [
+          -3.2437313167920028,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        -0.46693684212377295,
+        -0.19979373338559878
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.010000000000000007,
+      "status": "numerical capture",
+      "completed_steps": 30,
+      "max_abs_state": 0.06454622535001961,
+      "final_abs_state": 9.428276507909526e-12,
+      "rates": null
+    },
+    {
+      "case": 20,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 2.1,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          -11.164476987440072,
+          -16.901101920777986
+        ],
+        [
+          -9.654919632989715,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        20.77181047724349,
+        22.653962801054007
+      ],
+      "start_scale": 20.0,
+      "determinant": -0.33000000000000007,
+      "status": "escape threshold",
+      "completed_steps": 102,
+      "max_abs_state": 107917.54438859966,
+      "final_abs_state": 107917.54438859966,
+      "rates": null
+    },
+    {
+      "case": 21,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.1,
+      "wy": 2.3,
+      "log_kernel": [
+        [
+          0.0,
+          -0.9550064020492903
+        ],
+        [
+          -3.8578531196432393,
+          -7.051035209498005
+        ]
+      ],
+      "initial_state": [
+        0.039077485666338646,
+        0.22485198517426874
+      ],
+      "start_scale": 0.1,
+      "determinant": 0.1300000000000001,
+      "status": "escape threshold",
+      "completed_steps": 51,
+      "max_abs_state": 111409.83423081033,
+      "final_abs_state": 111409.83423081033,
+      "rates": null
+    },
+    {
+      "case": 22,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 2.6,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          0.0,
+          -80.9364885211376
+        ],
+        [
+          -93.85075477132523,
+          -78.76683929759275
+        ]
+      ],
+      "initial_state": [
+        0.045103890209465154,
+        -0.016404038417719907
+      ],
+      "start_scale": 0.1,
+      "determinant": 0.8,
+      "status": "numerical capture",
+      "completed_steps": 197,
+      "max_abs_state": 0.0834664560837863,
+      "final_abs_state": 8.068770569046897e-12,
+      "rates": null
+    },
+    {
+      "case": 23,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 1.8,
+      "wy": 1.8,
+      "log_kernel": [
+        [
+          -11.44731740284166,
+          -28.672155998596857
+        ],
+        [
+          0.0,
+          -1.7491216329347088
+        ]
+      ],
+      "initial_state": [
+        9.205319745095094e-05,
+        0.00047692009321008427
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.6400000000000001,
+      "status": "numerical capture",
+      "completed_steps": 95,
+      "max_abs_state": 0.0003815322136692079,
+      "final_abs_state": 9.353999976034557e-12,
+      "rates": null
+    },
+    {
+      "case": 24,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 2.6,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          0.0,
+          -6.507063166435922
+        ],
+        [
+          -7.81018595817126,
+          -10.810635339063179
+        ]
+      ],
+      "initial_state": [
+        0.01810550713137959,
+        0.005602362505065872
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.4800000000000001,
+      "status": "escape threshold",
+      "completed_steps": 34,
+      "max_abs_state": 157797.75164487067,
+      "final_abs_state": 157797.75164487067,
+      "rates": null
+    },
+    {
+      "case": 25,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 0.9,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -2.130533508287209,
+          -4.92001156132528
+        ],
+        [
+          0.0,
+          -2.24555002508243
+        ]
+      ],
+      "initial_state": [
+        -0.0005501840147655329,
+        -0.00011309203878153605
+      ],
+      "start_scale": 0.001,
+      "determinant": -0.04999999999999999,
+      "status": "numerical capture",
+      "completed_steps": 24,
+      "max_abs_state": 5.9744075241053625e-05,
+      "final_abs_state": 6.501051703468326e-12,
+      "rates": null
+    },
+    {
+      "case": 26,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 1.95,
+      "wy": 0.5,
+      "log_kernel": [
+        [
+          -18.86729167163286,
+          -30.824154207188716
+        ],
+        [
+          0.0,
+          -15.11433382892429
+        ]
+      ],
+      "initial_state": [
+        -0.150062658195325,
+        0.04334360521134639
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.475,
+      "status": "numerical capture",
+      "completed_steps": 457,
+      "max_abs_state": 0.14256005583631204,
+      "final_abs_state": 9.90743692130833e-12,
+      "rates": null
+    },
+    {
+      "case": 27,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 0.5,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -11.31764546982561,
+          -0.8684774600239955
+        ],
+        [
+          0.0,
+          -8.440850697971415
+        ]
+      ],
+      "initial_state": [
+        -0.001116873847775253,
+        -0.0012442469027319223
+      ],
+      "start_scale": 0.001,
+      "determinant": -0.050000000000000044,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 0.0011804081570587176,
+      "final_abs_state": 6.43251095350506e-09,
+      "rates": {
+        "mean": -0.00040394279559094253,
+        "first": -0.0004039419017484293,
+        "last": -0.0004039436894334534
+      }
+    },
+    {
+      "case": 28,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 2.02,
+      "wy": 1.95,
+      "log_kernel": [
+        [
+          -3.8049808116813564,
+          0.0
+        ],
+        [
+          -3.4952872457944553,
+          -15.522463223891062
+        ]
+      ],
+      "initial_state": [
+        -1.763144106632709e-05,
+        -0.00019051650265655798
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.969,
+      "status": "numerical capture",
+      "completed_steps": 1041,
+      "max_abs_state": 0.0003584762497477409,
+      "final_abs_state": 9.563797250273652e-12,
+      "rates": null
+    },
+    {
+      "case": 29,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 1.95,
+      "wy": 2.02,
+      "log_kernel": [
+        [
+          -3.1604006956187893,
+          -0.9324994344964573
+        ],
+        [
+          0.0,
+          -2.5335306044454073
+        ]
+      ],
+      "initial_state": [
+        -0.0002541950415494731,
+        0.0008039565072008422
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.969,
+      "status": "numerical capture",
+      "completed_steps": 1168,
+      "max_abs_state": 0.001644135445702077,
+      "final_abs_state": 9.760222424962915e-12,
+      "rates": null
+    },
+    {
+      "case": 30,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 2.02,
+      "wy": 0.3,
+      "log_kernel": [
+        [
+          -2.907501059628795,
+          -4.076952646838681
+        ],
+        [
+          0.0,
+          -3.011809875906279
+        ]
+      ],
+      "initial_state": [
+        -0.16840991517368895,
+        1.265601898631958
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.714,
+      "status": "escape threshold",
+      "completed_steps": 814,
+      "max_abs_state": 100928.60593301192,
+      "final_abs_state": 100928.60593301192,
+      "rates": null
+    },
+    {
+      "case": 31,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 0.3,
+      "wy": 1.95,
+      "log_kernel": [
+        [
+          -1.3709212039544267,
+          0.0
+        ],
+        [
+          -3.0177531026047006,
+          -4.024810191802961
+        ]
+      ],
+      "initial_state": [
+        -0.09441175052676615,
+        0.23567389798973895
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.6649999999999999,
+      "status": "numerical capture",
+      "completed_steps": 306,
+      "max_abs_state": 0.23194331937615797,
+      "final_abs_state": 9.342884635160509e-12,
+      "rates": null
+    },
+    {
+      "case": 32,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 2.1,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          0.0,
+          -1.5630491203369707
+        ],
+        [
+          -0.7507695944616484,
+          -2.2332270897714297
+        ]
+      ],
+      "initial_state": [
+        -0.1861647121116618,
+        0.1449264396663379
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.33000000000000007,
+      "status": "escape threshold",
+      "completed_steps": 139,
+      "max_abs_state": 103224.57688527058,
+      "final_abs_state": 103224.57688527058,
+      "rates": null
+    },
+    {
+      "case": 33,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 1.8,
+      "wy": 1.95,
+      "log_kernel": [
+        [
+          0.0,
+          -16.683548830700943
+        ],
+        [
+          -15.958427676667316,
+          -19.034095315755813
+        ]
+      ],
+      "initial_state": [
+        2.3660300100897165,
+        -0.7549838457551532
+      ],
+      "start_scale": 5.0,
+      "determinant": 0.76,
+      "status": "numerical capture",
+      "completed_steps": 194,
+      "max_abs_state": 1.850233017062253,
+      "final_abs_state": 9.760483129579415e-12,
+      "rates": null
+    },
+    {
+      "case": 34,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 2.6,
+      "wy": 0.9,
+      "log_kernel": [
+        [
+          -4.089867215330887,
+          -3.8185165831130945
+        ],
+        [
+          -16.261921397471056,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        -0.45108082039239566,
+        0.9551714127899992
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.15999999999999998,
+      "status": "numerical capture",
+      "completed_steps": 71,
+      "max_abs_state": 0.1683864682199641,
+      "final_abs_state": 7.874152427437644e-12,
+      "rates": null
+    },
+    {
+      "case": 35,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 0.9,
+      "wy": 2.1,
+      "log_kernel": [
+        [
+          -0.9236598208558218,
+          -1.222543964206798
+        ],
+        [
+          0.0,
+          -1.9964429604434903
+        ]
+      ],
+      "initial_state": [
+        -0.022878946188463273,
+        -0.09530672682393926
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.10999999999999999,
+      "status": "numerical capture",
+      "completed_steps": 201,
+      "max_abs_state": 0.0813139120978745,
+      "final_abs_state": 9.10478954591074e-12,
+      "rates": null
+    },
+    {
+      "case": 36,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 1.95,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -39.723785435893845,
+          0.0
+        ],
+        [
+          -22.899511807766153,
+          -7.2047877267672344
+        ]
+      ],
+      "initial_state": [
+        1.0944526977928541,
+        -0.590962115019296
+      ],
+      "start_scale": 1.0,
+      "determinant": 0.475,
+      "status": "numerical capture",
+      "completed_steps": 519,
+      "max_abs_state": 2.5668371724441656,
+      "final_abs_state": 9.507567235643183e-12,
+      "rates": null
+    },
+    {
+      "case": 37,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 0.9,
+      "wy": 2.02,
+      "log_kernel": [
+        [
+          0.0,
+          -1.5460340504158263
+        ],
+        [
+          -3.777696678411539,
+          -6.826327998619245
+        ]
+      ],
+      "initial_state": [
+        0.0013441439596993717,
+        -0.0002065002494420901
+      ],
+      "start_scale": 0.001,
+      "determinant": -0.10199999999999998,
+      "status": "escape threshold",
+      "completed_steps": 1167,
+      "max_abs_state": 101463.58293152426,
+      "final_abs_state": 101463.58293152426,
+      "rates": null
+    },
+    {
+      "case": 38,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 1.5,
+      "wy": 0.5,
+      "log_kernel": [
+        [
+          -24.835478288808176,
+          -36.781952229697474
+        ],
+        [
+          -34.176259596423584,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        -0.03063337370012996,
+        -0.008346059259126433
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.25,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 0.02783569492763117,
+      "final_abs_state": 0.0029426458863552486,
+      "rates": {
+        "mean": -5.681527256000093e-05,
+        "first": -5.6889359291660555e-05,
+        "last": -5.67411858283411e-05
+      }
+    },
+    {
+      "case": 39,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.1,
+      "wy": 4.0,
+      "log_kernel": [
+        [
+          -3.306334738040779,
+          0.0
+        ],
+        [
+          -12.276468788634418,
+          -0.45735584839128673
+        ]
+      ],
+      "initial_state": [
+        0.00012537002917380945,
+        -0.0004148202122683681
+      ],
+      "start_scale": 0.001,
+      "determinant": 0.30000000000000027,
+      "status": "escape threshold",
+      "completed_steps": 19,
+      "max_abs_state": 157726.94214098633,
+      "final_abs_state": 157726.94214098633,
+      "rates": null
+    },
+    {
+      "case": 40,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 1.5,
+      "wy": 0.1,
+      "log_kernel": [
+        [
+          -47.636075404127695,
+          -0.22310742766109115
+        ],
+        [
+          0.0,
+          -3.847777404787294
+        ]
+      ],
+      "initial_state": [
+        -6.8472413658247655,
+        -5.703951124311828
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.45,
+      "status": "numerical capture",
+      "completed_steps": 6437,
+      "max_abs_state": 5.879605909974812,
+      "final_abs_state": 9.996666905015196e-12,
+      "rates": null
+    },
+    {
+      "case": 41,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 0.9,
+      "wy": 2.3,
+      "log_kernel": [
+        [
+          -69.8108965563244,
+          0.0
+        ],
+        [
+          -13.496264763031544,
+          -30.906745882016722
+        ]
+      ],
+      "initial_state": [
+        7.319837878438404,
+        4.066609032341642
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.12999999999999995,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 4.814848406365876,
+      "final_abs_state": 4.5725103285934985,
+      "rates": {
+        "mean": -5.119878879538149e-06,
+        "first": -5.249600853102008e-06,
+        "last": -4.99015690597427e-06
+      }
+    },
+    {
+      "case": 42,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 3.0,
+      "wy": 0.9,
+      "log_kernel": [
+        [
+          -2.276928154277195,
+          0.0
+        ],
+        [
+          -5.193651275754484,
+          -3.1091165198208666
+        ]
+      ],
+      "initial_state": [
+        0.06110131786639317,
+        -0.14210419604021837
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.19999999999999996,
+      "status": "escape threshold",
+      "completed_steps": 21,
+      "max_abs_state": 135794.35892954236,
+      "final_abs_state": 135794.35892954236,
+      "rates": null
+    },
+    {
+      "case": 43,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 1.99,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -0.8849139073749035,
+          0.0
+        ],
+        [
+          -1.6317548662425057,
+          -0.9913505106514526
+        ]
+      ],
+      "initial_state": [
+        -1.1745916618624817,
+        0.6582035685088572
+      ],
+      "start_scale": 5.0,
+      "determinant": 0.09900000000000009,
+      "status": "numerical capture",
+      "completed_steps": 1531,
+      "max_abs_state": 1.2229380749802201,
+      "final_abs_state": 9.881197925668553e-12,
+      "rates": null
+    },
+    {
+      "case": 44,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 2.02,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          0.0,
+          -158.23251550162777
+        ],
+        [
+          -18.64818543986106,
+          -71.6989669021682
+        ]
+      ],
+      "initial_state": [
+        0.06259069374003709,
+        0.04133084049416949
+      ],
+      "start_scale": 0.1,
+      "determinant": 0.51,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 52.61065340355387,
+      "final_abs_state": 51.60119154133308,
+      "rates": {
+        "mean": -0.33666921781060344,
+        "first": -0.33666898379608867,
+        "last": -0.3366694518251232
+      }
+    },
+    {
+      "case": 45,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 0.1,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -17.732376553211346,
+          0.0
+        ],
+        [
+          -3.777199915266667,
+          -5.927702088300499
+        ]
+      ],
+      "initial_state": [
+        -10.078609052510586,
+        -2.4994161215295034
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.09000000000000008,
+      "status": "numerical capture",
+      "completed_steps": 3160,
+      "max_abs_state": 9.978298735249961,
+      "final_abs_state": 9.901679672745697e-12,
+      "rates": null
+    },
+    {
+      "case": 46,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 2.3,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -1.8521640418383314,
+          0.0
+        ],
+        [
+          -3.162984294836111,
+          -10.150349727431427
+        ]
+      ],
+      "initial_state": [
+        0.12056464015995573,
+        1.1210736494651483
+      ],
+      "start_scale": 1.0,
+      "determinant": 0.6499999999999999,
+      "status": "numerical capture",
+      "completed_steps": 118,
+      "max_abs_state": 2.1968527046252277,
+      "final_abs_state": 6.955692287794734e-12,
+      "rates": null
+    },
+    {
+      "case": 47,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 1.5,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -1.1721865675486978,
+          -5.105758260534386
+        ],
+        [
+          -0.10774038365244018,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        -5.7374550229161105,
+        -5.060109429009708
+      ],
+      "start_scale": 5.0,
+      "determinant": 0.25,
+      "status": "numerical capture",
+      "completed_steps": 41,
+      "max_abs_state": 4.13300316322049,
+      "final_abs_state": 9.583557850872003e-12,
+      "rates": null
+    },
+    {
+      "case": 48,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 10.0,
+      "wx": 2.3,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          0.0,
+          -25.478833336754473
+        ],
+        [
+          -9.679876888189707,
+          -14.604559605631678
+        ]
+      ],
+      "initial_state": [
+        17.530797423634958,
+        -24.544254446451163
+      ],
+      "start_scale": 20.0,
+      "determinant": -0.39,
+      "status": "escape threshold",
+      "completed_steps": 34,
+      "max_abs_state": 111800.18433750114,
+      "final_abs_state": 111800.18433750114,
+      "rates": null
+    },
+    {
+      "case": 49,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 0.1,
+      "wy": 1.95,
+      "log_kernel": [
+        [
+          -1.3334205155071905,
+          0.0
+        ],
+        [
+          -2.5735240453486496,
+          -10.247434012993306
+        ]
+      ],
+      "initial_state": [
+        0.0004855710047367994,
+        1.962139813533851e-05
+      ],
+      "start_scale": 0.001,
+      "determinant": -0.855,
+      "status": "numerical capture",
+      "completed_steps": 228,
+      "max_abs_state": 0.0004385658448160768,
+      "final_abs_state": 9.553777619886446e-12,
+      "rates": null
+    },
+    {
+      "case": 50,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 2.02,
+      "wy": 0.3,
+      "log_kernel": [
+        [
+          0.0,
+          -1.60890657492161
+        ],
+        [
+          -0.9435749225526201,
+          -1.3808758685212479
+        ]
+      ],
+      "initial_state": [
+        -1.5458499426129884,
+        -0.20201329229279855
+      ],
+      "start_scale": 1.0,
+      "determinant": -0.714,
+      "status": "escape threshold",
+      "completed_steps": 784,
+      "max_abs_state": 101345.60486060442,
+      "final_abs_state": 101345.60486060442,
+      "rates": null
+    },
+    {
+      "case": 51,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.5,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -14.107629173196774,
+          0.0
+        ],
+        [
+          -9.433020899893032,
+          -0.23672277056924917
+        ]
+      ],
+      "initial_state": [
+        19.47759722280373,
+        -1.7003970821091934
+      ],
+      "start_scale": 20.0,
+      "determinant": 0.25,
+      "status": "numerical capture",
+      "completed_steps": 46,
+      "max_abs_state": 9.7394742874917,
+      "final_abs_state": 9.271440033592002e-12,
+      "rates": null
+    },
+    {
+      "case": 52,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 4.0,
+      "wy": 0.7,
+      "log_kernel": [
+        [
+          -3.1275746574922434,
+          -4.224415654640918
+        ],
+        [
+          -2.414743851967907,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        9.397736202576791,
+        8.615271607179263
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.9000000000000001,
+      "status": "escape threshold",
+      "completed_steps": 9,
+      "max_abs_state": 208772.51330451173,
+      "final_abs_state": 208772.51330451173,
+      "rates": null
+    },
+    {
+      "case": 53,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.8,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          -2.1028008696880693,
+          -3.552317924651216
+        ],
+        [
+          -1.227286639981128,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        -35.3560260404901,
+        -29.017646456467553
+      ],
+      "start_scale": 20.0,
+      "determinant": 0.08000000000000007,
+      "status": "numerical capture",
+      "completed_steps": 35,
+      "max_abs_state": 30.577128187787828,
+      "final_abs_state": 6.764067570439656e-12,
+      "rates": null
+    },
+    {
+      "case": 54,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 2.3,
+      "wy": 0.9,
+      "log_kernel": [
+        [
+          -76.51698227243044,
+          -68.27681207030695
+        ],
+        [
+          0.0,
+          -133.80146822297587
+        ]
+      ],
+      "initial_state": [
+        -0.08480820788624992,
+        -0.09761201122115352
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.12999999999999995,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 0.1141947514883545,
+      "final_abs_state": 5.301541433769579e-08,
+      "rates": {
+        "mean": -0.00048332052712729583,
+        "first": -0.0004833616748624707,
+        "last": -0.0004832793793921168
+      }
+    },
+    {
+      "case": 55,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 40.0,
+      "wx": 1.95,
+      "wy": 2.02,
+      "log_kernel": [
+        [
+          0.0,
+          -58.04779555103859
+        ],
+        [
+          -80.95180179845188,
+          -44.70488318877655
+        ]
+      ],
+      "initial_state": [
+        -0.0069082400122490555,
+        -2.295886018028658
+      ],
+      "start_scale": 1.0,
+      "determinant": 0.969,
+      "status": "completed",
+      "completed_steps": 30000,
+      "max_abs_state": 37.04398562969622,
+      "final_abs_state": 15.31917147071773,
+      "rates": {
+        "mean": -1.5043508567375222e-06,
+        "first": -2.6666053708746664e-06,
+        "last": -3.4209634260037377e-07
+      }
+    },
+    {
+      "case": 56,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.8,
+      "wy": 0.5,
+      "log_kernel": [
+        [
+          -0.35874153816453813,
+          -0.034431890546879396
+        ],
+        [
+          0.0,
+          -7.380988588642396
+        ]
+      ],
+      "initial_state": [
+        -0.05557213187024536,
+        -0.15589277865251042
+      ],
+      "start_scale": 0.1,
+      "determinant": -0.4,
+      "status": "numerical capture",
+      "completed_steps": 52,
+      "max_abs_state": 0.1128713755480705,
+      "final_abs_state": 9.220316231668616e-12,
+      "rates": null
+    },
+    {
+      "case": 57,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 0.5,
+      "wy": 2.3,
+      "log_kernel": [
+        [
+          0.0,
+          -24.793670333271912
+        ],
+        [
+          -5.398142451608395,
+          -22.879466248839854
+        ]
+      ],
+      "initial_state": [
+        -0.0003851550876959813,
+        -0.002125117164323105
+      ],
+      "start_scale": 0.001,
+      "determinant": -0.6499999999999999,
+      "status": "escape threshold",
+      "completed_steps": 68,
+      "max_abs_state": 110155.60495570763,
+      "final_abs_state": 110155.60495570763,
+      "rates": null
+    },
+    {
+      "case": 58,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 2.0,
+      "wx": 2.6,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          -1.6973198874505318,
+          -6.301028580793719
+        ],
+        [
+          -1.5854623181457979,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        0.3285276537427348,
+        -0.5953128731990929
+      ],
+      "start_scale": 1.0,
+      "determinant": 0.8,
+      "status": "numerical capture",
+      "completed_steps": 220,
+      "max_abs_state": 0.8753407740196207,
+      "final_abs_state": 8.842162018182063e-12,
+      "rates": null
+    },
+    {
+      "case": 59,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 0.5,
+      "wy": 1.8,
+      "log_kernel": [
+        [
+          -7.715889484103588,
+          -6.242486275398861
+        ],
+        [
+          0.0,
+          -28.158218517870907
+        ]
+      ],
+      "initial_state": [
+        7.752029369896877e-05,
+        0.0010985809003694641
+      ],
+      "start_scale": 0.001,
+      "determinant": -0.4,
+      "status": "numerical capture",
+      "completed_steps": 143,
+      "max_abs_state": 0.00048569438552818224,
+      "final_abs_state": 8.933775601484166e-12,
+      "rates": null
+    },
+    {
+      "case": 60,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 5.0,
+      "wx": 1.1,
+      "wy": 0.3,
+      "log_kernel": [
+        [
+          -7.934885960405323,
+          -1.9946414525248244
+        ],
+        [
+          -8.354401458238632,
+          0.0
+        ]
+      ],
+      "initial_state": [
+        9.73666342712436,
+        12.90696094140679
+      ],
+      "start_scale": 20.0,
+      "determinant": -0.07000000000000006,
+      "status": "numerical capture",
+      "completed_steps": 79,
+      "max_abs_state": 9.188329512832821,
+      "final_abs_state": 7.852763564014393e-12,
+      "rates": null
+    },
+    {
+      "case": 61,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 1.5,
+      "wy": 1.1,
+      "log_kernel": [
+        [
+          0.0,
+          -15.461892803544949
+        ],
+        [
+          -8.652318011012937,
+          -30.001215219425504
+        ]
+      ],
+      "initial_state": [
+        20.6690889766576,
+        22.378896897780137
+      ],
+      "start_scale": 20.0,
+      "determinant": 0.050000000000000044,
+      "status": "numerical capture",
+      "completed_steps": 39,
+      "max_abs_state": 2.2380543493234435,
+      "final_abs_state": 7.132163695575986e-12,
+      "rates": null
+    },
+    {
+      "case": 62,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 1.0,
+      "wx": 1.8,
+      "wy": 0.9,
+      "log_kernel": [
+        [
+          -0.05117141804900871,
+          -0.8495733792164819
+        ],
+        [
+          0.0,
+          -1.0591850397311242
+        ]
+      ],
+      "initial_state": [
+        4.183670503718606,
+        0.7668229473708034
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.07999999999999999,
+      "status": "numerical capture",
+      "completed_steps": 117,
+      "max_abs_state": 3.2642106001729427,
+      "final_abs_state": 9.21698189669002e-12,
+      "rates": null
+    },
+    {
+      "case": 63,
+      "shape": [
+        2,
+        2
+      ],
+      "contrast": 20.0,
+      "wx": 0.7,
+      "wy": 1.5,
+      "log_kernel": [
+        [
+          0.0,
+          -2.2158602851281004
+        ],
+        [
+          -19.275698039108647,
+          -3.437848722250589
+        ]
+      ],
+      "initial_state": [
+        6.368247400814098,
+        -1.2628099188648991
+      ],
+      "start_scale": 5.0,
+      "determinant": -0.15000000000000002,
+      "status": "numerical capture",
+      "completed_steps": 31,
+      "max_abs_state": 2.7432496924901875,
+      "final_abs_state": 4.760220051123526e-12,
+      "rates": null
+    }
+  ]
+}
