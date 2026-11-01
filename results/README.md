@@ -111,3 +111,4 @@ All angles, time scalings, selection thresholds and source variants are describe
 - `candidate-audits/thermal-flutter-source-audit.json`: source autonomy, coefficient-closure and thermal-energy checks; [the exact-model simulation gate](../docs/thermal-flutter-source-audit.md) remains closed.
 
 - `soft-sphere/`: [Gaussian posterior mean and a sphere](../docs/soft-sphere/manuscript.md); complete 429-case sweep, all-flag follow-ups, long spatial candidates, precision controls, regular captures and bounded prior-art comparison.
+- `canonical-sphere/`: [Canonical posterior maps](../docs/canonical-sphere/manuscript.md); complete 656-case campaign, folded ribbon and spatial hyperchaos candidate, exact ideal spin reductions, precision and fresh-start controls, and rejected numerical captures.

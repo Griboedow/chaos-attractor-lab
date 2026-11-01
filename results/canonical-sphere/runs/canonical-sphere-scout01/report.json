@@ -1,0 +1,8903 @@
+{
+  "hard_source": "D:\\Codex\\chaos-attractor-search-20261031\\spherical-constellation-scout01\\screen.npz",
+  "hard_source_sha256": "376c52a9687a99fcfb887e48a28aae1744206ba353f9abd85033d9f504dc35ef",
+  "soft_source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-sphere-scout01\\screen.npz",
+  "soft_source_sha256": "fc4affd94ca826b9c77a37a421ddd4aa8af1df331f930f4a6836898389548573",
+  "total": 656,
+  "identities": [
+    {
+      "kind": 0,
+      "samples": 128,
+      "field_range": [
+        -2,
+        2
+      ],
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "kind": 2,
+      "samples": 128,
+      "field_range": [
+        -2,
+        2
+      ],
+      "max_error": 3.3306690738754696e-16
+    }
+  ],
+  "canonical_reconstructions": [
+    {
+      "old_case": 155,
+      "base": 1086,
+      "kind": 2,
+      "a": 0.3003686599943933,
+      "center": [
+        -0.5906672592581073,
+        -0.47205936734348625,
+        -0.4999675729307863
+      ],
+      "rotation": [
+        [
+          0.5317339877351348,
+          -0.2461080364024646,
+          0.8103639927251302
+        ],
+        [
+          -0.5591304678301944,
+          -0.8206913697483931,
+          0.11763841024297586
+        ],
+        [
+          0.6361069770339575,
+          -0.5156515393544655,
+          -0.5739959962666035
+        ]
+      ],
+      "site_reconstruction_error": 1.1102230246251565e-16,
+      "orthogonality_error": 2.220446049250313e-16,
+      "sampled_rotation_step_error": 8.326672684688674e-16,
+      "cube_mean_error": 3.2751579226442118e-15,
+      "scope": "Floating-point residuals, not exact identities for the original rounded site arrays."
+    },
+    {
+      "old_case": 251,
+      "base": 1504,
+      "kind": 0,
+      "a": 0.7941833202319745,
+      "center": [
+        -0.11224665588708455,
+        -0.17377290660002265,
+        0.20066921077523925
+      ],
+      "rotation": [
+        [
+          -0.17459043753369657,
+          0.5840992119666102,
+          -0.7926829692265234
+        ],
+        [
+          0.9695368448780464,
+          0.24244761344862925,
+          -0.034892136033597865
+        ],
+        [
+          0.17180362494928753,
+          -0.774627178269036,
+          -0.6086347419768572
+        ]
+      ],
+      "site_reconstruction_error": 2.220446049250313e-16,
+      "orthogonality_error": 1.1102230246251565e-16,
+      "sampled_rotation_step_error": 4.6629367034256575e-15,
+      "cube_mean_error": null,
+      "scope": "Floating-point residuals, not exact identities for the original rounded site arrays."
+    }
+  ],
+  "cases": [
+    {
+      "id": 0,
+      "kind": 2,
+      "beta": 0.957377939824015,
+      "tau": 0.012757228142451395,
+      "a": 0.3003686599943933,
+      "center": [
+        -0.5906672592581073,
+        -0.47205936734348625,
+        -0.4999675729307863
+      ],
+      "selection": "Ideal canonical reconstruction of old Case 155; a changed binary64 input."
+    },
+    {
+      "id": 1,
+      "kind": 2,
+      "beta": 0.957,
+      "tau": 0.013,
+      "a": 0.3,
+      "center": [
+        -0.591,
+        -0.472,
+        -0.5
+      ],
+      "selection": "Joint decimal simplification of old Case 155; 3 geometry decimal places."
+    },
+    {
+      "id": 2,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.013,
+      "a": 0.3,
+      "center": [
+        -0.59,
+        -0.47,
+        -0.5
+      ],
+      "selection": "Joint decimal simplification of old Case 155; 2 geometry decimal places."
+    },
+    {
+      "id": 3,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.013,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Joint decimal simplification of old Case 155; 1 geometry decimal places."
+    },
+    {
+      "id": 4,
+      "kind": 0,
+      "beta": 0.9328500449163839,
+      "tau": 0.05853931540315792,
+      "a": 0.7941833202319745,
+      "center": [
+        -0.11224665588708455,
+        -0.17377290660002265,
+        0.20066921077523925
+      ],
+      "selection": "Ideal canonical reconstruction of old Case 251; a changed binary64 input."
+    },
+    {
+      "id": 5,
+      "kind": 0,
+      "beta": 0.933,
+      "tau": 0.059,
+      "a": 0.794,
+      "center": [
+        -0.112,
+        -0.174,
+        0.201
+      ],
+      "selection": "Joint decimal simplification of old Case 251; 3 geometry decimal places."
+    },
+    {
+      "id": 6,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.059,
+      "a": 0.79,
+      "center": [
+        -0.11,
+        -0.17,
+        0.2
+      ],
+      "selection": "Joint decimal simplification of old Case 251; 2 geometry decimal places."
+    },
+    {
+      "id": 7,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.059,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Joint decimal simplification of old Case 251; 1 geometry decimal places."
+    },
+    {
+      "id": 8,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 9,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 10,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 11,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 12,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 13,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 14,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 15,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 16,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 17,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 18,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 19,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 20,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 21,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 22,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 23,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 24,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 25,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 26,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 27,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 28,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 29,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 30,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 31,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 32,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 33,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 34,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 35,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 36,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 37,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 38,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 39,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 40,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 41,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 42,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 43,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 44,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 45,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 46,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 47,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 48,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 49,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 50,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 51,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 52,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 53,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 54,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 55,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 56,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 57,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 58,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 59,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 60,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 61,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 62,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 63,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 64,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 65,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 66,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 67,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 68,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 69,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 70,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 71,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 72,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 73,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 74,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 75,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 76,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 77,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 78,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 79,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 80,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 81,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 82,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 83,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 84,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 85,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 86,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 87,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 88,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 89,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 90,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 91,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 92,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 93,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 94,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 95,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 96,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 97,
+      "kind": 0,
+      "beta": 0.9,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 98,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 99,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 100,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 101,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 102,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 103,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 104,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 105,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 106,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 107,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 108,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 109,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 110,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 111,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 112,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 113,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 114,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 115,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 116,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 117,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 118,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 119,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 120,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 121,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 122,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 123,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 124,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 125,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 126,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 127,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 128,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 129,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 130,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 131,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 132,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 133,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 134,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 135,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 136,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 137,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 138,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 139,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 140,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 141,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 142,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 143,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 144,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 145,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 146,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 147,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 148,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 149,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 150,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 151,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 152,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 153,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 154,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 155,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 156,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 157,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 158,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 159,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 160,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 161,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 162,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 163,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 164,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 165,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 166,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 167,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 168,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 169,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 170,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 171,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 172,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 173,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 174,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 175,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 176,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 177,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 178,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 179,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 180,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 181,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 182,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 183,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 184,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 185,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 186,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 187,
+      "kind": 0,
+      "beta": 0.93,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 188,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 189,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 190,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 191,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 192,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 193,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 194,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 195,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 196,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 197,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 198,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 199,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 200,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 201,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 202,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 203,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 204,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 205,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 206,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 207,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 208,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 209,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 210,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 211,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 212,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 213,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 214,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 215,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 216,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 217,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 218,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 219,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 220,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 221,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 222,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 223,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 224,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 225,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 226,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 227,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 228,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 229,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 230,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 231,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 232,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 233,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 234,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 235,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 236,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 237,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 238,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 239,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 240,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 241,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 242,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 243,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 244,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 245,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 246,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 247,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 248,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 249,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 250,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 251,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 252,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 253,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 254,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 255,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 256,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 257,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 258,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 259,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 260,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 261,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 262,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 263,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 264,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 265,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 266,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 267,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 268,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 269,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 270,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 271,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 272,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 273,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 274,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 275,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 276,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 277,
+      "kind": 0,
+      "beta": 0.96,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 278,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 279,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 280,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 281,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 282,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 283,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 284,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 285,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 286,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 287,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 288,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 289,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 290,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 291,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 292,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 293,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 294,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 295,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 296,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 297,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 298,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 299,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 300,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 301,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 302,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 303,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 304,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 305,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 306,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 307,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 308,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 309,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 310,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 311,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 312,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 313,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 314,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 315,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 316,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 317,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 318,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 319,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 320,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 321,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 322,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 323,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 324,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 325,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 326,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 327,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 328,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 329,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 330,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 331,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 332,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 333,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 334,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 335,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 336,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 337,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.06,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 338,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 339,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 340,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 341,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 342,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 343,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 344,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 345,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 346,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 347,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 348,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 349,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 350,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 351,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 352,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.1,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 353,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 354,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 355,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 356,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 357,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.7,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 358,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 359,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 360,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 361,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 362,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.8,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 363,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 364,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 365,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 366,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 367,
+      "kind": 0,
+      "beta": 0.99,
+      "tau": 0.2,
+      "a": 0.9,
+      "center": [
+        -0.1,
+        -0.1,
+        0.2
+      ],
+      "selection": "Complete declared tetrahedron grid."
+    },
+    {
+      "id": 368,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 369,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 370,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 371,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 372,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 373,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 374,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 375,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 376,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 377,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 378,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 379,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 380,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 381,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 382,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 383,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 384,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 385,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 386,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 387,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 388,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 389,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 390,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 391,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 392,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 393,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 394,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 395,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 396,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 397,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 398,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 399,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 400,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 401,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 402,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 403,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 404,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 405,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 406,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 407,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 408,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 409,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 410,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 411,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 412,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 413,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 414,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 415,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 416,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 417,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 418,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 419,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 420,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 421,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 422,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 423,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 424,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 425,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 426,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 427,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 428,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 429,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 430,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 431,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 432,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 433,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 434,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 435,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 436,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 437,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 438,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 439,
+      "kind": 2,
+      "beta": 0.9,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 440,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 441,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 442,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 443,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 444,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 445,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 446,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 447,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 448,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 449,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 450,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 451,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 452,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 453,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 454,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 455,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 456,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 457,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 458,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 459,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 460,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 461,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 462,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 463,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 464,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 465,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 466,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 467,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 468,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 469,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 470,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 471,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 472,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 473,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 474,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 475,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 476,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 477,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 478,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 479,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 480,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 481,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 482,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 483,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 484,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 485,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 486,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 487,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 488,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 489,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 490,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 491,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 492,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 493,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 494,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 495,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 496,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 497,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 498,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 499,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 500,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 501,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 502,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 503,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 504,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 505,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 506,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 507,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 508,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 509,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 510,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 511,
+      "kind": 2,
+      "beta": 0.93,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 512,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 513,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 514,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 515,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 516,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 517,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 518,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 519,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 520,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 521,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 522,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 523,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 524,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 525,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 526,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 527,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 528,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 529,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 530,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 531,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 532,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 533,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 534,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 535,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 536,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 537,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 538,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 539,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 540,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 541,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 542,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 543,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 544,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 545,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 546,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 547,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 548,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 549,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 550,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 551,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 552,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 553,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 554,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 555,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 556,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 557,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 558,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 559,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 560,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 561,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 562,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 563,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 564,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 565,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 566,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 567,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 568,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 569,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 570,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 571,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 572,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 573,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 574,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 575,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 576,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 577,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 578,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 579,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 580,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 581,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 582,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 583,
+      "kind": 2,
+      "beta": 0.96,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 584,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 585,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 586,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 587,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 588,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 589,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 590,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 591,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 592,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 593,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 594,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 595,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.002,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 596,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 597,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 598,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 599,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 600,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 601,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 602,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 603,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 604,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 605,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 606,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 607,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.005,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 608,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 609,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 610,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 611,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 612,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 613,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 614,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 615,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 616,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 617,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 618,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 619,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.01,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 620,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 621,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 622,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 623,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 624,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 625,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 626,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 627,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 628,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 629,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 630,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 631,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.02,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 632,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 633,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 634,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 635,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 636,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 637,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 638,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 639,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 640,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 641,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 642,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 643,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.04,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 644,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 645,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 646,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 647,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.25,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 648,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 649,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 650,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 651,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.3,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 652,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 653,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 654,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        -0.6,
+        -0.4,
+        -0.2
+      ],
+      "selection": "Complete declared cube grid."
+    },
+    {
+      "id": 655,
+      "kind": 2,
+      "beta": 0.99,
+      "tau": 0.08,
+      "a": 0.35,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "selection": "Complete declared cube grid."
+    }
+  ],
+  "warm": 5000,
+  "observed": 15000,
+  "windows": 10,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "flag": "Complete, every leading window greater than 0.005.",
+  "scope": "Known posterior and reflection ingredients. Simple-parameter exploration, not a priority or asymptotic certificate.",
+  "source_sha256": "ffc7c113f760c90702bfd5fc0d9a6383b707f4f47bc79a389a1e4cf859941583",
+  "complete": 656,
+  "flags": 262,
+  "flagged_ids": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    13,
+    17,
+    20,
+    22,
+    24,
+    26,
+    28,
+    29,
+    32,
+    35,
+    37,
+    39,
+    43,
+    44,
+    46,
+    50,
+    52,
+    53,
+    54,
+    58,
+    59,
+    60,
+    61,
+    62,
+    64,
+    65,
+    67,
+    72,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    85,
+    91,
+    92,
+    93,
+    94,
+    96,
+    97,
+    99,
+    100,
+    101,
+    102,
+    108,
+    115,
+    116,
+    117,
+    123,
+    125,
+    129,
+    131,
+    134,
+    137,
+    140,
+    142,
+    144,
+    146,
+    148,
+    149,
+    151,
+    152,
+    154,
+    155,
+    157,
+    158,
+    159,
+    162,
+    163,
+    164,
+    165,
+    166,
+    168,
+    169,
+    170,
+    171,
+    172,
+    175,
+    179,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    203,
+    204,
+    206,
+    215,
+    219,
+    220,
+    221,
+    222,
+    224,
+    227,
+    228,
+    230,
+    232,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    241,
+    242,
+    245,
+    247,
+    249,
+    251,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    262,
+    265,
+    267,
+    268,
+    269,
+    273,
+    274,
+    275,
+    276,
+    277,
+    285,
+    287,
+    288,
+    290,
+    293,
+    294,
+    300,
+    302,
+    305,
+    308,
+    309,
+    310,
+    311,
+    312,
+    314,
+    315,
+    317,
+    318,
+    320,
+    323,
+    324,
+    325,
+    326,
+    327,
+    329,
+    330,
+    332,
+    333,
+    335,
+    337,
+    339,
+    340,
+    341,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    352,
+    354,
+    358,
+    359,
+    361,
+    363,
+    364,
+    365,
+    366,
+    367,
+    380,
+    397,
+    407,
+    408,
+    409,
+    419,
+    421,
+    425,
+    431,
+    435,
+    440,
+    442,
+    446,
+    452,
+    454,
+    464,
+    466,
+    476,
+    477,
+    479,
+    481,
+    491,
+    493,
+    497,
+    503,
+    507,
+    513,
+    514,
+    524,
+    526,
+    536,
+    538,
+    541,
+    548,
+    551,
+    552,
+    553,
+    563,
+    564,
+    565,
+    566,
+    569,
+    575,
+    579,
+    581,
+    584,
+    585,
+    586,
+    596,
+    601,
+    608,
+    612,
+    613,
+    614,
+    620,
+    623,
+    624,
+    625,
+    630,
+    635,
+    636,
+    637,
+    638,
+    641,
+    647,
+    651,
+    652,
+    653
+  ],
+  "seconds": 22.204912185668945
+}

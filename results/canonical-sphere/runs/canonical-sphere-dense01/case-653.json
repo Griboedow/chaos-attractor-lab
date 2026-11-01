@@ -1,0 +1,83 @@
+{
+  "id": 653,
+  "source_sha256": "d8c0b4eeef027e7487184e0617c04fa7068b96a989c12210c8678af1f6082618",
+  "states_sha256": "e5db9eb54048952c93a8328b96e680a50c0ed5342babf6473a21a2ade821a602",
+  "histogram_sha256": "45dfa113ca15619fbb6bdc5198fffa968083b89ef5a511e411f592b2cd361316",
+  "center": [
+    -0.5972647477017426,
+    -0.6093200445010497,
+    -0.597198417598462
+  ],
+  "basis": [
+    [
+      0.4175809881183823,
+      0.7008906747188366,
+      0.5782545982992691
+    ],
+    [
+      -0.8178781342981127,
+      0.012681593461835339,
+      0.5752517141428666
+    ],
+    [
+      0.395855372325693,
+      -0.7131559712148826,
+      0.5785387497146965
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 0.9305016472985422,
+  "minimum_radius": 0.09687236615488912,
+  "portrait": {
+    "id": "soft-sphere-653",
+    "file": "docs\\assets\\experimental\\canonical-sphere\\soft-sphere-653.png",
+    "sha256": "c12dc4e26da90779d6ce90f92e6276739a7198fa09479f10487184a8bc3c6596",
+    "panels": [
+      {
+        "input": {
+          "label": "653",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\canonical-sphere-dense01\\case-653-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "45dfa113ca15619fbb6bdc5198fffa968083b89ef5a511e411f592b2cd361316",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            64,
+            134
+          ],
+          [
+            1555,
+            1446
+          ]
+        ],
+        "empty_margin": 60,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          1,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 6.583660939439754,
+        "occupied_bins": 159212,
+        "display_label": "Case 653"
+      }
+    ]
+  }
+}

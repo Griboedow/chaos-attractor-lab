@@ -72,7 +72,7 @@ def main(args):
             row['dense_replay'] = 'all consecutive states and histogram bitwise equal'
         rows.append(row)
         print(json.dumps(dict(id=ident, seconds=time.time()-begin)), flush=True)
-    result = dict(status='passed', source_files=sources, differential_checks=differential, scout_replay='429 cases, all output arrays bitwise equal', follow_accounting=short_summary, cases=rows, seconds=time.time()-begin, scope='Finite numerical reproduction and independent local arithmetic checks, not an interval certificate or historical priority claim.')
+    result = dict(status='passed', source_files=sources, differential_checks=differential, scout_replay=f"{len(inputs['params'])} cases, all output arrays bitwise equal", follow_accounting=short_summary, cases=rows, seconds=time.time()-begin, scope='Finite numerical reproduction and independent local arithmetic checks, not an interval certificate or historical priority claim.')
     (args.out/'report.json').write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8', newline='\n')
 
 

@@ -19,6 +19,7 @@ article to its shorter report and numerical evidence.
 | Scalar optimizer memory | [Report](yogi-tanh.md) | [Article](yogi-memory/manuscript.md) | [Study notes](yogi-memory/README.md) |
 | Gaussian-posterior reflected dynamics | [Report](soft-symbolic-dynamics.md) | [Article](soft-symbolic-dynamics/manuscript.md) | [Study notes](soft-symbolic-dynamics/README.md) |
 | Gaussian posterior mean and a sphere | [Main portraits](../README.md#gaussian-posterior-mean-and-a-sphere) | [Numerical article](soft-sphere/manuscript.md) | [Evidence and reproduction](../results/soft-sphere/README.md) |
+| Canonical posterior maps | [Main portraits](../README.md#canonical-posterior-maps-ribbon-and-spatial-folds) | [Numerical article](canonical-sphere/manuscript.md) | [Evidence and reproduction](../results/canonical-sphere/README.md) |
 
 The [structured-data FastICA report](fastica-tripling.md) contains its full
 analytic proof, numerical controls and prior-art discussion in one document.

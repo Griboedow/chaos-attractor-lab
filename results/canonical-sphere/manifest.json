@@ -1,0 +1,772 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "scope": "Retained canonical campaign packet. Optional full arrays are bound separately by inventory, omissions and the data registry. Does not freeze later article wording or shared presentation metadata.",
+  "files": [
+    {
+      "path": "accounting.json",
+      "bytes": 278,
+      "sha256": "40513a0833508d7e123b862b363d52743009d21bdec6c2b705e095de12a349b6"
+    },
+    {
+      "path": "archive_projection_campaign.py",
+      "bytes": 4273,
+      "sha256": "436b3bf4f0148ddd8b42629c3a82373701f55cda2aead2afa139e63de1b38133"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 226375,
+      "sha256": "6f4663dac26058e8e95146265302e835360504d8b69d918ea0a2d973dfcca83f"
+    },
+    {
+      "path": "literature-review.json",
+      "bytes": 5198,
+      "sha256": "4e43f7a29040b9990a8f0b89c3f292ad1e17dd2b86885a0baded4c925dde2836"
+    },
+    {
+      "path": "omissions.json",
+      "bytes": 785512,
+      "sha256": "502948865980a91d464602fb1b3f51da23d9ee578842fc765ab1fa0195a6af27"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6779,
+      "sha256": "08803da96a58430cb561f6165e12ade3d4b203c655f0eea9e7a32627f42fba18"
+    },
+    {
+      "path": "runs/canonical-sphere-catalog01/compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958"
+    },
+    {
+      "path": "runs/canonical-sphere-catalog01/compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1"
+    },
+    {
+      "path": "runs/canonical-sphere-catalog01/compare_constellation_catalog.py",
+      "bytes": 4518,
+      "sha256": "e3b6b73077f5a194cafbd761b4efb017d4f3eda7ab6974a39e684ba22d651de5"
+    },
+    {
+      "path": "runs/canonical-sphere-catalog01/partial.json",
+      "bytes": 70126,
+      "sha256": "7595f3012c33ec94f34f3d3712c819b73ba01cc001f62db86928a62e2ec4406f"
+    },
+    {
+      "path": "runs/canonical-sphere-catalog01/report.json",
+      "bytes": 70177,
+      "sha256": "cdd168a9dcf55044fb520cb77699e0258eac0bb6be30e10bdc648bc027436f3a"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/case-163.json",
+      "bytes": 6949,
+      "sha256": "f635f2395ff51f4ccaf80baf5c68c5636d4dbdb648baef39189cd98c4e5c75e8"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/case-361.json",
+      "bytes": 6938,
+      "sha256": "8482f6ab35a5ec7bbfefb5dbc03e9dc62f60a187df87fc8c2eea943afc153ad1"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/case-653.json",
+      "bytes": 7005,
+      "sha256": "06386024c92e8fd5f97f311754053d6c6b92cb5496f3f1f4172317d5a79e22c5"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/case-7.json",
+      "bytes": 6941,
+      "sha256": "fb80ca16f6aaf95ea0541eebad0dc4c058ed9f389e3f51bdda29aa2e5467ba40"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/cohort_soft_sphere.py",
+      "bytes": 3724,
+      "sha256": "b9962fb48ebb986fd4e338ebd2816752a4cdd0f8e3c56d117de2d886bdc72418"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/protocol.json",
+      "bytes": 3313,
+      "sha256": "59da4ed80b6299569b661477dfbe94fef2cea38b01a5e6d452bcf2896640678b"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/report.json",
+      "bytes": 37760,
+      "sha256": "3ff46b595db470562eadb3239adcc4c7d9311ba981f6b65bd90566a1a84cc9b0"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-cohort01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-163-histogram.npz",
+      "bytes": 162977,
+      "sha256": "6e92e7a62291fd497088e8781ec8d34aecc0d214baecbc77bdc297fc2841604a"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-163.json",
+      "bytes": 2038,
+      "sha256": "54457b0be3a7199dacca6cf919a9903aa5dd30975368707d6cd759a6d85ca9e2"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-361.json",
+      "bytes": 2035,
+      "sha256": "eb306b07771e1484dd40c84a49f712a3fea955d567ec7c22df29080c4fa04976"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-407.json",
+      "bytes": 2044,
+      "sha256": "5451bd592329f34a80c82524386c8cc477f83dbcffa8eee0d3d76cef219c599b"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-565.json",
+      "bytes": 2038,
+      "sha256": "48e7038fe4e149fe68c954db86a0b691f27edb4c3d3e375e392f5fd289be1269"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-638-histogram.npz",
+      "bytes": 130601,
+      "sha256": "976e5eef3248767f943521fa173305d120a4a00abc96ff779613ef93b3a3698a"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-638.json",
+      "bytes": 2046,
+      "sha256": "edc4f472479b13675ae5e8560ab6038c6026f0ab33e4134fd34bb48cba13c9fc"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-653.json",
+      "bytes": 2032,
+      "sha256": "25ff0746b2bab13a85fa4fa25b6f43de679a9d4281f149b6053fee4669ec75c9"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/case-7.json",
+      "bytes": 2029,
+      "sha256": "d1794afddb292a138ab2bf3232e1e0e0a2c4e502cee606edcd90635aad5a4357"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/protocol.json",
+      "bytes": 374,
+      "sha256": "42b8aedd757e476315098ba3cabb8e1eec8f1518dc56ed4ac8ea72fea8cb364c"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/render_soft_sphere.py",
+      "bytes": 3920,
+      "sha256": "7b91128d9ae35e9bb5e870f3fc90e76f7aaa31425e98497bdebbaafdc3adcfbb"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/report.json",
+      "bytes": 17017,
+      "sha256": "132fd4bac2e35e47e6883e7452d5c4dc80e00f33b31ec88c21ce96c609ff65fb"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-dense01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-129.npz",
+      "bytes": 10492,
+      "sha256": "95814150ed914b822fc22b8050cb71d0619aa887a2b85b77324786fcf55380bb"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-131.npz",
+      "bytes": 10492,
+      "sha256": "7ad1dce20e071622201928bcf6bc8046d18d0796832aee16d58e95867cb1beba"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-144.npz",
+      "bytes": 10514,
+      "sha256": "dcf79eb5c50cceff4b65a107a1008b2373a8312843f45b0096ed492402d8d14c"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-155.npz",
+      "bytes": 10226,
+      "sha256": "93e3b76c565bda974c3f4a7f77389523a8d3906dc4533a32f2fad832e2e56764"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-260.npz",
+      "bytes": 9082,
+      "sha256": "5bba510ee0825c7d04fefd52f329d7ab060435708e87e49457c100ba36689e13"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-269.npz",
+      "bytes": 19014,
+      "sha256": "7794de69064bebe8415fd1bef95a365321c60be565059601246ddadcd834f60d"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-300.npz",
+      "bytes": 7858,
+      "sha256": "74845c653ddee38370aa3a87ec953bafd7484d75ad8ccc1434bc4c51e465e74d"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-339.npz",
+      "bytes": 12895,
+      "sha256": "99e2e474f0b5481e336633c8596091fe3a8278eefb76a3f4b98f495305dc2b54"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-35.npz",
+      "bytes": 7869,
+      "sha256": "9ac401af56d463cfbb41609228dc41362e5d24a3215d4b80c6dba8900ebd0790"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-366.npz",
+      "bytes": 22187,
+      "sha256": "fa0066cc17a1041a7ba1ce7655b8a047d5641a100778a013c88552f115d6124d"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-425.npz",
+      "bytes": 9344,
+      "sha256": "eda511a93f94aead6fd7950614ac4274c744512f5955763ad5d3971cecd49ea1"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-452.npz",
+      "bytes": 34149,
+      "sha256": "7e35d336bfb3d04cde43bf8b0c33edb0c51b3e4b6d95970903bda078046e15d9"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-479.npz",
+      "bytes": 11758,
+      "sha256": "b10b5ff40077e28e9c6e8bdc958e02e2a83ec3cfae8832a68eb48cab34544a89"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-481.npz",
+      "bytes": 11529,
+      "sha256": "46ca6fb91f9be234d848f64bc35e772d120859e9fa03d460eb5d353eec8053b9"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-524.npz",
+      "bytes": 16473,
+      "sha256": "0b53140990ae00cf97f54d39d678ddd5340f42361b9751a4e42584e8ee33e739"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-584.npz",
+      "bytes": 11559,
+      "sha256": "a30e82c3a4e42c046e130413e40f3aa26089d12da17519d1c5f9de27da840da4"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-612.npz",
+      "bytes": 11740,
+      "sha256": "66342533f62fc8f9787363cf42d559ecd1f5f56d05be4ca9bdcf11101a47b50f"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/case-74.npz",
+      "bytes": 11646,
+      "sha256": "a96b66f66ef37c5656ddfb86e76db0ed2400b7f7faf2671240dcf5164139191c"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/partial.json",
+      "bytes": 3905664,
+      "sha256": "396b9f881e0afc4d6fa9b0834e30825290725e116aa2708e3a72a8471f7eb3c7"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/protocol.json",
+      "bytes": 2860,
+      "sha256": "e24a7703571bb539e7bfb126940c073b440ed76eff3da560bfa0b66cea9dbb35"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/report.json",
+      "bytes": 3905664,
+      "sha256": "9323f0175349b2af6f1e480881f770c4efdc101e7433727729d7cb3a46654d2f"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-follow01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-fullprecision01/case-653-100.json",
+      "bytes": 7580,
+      "sha256": "cc38a345af9e8c1ce18e984e3db16faa0e4b0b459ca105a490b2fdb06858b584"
+    },
+    {
+      "path": "runs/canonical-sphere-fullprecision01/case-653-70.json",
+      "bytes": 5719,
+      "sha256": "9964f252cef1e1efdc4b71247a9a75c76b2ed1fb0f8f9c2f13d71e965094e184"
+    },
+    {
+      "path": "runs/canonical-sphere-fullprecision01/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/canonical-sphere-fullprecision01/check_sphere_full_precision.py",
+      "bytes": 4012,
+      "sha256": "58b3e0e35349e5887649baa23e0b81d8aad9f34ccf180d649ffd2cbe5477d05f"
+    },
+    {
+      "path": "runs/canonical-sphere-fullprecision01/protocol.json",
+      "bytes": 578,
+      "sha256": "26dee20d913c77dad243dcb49f8cbe30d83c07aeb6c0037ca4849641fc4a0157"
+    },
+    {
+      "path": "runs/canonical-sphere-fullprecision01/report.json",
+      "bytes": 14985,
+      "sha256": "5ce1620a359c9b5869962321a534b2fce92d226bee28995653b108da21a09dd2"
+    },
+    {
+      "path": "runs/canonical-sphere-inspection01/case-300.json",
+      "bytes": 24159,
+      "sha256": "b47f91d5df5b2ede971a7b818769cfcc53cfc77b78c9f38cb9e8425c9a3eb9ac"
+    },
+    {
+      "path": "runs/canonical-sphere-inspection01/case-35.json",
+      "bytes": 24393,
+      "sha256": "f33424dcf43b44eff77b996f82e2d4f22df4361fd9a79f419f8b3032fb9c5095"
+    },
+    {
+      "path": "runs/canonical-sphere-inspection01/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/canonical-sphere-inspection01/inspect_canonical_sphere.py",
+      "bytes": 4309,
+      "sha256": "4b898bd878e1d2c11061c01eca6aa7e289e29863b29e3ca796c6c75e07ec32db"
+    },
+    {
+      "path": "runs/canonical-sphere-inspection01/report.json",
+      "bytes": 54195,
+      "sha256": "86e3c7e99b96e4712d6cf5cb9bd23e256ff656e9654be93404ff2f2a94783c04"
+    },
+    {
+      "path": "runs/canonical-sphere-inspection01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/case-407.npz",
+      "bytes": 11702,
+      "sha256": "bf819269223bc7c09e8ab37b627c7089a07ed53132030ea147dc19ee0031803d"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/partial.json",
+      "bytes": 104369,
+      "sha256": "1ced59b3e51c54f9f245efb93dc99f9df403ea2a6959c42ec2a595f5617f45c2"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/protocol.json",
+      "bytes": 817,
+      "sha256": "5871dfc101434a5f649ed0c56fdc90e6c5fbb61c0a176dbb691195f7b1d5d898"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/report.json",
+      "bytes": 104369,
+      "sha256": "f051df367f80658a104c0bd2bbaa52c8f8d1b6b4a219d6fdaf76be89dc743aee"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-long01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/case-163-digits-100.json",
+      "bytes": 1406,
+      "sha256": "346ac8dbabd16af674486098e2bc29ba418f7c448a30b9eefcabb6b35df775a0"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/case-163-digits-100.npz",
+      "bytes": 230263,
+      "sha256": "7832520f645ac3447ed1832294870a6012ac2806ed0bca0a8ab0894661e9e4c0"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/case-653-digits-100.json",
+      "bytes": 1404,
+      "sha256": "3849801d7d8097f223067addba8b98fc2e4bb22547a6953e1f83f216ca466216"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/case-653-digits-100.npz",
+      "bytes": 227043,
+      "sha256": "e47f8ef0aafbe2894f7d29cbd9b385732c11cf4085300f271bf90ffc1448955a"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/case-7-digits-100.json",
+      "bytes": 1399,
+      "sha256": "913efaa9bf296bb1197551cad417fe94828914951a257dc02e2db8c3f5f3fa85"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/case-7-digits-100.npz",
+      "bytes": 230403,
+      "sha256": "8ffbbdd8d8eb3f7d9510c1908332de0028aaea50e9ae657baa5b0c9b152fa2f7"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/protocol.json",
+      "bytes": 551,
+      "sha256": "d2f84560ee432d0483a263303f6bf0e7aeb4eb2b3fefbc03b459b99e5f5e1e60"
+    },
+    {
+      "path": "runs/canonical-sphere-precision100/report.json",
+      "bytes": 5149,
+      "sha256": "801b238db3b027cb762e513a11e4616743825ed8b0274523c60c7316472945ac"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/case-163-digits-70.json",
+      "bytes": 1075,
+      "sha256": "afa2012fb6045f259df5033de9f9b6bfeccaceb2118308618683448288d88960"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/case-163-digits-70.npz",
+      "bytes": 230338,
+      "sha256": "f2e7933f087ad6599cb15e1e783b9e83f5e5ac54d33e075e02e24fc7b8c7b16e"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/case-653-digits-70.json",
+      "bytes": 1074,
+      "sha256": "206fbd6fb36a19bba41d905b7b406ab69ffe1a6f1f57cd8ca9ac2f6f3e4c105e"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/case-653-digits-70.npz",
+      "bytes": 226950,
+      "sha256": "ec4223721d98fc511accc477d64b96e1bdf7b0c6ea1a2032c1756aa88a20f7a1"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/case-7-digits-70.json",
+      "bytes": 1071,
+      "sha256": "02a128f3b1330ac95ab8259e1b79bd5f25d34d92409c197b91fb1b96a1ca8baa"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/case-7-digits-70.npz",
+      "bytes": 230376,
+      "sha256": "f47a57201cb160e85cb2f1054dbd7874947de3f55a371c67d07c33cd647b55cc"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/protocol.json",
+      "bytes": 550,
+      "sha256": "2e9b4c1b3702c991c8557b99b2991d65ecdf7ec7a4a842df9be22c9c25eddaaa"
+    },
+    {
+      "path": "runs/canonical-sphere-precision70/report.json",
+      "bytes": 4159,
+      "sha256": "0c8cb2172b6b291b2b21f1604eebbed0d7fbf7b876bc64b678ac2cd9a499287b"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/canonical_soft_sphere.py",
+      "bytes": 6536,
+      "sha256": "ffc7c113f760c90702bfd5fc0d9a6383b707f4f47bc79a389a1e4cf859941583"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/protocol.json",
+      "bytes": 148382,
+      "sha256": "b80c0cede847a84d734eee7e8fd9a72c7ae4b29ca7f7e2aaf444fc0c799e470e"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/report.json",
+      "bytes": 150769,
+      "sha256": "e237d7fb8ae31771cf59c345db6a72619b31ebca5cb064490b12205990005ce7"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-scout01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/partial.json",
+      "bytes": 15726,
+      "sha256": "bc54db544cb1854d5dd6a21df5a35e646ace4b4785780c130b0ba80adc468a07"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/protocol.json",
+      "bytes": 712,
+      "sha256": "d9194e78877c97ad5d424a9fa84eef303cd173246f8a83894185f0396baaea6f"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/report.json",
+      "bytes": 15724,
+      "sha256": "cc21221a965f7f10044c871f2897f47c6ecc5ef2aead5b6ddbd7b7cee376ccbf"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-simplelong01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleprecision01/case-148-100.json",
+      "bytes": 7594,
+      "sha256": "587924674815262def0bbd1778a83d9787b8179008ba5dc5990fea5e796ae6bc"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleprecision01/case-148-70.json",
+      "bytes": 5724,
+      "sha256": "73e77847a89c56ba125b0c780fc263c2b69df14965fae1b74aac953f563b8fd9"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleprecision01/check_soft_sphere_precision.py",
+      "bytes": 3775,
+      "sha256": "20dc6d5a40d5c54f570093e830e32ccce798234d5ecd77eb4c199755e4dd4d6b"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleprecision01/check_sphere_full_precision.py",
+      "bytes": 4012,
+      "sha256": "58b3e0e35349e5887649baa23e0b81d8aad9f34ccf180d649ffd2cbe5477d05f"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleprecision01/protocol.json",
+      "bytes": 578,
+      "sha256": "30989a402c9155fc9a7f3071ed8b844e609621677fd64f49051da048968e3071"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleprecision01/report.json",
+      "bytes": 15004,
+      "sha256": "6ba4acc5362602d45f4574ccc5c3c8026f3317bf6ddfc2306d77c303b5961d67"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/render_soft_sphere.py",
+      "bytes": 3920,
+      "sha256": "7b91128d9ae35e9bb5e870f3fc90e76f7aaa31425e98497bdebbaafdc3adcfbb"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/report.json",
+      "bytes": 55947,
+      "sha256": "97174561016f89987f359e02667381408b9b90c199843e44784f8b201ed65140"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-simpleverification01/verify_soft_sphere.py",
+      "bytes": 5914,
+      "sha256": "02ae1912ee716885d8061f7f29e743d645b7129efce4d61d4ce4ada32390cf3e"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/analyze_canonical_sphere.py",
+      "bytes": 4526,
+      "sha256": "46c9f61a07da8aa23eeaf3dfba0bb48c6ccb7f698a476d8dba42c60921bb214e"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/full-148.json",
+      "bytes": 6703,
+      "sha256": "8cdc98a866a9f7358f4b936b4203ab466b1d1e8895261e24dcd6457c02b82cb6"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/full-653.json",
+      "bytes": 6700,
+      "sha256": "2aab585dc56b6294a0ce495b7737cca850c6d0e2088d8faf06cb926a9ce0ac04"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/report.json",
+      "bytes": 41298,
+      "sha256": "6b199cb857b717bb5e2aa0e856852f1f866e777b22b85852cce275513c0870df"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-structure01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/render_soft_sphere.py",
+      "bytes": 3920,
+      "sha256": "7b91128d9ae35e9bb5e870f3fc90e76f7aaa31425e98497bdebbaafdc3adcfbb"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/report.json",
+      "bytes": 63757,
+      "sha256": "e357537d4d21905c67ba1557d6dc3e62051bd9013eccb6bfd88d81846523aabe"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    {
+      "path": "runs/canonical-sphere-verification01/verify_soft_sphere.py",
+      "bytes": 5914,
+      "sha256": "02ae1912ee716885d8061f7f29e743d645b7129efce4d61d4ce4ada32390cf3e"
+    },
+    {
+      "path": "selected-summary.json",
+      "bytes": 7906,
+      "sha256": "3fb4ae6745e22f5a027d30729d9929e8c02b218a6eeb41388cad4f9d4696c399"
+    }
+  ]
+}

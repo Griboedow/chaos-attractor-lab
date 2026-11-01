@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded primary-source review and exact ideal reductions; not a systematic census or a priority certificate.",
+  "sources": [
+    {
+      "title": "Chen and Aihara (1997), Chaos and Asymptotical Stability in Discrete-time Neural Networks",
+      "url": "https://arxiv.org/html/chao-dyn/9701020v1",
+      "reviewed": "Abstract and Section 3.1, equations (2)-(6).",
+      "finding": "Leaky sigmoid recurrences and chaotic dynamics are prior art. The displayed recurrence lacks the explicit radial feedback used here.",
+      "limits": "No full-proof audit or nonlinear-conjugacy exclusion."
+    },
+    {
+      "title": "Verzelli, Alippi and Livi (2019), Echo State Networks with Self-Normalizing Activations on the Hyper-Sphere",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6761167/",
+      "reviewed": "Abstract, equations (1)-(6), surrounding autonomous assumptions.",
+      "finding": "Radial neural normalization is established. Autonomous normalized-linear power iteration differs from the posterior-plus-residual formula.",
+      "limits": "Later Lyapunov arguments not independently verified or used as a general exclusion theorem."
+    },
+    {
+      "title": "Sibel, Reynal and Declercq, Evidence of chaos in the Belief Propagation for LDPC codes",
+      "url": "https://perso.etis-lab.fr/declercq/PDF/ConferencePapers/Sibel_2012_CMSIM.pdf",
+      "reviewed": "Author manuscript, abstract and Sections 1-3.3.",
+      "finding": "Chaotic iterative decoding is prior art. The graph-message state differs from this exact three-spin posterior with sphere feedback.",
+      "limits": "No figure audit, numerical replay or complete equivalence test."
+    },
+    {
+      "title": "Reiter (1996), Attractors with the Symmetry of the n-Cube",
+      "url": "https://emis.de/ft/51972",
+      "reviewed": "Abstract, Sections 1-2 through Theorem 2.2 and start of proof.",
+      "finding": "Equivariant polynomial cube maps and parameter searches predate this study.",
+      "limits": "Full figure comparison not completed. Local PDF download failed certificate verification; an alternate download and web screenshot timed out."
+    },
+    {
+      "title": "Brisson et al. (1996), Symmetric Attractors in Three-dimensional Space",
+      "url": "https://webbox.lafayette.edu/~reiterc/abstracts/mv_1996c.html",
+      "reviewed": "Author abstract only.",
+      "finding": "Spatial cube-symmetric attractors are prior art.",
+      "limits": "Full paper unread."
+    },
+    {
+      "title": "Reiter (1997), Chaotic Attractors with the Symmetry of the Tetrahedron",
+      "url": "https://webbox.lafayette.edu/~reiterc/abstracts/mv_1997c.html",
+      "reviewed": "Author abstract only.",
+      "finding": "Tetrahedral chaotic attractors are prior art.",
+      "limits": "Full paper unread."
+    },
+    {
+      "title": "Reiter (1999), Chaotic Attractors with the Symmetry of the Dodecahedron",
+      "url": "https://webbox.lafayette.edu/~reiterc/dodec/dodec02_pp.pdf",
+      "reviewed": "Abstract, Sections 1-3, both reproducibility appendices; Figures 1-2 visually inspected on PDF page 8.",
+      "pdf_sha256": "908f04aa0c6ad2047f6813105fd3c643613945844ea14e5df0239f4a9ea4b9b9",
+      "finding": "Group-averaged polynomial maps already produce threads, loops and diffuse spatial interiors. The paper uses density thresholds and blob surfaces, unlike the current unsmoothed state histograms.",
+      "limits": "No numerical reconstruction or conjugacy exclusion. Downloaded copyrighted PDF and page image remain external."
+    },
+    {
+      "title": "Toker, Sommer and D'Esposito (2020), A simple method for detecting chaos in nature",
+      "url": "https://www.nature.com/articles/s42003-019-0715-9",
+      "reviewed": "Indexed primary full-text methods excerpt: Hyperchaotic generalized Henon map, equation (12), parameters a=1.76, b=0.1.",
+      "finding": "A three-dimensional delayed quadratic recurrence is an established hyperchaotic reference.",
+      "limits": "Direct publisher open redirected to inaccessible cookie authorization. Review uses the primary indexed text, not an independent numerical reproduction or audit of the cited original generalized Henon paper."
+    }
+  ],
+  "search_only_leads": [
+    {
+      "url": "https://sakeeb91.github.io/attractors/",
+      "scope": "Homepage and linked repository README; broad novelty/certification claims not accepted without independent audit. Code and model priority not reviewed."
+    },
+    {
+      "url": "https://www-users.cse.umn.edu/~scheel/preprints/homcycle.pdf",
+      "scope": "Search-only tetrahedral-flow lead; full text not reviewed in this campaign."
+    }
+  ],
+  "queries": [
+    "\"tanh\" \"sphere\" \"hyperchaos\" map",
+    "\"posterior mean\" \"reflection\" chaos",
+    "\"normalization\" \"tanh\" \"chaotic map\"",
+    "\"soft\" \"RAAR\" \"chaos\""
+  ],
+  "query_conclusion": "No exact counterpart identified in the returned results. This does not establish absence; sigmoid maps, neural systems, graph-message dynamics, polynomial symmetry and known hyperchaotic maps remain comparison classes."
+}

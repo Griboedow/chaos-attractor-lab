@@ -230,6 +230,44 @@
       ]
     },
     {
+      "id": "canonical-sphere",
+      "title": "Canonical posterior maps: ribbon and spatial folds",
+      "group": "Numerical algorithms",
+      "report": "docs/canonical-sphere/manuscript.md",
+      "source_portrait": "docs/assets/experimental/canonical-sphere/soft-sphere-163.png",
+      "description": "Cases 163 and 653 have simple canonical site parameters and retain positive finite-time growth across long runs, fresh starts and high precision. Case 653 has two positive mean QR rates. Asymptotic chaotic attraction and historical uniqueness remain unresolved.",
+      "featured": true,
+      "coordinates": "Native three-state iterates; orthogonal cameras and equal spatial units within each panel.",
+      "panels": [
+        {
+          "label": "163",
+          "source": "results/canonical-sphere/runs/canonical-sphere-dense01/case-163-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "653",
+          "source": "results/canonical-sphere/runs/canonical-sphere-dense01/case-653-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/canonical-sphere/runs/canonical-sphere-dense01/case-163-states.npz",
+          "key": "states",
+          "metadata_source": "results/canonical-sphere/runs/canonical-sphere-dense01/case-163.json",
+          "last_count": 250000
+        },
+        {
+          "source": "results/canonical-sphere/runs/canonical-sphere-dense01/case-653-states.npz",
+          "key": "states",
+          "metadata_source": "results/canonical-sphere/runs/canonical-sphere-dense01/case-653.json",
+          "last_count": 250000
+        }
+      ]
+    },
+    {
       "id": "raar-constellation-columns",
       "title": "Finite-point RAAR: fragmented columns and sheets",
       "group": "Numerical algorithms",

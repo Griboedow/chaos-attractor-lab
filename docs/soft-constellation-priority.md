@@ -200,6 +200,96 @@ It does not prove a collision inside K or exclude a conjugacy defined only
 on K. Known noninvertible systems and higher-dimensional realizations
 remain open comparisons.
 
+## Canonical spin and neural formulations
+
+For ideal cube sites $`b_\sigma=c+aQ\sigma`$, with $`Q^TQ=I`$ and
+$`\sigma\in\{-1,1\}^3`$, set $`z=Q^Tx`$, $`d=Q^Tc`$ and
+$`h=2a(z-d)/\tau`$. Expanding the squared Gaussian distances removes a
+common factor; the remaining weight is proportional to $`e^{h\cdot\sigma}`$.
+The eight-state partition function factorizes, giving the exact identity
+
+```math
+Q^Tm(x)=d+a\tanh h.
+```
+
+The hyperbolic tangent acts componentwise. Rotating the entire state,
+including the site's center, preserves the unit sphere and conjugates the
+ideal reflected map to
+
+```math
+z^+=\beta z+\beta\frac{2\mu(z)-z}{\|2\mu(z)-z\|}
+ +(1-2\beta)\mu(z),\qquad \mu(z)=d+a\tanh h.
+```
+
+For tetrahedral sign vertices, restrict to $`\sigma_1\sigma_2\sigma_3=1`$.
+Writing $`t_i=\tanh h_i`$ gives
+
+```math
+Z=4\left(\prod_i\cosh h_i+\prod_i\sinh h_i\right),\qquad
+\mu_i(z)=d_i+a\frac{t_i+t_jt_k}{1+t_1t_2t_3},
+\quad \{i,j,k\}=\{1,2,3\}.
+```
+
+This is an exact three-spin posterior with one parity constraint. It is
+also the even-parity three-bit code under the correspondence
+$`\sigma_i=(-1)^{q_i}`$. The quotient is an algebraic identity; stable
+computation should retain the four shifted exponential weights, since
+saturated floating-point tangents can produce a spurious zero denominator.
+These reductions do not make the full reflected iteration identical to
+standalone neural retrieval or belief propagation.
+
+The identities concern ideal regular sites. The original sphere search
+stores separately rounded coordinates; fitting a rotation or rounding its
+parameters gives nearby inputs, not an exact conjugacy certificate for
+those binary64 arrays. Translation alone also moves the sphere and is not
+an allowed simplification with the sphere fixed at the origin.
+
+Additional primary comparisons delimit the novelty claim:
+
+- [Chen and Aihara, *Chaos and Asymptotical Stability in Discrete-time
+  Neural Networks* (1997)](https://arxiv.org/html/chao-dyn/9701020v1)
+  studies leaky sigmoid recurrences and snap-back repellers. Reviewed the
+  abstract and Section 3.1, equations (2)–(6). Our explicit normalized
+  feedback is not present in the displayed recurrence. Sigmoid feedback
+  and chaos are established ingredients; no nonlinear conjugacy exclusion
+  or independent audit of their chaos proof is claimed.
+- [Verzelli, Alippi and Livi, *Echo State Networks with Self-Normalizing
+  Activations on the Hyper-Sphere* (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6761167/)
+  uses the autonomous map $`z^+=Wz/\|Wz\|`$. Reviewed equations (1)–(6)
+  and their surrounding assumptions. Its normalized-linear power-iteration
+  identity does not hold for our nonlinear posterior plus residual terms.
+  The paper establishes prior use of radial neural normalization; its
+  later Lyapunov claims were not independently verified here.
+- [Sibel, Reynal and Declercq, *Evidence of chaos in the Belief Propagation
+  for LDPC codes*](https://perso.etis-lab.fr/declercq/PDF/ConferencePapers/Sibel_2012_CMSIM.pdf)
+  reports periodic and chaotic numerical behavior in iterative decoding.
+  Reviewed the abstract and Sections 1–3.3 of the author-hosted conference
+  manuscript. Its state consists of Tanner-graph messages, unlike our
+  three-coordinate exact posterior and sphere feedback. A parity-code
+  interpretation therefore does not establish a first chaotic decoder.
+  Neither an equation-by-equation equivalence nor a figure audit was made.
+
+## Polyhedral appearance has direct precedents
+
+The comparison must include symmetric discrete maps, beyond familiar
+three-dimensional flows. [Reiter's 1996 paper, *Attractors with the Symmetry
+of the n-Cube*](https://emis.de/ft/51972), constructs equivariant polynomial
+maps and searches their coefficients. Its abstract and Sections 1–2
+establish that cube symmetry is prior art. The author's abstracts for
+[the three-dimensional cube study (1996)](https://webbox.lafayette.edu/~reiterc/abstracts/mv_1996c.html)
+and [tetrahedral study (1997)](https://webbox.lafayette.edu/~reiterc/abstracts/mv_1997c.html)
+likewise describe earlier spatial attractors. The latter two full papers
+have not been reviewed here.
+
+[Reiter's dodecahedral study (1999)](https://webbox.lafayette.edu/~reiterc/dodec/dodec02_pp.pdf)
+uses group-averaged polynomial maps and explicitly describes diffuse clouds,
+concentrated threads, and ball-like regions. Reviewed the abstract,
+Sections 1–3 and the reproducibility appendices, and visually inspected
+Figures 1–2 on the final page. These visual motifs and
+polyhedral symmetry cannot support a general first-discovery claim for our
+portraits. Formula differences and a finite cloud-distance comparison
+still leave nonlinear equivalence and other published parameters open.
+
 ## Remaining novelty question
 
 Search terms included Gaussian mean shift, mean update, MMSE denoisers,

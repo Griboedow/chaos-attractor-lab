@@ -1,0 +1,83 @@
+{
+  "id": 407,
+  "source_sha256": "bf819269223bc7c09e8ab37b627c7089a07ed53132030ea147dc19ee0031803d",
+  "states_sha256": "2a37aac689c63062a16e9b15d8ede6318fb0f75cf22b82611e682580e00479cf",
+  "histogram_sha256": "f8f6483b788a39f5d2fd7b6da26173cdebd483dbd5921908a75756e446b7699e",
+  "center": [
+    0.001054406842678508,
+    -0.00042814690383375124,
+    -0.00011283873576855049
+  ],
+  "basis": [
+    [
+      -0.7634074445725844,
+      0.5134944988799107,
+      -0.3918322002990895
+    ],
+    [
+      0.5440639770904208,
+      0.838164113457796,
+      0.03840973501680611
+    ],
+    [
+      0.348142876422469,
+      -0.18385950759092262,
+      -0.9192345832619185
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.3167869920675557,
+  "minimum_radius": 0.001620717120216219,
+  "portrait": {
+    "id": "soft-sphere-407",
+    "file": "docs\\assets\\experimental\\canonical-sphere\\soft-sphere-407.png",
+    "sha256": "6a099ef646ed2598aa55d86b3769f2fa24fb4cdef344b5199731597ff716dfe7",
+    "panels": [
+      {
+        "input": {
+          "label": "407",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\canonical-sphere-dense01\\case-407-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "f8f6483b788a39f5d2fd7b6da26173cdebd483dbd5921908a75756e446b7699e",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            64,
+            45
+          ],
+          [
+            1532,
+            1555
+          ]
+        ],
+        "empty_margin": 61,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          0,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 3.8918202981106265,
+        "occupied_bins": 277640,
+        "display_label": "Case 407"
+      }
+    ]
+  }
+}
