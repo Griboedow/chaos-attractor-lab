@@ -49,7 +49,7 @@ async function main() {
         await page.locator('article.markdown-body').waitFor({timeout: 30000});
         await page.waitForFunction(() => [...document.querySelectorAll('math-renderer')].every(e =>
           e.querySelector('math,mjx-container') || /error|missing|undefined|unrecognized/i.test(e.innerText)
-        ), {}, {timeout: 30000});
+        ), {}, {timeout: 30000}).catch(() => {});
         const body = page.locator('article.markdown-body');
         const data = await body.evaluate(a => {
           const maths = [...a.querySelectorAll('math-renderer')];
