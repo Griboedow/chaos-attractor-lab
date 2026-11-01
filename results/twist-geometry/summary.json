@@ -1,0 +1,176 @@
+{
+  "candidates": [
+    {
+      "id": 1709,
+      "spectrum": [
+        0.10400159809290041,
+        -0.036225072962125175,
+        -0.8839111096325084
+      ],
+      "kaplan_yorke_estimate": 2.0766779876304007,
+      "leading_window_range": [
+        0.10048319795851912,
+        0.10800136734204918
+      ],
+      "max_volume_identity_error": 1.4432899320127035e-14,
+      "max_observed_radius": 0.2401006959169724,
+      "basin_positive_all_windows": 18,
+      "basin_tested": 32,
+      "positive_basin_tail_distance_99pct_max_over_bbox_diagonal": 0.0029032518330729747,
+      "regular_basin_outcomes": [
+        {
+          "lane": 3,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409587
+        },
+        {
+          "lane": 5,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409582
+        },
+        {
+          "lane": 6,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 9,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 12,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409582
+        },
+        {
+          "lane": 13,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 17,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 18,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 19,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 22,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 23,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 24,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409582
+        },
+        {
+          "lane": 30,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409581
+        },
+        {
+          "lane": 31,
+          "period": 3,
+          "max_tail_return_error": 0.0,
+          "monodromy_spectral_radius": 0.8153100277409582
+        }
+      ]
+    },
+    {
+      "id": 3254,
+      "spectrum": [
+        0.2614204569584059,
+        -0.09418893655130804,
+        -0.6815389347199657
+      ],
+      "kaplan_yorke_estimate": 2.2453733923151593,
+      "leading_window_range": [
+        0.25466548783596626,
+        0.26746296651846013
+      ],
+      "max_volume_identity_error": 1.1213252548714081e-14,
+      "max_observed_radius": 0.7784592243460227,
+      "basin_positive_all_windows": 32,
+      "basin_tested": 32,
+      "positive_basin_tail_distance_99pct_max_over_bbox_diagonal": 0.006099319386115659,
+      "regular_basin_outcomes": []
+    },
+    {
+      "id": 307,
+      "spectrum": [
+        0.39794748989297857,
+        -0.7979421900498028,
+        -2.6812904337521797
+      ],
+      "kaplan_yorke_estimate": 1.4987171938710762,
+      "leading_window_range": [
+        0.3893960209180736,
+        0.40512062804110666
+      ],
+      "max_volume_identity_error": 3.2862601528904634e-14,
+      "max_observed_radius": 0.965778493850855,
+      "basin_positive_all_windows": 32,
+      "basin_tested": 32,
+      "positive_basin_tail_distance_99pct_max_over_bbox_diagonal": 0.0018723589882822808,
+      "regular_basin_outcomes": []
+    }
+  ],
+  "neighbors": [
+    {
+      "id": 1709,
+      "tested": 33,
+      "positive_all_windows": 15,
+      "mean_exponent_range": [
+        -0.07372486955578487,
+        0.12806266277319325
+      ],
+      "rounded_to_3_decimals_spectrum": [
+        -0.06796087426565922,
+        -0.06796109070642146,
+        -0.6795042049142876
+      ]
+    },
+    {
+      "id": 3254,
+      "tested": 33,
+      "positive_all_windows": 33,
+      "mean_exponent_range": [
+        0.25525250431271085,
+        0.2688379853252021
+      ],
+      "rounded_to_3_decimals_spectrum": [
+        0.26356043172707666,
+        -0.09421189677590894,
+        -0.6852743291705994
+      ]
+    }
+  ]
+}

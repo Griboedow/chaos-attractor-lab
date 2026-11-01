@@ -1,0 +1,9 @@
+# CPU-only numerical experiments; the main GPU environment is not required.
+numpy>=2.2,<3
+scipy>=1.15,<2
+matplotlib>=3.10,<4
+pillow>=11,<14
+numba>=0.61,<1
+mpmath>=1.3,<2
+# The optional upstream-code check also needs torch, tabulate and colorama.
+# For a CPU-only PyTorch install, use https://download.pytorch.org/whl/cpu.

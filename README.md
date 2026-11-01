@@ -1,6 +1,16 @@
 # Chaos Attractor Lab
 
-Reproducible investigations of unusual physical and biological oscillator models, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
+Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
+
+**[Geometry first: folded sail and medusa](docs/twist-geometry.md).** A search over 4,096 dissipative three-axis twist maps produced two intricate full-state geometries. Each image contains eight million actual iterates. Four-million-step spectra and independent 70/90-digit checks support chaos; the folded sail also has a competing regular regime. Exact-model priority and asymptotic chaotic attraction remain unresolved.
+
+![Folded sail: actual three-dimensional map states in an orthographic view](docs/assets/twist-folded-sail.png)
+
+[Rotate the folded sail](docs/assets/twist-folded-sail.gif) · [View the medusa](docs/assets/twist-medusa.png) · [Rotate the medusa](docs/assets/twist-medusa.gif) · [Equations, data and reproduction](docs/twist-geometry.md)
+
+**[A different search direction: chaos inside a scalar optimizer](docs/adabelief-quadratic.md).** AdaBelief's internal memory produces a branching numerical candidate while minimizing only `theta^2/2`. Two million observed iterations, upstream-code checks and 70/90-decimal calculations retain positive expansion. The supported nonrectified branch and atypical primary memory coefficients are explicit; optimizer chaos is already known in related methods, and exact-candidate priority remains unresolved. [Rotating full-state view](docs/assets/adabelief-rotation.gif).
+
+![Scalar AdaBelief candidate and independent long-run evidence](docs/assets/adabelief-candidate.png)
 
 **[Current visual candidates: two chaotic geometries from four motor groups](docs/motor-four-b-study.md).** A thin braid survives a 100,000-unit numerical check; nearby, three larger regimes retain chaos through 60,000 units each. Full-state symmetry and close-pair comparisons distinguish their behavior. Their topology and historical novelty remain unresolved.
 
