@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-01T15:14:01.383350+00:00",
-  "reviewed_tree": "ba19677506a310dadaf4b18b5277ccaebdff2423",
+  "checked_at": "2026-11-01T15:18:27.270843+00:00",
+  "reviewed_tree": "25fb6fb2a1c29e894037972c3df21ae87a95c940",
   "browser": "Microsoft Edge headless, 156.0.4314.58",
   "viewport": {
     "width": 1440,
@@ -22,15 +22,18 @@
       "docs/fastica-tripling-structure.md",
       "docs/adamax-structure.md",
       "docs/raar-cycle-structure/manuscript.md",
-      "docs/quantized-feedback-comparison.md"
+      "docs/quantized-feedback-comparison.md",
+      "docs/yogi-memory/manuscript.md",
+      "docs/replication-instability/manuscript.md"
     ],
-    "findings": "Set braces, norm bars and star subscripts restored; matrices, formula alignment and tables rendered. No scientific claims or calculations were revalidated by this presentation check."
+    "findings": "Set braces, norm bars and star subscripts restored; matrices, formula alignment and tables rendered. No scientific claims or calculations were revalidated by this presentation check. A further visual check found vertical stacking of tagged equations. All 23 tags were replaced with the same visible equation numbers as ordinary math text. The three affected pages were rechecked in the browser; no labeled MathML rows remain."
   },
   "changes": {
     "display_blocks_protected": 309,
     "inline_expressions_protected": 2027,
     "upright_operator_names": 23,
-    "frozen_numerical_packets_modified": false
+    "frozen_numerical_packets_modified": false,
+    "numbered_equations_reformatted": 23
   },
   "screenshots": "Full-page screenshots retained externally on D:, not committed. Per-page SHA-256 values below identify the captures.",
   "totals": {
@@ -66,15 +69,15 @@
     },
     {
       "file": "RECORDS.md",
-      "revision": "6c89b379808cfabf46ce669109854b1abfd720ee",
-      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/6c89b379808cfabf46ce669109854b1abfd720ee/RECORDS.md",
-      "source_sha256": "93746c072c31125c99ed7e5eae53096dbdf9a12f3d1488560cdc42df24654a6d",
+      "revision": "def93cbd60f09845797f47937c51c32b035c2daf",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/def93cbd60f09845797f47937c51c32b035c2daf/RECORDS.md",
+      "source_sha256": "8ffe9806ec9e6142833881272287a14a4615b7224cf907326470882c429edb52",
       "rendered_display_math": 0,
       "rendered_total_math": 0,
       "image_occurrences": 0,
       "all_images_loaded": true,
       "math_errors": [],
-      "screenshot_sha256": "53fd7eaf045846c5b113ed0ca9ead256bb909c73b8a9bae21b53f7ad2315b2e6"
+      "screenshot_sha256": "77d5bc578edf93ca1e4971e8cea768ce97318dad22c5edc75c250b4d40251ef7"
     },
     {
       "file": "docs/README.md",
@@ -270,15 +273,15 @@
     },
     {
       "file": "docs/fastica-dynamics.md",
-      "revision": "358898e5b7b82357df24ae2e34c9eb63ce28a980",
-      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/358898e5b7b82357df24ae2e34c9eb63ce28a980/docs/fastica-dynamics.md",
+      "revision": "def93cbd60f09845797f47937c51c32b035c2daf",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/def93cbd60f09845797f47937c51c32b035c2daf/docs/fastica-dynamics.md",
       "source_sha256": "2bb475a32f9059be0a6a1c6e213fcca0181706afb87ccdb4a3e8841fc70150ba",
       "rendered_display_math": 2,
       "rendered_total_math": 34,
       "image_occurrences": 1,
       "all_images_loaded": true,
       "math_errors": [],
-      "screenshot_sha256": "ebee0c488c39c086bfb256240f39c303d44d8cdfb11bdeee0a092a422aed3c6d"
+      "screenshot_sha256": "68a596d29ccdb05ffe981d7d97b658c73c60556bdc6a73e6b34cc4e820691b09"
     },
     {
       "file": "docs/fastica-tripling-structure.md",
@@ -486,15 +489,16 @@
     },
     {
       "file": "docs/manuscript-editing.md",
-      "revision": "358898e5b7b82357df24ae2e34c9eb63ce28a980",
-      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/358898e5b7b82357df24ae2e34c9eb63ce28a980/docs/manuscript-editing.md",
-      "source_sha256": "855aee756b01b42ea40133d25873fa347acf0cbd539f3bc8ea3d2f039bd1eb75",
+      "revision": "25fb6fb2a1c29e894037972c3df21ae87a95c940",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/25fb6fb2a1c29e894037972c3df21ae87a95c940/docs/manuscript-editing.md",
+      "source_sha256": "5905c4eae6ea515596c0a8dd0242a8c2567040a648a2bb322381c84f8c71f21b",
       "rendered_display_math": 0,
       "rendered_total_math": 0,
       "image_occurrences": 0,
       "all_images_loaded": true,
       "math_errors": [],
-      "screenshot_sha256": "2fc63cc21d01e2cb97a26999165354ce9482ac1237995c7c136aa59e5cde80aa"
+      "screenshot_sha256": "c135b27bfb1a5c894cee1bd300349e20e8d3d36cf1f29e2d516dc76f95b19ee0",
+      "unsupported_labeled_rows": 0
     },
     {
       "file": "docs/material-memory-screening.md",
@@ -1230,15 +1234,16 @@
     },
     {
       "file": "docs/replication-instability/manuscript.md",
-      "revision": "358898e5b7b82357df24ae2e34c9eb63ce28a980",
-      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/358898e5b7b82357df24ae2e34c9eb63ce28a980/docs/replication-instability/manuscript.md",
-      "source_sha256": "9c375dd10c2b1ec8a60152d636bbb0920a6e4f3cc7442d9c1431b35eb1e15944",
+      "revision": "25fb6fb2a1c29e894037972c3df21ae87a95c940",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/25fb6fb2a1c29e894037972c3df21ae87a95c940/docs/replication-instability/manuscript.md",
+      "source_sha256": "31f8a06d2d00725a44a0e634ab2421bd834adf06b6d0786c8b954b2640334a90",
       "rendered_display_math": 23,
       "rendered_total_math": 190,
       "image_occurrences": 3,
       "all_images_loaded": true,
       "math_errors": [],
-      "screenshot_sha256": "a5944f9bb875cbd4489f585dab6428214e2e2a794b703fdc0cda8a3722045090"
+      "screenshot_sha256": "09d0b3ca95e5947d23344ee353cbb345abcc4d32519bce22c5c0729a53da8fb9",
+      "unsupported_labeled_rows": 0
     },
     {
       "file": "docs/rheostat-research.md",
@@ -1278,15 +1283,16 @@
     },
     {
       "file": "docs/scalar-optimizer-boundedness.md",
-      "revision": "6c89b379808cfabf46ce669109854b1abfd720ee",
-      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/6c89b379808cfabf46ce669109854b1abfd720ee/docs/scalar-optimizer-boundedness.md",
-      "source_sha256": "44ff7a870bf23e03e28a1497a574feaa6477fc5f2ecdf28a422d75324289b452",
+      "revision": "25fb6fb2a1c29e894037972c3df21ae87a95c940",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/25fb6fb2a1c29e894037972c3df21ae87a95c940/docs/scalar-optimizer-boundedness.md",
+      "source_sha256": "8507e30759bc05e4c02fad2eef5938c53abd98f14d6c15f32a9c156d68b79230",
       "rendered_display_math": 11,
       "rendered_total_math": 11,
       "image_occurrences": 0,
       "all_images_loaded": true,
       "math_errors": [],
-      "screenshot_sha256": "e4249786d8ef9a131fb4ab0fd62e4176ba3ab4e00943035b302876b0c7ba41b5"
+      "screenshot_sha256": "5029a2f7b53417127c52b1c09024f53b654b6aed740bf9465a58836eca9759c3",
+      "unsupported_labeled_rows": 0
     },
     {
       "file": "docs/soft-constellation-priority.md",
@@ -1458,15 +1464,16 @@
     },
     {
       "file": "docs/yogi-memory/manuscript.md",
-      "revision": "ba19677506a310dadaf4b18b5277ccaebdff2423",
-      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/ba19677506a310dadaf4b18b5277ccaebdff2423/docs/yogi-memory/manuscript.md",
-      "source_sha256": "e8aea595fcdff3685d7665e276a7d2dabc42944c29266afd090b8181bdfc8483",
+      "revision": "25fb6fb2a1c29e894037972c3df21ae87a95c940",
+      "url": "https://github.com/Griboedow/chaos-attractor-lab/blob/25fb6fb2a1c29e894037972c3df21ae87a95c940/docs/yogi-memory/manuscript.md",
+      "source_sha256": "9428f771a2c245caac27dd374881e82ee1d64cc05212c87a404cec3567e599c5",
       "rendered_display_math": 24,
       "rendered_total_math": 24,
       "image_occurrences": 2,
       "all_images_loaded": true,
       "math_errors": [],
-      "screenshot_sha256": "6dad5e9a79c2c722487cf5eb48ae67e4c4b3e46d934c29304a4d6afc57ef3650"
+      "screenshot_sha256": "a24953e23010eb5523cfe0c4c8b7d66abecb0667047a866655f4cc9079657e89",
+      "unsupported_labeled_rows": 0
     },
     {
       "file": "docs/yogi-tanh-structure.md",
@@ -1492,5 +1499,25 @@
       "math_errors": [],
       "screenshot_sha256": "2ab962b1792fd4a3e06ab2bf159221e19f35c985db59333bf1c47acb6b94c6b3"
     }
-  ]
+  ],
+  "numbered_equation_control": {
+    "page": "docs/yogi-memory/manuscript.md",
+    "display_block_indices": [
+      7,
+      9
+    ],
+    "before_heights_px": [
+      128.34375,
+      285.515625
+    ],
+    "after_heights_px": [
+      44.8125,
+      44.8125
+    ],
+    "after_screenshot_sha256": [
+      "baf83be40630c31b7ad4cb43636667fe24551f27a6d8d307238c9bb77dffb520",
+      "93b999f6d27a3c9652e700d149f09a2bf9090f84e407063cd8da2cf23817f1d5"
+    ],
+    "visual_check": "Both complete inequalities and their original numbers are horizontal and legible."
+  }
 }
