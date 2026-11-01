@@ -211,8 +211,10 @@ and their return maps have not been exhausted.
 The present result is a reproducible pair of visually distinctive
 three-state numerical regimes, with explicit known-operator identifications
 and controls. Case 156 additionally has certified attraction, positive
-entropy and mixed-index cycles, with two restricted smooth-equivalence
-obstructions. A broader dynamical and historical comparison is still
+entropy and mixed-index cycles. Connectedness and opposite orientation signs
+also force failure of local injectivity on its attracting set, excluding
+ambient neighborhood conjugacy to locally injective models. Intrinsic
+equivalence remains open. A broader dynamical and historical comparison is still
 required before making a uniqueness claim.
 
 [Run inventory, exact parameters and reproduction](../results/soft-constellations/README.md)

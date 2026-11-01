@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded comparison for the connectedness/local-injectivity theorem. No exhaustive prior-art or visual novelty conclusion.",
+  "sources": [
+    {
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+      "author": "Allen Hatcher",
+      "title": "Algebraic Topology",
+      "year": 2002,
+      "reviewed": "Theorem 2B.3 printed page 172; local orientations printed pages 233-235.",
+      "use": "Standard invariance of domain and locally consistent orientation; the application to the certified witnesses is our deduction."
+    },
+    {
+      "url": "https://www.ma.imperial.ac.uk/~dturaev/mypapers/bc2005.pdf",
+      "title": "Three-dimensional Henon-like maps and wild Lorenz-like attractors",
+      "year": 2005,
+      "reviewed": "Abstract; introductory model (1) and constant-Jacobian statement, printed page 3494.",
+      "use": "B nonzero makes the displayed map invertible. Exclusion of neighborhood conjugacy follows from our theorem; not a theorem asserted by that paper.",
+      "not_reviewed": "Complete attractor proofs and exhaustive visual comparison."
+    },
+    {
+      "url": "https://arxiv.org/html/2206.07855v1",
+      "title": "Visualizing Attractors of the Three-Dimensional Generalized Henon Map",
+      "year": 2022,
+      "doi": "10.1063/5.0103436",
+      "reviewed": "Abstract and introduction, equations (1)-(2), constant Jacobian delta and studied nonzero values.",
+      "use": "A broader existing quadratic diffeomorphism class; also excluded as an ambient neighborhood model.",
+      "not_reviewed": "Complete parameter atlas, proofs and exhaustive figure comparison.",
+      "bibliographic_note": "Original arXiv submission and journal reference give 2022; the generated HTML header displays 2026, which is not treated as original publication date."
+    }
+  ],
+  "queries": [
+    "Gonchenko Turaev three dimensional Henon map x y z B M1 discrete Lorenz attractors arxiv",
+    "\"noninvertible\" \"three-dimensional\" \"Gaussian\" attractor",
+    "\"reflected\" \"denoiser\" \"chaotic\""
+  ],
+  "search_limit": "The last two broad queries returned no close model in the inspected results; this is not absence evidence. Noninvertible and intrinsic comparisons remain open."
+}

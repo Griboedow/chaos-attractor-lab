@@ -13,8 +13,17 @@ C1 neighborhood conjugacy to a dissipative planar Hénon map with a
 contracting extra coordinate, and to a fixed-time map of an autonomous
 three-dimensional flow. The exact scope and short proofs are in the article.
 
+An exact spanning-tree certificate and an independent connectivity check
+also prove that K is connected. Opposite orientation signs at its certified
+periodic points force failure of local injectivity at some point of K.
+Thus ambient neighborhood conjugacy to any locally injective map, including
+invertible three-dimensional Hénon maps, is excluded even under continuous
+coordinate changes. This does not prove noninjectivity of the restriction
+to K; intrinsic equivalence remains unresolved.
+
 [Full article](soft-symbolic-dynamics/manuscript.md) ·
 [Evidence and reproduction](../results/soft-symbolic-dynamics/README.md) ·
+[Connectivity and orientation certificate](../results/soft-local-injectivity/README.md) ·
 [Trapping and original-start entry](soft-constellation-trapping.md) ·
 [Model and rotating portraits](soft-constellations.md) ·
 [Equivalent formulations and prior art](soft-constellation-priority.md)

@@ -12,9 +12,11 @@ and prove $`h_{\mathrm{top}}(F|_K)\ge\log(2)/6>0.11552`$ per iteration. Two inte
 implementations independently verify the crossings. Separate 200-digit
 certificates locate a fixed point with one unstable direction and two
 least-period-five orbits with two unstable directions, all in K. Their
-multipliers exclude local C1 equivalence to a dissipative planar Hénon map
-with an additional contracting fiber, and to a fixed-time map of an autonomous
-three-dimensional flow. The numerical portrait is a folded spatial band.
+return determinants, together with an exact connectedness certificate,
+force failure of local injectivity at a point of K. This excludes ambient
+neighborhood topological conjugacy to locally injective maps, including
+invertible three-dimensional Hénon maps. The multipliers give additional
+C1 obstructions. The numerical portrait is a folded spatial band.
 Equality of its sampled closure with K, transitivity, and historical priority
 remain unresolved. Gaussian averaging, reflected iterations, covering
 relations and mixed unstable dimensions all have prior literature.
@@ -101,6 +103,15 @@ $`\sup_{x\in F^n(Q)}\mathrm{dist}(x,K)\to0`$; otherwise a convergent subsequence
 outside a fixed neighborhood of K contradicts their intersection.
 Thus K attracts a neighborhood. This is the attracting-set convention used
 here; no transitivity is included in the definition.
+
+**Connectedness.** An exact face-adjacency computation connects every cube
+of Q by a spanning tree with 35,783 edges. An independent audit checks each
+edge and complete coverage; a separate union-find calculation confirms one
+component and 88,171 undirected face adjacencies. Thus Q is connected.
+Every continuous image F^n(Q) is compact and connected, and these images
+are nested. Their intersection K is therefore connected. The
+[connectivity and orientation packet](../../results/soft-local-injectivity/README.md)
+retains the complete tree and both verification methods.
 
 The exact stored start `(0.317,-0.211,0.419)`, together with a coordinate box
 of radius `2^-35`, enters Q after eleven steps. This entry result is inherited
@@ -236,17 +247,77 @@ the same three roots. Periodicity again puts every phase in K.
 
 Different unstable dimensions rule out constant-index uniform
 hyperbolicity on K and, in particular, a uniformly hyperbolic transitive
-basic-set description. They do not rule out a disconnected hyperbolic set
-whose components have different indices. We have not proved that these
+basic-set description. Since K is connected, a continuous invariant
+hyperbolic splitting on all of K could not assign different stable ranks
+to different components either. We have not proved that these
 cycles lie in the same transitive component, that both indices are dense,
 or that heterodimensional connections exist.
 
-## 6. Two explicit equivalence obstructions
+## 6. Failure of local injectivity and equivalence obstructions
 
-These are consequences of the located multipliers, not conclusions from
-the appearance of Figure 1. A C1 conjugacy defined on neighborhoods of a
-periodic orbit makes its return derivatives similar and preserves their
-multipliers.
+These conclusions use connectedness and the certified derivatives, not
+the appearance of Figure 1.
+
+### 6.1 An obstruction under continuous changes of ambient coordinates
+
+**Theorem.** At some point of K, F is not injective on any open neighborhood.
+Consequently no topological conjugacy on neighborhoods of K can transform
+F into a map locally injective at every point of the corresponding set.
+
+**Proof.** Exact rational interval determinants of the stored return
+matrices give the following signs in both derivative implementations:
+
+| Orbit | Return determinant, rounded | Certified sign |
+| --- | ---: | --- |
+| Fixed point P | 0.13265531426405539 | Positive |
+| Five-cycle A | −0.00008926728175455644 | Negative |
+
+An independent check multiplies the three disjoint certified multiplier
+brackets and obtains the same signs. The negative determinant of the
+five-step return is the product of five one-step determinants. Hence every
+phase of A is regular and at least one phase has negative one-step
+determinant. The fixed point has positive one-step determinant. Both
+witnesses belong to K.
+
+Suppose F were locally injective at every point of K. Invariance of domain
+makes each such restriction a homeomorphism onto an open image [4]. The
+union of the injective neighborhoods is an open neighborhood U of K on
+which F is a local homeomorphism. Its local orientation sign is locally
+constant on U and equals the sign of det DF at regular points. Its
+restriction to the connected set K must therefore be constant, contrary
+to the two witnesses. Local injectivity is preserved by conjugacy through
+ambient homeomorphisms, proving the consequence. ∎
+
+The continuity of det DF also forces a critical point in K. Singularity
+alone would not prove the theorem: the one-dimensional map x ↦ x³ is locally
+injective despite its vanishing derivative at zero. The orientation
+argument supplies the stronger conclusion.
+
+For example, the three-dimensional Hénon map studied by Gonchenko and
+coauthors [5] is
+
+```math
+H(x,y,z)=(y,z,M_1+Bx+M_2y-z^2),\qquad \det DH=B.
+```
+
+For B ≠ 0 it has an explicit global inverse, so the theorem excludes
+ambient neighborhood conjugacy to it. The same applies to the quadratic
+diffeomorphisms studied by Hampton and Meiss [6], smooth flow time maps,
+and regular Poincaré maps when the compared domains have equal dimension.
+This is a dynamical neighborhood obstruction; it does not classify the
+shape of a set without its map.
+
+In particular, no collision between two points of K has been proved.
+Colliding points in arbitrarily small ambient neighborhoods may lie
+outside K. Whether F restricted to K is injective, and hence whether an
+intrinsic conjugacy to an invertible system is possible, remains open.
+The certificate also does not locate a Whitney fold or establish its
+normal form. Noninvertible comparison systems remain to be examined.
+
+### 6.2 Additional smooth obstructions from periodic multipliers
+
+A C1 conjugacy defined on neighborhoods of a periodic orbit makes its
+return derivatives similar and preserves their multipliers.
 
 **Dissipative planar Hénon map with a contracting extra coordinate.**
 Consider $`H(u,v)=(1-au^2+bv,u)`$ with $`0<|b|<1`$, and a C1 skew product
@@ -256,8 +327,10 @@ has modulus $`|b|^p<1`$, so at most one planar multiplier can have modulus
 greater than one. The fiber multiplier has modulus at most $`q^p<1`$.
 Thus every hyperbolic periodic orbit has at most one unstable direction.
 Either certified five-cycle contradicts C1 neighborhood conjugacy to this
-class. This statement does not cover general three-dimensional Hénon-like
-maps, noncontracting fibers, or a conjugacy defined only on a fractal set.
+class, including contracting fibers that need not themselves be invertible.
+This multiplier argument alone does not cover general three-dimensional
+Hénon-like maps, noncontracting fibers, or a conjugacy defined only on a
+fractal set. Section 6.1 separately excludes locally injective models.
 
 **Fixed-time sampling of an autonomous three-dimensional flow.** Suppose
 F were C1 conjugate near a certified five-cycle to a time-T map $`\varphi_T`$ of a
@@ -265,11 +338,13 @@ C1 autonomous vector field V, for $`T\ne0`$. A point of least period five for
 $`\varphi_T`$ is not an equilibrium. The identity
 $`D\varphi_{5T}(x)V(x)=V(\varphi_{5T}(x))=V(x)`$ supplies a nonzero eigenvector with
 multiplier one. All three certified multipliers avoid one, a contradiction.
-This excludes that precise fixed-time representation. It does not exclude
-a Poincaré return map of a flow, a higher-dimensional realization, or a
-change involving state-dependent return times.
+This excludes that precise fixed-time representation already near either
+five-cycle. This multiplier argument alone does not exclude a Poincaré
+return map or state-dependent return times; Section 6.1 supplies the
+separate obstruction for regular local return maps near all of K.
+Higher-dimensional realizations are not excluded.
 
-These two exclusions narrow familiar comparison classes. They do not
+These exclusions narrow familiar comparison classes. They do not
 establish inequivalence to all previously described attractors.
 
 ## 7. Prior work and the remaining novelty question
@@ -285,17 +360,20 @@ Takahasi and Yorke [3] give explicit hetero-chaotic maps: their definition
 requires periodic points of different unstable dimensions to be dense,
 together with a dense trajectory. Our three located cycles and a positive
 entropy subset do not establish those stronger properties. Their baker-map
-examples and the Hénon-like precedents they cite remain relevant comparison
-classes; the restricted Hénon obstruction above does not dismiss them.
+examples remain relevant noninvertible comparisons. Invertible Hénon-like
+precedents are excluded as ambient neighborhood models by Section 6.1;
+equivalence restricted to invariant sets is still unresolved.
 
 The contribution established here is an explicit six-site posterior/circle
-instance with a reproducible attracting positive-entropy set, certified
-mixed-index cycles and two stated local equivalence obstructions. Searches
+instance with a reproducible connected attracting positive-entropy set,
+certified mixed-index cycles, failure of local injectivity on K, and stated
+equivalence obstructions. The orientation argument is an application of
+standard topology, not a new general method. Searches
 under Gaussian posterior mean, mean shift, reflected dynamics, RAAR,
 unstable-dimension variability and hetero-chaos located no exact match
 among the returned sources. This limited search is not proof of historical
-priority. Other nonlinear coordinate changes, return-map descriptions and
-known three-dimensional discrete models remain open comparisons.
+priority. Intrinsic coordinate changes, noninvertible discrete models and
+higher-dimensional realizations remain open comparisons.
 
 ## 8. Reproducibility and limits
 
@@ -306,6 +384,12 @@ and the figure revisions. Large exploratory arrays remain in the external
 hash-addressed cache. All inputs needed for the principal certificates are
 small and retained in full; no long-trajectory download is needed to check
 the entropy or periodic-point claims.
+
+The separate [connectivity and orientation packet](../../results/soft-local-injectivity/README.md)
+contains five run files totaling less than 170 KiB, together with the exact
+hashes of the frozen trapping and cycle inputs. It independently checks
+the finite connectivity and determinant statements used in Section 6.1.
+The topological deduction is a written proof, not a machine formalization.
 
 The return scout starts on a straight tangent segment at the fixed point.
 It does not validate an unstable manifold, and its intersections with a
@@ -339,3 +423,23 @@ heterogeneous chaos*, Nonlinearity 34 (2021), 5744–5761.
 [revised author text](https://arxiv.org/html/1811.01009v4).
 The abstract, introductory definitions, baker-map discussion and stated
 density results were reviewed; no complete proof replication is claimed.
+
+[4] A. Hatcher, *Algebraic Topology*, Cambridge University Press, 2002.
+[Author-hosted text](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf).
+Theorem 2B.3, printed page 172, and the local-orientation discussion on
+printed pages 233–235 were reviewed for Section 6.1.
+
+[5] S. V. Gonchenko, I. I. Ovsyannikov, C. Simó and D. Turaev,
+*Three-dimensional Hénon-like maps and wild Lorenz-like attractors*,
+International Journal of Bifurcation and Chaos 15 (2005), 3493–3508.
+[Author-hosted paper](https://www.ma.imperial.ac.uk/~dturaev/mypapers/bc2005.pdf).
+The abstract, introductory model (1), and constant-Jacobian statement on
+printed page 3494 were checked; no replication of the attractor proofs is claimed.
+
+[6] A. E. Hampton and J. D. Meiss, *Visualizing attractors of the
+three-dimensional generalized Hénon map*, Chaos 32 (2022), 113127.
+[doi:10.1063/5.0103436](https://doi.org/10.1063/5.0103436);
+[author manuscript](https://arxiv.org/html/2206.07855v1).
+The abstract and introductory equations (1)–(2), including the nonzero
+constant Jacobian, were reviewed. Their bifurcation and visual atlas was
+not exhaustively compared here.

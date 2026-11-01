@@ -162,8 +162,20 @@ Their certified multipliers exclude C1 neighborhood conjugacy to a
 dissipative planar Hénon base with a uniformly contracting extra coordinate,
 and to a fixed-time map of an autonomous three-dimensional flow. These are
 explicit, restricted obstructions. They leave general three-dimensional
-Hénon-like maps, Poincaré maps, higher-dimensional realizations and
-equivalence only on the invariant set unresolved.
+Hénon-like maps outside the scope of the multiplier argument alone.
+
+The subsequent connectedness and orientation certificate strengthens the
+comparison: F fails local injectivity at some point of K. Consequently
+there is no ambient neighborhood topological conjugacy to a locally
+injective map. This excludes invertible three-dimensional Hénon models,
+including [Gonchenko and coauthors (2005), model (1)](https://www.ma.imperial.ac.uk/~dturaev/mypapers/bc2005.pdf)
+and [Hampton and Meiss (2022), equations (1)–(2)](https://arxiv.org/html/2206.07855v1),
+whose stated constant Jacobians are nonzero. The [article, Section 6.1](soft-symbolic-dynamics/manuscript.md#61-an-obstruction-under-continuous-changes-of-ambient-coordinates),
+gives the proof using invariance of domain and locally constant orientation.
+This is an established topological argument, not a new general mechanism.
+It does not prove a collision inside K or exclude a conjugacy defined only
+on K. Known noninvertible systems and higher-dimensional realizations
+remain open comparisons.
 
 ## Remaining novelty question
 
