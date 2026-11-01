@@ -4,8 +4,9 @@
 a known Gaussian posterior-mean operator. Cases 29 and 156 retain positive
 finite-time growth over five million steps, 33 initial states and independent
 70/100-digit checks. Their geometry is more coherent than the fragmented
-hard-projection controls. A chaotic attracting invariant set and historical
-uniqueness are not certified.
+hard-projection controls. Case 156 now has a [trapping and eleven-step entry
+certificate](soft-constellation-trapping.md). Chaos on the certified invariant
+set and historical uniqueness remain unresolved.
 
 ![Gaussian posterior mean and a circle, cases 29 and 156](assets/portraits/soft-constellations.png)
 
@@ -115,6 +116,9 @@ no same-lobe transition. The observed empty interval in the split coordinate
 is approximately `[-0.24514,0.16723]`. This is a sampled decomposition, not
 a certified invariant partition. It is **not a two-point cycle**: observed
 two-step displacements range from 0.04328 to 0.50412.
+Alternating chaotic bands are already known, including for the Hénon map;
+see the [explicit precedent](soft-constellation-priority.md#alternating-lobes-are-established-dynamics).
+This feature alone does not distinguish a new dynamical class.
 
 Case 156 uses six sites and `beta=0.970660805775784`. It forms an elongated
 folded band with several widened sections. The smallest sampled circle
@@ -158,6 +162,21 @@ by at most `5.23e-12`; the largest discrepancy between the summed rates and
 mean log absolute Jacobian determinant is `7.11e-15`. These checks concern
 numerical implementation and accounting, not interval certification.
 
+## Certified attracting region for Case 156
+
+A subsequent [outward interval certificate](soft-constellation-trapping.md)
+checks a union of 35,784 exact dyadic cubes and establishes
+`F(Q)+[-2^-35,2^-35]^3 subset Q`. The map stays away from the circle
+singularity throughout this region. The nested intersection of its forward
+images is a nonempty compact invariant set that attracts a neighborhood.
+The original start, including a coordinate neighborhood of radius `2^-35`,
+is certified to enter `Q` after eleven steps.
+
+This proves attraction to an invariant set in the region containing the
+sampled folded band. It does not prove that the whole limiting set is
+chaotic, that it equals the rendered cloud, or that it is historically new.
+Case 29 still has numerical attraction evidence only.
+
 ## Geometry comparison and remaining claim
 
 The two terminal clouds were compared with the existing 108-regime reference
@@ -179,8 +198,10 @@ and their return maps have not been exhausted.
 
 The present result is a reproducible pair of visually distinctive
 three-state numerical regimes, with explicit known-operator identifications
-and controls. A proof of chaotic attraction and a stronger dynamical
-comparison are still required before making a discovery claim.
+and controls. The Case 156 trapping certificate
+strengthens the attraction evidence; a proof of chaos on that invariant set
+and a stronger dynamical comparison are still required before making a
+discovery claim.
 
 [Run inventory, exact parameters and reproduction](../results/soft-constellations/README.md)
 · [Prior art and equivalent terminology](soft-constellation-priority.md).

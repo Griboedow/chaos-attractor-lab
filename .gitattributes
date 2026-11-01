@@ -141,3 +141,9 @@ results/soft-constellations/** -text whitespace=cr-at-eol,-blank-at-eof
 
 # Preserve executed structured FastICA sources and numerical receipts.
 results/fastica-tripling/** -text whitespace=cr-at-eol
+
+# Preserve the executed soft-map trapping packet and interval source bytes.
+results/soft-trapping/** -text whitespace=cr-at-eol,-blank-at-eof
+research/*soft_trapping*.py -text
+research/soft_interval.py -text
+research/validate_soft_interval.py -text

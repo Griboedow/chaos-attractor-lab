@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "precision_digits": 100,
+  "taylor_remainder_bound": "(8/7)*(1/8)^13/13! < 2^-71, checked by exact rational arithmetic",
+  "exponential_points": 1031,
+  "maximum_exponential_relative_width": 1.1894415833219885e-11,
+  "cases": [
+    {
+      "id": 29,
+      "source_sha256": "b5c02a35d8feec34aa416814d8e9e5505645ddcdead5d105e58d7cf69e165c3e",
+      "boxes": 16,
+      "points": 192,
+      "derivatives": 1728
+    },
+    {
+      "id": 156,
+      "source_sha256": "58d327e746b65b06a9bcbcbb54f75d24b0fd89e45974046e856a1b1350688675",
+      "boxes": 16,
+      "points": 192,
+      "derivatives": 1728
+    }
+  ],
+  "sources": {
+    "validate_soft_interval.py": "a6fd9a7cc90d25586bd1a0c378d645e5c3c55aaba70a5ab7c232440605a35a60",
+    "soft_interval.py": "e786276b735cb6724aa80e03b7b317eea1ace047bbff3651bf5064f3fa7a97ef",
+    "raar_interval_scalar.py": "7290f9e4d0c5592c2516fa35a633ef962c31a8650dd3f916352edf4b442c2c4d"
+  },
+  "seconds": 11.580809831619263,
+  "scope": "Containment regression tests and exact Taylor remainder arithmetic. The tests support implementation validation, not exhaustive correctness or a trapping theorem."
+}

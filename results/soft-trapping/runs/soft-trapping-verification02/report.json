@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "source_sha256": "1ae5e76bde96c9193eaca526eb6d233ddd5a68740311e4391ae6944d661957eb",
+  "audit_report_sha256": "c381bdd50804d3f6269bc4d67df27d34e5995a5e366923dcb4cc733fdc9afcf9",
+  "reference_sha256": "58d327e746b65b06a9bcbcbb54f75d24b0fd89e45974046e856a1b1350688675",
+  "cubes": 35784,
+  "leaves": 1489446,
+  "splits": 207666,
+  "minimum_axis_lower_bound": 0.669718986232378,
+  "maximum_depth": 4,
+  "reverse_order_replay": "all aggregate results identical with reversed source order and 750-cube batches",
+  "mask_membership": "independently decoded with numpy.unpackbits; identical sorted addresses",
+  "terminal_reference_states": 100000,
+  "reference_coverage": "every terminal reference state lies in the proposed union",
+  "independent_entry": {
+    "library": "mpmath 1.3.0 interval context",
+    "digits": 80,
+    "initial": [
+      0.317,
+      -0.211,
+      0.419
+    ],
+    "initial_coordinate_radius": 6.842277657836021e-49,
+    "iterations": 11,
+    "final_box": [
+      [
+        0.3796408166252192,
+        0.3796408166252193
+      ],
+      [
+        -0.8544458084890134,
+        -0.8544458084890132
+      ],
+      [
+        -0.1419873429496842,
+        -0.14198734294968415
+      ]
+    ],
+    "intersected_cubes": 1,
+    "status": "contained"
+  },
+  "seconds": 113.72070574760437,
+  "scope": "Trapping source/accounting/replay and independent finite entry. No proof of chaos, identity of the rendered cloud with the maximal invariant set, or historical uniqueness."
+}

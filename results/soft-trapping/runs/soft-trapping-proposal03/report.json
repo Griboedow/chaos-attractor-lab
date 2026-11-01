@@ -1,0 +1,56 @@
+{
+  "status": "not_closed",
+  "reason": "Sampled image enclosure fails lobe alternation",
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-long01\\case-29.npz",
+  "source_sha256": "b5c02a35d8feec34aa416814d8e9e5505645ddcdead5d105e58d7cf69e165c3e",
+  "source_code_sha256": "af7836f091cff6b3bbdbb59478d7d8456f950005b5c9c487b5a3d855ec234f30",
+  "step": 0.00390625,
+  "slack": 1e-08,
+  "curvature": 2.0,
+  "initial_pad": 1,
+  "domain_pad": 0.25,
+  "shape": [
+    268,
+    514,
+    221
+  ],
+  "initial_occupied": 95951,
+  "final_occupied": 247682,
+  "failing_key": 2738752,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 95951,
+      "processed": 95951,
+      "added": 74753,
+      "status": 0,
+      "minimum_sampled_radius": 0.036021850352297186,
+      "minimum_sampled_enclosure_flip_margin": 0.18214088074771345,
+      "maximum_sampled_remainder": 0.005161999939050544,
+      "seconds": 3.000709295272827
+    },
+    {
+      "generation": 1,
+      "sources": 74753,
+      "processed": 74753,
+      "added": 67173,
+      "status": 0,
+      "minimum_sampled_radius": 0.01435413276998006,
+      "minimum_sampled_enclosure_flip_margin": 0.15086834943951993,
+      "maximum_sampled_remainder": 0.028240917461359878,
+      "seconds": 5.057085752487183
+    },
+    {
+      "generation": 2,
+      "sources": 67173,
+      "processed": 10971,
+      "added": 9805,
+      "status": 5,
+      "minimum_sampled_radius": 0.30543724646955156,
+      "minimum_sampled_enclosure_flip_margin": -0.010295941027053244,
+      "maximum_sampled_remainder": 0.0002720428324517067,
+      "seconds": 5.356626033782959
+    }
+  ],
+  "scope": "Sampled closure proposal only. Corner residual inflation is not a rigorous remainder bound. No proof of trapping, alternation, chaos, attraction, or novelty."
+}

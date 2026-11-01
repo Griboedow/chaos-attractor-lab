@@ -121,6 +121,24 @@ and [projection-dynamics audit](raar-priority.md) remain applicable.
 They already rule out a first-discovery claim for chaos in nonconvex
 reflection algorithms.
 
+## Alternating lobes are established dynamics
+
+Strict alternation between two separated chaotic bands is not a new
+mechanism. Section 2 and Figure 2(a) of
+[Mori, Hata, Horita and Kobayashi, *Statistical Mechanics of Dynamical Systems* (1989)](https://doi.org/10.1143/PTPS.99.1)
+describe this behavior for `H(x,y)=(1-a*x^2+b*y,x)` at `a=1.10357`,
+`b=0.3`: successive iterates alternate between bands and the second iterate
+stays in one band. The primary publisher PDF text on printed pages 5–7,
+including equation (2.1), the surrounding description and figure caption,
+was reviewed. The screenshot request failed; no visual inspection of the
+original figure is claimed. The rest of the 63-page article was not audited.
+
+Case 29's sampled two-lobe alternation therefore supplies a comparison
+target, not an originality claim. Even a rigorous trapping and alternation
+proof would establish that property for this model without making the
+property itself new. Equivalence to a two-band map through nonlinear
+coordinates, or to a higher-dimensional extension, remains unresolved.
+
 ## Remaining novelty question
 
 Search terms included Gaussian mean shift, mean update, MMSE denoisers,

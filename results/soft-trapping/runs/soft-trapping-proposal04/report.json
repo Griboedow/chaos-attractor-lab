@@ -1,0 +1,67 @@
+{
+  "status": "not_closed",
+  "reason": "Image enclosure leaves proposed domain",
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-long01\\case-29.npz",
+  "source_sha256": "b5c02a35d8feec34aa416814d8e9e5505645ddcdead5d105e58d7cf69e165c3e",
+  "source_code_sha256": "af7836f091cff6b3bbdbb59478d7d8456f950005b5c9c487b5a3d855ec234f30",
+  "step": 0.001953125,
+  "slack": 1e-08,
+  "curvature": 2.0,
+  "initial_pad": 0,
+  "domain_pad": 0.25,
+  "shape": [
+    535,
+    1026,
+    440
+  ],
+  "initial_occupied": 35834,
+  "final_occupied": 776982,
+  "failing_key": 174964956,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 35834,
+      "processed": 35834,
+      "added": 157044,
+      "status": 0,
+      "minimum_sampled_radius": 0.04241670290586998,
+      "minimum_sampled_enclosure_flip_margin": 0.20287545535192794,
+      "maximum_sampled_remainder": 0.0009714286144495381,
+      "seconds": 1.4783830642700195
+    },
+    {
+      "generation": 1,
+      "sources": 157044,
+      "processed": 157044,
+      "added": 218110,
+      "status": 0,
+      "minimum_sampled_radius": 0.03651647677778163,
+      "minimum_sampled_enclosure_flip_margin": 0.19202296008754371,
+      "maximum_sampled_remainder": 0.0012650601034500802,
+      "seconds": 5.8530285358428955
+    },
+    {
+      "generation": 2,
+      "sources": 218110,
+      "processed": 218110,
+      "added": 249885,
+      "status": 0,
+      "minimum_sampled_radius": 0.028618448689988713,
+      "minimum_sampled_enclosure_flip_margin": 0.1643609867642024,
+      "maximum_sampled_remainder": 0.002234342163270389,
+      "seconds": 11.871185302734375
+    },
+    {
+      "generation": 3,
+      "sources": 249885,
+      "processed": 30026,
+      "added": 116109,
+      "status": 2,
+      "minimum_sampled_radius": 0.009873714156843315,
+      "minimum_sampled_enclosure_flip_margin": 0.1943405592651985,
+      "maximum_sampled_remainder": 0.015420623225616594,
+      "seconds": 12.835789918899536
+    }
+  ],
+  "scope": "Sampled closure proposal only. Corner residual inflation is not a rigorous remainder bound. No proof of trapping, alternation, chaos, attraction, or novelty."
+}
