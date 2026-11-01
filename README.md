@@ -178,7 +178,7 @@ Native three-state discrete iterates; rigid orthogonal cameras and equal units w
 
 Toroidal and folded-shell motifs have prior examples. Comparisons with 108 frozen reference clouds and primary-source checks do not establish historical uniqueness, topology or chaotic attraction. The certified theorems for Case 988 above do not transfer to these cases.
 
-[Model, controls and visual precedents](docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells) · [Complete higher-order and nonuniform searches](results/product-highorder/README.md)
+[Model, approach trajectories and visual precedents](docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells) · [Complete higher-order and nonuniform searches](results/product-highorder/README.md)
 
 ### Acceleration memory in a scalar iteration
 

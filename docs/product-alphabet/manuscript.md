@@ -233,6 +233,20 @@ discarded updates, with an orthogonal camera and equal units. The
 [24-second rotation](../assets/portraits/product-irregular.webp) keeps the
 last 250,000 states and the spatial scale fixed.
 
+![Approaches from 33 initial states to each nonuniform shell](../assets/diagnostics/product-irregular-approach.png)
+
+The same 33 initial states are followed for their first 2,000 updates.
+Colors mark actual discrete states at logarithmically sampled iteration
+indices; they are not interpolated flow lines. The zooms clip remote
+points and keep equal spatial units. The right panels measure distance
+to 100,000 uniformly sampled reference states, divided by that reference
+cloud's bounding-box diagonal. At update 2,000 the median distances are
+0.0006974 and 0.001557. Their positive floors reflect finite reference
+sampling as well as dynamics; neither the curves nor the finite start
+cohort prove asymptotic attraction. The [approach packet](../../results/product-irregular-approach/README.md)
+retains plotted states, all distance quantiles and independent expression
+checks at 132 selected steps.
+
 | Diagnostic | Nonuniform Case 6 | Nonuniform Case 7 |
 | --- | --- | --- |
 | Levels per coordinate | 4 | 5 |
