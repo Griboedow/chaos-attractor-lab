@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "scope": "Executed rational certificate, finite exploratory search and bounded search scope. No large arrays or new portraits.",
+  "files": [
+    {
+      "path": "check-source.py",
+      "bytes": 9765,
+      "sha256": "6e79c450fadb287edb75080543342d1c8994215b70ce340533672157e890ffdc"
+    },
+    {
+      "path": "exploration-source.py",
+      "bytes": 2580,
+      "sha256": "8238fba44182aa3d063af3af7874f404bd9396f54da57c15f64b436f380d8ce6"
+    },
+    {
+      "path": "exploration.json",
+      "bytes": 138334,
+      "sha256": "23c437a272016999b0143fa6f17346a0bdbec515ea2435c76fd3611c8dd81a7c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2433,
+      "sha256": "f8cef368a07cc9573108fc16b81a26af0ae24921c2aced751755b779ae13c3dd"
+    },
+    {
+      "path": "report.json",
+      "bytes": 23686,
+      "sha256": "9c31550ba13c9eb70bcbf4e2d50c306a397fe4603ab00b0d54c54645bcc63f4d"
+    },
+    {
+      "path": "search-scope.json",
+      "bytes": 870,
+      "sha256": "75de6f2d77355e7348de85449cbfc026884e1ea59724bd4b2f2c3d2f0ab1e6d6"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/fastica_preimage_rejection.py",
+      "sha256": "6e79c450fadb287edb75080543342d1c8994215b70ce340533672157e890ffdc"
+    },
+    {
+      "path": "results/fastica-tripling/exact-check.json",
+      "sha256": "f69a97befee253c834b3df42e51cd120401cf1dbfc55507d4a345342a0504c6a"
+    },
+    {
+      "path": "results/fastica-tripling/code/model.py",
+      "sha256": "6db55a8594d8323667109e75be944708584dcd4deaa1f6aa815e1eef7b961c68"
+    },
+    {
+      "path": "research/verify_fastica_preimage_rejection.py",
+      "sha256": "11a7d49835d366d27830d67420b50f3b6ae192652ff2d1d895a261d95ca0ce9d"
+    }
+  ]
+}

@@ -22,6 +22,7 @@ instructions](manuscript-editing.md).
 | Presentation figures | [Rendering and date conventions](../tools/README-portraits.md) |
 | Structured-data FastICA | [Exact algebra, long runs, precision and library controls](../results/fastica-tripling/README.md) |
 | FastICA local noninjectivity | [Uniform algebraic checks and periodic-point controls](../results/fastica-local-injectivity/README.md) |
+| FastICA rejected preimage | [Exact root box, predecessor exclusion and partition audit](../results/fastica-preimage-rejection/README.md) |
 
 ## Recorded environments and runtime checks
 
