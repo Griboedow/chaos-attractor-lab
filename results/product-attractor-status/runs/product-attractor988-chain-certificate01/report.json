@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "engine": "factorized",
+  "digits": 140,
+  "sources": {
+    "certify_product_singular_chain.py": "d68604ec8c93023bcacc9acf703aab75d2b94e4196dd2daf34f37c2cf0d20da5",
+    "product_binary_interval.py": "18065c96ee4094d70f0d9dc2944d1fe44e77fae118e56f8bea213e75707c0e5f",
+    "certify_product_cycles.py": "6c1733dc4f374f32b9d49ba76f71453fdab0b0c870fa834472f00ca3e5384bc4",
+    "verify_product_coverings.py": "6f221b58bf6982eecee21a0d3b8b3d2f215a6fdb7ba0823d68e98a278eade27d"
+  },
+  "input_sha256": "d9187b678b84290dc111df6751b44109255bd1ec23f8e9163a13569437585eb2",
+  "singular_sha256": "dde9d8a3dbd18a4ac52bc212daf586ed643ef05475d740ed0839ae300ccd4ab1",
+  "nodes_sha256": "ccb71cabfa0b6b4c5c2391b96e9bc2722285f31b32c0e932ec6a918e2a957181",
+  "reference_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "selected_id": 28333,
+  "depth": 27,
+  "root_radius": "1e-40",
+  "reference_index": 1841277,
+  "reference_state": [
+    -0.25879391877434177,
+    0.21557237408465196,
+    -0.13702406819774227
+  ],
+  "distance": {
+    "decimal": "[0.00005995324243518177577529103487926101693644734104839817896492762651622767860656663305855203077263932601689832887837840135535767408870287364696977888, 0.00005995324243518177577529103487926101693644734104839817896492762651625654606358220510005533397853458009960577827756241590321761705766496950333207587]",
+    "binary": [
+      [
+        0,
+        748635790635087745474379469641967772183160144197934155925155377873816484565228199211021589407674409761909936245766172618842410972713417688427,
+        -482,
+        468
+      ],
+      [
+        0,
+        748635790635087745474379469641967772183160144197934155925155377874176952333586884171582147631586529176305076853965769605665143616322014266457,
+        -482,
+        468
+      ]
+    ]
+  },
+  "distance_bound": "0.00006",
+  "chain_sha256": "445811de85f20185e2a85dbbe286106d57064d4ce57838cc4f4a0efd153eb27e",
+  "minimum_normalization": 0.5067400744037088,
+  "seconds": 2.4348201751708984,
+  "scope": "A certified point z lies within the stated distance of one retained reference state and satisfies F^depth(z)=s, where F is undefined. Any neighborhood containing z cannot be contained in a forward-invariant subset of the smooth domain. This does not disprove all smaller traps or any invariant-set membership hypothesis."
+}

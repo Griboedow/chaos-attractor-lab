@@ -158,6 +158,8 @@ The portrait shows the frequently visited core. The longer Case 988 record conta
 
 **Could the core be part of a larger attractor?** A validated outgoing unstable point reaches within 0.000011199 of the numerical wings, and both numerical branches recover their geometry and statistics. Two fresh 50-million-step runs leave the reverse membership question unresolved. [Comparison figure and precise limits](docs/product-alphabet/manuscript.md#66-testing-containment-in-a-larger-attracting-set).
 
+**Attraction status, 2026-11-02.** All 256 new starts retain positive leading growth through four million observed updates each. A certified point less than 0.000060 from a saved cloud state reaches a normalization singularity after 27 steps. Any smooth-domain trapping region must exclude it; this rules out the specified entire ball, but not every thinner trap. **The full four-wing regime remains an attractor candidate.** [Proof, diagnostic and limits](docs/product-alphabet/manuscript.md#67-attraction-status-and-a-nearby-singular-preimage) · [Reproducible evidence](results/product-attractor-status/README.md).
+
 [Article, approach trajectories and prior art](docs/product-alphabet/manuscript.md) · [Numerical campaign](results/product-alphabet/README.md) · [Entropy certificate](results/product-symbolic/README.md) · [Orientation and equivalence certificate](results/product-orientation/README.md) · [Long horizon and certified excursions](results/product-horizon/README.md) · [Instability, folds and mechanism](results/product-mechanism/README.md) · [Larger-attractor investigation](results/product-larger-attractor/README.md)
 
 ### Folded shells from nonuniform quantizer levels

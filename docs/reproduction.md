@@ -13,6 +13,7 @@ instructions](manuscript-editing.md).
 
 | Study | Instructions |
 | --- | --- |
+| Product-posterior attraction status | [Finite fate search, singular-preimage certificate and exact audit](../results/product-attractor-status/README.md#storage-and-reproduction) |
 | Product-posterior larger-attractor investigation | [Validated unstable continuation, branch controls and recurrence search](../results/product-larger-attractor/README.md#reproduction) |
 | Product-posterior instability and folds | [Two interval expressions, exact audits, parameter slices and reference replay](../results/product-mechanism/README.md#reproduction) |
 | Icosahedral flow | [Search and absorbing bounds](../research/icosahedral_search/README.md), [equilibria](icosahedral-structure.md), [numerical returns](../research/icosahedral_returns/README.md) |

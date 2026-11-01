@@ -1,6 +1,6 @@
 # Folded wings, chaotic subsystems and their instability in posterior-reflection maps
 
-**Computational research article · 2026-11-01.** A compact invariant subsystem
+**Computational research article · updated 2026-11-02.** A compact invariant subsystem
 has certified positive entropy, an orientation-reversing period-92 orbit,
 and a certified failure of Lyapunov stability. A larger chaotic attractor
 and historical uniqueness remain unproved.
@@ -36,6 +36,11 @@ point reaches the numerical wings, and both numerical outgoing branches recover
 their long-run geometry and occupancy. A fresh hundred-million-step recurrence
 search does not establish the reverse connection to the certified core.
 A larger attracting set containing that core remains unproved.
+A subsequent 256-start search retains positive leading growth throughout
+1.024 billion observed updates. A new interval certificate places a
+27-step preimage of the normalization singularity within 0.000060 of one
+saved reference state. This excludes trapping neighborhoods containing
+that entire ball, but does not exclude every smaller attracting set.
 A four-level companion produces layered arches
 but coexists with numerical fixed points. Complete selection records preserve periodic captures and
 precision-sensitive planar behavior. The contribution is a reproducible
@@ -1084,6 +1089,117 @@ must be distinguished. Neither that bifurcation nor their wild-chaos
 criterion is established for Case 988; the larger-core interpretation itself
 is not a novelty claim.
 
+### 6.7. Attraction status and a nearby singular preimage
+
+**The classification remains open for the full four-wing regime.** The
+proved core C fails Lyapunov stability (Section 6.3). For a larger set,
+the new [attraction-status packet](../../results/product-attractor-status/README.md)
+adds a finite transient search and a rigorous obstruction to a specified
+trapping neighborhood. Neither result proves or disproves every possible
+attractor interpretation of the numerical wings.
+
+![Finite chaotic survival and a certified singular preimage](../assets/diagnostics/product-alphabet-attractor-status.png)
+
+**Finite survival search.** Four declared cohorts have 64 starts each:
+a Sobol sample in the cube of half-width 2.2, perturbations of saved cloud
+points by coordinate offsets of maximum size 0.00001 and 0.01, and offsets
+of maximum size 0.01 from the first phase of cycle 14. These are coordinate
+half-widths, not Euclidean radii. Each start receives 20,000 warm-up updates
+and four million observed updates, divided into twenty growth blocks.
+
+| Cohort | Range of trajectory-mean leading growth | Smallest sampled normalization |
+| --- | --- | --- |
+| Global cube | 0.250144–0.252305 | 0.288307 |
+| Cloud offsets, half-width 0.00001 | 0.250265–0.252053 | 0.280612 |
+| Cloud offsets, half-width 0.01 | 0.250036–0.252301 | 0.178882 |
+| Cycle offsets, half-width 0.01 | 0.250249–0.252180 | 0.197905 |
+
+All 256 runs finish, and all 5,120 leading-growth blocks are positive;
+the smallest is 0.244015689. No terminal periodic capture is detected for
+lags 1 through 128, 256 or 512, using 512 comparisons and tolerance
+0.000000001. This does not exclude other periods, later capture, or long
+chaotic transients. The cohorts are not independent random basin samples
+and supply no basin-volume or lifetime-confidence estimate. Sixteen
+declared trajectories replay for their full observation lengths, totaling
+64 million updates. All batch concatenations, saved normalization minima
+and terminal-period tests are checked. A separate eight-site formula with
+automatic derivatives agrees at 640 states within 2.28 × 10⁻¹⁵, including
+normalized tangent directions and one-step logarithmic growth.
+
+**A certified obstruction near the saved cloud.** Let D be the smooth
+domain where the normalization radius is nonzero, and let s be the exact
+central singularity isolated in Section 6.2. The reference state w is
+entry 1,841,277 of the archived two-million-state array, using zero-based
+indexing. Its three stored Float64 coordinates are interpreted as exact
+dyadic real numbers; their round-trip decimal representation is:
+
+```math
+w\simeq(-0.25879391877434177,\ 0.21557237408465196,\ -0.13702406819774227).
+```
+
+There exists an exact point z satisfying
+
+```math
+\|z-w\|_2\lt 0.000060,\qquad
+F^{27}(z)=s,\qquad
+F^j(z)\in D\quad(0\le j\le 26).
+```
+
+Consequently, the next iterate, $`F^{28}(z)`$, is undefined. No
+forward-invariant subset N of D can contain z. In particular, no such N
+can contain the entire open ball $`B_{0.000060}(w)`$, or the full
+0.000060-neighborhood of the archived cloud. This is a statement about
+a specified neighborhood of numerical data; w has not been proved to
+belong to an invariant attractor.
+
+**Certificate and proof.** A backward numerical beam search supplies
+proposals, not enclosures. Its second run retains all 45,792 nodes and
+all attempted solves; node 28,333 gives the selected 27-step chain.
+Write $`z_0=s`$ and seek $`F(z_d)=z_{d-1}`$ successively. Starting from
+the previously certified enclosure of s, each stage uses a box B of
+radius 10⁻⁴⁰ about a rational center c, a rational nonsingular
+preconditioner H, and the preceding target interval T. The computed
+Krawczyk enclosure is
+
+```math
+R=I-HDF(B),\qquad
+K=c-H(F(c)-T)+R[-10^{-40},10^{-40}]^3
+\subset\mathrm{int}(B),\qquad \|R\|_\infty\lt 1.
+```
+
+For each exact target in T, the contraction has a unique fixed point in
+B, and that root lies in K. Induction therefore gives an exact chain
+ending at s. The normalization lower bound over all 27 source boxes
+exceeds 0.50674007; the final distance enclosure proves the displayed
+bound for $`z=z_{27}`$. A factorized expression at 140 digits and the
+full eight-site expression at 180 digits both pass. An exact-rational
+audit checks the Krawczyk arithmetic, outward target inclusion, strict
+interiority, nonsingularity, all 27 links and the squared-distance bound.
+Frozen-source replays reproduce both chain files exactly. The two
+expressions share mpmath interval arithmetic; they are not independent
+arithmetic libraries. If a forward-invariant N in D contained z,
+invariance would put s in N after 27 steps, contradicting $`s\notin D`$.
+
+**Rejected wider region and remaining alternatives.** A sampled
+nonuniform-grid expansion within the coordinate cube of half-width 2.2
+reaches 3,368,148 occupied cells and includes the central-pole cell.
+Exact rational comparisons put the entire previously certified pole
+enclosure strictly inside that cell. Thus this proposed union cannot
+serve as a trapping region in D. Its sampled expansion is not a validated
+enclosure algorithm, and its failure is not an actual-orbit escape proof.
+
+The finite singular chain supplies neither a density theorem for singular
+preimages nor their membership in the asymptotic set. A thinner or
+perforated trapping neighborhood remains possible. An isolated terminating
+orbit also does not by itself disprove attraction for a positive-measure
+set of initial conditions. The unresolved requirements are a nonsingular
+trapping region tied to the observed regime, or an instability/escape
+argument reaching arbitrarily close to a proved point of that regime.
+The present positive distance to one saved state does not meet the latter
+requirement. The new contribution is a model-specific obstruction with an
+explicit distance and iteration count, not a new general theory of
+noninvertible attraction or a historical uniqueness claim.
+
 ## 7. Prior art and geometric comparison
 
 The literature audit explicitly includes equivalent terminology. Its
@@ -1314,7 +1430,7 @@ research questions now have distinct outcomes:
 
 | Question | Supported outcome | Remaining gap |
 | --- | --- | --- |
-| Does the regime attract a neighborhood? | All indefinitely defined orbits have an explicit absorbing norm bound; simple portrait boxes and central-hole repairs fail. | A compact trapping region avoiding singularities for a larger set A is not established. |
+| Does the regime attract a neighborhood? | All 256 new starts retain positive growth through four million observed updates each. A certified 27-step singular preimage excludes any smooth-domain trap containing a specified radius-0.000060 ball beside the saved cloud. | This does not exclude every thinner trap. A compact nonsingular trapping region tied to the numerical regime remains unproved. |
 | Is the entropy subsystem the attractor in the picture? | C is rigorously not Lyapunov stable. Its cycle has an interval-validated outgoing connection near the numerical wings; both numerical branches recover the observed statistics. | A fresh 100-million-step recurrence search does not establish reverse membership. Containment of C in a larger attracting A remains open. |
 | Is the dynamics meaningfully different from known models? | The period-92 orientation obstruction excludes specified invertible neighborhood models; a targeted five-regime noninvertible comparison finds no finite-cloud match. | Intrinsic conjugacy to known noninvertible sets and historical priority remain unresolved. |
 | Why does the figure have this geometry? | Six ordinary folds, singular preimages, an analytic derivative bound, postcritical images and parameter slices support a concrete mechanism. | A theorem identifying the full invariant boundary or bifurcation sequence is absent. |

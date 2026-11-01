@@ -1,0 +1,2221 @@
+{
+  "schema": 1,
+  "policy": "Full arrays remain external optional payloads; compact arrays are explicitly partial and never replace full archives.",
+  "files": [
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-000.npz",
+      "bytes": 762883,
+      "git_blob": null,
+      "sha256": "2ae8c1dc0cbb8d5634154bbf82cfb6b7069c43647c3f87c97fc3d154e11a6bcb",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/2ae8c1dc0cbb8d5634154bbf82cfb6b7069c43647c3f87c97fc3d154e11a6bcb.npz",
+        "bytes": 15250,
+        "sha256": "81b5b0c48711d9df26caa0cef3598e00e728db8840b76ef13611e320804680e1",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-000.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-016.npz",
+      "bytes": 762691,
+      "git_blob": null,
+      "sha256": "b5b6c90604156345569c9929ceb08fd03f308970ae57d4f8bb9513b84e07f6a7",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/b5b6c90604156345569c9929ceb08fd03f308970ae57d4f8bb9513b84e07f6a7.npz",
+        "bytes": 15237,
+        "sha256": "4721ebefb461d04ce3075fa27edf39a7fdf523998e17b98e2d88f547a8ed00f2",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-016.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-032.npz",
+      "bytes": 762662,
+      "git_blob": null,
+      "sha256": "f35a8b02560cedcb29df5c662da0679c09264da08940ec4f9649dbc3dc205ddd",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/f35a8b02560cedcb29df5c662da0679c09264da08940ec4f9649dbc3dc205ddd.npz",
+        "bytes": 15224,
+        "sha256": "10a337b2b325de07200bb1a40b96a272983dbf1a8e47324c839893da8cde28af",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-032.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-048.npz",
+      "bytes": 762669,
+      "git_blob": null,
+      "sha256": "0a801f8bef0c62299609c0b18f00b3019ec32786525d09b840e3a116e13cc0e4",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/0a801f8bef0c62299609c0b18f00b3019ec32786525d09b840e3a116e13cc0e4.npz",
+        "bytes": 15240,
+        "sha256": "d9f9eabdab45151f3804bd6219f6d4f970638d5648c6ba260af93c98bf0f4e4e",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-048.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-064.npz",
+      "bytes": 762877,
+      "git_blob": null,
+      "sha256": "04762f3ea9eb97b5e631ea5425ce7d0e2c0ae622bcda0a6646a618b11368da1a",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/04762f3ea9eb97b5e631ea5425ce7d0e2c0ae622bcda0a6646a618b11368da1a.npz",
+        "bytes": 15322,
+        "sha256": "4061b871af15fa49c8697a5a4f241fba3c19bc8134c4511beeae0e63caf1b70b",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-064.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-080.npz",
+      "bytes": 762719,
+      "git_blob": null,
+      "sha256": "adb6c5acc5cc5525b2737addcd3b436bf6fc748a77dc2c5044aafa747f99dd50",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/adb6c5acc5cc5525b2737addcd3b436bf6fc748a77dc2c5044aafa747f99dd50.npz",
+        "bytes": 15308,
+        "sha256": "6b361264f27590e1998e414d24f788bec1b0746083fce8965e0d002470b78a7e",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-080.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-096.npz",
+      "bytes": 762837,
+      "git_blob": null,
+      "sha256": "01dc1c359106c6901877d1adf1eece7a7092ea5bdcac417426ebfe4dd684f9ad",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/01dc1c359106c6901877d1adf1eece7a7092ea5bdcac417426ebfe4dd684f9ad.npz",
+        "bytes": 15319,
+        "sha256": "4cfece1dbc116548ff7b2c4f234a3caa00182510174147329c16015b5597cc68",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-096.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-112.npz",
+      "bytes": 762821,
+      "git_blob": null,
+      "sha256": "cd414b7c008e3199dfc0978e64f58c03e64090cfa3dc056ad7de5587346221ec",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/cd414b7c008e3199dfc0978e64f58c03e64090cfa3dc056ad7de5587346221ec.npz",
+        "bytes": 15305,
+        "sha256": "b9a0b31b338bd60ba8bd68b8dfe5c348358a862118193362638aef8aeb93feb9",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-112.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-128.npz",
+      "bytes": 762894,
+      "git_blob": null,
+      "sha256": "bb374ec1351a97164a4f8983b57c315962435c14ffb728aff5e3c5418601c32e",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/bb374ec1351a97164a4f8983b57c315962435c14ffb728aff5e3c5418601c32e.npz",
+        "bytes": 15313,
+        "sha256": "a8d6f6dd5727db63ffd14c0aa8a34e9d3504eddd6c0ff1cedc44addb41a9b589",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-128.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-144.npz",
+      "bytes": 762579,
+      "git_blob": null,
+      "sha256": "15497350d1fb51934718357cfd611542c7c0146a86f52030863d919d16fc46bc",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/15497350d1fb51934718357cfd611542c7c0146a86f52030863d919d16fc46bc.npz",
+        "bytes": 15325,
+        "sha256": "7583bfd53114f21852045821cd5c60aff9ba1af5af7fbb8eb6805eeecaf7672a",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-144.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-160.npz",
+      "bytes": 762672,
+      "git_blob": null,
+      "sha256": "8f75eeea5036724d93784ebf7fbc3f56f2bcfaff1651488c5459f4665f560520",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/8f75eeea5036724d93784ebf7fbc3f56f2bcfaff1651488c5459f4665f560520.npz",
+        "bytes": 15312,
+        "sha256": "45aea2d2c476b9872fa978b845d32bef6d1621c290fb8416e1375baec719758c",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-160.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-176.npz",
+      "bytes": 762885,
+      "git_blob": null,
+      "sha256": "541f86f61b005b5f8fa918bb8e2699a86dd890db02ecff8afbbd6202027f56c3",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/541f86f61b005b5f8fa918bb8e2699a86dd890db02ecff8afbbd6202027f56c3.npz",
+        "bytes": 15317,
+        "sha256": "3c87fbb43f4efaa7aed1290e4d125501a5a1d48895c6627d475fef817ac46b13",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-176.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-192.npz",
+      "bytes": 762668,
+      "git_blob": null,
+      "sha256": "150a0d7748ea8c670c10349c48d862c7766d36a909a92d5688d0d05a5b634d9f",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/150a0d7748ea8c670c10349c48d862c7766d36a909a92d5688d0d05a5b634d9f.npz",
+        "bytes": 15299,
+        "sha256": "3a216f7ccc6c9148d1e0e31fe6a7fafb018f5e5df5b00ee4d4a76672072042b3",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-192.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-208.npz",
+      "bytes": 762847,
+      "git_blob": null,
+      "sha256": "54c4b7109c433387cfa97ae7c1b2fe982ed4abba440cba435fe8b28d5826c647",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/54c4b7109c433387cfa97ae7c1b2fe982ed4abba440cba435fe8b28d5826c647.npz",
+        "bytes": 15271,
+        "sha256": "c9dcd4b5b0d5489d0e7a0b7088848829458ad70fa4fdc054b1a99f31f8f618d2",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-208.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-224.npz",
+      "bytes": 762599,
+      "git_blob": null,
+      "sha256": "ea755b051e7a521003a5e271210703395ee3e7f37aa9f538971db3d43fea8632",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/ea755b051e7a521003a5e271210703395ee3e7f37aa9f538971db3d43fea8632.npz",
+        "bytes": 15285,
+        "sha256": "5a65ec47676d468d6ba652dd0e0507496bbb942e512da7879ee7edd4799da1b2",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-224.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/block-240.npz",
+      "bytes": 762715,
+      "git_blob": null,
+      "sha256": "e00ed979ef7a1cea4b879cc75530252fe272a27319452d5040926bb8dd2c0de7",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/e00ed979ef7a1cea4b879cc75530252fe272a27319452d5040926bb8dd2c0de7.npz",
+        "bytes": 15275,
+        "sha256": "6748d9dd7893969b4593effbb2c42df19a8b993af1426cb83f46a38a719933f8",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            16,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            16,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 2560,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            16,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 384,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            16,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            16
+          ],
+          "dtype": "int64",
+          "bytes": 128,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            16,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 768,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\block-240.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-fate01/fate.npz",
+      "bytes": 12172701,
+      "git_blob": null,
+      "sha256": "56105993273061a335c170a884cf38691710f5c46832ece9b9e5bbc54342e0af",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/56105993273061a335c170a884cf38691710f5c46832ece9b9e5bbc54342e0af.npz",
+        "bytes": 216619,
+        "sha256": "e4a86b2b198394814b0b5c034b3908e57eaf90056a36f1be1ab91505132b7aa4",
+        "keys": [
+          "starts",
+          "rates",
+          "minima",
+          "minimum_states",
+          "minimum_times",
+          "ends",
+          "flags",
+          "bounds",
+          "periods",
+          "params",
+          "levels"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "starts",
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6144,
+          "retained": true
+        },
+        {
+          "key": "tail",
+          "shape": [
+            256,
+            2048,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 12582912,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            256,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 40960,
+          "retained": true
+        },
+        {
+          "key": "minima",
+          "shape": [
+            256,
+            20
+          ],
+          "dtype": "float64",
+          "bytes": 40960,
+          "retained": true
+        },
+        {
+          "key": "minimum_states",
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6144,
+          "retained": true
+        },
+        {
+          "key": "minimum_times",
+          "shape": [
+            256
+          ],
+          "dtype": "int64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "ends",
+          "shape": [
+            256,
+            20,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 122880,
+          "retained": true
+        },
+        {
+          "key": "flags",
+          "shape": [
+            256
+          ],
+          "dtype": "int64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "bounds",
+          "shape": [
+            256,
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 12288,
+          "retained": true
+        },
+        {
+          "key": "periods",
+          "shape": [
+            256
+          ],
+          "dtype": "int64",
+          "bytes": 2048,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-fate01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-fate01\\fate.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-preimages02/attempts.npz",
+      "bytes": 5048888,
+      "git_blob": null,
+      "sha256": "4c1d0b1b3dfd15547ddf39ed52a3fa239992e52749bc9723a95322c6ba47fdf1",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/4c1d0b1b3dfd15547ddf39ed52a3fa239992e52749bc9723a95322c6ba47fdf1.npz",
+        "bytes": 1847,
+        "sha256": "f7d14facb4df75ce31f4dd9a9d1371170863dac8f28ff79c43547aeafbba20c6",
+        "keys": [
+          "common_starts",
+          "params",
+          "levels"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "attempts",
+          "shape": [
+            389875,
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 24952000,
+          "retained": false
+        },
+        {
+          "key": "common_starts",
+          "shape": [
+            64,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 1536,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-preimages02; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-preimages02\\attempts.npz"
+    },
+    {
+      "path": "results/product-attractor-status/runs/product-attractor988-wide-trap01/proposal.npz",
+      "bytes": 11870734,
+      "git_blob": null,
+      "sha256": "dca6ac0688e5293e39d6e2667e516d4d35491c0f590a1b60d53fe9f048ed2a41",
+      "group": "product-attractor-status",
+      "compact": {
+        "path": "results/compact-data/dca6ac0688e5293e39d6e2667e516d4d35491c0f590a1b60d53fe9f048ed2a41.npz",
+        "bytes": 7762,
+        "sha256": "721a47fcc0f46d62adf21c8ebeab337e515f824aa1738b39427cc9934232d853",
+        "keys": [
+          "edges",
+          "shape",
+          "poles",
+          "pole_keys",
+          "params",
+          "levels",
+          "order"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "edges",
+          "shape": [
+            3,
+            335
+          ],
+          "dtype": "float64",
+          "bytes": 8040,
+          "retained": true
+        },
+        {
+          "key": "shape",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "occupied",
+          "shape": [
+            3368148
+          ],
+          "dtype": "int64",
+          "bytes": 26945184,
+          "retained": false
+        },
+        {
+          "key": "pending",
+          "shape": [
+            959134
+          ],
+          "dtype": "int64",
+          "bytes": 7673072,
+          "retained": false
+        },
+        {
+          "key": "new",
+          "shape": [
+            2355413
+          ],
+          "dtype": "int64",
+          "bytes": 18843304,
+          "retained": false
+        },
+        {
+          "key": "poles",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "pole_keys",
+          "shape": [
+            8
+          ],
+          "dtype": "int64",
+          "bytes": 64,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-wide-trap01; use its retained source in a fresh external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-wide-trap01\\proposal.npz"
+    }
+  ]
+}

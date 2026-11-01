@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "fate_sha256": "56105993273061a335c170a884cf38691710f5c46832ece9b9e5bbc54342e0af",
+  "all_16_batches_match_combined_archive": true,
+  "all_period_tests_recomputed": true,
+  "all_minimum_states_checked": true,
+  "replay_indices": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240
+  ],
+  "observed_steps_replayed": 64000000,
+  "all_8_replayed_arrays_exact": true,
+  "full_site_probes": 640,
+  "full_site_digits": 90,
+  "maximum_errors": {
+    "value": 4.440892098500626e-16,
+    "normalized_tangent": 2.275957200481571e-15,
+    "normalization": 8.881784197001252e-16,
+    "log_growth": 1.7763568394002505e-15
+  },
+  "minimum_leading_block": 0.24401568916895672,
+  "minimum_normalization": 0.17888197671356554,
+  "scope": "Finite numerical validation only. Sixteen of 256 trajectories replayed in full; all batch concatenations, period tests and closest-normalization states checked. Independent full-site expression and AD derivatives checked at 640 states; no asymptotic or basin-volume conclusion."
+}

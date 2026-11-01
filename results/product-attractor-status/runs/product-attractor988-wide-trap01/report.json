@@ -1,0 +1,86 @@
+{
+  "status": "pole_cell_reached",
+  "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "halfwidth": 2.2,
+  "step": 0.02,
+  "shape": [
+    320,
+    312,
+    334
+  ],
+  "initial": 53601,
+  "occupied": 3368148,
+  "poles": [
+    [
+      -0.13450686123118416,
+      -1.3911407146602865,
+      -0.07024042185930943
+    ],
+    [
+      -0.13450686123118416,
+      -1.3911407146602865,
+      2.132252126187086
+    ],
+    [
+      -0.13450686123118416,
+      0.21689038326807392,
+      -0.07024042185930943
+    ],
+    [
+      -0.13450686123118416,
+      0.21689038326807392,
+      2.132252126187086
+    ],
+    [
+      1.7271447751671074,
+      -1.3911407146602865,
+      -0.07024042185930943
+    ],
+    [
+      1.7271447751671074,
+      -1.3911407146602865,
+      2.132252126187086
+    ],
+    [
+      1.7271447751671074,
+      0.21689038326807392,
+      -0.07024042185930943
+    ],
+    [
+      1.7271447751671074,
+      0.21689038326807392,
+      2.132252126187086
+    ]
+  ],
+  "reached_pole_indices": [
+    2
+  ],
+  "history": [
+    {
+      "generation": 0,
+      "sources": 53601,
+      "processed": 53601,
+      "added": 959134,
+      "status": 0,
+      "minimum_sampled_radius": 1.2167209856611925,
+      "maximum_sampled_remainder": 0.005800118019124391,
+      "pole_cells_reached": [],
+      "seconds": 4.392836332321167
+    },
+    {
+      "generation": 1,
+      "sources": 959134,
+      "processed": 959134,
+      "added": 2355413,
+      "status": 0,
+      "minimum_sampled_radius": 0.12859018149650966,
+      "maximum_sampled_remainder": 0.04747892612739394,
+      "pole_cells_reached": [
+        2
+      ],
+      "seconds": 33.637786865234375
+    }
+  ],
+  "seconds": 37.482659578323364,
+  "scope": "Wide-domain grid closure with explicit monitoring of normalization zeros.\n\nThis is a sampled proposal. Reaching a pole cell rejects this proposed smooth\ntrap, but is not an orbit reaching the pole or a proof against other traps.\n"
+}

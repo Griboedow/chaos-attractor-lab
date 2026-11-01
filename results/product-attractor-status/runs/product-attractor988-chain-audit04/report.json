@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "run": "product-attractor988-chain-certificate01",
+      "report_sha256": "68bfcb1c97449079ac7d5ffae3e3eb47bbaacd80e7484c6df88e8d658452eec2",
+      "chain_length": 27,
+      "exact_krawczyk_arithmetic": true,
+      "reference_distance_upper": 5.995324243518177e-05,
+      "exact_replay": true
+    },
+    {
+      "run": "product-attractor988-chain-independent01",
+      "report_sha256": "328cfa9acc7df594b2c4b2484af4ef3f669fd63c8bf3a3d036132e78eb7429df",
+      "chain_length": 27,
+      "exact_krawczyk_arithmetic": true,
+      "reference_distance_upper": 5.995324243518177e-05,
+      "exact_replay": true
+    }
+  ],
+  "wide_grid": {
+    "sha256": "dca6ac0688e5293e39d6e2667e516d4d35491c0f590a1b60d53fe9f048ed2a41",
+    "central_pole_cell_key": 16310387,
+    "indices": [
+      156,
+      161,
+      165
+    ],
+    "contains_certified_pole": true
+  },
+  "scope": "Exact rational Krawczyk and finite-distance checks, frozen-source replays, and exact inclusion of the central singularity in the rejected proposed grid. Does not exclude every smaller trapping region or classify the asymptotic numerical regime."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "exact_audit": "runs/product-attractor988-chain-audit04/report.json",
+  "exact_audit_sha256": "65742d2fb3d851dc95b24786740ce3cb971e61ac7db025a960afa1d7bc3d8448",
+  "finite_verification": "runs/product-attractor988-fate-verification01/report.json",
+  "finite_verification_sha256": "b35b7ad778b9fec41f5b67877901bcdd162e82ac479c920bde1f5c8b2f4f7e59",
+  "figure_sha256": "de9592ead3919832505acd0c95a3162b6d0485a691dbf7241922e59fd28b2a45",
+  "figure_visual_review": "Both versions inspected; final render02 has readable labels, complete domains, improved cloud contrast and no annotation/boundary overlap.",
+  "numerical_scope": "Finite numerical validation only. Sixteen of 256 trajectories replayed in full; all batch concatenations, period tests and closest-normalization states checked. Independent full-site expression and AD derivatives checked at 640 states; no asymptotic or basin-volume conclusion.",
+  "certificate_scope": "Exact rational Krawczyk and finite-distance checks, frozen-source replays, and exact inclusion of the central singularity in the rejected proposed grid. Does not exclude every smaller trapping region or classify the asymptotic numerical regime.",
+  "all_raw_hashes_verified": true,
+  "all_new_compact_arrays_bit_checked": true
+}
