@@ -1,0 +1,102 @@
+[
+  {
+    "run": "rotation-n64",
+    "success": true,
+    "completed_time": 100.0,
+    "statistics_start": 80.0,
+    "section": "Upward tip-height crossing of the late-window mean",
+    "section_height": -0.7145092537086781,
+    "section_times": [
+      80.2774658675215,
+      91.01474093482645
+    ],
+    "periods": [
+      10.73727506730495
+    ],
+    "height_range": 0.002427114557173038,
+    "tip_radius_range": 0.0014439075458372447,
+    "curvature_scale": 33.0,
+    "return_errors": [
+      {
+        "lag": 1,
+        "pairs": 1,
+        "ordinary_rms_max": 1.8997525861080204,
+        "reduced_rms_max": 0.00534390439964953,
+        "reduced_rms_last": 0.00534390439964953,
+        "reduced_rms_values": [
+          0.00534390439964953
+        ],
+        "reduced_orientation_max": 0.013185577025870377,
+        "reduced_curvature_max": 0.21273674059532688,
+        "alignment_angles": [
+          1.6801232128245491
+        ]
+      }
+    ],
+    "best_tested_lag": {
+      "lag": 1,
+      "pairs": 1,
+      "ordinary_rms_max": 1.8997525861080204,
+      "reduced_rms_max": 0.00534390439964953,
+      "reduced_rms_last": 0.00534390439964953,
+      "reduced_rms_values": [
+        0.00534390439964953
+      ],
+      "reduced_orientation_max": 0.013185577025870377,
+      "reduced_curvature_max": 0.21273674059532688,
+      "alignment_angles": [
+        1.6801232128245491
+      ]
+    },
+    "quotient_spread_from_final": {
+      "times": [
+        80.0,
+        81.0,
+        82.0,
+        83.0,
+        84.0,
+        85.0,
+        86.0,
+        87.0,
+        88.0,
+        89.0,
+        90.0,
+        91.0,
+        92.0,
+        93.0,
+        94.0,
+        95.0,
+        96.0,
+        97.0,
+        98.0,
+        99.0,
+        100.0
+      ],
+      "rms": [
+        0.006933018059542531,
+        0.006381441122003466,
+        0.007556178752519478,
+        0.00799970892901542,
+        0.007031712106740549,
+        0.00525891342046991,
+        0.0038829944874499487,
+        0.00352357925286185,
+        0.0033190896761620707,
+        0.002612340367785333,
+        0.0016874174321698718,
+        0.0015709541882181594,
+        0.002218832583802455,
+        0.0026362508048640956,
+        0.002571135607870884,
+        0.0021480246894769973,
+        0.001623375325533721,
+        0.001197108915245869,
+        0.0008594570179926551,
+        0.0004762185258861773,
+        2.577985417119463e-16
+      ],
+      "maximum": 0.00799970892901542
+    },
+    "scope": "Finite late-window returns of cubic-interpolated full orientation/curvature states; SO(2) alignment is exact for this distance, but no asymptotic, chaos or continuum conclusion follows."
+  }
+]

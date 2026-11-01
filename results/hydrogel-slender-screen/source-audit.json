@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-01",
+  "source": {
+    "url": "https://arxiv.org/html/2604.09486v1",
+    "version": "v1",
+    "html_sha256": "088a2ffaa2f0476cda2cc473da5a73a1df7dcaca641e0d4d377c37f6148b4428",
+    "read_scope": "Full spatial rod equations, Figure 6a, Supplementary Video 2 description, and nonlinear implementation appendix."
+  },
+  "control": {
+    "slenderness": 127,
+    "eta": 1,
+    "xi": 5e-06,
+    "chi": 117,
+    "nu": 0.5,
+    "interpretation": "Source reports periodic three-dimensional motion. Our independent segment run has not established its asymptotic periodic state by time 96."
+  },
+  "queries": [
+    "\"morphoelastic\" \"hydrogel\" chaos",
+    "\"polyelectrolyte\" \"self-oscillations\" chaotic",
+    "\"hydrogel filaments\" \"quasiperiodic\""
+  ],
+  "results_scope": "Returned the source paper and work on different polymer/chemical mechanisms. No exact-model chaos analysis identified in this bounded query set.",
+  "limitations": "No exhaustive search or absence theorem. Spatial periodic motion is already reported by the source; broader active-filament and polymer chaos has prior art. No historical novelty claim."
+}

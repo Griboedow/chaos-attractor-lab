@@ -231,6 +231,106 @@ clamp. Reported rotation periods and geometric statistics are numerical
 observations; the authors' original trajectories were not available for
 pointwise comparison.
 
+## Circular-section symmetry and thinner filaments
+
+A separate [three-run screen](../results/hydrogel-slender-screen/README.md)
+uses a thinner circular rod: $`\lambda=127`$, $`\eta=1`$,
+$`\xi=5\times10^{-6}`$ and $`\nu=0.5`$. Field 117 is the parameter set of
+the source's Figure 6a and Supplementary Video 2; fields 130 and 150 increase
+the drive. All three runs use 64 segments, step 0.006 and the same initial
+perturbation as above. Their requested duration is 96. This is a small
+declared screen, not a parameter-space exclusion.
+
+### Removing a common rotation from state comparisons
+
+For a circular section, both transverse bending stiffnesses and both
+transverse drag coefficients coincide. With $`Z_\psi`$ denoting rotation
+about the field axis, the equations and clamped identity frame are invariant
+under
+
+```math
+R_i\mapsto Z_\psi R_i Z_\psi^T,\qquad
+\kappa_i\mapsto Z_\psi\kappa_i,\qquad
+r_i\mapsto Z_\psi r_i.
+```
+
+Here the two-component curvature is embedded as
+$`\kappa=(\kappa_1,\kappa_2,0)`$. A changing laboratory-frame trace can
+therefore reflect a common rotation. We compare all director frames and
+curvatures, minimizing the squared distance
+
+```math
+D^2(A,B)=\min_\psi\frac1N\sum_i
+\left[\frac12\lVert R_i^A-Z_\psi R_i^B Z_\psi^T\rVert_F^2
++\frac{\lVert\kappa_i^A-Z_\psi\kappa_i^B\rVert^2}{\chi_1^2}\right].
+```
+
+The angular part contains only first and second harmonics. Maximizing
+$`a\cos\psi+b\sin\psi+c\cos2\psi+d\sin2\psi`$ reduces its stationary
+angles to the real roots of
+
+```math
+(-b+2d)t^4+(-2a+8c)t^3-12dt^2+(-2a-8c)t+b+2d=0,
+\qquad t=\tan(\psi/2).
+```
+
+The implementation evaluates every computed real root and the angles zero
+and $`\pi`$, then chooses the largest score. This is an algebraic global
+minimization reduced to a numerical polynomial solve, not a certified root
+enclosure. Rotation matrices remove quaternion-sign ambiguity. The reduction
+applies only to the circular section; it is not used for $`\eta=0.9`$.
+
+A random-state residual check has relative equivariance error `2.55e-14`.
+An imposed rotation of 0.731 radians is recovered with state distance below
+`7.61e-17`; quaternion sign changes leave the comparison unchanged. A second
+random pair agrees with a 4,097-angle grid to its sampling error. These are
+implementation controls, not dynamical evidence.
+
+Applied to the earlier 64-segment reverse-field rotation over times 80–100,
+21 equally spaced states differ from the final state by at most 0.00800 after
+alignment. For its one observed tip-height return, the distance falls from
+1.89975 without alignment to 0.005344 with alignment. The small residual
+shape variation and earlier mesh sensitivity remain; the calculation does
+not certify an exact relative equilibrium or its rotation period.
+
+### Three-run screen
+
+The clearance screen examines 417 configurations in each run's final
+20 saved time units, 0.048 units apart. It tests segment-index separations
+of at least four, hence material gaps of at least $`3/64`$. The nominal
+diameter is $`2/127\approx0.0157480`$.
+
+| Field | Last saved time | Integration | Minimum tested clearance | Samples below diameter |
+| ---: | ---: | --- | ---: | ---: |
+| 117 | 96 | Completed | 0.0440251 | 0 / 417 |
+| 130 | 96 | Completed | 0.000196665 | 137 / 417 |
+| 150 | 52.608 | Newton failure at 52.620 | 0.000005531 | 315 / 417 |
+
+For field 130 the minimum occurs at time 76.968 between segments 35 and 54;
+for field 150 it occurs at time 37.176 between segments 4 and 49. Indices are
+zero-based. Increasing slenderness has not removed close approaches from
+these two stronger-field traces. Their irregularity is not promoted as a
+physically validated chaotic-attractor candidate. The failed integration
+also supplies no evidence about the model's later trajectory.
+
+Full-state returns use upward crossings of the late mean tip height, an
+observable unchanged by axial rotation. Quaternions are made continuous in
+sign before cubic interpolation and renormalized at each event. Curvatures
+are interpolated cubically. The record retains ordinary and aligned
+distances at every tested lag from one to eight, where enough events exist.
+
+The field-117 run has 21 such crossings in times 76–96. Its smallest
+maximum aligned return distance among the eight lags is 0.8173, at lag three;
+the final pair at that lag has distance 0.1024. Thus this finite window has
+not established the published periodic regime. Slow drift of the mean height,
+remaining transients and discretization
+error can all affect these returns. They do not establish chaos or refute
+the source's periodic example. This thinner-rod control requires longer
+integration and separate temporal and spatial refinement before nearby
+irregular traces can support a discovery claim.
+
+## Prior art and remaining validation
+
 The source already describes spatial periodic motion and its secondary
 instability. Those features are not discoveries here. Searches for the exact
 preprint identifier, DOI and hydrogel/morphoelastic chaos terms did not locate
