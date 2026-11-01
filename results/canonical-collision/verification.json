@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "run_count": 16,
+  "inventoried_files": 51,
+  "inventory_hash_checks": 51,
+  "accepted_certificates": [
+    {
+      "run": "canonical-collision04",
+      "report_sha256": "4ce0103ecdaa4eae351b060aa50aa9ce74d4863710ec78518602d52306085215"
+    },
+    {
+      "run": "canonical-collision-verification02",
+      "report_sha256": "5fb5f0f80d4637b336526b121a1316fe5086b491fd62784f8c8b2e261c57aff2"
+    },
+    {
+      "run": "canonical-homoclinic04",
+      "report_sha256": "fedf3349ab696521969b922b7293d709b55bb6bb6de10056d646e304ffffaaf4"
+    },
+    {
+      "run": "canonical-homoclinic-verification02",
+      "report_sha256": "3c0d50d35a399d949229425266c882321a4ea352965f381a35f91fc7248b5f5e"
+    }
+  ],
+  "image": {
+    "path": "docs/assets/diagnostics/canonical-collision.png",
+    "sha256": "18528ad4507536b9bd996a9b2ffccf03f3acb974a110f4a1bdc24572274b6bcf",
+    "review": "Final static diagnostic visually inspected; no overlapping annotations. Intermediate versions were replaced before publication."
+  },
+  "scope": "Complete archive inventory and accepted numerical proof records. The mathematical implication is the separately written graph-transform, continuity and contraction argument in article Section 5."
+}

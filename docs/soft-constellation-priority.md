@@ -290,6 +290,32 @@ polyhedral symmetry cannot support a general first-discovery claim for our
 portraits. Formula differences and a finite cloud-distance comparison
 still leave nonlinear equivalence and other published parameters open.
 
+## Intrinsic collisions and homoclinic geometry
+
+The [canonical cube certificate](canonical-sphere/manuscript.md#5-certified-attraction-merged-histories-and-a-homoclinic-return)
+proves noninjectivity on the maximal attracting set of a specified trapping
+box, and a homoclinic connection to a symmetric fixed point. The former
+excludes topological conjugacy of that restricted map with any injective
+map, including a fixed-time flow map. It does not identify that whole set
+with the numerical portrait, or exclude known noninjective models.
+
+[Jelleyman and Osinga, *Matching geometric and expansion characteristics
+of wild chaotic attractors* (2022)](https://link.springer.com/article/10.1140/epjs/s11734-022-00440-w)
+provides a direct conceptual precedent: Sections 1–2 describe a complex
+angle-doubling map, reflection symmetry, multiple preimages and possible
+self-intersections of unstable sets. Reviewed those sections and equation (1);
+the map is planar and its formula differs from the three-coordinate posterior
+reflection. Its general merging and homoclinic mechanisms are prior art.
+Neither its wild-chaos criteria nor its attractor identification is imported
+into our proof. The present audit did not independently reproduce its
+numerics or visually review its figures; the publisher PDF download returned
+HTML and the page-image retrieval did not yield an inspected figure.
+
+The concrete addition is a reproducible certificate for the exact Case 653
+inputs, with an explicit invariant-set scope. It is not a claim to have
+invented symmetry-induced collisions, homoclinic orbits, or a universal
+test of historical novelty.
+
 ## Remaining novelty question
 
 Search terms included Gaussian mean shift, mean update, MMSE denoisers,

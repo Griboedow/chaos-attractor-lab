@@ -130,7 +130,9 @@ Native three-state iterates; fixed data, rigid camera and equal spatial units wi
 
 **Numerical folded ribbon and hyperchaos candidate.** Simple tetrahedral and cubic site configurations produce Cases 163 and 653 in a complete 656-case campaign. Both survive five-million-step observations, 33 initial states and 70/100-digit controls. Case 653 has two positive finite-time QR rates, also retained across all 33 sampled starts. Exact ideal reductions identify independent-spin and parity-constrained posteriors. Symmetric maps, sigmoid chaos and three-dimensional hyperchaos are known; chaotic attraction and historical uniqueness remain unresolved.
 
-[Article, selection history and negative controls](docs/canonical-sphere/manuscript.md) · [Evidence and reproduction](results/canonical-sphere/README.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
+**Certified structure of the cubic map.** A strict trapping box contains an attracting set with distinct histories that merge and a homoclinic return to a saddle. Independent formulas verify the interval bounds. Intrinsic noninjectivity excludes conjugacy of this entire set with an injective map; equality with the pictured cloud remains open.
+
+[Article and proofs](docs/canonical-sphere/manuscript.md) · [Numerical campaign](results/canonical-sphere/README.md) · [Collision and homoclinic certificates](results/canonical-collision/README.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
 
 ### Acceleration memory in a scalar iteration
 
@@ -588,7 +590,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | [Circle / finite-point RAAR](docs/raar-constellations.md) | Layered spatial numerical candidates; three active sites in the selected observations | [Complete survey and controls](results/raar-constellations/README.md), [known phase-retrieval connections](docs/raar-constellations.md#prior-art-and-equivalent-terms) |
 | [Gaussian posterior mean and a circle](docs/soft-constellations.md) | Attracting positive-entropy set and mixed-index cycles for Case 156 | [Article and equivalence obstructions](docs/soft-symbolic-dynamics/manuscript.md), [complete temperature sweep](results/soft-constellations/README.md), [prior art](docs/soft-constellation-priority.md) |
 | [Gaussian posterior mean and a sphere](docs/soft-sphere/manuscript.md) | Numerical spatial candidates; no asymptotic or priority certificate | [Complete sweep and reproduction](results/soft-sphere/README.md), [shared prior-art review](docs/soft-constellation-priority.md) |
-| [Canonical posterior maps](docs/canonical-sphere/manuscript.md) | Folded ribbon and numerical hyperchaos candidate; exact ideal spin reductions | [Complete 656-case campaign](results/canonical-sphere/README.md), [equivalence and prior art](docs/soft-constellation-priority.md) |
+| [Canonical posterior maps](docs/canonical-sphere/manuscript.md) | Folded ribbon and numerical hyperchaos candidate; certified intrinsic collision and homoclinic return in a trapping set | [Complete 656-case campaign](results/canonical-sphere/README.md), [certificates](results/canonical-collision/README.md), [prior art](docs/soft-constellation-priority.md) |
 | [Cyclic three-circle RAAR](docs/cyclic-raar-search.md) | Positive finite-time growth, but visually thin configurations | [Complete survey](results/cyclic-raar-search/README.md) |
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Check direct noninvertible/symmetry precedents and limit the novelty claim for the intrinsic-collision certificate.",
+  "queries": [
+    "\"noninvertible\" \"symmetry\" \"unstable manifold\" attractor",
+    "\"homoclinic\" \"endomorphisms\" \"horseshoe\" theorem",
+    "\"reflection\" \"invariant plane\" \"chaotic\" maps symmetry",
+    "\"Gaussian\" \"RAAR\" \"chaos\" cube",
+    "\"posterior\" \"reflection\" \"homoclinic\"",
+    "\"softmax\" \"sphere\" \"chaotic attractor\"",
+    "\"tanh\" \"normalization\" \"homoclinic\" map"
+  ],
+  "reviewed": [
+    {
+      "title": "Matching geometric and expansion characteristics of wild chaotic attractors",
+      "authors": [
+        "Hamish Jelleyman",
+        "Hinke M. Osinga"
+      ],
+      "year": 2022,
+      "doi": "10.1140/epjs/s11734-022-00440-w",
+      "url": "https://link.springer.com/article/10.1140/epjs/s11734-022-00440-w",
+      "scope": "Publisher HTML abstract and Sections 1-2, equation (1), definitions and discussion of symmetry, preimages and unstable-set intersections. Later numerical claims and wild-chaos criteria were not independently verified or transferred.",
+      "finding": "The generic symmetry, multiple-history and homoclinic mechanisms are established prior art. The displayed planar angle-doubling formula differs from the cubic posterior-reflection map; this does not exclude nonlinear equivalence on an invariant set.",
+      "figure_review": false,
+      "access_limits": "Publisher PDF download returned HTML. Web page-image requests did not yield an inspected figure. No visual-comparison claim is based on this source."
+    }
+  ],
+  "earlier_review": "results/canonical-sphere/literature-review.json",
+  "conclusion": "The intrinsic collision excludes injective conjugate maps on the certified maximal attracting set. It does not identify that set with the numerical portrait, rule out known noninjective maps, or establish historical uniqueness. Search absence is not a novelty proof."
+}
