@@ -47,7 +47,7 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 8122366394,
+  "removed_bytes": 8133867145,
   "compact_bytes": 74014432,
   "files": [
     {
@@ -172394,6 +172394,50 @@
       "recovery": "recompute",
       "recompute_command": "See results/product-alphabet/README.md for run product-alphabet-neighborhood01. Original large payload block-248.npz was never committed; reproduce into a new external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-neighborhood01\\block-248.npz"
+    },
+    {
+      "path": "results/sinkhorn-unequal-rates/presentation/case-150-points.npz",
+      "bytes": 5753407,
+      "sha256": "84f299e9b285685838c2ce3f8511b54de1713448faf04fc807a5d060121410be",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/sinkhorn-unequal-rates/README.md; replay the selected continuation and prepare_presentation.py in an external directory.",
+      "original_run_path": "D:\\Codex\\sinkhorn-rectangular-20261101\\presentation01\\case-150-points.npz",
+      "local_cache": "D:\\Codex\\chaos-attractor-cache\\84\\84f299e9b285685838c2ce3f8511b54de1713448faf04fc807a5d060121410be.npz"
+    },
+    {
+      "path": "results/sinkhorn-unequal-rates/presentation/case-987-points.npz",
+      "bytes": 5747344,
+      "sha256": "2b6ef5e07cfafe6ec1fb5cb885b3cdebe11fe53aa157418c4949eedd2eebfb90",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/sinkhorn-unequal-rates/README.md; replay the selected continuation and prepare_presentation.py in an external directory.",
+      "original_run_path": "D:\\Codex\\sinkhorn-rectangular-20261101\\presentation01\\case-987-points.npz",
+      "local_cache": "D:\\Codex\\chaos-attractor-cache\\2b\\2b6ef5e07cfafe6ec1fb5cb885b3cdebe11fe53aa157418c4949eedd2eebfb90.npz"
     }
   ]
 }

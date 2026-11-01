@@ -17,6 +17,7 @@ instructions](manuscript-editing.md).
 | RAAR symbolic dynamics | [Certificate and manuscript](raar-symbolic-dynamics/README.md) |
 | Scalar acceleration memory | [Reproducible search](../research/unexpected_search/README.md) |
 | Overrelaxed Sinkhorn | [All inputs, continuation drivers, precision and verification](../results/sinkhorn-screen/README.md) |
+| Unequal-rate matrix scaling | [Complete campaign, long continuations, precision and portrait inputs](../results/sinkhorn-unequal-rates/README.md) |
 | Adaptive solvers | [RK45](rk45-controller/README.md), [RK23](rk23-controller/README.md) |
 | Optimizer memory | [Yogi](yogi-memory/README.md), [Adamax](adamax-geometry.md) |
 | Motor periodic attractor | [Five-cluster certificate](motor-five-cycle-certificate.md), [proof implementation review](motor-proof-review.md) |

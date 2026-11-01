@@ -214,6 +214,26 @@ Normalized optimizer state (x, m, v); archived orthographic cameras.
 
 [Smooth Yogi](docs/yogi-tanh.md) · [Manuscript](docs/yogi-memory/manuscript.md) · [Standard Yogi](docs/yogi-parameter-plane.md) · [Adamax](docs/adamax-geometry.md) · [AdaBelief](docs/adabelief-quadratic.md)
 
+### Matrix scaling with unequal rates
+
+![Unequal-rate matrix scaling, Cases 150 and 987](docs/assets/portraits/sinkhorn-balanced.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+![Unequal-rate matrix scaling: static portrait](docs/assets/portraits/sinkhorn-balanced.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-01**.*
+<!-- /drawing-date -->
+
+All three anchored log coordinates; rigid PCA rotation with equal units and no rescaling. Each panel contains 250,000 consecutive states.
+
+**Numerical candidates with two expanding directions.** Different fixed row and column relaxation rates produce separated curved bands in a 3 × 2 matrix-scaling problem. Cases 150 and 987 retain two positive QR rates after 106 million steps and pass independent 70/100-digit checks. Case 150 has escaping alternative starts and a nearby regular regime. These rates extend the usual Sinkhorn iteration beyond its convergence safeguards; trapping, asymptotic chaotic attraction and historical uniqueness remain unresolved.
+
+[Map, complete screen and prior art](docs/sinkhorn-unequal-rates.md) · [Evidence and reproduction](results/sinkhorn-unequal-rates/README.md)
+
 ## Molecular-motor dynamics
 
 ### Four-row irregular motion
@@ -616,6 +636,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |
 | [Overrelaxed Sinkhorn](docs/sinkhorn-screen.md) | 576-case screen; 11 persistent finite-growth cases and 21 periodic recurrences after long transients; no promoted portrait | [All-flag continuations, precision and exact bounds](results/sinkhorn-screen/README.md) |
+| [Unequal-rate matrix scaling](docs/sinkhorn-unequal-rates.md) | Two three-state numerical candidates after 106 million steps; 4,864-input campaign with escape and recurrence accounting | [Complete inputs, spectra, precision and controls](results/sinkhorn-unequal-rates/README.md) |
 | [Finite-sample FastICA](docs/fastica-dynamics.md) | Four numerical regimes; five-million-step spectra and independent precision controls; one rejected long transient | [Portrait and stopping-rule audit](docs/fastica-dynamics.md), [complete evidence](results/fastica/README.md), [reproduction](research/fastica/README.md) |
 | [Structured-data FastICA](docs/fastica-tripling.md) | Exact trapping and entropy interval; ambient local noninjectivity; an extra preimage excluded from the attracting set | [Entropy proof](docs/fastica-tripling.md#attracting-set-and-entropy), [ambient obstruction](docs/fastica-tripling-structure.md), [preimage rejection](docs/fastica-preimage-rejection.md), [reproduction](results/fastica-tripling/README.md) |
 | [RK45](docs/rk45-oscillator.md), [RK23](docs/rk23-oscillator.md) | Irregular adaptive-controller states for a decaying oscillator | [RK45 structure](docs/rk45-controller-structure.md), [RK23 structure](docs/rk23-controller-structure.md), [RK45 prior art](docs/rk45-priority.md), [RK23 prior art](docs/rk23-priority.md) |

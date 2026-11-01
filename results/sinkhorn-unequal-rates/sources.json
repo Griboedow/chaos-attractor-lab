@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "Bounded primary-source and equivalent-term audit; no exhaustive novelty or conjugacy claim.",
+  "queries": [
+    "Sinkhorn relaxation parameters two",
+    "Sinkhorn chaos overrelaxation",
+    "Sinkhorn chaotic attractor",
+    "matrix scaling chaos relaxation",
+    "discrete Markus Yamabe chaotic polynomial",
+    "modified successive overrelaxation red black"
+  ],
+  "sources": [
+    {
+      "title": "A note on overrelaxation in the Sinkhorn algorithm",
+      "url": "https://arxiv.org/html/2012.12562v2",
+      "doi": "10.1007/s11590-021-01830-0",
+      "examined": "Equations (2) and (7), local block-SOR derivation in section 2, global sufficient interval in Theorem 3.",
+      "consequence": "The common-rate algorithm and its two-projective-space formulation are prior art. The local fixed-point spectral relation is already connected to SOR."
+    },
+    {
+      "title": "Overrelaxed Sinkhorn-Knopp Algorithm for Regularized Optimal Transport",
+      "url": "https://arxiv.org/html/1711.01851v2",
+      "examined": "Section 4.1 on fixed-rate nonconvergence; section 4.3, Theorem 1 and equations (26)-(30).",
+      "consequence": "Nonconvergence is known. Distinct adaptive relaxation functions for the two projections are also known; their Lyapunov safeguard differs from the fixed above-2 rates tested here."
+    },
+    {
+      "title": "On the modified successive overrelaxation method",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0096300312010879",
+      "doi": "10.1016/j.amc.2012.10.071",
+      "examined": "Publisher-indexed introduction and displayed block formulation; direct open returned HTTP 403, but the primary publisher text was available in search retrieval.",
+      "consequence": "Two fixed relaxation rates assigned to red and black equation blocks are established MSOR practice, attributed there to Young. No priority is claimed for the block-rate design."
+    },
+    {
+      "title": "Chaotic Polynomial Automorphisms: Counterexamples to Several Conjectures",
+      "authors": "Arno van den Essen and Engelbert Hubbers",
+      "year": 1997,
+      "url": "https://www.cs.ru.nl/E.Hubbers/pubs/Chaotic-Polynomial-Automorphisms-Counterexamples_1997_Advances-in-Applied-M.pdf",
+      "examined": "Author-hosted published paper, introduction and Theorem 1.1 with proof.",
+      "consequence": "Stable pointwise Jacobian spectra do not in general imply global convergence. The explicit examples used here as prior art have escaping orbits; they do not classify the sampled matrix-scaling sets."
+    }
+  ],
+  "unresolved": [
+    "No matching classification of the selected matrix-scaling configurations was identified in the examined sources.",
+    "The selected maps are smooth diffeomorphisms. No intrinsic obstruction to equivalence with known invertible chaotic maps has been established.",
+    "No trapping certificate or infinite-time Lyapunov theorem identifies either portrait as a chaotic attractor.",
+    "No numerical probability is assigned to historical novelty."
+  ]
+}

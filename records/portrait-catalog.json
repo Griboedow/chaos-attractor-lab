@@ -454,6 +454,46 @@
       "coordinates": "Normalized optimizer state (x, m, v); archived orthographic cameras."
     },
     {
+      "id": "sinkhorn-balanced",
+      "title": "Matrix scaling with unequal rates",
+      "group": "Numerical algorithms",
+      "report": "docs/sinkhorn-unequal-rates.md",
+      "source_portrait": "docs/assets/portraits/sinkhorn-balanced.png",
+      "featured": true,
+      "description": "Cases 150 and 987 retain two positive finite QR rates after 106 million steps and pass 70/100-digit controls. Trapping, asymptotic chaotic attraction and historical uniqueness remain unresolved.",
+      "coordinates": "All three anchored log coordinates; translation and proper orthogonal PCA rotation, with equal units and no rescaling. Each panel contains 250000 consecutive final states.",
+      "panels": [
+        {
+          "label": "150",
+          "source": "results/sinkhorn-unequal-rates/presentation/case-150-points.npz",
+          "key": "points",
+          "mode": "points",
+          "transform": "identity"
+        },
+        {
+          "label": "987",
+          "source": "results/sinkhorn-unequal-rates/presentation/case-987-points.npz",
+          "key": "points",
+          "mode": "points",
+          "transform": "identity"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/sinkhorn-unequal-rates/presentation/case-150-points.npz",
+          "key": "points",
+          "metadata_source": "results/sinkhorn-unequal-rates/presentation/case-150-view.json",
+          "last_count": 250000
+        },
+        {
+          "source": "results/sinkhorn-unequal-rates/presentation/case-987-points.npz",
+          "key": "points",
+          "metadata_source": "results/sinkhorn-unequal-rates/presentation/case-987-view.json",
+          "last_count": 250000
+        }
+      ]
+    },
+    {
       "id": "yogi-arc",
       "title": "Yogi parameter-plane candidate",
       "group": "Numerical algorithms",
