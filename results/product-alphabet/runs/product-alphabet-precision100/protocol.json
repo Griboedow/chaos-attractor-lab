@@ -1,0 +1,21 @@
+{
+  "ids": [
+    489,
+    988,
+    1450,
+    933,
+    203
+  ],
+  "digits": 100,
+  "source_sha256": "8cf37235cdd2f7ff11ae0ceac39ca7717bcd5ada94b1a08656c1a5199a9ca749",
+  "warm": 10000,
+  "observed": 50000,
+  "windows": 10,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "method": "Exact binary64 input lifts; scalar squared-distance Gaussian weights; nested reflections; finite separation without the production Jacobian.",
+  "mpmath": "1.3.0"
+}

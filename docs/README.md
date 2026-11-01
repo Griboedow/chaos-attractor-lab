@@ -20,6 +20,7 @@ article to its shorter report and numerical evidence.
 | Gaussian-posterior reflected dynamics | [Report](soft-symbolic-dynamics.md) | [Article](soft-symbolic-dynamics/manuscript.md) | [Study notes](soft-symbolic-dynamics/README.md) |
 | Gaussian posterior mean and a sphere | [Main portraits](../README.md#gaussian-posterior-mean-and-a-sphere) | [Numerical article](soft-sphere/manuscript.md) | [Evidence and reproduction](../results/soft-sphere/README.md) |
 | Canonical posterior maps | [Main portraits](../README.md#canonical-posterior-maps-ribbon-and-spatial-folds) | [Article and proofs](canonical-sphere/manuscript.md) | [Numerical campaign](../results/canonical-sphere/README.md), [collision and homoclinic certificates](../results/canonical-collision/README.md) |
+| Product-alphabet posterior maps | [Main portraits](../README.md#product-alphabets-folded-wings-and-layered-arches) | [Numerical article](product-alphabet/manuscript.md) | [Complete campaign and reproduction](../results/product-alphabet/README.md) |
 
 The [structured-data FastICA report](fastica-tripling.md) contains its full
 analytic proof, numerical controls and prior-art discussion in one document.

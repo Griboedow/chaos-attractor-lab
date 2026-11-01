@@ -1,0 +1,83 @@
+{
+  "id": 203,
+  "source_sha256": "268525f51a94cdd0cf339dc696c6746fa1a4ab92ba76ba19d112ae9e0e6e9c3a",
+  "states_sha256": "0f76799d2ee7195b3ff166d71e03b91446a6d1cd602854ee1f150ea546819b6c",
+  "histogram_sha256": "9818e44b829bb5edc1024c95d48fbf8f1ece3f6f6fc00b8f57250501334f789a",
+  "center": [
+    0.00013324509809818728,
+    -0.00024728780347755115,
+    0.00013324509809818728
+  ],
+  "basis": [
+    [
+      0.7071065267627293,
+      -0.0005998412702857144,
+      -0.7071067811865475
+    ],
+    [
+      0.0008483036597094484,
+      0.9999996401903853,
+      3.3306690738754696e-16
+    ],
+    [
+      0.707106526762729,
+      -0.0005998412702864497,
+      0.7071067811865476
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 1.4713582457824756,
+  "minimum_radius": 0.0001303195312968962,
+  "portrait": {
+    "id": "product-alphabet-203",
+    "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-203.png",
+    "sha256": "896ca768eccef5f85331fc09a935ab7bdc5f38791091c7a365069d2a6f2cb479",
+    "panels": [
+      {
+        "input": {
+          "label": "203",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-203-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "9818e44b829bb5edc1024c95d48fbf8f1ece3f6f6fc00b8f57250501334f789a",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            45,
+            122
+          ],
+          [
+            1553,
+            1477
+          ]
+        ],
+        "empty_margin": 61,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          0,
+          1
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 5.0186619015071505,
+        "occupied_bins": 298789,
+        "display_label": "Case 203"
+      }
+    ]
+  }
+}

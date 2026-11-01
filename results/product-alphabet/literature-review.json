@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded primary-source review. Absence of an exact-formula search hit is not a novelty result. Existing operator-priority review is linked, not repeated.",
+  "shared_review": "docs/soft-constellation-priority.md",
+  "sources": [
+    {
+      "title": "Solution of macroscopic state equations of Blume-Capel model using nonlinear dynamics concepts",
+      "authors": "Asaf Tolga Ulgen and Naci Sunel",
+      "year": 2013,
+      "url": "https://dergipark.org.tr/en/download/article-file/192677",
+      "reviewed": "Abstract, introduction and Section 2.1 equations (1a)-(1b), Section 2.2 derivative equation (2), through printed page 55.",
+      "finding": "The ideal ternary scalar response matches a known spin-1 response after parameter identification. This scalar iteration lacks the present sphere feedback.",
+      "figures_visually_reviewed": false,
+      "numerics_reproduced": false
+    },
+    {
+      "title": "Modulated phases and chaotic behavior in a spin-1 Ising model with competing interactions",
+      "authors": "T. Tome and S. R. Salinas",
+      "year": 1989,
+      "doi": "10.1103/PhysRevA.39.2206",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.39.2206",
+      "reviewed": "Publisher abstract only; full PDF access returned 401.",
+      "finding": "Earlier strange-attractor evidence and positive growth for a two-dimensional spin-1 recursion. No complete equation comparison was possible.",
+      "figures_visually_reviewed": false,
+      "numerics_reproduced": false
+    },
+    {
+      "title": "Emergence of collective self-oscillations in minimal lattice models with feedback",
+      "authors": "Dmitry Sinelschikov, Anna Poggialini, Maria Francesca Abbate and Daniele De Martino",
+      "year": 2023,
+      "doi": "10.1103/PhysRevE.108.044204",
+      "url": "https://arxiv.org/abs/2306.01823",
+      "reviewed": "Abstract and preprint Sections 2.3-2.4, equations (14)-(34), bifurcation discussion through Figure 10 caption. Publisher/institution copy became inaccessible; arXiv text was available.",
+      "finding": "Feedback spin and softmax chaos is prior art. Reduced q=3 Potts equations give a four-dimensional flow, unlike the displayed three-state discrete normalized map. Nonlinear or return-map equivalence is not excluded.",
+      "figures_visually_reviewed": true,
+      "numerics_reproduced": false,
+      "visual_review_scope": "Figure 5 and surrounding text on preprint pages 14-15 visually inspected. Chaotic panels are two-coordinate Poincare sections, not full three-state clouds.",
+      "download": {
+        "name": "feedback-spins",
+        "url": "https://arxiv.org/pdf/2306.01823",
+        "sha256": "7912889db7b1a86479e56c56d8f4b300bc418dceda2fca48be62bcf97b9e0a52",
+        "bytes": 2976045
+      },
+      "local_review_images": [
+        {
+          "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-literature-figures01\\feedback-14.png",
+          "sha256": "9b162d0d4796e0277d858d7b0d264c4a6bfb38c5e84c95dd093c9c9210860518"
+        },
+        {
+          "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-literature-figures01\\feedback-15.png",
+          "sha256": "58d54e1728e6b92518e4b5d020b5ef0b1c0b3bbae460f85773bc3729483b83c7"
+        }
+      ]
+    },
+    {
+      "title": "Labyrinth Chaos",
+      "authors": "J. C. Sprott and K. E. Chlouverakis",
+      "year": 2007,
+      "url": "https://sprott.physics.wisc.edu/pubs/paper302.pdf",
+      "reviewed": "Abstract, cyclic sine-flow equation (1), Sections 2-3 and coexistence discussion; figure captions in text only.",
+      "finding": "Relevant precedent for spatial loops and coexisting attractors; ThomasLabyrinth is the leading similarity fingerprint among this frozen reference library.",
+      "figures_visually_reviewed": true,
+      "numerics_reproduced": false,
+      "visual_review_scope": "Figures 4-9 on printed pages 2100-2102 visually inspected. Figure 8 overlays six coexisting strange attractors; the selected product portraits each use one trajectory.",
+      "download": {
+        "name": "labyrinth",
+        "url": "https://sprott.physics.wisc.edu/pubs/paper302.pdf",
+        "sha256": "c1f1252470af3c629f62e0885888fe72662089ed5ff72f09afa3e792ebf33f84",
+        "bytes": 1050566
+      },
+      "local_review_images": [
+        {
+          "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-literature-figures01\\labyrinth-04.png",
+          "sha256": "fb22618a6ad1a77558e7c483d85bf513d6454dc5a7f670bd98e5036206db4796"
+        },
+        {
+          "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-literature-figures01\\labyrinth-05.png",
+          "sha256": "2c7e91f92bd0e29c76c62122faa444bf2fa0e6fd728f836d5cd41cd5f0fb4e51"
+        },
+        {
+          "path": "D:\\Codex\\chaos-attractor-search-20261031\\product-literature-figures01\\labyrinth-06.png",
+          "sha256": "10d8cdc7568da55e03e2bd65adeb92361eb03364b38413e111e112133e214a18"
+        }
+      ]
+    }
+  ],
+  "search_only_leads": [
+    "2016 kinetic spin-3/2 Blume-Capel article: publisher access failed; no equation audit.",
+    "Thomas 1999 original paper not retrieved in this extension."
+  ],
+  "queries": [
+    "Blume Capel chaos neural network discrete",
+    "spin-1 chaotic neural map",
+    "PAM denoiser sphere chaos",
+    "Blume-Capel sinh cosh mean field magnetization",
+    "spin 3/2 chaos map",
+    "PAM Douglas Rachford denoiser",
+    "multilevel RAAR posterior",
+    "Thomas labyrinth chaos 1999",
+    "Gaussian posterior RAAR chaos attractor",
+    "denoiser reflection chaos sphere",
+    "posterior mean strange attractor",
+    "tanh sphere Douglas-Rachford chaos",
+    "normalized tanh strange attractor",
+    "RAAR constellation chaos"
+  ]
+}

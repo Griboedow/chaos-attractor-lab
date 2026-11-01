@@ -1,0 +1,1024 @@
+{
+  "ids": [
+    203,
+    287,
+    397,
+    489,
+    607,
+    893,
+    933,
+    988,
+    1351,
+    1450,
+    1660,
+    1709
+  ],
+  "warm": 100000,
+  "count": 2000000,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "camera": "Right-handed PCA basis and one fixed orthogonal camera; equal units.",
+  "density": "Every consecutive state; no interpolation or smoothing.",
+  "cases": [
+    {
+      "id": 203,
+      "source_sha256": "268525f51a94cdd0cf339dc696c6746fa1a4ab92ba76ba19d112ae9e0e6e9c3a",
+      "states_sha256": "0f76799d2ee7195b3ff166d71e03b91446a6d1cd602854ee1f150ea546819b6c",
+      "histogram_sha256": "9818e44b829bb5edc1024c95d48fbf8f1ece3f6f6fc00b8f57250501334f789a",
+      "center": [
+        0.00013324509809818728,
+        -0.00024728780347755115,
+        0.00013324509809818728
+      ],
+      "basis": [
+        [
+          0.7071065267627293,
+          -0.0005998412702857144,
+          -0.7071067811865475
+        ],
+        [
+          0.0008483036597094484,
+          0.9999996401903853,
+          3.3306690738754696e-16
+        ],
+        [
+          0.707106526762729,
+          -0.0005998412702864497,
+          0.7071067811865476
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.4713582457824756,
+      "minimum_radius": 0.0001303195312968962,
+      "portrait": {
+        "id": "product-alphabet-203",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-203.png",
+        "sha256": "896ca768eccef5f85331fc09a935ab7bdc5f38791091c7a365069d2a6f2cb479",
+        "panels": [
+          {
+            "input": {
+              "label": "203",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-203-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "9818e44b829bb5edc1024c95d48fbf8f1ece3f6f6fc00b8f57250501334f789a",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                122
+              ],
+              [
+                1553,
+                1477
+              ]
+            ],
+            "empty_margin": 61,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 5.0186619015071505,
+            "occupied_bins": 298789,
+            "display_label": "Case 203"
+          }
+        ]
+      }
+    },
+    {
+      "id": 287,
+      "source_sha256": "ad82957e12a910a1dce180a032c6b105b4b20d8c35901608d04d4a6e92bfcf94",
+      "states_sha256": "6434545eec08540cb1d89453d32f1d677c57c9a81cbddf492c23f46c969837a1",
+      "histogram_sha256": "d313c5133ac95c3cd6c023f65723d6f5d71bff627a65cd27d08c22b012e3e964",
+      "center": [
+        -0.18078242041797427,
+        0.13709009497415878,
+        1.021283584569736
+      ],
+      "basis": [
+        [
+          -0.23526414961348535,
+          0.7612846903762754,
+          0.6042320747075098
+        ],
+        [
+          0.17840442970041315,
+          -0.5772939109055388,
+          0.796808383423931
+        ],
+        [
+          0.955417520966574,
+          0.29525812542601787,
+          -4.440892098500626e-16
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.36874439592774405,
+      "minimum_radius": 0.26416038595972147,
+      "portrait": {
+        "id": "product-alphabet-287",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-287.png",
+        "sha256": "bbc35a61d67b1e0f8a7ad5372e8fcb14e2d006cd0d31fa83246c8b58e3d7b08e",
+        "panels": [
+          {
+            "input": {
+              "label": "287",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-287-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "d313c5133ac95c3cd6c023f65723d6f5d71bff627a65cd27d08c22b012e3e964",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                210
+              ],
+              [
+                1164,
+                1253
+              ]
+            ],
+            "empty_margin": 45,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.656195642375657,
+            "occupied_bins": 85217,
+            "display_label": "Case 287"
+          }
+        ]
+      }
+    },
+    {
+      "id": 397,
+      "source_sha256": "d2a9bfbb06c5cbc7197052a35546601f8cff5439682360a145b7a4356f0ef1f4",
+      "states_sha256": "f680e9f0824a770ef6e439d51b1d2d1c4cca0655b0b93959d97de96a26788139",
+      "histogram_sha256": "d602934c74a2f491672c09f6198d77194db078eb9bdc6f9d8ec6afbcf9a2eb80",
+      "center": [
+        0.048010487009094584,
+        0.6677339852571248,
+        0.7075341346906935
+      ],
+      "basis": [
+        [
+          -0.06934756716048787,
+          0.01827636827954363,
+          -0.9974251296671006
+        ],
+        [
+          -0.9644919323423625,
+          0.25418930295732156,
+          0.0717154844407251
+        ],
+        [
+          0.25484549706718074,
+          0.9669817850531528,
+          -1.7275764152557826e-13
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.6139935823081204,
+      "minimum_radius": 0.08088899944127415,
+      "portrait": {
+        "id": "product-alphabet-397",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-397.png",
+        "sha256": "8bcabdc8b83a9781641e2e2e6c25d7670362dc526e66b5f86fa16b1b1759368f",
+        "panels": [
+          {
+            "input": {
+              "label": "397",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-397-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "d602934c74a2f491672c09f6198d77194db078eb9bdc6f9d8ec6afbcf9a2eb80",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                211,
+                219
+              ],
+              [
+                1236,
+                1555
+              ]
+            ],
+            "empty_margin": 54,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.3963919472901045,
+            "occupied_bins": 66424,
+            "display_label": "Case 397"
+          }
+        ]
+      }
+    },
+    {
+      "id": 489,
+      "source_sha256": "c66fd5899a35772f6f3fcd31d0d5e2c7202e7b824cbb37732989a105d1fc942e",
+      "states_sha256": "8a760500fc88d486b9a677e4dfcd48b1eadc1f2142af2c34695ead509a0f1b28",
+      "histogram_sha256": "cf03ae359f7acb8681f7e6833f087205e448e01d9433060bd44412f8d255f810",
+      "center": [
+        0.7738992896170442,
+        -0.7298970845005036,
+        -0.14910117050671465
+      ],
+      "basis": [
+        [
+          0.07561793922266133,
+          0.9477457922384355,
+          -0.30993521994452006
+        ],
+        [
+          0.9455466810554863,
+          0.030530011489184165,
+          0.32405152729685466
+        ],
+        [
+          0.3165807972898417,
+          -0.31756232725688727,
+          -0.8938292717820993
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.39201383040919197,
+      "minimum_radius": 0.41659989280821147,
+      "portrait": {
+        "id": "product-alphabet-489",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-489.png",
+        "sha256": "e82f03ed8f64599c8999282df7e105b154f1d6379b3e4e71aface7b4f0343763",
+        "panels": [
+          {
+            "input": {
+              "label": "489",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-489-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "cf03ae359f7acb8681f7e6833f087205e448e01d9433060bd44412f8d255f810",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                449,
+                45
+              ],
+              [
+                1234,
+                1414
+              ]
+            ],
+            "empty_margin": 55,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.529814792706235,
+            "occupied_bins": 49267,
+            "display_label": "Case 489"
+          }
+        ]
+      }
+    },
+    {
+      "id": 607,
+      "source_sha256": "0fc67d62b0591567f08cdcb44f284b993e056c07722b3af21334dc9c6532801d",
+      "states_sha256": "bec02124661305eef7a2275ba70a4cbf647477449757408924df15a08956a445",
+      "histogram_sha256": "2c608f574d014014ce9a6dcfa8f82ff66be3ee4d8fe2783fd456918d1171b8df",
+      "center": [
+        -0.5351286000741159,
+        0.47477275760239435,
+        0.6082054172489602
+      ],
+      "basis": [
+        [
+          -0.6106902788336256,
+          -0.2517969324007586,
+          -0.7507700634493069
+        ],
+        [
+          -0.3811851965338928,
+          0.9244986998062107,
+          2.0956994362109072e-07
+        ],
+        [
+          0.6940858947432413,
+          0.28618256217001414,
+          -0.6605636319297936
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.1042587270374367,
+      "minimum_radius": 0.002716073214941091,
+      "portrait": {
+        "id": "product-alphabet-607",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-607.png",
+        "sha256": "dbb7900f62d7d57bf6d9dd2733b68bfd3df1a2a7a254ab8b4a06e64c3e1ad803",
+        "panels": [
+          {
+            "input": {
+              "label": "607",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-607-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "2c608f574d014014ce9a6dcfa8f82ff66be3ee4d8fe2783fd456918d1171b8df",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                308,
+                224
+              ],
+              [
+                1555,
+                1383
+              ]
+            ],
+            "empty_margin": 50,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.76644472806891,
+            "occupied_bins": 109938,
+            "display_label": "Case 607"
+          }
+        ]
+      }
+    },
+    {
+      "id": 893,
+      "source_sha256": "f7133f5fa9eb8edd1b390866a8622be53aae46f4579357d67717af1cb8efeb39",
+      "states_sha256": "bedbd9c30faacf84270bd1f5c1eb5f4aa666bbc8ec9dcca343e5e4f2a6fc0dbd",
+      "histogram_sha256": "158222813314758b486ffdb689a20a8e0ee2489c173632f9e7c15e10ee52d432",
+      "center": [
+        0.17494168193406828,
+        -1.10857987550397,
+        -0.6194660388919795
+      ],
+      "basis": [
+        [
+          0.14416180405469056,
+          -0.23038834870083316,
+          -0.9623609421805316
+        ],
+        [
+          -0.8477193693950497,
+          -0.5304449742925998,
+          -4.280308446846792e-07
+        ],
+        [
+          -0.5104794266218349,
+          0.8158120727414048,
+          -0.2717745701224021
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.48963257549945305,
+      "minimum_radius": 0.08323820655357457,
+      "portrait": {
+        "id": "product-alphabet-893",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-893.png",
+        "sha256": "504ca31c22353d517dfcf089c4318a536a5eac8c70f0b3639beff98e230d2e25",
+        "panels": [
+          {
+            "input": {
+              "label": "893",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-893-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "158222813314758b486ffdb689a20a8e0ee2489c173632f9e7c15e10ee52d432",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                529,
+                45
+              ],
+              [
+                1024,
+                1110
+              ]
+            ],
+            "empty_margin": 43,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.5648023044024635,
+            "occupied_bins": 79118,
+            "display_label": "Case 893"
+          }
+        ]
+      }
+    },
+    {
+      "id": 933,
+      "source_sha256": "9ce1af1724c43e1d7f486065c4b932ec2c24582567eb5beb86cba2cde30362dc",
+      "states_sha256": "df71654d057ca9e7ed13b418651aab0a313241dbd3a05a321f914e7bfaedb57d",
+      "histogram_sha256": "7b0cb0256d06f05e73804ea1b22c8330e63784b31c534d34f45e2eb76a378043",
+      "center": [
+        0.5889183208412817,
+        -0.7578141480230152,
+        0.28196225782022655
+      ],
+      "basis": [
+        [
+          -0.18425046487117658,
+          -0.9828789226174692,
+          -0.0008886332643562489
+        ],
+        [
+          -0.9256683664297987,
+          0.17382959100551454,
+          -0.3360377191358784
+        ],
+        [
+          0.33043886210000073,
+          -0.06109252626286357,
+          -0.9418481096487257
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.5422496260686536,
+      "minimum_radius": 0.05792330478965624,
+      "portrait": {
+        "id": "product-alphabet-933",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-933.png",
+        "sha256": "b75c20cfd918f0901ebc14d755d0cee070e980e7345a6063d39a4859372af879",
+        "panels": [
+          {
+            "input": {
+              "label": "933",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-933-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "7b0cb0256d06f05e73804ea1b22c8330e63784b31c534d34f45e2eb76a378043",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                393,
+                434
+              ],
+              [
+                1431,
+                1555
+              ]
+            ],
+            "empty_margin": 45,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.495223054776033,
+            "occupied_bins": 115504,
+            "display_label": "Case 933"
+          }
+        ]
+      }
+    },
+    {
+      "id": 988,
+      "source_sha256": "dc78154f2e53b8130f1d2e6d5473293c35b4174e948b246931f2fc3927354b99",
+      "states_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+      "histogram_sha256": "569a53c0bc0e887c45d13ce965e2c31c391f24cee1004237e460126b813e5000",
+      "center": [
+        -0.04956469465169159,
+        0.08664158540371245,
+        0.022178802323455923
+      ],
+      "basis": [
+        [
+          -0.04799361574315478,
+          0.9589291661458603,
+          -0.27955583907817594
+        ],
+        [
+          -0.46297498088600986,
+          0.22664157005536378,
+          0.856905925873102
+        ],
+        [
+          0.8850710592497629,
+          0.17055337298817685,
+          0.4330828639427547
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.4664809252453347,
+      "minimum_radius": 1.2505739826658115,
+      "portrait": {
+        "id": "product-alphabet-988",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-988.png",
+        "sha256": "670542d89985bcb239eed23ea6aeae97b658841e7e8dfadc22b9eea65d6e8a1c",
+        "panels": [
+          {
+            "input": {
+              "label": "988",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "569a53c0bc0e887c45d13ce965e2c31c391f24cee1004237e460126b813e5000",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                55
+              ],
+              [
+                1417,
+                1385
+              ]
+            ],
+            "empty_margin": 55,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.761371919515337,
+            "occupied_bins": 125626,
+            "display_label": "Case 988"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1351,
+      "source_sha256": "542029cfc94f4d8a3d80a6ce4d265a88678800b4ed074e7412ef6ef8ca9963ed",
+      "states_sha256": "825de9b9b462890c232f692938dcaa2fb783819b337e47f56e81cd07cf4baeb1",
+      "histogram_sha256": "ae233f897022fcc69545d1dc6822947b61460f13d6633d464be69648d1524821",
+      "center": [
+        0.12487902651527746,
+        -0.07744278181428713,
+        -0.09404659861229969
+      ],
+      "basis": [
+        [
+          -0.7515640339976161,
+          0.39672913649550434,
+          0.5270270344648
+        ],
+        [
+          0.46607673034472363,
+          -0.24602840585580146,
+          0.8498485188215749
+        ],
+        [
+          0.46682329015635216,
+          0.884350618119072,
+          -1.175873214354084e-07
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.3483376371139053,
+      "minimum_radius": 0.9402404824951517,
+      "portrait": {
+        "id": "product-alphabet-1351",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-1351.png",
+        "sha256": "e24f598b1be615c47871017daca7202feb10c0a920e0c0221a644f03e6a43bcc",
+        "panels": [
+          {
+            "input": {
+              "label": "1351",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-1351-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "ae233f897022fcc69545d1dc6822947b61460f13d6633d464be69648d1524821",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                417,
+                45
+              ],
+              [
+                1302,
+                1151
+              ]
+            ],
+            "empty_margin": 45,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.678867240558738,
+            "occupied_bins": 65583,
+            "display_label": "Case 1351"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1450,
+      "source_sha256": "ff6bde3ecd93b6bf86ac9ff4e388458cdc31b971ef9d2749e43565eee9a087dc",
+      "states_sha256": "58bfee02d0bfec4353cfcf2dfb921bc28619efd9893f535c62b9241999b4fbd9",
+      "histogram_sha256": "6c4dd47653c9abecf71404d7cebba90b45156e3311b987f0edf3701b959c7856",
+      "center": [
+        0.07206436614080602,
+        0.7221101315838718,
+        0.6619830397287032
+      ],
+      "basis": [
+        [
+          -0.10499107939531381,
+          -0.01869522380043719,
+          -0.9942974212248861
+        ],
+        [
+          0.2544454468412448,
+          -0.9670481311786625,
+          -0.008684846896482606
+        ],
+        [
+          -0.9613710978748874,
+          -0.2539062830867084,
+          0.10628834169336811
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.49469044465688655,
+      "minimum_radius": 0.11519270016352262,
+      "portrait": {
+        "id": "product-alphabet-1450",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-1450.png",
+        "sha256": "d12455714ff642ea936d3a133cbfcb5dfc25a6c52d73127fc6e1dd53de860b81",
+        "panels": [
+          {
+            "input": {
+              "label": "1450",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-1450-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "6c4dd47653c9abecf71404d7cebba90b45156e3311b987f0edf3701b959c7856",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                469,
+                45
+              ],
+              [
+                1460,
+                1166
+              ]
+            ],
+            "empty_margin": 45,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.65582278486508,
+            "occupied_bins": 86864,
+            "display_label": "Case 1450"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1660,
+      "source_sha256": "077abfe1232d019f207e5466c88df4371b8caa902fe87082ef71322e36bbca4b",
+      "states_sha256": "0dff5a42fa59dcd7c56ed99d6143c8307a47796fd7cd81e96993e9b9e565610d",
+      "histogram_sha256": "b4596f366b72a6e95892f421891c3fdb135079baf89450a77a6336bb97ab5e32",
+      "center": [
+        -0.18282116763139686,
+        -0.04667008642311693,
+        0.04137003838200505
+      ],
+      "basis": [
+        [
+          -0.47137833902960696,
+          0.8538346242353787,
+          -0.2208368084140847
+        ],
+        [
+          0.8754584137711705,
+          0.4832934491572326,
+          -8.808502759394266e-05
+        ],
+        [
+          0.10665377279288146,
+          -0.193374963370483,
+          -0.9753107690836336
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.26898092371518195,
+      "minimum_radius": 1.7372831246451332,
+      "portrait": {
+        "id": "product-alphabet-1660",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-1660.png",
+        "sha256": "bec4e80f7771545bf0e561d481bd961a647c06d35e430fdf647cdbce99b3be15",
+        "panels": [
+          {
+            "input": {
+              "label": "1660",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-1660-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "b4596f366b72a6e95892f421891c3fdb135079baf89450a77a6336bb97ab5e32",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                387
+              ],
+              [
+                1056,
+                1188
+              ]
+            ],
+            "empty_margin": 41,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.493126847069356,
+            "occupied_bins": 83562,
+            "display_label": "Case 1660"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1709,
+      "source_sha256": "4fe02a4c804df46aca38a47c67c452008ce399a768e7515398d9bac8160694a3",
+      "states_sha256": "7e8e4257aaebed12f4efdc88e215ea83d2cd3badd0382af4830e31929191ee9e",
+      "histogram_sha256": "afeaa8239ee5f7ecb2e4e8ef1785f6766804d7bfa1e44b700e73645e370be336",
+      "center": [
+        0.8293626148542919,
+        -0.4597552000522324,
+        0.4776479640788069
+      ],
+      "basis": [
+        [
+          -0.40110983575025155,
+          0.9160298732728699,
+          -0.0004134441873021238
+        ],
+        [
+          0.6352351364417177,
+          0.27783059749404815,
+          -0.7206153485223389
+        ],
+        [
+          -0.6599903189398146,
+          -0.28930853835963743,
+          -0.6933349468604132
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.3455217702427413,
+      "minimum_radius": 0.30878910541915394,
+      "portrait": {
+        "id": "product-alphabet-1709",
+        "file": "docs\\assets\\experimental\\product-alphabet-dense\\product-alphabet-1709.png",
+        "sha256": "e8cb3c875c3195233590f5ab42722eb64a6ba9885963423b4a35a7ced1115aef",
+        "panels": [
+          {
+            "input": {
+              "label": "1709",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-1709-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "afeaa8239ee5f7ecb2e4e8ef1785f6766804d7bfa1e44b700e73645e370be336",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                166
+              ],
+              [
+                1271,
+                1531
+              ]
+            ],
+            "empty_margin": 55,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 8.790366308284005,
+            "occupied_bins": 19616,
+            "display_label": "Case 1709"
+          }
+        ]
+      }
+    }
+  ],
+  "seconds": 71.79830837249756
+}

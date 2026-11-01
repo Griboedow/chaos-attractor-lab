@@ -268,6 +268,44 @@
       ]
     },
     {
+      "id": "product-alphabet",
+      "title": "Product-alphabet posterior maps",
+      "group": "Numerical algorithms",
+      "report": "docs/product-alphabet/manuscript.md",
+      "source_portrait": "docs/assets/experimental/product-alphabet-dense/product-alphabet-988.png",
+      "description": "Case 988 forms a four-wing spatial cloud and retains positive finite-time growth across 33 starts and precision controls. Case 489 forms layered arches with competing fixed outcomes. Known posterior/reflection ingredients, periodic parameter windows and unresolved historical uniqueness are documented.",
+      "featured": true,
+      "coordinates": "Native three-state iterates; rigid orthogonal camera and equal spatial units within each panel. Independent panel scales and density saturation.",
+      "panels": [
+        {
+          "label": "988",
+          "source": "results/product-alphabet/runs/product-alphabet-dense01/case-988-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "489",
+          "source": "results/product-alphabet/runs/product-alphabet-dense01/case-489-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/product-alphabet/runs/product-alphabet-dense01/case-988-states.npz",
+          "key": "states",
+          "metadata_source": "results/product-alphabet/runs/product-alphabet-dense01/case-988.json",
+          "last_count": 250000
+        },
+        {
+          "source": "results/product-alphabet/runs/product-alphabet-dense01/case-489-states.npz",
+          "key": "states",
+          "metadata_source": "results/product-alphabet/runs/product-alphabet-dense01/case-489.json",
+          "last_count": 250000
+        }
+      ]
+    },
+    {
       "id": "raar-constellation-columns",
       "title": "Finite-point RAAR: fragmented columns and sheets",
       "group": "Numerical algorithms",

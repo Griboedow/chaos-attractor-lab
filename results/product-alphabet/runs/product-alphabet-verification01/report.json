@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "failure": "The accumulated subordinate QR-frame comparison exceeded 1e-8 at Case 287, after dense Case 203 passed. No final verification receipt was produced.",
+  "completed_stdout_evidence": "Complete scout arrays; all 175 follow runs; all 12 long runs; dense Case 203. These partial successes are superseded by the complete second verification run.",
+  "subsequent_diagnosis": "Use identical incoming frames for local QR algorithm comparison. Independently propagated subordinate frames may drift on numerically invariant planes. Preserve both accumulated rates and use their agreement as an additional selected-case check, not a universal local identity.",
+  "source": "Frozen source files in this directory are the exact failed execution."
+}

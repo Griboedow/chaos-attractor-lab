@@ -134,6 +134,26 @@ Native three-state iterates; fixed data, rigid camera and equal spatial units wi
 
 [Article and proofs](docs/canonical-sphere/manuscript.md) · [Numerical campaign](results/canonical-sphere/README.md) · [Collision and homoclinic certificates](results/canonical-collision/README.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
 
+### Product alphabets: folded wings and layered arches
+
+![Product-alphabet posterior maps, Cases 988 and 489](docs/assets/portraits/product-alphabet.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+![Product-alphabet posterior maps: static portrait](docs/assets/portraits/product-alphabet.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Native three-state iterates; rigid orthogonal camera and equal spatial units within each panel. Panel scales and density saturation differ.
+
+**Numerical spatial candidates from quantized-coordinate posteriors.** A complete 1,753-case survey yields four folded wings in the binary Case 988 and layered arches in the four-level Case 489. Both retain positive leading growth over five million iterations and at 70/100 digits. All 33 tested starts remain irregular in Case 988; Case 489 has twenty competing fixed outcomes. Nearby parameter sets include periodic windows. Spin responses, reflection algorithms and feedback chaos are known; asymptotic chaotic attraction and historical uniqueness remain unresolved.
+
+[Article, approach trajectories and prior art](docs/product-alphabet/manuscript.md) · [Complete campaign and reproduction](results/product-alphabet/README.md)
+
 ### Acceleration memory in a scalar iteration
 
 ![Three-history acceleration, cases 54 and 449](docs/assets/portraits/anderson.webp)
@@ -591,6 +611,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | [Gaussian posterior mean and a circle](docs/soft-constellations.md) | Attracting positive-entropy set and mixed-index cycles for Case 156 | [Article and equivalence obstructions](docs/soft-symbolic-dynamics/manuscript.md), [complete temperature sweep](results/soft-constellations/README.md), [prior art](docs/soft-constellation-priority.md) |
 | [Gaussian posterior mean and a sphere](docs/soft-sphere/manuscript.md) | Numerical spatial candidates; no asymptotic or priority certificate | [Complete sweep and reproduction](results/soft-sphere/README.md), [shared prior-art review](docs/soft-constellation-priority.md) |
 | [Canonical posterior maps](docs/canonical-sphere/manuscript.md) | Folded ribbon and numerical hyperchaos candidate; certified intrinsic collision and homoclinic return in a trapping set | [Complete 656-case campaign](results/canonical-sphere/README.md), [certificates](results/canonical-collision/README.md), [prior art](docs/soft-constellation-priority.md) |
+| [Product-alphabet posterior maps](docs/product-alphabet/manuscript.md) | Numerical four-wing candidate and layered companion; periodic parameter windows and unresolved uniqueness | [Complete 1,753-case campaign](results/product-alphabet/README.md), [spin/feedback prior art](docs/product-alphabet/manuscript.md#6-prior-art-and-geometric-comparison) |
 | [Cyclic three-circle RAAR](docs/cyclic-raar-search.md) | Positive finite-time growth, but visually thin configurations | [Complete survey](results/cyclic-raar-search/README.md) |
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |

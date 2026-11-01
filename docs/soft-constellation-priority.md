@@ -316,6 +316,23 @@ inputs, with an explicit invariant-set scope. It is not a claim to have
 invented symmetry-induced collisions, homoclinic orbits, or a universal
 test of historical novelty.
 
+## Product alphabets and feedback spin models
+
+The [product-alphabet extension](product-alphabet/manuscript.md#2-model-factorization-and-established-interpretations)
+uses independent two-, three- and four-level coordinates. Factorization
+does not introduce a new posterior. Its ideal binary response is the
+independent-spin tanh formula; its ideal ternary response is the standard
+spin-1/Blume–Capel formula. Earlier chaotic spin-1 recursions and feedback
+Potts flows therefore belong in the comparison, even when their papers do
+not use denoising or projection terminology.
+
+The extension's [prior-art section](product-alphabet/manuscript.md#6-prior-art-and-geometric-comparison)
+and [review receipt](../results/product-alphabet/literature-review.json)
+record the exact source scope. The supported contribution is a reproducible
+four-wing parameter regime and controlled numerical geometry, with regular
+nearby outcomes retained. A different displayed recurrence and a poor finite
+cloud fit do not establish historical uniqueness or nonlinear inequivalence.
+
 ## Remaining novelty question
 
 Search terms included Gaussian mean shift, mean update, MMSE denoisers,
