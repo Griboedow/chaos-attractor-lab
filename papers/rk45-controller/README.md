@@ -1,10 +1,14 @@
 # Twin rosettes and two expanding directions in an adaptive Dormand–Prince solver
 
-**[Research manuscript (PDF)](manuscript.pdf)** · [Editable text](content.py) · [Figures](figures/) · [Experiment report](../../docs/rk45-oscillator.md) · [Priority audit](../../docs/rk45-priority.md)
+**[Research manuscript (Markdown)](manuscript.md)** · [Figures](figures/) · [Experiment report](../../docs/rk45-oscillator.md) · [Priority audit](../../docs/rk45-priority.md)
 
 This companion research manuscript examines selected numerical regimes in the existing SciPy RK45 algorithm applied to a stable linear spring. Its portraits show the actual three-dimensional numerical state: normalized position, normalized velocity and proposed step.
 
 ![Twin rosettes and split fans, actual accepted-step states](../../docs/assets/rk45-oscillator-geometry.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
 
 The [rotation](../../docs/assets/rk45-oscillator-rotation.gif) moves only a rigid camera around fixed data. The paper also shows initial volumes approaching the clouds, independent expansion estimates and two declared parameter slices.
 
@@ -24,13 +28,11 @@ These are numerical candidates in a known algorithm. The paper does not establis
 
 ## Reproduction
 
-The builder reads the frozen results/rk45-controller packet. It generates the figures from retained histograms, window estimates and actual-state snapshots, without rerunning trajectories.
+The figures use retained histograms, window estimates and actual-state snapshots. Audit the scientific packet and independently recompute the exact polynomial checks with SymPy:
 
-    python research/build_rk45_manuscript.py --output output/pdf/rk45-controller-manuscript.pdf
-    python research/audit_rk45_manuscript.py
-    python research/verify_rk45_controller.py --root results/rk45-controller --assets docs/assets
-    python research/audit_rk45_structure.py --cases results/rk45-controller/source/structure/input-cases.json --out output/rk45-structure-audit.json
+```bash
+python research/verify_rk45_controller.py --root results/rk45-controller --assets docs/assets
+python research/audit_rk45_structure.py --cases results/rk45-controller/source/structure/input-cases.json --out output/rk45-structure-audit.json
+```
 
-The first command makes a new review artifact and figure directory. The next two audit the publication copy and scientific packet. The final command independently recomputes exact polynomial certificates with SymPy. Building requires the numerical environment, ReportLab and pypdf.
-
-The publication manifest covers the editable text, PDF, figures and build/review metadata. The review record identifies rendered pages and their hashes. All prior-paper reading scopes and remaining access gaps are recorded in the linked priority audit. Prior-paper PDFs are not redistributed.
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.

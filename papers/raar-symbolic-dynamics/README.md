@@ -1,8 +1,8 @@
 # Certified symbolic dynamics in a spatial-circle RAAR map
 
-[Manuscript](manuscript.pdf) · [Research report](../../docs/raar-symbolic-dynamics.md) · [Frozen packet](../../results/raar-symbolic-dynamics/README.md)
+[Manuscript](manuscript.md) · [Research report](../../docs/raar-symbolic-dynamics.md) · [Frozen packet](../../results/raar-symbolic-dynamics/README.md)
 
-Seven pages, three figures, editable prose in `content.py`. The result is a compact invariant positive-entropy set in an exact existing RAAR map. Attraction, equality with the numerical cloud and historical uniqueness remain unresolved.
+Three figures and a complete editable manuscript. The result is a compact invariant positive-entropy set in an exact existing RAAR map. Attraction, equality with the numerical cloud and historical uniqueness remain unresolved.
 
 ## Results and evidence
 
@@ -16,11 +16,10 @@ The graph-to-entropy argument uses established covering theory, cited in the pap
 
 ## Reproduction
 
-Run from the repository root. Python 3.12, NumPy 2.5.4, SciPy 1.18.1, Numba 0.68.1 and mpmath 1.3.0 were used for numerical and interval work. The full interval scripts need only mpmath; the output auditor needs NumPy and SciPy. PDF rebuilding additionally uses Matplotlib, ReportLab and pypdf.
+Run from the repository root. Python 3.12, NumPy 2.5.4, SciPy 1.18.1, Numba 0.68.1 and mpmath 1.3.0 were used for numerical and interval work. The full interval scripts need only mpmath; the output auditor needs NumPy and SciPy. Figures use Matplotlib.
 
 ```powershell
 python research/verify_raar_symbolic.py --output symbolic-audit.json
-python research/audit_raar_symbolic_manuscript.py
 ```
 
 To recompute every interval enclosure, choose a fresh output directory. These commands create subdirectories and refuse to overwrite existing runs:
@@ -37,13 +36,14 @@ python research/audit_raar_symbolic_cycle.py --windows $windowInput --cycle outp
 
 All engine certificates preserve their local source snapshots and input hashes. The second engine shares the subdivision driver and interval library with the first; they are not fully independent proof stacks.
 
-To rebuild the manuscript and figures:
+To regenerate the figures:
 
 ```powershell
 python research/render_raar_symbolic.py --base results/raar-symbolic-dynamics/runs --out outputs/symbolic-replay/figures
-python research/build_raar_symbolic_manuscript.py --output outputs/symbolic-replay/paper/manuscript.pdf
 ```
 
-The manuscript builder consumes the frozen final figures. The renderer reconstructs all one million density contributions, exact plotting coordinates and distances from retained arrays. Rendering changes do not modify the evidence packet. `build.json`, `review.json` and `manifest.json` identify the reviewed publication bytes.
+The renderer reconstructs all one million density contributions, exact plotting coordinates and distances from retained arrays. Rendering changes do not modify the evidence packet.
 
 Priority review: [main audit](../../docs/raar-priority.md) and [new method/source record](../../results/raar-symbolic-dynamics/priority.json). No exact matching covering result was located in the bounded search; that is not a priority proof.
+
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.

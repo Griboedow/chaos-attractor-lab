@@ -1,6 +1,6 @@
 # An attracting positive-entropy set in spatial-circle RAAR
 
-[Manuscript](manuscript.pdf) · [Current report](../../docs/raar-trapping.md) · [Frozen evidence](../../results/raar-trapping/README.md)
+[Manuscript](manuscript.md) · [Current report](../../docs/raar-trapping.md) · [Frozen evidence](../../results/raar-trapping/README.md)
 
 This companion to the [symbolic-dynamics study](../raar-symbolic-dynamics/README.md) constructs an explicit strict trapping region for the exact R1051 spatial-circle RAAR map. Its maximal invariant set attracts a neighborhood and has topological entropy at least `log(2)/49`. The proof uses the established RAAR algorithm and covering theory.
 
@@ -8,7 +8,7 @@ The attracting set need not be transitive. Equality with the numerical portrait,
 
 ## Restore and audit
 
-The original environment used Python 3.12.14, NumPy 2.5.4, SciPy 1.18.1, Numba 0.68.1 and mpmath 1.3.0. Rendering additionally uses Matplotlib, ReportLab and pypdf. Use a fresh output directory on a disk with at least 1 GB free. Run from the repository root:
+The original environment used Python 3.12.14, NumPy 2.5.4, SciPy 1.18.1, Numba 0.68.1 and mpmath 1.3.0. Rendering additionally uses Matplotlib. Use a fresh output directory on a disk with at least 1 GB free. Run from the repository root:
 
 ```powershell
 python research/verify_raar_trapping.py --out outputs/trapping-verification
@@ -35,9 +35,10 @@ The final raster kernel stops looking for further missing targets as soon as sub
 
 ```powershell
 python research/render_raar_trapping.py --input outputs/trapping-replay/input --out outputs/trapping-replay/figures
-python research/build_raar_trapping_manuscript.py --output outputs/trapping-replay/paper/manuscript.pdf
 ```
 
-The builder consumes the frozen final figures and completed closure report. Editable prose is in `content.py`. Both new figures were drawn on **2026-11-01**, recorded in the [drawing registry](../../provenance/render-dates.json). The earlier [rotation](../../docs/assets/raar-circles-rotation.gif) shows the native geometry.
+Both new figures were drawn on **2026-11-01**, recorded in the [drawing registry](../../provenance/render-dates.json). The earlier [rotation](../../docs/assets/raar-circles-rotation.gif) shows the native geometry.
 
 The manuscript explicitly states the floating-point arithmetic assumptions, the compactness/attraction argument, the transfer of the covering entropy bound, qualitative parameter persistence and unresolved equivalence questions. The additional primary-source review is in the [priority record](../../results/raar-trapping/priority.json). Third-party publication PDFs are not redistributed.
+
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.

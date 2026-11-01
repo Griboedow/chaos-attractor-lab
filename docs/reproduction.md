@@ -5,7 +5,9 @@ Use the instructions and environment recorded for the selected study. The reposi
 Large computed arrays are optional cache data. See [data storage](data-storage.md)
 for a shallow clone, selected-payload recovery and the `--materialize` option
 required by older verification scripts. Sources, small inputs, compact summaries
-and certificates remain tracked.
+and certificates remain tracked. Historical figure exports needed by some frozen
+packet verifiers can be restored separately; see [manuscript editing and archive
+instructions](manuscript-editing.md).
 
 ## Selected verification entry points
 

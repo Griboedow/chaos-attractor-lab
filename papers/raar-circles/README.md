@@ -1,8 +1,8 @@
 # Serrated arches and layered loops in relaxed reflections between spatial circles
 
-[Read the illustrated manuscript](manuscript.pdf) · [Rotate the actual states](../../docs/assets/raar-circles-rotation.gif) · [Public report](../../docs/raar-circles.md) · [Exact structure](../../docs/raar-structure.md) · [Priority audit](../../docs/raar-priority.md)
+[Read the illustrated manuscript](manuscript.md) · [Rotate the actual states](../../docs/assets/raar-circles-rotation.gif) · [Public report](../../docs/raar-circles.md) · [Exact structure](../../docs/raar-structure.md) · [Priority audit](../../docs/raar-priority.md)
 
-Twelve pages, six figures, editable prose and reproducible calculations. This is a research manuscript, not a peer-reviewed publication or a priority certificate.
+Six figures, editable prose and reproducible calculations. This is a research manuscript, not a peer-reviewed publication or a priority certificate.
 
 ## Supported claims
 
@@ -14,17 +14,15 @@ Twelve pages, six figures, editable prose and reproducible calculations. This is
 
 RAAR, planar-circle examples, projection-search chaos and general fixed-point relations are prior work. No new algorithm, new general chaos mechanism, asymptotic strange attractor or historically unique attractor class is claimed.
 
-## Build and audit
+## Reproduction
 
 From the repository root, using Python 3.12:
 
 ```text
 python research/verify_raar_circles.py --root results/raar-circles --assets docs/assets --output NEW_PACKET_REVIEW.json
-python research/build_raar_manuscript.py --output NEW_BUILD_DIRECTORY/manuscript.pdf
-python research/audit_raar_manuscript.py
 ```
 
-The authoring environment uses NumPy 2.5.4, SciPy 1.18.1, Numba 0.68.1, Matplotlib 3.11.2, Pillow 13.0.0, ReportLab 4.5.1 and pypdf 6.21.4. The certificate environment uses mpmath 1.3.0 and SymPy 1.14.0. Rendering review uses Poppler at 110 dpi. The audit checks the checked-in manuscript and its manifest; a new build writes its own build record and figure directory.
+The numerical environment uses NumPy 2.5.4, SciPy 1.18.1, Numba 0.68.1, Matplotlib 3.11.2 and Pillow 13.0.0. The certificate environment uses mpmath 1.3.0 and SymPy 1.14.0.
 
 ```text
 python research/certify_raar_fixed_points.py --input results/raar-circles/fixed-proof/input.json --out NEW_CERTIFICATE_DIRECTORY
@@ -38,4 +36,6 @@ python research/check_raar_upstream.py --source results/raar-circles/scout/scree
 
 Use new output directories: calculation scripts refuse to overwrite existing runs. Source snapshots and complete protocols accompany the arrays. Exact parameter values are stored in the arrays and certificate input; printed decimals are shortened.
 
-The [packet manifest](../../results/raar-circles/manifest.json) covers the evidence. This folder's manifest covers the manuscript, editable content, figures, source provenance and review record. Original third-party source is retained with its license; publication PDFs are linked rather than redistributed. The Borwein et al. article has a 2017 online DOI record and a 2018 journal-volume citation, 26:385–403; the manuscript uses the latter.
+The [packet manifest](../../results/raar-circles/manifest.json) covers the evidence. Original third-party source is retained with its license; publication PDFs are linked rather than redistributed. The Borwein et al. article has a 2017 online DOI record and a 2018 journal-volume citation, 26:385–403; the manuscript uses the latter.
+
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.

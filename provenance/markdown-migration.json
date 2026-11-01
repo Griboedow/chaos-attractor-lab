@@ -1,0 +1,280 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+  "method": "Eight ReportLab story streams captured before layout; one Pandoc LaTeX AST converted with explicit citations, anchors, figures, tables and literal paths. No OCR or prose summarization.",
+  "editorial_changes": [
+    "PDF links now point to Markdown or PNG.",
+    "Former build instructions replaced by direct Markdown editing instructions.",
+    "LaTeX equation and citation references made explicit; display equations isolated for GitHub.",
+    "Historical article manifest and review scopes explicitly retained.",
+    "Primary manuscript portraits show first-recorded Git drawing dates; original image bytes are unchanged."
+  ],
+  "validation": {
+    "structured_manuscripts": [
+      {
+        "paper": "yogi-memory",
+        "all_source_blocks_preserved": 137
+      },
+      {
+        "paper": "rk23-controller",
+        "all_source_blocks_preserved": 100
+      },
+      {
+        "paper": "rk45-controller",
+        "all_source_blocks_preserved": 101
+      },
+      {
+        "paper": "raar-circles",
+        "all_source_blocks_preserved": 111
+      },
+      {
+        "paper": "raar-cycle-structure",
+        "all_source_blocks_preserved": 54
+      },
+      {
+        "paper": "raar-folding",
+        "all_source_blocks_preserved": 62
+      },
+      {
+        "paper": "raar-symbolic-dynamics",
+        "all_source_blocks_preserved": 61
+      },
+      {
+        "paper": "raar-trapping",
+        "all_source_blocks_preserved": 58
+      }
+    ],
+    "replication_math_nodes": 189,
+    "replication_literal_paths": [
+      "chaos-attractor-lab",
+      "papers/replication-instability",
+      "results/motor-five-cycle-proof/recheck-01.json",
+      "results/motor-replication-article/reintegration-640.json",
+      "results/motor-replication-article/exact-index-recheck.json",
+      "results/motor-replication-article/nonlinear/"
+    ],
+    "input_pdf_pages_visually_inspected": [
+      "replication-instability:3",
+      "raar-trapping:2"
+    ],
+    "scope": "Transfer and format verification, not a new scientific proof or independent recalculation.",
+    "replication_prose_check": "All source prose word counts retained after excluding explicit internal reference labels and the documented replacement of vector PDF with SVG/PNG availability.",
+    "math_syntax": {
+      "parser": "KaTeX 0.16.22",
+      "expressions": 284,
+      "failures": []
+    },
+    "archive_check": {
+      "git_blob_hashes_verified": 112,
+      "sample_packet": "results/raar-trapping",
+      "sample_manifest_entries_verified": 642,
+      "materialization": "Reconstructed read paths on D:, without restoring PDFs into the working tree."
+    },
+    "browser_review": "Not performed; math was parsed and rendered to HTML strings locally with KaTeX, not inspected in GitHub browser playback."
+  },
+  "manuscripts": [
+    {
+      "paper": "yogi-memory",
+      "source_pdf_sha256": "e8e4dcc8109c465f6675134d32ed988150d3b802e81d15e9a59326b4e9f0fcd2",
+      "source_text_sha256": "b18b7a88781894f18a486987f6f6ffa15a3e628126b900b9bb98fb45176d3d57",
+      "builder_sha256": "96cf8b294374798a147fbda761bebfde0e2d2db0211abede9e0e85d8b65af4c2",
+      "pdf_pages": 11,
+      "markdown_sha256": "a81d1d8d771bdaf07a29361f1c72c6467c071f180a6b53490e8bed7f5f6c0f09",
+      "blocks": {
+        "title": 1,
+        "subtitle": 1,
+        "meta": 1,
+        "h2": 13,
+        "body": 65,
+        "figure": 2,
+        "caption": 6,
+        "h1": 10,
+        "equation": 24,
+        "table": 5,
+        "code": 1,
+        "ref": 8
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 137
+    },
+    {
+      "paper": "rk23-controller",
+      "source_pdf_sha256": "df966a6c70d8b5155b5de9b63208e98285ce3ea90568921b1a45013aad28801c",
+      "source_text_sha256": "d9b3ec5f4afdcc5d67a07d5353f87af757f66e7f08bd51d1e232ea52b4b948c2",
+      "builder_sha256": "fd7a39560476b04636b39fa2242cca2625c6b4205f23813b984463b570060583",
+      "pdf_pages": 11,
+      "markdown_sha256": "0e70be26ab69fa95da63da25ac9f63a2bd741e4c205dd302c83bccf4d344a7f5",
+      "blocks": {
+        "title": 1,
+        "subtitle": 1,
+        "meta": 2,
+        "h2": 9,
+        "body": 41,
+        "figure": 4,
+        "caption": 4,
+        "h1": 10,
+        "equation": 13,
+        "table": 6,
+        "ref": 9
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 100
+    },
+    {
+      "paper": "rk45-controller",
+      "source_pdf_sha256": "720e831ca40c04245ffc9562887b59322b18a8494f0b51b5f13a75d42fb2a0f7",
+      "source_text_sha256": "44a6cb626124086bbea65daff087cb492aff555631608c06cdf9a144a0bcaab7",
+      "builder_sha256": "8c09c82dff77a57a8b5284fcfeda33dc47e377d83d9e6a88a3d8f23acea510d5",
+      "pdf_pages": 10,
+      "markdown_sha256": "5f27b4519c6b7b671ec6a12b7dea08437ba36f986efeffabb8e9dda6ffdbf825",
+      "blocks": {
+        "title": 1,
+        "subtitle": 1,
+        "meta": 2,
+        "h2": 7,
+        "body": 43,
+        "figure": 4,
+        "caption": 4,
+        "h1": 9,
+        "equation": 14,
+        "table": 8,
+        "ref": 8
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 101
+    },
+    {
+      "paper": "raar-circles",
+      "source_pdf_sha256": "cdb40b3f877f76f78076b5562f1c5b2bd2565ef1337bf47abe7c1933521493d9",
+      "source_text_sha256": "6d86ad7504d2fcd7150e412d4b48d29c00212e3941d3657893f2e4908bf54f25",
+      "builder_sha256": "a348eba95a020cbd77ea74450a6b7e3e8d2c0b5a36f59777358bcc259c6c0dc6",
+      "pdf_pages": 12,
+      "markdown_sha256": "1316c5843bcd3c44b1fae35949b3faa3eff44cc7e4620b024f34c0cd269cfec1",
+      "blocks": {
+        "title": 1,
+        "subtitle": 1,
+        "meta": 1,
+        "h2": 6,
+        "body": 44,
+        "figure": 6,
+        "caption": 6,
+        "h1": 11,
+        "equation": 17,
+        "table": 9,
+        "ref": 9
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 111
+    },
+    {
+      "paper": "raar-cycle-structure",
+      "source_pdf_sha256": "20436d32f52bdda7f89abc455eef3bfc36136fda143618ce2531d0bab508c296",
+      "source_text_sha256": "3bff21e8c12ab1f29f779881b1c028522aad78d48416351d55dd495ae564e1d1",
+      "builder_sha256": "a2aac57f2aeed4841b1ebf1895fd65b6fd31bbcedd94c4779c4f6d29f81aa1dc",
+      "pdf_pages": 6,
+      "markdown_sha256": "7ab81b3768dc02eca8b9f22c520a6181e77bc0bd8f17d8077add2ee9beed3d54",
+      "blocks": {
+        "title": 1,
+        "meta": 1,
+        "body": 23,
+        "figure": 3,
+        "caption": 3,
+        "h1": 5,
+        "equation": 6,
+        "h2": 3,
+        "table": 2,
+        "ref": 7
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 54
+    },
+    {
+      "paper": "raar-folding",
+      "source_pdf_sha256": "d57298a81793105772b9631a9cb3ba0015b6325943a6cfe523a9e741811eeae2",
+      "source_text_sha256": "7985ece8e435b8df570448e6e182761ab6a542e3ddffaf84a894d0a39fd5c859",
+      "builder_sha256": "7751d592db8fcfb5d52b2a94a406ef50e1a16a26d60a13a9f9625479681ecddd",
+      "pdf_pages": 7,
+      "markdown_sha256": "24907a17333fbbc1ca4e7a1fd6b054453b3c71dc8fb6f14366a102fb65132678",
+      "blocks": {
+        "title": 1,
+        "meta": 1,
+        "body": 28,
+        "figure": 5,
+        "caption": 5,
+        "h1": 6,
+        "table": 1,
+        "equation": 7,
+        "h2": 1,
+        "ref": 7
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 62
+    },
+    {
+      "paper": "raar-symbolic-dynamics",
+      "source_pdf_sha256": "51eafc4651799532cebc2acab5f1d49ab1325afc0d5ce6c17b0cc1a244fad458",
+      "source_text_sha256": "83a2ab934eda3b048ca5d9fdeb9d988671fe5f77525733fff07b20a0a2ec7def",
+      "builder_sha256": "3ac7b46867ccb91c5a97b18786a28fae92e00475be6544b98b4af3deb1787f53",
+      "pdf_pages": 7,
+      "markdown_sha256": "62bc89a87b5923ab9600d7e4f51a7a3c57bd9aa19a3eb84cc61e7e872db7ca5f",
+      "blocks": {
+        "title": 1,
+        "meta": 1,
+        "body": 26,
+        "figure": 3,
+        "caption": 3,
+        "h1": 6,
+        "equation": 6,
+        "table": 3,
+        "h2": 5,
+        "ref": 7
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 61
+    },
+    {
+      "paper": "raar-trapping",
+      "source_pdf_sha256": "6dce97bda716317215eb5ab476d939a08ff24ea3e2e61fcefac92737d4f5741c",
+      "source_text_sha256": "d9fda1896e0cbba7b7dd9a5056752289d140a22ec5499c2e038556f36d103f07",
+      "builder_sha256": "b5119b6319ae898a45319d7877e1bf80979da90f9d29f41ce547f3ec73be0987",
+      "pdf_pages": 6,
+      "markdown_sha256": "89cfdfd7a0caf195c06b047191d8bc013b62f311db5a67777c72d3064e546ebf",
+      "blocks": {
+        "title": 1,
+        "meta": 1,
+        "body": 30,
+        "figure": 2,
+        "caption": 2,
+        "h1": 5,
+        "equation": 7,
+        "table": 2,
+        "h2": 1,
+        "ref": 7
+      },
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "verified_source_blocks": 58
+    },
+    {
+      "paper": "replication-instability",
+      "source_commit": "856ac3709801b0e42bb796e55c0e4fc2d8a11e04",
+      "source_pdf_sha256": "f8dbc7b54049db89cc1d189239ba0f86f1b3265017164fa076732bfa0b5f2ea2",
+      "source_text_sha256": "10871f75ddd05bb51e3e7a240faa3489f2c90bffa94c56c79d32bed34a4a97ba",
+      "pdf_pages": 12,
+      "markdown_sha256": "6c6d5976f86a289bc7cbf0ba5257476974173926112b21c9353ce4f2a83343b6",
+      "blocks": {
+        "inline_equations": 167,
+        "source_display_equations": 22,
+        "markdown_display_equations": 23,
+        "tables": 2,
+        "figures": 3,
+        "references": 10,
+        "numbered_equations": 19,
+        "theorems": 3,
+        "proofs": 2
+      },
+      "verified_math_nodes": 189,
+      "verified_literal_code_paths": 6
+    }
+  ]
+}

@@ -1,10 +1,14 @@
 # Bounded memory and numerical hyperchaos in scalar quadratic optimization
 
-**[Research manuscript (PDF)](manuscript.pdf)** · [Editable text](content.py) · [Figures](figures/) · [Detailed experiment report](../../docs/yogi-tanh.md) · [Priority audit](../../docs/yogi-priority.md)
+**[Research manuscript (Markdown)](manuscript.md)** · [Figures](figures/) · [Detailed experiment report](../../docs/yogi-tanh.md) · [Priority audit](../../docs/yogi-priority.md)
 
-The 11-page manuscript combines a complete scalar boundedness proof with finite numerical evidence for two expanding directions in the **existing** smooth Yogi optimizer. It derives an exact local cycle-stability interval and explicitly identifies the known Adam cycle's local Jacobian equivalence.
+The manuscript combines a complete scalar boundedness proof with finite numerical evidence for two expanding directions in the **existing** smooth Yogi optimizer. It derives an exact local cycle-stability interval and explicitly identifies the known Adam cycle's local Jacobian equivalence.
 
 ![Actual smooth-Yogi states in two rigid camera views](figures/figure-1-geometry.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
 
 The left ribbon is initialization-dependent: its standard library cold start settles. The right crescent is reproduced by actual TensorFlow. The [rotation](../../docs/assets/yogi-tanh-rotation.gif) changes only the camera.
 
@@ -23,15 +27,12 @@ The algorithm, optimizer chaos on scalar quadratics, and the symmetric-cycle fam
 
 ## Reproduction
 
-The build reads the frozen results/yogi-tanh packet. It does not resimulate a selected trajectory to make the figures. Numerical plot lines and labels remain vector objects in the PDF; the visit-density portraits are raster images of exact archived histograms.
+The figures use frozen histograms and numerical summaries from `results/yogi-tanh`. The scientific verifier is:
 
-    python research/build_yogi_manuscript.py --output output/pdf/yogi-memory-manuscript.pdf
-    python research/audit_yogi_manuscript.py
+```bash
+python research/verify_yogi_tanh.py --root results/yogi-tanh
+```
 
-The first command creates a review build and a figure subdirectory beside it, leaving the published packet unchanged. It requires the ordinary numerical environment plus ReportLab and pypdf. The published manuscript.pdf is a copy of the visually checked build. Its manifest and review record remain tied to that copy; a fresh build is a new review artifact.
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.
 
-The independent scientific verifier remains:
-
-    python research/verify_yogi_tanh.py --root results/yogi-tanh
-
-Every page was rendered with Poppler and inspected, including mathematical notation, table boundaries, chart labels and footers. The [review record](review.json) identifies the exact PDF and rendered-page hashes. The file manifest covers the manuscript, editable text, figures and build metadata. This is a research draft for scientific and author review, not an accepted or externally peer-reviewed publication.
+This is a research draft for scientific and author review, not an accepted or externally peer-reviewed publication.

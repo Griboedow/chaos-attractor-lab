@@ -1,10 +1,14 @@
 # Tolerance-scale geometry and numerical hyperchaos in an adaptive Runge-Kutta solver
 
-**[Research manuscript (PDF)](manuscript.pdf)** · [Editable text](content.py) · [Figures](figures/) · [Detailed experiment report](../../docs/rk23-oscillator.md) · [Priority audit](../../docs/rk23-priority.md)
+**[Research manuscript (Markdown)](manuscript.md)** · [Figures](figures/) · [Detailed experiment report](../../docs/rk23-oscillator.md) · [Priority audit](../../docs/rk23-priority.md)
 
-The 11-page research manuscript studies intricate accepted-step dynamics in the **existing standard RK23 solver** applied to a stable linear spring. The physical solution decays. The displayed geometry belongs to the numerical algorithm's position, velocity and proposed step.
+The research manuscript studies intricate accepted-step dynamics in the **existing standard RK23 solver** applied to a stable linear spring. The physical solution decays. The displayed geometry belongs to the numerical algorithm's position, velocity and proposed step.
 
 ![Actual RK23 accepted-step states](figures/figure-1-geometry.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
 
 The [rotating view](../../docs/assets/rk23-oscillator-rotation.gif) changes only the camera. All plotted points are actual recorded states, with equal spatial units. The paper also shows how 32,768 initial states per case approach the sampled clouds.
 
@@ -23,14 +27,13 @@ Adaptive-controller instability, tolerance-scale oscillation and error-norm depe
 
 ## Reproduction
 
-The build reads the frozen results/rk23-controller packet; it does not rerun a trajectory to obtain the figures. Plot lines and labels are vector PDF objects. Density portraits and dense approach clouds are raster layers derived from the archived data.
+The figures use archived accepted states, density histograms and numerical summaries. Audit the scientific packet and independently recompute the exact polynomial checks with SymPy:
 
-    python research/build_rk23_manuscript.py --output output/pdf/rk23-controller-manuscript.pdf
-    python research/audit_rk23_manuscript.py
-    python research/verify_rk23_controller.py --root results/rk23-controller --assets docs/assets
+```bash
+python research/verify_rk23_controller.py --root results/rk23-controller --assets docs/assets
+python research/audit_rk23_structure.py --out output/rk23-structure-audit.json
+```
 
-The first command creates a new review artifact and figure directory beside it. The latter commands audit the publication copy and frozen scientific packet. Building requires the numerical environment plus ReportLab and pypdf. The independent exact-symbolic check uses SymPy:
+The complete text is edited directly in [manuscript.md](manuscript.md). Run `python tools/check_manuscripts.py` after editing. The original build, review and manifest records describe the historical publication edition; see [editing and archive instructions](../../docs/manuscript-editing.md). Frozen numerical verifiers may require the explicitly restored files described there.
 
-    python research/audit_rk23_structure.py --out output/rk23-structure-audit.json
-
-Every manuscript page was rendered and visually inspected. The [review record](review.json) identifies the checked PDF and rendered-page hashes. Numerical claims were compared with the retained arrays, including weaker outcomes. The manifest covers the PDF, editable text, figures and build/review metadata. This is a research draft for author and scientific review, not an externally peer-reviewed publication.
+This is a research draft for author and scientific review, not an externally peer-reviewed publication.

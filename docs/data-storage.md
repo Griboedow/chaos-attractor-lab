@@ -92,3 +92,11 @@ Run `python tools/check_data_storage.py` before publishing. The normal
 `python tools/check_portraits.py` checks published assets and recorded input
 hashes without requiring cached arrays; `--with-data` also recomputes the
 numerical rendering checks.
+
+## Historical publication artifacts
+
+Articles are now edited as Markdown. PDF manuscripts and figure exports have been
+removed from the current tree; PNG figures and numerical evidence remain. Frozen
+packet manifests retain their original hashes. See [manuscript editing and archive
+restoration](manuscript-editing.md) before replaying a verifier that requires the
+original publication file inventory.
