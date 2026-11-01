@@ -1,0 +1,27 @@
+{
+  "exact_controls": {
+    "cases": 1024,
+    "yogi_branches": {
+      "-1": 194,
+      "0": 342,
+      "1": 488
+    },
+    "arithmetic": "fractions.Fraction; all asserted identities exact"
+  },
+  "finite_stress": {
+    "cases": 384,
+    "steps": 100000,
+    "kinds": [
+      "Yogi",
+      "Adam",
+      "Adamax"
+    ],
+    "corrected": [
+      false,
+      true
+    ],
+    "nonzero_initial_memories": true,
+    "max_floor_residual": 0.0
+  },
+  "scope": "Implementation controls, not a substitute for the first-exit proof. Large explicit bounds are stored as natural logarithms to avoid overflow."
+}

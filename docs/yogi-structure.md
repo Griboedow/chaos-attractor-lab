@@ -22,7 +22,7 @@ The first inequality is already used in the original paper's Appendix B. For the
 
 The reflection `R(x,m,v)=(-x,-m,v)` commutes with the update. Reflected lobes or cold-start pairs must therefore not be counted as unrelated discoveries.
 
-Away from the switching surface and `V=0`, first replace `(m,v)` by `(M,V)` while holding `x` fixed. This triangular transformation has determinant `b`. Then replace `x` by `x-M/(sqrt(V)+e)` while holding `M,V` fixed; that shear has determinant1. Thus `det DF=b` on every smooth branch. This is a local volume contraction, not a global attraction or boundedness theorem.
+Away from the switching surface and `V=0`, first replace `(m,v)` by `(M,V)` while holding `x` fixed. This triangular transformation has determinant `b`. Then replace `x` by `x-M/(sqrt(V)+e)` while holding `M,V` fixed; that shear has determinant 1. Thus `det DF=b` on every smooth branch. This is a local volume contraction, not a global attraction or boundedness theorem.
 
 ## A genuine jump and overlapping inverse branches
 
@@ -70,6 +70,8 @@ Thus sufficiently large memory states are linearly stable in the two transverse 
 
 ## A bound for a restricted zero-momentum initialization
 
+**Subsequent extension.** The [scalar first-exit argument](scalar-optimizer-boundedness.md) proves boundedness for every `0<=b<1`, `0<c<1`, `e>0` and every finite initial state with `v0>=0`, including continuously bias-corrected moments. It covers the high-`b` sunburst and two-direction cases and the nonzero memories initialized by Optax. The following earlier estimate remains useful because it is much sharper when its additional hypotheses hold.
+
 Assume `m0=0`, `v0>=0`, `x0` finite, and `b<sqrt(c)`. Define
 
 ```text
@@ -86,7 +88,7 @@ abs(x_t)<=B,  abs(m_t)<=B,
 0<=v_t<=max(v0,(2-c)*B^2).
 ```
 
-The same bound holds if both moments are bias-corrected on every update, still with **zero initial first moment**. It does not cover the installed Optax release's nonzero initial first moment, nor the high-`b` sunburst and two-direction cases. It covers the paired-fan parameters.
+The same displayed bound holds if both moments are bias-corrected on every update, still with **zero initial first moment**. This sharper estimate does not cover the installed Optax release's nonzero initial first moment, nor the high-`b` sunburst and two-direction cases. It covers the paired-fan parameters; the separate general argument covers all these other cases.
 
 To prove it, write `m_{t+1}=(1-b)*sum_{k=0}^t b^k*x_{t-k}`. Positivity gives `v_{t+1}>=delta*c^k*x_{t-k}^2`. The resulting geometric-series estimate bounds each autonomous displacement by `K`; if the denominator vanishes before adding `e`, all relevant `x` terms vanish and the step is zero. With bias correction the corresponding finite sum is multiplied by
 
@@ -96,10 +98,10 @@ sqrt(1-c^(t+1))*(1-r^(t+1))/(1-b^(t+1)) <= 1,
 
 so the same step bound applies. The normalized momentum `mhat=m_{t+1}/(1-b^(t+1))` is a convex average of recent `x` values. Their separation from `x_t` is at most `k*K`; the truncated geometric distribution has mean age at most `b/(1-b)`. Therefore `abs(mhat-x_t)<=D`.
 
-For `x_t>D`, the update points left; for `x_t<-D`, it points right. If `abs(x_t)<=D`, a step can reach at most `D+K`. If an inward step crosses zero from outside this interval, its overshoot is also bounded by `K`. Induction gives the bound for `x`. The raw momentum is a weighted sum with total weight at most1, giving its bound. Finally, when `v_t>x_t^2` the second memory decreases; otherwise its next value is at most `(2-c)*B^2`.
+For `x_t>D`, the update points left; for `x_t<-D`, it points right. If `abs(x_t)<=D`, a step can reach at most `D+K`. If an inward step crosses zero from outside this interval, its overshoot is also bounded by `K`. Induction gives the bound for `x`. The raw momentum is a weighted sum with total weight at most 1, giving its bound. Finally, when `v_t>x_t^2` the second memory decreases; otherwise its next value is at most `(2-c)*B^2`.
 
 This is a scalar specialization of familiar momentum/accumulator estimates, not a priority claim. Related Adam bounds under `beta2>beta1^2` appear in [Dereich et al. (2025)](https://arxiv.org/abs/2509.10476). Their preconditioner hypotheses must be checked before applying those results to Yogi; the recurrences are not interchangeable. Our 512 finite numerical bound controls test the implementation, while the argument above supplies the mathematical statement.
 
 ## What remains unproved
 
-None of these identities proves a compact trapping region or chaotic attraction for cases 7590 or4214. They do not identify a Markov partition, a uniformly expanding bundle, a physical invariant measure, or a new topological class. In particular, two positive finite branch rates remain a numerical observation, with independent finite-separation checks as corroboration. See the [frozen structural controls](../results/yogi-geometry/structure/analysis.json) and [priority audit](yogi-priority.md).
+The general bound proves that individual trajectories remain bounded, including cases 7590 and 4214. It does not exhibit a forward-invariant trapping box or prove chaotic attraction. These results do not identify a Markov partition, a uniformly expanding bundle, a physical invariant measure, or a new topological class. In particular, two positive finite branch rates remain a numerical observation, with independent finite-separation checks as corroboration. See the [frozen structural controls](../results/yogi-geometry/structure/analysis.json) and [priority audit](yogi-priority.md).

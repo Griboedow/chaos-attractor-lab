@@ -33,9 +33,11 @@ The determinant follows by first replacing `(m,u)` with `(M,U)` and then applyin
 
 The symmetry `R(x,m,u)=(-x,-m,u)` satisfies `F R=R F`. The two sign-related halves are not separate discoveries.
 
-## Every bounded autonomous limit set lies on finitely many sheets
+## Every autonomous limit set lies on finitely many sheets
 
-**Statement.** For `e>0` and `0<c<1`, the omega-limit set of any bounded forward orbit of this autonomous map has Hausdorff dimension at most two.
+**Statement.** For `0<=b<1`, `0<c<1`, `e>0` and every finite initial state with `u0>=0`, the omega-limit set of this autonomous map has Hausdorff dimension at most two.
+
+The [scalar first-exit argument](scalar-optimizer-boundedness.md) now establishes boundedness for every such initial state, removing the separately assumed orbit bound from the original version of this statement. The geometric part of the proof is unchanged.
 
 **Proof.** Choose a finite bound `Umax` for its memory coordinate and an integer `L` satisfying `c^L Umax<e`. There cannot be `L` consecutive memory-branch updates: they would produce `u<e`, whereas every update has `u>=e`. After the initial `L` steps, every state is therefore at most `L-1` memory updates past a reset.
 
@@ -47,7 +49,7 @@ $$
 
 The extension of `G^k` to each compact patch is smooth: its denominator stays positive, at least `c^k e`. Each image is compact and is a Lipschitz image of a two-dimensional surface patch. The finite union is closed and has Hausdorff dimension at most two; it contains the omega-limit set. This proves the statement.
 
-The statement is conditional on orbit boundedness. It does not prove that an arbitrary initial state is bounded, that the limit set is chaotic, or that its dimension equals two. It also does not rule out a topological conjugacy with familiar attractors: Hausdorff dimension is not invariant under arbitrary homeomorphisms. When `e=0`, the finite-memory-age argument no longer applies.
+The boundedness argument and the geometric argument together establish the statement. They do not prove that the limit set is chaotic or that its dimension equals two. They also do not rule out a topological conjugacy with familiar attractors: Hausdorff dimension is not invariant under arbitrary homeomorphisms. When `e=0`, the finite-memory-age argument no longer applies.
 
 ## A bound for cold starts when the first memory decays faster
 
@@ -76,7 +78,7 @@ $$
 
 When `|x_(t-1)|>D`, the update points toward zero. Its magnitude is at most `K`, so an overshoot has magnitude at most `K`. Inside `[-D,D]`, the next position has magnitude at most `D+K=c/(c-b)`. Induction proves the position bound. The first-moment and maximum-memory bounds follow directly from their recurrences.
 
-This proves boundedness of the selected cold starts for 847, 239 and the standard default pair 4096. It does not cover case 4099, whose `b>c`, or arbitrary nonzero initial memories. It is not a claim that the rectangular box itself is forward invariant for every point in it. Combined with the preceding statement, it bounds the Hausdorff dimension of the corresponding autonomous cold-start limit sets by two.
+This sharper estimate proves boundedness of the selected cold starts for 847, 239 and the standard default pair 4096. It does not cover case 4099, whose `b>c`, or arbitrary nonzero initial memories; the separate general argument does. Neither estimate claims that its rectangular box is forward invariant for every point in it.
 
 ## A closed period-two branch
 

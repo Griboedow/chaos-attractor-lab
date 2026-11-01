@@ -1,6 +1,6 @@
 # Fans, a sunburst, and two expanding directions inside Yogi
 
-**Research status, 1 November 2026:** reproducible numerical candidates in a published optimizer. The most distinctive portraits are cases 44 and 7590; the strongest evidence for two expanding directions is case 4214. No new optimization algorithm, proven strange attractor, or historical uniqueness is claimed. The [priority audit](yogi-priority.md) explains what is already known and what remains open.
+**Research status, 1 November 2026:** reproducible numerical candidates in a published optimizer. In this initial packet, the most distinctive portraits are cases 44 and 7590; the strongest evidence for two expanding directions is case 4214. The [subsequent grid study](yogi-parameter-plane.md) adds a feathered arc and a stronger two-direction candidate. No new optimization algorithm, proven strange attractor, or historical uniqueness is claimed. The [priority audit](yogi-priority.md) explains what is already known and what remains open.
 
 ![Two fixed Yogi state clouds viewed by a rotating camera](assets/yogi-rotation.gif)
 
@@ -20,7 +20,7 @@ X = x - M/(sqrt(V) + e)
 
 The displayed paper algorithm has no bias correction. Our actual-library check separately uses Optax's bias correction on every step. The normalized third coordinate uses a different dimensional factor from the first two; this is declared model normalization. After that choice, all views use only translations, proper orthogonal rotations, and a common spatial scale within a panel. There is no `sqrt(v)` display transform, independent axis stretching, smoothing, or interpolation between points. Brightness represents logarithmic visit density.
 
-The map is discontinuous at `v=x^2` for nonzero `x`. This matters both dynamically and numerically: infinitesimal branch derivatives do not measure finite jumps across that surface. The [structure note](yogi-structure.md) derives the branch determinant, inverse overlap, fixed line, and a restricted boundedness result. The question is whether this particular memory update supports persistent, unusual attracting dynamics, and whether those dynamics have already been described in another language.
+The map is discontinuous at `v=x^2` for nonzero `x`. This matters both dynamically and numerically: infinitesimal branch derivatives do not measure finite jumps across that surface. The [structure note](yogi-structure.md) derives the branch determinant, inverse overlap and fixed line. A subsequent [scalar first-exit proof](scalar-optimizer-boundedness.md) establishes boundedness for every legal finite initial state and all the stated memory parameters, including bias correction. The question is whether this particular memory update supports persistent, unusual attracting dynamics, and whether those dynamics have already been described in another language.
 
 ## Selected observations
 
@@ -33,7 +33,7 @@ All four principal autonomous runs start at `(x,m,v)=(0.73,0,0)`, discard 100,00
 | 4214 / two-direction candidate | `(0.9674843403231352, 0.2785769798150225, 9.301461332493893e-5)` | `(+0.049422, +0.009733, -0.092211)` | `+0.046433 / +0.007004` |
 | 5174 / weaker second-direction evidence | `(0.9405664966907352, 0.12412327756728203, 3.9831923199035055e-6)` | `(+0.098622, +0.002916, -0.162811)` | `+0.095072 / -0.000714` |
 
-Exact values, all windows, the last100,000 states, switching margins, and return residuals are in the [frozen packet](../results/yogi-geometry/README.txt). Case 4214 has two positive rates in all 100 windows. Case 5174 does not pass that stronger condition. No selected tail closes at a lag of 1–128 under the declared tolerance. Finite tests cannot exclude a very long transient or a longer period.
+Exact values, all windows, the last 100,000 states, switching margins, and return residuals are in the [frozen packet](../results/yogi-geometry/README.txt). Case 4214 has two positive rates in all 100 windows. Case 5174 does not pass that stronger condition. No selected tail closes at a lag of 1–128 under the declared tolerance. Finite tests cannot exclude a very long transient or a longer period.
 
 ![Yogi4214 geometry and independent expansion evidence](assets/yogi-two-directions.png)
 
@@ -41,11 +41,11 @@ The identity `det DF=b` on each smooth branch supplies a separate implementation
 
 ## Independent numerical controls
 
-An independent scalar recurrence, without importing the production map or analytic Jacobian, evolves two nearby trajectories at 70 and 90 decimal digits. It uses two orthogonalized finite-separation directions, separations `1e-30` and `1e-40`,100,000 warmup steps,5,000 alignment steps, and 100,000 observed steps. Case 4214's second means are `+0.009258` and `+0.010796`; all ten10,000-step windows are positive, with minima `+0.005860` and `+0.009244`. Cases 44 and 7590 retain positive leading growth at both precisions. Case 5174 again has mixed-sign second windows.
+An independent scalar recurrence, without importing the production map or analytic Jacobian, evolves two nearby trajectories at 70 and 90 decimal digits. It uses two orthogonalized finite-separation directions, separations `1e-30` and `1e-40`, 100,000 warmup steps, 5,000 alignment steps, and 100,000 observed steps. Case 4214's second means are `+0.009258` and `+0.010796`; all ten 10,000-step windows are positive, with minima `+0.005860` and `+0.009244`. Cases 44 and 7590 retain positive leading growth at both precisions. Case 5174 again has mixed-sign second windows.
 
-The actual Optax0.2.8/JAX0.12.0.1 implementation was run on CPU with 64-bit arithmetic, the original scalar objective, and continuous bias correction. Its installed release initializes **both** memories to `1e-6`; the separately inspected main-branch implementation initializes the first memory to zero. We read the installed state rather than assuming these versions are identical. The first20 steps match an independent reference to `4.54e-15`.
+The actual Optax 0.2.8/JAX 0.12.0.1 implementation was run on CPU with 64-bit arithmetic, the original scalar objective, and continuous bias correction. Its installed release initializes **both** memories to `1e-6`; the separately inspected main-branch implementation initializes the first memory to zero. We read the installed state rather than assuming these versions are identical. The first 20 steps match an independent reference to `4.54e-15`.
 
-After 100,000 library warmup steps,200,000 actual states were retained. The tangent analysis uses 10,000 for alignment and 190,000 for 19 windows. Case 4214 gives `(+0.049637,+0.009554,-0.092247)`, but **one second-direction window is negative**, reaching `-0.000586`. The sunburst parameters retain leading growth `+0.294712`. Case 44 instead settles to the fixed line under this library initialization. That outcome is retained; the paired fans are not advertised as a universal cold-start library result. All checked autonomous one-step residuals along the late library histories are below `5.8e-16`.
+After 100,000 library warmup steps, 200,000 actual states were retained. The tangent analysis uses 10,000 for alignment and 190,000 for 19 windows. Case 4214 gives `(+0.049637,+0.009554,-0.092247)`, but **one second-direction window is negative**, reaching `-0.000586`. The sunburst parameters retain leading growth `+0.294712`. Case 44 instead settles to the fixed line under this library initialization. That outcome is retained; the paired fans are not advertised as a universal cold-start library result. All checked autonomous one-step residuals along the late library histories are below `5.8e-16`.
 
 The original library-reference attempt failed its initial-state assertion before the long calculation. An initial tangent analysis also used a coordinate-aligned frame that gave misleading ordering on the fixed line. Both attempts and the corrections are archived. The accepted analysis starts from a generic orthogonal frame and checks fixed-line rates against the exact linear eigenvalues.
 
@@ -57,24 +57,24 @@ The visually selected scout case 7591 shares case 7590's parameters but starts w
 v0 - x0^2 = -4.4764192352886312...e-17 < 0.
 ```
 
-The two interpretations therefore take different first branches of a discontinuous map. Exact promotion of the stored point settles to a fixed state at both70 and 90 digits. Explicitly defining `v0=x0*x0` at the working precision restores positive leading means `+0.299067` and `+0.297774`. These are distinct specifications of an initial condition, not numerical disagreement about the same exact real point.
+The two interpretations therefore take different first branches of a discontinuous map. Exact promotion of the stored point settles to a fixed state at both 70 and 90 digits. Explicitly defining `v0=x0*x0` at the working precision restores positive leading means `+0.299067` and `+0.297774`. These are distinct specifications of an initial condition, not numerical disagreement about the same exact real point.
 
 The published sunburst anchor is consequently **case 7590 with zero initial memory**, which passes both precision checks and its own five-million-step run. The exact rational margin, both interpretations of 7591, and the negative outcomes remain in the packet. This example is a reason to retain failed checks, not to silently replace them with a successful image.
 
 ## Selection, other starts, and competing outcomes
 
-The scout contains 8,202 runs:4,096 Sobol parameter rows and five controls, each with zero-memory and squared-gradient-memory starts. It uses 10,000 warmup and 20,000 observed steps, split into four windows. The selection rule requires every leading window above 0.005, visible tail extent, and no return at lags1–32. It flags 268 histories;7,901 histories already have near-zero parameter/momentum tails. All 268 flags were continued for one million steps:266 retain the finite screening rule, while135 and 4454 collapse. These counts are not counts of distinct attractors.
+The scout contains 8,202 runs: 4,096 Sobol parameter rows and five controls, each with zero-memory and squared-gradient-memory starts. It uses 10,000 warmup and 20,000 observed steps, split into four windows. The selection rule requires every leading window above 0.005, visible tail extent, and no return at lags 1–32. It flags 268 histories; 7,901 histories already have near-zero parameter/momentum tails. All 268 flags were continued for one million steps: 266 retain the finite screening rule, while 135 and 4454 collapse. These counts are not counts of distinct attractors.
 
-A24-case gallery was selected for finite geometric diversity, then inspected visually; eight rigid views of each shortlisted portrait were retained. Four candidates received472 declared robustness runs, each with 100,000 warmup and 200,000 observed steps:
+A 24-case gallery was selected for finite geometric diversity, then inspected visually; eight rigid views of each shortlisted portrait were retained. Four candidates received 472 declared robustness runs, each with 100,000 warmup and 200,000 observed steps:
 
-| Case | Positive leading growth:22 cold starts | 32 nearby settings | 64 full-state box starts | Two-positive-direction passes in those groups |
+| Case | Positive leading growth: 22 cold starts | 32 nearby settings | 64 full-state box starts | Two-positive-direction passes in those groups |
 |---|---:|---:|---:|---|
 | 44 | 14 | 17 | 29 | `0 / 0 / 0` |
 | 7590 | 22 | 31 | 48 | `0 / 0 / 0` |
 | 4214 | 22 | 32 | 62 | `22 / 32 / 62` |
 | 5174 | 22 | 32 | 57 | `16 / 19 / 34` |
 
-Cold starts use `m=v=0` and signed amplitudes from `1e-6` through 100, plus `±0.73`; reflected pairs are symmetry-related. Nearby settings multiply `(1-b,1-c,e)` by factors between approximately0.98 and 1.02. Box starts sample the full observed three-dimensional bounding box expanded10%, with positive lower `v`. The second-direction rule additionally requires every 50,000-step second rate above 0.001. All runs finish; every detected periodic outcome is period1. One nearby case 44 run is neither a detected fixed state nor a positive-rule pass. The table reports this finite design, not basin probabilities or a proven open hyperchaotic region.
+Cold starts use `m=v=0` and signed amplitudes from `1e-6` through 100, plus `±0.73`; reflected pairs are symmetry-related. Nearby settings multiply `(1-b,1-c,e)` by factors between approximately 0.98 and 1.02. Box starts sample the full observed three-dimensional bounding box expanded 10%, with positive lower `v`. The second-direction rule additionally requires every 50,000-step second rate above 0.001. All runs finish; every detected periodic outcome is period 1. One nearby case 44 run is neither a detected fixed state nor a positive-rule pass. The table reports this finite design, not basin probabilities or a proven open hyperchaotic region.
 
 ## What this contributes, and what it does not
 

@@ -1,0 +1,106 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-plane\\histories.npz",
+  "source_sha256": "fd813e7ae671038e41ed84829ca4b96051ced6bae79ac4fba3d5722eb4b6f426",
+  "ids": [
+    670,
+    125,
+    798,
+    28,
+    63,
+    1506
+  ],
+  "parameters": [
+    [
+      0.9806451612903226,
+      0.6006451612903226,
+      9.301461332493893e-05
+    ],
+    [
+      0.9662903225806452,
+      0.10709677419354839,
+      9.301461332493893e-05
+    ],
+    [
+      0.9806451612903226,
+      0.7167741935483871,
+      9.301461332493893e-05
+    ],
+    [
+      0.9519354838709677,
+      0.02,
+      9.301461332493893e-05
+    ],
+    [
+      0.995,
+      0.04903225806451613,
+      9.301461332493893e-05
+    ],
+    [
+      0.03693548387096774,
+      0.48548387096774187,
+      0.1
+    ]
+  ],
+  "optax_version": "0.2.8",
+  "jax_version": "0.12.0.1",
+  "numpy_version": "2.5.4",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "upstream_file_sha256": "31a15cda85d5bdc59f6fb1ae50469bc4a2e492b120dcc0b2c2777787be9461be",
+  "function_sha256": "6c6d27d506b3067df86bd0a18d428f6a03eda88ca03ab356e84e7897b0dbe5fe",
+  "alpha": 0.01,
+  "theta0": 0.0073,
+  "initial_second_moment": 1e-06,
+  "normalized_initial_state": [
+    [
+      0.73,
+      9.999999999999999e-05,
+      0.009999999999999998
+    ],
+    [
+      0.73,
+      9.999999999999999e-05,
+      0.009999999999999998
+    ],
+    [
+      0.73,
+      9.999999999999999e-05,
+      0.009999999999999998
+    ],
+    [
+      0.73,
+      9.999999999999999e-05,
+      0.009999999999999998
+    ],
+    [
+      0.73,
+      9.999999999999999e-05,
+      0.009999999999999998
+    ],
+    [
+      0.73,
+      9.999999999999999e-05,
+      0.009999999999999998
+    ]
+  ],
+  "initialization_note": "InstalledOptax0.2.8initializesbothmemories to1e-6, unlike the inspectedmainbranchfirstmoment0. The reference reads actual library initialization; no upstream modification.",
+  "epsilon": [
+    9.301461332493893e-07,
+    9.301461332493893e-07,
+    9.301461332493893e-07,
+    9.301461332493893e-07,
+    9.301461332493893e-07,
+    0.001
+  ],
+  "warm": 100000,
+  "observed": 200000,
+  "implementation": "Actual optax.yogi; jax_enable_x64=True; CPU; continuously bias-corrected throughout; gradient exactly theta for f(theta)=theta^2/2.",
+  "first20_max_scaled_state_error": [
+    3.3306690738754696e-16,
+    2.609024107869118e-15,
+    4.996003610813204e-16,
+    6.522560269672795e-16,
+    3.885780586188048e-16,
+    2.220446049250313e-16
+  ],
+  "scope": "Library control uses its default initial accumulator, which differs from both autonomous scout starts. Basin outcomes may differ."
+}

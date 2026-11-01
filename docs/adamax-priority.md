@@ -15,6 +15,8 @@ Audit date: 1 November 2026. **The displayed crown and serrated wings are well-s
 
 The 2026 RMSProp paper was submitted on 21 October 2026 and is especially relevant to any manuscript written now. This audit reads more than its abstract; the earlier AdaBelief report's abstract-only caveat remains accurate for that earlier packet.
 
+Additional thesis check: [Sebastian Bock's dissertation (repository year 2024)](https://epub.uni-regensburg.de/58326/), Chapter 5, explicitly excludes AdaMax extensions from its analysis. Selected optimizer sections and the Adam portrait figures were inspected; the [inspection record](../results/optimizer-priority-followup/bock-2024.json) preserves the scope. This narrows one bibliographic gap without establishing priority.
+
 ## Equivalent terms and established maximum maps
 
 The search also covered `AdaMax`/`AdamMax`, non-convergence, recurrent instability, limit cycles, bifurcations, Lyapunov exponents, maximum-memory recurrences, max-type difference equations, generalized Lyness equations and Lozi maps. It did not identify a direct published match to the displayed scalar Adamax candidates in the retrieved material. A missing search hit is not evidence of historical absence. The search is bounded, and a complete citation graph, thesis search and mathematical classification remain open.

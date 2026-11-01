@@ -1,0 +1,52 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-plane\\histories.npz",
+  "sha256": "fd813e7ae671038e41ed84829ca4b96051ced6bae79ac4fba3d5722eb4b6f426",
+  "ids": [
+    670,
+    798,
+    28,
+    125,
+    63,
+    1506
+  ],
+  "selection": "Explicit source-row indices supplied by the caller. Refer to the source search and selection records; grid IDs and original scout IDs are separate namespaces.",
+  "starts": [
+    [
+      0.73,
+      0.0,
+      0.0
+    ],
+    [
+      0.73,
+      0.0,
+      0.0
+    ],
+    [
+      0.73,
+      0.0,
+      0.0
+    ],
+    [
+      0.73,
+      0.0,
+      0.0
+    ],
+    [
+      0.73,
+      0.0,
+      0.0
+    ],
+    [
+      0.73,
+      0.0,
+      0.0
+    ]
+  ],
+  "bias_corrected_warmup": false,
+  "warmup": 100000,
+  "observed": 5000000,
+  "window": 50000,
+  "tail": 100000,
+  "tangent": "Full3D branch derivative, repeated modified Gram-Schmidt each step; determinant beta1 supplies an independent sum check.",
+  "scope": "The map is discontinuous at v=x^2. Finite branch derivative estimates do not prove asymptotic chaotic attraction or historical novelty."
+}

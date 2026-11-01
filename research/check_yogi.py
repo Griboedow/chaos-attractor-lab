@@ -11,7 +11,7 @@ def main(args):
     d=np.load(args.source);ids=np.array(args.ids,dtype=int);parameters=d['parameters'][ids];starts=d['starts'][ids].copy()
     if args.initial_v is not None:starts[:,2]=args.initial_v
     protocol=dict(source=str(args.source),sha256=hashlib.sha256(args.source.read_bytes()).hexdigest(),ids=ids.tolist(),
-        selection='Visually selected cases44,2220,7591,5174,4214,7158; known later-collapse control4454 and default-pair controls8192/8194.',
+        selection='Explicit source-row indices supplied by the caller. Refer to the source search and selection records; grid IDs and original scout IDs are separate namespaces.',
         starts=starts.tolist(),bias_corrected_warmup=args.bias_warm,warmup=100000,observed=args.observed,window=50000,tail=100000,
         tangent='Full3D branch derivative, repeated modified Gram-Schmidt each step; determinant beta1 supplies an independent sum check.',
         scope='The map is discontinuous at v=x^2. Finite branch derivative estimates do not prove asymptotic chaotic attraction or historical novelty.')

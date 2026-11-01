@@ -2,11 +2,13 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
-**[Yogi: paired fans, a sunburst, and two expanding directions](docs/yogi-geometry.md).** A published optimizer on a scalar quadratic produces intricate full-state geometry. A separate candidate retains two positive branch growth rates across all 100 windows of a five-million-step run, corroborated by independent 70/90-digit calculations and an actual Optax run. Competing fixed outcomes and a precision-sensitive initialization at the map's discontinuity are retained. These are numerical regimes in a known map; historical uniqueness and asymptotic chaotic attraction remain unresolved.
+**[Yogi: a feathered arc and stronger two-direction expansion](docs/yogi-parameter-plane.md).** A new 2,048-setting grid finds a thin arc of repeated fans inside a published scalar-quadratic optimizer. A separate candidate retains two positive branch rates in all 100 windows of a five-million-step run, all independent 70/90-digit windows, and all actual Optax windows. The full grid, competing fixed outcomes and weaker continuations are retained. Historical uniqueness and asymptotic chaotic attraction remain unresolved.
 
-![Two fixed Yogi state clouds viewed by a rotating orthographic camera](docs/assets/yogi-rotation.gif)
+![The fixed feathered-arc Yogi state cloud viewed by a rotating orthographic camera](docs/assets/yogi-feathered-arc.gif)
 
-[Large portrait](docs/assets/yogi-geometry.png) · [Evidence for two expanding directions](docs/assets/yogi-two-directions.png) · [Mathematical structure](docs/yogi-structure.md) · [Prior-art and equivalence audit](docs/yogi-priority.md)
+[Large portrait](docs/assets/yogi-feathered-arc.png) · [Complete parameter plane](docs/assets/yogi-parameter-plane.png) · [Long-run evidence](docs/assets/yogi-grid-directions.png) · [Prior-art and equivalence audit](docs/yogi-priority.md)
+
+The [earlier paired fans and sunburst](docs/yogi-geometry.md), their [rotation](docs/assets/yogi-rotation.gif), and the precision-sensitive switch initialization remain documented. A new [scalar first-exit proof](docs/scalar-optimizer-boundedness.md) establishes boundedness for all the stated Yogi, Adam and Adamax memory parameters and finite initial states, including continuous bias correction. It does not prove chaos or historical priority.
 
 **[New visual study: crowns and serrated wings inside Adamax](docs/adamax-geometry.md).** A standard optimizer's internal memory produces intricate full-state geometries on a one-variable quadratic objective. Four-million-step checks, independent 70/90-digit calculations and actual PyTorch runs support persistent chaos. The crown passes every declared cold-start and nearby-setting check; the wings coexist with two reflected 68-cycles. These are numerical candidates in a known algorithm, with historical uniqueness unresolved.
 

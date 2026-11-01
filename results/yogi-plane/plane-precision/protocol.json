@@ -1,0 +1,20 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-plane\\histories.npz",
+  "source_sha256": "fd813e7ae671038e41ed84829ca4b96051ced6bae79ac4fba3d5722eb4b6f426",
+  "ids": [
+    670,
+    125
+  ],
+  "digits": [
+    70,
+    90
+  ],
+  "warmup": 100000,
+  "alignment": 5000,
+  "observed": 100000,
+  "window": 10000,
+  "method": "Independent scalar recurrence and two finite-separation directions; repeated Euclidean Gram-Schmidt and renormalization each step. No analytic Jacobian or production-map import.",
+  "parameter_semantics": "Exact promotion of the selected binary64 coefficients. Initial state is either exact promotion of all stored coordinates, or an explicitly requested algebraic v0=x0^2 relation evaluated at working precision.",
+  "initialization": "stored",
+  "scope": "Finite numerical evidence for leading and second growth, including discontinuity checks; not asymptotic chaos or historical uniqueness."
+}

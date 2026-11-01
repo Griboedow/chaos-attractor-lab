@@ -85,7 +85,7 @@ M = sign(old_x)*U*(U-e) - X*U.
 
 The first panel shows reset outputs; the next two show states after one and after two to four intervening memory updates. All panels use the same rigid camera and scale. Group counts partition 1,999,999 states; the first preview state has unknown reset age and is explicitly omitted.
 
-The [proof note](adamax-structure.md) gives three exact results: a cold-start bound when `beta1<beta2`; a closed period-two branch and its multipliers; and a finite-sheet description implying Hausdorff dimension at most two for any bounded autonomous omega-limit set when `e>0`. These results explain structure and constrain interpretation. They do not prove chaos or supply a historical priority theorem.
+The [proof note](adamax-structure.md) gives a closed period-two branch and its multipliers, and a finite-sheet description implying Hausdorff dimension at most two for every autonomous omega-limit set from a legal finite initial state when `e>0`. A subsequent [scalar first-exit proof](scalar-optimizer-boundedness.md) establishes boundedness for all the stated memory parameters, including case 4099 and nonzero initial memories; the earlier sharper cold-start bound remains available when `beta1<beta2`. These results explain structure and constrain interpretation. They do not prove chaos or supply a historical priority theorem.
 
 ## Negative results are part of the result
 
