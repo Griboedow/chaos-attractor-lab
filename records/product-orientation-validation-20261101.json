@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "manifest_sha256": "b3ebea151c214468ed947da320cdd67624470306dd4a1932887f162fed7f4d9d",
+  "manifest_entries": 123,
+  "replays": [
+    {
+      "original": "product-orientation988-certificate01",
+      "replay": "product-orientation988-replay-primary",
+      "windows": 23,
+      "leaf_enclosures_bitwise_equal": 23,
+      "replay_report_sha256": "810112f5b0bc07f01afd01c26831d5fb638f1c9b7c3b26ee94dea599fdffcb2e"
+    },
+    {
+      "original": "product-orientation988-independent01",
+      "replay": "product-orientation988-replay-full",
+      "windows": 23,
+      "leaf_enclosures_bitwise_equal": 24,
+      "replay_report_sha256": "f901a563dad97b17614361f93175cda9774d0ea94bc5feb08a5ba3463fb566c7"
+    },
+    {
+      "original": "product-cycles988-certificate03",
+      "replay": "product-cycles988-replay-primary",
+      "complete_cycle_records_equal": 3,
+      "replay_report_sha256": "ce992542ee907aac349654ed51a18b98eb21c6b9c93ecbb3f7e5ec80e8c9c387"
+    },
+    {
+      "original": "product-cycles988-independent03",
+      "replay": "product-cycles988-replay-full",
+      "complete_cycle_records_equal": 3,
+      "replay_report_sha256": "1006cb418e426580c6769dc8799cb1fb8cfca7ebbec64b3f3e25d70566809199"
+    }
+  ],
+  "exact_replay_audit_sha256": "3d540c2caa32c80c93fd2c927c8dc217e5dfbbdfb4eedf93311535af3bed58a1",
+  "scope": "Replayed frozen source snapshots from retained packet inputs. All accepted orientation leaf records and short-cycle records match exactly. No optional trajectory arrays required."
+}

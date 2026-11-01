@@ -350,12 +350,30 @@ were reviewed; image retrieval failed, so no figure-level comparison is claimed.
 
 ## Remaining novelty question
 
+The [orientation extension for Case 988](product-alphabet/manuscript.md#61-a-reversed-return-and-an-equivalence-obstruction)
+adds a least-period-92 orbit with negative return determinant inside the
+certified entropy subsystem. Local degree excludes ambient-neighborhood
+topological conjugacy to orientation-constant local diffeomorphisms, including
+the standard nonsingular generalized Henon maps, and to smooth Euclidean
+flow return maps. This does not exclude intrinsic conjugacy on the invariant
+set, known noninvertible maps or alternative embeddings. Attraction and
+identification with the numerical portrait remain open.
+
+The accompanying [review receipt](../results/product-orientation/literature-review.json)
+includes three-dimensional Henon maps (2005), double/super figure-eight
+geometries (2016), four-wing flows (2009, 2020), and projected neural-network
+training on a sphere (2022). These precedents rule out novelty claims based
+only on wing count or irregular sphere-normalized optimization. The orientation
+argument is an application of established local degree, not a new general
+criterion invented here.
+
 Search terms included Gaussian mean shift, mean update, MMSE denoisers,
 nonconvex proximal maps, plug-and-play DRS/ADMM, soft-projection RAAR,
 soft quantization, softmax/Hopfield memory, and chaotic reflected dynamics.
 The reviewed sources do not establish that our particular parameters and
 portraits were previously published. They also do not establish that they
 were not. Unread full bodies, other parameter regimes, nonlinear changes
-of coordinates, return maps and symbolic equivalence remain open.
+of coordinates outside the excluded neighborhood classes, other return models
+and symbolic equivalence remain open.
 The finite 108-regime geometry comparison is a separate diagnostic, not
 a substitute for these equivalence questions.

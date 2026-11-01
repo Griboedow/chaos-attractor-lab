@@ -1,0 +1,35 @@
+{
+  "status": "not_closed",
+  "reason": "New-cell budget exceeded",
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-alphabet-dense01\\case-988-states.npz",
+  "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8",
+  "source_code_sha256": "6423a266366fd5d1a91bc7cec0644ef0bb7e29c305052ec778cb4b950f8f6cc8",
+  "step": 0.0009765625,
+  "slack": 1e-08,
+  "curvature": 2.0,
+  "initial_pad": 0,
+  "domain_pad": 0.2,
+  "require_alternation": false,
+  "shape": [
+    1065,
+    1068,
+    1147
+  ],
+  "initial_occupied": 451348,
+  "final_occupied": 8451492,
+  "failing_key": 533579167,
+  "history": [
+    {
+      "generation": 0,
+      "sources": 451348,
+      "processed": 169494,
+      "added": 8000144,
+      "status": 3,
+      "minimum_sampled_radius": 1.1063916490200767,
+      "minimum_sampled_enclosure_flip_margin": -0.3362067261674226,
+      "maximum_sampled_remainder": 0.013970095324906616,
+      "seconds": 33.855387926101685
+    }
+  ],
+  "scope": "Sampled closure proposal only. Corner residual inflation is not a rigorous remainder bound. No proof of trapping, alternation, chaos, attraction, or novelty."
+}

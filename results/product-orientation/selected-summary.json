@@ -1,0 +1,103 @@
+{
+  "status": "certified",
+  "case": 988,
+  "period": 92,
+  "negative_G_windows": [
+    4,
+    5,
+    6
+  ],
+  "G": "F^4",
+  "input_sha256": "d9187b678b84290dc111df6751b44109255bd1ec23f8e9163a13569437585eb2",
+  "audit_sha256": "d1ab6d5355b232098d0842cc7ab55f0deb08adb68c3946884ad8aa1327663615",
+  "determinant_outer_bounds": [
+    [
+      -3198898,
+      -173698
+    ],
+    [
+      -5197901,
+      -198607
+    ]
+  ],
+  "orientation_cells": [
+    23,
+    24
+  ],
+  "minimum_radius": 2.3799351858255564,
+  "short_cycles": [
+    {
+      "id": 14,
+      "period": 4,
+      "contraction": 7.43357704990193e-53,
+      "in_window_zero": true,
+      "multipliers": [
+        [
+          -11.461428196186182,
+          -11.461428196186182
+        ],
+        [
+          -0.6595161798930037,
+          -0.6595161798930037
+        ],
+        [
+          0.30644260393442185,
+          0.30644260393442185
+        ]
+      ],
+      "determinant": [
+        2.316398828023399,
+        2.316398828023399
+      ]
+    },
+    {
+      "id": 16,
+      "period": 4,
+      "contraction": 1.5700103962126023e-50,
+      "in_window_zero": false,
+      "multipliers": [
+        [
+          -0.7302525390821096,
+          -0.7302525390821096
+        ],
+        [
+          0.216136148036423,
+          0.216136148036423
+        ],
+        [
+          57.708792334517554,
+          57.708792334517554
+        ]
+      ],
+      "determinant": [
+        -9.108407849482429,
+        -9.108407849482429
+      ]
+    },
+    {
+      "id": 23,
+      "period": 7,
+      "contraction": 3.080102513082495e-50,
+      "in_window_zero": false,
+      "multipliers": [
+        [
+          -0.11247102988785017,
+          -0.11247102988785017
+        ],
+        [
+          0.051387570797426625,
+          0.051387570797426625
+        ],
+        [
+          66.89511321256596,
+          66.89511321256596
+        ]
+      ],
+      "determinant": [
+        -0.38662786669709487,
+        -0.38662786669709487
+      ]
+    }
+  ],
+  "scope": "An orbit in the positive-entropy subsystem has least period 92 and negative return determinant. Local degree excludes ambient-neighborhood conjugacy to orientation-constant local diffeomorphisms and smooth Euclidean flow return maps. No attraction, cloud identification, intrinsic-conjugacy or historical uniqueness conclusion."
+}

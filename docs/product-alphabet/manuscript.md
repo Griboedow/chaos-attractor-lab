@@ -1,8 +1,8 @@
-# Folded wings in product-alphabet posterior-reflection maps
+# Folded wings, positive entropy and reversed returns in posterior-reflection maps
 
-**Computational research article · 2026-11-01.** Positive entropy is certified
-on a compact invariant subsystem. Chaotic attraction and historical uniqueness
-are not certified.
+**Computational research article · 2026-11-01.** A compact invariant subsystem
+has certified positive entropy and an orientation-reversing period-92 orbit.
+Chaotic attraction and historical uniqueness are not certified.
 
 ## Abstract
 
@@ -16,11 +16,16 @@ at all 33 tested starts and in independent 70- and 100-digit calculations.
 A separate interval certificate proves a compact invariant subsystem with
 topological entropy above 0.0254 per original iteration for the exact binary
 parameters. A second, full-eight-site automatic-derivative implementation
-verifies every covering relation. This subsystem is not proved attracting
+verifies every covering relation. An orientation audit places an exact
+least-period-92 orbit with negative return determinant in that subsystem.
+Local degree excludes ambient-neighborhood topological conjugacy to
+orientation-constant local diffeomorphisms, including standard three-dimensional
+Henon maps, and to smooth Euclidean flow return maps. This subsystem is not proved attracting
 or equal to the sampled cloud. A four-level companion produces layered arches
 but coexists with numerical fixed points. Complete selection records preserve periodic captures and
 precision-sensitive planar behavior. The contribution is a reproducible
-geometric study and an explicit positive-entropy certificate. Posterior means,
+geometric study, a positive-entropy certificate and a precisely scoped
+equivalence obstruction. Posterior means,
 spin responses, reflection algorithms and feedback-induced chaos are known;
 neither a new general operator nor historical priority is claimed.
 
@@ -369,11 +374,126 @@ used as invariant-manifold certificates. Early window programs failed;
 the default absolute linear-program feasibility tolerance also exceeded
 some proposed widths. Rescaling and explicit constraint checks corrected
 that numerical issue before the interval validation. Two grid-trapping
-proposals did not close. A wider, uncentered full-site interval expression
+proposals in the symbolic packet did not close. A wider, uncentered full-site interval expression
 was stopped incomplete after the algebraically centered implementation
 passed. All these outcomes and executed sources are inventoried separately
 from the frozen numerical survey. None of the unsuccessful trapping runs
 is used to claim that C attracts a neighborhood.
+
+### 6.1 A reversed return and an equivalence obstruction
+
+The separate [orientation packet](../../results/product-orientation/README.md)
+keeps the preceding certificate unchanged. On each complete window it bounds
+$`\det DG`$ by multiplying the four one-step determinants. Taking the
+determinant of an interval enclosure of the entire matrix product is also
+valid, but was substantially wider in this calculation.
+
+The factorized calculation uses 100 decimal digits and one box per window.
+The full eight-site formula uses 140 digits and forward automatic derivatives;
+it bisects only $`N_0`$. Its intermediate image boxes intersect natural
+enclosures with mean-value enclosures. Both computations prove negative
+determinants precisely on windows 4, 5 and 6, and positive determinants on
+the other twenty windows. All normalization radii exceed 2.3799.
+The 23 and 24 accepted boxes are audited using exact rational arithmetic,
+including complete partitions, binary endpoints, determinant products and
+hash links to the accepted covering certificate. The arithmetic library,
+windows and determinant-product argument are shared between implementations.
+
+![Certified orientation signs along the return excursion](../assets/diagnostics/product-alphabet-orientation.png)
+
+**Figure 4.** Each arrow represents four original iterations. The circular
+layout is a schematic itinerary, not an orbit in state space. Vertical bars
+are rigorous interval bounds, not statistical error bars. Three negative
+factors force a negative determinant for the complete return.
+
+**Theorem.** The set C from Section 6 can be chosen to contain a point p
+of least period 92 with $`\det D(F^{92})(p)<0`$. More specifically, every
+periodic realization of the 23-arrow excursion satisfies the following
+independently obtained outward bounds:
+
+| Calculation | Boxes covering all windows | Bound on the complete return determinant |
+| --- | ---: | --- |
+| Factorized posterior, 100 digits | 23 | [−3,198,898, −173,698] |
+| Full eight-site posterior, 140 digits | 24 | [−5,197,901, −198,607] |
+
+**Proof.** The covering theorem supplies a point p whose successive G-images
+visit $`N_0,N_1,\ldots,N_{22}`$ and return to p. Hence $`F^{92}(p)=p`$.
+The chain rule gives
+
+```math
+\det D(F^{92})(p)
+=\prod_{i=0}^{22}\det DG(G^i p)\lt 0.
+```
+
+The only proper divisors of 92 are 1, 2, 4, 23 and 46. The first three
+would imply $`G(p)=p`$, contrary to the disjointness of $`N_0`$ and $`N_1`$.
+For a period d of 23 or 46, the return derivative would satisfy
+
+```math
+\det D(F^{92})(p)
+=\bigl(\det D(F^d)(p)\bigr)^{92/d}\ge 0,
+```
+
+since the exponent is even. This contradicts the certified negative sign.
+Thus the least period is 92. The excursion is one of the closed routes used
+to construct C, so its selected periodic realization belongs to C. ∎
+
+**Corollary: ambient-neighborhood inequivalence.** There is no homeomorphism
+between open neighborhoods of this orbit that conjugates F there to a local
+diffeomorphism having a constant orientation sign on a domain containing
+the corresponding orbit. In particular, the obstruction applies to any
+local diffeomorphism on a connected open domain containing all its phases,
+and therefore to the usual nonsingular three-dimensional Henon maps.
+
+To see this, $`F^{92}`$ is a local diffeomorphism at p with local degree −1.
+A conjugating homeomorphism has local degree +1 or −1; its contribution and
+that of its inverse cancel at the return point. The local degree of the
+return is therefore invariant under neighborhood conjugacy. A map with
+constant orientation sign $`s\in\{-1,1\}`$ has return degree
+$`s^{92}=1`$, a contradiction. This uses the standard multiplication and
+regular-value properties of local Brouwer degree, recalled in
+[Zgliczynski and Gidea (2004), Appendix 6.1](https://ww2.ii.uj.edu.pl/~zgliczyn/papers/wts/cov.pdf).
+Differentiability of the conjugating homeomorphism is not required.
+The target-domain condition matters: a map on disconnected components may
+have different orientation signs on different components.
+
+Fixed-time maps of smooth flows in Euclidean space are orientation preserving.
+The same obstruction applies to a smooth Poincare return map on a
+three-dimensional transverse section of an autonomous flow in four-dimensional
+Euclidean space. At a periodic return, the full flow monodromy has determinant
+$`\exp(\int_0^T \mathrm{div}\,v(\phi_t(q))\,dt)>0`$ and a tangent multiplier 1.
+The transverse return determinant is consequently positive, including when
+the section is visited several times before closing. These standard identities
+are reviewed in [Garcia, Latorre and Maza (2026), Sections 2.1–2.2](https://link.springer.com/article/10.1007/s12346-026-01490-4).
+This statement concerns smooth transverse returns, without resets,
+symmetry quotients, nonorientable ambient identifications or dimension changes.
+
+**Short periodic checks.** A separate Krawczyk calculation at 180 digits,
+recomputed with full-site automatic derivatives at 220 digits, certifies
+three short saddle cycles. The root-box radii are respectively $`10^{-60}`$
+and $`2\cdot10^{-60}`$. Exact rational audits recompute the Krawczyk
+arithmetic, exclude proper divisors and verify three disjoint real-root
+brackets of width approximately $`2\cdot10^{-25}`$ for each characteristic
+polynomial. The following numbers are rounded summaries of those brackets.
+
+| Local cycle identifier | Least period | Return multipliers | Return determinant | Membership information |
+| --- | ---: | --- | ---: | --- |
+| 14 | 4 | −11.46142820, −0.65951618, 0.30644260 | 2.31639883 | Certified inside $`N_0`$; may realize the self-loop in C |
+| 16 | 4 | 57.70879233, −0.73025254, 0.21613615 | −9.10840785 | No C or cloud membership claim |
+| 23 | 7 | 66.89511321, −0.11247103, 0.05138757 | −0.38662787 | No C or cloud membership claim |
+
+These identifiers name periodic-root proposals, not additional parameter cases.
+All use the exact Case 988 parameters. The period-92 theorem does not depend
+on locating a numerical root of the 92-step map or on these short-cycle fits.
+
+**Limits.** The result excludes a specified class of ambient-neighborhood
+models. It does not exclude a conjugacy defined only on the invariant set,
+known noninvertible models, symbolic equivalence, or an alternative embedding.
+It does not prove that C attracts or equals the plotted numerical cloud.
+In the extension, a third grid proposal exhausted its eight-million-new-cell
+budget. Two elementary-domain scouts tested 224 box/ball and normalization
+cutoff combinations; every combination had a sampled violating witness.
+Those unsuccessful proposals are retained and are not trapping proofs.
 
 ## 7. Prior art and geometric comparison
 
@@ -390,6 +510,8 @@ reviewed equations, abstract-only evidence and uninspected figures.
 | Spin models with feedback | Sinelschikov and colleagues (2023) study oscillations and chaos in feedback lattice models, including a four-dimensional mean-field Potts flow. |
 | Labyrinth and polyhedral attractors | Spatial loops, folded threads and polyhedral organization have direct precedents; their appearance alone is not novel. |
 | Iterative phase retrieval | RAAR and RRR trajectories can retain stationary fluctuations; this algorithmic behavior predates the present examples. |
+| Four-wing flows and generalized Henon maps | Four wings, double figure-eight forms and super figure-eight forms are established visual motifs. Section 6.1 supplies a neighborhood-conjugacy obstruction for particular ambient model classes, not a new shape classification. |
+| Learning on a sphere | Projected neural-network training already exhibits sustained irregular regimes; sphere-normalized optimization is not a new setting for such behavior. |
 
 [Ülgen and Sünel (2013)](https://dergipark.org.tr/en/download/article-file/192677)
 give the Blume–Capel mean-state recurrence in Section 2.1. The reviewed
@@ -448,13 +570,49 @@ download was inaccessible, so no visual comparison to that figure is claimed.
 The supplementary [review receipt](../../results/product-symbolic/literature-review.json)
 records this scope and the covering-theorem source.
 
+[Gonchenko, Ovsyannikov, Simo and Turaev (2005)](https://www.ma.imperial.ac.uk/~dturaev/mypapers/bc2005.pdf)
+study the three-dimensional Henon map
+$`(x,y,z)\mapsto(y,z,M_1+Bx+M_2y-z^2)`$, with constant determinant B.
+Its equation (1), surrounding discussion and Figures 1–2 were reviewed.
+[Gonchenko and Gonchenko (2016)](https://arxiv.org/abs/1510.02252)
+extend the comparison to generalized maps
+$`(x,y,z)\mapsto(y,z,Bx+Az+Cy+g(y,z))`$ and describe double and super
+figure-eight attractors. Their equation (1.4), relevant Sections 3–5,
+the schematic Figure 4 and numerical Figures 7–8 were inspected.
+The certified negative even-period return excludes neighborhood conjugacy
+to these nonsingular constant-determinant maps for any nonzero B. It does
+not exclude similarity of their silhouettes or equivalence restricted to
+a fractal invariant set.
+
+Four-wing geometry also predates these comparisons.
+[Liu (2009)](https://doi.org/10.1088/0256-307X/26/9/090504)
+reports a three-state cubic four-wing flow; only its publisher abstract was
+reviewed here. [Deng, Wang and Yang (2020)](https://doi.org/10.1142/S0218127420500868)
+give a four-state polynomial flow with a stable equilibrium and a four-wing
+hidden-attractor regime. Equation (1), Section 3.1 and the four planar
+projections in Figure 2 were reviewed in the author-hosted PDF. These are
+explicit precedents for the name and visual motif; this study does not
+claim a first four-wing attractor or classify Case 988 as hidden.
+
+[Kodryan, Lobacheva, Nakhodnov and Vetrov (2022)](https://arxiv.org/abs/2209.03695)
+study projected gradient training on a sphere and describe convergence,
+chaotic equilibrium and divergence. Their abstract and Sections 1–3.1,
+including the projected-gradient update (2), were reviewed; no figure
+comparison was made. Their full state is constrained to a fixed sphere,
+whereas Case 988 normalizes an internal reflected vector. This equation-level
+distinction is not by itself an equivalence theorem. The updated
+[review receipt](../../results/product-orientation/literature-review.json)
+records all reviewed scopes, including the degree and flow identities.
+
 ## 8. Contribution and open questions
 
 The supported result is a fully specified four-wing numerical regime of
 an eight-site product posterior with sphere feedback, a multilevel
 companion with documented coexistence, and a complete search and control
 record. A separate certificate proves positive entropy on a compact invariant
-subsystem for the exact principal parameters. The unexpected setting is a quantized-signal posterior inside an
+subsystem for the exact principal parameters. Its least-period-92 reversed
+return excludes ambient-neighborhood topological conjugacy to specified
+invertible models and smooth Euclidean flow return maps. The unexpected setting is a quantized-signal posterior inside an
 established numerical reflection construction. It is not a new physical
 phenomenon established by measurement.
 
@@ -462,8 +620,8 @@ Neither a strange-attractor theorem nor a claim that the geometry has
 never appeared before is justified yet. Positive finite-time growth,
 multiple starts, precision controls and finite-library differences narrow
 the candidates; those numerical tests do not prove asymptotic chaos,
-transitivity, a fractal dimension, or historical uniqueness. Section 6 supplies
-an independent positive-entropy theorem, but leaves attraction and equality
+transitivity, a fractal dimension, or historical uniqueness. Sections 6 and 6.1 supply
+positive entropy and an orientation obstruction, but leave attraction and equality
 with the depicted cloud open. A useful next theoretical target is a verified
 trapping region containing the certified subsystem, followed by structural
 comparison with known noninvertible maps. The

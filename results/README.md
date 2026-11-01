@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`product-orientation/` contains the [least-period-92 reversed-return certificate](../docs/product-alphabet/manuscript.md#61-a-reversed-return-and-an-equivalence-obstruction) for the exact four-wing Case 988. Two interval formulas and an exact audit place the orbit in the positive-entropy subsystem and exclude specified ambient-neighborhood conjugacies, including standard three-dimensional Henon maps and smooth Euclidean flow return maps. Short saddle-cycle certificates and unsuccessful trapping proposals are retained. Attraction and intrinsic equivalence remain open.
+
 `product-symbolic/` contains the [positive-entropy certificate for the four-wing Case 988](../docs/product-alphabet/manuscript.md#6-a-certified-positive-entropy-subsystem): 24 coverings of the fourth iterate, two interval implementations, exact complete-tree audits and all exploratory failures. It proves a compact invariant subsystem with entropy above 0.0254 per original iteration; attraction and equality with the numerical cloud remain open.
 
 `sinkhorn-unequal-rates/` retains a [4,864-input rectangular and unequal-rate matrix-scaling campaign](../docs/sinkhorn-unequal-rates.md), two spatial numerical candidates followed for 106 million steps, independent precision checks, all flagged continuations and escaping alternatives. [Packet and reproduction](sinkhorn-unequal-rates/README.md).

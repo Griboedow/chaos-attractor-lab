@@ -72,8 +72,8 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 8201053949,
-  "compact_bytes": 74017025,
+  "removed_bytes": 8386300649,
+  "compact_bytes": 74044609,
   "files": [
     {
       "path": "results/adabelief-quadratic/gallery.npz",
@@ -173006,6 +173006,283 @@
       "recompute_command": "See results/sinkhorn-unequal-rates/README.md; replay the selected continuation and prepare_presentation.py in an external directory.",
       "original_run_path": "D:\\Codex\\sinkhorn-rectangular-20261101\\presentation01\\case-987-points.npz",
       "local_cache": "D:\\Codex\\chaos-attractor-cache\\2b\\2b6ef5e07cfafe6ec1fb5cb885b3cdebe11fe53aa157418c4949eedd2eebfb90.npz"
+    },
+    {
+      "path": "results/product-orientation/runs/product-domain988-scout01/sample.npz",
+      "bytes": 55998425,
+      "sha256": "e0f447cacca9a019fe367e0b2734a12b668d13dd0b3b57374acb19b675ed4212",
+      "group": "product-orientation",
+      "compact": {
+        "path": "results/compact-data/e0f447cacca9a019fe367e0b2734a12b668d13dd0b3b57374acb19b675ed4212.npz",
+        "bytes": 9004,
+        "sha256": "5523b8853f0016f06406b055561eb0e865de56c19dc0bc57333de169793ae6f7",
+        "keys": [
+          "flags",
+          "params",
+          "levels",
+          "order"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            1048576,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 25165824,
+          "retained": false
+        },
+        {
+          "key": "images",
+          "shape": [
+            1048576,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 25165824,
+          "retained": false
+        },
+        {
+          "key": "radius",
+          "shape": [
+            1048576,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16777216,
+          "retained": false
+        },
+        {
+          "key": "flags",
+          "shape": [
+            1048576
+          ],
+          "dtype": "int64",
+          "bytes": 8388608,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-orientation/README.md for run product-domain988-scout01. Original large payload sample.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-domain988-scout01\\sample.npz"
+    },
+    {
+      "path": "results/product-orientation/runs/product-domain988-scout02/sample.npz",
+      "bytes": 114748312,
+      "sha256": "8344866a4f3c00b5e93a97ac44226243f3d0456e3eb54b588de8be6db32c3874",
+      "group": "product-orientation",
+      "compact": {
+        "path": "results/compact-data/8344866a4f3c00b5e93a97ac44226243f3d0456e3eb54b588de8be6db32c3874.npz",
+        "bytes": 17158,
+        "sha256": "ee1ea80f26c2678cb1d653e68c58c0bd08df1e4f98fed154f94d005666cf017c",
+        "keys": [
+          "flags",
+          "params",
+          "levels",
+          "order"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "states",
+          "shape": [
+            2097152,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 50331648,
+          "retained": false
+        },
+        {
+          "key": "images",
+          "shape": [
+            2097152,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 50331648,
+          "retained": false
+        },
+        {
+          "key": "radius",
+          "shape": [
+            2097152,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 33554432,
+          "retained": false
+        },
+        {
+          "key": "flags",
+          "shape": [
+            2097152
+          ],
+          "dtype": "int64",
+          "bytes": 16777216,
+          "retained": true
+        },
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "levels",
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float64",
+          "bytes": 96,
+          "retained": true
+        },
+        {
+          "key": "order",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-orientation/README.md for run product-domain988-scout02. Original large payload sample.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-domain988-scout02\\sample.npz"
+    },
+    {
+      "path": "results/product-orientation/runs/product-trap988-proposal03/proposal.npz",
+      "bytes": 14499963,
+      "sha256": "3bdf98d57360085749de3e16480143134da4e018d166562028f3e76a05a78875",
+      "group": "product-orientation",
+      "compact": {
+        "path": "results/compact-data/3bdf98d57360085749de3e16480143134da4e018d166562028f3e76a05a78875.npz",
+        "bytes": 1422,
+        "sha256": "3fc5a14674862e13cff87085ccfb7ddc57b28c9050909ae77121ba0c77070281",
+        "keys": [
+          "params",
+          "points",
+          "origin",
+          "shape",
+          "step",
+          "split",
+          "cut"
+        ]
+      },
+      "arrays": [
+        {
+          "key": "params",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 16,
+          "retained": true
+        },
+        {
+          "key": "points",
+          "shape": [
+            8,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 192,
+          "retained": true
+        },
+        {
+          "key": "origin",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "shape",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "step",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        },
+        {
+          "key": "occupied",
+          "shape": [
+            8451492
+          ],
+          "dtype": "int64",
+          "bytes": 67611936,
+          "retained": false
+        },
+        {
+          "key": "pending",
+          "shape": [
+            451348
+          ],
+          "dtype": "int64",
+          "bytes": 3610784,
+          "retained": false
+        },
+        {
+          "key": "split",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": true
+        },
+        {
+          "key": "cut",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": true
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See results/product-orientation/README.md for run product-trap988-proposal03. Original large payload proposal.npz was never committed; reproduce into a new external directory.",
+      "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-trap988-proposal03\\proposal.npz"
     }
   ]
 }
