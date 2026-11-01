@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {
+      "file": "whistle-source-cycle/cycle.npz",
+      "sha256": "d3473e2f68824de319d1cbbf3d407cc26e137bb984b0ab5868a3658a6935f546"
+    },
+    {
+      "file": "whistle-returns/case-0426.npz",
+      "sha256": "ad52e421a96d4d2ee5dd2ecfda87db6da9b971aea399fe40d43cf5fc69196972"
+    },
+    {
+      "file": "whistle-pilot/complete-or-budgeted.npz",
+      "sha256": "c2860791dee8c49ce10254fa334db61902aa1007a49c1cba837ec0e70b8b7e3e"
+    }
+  ],
+  "projection": "q,pc/Ps,(Q1-Q2)/(A Uj),literal linear coordinates; aspect proportional to coordinate spans.",
+  "selection": "Source one-period shooting control;case426 is one of four unresolved scout intervals,continued independently;all510complete scout scores."
+}

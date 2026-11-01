@@ -1,0 +1,92 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\whistle-source\\source-history.npz",
+  "source_sha256": "f4fb4a536cc7ecb7fb972dde473769d6e61740a0041016c35d9463657c0a5acd",
+  "parameters": {
+    "name": "B",
+    "length": 0.0635,
+    "volume": 0.000134,
+    "pressure": 93.0,
+    "velocity": 8.16,
+    "observed_frequency": 392.9,
+    "reported_helmholtz": 358.1,
+    "diameter": 0.00635,
+    "thickness": 0.0127,
+    "density": 1.2041,
+    "sound_speed": 343.2,
+    "kinematic_viscosity": 1.535e-05,
+    "end_correction": 0.72,
+    "discharge": 0.98,
+    "resistance": 1.0,
+    "Cv": 0.0013,
+    "alpha": 0.0127,
+    "tau0": 0.005,
+    "gamma": 0.09,
+    "mu": 3.1,
+    "kappa": 1.0,
+    "beta": 0.3
+  },
+  "derived": {
+    "modified_Reynolds": 10674.695715914317,
+    "Strouhal": 0.31037745199318273,
+    "vortex_frequency": 398.847245395964,
+    "computed_helmholtz": 359.33340218289607,
+    "area": 3.1669217443593606e-05,
+    "effective_length": 0.010922
+  },
+  "period_tau": 5.660703083809762,
+  "frequency_Hz": 398.8476907456716,
+  "observed_source_Hz": 392.9,
+  "relative_frequency_difference": 0.01513792503352418,
+  "shooting_residual": 3.1086244689504383e-15,
+  "independent_dimensional_Radau_closure": 2.9976021664879227e-14,
+  "phase_multiplier": [
+    0.9999999999999971,
+    0.0
+  ],
+  "nonflow_multipliers": [
+    [
+      0.21678417115237902,
+      0.7136635908156811
+    ],
+    [
+      0.21678417115237902,
+      -0.7136635908156811
+    ],
+    [
+      0.12802882580033614,
+      0.0
+    ],
+    [
+      6.837650390365942e-18,
+      0.0
+    ],
+    [
+      0.9922652595296141,
+      0.0
+    ]
+  ],
+  "largest_nonflow_magnitude": 0.9922652595296141,
+  "pressure_mean_Pa": 44.95115292159778,
+  "pressure_peak_to_peak_Pa": 64.2254307350609,
+  "pressure_AC_rms_Pa": 21.98783249427031,
+  "state_extrema": [
+    [
+      0.9714734943902578,
+      0.9144860445340118,
+      0.08727231432551147,
+      -0.3724093680354446,
+      -1.999920369742156,
+      -2.219853658372841
+    ],
+    [
+      1.1901335254056093,
+      1.1340014126134614,
+      0.7778683437347684,
+      0.44491843506756906,
+      1.999935160741868,
+      2.2198529354860748
+    ]
+  ],
+  "interpretation": "Numerically attracting source cycle in literal equations with declared ambient/pc-initial assumptions; no chaos or exact experimental calibration claim. Tiny strongly contracting multipliers are not relatively accurate.",
+  "frequency_limit": "Empirical Strouhal frequency is fitted in the source; matching the experimental peak is not independent validation of all dynamics."
+}

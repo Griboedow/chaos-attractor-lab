@@ -1,0 +1,50 @@
+{
+  "source": "https://doi.org/10.1016/j.jsv.2026.119952",
+  "equations": "2,7-15;Table1-3",
+  "parameters": {
+    "name": "B",
+    "length": 0.0635,
+    "volume": 0.000134,
+    "pressure": 93.0,
+    "velocity": 8.16,
+    "observed_frequency": 392.9,
+    "reported_helmholtz": 358.1,
+    "diameter": 0.00635,
+    "thickness": 0.0127,
+    "density": 1.2041,
+    "sound_speed": 343.2,
+    "kinematic_viscosity": 1.535e-05,
+    "end_correction": 0.72,
+    "discharge": 0.98,
+    "resistance": 1.0,
+    "Cv": 0.0013,
+    "alpha": 0.0127,
+    "tau0": 0.005,
+    "gamma": 0.09,
+    "mu": 3.1,
+    "kappa": 1.0,
+    "beta": 0.3
+  },
+  "derived": {
+    "modified_Reynolds": 10674.695715914317,
+    "Strouhal": 0.31037745199318273,
+    "vortex_frequency": 398.847245395964,
+    "computed_helmholtz": 359.33340218289607,
+    "area": 3.1669217443593606e-05,
+    "effective_length": 0.010922
+  },
+  "time": "tau=omega_H*t",
+  "initial": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_pressure": "pc=0 assumed; source specifies zero for the other five states but not pc explicitly.",
+  "ambient": "rho=1.2041kg/m3,c=343.2m/s,nu=1.535e-5m2/s declared20C/1atm choices; exact numerical ambient constants not recovered.",
+  "source_access": "Author-uploaded full text read on ResearchGate; publisher/institution PDF access unavailable. Printed equation signs retained.",
+  "observation_tau": 30000.0,
+  "scope": "Source implementation/control only, no broad scan or chaos claim."
+}

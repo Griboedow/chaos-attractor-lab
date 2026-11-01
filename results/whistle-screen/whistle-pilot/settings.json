@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "warm": 1000.0,
+    "duration": 4000.0,
+    "rtol": 1e-08,
+    "atol": 1.0000000000000001e-11,
+    "max_step": 0.03,
+    "max_attempts": 20000000,
+    "max_wall": 900.0
+  },
+  "wall_seconds": 591.4060755999999,
+  "device": "NVIDIA GeForce GTX 1080",
+  "method": "DP5(4) exact piecewise analytic tangent; tangent error uses its vector norm, independent of current component orientation.",
+  "status_codes": {
+    "0": "completed",
+    "1": "magnitude cutoff1e6",
+    "2": "numerical failure",
+    "3": "step budget unresolved",
+    "4": "wall budget unresolved"
+  }
+}
