@@ -12,7 +12,7 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 ![The serrated arch and its certified unstable seven-cycle](docs/assets/raar-cycle-geometry.png)
 
-**[Watch a tiny segment unfold into the arch](docs/raar-folding.md).** All six radius/resolution controls complete. A separate exact inverse calculation finds two or four preimages for each of 25 targets, independently verifying all 64 inputs. The [six-page note](papers/raar-folding/manuscript.pdf) derives the complete counts, checks the seven time-residue samples and credits an explicit 2001 attractor portrait. Full-map noninjectivity does not establish a new attractor class.
+**[Watch a tiny segment unfold into the arch](docs/raar-folding.md).** All six radius/resolution controls complete. A separate exact inverse calculation finds two or four preimages for each of 25 targets, independently verifying all 64 inputs. The [seven-page note](papers/raar-folding/manuscript.pdf) derives the complete counts, checks the seven time-residue samples, certifies a smooth fold near the finite cloud and credits an explicit 2001 attractor portrait. These results do not establish a new attractor class.
 
 ![Actual finite evolution near the unstable seven-cycle](docs/assets/raar-cycle-unfolding.gif)
 

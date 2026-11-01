@@ -1,8 +1,9 @@
 """Check the reviewed note's claims, exact source figures and paper manifest."""
 import json
+from decimal import Decimal
 from pathlib import Path
 from pypdf import PdfReader
-from verify_raar_folding import sha
+from verify_raar_folding import sha,interval
 
 def main():
     repo=Path(__file__).resolve().parents[1];paper=repo/'papers/raar-folding';root=repo/'results/raar-folding';load=lambda p:json.loads(p.read_text())
@@ -13,12 +14,18 @@ def main():
     for name,folder in [('raar-cycle-unfolding','render'),('raar-cycle-seed-controls','render'),('raar-four-preimages','inverse-render')]:
         for ext in ['.pdf','.png']:assert sha(paper/'manuscript-figures'/(name+ext))==sha(root/folder/(name+ext))
     for ext in ['.pdf','.png']:assert sha(paper/'manuscript-figures'/('raar-phase-classes'+ext))==sha(repo/'results/raar-phase-classes/final'/('raar-phase-classes'+ext))
+    for ext in ['.pdf','.png']:assert sha(paper/'manuscript-figures'/('raar-certified-fold'+ext))==sha(repo/'results/raar-fold-certificate/render'/('raar-certified-fold'+ext))
     for name,digest in build['additional_manifest_sha256'].items():assert sha(repo/'results'/name/'manifest.json')==digest
-    pages=PdfReader(paper/'manuscript.pdf').pages;assert len(pages)==build['planned_pages']==6;assert review['visually_reviewed_pages']==list(range(1,7));text=' '.join(' '.join(p.extract_text() for p in pages).split());assert '\ufffd' not in text
+    pages=PdfReader(paper/'manuscript.pdf').pages;assert len(pages)==build['planned_pages']==7;assert review['visually_reviewed_pages']==list(range(1,8));text=' '.join(' '.join(p.extract_text() for p in pages).split());assert '\ufffd' not in text
     for r in load(root/'seeds/report.json')['runs']:assert format(r['distance_quantiles'][-1][0],'.8f') in text
     four=[int(r['label'].split('-')[1]) for r in load(root/'inverse-proof/report.json')['cases'] if r['number_of_preimages']==4]
     assert len(four)==7 and all(str(i) in text for i in four)
     for phrase in ['61,440','64 preimages','18 have two','seven have four','degree eight','not a validated chart','Unequal sample densities','Historical uniqueness remains unresolved','not a proof-assistant formalization','supplement remains unreviewed','invertible restriction to a smaller invariant set remains possible','does not represent physical measurement accuracy']:assert phrase in text,phrase
     assert '0.1429225' in text and 'Preprint (2001)' in text and 'not a proof of mixing' in text
-    print('PASS: six reviewed pages, exact figures/manifests, all controls, complete inverse counts, phase accuracy and earlier attractor-portrait citation')
+    assert '0.000042' in text and 'not a dynamical conjugacy' in text and 'standard equidimensional fold criterion' in text
+    fold=load(repo/'results/raar-fold-certificate/proof/report.json')
+    for key,lo,hi in [('nonzero_minor','.8825','.8826'),('kernel_transversality','-.05230','-.05228')]:
+        a,b=interval(fold[key]);assert Decimal(lo)<a<=b<Decimal(hi)
+    assert interval(fold['distance_to_reference_index_993053'])[1]<Decimal('.000042')
+    print('PASS: seven reviewed pages, exact figures/manifests, controls, inverse counts, phase accuracy, smooth fold and explicit prior-art limits')
 if __name__=='__main__':main()

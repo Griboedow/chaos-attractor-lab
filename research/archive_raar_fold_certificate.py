@@ -1,0 +1,11 @@
+"""Freeze one smooth-fold certificate and its complete selection/visual evidence."""
+import json,shutil
+from pathlib import Path
+from verify_raar_folding import sha
+from archive_raar_phase_review import manifest
+def main():
+    repo=Path(__file__).resolve().parents[1];scratch=Path('D:/Codex/chaos-attractor-search-20261031');root=repo/'results/raar-fold-certificate';root.mkdir(exist_ok=False)
+    for dest,source in [('proposal','raar-fold-proposal01'),('proof-initial','raar-fold-proof01'),('proof','raar-fold-proof02'),('render-initial','raar-fold-render01'),('render','raar-fold-render02')]:shutil.copytree(scratch/source,root/dest)
+    source=dict(title="Who's Afraid of the Hill Boundary?",author='Richard Montgomery',journal='SIGMA 10 (2014), 101',doi='10.3842/SIGMA.2014.101',url='https://arxiv.org/abs/1407.7163',review_scope='Appendix B fold criterion on PDF page 10 and Section 3.1 on equidimensional higher-dimensional normal form. Other dynamical results not used.',used_for='Standard corank-one/kernel-transversality criterion and local fold normal form; not a new theorem or evidence of attractor novelty.')
+    (root/'standard-criterion.json').write_text(json.dumps(source,indent=2),encoding='utf-8');(root/'README.md').write_text('# A certified smooth fold near the spatial RAAR cloud\n\nThe exact segment joins binary64 sample states 857629 and 993053. Interval Newton certifies a unique determinant zero in the reported tiny parameter interval, with a nonzero 2x2 minor and nonzero determinant derivative in the Jacobian kernel direction. Both projection distances are strictly positive. This is the standard fold criterion. The point is less than 0.000042 from sample 993053; membership in an asymptotic attractor is unproved.\n\nThe proposal retains every sampled determinant and nearest-opposite-sign distance. Both proof revisions and both visual revisions are kept; the final proof also certifies endpoint signs and the stated sample-distance bound. Run research/verify_raar_fold_certificate.py. Third-party text is not redistributed.\n',encoding='utf-8');manifest(root);shutil.copy2(root/'render/raar-certified-fold.png',repo/'docs/assets/raar-certified-fold.png');print('Frozen smooth-fold packet')
+if __name__=='__main__':main()
