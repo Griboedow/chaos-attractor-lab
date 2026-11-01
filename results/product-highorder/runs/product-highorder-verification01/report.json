@@ -1,0 +1,951 @@
+{
+  "status": "passed",
+  "source_files": {
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-highorder-scout01": {
+      "block-0000.npz": "7a931f7a1f2e5a336a71ce2177ed6360bb1cd7b304bbf68569ba3dfa968beee9",
+      "block-0064.npz": "65eeb0d38780c12b397ae8fc4fc5bc5875aad3b3821ce04daa373cc4f5393370",
+      "block-0128.npz": "e6e929329654810e5f72bafa961b96c73578a51f6a61dcb7b1d474190da906e9",
+      "block-0192.npz": "3809545c2b68b6f5b955654cbed2cfa46119a0b05448322c81e5869913cc9aa2",
+      "block-0256.npz": "4f8150ed8809210c14974cdb6a796011abfdecdce6278822a55a8dc706997315",
+      "block-0320.npz": "5bcacb20b72a76dfd6a89ef4656a1f5fcad87d2b7e79d8bc35df7b7ab8038cb7",
+      "block-0384.npz": "113859d6a67aadc185ae1c57c0fd91c8d4b81ad5005b507278cc0bb09869925d",
+      "block-0448.npz": "7d583e95257f3965a5a4500046daad7b5d8c429a570185ed9bd9e85e49421cf0",
+      "block-0512.npz": "105a8c62b9ef5f45904fd390bbbce1e82a9e4bf071b501977caf7b0bb5abcfd4",
+      "block-0576.npz": "89a223b0d10594761fe7f6638c9431e4b3b6f5c48f783d8bec12ed283cd5ef03",
+      "block-0640.npz": "409ed2bb0b9c52d42e10db1381a75c0d648cbf25dbd9915fc38d18890acc1009",
+      "block-0704.npz": "f0a96359b88b5aba73c634e235ed42d1f356cc9adc0ca1c8ece51ffaa6368510",
+      "block-0768.npz": "2ba86010f580ae87ac02f1e642648b48a849fd3d06be7387725fbfcf959d582b",
+      "block-0832.npz": "cd00af0de82c87fd3177711fae1fcffe839b89301789e10c275b46ffe8c8740f",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "protocol.json": "ce8b2de921d3ccbe2e0a44ac73d3bc5a73e744fd400c835c04f020a43327a666",
+      "report.json": "6408d91a14b23e140a8788532df0b415ba3a0063dec09ae55f936595c1415667",
+      "screen.npz": "d27514430520a426d4ee05af18b711c9a39717b560a2a2bab96e694c47800833",
+      "search_highorder_product.py": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-highorder-follow01": {
+      "case-0.npz": "24273baedb38ba3cba8fe5456d6a629a413bc2f41fe6cf6e00fed3f295697e49",
+      "case-1.npz": "fa5e22856f42d16b457da47995cff7a083c8870b1ee7f4664f5113e5a1f675ec",
+      "case-109.npz": "eb0921fcdf33612bfa8141cad546dcd6512fdf1f28e4fc8e59402ae80722b2a2",
+      "case-167.npz": "d2da715d4846ee1731edf2cb7e2b85586e8651348aedba390b92f6071fdf0a6d",
+      "case-168.npz": "1d48910a8c9442e2c8066e76036300f29e07088c35e750e31be4c648075c1cfd",
+      "case-174.npz": "6f19e2e264dcf2f43d193f592fe50813965cd6b3037c92a4e1d43122a5b06ac9",
+      "case-185.npz": "d6af7d7520ff7e8126bf47111ce36b0147df0f447470cfcbae8cd469027e47e3",
+      "case-23.npz": "30c1ab35b58a281769a8adc458f993e3d4cb60d841d206061e24ac2378c32c60",
+      "case-270.npz": "17d45ccaae8629f491b60f926649f9f0dfc879414fa5c5fdf81912587b858742",
+      "case-271.npz": "74d70ef00e426d80041c490f9e16b2df559ba516f4d0edb74f18efdab3ac7b65",
+      "case-289.npz": "84a50236b91f51dcfeff15d9e21a757fff79a2030d5032f1067f0b728b42cfac",
+      "case-293.npz": "eafa0fb3a401ffd8a44db4ff27921ae4cddb844de152e54d8331e9bff24c27e4",
+      "case-300.npz": "430b9841955bd5d61e37ce3d55dd1556ecf3b54327179d0b678831f86af60589",
+      "case-32.npz": "f26751f3f6266d41cee4e250bdf2e664f0386a635706636ccbe2313e3c899492",
+      "case-329.npz": "0e25088cfe668860f91ddaa85aaa07269841567902404beee43a80b8de27a32b",
+      "case-337.npz": "18f3f290c3cce140d60c7d5bbf743ea4c2e08e3b5bd908cb30f3bb43b21007a7",
+      "case-35.npz": "68227ca0ff4f2335b750320b073274f0b1f4344117568ab0c48400dd531028a4",
+      "case-385.npz": "6bd8bf543559a46b2ac5f0df0577a16a9bb9765e224dfbc4ff9ffc3cd521fba0",
+      "case-403.npz": "05d0fbc2769fc86cb6b771ffca66f5c04b46edf8c69786d3d8e4c7806077d52e",
+      "case-413.npz": "cdab1d9c55a639e2366cbc54fb42c981fc50aa631afb8eb76c72bae5fec64c20",
+      "case-414.npz": "80b6849290a745f6b5c7437ea199fe183e2efaa70796d29146e54889212031e0",
+      "case-415.npz": "c9e0641e64ec3d9b81deec1d9e449c6d6ea7f238e741860ec6a8c0365b72ad76",
+      "case-449.npz": "8fd79242c0ee7919eb78aed7c269bb6c02adb09f0c3e76a0fb736acefcb4e65c",
+      "case-450.npz": "671eb0ea6b844099617083efbb756665605c79c8877e986def06e204a9238a19",
+      "case-487.npz": "f2864a7abce55daea0481fdc4b3f5dfe20b1829a2351b3f1e3bf3f24e174ee63",
+      "case-50.npz": "1523ca0f8d731da996c26c7ac2d4e8af6b7f16e98b429b3ab76b5ac68281acba",
+      "case-522.npz": "83ab001b30044717dad028d3b1d9820752ac3d57b9d052a48ebeac21551e16c5",
+      "case-527.npz": "d76a2b164a6b0749806f8d3eae01f7e392e9edac4fa4759fd76bb4999dd2aca8",
+      "case-528.npz": "42475326f8ae1530e57b9e895b8601f597d6ea5b73c5213c70a8d8f4d82778f6",
+      "case-53.npz": "cd59cbd18b5cd6f9010e9813a621b33c090580aa7f5964e4b85503e07da6e5fd",
+      "case-570.npz": "f721f07d26d8c6973834b8a14b8a7c08bce66645843d3f8006d7288249338d6b",
+      "case-594.npz": "0df3f5ff8eee3ee44b52920af2bb994fa32fb4176a4c979f3971643fdcbf1f12",
+      "case-641.npz": "aaedd69f5d50fc65a6a7076edd721cbc2085b2aba0a89a4764d9e0ad197993b3",
+      "case-642.npz": "3c5797abede0d5f6a16a839d5311cc9ebda992c97f1d23c843e936ad5519c960",
+      "case-648.npz": "e226e725c406f1cfe1a9999a8a70df866b309ea953395a0c23f9366b38aa9ac8",
+      "case-649.npz": "fb72faff65f2bc0e06cc37c6cd6292162c3846e521dcb4716d940880de82eab1",
+      "case-654.npz": "1f2bdffa33ab8e57acf51a783e8988db7648b6e3b0f08bc93fad6e5b6645da2e",
+      "case-697.npz": "161789422ace75edbe907934a3c216248e9e41c4a15c45ebaf9d3ba654ec8f1b",
+      "case-703.npz": "4dc493a6b033486b0151e161c550fe5774175e2e80b0939cbc60d501875de0a6",
+      "case-755.npz": "0829ee67c6326368cd2f07e704761718da1114e0492798861d0bd700f3227dc1",
+      "case-791.npz": "0a7a950999c8f1e1039a7164f903c70c7fa7d42740a4a6c57278e3206d898076",
+      "case-792.npz": "e4cdc8adf2ae8f23880131206a4312a6cc5610ef76eb99dab8e3064b6bfc473a",
+      "case-797.npz": "ef23bbc86b68b78e4aa8de319c8aefc3c9c08e21a7f23ef83ed0d70d050061bb",
+      "case-829.npz": "f6e655ae2a32d7bef754ac399ad0fb7ea1b2f2f9361693259bb1473c7600b91b",
+      "case-845.npz": "750dd80c945931360845d96b4f8217c670fad4d381a86fd1f351e1f39d08801d",
+      "case-846.npz": "a15583041f3ff84f6d48ea298a227ce030e682d29be740bc28d9eed947bc455a",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "partial.json": "6efdec8f1c7adf443c8805017cb461b58ceef5f1b5bdf3cf39625b3799d626ad",
+      "protocol.json": "28c61a9b433efb35354e474984a1996f587bf0dda8c08ccd12c12d3c5739ebe6",
+      "report.json": "d75b562c021dec41fc8153c1832c5493e487bc0053f98d06edc1a581ec710fd2",
+      "search_highorder_product.py": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-highorder-long01": {
+      "case-109.npz": "787921395a9e065925ad86a834ada9af397ec652de36fd50a612f431921bbabe",
+      "case-185.npz": "f13164d96a385c768ccfedac852a4a088ae725e4178f2dba07b71abdee04f796",
+      "case-293.npz": "d6e95d5b45b85e5e582d3802a503e488c37de807b660821b2c61cdb33a51c623",
+      "case-403.npz": "2a7fe75a26f9babfe09a3a7d4bb0b5e2732f0898d05abf8fc66d8370885a8379",
+      "case-414.npz": "46749d01f47d403345d5d3827077ecd033439dd98765149873cb874ab15cee22",
+      "case-487.npz": "5ae6572941d25fe6f5fcc392f2f9b182b94c45de6d95969cbe300f9d53471aa6",
+      "case-570.npz": "6111096f16d8a3a2da08537613563a853f7fe709992cd1f9aedfd57c75e195d5",
+      "case-797.npz": "288728d9e3fbb9506ca39b0cc32460bcaa0ca5b760e3d6ddbe57c9dec6561096",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "partial.json": "e2323a0e8af8c4bb98573d3cbf2769efa976eed4d22734637a1e7e043b220662",
+      "protocol.json": "529fcd5458a5c04680837e47e7b74d93aae55044f26d8081c0c501d7b39f1e6a",
+      "report.json": "304f393a2a383075222630abf39e1d39e932f1fa0652a78c5121550d45947735",
+      "search_highorder_product.py": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-highorder-dense01": {
+      "case-109-histogram.npz": "ef92a68097673a05626e7042f7a910c3d4468bed5202b4b36803a52fdacaad44",
+      "case-109-states.npz": "6c1810606ca9b7f28f3d4473a52e9d499e7ce21ed0e71eb16bda246f74a7a01b",
+      "case-109.json": "6e9be1b4e0ec61ca2f73d753912f4c01d68b0d143f74347a89844c938dd0f039",
+      "case-185-histogram.npz": "29e5d0dbd61813927f32c1eca81c5a91e03a9e074e767f3ff396b59a08967c84",
+      "case-185-states.npz": "3bea606ec7aa5d9c99ba86fc65fc41d6a73eb93bf27c579145606e0243951537",
+      "case-185.json": "67790afc72c5d5d1d2ac7dd153929c9d5cb650aa3f3198e4f4731f2261f13e79",
+      "case-293-histogram.npz": "5c07f15e5b2fa8d9b1f504b7691b1c26186fccc8caed1c6d9638739643c65af7",
+      "case-293-states.npz": "3438a928cc9f3732623cb56301620e1ce8e38fc9715b47d684198fe8d0183425",
+      "case-293.json": "d1bff1de573986baf8af03f1c66dc1abe6214992333dff06cd8545a82f55ad40",
+      "case-403-histogram.npz": "6a69000d56e1519fea55224608de36f2ff6f7e509592368206adf9726a0d6f4d",
+      "case-403-states.npz": "d8cf491287c2bf83d6dbb4c78d0e901eb2acce24017bcc5a0dd0f4484de42547",
+      "case-403.json": "f7e8958e6f620f9ba55359308388acca161519e21eb67540b561d104a2efef4a",
+      "case-414-histogram.npz": "5e35037accc2ca622b831f77671fc5a99ef6e20853f6690b2fa4fc9c20d8e441",
+      "case-414-states.npz": "d1670b42ce59c35aebdefe5c730e5bc25e577d8e7aed10b4127238937f1c0838",
+      "case-414.json": "96639ce70b86e81c0bf1ec1c1bb738078e654a18d2da7c7e4a27b855413a8f50",
+      "case-487-histogram.npz": "c353b39c6bbdd3bbcb70a61979c3b0b9d5a252e0d37d35fa7ebf76fe8febe938",
+      "case-487-states.npz": "300e70e3982f69dabfc9fd4dadecf5348981f0202ee22b927960544d2bcfca97",
+      "case-487.json": "545d71b590a5b4c6e7aab0c715c3fc5634c62fd518b3b8dc713f8535b396b65d",
+      "case-570-histogram.npz": "ab2403c061bbd08856574c0d3624c354037ef60fb3981fd9b4a4cc0f6d1a98ec",
+      "case-570-states.npz": "36fcc0f7f0fbf0793c9d072073262ec216e629a44332f46ffd92beb5a634063e",
+      "case-570.json": "1a21af22756af28bf2b17c1e0d75c8220eda5cc3e270f843bd8388ac89464902",
+      "case-797-histogram.npz": "9367ea7263f4c6ce66f18f60de1c5b3ace3886bbeb695af5bf0bba663da677bf",
+      "case-797-states.npz": "bc1b4880f6490f61439c84a8597eb68e09350b4b3ee52ba029a02f7a03a53352",
+      "case-797.json": "6feb81f0f42d020fbaa67f25003a2f35019f00debdf5a423074b0c009cd925ff",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "protocol.json": "5a9d489baf506fe62249546ddd2d237135d1eb5c44b09cd3a5e23b1652a44f29",
+      "render_product_alphabet.py": "e138c145eea4d28e707011172f4d44eee4178e391b96ca6cff9cefcb4430def9",
+      "report.json": "65894dc470764c2637c0cf2b9ba26cc5525854010837de021e1c55484caec8af",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    }
+  },
+  "scout_replay": "All 851 cases, complete output arrays bitwise equal.",
+  "differential_checks": {
+    "samples": 192,
+    "max_full_posterior_formula_error": 6.1201044232461754e-15,
+    "max_full_covariance_relative_error": 1.301752972794409e-13,
+    "max_independent_nested_finite_difference_error": 1.6004160247051757e-08
+  },
+  "follow_replays": [
+    {
+      "run": "product-highorder-follow01",
+      "id": 0,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.23519486773528955
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 1,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.32989607134559257
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 23,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.2515761374792262
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 32,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.0177034677977901
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 35,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.014561178119400412
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 50,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.17910320913612265
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 53,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.12136878139318634
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 109,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.20914443041191833
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 167,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.023673323444887182
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 168,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.23865243028250918
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 174,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3620184714006605
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 185,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.208469966627827
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 270,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.17175262689882875
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 271,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.06186203546448076
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 289,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.16168745992250028
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 293,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.16139725301530242
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 300,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.26474834149452353
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 329,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.19135747792969376
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 337,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.0697798112905574
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 385,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.28842060983817747
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 403,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.30773892109336465
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 413,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1250443287338463
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 414,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1532537072989981
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 415,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3136670574230966
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 449,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.06025407056384262
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 450,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.03277383475403002
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 487,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.14629255942824682
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 522,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.29246239434157617
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 527,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.17138256938209942
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 528,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1797750649505921
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 570,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.26946418536242334
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 594,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.05822673558375821
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 641,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.20875222973084445
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 642,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.19542190662773945
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 648,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.16019815205213392
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 649,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.17197218606147696
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 654,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.09658686844607328
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 697,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.137151092416707
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 703,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1331137723711916
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 755,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.04219713483914258
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 791,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1865093383041649
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 792,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.07912852101790759
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 797,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.16761960244767063
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 829,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.24053011590879997
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 845,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.4058646993833156
+    },
+    {
+      "run": "product-highorder-follow01",
+      "id": 846,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.09679928201804307
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 109,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.21271645865048255
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 185,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.2141975472057496
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 293,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.16179312793021391
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 403,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3094390601555278
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 414,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1547127666649207
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 487,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.15023939604138678
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 570,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.27177370693123104
+    },
+    {
+      "run": "product-highorder-long01",
+      "id": 797,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1748755082835964
+    }
+  ],
+  "dense": [
+    {
+      "id": 109,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 1.3322676295501878e-15,
+      "lapack_leading_mean_error": 5.551115123125783e-17,
+      "lapack_same_frame_local_error": 2.936317855528614e-12,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.21360672794966196,
+        -1.1700073582985122,
+        -2.106586397278873
+      ],
+      "lapack_mean_rates": [
+        0.213606727949662,
+        -1.1700073582985124,
+        -2.1065863972788716
+      ],
+      "logdet_mean_error": 4.884981308350689e-15,
+      "parameter_hex": [
+        "0x1.c038ab35126e9p-1",
+        "0x1.da0e62c58df23p-12"
+      ],
+      "level_hex": [
+        [
+          "-0x1.0e79274b33332p-1",
+          "-0x1.1a15dd1733330p-2",
+          "-0x1.7396b97ffffe0p-6",
+          "0x1.d7460bce6666ap-3",
+          "0x1.ee7f776666668p-2",
+          "0x1.78adf472ccccep-1",
+          "0x1.fa1c2d3266667p-1",
+          "0x1.3dc532f900000p+0",
+          "0x1.7e7c4f58ccccdp+0"
+        ],
+        [
+          "-0x1.258849de66667p-1",
+          "-0x1.e1f191ba66668p-2",
+          "-0x1.78d28fb800001p-2",
+          "-0x1.0fb38db59999ap-2",
+          "-0x1.4d29176666668p-3",
+          "-0x1.ebac4d866666cp-5",
+          "0x1.5d4bc28ccccc8p-5",
+          "0x1.2990f4a800000p-3",
+          "0x1.fbcef8accccccp-3"
+        ],
+        [
+          "-0x1.302fdbfc00000p+0",
+          "-0x1.0cb530d69999ap+0",
+          "-0x1.d2750b6266666p-1",
+          "-0x1.8b7fb5179999ap-1",
+          "-0x1.448a5eccccccdp-1",
+          "-0x1.fb2a110400000p-2",
+          "-0x1.6d3f646e66667p-2",
+          "-0x1.bea96fb19999cp-3",
+          "-0x1.45a82d0ccccd0p-4"
+        ]
+      ]
+    },
+    {
+      "id": 185,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 4.107825191113079e-15,
+      "lapack_leading_mean_error": 8.326672684688674e-17,
+      "lapack_same_frame_local_error": 1.368860580441833e-11,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.22526843632350357,
+        -0.3848898565022318,
+        -0.9612105199394851
+      ],
+      "lapack_mean_rates": [
+        0.2252684363235035,
+        -0.384889856502232,
+        -0.9612105199394892
+      ],
+      "logdet_mean_error": 3.1086244689504383e-15,
+      "parameter_hex": [
+        "0x1.f2b8318816872p-1",
+        "0x1.0ce7eecf2f5c7p-8"
+      ],
+      "level_hex": [
+        [
+          "-0x1.f69ee94e66667p-1",
+          "-0x1.dc65ef419999ap-2",
+          "0x1.a38fa0cccccd0p-5",
+          "0x1.22a4ebba66667p-1",
+          "0x1.15886eb400000p+0"
+        ],
+        [
+          "-0x1.e15f6e9000004p-3",
+          "0x1.da00fe04ccccap-3",
+          "0x1.65585aa666666p-1",
+          "0x1.2a183ae5ccccdp+0",
+          "0x1.a184487866666p+0"
+        ],
+        [
+          "-0x1.a94b5b3999998p-4",
+          "0x1.c39112ccccd00p-9",
+          "0x1.c5846c6666668p-4",
+          "0x1.be76281b33334p-3",
+          "0x1.4d150d019999ap-2"
+        ]
+      ]
+    },
+    {
+      "id": 293,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 1.1102230246251565e-15,
+      "lapack_leading_mean_error": 8.326672684688674e-17,
+      "lapack_same_frame_local_error": 3.6415315207705135e-13,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.16254642157095273,
+        -1.5394347382009637,
+        -2.0090140722784295
+      ],
+      "lapack_mean_rates": [
+        0.1625464215709528,
+        -1.5394347382009625,
+        -2.0090140722784287
+      ],
+      "logdet_mean_error": 4.884981308350689e-15,
+      "parameter_hex": [
+        "0x1.e2892744cac08p-1",
+        "0x1.f28ae69dd4cdcp-12"
+      ],
+      "level_hex": [
+        [
+          "-0x1.1113c0819999ap-1",
+          "-0x1.c384192800000p-2",
+          "-0x1.64e0b14cccccdp-2",
+          "-0x1.063d49719999ap-2",
+          "-0x1.4f33c32cccccdp-3"
+        ],
+        [
+          "0x1.1193c80e66666p-2",
+          "0x1.db42a0ad99999p-2",
+          "0x1.5278bca666666p-1",
+          "0x1.b75028f600000p-1",
+          "0x1.0e13caa2cccccp+0"
+        ],
+        [
+          "-0x1.e5996924cccccp-2",
+          "0x1.c5a8583333380p-8",
+          "0x1.f3c6abe666668p-2",
+          "0x1.f03b5b3600001p-1",
+          "0x1.7349b03c66667p+0"
+        ]
+      ]
+    },
+    {
+      "id": 403,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 5.995204332975845e-15,
+      "lapack_leading_mean_error": 5.551115123125783e-17,
+      "lapack_same_frame_local_error": 4.130029651605582e-12,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.306575744470729,
+        -0.8075515063942756,
+        -1.189814990759686
+      ],
+      "lapack_mean_rates": [
+        0.30657574447072905,
+        -0.8075515063942749,
+        -1.189814990759692
+      ],
+      "logdet_mean_error": 1.1102230246251565e-15,
+      "parameter_hex": [
+        "0x1.fde2ff4428f5cp-1",
+        "0x1.096ce92f4d031p-9"
+      ],
+      "level_hex": [
+        [
+          "-0x1.dc1afe919999ap-1",
+          "-0x1.3db779539999ap-1",
+          "-0x1.3ea7e82b33334p-2",
+          "-0x1.e0ddaf3333400p-10",
+          "0x1.3ae62ccccccccp-2",
+          "0x1.3bd69ba466666p-1",
+          "0x1.da3a20e266666p-1",
+          "0x1.3c4ed31033333p+0",
+          "0x1.8b8095af33333p+0"
+        ],
+        [
+          "-0x1.559f4ce333334p-1",
+          "-0x1.2a09331400000p-1",
+          "-0x1.fce632899999ap-2",
+          "-0x1.a5b9feeb33334p-2",
+          "-0x1.4e8dcb4cccccdp-2",
+          "-0x1.eec32f5cccccdp-3",
+          "-0x1.406ac82000000p-3",
+          "-0x1.2424c1c666664p-4",
+          "0x1.c4606599999a0p-7"
+        ],
+        [
+          "-0x1.486ca2499999ap-2",
+          "-0x1.f97f5b619999ap-3",
+          "-0x1.6225723000000p-3",
+          "-0x1.959711fccccccp-4",
+          "-0x1.9b8cfe6666660p-6",
+          "0x1.8fa1259333338p-5",
+          "0x1.f684652ccccd0p-4",
+          "0x1.929c1bc800002p-3",
+          "0x1.14fb027cccccep-2"
+        ]
+      ]
+    },
+    {
+      "id": 414,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 1.3322676295501878e-15,
+      "lapack_leading_mean_error": 8.326672684688674e-17,
+      "lapack_same_frame_local_error": 1.0231815394945443e-12,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.16897699180755943,
+        -1.6492969866581715,
+        -2.330416607213972
+      ],
+      "lapack_mean_rates": [
+        0.1689769918075595,
+        -1.649296986658172,
+        -2.3304166072139707
+      ],
+      "logdet_mean_error": 6.661338147750939e-15,
+      "parameter_hex": [
+        "0x1.ec69ea1081062p-1",
+        "0x1.0790df4e9ca4ap-10"
+      ],
+      "level_hex": [
+        [
+          "-0x1.a143f15666668p-2",
+          "-0x1.fc254f4000004p-3",
+          "-0x1.6b8577a66666cp-4",
+          "0x1.213faf3333330p-4",
+          "0x1.d7026b0666664p-3",
+          "0x1.8eb27f3999998p-2",
+          "0x1.18f1e47800000p-1"
+        ],
+        [
+          "-0x1.b7c8e58200001p+0",
+          "-0x1.610b70948888ap+0",
+          "-0x1.0a4dfba711112p+0",
+          "-0x1.67210d7333334p-1",
+          "-0x1.734c47308888bp-2",
+          "-0x1.856737aaaaae0p-6",
+          "0x1.429f603b33334p-2"
+        ],
+        [
+          "-0x1.5dc34f0333336p-2",
+          "-0x1.172740f33333ap-3",
+          "0x1.1a70383fffff6p-4",
+          "0x1.18cbbc9999998p-2",
+          "0x1.eafb6b2333331p-2",
+          "0x1.5e958cd666665p-1",
+          "0x1.c7ad641b33333p-1"
+        ]
+      ]
+    },
+    {
+      "id": 487,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 4.440892098500626e-16,
+      "lapack_leading_mean_error": 1.6653345369377348e-16,
+      "lapack_same_frame_local_error": 2.6929569685307797e-12,
+      "maximum_frame_orthogonality_error": 5.551115123125783e-16,
+      "production_mean_rates": [
+        0.16053302627693497,
+        -1.1941263353515446,
+        -2.1936957269517974
+      ],
+      "lapack_mean_rates": [
+        0.1605330262769348,
+        -1.194126335351544,
+        -2.193695726951797
+      ],
+      "logdet_mean_error": 7.549516567451064e-15,
+      "parameter_hex": [
+        "0x1.e1aa91923b645p-1",
+        "0x1.9608da5620255p-10"
+      ],
+      "level_hex": [
+        [
+          "-0x1.ad20c5f99999cp-3",
+          "-0x1.bfacb54cccd00p-7",
+          "0x1.752b2f4fffffep-3",
+          "0x1.832894fa66666p-2",
+          "0x1.25ddc92666666p-1",
+          "0x1.8a2747cf99999p-1",
+          "0x1.ee70c678cccccp-1",
+          "0x1.295d229100000p+0",
+          "0x1.5b81e1e59999ap+0"
+        ],
+        [
+          "-0x1.6b57d94cccccep-1",
+          "-0x1.c1e37f4ccccd0p-2",
+          "-0x1.5a2e980000004p-3",
+          "0x1.9ed39d333332cp-4",
+          "0x1.7c811a9999998p-2",
+          "0x1.48a6a6f333332p-1",
+          "0x1.d30cc09999999p-1",
+          "0x1.2eb96d2000000p+0",
+          "0x1.73ec79f333333p+0"
+        ],
+        [
+          "-0x1.0f9fcae000000p-1",
+          "-0x1.251df92999998p-2",
+          "-0x1.57e2e49999990p-5",
+          "0x1.9e4a80066666ap-3",
+          "0x1.c946dc999999cp-2",
+          "0x1.61b43c9800002p-1",
+          "0x1.dec50ae333335p-1",
+          "0x1.2deaec9733334p+0",
+          "0x1.6c7353bcccccep+0"
+        ]
+      ]
+    },
+    {
+      "id": 570,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 1.1102230246251565e-15,
+      "lapack_leading_mean_error": 5.551115123125783e-17,
+      "lapack_same_frame_local_error": 7.647216193618078e-13,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.28960844361559357,
+        -1.4195120319809846,
+        -1.8751335426373479
+      ],
+      "lapack_mean_rates": [
+        0.2896084436155936,
+        -1.419512031980985,
+        -1.875133542637349
+      ],
+      "logdet_mean_error": 0.0,
+      "parameter_hex": [
+        "0x1.f3847bd1b645ap-1",
+        "0x1.87edf299d320cp-10"
+      ],
+      "level_hex": [
+        [
+          "-0x1.fae55f0b33334p-1",
+          "-0x1.7ea9e2d000001p-1",
+          "-0x1.026e6694ccccep-1",
+          "-0x1.0c65d4b333334p-2",
+          "-0x1.3eedc3ccccce8p-6",
+          "0x1.c91038733332ep-3",
+          "0x1.dcff14b000000p-2"
+        ],
+        [
+          "-0x1.1fc0d54066667p+0",
+          "-0x1.b6a57d7c44446p-1",
+          "-0x1.2dc95077bbbbcp-1",
+          "-0x1.49da46e666667p-2",
+          "-0x1.c10f66eaaaab8p-5",
+          "0x1.b32cda5777772p-3",
+          "0x1.eb4ec734ccccdp-2"
+        ],
+        [
+          "-0x1.3eb895ca66666p-1",
+          "-0x1.383041ebbbbbcp-2",
+          "0x1.a214f7aaaaac0p-7",
+          "0x1.5251916666668p-2",
+          "0x1.4bc93d87bbbbcp-1",
+          "0x1.ee69b25c44444p-1",
+          "0x1.4885139866667p+0"
+        ]
+      ]
+    },
+    {
+      "id": 797,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 7.771561172376096e-16,
+      "lapack_leading_mean_error": 8.326672684688674e-17,
+      "lapack_same_frame_local_error": 2.0872192862952943e-13,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.1695458196012005,
+        -0.6263433140607391,
+        -0.8655555842081507
+      ],
+      "lapack_mean_rates": [
+        0.1695458196012004,
+        -0.6263433140607388,
+        -0.8655555842081499
+      ],
+      "logdet_mean_error": 1.1102230246251565e-15,
+      "parameter_hex": [
+        "0x1.eb89b93beb852p-1",
+        "0x1.18e84d802ca67p-8"
+      ],
+      "level_hex": [
+        [
+          "-0x1.ca753a299999ap-2",
+          "-0x1.6d755c619999ap-2",
+          "-0x1.10757e999999ap-2",
+          "-0x1.66eb41a333334p-3",
+          "-0x1.59d70c2666668p-4"
+        ],
+        [
+          "-0x1.be66d01400000p-1",
+          "-0x1.3140f83a66666p-2",
+          "0x1.1a4bafb333334p-2",
+          "0x1.b2ec2bd066667p-1",
+          "0x1.6c593fe39999ap+0"
+        ],
+        [
+          "-0x1.fcbd5e519999ap-1",
+          "-0x1.cdafab2b33334p-2",
+          "0x1.786d993333330p-4",
+          "0x1.44f33be266666p-1",
+          "0x1.2d6c624f33333p+0"
+        ]
+      ]
+    }
+  ],
+  "seconds": 139.4171404838562,
+  "scope": "Finite numerical reproduction. Replay uses the production recurrence; independent checks concern algebraic formula, local derivatives and QR accounting. No interval or uniqueness certificate."
+}

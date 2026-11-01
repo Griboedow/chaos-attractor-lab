@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-01",
+  "status": "passed",
+  "packet_manifest_sha256": "6622ba30e71601fa08667a4889ba35cff43d7bef9e62c646a9864de0c3f5b314",
+  "staged_packet_entries": 284,
+  "original_research_files": 430,
+  "completed_runs": 25,
+  "omitted_optional_arrays": 154,
+  "omitted_array_bytes": 918259327,
+  "checks": {
+    "manuscripts": "14 manuscripts, 570 local links; passed",
+    "dates": "94 dated image occurrences across 92 documents; passed",
+    "portraits": "36 families, 63 panels, 36 main static portraits, 15 main animations; input receipts, animations and input recomputation passed",
+    "storage": "1900 omitted payloads, 1795 compact files; passed against staged files",
+    "packet": "All retained originals, cached originals and compact payload hashes verified; staged packet bytes agree with the manifest",
+    "numerical": "1621 scout, 87 follow-up, 14 long, 14 dense and 165 start-cohort replays; ten high-precision controls; two twenty-million-step state histories replayed. Full details in the frozen validation.json",
+    "visual": "Eight complete preview pages and fourteen dense portraits inspected; new paired still and rotation frames 0, 150, 300 and 450 inspected"
+  },
+  "scope": "Numerical and presentation validation. No trapping or asymptotic chaotic-attraction certificate for the two new folded-shell candidates; historical uniqueness and nonlinear equivalence remain open. Published browser review is recorded separately."
+}

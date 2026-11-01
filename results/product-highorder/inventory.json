@@ -1,0 +1,5369 @@
+{
+  "schema": 1,
+  "scope": "Every research file present in each declared completed run, including intermediate blocks. Explicitly listed runtime bytecode caches are excluded when requested. Optional array bytes remain in the hash-addressed cache and original run directory.",
+  "files": [
+    {
+      "run": "product-highorder-audit01",
+      "file": "audit_highorder_product.py",
+      "bytes": 5998,
+      "sha256": "7f8127ecb07ddd140a7cafaf1d50b86d46e1e6f00c48ff96564a141bd03887e1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "cohort_product_alphabet.py",
+      "bytes": 3797,
+      "sha256": "7fbcf91f8a42fb33149d94803e6291a28e6137580d4e50d7aa936ad57029e9f6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "report.json",
+      "bytes": 3301,
+      "sha256": "6f35289018fb39dac84fcfa210a79162a56729688f09b9d5f577def4afe61d9d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-audit01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-catalog01",
+      "file": "aligned-samples.npz",
+      "bytes": 3765231,
+      "sha256": "5211cc2efdc79c2b00b708d9614a0ebcea6306a7c2f737e4e61a676d50e5b755",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/5211cc2efdc79c2b00b708d9614a0ebcea6306a7c2f737e4e61a676d50e5b755.npz",
+        "bytes": 3765231,
+        "sha256": "5211cc2efdc79c2b00b708d9614a0ebcea6306a7c2f737e4e61a676d50e5b755",
+        "keys": [
+          "109--similarity--JerkCircuit--candidate",
+          "109--similarity--JerkCircuit--reference",
+          "109--similarity--JerkCircuit--candidate_indices",
+          "109--similarity--JerkCircuit--reference_indices",
+          "109--similarity--SprottJerk--candidate",
+          "109--similarity--SprottJerk--reference",
+          "109--similarity--SprottJerk--candidate_indices",
+          "109--similarity--SprottJerk--reference_indices",
+          "109--similarity--AtmosphericRegime--candidate",
+          "109--similarity--AtmosphericRegime--reference",
+          "109--similarity--AtmosphericRegime--candidate_indices",
+          "109--similarity--AtmosphericRegime--reference_indices",
+          "185--similarity--BeerRNN--candidate",
+          "185--similarity--BeerRNN--reference",
+          "185--similarity--BeerRNN--candidate_indices",
+          "185--similarity--BeerRNN--reference_indices",
+          "185--similarity--Bouali2--candidate",
+          "185--similarity--Bouali2--reference",
+          "185--similarity--Bouali2--candidate_indices",
+          "185--similarity--Bouali2--reference_indices",
+          "185--similarity--SprottTorus--candidate",
+          "185--similarity--SprottTorus--reference",
+          "185--similarity--SprottTorus--candidate_indices",
+          "185--similarity--SprottTorus--reference_indices",
+          "293--similarity--ItikBanksTumor--candidate",
+          "293--similarity--ItikBanksTumor--reference",
+          "293--similarity--ItikBanksTumor--candidate_indices",
+          "293--similarity--ItikBanksTumor--reference_indices",
+          "293--similarity--CaTwoPlus--candidate",
+          "293--similarity--CaTwoPlus--reference",
+          "293--similarity--CaTwoPlus--candidate_indices",
+          "293--similarity--CaTwoPlus--reference_indices",
+          "293--similarity--LiuChen--candidate",
+          "293--similarity--LiuChen--reference",
+          "293--similarity--LiuChen--candidate_indices",
+          "293--similarity--LiuChen--reference_indices",
+          "403--similarity--HastingsPowell--candidate",
+          "403--similarity--HastingsPowell--reference",
+          "403--similarity--HastingsPowell--candidate_indices",
+          "403--similarity--HastingsPowell--reference_indices",
+          "403--similarity--SprottE--candidate",
+          "403--similarity--SprottE--reference",
+          "403--similarity--SprottE--candidate_indices",
+          "403--similarity--SprottE--reference_indices",
+          "403--similarity--SprottTorus--candidate",
+          "403--similarity--SprottTorus--reference",
+          "403--similarity--SprottTorus--candidate_indices",
+          "403--similarity--SprottTorus--reference_indices",
+          "414--similarity--JerkCircuit--candidate",
+          "414--similarity--JerkCircuit--reference",
+          "414--similarity--JerkCircuit--candidate_indices",
+          "414--similarity--JerkCircuit--reference_indices",
+          "414--similarity--Atlas-Cassiopea--candidate",
+          "414--similarity--Atlas-Cassiopea--reference",
+          "414--similarity--Atlas-Cassiopea--candidate_indices",
+          "414--similarity--Atlas-Cassiopea--reference_indices",
+          "414--similarity--RabinovichFabrikant--candidate",
+          "414--similarity--RabinovichFabrikant--reference",
+          "414--similarity--RabinovichFabrikant--candidate_indices",
+          "414--similarity--RabinovichFabrikant--reference_indices",
+          "487--similarity--Henon3D-1.4-0.2-0.1--candidate",
+          "487--similarity--Henon3D-1.4-0.2-0.1--reference",
+          "487--similarity--Henon3D-1.4-0.2-0.1--candidate_indices",
+          "487--similarity--Henon3D-1.4-0.2-0.1--reference_indices",
+          "487--similarity--RabinovichFabrikant--candidate",
+          "487--similarity--RabinovichFabrikant--reference",
+          "487--similarity--RabinovichFabrikant--candidate_indices",
+          "487--similarity--RabinovichFabrikant--reference_indices",
+          "487--similarity--Blasius--candidate",
+          "487--similarity--Blasius--reference",
+          "487--similarity--Blasius--candidate_indices",
+          "487--similarity--Blasius--reference_indices",
+          "570--similarity--SprottTorus--candidate",
+          "570--similarity--SprottTorus--reference",
+          "570--similarity--SprottTorus--candidate_indices",
+          "570--similarity--SprottTorus--reference_indices",
+          "570--similarity--SprottE--candidate",
+          "570--similarity--SprottE--reference",
+          "570--similarity--SprottE--candidate_indices",
+          "570--similarity--SprottE--reference_indices",
+          "570--similarity--SprottO--candidate",
+          "570--similarity--SprottO--reference",
+          "570--similarity--SprottO--candidate_indices",
+          "570--similarity--SprottO--reference_indices",
+          "797--similarity--SprottTorus--candidate",
+          "797--similarity--SprottTorus--reference",
+          "797--similarity--SprottTorus--candidate_indices",
+          "797--similarity--SprottTorus--reference_indices",
+          "797--similarity--SprottI--candidate",
+          "797--similarity--SprottI--reference",
+          "797--similarity--SprottI--candidate_indices",
+          "797--similarity--SprottI--reference_indices",
+          "797--similarity--CaTwoPlus--candidate",
+          "797--similarity--CaTwoPlus--reference",
+          "797--similarity--CaTwoPlus--candidate_indices",
+          "797--similarity--CaTwoPlus--reference_indices",
+          "109--affine--KickedTop-A35-b0.1--candidate",
+          "109--affine--KickedTop-A35-b0.1--reference",
+          "109--affine--KickedTop-A35-b0.1--candidate_indices",
+          "109--affine--KickedTop-A35-b0.1--reference_indices",
+          "109--affine--WindmiReduced--candidate",
+          "109--affine--WindmiReduced--reference",
+          "109--affine--WindmiReduced--candidate_indices",
+          "109--affine--WindmiReduced--reference_indices",
+          "109--affine--CellularNeuralNetwork--candidate",
+          "109--affine--CellularNeuralNetwork--reference",
+          "109--affine--CellularNeuralNetwork--candidate_indices",
+          "109--affine--CellularNeuralNetwork--reference_indices",
+          "185--affine--YuWang2--candidate",
+          "185--affine--YuWang2--reference",
+          "185--affine--YuWang2--candidate_indices",
+          "185--affine--YuWang2--reference_indices",
+          "185--affine--WindmiReduced--candidate",
+          "185--affine--WindmiReduced--reference",
+          "185--affine--WindmiReduced--candidate_indices",
+          "185--affine--WindmiReduced--reference_indices",
+          "185--affine--VallisElNino--candidate",
+          "185--affine--VallisElNino--reference",
+          "185--affine--VallisElNino--candidate_indices",
+          "185--affine--VallisElNino--reference_indices",
+          "293--affine--Henon3D-0.0-0.815-0.7--candidate",
+          "293--affine--Henon3D-0.0-0.815-0.7--reference",
+          "293--affine--Henon3D-0.0-0.815-0.7--candidate_indices",
+          "293--affine--Henon3D-0.0-0.815-0.7--reference_indices",
+          "293--affine--AtmosphericRegime--candidate",
+          "293--affine--AtmosphericRegime--reference",
+          "293--affine--AtmosphericRegime--candidate_indices",
+          "293--affine--AtmosphericRegime--reference_indices",
+          "293--affine--YuWang2--candidate",
+          "293--affine--YuWang2--reference",
+          "293--affine--YuWang2--candidate_indices",
+          "293--affine--YuWang2--reference_indices",
+          "403--affine--KickedTop-A15-b0.5--candidate",
+          "403--affine--KickedTop-A15-b0.5--reference",
+          "403--affine--KickedTop-A15-b0.5--candidate_indices",
+          "403--affine--KickedTop-A15-b0.5--reference_indices",
+          "403--affine--Coullet--candidate",
+          "403--affine--Coullet--reference",
+          "403--affine--Coullet--candidate_indices",
+          "403--affine--Coullet--reference_indices",
+          "403--affine--JerkCircuit--candidate",
+          "403--affine--JerkCircuit--reference",
+          "403--affine--JerkCircuit--candidate_indices",
+          "403--affine--JerkCircuit--reference_indices",
+          "414--affine--WindmiReduced--candidate",
+          "414--affine--WindmiReduced--reference",
+          "414--affine--WindmiReduced--candidate_indices",
+          "414--affine--WindmiReduced--reference_indices",
+          "414--affine--SprottO--candidate",
+          "414--affine--SprottO--reference",
+          "414--affine--SprottO--candidate_indices",
+          "414--affine--SprottO--reference_indices",
+          "414--affine--Lorenz84--candidate",
+          "414--affine--Lorenz84--reference",
+          "414--affine--Lorenz84--candidate_indices",
+          "414--affine--Lorenz84--reference_indices",
+          "487--affine--SprottM--candidate",
+          "487--affine--SprottM--reference",
+          "487--affine--SprottM--candidate_indices",
+          "487--affine--SprottM--reference_indices",
+          "487--affine--SprottO--candidate",
+          "487--affine--SprottO--reference",
+          "487--affine--SprottO--candidate_indices",
+          "487--affine--SprottO--reference_indices",
+          "487--affine--WindmiReduced--candidate",
+          "487--affine--WindmiReduced--reference",
+          "487--affine--WindmiReduced--candidate_indices",
+          "487--affine--WindmiReduced--reference_indices",
+          "570--affine--Thomas--candidate",
+          "570--affine--Thomas--reference",
+          "570--affine--Thomas--candidate_indices",
+          "570--affine--Thomas--reference_indices",
+          "570--affine--ShimizuMorioka--candidate",
+          "570--affine--ShimizuMorioka--reference",
+          "570--affine--ShimizuMorioka--candidate_indices",
+          "570--affine--ShimizuMorioka--reference_indices",
+          "570--affine--WindmiReduced--candidate",
+          "570--affine--WindmiReduced--reference",
+          "570--affine--WindmiReduced--candidate_indices",
+          "570--affine--WindmiReduced--reference_indices",
+          "797--affine--Henon3D-1.4-0.2-0.1--candidate",
+          "797--affine--Henon3D-1.4-0.2-0.1--reference",
+          "797--affine--Henon3D-1.4-0.2-0.1--candidate_indices",
+          "797--affine--Henon3D-1.4-0.2-0.1--reference_indices",
+          "797--affine--KickedTop-A35-b0.1--candidate",
+          "797--affine--KickedTop-A35-b0.1--reference",
+          "797--affine--KickedTop-A35-b0.1--candidate_indices",
+          "797--affine--KickedTop-A35-b0.1--reference_indices",
+          "797--affine--KickedTop-A15-b0.5--candidate",
+          "797--affine--KickedTop-A15-b0.5--reference",
+          "797--affine--KickedTop-A15-b0.5--candidate_indices",
+          "797--affine--KickedTop-A15-b0.5--reference_indices"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-catalog01",
+      "file": "compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-catalog01",
+      "file": "compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-catalog01",
+      "file": "compare_constellation_catalog.py",
+      "bytes": 4518,
+      "sha256": "e3b6b73077f5a194cafbd761b4efb017d4f3eda7ab6974a39e684ba22d651de5",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-catalog01",
+      "file": "partial.json",
+      "bytes": 233361,
+      "sha256": "7588fc41b211aafe3351d48dcc307b63eb6aa98f5deb52852b034cbbb91a72b3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-catalog01",
+      "file": "report.json",
+      "bytes": 233412,
+      "sha256": "1a8b5be3f730115852853160cdc321942c65dc418d649ca08e5b08b4f767dfe0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "case-109.json",
+      "bytes": 19220,
+      "sha256": "83be623aba9640ea98d2fa8215134418637185f9f6616dbd5b3db2dfe8553a09",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "case-109.npz",
+      "bytes": 1018069,
+      "sha256": "a4fbea15dd0f587eeb61b2804e4be9bc276b5902e6ed67a0d54cb7de492c906a",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a4fbea15dd0f587eeb61b2804e4be9bc276b5902e6ed67a0d54cb7de492c906a.npz",
+        "bytes": 8517,
+        "sha256": "1ee11347aabc166823c94ac1e75c6f994041f373eeeee0af4ca03b9c290804e7",
+        "keys": [
+          "starts",
+          "rates",
+          "status",
+          "minima"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "case-185.json",
+      "bytes": 19342,
+      "sha256": "717e1521251d7d1ac86f56ec200222350d917b34428bebd1011a238e14c3a121",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "case-185.npz",
+      "bytes": 1323924,
+      "sha256": "cb9c30d8b3391beed45fa03fb4519a811d0eac32f31034992921f1e96b2664a7",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/cb9c30d8b3391beed45fa03fb4519a811d0eac32f31034992921f1e96b2664a7.npz",
+        "bytes": 11081,
+        "sha256": "845dbd25914b07e3ac6d0d794c938ef7b7416247e25dd2c3f7acbde0d941011e",
+        "keys": [
+          "starts",
+          "rates",
+          "status",
+          "minima"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "case-414.json",
+      "bytes": 19354,
+      "sha256": "acd57c16349f5b3270127a307e190b05c12c141e70cde558dbc5d2783f45ea14",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "case-414.npz",
+      "bytes": 1037069,
+      "sha256": "7234305c560da3d4145bfc34fb307306191f30d2f07dd7b63b7a625059a2a786",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7234305c560da3d4145bfc34fb307306191f30d2f07dd7b63b7a625059a2a786.npz",
+        "bytes": 9240,
+        "sha256": "598af34f85048fa3d14374b4b7d89a6007e3e63ad58207ebc078e4b15460bf4d",
+        "keys": [
+          "starts",
+          "rates",
+          "status",
+          "minima"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "cohort_product_alphabet.py",
+      "bytes": 3797,
+      "sha256": "7fbcf91f8a42fb33149d94803e6291a28e6137580d4e50d7aa936ad57029e9f6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "protocol.json",
+      "bytes": 3184,
+      "sha256": "e42906cc15a6ad1611aa28e59ce82688822e6beb0ae5d694ecfdbd6c466e889c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "report.json",
+      "bytes": 72349,
+      "sha256": "b2f742478188ab9c26d5a2f21d06168e130afb1e94e3d7209b98a4a8e3708bcf",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-cohort01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-109-histogram.npz",
+      "bytes": 83747,
+      "sha256": "ef92a68097673a05626e7042f7a910c3d4468bed5202b4b36803a52fdacaad44",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-109-states.npz",
+      "bytes": 44665338,
+      "sha256": "6c1810606ca9b7f28f3d4473a52e9d499e7ce21ed0e71eb16bda246f74a7a01b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6c1810606ca9b7f28f3d4473a52e9d499e7ce21ed0e71eb16bda246f74a7a01b.npz",
+        "bytes": 2990,
+        "sha256": "1ab585dadd72eb251b9bc29881d752fa0240167f76a4516d3fe3c1ecac93a7b7",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-109.json",
+      "bytes": 2057,
+      "sha256": "6e9be1b4e0ec61ca2f73d753912f4c01d68b0d143f74347a89844c938dd0f039",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-185-histogram.npz",
+      "bytes": 140633,
+      "sha256": "29e5d0dbd61813927f32c1eca81c5a91e03a9e074e767f3ff396b59a08967c84",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-185-states.npz",
+      "bytes": 45527901,
+      "sha256": "3bea606ec7aa5d9c99ba86fc65fc41d6a73eb93bf27c579145606e0243951537",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3bea606ec7aa5d9c99ba86fc65fc41d6a73eb93bf27c579145606e0243951537.npz",
+        "bytes": 1381,
+        "sha256": "a0e30a6f2d1b069508e3871a69b7f2f205bb9061af7f3e4eb9fb1cfeed680235",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-185.json",
+      "bytes": 2051,
+      "sha256": "67790afc72c5d5d1d2ac7dd153929c9d5cb650aa3f3198e4f4731f2261f13e79",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-293-histogram.npz",
+      "bytes": 36636,
+      "sha256": "5c07f15e5b2fa8d9b1f504b7691b1c26186fccc8caed1c6d9638739643c65af7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-293-states.npz",
+      "bytes": 44605676,
+      "sha256": "3438a928cc9f3732623cb56301620e1ce8e38fc9715b47d684198fe8d0183425",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3438a928cc9f3732623cb56301620e1ce8e38fc9715b47d684198fe8d0183425.npz",
+        "bytes": 1394,
+        "sha256": "64095595b67888b4317e39e534decfa5daa381ea096efa3b4effbe9a1b447036",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-293.json",
+      "bytes": 2045,
+      "sha256": "d1bff1de573986baf8af03f1c66dc1abe6214992333dff06cd8545a82f55ad40",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-403-histogram.npz",
+      "bytes": 129389,
+      "sha256": "6a69000d56e1519fea55224608de36f2ff6f7e509592368206adf9726a0d6f4d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-403-states.npz",
+      "bytes": 45302670,
+      "sha256": "d8cf491287c2bf83d6dbb4c78d0e901eb2acce24017bcc5a0dd0f4484de42547",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d8cf491287c2bf83d6dbb4c78d0e901eb2acce24017bcc5a0dd0f4484de42547.npz",
+        "bytes": 2990,
+        "sha256": "2d0814ecb1761bcb7f20414e2b37b0592afaea69d3149eb6fdee3da471d8470a",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-403.json",
+      "bytes": 2058,
+      "sha256": "f7e8958e6f620f9ba55359308388acca161519e21eb67540b561d104a2efef4a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-414-histogram.npz",
+      "bytes": 89026,
+      "sha256": "5e35037accc2ca622b831f77671fc5a99ef6e20853f6690b2fa4fc9c20d8e441",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-414-states.npz",
+      "bytes": 45275824,
+      "sha256": "d1670b42ce59c35aebdefe5c730e5bc25e577d8e7aed10b4127238937f1c0838",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d1670b42ce59c35aebdefe5c730e5bc25e577d8e7aed10b4127238937f1c0838.npz",
+        "bytes": 1931,
+        "sha256": "474680890321edf0f6e166e272b1bf3764d04de9d91862a57bef791afbc02c35",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-414.json",
+      "bytes": 2050,
+      "sha256": "96639ce70b86e81c0bf1ec1c1bb738078e654a18d2da7c7e4a27b855413a8f50",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-487-histogram.npz",
+      "bytes": 72309,
+      "sha256": "c353b39c6bbdd3bbcb70a61979c3b0b9d5a252e0d37d35fa7ebf76fe8febe938",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-487-states.npz",
+      "bytes": 45059770,
+      "sha256": "300e70e3982f69dabfc9fd4dadecf5348981f0202ee22b927960544d2bcfca97",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/300e70e3982f69dabfc9fd4dadecf5348981f0202ee22b927960544d2bcfca97.npz",
+        "bytes": 2825,
+        "sha256": "0e1a19d1ed9d076af73c7f889322cbf49c9be999ec458d2f0026f55d50ab568e",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-487.json",
+      "bytes": 2052,
+      "sha256": "545d71b590a5b4c6e7aab0c715c3fc5634c62fd518b3b8dc713f8535b396b65d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-570-histogram.npz",
+      "bytes": 99162,
+      "sha256": "ab2403c061bbd08856574c0d3624c354037ef60fb3981fd9b4a4cc0f6d1a98ec",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-570-states.npz",
+      "bytes": 45290198,
+      "sha256": "36fcc0f7f0fbf0793c9d072073262ec216e629a44332f46ffd92beb5a634063e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/36fcc0f7f0fbf0793c9d072073262ec216e629a44332f46ffd92beb5a634063e.npz",
+        "bytes": 1999,
+        "sha256": "2e32f9c2c11828ea9b89960c33059c92d485f16fc9e39828d0e0aab07dc6d7fe",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-570.json",
+      "bytes": 2054,
+      "sha256": "1a21af22756af28bf2b17c1e0d75c8220eda5cc3e270f843bd8388ac89464902",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-797-histogram.npz",
+      "bytes": 86195,
+      "sha256": "9367ea7263f4c6ce66f18f60de1c5b3ace3886bbeb695af5bf0bba663da677bf",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-797-states.npz",
+      "bytes": 45411358,
+      "sha256": "bc1b4880f6490f61439c84a8597eb68e09350b4b3ee52ba029a02f7a03a53352",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/bc1b4880f6490f61439c84a8597eb68e09350b4b3ee52ba029a02f7a03a53352.npz",
+        "bytes": 1366,
+        "sha256": "6dd5f5cf2bda1b91d10305e4e0e62f81499549ebce10843bd600f0b95248a071",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "case-797.json",
+      "bytes": 2051,
+      "sha256": "6feb81f0f42d020fbaa67f25003a2f35019f00debdf5a423074b0c009cd925ff",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "protocol.json",
+      "bytes": 337,
+      "sha256": "5a9d489baf506fe62249546ddd2d237135d1eb5c44b09cd3a5e23b1652a44f29",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "render_product_alphabet.py",
+      "bytes": 3730,
+      "sha256": "e138c145eea4d28e707011172f4d44eee4178e391b96ca6cff9cefcb4430def9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "report.json",
+      "bytes": 19469,
+      "sha256": "65894dc470764c2637c0cf2b9ba26cc5525854010837de021e1c55484caec8af",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-dense01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-0.npz",
+      "bytes": 2281919,
+      "sha256": "24273baedb38ba3cba8fe5456d6a629a413bc2f41fe6cf6e00fed3f295697e49",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/24273baedb38ba3cba8fe5456d6a629a413bc2f41fe6cf6e00fed3f295697e49.npz",
+        "bytes": 1999,
+        "sha256": "7a863e70c182947f89d603744b1bbeab3be7fea50430b67fd46c4f6114f98935",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-1.npz",
+      "bytes": 2284374,
+      "sha256": "fa5e22856f42d16b457da47995cff7a083c8870b1ee7f4664f5113e5a1f675ec",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/fa5e22856f42d16b457da47995cff7a083c8870b1ee7f4664f5113e5a1f675ec.npz",
+        "bytes": 2268,
+        "sha256": "0f470a15bba1dad1d3253b78b3157c1ed9bc3ec7ae556ee29745d6ae801bbe45",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-109.npz",
+      "bytes": 2236777,
+      "sha256": "eb0921fcdf33612bfa8141cad546dcd6512fdf1f28e4fc8e59402ae80722b2a2",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/eb0921fcdf33612bfa8141cad546dcd6512fdf1f28e4fc8e59402ae80722b2a2.npz",
+        "bytes": 4076,
+        "sha256": "72e7cbdccb9b4a3d46579da336d5f757f20e8d373485bbbd4ba61e7f8d279ca4",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-167.npz",
+      "bytes": 2103791,
+      "sha256": "d2da715d4846ee1731edf2cb7e2b85586e8651348aedba390b92f6071fdf0a6d",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d2da715d4846ee1731edf2cb7e2b85586e8651348aedba390b92f6071fdf0a6d.npz",
+        "bytes": 2406,
+        "sha256": "8b7ad51654b48653aa512a64ec726aaa7e0a76273577931614230e614a20143e",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-168.npz",
+      "bytes": 2229080,
+      "sha256": "1d48910a8c9442e2c8066e76036300f29e07088c35e750e31be4c648075c1cfd",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1d48910a8c9442e2c8066e76036300f29e07088c35e750e31be4c648075c1cfd.npz",
+        "bytes": 3027,
+        "sha256": "a1a349c0eb1d448a57c8ce55cfabed4ee169bee6a373717687ae6e25d3b2b659",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-174.npz",
+      "bytes": 2255716,
+      "sha256": "6f19e2e264dcf2f43d193f592fe50813965cd6b3037c92a4e1d43122a5b06ac9",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6f19e2e264dcf2f43d193f592fe50813965cd6b3037c92a4e1d43122a5b06ac9.npz",
+        "bytes": 2958,
+        "sha256": "0ba6097ba195379131a922409e9424f057737e8fa79dff86ed2fce02bb02cc36",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-185.npz",
+      "bytes": 2278732,
+      "sha256": "d6af7d7520ff7e8126bf47111ce36b0147df0f447470cfcbae8cd469027e47e3",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d6af7d7520ff7e8126bf47111ce36b0147df0f447470cfcbae8cd469027e47e3.npz",
+        "bytes": 2466,
+        "sha256": "a98ac87d0cda0660eb771da204469f035668b1c5adfc6aecae39292b7785e71f",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-23.npz",
+      "bytes": 931210,
+      "sha256": "30c1ab35b58a281769a8adc458f993e3d4cb60d841d206061e24ac2378c32c60",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/30c1ab35b58a281769a8adc458f993e3d4cb60d841d206061e24ac2378c32c60.npz",
+        "bytes": 2058,
+        "sha256": "6f7818ad19e53cff0c88000115d557d79fdcb3523bfbdc6cbc1cc10287a8a96a",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-270.npz",
+      "bytes": 2264132,
+      "sha256": "17d45ccaae8629f491b60f926649f9f0dfc879414fa5c5fdf81912587b858742",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/17d45ccaae8629f491b60f926649f9f0dfc879414fa5c5fdf81912587b858742.npz",
+        "bytes": 3054,
+        "sha256": "aaad1b8aefd4fde107491b2fd8bd267381791a32769332227b6aa94ff9a90a2e",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-271.npz",
+      "bytes": 2228210,
+      "sha256": "74d70ef00e426d80041c490f9e16b2df559ba516f4d0edb74f18efdab3ac7b65",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/74d70ef00e426d80041c490f9e16b2df559ba516f4d0edb74f18efdab3ac7b65.npz",
+        "bytes": 4147,
+        "sha256": "b477613897dda3d64f1a2af065e2360bb28c553f6ff56945ef954de364197498",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-289.npz",
+      "bytes": 2207231,
+      "sha256": "84a50236b91f51dcfeff15d9e21a757fff79a2030d5032f1067f0b728b42cfac",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/84a50236b91f51dcfeff15d9e21a757fff79a2030d5032f1067f0b728b42cfac.npz",
+        "bytes": 4080,
+        "sha256": "4c8f5e3c2ab1a749a6dc43af050faa6a621bacc6a02cbfafb88f44e456279e72",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-293.npz",
+      "bytes": 2232783,
+      "sha256": "eafa0fb3a401ffd8a44db4ff27921ae4cddb844de152e54d8331e9bff24c27e4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/eafa0fb3a401ffd8a44db4ff27921ae4cddb844de152e54d8331e9bff24c27e4.npz",
+        "bytes": 2479,
+        "sha256": "59a51262f14efb086df960721743143944306e728c90f0471848069ce61b2b77",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-300.npz",
+      "bytes": 2270328,
+      "sha256": "430b9841955bd5d61e37ce3d55dd1556ecf3b54327179d0b678831f86af60589",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/430b9841955bd5d61e37ce3d55dd1556ecf3b54327179d0b678831f86af60589.npz",
+        "bytes": 3040,
+        "sha256": "3ce2c23aa8bba560578498ab4dcdbcd48f5bc0c22053973c3928fafacd530be8",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-32.npz",
+      "bytes": 1067078,
+      "sha256": "f26751f3f6266d41cee4e250bdf2e664f0386a635706636ccbe2313e3c899492",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f26751f3f6266d41cee4e250bdf2e664f0386a635706636ccbe2313e3c899492.npz",
+        "bytes": 2587,
+        "sha256": "f710d603d0817447b6c898bda140dda8a7512ed60dcec1514bbd1e70bff7a536",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-329.npz",
+      "bytes": 2248409,
+      "sha256": "0e25088cfe668860f91ddaa85aaa07269841567902404beee43a80b8de27a32b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0e25088cfe668860f91ddaa85aaa07269841567902404beee43a80b8de27a32b.npz",
+        "bytes": 2450,
+        "sha256": "29f08a827ab3c6e7726609f726766d694ac838b16481939aae52fd73d169e293",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-337.npz",
+      "bytes": 2113853,
+      "sha256": "18f3f290c3cce140d60c7d5bbf743ea4c2e08e3b5bd908cb30f3bb43b21007a7",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/18f3f290c3cce140d60c7d5bbf743ea4c2e08e3b5bd908cb30f3bb43b21007a7.npz",
+        "bytes": 4110,
+        "sha256": "02fa11f7208d29d05ac97bf0bb24a20456f11644283a40e4098868cbca7a95ab",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-35.npz",
+      "bytes": 1589415,
+      "sha256": "68227ca0ff4f2335b750320b073274f0b1f4344117568ab0c48400dd531028a4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/68227ca0ff4f2335b750320b073274f0b1f4344117568ab0c48400dd531028a4.npz",
+        "bytes": 2661,
+        "sha256": "4cdb973c2c237e1c3779e9413f882b3ecccbe51f6e92b7922e9e61a627dedf90",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-385.npz",
+      "bytes": 2183960,
+      "sha256": "6bd8bf543559a46b2ac5f0df0577a16a9bb9765e224dfbc4ff9ffc3cd521fba0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6bd8bf543559a46b2ac5f0df0577a16a9bb9765e224dfbc4ff9ffc3cd521fba0.npz",
+        "bytes": 4110,
+        "sha256": "3d1d4786d8c2b37ab4fb2ee72557fdfda759f4ca4e49ebec17a70ac312785954",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-403.npz",
+      "bytes": 2269367,
+      "sha256": "05d0fbc2769fc86cb6b771ffca66f5c04b46edf8c69786d3d8e4c7806077d52e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/05d0fbc2769fc86cb6b771ffca66f5c04b46edf8c69786d3d8e4c7806077d52e.npz",
+        "bytes": 4080,
+        "sha256": "cffedba8c05f69ff77b4878023340ef19c1cff73e67aad28485007e4aa311516",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-413.npz",
+      "bytes": 2266965,
+      "sha256": "cdab1d9c55a639e2366cbc54fb42c981fc50aa631afb8eb76c72bae5fec64c20",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/cdab1d9c55a639e2366cbc54fb42c981fc50aa631afb8eb76c72bae5fec64c20.npz",
+        "bytes": 2442,
+        "sha256": "d35ea7dd073b9a6222caca837330cda326606a5e9e146c702a8deff5c1f7e273",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-414.npz",
+      "bytes": 2266903,
+      "sha256": "80b6849290a745f6b5c7437ea199fe183e2efaa70796d29146e54889212031e0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/80b6849290a745f6b5c7437ea199fe183e2efaa70796d29146e54889212031e0.npz",
+        "bytes": 3017,
+        "sha256": "42df6c27c13150b06953e000e397c19b65f206f98e5dae401658fa6f97742765",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-415.npz",
+      "bytes": 2243911,
+      "sha256": "c9e0641e64ec3d9b81deec1d9e449c6d6ea7f238e741860ec6a8c0365b72ad76",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/c9e0641e64ec3d9b81deec1d9e449c6d6ea7f238e741860ec6a8c0365b72ad76.npz",
+        "bytes": 4031,
+        "sha256": "ed1874aea1ba244d56cba9cf3991b44f8a4dece3d4c728e94754b9b110992d37",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-449.npz",
+      "bytes": 2289441,
+      "sha256": "8fd79242c0ee7919eb78aed7c269bb6c02adb09f0c3e76a0fb736acefcb4e65c",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/8fd79242c0ee7919eb78aed7c269bb6c02adb09f0c3e76a0fb736acefcb4e65c.npz",
+        "bytes": 2411,
+        "sha256": "d4f43f570870de5cad94b2a481f698471dced97d9571fb0e10adb5eb9f7d6d93",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-450.npz",
+      "bytes": 2275353,
+      "sha256": "671eb0ea6b844099617083efbb756665605c79c8877e986def06e204a9238a19",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/671eb0ea6b844099617083efbb756665605c79c8877e986def06e204a9238a19.npz",
+        "bytes": 3001,
+        "sha256": "87349a252580b4547752cba51b3ef1cfd7e4b14c78c61af9422b7a4edaf9fd2a",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-487.npz",
+      "bytes": 2257053,
+      "sha256": "f2864a7abce55daea0481fdc4b3f5dfe20b1829a2351b3f1e3bf3f24e174ee63",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f2864a7abce55daea0481fdc4b3f5dfe20b1829a2351b3f1e3bf3f24e174ee63.npz",
+        "bytes": 3905,
+        "sha256": "aadc64009852dee07b12e2acf409cd31e901c45f5845ad2e81a24618bc633022",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-50.npz",
+      "bytes": 1076874,
+      "sha256": "1523ca0f8d731da996c26c7ac2d4e8af6b7f16e98b429b3ab76b5ac68281acba",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1523ca0f8d731da996c26c7ac2d4e8af6b7f16e98b429b3ab76b5ac68281acba.npz",
+        "bytes": 2613,
+        "sha256": "244f2747c9ffc7d70cb4e31eca9bd637bbcc7e48eaab58c329b2cfbeb854966c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-522.npz",
+      "bytes": 2253752,
+      "sha256": "83ab001b30044717dad028d3b1d9820752ac3d57b9d052a48ebeac21551e16c5",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/83ab001b30044717dad028d3b1d9820752ac3d57b9d052a48ebeac21551e16c5.npz",
+        "bytes": 3074,
+        "sha256": "27f4c4bc283b8d6b2485505b171fa539176ba6cc2f5b5c7d18276cdd56b696bd",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-527.npz",
+      "bytes": 2242118,
+      "sha256": "d76a2b164a6b0749806f8d3eae01f7e392e9edac4fa4759fd76bb4999dd2aca8",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d76a2b164a6b0749806f8d3eae01f7e392e9edac4fa4759fd76bb4999dd2aca8.npz",
+        "bytes": 2419,
+        "sha256": "64fd0c590b0060b7f1e4023551ea95d2adb78aca4e8f98e6116367566b690907",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-528.npz",
+      "bytes": 2243111,
+      "sha256": "42475326f8ae1530e57b9e895b8601f597d6ea5b73c5213c70a8d8f4d82778f6",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/42475326f8ae1530e57b9e895b8601f597d6ea5b73c5213c70a8d8f4d82778f6.npz",
+        "bytes": 2987,
+        "sha256": "2141c65bcaed8338b4deae56cf3e5a85ace36c0e7a6fb36b9c1449b1d24834bf",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-53.npz",
+      "bytes": 1084602,
+      "sha256": "cd59cbd18b5cd6f9010e9813a621b33c090580aa7f5964e4b85503e07da6e5fd",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/cd59cbd18b5cd6f9010e9813a621b33c090580aa7f5964e4b85503e07da6e5fd.npz",
+        "bytes": 2589,
+        "sha256": "0f506402bcf0a7485554165104b0b9a19ae2d7d1d4ce0f04973980831fd08b0b",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-570.npz",
+      "bytes": 2267398,
+      "sha256": "f721f07d26d8c6973834b8a14b8a7c08bce66645843d3f8006d7288249338d6b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f721f07d26d8c6973834b8a14b8a7c08bce66645843d3f8006d7288249338d6b.npz",
+        "bytes": 3083,
+        "sha256": "f439e238ffc2888f1e39f75dff2ffeb4920b941d7153d6fdf1c61cd84cc89810",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-594.npz",
+      "bytes": 2247301,
+      "sha256": "0df3f5ff8eee3ee44b52920af2bb994fa32fb4176a4c979f3971643fdcbf1f12",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0df3f5ff8eee3ee44b52920af2bb994fa32fb4176a4c979f3971643fdcbf1f12.npz",
+        "bytes": 2950,
+        "sha256": "3eab4b57beebd2af8906a042d436376db90dabf211c9444225afba8d9ffab449",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-641.npz",
+      "bytes": 2234802,
+      "sha256": "aaedd69f5d50fc65a6a7076edd721cbc2085b2aba0a89a4764d9e0ad197993b3",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/aaedd69f5d50fc65a6a7076edd721cbc2085b2aba0a89a4764d9e0ad197993b3.npz",
+        "bytes": 2427,
+        "sha256": "d33d10a0e3ab8e1742bac05709f48c8b4112753b26491d4254ee659876e70d84",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-642.npz",
+      "bytes": 2232870,
+      "sha256": "3c5797abede0d5f6a16a839d5311cc9ebda992c97f1d23c843e936ad5519c960",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3c5797abede0d5f6a16a839d5311cc9ebda992c97f1d23c843e936ad5519c960.npz",
+        "bytes": 3026,
+        "sha256": "c667237c4a2fa6d5c29f091a5f51527bbcabbaca3d3cb57cd3e4eb1a4a505867",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-648.npz",
+      "bytes": 2235597,
+      "sha256": "e226e725c406f1cfe1a9999a8a70df866b309ea953395a0c23f9366b38aa9ac8",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/e226e725c406f1cfe1a9999a8a70df866b309ea953395a0c23f9366b38aa9ac8.npz",
+        "bytes": 3107,
+        "sha256": "b31c226616bb03f58154c60cd751e4cd04974e83c3d2a97f632703fecd5fab2b",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-649.npz",
+      "bytes": 2261327,
+      "sha256": "fb72faff65f2bc0e06cc37c6cd6292162c3846e521dcb4716d940880de82eab1",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/fb72faff65f2bc0e06cc37c6cd6292162c3846e521dcb4716d940880de82eab1.npz",
+        "bytes": 4162,
+        "sha256": "70cfb7dc5573efab3154d78658729f0a5a31eb773897d518891d2bfa75292788",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-654.npz",
+      "bytes": 2255581,
+      "sha256": "1f2bdffa33ab8e57acf51a783e8988db7648b6e3b0f08bc93fad6e5b6645da2e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1f2bdffa33ab8e57acf51a783e8988db7648b6e3b0f08bc93fad6e5b6645da2e.npz",
+        "bytes": 3107,
+        "sha256": "145eb3117946cb8c475a938620f015bde1430dc47af8e614d4b1523eca2d130b",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-697.npz",
+      "bytes": 2249378,
+      "sha256": "161789422ace75edbe907934a3c216248e9e41c4a15c45ebaf9d3ba654ec8f1b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/161789422ace75edbe907934a3c216248e9e41c4a15c45ebaf9d3ba654ec8f1b.npz",
+        "bytes": 4061,
+        "sha256": "1b29f7cfcda49c6b1e93206ad7dcb2284d3e4868753286ec4ac829f2f007dfd5",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-703.npz",
+      "bytes": 2251822,
+      "sha256": "4dc493a6b033486b0151e161c550fe5774175e2e80b0939cbc60d501875de0a6",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/4dc493a6b033486b0151e161c550fe5774175e2e80b0939cbc60d501875de0a6.npz",
+        "bytes": 4185,
+        "sha256": "e33e51891af564b6aa4fba4043c5a8598c53f5d371f2acb9ec40ab51a821d74c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-755.npz",
+      "bytes": 2218651,
+      "sha256": "0829ee67c6326368cd2f07e704761718da1114e0492798861d0bd700f3227dc1",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0829ee67c6326368cd2f07e704761718da1114e0492798861d0bd700f3227dc1.npz",
+        "bytes": 2406,
+        "sha256": "42165b5f69a52f03cebf1f40db5f50dd64d31966c4d751d55273ea3ac6c07e46",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-791.npz",
+      "bytes": 2238315,
+      "sha256": "0a7a950999c8f1e1039a7164f903c70c7fa7d42740a4a6c57278e3206d898076",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0a7a950999c8f1e1039a7164f903c70c7fa7d42740a4a6c57278e3206d898076.npz",
+        "bytes": 2427,
+        "sha256": "be95470051e09e20515b28a57752f1d8f47824fc62b12f6f9bacc94d15cb1fc0",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-792.npz",
+      "bytes": 2184389,
+      "sha256": "e4cdc8adf2ae8f23880131206a4312a6cc5610ef76eb99dab8e3064b6bfc473a",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/e4cdc8adf2ae8f23880131206a4312a6cc5610ef76eb99dab8e3064b6bfc473a.npz",
+        "bytes": 3067,
+        "sha256": "3f28854533787800efda442d6fa64298b33d04b8a40d11e615c4778165206c04",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-797.npz",
+      "bytes": 2273440,
+      "sha256": "ef23bbc86b68b78e4aa8de319c8aefc3c9c08e21a7f23ef83ed0d70d050061bb",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/ef23bbc86b68b78e4aa8de319c8aefc3c9c08e21a7f23ef83ed0d70d050061bb.npz",
+        "bytes": 2451,
+        "sha256": "b36b993934c5946a830f7947f84fba775688254a67042285897e46def8862497",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-829.npz",
+      "bytes": 2254948,
+      "sha256": "f6e655ae2a32d7bef754ac399ad0fb7ea1b2f2f9361693259bb1473c7600b91b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f6e655ae2a32d7bef754ac399ad0fb7ea1b2f2f9361693259bb1473c7600b91b.npz",
+        "bytes": 4047,
+        "sha256": "cfd15b5d307a5623bd94c537be163d20198f3712dc0746fc798e89ede8520477",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-845.npz",
+      "bytes": 2262778,
+      "sha256": "750dd80c945931360845d96b4f8217c670fad4d381a86fd1f351e1f39d08801d",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/750dd80c945931360845d96b4f8217c670fad4d381a86fd1f351e1f39d08801d.npz",
+        "bytes": 2412,
+        "sha256": "7f12f158080eea8ec63d8ee42d7082460788b19e0da64d6ca19997defd1c8cbb",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "case-846.npz",
+      "bytes": 2246696,
+      "sha256": "a15583041f3ff84f6d48ea298a227ce030e682d29be740bc28d9eed947bc455a",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a15583041f3ff84f6d48ea298a227ce030e682d29be740bc28d9eed947bc455a.npz",
+        "bytes": 2957,
+        "sha256": "5ffe2921e00e228be89049e531e34a1021632536fa2a9426abc592fef5c5c2d5",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "partial.json",
+      "bytes": 696085,
+      "sha256": "6efdec8f1c7adf443c8805017cb461b58ceef5f1b5bdf3cf39625b3799d626ad",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "protocol.json",
+      "bytes": 755,
+      "sha256": "28c61a9b433efb35354e474984a1996f587bf0dda8c08ccd12c12d3c5739ebe6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "report.json",
+      "bytes": 696085,
+      "sha256": "d75b562c021dec41fc8153c1832c5493e487bc0053f98d06edc1a581ec710fd2",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "search_highorder_product.py",
+      "bytes": 7613,
+      "sha256": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-follow01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-109.npz",
+      "bytes": 2236891,
+      "sha256": "787921395a9e065925ad86a834ada9af397ec652de36fd50a612f431921bbabe",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/787921395a9e065925ad86a834ada9af397ec652de36fd50a612f431921bbabe.npz",
+        "bytes": 4066,
+        "sha256": "feb9ae698ccbe1f83f54350b18a2ee91a52ee89462685c60383757136e38cdeb",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-185.npz",
+      "bytes": 2278994,
+      "sha256": "f13164d96a385c768ccfedac852a4a088ae725e4178f2dba07b71abdee04f796",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f13164d96a385c768ccfedac852a4a088ae725e4178f2dba07b71abdee04f796.npz",
+        "bytes": 2462,
+        "sha256": "abf7886923b32f1ee2f30478d1a35e63bee5100f66a10912dc11c414858f4bff",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-293.npz",
+      "bytes": 2233331,
+      "sha256": "d6e95d5b45b85e5e582d3802a503e488c37de807b660821b2c61cdb33a51c623",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d6e95d5b45b85e5e582d3802a503e488c37de807b660821b2c61cdb33a51c623.npz",
+        "bytes": 2466,
+        "sha256": "d3e3634dd88f8d12245376a5dda1a99d03db27919e8aa50ffcab792d27dc4d50",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-403.npz",
+      "bytes": 2269597,
+      "sha256": "2a7fe75a26f9babfe09a3a7d4bb0b5e2732f0898d05abf8fc66d8370885a8379",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/2a7fe75a26f9babfe09a3a7d4bb0b5e2732f0898d05abf8fc66d8370885a8379.npz",
+        "bytes": 4070,
+        "sha256": "791d6d0bf12b542eafe843aa2c241a70ad0d247bf3c731034e0f33e465c124c6",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-414.npz",
+      "bytes": 2266453,
+      "sha256": "46749d01f47d403345d5d3827077ecd033439dd98765149873cb874ab15cee22",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/46749d01f47d403345d5d3827077ecd033439dd98765149873cb874ab15cee22.npz",
+        "bytes": 3008,
+        "sha256": "581ee0722031bc11804d92991b25040741cc7b62ac0f95d10b9808401ae119e2",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-487.npz",
+      "bytes": 2257146,
+      "sha256": "5ae6572941d25fe6f5fcc392f2f9b182b94c45de6d95969cbe300f9d53471aa6",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/5ae6572941d25fe6f5fcc392f2f9b182b94c45de6d95969cbe300f9d53471aa6.npz",
+        "bytes": 3883,
+        "sha256": "491fb9267c7d3222e9a655423250ef12e17d29cdcd8cd6efa0f1bb47a32a9a7f",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-570.npz",
+      "bytes": 2267800,
+      "sha256": "6111096f16d8a3a2da08537613563a853f7fe709992cd1f9aedfd57c75e195d5",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6111096f16d8a3a2da08537613563a853f7fe709992cd1f9aedfd57c75e195d5.npz",
+        "bytes": 3068,
+        "sha256": "b19e7733253890c67dcf21609e54fe46466e4814360e70c178ec5da44f316840",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "case-797.npz",
+      "bytes": 2273012,
+      "sha256": "288728d9e3fbb9506ca39b0cc32460bcaa0ca5b760e3d6ddbe57c9dec6561096",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/288728d9e3fbb9506ca39b0cc32460bcaa0ca5b760e3d6ddbe57c9dec6561096.npz",
+        "bytes": 2443,
+        "sha256": "9aa6631f4ec68e9d4799dba3348b6213a3b28b5b2bbca0bad2476d67618ebb27",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "partial.json",
+      "bytes": 120820,
+      "sha256": "e2323a0e8af8c4bb98573d3cbf2769efa976eed4d22734637a1e7e043b220662",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "protocol.json",
+      "bytes": 503,
+      "sha256": "529fcd5458a5c04680837e47e7b74d93aae55044f26d8081c0c501d7b39f1e6a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "report.json",
+      "bytes": 120819,
+      "sha256": "304f393a2a383075222630abf39e1d39e932f1fa0652a78c5121550d45947735",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "search_highorder_product.py",
+      "bytes": 7613,
+      "sha256": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-long01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "case-109.json",
+      "bytes": 1509,
+      "sha256": "d985707a955852485f466271ea041f32ec495175ec4a6268adcfcfc181984efd",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "case-109.npz",
+      "bytes": 224326,
+      "sha256": "a26f9b1040d8e067ff042ac4ef7b7a8a68b203374e284b9510fa109cd6d6b753",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "case-185.json",
+      "bytes": 1507,
+      "sha256": "87565841aaeb969e99d89f49b49e0fe31f780196f8642b4a255a0fdcdf7ce9f0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "case-185.npz",
+      "bytes": 228271,
+      "sha256": "e93b95f7957bb48c9673516f368e7971d2de831efad037868a3d19923b4edb68",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "case-414.json",
+      "bytes": 1509,
+      "sha256": "ed057452d00f8fd14a682e7037df0d187b08692135ab4ed78ccaf025cebc8c14",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "case-414.npz",
+      "bytes": 227195,
+      "sha256": "844f4e71ea42448c726a58fe633424421d129592f7ec3b8cf82d2bba64612701",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "check_product_alphabet_precision.py",
+      "bytes": 3416,
+      "sha256": "def9d31f8d91830f76cedd5c159cd347e0728958531a4faee0305e85010d6882",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "protocol.json",
+      "bytes": 434,
+      "sha256": "abb438afcc91a63f2b61a64e8ebdafda2a1c9e929464a3ad53521f2b5f9077b4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision100",
+      "file": "report.json",
+      "bytes": 5388,
+      "sha256": "fc9d039e5e64b6880f758a1e16219aaf4b4bce37859e4e615db05de243095f09",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "case-109.json",
+      "bytes": 1177,
+      "sha256": "b0f1559c75d06dc199ba9ea13c4bfd7501484bf285859b237614444dedc8cf2e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "case-109.npz",
+      "bytes": 223852,
+      "sha256": "aef1036afc14fa31c066cf5e5308afdecc9134a08fa12f8058904e3d46cfef5a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "case-185.json",
+      "bytes": 1178,
+      "sha256": "d16df50757b25cb5e774f039cdcead0af923a768a335031c3dc863df5cfec39d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "case-185.npz",
+      "bytes": 228358,
+      "sha256": "c3e39e510e3e6d32c2960e3c4b17a3748ca3c9a74e7e91a579dfae504515c2f8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "case-414.json",
+      "bytes": 1175,
+      "sha256": "1f0d172b49420e228f289e38082dd115f92085dabf71e20ea575ca971fbfeb56",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "case-414.npz",
+      "bytes": 227146,
+      "sha256": "0a27584ecae716a12e64568ade552585aee3753c9d6d0773f18e8cd601ddad1e",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "check_product_alphabet_precision.py",
+      "bytes": 3416,
+      "sha256": "def9d31f8d91830f76cedd5c159cd347e0728958531a4faee0305e85010d6882",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "protocol.json",
+      "bytes": 433,
+      "sha256": "68c9330fcbc70944e2be318ee87c8d46666bae4f95423c725b2d67b2f3005ec8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-precision70",
+      "file": "report.json",
+      "bytes": 4392,
+      "sha256": "f0797902b0b795fdb76b0e55a40667a7b7a964f53e490b8bf98a0aaf01b9f418",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0000.npz",
+      "bytes": 544995,
+      "sha256": "7a931f7a1f2e5a336a71ce2177ed6360bb1cd7b304bbf68569ba3dfa968beee9",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7a931f7a1f2e5a336a71ce2177ed6360bb1cd7b304bbf68569ba3dfa968beee9.npz",
+        "bytes": 4974,
+        "sha256": "7e0ad87afe4fd4eca8efaea14bbeb931384a819b62cf6c590375e90092ab9952",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0064.npz",
+      "bytes": 332137,
+      "sha256": "65eeb0d38780c12b397ae8fc4fc5bc5875aad3b3821ce04daa373cc4f5393370",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/65eeb0d38780c12b397ae8fc4fc5bc5875aad3b3821ce04daa373cc4f5393370.npz",
+        "bytes": 9621,
+        "sha256": "263e415c8936721dcddd087d96ae9a69ecc7b857ea82f428cf04dfa010de627a",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0128.npz",
+      "bytes": 258761,
+      "sha256": "e6e929329654810e5f72bafa961b96c73578a51f6a61dcb7b1d474190da906e9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0192.npz",
+      "bytes": 287065,
+      "sha256": "3809545c2b68b6f5b955654cbed2cfa46119a0b05448322c81e5869913cc9aa2",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3809545c2b68b6f5b955654cbed2cfa46119a0b05448322c81e5869913cc9aa2.npz",
+        "bytes": 11412,
+        "sha256": "472dd03114343608014f93c7b47b95ff69f80d80324e7038c63516f988effbef",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0256.npz",
+      "bytes": 697044,
+      "sha256": "4f8150ed8809210c14974cdb6a796011abfdecdce6278822a55a8dc706997315",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/4f8150ed8809210c14974cdb6a796011abfdecdce6278822a55a8dc706997315.npz",
+        "bytes": 11710,
+        "sha256": "169f9594ca5c040d31533d44940b7597dae51e40f8cb7bf7428e1c7a108131f7",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0320.npz",
+      "bytes": 492550,
+      "sha256": "5bcacb20b72a76dfd6a89ef4656a1f5fcad87d2b7e79d8bc35df7b7ab8038cb7",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/5bcacb20b72a76dfd6a89ef4656a1f5fcad87d2b7e79d8bc35df7b7ab8038cb7.npz",
+        "bytes": 12021,
+        "sha256": "b1bf32f23641552c9006657543b8bf3ed7595e918abb8d40290b9506f049654c",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0384.npz",
+      "bytes": 483752,
+      "sha256": "113859d6a67aadc185ae1c57c0fd91c8d4b81ad5005b507278cc0bb09869925d",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/113859d6a67aadc185ae1c57c0fd91c8d4b81ad5005b507278cc0bb09869925d.npz",
+        "bytes": 11554,
+        "sha256": "43c7223f4d70cc6dd8b8006a66f1da5fa2989dfc9a057c1105377d26d366a62e",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0448.npz",
+      "bytes": 529527,
+      "sha256": "7d583e95257f3965a5a4500046daad7b5d8c429a570185ed9bd9e85e49421cf0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7d583e95257f3965a5a4500046daad7b5d8c429a570185ed9bd9e85e49421cf0.npz",
+        "bytes": 11932,
+        "sha256": "03e8b27db95548a2adbc24d8bf24436614bd76af434609eafda4fa7e4c0300dd",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0512.npz",
+      "bytes": 335983,
+      "sha256": "105a8c62b9ef5f45904fd390bbbce1e82a9e4bf071b501977caf7b0bb5abcfd4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/105a8c62b9ef5f45904fd390bbbce1e82a9e4bf071b501977caf7b0bb5abcfd4.npz",
+        "bytes": 11466,
+        "sha256": "a12288eb4ad175dd84f82803d5acbf9e13d873917451a6e493b9d4a5da2015ff",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0576.npz",
+      "bytes": 381236,
+      "sha256": "89a223b0d10594761fe7f6638c9431e4b3b6f5c48f783d8bec12ed283cd5ef03",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/89a223b0d10594761fe7f6638c9431e4b3b6f5c48f783d8bec12ed283cd5ef03.npz",
+        "bytes": 11196,
+        "sha256": "bca0a436031543e05dab9b526d3f78f3c17bc7f870b28286f34157caf4ef6c49",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0640.npz",
+      "bytes": 525287,
+      "sha256": "409ed2bb0b9c52d42e10db1381a75c0d648cbf25dbd9915fc38d18890acc1009",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/409ed2bb0b9c52d42e10db1381a75c0d648cbf25dbd9915fc38d18890acc1009.npz",
+        "bytes": 12043,
+        "sha256": "006f5c30086f68da3070c1bf6006a2e68e8192d00e4365a35fd26188b3a15e8c",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0704.npz",
+      "bytes": 627020,
+      "sha256": "f0a96359b88b5aba73c634e235ed42d1f356cc9adc0ca1c8ece51ffaa6368510",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f0a96359b88b5aba73c634e235ed42d1f356cc9adc0ca1c8ece51ffaa6368510.npz",
+        "bytes": 11689,
+        "sha256": "397b958615a7c1531a260f9aadec1ba7b079b76e57ac078f81d641226c72aa1c",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0768.npz",
+      "bytes": 441349,
+      "sha256": "2ba86010f580ae87ac02f1e642648b48a849fd3d06be7387725fbfcf959d582b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/2ba86010f580ae87ac02f1e642648b48a849fd3d06be7387725fbfcf959d582b.npz",
+        "bytes": 11851,
+        "sha256": "5603f96c8de2b14d59f119f864d1b50215823eab5ee5f77e189dd46d3c3acb02",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "block-0832.npz",
+      "bytes": 102686,
+      "sha256": "cd00af0de82c87fd3177711fae1fcffe839b89301789e10c275b46ffe8c8740f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "protocol.json",
+      "bytes": 775051,
+      "sha256": "ce8b2de921d3ccbe2e0a44ac73d3bc5a73e744fd400c835c04f020a43327a666",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "report.json",
+      "bytes": 775607,
+      "sha256": "6408d91a14b23e140a8788532df0b415ba3a0063dec09ae55f936595c1415667",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "screen.npz",
+      "bytes": 6024562,
+      "sha256": "d27514430520a426d4ee05af18b711c9a39717b560a2a2bab96e694c47800833",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/d27514430520a426d4ee05af18b711c9a39717b560a2a2bab96e694c47800833.npz",
+        "bytes": 14992,
+        "sha256": "ae05bbed2956493c22d8c47eda324a425bfae16aa93d92669382b0da009adf8f",
+        "keys": [
+          "params",
+          "orders",
+          "status",
+          "minimum_radius",
+          "positive_flags",
+          "periods",
+          "flags"
+        ]
+      }
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "search_highorder_product.py",
+      "bytes": 7613,
+      "sha256": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-scout01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "partial.json",
+      "bytes": 24382,
+      "sha256": "6a35a4b4f42a6f4e3dc2e17612afb770d7b8a5adef53e5916c439131acdabc0a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "render_product_alphabet.py",
+      "bytes": 3730,
+      "sha256": "e138c145eea4d28e707011172f4d44eee4178e391b96ca6cff9cefcb4430def9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "report.json",
+      "bytes": 37494,
+      "sha256": "52b3a9af0069e0e8f584e334952fe5f4f17fb470843dd8f02e40ba07fd4a5e5a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-verification01",
+      "file": "verify_product_alphabet.py",
+      "bytes": 8000,
+      "sha256": "3b7c3ea53bb5eaf937237bc047316b08d2d6d6aa01e148a5d2f32e4c38d859bb",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-visual-review01",
+      "file": "preview-render.json",
+      "bytes": 49559,
+      "sha256": "79a375396fed280e366dc2807e1a5edb75b0b4d7ee643b991281a738e75c195c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-visual-review01",
+      "file": "render_projection_gallery.py",
+      "bytes": 3144,
+      "sha256": "85ff6473ac8c8e6249a702968118a35410c76343d97b6d4d34cd0ef10d03f902",
+      "storage": "retained"
+    },
+    {
+      "run": "product-highorder-visual-review01",
+      "file": "report.json",
+      "bytes": 5138,
+      "sha256": "48cff1ec06d367344cb3afd3c4f3daaca7d869868ec9b1891af9e2c3f4692454",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "audit_highorder_product.py",
+      "bytes": 6589,
+      "sha256": "31ea16084efdee8465718667b752b891c1e40e26d5ec3a1c277b4b0c37e0f38a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "cohort_product_alphabet.py",
+      "bytes": 3797,
+      "sha256": "7fbcf91f8a42fb33149d94803e6291a28e6137580d4e50d7aa936ad57029e9f6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "report.json",
+      "bytes": 2483,
+      "sha256": "85477e74131fec768f5878e4f55fb33a4a92ea0a5df56f69cdf4a059f6815e7a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-audit01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-catalog01",
+      "file": "aligned-samples.npz",
+      "bytes": 2826635,
+      "sha256": "f4cb089d70ce0a6cbf3305f1e7fa27bad57ca07175782d311d6f0c5bdf2ee6d4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f4cb089d70ce0a6cbf3305f1e7fa27bad57ca07175782d311d6f0c5bdf2ee6d4.npz",
+        "bytes": 2826635,
+        "sha256": "f4cb089d70ce0a6cbf3305f1e7fa27bad57ca07175782d311d6f0c5bdf2ee6d4",
+        "keys": [
+          "6--similarity--SprottP--candidate",
+          "6--similarity--SprottP--reference",
+          "6--similarity--SprottP--candidate_indices",
+          "6--similarity--SprottP--reference_indices",
+          "6--similarity--CaTwoPlus--candidate",
+          "6--similarity--CaTwoPlus--reference",
+          "6--similarity--CaTwoPlus--candidate_indices",
+          "6--similarity--CaTwoPlus--reference_indices",
+          "6--similarity--SprottI--candidate",
+          "6--similarity--SprottI--reference",
+          "6--similarity--SprottI--candidate_indices",
+          "6--similarity--SprottI--reference_indices",
+          "7--similarity--SprottTorus--candidate",
+          "7--similarity--SprottTorus--reference",
+          "7--similarity--SprottTorus--candidate_indices",
+          "7--similarity--SprottTorus--reference_indices",
+          "7--similarity--SprottO--candidate",
+          "7--similarity--SprottO--reference",
+          "7--similarity--SprottO--candidate_indices",
+          "7--similarity--SprottO--reference_indices",
+          "7--similarity--SprottI--candidate",
+          "7--similarity--SprottI--reference",
+          "7--similarity--SprottI--candidate_indices",
+          "7--similarity--SprottI--reference_indices",
+          "102--similarity--AtmosphericRegime--candidate",
+          "102--similarity--AtmosphericRegime--reference",
+          "102--similarity--AtmosphericRegime--candidate_indices",
+          "102--similarity--AtmosphericRegime--reference_indices",
+          "102--similarity--Tsucs2--candidate",
+          "102--similarity--Tsucs2--reference",
+          "102--similarity--Tsucs2--candidate_indices",
+          "102--similarity--Tsucs2--reference_indices",
+          "102--similarity--LuChenCheng--candidate",
+          "102--similarity--LuChenCheng--reference",
+          "102--similarity--LuChenCheng--candidate_indices",
+          "102--similarity--LuChenCheng--reference_indices",
+          "118--similarity--Atlas-Cassiopea--candidate",
+          "118--similarity--Atlas-Cassiopea--reference",
+          "118--similarity--Atlas-Cassiopea--candidate_indices",
+          "118--similarity--Atlas-Cassiopea--reference_indices",
+          "118--similarity--NoseHoover--candidate",
+          "118--similarity--NoseHoover--reference",
+          "118--similarity--NoseHoover--candidate_indices",
+          "118--similarity--NoseHoover--reference_indices",
+          "118--similarity--SprottM--candidate",
+          "118--similarity--SprottM--reference",
+          "118--similarity--SprottM--candidate_indices",
+          "118--similarity--SprottM--reference_indices",
+          "212--similarity--JerkCircuit--candidate",
+          "212--similarity--JerkCircuit--reference",
+          "212--similarity--JerkCircuit--candidate_indices",
+          "212--similarity--JerkCircuit--reference_indices",
+          "212--similarity--Coullet--candidate",
+          "212--similarity--Coullet--reference",
+          "212--similarity--Coullet--candidate_indices",
+          "212--similarity--Coullet--reference_indices",
+          "212--similarity--LorenzBounded--candidate",
+          "212--similarity--LorenzBounded--reference",
+          "212--similarity--LorenzBounded--candidate_indices",
+          "212--similarity--LorenzBounded--reference_indices",
+          "673--similarity--SprottI--candidate",
+          "673--similarity--SprottI--reference",
+          "673--similarity--SprottI--candidate_indices",
+          "673--similarity--SprottI--reference_indices",
+          "673--similarity--RabinovichFabrikant--candidate",
+          "673--similarity--RabinovichFabrikant--reference",
+          "673--similarity--RabinovichFabrikant--candidate_indices",
+          "673--similarity--RabinovichFabrikant--reference_indices",
+          "673--similarity--LuChen--candidate",
+          "673--similarity--LuChen--reference",
+          "673--similarity--LuChen--candidate_indices",
+          "673--similarity--LuChen--reference_indices",
+          "6--affine--Henon3D-0.0-0.815-0.7--candidate",
+          "6--affine--Henon3D-0.0-0.815-0.7--reference",
+          "6--affine--Henon3D-0.0-0.815-0.7--candidate_indices",
+          "6--affine--Henon3D-0.0-0.815-0.7--reference_indices",
+          "6--affine--Henon3D--0.02-0.85-0.7--candidate",
+          "6--affine--Henon3D--0.02-0.85-0.7--reference",
+          "6--affine--Henon3D--0.02-0.85-0.7--candidate_indices",
+          "6--affine--Henon3D--0.02-0.85-0.7--reference_indices",
+          "6--affine--Tsucs2--candidate",
+          "6--affine--Tsucs2--reference",
+          "6--affine--Tsucs2--candidate_indices",
+          "6--affine--Tsucs2--reference_indices",
+          "7--affine--Blasius--candidate",
+          "7--affine--Blasius--reference",
+          "7--affine--Blasius--candidate_indices",
+          "7--affine--Blasius--reference_indices",
+          "7--affine--SprottC--candidate",
+          "7--affine--SprottC--reference",
+          "7--affine--SprottC--candidate_indices",
+          "7--affine--SprottC--reference_indices",
+          "7--affine--RikitakeDynamo--candidate",
+          "7--affine--RikitakeDynamo--reference",
+          "7--affine--RikitakeDynamo--candidate_indices",
+          "7--affine--RikitakeDynamo--reference_indices",
+          "102--affine--SprottE--candidate",
+          "102--affine--SprottE--reference",
+          "102--affine--SprottE--candidate_indices",
+          "102--affine--SprottE--reference_indices",
+          "102--affine--Laser--candidate",
+          "102--affine--Laser--reference",
+          "102--affine--Laser--candidate_indices",
+          "102--affine--Laser--reference_indices",
+          "102--affine--BelousovZhabotinsky--candidate",
+          "102--affine--BelousovZhabotinsky--reference",
+          "102--affine--BelousovZhabotinsky--candidate_indices",
+          "102--affine--BelousovZhabotinsky--reference_indices",
+          "118--affine--Atlas-Cassiopea--candidate",
+          "118--affine--Atlas-Cassiopea--reference",
+          "118--affine--Atlas-Cassiopea--candidate_indices",
+          "118--affine--Atlas-Cassiopea--reference_indices",
+          "118--affine--Atlas-Naiad--candidate",
+          "118--affine--Atlas-Naiad--reference",
+          "118--affine--Atlas-Naiad--candidate_indices",
+          "118--affine--Atlas-Naiad--reference_indices",
+          "118--affine--SprottJerk--candidate",
+          "118--affine--SprottJerk--reference",
+          "118--affine--SprottJerk--candidate_indices",
+          "118--affine--SprottJerk--reference_indices",
+          "212--affine--JerkCircuit--candidate",
+          "212--affine--JerkCircuit--reference",
+          "212--affine--JerkCircuit--candidate_indices",
+          "212--affine--JerkCircuit--reference_indices",
+          "212--affine--MooreSpiegel--candidate",
+          "212--affine--MooreSpiegel--reference",
+          "212--affine--MooreSpiegel--candidate_indices",
+          "212--affine--MooreSpiegel--reference_indices",
+          "212--affine--SprottC--candidate",
+          "212--affine--SprottC--reference",
+          "212--affine--SprottC--candidate_indices",
+          "212--affine--SprottC--reference_indices",
+          "673--affine--JerkCircuit--candidate",
+          "673--affine--JerkCircuit--reference",
+          "673--affine--JerkCircuit--candidate_indices",
+          "673--affine--JerkCircuit--reference_indices",
+          "673--affine--Coullet--candidate",
+          "673--affine--Coullet--reference",
+          "673--affine--Coullet--candidate_indices",
+          "673--affine--Coullet--reference_indices",
+          "673--affine--Atlas-Cassiopea--candidate",
+          "673--affine--Atlas-Cassiopea--reference",
+          "673--affine--Atlas-Cassiopea--candidate_indices",
+          "673--affine--Atlas-Cassiopea--reference_indices"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-catalog01",
+      "file": "compare_affine_shapes.py",
+      "bytes": 3206,
+      "sha256": "0a07c81ba89426ee72fadc6c1aef31f61a5c23a4b8083feb0788ac246e326958",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-catalog01",
+      "file": "compare_attractor_shapes.py",
+      "bytes": 5834,
+      "sha256": "69c231ba38163b28073f9f485d53e3c7a7894773cff6cab57364cf5931a803f1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-catalog01",
+      "file": "compare_constellation_catalog.py",
+      "bytes": 4518,
+      "sha256": "e3b6b73077f5a194cafbd761b4efb017d4f3eda7ab6974a39e684ba22d651de5",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-catalog01",
+      "file": "partial.json",
+      "bytes": 179111,
+      "sha256": "3d4f213c024b88872b46011c8c0b74b5b2a67b5e68ec89a7dedf572d989a67b6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-catalog01",
+      "file": "report.json",
+      "bytes": 179162,
+      "sha256": "5806e56fcf7caecc5a7520ba2247e62c4fd5ec9c6bd822a0710dbbf8b8fe8acd",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "case-6.json",
+      "bytes": 19517,
+      "sha256": "45083e5ebf0029ca30217d17e8ee3ee950b90154c12343129501b6b64d986cb2",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "case-6.npz",
+      "bytes": 3121730,
+      "sha256": "ad45e5d9ea7fb1f2678b85abc0e06e081f2e2fd705d2ba7f05f29cb57a735542",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/ad45e5d9ea7fb1f2678b85abc0e06e081f2e2fd705d2ba7f05f29cb57a735542.npz",
+        "bytes": 16224,
+        "sha256": "0826f01743de3ccf062a196a04f929c1d2d30b99bebad9ddb7e65f9aba4818d5",
+        "keys": [
+          "starts",
+          "rates",
+          "status",
+          "minima"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "case-7.json",
+      "bytes": 19627,
+      "sha256": "fddb4f9d5463b827238267bcf45db5b6d700c96126b482b2af8ef3c11d9b12e2",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "case-7.npz",
+      "bytes": 3123487,
+      "sha256": "06bb3a5a3952d86a829cd39511abbbf5a258b9a87d075192a00ac70a74c447b9",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/06bb3a5a3952d86a829cd39511abbbf5a258b9a87d075192a00ac70a74c447b9.npz",
+        "bytes": 16393,
+        "sha256": "d955df68e1dcf07ad454763730d14151a750c6e7f8bae39519d19405d759e247",
+        "keys": [
+          "starts",
+          "rates",
+          "status",
+          "minima"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "cohort_product_alphabet.py",
+      "bytes": 3797,
+      "sha256": "7fbcf91f8a42fb33149d94803e6291a28e6137580d4e50d7aa936ad57029e9f6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "protocol.json",
+      "bytes": 3171,
+      "sha256": "c7d82315bcab71bd12b6c15ebcf868f7f4ed6b9428efefc96bdcfd2614117aba",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "report.json",
+      "bytes": 49830,
+      "sha256": "4d15f26cf8691083b8cc281434775e8cabfe969a206f4601ca316a127094da88",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-cohort01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-102-histogram.npz",
+      "bytes": 186913,
+      "sha256": "93a22b729706e57f0c4625d645a2435b353cd6d34e8f473827cc5e8c51156343",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-102-states.npz",
+      "bytes": 45297211,
+      "sha256": "71ff0fb69f6f497501447d485427147e1aa0822fba8b442af913eaf729f76d1e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/71ff0fb69f6f497501447d485427147e1aa0822fba8b442af913eaf729f76d1e.npz",
+        "bytes": 1154,
+        "sha256": "9af9bb5a91cc61f195306ec52d43816e73a44dd6e6f738d20e20f51afd80e41d",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-102.json",
+      "bytes": 2053,
+      "sha256": "4025169eaa02b1f7c2a6d3db65307eb5a435c3bb6fef3ff980ae3b8963a3868f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-118-histogram.npz",
+      "bytes": 396051,
+      "sha256": "38cb8150683488a666525fdf3633e3b65f04e99adb985c88cdfe953e03ece45b",
+      "storage": "optional cache",
+      "compact": null
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-118-states.npz",
+      "bytes": 45855820,
+      "sha256": "3264ef91ef76a8137d1060118a5ed0d75fa1b0ad0c59847769178f812751a9f0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3264ef91ef76a8137d1060118a5ed0d75fa1b0ad0c59847769178f812751a9f0.npz",
+        "bytes": 1364,
+        "sha256": "de7e5c840c632bd7f5907a20bdb8ab9f81d084575134f438d9f9ec32fd822169",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-118.json",
+      "bytes": 2059,
+      "sha256": "4c42de64b756219c288efa80b23af56aaf986df0a1e2381637783f73d074f60d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-212-histogram.npz",
+      "bytes": 233812,
+      "sha256": "22d4730a18a0fd97297569d12fa25e8fe5c94abf5f72423628638dd8d8bd0df0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-212-states.npz",
+      "bytes": 45652935,
+      "sha256": "68262b11bfad51683bd37ef40e653153881a4690f9df5731758c7f47fdf86b75",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/68262b11bfad51683bd37ef40e653153881a4690f9df5731758c7f47fdf86b75.npz",
+        "bytes": 1022,
+        "sha256": "3ee67a29c69f761f79f7e9f386311eb10585f6b6ed37aa506a4f25aad20c2427",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-212.json",
+      "bytes": 2061,
+      "sha256": "d3f06cf746bd87ab8ddc960072c80db65d3787feecb2bf26fc198c699f33da4a",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-6-histogram.npz",
+      "bytes": 333784,
+      "sha256": "0c46dc61bc944906754c2ae7c491ec77222ab93643577015daadc8cc6ef57d01",
+      "storage": "optional cache",
+      "compact": null
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-6-states.npz",
+      "bytes": 45950499,
+      "sha256": "fd85f2c57bed6bd32b2f750ac3251d2e9a88610a750fc857a5ab1e61a4a8ff14",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/fd85f2c57bed6bd32b2f750ac3251d2e9a88610a750fc857a5ab1e61a4a8ff14.npz",
+        "bytes": 1173,
+        "sha256": "f09f90e47d9259e46f6b2a2d4c3b7ae6a515a235dd0bbb83ae57b0eae9677d29",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-6.json",
+      "bytes": 2046,
+      "sha256": "23cfbacdff61844030fadefaa2280872c404d1b964fe2b7c88d61a61a659be84",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-673-histogram.npz",
+      "bytes": 241945,
+      "sha256": "1293001a0328ea9dcda118ea856e17841c133e05e0c844fcd0cbc6fc29e1e6d6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-673-states.npz",
+      "bytes": 45909352,
+      "sha256": "75ef5290111b0d3a4aae2d03f650dc90f659000a35c720a79ff07bec5933f20e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/75ef5290111b0d3a4aae2d03f650dc90f659000a35c720a79ff07bec5933f20e.npz",
+        "bytes": 1354,
+        "sha256": "47c6bbddfd3328e7964790212392d0e09fb239d8fb60560af72361d2bf6cbfdf",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-673.json",
+      "bytes": 2053,
+      "sha256": "8baf6072b4e5eb7d93abf7f94807141089485c281789b5f78f652d3bff824aae",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-7-histogram.npz",
+      "bytes": 435525,
+      "sha256": "604a2c83d3200cab8eacaed0496d7797d916e7946759d099b9726b76c32dd8ca",
+      "storage": "optional cache",
+      "compact": null
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-7-states.npz",
+      "bytes": 45971830,
+      "sha256": "6c8eb680a47837552680891aa62999f8f30ab39ec66ace50d3045de103d228db",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6c8eb680a47837552680891aa62999f8f30ab39ec66ace50d3045de103d228db.npz",
+        "bytes": 1359,
+        "sha256": "259b1e8357d5584ccdb52493a2fbcc82b7aed5f09d68b71118e1f158e33e784b",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "case-7.json",
+      "bytes": 2053,
+      "sha256": "d8a2d38ff9a926ee2724a74d07ec9a6a1f2447a6d806fbfddcb4ecd37e718485",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "protocol.json",
+      "bytes": 315,
+      "sha256": "2239f65ca7c5bb64ff5a9acba429479695fb167ed4d9fe0e15c568c93a04a81b",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "render_product_alphabet.py",
+      "bytes": 3730,
+      "sha256": "e138c145eea4d28e707011172f4d44eee4178e391b96ca6cff9cefcb4430def9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "report.json",
+      "bytes": 14686,
+      "sha256": "1c56da6663155bdc367d790aac9732bf030eb5ab43f81865aeb54a0911963a33",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-dense01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "all-threshold-exceedances.npz",
+      "bytes": 1071,
+      "sha256": "138019352daf29aa2a7207bc2bce41760766152478ee11058c6d703e06d9c86b",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-000-minimum.npz",
+      "bytes": 7949,
+      "sha256": "a024cd0eccf64f4aa2a56049d1a05d98ac98d2d2c58e9d2bd0775d1586da019c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-001-minimum.npz",
+      "bytes": 7935,
+      "sha256": "7bc1a687985a8ddc9e925a84e8516b3b4634f12bada443a7efa9349d74a25558",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-002-minimum.npz",
+      "bytes": 7946,
+      "sha256": "915d57aeabfb70710d87e1cc41d1a231d071c912cc2825519a8cfdd7ae49f62d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-003-minimum.npz",
+      "bytes": 7942,
+      "sha256": "74e11daeb22dd5724b0577ee6954fad81c668397f4e9a2e81a596276572fc455",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-004-minimum.npz",
+      "bytes": 7946,
+      "sha256": "5036d34905858628851f29af3e1596df4d4a6d59cfc4177cfb2a1e3840388a51",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-005-minimum.npz",
+      "bytes": 7947,
+      "sha256": "06d8845f9c9849cdc90634731e157a2e1769ab4950d16f4ad752706f452fe9e5",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-006-minimum.npz",
+      "bytes": 7936,
+      "sha256": "936a2cd13524d39f46c37ac5bd380d54146cd750bf609219039c59c3dcf439a0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-007-minimum.npz",
+      "bytes": 7935,
+      "sha256": "2c709c91d975f791922c44ea62cd9c6f1b5d2b648ff500a1b7a994bbc8031bad",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-008-minimum.npz",
+      "bytes": 7934,
+      "sha256": "a9974da62fa7c5d44fd18ee624183d9bd16e0a5ee65bc2bbea4966cd5955c39d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "block-009-minimum.npz",
+      "bytes": 7942,
+      "sha256": "040e9a01355b83a7341e6840c39308cfd0d2dfb62d355fea6a10c09bda411f3c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "inspect_product_excursions.py",
+      "bytes": 6432,
+      "sha256": "2fe2eacad4b788a2b26fa8b07c90c64d40e6fc2da02ada58fa3e55c587259173",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "progress.json",
+      "bytes": 122,
+      "sha256": "97da637ae3cda34d59f79169501d229032250a6be64551523a81c469bca5bbb3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "report.json",
+      "bytes": 7877,
+      "sha256": "f9d2d8635c050bc65807499449dd44d7f842311a7dcc3ba827fd3aaab8d73b4f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions6-audit01",
+      "file": "uniform-sample.npz",
+      "bytes": 9190739,
+      "sha256": "a77e64e669ad441140d1a1db1415fa13294f7dbe7409fd852853351d2231f0a1",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a77e64e669ad441140d1a1db1415fa13294f7dbe7409fd852853351d2231f0a1.npz",
+        "bytes": 1101,
+        "sha256": "bb94c3e494496c4c1aa8d7b595c755d335615684a92ad1b53f190836f0f96242",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "stride",
+          "first_observed_update"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "all-threshold-exceedances.npz",
+      "bytes": 1159,
+      "sha256": "34767f44390ed56e91e96d9d211305df44f43308882e25fe4e957db543e178d3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-000-minimum.npz",
+      "bytes": 7960,
+      "sha256": "3e314ec1b2b2a8a8a27a5a5a91a0896288f83da20783b2e98aed4224a16b8c55",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-001-minimum.npz",
+      "bytes": 7970,
+      "sha256": "e5d71e562d51ee632d126ec91306ae40e01039091582178b03fa602ea1746271",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-002-minimum.npz",
+      "bytes": 7966,
+      "sha256": "cb63137d4502fbb653ed279928019c8c600847a463dfeb7036f5bd05fb9fab07",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-003-minimum.npz",
+      "bytes": 7972,
+      "sha256": "23c94d8aa3876eb2fb78d59694aa5cf6435ed5eac08c0a4196288c3c5ab99f65",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-004-minimum.npz",
+      "bytes": 7967,
+      "sha256": "c1e053ac71e570d08bb1d86d7fe28b30870feb66d16d170439856a5515f1b055",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-005-minimum.npz",
+      "bytes": 7968,
+      "sha256": "06e6792a2b83d52a332f687e039813d351de3a30ba9c22324b1b66d19a2e2428",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-006-minimum.npz",
+      "bytes": 7978,
+      "sha256": "0e69fe51820400b5568f154a0688ab4c22e6f5d7e78991bbee4f88536d02063b",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-007-minimum.npz",
+      "bytes": 7967,
+      "sha256": "664ff81dea970375bd95e4831a2d06127812f029b858920f0b3111173253f2f4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-008-minimum.npz",
+      "bytes": 7973,
+      "sha256": "2a10a5480859389cc7a78b8c79ef4a33cfb0aa563d8aee36fc7dec5e96fc0623",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "block-009-minimum.npz",
+      "bytes": 7967,
+      "sha256": "5fa8a5a76e791d71deb468faf0946deac3e74fcdcbe42d55b0ac243ce8ce9638",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "inspect_product_excursions.py",
+      "bytes": 6432,
+      "sha256": "2fe2eacad4b788a2b26fa8b07c90c64d40e6fc2da02ada58fa3e55c587259173",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "progress.json",
+      "bytes": 123,
+      "sha256": "9d735b119a7755e438940e862c4ab130990d35820f9ef3edaf9f4112bc952833",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "report.json",
+      "bytes": 7907,
+      "sha256": "dcb60ea69396cdd9f7c9bc46507d26f9ab949057b43cfefeeae1048a8a44f4a6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-excursions7-audit01",
+      "file": "uniform-sample.npz",
+      "bytes": 9195950,
+      "sha256": "293773c6c798b2135175cc1c7eaeabd017a17bfad9c42821a77d46202d355c99",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/293773c6c798b2135175cc1c7eaeabd017a17bfad9c42821a77d46202d355c99.npz",
+        "bytes": 1126,
+        "sha256": "fa4e1a37e2fe27f43d502f6a0a20158238115cd78eb3d977aa630a204bd6101d",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "stride",
+          "first_observed_update"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-0.npz",
+      "bytes": 2281919,
+      "sha256": "24273baedb38ba3cba8fe5456d6a629a413bc2f41fe6cf6e00fed3f295697e49",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/24273baedb38ba3cba8fe5456d6a629a413bc2f41fe6cf6e00fed3f295697e49.npz",
+        "bytes": 1999,
+        "sha256": "7a863e70c182947f89d603744b1bbeab3be7fea50430b67fd46c4f6114f98935",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-1.npz",
+      "bytes": 2284374,
+      "sha256": "fa5e22856f42d16b457da47995cff7a083c8870b1ee7f4664f5113e5a1f675ec",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/fa5e22856f42d16b457da47995cff7a083c8870b1ee7f4664f5113e5a1f675ec.npz",
+        "bytes": 2268,
+        "sha256": "0f470a15bba1dad1d3253b78b3157c1ed9bc3ec7ae556ee29745d6ae801bbe45",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-102.npz",
+      "bytes": 2267236,
+      "sha256": "64df2591eeee14808c514aa427cc139dd4003d0666db1977266a2622c9641a39",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/64df2591eeee14808c514aa427cc139dd4003d0666db1977266a2622c9641a39.npz",
+        "bytes": 2243,
+        "sha256": "21c121636bc517c62e63d3a7435fcd0d89f0d4b5413e146797ab49fac28255ec",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-118.npz",
+      "bytes": 2295669,
+      "sha256": "e73900cc9b348e089dfc25a3e84fb6be5a2ab8c9d54711cb147a3ecebdfecaef",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/e73900cc9b348e089dfc25a3e84fb6be5a2ab8c9d54711cb147a3ecebdfecaef.npz",
+        "bytes": 2454,
+        "sha256": "d347d5cb1e3dd8f70b494963e8914b1cf341e44c3b17bd8ce89e16adeb173c3c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-14.npz",
+      "bytes": 2279396,
+      "sha256": "33df7ebabf42c288c312a86e68edb6e90bafb43658283d44e9b6948186fa4b92",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/33df7ebabf42c288c312a86e68edb6e90bafb43658283d44e9b6948186fa4b92.npz",
+        "bytes": 2106,
+        "sha256": "e1d0d37265b5496899a30e2762fb7f3838a4a2839f8fa10fd3fb963b5c395e21",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-153.npz",
+      "bytes": 2245337,
+      "sha256": "f135b6bc772137d447903aa28913a120cd8f4a5a4c7a0d312860b534cae3d084",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f135b6bc772137d447903aa28913a120cd8f4a5a4c7a0d312860b534cae3d084.npz",
+        "bytes": 2241,
+        "sha256": "ff238bc4b1808fd7ce41c3e100f745f30b37443879680a747f494bf8aad9806e",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-212.npz",
+      "bytes": 2284938,
+      "sha256": "9e8c225493a2350de8ce3f046eccd2acdaf6a2a872ec50c5eb6a30a96cb63452",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/9e8c225493a2350de8ce3f046eccd2acdaf6a2a872ec50c5eb6a30a96cb63452.npz",
+        "bytes": 2115,
+        "sha256": "594ac764a162ebd26b5129649dcc4a87831d38287b499164edda6e59dd0d8a14",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-22.npz",
+      "bytes": 2244036,
+      "sha256": "7b9e1ebb7d5bf0e84650ec1bfc40eb2f5248ec6e35bd243720cd733c836d2677",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7b9e1ebb7d5bf0e84650ec1bfc40eb2f5248ec6e35bd243720cd733c836d2677.npz",
+        "bytes": 2438,
+        "sha256": "9736b7778928830ed74a0a6ae1e3f030f8bd0f91ebc270117d9ff74d02e2c9fc",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-231.npz",
+      "bytes": 2228045,
+      "sha256": "3e5b6f65a761a60eaf79d0f35a5a06a2905341efb20273905c8e638fda1e209d",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3e5b6f65a761a60eaf79d0f35a5a06a2905341efb20273905c8e638fda1e209d.npz",
+        "bytes": 2229,
+        "sha256": "6f722529af4d3b322dfdd7c614617c3a8ce6b679bca6a0bf08dcd06bb79e2d41",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-291.npz",
+      "bytes": 2270663,
+      "sha256": "6558a986ec4a7329d403ff8788f2e0843b90740a8bf805430b8a6d0cbbfd77e0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6558a986ec4a7329d403ff8788f2e0843b90740a8bf805430b8a6d0cbbfd77e0.npz",
+        "bytes": 2265,
+        "sha256": "5efd4109ecac6380bb99bdd82f15062f20ee1693febccb938ccdf39fc441323d",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-296.npz",
+      "bytes": 2226256,
+      "sha256": "19fd7995c54269c661b07d7ea296aff3b17cc8b2a52b2c07a44412f15b6a9fc7",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/19fd7995c54269c661b07d7ea296aff3b17cc8b2a52b2c07a44412f15b6a9fc7.npz",
+        "bytes": 2090,
+        "sha256": "b0ab34b45d7f88b3df76b3b131e3d3b00fc177cab3b44ff1550d4e31c9ad30c5",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-314.npz",
+      "bytes": 2231263,
+      "sha256": "256a07ece20f3135b379d0f9bc8c46e8a912387a837569dc1603d38e53a3a8cc",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/256a07ece20f3135b379d0f9bc8c46e8a912387a837569dc1603d38e53a3a8cc.npz",
+        "bytes": 2099,
+        "sha256": "92dcc46fbe35e7a112686db49ef5e7f645547754bd12553e6f6d84a8d321489c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-344.npz",
+      "bytes": 2221086,
+      "sha256": "0f0eb264e11a34332e6d005e61e1c44a5687a38322e4d7979eb0f7d0fd013357",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0f0eb264e11a34332e6d005e61e1c44a5687a38322e4d7979eb0f7d0fd013357.npz",
+        "bytes": 2070,
+        "sha256": "430631452bae5c594e0290b8094cdd4372bab16d1ebcf6cb2ba074dfc03dc3ab",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-346.npz",
+      "bytes": 2270940,
+      "sha256": "cfbe3a410347911c31f30b6b956659b8da7094112b538257e4008790367a7d52",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/cfbe3a410347911c31f30b6b956659b8da7094112b538257e4008790367a7d52.npz",
+        "bytes": 2428,
+        "sha256": "c8b2b60f52deb89f1a71058d55d083c6eaa47a00e2c9db30ca31976f20bc5eda",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-356.npz",
+      "bytes": 2184963,
+      "sha256": "3a5bbd3dc2e91818a8b59ce0f1b82a1e6ba21cff935531e921a3582ec3fb3563",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/3a5bbd3dc2e91818a8b59ce0f1b82a1e6ba21cff935531e921a3582ec3fb3563.npz",
+        "bytes": 2088,
+        "sha256": "9b6c63e4c4fa02025b42996673f607bae3bc6113b0aac9aa63ac1fe4fc16d920",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-357.npz",
+      "bytes": 2257207,
+      "sha256": "65a5fa5ce57a7d4d9eb00082e85c591524c15c4a9d9befecb88c5a2792514fd7",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/65a5fa5ce57a7d4d9eb00082e85c591524c15c4a9d9befecb88c5a2792514fd7.npz",
+        "bytes": 2250,
+        "sha256": "4cf94035bd7b1822b0a827949f7f85e760f2c8a1ab6a000ed8d13f39a9ac5a70",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-376.npz",
+      "bytes": 2248241,
+      "sha256": "53cd0911e84ebdc7f713569dfa1a1c1e751efc9809f4d4477e8ac1f280432acb",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/53cd0911e84ebdc7f713569dfa1a1c1e751efc9809f4d4477e8ac1f280432acb.npz",
+        "bytes": 2444,
+        "sha256": "4e57ff020f1b7ef8fc7c6f1291fe2d9e30a0b9387a9de4c51b7d0b1e5e790dca",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-416.npz",
+      "bytes": 2246304,
+      "sha256": "1905c255ae86f5b48ffe032ee85e6832fc19f9f5cb45786da1f7d94acdff89ca",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1905c255ae86f5b48ffe032ee85e6832fc19f9f5cb45786da1f7d94acdff89ca.npz",
+        "bytes": 2109,
+        "sha256": "45f9a07a9d17a88b92e500302bd227be9d03c671935f39a18b89ff44d4e6802e",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-418.npz",
+      "bytes": 2222825,
+      "sha256": "f2127629773164585c6f201c624dec2f47e2e07f6ebd62662d70e30a039243e6",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f2127629773164585c6f201c624dec2f47e2e07f6ebd62662d70e30a039243e6.npz",
+        "bytes": 2417,
+        "sha256": "97ea324c2f0336b0251882eec433e7b6534d39573bde057a635046bdac5e69ba",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-430.npz",
+      "bytes": 2268094,
+      "sha256": "8f0835e4352a8bf17f4af0bf6fbc18b4d4be0e56e29d923d82826398f820d5c4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/8f0835e4352a8bf17f4af0bf6fbc18b4d4be0e56e29d923d82826398f820d5c4.npz",
+        "bytes": 2425,
+        "sha256": "48b2a1afc58df3fb7b45b563a6a23146b1ffd2d57156b00da78fa801e94cf8bc",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-441.npz",
+      "bytes": 2265920,
+      "sha256": "56a283f6cee63d7370e3ed061ca1f4817f02eeedd093c6f408c7906299b2da49",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/56a283f6cee63d7370e3ed061ca1f4817f02eeedd093c6f408c7906299b2da49.npz",
+        "bytes": 2240,
+        "sha256": "b236f587aa962206d75aee3dc4040aff386e5d0ca340896304bb73409abff0e3",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-488.npz",
+      "bytes": 2254383,
+      "sha256": "25530215e8807419ade54dcb2bc4a6dc657acb83b21cd9a3e70cf1e4410e7ce5",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/25530215e8807419ade54dcb2bc4a6dc657acb83b21cd9a3e70cf1e4410e7ce5.npz",
+        "bytes": 2106,
+        "sha256": "877e971f8685d5ad46eb85fac0da494e7cdad60cb8b026b228296747ae13f650",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-514.npz",
+      "bytes": 2233863,
+      "sha256": "4ffb70db0e321e25b2068ed5d1650d275a3a8d0ea23213789b19f527ceb2e94c",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/4ffb70db0e321e25b2068ed5d1650d275a3a8d0ea23213789b19f527ceb2e94c.npz",
+        "bytes": 2418,
+        "sha256": "e96c60ae2da673b26e38d50da6ff762d0f6d31a6ec4cf9c8fec9cf5c3cd7109a",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-524.npz",
+      "bytes": 2281155,
+      "sha256": "f021fb1fbb1c7795a00c7a58cd24bc4990d6c177b7d79b0b5a0ed3351568f0fa",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f021fb1fbb1c7795a00c7a58cd24bc4990d6c177b7d79b0b5a0ed3351568f0fa.npz",
+        "bytes": 2111,
+        "sha256": "b259c64f930d199875ab51d2f41f2074a484f15af947a8f9abfeb536e0c5d35d",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-530.npz",
+      "bytes": 2229381,
+      "sha256": "bb319ebd01f1af8e8848acf77f9e0210ebf0b7d0b92963a2447463eec42b66b0",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/bb319ebd01f1af8e8848acf77f9e0210ebf0b7d0b92963a2447463eec42b66b0.npz",
+        "bytes": 2090,
+        "sha256": "0d1109ca5b35346ecf1c128bc43fd1c23bdc4bfdcd761da1321db9970743fc37",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-56.npz",
+      "bytes": 2293112,
+      "sha256": "ebdb1ebcb3fae0bd58640a831a77a1fa73a8592bd2aa8847659973c4403ec563",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/ebdb1ebcb3fae0bd58640a831a77a1fa73a8592bd2aa8847659973c4403ec563.npz",
+        "bytes": 2111,
+        "sha256": "2305edb87bf503bcb98a81ad0c3e1646fed50d3b6bba2033bea8dfacb22e12ab",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-567.npz",
+      "bytes": 2237733,
+      "sha256": "a30d6934942fcf0dd0ea6cb8f35cfb16710c824d42fba9e580264db8ae37e7d4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a30d6934942fcf0dd0ea6cb8f35cfb16710c824d42fba9e580264db8ae37e7d4.npz",
+        "bytes": 2225,
+        "sha256": "3e5ee389f570b1d00b60acfac4c87155644b59797b9387d5b39f7c7c4661fda9",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-572.npz",
+      "bytes": 2247667,
+      "sha256": "f7e673c4bb329b411a092a6235b0ae20541ecdec7560a1494574b830f1e04bbd",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f7e673c4bb329b411a092a6235b0ae20541ecdec7560a1494574b830f1e04bbd.npz",
+        "bytes": 2095,
+        "sha256": "518152f5c0c8005c1d393d73ae7f37f8a3ad2182e07bca2066f923c7257e2d72",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-574.npz",
+      "bytes": 2286082,
+      "sha256": "66626e76846b59c9715c12af9c03d495ee3ff1288a572e2494e69a3a845ee64a",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/66626e76846b59c9715c12af9c03d495ee3ff1288a572e2494e69a3a845ee64a.npz",
+        "bytes": 2427,
+        "sha256": "ed6bcd89f946095221826235993d4c4ed9a2aafd5ad6ac323cc873311f5cd212",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-584.npz",
+      "bytes": 2269721,
+      "sha256": "7a9b57a72aa1c97020157a719f0ee606da652374cfca3fbbe8cedb7f1d5ddd6f",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7a9b57a72aa1c97020157a719f0ee606da652374cfca3fbbe8cedb7f1d5ddd6f.npz",
+        "bytes": 2115,
+        "sha256": "603b9710b60e4c6e4c296b9c75da38768bc01ba0ccda9e7bbaded6cb6aa43f56",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-585.npz",
+      "bytes": 2216175,
+      "sha256": "73ec8c2431e7ca0bde334b3d68b1505c76a6d56b90eacc88c1e46f0e32f72136",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/73ec8c2431e7ca0bde334b3d68b1505c76a6d56b90eacc88c1e46f0e32f72136.npz",
+        "bytes": 2224,
+        "sha256": "370a1203070ed024c414a9c1953d692dfcc3d12a4cc17cbf34cb749eaca00739",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-586.npz",
+      "bytes": 2236715,
+      "sha256": "8a0f6cd31eaa05768384f629bebf0b83d5817285d45023002c278cb161f5176d",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/8a0f6cd31eaa05768384f629bebf0b83d5817285d45023002c278cb161f5176d.npz",
+        "bytes": 2442,
+        "sha256": "baf41f44b1d3572d6ef6171e6e45f422a4bb3f14e337714d29f204c8910b5bbe",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-6.npz",
+      "bytes": 2299961,
+      "sha256": "78444cc602498154c76de3f8d43363e89c7388c2f32f2c88bc4ad7cffab2f36e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/78444cc602498154c76de3f8d43363e89c7388c2f32f2c88bc4ad7cffab2f36e.npz",
+        "bytes": 2265,
+        "sha256": "2e5984bd3c37222d9040ef9e050347b1e65e126e5d8e6d9a9ea37b436bd9869f",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-602.npz",
+      "bytes": 2266505,
+      "sha256": "f58ffab82c87edff759a51b3bf6b3634a3eef3d3b90f9c7a2edc4a47d8836111",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/f58ffab82c87edff759a51b3bf6b3634a3eef3d3b90f9c7a2edc4a47d8836111.npz",
+        "bytes": 2112,
+        "sha256": "7ab7f0346a8d3c0195baafd906df67b1c167ccff0b06a553abe7c1219ab84aa2",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-622.npz",
+      "bytes": 2258586,
+      "sha256": "0188f079f9780997f805c89f72eb41bea4ff0ecc64df62fe0ecd11d5962e8fb9",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0188f079f9780997f805c89f72eb41bea4ff0ecc64df62fe0ecd11d5962e8fb9.npz",
+        "bytes": 2414,
+        "sha256": "372644e7b3eb0c836336154dad15f1956e09127f035d6b3142b2a3dd6fe9cfb0",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-658.npz",
+      "bytes": 2282624,
+      "sha256": "a9ef25ce20756361e0754de9bd2eb476c1ae26cd6290ccf37799559f0a15eca6",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a9ef25ce20756361e0754de9bd2eb476c1ae26cd6290ccf37799559f0a15eca6.npz",
+        "bytes": 2420,
+        "sha256": "6d92ee1075216471e88ef587208b8f3b0cb7ff215ba62839599d79f5e90f4928",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-673.npz",
+      "bytes": 2298171,
+      "sha256": "1ab02fb4fe8234f161efe3e925ed1c76333167cf5166f8070177b7e868b411f1",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1ab02fb4fe8234f161efe3e925ed1c76333167cf5166f8070177b7e868b411f1.npz",
+        "bytes": 2443,
+        "sha256": "5c761a9727773e330e3d11510d4ea71d66450b4040ebfb5dcec82628080391fa",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-7.npz",
+      "bytes": 2301167,
+      "sha256": "192223f46281e14ba79f88d1c7fadead168bb97f772295ae3e612140dd1e8568",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/192223f46281e14ba79f88d1c7fadead168bb97f772295ae3e612140dd1e8568.npz",
+        "bytes": 2449,
+        "sha256": "7978c37067672ef97fe4a9db5779565cda5d4d091db37759bf8b1a9e216e920b",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-707.npz",
+      "bytes": 2289756,
+      "sha256": "464f1bd776751a978fbe88450650653abbbd3961f84f995c18f7ff5e90fcb6b3",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/464f1bd776751a978fbe88450650653abbbd3961f84f995c18f7ff5e90fcb6b3.npz",
+        "bytes": 2107,
+        "sha256": "8a6d8ff32fcca9b1b4e639ad6a3924517aca32dcb4ac2ef59d437c55016b2bb9",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-747.npz",
+      "bytes": 2231243,
+      "sha256": "80440f9b884b8bf264d7247267ac1cd07003820d913eac77bf19a603e3579e2d",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/80440f9b884b8bf264d7247267ac1cd07003820d913eac77bf19a603e3579e2d.npz",
+        "bytes": 2241,
+        "sha256": "4031b41bad3cc77a8a74b8ec77f5ccad188a51ef8b11fd1537feb74a278eda98",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "case-89.npz",
+      "bytes": 2284073,
+      "sha256": "2e257c08a3b2fb575087d29f421b8c5913e283b7cfe87f35eb58bd274fed9cce",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/2e257c08a3b2fb575087d29f421b8c5913e283b7cfe87f35eb58bd274fed9cce.npz",
+        "bytes": 2073,
+        "sha256": "0048bb36908b8012f9e5719b58dc94c6ad6ceb11d53af1eb18fd19946998991a",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "partial.json",
+      "bytes": 616140,
+      "sha256": "517753592bf983f3adb27c48b2a9fbd963330634a4f336ef3b3e8b01ae22650c",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "protocol.json",
+      "bytes": 707,
+      "sha256": "852aba6f2846081115e7eab6032edf7fde023fb129b4f127cfedd1fb8076f545",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "report.json",
+      "bytes": 616139,
+      "sha256": "b8d5aec6ae18a15041fc7420e71fc89789341665386c0fd33f05820e2660ffc5",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "search_highorder_product.py",
+      "bytes": 7613,
+      "sha256": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-follow01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-000.json",
+      "bytes": 2522,
+      "sha256": "6a50b67751d24f97cd87e996458da13b77df8b21ce5529d579d1369eaad88648",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-001.json",
+      "bytes": 2525,
+      "sha256": "caa9298f1ce3ebad6b0763ea54f70521d63b1d179d800d613002e341370facff",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-002.json",
+      "bytes": 2535,
+      "sha256": "face9a4d6c7f83e7fad8bc2053038d570dfbe457726a5f5f390e6f10d28c70c7",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-003.json",
+      "bytes": 2540,
+      "sha256": "604ca68ad1cf6e29cbc1b76a9525753adfd029e1e102dd70625e5c88476c2119",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-004.json",
+      "bytes": 2540,
+      "sha256": "1275e2be3525cb497cb98bec03dd07de550ed21b4bbf4fccb08e91a6c86b8a29",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-005.json",
+      "bytes": 2540,
+      "sha256": "ff680a495a2ed1ebd4dcfca14da05dec7217b6d8180b1e32d675e1c1471ff090",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-006.json",
+      "bytes": 2543,
+      "sha256": "1a5dc9dd39824a3df0eae076adfcc6613631ca00d1d8e329fe8093a1100399d1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-007.json",
+      "bytes": 2535,
+      "sha256": "e081d5c5dd577cd3f09256d5b79f707ec58ba942f7bf0bfbcbbe3067a77a929d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-008.json",
+      "bytes": 2539,
+      "sha256": "04982bfa14c836d456b9b779e85c95c88e9996411db6dd9467f8d0531ef877ad",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "block-009.json",
+      "bytes": 2539,
+      "sha256": "34926bab534009cbaf2cd14802a7bf4d546e81169bc3356e44812ae09ca830b2",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "case-6-tail.npz",
+      "bytes": 2298501,
+      "sha256": "aff9e6a0417966378fb97d7306839845b764ced9d35d953fc9e7c5c3d510dbf2",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/aff9e6a0417966378fb97d7306839845b764ced9d35d953fc9e7c5c3d510dbf2.npz",
+        "bytes": 972,
+        "sha256": "0eac28946eb335a5843506c78b99b2de682648c04e227f3519b9728e65fcd1ea",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "final_frame"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "case-7-tail.npz",
+      "bytes": 2299759,
+      "sha256": "5a98f05aa4a8f74963960f58aff8cd2c26d89e3a64f0841f4a129d4f8695583b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/5a98f05aa4a8f74963960f58aff8cd2c26d89e3a64f0841f4a129d4f8695583b.npz",
+        "bytes": 997,
+        "sha256": "6eeb69f4dd22c016249107dd4e7d8801ff2baab3b3f469b1374fd6393e8c111c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "final_frame"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "extend_product_horizon.py",
+      "bytes": 5666,
+      "sha256": "af54faf2423c3df089813923d2ac5f20a7d1a31d9ef9c23220713a4b2f73d121",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "progress.json",
+      "bytes": 375,
+      "sha256": "e1d39f1792ab805d3fbd7f00b769059cf62c5e2d13b3aec18958b3e05dec3b40",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "protocol.json",
+      "bytes": 2454,
+      "sha256": "26666d7dc79cf06eb5637f26fe8fa329ec6102f60649369fa1332c27a419f3df",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "report.json",
+      "bytes": 31657,
+      "sha256": "79ac58126ffc9415acaf5be66fda91e980cb839e405104d0d6b0c2522dcc5312",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-horizon01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "case-102.npz",
+      "bytes": 2267226,
+      "sha256": "789d7485007e590304fdc1a527094cb3001207103146c17d6dab2908b2dad1d6",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/789d7485007e590304fdc1a527094cb3001207103146c17d6dab2908b2dad1d6.npz",
+        "bytes": 2228,
+        "sha256": "a2a97e80286e9644a97491e4b631600d3baa7c9185a31259995afb9c2c9e501c",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "case-118.npz",
+      "bytes": 2295403,
+      "sha256": "c16cfa5f86d5335e64036d1c23c53829a8b849dbd808ab9ca7eb28e4883e3999",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/c16cfa5f86d5335e64036d1c23c53829a8b849dbd808ab9ca7eb28e4883e3999.npz",
+        "bytes": 2455,
+        "sha256": "a07329d4b57337f5091d15454e90722d1b2edba5824b11b25cc53c8fe670216b",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "case-212.npz",
+      "bytes": 2285042,
+      "sha256": "10c5442fec31c69b81c432c975c6b48c4797f85a67e4f2569f21c6cffb753767",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/10c5442fec31c69b81c432c975c6b48c4797f85a67e4f2569f21c6cffb753767.npz",
+        "bytes": 2110,
+        "sha256": "318417cb2611323f0a0b133e83bacc7e0ffa443a1d215b8e537ee3f2e9c3372d",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "case-6.npz",
+      "bytes": 2299961,
+      "sha256": "51e970b662f618085d8d7e5d3cb91c88d2cb2885f036002688ae61875e1d7521",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/51e970b662f618085d8d7e5d3cb91c88d2cb2885f036002688ae61875e1d7521.npz",
+        "bytes": 2259,
+        "sha256": "cd818824fa4c67bbfa600cae9dfab292b5316fbc1b5fd2f7aa955dbe7bf7f4fd",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "case-673.npz",
+      "bytes": 2298119,
+      "sha256": "380661d415a27e211337b990f763014de36a9281fa9da6ba24dbd65816f402bf",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/380661d415a27e211337b990f763014de36a9281fa9da6ba24dbd65816f402bf.npz",
+        "bytes": 2437,
+        "sha256": "bd3e356136d5fceaf172dd3f9f330b49c487dcd853124cd0c1c9f8c4e69ff4ec",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "case-7.npz",
+      "bytes": 2301140,
+      "sha256": "0b05b1a9082c8a9531853e073d1e669548a37975d6d824d5abf4c65004c63709",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/0b05b1a9082c8a9531853e073d1e669548a37975d6d824d5abf4c65004c63709.npz",
+        "bytes": 2445,
+        "sha256": "10b97f8a34fe0ccfe0006f0f844061d0653fe2bbcf104ca1638818b1ddc5aa74",
+        "keys": [
+          "params",
+          "levels",
+          "order",
+          "points",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "partial.json",
+      "bytes": 88630,
+      "sha256": "9064c1eb39e2cc2a4117ac2b5ee52c1b90c399994d24d11aca94b313130c2002",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "protocol.json",
+      "bytes": 501,
+      "sha256": "cd8da9e74b838b456a34ae301dc11a27449c29f5aa1013b92f3d5940231dfefc",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "report.json",
+      "bytes": 88629,
+      "sha256": "0dc3a6558b126f00f0a309d99a3fcf0eeb6699387003846eb6d72f56c5ba8d19",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "search_highorder_product.py",
+      "bytes": 7613,
+      "sha256": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-long01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "case-6.json",
+      "bytes": 1507,
+      "sha256": "01a90c8c0073d73eb04220d5bb34978e7d8d82e9d3cecf20e726ed60b352e881",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "case-6.npz",
+      "bytes": 230278,
+      "sha256": "b786c3d62e201a3fe9878b0ff70b92a2c48d20d972d7b75e2cb3c05f90685f14",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "case-7.json",
+      "bytes": 1508,
+      "sha256": "09585c8c938db3ab884bab621ae6ad7d865e1278ef8794509da52cbf33f21390",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "case-7.npz",
+      "bytes": 230388,
+      "sha256": "4ad44fef5177b51819d49fcf398792a818b34778d3242f30b9b767541afbc7fb",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "check_product_alphabet_precision.py",
+      "bytes": 3416,
+      "sha256": "def9d31f8d91830f76cedd5c159cd347e0728958531a4faee0305e85010d6882",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "protocol.json",
+      "bytes": 421,
+      "sha256": "c26e64edfe4123616c080a993d5af0d11ab19a2bcc8eed05f8d03426c0064080",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision100",
+      "file": "report.json",
+      "bytes": 3760,
+      "sha256": "6d127d45f8b1faee56f8857987dd4fee7b8d1107d8cb8ba913be029b7e8a15a9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "case-6.json",
+      "bytes": 1176,
+      "sha256": "1efaf24ea91a7855a4f080a48b3c309246594f60d2fabb7bbaca6b927c2379a1",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "case-6.npz",
+      "bytes": 230236,
+      "sha256": "65ccc99d9586928efb0028e7671e6fd4016ab3ae4bb6c2becb1be7375034ea87",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "case-7.json",
+      "bytes": 1174,
+      "sha256": "2bc67769d52265c97e557e0b276d2a1fc362b806d2518dfe715e08c49a53954f",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "case-7.npz",
+      "bytes": 230431,
+      "sha256": "25d13118ef7b496f1e1f32697d5e3157a31b099ab91fb4f44f3c224193629882",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "check_product_alphabet_precision.py",
+      "bytes": 3416,
+      "sha256": "def9d31f8d91830f76cedd5c159cd347e0728958531a4faee0305e85010d6882",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "protocol.json",
+      "bytes": 420,
+      "sha256": "7081c11475a4927e20ea072408e47152ec5b724ea56534495bb3fd8f378217a3",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-precision70",
+      "file": "report.json",
+      "bytes": 3094,
+      "sha256": "18276a19aa9ad1124ebad6f65d8a752aa4bde1ad74068db35d6afea9874cd539",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0000.npz",
+      "bytes": 653628,
+      "sha256": "83697c034ada9e6a8149c7e03065a246e196aa3c50e9ac481d5ca102694adda2",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/83697c034ada9e6a8149c7e03065a246e196aa3c50e9ac481d5ca102694adda2.npz",
+        "bytes": 8090,
+        "sha256": "c05792eb60fc5eb006b81b0596b88d4574cdcb2a557bcf17f10a932dfc6526c7",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0064.npz",
+      "bytes": 352083,
+      "sha256": "7ac34264eba19c3ffad679e6d65e6dd4046a0690e663e64fdd5ab4a02db696b4",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/7ac34264eba19c3ffad679e6d65e6dd4046a0690e663e64fdd5ab4a02db696b4.npz",
+        "bytes": 7864,
+        "sha256": "1db04ce47f137d7e9cc71a51e879609b5346f86f467596685bfaf3b05eed0648",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0128.npz",
+      "bytes": 135448,
+      "sha256": "fcca27d3c9835daa3f5dcf83f605977118ec63aca92d83b10949211e8e19f1b5",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0192.npz",
+      "bytes": 279255,
+      "sha256": "c6a26cf7c68b3ffbead2d33ab546b380517c986a9d821cc903c669ce611c5b27",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/c6a26cf7c68b3ffbead2d33ab546b380517c986a9d821cc903c669ce611c5b27.npz",
+        "bytes": 7649,
+        "sha256": "208cd477fe98f2ff1fbc19ba9201b448e094bf8e1a568369d7cf4e4b9adad939",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0256.npz",
+      "bytes": 306898,
+      "sha256": "91ee209badb653cf6373d7be471536c3941938e53f8dd8f21d4b27be533bdef8",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/91ee209badb653cf6373d7be471536c3941938e53f8dd8f21d4b27be533bdef8.npz",
+        "bytes": 8207,
+        "sha256": "b535130fe4210535950de587b0822eb94afe004dd6430c6105dcd22cf547222d",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0320.npz",
+      "bytes": 424868,
+      "sha256": "1b5e339de87428cec890365ee3a9633a86bf8648633ec4e22e4fb2c5a655a445",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1b5e339de87428cec890365ee3a9633a86bf8648633ec4e22e4fb2c5a655a445.npz",
+        "bytes": 8284,
+        "sha256": "9500964ea32e56e203743dc1cb555df0efddc05e530763d808cecbfaf06b31e0",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0384.npz",
+      "bytes": 424930,
+      "sha256": "1fc20cb4a2a7768d7eba4f2dcc370016c5cda4103a83dc8c2c83634433002774",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1fc20cb4a2a7768d7eba4f2dcc370016c5cda4103a83dc8c2c83634433002774.npz",
+        "bytes": 7964,
+        "sha256": "045190fbf113045930b6fb0b6c8888b1356592277e6b9eb03582ba0b1efac9f0",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0448.npz",
+      "bytes": 288231,
+      "sha256": "6b66b5d579796625f1c81100bae86c3650c22943b2ea65fcd33e963136b37aff",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/6b66b5d579796625f1c81100bae86c3650c22943b2ea65fcd33e963136b37aff.npz",
+        "bytes": 8215,
+        "sha256": "f4eb056343d984fa99420f06a2eba8eec7f04af005686f53faf70caaf3359a61",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0512.npz",
+      "bytes": 348712,
+      "sha256": "1e366bac5c33246aedc2e8e88c018232ea81cbd5ce83d0a9491d069a91734a48",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/1e366bac5c33246aedc2e8e88c018232ea81cbd5ce83d0a9491d069a91734a48.npz",
+        "bytes": 8199,
+        "sha256": "671876caa9b654eaab8b92ce556c63a780915b0d0b159e2741e0a8cc610be6ee",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0576.npz",
+      "bytes": 355990,
+      "sha256": "a147773ba5c10dc0b0f888e5cf1f3d6582bc13682e78225589c9158652b00aeb",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/a147773ba5c10dc0b0f888e5cf1f3d6582bc13682e78225589c9158652b00aeb.npz",
+        "bytes": 7685,
+        "sha256": "6899c07d1e86457cf31d070327876f2e9a8cc2206af07a7c1fd2a957722d8b3a",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0640.npz",
+      "bytes": 269021,
+      "sha256": "29846f05435355f7181a20c1d34064cf7c26892e9abc9315a38fa5ce487a562e",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/29846f05435355f7181a20c1d34064cf7c26892e9abc9315a38fa5ce487a562e.npz",
+        "bytes": 8268,
+        "sha256": "752dd3d74ed1c9318d16da08f60727662f24a227403c8032be9e55cd75214e68",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0704.npz",
+      "bytes": 308649,
+      "sha256": "85e2c71d55f06faa770c57233de21f475d55391aaa19441e59dffb31b2fff21b",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/85e2c71d55f06faa770c57233de21f475d55391aaa19441e59dffb31b2fff21b.npz",
+        "bytes": 7509,
+        "sha256": "52a9831c4bfde4872f2d561afd69e01f3bae7da6caf819a139a766e1ad4c6ce4",
+        "keys": [
+          "params",
+          "levels",
+          "orders",
+          "rates",
+          "status",
+          "minimum_radius"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "block-0768.npz",
+      "bytes": 2029,
+      "sha256": "7937d419d8b4d0c04806fde11bc4a0dffcc43604003dbb4983e4c624e8931312",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "protocol.json",
+      "bytes": 525447,
+      "sha256": "67928488e8e7144aa6cfbbfc66e9e03b2e54cb9504f2b09b0e14c7782c7f89eb",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "report.json",
+      "bytes": 525954,
+      "sha256": "6345731ea428738675f82ebfb101d6ffe5b57e0e5a9412eae25852abb26be429",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "screen.npz",
+      "bytes": 4257078,
+      "sha256": "e41298f04e3806abc5f07abe5c92e19c040fb70799707c47dd1581afa9adac95",
+      "storage": "optional cache",
+      "compact": {
+        "path": "results/compact-data/e41298f04e3806abc5f07abe5c92e19c040fb70799707c47dd1581afa9adac95.npz",
+        "bytes": 171348,
+        "sha256": "b6ccc801701dbcca46df565ea114703b24dd83089842ff4586cf82e2297aa9dd",
+        "keys": [
+          "params",
+          "orders",
+          "points",
+          "counts",
+          "rates",
+          "status",
+          "minimum_radius",
+          "positive_flags",
+          "periods",
+          "flags"
+        ]
+      }
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_highorder_product.py",
+      "bytes": 7613,
+      "sha256": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_irregular_product.py",
+      "bytes": 4329,
+      "sha256": "187fe8d93745d88a27e5873230ae741503361b4add7ef392a8cb76817d7c0421",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-scout01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "follow_spherical_constellations.py",
+      "bytes": 4690,
+      "sha256": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "partial.json",
+      "bytes": 18122,
+      "sha256": "43549e3d59479481f13d547695546d42e54aa053a7ae74316608de96b987dff8",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "render_product_alphabet.py",
+      "bytes": 3730,
+      "sha256": "e138c145eea4d28e707011172f4d44eee4178e391b96ca6cff9cefcb4430def9",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "report.json",
+      "bytes": 30023,
+      "sha256": "7d5a2bea4ee61d8545c624bfa0dd11f576564313cf9be36f21740f2bc303582d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "search_product_alphabet.py",
+      "bytes": 11415,
+      "sha256": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "search_raar_constellations.py",
+      "bytes": 6413,
+      "sha256": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "search_soft_constellations.py",
+      "bytes": 6901,
+      "sha256": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "search_soft_sphere.py",
+      "bytes": 11304,
+      "sha256": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "search_spherical_constellations.py",
+      "bytes": 5313,
+      "sha256": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-verification01",
+      "file": "verify_product_alphabet.py",
+      "bytes": 8000,
+      "sha256": "3b7c3ea53bb5eaf937237bc047316b08d2d6d6aa01e148a5d2f32e4c38d859bb",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-visual-review01",
+      "file": "literature-review.json",
+      "bytes": 3544,
+      "sha256": "9578f4bda64ec180741f8d8d61cb6467e2fe886c779ce3783f25abbddcd29dd4",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-visual-review01",
+      "file": "preview-render.json",
+      "bytes": 44246,
+      "sha256": "54707172d7122f6bb03de4d444b2fc018cf7a4da3ad7bc1ed35bf11b5507d68b",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-visual-review01",
+      "file": "render_projection_gallery.py",
+      "bytes": 3144,
+      "sha256": "85ff6473ac8c8e6249a702968118a35410c76343d97b6d4d34cd0ef10d03f902",
+      "storage": "retained"
+    },
+    {
+      "run": "product-irregular-visual-review01",
+      "file": "report.json",
+      "bytes": 3680,
+      "sha256": "0a5ed3a7e907e1fcfb57eb0d333adc5b509b4f5b13b3fac41ced6d22ace46779",
+      "storage": "retained"
+    }
+  ],
+  "runtime_cache_exclusions": []
+}

@@ -158,6 +158,28 @@ The portrait shows the frequently visited core. The longer Case 988 record conta
 
 [Article, approach trajectories and prior art](docs/product-alphabet/manuscript.md) · [Numerical campaign](results/product-alphabet/README.md) · [Entropy certificate](results/product-symbolic/README.md) · [Orientation and equivalence certificate](results/product-orientation/README.md) · [Long horizon and certified excursions](results/product-horizon/README.md)
 
+### Folded shells from nonuniform quantizer levels
+
+![Nonuniform product posteriors, Cases 6 and 7](docs/assets/portraits/product-irregular.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+![Nonuniform product posteriors: static portrait](docs/assets/portraits/product-irregular.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Native three-state discrete iterates; rigid orthogonal cameras and equal units within each panel. Panel scales and density saturation differ. Case numbers are local to the nonuniform-alphabet survey.
+
+**Two numerical folded-shell candidates.** Unevenly spaced posterior levels produce curled shells in Cases 6 and 7. Both retain positive leading growth over 20 million updates, at all 33 tested starts, and in separate 70/100-digit controls. The stills show two million consecutive states; rotation uses a fixed terminal quarter-million. Case 7 has two rare exits beyond the enlarged rendering envelope in the longer run.
+
+Toroidal and folded-shell motifs have prior examples. Comparisons with 108 frozen reference clouds and primary-source checks do not establish historical uniqueness, topology or chaotic attraction. The certified theorems for Case 988 above do not transfer to these cases.
+
+[Model, controls and visual precedents](docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells) · [Complete higher-order and nonuniform searches](results/product-highorder/README.md)
+
 ### Acceleration memory in a scalar iteration
 
 ![Three-history acceleration, cases 54 and 449](docs/assets/portraits/anderson.webp)
@@ -636,6 +658,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | [Gaussian posterior mean and a sphere](docs/soft-sphere/manuscript.md) | Numerical spatial candidates; no asymptotic or priority certificate | [Complete sweep and reproduction](results/soft-sphere/README.md), [shared prior-art review](docs/soft-constellation-priority.md) |
 | [Canonical posterior maps](docs/canonical-sphere/manuscript.md) | Folded ribbon and numerical hyperchaos candidate; certified intrinsic collision and homoclinic return in a trapping set | [Complete 656-case campaign](results/canonical-sphere/README.md), [certificates](results/canonical-collision/README.md), [prior art](docs/soft-constellation-priority.md) |
 | [Product-alphabet posterior maps](docs/product-alphabet/manuscript.md) | Four-wing candidate; certified entropy and a reversed period-92 return exclude specified neighborhood equivalences | [Complete campaign](results/product-alphabet/README.md), [entropy](results/product-symbolic/README.md), [orientation](results/product-orientation/README.md), [prior art and open uniqueness](docs/product-alphabet/manuscript.md#7-prior-art-and-geometric-comparison) |
+| [Nonuniform product posteriors](docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells) | Two folded-shell numerical candidates; 20-million-step, 33-start and 70/100-digit controls | [Complete alphabet extensions](results/product-highorder/README.md), [visual prior art](records/product-irregular-literature-20261101.json) |
 | [Cyclic three-circle RAAR](docs/cyclic-raar-search.md) | Positive finite-time growth, but visually thin configurations | [Complete survey](results/cyclic-raar-search/README.md) |
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |

@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "design": "irregular",
+  "design_reconstructed": 770,
+  "control_sources": [
+    {
+      "earlier_case": 988,
+      "source_sha256": "31a9e83b0148e4a45f4b1c8e146a550bea464efd41942af735659e334405e0b8"
+    },
+    {
+      "earlier_case": 489,
+      "source_sha256": "8a760500fc88d486b9a677e4dfcd48b1eadc1f2142af2c34695ead509a0f1b28"
+    }
+  ],
+  "source_protocol_sha256": "67928488e8e7144aa6cfbbfc66e9e03b2e54cb9504f2b09b0e14c7782c7f89eb",
+  "cohort_replays": [
+    {
+      "id": 6,
+      "positive_nonperiodic": 33,
+      "periodic": 0,
+      "fixed": 0,
+      "other": 0,
+      "minimum_leading_window": 0.2973310245342087,
+      "replay": "All 33 starts: states, rates, status and radius bitwise exact."
+    },
+    {
+      "id": 7,
+      "positive_nonperiodic": 33,
+      "periodic": 0,
+      "fixed": 0,
+      "other": 0,
+      "minimum_leading_window": 0.3474084348888384,
+      "replay": "All 33 starts: states, rates, status and radius bitwise exact."
+    }
+  ],
+  "precision_tail_checks": [
+    {
+      "id": 6,
+      "digits": 70,
+      "mean": 0.3104574648084547,
+      "minimum_window": 0.30182551689881887,
+      "detected_period": null,
+      "variance_fractions": [
+        0.07117465731982647,
+        0.1918085904591747,
+        0.7370167522209989
+      ]
+    },
+    {
+      "id": 7,
+      "digits": 70,
+      "mean": 0.355769091973832,
+      "minimum_window": 0.3489768450387933,
+      "detected_period": null,
+      "variance_fractions": [
+        0.014800773990792743,
+        0.15661727872137715,
+        0.8285819472878301
+      ]
+    },
+    {
+      "id": 6,
+      "digits": 100,
+      "mean": 0.30929133202329023,
+      "minimum_window": 0.29878069126808837,
+      "detected_period": null,
+      "variance_fractions": [
+        0.07056922955766791,
+        0.19836401989543864,
+        0.7310667505468935
+      ]
+    },
+    {
+      "id": 7,
+      "digits": 100,
+      "mean": 0.35981343838574587,
+      "minimum_window": 0.34749461307502827,
+      "detected_period": null,
+      "variance_fractions": [
+        0.01538084688489902,
+        0.1586813580106207,
+        0.8259377951044803
+      ]
+    }
+  ],
+  "catalog_cases": 6,
+  "catalog_reference_files": 108,
+  "seconds": 50.7631413936615,
+  "scope": "Exact same-environment replay and summary accounting. Precision controls are checked for finite returns on their stored binary64 visualization tails, not rerun here. Library alignment is not a global equivalence or priority test."
+}

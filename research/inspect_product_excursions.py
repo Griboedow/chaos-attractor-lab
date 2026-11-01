@@ -69,7 +69,7 @@ def main(args):
     groups=1+np.sum(np.diff(indices)>args.event_gap) if len(indices) else 0
     np.savez_compressed(args.out/'uniform-sample.npz',states=np.concatenate(clouds),params=params,levels=levels,order=order,stride=args.stride,first_observed_update=args.stride)
     np.savez_compressed(args.out/'all-threshold-exceedances.npz',states=events,indices=indices,params=params,levels=levels,order=order)
-    report=dict(case=args.case,horizon_protocol_sha256=hashlib.sha256((args.horizon/'protocol.json').read_bytes()).hexdigest(),reference_sha256=hashlib.sha256(args.reference.read_bytes()).hexdigest(),reference_lower=reference_lower.tolist(),reference_upper=reference_upper.tolist(),padding=args.pad,threshold_lower=lower.tolist(),threshold_upper=upper.tolist(),observed=sum(r['count'] for r in rows),exceedance_count=len(indices),fraction=len(indices)/sum(r['count'] for r in rows),group_gap=args.event_gap,groups=int(groups),uniform_stride=args.stride,rows=rows,minimum_segments=event_segments,seconds=time.time()-start,scope='Exploratory threshold selected after inspecting extended-run bounds. Every block endpoint and normalization minimum replay exactly. Excursion counts are finite-orbit observations, not probabilities, a crisis classification or an asymptotic invariant-set result.')
+    report=dict(case=args.case,horizon_protocol_sha256=hashlib.sha256((args.horizon/'protocol.json').read_bytes()).hexdigest(),reference_sha256=hashlib.sha256(args.reference.read_bytes()).hexdigest(),reference_lower=reference_lower.tolist(),reference_upper=reference_upper.tolist(),padding=args.pad,threshold_lower=lower.tolist(),threshold_upper=upper.tolist(),observed=sum(r['count'] for r in rows),exceedance_count=len(indices),fraction=len(indices)/sum(r['count'] for r in rows),group_gap=args.event_gap,groups=int(groups),uniform_stride=args.stride,rows=rows,minimum_segments=event_segments,seconds=time.time()-start,threshold_selection=args.threshold_note,scope='Every block endpoint and normalization minimum replay exactly. Excursion counts are finite-orbit observations, not probabilities, a crisis classification or an asymptotic invariant-set result.')
     (args.out/'report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8',newline='\n')
 
 
@@ -78,4 +78,5 @@ if __name__=='__main__':
     for name in ['horizon','reference','out']:p.add_argument('--'+name,type=Path,required=True)
     p.add_argument('--case',type=int,default=988);p.add_argument('--pad',type=float,default=.02)
     p.add_argument('--stride',type=int,default=50);p.add_argument('--event-gap',type=int,default=128)
+    p.add_argument('--threshold-note',default='Exploratory threshold selected after inspecting extended-run bounds.')
     main(p.parse_args())

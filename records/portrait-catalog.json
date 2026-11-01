@@ -306,6 +306,44 @@
       ]
     },
     {
+      "id": "product-irregular",
+      "title": "Nonuniform product posteriors",
+      "group": "Numerical algorithms",
+      "report": "docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells",
+      "source_portrait": "docs/assets/experimental/product-irregular-dense/product-alphabet-6.png",
+      "description": "Folded-shell numerical Cases 6 and 7: positive finite growth at 33 starts and 70/100 digits. Toroidal motifs are known; attraction, topology and historical uniqueness remain open.",
+      "featured": true,
+      "coordinates": "Native discrete three-state iterates; orthogonal cameras and equal units within panels. Independent panel scales and density saturation.",
+      "panels": [
+        {
+          "label": "6",
+          "source": "results/product-highorder/runs/product-irregular-dense01/case-6-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        },
+        {
+          "label": "7",
+          "source": "results/product-highorder/runs/product-irregular-dense01/case-7-histogram.npz",
+          "key": "histogram",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/product-highorder/runs/product-irregular-dense01/case-6-states.npz",
+          "key": "states",
+          "metadata_source": "results/product-highorder/runs/product-irregular-dense01/case-6.json",
+          "last_count": 250000
+        },
+        {
+          "source": "results/product-highorder/runs/product-irregular-dense01/case-7-states.npz",
+          "key": "states",
+          "metadata_source": "results/product-highorder/runs/product-irregular-dense01/case-7.json",
+          "last_count": 250000
+        }
+      ]
+    },
+    {
       "id": "raar-constellation-columns",
       "title": "Finite-point RAAR: fragmented columns and sheets",
       "group": "Numerical algorithms",

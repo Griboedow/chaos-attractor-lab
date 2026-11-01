@@ -1,0 +1,81 @@
+{
+  "review_date": "2026-11-01",
+  "scope": "Targeted primary-source follow-up for shell and toroidal visual motifs; not an exhaustive priority search.",
+  "sources": [
+    {
+      "authors": "J. C. Sprott",
+      "year": 1994,
+      "title": "Some simple chaotic flows",
+      "url": "https://sprott.physics.wisc.edu/pubs/paper212.pdf",
+      "doi": "10.1103/PhysRevE.50.R647",
+      "reviewed": "Pages R647-R648: introduction, search protocol and Table I, especially Cases O and P. Author equation list also checked at https://sprott.physics.wisc.edu/simplest.htm.",
+      "figures_viewed": [],
+      "tables_viewed": [
+        "Table I"
+      ],
+      "finding": "Established quadratic three-variable continuous flows. Their equations are not the displayed posterior/reflection recurrence; this does not exclude nonlinear conjugacy."
+    },
+    {
+      "authors": "Christophe Letellier and Robert Gilmore",
+      "year": 2009,
+      "title": "Poincare sections for a new three-dimensional toroidal attractor",
+      "url": "https://doi.org/10.1088/1751-8113/42/1/015101",
+      "reviewed": "Publisher abstract only.",
+      "figures_viewed": [],
+      "finding": "Existing genus-three toroidal flow and genus-one symmetry image; toroidal geometry is not itself new."
+    },
+    {
+      "authors": "Martin Rosalie and Christophe Letellier",
+      "year": 2011,
+      "title": "Topology of toroidal chaos. A first step.",
+      "url": "https://perso.univ-perp.fr/mrosalie/_downloads/111017_poster.pdf",
+      "reviewed": "Complete one-page author poster; Li equations, original/image portraits, section schematic, return map, template matrices and conclusion.",
+      "figures_viewed": [
+        "Original Li attractor",
+        "Symmetry image",
+        "Toroidal section and bifurcation diagram",
+        "Return map and unfolding diagrams"
+      ],
+      "finding": "A toroidal appearance can hide an established Rossler-related template after symmetry reduction. No topology or template has been certified for our discrete clouds, so that equivalence remains open."
+    }
+  ],
+  "external_review_files": [
+    {
+      "file": "rosalie-1.png",
+      "sha256": "52a0f9502e23e25b59330ac0351ca15e9074dc4fd45348fc23680a95ae8f8aa7",
+      "bytes": 1095360
+    },
+    {
+      "file": "rosalie2011.pdf",
+      "sha256": "aa61a937a9fa1f1331df749b20461c774ef2406e164ddd785b2ded6ec1938c2c",
+      "bytes": 1929454
+    },
+    {
+      "file": "sprott-1.png",
+      "sha256": "2fc1a4f70e6d24dc945ee91ae11c8d96a1fcd4ca602bca2211ee9ebd40ce7c0a",
+      "bytes": 245212
+    },
+    {
+      "file": "sprott-2.png",
+      "sha256": "42fb4cae381102341e91cae963cd828e4022f1630e317840d51b8d9cf4ebe6ae",
+      "bytes": 87882
+    },
+    {
+      "file": "sprott1994.pdf",
+      "sha256": "77e8373a1df46d46bcf94a9663f706bbc25032c4333d900a667b2123e285d2ec",
+      "bytes": 340299
+    }
+  ],
+  "access_notes": [
+    "APS full-text endpoint returned 401; author PDF downloaded successfully.",
+    "Web PDF screenshots and GIF previews were unavailable. Local Poppler renders of the author PDF pages and poster were visually inspected.",
+    "Poppler reported Symbol/ArialUnicode font warnings for the poster; the visible equations and drawings were readable. No source figures are redistributed."
+  ],
+  "queries": [
+    "strange attractor posterior reflection sphere",
+    "toroidal chaos Rossler folded torus",
+    "strange attractor nonuniform quantizer",
+    "Sprott Some simple chaotic flows",
+    "Poincare sections new three-dimensional toroidal attractor"
+  ]
+}

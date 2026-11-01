@@ -1,0 +1,737 @@
+{
+  "status": "passed",
+  "source_files": {
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-scout01": {
+      "block-0000.npz": "83697c034ada9e6a8149c7e03065a246e196aa3c50e9ac481d5ca102694adda2",
+      "block-0064.npz": "7ac34264eba19c3ffad679e6d65e6dd4046a0690e663e64fdd5ab4a02db696b4",
+      "block-0128.npz": "fcca27d3c9835daa3f5dcf83f605977118ec63aca92d83b10949211e8e19f1b5",
+      "block-0192.npz": "c6a26cf7c68b3ffbead2d33ab546b380517c986a9d821cc903c669ce611c5b27",
+      "block-0256.npz": "91ee209badb653cf6373d7be471536c3941938e53f8dd8f21d4b27be533bdef8",
+      "block-0320.npz": "1b5e339de87428cec890365ee3a9633a86bf8648633ec4e22e4fb2c5a655a445",
+      "block-0384.npz": "1fc20cb4a2a7768d7eba4f2dcc370016c5cda4103a83dc8c2c83634433002774",
+      "block-0448.npz": "6b66b5d579796625f1c81100bae86c3650c22943b2ea65fcd33e963136b37aff",
+      "block-0512.npz": "1e366bac5c33246aedc2e8e88c018232ea81cbd5ce83d0a9491d069a91734a48",
+      "block-0576.npz": "a147773ba5c10dc0b0f888e5cf1f3d6582bc13682e78225589c9158652b00aeb",
+      "block-0640.npz": "29846f05435355f7181a20c1d34064cf7c26892e9abc9315a38fa5ce487a562e",
+      "block-0704.npz": "85e2c71d55f06faa770c57233de21f475d55391aaa19441e59dffb31b2fff21b",
+      "block-0768.npz": "7937d419d8b4d0c04806fde11bc4a0dffcc43604003dbb4983e4c624e8931312",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "protocol.json": "67928488e8e7144aa6cfbbfc66e9e03b2e54cb9504f2b09b0e14c7782c7f89eb",
+      "report.json": "6345731ea428738675f82ebfb101d6ffe5b57e0e5a9412eae25852abb26be429",
+      "screen.npz": "e41298f04e3806abc5f07abe5c92e19c040fb70799707c47dd1581afa9adac95",
+      "search_highorder_product.py": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "search_irregular_product.py": "187fe8d93745d88a27e5873230ae741503361b4add7ef392a8cb76817d7c0421",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-follow01": {
+      "case-0.npz": "24273baedb38ba3cba8fe5456d6a629a413bc2f41fe6cf6e00fed3f295697e49",
+      "case-1.npz": "fa5e22856f42d16b457da47995cff7a083c8870b1ee7f4664f5113e5a1f675ec",
+      "case-102.npz": "64df2591eeee14808c514aa427cc139dd4003d0666db1977266a2622c9641a39",
+      "case-118.npz": "e73900cc9b348e089dfc25a3e84fb6be5a2ab8c9d54711cb147a3ecebdfecaef",
+      "case-14.npz": "33df7ebabf42c288c312a86e68edb6e90bafb43658283d44e9b6948186fa4b92",
+      "case-153.npz": "f135b6bc772137d447903aa28913a120cd8f4a5a4c7a0d312860b534cae3d084",
+      "case-212.npz": "9e8c225493a2350de8ce3f046eccd2acdaf6a2a872ec50c5eb6a30a96cb63452",
+      "case-22.npz": "7b9e1ebb7d5bf0e84650ec1bfc40eb2f5248ec6e35bd243720cd733c836d2677",
+      "case-231.npz": "3e5b6f65a761a60eaf79d0f35a5a06a2905341efb20273905c8e638fda1e209d",
+      "case-291.npz": "6558a986ec4a7329d403ff8788f2e0843b90740a8bf805430b8a6d0cbbfd77e0",
+      "case-296.npz": "19fd7995c54269c661b07d7ea296aff3b17cc8b2a52b2c07a44412f15b6a9fc7",
+      "case-314.npz": "256a07ece20f3135b379d0f9bc8c46e8a912387a837569dc1603d38e53a3a8cc",
+      "case-344.npz": "0f0eb264e11a34332e6d005e61e1c44a5687a38322e4d7979eb0f7d0fd013357",
+      "case-346.npz": "cfbe3a410347911c31f30b6b956659b8da7094112b538257e4008790367a7d52",
+      "case-356.npz": "3a5bbd3dc2e91818a8b59ce0f1b82a1e6ba21cff935531e921a3582ec3fb3563",
+      "case-357.npz": "65a5fa5ce57a7d4d9eb00082e85c591524c15c4a9d9befecb88c5a2792514fd7",
+      "case-376.npz": "53cd0911e84ebdc7f713569dfa1a1c1e751efc9809f4d4477e8ac1f280432acb",
+      "case-416.npz": "1905c255ae86f5b48ffe032ee85e6832fc19f9f5cb45786da1f7d94acdff89ca",
+      "case-418.npz": "f2127629773164585c6f201c624dec2f47e2e07f6ebd62662d70e30a039243e6",
+      "case-430.npz": "8f0835e4352a8bf17f4af0bf6fbc18b4d4be0e56e29d923d82826398f820d5c4",
+      "case-441.npz": "56a283f6cee63d7370e3ed061ca1f4817f02eeedd093c6f408c7906299b2da49",
+      "case-488.npz": "25530215e8807419ade54dcb2bc4a6dc657acb83b21cd9a3e70cf1e4410e7ce5",
+      "case-514.npz": "4ffb70db0e321e25b2068ed5d1650d275a3a8d0ea23213789b19f527ceb2e94c",
+      "case-524.npz": "f021fb1fbb1c7795a00c7a58cd24bc4990d6c177b7d79b0b5a0ed3351568f0fa",
+      "case-530.npz": "bb319ebd01f1af8e8848acf77f9e0210ebf0b7d0b92963a2447463eec42b66b0",
+      "case-56.npz": "ebdb1ebcb3fae0bd58640a831a77a1fa73a8592bd2aa8847659973c4403ec563",
+      "case-567.npz": "a30d6934942fcf0dd0ea6cb8f35cfb16710c824d42fba9e580264db8ae37e7d4",
+      "case-572.npz": "f7e673c4bb329b411a092a6235b0ae20541ecdec7560a1494574b830f1e04bbd",
+      "case-574.npz": "66626e76846b59c9715c12af9c03d495ee3ff1288a572e2494e69a3a845ee64a",
+      "case-584.npz": "7a9b57a72aa1c97020157a719f0ee606da652374cfca3fbbe8cedb7f1d5ddd6f",
+      "case-585.npz": "73ec8c2431e7ca0bde334b3d68b1505c76a6d56b90eacc88c1e46f0e32f72136",
+      "case-586.npz": "8a0f6cd31eaa05768384f629bebf0b83d5817285d45023002c278cb161f5176d",
+      "case-6.npz": "78444cc602498154c76de3f8d43363e89c7388c2f32f2c88bc4ad7cffab2f36e",
+      "case-602.npz": "f58ffab82c87edff759a51b3bf6b3634a3eef3d3b90f9c7a2edc4a47d8836111",
+      "case-622.npz": "0188f079f9780997f805c89f72eb41bea4ff0ecc64df62fe0ecd11d5962e8fb9",
+      "case-658.npz": "a9ef25ce20756361e0754de9bd2eb476c1ae26cd6290ccf37799559f0a15eca6",
+      "case-673.npz": "1ab02fb4fe8234f161efe3e925ed1c76333167cf5166f8070177b7e868b411f1",
+      "case-7.npz": "192223f46281e14ba79f88d1c7fadead168bb97f772295ae3e612140dd1e8568",
+      "case-707.npz": "464f1bd776751a978fbe88450650653abbbd3961f84f995c18f7ff5e90fcb6b3",
+      "case-747.npz": "80440f9b884b8bf264d7247267ac1cd07003820d913eac77bf19a603e3579e2d",
+      "case-89.npz": "2e257c08a3b2fb575087d29f421b8c5913e283b7cfe87f35eb58bd274fed9cce",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "partial.json": "517753592bf983f3adb27c48b2a9fbd963330634a4f336ef3b3e8b01ae22650c",
+      "protocol.json": "852aba6f2846081115e7eab6032edf7fde023fb129b4f127cfedd1fb8076f545",
+      "report.json": "b8d5aec6ae18a15041fc7420e71fc89789341665386c0fd33f05820e2660ffc5",
+      "search_highorder_product.py": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-long01": {
+      "case-102.npz": "789d7485007e590304fdc1a527094cb3001207103146c17d6dab2908b2dad1d6",
+      "case-118.npz": "c16cfa5f86d5335e64036d1c23c53829a8b849dbd808ab9ca7eb28e4883e3999",
+      "case-212.npz": "10c5442fec31c69b81c432c975c6b48c4797f85a67e4f2569f21c6cffb753767",
+      "case-6.npz": "51e970b662f618085d8d7e5d3cb91c88d2cb2885f036002688ae61875e1d7521",
+      "case-673.npz": "380661d415a27e211337b990f763014de36a9281fa9da6ba24dbd65816f402bf",
+      "case-7.npz": "0b05b1a9082c8a9531853e073d1e669548a37975d6d824d5abf4c65004c63709",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "partial.json": "9064c1eb39e2cc2a4117ac2b5ee52c1b90c399994d24d11aca94b313130c2002",
+      "protocol.json": "cd8da9e74b838b456a34ae301dc11a27449c29f5aa1013b92f3d5940231dfefc",
+      "report.json": "0dc3a6558b126f00f0a309d99a3fcf0eeb6699387003846eb6d72f56c5ba8d19",
+      "search_highorder_product.py": "4feede5bd84dea7ca547b7f8675dd79e7d091ace43d382779f64455231a3f1e6",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    },
+    "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01": {
+      "case-102-histogram.npz": "93a22b729706e57f0c4625d645a2435b353cd6d34e8f473827cc5e8c51156343",
+      "case-102-states.npz": "71ff0fb69f6f497501447d485427147e1aa0822fba8b442af913eaf729f76d1e",
+      "case-102.json": "4025169eaa02b1f7c2a6d3db65307eb5a435c3bb6fef3ff980ae3b8963a3868f",
+      "case-118-histogram.npz": "38cb8150683488a666525fdf3633e3b65f04e99adb985c88cdfe953e03ece45b",
+      "case-118-states.npz": "3264ef91ef76a8137d1060118a5ed0d75fa1b0ad0c59847769178f812751a9f0",
+      "case-118.json": "4c42de64b756219c288efa80b23af56aaf986df0a1e2381637783f73d074f60d",
+      "case-212-histogram.npz": "22d4730a18a0fd97297569d12fa25e8fe5c94abf5f72423628638dd8d8bd0df0",
+      "case-212-states.npz": "68262b11bfad51683bd37ef40e653153881a4690f9df5731758c7f47fdf86b75",
+      "case-212.json": "d3f06cf746bd87ab8ddc960072c80db65d3787feecb2bf26fc198c699f33da4a",
+      "case-6-histogram.npz": "0c46dc61bc944906754c2ae7c491ec77222ab93643577015daadc8cc6ef57d01",
+      "case-6-states.npz": "fd85f2c57bed6bd32b2f750ac3251d2e9a88610a750fc857a5ab1e61a4a8ff14",
+      "case-6.json": "23cfbacdff61844030fadefaa2280872c404d1b964fe2b7c88d61a61a659be84",
+      "case-673-histogram.npz": "1293001a0328ea9dcda118ea856e17841c133e05e0c844fcd0cbc6fc29e1e6d6",
+      "case-673-states.npz": "75ef5290111b0d3a4aae2d03f650dc90f659000a35c720a79ff07bec5933f20e",
+      "case-673.json": "8baf6072b4e5eb7d93abf7f94807141089485c281789b5f78f652d3bff824aae",
+      "case-7-histogram.npz": "604a2c83d3200cab8eacaed0496d7797d916e7946759d099b9726b76c32dd8ca",
+      "case-7-states.npz": "6c8eb680a47837552680891aa62999f8f30ab39ec66ace50d3045de103d228db",
+      "case-7.json": "d8a2d38ff9a926ee2724a74d07ec9a6a1f2447a6d806fbfddcb4ecd37e718485",
+      "follow_spherical_constellations.py": "70b95971e6e09e8340bc2f170f8cf03ec194d0d74f3ca8200c374cc35a6d3a98",
+      "protocol.json": "2239f65ca7c5bb64ff5a9acba429479695fb167ed4d9fe0e15c568c93a04a81b",
+      "render_product_alphabet.py": "e138c145eea4d28e707011172f4d44eee4178e391b96ca6cff9cefcb4430def9",
+      "report.json": "1c56da6663155bdc367d790aac9732bf030eb5ab43f81865aeb54a0911963a33",
+      "search_product_alphabet.py": "439741cb7780655286be2b703f0756b94baffe36e130571fb93062c108545cd4",
+      "search_raar_constellations.py": "bb184af3fd5dfc6002aa97140a504bf58eac717920ea0e212f75e89cda3b6d8d",
+      "search_soft_constellations.py": "875327da538b4c9dd81f9f2704f4b584e3e3996668ce732fad3a8f03b0ed9187",
+      "search_soft_sphere.py": "19166773ec6044c84ebda08cdcea77b9f636a432962e8f3888d4802f9aea4ed0",
+      "search_spherical_constellations.py": "27a597b617c738e2b0da555b9035d1d201be4ec3f433ca2c75dcf68513bd59ce"
+    }
+  },
+  "scout_replay": "All 770 cases, complete output arrays bitwise equal.",
+  "differential_checks": {
+    "samples": 192,
+    "max_full_posterior_formula_error": 4.9960036108132044e-15,
+    "max_full_covariance_relative_error": 1.04638520070921e-13,
+    "max_independent_nested_finite_difference_error": 8.318365845077738e-09
+  },
+  "follow_replays": [
+    {
+      "run": "product-irregular-follow01",
+      "id": 0,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.23519486773528955
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 1,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.32989607134559257
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 6,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.2989747101608833
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 7,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3503951718850823
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 14,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.25411380617843327
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 22,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.08417690075541806
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 56,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3262084041898084
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 89,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.18283300909560002
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 102,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.4032177741262041
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 118,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3093720128175313
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 153,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.21052380396572587
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 212,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.5474750086867173
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 231,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.39020579895038593
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 291,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.35293449022744355
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 296,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.21516051963302776
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 314,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.4363914749981696
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 344,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.19066009882834117
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 346,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.31495157173527316
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 356,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3458487074878994
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 357,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1770111329417096
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 376,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.4648666809747061
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 416,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.1295813356636269
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 418,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.2261621300165954
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 430,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.23041137333311745
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 441,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.056106483886340965
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 488,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.5020416052469668
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 514,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.4921215371875094
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 524,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.23404108278640098
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 530,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.09410914544971133
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 567,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.20699679157238288
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 572,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.21282057910148186
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 574,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.34970523999917996
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 584,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.12642753328750378
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 585,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.10470810922767014
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 586,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.08435363155667562
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 602,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.12370665749559664
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 622,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.14144508066162412
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 658,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3802430039059917
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 673,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.2461126742990809
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 707,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.21907273560552878
+    },
+    {
+      "run": "product-irregular-follow01",
+      "id": 747,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.33091869652487127
+    },
+    {
+      "run": "product-irregular-long01",
+      "id": 6,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.30676840125814236
+    },
+    {
+      "run": "product-irregular-long01",
+      "id": 7,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.35542865013954467
+    },
+    {
+      "run": "product-irregular-long01",
+      "id": 102,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.40905434104528277
+    },
+    {
+      "run": "product-irregular-long01",
+      "id": 118,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.3172842642330066
+    },
+    {
+      "run": "product-irregular-long01",
+      "id": 212,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.5550548448219597
+    },
+    {
+      "run": "product-irregular-long01",
+      "id": 673,
+      "replay": "All states, QR windows, status and radius bitwise equal.",
+      "period": null,
+      "minimum_leading": 0.25452746722645736
+    }
+  ],
+  "dense": [
+    {
+      "id": 6,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 1.6653345369377348e-16,
+      "lapack_leading_mean_error": 1.6653345369377348e-16,
+      "lapack_same_frame_local_error": 6.572520305780927e-14,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.32451026884767975,
+        -0.12841029887135483,
+        -0.8598041134300175
+      ],
+      "lapack_mean_rates": [
+        0.3245102688476796,
+        -0.12841029887135472,
+        -0.8598041134300176
+      ],
+      "logdet_mean_error": 1.3322676295501878e-15,
+      "parameter_hex": [
+        "0x1.ff30212d22d0ep-1",
+        "0x1.6dd5a4aab02f6p-3"
+      ],
+      "level_hex": [
+        [
+          "-0x1.77e779259999ap-1",
+          "-0x1.2f115aae62880p-1",
+          "-0x1.1f99168a1f3c1p-1",
+          "0x1.c065c57e66668p-2"
+        ],
+        [
+          "-0x1.9174d99999998p-5",
+          "-0x1.915ba5ac1a3d0p-6",
+          "0x1.8f924ac24b064p-5",
+          "0x1.5b1cbb6666667p-2"
+        ],
+        [
+          "-0x1.81738ca000000p-2",
+          "-0x1.0edd200ef3332p-3",
+          "-0x1.68caef2b590b8p-7",
+          "0x1.108cbfa000000p-2"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 2.942091015256665e-15,
+      "lapack_leading_mean_error": 2.942091015256665e-15,
+      "lapack_same_frame_local_error": 1.1102230246251565e-13,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.33807341826304343,
+        -0.06422615429924264,
+        -0.4164602059473752
+      ],
+      "lapack_mean_rates": [
+        0.3380734182630464,
+        -0.06422615429924552,
+        -0.41646020594737515
+      ],
+      "logdet_mean_error": 7.216449660063518e-16,
+      "parameter_hex": [
+        "0x1.ff30212d22d0ep-1",
+        "0x1.9b90594006354p-4"
+      ],
+      "level_hex": [
+        [
+          "-0x1.77e779259999ap-1",
+          "-0x1.2f115aae62880p-1",
+          "-0x1.1f99168a1f3c1p-1",
+          "0x1.40fd52e48cb3cp-2",
+          "0x1.c065c57e66668p-2"
+        ],
+        [
+          "-0x1.9174d99999998p-5",
+          "-0x1.915ba5ac1a3d0p-6",
+          "0x1.d620dce44ffa0p-8",
+          "0x1.8f924ac24b064p-5",
+          "0x1.5b1cbb6666667p-2"
+        ],
+        [
+          "-0x1.81738ca000000p-2",
+          "-0x1.3a660424e95e0p-2",
+          "-0x1.0edd200ef3332p-3",
+          "-0x1.68caef2b590b8p-7",
+          "0x1.108cbfa000000p-2"
+        ]
+      ]
+    },
+    {
+      "id": 102,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 6.661338147750939e-16,
+      "lapack_leading_mean_error": 3.3306690738754696e-16,
+      "lapack_same_frame_local_error": 9.29034627006331e-13,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.41873512433508436,
+        -0.5781427436403318,
+        -1.2668013164303353
+      ],
+      "lapack_mean_rates": [
+        0.41873512433508403,
+        -0.5781427436403311,
+        -1.2668013164303353
+      ],
+      "logdet_mean_error": 1.1102230246251565e-15,
+      "parameter_hex": [
+        "0x1.fb315210c28f6p-1",
+        "0x1.fb08d181e6045p-4"
+      ],
+      "level_hex": [
+        [
+          "-0x1.21c5af8a66667p+0",
+          "-0x1.841e9a110322cp-1",
+          "0x1.54ef44a09a0d0p-2",
+          "0x1.57857d30ccccdp+0"
+        ],
+        [
+          "-0x1.ebf96d96ccccdp+0",
+          "-0x1.48e4d546e6b68p+0",
+          "0x1.b6a785ab01588p-3",
+          "0x1.52446df4cccccp-2"
+        ],
+        [
+          "0x1.e6eef63333338p-6",
+          "0x1.9c47051545c91p-3",
+          "0x1.33b1389cbfee3p-2",
+          "0x1.79f570d000000p-2"
+        ]
+      ]
+    },
+    {
+      "id": 118,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 2.3314683517128287e-15,
+      "lapack_leading_mean_error": 1.1102230246251565e-16,
+      "lapack_same_frame_local_error": 3.097966327914037e-12,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.2927507072026995,
+        -0.42934652485857366,
+        -0.6775497445369442
+      ],
+      "lapack_mean_rates": [
+        0.29275070720269963,
+        -0.42934652485857133,
+        -0.677549744536945
+      ],
+      "logdet_mean_error": 9.992007221626409e-16,
+      "parameter_hex": [
+        "0x1.ef1c6884624ddp-1",
+        "0x1.fc107c5f40755p-10"
+      ],
+      "level_hex": [
+        [
+          "-0x1.0891871000000p-2",
+          "-0x1.60c8934485fd0p-4",
+          "0x1.7a455eb1c7b02p-3",
+          "0x1.ca2604a7eb6f0p-1",
+          "0x1.39745c5d9999ap+0"
+        ],
+        [
+          "-0x1.0805f0319999ap-1",
+          "0x1.34ab95a55cc67p+0",
+          "0x1.6665a4c9722bep+0",
+          "0x1.85100d2c19f40p+0",
+          "0x1.aeccd618ccccdp+0"
+        ],
+        [
+          "-0x1.4948114000000p-2",
+          "-0x1.d32bf79fef8efp-3",
+          "0x1.48cd8ac62e800p-5",
+          "0x1.6b96d52b0d119p-3",
+          "0x1.0724b74000000p-2"
+        ]
+      ]
+    },
+    {
+      "id": 212,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 7.771561172376096e-16,
+      "lapack_leading_mean_error": 1.1102230246251565e-16,
+      "lapack_same_frame_local_error": 4.085620730620576e-13,
+      "maximum_frame_orthogonality_error": 5.551115123125783e-16,
+      "production_mean_rates": [
+        0.5699577949721077,
+        -0.05648319325821189,
+        -0.41499555407328936
+      ],
+      "lapack_mean_rates": [
+        0.5699577949721076,
+        -0.056483193258211405,
+        -0.41499555407329014
+      ],
+      "logdet_mean_error": 7.494005416219807e-16,
+      "parameter_hex": [
+        "0x1.ec75daab49ba6p-1",
+        "0x1.4c0264a024a49p-5"
+      ],
+      "level_hex": [
+        [
+          "-0x1.3e5f2ba266667p+0",
+          "-0x1.1920e9b825c79p+0",
+          "0x1.38c62b08ccccdp+0"
+        ],
+        [
+          "-0x1.80d3eee59999ap-1",
+          "-0x1.154f04c3e4a9ep-1",
+          "0x1.14e582b2ccccdp+0"
+        ],
+        [
+          "-0x1.af30763800000p-1",
+          "0x1.85a6432005ad2p-1",
+          "0x1.4a23024f33334p+0"
+        ]
+      ]
+    },
+    {
+      "id": 673,
+      "dense_replay": "All consecutive states and histogram bitwise equal.",
+      "lapack_mean_rate_error": 5.551115123125783e-17,
+      "lapack_leading_mean_error": 5.551115123125783e-17,
+      "lapack_same_frame_local_error": 7.549516567451064e-14,
+      "maximum_frame_orthogonality_error": 4.440892098500626e-16,
+      "production_mean_rates": [
+        0.24541587249085892,
+        -0.40183494899943484,
+        -0.8977250201972733
+      ],
+      "lapack_mean_rates": [
+        0.24541587249085897,
+        -0.4018349489994349,
+        -0.8977250201972733
+      ],
+      "logdet_mean_error": 2.220446049250313e-16,
+      "parameter_hex": [
+        "0x1.bc25c1feb851ep-1",
+        "0x1.09bdc351c79bbp-3"
+      ],
+      "level_hex": [
+        [
+          "-0x1.8d62d1fe66666p-2",
+          "-0x1.8f39f57152bb0p-3",
+          "-0x1.5d33e346ef794p-3",
+          "0x1.2880a0c9819b0p+0",
+          "0x1.65d7eb4c66668p+0"
+        ],
+        [
+          "-0x1.99315154ccccdp+0",
+          "-0x1.c043c66e82daep-2",
+          "-0x1.14b689c021f06p-3",
+          "0x1.d69f2cfc2633ap-2",
+          "0x1.af1d9fa99999ap-1"
+        ],
+        [
+          "-0x1.5b83d2ee66666p-2",
+          "-0x1.b4fe1ad922b51p-5",
+          "0x1.51a01c505cf94p-4",
+          "0x1.d071cb6c359dcp-4",
+          "0x1.b871d7dccccccp-3"
+        ]
+      ]
+    }
+  ],
+  "seconds": 112.65684938430786,
+  "scope": "Finite numerical reproduction. Replay uses the production recurrence; independent checks concern algebraic formula, local derivatives and QR accounting. No interval or uniqueness certificate."
+}

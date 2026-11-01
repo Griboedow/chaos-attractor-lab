@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "f13df9e170e9df4f7fef82a3437e51141899f21382d777e2193673a4316f6ae9",
+  "catalog_sha256": "7a5f0bfb0e36f208c0cd6bc0e6629205691a47ea1e7d6efa57da9991020f644a",
   "size": [
     1920,
     1080
@@ -737,6 +737,81 @@
           "log_saturation": 7.529814792706235,
           "occupied_bins": 49267,
           "display_label": "Case 489"
+        }
+      ]
+    },
+    {
+      "id": "product-irregular",
+      "file": "docs/assets/portraits/product-irregular.png",
+      "sha256": "4a4eafb9e3567634dce73249198cc01dde0b9a477498a7d92df61240de0861a4",
+      "panels": [
+        {
+          "input": {
+            "label": "6",
+            "source": "results/product-highorder/runs/product-irregular-dense01/case-6-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "0c46dc61bc944906754c2ae7c491ec77222ab93643577015daadc8cc6ef57d01",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              426,
+              45
+            ],
+            [
+              1277,
+              1103
+            ]
+          ],
+          "empty_margin": 43,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.302780357722577,
+          "occupied_bins": 113158,
+          "display_label": "Case 6"
+        },
+        {
+          "input": {
+            "label": "7",
+            "source": "results/product-highorder/runs/product-irregular-dense01/case-7-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "604a2c83d3200cab8eacaed0496d7797d916e7946759d099b9726b76c32dd8ca",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              285,
+              45
+            ],
+            [
+              1307,
+              1330
+            ]
+          ],
+          "empty_margin": 52,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            1
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 6.930494765951626,
+          "occupied_bins": 161396,
+          "display_label": "Case 7"
         }
       ]
     },

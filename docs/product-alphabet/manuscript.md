@@ -79,7 +79,8 @@ w_{i,k}(x_i)=\frac{\exp(-(x_i-\ell_{i,k})^2/\tau)}
 ```
 
 The full posterior factors exactly into these three scalar distributions.
-The study evaluates $`q=2,3,4`$, corresponding to 8, 27 and 64 spatial sites.
+The initial campaign evaluates $`q=2,3,4`$, corresponding to 8, 27 and 64
+spatial sites. Sections 3.1–3.2 extend the alphabet size and spacing.
 The deterministic recurrence is
 
 ```math
@@ -127,7 +128,7 @@ m_i=c_i+a_i\frac{2\sinh h_i}{\exp(a_i^2/\tau)+2\cosh h_i}.
 
 The latter is the standard spin-1/Blume–Capel single-site response, after
 parameter identification. These identities prevent presenting the scalar
-nonlinearity as a new invention. Executed alphabets are separately rounded
+nonlinearity as a new invention. The initial campaign's alphabets are separately rounded
 binary64 arrays built from $`c_i+a_i\,\mathrm{linspace}(-1,1,q)`$.
 Their exact entries, rather than ideal symmetry identities or rounded
 table entries, define the recorded experiments.
@@ -175,6 +176,111 @@ covariance fraction below $`10^{-5}`$; numerical growth alone does not make
 them convincing spatial candidates. Five cases receive the start and
 precision controls below. The two displayed cases were selected for
 geometry and those controls, not through a preregistered visual score.
+
+### 3.1. Higher-order visual search
+
+A separate [extension packet](../../results/product-highorder/README.md)
+tests five, seven and nine levels per coordinate: 125, 343 and 729 fixed
+posterior sites. Its 851 inputs comprise two exact earlier controls,
+81 centered grid cases and 256 Sobol geometries evaluated at all three
+orders. Temperature is scaled by the squared geometric-mean level spacing;
+the Sobol seed is `2026110152`. This changes the alphabet, not the established
+posterior/reflection construction.
+
+All 46 short flags retain positive leading growth in twenty windows over
+500,000 observed updates, without a detected period through 512. After
+inspection of all four preview pages, eight cases receive five million
+observed updates and separate two-million-state portraits. All eight retain
+positive leading windows. Their images are predominantly thin folded arcs,
+frames and layered ribbons. They were not selected to replace the principal
+four-wing portrait: this is a recorded visual judgment, not a mathematical
+classification or evidence that higher-order alphabets cannot produce
+other geometries. Extension identifiers are local; its Cases 0 and 1 are
+the exact earlier Cases 988 and 489. The packet retains the full selection,
+numerical controls and bounded reference-library comparisons.
+
+Three of those higher-order cases, 109, 185 and 414, retain positive growth
+in separate 70- and 100-digit observations. However, only 10, 14 and 11 of
+33 fresh starts respectively retain positive growth in every window without
+a detected period. The remaining outcomes include 22, 19 and 22 finite
+periodic captures, plus one nonperiodic Case 109 trace with a nonpositive
+leading window. Positive growth at one selected start is therefore insufficient
+to establish a unique attracting regime.
+
+### 3.2. Nonuniform alphabets and folded shells
+
+A subsequent 770-input survey replaces uniform interior spacing by sorted
+nonuniform levels, at three, four and five levels per coordinate. It includes
+the same two earlier controls and 256 paired Sobol geometries, seed
+`2026110154`. All 41 short flags receive 500,000-step observations and retain
+positive leading windows without a detected period through 512. All four
+preview pages are inspected before selecting Cases 6, 7, 102, 118, 212 and
+673 for five-million-step observations and two-million-state portraits.
+All six retain positive leading windows. These identifiers belong to the
+nonuniform survey and are distinct from the higher-order identifiers above.
+
+![Nonuniform product alphabets, folded-shell Cases 6 and 7](../assets/portraits/product-irregular.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Cases 6 and 7 are additional numerical visual candidates, with folded
+shells and several curled openings. The wording describes appearance;
+no torus, genus, smooth surface or closed-curve classification is asserted.
+Each static panel contains two million consecutive states after 100,000
+discarded updates, with an orthogonal camera and equal units. The
+[24-second rotation](../assets/portraits/product-irregular.webp) keeps the
+last 250,000 states and the spatial scale fixed.
+
+| Diagnostic | Nonuniform Case 6 | Nonuniform Case 7 |
+| --- | --- | --- |
+| Levels per coordinate | 4 | 5 |
+| beta | 0.9984140746686607 | 0.9984140746686607 |
+| tau | 0.17863014837168806 | 0.10047945845907452 |
+| Five-million-step QR rates | (0.308444, -0.139512, -0.840100) | (0.357043, -0.041116, -0.404836) |
+| Twenty-million-step QR rates | (0.308678, -0.139961, -0.840244) | (0.357078, -0.041303, -0.405067) |
+| Smallest leading window | 0.306768 | 0.355429 |
+| Positive nonperiodic outcomes among 33 starts | 33 | 33 |
+| Smallest 70-digit leading window | 0.301826 | 0.348977 |
+| Smallest 100-digit leading window | 0.298781 | 0.347495 |
+
+The start and precision protocols are the same as in Section 4; they use
+these cases' exact stored nonuniform levels. The
+[extension packet](../../results/product-highorder/README.md) records every
+level, all outcomes, complete numerical replays and the image selection.
+The entropy, reversed-return and singularity certificates for Case 988
+do not transfer to these new parameter sets.
+
+A fresh twenty-million-step observation retains positive leading growth
+in every two-million-step block. All twenty block endpoints and minimum
+normalization radii are replayed exactly. Relative to each original
+two-million-state coordinate box enlarged by 0.02, Case 6 has no recorded
+exceedance and Case 7 has two. The threshold is inherited from the earlier
+inspection protocol and selected after the extended calculation, before
+this census. Neither result is a trapping certificate or an estimate of an
+invariant probability; the portraits represent finite observation windows.
+
+**Visual precedent matters.** Toroidal and folded-shell motifs are established.
+[Letellier and Gilmore (2009), publisher abstract](https://doi.org/10.1088/1751-8113/42/1/015101)
+describe a genus-three toroidal flow and its genus-one symmetry image.
+[Rosalie and Letellier's 2011 author poster](https://perso.univ-perp.fr/mrosalie/_downloads/111017_poster.pdf),
+whose diagrams were inspected, relates a symmetry-reduced Li template to a
+Rossler template up to orientation and torsion. Thus a different-looking
+portrait can conceal an established structure. For the nonuniform cases,
+neither that identification nor its exclusion has been proved.
+
+The 108-reference comparison gives Case 6 a similarity fingerprint nearest
+to the frozen Sprott P cloud, with best local alignment residual 0.21966
+against a within-case value 0.06626. For Case 7 the first fingerprint match
+is SprottTorus; among its three shortlisted fits, Sprott O has residual
+0.12149 against within-case 0.06238. These are finite, locally optimized
+comparisons, not global minima or tests of nonlinear conjugacy. The O/P
+equations were checked in [Sprott (1994), Table I](https://sprott.physics.wisc.edu/pubs/paper212.pdf).
+Affine-normalized rankings and all six selected cases are retained. The
+[review receipt](../../records/product-irregular-literature-20261101.json)
+records the exact reading and figure scope. No claim of a previously unseen
+shape or a new class of strange attractors follows from this extension.
 
 ## 4. Numerical validation and rejected interpretations
 

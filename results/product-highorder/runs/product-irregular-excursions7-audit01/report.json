@@ -1,0 +1,309 @@
+{
+  "case": 7,
+  "horizon_protocol_sha256": "26666d7dc79cf06eb5637f26fe8fa329ec6102f60649369fa1332c27a419f3df",
+  "reference_sha256": "6c8eb680a47837552680891aa62999f8f30ab39ec66ace50d3045de103d228db",
+  "reference_lower": [
+    -1.6431457734349877,
+    -0.9311938983862258,
+    -1.2765988128245491
+  ],
+  "reference_upper": [
+    1.3574045290547754,
+    0.9681014325859518,
+    0.6614139405110564
+  ],
+  "padding": 0.02,
+  "threshold_lower": [
+    -1.6631457734349877,
+    -0.9511938983862258,
+    -1.2965988128245491
+  ],
+  "threshold_upper": [
+    1.3774045290547754,
+    0.9881014325859518,
+    0.6814139405110564
+  ],
+  "observed": 20000000,
+  "exceedance_count": 2,
+  "fraction": 1e-07,
+  "group_gap": 128,
+  "groups": 2,
+  "uniform_stride": 50,
+  "rows": [
+    {
+      "block": 0,
+      "start": 0,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.005325422046064787,
+      "minimum_radius_at": 1736539,
+      "minimum_radius_state": [
+        -1.425710297637154,
+        0.07591851719749448,
+        -0.6508465632268767
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": -1,
+      "maximum_excess_state": [
+        -1.238814076323973,
+        0.06100877443260403,
+        -0.536997828740394
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 1,
+      "start": 2000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.004820854920336842,
+      "minimum_radius_at": 2904009,
+      "minimum_radius_state": [
+        -1.4226750711484644,
+        0.07169744120842578,
+        -0.6538550201555787
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 1999999,
+      "maximum_excess_state": [
+        -1.4652153203083191,
+        0.08069358493958184,
+        -0.6636705383304977
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 2,
+      "start": 4000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.006969956697712601,
+      "minimum_radius_at": 5185712,
+      "minimum_radius_state": [
+        -1.4246895576798746,
+        0.07621859692709718,
+        -0.6570908332751273
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 3999999,
+      "maximum_excess_state": [
+        -1.507592449282713,
+        0.10492784225185856,
+        0.12882092747126864
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 3,
+      "start": 6000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.004413253841566857,
+      "minimum_radius_at": 6451574,
+      "minimum_radius_state": [
+        -1.4225833374928718,
+        0.07589433883932747,
+        -0.6545857423010881
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 5999999,
+      "maximum_excess_state": [
+        0.2591900181981209,
+        0.1990503132731511,
+        -0.8767962911116451
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 4,
+      "start": 8000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.007105069975071224,
+      "minimum_radius_at": 9027256,
+      "minimum_radius_state": [
+        -1.4233688409223135,
+        0.07525102027576747,
+        -0.6582101045271969
+      ],
+      "maximum_excess": 0.006958096750026677,
+      "maximum_excess_at": 9564424,
+      "maximum_excess_state": [
+        -1.6701038701850144,
+        0.10431958882465783,
+        -0.314142882610611
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 5,
+      "start": 10000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.0034203852191749475,
+      "minimum_radius_at": 10409059,
+      "minimum_radius_state": [
+        0.8146025351392452,
+        0.08334939906052286,
+        -0.6518078886462084
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 9999999,
+      "maximum_excess_state": [
+        -1.2941139889542321,
+        0.06445336648010769,
+        -0.615122650844327
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 6,
+      "start": 12000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.007067282235527921,
+      "minimum_radius_at": 12863294,
+      "minimum_radius_state": [
+        -1.4243885216870664,
+        0.0764967365374202,
+        -0.6575352305334969
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 11999999,
+      "maximum_excess_state": [
+        -0.8183570877589886,
+        0.03297548028958049,
+        -0.23574713258900465
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 7,
+      "start": 14000000,
+      "count": 2000000,
+      "exceedance_count": 1,
+      "minimum_radius": 0.006973442908059212,
+      "minimum_radius_at": 14099673,
+      "minimum_radius_state": [
+        -1.4247908409253485,
+        0.07832851083923498,
+        -0.6570331839363633
+      ],
+      "maximum_excess": 0.0036851901699830325,
+      "maximum_excess_at": 15975455,
+      "maximum_excess_state": [
+        -1.6668309636049707,
+        0.07260063585007376,
+        -0.44294932843127716
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 8,
+      "start": 16000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.006908453935187527,
+      "minimum_radius_at": 16430817,
+      "minimum_radius_state": [
+        -1.4233477647031223,
+        0.07865918750721042,
+        -0.6580212395654318
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 15999999,
+      "maximum_excess_state": [
+        -1.466991450265837,
+        0.06289636761952355,
+        -0.6114006818661581
+      ],
+      "checkpoint_exact": true
+    },
+    {
+      "block": 9,
+      "start": 18000000,
+      "count": 2000000,
+      "exceedance_count": 0,
+      "minimum_radius": 0.00695034604673114,
+      "minimum_radius_at": 18298567,
+      "minimum_radius_state": [
+        -1.4235414574879797,
+        0.07638976681388432,
+        -0.657961081967114
+      ],
+      "maximum_excess": 0.0,
+      "maximum_excess_at": 17999999,
+      "maximum_excess_state": [
+        -1.250326440809811,
+        0.12382986222000972,
+        -0.8318615357854089
+      ],
+      "checkpoint_exact": true
+    }
+  ],
+  "minimum_segments": [
+    {
+      "block": 0,
+      "start": 1736507,
+      "minimum_offset": 32,
+      "source": "block-000-minimum.npz"
+    },
+    {
+      "block": 1,
+      "start": 2903977,
+      "minimum_offset": 32,
+      "source": "block-001-minimum.npz"
+    },
+    {
+      "block": 2,
+      "start": 5185680,
+      "minimum_offset": 32,
+      "source": "block-002-minimum.npz"
+    },
+    {
+      "block": 3,
+      "start": 6451542,
+      "minimum_offset": 32,
+      "source": "block-003-minimum.npz"
+    },
+    {
+      "block": 4,
+      "start": 9027224,
+      "minimum_offset": 32,
+      "source": "block-004-minimum.npz"
+    },
+    {
+      "block": 5,
+      "start": 10409027,
+      "minimum_offset": 32,
+      "source": "block-005-minimum.npz"
+    },
+    {
+      "block": 6,
+      "start": 12863262,
+      "minimum_offset": 32,
+      "source": "block-006-minimum.npz"
+    },
+    {
+      "block": 7,
+      "start": 14099641,
+      "minimum_offset": 32,
+      "source": "block-007-minimum.npz"
+    },
+    {
+      "block": 8,
+      "start": 16430785,
+      "minimum_offset": 32,
+      "source": "block-008-minimum.npz"
+    },
+    {
+      "block": 9,
+      "start": 18298535,
+      "minimum_offset": 32,
+      "source": "block-009-minimum.npz"
+    }
+  ],
+  "seconds": 43.30287575721741,
+  "threshold_selection": "Two-million-state rendering envelope with padding 0.02, inherited from the earlier Case 988 inspection protocol; chosen after the 20-million-step run, before its exceedance census.",
+  "scope": "Every block endpoint and normalization minimum replay exactly. Excursion counts are finite-orbit observations, not probabilities, a crisis classification or an asymptotic invariant-set result."
+}

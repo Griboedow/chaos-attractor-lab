@@ -1,0 +1,83 @@
+{
+  "id": 673,
+  "source_sha256": "380661d415a27e211337b990f763014de36a9281fa9da6ba24dbd65816f402bf",
+  "states_sha256": "75ef5290111b0d3a4aae2d03f650dc90f659000a35c720a79ff07bec5933f20e",
+  "histogram_sha256": "1293001a0328ea9dcda118ea856e17841c133e05e0c844fcd0cbc6fc29e1e6d6",
+  "center": [
+    -0.3520889664267652,
+    -0.8417253891016604,
+    0.1209943678005682
+  ],
+  "basis": [
+    [
+      -0.9349023455175577,
+      0.34809663159741117,
+      -0.06918337528847007
+    ],
+    [
+      0.3540129003310185,
+      0.928475577536623,
+      -0.11228520969947126
+    ],
+    [
+      0.02514897105230029,
+      -0.1294675132555272,
+      -0.9912646933420157
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 0.616021795134431,
+  "minimum_radius": 0.07507383886983246,
+  "portrait": {
+    "id": "product-alphabet-673",
+    "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-673.png",
+    "sha256": "cbeaf516d1024d397c5188062988c0b06d628c9a1c7b6584c74bd8db35850dcb",
+    "panels": [
+      {
+        "input": {
+          "label": "673",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-673-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "1293001a0328ea9dcda118ea856e17841c133e05e0c844fcd0cbc6fc29e1e6d6",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            329,
+            45
+          ],
+          [
+            1306,
+            1527
+          ]
+        ],
+        "empty_margin": 60,
+        "square_rebin_factor": 2,
+        "zero_padding": [
+          1,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 7.503057045321583,
+        "occupied_bins": 56608,
+        "display_label": "Case 673"
+      }
+    ]
+  }
+}

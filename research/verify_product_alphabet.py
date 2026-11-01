@@ -1,5 +1,5 @@
 """Complete search replay, follow-up accounting and independent local checks."""
-import argparse,hashlib,json,time
+import argparse,hashlib,itertools,json,time
 from pathlib import Path
 import numpy as np
 from numba import set_num_threads
@@ -17,7 +17,14 @@ def main(args):
     for name in [Path(__file__).name,'search_product_alphabet.py','render_product_alphabet.py','follow_spherical_constellations.py','search_soft_sphere.py','search_soft_constellations.py','search_raar_constellations.py','search_spherical_constellations.py']:
         (args.out/name).write_bytes(Path(__file__).with_name(name).read_bytes())
     with np.load(args.scout/'screen.npz') as f:
-        inputs={k:f[k].copy() for k in ['params','levels','orders','points','counts','flags']}
+        inputs={k:f[k].copy() for k in ['params','levels','orders','flags']}
+        if 'points' in f:
+            inputs.update({k:f[k].copy() for k in ['points','counts']})
+        else:
+            inputs['counts']=inputs['orders']**3
+            inputs['points']=np.zeros((len(inputs['orders']),int(inputs['counts'].max()),3))
+            for i,q in enumerate(inputs['orders']):
+                inputs['points'][i,:inputs['counts'][i]]=np.array(list(itertools.product(*inputs['levels'][i,:,:q])))
         local=checks(inputs['params'],inputs['levels'],inputs['orders'],inputs['points'],inputs['counts'])
         values=screen(inputs['params'],inputs['levels'],inputs['orders'],5000,15000)
         for key,value in zip(['rates','tails','status','minimum_radius'],values):assert np.array_equal(value,f[key],equal_nan=True),key
@@ -38,9 +45,10 @@ def main(args):
                 with np.load(folder/f'case-{ident}.npz') as f:
                     for key,value in zip(['rates','states','status','minimum_radius'],values):assert np.array_equal(value[j],f[key],equal_nan=True),(str(folder),ident,key)
                     assert f['status'].tolist()==row['status']==[0,report['observed']]
-                    assert f['rates'].mean(0).tolist()==row['spectrum_qr_order']
+                    assert f['rates'].mean(0).tolist()==row.get('spectrum_qr_order',row.get('spectrum'))
                     assert float(f['rates'][:,0].min())==row['minimum_leading_window']
-                    assert float(f['rates'][:,1].min())==row['minimum_second_window']
+                    if 'minimum_second_window' in row:
+                        assert float(f['rates'][:,1].min())==row['minimum_second_window']
                     z=f['states'];scale=max(float(np.linalg.norm(np.ptp(z,axis=0))),1.)
                     residuals=[float(np.max(np.linalg.norm(z[-2048+lag:]-z[-2048:-lag],axis=1))) for lag in range(1,513)]
                     assert residuals==row['return_residuals']

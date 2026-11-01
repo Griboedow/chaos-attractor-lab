@@ -47,7 +47,7 @@ def main(args):
         inputs.append(dict(id=ident,path=str(source),sha256=hashlib.sha256(source.read_bytes()).hexdigest()))
     params=np.array(params);levels=np.array(levels);orders=np.array(orders)
     x=np.tile([.317,-.211,.419],(len(inputs),1));Q=np.tile(np.eye(3),(len(inputs),1,1))
-    protocol=dict(inputs=inputs,ids=args.ids,warm=args.warm,observed=args.count,block=args.block,initial=x.tolist(),params=params.tolist(),levels=levels.tolist(),orders=orders.tolist(),selection='The two already published principal portraits, chosen before this extended-horizon calculation.',scope='Fresh-start binary64 finite-time continuation. No proof of asymptotic attraction, transitivity or uniqueness.')
+    protocol=dict(inputs=inputs,ids=args.ids,warm=args.warm,observed=args.count,block=args.block,initial=x.tolist(),params=params.tolist(),levels=levels.tolist(),orders=orders.tolist(),selection=args.selection,scope='Fresh-start binary64 finite-time continuation. No proof of asymptotic attraction, transitivity or uniqueness.')
     save(args.out/'protocol.json',protocol)
     x,Q,_,_,_,_,flags=advance(x,Q,params,levels,orders,args.warm,0);assert not np.any(flags[:,0])
     assert args.count%args.block==0 and args.block>=100000
@@ -77,4 +77,5 @@ if __name__=='__main__':
     for name in ['source','out']:p.add_argument('--'+name,type=Path,required=True)
     p.add_argument('--ids',type=int,nargs='+',default=[988,489]);p.add_argument('--count',type=int,default=100000000)
     p.add_argument('--warm',type=int,default=100000);p.add_argument('--block',type=int,default=2000000)
+    p.add_argument('--selection',default='The two already published principal portraits, chosen before this extended-horizon calculation.')
     main(p.parse_args())

@@ -1,0 +1,520 @@
+{
+  "ids": [
+    6,
+    7,
+    102,
+    118,
+    212,
+    673
+  ],
+  "warm": 100000,
+  "count": 2000000,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "camera": "Right-handed PCA basis and one fixed orthogonal camera; equal units.",
+  "density": "Every consecutive state; no interpolation or smoothing.",
+  "cases": [
+    {
+      "id": 6,
+      "source_sha256": "51e970b662f618085d8d7e5d3cb91c88d2cb2885f036002688ae61875e1d7521",
+      "states_sha256": "fd85f2c57bed6bd32b2f750ac3251d2e9a88610a750fc857a5ab1e61a4a8ff14",
+      "histogram_sha256": "0c46dc61bc944906754c2ae7c491ec77222ab93643577015daadc8cc6ef57d01",
+      "center": [
+        -0.7174154313156157,
+        0.11264015049855036,
+        -0.2578731035658111
+      ],
+      "basis": [
+        [
+          -0.9993708048741853,
+          -0.018600859040378673,
+          0.03019937761083864
+        ],
+        [
+          0.032040184118886345,
+          -0.1082605226801866,
+          0.993606101949178
+        ],
+        [
+          -0.015212526639251068,
+          0.9939485234517794,
+          0.10878838063542134
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.838768457573548,
+      "minimum_radius": 0.03872437322237504,
+      "portrait": {
+        "id": "product-alphabet-6",
+        "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-6.png",
+        "sha256": "41a479b488aa7b5802c00f2201a6a949aa4d15a6d8c7fb8097a5fd512aec02d3",
+        "panels": [
+          {
+            "input": {
+              "label": "6",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-6-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "0c46dc61bc944906754c2ae7c491ec77222ab93643577015daadc8cc6ef57d01",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                426,
+                45
+              ],
+              [
+                1277,
+                1103
+              ]
+            ],
+            "empty_margin": 43,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.297141806390542,
+            "occupied_bins": 286245,
+            "display_label": "Case 6"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "source_sha256": "0b05b1a9082c8a9531853e073d1e669548a37975d6d824d5abf4c65004c63709",
+      "states_sha256": "6c8eb680a47837552680891aa62999f8f30ab39ec66ace50d3045de103d228db",
+      "histogram_sha256": "604a2c83d3200cab8eacaed0496d7797d916e7946759d099b9726b76c32dd8ca",
+      "center": [
+        -0.40959977431719335,
+        0.07206314672179151,
+        -0.3686970368051624
+      ],
+      "basis": [
+        [
+          -0.998367580133352,
+          -0.05543700293810056,
+          -0.01374458598562518
+        ],
+        [
+          -0.012433817243602853,
+          -0.023920311729797916,
+          0.9996365433873964
+        ],
+        [
+          -0.05574562877417294,
+          0.9981756145047775,
+          0.023191970174648247
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.7357242449218884,
+      "minimum_radius": 0.005325422046064787,
+      "portrait": {
+        "id": "product-alphabet-7",
+        "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-7.png",
+        "sha256": "bb20f320f2cbee04068911ce8722b07646f43bb1492852423517516d4361ceac",
+        "panels": [
+          {
+            "input": {
+              "label": "7",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-7-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "604a2c83d3200cab8eacaed0496d7797d916e7946759d099b9726b76c32dd8ca",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                285,
+                45
+              ],
+              [
+                1307,
+                1330
+              ]
+            ],
+            "empty_margin": 52,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 5.8055650444287545,
+            "occupied_bins": 419715,
+            "display_label": "Case 7"
+          }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "source_sha256": "789d7485007e590304fdc1a527094cb3001207103146c17d6dab2908b2dad1d6",
+      "states_sha256": "71ff0fb69f6f497501447d485427147e1aa0822fba8b442af913eaf729f76d1e",
+      "histogram_sha256": "93a22b729706e57f0c4625d645a2435b353cd6d34e8f473827cc5e8c51156343",
+      "center": [
+        0.8469757022969153,
+        0.31439417964675775,
+        0.3335228208723645
+      ],
+      "basis": [
+        [
+          -0.2001751582221474,
+          -0.6737629626460055,
+          -0.7113180555821811
+        ],
+        [
+          0.9512114568193205,
+          0.0403366883225772,
+          -0.30589167362128955
+        ],
+        [
+          0.23479069497406502,
+          -0.7378457980781916,
+          0.6328166462822792
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.6334515694918454,
+      "minimum_radius": 0.12116848755769859,
+      "portrait": {
+        "id": "product-alphabet-102",
+        "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-102.png",
+        "sha256": "10c65af90f6d1176f0e02f246a3bb28e718ba1cc65c0fbd332e46bf8845735f6",
+        "panels": [
+          {
+            "input": {
+              "label": "102",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-102-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "93a22b729706e57f0c4625d645a2435b353cd6d34e8f473827cc5e8c51156343",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                100,
+                88
+              ],
+              [
+                1502,
+                1555
+              ]
+            ],
+            "empty_margin": 59,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.7344022653494156,
+            "occupied_bins": 44919,
+            "display_label": "Case 102"
+          }
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "source_sha256": "c16cfa5f86d5335e64036d1c23c53829a8b849dbd808ab9ca7eb28e4883e3999",
+      "states_sha256": "3264ef91ef76a8137d1060118a5ed0d75fa1b0ad0c59847769178f812751a9f0",
+      "histogram_sha256": "38cb8150683488a666525fdf3633e3b65f04e99adb985c88cdfe953e03ece45b",
+      "center": [
+        0.13823837009669923,
+        -0.5645248687149969,
+        -0.08956235096391646
+      ],
+      "basis": [
+        [
+          -0.8904472194823042,
+          0.1290710161734757,
+          -0.43639938370737796
+        ],
+        [
+          -0.36975888162334825,
+          -0.7642153604319396,
+          0.5284441809127344
+        ],
+        [
+          -0.26529628489084367,
+          0.6319141996061068,
+          0.7282185973725813
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.616569050799108,
+      "minimum_radius": 0.0026194199787743172,
+      "portrait": {
+        "id": "product-alphabet-118",
+        "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-118.png",
+        "sha256": "783afdd72c08fc6ab93a98cd7d517d8fa1afb679e64a9dcfcf85db35c7cb089c",
+        "panels": [
+          {
+            "input": {
+              "label": "118",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-118-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "38cb8150683488a666525fdf3633e3b65f04e99adb985c88cdfe953e03ece45b",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                318,
+                305
+              ],
+              [
+                1555,
+                1476
+              ]
+            ],
+            "empty_margin": 50,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.523562306149512,
+            "occupied_bins": 381042,
+            "display_label": "Case 118"
+          }
+        ]
+      }
+    },
+    {
+      "id": 212,
+      "source_sha256": "10c5442fec31c69b81c432c975c6b48c4797f85a67e4f2569f21c6cffb753767",
+      "states_sha256": "68262b11bfad51683bd37ef40e653153881a4690f9df5731758c7f47fdf86b75",
+      "histogram_sha256": "22d4730a18a0fd97297569d12fa25e8fe5c94abf5f72423628638dd8d8bd0df0",
+      "center": [
+        -0.008761317014238462,
+        0.16223574946475203,
+        -0.0017122118199416644
+      ],
+      "basis": [
+        [
+          -0.8846848896164061,
+          -0.2899878467246649,
+          0.36502012935782047
+        ],
+        [
+          0.2450714752802169,
+          -0.9553596020070533,
+          -0.16500909931546892
+        ],
+        [
+          0.3965761189083198,
+          -0.056525035204911256,
+          0.9162599534557311
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.7553893727889637,
+      "minimum_radius": 0.8167196033315861,
+      "portrait": {
+        "id": "product-alphabet-212",
+        "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-212.png",
+        "sha256": "24173bb88955f87cf522f5904f70bd4a26b2e9a363f4419cecaaa93a13e2f8e9",
+        "panels": [
+          {
+            "input": {
+              "label": "212",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-212-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "22d4730a18a0fd97297569d12fa25e8fe5c94abf5f72423628638dd8d8bd0df0",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                45,
+                348
+              ],
+              [
+                1083,
+                1133
+              ]
+            ],
+            "empty_margin": 42,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 5.407171771460119,
+            "occupied_bins": 207991,
+            "display_label": "Case 212"
+          }
+        ]
+      }
+    },
+    {
+      "id": 673,
+      "source_sha256": "380661d415a27e211337b990f763014de36a9281fa9da6ba24dbd65816f402bf",
+      "states_sha256": "75ef5290111b0d3a4aae2d03f650dc90f659000a35c720a79ff07bec5933f20e",
+      "histogram_sha256": "1293001a0328ea9dcda118ea856e17841c133e05e0c844fcd0cbc6fc29e1e6d6",
+      "center": [
+        -0.3520889664267652,
+        -0.8417253891016604,
+        0.1209943678005682
+      ],
+      "basis": [
+        [
+          -0.9349023455175577,
+          0.34809663159741117,
+          -0.06918337528847007
+        ],
+        [
+          0.3540129003310185,
+          0.928475577536623,
+          -0.11228520969947126
+        ],
+        [
+          0.02514897105230029,
+          -0.1294675132555272,
+          -0.9912646933420157
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.616021795134431,
+      "minimum_radius": 0.07507383886983246,
+      "portrait": {
+        "id": "product-alphabet-673",
+        "file": "docs\\assets\\experimental\\product-irregular-dense\\product-alphabet-673.png",
+        "sha256": "cbeaf516d1024d397c5188062988c0b06d628c9a1c7b6584c74bd8db35850dcb",
+        "panels": [
+          {
+            "input": {
+              "label": "673",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\product-irregular-dense01\\case-673-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "1293001a0328ea9dcda118ea856e17841c133e05e0c844fcd0cbc6fc29e1e6d6",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                329,
+                45
+              ],
+              [
+                1306,
+                1527
+              ]
+            ],
+            "empty_margin": 60,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.503057045321583,
+            "occupied_bins": 56608,
+            "display_label": "Case 673"
+          }
+        ]
+      }
+    }
+  ],
+  "seconds": 39.6985604763031
+}
