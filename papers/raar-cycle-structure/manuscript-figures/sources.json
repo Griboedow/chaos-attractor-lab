@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "path": "results\\raar-cycle-structure\\fine-slice\\scan.npz",
+      "sha256": "92ea1d2e6220b3beb07e868645e34e0f062d1be0b291eac4f2cda53c24a25ce7"
+    },
+    {
+      "path": "results\\raar-cycle-structure\\multiplier-proof\\report.json",
+      "sha256": "cd6bae4d1e7e1912831e903c64303426b5fb3a538343c51d5dc9c8d6f77b78f2"
+    },
+    {
+      "path": "results\\raar-cycle-structure\\cycle-proof\\report.json",
+      "sha256": "a7b993a40519c6ea778584ad0cd2ebdd529191ad862ccaca9ad20e65ce50e1fe"
+    },
+    {
+      "path": "results\\raar-cycle-structure\\continuation\\period-7-branch.npz",
+      "sha256": "38aa8a6a28a972c2a9d232fda8a0e5a8a6f6833b844b89ce5c2b4eebea42633d"
+    },
+    {
+      "path": "results\\raar-cycle-structure\\continuation\\period-14-branch.npz",
+      "sha256": "bb3070861457b2e89dee34df63afc1c60f55693c3a4ec4989c8f1723ea0ee6be"
+    },
+    {
+      "path": "results\\raar-cycle-structure\\continuation\\period-28-branch.npz",
+      "sha256": "9030cf601a2fdcd0deb00bfbd6d4ec0d3b6c88557cb52c1d9dfddfa463b0052c"
+    },
+    {
+      "path": "results\\raar-cycle-structure\\continuation\\period-56-branch.npz",
+      "sha256": "1938984871aff51708e6eece8390d2e64b51392830995cc5221ddc39453dd634"
+    },
+    {
+      "path": "results\\raar-circles\\render\\analysis.json",
+      "sha256": "a4f7e804966211067cc1f71391b611c19b0722747d061e1eb392b7219424ed5d"
+    },
+    {
+      "path": "results\\raar-circles\\render\\case-1051-animation.npz",
+      "sha256": "c271542899feb84ef66b438f0c9731e0e00bc9976f86ab03a6662517da9e3c32"
+    }
+  ],
+  "camera": {
+    "center": [
+      -0.024387683297494904,
+      -3.547765813862082,
+      3.6206000927808075
+    ],
+    "basis": [
+      [
+        -0.09421416325571669,
+        -0.9940275099431958,
+        0.05507268758790955
+      ],
+      [
+        -0.6152252516534192,
+        0.10162427082748987,
+        0.781773878629088
+      ],
+      [
+        -0.7827014636309378,
+        0.03977206374971391,
+        -0.6211252705977084
+      ]
+    ],
+    "orthographic": [
+      [
+        -0.9899924966004454,
+        0.0,
+        0.1411200080598672
+      ],
+      [
+        0.05495471960525689,
+        0.9210609940028851,
+        0.3855212369241478
+      ]
+    ]
+  },
+  "unstable_cycle_multipliers": [
+    [
+      -2.5700108868633853,
+      0.0
+    ],
+    [
+      0.008480694546830694,
+      0.0
+    ],
+    [
+      0.7843492508806459,
+      0.0
+    ]
+  ],
+  "unstable_cycle_reference_distances": [
+    0.004154253216130714,
+    0.004025434231214281,
+    0.003885737307016388,
+    0.004947043345155343,
+    0.004736467180225772,
+    0.004596681139002212,
+    0.004459146542039396
+  ],
+  "scope": "Cycle dots are actual discrete states, not a continuous closed trajectory. The million-point reference is finite; nonzero cycle distances do not prove attractor membership. Insets share camera and spatial scale; the main panel uses the same camera with a closer extent. Lines in multiplier plots join numerical continuation samples; vertical event marks identify certified tiny parameter brackets, not a proved nondegenerate flip."
+}

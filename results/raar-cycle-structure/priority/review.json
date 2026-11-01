@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-01",
+  "queries": [
+    "\"RAAR\" \"period-doubling\"",
+    "\"Douglas Rachford\" \"period doubling\"",
+    "\"RAAR\" \"circles\" \"chaotic\"",
+    "\"relaxed averaged alternating reflections\" \"period doubling\"",
+    "\"Douglas\u00e2\u20ac\u201cRachford\" \"chaotic\" \"circles\"",
+    "RAAR period circle chaos attractor",
+    "relaxed Douglas noncoplanar circles attractor"
+  ],
+  "reviews": [
+    {
+      "authors": "Andrew Calcan, Jordan Collard, Alberto De Marchi, Scott B. Lindstrom",
+      "title": "Resolvent Moreau identities without monotonicity: theory and applications to Gabay duality, Douglas\u00e2\u20ac\u201cRachford and ADMM",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.18158",
+      "pdf": "https://arxiv.org/pdf/2605.18158",
+      "scope": "Primary abstract, Section 4.1 equations and discussion, Figure 2 including rendered PDF page 9, and selected Section 6.1 discussion. Not a complete review of the general duality proofs.",
+      "finding": "The authors exhibit a six-cycle and conjecturally chaotic orbiting in a two-dimensional nonconvex basis-pursuit dual inclusion. The operators involve an affine constraint and an inverse MCP subdifferential selection, with a piecewise formula. This is direct prior evidence against claiming that chaos or periodic nonconvergence in DR/ADMM is new. The inspected example is not the present three-dimensional RAAR map of two separate spatial circles. That model distinction does not prove topological inequivalence of attracting sets."
+    },
+    {
+      "authors": "Heinz H. Bauschke, Dominikus Noll",
+      "title": "On the local convergence of the Douglas\u00e2\u20ac\u201cRachford algorithm",
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1401.6188",
+      "pdf": "https://arxiv.org/pdf/1401.6188",
+      "scope": "Primary abstract, introduction, algorithm definition, Section 4 Theorem 3 statement and Corollaries 8\u00e2\u20ac\u201c9. The entire geometric construction proof was not independently rederived.",
+      "finding": "A spatial cylinder and double spiral produce a bounded nonconvergent DR orbit with vanishing increments and a circle of accumulation points. Thus a spatial nonconvergent geometry or a continuous limit set in DR is already known. This example does not establish a strange chaotic attractor: its accumulation circle lies in the common constraint intersection and in the fixed-point set."
+    },
+    {
+      "authors": "Siegfried M. Rump",
+      "title": "Verification methods: rigorous results using floating-point arithmetic",
+      "year": 2010,
+      "url": "https://www.tuhh.de/ti3/rump/intlab/ActaNumerica2010.pdf",
+      "journal": "Acta Numerica 19, 287\u00e2\u20ac\u201c449",
+      "scope": "Primary abstract and Section 13, especially Theorems 13.1\u00e2\u20ac\u201c13.3 and their local proofs. Not the full 163-page survey.",
+      "finding": "Interval Newton/Krawczyk inclusion is a standard validation method. The present work applies this established method to the specific periodic-orbit equations; it does not introduce a new verification theorem."
+    },
+    {
+      "authors": "Predrag Cvitanovi\u0107, Roberto Artuso, Ronnie Mainieri, Gregor Tanner, G\u00e1bor Vattay",
+      "title": "Chaos: Classical and Quantum",
+      "edition": "17.6.8, July 15 2025",
+      "url": "https://chaosbook.org/chapters/ChaosBook.pdf",
+      "scope": "Header, Section 4.7 Liouville formula, Sections 5.3\u20135.5 relevant multiplier/conjugacy identities and return-map qualification inspected in primary indexed PDF. Not the entire 1153-page book.",
+      "finding": "Periodic-orbit organization, flow multiplier +1, positive ODE solution-map determinant and smooth-conjugacy invariance are established facts. Their application to the certified R1051 seven-cycle gives a narrow exclusion of a smooth fixed-time ODE-map equivalence, not a new chaos mechanism or universal inequivalence theorem."
+    }
+  ],
+  "claim_boundary": "The additional bounded search did not locate this exact spatial-circle configuration, its selected periodic-orbit certificates or an explicit equivalence. Neither absence from these search results nor visual difference proves novelty. Period doubling is an established mechanism. The four certified simple minus-one multiplier events alone do not prove nondegenerate flips, an infinite cascade or chaotic attraction."
+}

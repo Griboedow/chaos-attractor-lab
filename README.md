@@ -8,6 +8,10 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 [Research manuscript (PDF)](papers/raar-circles/manuscript.pdf) · [Claims and reproduction](papers/raar-circles/README.md) · [Large portrait](docs/assets/raar-circles-geometry.png) · [Initial-volume approach](docs/assets/raar-circles-approach.png) · [Original-library comparison](docs/assets/raar-library-clouds.png) · [Exact geometric certificates](docs/raar-structure.md) · [Prior-art and equivalence audit](docs/raar-priority.md)
 
+**[A seven-cycle near the arch's characteristic tips](docs/raar-cycle-structure.md):** four nearby attracting cycles have least periods 7/14/28/56, and interval parameter brackets certify four simple −1 multiplier events. A complete 1,025-setting slice retains periodic windows and chaotic candidates. The [six-page companion](papers/raar-cycle-structure/manuscript.pdf) separates these results from the unproved cascade, chaos and priority claims, and gives a limited smooth ODE-map inequivalence argument.
+
+![The serrated arch and its certified unstable seven-cycle](docs/assets/raar-cycle-geometry.png)
+
 **[RK45: twin rosettes and folded fans inside an existing solver](docs/rk45-oscillator.md).** The two rosettes are exchanged by one numerical orbit. Two positive finite growth estimates survive five million steps, independent 70/90-digit calculations and unmodified SciPy execution. A declared narrow slice retains this criterion at 125 of 257 sampled settings, alongside periodic neighbors. Earlier work already explains near-half-turn numerical oscillations; the exact regime's historical uniqueness remains unresolved.
 
 ![Actual RK45 numerical states, viewed by rotating rigid cameras](docs/assets/rk45-oscillator-rotation.gif)

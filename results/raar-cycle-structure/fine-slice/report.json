@@ -1,0 +1,39 @@
+{
+  "source": "results\\raar-circles\\scout\\screen.npz",
+  "source_sha256": "8e6a60e6d13b5c28bf090b5c0b09ebbf3f358cb465e48fb5afdfddd4f209c3a6",
+  "base_id": 1051,
+  "beta_bounds": [
+    0.9608,
+    0.9664
+  ],
+  "count": 1025,
+  "warm": 100000,
+  "observed": 400000,
+  "windows": 20,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "selection": "Fine slice selected after the declared broad slice and periodic-orbit continuation exposed a 7/14/28/56 sequence; not an independent discovery test.",
+  "scope": "Finite fresh-start outcomes. No certified bifurcation or cascade-accumulation claim.",
+  "seconds": 563.0536139011383,
+  "complete": 1025,
+  "positive": 90,
+  "period_counts": {
+    "0": 92,
+    "7": 89,
+    "14": 662,
+    "28": 133,
+    "42": 5,
+    "56": 28,
+    "70": 2,
+    "84": 3,
+    "112": 6,
+    "126": 1,
+    "168": 2,
+    "224": 1,
+    "280": 1
+  },
+  "max_trace_residual": 3.1741276274033225e-13
+}

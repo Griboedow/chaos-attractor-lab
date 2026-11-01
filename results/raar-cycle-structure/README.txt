@@ -1,0 +1,6 @@
+R1051 cycle-structure follow-up, 2026-11-01.
+Four numerical branches, 401 settings each; all 1604 continuation outcomes retained. A fresh-start 1025-setting fine slice retains all outcomes and its selection protocol.
+Five isolated interval certificates establish least periods 7,14,28,56 and local stability at four settings, plus an unstable least-7 cycle at the base arch. Four uniform parametric certificates establish simple minus-one multiplier events; no nondegenerate flip, infinite cascade, asymptotic chaos or historical novelty is proved.
+The incomplete initial cycle calculation and three earlier successful multiplier calculations remain explicit. The final multiplier version checks endpoint attraction and the other two multipliers at the event, after exact dyadic serialization and explicit endpoint-box nesting. A separate interval cubic audit proves one unstable and two stable real multipliers at the base seven-cycle and a negative full-period determinant. The initial figure crop is retained separately.
+The independent interval evaluator uses the nested reflector definition. Other five geometry parameters are exact binary64 lifts; tiny interval boxes control wrapping, not physical measurement uncertainty.
+Third-party publications are linked and hashed, not redistributed. The base results/raar-circles packet remains immutable.
