@@ -677,6 +677,19 @@ download was inaccessible, so no visual comparison to that figure is claimed.
 The supplementary [review receipt](../../results/product-symbolic/literature-review.json)
 records this scope and the covering-theorem source.
 
+There is an earlier communications precedent as well.
+[Yedidia, Wang and Draper (2010 preprint; 2011 journal article)](https://arxiv.org/abs/1001.1730)
+apply divide-and-concur/difference-map dynamics to LDPC decoding. Section II.B,
+equations (1)–(2), gives the reflection-based update and explicitly notes
+possible complicated cycles or strange attractors. Sections III–IV use
+replicated graph messages, hard parity-check projections, an energy constraint
+and min-sum updates. These are not the displayed three-coordinate posterior
+and internal sphere normalization here. The comparison rejects novelty of
+reflection-based decoding and of its possible irregular dynamics; it does not
+establish a conjugacy exclusion or a matching attractor. The
+[supplementary receipt](../../records/product-decoding-literature-20261101.json)
+records the reviewed preprint equations; its figures were not visually audited.
+
 [Gonchenko, Ovsyannikov, Simo and Turaev (2005)](https://www.ma.imperial.ac.uk/~dturaev/mypapers/bc2005.pdf)
 study the three-dimensional Henon map
 $`(x,y,z)\mapsto(y,z,M_1+Bx+M_2y-z^2)`$, with constant determinant B.

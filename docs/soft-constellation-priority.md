@@ -103,6 +103,15 @@ inequality merely by containing the same averaging operator.
 
 ## Reflection and denoising precedents
 
+- [Yedidia, Wang and Draper, *Divide & Concur and Difference-Map BP Decoders for LDPC Codes*](https://arxiv.org/abs/1001.1730)
+  (2010 preprint; 2011 journal article) already applies reflected updates to
+  decoding. The reviewed Sections II.B–IV, equations (1)–(10), use replicated
+  graph messages, parity projections and min-sum rules. Section II.B explicitly
+  mentions possible complicated cycles or strange attractors. This is prior
+  art for the algorithmic setting, not an identified equality with the present
+  posterior/sphere recurrence. No figures or numerical implementation were
+  audited; [review scope](../records/product-decoding-literature-20261101.json).
+
 - [Geppert and Plonka, *Frame Soft Shrinkage Operators are Proximity Operators*](https://arxiv.org/abs/1910.01820)
   (2019 preprint; 2022 journal publication) explicitly discusses replacing
   a constraint projector by a non-idempotent shrinkage map in RAAR.
