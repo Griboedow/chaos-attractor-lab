@@ -2,6 +2,8 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic and symbolic dynamics, numerical attractor candidates, known literature results and open hypotheses.
 
+**[Gallery with drawing dates](docs/attractor-gallery.md).** Every portrait has its date beside it. Older dates identify the first recorded drawing in project history; new images record their actual drawing date. These are our image dates, not historical discovery dates. [Date records and workflow](tools/README-render-dates.md).
+
 **[Certified symbolic dynamics behind the serrated RAAR arch](docs/raar-symbolic-dynamics.md).** Eight covering relations pass two interval map implementations. Two 49-step routes realize arbitrary binary sequences and prove a compact invariant set with topological entropy at least log(2)/49. A separate certificate locates a least-period-49 saddle with exactly one unstable multiplier. The [seven-page article](papers/raar-symbolic-dynamics/manuscript.pdf) includes the proof, actual-state figures, all failed proposals and explicit limits: attraction of this set and historical uniqueness remain unresolved.
 
 [Native geometry and certified cycles](docs/assets/raar-symbolic-geometry.png) · [The two-route graph](docs/assets/raar-symbolic-graph.png) · [Coded excursions](docs/assets/raar-symbolic-itineraries.png) · [Reproduce the certificates](papers/raar-symbolic-dynamics/README.md)
@@ -9,6 +11,10 @@ Reproducible investigations of unusual physical and biological oscillator models
 **[Sixty rotations in one three-dimensional flow](docs/icosahedral-flow.md).** One trajectory forms a hollow arrangement of folded ribbons and spiral fans. Two selected icosahedral candidates survive three integration steps, 16,000-unit observations and independent adaptive solvers. Interval bounds certify absorbing balls; fresh starts reveal both chaotic attraction and competing regular motion. A replay of Reiter's 1999 map strengthens the prior-art comparison. Historical uniqueness remains open.
 
 ![A fixed icosahedral-flow trajectory viewed by a rotating rigid camera](docs/assets/icosahedral-177.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8d5d8b58d0087a4f0ed59cc4258838b2d22568ac/docs/assets/icosahedral-177.gif)).*
+<!-- /drawing-date -->
 
 [Large portrait](docs/assets/icosahedral-177.png) · [Looped companion](docs/assets/icosahedral-183.png) · [Evidence, comparison and reproduction](docs/icosahedral-flow.md)
 
@@ -20,6 +26,10 @@ The [cycle follow-up](docs/icosahedral-cycles.md) resolves a neighborhood-size a
 
 ![One tetrahedral-flow trajectory under a rotating rigid camera](docs/assets/tetrahedral-flow.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/13d474ac6acd6edf65fcd2b54d497f33b699d316/docs/assets/tetrahedral-flow.gif)).*
+<!-- /drawing-date -->
+
 [Large portrait](docs/assets/tetrahedral-flow.png) · [Oblique view](docs/assets/tetrahedral-flow-oblique.png) · [Evidence and limitations](docs/tetrahedral-flow.md)
 
 The [closest older-flow follow-up](docs/tetrahedral-homoclinic-prior.md) identifies three-dimensional tetrahedral chaos in Sandstede and Scheel (1995). Specific novelty remains unresolved; the numerical shape catalog does not include that unfolding or Reiter's tetrahedral maps. The [earlier literature note](docs/polyhedral-priority-followup.md) separately clarifies the scope of a 1996 construction.
@@ -30,15 +40,27 @@ The [equilibrium follow-up](docs/tetrahedral-equilibria.md) certifies at least 3
 
 ![Two actual scalar-memory state clouds](docs/assets/anderson-memory.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/13d474ac6acd6edf65fcd2b54d497f33b699d316/docs/assets/anderson-memory.png)).*
+<!-- /drawing-date -->
+
 **[Another construction: three throats in a localized Gaussian-vortex flow](docs/gaussian-vortex.md).** A continuous three-state field produces a detailed folded geometry from 4.8 million actual states. A 30,000-unit spectrum, step refinement and an independent adaptive solver support chaos; fresh starts also expose a competing numerical cycle. The [108-regime novelty audit](docs/attractor-novelty-audit.md) compares this candidate and the earlier twist images, including affine-coordinate controls. Halvorsen is the new image's closest geometric reference, so threefold appearance is not claimed as new.
 
 ![Gaussian-vortex candidate: actual states under a rigid orthographic camera](docs/assets/gaussian-vortex-triskelion.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/6371acfa83c293b60c3f2a3b2b455b928020ac6a/docs/assets/gaussian-vortex-triskelion.png)).*
+<!-- /drawing-date -->
 
 [Rotate the trajectory](docs/assets/gaussian-vortex-triskelion.gif) · [Equation, controls and reproduction](docs/gaussian-vortex.md) · [Known-shape comparisons and priority limits](docs/attractor-novelty-audit.md)
 
 **[RAAR: serrated arches and layered loops between two spatial circles](docs/raar-circles.md).** An existing geometric search algorithm produces intricate bounded state clouds from two simple circle constraints. Both portraits survive five-million-step, independent 70/90-digit and original ProxToolbox checks. Exact certificates show five selected maps have no fixed points; a sixth has two unstable points and linked input circles. Projection-search chaos is established prior work; the selected cases' historical uniqueness remains unresolved.
 
 ![Actual spatial-circle RAAR states, viewed by rotating rigid cameras](docs/assets/raar-circles-rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-circles-rotation.gif)).*
+<!-- /drawing-date -->
 
 The [RAAR comparison against 108 reference regimes](docs/raar-priority.md#finite-comparison-with-108-reference-regimes) finds different nearest shape matches before and after covariance whitening, with discrepancies above temporal-half controls. It documents finite geometric differences, not a proof of historical uniqueness or dynamical inequivalence.
 
@@ -48,13 +70,25 @@ The [RAAR comparison against 108 reference regimes](docs/raar-priority.md#finite
 
 ![The serrated arch and its certified unstable seven-cycle](docs/assets/raar-cycle-geometry.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/689f1b75d2583010de732c4151550275c9be20b1/docs/assets/raar-cycle-geometry.png)).*
+<!-- /drawing-date -->
+
 **[Watch a tiny segment unfold into the arch](docs/raar-folding.md).** All six radius/resolution controls complete. A separate exact inverse calculation finds two or four preimages for each of 25 targets, independently verifying all 64 inputs. The [seven-page note](papers/raar-folding/manuscript.pdf) derives the complete counts, checks the seven time-residue samples, certifies a smooth fold near the finite cloud and credits an explicit 2001 attractor portrait. These results do not establish a new attractor class.
 
 ![Actual finite evolution near the unstable seven-cycle](docs/assets/raar-cycle-unfolding.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2f165b68638003b2f527a412a401a6a667a21cc8/docs/assets/raar-cycle-unfolding.gif)).*
+<!-- /drawing-date -->
+
 **[RK45: twin rosettes and folded fans inside an existing solver](docs/rk45-oscillator.md).** The two rosettes are exchanged by one numerical orbit. Two positive finite growth estimates survive five million steps, independent 70/90-digit calculations and unmodified SciPy execution. A declared narrow slice retains this criterion at 125 of 257 sampled settings, alongside periodic neighbors. Earlier work already explains near-half-turn numerical oscillations; the exact regime's historical uniqueness remains unresolved.
 
 ![Actual RK45 numerical states, viewed by rotating rigid cameras](docs/assets/rk45-oscillator-rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/990d8e8a138a924679ba97c0f8a859bf7b22bba2/docs/assets/rk45-oscillator-rotation.gif)).*
+<!-- /drawing-date -->
 
 [Research manuscript (PDF)](papers/rk45-controller/manuscript.pdf) · [Claims and reproduction](papers/rk45-controller/README.md) · [Large portrait](docs/assets/rk45-oscillator-geometry.png) · [Initial-volume approach](docs/assets/rk45-oscillator-approach.png) · [Actual-library comparison](docs/assets/rk45-library-clouds.png) · [Exact solution bounds](docs/rk45-controller-structure.md) · [Prior-art and equivalence audit](docs/rk45-priority.md)
 
@@ -62,17 +96,29 @@ The [RAAR comparison against 108 reference regimes](docs/raar-priority.md#finite
 
 ![Fixed RK23 accepted-step clouds viewed by rotating orthographic cameras](docs/assets/rk23-oscillator-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d67a116f4074ec6ae0920c57568474ab18948984/docs/assets/rk23-oscillator-rotation.gif)).*
+<!-- /drawing-date -->
+
 [Research manuscript (PDF)](papers/rk23-controller/manuscript.pdf) · [Proof, evidence and reproduction](papers/rk23-controller/README.md) · [Large portrait](docs/assets/rk23-oscillator-geometry.png) · [32,768 initial states approach each cloud](docs/assets/rk23-oscillator-approach.png) · [Independent evidence](docs/assets/rk23-oscillator-evidence.png) · [Exact structure](docs/rk23-controller-structure.md) · [Prior-art and equivalence audit](docs/rk23-priority.md)
 
 **[Smooth Yogi: folded ribbons and two expanding directions](docs/yogi-tanh.md).** An existing TensorFlow Addons option produces a feathered crescent on a scalar quadratic. Two selected regimes pass five-million-step, independent 70/90-digit and actual-library checks for two positive finite growth rates. The companion proof bounds every legal orbit and explicitly identifies the known Adam two-cycle's local equivalence. The algorithm is prior work; a new attractor class remains unestablished.
 
 ![Rigid camera rotation around folded ribbons and a feathered crescent in the existing smooth Yogi map](docs/assets/yogi-tanh-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c612e8b7da73d63645ab89e82ef5b77d668fbc1c/docs/assets/yogi-tanh-rotation.gif)).*
+<!-- /drawing-date -->
+
 [Research manuscript (PDF)](papers/yogi-memory/manuscript.pdf) · [Proof, evidence and reproduction](papers/yogi-memory/README.md) · [Large portrait](docs/assets/yogi-tanh-geometry.png) · [Independent evidence](docs/assets/yogi-tanh-evidence.png) · [Exact structure and known equivalence](docs/yogi-tanh-structure.md)
 
 **[Yogi: a feathered arc and stronger two-direction expansion](docs/yogi-parameter-plane.md).** A new 2,048-setting grid finds a thin arc of repeated fans inside a published scalar-quadratic optimizer. A separate candidate retains two positive branch rates in all 100 windows of a five-million-step run, all independent 70/90-digit windows, and all actual Optax windows. The full grid, competing fixed outcomes and weaker continuations are retained. Historical uniqueness and asymptotic chaotic attraction remain unresolved.
 
 ![The fixed feathered-arc Yogi state cloud viewed by a rotating orthographic camera](docs/assets/yogi-feathered-arc.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c26d685d207acdbfb40f01f2ad6e72605596f6f5/docs/assets/yogi-feathered-arc.gif)).*
+<!-- /drawing-date -->
 
 [Large portrait](docs/assets/yogi-feathered-arc.png) · [Complete parameter plane](docs/assets/yogi-parameter-plane.png) · [Long-run evidence](docs/assets/yogi-grid-directions.png) · [Watch initial volumes approach](docs/assets/yogi-grid-approach.png) · [Prior-art and equivalence audit](docs/yogi-priority.md)
 
@@ -86,11 +132,19 @@ A [declared smoothing control](docs/yogi-smoothing-control.md) retains two expan
 
 ![Two fixed Adamax state clouds viewed by a rotating orthographic camera](docs/assets/adamax-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c388a6daad6ac84be88aae1b44ab18b5550761e9/docs/assets/adamax-rotation.gif)).*
+<!-- /drawing-date -->
+
 [High-resolution portrait](docs/assets/adamax-geometry.png) · [Watch an initial volume approach](docs/assets/adamax-approach.png) · [Why the sheets form](docs/adamax-structure.md) · [Prior-art and equivalence audit](docs/adamax-priority.md)
 
 **[Geometry first: folded sail and medusa](docs/twist-geometry.md).** A search over 4,096 dissipative three-axis twist maps produced two intricate full-state geometries. Each image contains eight million actual iterates. Four-million-step spectra and independent 70/90-digit checks support chaos; the folded sail also has a competing regular regime. Exact-model priority and asymptotic chaotic attraction remain unresolved.
 
 ![Folded sail: actual three-dimensional map states in an orthographic view](docs/assets/twist-folded-sail.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/b4a35631e4044937842926f5d2630d2baec3957e/docs/assets/twist-folded-sail.png)).*
+<!-- /drawing-date -->
 
 [Rotate the folded sail](docs/assets/twist-folded-sail.gif) · [View the medusa](docs/assets/twist-medusa.png) · [Rotate the medusa](docs/assets/twist-medusa.gif) · [Equations, data and reproduction](docs/twist-geometry.md)
 
@@ -100,9 +154,17 @@ A [declared smoothing control](docs/yogi-smoothing-control.md) retains two expan
 
 ![Scalar AdaBelief candidate and independent long-run evidence](docs/assets/adabelief-candidate.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/a981c87439785808cd38cb6507d5b51c1716ebc7/docs/assets/adabelief-candidate.png)).*
+<!-- /drawing-date -->
+
 **[Current visual candidates: two chaotic geometries from four motor groups](docs/motor-four-b-study.md).** A thin braid survives a 100,000-unit numerical check; nearby, three larger regimes retain chaos through 60,000 units each. Full-state symmetry and close-pair comparisons distinguish their behavior. Their topology and historical novelty remain unresolved.
 
 ![Two four-motor regimes with a common rotating camera and scale](docs/assets/motor-b-regimes.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/76288182a8ba4dffc3d655819b6a0f4765d641ef/docs/assets/motor-b-regimes.gif)).*
+<!-- /drawing-date -->
 
 Orthonormal contrasts of the four physical displacements. The camera rotates around fixed data with common bounds. The thin braid matches three row permutations; the larger sampled sets match all 24 closely. This is numerical symmetry evidence, not a new-topology claim. [New comparisons and neighboring cycle fold](docs/motor-four-b-study.md) · [Original braid audit](docs/motor-four-geometry.md).
 
@@ -116,13 +178,25 @@ The attracting eight-row cycle becomes a saddle when its groups are replicated. 
 
 ![Why exact replication can destroy attraction](papers/replication-instability/figures/figure-3-replication.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/b5afd472f26e7fa247ab0b5dd8644d9ffaabacc6/papers/replication-instability/figures/figure-3-replication.png)).*
+<!-- /drawing-date -->
+
 **[Read the findings](docs/research-findings.md)** for the results, negative searches and remaining hypotheses, with figures and primary references.
 
 ![Rotating physical projections: certified periodic motor attractor and hyperchaos candidate](docs/assets/motor-regimes-rotation.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/efd6cf451595d47335b30225c92a1904ddead33c/docs/assets/motor-regimes-rotation.gif)).*
+<!-- /drawing-date -->
+
 Left: the five-cluster periodic attractor. Right: the hyperchaos candidate from the latest CPU continuation. Both use the same physical coordinates and axis limits; the camera rotates around saved trajectories. [Full-size animation](docs/assets/motor-regimes-rotation.gif) · [Still image](docs/assets/motor-regimes-rotation.png) · [Data and reproduction](docs/attractor-geometry.md#motor-regimes-in-physical-coordinates).
 
 ![Six nearby full-state trajectories approaching the same periodic motor orbit](docs/assets/motor-cycle-attraction.png)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/437cc8f7cf524b361f9ccd6cb137f9d63b33bfc7/docs/assets/motor-cycle-attraction.png)).*
+<!-- /drawing-date -->
 
 The dashed black curve is the attracting cycle; the six colored paths start nearby and approach it. The graph measures distance to the orbit in the full state, allowing different phases. [Watch the actual approach](docs/assets/motor-cycle-attraction.gif) · [Full-size picture](docs/assets/motor-cycle-attraction.png) · [Starts, controls and limits](docs/attractor-geometry.md#approach-to-the-periodic-orbit).
 
@@ -152,6 +226,10 @@ The **three-row version** provides a striking physical-coordinate projection. Th
 
 ![Rotating physical projection of an eight-dimensional motor-row candidate](results/motor-rows/cpu-candidate-N3-783.gif)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ece041347ed4bb2b99c856dda10a8b417c7c29db/results/motor-rows/cpu-candidate-N3-783.gif)).*
+<!-- /drawing-date -->
+
 The curved triangular envelope is a projection of eight state variables onto three physical observables. Permutation symmetry helps explain its appearance; an unusual picture alone does not establish a new attractor class.
 
 The [follow-up priority and symmetry audit](docs/motor-followup-priority.md) derives exact replication and cluster-spectrum identities, including the target periodic saddle's `N−2` expanding directions for every even row count. It also records established cluster-breakup precedents and two unread author theses. These algebraic consequences and source gaps remain separate from an exact-model novelty claim.
@@ -166,6 +244,10 @@ The clearest lesson is how easily a long chaotic transient can resemble an attra
 
 ![Long optical transients and persistence through 100,000 thermal-time units](docs/assets/optical_lifetime_extension.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/b60418fc2fbdd8a34ab873c5581e31f1b9c0727a/docs/assets/optical_lifetime_extension.png)).*
+<!-- /drawing-date -->
+
 The periodic destination also has structure: continuation finds a branch that loses and regains stability, together with an unstable doubled branch. [The bifurcation report](docs/optical-cycle-continuation.md) separates those local observations from claims about global basins or chaotic attractors.
 
 A [further continuation](docs/optical-cycle-arclength.md) locates a fold at optical width 0.0404788044. Stable and saddle cycles coexist at width 0.04; both are independently checked. Their connection to the basin boundary of the irregular regime remains open.
@@ -173,6 +255,10 @@ A [further continuation](docs/optical-cycle-arclength.md) locates a fold at opti
 A [two-sided departure test](docs/optical-saddle-departure.md) now gives a concrete clue: small perturbations near that saddle lead toward the stable cycle on one side and retain irregular motion on the other, at both tested perturbation sizes. Independent Radau runs confirm the cycle-proximity outcome for one size; the second-size audit is explicitly incomplete. This is finite evidence for a basin-boundary hypothesis, not a proof of a new attractor.
 
 ![Physical projection of two optical departure outcomes](docs/assets/optical_saddle_departure_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ffd3892941a27d5e7fe7bfb9166585599c6693f5/docs/assets/optical_saddle_departure_rotation.gif)).*
+<!-- /drawing-date -->
 
 ## Start with the evidence
 
@@ -201,13 +287,25 @@ A [two-sided departure test](docs/optical-saddle-departure.md) now gives a concr
 
 ![Synchronematic evidence](docs/assets/synchronematic_evidence.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/8a85fe10791124d745c6c7fcb079c258c4cb19ad/docs/assets/synchronematic_evidence.png)).*
+<!-- /drawing-date -->
+
 This figure is a projection of a higher-dimensional state, not a claim of a new three-dimensional attractor. [Geometry and symmetry notes](docs/attractor-geometry.md) explain that distinction.
 
 ![NIFTE controls](docs/assets/nifte-controls.png)
 
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/1dc034ad51f993509f70c06229473a3dbfd81c70/docs/assets/nifte-controls.png)).*
+<!-- /drawing-date -->
+
 The NIFTE controls include stable and unstable periodic orbits. An unstable periodic orbit is not an attracting chaotic set.
 
 ![Rotation of physical observables](docs/assets/synchronematic_projection_rotation.gif)
+
+<!-- drawing-date -->
+*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/synchronematic_projection_rotation.gif)).*
+<!-- /drawing-date -->
 
 The full source Fig. 37 periodic control, independent CPU spectra, optical-width sensitivity and 54 original capture checks remain in [the operator report](docs/coupled-operators-research.md). The [extension](docs/optical-lifetime-extension.md) adds 16 independently checked captures while preserving original histories and settings. The 26 surviving trajectories are right-censored; these counts are not basin probabilities or an escape-rate fit.
 
