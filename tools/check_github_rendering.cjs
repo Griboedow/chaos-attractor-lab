@@ -15,6 +15,24 @@ const args = Object.fromEntries(process.argv.slice(2).reduce((pairs, value, i, a
   return pairs;
 }, []));
 
+function sourceMathCounts(text) {
+  let fence = null, display = 0, inline = 0;
+  for (const line of text.split(/\r?\n/)) {
+    const match = line.match(/^(`{3,}|~{3,})(.*)$/);
+    if (match) {
+      if (fence === null) {
+        fence = match[1];
+        if (match[2].trim() === 'math') display++;
+      } else if (match[1][0] === fence[0] && match[1].length >= fence.length && !match[2].trim()) {
+        fence = null;
+      }
+    } else if (fence === null) {
+      inline += [...line.matchAll(/\$`[^`\n]+`\$/g)].length;
+    }
+  }
+  return {display, inline};
+}
+
 async function main() {
   if (!args.browser || !args.output || !args.ref || !args.files) {
     throw new Error('Required: --browser --output --ref --files');
@@ -38,7 +56,7 @@ async function main() {
     for (const file of files) {
       const source = execFileSync('git', ['show', `${args.ref}:${file}`], {cwd: root});
       const text = source.toString('utf8');
-      const expectedDisplay = [...text.matchAll(/^```math\s*$/gm)].length;
+      const expected = sourceMathCounts(text);
       const page = await context.newPage();
       const pageErrors = [];
       page.on('pageerror', e => pageErrors.push(e.message));
@@ -73,11 +91,13 @@ async function main() {
         row = {
           file, url, status: response.status(),
           source_sha256: crypto.createHash('sha256').update(source).digest('hex'),
-          expected_display_math: expectedDisplay, ...data, page_errors: pageErrors,
+          expected_display_math: expected.display, expected_inline_math: expected.inline,
+          ...data, page_errors: pageErrors,
           screenshot, screenshot_sha256: crypto.createHash('sha256').update(fs.readFileSync(path.join(output, screenshot))).digest('hex')
         };
         row.passed = row.status === 200 && !row.math_errors.length && !row.raw_display_delimiters &&
-          row.display_math_count >= expectedDisplay && row.images.every(e => e.loaded);
+          row.display_math_count === expected.display &&
+          row.total_math_count === expected.display + expected.inline && row.images.every(e => e.loaded);
       } catch (error) {
         row = {file, passed: false, error: String(error)};
       } finally {

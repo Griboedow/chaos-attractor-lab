@@ -32,6 +32,13 @@ correct browser rendering. In particular, check set braces, norm signs and
 subscripts as well as explicit error messages. The supported block syntax is
 documented in [GitHub's math guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks).
 
+[The browser checker](../tools/check_github_rendering.cjs) opens published pages
+in an installed Chromium browser, checks formula counts and image loading, and
+saves screenshots outside the repository. It requires `playwright-core` in an
+external Node environment; its header lists the command arguments.
+[The 2026-11-01 review](../records/github-rendering-review-20261101.json) records
+the checked revisions, source hashes and the scope of visual inspection.
+
 ## Conversion records
 
 On 2026-11-01, all ten articles were transferred from their original authoring
