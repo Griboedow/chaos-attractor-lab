@@ -1,0 +1,248 @@
+# Hydrogel filament: spatial dynamics and mesh artifacts
+
+## Scope
+
+The planar implementation has been extended to a spatial, inextensible rod
+with two evolving spontaneous curvatures and quasistatic twist. The solver
+recovers planar forces and second-order temporal convergence, and produces
+spatial beating and hook-shaped rotation at the example parameters of
+[Boiardi et al., arXiv:2604.09486v1](https://arxiv.org/html/2604.09486v1).
+The computations are independent segment approximations, not a reproduction
+of the authors' COMSOL discretization.
+
+The controls expose a substantial mesh artifact: a 16-segment approximation
+admits a bent equilibrium absent from the continuum model. Coarse irregular
+trajectories also encounter nonlinear-solver failures. These outcomes prevent
+promotion of the coarse pictures as new attractors. A stronger-field spatial
+scout completes but develops distances between separated rod segments below
+the nominal filament diameter. Neither chaos nor historical priority is
+established.
+
+[Numerical packet and reproduction](../results/hydrogel-spatial-controls/README.md) ·
+[Earlier planar controls](hydrogel-planar-controls.md).
+
+## Spatial discretization
+
+The source retains translational resistive-force drag, neglects inertia and
+does not add a rotational drag law. Its moment is proportional to the
+difference between visible and spontaneous strain. The two spontaneous
+curvatures obey source equation (25); spontaneous twist is zero. The
+[planar report](hydrogel-planar-controls.md#model-and-source-correspondence)
+defines the common dimensionless parameters and drag coefficients. The
+remaining torsional coefficient is
+
+```math
+\beta_3=\frac{\pi\eta^3}{2\lambda^4(1+\eta^2)(1+\nu)}.
+```
+
+Segment $`i`$ has orientation $`R_i\in\mathrm{SO}(3)`$ and length $`h=1/N`$.
+Its tangent is the third column of $`R_i`$. Positions are accumulated from
+these unit tangents, enforcing the discrete lengths exactly. Unit quaternions
+represent the rotations. The clamp orientation is the identity; the first
+bending interval has length $`h/2`$ and subsequent intervals length $`h`$.
+As in the planar approximation, the first straight segment only approximates
+the pointwise clamped tangent through its half-cell bending energy.
+
+For each relative rotation, let $`v_i`$ be its principal rotation vector and
+$`\ell_i`$ its bending-interval length. The midpoint director frame is the
+geodesic midpoint of the neighboring frames. With $`\kappa_{i,3}=0`$,
+
+```math
+u_i=\frac{v_i}{\ell_i},\qquad
+E_N=\frac12\sum_i\ell_i
+(u_i-\kappa_i)^T
+\mathrm{diag}(\beta_1,\beta_2,\beta_3)(u_i-\kappa_i).
+```
+
+The mechanical variation holds the internal curvatures fixed. Their evolution
+uses the midpoint directors:
+
+```math
+\dot\kappa_1=-\kappa_1-\chi_1(d_2)_z,\qquad
+\dot\kappa_2=-\eta^{-2}\kappa_2+
+\eta^{-3}\chi_1(d_1)_z.
+```
+
+The local translational resistance is
+
+```math
+D_i=\xi R_i\,\mathrm{diag}(\zeta_1,\zeta_2,\zeta_3)R_i^T.
+```
+
+The discrete mechanical residual is the elastic orientation gradient plus
+the drag virtual work. Drag is integrated exactly along each straight segment.
+It has no component for rotation about that segment's tangent. Thus the axial
+moment equation remains algebraic; no artificial rotational damping is used
+to make an ordinary differential equation.
+
+Constant-step BDF2 is applied to positions and spontaneous curvatures, with
+one backward-Euler startup step. The mechanical equations are solved at the
+new configuration. The linear curvature update is eliminated analytically,
+but its dependence on the new directors is included in Newton's derivative.
+Initial twist is adjusted to satisfy axial moment equilibrium while keeping
+the initial centerline fixed.
+
+The initial rotation vector at each segment center is
+
+```math
+\bigl(-0.01s(2-s),\;0.007s^2(3-2s),\;0\bigr),
+```
+
+with zero spontaneous curvature; planar controls omit its second component.
+This is our specified perturbation, not a reconstruction of the paper's
+initial velocity field. The principal logarithm requires resolved relative
+rotations. Approaching its angle-$`\pi`$ branch or losing Newton convergence
+invalidates a completed-trajectory claim.
+
+## Algebra and time integration checks
+
+The original implementation forms a complete central-difference Newton
+matrix. The faster implementation uses the analytic drag derivative and
+local differences of the two elastic hinges affected by each rotation.
+Both sources are retained. A direct comparison gives:
+
+| Check | Recorded discrepancy |
+| --- | ---: |
+| Elastic gradient versus central differences of the energy | `5.82e-11` relative |
+| Drag virtual work versus independent three-point quadrature | `4.42e-16` relative |
+| Spatial versus earlier planar elastic force | `5.37e-15` relative |
+| Spatial versus earlier planar curvature relaxation | `1.78e-15` absolute |
+| Analytic/local Newton matrix versus full differences, BDF1 | `4.38e-11` relative |
+| Analytic/local Newton matrix versus full differences, BDF2 | `5.58e-11` relative |
+| One converged step, original versus faster implementation | `1.12e-16` maximum state difference |
+
+These are numerical implementation checks. They do not constitute an
+independent continuum solver or an interval proof.
+
+At 16 segments, restricting the spatial solver to the $`y,z`$ plane reproduces
+the earlier periodic control at $`\chi_1=100`$, $`\lambda=50`$,
+$`\eta=0.9`$, $`\xi=5\times10^{-6}`$ and $`\nu=0.5`$.
+
+| Time step | Maximum angle difference from adaptive planar reference over times 0–20 | Maximum curvature difference | Mean period after time 15 |
+| --- | ---: | ---: | ---: |
+| 0.002 | 0.025893 | 0.196432 | 0.735924344 |
+| 0.001 | 0.006500 | 0.049303 | 0.735866301 |
+
+Halving the step reduces both history errors by a factor of about 3.98,
+consistent with second-order convergence. The adaptive reference's asymptotic
+period is 0.735846775. Its saved states are interpolated cubically; this
+comparison is not a comparison of exact solutions. Phase drift makes the
+maximum history discrepancy more sensitive than the final orbit's amplitude.
+
+## A bent equilibrium created by the mesh
+
+For the continuum source model under a constant axial field, every equilibrium
+is straight. Indeed, zero velocity and a free end imply zero contact force
+everywhere. Moment balance then gives zero moment everywhere, hence
+$`u=\kappa`$. At equilibrium,
+
+```math
+\kappa_1=-\chi_1(d_2)_z,\qquad
+\kappa_2=\eta^{-1}\chi_1(d_1)_z,\qquad
+\kappa_3=0.
+```
+
+Substitution into the director kinematics gives a smooth first-order initial
+value problem in arc length. Its clamped identity frame has the constant
+solution, and uniqueness excludes any other equilibrium. This argument
+assumes the source's straight reference rod, fixed axial field and stated
+free-end conditions; it does not apply to naturally curved or externally
+loaded rods.
+
+The midpoint segment scheme can violate that property. Consider a circular
+cross-section, a planar configuration and $`\chi_1=-\alpha<0`$. Vanishing
+discrete moment requires
+
+```math
+\theta_0=\frac{\alpha}{2N}\sin\frac{\theta_0}{2},\qquad
+\theta_i-\theta_{i-1}
+=\frac{\alpha}{N}\sin\frac{\theta_i+\theta_{i-1}}2.
+```
+
+If $`2N<\alpha<\pi N`$, the first equation has only the zero solution, while the
+first interior equation admits nonzero roots. Its derivative at zero is
+$`1-\alpha/(2N)<0`$ and its value at $`\pi`$ is positive for the recorded
+case. Subsequent angles can be obtained by continuous scalar root solves.
+Each increment can be chosen in $`[-\alpha/N,\alpha/N]`$, inside the
+principal-rotation interval under the stated inequality.
+For $`N=16`$ and $`\alpha=33`$, this constructs an explicit bent discrete
+equilibrium with tip approximately
+
+```math
+(0,\;0.06553205,\;-0.76875036).
+```
+
+The recorded scaled mechanical residual is below `5.51e-15` and the curvature
+relaxation residual below `7.80e-14`. The 16-segment spatial run approaches a
+rotated form of this stationary shape. In contrast, the 32- and 64-segment
+runs retain hook-shaped rotation. The construction proves an unwanted
+discrete equilibrium; it is not a new equilibrium of the physical model.
+
+## Spatial controls
+
+For the positive-field example, all three finer runs complete time 60 and
+approach a spatial cycle. The table uses the last five upward tip-$`x`$
+crossing intervals and the largest orientation return over the last ten
+crossings. Relative rotations identify quaternion signs.
+
+| Segments | Time step | Late mean period | Maximum orientation return angle |
+| --- | ---: | ---: | ---: |
+| 32 | 0.002 | 0.633728080 | `2.09e-5` |
+| 32 | 0.001 | 0.633665837 | `2.17e-5` |
+| 64 | 0.002 | 0.633637990 | `8.46e-6` |
+
+The period changes by about 0.010% on halving the step at 32 segments and by
+0.014% on doubling the mesh at step 0.002. These are convergence observations,
+not rigorous error bounds. The corresponding 16-segment run fails Newton
+convergence at time 41.742; its preceding irregular trace is not retained as
+a resolved trajectory of the continuum system.
+
+For the circular-section, reverse-field example, 32 and 64 segments give
+late mean tip radii 0.08230 and 0.08441. Linear fits of the unwrapped azimuth
+over times 80–100 give periods approximately 17.20 and 14.64, respectively.
+The roughly 15% difference shows that the rotation's period is still poorly
+resolved in space. These runs recover the qualitative rotating mode, not an
+accurate continuum rotation rate. The coarse near-stationary run is separately
+explained by the explicit discrete equilibrium above.
+
+## Interpretation
+
+At field $`\chi_1=150`$ with $`\lambda=50`$, $`\eta=0.9`$ and 64 segments,
+the BDF2 scout completes times 0–60 with step 0.004. Its relative hinge angles
+remain below 0.663 radians. Nonetheless, 67 of 417 sampled configurations over
+times 40–60 have tested centerline distances below the nominal minor diameter
+$`2\eta/\lambda=0.036`$. The minimum is approximately 0.000740 at time 41.968,
+between segments 29 and 45 (zero-based indices). No contact force or nonlocal
+hydrodynamic interaction is included in the source model. This trace is not
+retained as a physically validated chaotic-attractor candidate.
+
+The distance screen minimizes Euclidean distance between straight segments
+whose entire material intervals are separated by at least $`4/\lambda`$.
+It inspects configurations about 0.05 time units apart and omits closer
+material neighbors. It is a finite geometry check, not a continuous-time
+contact certificate or a finite-cross-section simulation. The corresponding
+32-segment field-100 control has minimum tested clearance 0.08715 over its
+late sampled window, above the same diameter threshold.
+
+The positive-field periodic control and negative-field rotating control
+recover the qualitative motions in the source's Figures 5a and 6c. Mesh
+refinement is essential, particularly where curvature concentrates near the
+clamp. Reported rotation periods and geometric statistics are numerical
+observations; the authors' original trajectories were not available for
+pointwise comparison.
+
+The source already describes spatial periodic motion and its secondary
+instability. Those features are not discoveries here. Searches for the exact
+preprint identifier, DOI and hydrogel/morphoelastic chaos terms did not locate
+an exact-model chaos analysis. Some matches concern chaotic printing of
+hydrogels, which is a different mechanism. This bounded query set does not
+establish absence of prior work, and broader active-filament chaos is known.
+
+The remaining discovery task requires a persistent irregular regime with
+positive tangent growth, temporal and spatial refinement, physically
+interpretable geometry, and a model-specific priority/equivalence audit.
+Neither a coarse irregular trace nor successful Newton solves satisfy those
+requirements.
+
+[Research index](../README.md#research-index) ·
+[Candidate queue](candidate-queue.md)

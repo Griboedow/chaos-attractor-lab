@@ -1,5 +1,7 @@
 # Recorded evidence beyond Chua
 
+`hydrogel-spatial-controls/` records the [spatial morphoelastic rod extension](../docs/hydrogel-spatial-controls.md): ten completed runs, two Newton failures, planar and spatial controls, and an explicit coarse-mesh equilibrium absent from the continuum model. A stronger-field scout completes but develops subdiameter clearances. No new chaotic attractor is promoted.
+
 `hydrogel-planar-controls/` contains [independent controls for the morphoelastic filament](../docs/hydrogel-planar-controls.md): two linear spatial discretizations, four nonlinear periodic controls, eight planar scouts and three longer follow-ups. Six scouts self-intersect; the other two approach numerical cycles. Full three-dimensional dynamics remains untested. Generated arrays stay outside Git.
 
 `soft-symbolic-dynamics/` contains the [Case 156 entropy and periodic-structure certificates](../docs/soft-symbolic-dynamics/manuscript.md): two complete interval implementations of seven crossings, exact tiling audits, and independently located cycles with one and two unstable directions. The attracting set has entropy at least `log(2)/6`; historical uniqueness remains unresolved.

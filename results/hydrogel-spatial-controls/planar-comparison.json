@@ -1,0 +1,35 @@
+{
+  "reference": "Earlier adaptive BDF planar angle solver: 16 segments, rtol=1e-7, atol=1e-9; cubic interpolation of saved dt=0.02 states.",
+  "rows": [
+    {
+      "run": "planar-16-dt002",
+      "max_angle_difference": 0.025892797859825706,
+      "max_curvature_difference": 0.19643130759262606,
+      "mean_period_after15": 0.7359243436815049,
+      "periods_after15": [
+        0.7359244987648914,
+        0.7359243164843345,
+        0.7359245138502892,
+        0.7359242066019718,
+        0.7359242488840607,
+        0.7359242775034822
+      ]
+    },
+    {
+      "run": "planar-16-dt001",
+      "max_angle_difference": 0.006499683729404945,
+      "max_curvature_difference": 0.04930251816987141,
+      "mean_period_after15": 0.735866301253106,
+      "periods_after15": [
+        0.7358664428066835,
+        0.7358662933814628,
+        0.7358664663780274,
+        0.7358661618480191,
+        0.7358662261009243,
+        0.7358662170035188
+      ]
+    }
+  ],
+  "angle_error_ratio": 3.983701198057559,
+  "curvature_error_ratio": 3.984204354751691
+}

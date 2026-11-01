@@ -614,7 +614,7 @@ These studies are retained to document tested mechanisms and prevent repeated fa
 | [Urease reactor](docs/urease-research.md) | No promoted chaotic attractor |
 | [Long-cavity whistle](docs/whistle-screen.md) | No retained chaos among 514 declared trajectories |
 | [Ice-cloud microphysics](docs/ice-cloud-screen.md) | Weak signals resolve to numerical cycles |
-| [Morphoelastic hydrogel filament](docs/hydrogel-planar-controls.md) | Independent planar solver controls; six self-intersecting scouts and two periodic follow-ups; full spatial dynamics unresolved |
+| [Morphoelastic hydrogel filament](docs/hydrogel-spatial-controls.md) | Spatial beating and rotation controls; a coarse-mesh false equilibrium and close-contact scout; [earlier planar screen](docs/hydrogel-planar-controls.md) |
 | [Core–shell gel](docs/core-shell-gel-research.md) | Stiff cases; one endpoint resolves to a [stable periodic orbit](docs/core-shell-gel-stiff-followup.md) |
 | [Rigid microfluidic network](docs/microfluidic-research.md) | Published periodic control not recovered; [supplement audit](docs/microfluidic-source-audit.md) |
 | [Contact rotors](docs/dcr-research.md) | Continuation ambiguity at strict event boundaries; [source audit](docs/dcr-source-audit.md) |

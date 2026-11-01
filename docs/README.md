@@ -29,6 +29,8 @@ collision by proving that its extra branch is outside the attracting set.
 
 The [hydrogel-filament controls](hydrogel-planar-controls.md) document an
 independent planar solver, an eight-case screen and its physical limitations.
+The [spatial extension](hydrogel-spatial-controls.md) adds twist equilibrium,
+spatial periodic controls and an explicit coarse-mesh artifact.
 
 [Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
 [Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)

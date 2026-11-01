@@ -1,0 +1,46 @@
+{
+  "parameters": {
+    "slenderness": 50,
+    "eta": 0.9,
+    "xi": 5e-06,
+    "chi": 100.0,
+    "nu": 0.5
+  },
+  "segments": 32,
+  "dt": 0.002,
+  "requested_duration": 60.0,
+  "completed_time": 60.0,
+  "plane": "spatial",
+  "order": 2,
+  "newton_tolerance": 1e-08,
+  "success": true,
+  "max_scaled_residual": 9.983529112983947e-09,
+  "max_hinge_angle": 0.5211927065619144,
+  "max_newton_iterations": 2,
+  "mean_newton_iterations": 1.9788,
+  "initial_axial_torque_scaled": 2.942962716876848e-17,
+  "elapsed_seconds": 282.0994286000059,
+  "late_tip_singular_values": [
+    4.9148640393370595,
+    1.072934100813273,
+    0.28133538252792056
+  ],
+  "late_tip_ranges": [
+    [
+      -0.13110816905768224,
+      0.13110683480151292
+    ],
+    [
+      0.05672971971323985,
+      0.09746167817205223
+    ],
+    [
+      0.41331924501438755,
+      0.49498973241224176
+    ]
+  ],
+  "quaternion_norm_error": 4.440892098500626e-16,
+  "code_sha256": "abac3a4882acc6f63cc206ccfc61a12bba5c48289140cec787407201faadc47f",
+  "python": "3.12.14",
+  "numpy": "2.5.4"
+}
