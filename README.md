@@ -72,6 +72,26 @@ Full three-state iterates; rigid camera and equal spatial units within each pane
 
 [Model, controls and prior art](docs/raar-constellations.md)
 
+### Gaussian posterior mean and a circle
+
+![Gaussian averaging and reflection, cases 29 and 156](docs/assets/portraits/soft-constellations.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+![Gaussian averaging and reflection: static portrait](docs/assets/portraits/soft-constellations.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-01**.*
+<!-- /drawing-date -->
+
+Full three-state iterates; rigid camera and equal spatial units within each panel.
+
+**Numerical candidates with folded lobes and bands.** Replacing nearest-site selection by Gaussian posterior averaging produces coherent spatial structures. Cases 29 and 156 survive five million iterations, 33 initial states and independent 70/100-digit checks. Case 29 alternates between two folded regions rather than two fixed points. The averaging operator is established mean shift/MMSE denoising; chaotic attraction and historical uniqueness of these composed regimes remain unresolved.
+
+[Model, geometry and controls](docs/soft-constellations.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
+
 ### Acceleration memory in a scalar iteration
 
 ![Three-history acceleration, cases 54 and 449](docs/assets/portraits/anderson.webp)
@@ -504,6 +524,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 | --- | --- | --- |
 | [Spatial-circle RAAR](docs/raar-circles.md) | Certified attracting positive-entropy set at R1051; numerical companion portraits | [Trapping certificate](docs/raar-trapping.md), [fold membership and equivalence obstruction](docs/raar-critical-membership.md), [Symbolic-dynamics certificate](docs/raar-symbolic-dynamics.md), [cycle structure](docs/raar-cycle-structure.md), [folding and preimages](docs/raar-folding.md), [exact structure](docs/raar-structure.md), [prior art](docs/raar-priority.md) |
 | [Circle / finite-point RAAR](docs/raar-constellations.md) | Layered spatial numerical candidates; three active sites in the selected observations | [Complete survey and controls](results/raar-constellations/README.md), [known phase-retrieval connections](docs/raar-constellations.md#prior-art-and-equivalent-terms) |
+| [Gaussian posterior mean and a circle](docs/soft-constellations.md) | Folded numerical regimes with long-run, multiple-start and precision controls | [Complete temperature sweep](results/soft-constellations/README.md), [mean-shift, MMSE, proximal and softmax equivalents](docs/soft-constellation-priority.md) |
 | [Cyclic three-circle RAAR](docs/cyclic-raar-search.md) | Positive finite-time growth, but visually thin configurations | [Complete survey](results/cyclic-raar-search/README.md) |
 | [Sphere / finite-point RAAR](docs/spherical-constellation-search.md) | Paired 2,048-case survey; long transient rejected, attracting circle of two-cycles proved | [Exact rational checks and survey](results/spherical-constellations/README.md), [quantized-feedback comparison](docs/quantized-feedback-comparison.md) |
 | [Scalar acceleration memory](docs/anderson-memory.md) | Convergent plain iteration and irregular accelerated memory | [Search and controls](research/unexpected_search/README.md) |

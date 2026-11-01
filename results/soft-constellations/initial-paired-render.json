@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+  "catalog_sha256": "62d1419f1b29b9911b9ccc786c3d439fe9ef6b7b78ea877ed9fc6b995138985d",
+  "size": [
+    1920,
+    1080
+  ],
+  "style": {
+    "background": "white",
+    "palette": [
+      "#ffffff",
+      "#70a9b7",
+      "#164e63",
+      "#122f42"
+    ],
+    "intensity": "min(log1p(count)/q0.9995,1)^0.72",
+    "count_meaning": "Sampling counts; independent saturation per panel. Brightness is not comparable across studies.",
+    "lines": "When declared, straight segments join consecutive saved continuous-flow states; no new states are inferred.",
+    "geometry": "Only empty histogram margins are removed, followed by square-bin aggregation or declared coordinate projections. No smoothing, image synthesis, anisotropic camera scaling or trajectory replication."
+  },
+  "rows": [
+    {
+      "id": "soft-constellations",
+      "file": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-pair-render01\\soft-constellations.png",
+      "sha256": "b8b022a1da0a1cba65bbf9011f4a023dd85f3e94716a5e4fafb938feac2cb4e7",
+      "panels": [
+        {
+          "input": {
+            "label": "29",
+            "mode": "histogram",
+            "source": "results/soft-constellations/runs/soft-constellation-render01/case-29-histogram.npz",
+            "key": "histogram"
+          },
+          "input_sha256": "f720e7bd7e762811916e60b779431404d69485df14f20f110e52a178459be8d1",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              444,
+              45
+            ],
+            [
+              1050,
+              1435
+            ]
+          ],
+          "empty_margin": 56,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.841662859583905,
+          "occupied_bins": 34802,
+          "display_label": "Case 29"
+        },
+        {
+          "input": {
+            "label": "156",
+            "mode": "histogram",
+            "source": "results/soft-constellations/runs/soft-constellation-render01/case-156-histogram.npz",
+            "key": "histogram"
+          },
+          "input_sha256": "d54071f11087448acafcabcb47b40a3889bbec3716a10261bd8e7d548163ef87",
+          "original_shape": [
+            1600,
+            1600
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              401,
+              194
+            ],
+            [
+              1080,
+              1555
+            ]
+          ],
+          "empty_margin": 55,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.04474456736298,
+          "occupied_bins": 75195,
+          "display_label": "Case 156"
+        }
+      ]
+    }
+  ],
+  "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+}

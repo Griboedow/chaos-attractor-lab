@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded primary-source review, not an exhaustive uniqueness search. Downloaded source PDFs stay outside Git.",
+  "sources": [
+    {
+      "name": "carreira-2007",
+      "url": "https://faculty.ucmerced.edu/mcarreira-perpinan/papers/pami07.pdf",
+      "bytes": 409780,
+      "sha256": "1dd3989786f25ac34b32cd266742f3a362115e44fdef2b9b28ee2e3563313e61",
+      "pages": 14,
+      "status": "downloaded",
+      "read": "PDF pages 1-4; equation 7 and EM construction/monotonicity.",
+      "pixels": [
+        2
+      ],
+      "claim": "Gaussian mean-shift identity, sigma squared=tau/2; the reflected composition is different."
+    },
+    {
+      "name": "ryu-2019",
+      "url": "https://proceedings.mlr.press/v97/ryu19a/ryu19a.pdf",
+      "bytes": 378335,
+      "sha256": "21aeefb8415dd7fcffc3f8e82c2d63c92f8172fa8f8c191251de26a034f0ed30",
+      "pages": 12,
+      "status": "downloaded",
+      "read": "Publisher abstract and PDF pages 3-4; PNP-DRS/ADMM definitions and convergence assumptions.",
+      "pixels": [],
+      "claim": "Established denoiser splitting. Their operator ordering and strong-convexity assumptions are not transferred to our circle model."
+    },
+    {
+      "name": "geppert-plonka",
+      "url": "https://na.math.uni-goettingen.de/pdf/prox.pdf",
+      "bytes": 381251,
+      "sha256": "f6d3aaab2c26f737aa65ca9240139be468187f60957c05aacb662a4a2f0f1dbc",
+      "pages": 16,
+      "status": "downloaded",
+      "read": "PDF pages 1-3 and references on page 16.",
+      "pixels": [],
+      "claim": "Non-idempotent shrinkage used with RAAR; cited Loock/Plonka 2014 and Loock 2016 bodies unread."
+    },
+    {
+      "name": "gribonval-characterization-2020",
+      "url": "https://arxiv.org/pdf/1807.04014",
+      "bytes": 381325,
+      "sha256": "744e593bb2f6cbc119bdb97b878cc3b89750e95ffdea449dec283eaa86b6d5d2",
+      "pages": 25,
+      "read": "Abstract, Corollary 1 and adjacent characterization statements on PDF pages 3-4.",
+      "pixels": [
+        3
+      ],
+      "claim": "Known convex-potential characterization; our explicit conjugate calculation is an application."
+    },
+    {
+      "name": "gribonval-bayes-2021",
+      "url": "https://arxiv.org/pdf/1807.04021",
+      "bytes": 1176130,
+      "sha256": "03fdbaae18f755cb56719353d6d5c9a357ffeeff460cd1535128e00d4a5036d7",
+      "pages": 25,
+      "read": "Abstract, Section 1.3 and Proposition 3 on PDF page 8.",
+      "pixels": [
+        8
+      ],
+      "claim": "Known Gaussian posterior-mean proximal representation; general proofs not audited."
+    },
+    {
+      "name": "ramsauer-2021",
+      "url": "https://arxiv.org/pdf/2008.02217",
+      "bytes": 16562362,
+      "sha256": "48cecc1d10cea553538fe8d1e2f1bf7378bed6b1233b2857384f5081ac2f7579",
+      "pages": 94,
+      "read": "PDF pages 2-3 and 15-16, equation 3 and stated energy convergence scope.",
+      "pixels": [
+        3
+      ],
+      "claim": "Known unbiased softmax update. Our exact biased formula reduces to it only when site norms are exactly equal. Full reflected map is different."
+    },
+    {
+      "name": "lee-2021",
+      "url": "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.3.043066",
+      "error": "HTTP Error 403: Forbidden",
+      "read": "Primary PDF page 3 text via web and author repository README. Local PDF download denied (403); no figure audit.",
+      "pixels": [],
+      "claim": "RAAR using denoised measurement constraints; this is not an asserted identity with our state-dependent finite-prior mean."
+    }
+  ],
+  "queries": [
+    "Gaussian mean shift EM posterior weights",
+    "Gaussian MMSE denoiser proximity operator",
+    "soft projection RAAR",
+    "mean shift chaotic attractor reflection",
+    "soft quantization chaos",
+    "denoisers chaotic Douglas Rachford",
+    "Hopfield Douglas Rachford chaos",
+    "Gaussian RAAR denoising chaotic"
+  ],
+  "additional_primary_links": [
+    "https://proceedings.mlr.press/v97/ryu19a.html",
+    "https://arxiv.org/abs/1910.01820",
+    "https://doi.org/10.1016/j.acha.2021.12.001",
+    "https://doi.org/10.1016/j.acha.2019.07.002",
+    "https://doi.org/10.1103/PhysRevResearch.3.043066",
+    "https://github.com/sungyun98/PhaseRetrieval"
+  ],
+  "unresolved": [
+    "Historical priority of the particular composed regimes.",
+    "Nonlinear conjugacy or return-map equivalence.",
+    "Other parameters of known systems.",
+    "Full-body review of sources outside the stated sections."
+  ],
+  "conclusion": "Known ingredients and known reflection/denoising precedents; no unique-attractor claim."
+}

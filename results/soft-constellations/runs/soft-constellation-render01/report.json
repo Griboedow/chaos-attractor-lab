@@ -1,0 +1,520 @@
+{
+  "ids": [
+    29,
+    59,
+    92,
+    122,
+    156,
+    191
+  ],
+  "warm": 100000,
+  "count": 2000000,
+  "initial": [
+    0.317,
+    -0.211,
+    0.419
+  ],
+  "camera": "Right-handed PCA basis followed by the same orthogonal camera for every case; equal spatial units.",
+  "density": "All consecutive states; no smoothing, interpolation or synthetic samples.",
+  "cases": [
+    {
+      "id": 29,
+      "source_sha256": "62e7df25f1307c97aa4bf207bfbaeb389a25b85974722fbf7f32c7538df18121",
+      "states_sha256": "dfcedf6ab606aa25ee4e1202acfb51954e38ec38d7618c9782aad033aa69d436",
+      "histogram_sha256": "f720e7bd7e762811916e60b779431404d69485df14f20f110e52a178459be8d1",
+      "center": [
+        0.6946519805127737,
+        -0.2263393456783364,
+        0.4936060971618303
+      ],
+      "basis": [
+        [
+          -0.2373195364131828,
+          -0.9607627288367645,
+          0.14357721446930785
+        ],
+        [
+          -0.9692860856196878,
+          0.24401249138309153,
+          0.030698343165069843
+        ],
+        [
+          -0.06452845775854023,
+          -0.1318820796285466,
+          -0.9891628759775378
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.6911619009391771,
+      "minimum_radius": 0.043216088918463715,
+      "portrait": {
+        "id": "soft-constellation-29",
+        "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-29.png",
+        "sha256": "b35ec0f05ebe60356343b622ed8e501d972553b81006542cbaf633b0450f393d",
+        "panels": [
+          {
+            "input": {
+              "label": "29",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-29-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "f720e7bd7e762811916e60b779431404d69485df14f20f110e52a178459be8d1",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                444,
+                45
+              ],
+              [
+                1050,
+                1435
+              ]
+            ],
+            "empty_margin": 56,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.841662859583905,
+            "occupied_bins": 34802,
+            "display_label": "Case 29"
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "source_sha256": "c3667f31bd05c2a2a702009b7ac36cb18adcf477da68cdc756b916eb3f3e7816",
+      "states_sha256": "14b0ccbd6e28afe633503b6a7330fd0f4838728261a8568dd2b5803a8548bc77",
+      "histogram_sha256": "1e0c97f3a60d30782b16fe4d4328aa29fbad988b209589c70ae96a1661e236fa",
+      "center": [
+        0.2979326314433901,
+        0.45670588895440345,
+        -0.05140089771316569
+      ],
+      "basis": [
+        [
+          -0.6262313550521564,
+          -0.19289671030565417,
+          0.7553973451785472
+        ],
+        [
+          0.6607068058393417,
+          0.38305769607267987,
+          0.6455488503568613
+        ],
+        [
+          -0.41388501623894863,
+          0.9033590983837751,
+          -0.11243457075178584
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.9493008977001236,
+      "minimum_radius": 0.0007749178849455182,
+      "portrait": {
+        "id": "soft-constellation-59",
+        "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-59.png",
+        "sha256": "54ef34549455ee185303db59a8233f1ca30869b3b7509e28e2ba77cf7eef3d6b",
+        "panels": [
+          {
+            "input": {
+              "label": "59",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-59-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "1e0c97f3a60d30782b16fe4d4328aa29fbad988b209589c70ae96a1661e236fa",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                432,
+                153
+              ],
+              [
+                1555,
+                1420
+              ]
+            ],
+            "empty_margin": 51,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.12135889028844,
+            "occupied_bins": 297034,
+            "display_label": "Case 59"
+          }
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "source_sha256": "a8732629f460b0ca762fe660a0f0779a126cfc97ec75378675cde3a9d36de02e",
+      "states_sha256": "2c6bf244b61b5c46e53760954a53351a20668cfdf510f25992d433efded639c2",
+      "histogram_sha256": "9c52a493524d17e07980795bcf79c14726e9faa1befe7efd5e852c6b1a620eea",
+      "center": [
+        -0.08076958968205375,
+        0.06625656987606775,
+        -0.31685590596161667
+      ],
+      "basis": [
+        [
+          -0.5554791795586019,
+          0.22557057476593262,
+          0.800350421300988
+        ],
+        [
+          0.6896338756355467,
+          -0.4127996835219706,
+          0.5949802844297081
+        ],
+        [
+          0.46459444535293093,
+          0.8824479231569009,
+          0.07374051981966684
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.6976017244546229,
+      "minimum_radius": 3.1672418993542726e-05,
+      "portrait": {
+        "id": "soft-constellation-92",
+        "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-92.png",
+        "sha256": "a76e88d53f1df14cd57e5f8b0c37b738c1cde0d604638137a688b8241db32eac",
+        "panels": [
+          {
+            "input": {
+              "label": "92",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-92-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "9c52a493524d17e07980795bcf79c14726e9faa1befe7efd5e852c6b1a620eea",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                428,
+                45
+              ],
+              [
+                1300,
+                1338
+              ]
+            ],
+            "empty_margin": 52,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 5.963579343618446,
+            "occupied_bins": 206784,
+            "display_label": "Case 92"
+          }
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "source_sha256": "e3d8026c862a959472f67d4d07889b876335e0fd77be222f2f0285af3c768e11",
+      "states_sha256": "504617de70e4d509b3680629f0c51b4cb3d5c84f6b05d622292a4b9ce55fb652",
+      "histogram_sha256": "35481810c4456a4a4ccb307dfc9d81f80c7f8d3fe66c1b6b4a4a642ea224cdeb",
+      "center": [
+        -0.10297407806609629,
+        0.5203427579069994,
+        0.002738751596757869
+      ],
+      "basis": [
+        [
+          0.682476290115459,
+          0.2806176003675136,
+          0.6748924920268549
+        ],
+        [
+          -0.7270707900767224,
+          0.1661595728143043,
+          0.6661524319398513
+        ],
+        [
+          0.074794248759181,
+          -0.9453278577965142,
+          0.3174288292301179
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 1.4517299992307697,
+      "minimum_radius": 0.0016933002325422101,
+      "portrait": {
+        "id": "soft-constellation-122",
+        "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-122.png",
+        "sha256": "8efa4459b320c41a2243381c5cc870883353a3bde069291c8423ccb93ca42934",
+        "panels": [
+          {
+            "input": {
+              "label": "122",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-122-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "35481810c4456a4a4ccb307dfc9d81f80c7f8d3fe66c1b6b4a4a642ea224cdeb",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                308,
+                158
+              ],
+              [
+                1486,
+                1555
+              ]
+            ],
+            "empty_margin": 56,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              0,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 5.590683608305805,
+            "occupied_bins": 174082,
+            "display_label": "Case 122"
+          }
+        ]
+      }
+    },
+    {
+      "id": 156,
+      "source_sha256": "6a305adb27651c2a9aa81044ec46144405a997cbb576055470a70e966009ee4f",
+      "states_sha256": "87b729fd51460392dd2a95be17f93569b2727f3f183ac1e371f1a62020c702d7",
+      "histogram_sha256": "d54071f11087448acafcabcb47b40a3889bbec3716a10261bd8e7d548163ef87",
+      "center": [
+        0.4014157324028313,
+        -0.8032347116793802,
+        -0.11729496543994491
+      ],
+      "basis": [
+        [
+          -0.034630941588823204,
+          0.7936356797001723,
+          0.6074068700562393
+        ],
+        [
+          0.48181190800820894,
+          -0.5192198421315856,
+          0.7058810387298562
+        ],
+        [
+          0.8755900771400742,
+          0.3171011880200024,
+          -0.36440204907511503
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 0.2985761846042467,
+      "minimum_radius": 0.29133016121692673,
+      "portrait": {
+        "id": "soft-constellation-156",
+        "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-156.png",
+        "sha256": "16470c9b5e6b825cb077612f7b370696577f9220ea880981edff72ab564b1f56",
+        "panels": [
+          {
+            "input": {
+              "label": "156",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-156-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "d54071f11087448acafcabcb47b40a3889bbec3716a10261bd8e7d548163ef87",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                401,
+                194
+              ],
+              [
+                1080,
+                1555
+              ]
+            ],
+            "empty_margin": 55,
+            "square_rebin_factor": 2,
+            "zero_padding": [
+              1,
+              1
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 7.04474456736298,
+            "occupied_bins": 75195,
+            "display_label": "Case 156"
+          }
+        ]
+      }
+    },
+    {
+      "id": 191,
+      "source_sha256": "4bc544b96fc9f3433616ef961b9e38d3367abe0f897f11d84fc3d5232bc3723a",
+      "states_sha256": "d417bd42941bd270d9825717a53d709a476526c490858918b02a58cb8f150ce9",
+      "histogram_sha256": "98f861888ace98df0e1eb8e702a45b00675cbebdeb928dc1db0f375c082e19cf",
+      "center": [
+        -0.2706202760566092,
+        -0.5701848232572638,
+        0.03495366276719153
+      ],
+      "basis": [
+        [
+          0.14836656604173087,
+          0.9321741793321473,
+          -0.33021002629754026
+        ],
+        [
+          0.9022883019903766,
+          0.009079322594351152,
+          0.43103756911962
+        ],
+        [
+          0.40480017560804993,
+          -0.3618962078934582,
+          -0.839742789513567
+        ]
+      ],
+      "projection": [
+        [
+          0.8253356149096783,
+          0.0,
+          0.5646424733950354
+        ],
+        [
+          0.219882135986551,
+          0.9210609940028851,
+          -0.3214008270064177
+        ]
+      ],
+      "halfwidth": 2.0408041261888954,
+      "minimum_radius": 0.0002733742755356585,
+      "portrait": {
+        "id": "soft-constellation-191",
+        "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-191.png",
+        "sha256": "10bb573a9db444d00af03848d0c76a97954edc0b73224ad12be2570e367cfcb2",
+        "panels": [
+          {
+            "input": {
+              "label": "191",
+              "mode": "histogram",
+              "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-191-histogram.npz",
+              "key": "histogram"
+            },
+            "input_sha256": "98f861888ace98df0e1eb8e702a45b00675cbebdeb928dc1db0f375c082e19cf",
+            "original_shape": [
+              1600,
+              1600
+            ],
+            "original_count": 2000000,
+            "nonempty_crop": [
+              [
+                293,
+                476
+              ],
+              [
+                1227,
+                1555
+              ]
+            ],
+            "empty_margin": 44,
+            "square_rebin_factor": 1,
+            "zero_padding": [
+              0,
+              0
+            ],
+            "rendered_count": 2000000,
+            "log_saturation": 6.588542179769847,
+            "occupied_bins": 132280,
+            "display_label": "Case 191"
+          }
+        ]
+      }
+    }
+  ],
+  "seconds": 87.57766771316528
+}

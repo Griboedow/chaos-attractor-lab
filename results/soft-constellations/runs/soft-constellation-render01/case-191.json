@@ -1,0 +1,83 @@
+{
+  "id": 191,
+  "source_sha256": "4bc544b96fc9f3433616ef961b9e38d3367abe0f897f11d84fc3d5232bc3723a",
+  "states_sha256": "d417bd42941bd270d9825717a53d709a476526c490858918b02a58cb8f150ce9",
+  "histogram_sha256": "98f861888ace98df0e1eb8e702a45b00675cbebdeb928dc1db0f375c082e19cf",
+  "center": [
+    -0.2706202760566092,
+    -0.5701848232572638,
+    0.03495366276719153
+  ],
+  "basis": [
+    [
+      0.14836656604173087,
+      0.9321741793321473,
+      -0.33021002629754026
+    ],
+    [
+      0.9022883019903766,
+      0.009079322594351152,
+      0.43103756911962
+    ],
+    [
+      0.40480017560804993,
+      -0.3618962078934582,
+      -0.839742789513567
+    ]
+  ],
+  "projection": [
+    [
+      0.8253356149096783,
+      0.0,
+      0.5646424733950354
+    ],
+    [
+      0.219882135986551,
+      0.9210609940028851,
+      -0.3214008270064177
+    ]
+  ],
+  "halfwidth": 2.0408041261888954,
+  "minimum_radius": 0.0002733742755356585,
+  "portrait": {
+    "id": "soft-constellation-191",
+    "file": "docs\\assets\\experimental\\soft-constellation-dense\\soft-constellation-191.png",
+    "sha256": "10bb573a9db444d00af03848d0c76a97954edc0b73224ad12be2570e367cfcb2",
+    "panels": [
+      {
+        "input": {
+          "label": "191",
+          "mode": "histogram",
+          "source": "D:\\Codex\\chaos-attractor-search-20261031\\soft-constellation-render01\\case-191-histogram.npz",
+          "key": "histogram"
+        },
+        "input_sha256": "98f861888ace98df0e1eb8e702a45b00675cbebdeb928dc1db0f375c082e19cf",
+        "original_shape": [
+          1600,
+          1600
+        ],
+        "original_count": 2000000,
+        "nonempty_crop": [
+          [
+            293,
+            476
+          ],
+          [
+            1227,
+            1555
+          ]
+        ],
+        "empty_margin": 44,
+        "square_rebin_factor": 1,
+        "zero_padding": [
+          0,
+          0
+        ],
+        "rendered_count": 2000000,
+        "log_saturation": 6.588542179769847,
+        "occupied_bins": 132280,
+        "display_label": "Case 191"
+      }
+    ]
+  }
+}

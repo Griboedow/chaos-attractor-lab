@@ -154,6 +154,44 @@
       ]
     },
     {
+      "id": "soft-constellations",
+      "title": "Gaussian posterior mean and a circle",
+      "group": "Numerical algorithms",
+      "report": "docs/soft-constellations.md",
+      "source_portrait": "docs/assets/soft-constellations.png",
+      "description": "Cases 29 and 156 retain positive finite-time growth over five million iterations, 33 starts and 70/100-digit controls. Gaussian averaging is known as mean shift and an MMSE proximal map; novelty and asymptotic chaotic attraction of the reflected regimes remain unresolved.",
+      "featured": true,
+      "panels": [
+        {
+          "label": "29",
+          "mode": "histogram",
+          "source": "results/soft-constellations/runs/soft-constellation-render01/case-29-histogram.npz",
+          "key": "histogram"
+        },
+        {
+          "label": "156",
+          "mode": "histogram",
+          "source": "results/soft-constellations/runs/soft-constellation-render01/case-156-histogram.npz",
+          "key": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/soft-constellations/runs/soft-constellation-render01/case-29-states.npz",
+          "metadata_source": "results/soft-constellations/runs/soft-constellation-render01/case-29.json",
+          "key": "states",
+          "last_count": 250000
+        },
+        {
+          "source": "results/soft-constellations/runs/soft-constellation-render01/case-156-states.npz",
+          "metadata_source": "results/soft-constellations/runs/soft-constellation-render01/case-156.json",
+          "key": "states",
+          "last_count": 250000
+        }
+      ],
+      "coordinates": "Full three-state iterates; centering, orthogonal principal-axis basis, and rigid orthographic camera. Equal spatial units within each panel; independent scales."
+    },
+    {
       "id": "raar-constellation-columns",
       "title": "Finite-point RAAR: fragmented columns and sheets",
       "group": "Numerical algorithms",

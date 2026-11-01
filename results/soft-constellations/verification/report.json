@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "inventory_files": 241,
+  "inventory_sha256": "b628f4adfde28c356d0f2a5a0f71c74f6ee3bbd559413b010fc4230664a6e6c4",
+  "hard_control": "All six exact input sets and ten leading-rate windows match the original hard-projection scout bitwise.",
+  "cases": [
+    {
+      "id": 27,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.2487039345094011,
+        0.007972368824769,
+        -0.2701277365303304
+      ],
+      "minimum_windows": [
+        0.24752028232594842,
+        0.0066138253169789165,
+        -0.2760428693642106
+      ],
+      "lapack_spectrum_max_error": 1.8908485888147197e-16,
+      "mean_logdet_error": 4.3812609790139234e-16,
+      "maximum_step_logdet_error": 6.217248937900877e-15
+    },
+    {
+      "id": 29,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.02639839266908135,
+        -0.014288947199013339,
+        -0.28956128452093177
+      ],
+      "minimum_windows": [
+        0.025766162152531046,
+        -0.014851008804946695,
+        -0.2918078342983717
+      ],
+      "lapack_spectrum_max_error": 5.551115123125783e-17,
+      "mean_logdet_error": 3.885780586188048e-16,
+      "maximum_step_logdet_error": 7.904787935331115e-14,
+      "dense_replay": "two million consecutive states and histogram bitwise equal"
+    },
+    {
+      "id": 59,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.23183902559187158,
+        -0.12091326598159793,
+        -0.5548742085617493
+      ],
+      "minimum_windows": [
+        0.22934841918625773,
+        -0.12229735437712179,
+        -0.5587757866704319
+      ],
+      "lapack_spectrum_max_error": 5.220490706392411e-12,
+      "mean_logdet_error": 1.6653345369377348e-15,
+      "maximum_step_logdet_error": 4.0323300254385686e-13,
+      "dense_replay": "two million consecutive states and histogram bitwise equal"
+    },
+    {
+      "id": 92,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.3129527994560288,
+        -0.34968930906683193,
+        -0.767314720858365
+      ],
+      "minimum_windows": [
+        0.31117928036352865,
+        -0.3512615617965876,
+        -0.7708504258537907
+      ],
+      "lapack_spectrum_max_error": 1.887379141862766e-15,
+      "mean_logdet_error": 8.881784197001252e-16,
+      "maximum_step_logdet_error": 2.0605739337042905e-13,
+      "dense_replay": "two million consecutive states and histogram bitwise equal"
+    },
+    {
+      "id": 122,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.38208571310199113,
+        0.001141475881992137,
+        -0.7358254300232541
+      ],
+      "minimum_windows": [
+        0.3796697332541728,
+        -0.00015600264421649168,
+        -0.7398203336629438
+      ],
+      "lapack_spectrum_max_error": 1.1102230246251565e-16,
+      "mean_logdet_error": 5.551115123125783e-17,
+      "maximum_step_logdet_error": 1.0658141036401503e-13,
+      "dense_replay": "two million consecutive states and histogram bitwise equal"
+    },
+    {
+      "id": 156,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.2770516043358499,
+        -0.15207260369956738,
+        -2.556700470777874
+      ],
+      "minimum_windows": [
+        0.2753997419291874,
+        -0.1545165268833961,
+        -2.5592380050636745
+      ],
+      "lapack_spectrum_max_error": 6.106226635438361e-16,
+      "mean_logdet_error": 7.105427357601002e-15,
+      "maximum_step_logdet_error": 2.1316282072803006e-13,
+      "dense_replay": "two million consecutive states and histogram bitwise equal"
+    },
+    {
+      "id": 191,
+      "long_replay": "bitwise equal",
+      "spectrum": [
+        0.19428271774297745,
+        -0.13012514284544197,
+        -0.6215147649851833
+      ],
+      "minimum_windows": [
+        0.19242311341005042,
+        -0.13300292205477043,
+        -0.6254898230684249
+      ],
+      "lapack_spectrum_max_error": 1.2212453270876722e-15,
+      "mean_logdet_error": 3.3306690738754696e-16,
+      "maximum_step_logdet_error": 1.2114753644709708e-12,
+      "dense_replay": "two million consecutive states and histogram bitwise equal"
+    }
+  ],
+  "seconds": 153.60140800476074,
+  "scope": "Numerical reproduction and local derivative accounting, not interval certification or historical priority."
+}
