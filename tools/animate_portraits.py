@@ -4,11 +4,13 @@ import argparse,hashlib,json,subprocess,sys,time
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 from matplotlib.font_manager import findfont
-from render_portraits import ROOT,COLOR,coordinates,camera,digest
+from render_portraits import ROOT,COLOR,coordinates,camera,digest,panel_label
+from data_cache import data_path
 
-WIDTH,HEIGHT=1000,600
-PANEL=460
-FRAMES,DURATION=144,170
+WIDTH,HEIGHT=800,480
+PANEL=360
+FRAMES,DURATION=600,40
+QUARTERS=[0,FRAMES//4,FRAMES//2,3*FRAMES//4]
 PALETTE=(COLOR(np.linspace(0,1,64))[:,:3]*255).round().astype(np.uint8)
 PALETTE[0]=255
 
@@ -25,16 +27,16 @@ def load_views(row):
     views=[];records=[];family=row['id']
     if family=='icosahedral':
         source=ROOT/'results/portrait-presentation/icosa-animation.npz'
-        with np.load(source) as d:
+        with np.load(data_path(source)) as d:
             for ident in [177,183]:
                 z=d[f'points_{ident}'];cam_source=ROOT/f'results/icosahedral-flow/icosa-final/portrait-{ident}.npz'
-                with np.load(cam_source) as f:C=full_camera(f['camera'])
+                with np.load(data_path(cam_source)) as f:C=full_camera(f['camera'])
                 views.append(z@C.T);records.append({'source':source.relative_to(ROOT).as_posix(),'key':f'points_{ident}','source_sha256':digest(source),'camera_source':cam_source.relative_to(ROOT).as_posix(),'camera_source_sha256':digest(cam_source),'camera':C.tolist(),'samples':len(z),'mark':'density','selection':'Every fourth state of the original dense 16000-unit trajectory; bitwise checked against the frozen sample.'})
     elif family=='anderson':
         metadata_path=ROOT/'results/unexpected-search/visuals/provenance.json';metadata=json.loads(metadata_path.read_text())
         for ident in [54,449]:
             source=ROOT/f'results/unexpected-search/visuals/anderson-{ident}-sample.npz'
-            with np.load(source) as d:z=d['points']
+            with np.load(data_path(source)) as d:z=d['points']
             meta=next(r for r in metadata if r.get('file')==f'anderson-{ident}.png');C=full_camera(meta['camera']);q=(z-np.array(meta['center']))@C.T
             views.append(q);records.append({'source':source.relative_to(ROOT).as_posix(),'source_sha256':digest(source),'metadata_source':metadata_path.relative_to(ROOT).as_posix(),'metadata_sha256':digest(metadata_path),'samples':len(z),'camera':C.tolist(),'center':meta['center'],'mark':'density','selection':'All states in the archived stride-32 sample of the 3200000-state rendering.'})
     elif family in ['raar','rk45','yogi-tanh']:
@@ -42,7 +44,7 @@ def load_views(row):
         metadata_path=ROOT/'results'/folder/'analysis.json';rows=json.loads(metadata_path.read_text())['runs']
         for spec in row['panels']:
             ident=int(spec['label']);meta=next(r for r in rows if r['id']==ident);source=ROOT/'results'/folder/f'case-{ident}-animation.npz'
-            with np.load(source) as data:z=data['states'][-250000:]
+            with np.load(data_path(source)) as data:z=data['states'][-250000:]
             basis=np.array(meta['basis']);C=full_camera(old_camera(meta['azimuth'],meta['elevation']))
             assert np.max(abs(basis.T@basis-np.eye(3)))<1e-12 and np.linalg.det(basis)>.999999999
             q=((z-np.array(meta['center']))@basis)@C.T;views.append(q)
@@ -70,7 +72,7 @@ def histogram(q,angle,radius):
     return h
 
 def render(row,output):
-    begin=time.time();views,records=load_views(row);font=ImageFont.truetype(findfont('DejaVu Sans'),23)
+    begin=time.time();views,records=load_views(row);font=ImageFont.truetype(findfont('DejaVu Sans'),19)
     for q,record in zip(views,records):
         probes=[histogram(q,a,record['radius']) for a in [0,np.pi/3,2*np.pi/3]]
         record['log_saturation']=max(float(np.quantile(np.log1p(h[h>0]),.9995)) for h in probes)
@@ -79,8 +81,9 @@ def render(row,output):
         frame=Image.new('P',(WIDTH,HEIGHT),0);frame.putpalette(np.pad(PALETTE,((0,192),(0,0)),constant_values=255).ravel().tolist());draw=ImageDraw.Draw(frame)
         row_counts=[]
         for j,(q,record,spec) in enumerate(zip(views,records,row['panels'])):
-            left=20+500*j;top=100;mark=record['mark']
-            label=spec['label'];box=draw.textbbox((0,0),label,font=font);draw.text((left+PANEL/2-(box[2]-box[0])/2,30),label,font=font,fill=63)
+            left=20+400*j;top=80;mark=record['mark']
+            label=panel_label(spec);box=draw.textbbox((0,0),label,font=font);draw.text((left+PANEL/2-(box[2]-box[0])/2,24),label,font=font,fill=63)
+            record['display_label']=label
             if mark=='density':
                 h=histogram(q,angle,record['radius']);values=np.ceil(np.minimum(np.log1p(h)/record['log_saturation'],1)**.72*63).astype(np.uint8)
                 tile=Image.fromarray(values,mode='P');tile.putpalette(frame.getpalette());frame.paste(tile,(left,top));row_counts.append(int(h.sum()))
@@ -91,16 +94,16 @@ def render(row,output):
                 else:
                     for x,y in xy:draw.ellipse((x-1,y-1,x+1,y+1),fill=43)
                 row_counts.append(len(q))
-            if k in [0,36,72,108]:
+            if k in QUARTERS:
                 xy=projected(q,angle);pixel_bounds.append({'frame':k,'panel':j,'minimum':xy.min(0).tolist(),'maximum':xy.max(0).tolist()})
         frames.append(frame);counts.append(row_counts)
-        if k%36==0:print(json.dumps({'family':row['id'],'frame':k,'seconds':time.time()-begin}),flush=True)
-    path=output/(row['id']+'.gif')
-    frames[0].save(path,save_all=True,append_images=frames[1:],duration=DURATION,loop=0,optimize=False,disposal=2)
+        if k%100==0:print(json.dumps({'family':row['id'],'frame':k,'seconds':time.time()-begin}),flush=True)
+    path=output/(row['id']+'.webp')
+    frames[0].save(path,format='WEBP',save_all=True,append_images=frames[1:],duration=DURATION,loop=0,lossless=True,method=1)
     with Image.open(path) as gif:
         assert gif.n_frames==FRAMES and gif.info['loop']==0
         durations=[]
-        for k in range(gif.n_frames):gif.seek(k);durations.append(gif.info['duration'])
+        for k in range(gif.n_frames):gif.seek(k);gif.load();durations.append(gif.info['duration'])
     assert sum(durations)==FRAMES*DURATION
     result={'id':row['id'],'file':path.relative_to(ROOT).as_posix(),'sha256':digest(path),'bytes':path.stat().st_size,'frames':FRAMES,'duration_ms':durations,'seconds_per_revolution':sum(durations)/1000,'frame_point_counts':counts,'checkpoint_projection_bounds':pixel_bounds,'panels':records,'elapsed_seconds':time.time()-begin}
     assert result['bytes']<50_000_000
@@ -114,7 +117,8 @@ def main():
     catalog=json.loads((ROOT/'provenance/portrait-catalog.json').read_text(encoding='utf-8'));rows=[r for r in catalog['rows'] if r.get('featured') and (not args.ids or r['id'] in args.ids)]
     results=[]
     for row in rows:results.append(render(row,output))
-    manifest={'schema':1,'renderer_sha256':digest(Path(__file__)),'static_renderer_sha256':digest(ROOT/'tools/render_portraits.py'),'catalog_sha256':digest(ROOT/'provenance/portrait-catalog.json'),'size':[WIDTH,HEIGHT],'palette_size':64,'motion':'Rigid camera rotation about the initial vertical axis. State arrays, labels, point selection, physical units and radial bounds are fixed throughout. No time evolution or geometry morphing.','angle':'2*pi*frame/144, endpoint excluded','rows':results}
+    manifest={'schema':1,'renderer_sha256':digest(Path(__file__)),'static_renderer_sha256':digest(ROOT/'tools/render_portraits.py'),'catalog_sha256':digest(ROOT/'provenance/portrait-catalog.json'),'size':[WIDTH,HEIGHT],'format':'Animated WebP, lossless','palette_size':64,'motion':'Rigid camera rotation about the initial vertical axis. State arrays, labels, point selection, physical units and radial bounds are fixed throughout. No time evolution or geometry morphing.','angle':f'2*pi*frame/{FRAMES}, endpoint excluded','rows':results}
+    manifest['data_resolver_sha256']=digest(ROOT/'tools/data_cache.py')
     (output/'animation.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({'animations':len(results),'total_bytes':sum(r['bytes'] for r in results)}),flush=True)
 

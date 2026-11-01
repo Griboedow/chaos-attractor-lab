@@ -1,6 +1,13 @@
 # Repository conventions
 
 - Write repository content in English. Use ISO dates (`YYYY-MM-DD`).
+- Keep generated trajectories, clouds, grids and intermediate arrays of 256 KiB
+  or more outside Git, normally in `D:/Codex/chaos-attractor-cache` or a separate
+  D: run directory. Retain code, parameters, initial conditions, compact numerical
+  summaries, certificates and published figures. Do not replace full data with
+  thinned data under an existing filename. Follow `docs/data-storage.md` and run
+  `python tools/check_data_storage.py` before publishing. Large essential inputs
+  require an explicit reason in the data registry. Do not re-add ignored caches.
 - Every new attractor portrait or gallery entry must show its drawing date next
   to the image. Immediately after its first successful render, run
   `python tools/render_dates.py record <repository-relative-image-path>`.
@@ -14,10 +21,13 @@
   to child reports. Use concise academic prose; omit promotional language,
   conversational progress logs and repeated qualifications.
 - Group main-page findings under descriptive section headings, with a
-  subheading for each study. Use slow camera rotations (about 24 seconds per
-  revolution) from `tools/animate_portraits.py` on the main page and link each
+  subheading for each study. Use slow, smooth camera rotations (24 seconds per
+  revolution at 25 frames per second) from `tools/animate_portraits.py` on the main page and link each
   to its static portrait. Keep trajectories and spatial scales fixed during
   rotation; retain static images in the gallery.
+- Label stored parameter-set identifiers as `Case <number>` and explain their
+  meaning beside the figures. Name physical parameters explicitly; do not put
+  unexplained numbers above portraits.
 - Use `provenance/portrait-catalog.json` and `tools/render_portraits.py` for the
   current README and gallery portraits. Keep the common layout and palette.
   Render from numerical data, identify projections and physical unit changes,

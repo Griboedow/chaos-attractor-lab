@@ -2,6 +2,11 @@
 
 Use the instructions and environment recorded for the selected study. The repository contains several numerical pipelines; one environment is not a validation of every result. Write new outputs to a separate directory.
 
+Large computed arrays are optional cache data. See [data storage](data-storage.md)
+for a shallow clone, selected-payload recovery and the `--materialize` option
+required by older verification scripts. Sources, small inputs, compact summaries
+and certificates remain tracked.
+
 ## Selected verification entry points
 
 | Study | Instructions |

@@ -6,15 +6,22 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
+from data_cache import data_path
 
 ROOT=Path(__file__).resolve().parents[1]
 CATALOG=ROOT/'provenance/portrait-catalog.json'
 COLOR=LinearSegmentedColormap.from_list('portrait_ink',['#ffffff','#70a9b7','#164e63','#122f42'])
 
-def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def digest(path):return hashlib.sha256(data_path(path).read_bytes()).hexdigest()
+
+def panel_label(spec):
+    label=spec['label']
+    if label.isdecimal():return 'Case '+label
+    if label.startswith('b = '):return 'Rate asymmetry: '+label
+    return label
 
 def coordinates(spec):
-    with np.load(ROOT/spec['source']) as data:
+    with np.load(data_path(ROOT/spec['source'])) as data:
         x=data[spec['key']].copy();mode=spec.get('transform','identity')
         if 'time_key' in spec:
             t=data[spec['time_key']];mask=np.ones(len(t),bool)
@@ -57,7 +64,7 @@ def prepare(row):
     for spec,z in zip(row['panels'],points):
         record={'input':spec,'input_sha256':digest(ROOT/spec['source'])}
         if spec['mode']=='histogram':
-            with np.load(ROOT/spec['source']) as data:
+            with np.load(data_path(ROOT/spec['source'])) as data:
                 h=data[spec['key']]
                 if 'index' in spec:h=h[spec['index']]
             assert h.ndim==2 and np.isfinite(h).all() and np.all(h>=0)
@@ -97,8 +104,8 @@ def render(row,output):
             else:ax.scatter(xy[:,0],xy[:,1],color='#164e63',s=1.,alpha=.8,linewidths=0)
             half=rec['half_width'];ax.set(xlim=(-half,half),ylim=(-half,half));ax.set_aspect('equal')
         else:ax.imshow(intensity,cmap=COLOR,vmin=0,vmax=1,interpolation='nearest',aspect='equal',origin='upper')
-        ax.set_axis_off();fig.text(.03+k*width+(width-.02)/2,.925,spec['label'],ha='center',fontsize=13,color='#253d48')
-        rec.update(rendered_count=int(h.sum()),log_saturation=vmax,occupied_bins=int((h>0).sum()))
+        ax.set_axis_off();fig.text(.03+k*width+(width-.02)/2,.925,panel_label(spec),ha='center',fontsize=13,color='#253d48')
+        rec.update(rendered_count=int(h.sum()),log_saturation=vmax,occupied_bins=int((h>0).sum()),display_label=panel_label(spec))
     path=output/(row['id']+'.png');fig.savefig(path,dpi=160,facecolor='white');plt.close(fig)
     return {'id':row['id'],'file':path.relative_to(ROOT).as_posix() if path.is_relative_to(ROOT) else str(path),'sha256':digest(path),'panels':records}
 
@@ -114,6 +121,7 @@ def main():
             subprocess.run([sys.executable,str(ROOT/'tools/render_dates.py'),'record',result['file'],'--source-portrait',row['source_portrait']],check=True)
         print(json.dumps({'rendered':row['id'],'counts':[p['rendered_count'] for p in result['panels']]}),flush=True)
     record={'schema':1,'renderer_sha256':digest(Path(__file__)),'catalog_sha256':digest(CATALOG),'size':[1920,1080],'style':{'background':'white','palette':['#ffffff','#70a9b7','#164e63','#122f42'],'intensity':'min(log1p(count)/q0.9995,1)^0.72','count_meaning':'Sampling counts; independent saturation per panel. Brightness is not comparable across studies.','lines':'When declared, straight segments join consecutive saved continuous-flow states; no new states are inferred.','geometry':'Only empty histogram margins are removed, followed by square-bin aggregation or declared coordinate projections. No smoothing, image synthesis, anisotropic camera scaling or trajectory replication.'},'rows':records}
+    record['data_resolver_sha256']=digest(ROOT/'tools/data_cache.py')
     (output/'render.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8',newline='\n')
 
 if __name__=='__main__':main()

@@ -2,15 +2,15 @@
 
 Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
 
-[Portrait gallery](docs/attractor-gallery.md) · [Research index](docs/research-index.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md)
+[Portrait gallery](docs/attractor-gallery.md) · [Research index](docs/research-index.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
 
-The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory data and a constant scale; links below open the static portraits.
+The portraits rotate once every 24 seconds at 25 frames per second. Each view uses fixed trajectory data and a constant scale; links below open the static portraits. Case numbers identify the saved parameter sets in the linked reports.
 
 ## Constructed flows
 
 ### Icosahedral flow
 
-![Icosahedral Gaussian flow, cases 177 and 183](docs/assets/portraits/icosahedral.gif)
+![Icosahedral Gaussian flow, cases 177 and 183](docs/assets/portraits/icosahedral.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
@@ -26,7 +26,7 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 ### RAAR projection algorithm
 
-![Spatial-circle RAAR, cases 1051 and 1483](docs/assets/portraits/raar.gif)
+![Spatial-circle RAAR, cases 1051 and 1483](docs/assets/portraits/raar.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
@@ -40,7 +40,7 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 ### Acceleration memory in a scalar iteration
 
-![Three-history acceleration, cases 54 and 449](docs/assets/portraits/anderson.gif)
+![Three-history acceleration, cases 54 and 449](docs/assets/portraits/anderson.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
@@ -54,7 +54,7 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 ### Adaptive integration of a decaying oscillator
 
-![RK45 controller states, cases 335 and 448](docs/assets/portraits/rk45.gif)
+![RK45 controller states, cases 335 and 448](docs/assets/portraits/rk45.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
@@ -68,7 +68,7 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 ### Optimizer memory on a scalar quadratic
 
-![Published smooth Yogi variant, cases 2850 and 39](docs/assets/portraits/yogi-tanh.gif)
+![Published smooth Yogi variant, cases 2850 and 39](docs/assets/portraits/yogi-tanh.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
@@ -84,7 +84,7 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 ### Four-row irregular motion
 
-![Two regimes of the four-row motor model](docs/assets/portraits/motor-four.gif)
+![Two regimes of the four-row motor model](docs/assets/portraits/motor-four.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
@@ -92,13 +92,13 @@ The portraits rotate once every 24.48 seconds. Each view uses fixed trajectory d
 
 [Static portrait](docs/assets/portraits/motor-four.png)
 
-**Numerical chaos in an eleven-dimensional physical model.** Changing one transition-rate parameter changes a narrow braid into a broader regime. Long full-spectrum calculations retain a positive leading rate. The portraits show orthonormal displacement contrasts, not three-dimensional embeddings.
+**Numerical chaos in an eleven-dimensional physical model.** Changing the dimensionless transition-rate asymmetry `b` changes a narrow braid into a broader regime. Long full-spectrum calculations retain a positive leading rate. The portraits show orthonormal displacement contrasts, not three-dimensional embeddings.
 
 [Four-row comparison](docs/motor-four-b-study.md) · [Five-row geometry](docs/motor-five-geometry.md) · [Source equations](docs/motor-rows-source-audit.md)
 
 ### Eight-row periodic attraction
 
-![Periodic and irregular eight-row motor trajectories](docs/assets/portraits/motor-eight.gif)
+![Periodic and irregular eight-row motor trajectories](docs/assets/portraits/motor-eight.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
