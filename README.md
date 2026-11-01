@@ -12,6 +12,8 @@ Reproducible investigations of unusual physical and biological oscillator models
 
 ![Actual spatial-circle RAAR states, viewed by rotating rigid cameras](docs/assets/raar-circles-rotation.gif)
 
+The [RAAR comparison against 108 reference regimes](docs/raar-priority.md#finite-comparison-with-108-reference-regimes) finds different nearest shape matches before and after covariance whitening, with discrepancies above temporal-half controls. It documents finite geometric differences, not a proof of historical uniqueness or dynamical inequivalence.
+
 [Research manuscript (PDF)](papers/raar-circles/manuscript.pdf) · [Claims and reproduction](papers/raar-circles/README.md) · [Large portrait](docs/assets/raar-circles-geometry.png) · [Initial-volume approach](docs/assets/raar-circles-approach.png) · [Original-library comparison](docs/assets/raar-library-clouds.png) · [Exact geometric certificates](docs/raar-structure.md) · [Prior-art and equivalence audit](docs/raar-priority.md)
 
 **[A seven-cycle near the arch's characteristic tips](docs/raar-cycle-structure.md):** four nearby attracting cycles have least periods 7/14/28/56, and interval parameter brackets certify four simple −1 multiplier events. A complete 1,025-setting slice retains periodic windows and chaotic candidates. The [six-page companion](papers/raar-cycle-structure/manuscript.pdf) separates these results from the unproved cascade, chaos and priority claims, and gives a limited smooth ODE-map inequivalence argument.

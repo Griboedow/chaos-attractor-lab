@@ -58,3 +58,28 @@ The [folding study](raar-folding.md) certifies complete two/four-preimage counts
 The [later primary-source review](../results/raar-priority-extension/review.json) adds the earlier explicit portrait, the checked Marchesini toy model and the RRR terminology. A separate modulo-seven diagnostic finds similar finite clouds and 14.29225% held-out phase prediction, close to 1/7; it does not prove mixing or connectedness. See the appendix of the [updated folding note](../papers/raar-folding/manuscript.pdf).
 
 The [smooth-fold certificate](../results/raar-fold-certificate/) establishes a classical local singularity near the finite reference cloud. The standard equidimensional criterion is stated in [Montgomery (2014), Appendix B](https://doi.org/10.3842/SIGMA.2014.101); Section 3.1 discusses its normal form. Neither a new singularity type nor attractor membership is claimed. Separate source/target coordinate changes giving the fold normal form are not dynamical conjugacy. This result strengthens the local analysis without resolving historical uniqueness.
+
+## Finite comparison with 108 reference regimes
+
+![Actual sampled clouds in paired comparison coordinates](assets/raar-catalog-comparison.png)
+
+The [frozen reference collection](attractor-novelty-audit.md) provides 108 simulated regimes: 89 catalog defaults, four external atlas examples, four three-dimensional Henon regimes, nine additional Halvorsen settings and two pumped-kicked-top settings. The new [RAAR comparison packet](../results/raar-catalog-comparison/) uses the already frozen million consecutive R1051 states and these exact reference files; it does not reintegrate or replace any reference. All 108 are retained in both comparisons.
+
+The first representation removes translation and uniform scale while preserving aspect ratios. The second whitens empirical covariance, removing nonsingular affine distortions up to orthogonal transformations. The descriptor combines pair-distance and radial histograms with covariance eigenvalue fractions, using the [existing definition and limitations](attractor-novelty-audit.md#comparison-method-and-controls). Three nearest descriptor matches per representation receive a local point-cloud alignment with 48 initial orientations, allowing reflections. Each fit uses 1,500 states; its reported residual is a symmetric nearest-neighbor RMS, not a certified optimal alignment.
+
+| Representation | Comparison | Descriptor distance | Best local alignment RMS |
+|---|---|---:|---:|
+| Aspect ratios preserved | R1051 temporal halves | 0.02753 | 0.04682 |
+| Aspect ratios preserved | HastingsPowell | 0.13767 | 0.16547 |
+| Aspect ratios preserved | SprottE | 0.15102 | 0.14902 |
+| Aspect ratios preserved | CellularNeuralNetwork | 0.16269 | 0.17066 |
+| Covariance whitened | R1051 temporal halves | 0.02545 | 0.08706 |
+| Covariance whitened | QiChen | 0.09674 | 0.26210 |
+| Covariance whitened | SprottC | 0.09954 | 0.24755 |
+| Covariance whitened | SprottB | 0.10014 | 0.23689 |
+
+Four independently seeded 6,000-point resamples all select HastingsPowell in the first representation. After whitening, three select QiChen and one selects SprottC. An exact affine transform of the R1051 sample passes the descriptor invariance control to within `1e-12`. The picture uses 8,000 actual states per panel, with each pair displayed in its fitted comparison coordinates. The rightmost column is covariance-whitened and therefore is not a native-coordinate portrait. Sampling and alignment indices, transforms and all plotted points are archived.
+
+The closest selected reference discrepancies exceed the temporal-half comparison scales. This supports geometric distinctiveness relative to these finite samples under this protocol. It does **not** exclude all affine equivalents, because invariant measures, sampling and local optimization affect the comparison; it does not test nonlinear conjugacies or certify topology. The collection is not an exhaustive list of attractors or parameters. These distances are neither novelty probabilities nor a historical-priority certificate.
+
+Reproduce with `research/compare_raar_catalog.py` and `research/render_raar_catalog.py`; audit with `research/verify_raar_catalog.py`. The earlier six-candidate audit remains unchanged and retains its own scope.
