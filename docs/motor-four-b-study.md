@@ -5,7 +5,7 @@ The same published four-row molecular-motor equations contain a thin chaotic bra
 ![Two motor regimes, with a common rotating camera and scale](assets/motor-b-regimes.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/76288182a8ba4dffc3d655819b6a0f4765d641ef/docs/assets/motor-b-regimes.gif)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
 The left history is the earlier 100,000-unit braid calculation; the right is the new 60,000-unit calculation at `b=1.545`. Each displays its final 1,200 units, with original row labels and no fitted deformation. Common bounds use both entire histories. The coordinates are the same orthonormal physical displacement contrasts described in the [original geometry report](motor-four-geometry.md). Color is mean cosine occupancy, with common limits. The 72-frame animation rotates the camera around fixed data. [Still image](assets/motor-b-regimes.png) · [Exact render inputs and settings](../results/motor-four-b-study/motor-four-b-regimes/).
@@ -19,10 +19,6 @@ The scout contains 281 values from `b=.8` to `2.2` in steps of `.005`, with two 
 Seven selected tuples receive independent full eleven-dimensional QR calculations over 6,000 units after an additional 200-unit warm-up. The four lower values retain a positive leading estimate in every observation quarter. The three higher values close numerically after one upward `X0=0` return in all eleven coordinates, with errors below `2e-12` in the declared scaled metric.
 
 ![A local slice through the chaotic and periodic regimes](assets/motor-four-b-slice.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/76288182a8ba4dffc3d655819b6a0f4765d641ef/docs/assets/motor-four-b-slice.png)).*
-<!-- /drawing-date -->
 
 The figure uses a declared row relabeling solely for display. In particular, the row with minimum mean displacement is not asserted to be dynamically distinguished in the larger regimes. Narrow regular windows also occur below `b=1.555`; the slice does **not** establish one monotone transition from the braid to a symmetric attractor and then to a cycle.
 
@@ -60,10 +56,6 @@ For each of the braid and the `b=1.545` regime, take 32 declared orbit phases an
 
 ![Full-state separation and correlation of nearby trajectory pairs](assets/motor-pair-dispersion.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/76288182a8ba4dffc3d655819b6a0f4765d641ef/docs/assets/motor-pair-dispersion.png)).*
-<!-- /drawing-date -->
-
 The braid loses correlation more slowly. At time 10,000, its three cross-correlations are `.2261`, `.1174` and `.2054`, compared with `-.0054`, `.0112` and `-.0371` in the larger regime. These are measurements of the particular 32-phase cohorts. Their fluctuations, shared starting phases and finite source means matter; the shaded standard errors are not independent-natural-measure confidence intervals. We do not infer asymptotic scaling or classify partially predictable chaos from this test alone.
 
 The integrator uses relative tolerance `2e-11` and a tightened step cap. A separate control checks **both members** at four phases, all three perturbation sizes and both parameter sets, at times 2 and 20. Independent Radau integration uses the source force-constraint formulation. Across the original and tighter GPU settings, the largest normalized state error is `1.23e-10`; the largest relative error in the separation vector is `1.26e-4`. This is short-horizon accuracy evidence, not a claim that long chaotic trajectories agree pointwise. The packet explicitly corrects an earlier control comment that called a single-base-trajectory test a pair test.
@@ -82,10 +74,6 @@ T = 6.860178066460011
 The augmented fold residual is `8.47e-12`. Its phase-fixed shooting derivative has one small singular value, approximately `7.95e-13`, with the next above `.099`. The parameter transversality projection is `.73361650`; three finite-difference quadratic projections agree near `-.634307`. A separate Radau integration of the normalized field closes the period within `3.11e-13`. These are floating-point nondegeneracy diagnostics, not an interval-certified fold theorem.
 
 ![Stable and saddle periodic branches beside the chaotic regime](assets/motor-cycle-fold.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/76288182a8ba4dffc3d655819b6a0f4765d641ef/docs/assets/motor-cycle-fold.png)).*
-<!-- /drawing-date -->
 
 At the same `b=1.555`, the saddle cycle has period `6.90846815` and expanding multiplier `1.52644080`. Both cycles have numerical fourfold spatiotemporal symmetry: cyclic row permutations correspond to quarter-period shifts, verified in the full state. They are **separate periodic solutions**, not strands of one chaotic trajectory. The near-double unit multiplier at the fold is ill-conditioned; its tiny computed imaginary splitting is not interpreted as a torus bifurcation.
 

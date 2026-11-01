@@ -4,17 +4,9 @@ The [icosahedral flow's primary case 177](icosahedral-flow.md) has a concrete in
 
 ![Actual cloud with equilibrium markers, and its observed transition graph](assets/icosahedral-skeleton.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/169ed087e971ed81df6e4b1db3517e3f1f5e3bb3/docs/assets/icosahedral-skeleton.png)).*
-<!-- /drawing-date -->
-
 The cyan markers and straight edges are explanatory annotations. They are not additional trajectory points. Both panels use the same rigid orthographic camera. Edge thickness records the number of observed transitions in both directions.
 
 ![Actual motion through the cloud with a fixed camera](assets/icosahedral-motion.gif)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/169ed087e971ed81df6e4b1db3517e3f1f5e3bb3/docs/assets/icosahedral-motion.gif)).*
-<!-- /drawing-date -->
 
 The bright point follows the actual numerical state for approximately 320 time units; the trail shows the preceding 12 units. The dim background is the full cloud. Playback restarts at the beginning; that jump is not a dynamical recurrence.
 

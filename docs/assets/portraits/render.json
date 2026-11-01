@@ -1,0 +1,1631 @@
+{
+  "schema": 1,
+  "renderer_sha256": "86883044cfbd81a05f2b23455461be75c9369ca26662483a6d6f83e0881abb07",
+  "catalog_sha256": "d8884bfce5bdc9bb8258dbe82f83d258cfd10af909e4ad3fe2498cff9a7d1370",
+  "size": [
+    1920,
+    1080
+  ],
+  "style": {
+    "background": "white",
+    "palette": [
+      "#ffffff",
+      "#70a9b7",
+      "#164e63",
+      "#122f42"
+    ],
+    "intensity": "min(log1p(count)/q0.9995,1)^0.72",
+    "count_meaning": "Sampling counts; independent saturation per panel. Brightness is not comparable across studies.",
+    "lines": "When declared, straight segments join consecutive saved continuous-flow states; no new states are inferred.",
+    "geometry": "Only empty histogram margins are removed, followed by square-bin aggregation or declared coordinate projections. No smoothing, image synthesis, anisotropic camera scaling or trajectory replication."
+  },
+  "rows": [
+    {
+      "id": "icosahedral",
+      "file": "docs/assets/portraits/icosahedral.png",
+      "sha256": "638222de189511262aa2d0078e78fcc25bd328605f4abb25d6a2c51ef72764e6",
+      "panels": [
+        {
+          "input": {
+            "label": "177",
+            "source": "results/icosahedral-flow/icosa-final/portrait-177.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "0d3a2e380fc96b1cd60264b318b013bd41b383b9fdd615a922b8b38008c51e51",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 1280000,
+          "nonempty_crop": [
+            [
+              53,
+              61
+            ],
+            [
+              2341,
+              2342
+            ]
+          ],
+          "empty_margin": 92,
+          "square_rebin_factor": 4,
+          "zero_padding": [
+            0,
+            3
+          ],
+          "rendered_count": 1280000,
+          "log_saturation": 4.417610289702689,
+          "occupied_bins": 190204
+        },
+        {
+          "input": {
+            "label": "183",
+            "source": "results/icosahedral-flow/icosa-final/portrait-183.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "9cc17060fea11ce3fe6c6428996d10364aabe4af49292361907092e149e40574",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 1280000,
+          "nonempty_crop": [
+            [
+              105,
+              125
+            ],
+            [
+              2279,
+              2303
+            ]
+          ],
+          "empty_margin": 88,
+          "square_rebin_factor": 4,
+          "zero_padding": [
+            2,
+            2
+          ],
+          "rendered_count": 1280000,
+          "log_saturation": 4.31748811353631,
+          "occupied_bins": 180504
+        }
+      ]
+    },
+    {
+      "id": "tetrahedral",
+      "file": "docs/assets/portraits/tetrahedral.png",
+      "sha256": "94f5acb424395bbf2b4b30179f98b9edcfc98b919e9d7521795cd5dab0fa9f93",
+      "panels": [
+        {
+          "input": {
+            "label": "421",
+            "source": "results/unexpected-search/visuals/tetrahedral-flow-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "9ca648f559c5e4a6d52bd18d5454fb87ec5fa31f2906ce1422705292bf780a7d",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 3200000,
+          "nonempty_crop": [
+            [
+              46,
+              46
+            ],
+            [
+              2354,
+              2354
+            ]
+          ],
+          "empty_margin": 93,
+          "square_rebin_factor": 4,
+          "zero_padding": [
+            2,
+            2
+          ],
+          "rendered_count": 3200000,
+          "log_saturation": 5.911752243930032,
+          "occupied_bins": 135859
+        },
+        {
+          "input": {
+            "label": "565",
+            "source": "results/unexpected-search/visuals/tetrahedral-vortex-565-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "3eb742b838c0806fa28a03941204d2945998459866492007f82563b50cd23157",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 3200000,
+          "nonempty_crop": [
+            [
+              107,
+              135
+            ],
+            [
+              2354,
+              2266
+            ]
+          ],
+          "empty_margin": 90,
+          "square_rebin_factor": 4,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 3200000,
+          "log_saturation": 5.19295685089021,
+          "occupied_bins": 183893
+        }
+      ]
+    },
+    {
+      "id": "gaussian-vortex",
+      "file": "docs/assets/portraits/gaussian-vortex.png",
+      "sha256": "217d29eee1873661dd47aab1c7cf970314a034c278ecaeb0b1a2876e5d7db35f",
+      "panels": [
+        {
+          "input": {
+            "label": "77",
+            "source": "results/gaussian-vortex/render-histogram.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "3bfdb307a5ec358e05d4539d513774b437233edba2f121141b8f58c9d5c86fa5",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 4800000,
+          "nonempty_crop": [
+            [
+              351,
+              588
+            ],
+            [
+              1951,
+              2306
+            ]
+          ],
+          "empty_margin": 69,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 4800000,
+          "log_saturation": 6.676496177581321,
+          "occupied_bins": 135213
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "file": "docs/assets/portraits/twist.png",
+      "sha256": "f6c3973c26f67f1525467c3bbf4ace71468275340dcf07e2b354d0d95524dc64",
+      "panels": [
+        {
+          "input": {
+            "label": "1709",
+            "source": "results/twist-geometry/render-1709.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "b7d6c2fa3e3f5bbbde6bc8cd99a683384c4cabab13d94e56a6716f7d08b249e1",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              612,
+              137
+            ],
+            [
+              1977,
+              2070
+            ]
+          ],
+          "empty_margin": 78,
+          "square_rebin_factor": 3,
+          "zero_padding": [
+            0,
+            2
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 7.67906691891523,
+          "occupied_bins": 128165
+        },
+        {
+          "input": {
+            "label": "3254",
+            "source": "results/twist-geometry/render-3254.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "2ffd8ae07ae0bd890bbea8511b2de9ddcd23828c9fdfe4a826705d656ce6e737",
+          "original_shape": [
+            2400,
+            2400
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              208,
+              370
+            ],
+            [
+              2206,
+              2030
+            ]
+          ],
+          "empty_margin": 80,
+          "square_rebin_factor": 3,
+          "zero_padding": [
+            2,
+            1
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 7.4911710676290255,
+          "occupied_bins": 139386
+        }
+      ]
+    },
+    {
+      "id": "raar",
+      "file": "docs/assets/portraits/raar.png",
+      "sha256": "acc61a9af9688c348d1071c1fd861a1aa067b0570e5394fc74af87873ba3057f",
+      "panels": [
+        {
+          "input": {
+            "label": "1051",
+            "source": "results/raar-circles/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 0
+          },
+          "input_sha256": "9de2fca7bf21361a45b1c8263725455deba9818475cb973058afc31c37dc3c23",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              155,
+              269
+            ],
+            [
+              697,
+              1030
+            ]
+          ],
+          "empty_margin": 31,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            1
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.853112859908133,
+          "occupied_bins": 46411
+        },
+        {
+          "input": {
+            "label": "1483",
+            "source": "results/raar-circles/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 1
+          },
+          "input_sha256": "9de2fca7bf21361a45b1c8263725455deba9818475cb973058afc31c37dc3c23",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              153,
+              297
+            ],
+            [
+              724,
+              1008
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.523148189626655,
+          "occupied_bins": 52735
+        }
+      ]
+    },
+    {
+      "id": "anderson",
+      "file": "docs/assets/portraits/anderson.png",
+      "sha256": "1a65def31dd7b7acc0871aabd639db84d20b3a5de450e398d4e358777407e971",
+      "panels": [
+        {
+          "input": {
+            "label": "54",
+            "source": "results/unexpected-search/visuals/anderson-54-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "f4484c5cec475cbd2422ec4f41684d3a2fbc87031f25f9ba4043172f641d9cb1",
+          "original_shape": [
+            1200,
+            1200
+          ],
+          "original_count": 3200000,
+          "nonempty_crop": [
+            [
+              225,
+              23
+            ],
+            [
+              1078,
+              731
+            ]
+          ],
+          "empty_margin": 35,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 3200000,
+          "log_saturation": 9.053093575787376,
+          "occupied_bins": 21787
+        },
+        {
+          "input": {
+            "label": "449",
+            "source": "results/unexpected-search/visuals/anderson-449-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "b7488bb8a9a8460c90180fb22d0538c6d02d8a9fa8e4a08442b4741eceabf243",
+          "original_shape": [
+            1200,
+            1200
+          ],
+          "original_count": 3200000,
+          "nonempty_crop": [
+            [
+              307,
+              199
+            ],
+            [
+              842,
+              1177
+            ]
+          ],
+          "empty_margin": 40,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 3200000,
+          "log_saturation": 7.28573895049548,
+          "occupied_bins": 47777
+        }
+      ]
+    },
+    {
+      "id": "rk45",
+      "file": "docs/assets/portraits/rk45.png",
+      "sha256": "58c8eb28580cfce221f09fe8023695c78690bc7be7de6d163ee9c1e892e95613",
+      "panels": [
+        {
+          "input": {
+            "label": "335",
+            "source": "results/rk45-controller/oscillator/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 0
+          },
+          "input_sha256": "a9fa7a66e41dcb4edf958888f5fbeea1825d7c7b25406ab946b9fe43ba9f233a",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              233,
+              204
+            ],
+            [
+              689,
+              1098
+            ]
+          ],
+          "empty_margin": 36,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.706064895659022,
+          "occupied_bins": 24350
+        },
+        {
+          "input": {
+            "label": "448",
+            "source": "results/rk45-controller/oscillator/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 1
+          },
+          "input_sha256": "a9fa7a66e41dcb4edf958888f5fbeea1825d7c7b25406ab946b9fe43ba9f233a",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              136,
+              346
+            ],
+            [
+              753,
+              955
+            ]
+          ],
+          "empty_margin": 25,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.028644816914857,
+          "occupied_bins": 139355
+        }
+      ]
+    },
+    {
+      "id": "rk23",
+      "file": "docs/assets/portraits/rk23.png",
+      "sha256": "e0276359726402b2d4dee9a45888f3e6f68240ad874827d25951b46d08a0f8e7",
+      "panels": [
+        {
+          "input": {
+            "label": "381",
+            "source": "results/rk23-controller/oscillator/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 0
+          },
+          "input_sha256": "a08d97e131c0a7fa37ff6d3b24d5bd210c168d5dea17c1e5daa3d11c20421ab0",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              145,
+              398
+            ],
+            [
+              701,
+              902
+            ]
+          ],
+          "empty_margin": 23,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.40143822520562,
+          "occupied_bins": 90214
+        },
+        {
+          "input": {
+            "label": "883",
+            "source": "results/rk23-controller/oscillator/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 1
+          },
+          "input_sha256": "a08d97e131c0a7fa37ff6d3b24d5bd210c168d5dea17c1e5daa3d11c20421ab0",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              193,
+              385
+            ],
+            [
+              763,
+              912
+            ]
+          ],
+          "empty_margin": 23,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.318621006013306,
+          "occupied_bins": 50024
+        }
+      ]
+    },
+    {
+      "id": "yogi-tanh",
+      "file": "docs/assets/portraits/yogi-tanh.png",
+      "sha256": "8fbf6251721e2f0d89250d6bb44c2b0c82ca00fd6e0afd8912df255123a076e8",
+      "panels": [
+        {
+          "input": {
+            "label": "2850",
+            "source": "results/yogi-tanh/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 0
+          },
+          "input_sha256": "a4bb747a75818c9c7239c594b20ac0609a63d4eab65a18c854c0967678b0426b",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              171,
+              170
+            ],
+            [
+              646,
+              1135
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 9.892644633545032,
+          "occupied_bins": 6598
+        },
+        {
+          "input": {
+            "label": "39",
+            "source": "results/yogi-tanh/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 1
+          },
+          "input_sha256": "a4bb747a75818c9c7239c594b20ac0609a63d4eab65a18c854c0967678b0426b",
+          "original_shape": [
+            850,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              181,
+              84
+            ],
+            [
+              671,
+              1216
+            ]
+          ],
+          "empty_margin": 46,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 7.097241060370394,
+          "occupied_bins": 42963
+        }
+      ]
+    },
+    {
+      "id": "yogi-arc",
+      "file": "docs/assets/portraits/yogi-arc.png",
+      "sha256": "b7d58e5139e498c97996dd59a65f82aad31bc48c14dc433d6f86c38fe12bfc3f",
+      "panels": [
+        {
+          "input": {
+            "label": "670",
+            "source": "results/yogi-plane/plane-arc02/portrait-histogram.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "f2c3e60554c6637f3c631e250030f50f7e76b7bb53976a1e6568f7c0d84fabce",
+          "original_shape": [
+            800,
+            2300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              260,
+              168
+            ],
+            [
+              539,
+              2132
+            ]
+          ],
+          "empty_margin": 79,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 8.024908466209359,
+          "occupied_bins": 54744
+        }
+      ]
+    },
+    {
+      "id": "yogi",
+      "file": "docs/assets/portraits/yogi.png",
+      "sha256": "b826ff689606c09d5715452374261fd1714de4f9b6000cc974a77e19f0c40e4c",
+      "panels": [
+        {
+          "input": {
+            "label": "44",
+            "source": "results/yogi-geometry/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 0
+          },
+          "input_sha256": "74e94b426557a80e35c6ed5b37d33ff5b4c2c8bee30b6d76a48639f619db3abd",
+          "original_shape": [
+            1300,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              391,
+              175
+            ],
+            [
+              877,
+              1111
+            ]
+          ],
+          "empty_margin": 38,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 10.27559345136516,
+          "occupied_bins": 16483
+        },
+        {
+          "input": {
+            "label": "7590",
+            "source": "results/yogi-geometry/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 1
+          },
+          "input_sha256": "74e94b426557a80e35c6ed5b37d33ff5b4c2c8bee30b6d76a48639f619db3abd",
+          "original_shape": [
+            1300,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              459,
+              255
+            ],
+            [
+              876,
+              1045
+            ]
+          ],
+          "empty_margin": 32,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 10.215619012835836,
+          "occupied_bins": 11616
+        }
+      ]
+    },
+    {
+      "id": "yogi-expansion",
+      "file": "docs/assets/portraits/yogi-expansion.png",
+      "sha256": "825172972894844b223697bd44aa8f5ee424f05b4f67e12cb85604d92518fe3a",
+      "panels": [
+        {
+          "input": {
+            "label": "4214",
+            "source": "results/yogi-geometry/previews/case-4214-view-1.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "bb659ef57180d08b948947777cfae07e7b9dbf9bd34f60c0ebc59834819329d1",
+          "original_shape": [
+            480,
+            480
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              88,
+              91
+            ],
+            [
+              383,
+              388
+            ]
+          ],
+          "empty_margin": 12,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.785060061365266,
+          "occupied_bins": 15287
+        },
+        {
+          "input": {
+            "label": "125",
+            "source": "results/yogi-plane/plane-preview/case-125-view-1.npz",
+            "key": "histogram",
+            "mode": "histogram"
+          },
+          "input_sha256": "ad94d0611d3fcf1b0f3ac84b83f0ba571bcb6f819e53805149ce910e802a3a66",
+          "original_shape": [
+            480,
+            480
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              59,
+              160
+            ],
+            [
+              455,
+              317
+            ]
+          ],
+          "empty_margin": 16,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 9.960422968212832,
+          "occupied_bins": 7148
+        }
+      ]
+    },
+    {
+      "id": "adamax",
+      "file": "docs/assets/portraits/adamax.png",
+      "sha256": "e596e7764c8056ce04ebce6d16dc207b6720bf222630b37ebc78404eec63d0f7",
+      "panels": [
+        {
+          "input": {
+            "label": "847",
+            "source": "results/adamax-geometry/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 0
+          },
+          "input_sha256": "ce8dc114aedd691a828cb6e204afb7c4d02d72333842e36b026790c86ff80d02",
+          "original_shape": [
+            1300,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              295,
+              102
+            ],
+            [
+              969,
+              1198
+            ]
+          ],
+          "empty_margin": 44,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 7.988322620461394,
+          "occupied_bins": 35884
+        },
+        {
+          "input": {
+            "label": "4099",
+            "source": "results/adamax-geometry/render/portrait-histograms.npz",
+            "key": "histograms",
+            "mode": "histogram",
+            "index": 1
+          },
+          "input_sha256": "ce8dc114aedd691a828cb6e204afb7c4d02d72333842e36b026790c86ff80d02",
+          "original_shape": [
+            1300,
+            1300
+          ],
+          "original_count": 8000000,
+          "nonempty_crop": [
+            [
+              302,
+              191
+            ],
+            [
+              954,
+              1109
+            ]
+          ],
+          "empty_margin": 37,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 8000000,
+          "log_saturation": 7.987140108683596,
+          "occupied_bins": 52944
+        }
+      ]
+    },
+    {
+      "id": "adabelief",
+      "file": "docs/assets/portraits/adabelief.png",
+      "sha256": "b363ec731d545e93070bd70a1ab7bf9d35338982b5eb51f230a9dba02d18ebc7",
+      "panels": [
+        {
+          "input": {
+            "label": "beta1 = 0.52, beta2 = 0.15",
+            "source": "results/adabelief-quadratic/long/run-000.npz",
+            "key": "tail",
+            "mode": "points",
+            "transform": "identity"
+          },
+          "input_sha256": "8d5320a071aaa9eebbfaad2e3998ec90054e74bb86396a643363637240333028",
+          "original_count": 200000,
+          "coordinate_sha256": "f9a4fda4f4b2ffcd16cfef5875ff3773b24a845c54a6d4c1eef91f7e8aaf757f",
+          "center": [
+            5.079815468267412e-07,
+            5.103739019740594e-07,
+            0.07420576658111443
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.44819825431269217,
+          "spatially_clipped": 0,
+          "rendered_count": 200000,
+          "log_saturation": 4.766682720790688,
+          "occupied_bins": 19735
+        }
+      ]
+    },
+    {
+      "id": "motor-four",
+      "file": "docs/assets/portraits/motor-four.png",
+      "sha256": "cf52a9368c5323eafd7a6b930dce65a89e04bd29b07827dcbb89afa4eff14735",
+      "panels": [
+        {
+          "input": {
+            "label": "b = 1.500",
+            "source": "results/motor-four-b-study/motor-four-b-regimes/display-0.npz",
+            "key": "points",
+            "mode": "points",
+            "transform": "identity",
+            "mark": "line"
+          },
+          "input_sha256": "b0427e1c936b04acbc56f7d0f94bf13ae7a917858ad3d8f5282d8c59d927c1c6",
+          "original_count": 12001,
+          "coordinate_sha256": "e1b31fb998a25dc982d20adcd7ff5a4eb04321529e246689bf270c1f760c1293",
+          "center": [
+            -0.04690920166071755,
+            0.008348851675373137,
+            -0.049084712925293816
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 3.5532256782843525,
+          "spatially_clipped": 0,
+          "rendered_count": 12001,
+          "log_saturation": 2.302585092994046,
+          "occupied_bins": 9034
+        },
+        {
+          "input": {
+            "label": "b = 1.545",
+            "source": "results/motor-four-b-study/motor-four-b-regimes/display-1.npz",
+            "key": "points",
+            "mode": "points",
+            "transform": "identity",
+            "mark": "line"
+          },
+          "input_sha256": "1ff2548c2da6a79aea7e3c1e5392fee58b9fc3ef27d22d95752d3be660bf6a22",
+          "original_count": 12001,
+          "coordinate_sha256": "35e8fd2bf07f1a9daf74157f0621fda0de688c7216d273e93ea00e7b87c8324f",
+          "center": [
+            -0.04690920166071755,
+            0.008348851675373137,
+            -0.049084712925293816
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 3.5532256782843525,
+          "spatially_clipped": 0,
+          "rendered_count": 12001,
+          "log_saturation": 2.0794415416798357,
+          "occupied_bins": 9638
+        }
+      ]
+    },
+    {
+      "id": "motor-five",
+      "file": "docs/assets/portraits/motor-five.png",
+      "sha256": "a9d520a3ea2c8c85d45a136cc4b25800eeeedb0b0cbcb28be14dfe845c59fa4f",
+      "panels": [
+        {
+          "input": {
+            "label": "Contrasts 1, 2, 3",
+            "source": "results/motor-five-geometry/rotation/display.npz",
+            "key": "contrasts",
+            "mode": "points",
+            "transform": "identity",
+            "columns": [
+              0,
+              1,
+              2
+            ],
+            "mark": "line"
+          },
+          "input_sha256": "f4723d5eee831fb94239a081cd7fbc6f9bb19328c04508059f907c0acef4fc70",
+          "original_count": 16001,
+          "coordinate_sha256": "ed6cbff3535946e02611c0c11d9c71cb3de77655c6e039476b0eb4c39b7a608d",
+          "center": [
+            -0.293694517353038,
+            0.14205704837627753,
+            -0.5316102171481653
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 3.0464541763941595,
+          "spatially_clipped": 0,
+          "rendered_count": 16001,
+          "log_saturation": 2.1762591969893967,
+          "occupied_bins": 12357
+        },
+        {
+          "input": {
+            "label": "Contrasts 1, 2, 4",
+            "source": "results/motor-five-geometry/rotation/display.npz",
+            "key": "contrasts",
+            "mode": "points",
+            "transform": "identity",
+            "columns": [
+              0,
+              1,
+              3
+            ],
+            "mark": "line"
+          },
+          "input_sha256": "f4723d5eee831fb94239a081cd7fbc6f9bb19328c04508059f907c0acef4fc70",
+          "original_count": 16001,
+          "coordinate_sha256": "543cbf35ab38ba16703e87a3902ad2c39aa998225188b8e693868e0da809d174",
+          "center": [
+            -0.293694517353038,
+            0.14205704837627753,
+            -0.5929443989041652
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 3.18764444719477,
+          "spatially_clipped": 0,
+          "rendered_count": 16001,
+          "log_saturation": 2.1972245773362196,
+          "occupied_bins": 12525
+        }
+      ]
+    },
+    {
+      "id": "motor-three-asymmetric",
+      "file": "docs/assets/portraits/motor-three-asymmetric.png",
+      "sha256": "5857714476160ae0f7d6a8e28b29d80034909c272827e6950de6fb9245d0651a",
+      "panels": [
+        {
+          "input": {
+            "label": "2566",
+            "source": "results/motor-asymmetry/long/case-2566.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "motor_cosine",
+            "time_key": "time",
+            "last_duration": 600,
+            "stride": 2,
+            "mark": "line"
+          },
+          "input_sha256": "e558a54c16e8ec021d6e90ee5222ed3265133c58bf3a2145e5563ee75036c9fe",
+          "original_count": 15001,
+          "coordinate_sha256": "aa5c58b05e5a19e2a18d8d80583c2a8e67c15f578eafd1853038a7eb81a1a9c7",
+          "center": [
+            -0.028347494286542707,
+            0.230696081942721,
+            0.9381546919584182
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 1.1480504987478122,
+          "spatially_clipped": 0,
+          "rendered_count": 15001,
+          "log_saturation": 2.1972245773362196,
+          "occupied_bins": 11420
+        }
+      ]
+    },
+    {
+      "id": "motor-eight",
+      "file": "docs/assets/portraits/motor-eight.png",
+      "sha256": "40aff4ebdfc2ff7cb8535eb349cdabd37ba6cf4d0ea9a2fe272ff7a866adf5f8",
+      "panels": [
+        {
+          "input": {
+            "label": "Periodic orbit",
+            "source": "results/motor-activity-continuation/probe-destinations/case-16/periodic/cycle.npz",
+            "key": "full_states",
+            "mode": "points",
+            "transform": "identity",
+            "columns": [
+              16,
+              17,
+              8
+            ],
+            "mark": "line"
+          },
+          "input_sha256": "578a7d601845ab594b88093378c816a62f0df7be58a326261234b00ea636edee",
+          "original_count": 1001,
+          "coordinate_sha256": "d38610cc2d9e3760c3f344e5aa794ca1cd742cf63d8edc9d6f8ec362a742edb0",
+          "center": [
+            -0.5630024834916649,
+            -0.56149316852003,
+            0.27199820174368305
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 2.047556938097678,
+          "spatially_clipped": 0,
+          "rendered_count": 1001,
+          "log_saturation": 1.9459101490553132,
+          "occupied_bins": 481
+        },
+        {
+          "input": {
+            "label": "Irregular trajectory",
+            "source": "results/motor-activity-continuation/cpu/run-01/block-16.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "identity",
+            "columns": [
+              16,
+              17,
+              8
+            ],
+            "mark": "points"
+          },
+          "input_sha256": "baf075d453f8f660fffa24deae7b5c2f6c10c19e08bb4b3d9f4e9f0495e819ee",
+          "original_count": 5000,
+          "coordinate_sha256": "fb2a16a648122128ec57869424f2b3210b4177d41ae87aa2ca3e890b7dbcd7e5",
+          "center": [
+            -0.5630024834916649,
+            -0.56149316852003,
+            0.27199820174368305
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 2.047556938097678,
+          "spatially_clipped": 0,
+          "rendered_count": 5000,
+          "log_saturation": 1.6094379124341003,
+          "occupied_bins": 4525
+        }
+      ]
+    },
+    {
+      "id": "motor-three",
+      "file": "docs/assets/portraits/motor-three.png",
+      "sha256": "ca00a217bfaeb16e48e3001a8ff2bc4bf991a2c518591cccca79a0c09a035cf0",
+      "panels": [
+        {
+          "input": {
+            "label": "783",
+            "source": "results/motor-rows/cpu-candidate-N3-783.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "identity",
+            "columns": [
+              3,
+              4,
+              5
+            ],
+            "time_key": "time",
+            "after": 200,
+            "mark": "points"
+          },
+          "input_sha256": "1d5495239a5e21be69ae021aba918275fba4527810c428689157ac7662d6cf20",
+          "original_count": 10000,
+          "coordinate_sha256": "adbc63cac092d41de31efa3719351a3d05b3e9c25c2b91d515a4dbbf402ee42f",
+          "center": [
+            0.4281439719673573,
+            0.4199876048549568,
+            0.4154655083314689
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 1.3736826617627382,
+          "spatially_clipped": 0,
+          "rendered_count": 10000,
+          "log_saturation": 1.3862943611198906,
+          "occupied_bins": 9348
+        }
+      ]
+    },
+    {
+      "id": "motor-pair",
+      "file": "docs/assets/portraits/motor-pair.png",
+      "sha256": "4318140af2e08b0d8932a1b23c3b7c3be9387fb16c411bf9feb52112217c7a10",
+      "panels": [
+        {
+          "input": {
+            "label": "444",
+            "source": "results/motor-pair/gpu-cpu-444-extended.npz",
+            "key": "balanced_states",
+            "mode": "points",
+            "transform": "motor_pair",
+            "time_key": "time",
+            "last_duration": 2000,
+            "mark": "points"
+          },
+          "input_sha256": "22bff57d42c273c93fc441e2705451625d9e8ff87a2973cd0f173d245dd9102f",
+          "original_count": 40000,
+          "coordinate_sha256": "39435961ed09e13ccfadb32644bd82068263673c902f4aeba4751635000a2829",
+          "center": [
+            24.29012407940391,
+            0.00449620602927793,
+            1.0019538998983433
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 133.62701143993843,
+          "spatially_clipped": 0,
+          "rendered_count": 40000,
+          "log_saturation": 6.75998329637701,
+          "occupied_bins": 598
+        }
+      ]
+    },
+    {
+      "id": "synchronematic",
+      "file": "docs/assets/portraits/synchronematic.png",
+      "sha256": "8149c53e9937ff454fecc0eb6e44abe61583b2fa0babb7646832a870a3f93a41",
+      "panels": [
+        {
+          "input": {
+            "label": "Four particles",
+            "source": "results/synchronematic/n4-cpu-extended/trace.npz",
+            "key": "state",
+            "mode": "points",
+            "transform": "synchronematic",
+            "mark": "points"
+          },
+          "input_sha256": "fe9765ddbdba8637038c80152f48bfb04e6bc2798895067e9d8a566e25186d42",
+          "original_count": 64000,
+          "coordinate_sha256": "23473a8c3ff9092ecd21ff6b79e7f88f388671279f4c648be64543a1dcfdd988",
+          "center": [
+            -0.4150593059428368,
+            0.3812665784084868,
+            0.5331465671657825
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.5173026878855713,
+          "spatially_clipped": 0,
+          "rendered_count": 64000,
+          "log_saturation": 3.091042453358316,
+          "occupied_bins": 29825
+        }
+      ]
+    },
+    {
+      "id": "lce-slider",
+      "file": "docs/assets/portraits/lce-slider.png",
+      "sha256": "54d22c280303ebdeababe6eb1e6c6feb1f2d69e8675822788a1e24a734b04504",
+      "panels": [
+        {
+          "input": {
+            "label": "Relay model",
+            "source": "results/lce-slider/geometry-check/trace.npz",
+            "key": "trajectory",
+            "mode": "points",
+            "transform": "lce",
+            "mark": "line"
+          },
+          "input_sha256": "2cec0c7d69ea929d0cfa73cbf9cfa4d2b4e306a0141caf06f880823d62787aa2",
+          "original_count": 13000,
+          "coordinate_sha256": "ffde728a67ef3247bfae5fef65ce8acdbe4159716b44fe25d948dd1d23be6851",
+          "center": [
+            -0.013394377204089097,
+            -0.002652334847724559,
+            0.04062933455002202
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.013924603214721274,
+          "spatially_clipped": 0,
+          "rendered_count": 13000,
+          "log_saturation": 2.0794415416798357,
+          "occupied_bins": 10137
+        }
+      ]
+    },
+    {
+      "id": "two-strain",
+      "file": "docs/assets/portraits/two-strain.png",
+      "sha256": "ed1b01391a7b0a24f90c250ade63aba1eca578eac68cf9173caa89c02c7dda9d",
+      "panels": [
+        {
+          "input": {
+            "label": "Physical fractions",
+            "source": "results/two-strain/candidate-render-trace.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "two_strain",
+            "mark": "line"
+          },
+          "input_sha256": "7422921f1e51bea4a23ba5003ee0803e594a37035422c9582bf52048d0ccd09b",
+          "original_count": 30001,
+          "coordinate_sha256": "281ad30bcc2a842260c066aa47562a2655ba5c4058755dcb82dc54e306c305c6",
+          "center": [
+            0.39467767438747525,
+            3.0005562785936513,
+            1.361790883159267
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 2.3393137558594534,
+          "spatially_clipped": 0,
+          "rendered_count": 30001,
+          "log_saturation": 7.321349125060417,
+          "occupied_bins": 3775
+        }
+      ]
+    },
+    {
+      "id": "optical-relay",
+      "file": "docs/assets/portraits/optical-relay.png",
+      "sha256": "942bd999f246c0c6858ceb3d68dcca39267e4a06f859c21b6cd1ff3de9a54500",
+      "panels": [
+        {
+          "input": {
+            "label": "1026",
+            "source": "results/light-operators/coupled-cpu-1026.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "optical",
+            "mark": "points"
+          },
+          "input_sha256": "d6c1587daf95e1555038415269eeeb5b3d419ce6cf569589dde9433b8dd4d509",
+          "original_count": 17433,
+          "coordinate_sha256": "e04b99152aa9a62f8bf13440ff7e7a1357e1f399fd3a60eff624cdcae3cd6212",
+          "center": [
+            0.49834444998349714,
+            0.3365336786576992,
+            0.22182180645053312
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.3381904747550687,
+          "spatially_clipped": 0,
+          "rendered_count": 17433,
+          "log_saturation": 2.772588722239781,
+          "occupied_bins": 10099
+        },
+        {
+          "input": {
+            "label": "3054",
+            "source": "results/light-operators/coupled-cpu-3054.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "optical",
+            "mark": "points"
+          },
+          "input_sha256": "659152ffbfc59f6b5f96a3d64df040ec781ea5df3da3e82f95c342add46ab0fd",
+          "original_count": 12316,
+          "coordinate_sha256": "7cb5ee665356b1eaf63679c73e34fd4cdc4e9a9870f34f460f8443ae3d1fe098",
+          "center": [
+            0.8168722951247461,
+            0.8577203662177744,
+            -0.025548428487068564
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.09041609486490973,
+          "spatially_clipped": 0,
+          "rendered_count": 12316,
+          "log_saturation": 1.6094379124341003,
+          "occupied_bins": 11004
+        }
+      ]
+    },
+    {
+      "id": "optical-smooth",
+      "file": "docs/assets/portraits/optical-smooth.png",
+      "sha256": "df5a8176aa79bbb1fba9723e1e491531c41da96e16932b9cd94ba7323e92bbc5",
+      "panels": [
+        {
+          "input": {
+            "label": "Irregular history",
+            "source": "results/light-operators/smooth-section-w004.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "optical",
+            "last_count": 12000,
+            "mark": "line"
+          },
+          "input_sha256": "8467319e39c3acd651c8a47023572c79d382dcc2a812164c05237311af867e19",
+          "original_count": 12000,
+          "coordinate_sha256": "a0ecc198e40323dbc7a6fb7092d052fa913584b10920b5989a297de69d391d48",
+          "center": [
+            0.48852107707098535,
+            0.33408551777377987,
+            0.18463396466604443
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.2245033852150081,
+          "spatially_clipped": 0,
+          "rendered_count": 12000,
+          "log_saturation": 1.791759469228055,
+          "occupied_bins": 10826
+        },
+        {
+          "input": {
+            "label": "Regular history",
+            "source": "results/light-operators/smooth-section-w004-regular.npz",
+            "key": "states",
+            "mode": "points",
+            "transform": "optical",
+            "last_count": 760,
+            "mark": "line"
+          },
+          "input_sha256": "193affecdeec965b3d1bddd32b02930cb55dabfeaec9fe8994c9e4bcbf8d1802",
+          "original_count": 760,
+          "coordinate_sha256": "49c6ce1b6def6914c380618ada7d3d75f5104a9fd33543aa2b227efa0da70d66",
+          "center": [
+            0.48852107707098535,
+            0.33408551777377987,
+            0.18463396466604443
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 0.2245033852150081,
+          "spatially_clipped": 0,
+          "rendered_count": 760,
+          "log_saturation": 1.280427358457653,
+          "occupied_bins": 737
+        }
+      ]
+    }
+  ]
+}

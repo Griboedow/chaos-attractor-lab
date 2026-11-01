@@ -82,10 +82,6 @@ Both transverse multipliers are inside the unit circle, providing a numerical st
 
 ![Short-time false positive and an out-of-domain mathematical candidate](assets/thermal_sheet_screening.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/35a09890237ea1e7881241b5ab88a595c67e67ad/docs/assets/thermal_sheet_screening.png)).*
-<!-- /drawing-date -->
-
 The compact arrays, selection provenance, unresolved statuses and aggregate counts are under `results/thermomechanical-sheet/`. A finite survey cannot exclude remote basins or all physical parameter choices; the unresolved scout cases have not been reclassified as regular.
 
 ## Jerk representation and older thermal chaos

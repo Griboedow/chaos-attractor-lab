@@ -7,7 +7,7 @@ The pre-existing TensorFlow Addons `Yogi(activation="tanh")` option produces int
 ![Two fixed smooth Yogi state clouds, viewed by rotating cameras](assets/yogi-tanh-rotation.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c612e8b7da73d63645ab89e82ef5b77d668fbc1c/docs/assets/yogi-tanh-rotation.gif)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
 [Large portrait](assets/yogi-tanh-geometry.png) · [Numerical evidence](assets/yogi-tanh-evidence.png) · [Exact structure and boundedness](yogi-tanh-structure.md) · [Frozen data](../results/yogi-tanh/manifest.json)
@@ -47,10 +47,6 @@ Exact binary64 parameters, initial states and all windows are in the [long-run a
 ## Independent precision and actual library execution
 
 ![Long-run rates, independent precision, actual library rates and fresh-start results](assets/yogi-tanh-evidence.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c612e8b7da73d63645ab89e82ef5b77d668fbc1c/docs/assets/yogi-tanh-evidence.png)).*
-<!-- /drawing-date -->
 
 The independent mpmath driver imports neither the production recurrence nor its derivative. It evolves two finite-separation directions, with 70 and 90 decimal digits, after the original prescribed warm-up. It promotes the saved binary64 input values exactly; it does not silently replace them with nearby decimal coefficients. All six declared precision runs completed.
 

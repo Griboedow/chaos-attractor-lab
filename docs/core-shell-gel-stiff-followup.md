@@ -4,10 +4,6 @@ The exact saved endpoint of **source row 2882**, previously unresolved because t
 
 ![Independent time trace and physical projection of the stable cycle](assets/core-shell-stiff-cycle.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/0069a0ae873058883b88e5d07774bf7377ce73bc/docs/assets/core-shell-stiff-cycle.png)).*
-<!-- /drawing-date -->
-
 This is a follow-up of one existing parameter tuple in the [four-state core–shell gel survey](core-shell-gel-research.md). No coefficient, constitutive law, initial endpoint, or reference concentration was changed. No other stiff case or previous grid was rerun. The old raw GPU records remain unchanged: the original long interval is still marked incomplete.
 
 ## Exact input and scope

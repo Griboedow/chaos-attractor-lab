@@ -50,10 +50,6 @@ The original activity mapping places this candidate at `delta=1.75748308`, about
 
 ![All conditional tangent directions](../results/motor-activity-continuation/cluster-spectrum/figure-review/spectrum.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/bbe0edab55b3e18abee97b4ada9039b2f9d566e7/results/motor-activity-continuation/cluster-spectrum/figure-review/spectrum.png)).*
-<!-- /drawing-date -->
-
 ## Controls and limitations
 
 The [run record](../results/motor-activity-continuation/cluster-spectrum/lane-46/analysis.json) records the exact original endpoint, source hashes, measured projection and parent 2,000-tau metadata. Before integration, the field, all 23 Jacobian columns and trace decomposition are tested at the initial state and 12 deterministic random states. The weighted quotient also passes complex-step and full-field restriction checks. A separate one-tau integration of the original full 23-dimensional state and tangent map agrees with the transformed block evolution: maximum state error `5.80e-15` and tangent-column error `5.33e-14`. The complete basis is used in this check, including contrasts involving dependent row 7.
@@ -73,10 +69,6 @@ A [tighter state continuation](../results/motor-activity-continuation/cluster-re
 The return intervals range from 3.6123 to 8.7380 tau, with standard deviation 0.71149. Across all recorded pairs of section states at lags 1 through 64, the smallest full reduced-state distance is 0.0012540 (lag 36). The smallest RMS distance among these lags is 1.55259 (lag 3). Thus this finite sample does not show a closed periodic orbit at the tested return lags. It cannot exclude a longer period or prove aperiodicity.
 
 ![All section-return intervals of the five-cluster candidate](../results/motor-activity-continuation/cluster-return-figure-review/returns.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/bbe0edab55b3e18abee97b4ada9039b2f9d566e7/results/motor-activity-continuation/cluster-return-figure-review/returns.png)).*
-<!-- /drawing-date -->
 
 The [return program](../research/check_motor_cluster_returns.py) and [figure program](../research/plot_motor_cluster_returns.py) retain their executed sources and input hashes. The original figure remains available; the displayed revision only improves its labels and retains every section crossing.
 

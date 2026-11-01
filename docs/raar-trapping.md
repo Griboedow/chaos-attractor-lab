@@ -4,10 +4,6 @@ The serrated-arch instance now has a computer-assisted proof of a **compact attr
 
 ![Actual states approaching the serrated arch from a volume of starts](assets/raar-trapping-approach.png)
 
-<!-- drawing-date -->
-*Drawn: **2026-11-01**.*
-<!-- /drawing-date -->
-
 [Manuscript](../papers/raar-trapping/manuscript.pdf) · [Reproduction](../papers/raar-trapping/README.md) · [Frozen evidence](../results/raar-trapping/README.md) · [Native-state rotation](assets/raar-circles-rotation.gif)
 
 Gold points show the same 2,048 starts sampled from the surrounding region, after 0, 16 and 256 iterations. All points are actual discrete states; the camera is rigid and unchanged. All 4,196,352 tested finite state memberships through iteration 2,048 stay in the region. That numerical illustration is separate from the exhaustive proof.
@@ -46,10 +42,6 @@ The strict trapping and covering inequalities persist under sufficiently small p
 | Approximate volume of Q | 2.67572525 |
 
 ![Coordinate projections of the trapping region and actual numerical cloud](assets/raar-trapping-region.png)
-
-<!-- drawing-date -->
-*Drawn: **2026-11-01**.*
-<!-- /drawing-date -->
 
 The pale shape is the surrounding region, whose volume is not the volume of the attractor. Each projection includes every occupied cube. A gap or overlap in a projection does not determine three-dimensional topology.
 

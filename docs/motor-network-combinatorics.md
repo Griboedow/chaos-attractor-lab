@@ -6,10 +6,6 @@ These are exact finite-group computations. Identifying all eight nodes with dist
 
 ![Eight-node candidate graph](../results/motor-network-combinatorics/figure-layout-review/candidate-graph.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2306a0ed700c68a72b44d9e702e1e10d64a735d4/results/motor-network-combinatorics/figure-layout-review/candidate-graph.png)).*
-<!-- /drawing-date -->
-
 ## Row action and cosets
 
 All row indices are zero-based. Write the physical row state as an eight-entry list of triples and use the observed convention

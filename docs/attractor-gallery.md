@@ -1,327 +1,363 @@
-# Attractor drawings and their dates
+# Attractor portraits
 
-Dates identify our drawings, not historical discovery or a proof of chaos. For older work, **First recorded drawing** is the earliest image-bearing Git record found in the complete project history or its source repository. It is an evidenced record date, not a recovered rendering timestamp. Dates retain each record's stated timezone. New renders record their actual date when created.
+[Selected results](../README.md) · [Research index](research-index.md) · [Figure provenance](../tools/README-portraits.md)
 
-Paired panels share the displayed date. Repeat views, periodic skeletons and symmetry copies do not become separate discoveries. Each linked report retains its own status and limitations.
+The gallery shows finite numerical trajectories and one separately certified periodic attractor. Each entry links to its evidence and limitations. Different pictures do not by themselves establish different dynamical classes.
 
-[Date records and evidence](../provenance/render-dates.json) · [How to date future drawings](../tools/README-render-dates.md)
+All portraits use the same background, palette, dimensions and caption convention. Higher-dimensional systems are identified as projections; explicit physical unit changes are stated. Dates retain the earliest recorded portrait of a study. A later rendering is dated separately when it falls on another day.
 
-## Icosahedral spiral fans — case 177
+## Constructed systems
 
-[Evidence and current status](icosahedral-flow.md) · [Return-map proposal and closer prior art](icosahedral-returns.md)
+### Icosahedral Gaussian flow
 
-![Icosahedral spiral fans — case 177](assets/icosahedral-177.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8d5d8b58d0087a4f0ed59cc4258838b2d22568ac/docs/assets/icosahedral-177.png)).*
-<!-- /drawing-date -->
-
-## Icosahedral looped companion — case 183
-
-[Evidence and current status](icosahedral-flow.md)
-
-![Icosahedral looped companion — case 183](assets/icosahedral-183.png)
+![Icosahedral Gaussian flow](assets/portraits/icosahedral.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8d5d8b58d0087a4f0ed59cc4258838b2d22568ac/docs/assets/icosahedral-183.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Tetrahedral ribbons — case 421
+Cases 177 and 183 are three-state autonomous flows. Long integrations and independent solvers support chaotic motion; absorbing balls and local equilibria are interval certified. The directed geometric skeleton has a known integrable counterpart.
 
-[Evidence and current status](tetrahedral-flow.md)
+Full three-state coordinates; archived orthographic cameras.
 
-![Tetrahedral ribbons — case 421](assets/tetrahedral-flow.png)
+[Report](icosahedral-flow.md)
+
+### Tetrahedral Gaussian flow
+
+![Tetrahedral Gaussian flow](assets/portraits/tetrahedral.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/13d474ac6acd6edf65fcd2b54d497f33b699d316/docs/assets/tetrahedral-flow.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Tetrahedral companion — case 565
+Cases 421 and 565 have a stable central equilibrium and sustained irregular outer motion. Three-dimensional tetrahedral chaos is established prior work.
 
-[Evidence and current status](tetrahedral-flow.md)
+Full three-state coordinates; archived orthographic cameras.
 
-![Tetrahedral companion — case 565](assets/tetrahedral-vortex-565.png)
+[Report](tetrahedral-flow.md)
+
+### Localized Gaussian vortices
+
+![Localized Gaussian vortices](assets/portraits/gaussian-vortex.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/13d474ac6acd6edf65fcd2b54d497f33b699d316/docs/assets/tetrahedral-vortex-565.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Scalar acceleration memory — cases 54 and 449
+Case 77 survives a 30,000-unit spectrum and independent integration. A competing periodic orbit and resemblance to known threefold geometries limit interpretation.
 
-[Evidence and current status](anderson-memory.md)
+Full three-state coordinates; archived orthographic camera.
 
-![Scalar acceleration memory — cases 54 and 449](assets/anderson-memory.png)
+[Report](gaussian-vortex.md)
+
+### Dissipative three-axis twist map
+
+![Dissipative three-axis twist map](assets/portraits/twist.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/13d474ac6acd6edf65fcd2b54d497f33b699d316/docs/assets/anderson-memory.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Gaussian-vortex triskelion — case 77
+Cases 1709 and 3254 retain positive finite-time growth under long and high-precision controls. The first case also has a regular regime.
 
-[Evidence and current status](gaussian-vortex.md)
+Full three-state coordinates; archived orthographic cameras.
 
-![Gaussian-vortex triskelion — case 77](assets/gaussian-vortex-triskelion.png)
+[Report](twist-geometry.md)
+
+## Numerical algorithms
+
+### RAAR between spatial circles
+
+![RAAR between spatial circles](assets/portraits/raar.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/6371acfa83c293b60c3f2a3b2b455b928020ac6a/docs/assets/gaussian-vortex-triskelion.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Spatial-circle RAAR — serrated arch and layered loops
+Case 1051 has a certified attracting invariant set with entropy at least log(2)/49 per iteration, containing the symbolic set. Transitivity and equality with this finite portrait remain unresolved. Case 1483 is a numerical companion.
 
-[Evidence and current status](raar-circles.md)
+Full spatial state (x, y, z); archived orthographic cameras.
 
-![Spatial-circle RAAR — serrated arch and layered loops](assets/raar-circles-geometry.png)
+[Trapping report](raar-trapping.md) · [Symbolic certificate](raar-symbolic-dynamics.md)
+
+### Scalar iteration with acceleration memory
+
+![Scalar iteration with acceleration memory](assets/portraits/anderson.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/8207072661685646c5e201a99c742cfafef20706/docs/assets/raar-circles-geometry.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Spatial-circle RAAR — approach from a volume of starts
+Plain scalar iteration is globally convergent for the two selected maps. Regularized three-history acceleration instead produces persistent irregular memory states, checked at 80 and 110 digits.
 
-[Trapping proof and claim boundaries](raar-trapping.md). A new diagnostic view of R1051, not a separate candidate. The same 2,048 starts evolve under the original map.
+Three-history state; archived orthographic cameras.
 
-![Spatial-circle RAAR — approach from a volume of starts](assets/raar-trapping-approach.png)
+[Report](anderson-memory.md)
+
+### RK45 step-size controller
+
+![RK45 step-size controller](assets/portraits/rk45.png)
 
 <!-- drawing-date -->
-*Drawn: **2026-11-01**.*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## RK45 controller — twin rosettes and folded fans
+The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.
 
-[Evidence and current status](rk45-oscillator.md)
+Position / atol, velocity / atol, proposed step; archived orthographic cameras.
 
-![RK45 controller — twin rosettes and folded fans](assets/rk45-oscillator-geometry.png)
+[Report](rk45-oscillator.md)
+
+### RK23 step-size controller
+
+![RK23 step-size controller](assets/portraits/rk23.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/990d8e8a138a924679ba97c0f8a859bf7b22bba2/docs/assets/rk45-oscillator-geometry.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## RK23 controller — folded triangles and scissor wings
+The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.
 
-[Evidence and current status](rk23-oscillator.md)
+Position / atol, velocity / atol, proposed step; archived orthographic cameras.
 
-![RK23 controller — folded triangles and scissor wings](assets/rk23-oscillator-geometry.png)
+[Report](rk23-oscillator.md)
+
+### Smooth Yogi memory
+
+![Smooth Yogi memory](assets/portraits/yogi-tanh.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/d67a116f4074ec6ae0920c57568474ab18948984/docs/assets/rk23-oscillator-geometry.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Smooth Yogi — folded ribbons and feathered crescent
+The published tanh variant produces two positive finite growth rates in selected scalar-quadratic regimes. Independent high-precision and TensorFlow controls support the calculations.
 
-[Evidence and current status](yogi-tanh.md)
+Normalized optimizer state (x, m, v); archived orthographic cameras.
 
-![Smooth Yogi — folded ribbons and feathered crescent](assets/yogi-tanh-geometry.png)
+[Report](yogi-tanh.md)
+
+### Yogi parameter-plane candidate
+
+![Yogi parameter-plane candidate](assets/portraits/yogi-arc.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c612e8b7da73d63645ab89e82ef5b77d668fbc1c/docs/assets/yogi-tanh-geometry.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Yogi — feathered arc
+Case 670 is retained after five million steps and independent controls. Case 125 has stronger evidence for a second expanding direction; their rates remain finite-time quantities.
 
-[Evidence and current status](yogi-parameter-plane.md)
+Normalized optimizer state (x, m, v); archived orthographic camera.
 
-![Yogi — feathered arc](assets/yogi-feathered-arc.png)
+[Report](yogi-parameter-plane.md)
+
+### Yogi memory
+
+![Yogi memory](assets/portraits/yogi.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c26d685d207acdbfb40f01f2ad6e72605596f6f5/docs/assets/yogi-feathered-arc.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Yogi — paired fans (44) and sunburst (7590)
+Cases 44 and 7590 are visually distinct numerical regimes of the same published optimizer. Initialization and precision controls are retained in the report.
 
-[Evidence and current status](yogi-geometry.md)
+Normalized optimizer state (x, m, v); archived orthographic cameras.
 
-![Yogi — paired fans (44) and sunburst (7590)](assets/yogi-geometry.png)
+[Report](yogi-geometry.md)
+
+### Yogi: additional expanding regimes
+
+![Yogi: additional expanding regimes](assets/portraits/yogi-expansion.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2e5b356a7e2b1bf51e832fb815ae6b29c8afaba3/docs/assets/yogi-geometry.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Yogi — two expanding directions (4214)
+Cases 4214 and 125 have numerical evidence for two expanding directions. Window lengths, library differences and branch discontinuities are reported separately.
 
-[Evidence and current status](yogi-geometry.md)
+Normalized optimizer states; archived preview cameras. Panels have separate scales.
 
-![Yogi — two expanding directions (4214)](assets/yogi-two-directions.png)
+[Report](yogi-parameter-plane.md) · [Related result](yogi-geometry.md)
+
+### Adamax memory
+
+![Adamax memory](assets/portraits/adamax.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/2e5b356a7e2b1bf51e832fb815ae6b29c8afaba3/docs/assets/yogi-two-directions.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Yogi grid — stronger two-direction candidate
+Four-million-step, high-precision and PyTorch controls support the selected regimes. Case 4099 coexists with two reflected periodic orbits.
 
-[Evidence and current status](yogi-parameter-plane.md)
+Normalized optimizer state; archived orthographic cameras.
 
-![Yogi grid — stronger two-direction candidate](assets/yogi-grid-directions.png)
+[Report](adamax-geometry.md)
+
+### AdaBelief memory
+
+![AdaBelief memory](assets/portraits/adabelief.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c26d685d207acdbfb40f01f2ad6e72605596f6f5/docs/assets/yogi-grid-directions.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Adamax — crown (847) and serrated wings (4099)
+A scalar quadratic objective supports irregular full optimizer states at the selected memory parameters. Finite-time numerical evidence is separated from convergence and novelty claims.
 
-[Evidence and current status](adamax-geometry.md)
+Normalized state (x, m, s); equal displayed coordinate units.
 
-![Adamax — crown (847) and serrated wings (4099)](assets/adamax-geometry.png)
+[Report](adabelief-quadratic.md)
+
+## Physical and biological models
+
+### Four motor rows
+
+![Four motor rows](assets/portraits/motor-four.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/c388a6daad6ac84be88aae1b44ab18b5550761e9/docs/assets/adamax-geometry.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Three-axis twist — folded sail (1709)
+At fixed mechanical parameters, b=1.5 gives a narrow braid and b=1.545 a broader regime. Long full-spectrum integrations support chaos in both; the displayed geometry is a projection of an eleven-dimensional flow.
 
-[Evidence and current status](twist-geometry.md)
+Three orthonormal displacement contrasts; final 1,200 saved time units; common scale.
 
-![Three-axis twist — folded sail (1709)](assets/twist-folded-sail.png)
+[Report](motor-four-b-study.md)
+
+### Five motor rows
+
+![Five motor rows](assets/portraits/motor-five.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/b4a35631e4044937842926f5d2630d2baec3957e/docs/assets/twist-folded-sail.png)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-## Three-axis twist — medusa (3254)
+The same saved fourteen-dimensional trajectory is shown in two projections of its four displacement contrasts. Neither view defines a three-dimensional embedding.
 
-[Evidence and current status](twist-geometry.md)
+Fourier displacement contrasts; final 800 saved time units.
 
-![Three-axis twist — medusa (3254)](assets/twist-medusa.png)
+[Report](motor-five-geometry.md)
+
+### Three motor rows with unequal rates
+
+![Three motor rows with unequal rates](assets/portraits/motor-three-asymmetric.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/b4a35631e4044937842926f5d2630d2baec3957e/docs/assets/twist-medusa.png)).*
+*First recorded portrait: **2026-10-31** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## AdaBelief — branching memory cloud
+Case 2566 is an eight-dimensional numerical candidate. The projection uses a fixed orthogonal rotation of the three cosine occupancies.
 
-[Evidence and current status](adabelief-quadratic.md)
+Rotated cosine occupancies; final 600 saved time units; stride 2.
 
-![AdaBelief — branching memory cloud](assets/adabelief-candidate.png)
+[Report](motor-asymmetry-geometry.md)
+
+### Eight motor rows: periodic and irregular motion
+
+![Eight motor rows: periodic and irregular motion](assets/portraits/motor-eight.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/a981c87439785808cd38cb6507d5b51c1716ebc7/docs/assets/adabelief-candidate.png)).*
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Four motor rows — thin braid
+A five-cluster periodic attractor is certified in all 23 state dimensions. The irregular comparison has six positive finite-time exponents over 20,000 units; it is not a certified chaotic attractor.
 
-[Evidence and current status](motor-four-geometry.md)
+Physical coordinates (X0, X1, s0) of the 23D model; common scale.
 
-![Four motor rows — thin braid](assets/motor-four-rotation.gif)
+[Report](motor-activity-continuation.md) · [Related result](motor-five-cycle-certificate.md)
+
+### Three symmetric motor rows
+
+![Three symmetric motor rows](assets/portraits/motor-three.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/de10ae8327d743a10f1f602cafc2fc607ae3d899/docs/assets/motor-four-rotation.gif)).*
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Four motor rows — braid and larger regime
+Case 783 has an independently computed eight-dimensional spectrum with one positive and one near-zero rate. This image shows the three sine occupancies.
 
-[Evidence and current status](motor-four-b-study.md)
+Sine occupancies (s0, s1, s2); a projection of the 8D flow.
 
-![Four motor rows — braid and larger regime](assets/motor-b-regimes.gif)
+[Report](motor-rows-gpu-survey.md)
+
+### Motor-pair model
+
+![Motor-pair model](assets/portraits/motor-pair.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/76288182a8ba4dffc3d655819b6a0f4765d641ef/docs/assets/motor-b-regimes.gif)).*
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Five motor rows — interwoven ribbon
+Case 444 retains positive growth in a long independent CPU calculation. The neutral rate still needs convergence; priority and asymptotic attraction remain unresolved.
 
-[Evidence and current status](motor-five-geometry.md)
+Physical coordinates (h, Y, Z); final 2,000 saved time units.
 
-![Five motor rows — interwoven ribbon](assets/motor-five-ribbon.gif)
+[Report](motor-pair-gpu-survey.md)
+
+### Synchronematic oscillators
+
+![Synchronematic oscillators](assets/portraits/synchronematic.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/e809319c54abd65d7c32642e9eab561ed13e94c3/docs/assets/motor-five-ribbon.gif)).*
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Three motor rows — asymmetric ribbon
+The four-particle candidate is displayed through gauge-invariant collective observables. These do not form an embedding of the seven-dimensional reduced angular dynamics.
 
-[Evidence and current status](motor-asymmetry-geometry.md)
+Collective observables (Re Q, Im Q, C), not state coordinates.
 
-![Three motor rows — asymmetric ribbon](assets/motor-ribbon-rotation.gif)
+[Report](synchronematic-research.md)
+
+### Light-driven elastomer slider
+
+![Light-driven elastomer slider](assets/portraits/lce-slider.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-31** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/cc4ac5c77a48cab8f3520d22bb645f64336e4569/docs/assets/motor-ribbon-rotation.gif)).*
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Motor model — periodic attractor and hyperchaos candidate
+The retained regime belongs to a three-state relay model. The report separates transverse growth estimates, switching assumptions and known related mechanisms.
 
-[Evidence and current status](motor-activity-continuation.md)
+Scaled full state (u/q, v/(sqrt(k) q), phi/q); scaling is explicitly physical.
 
-![Motor model — periodic attractor and hyperchaos candidate](assets/motor-regimes-rotation.gif)
+[Report](lce-slider-research.md)
+
+### Two-strain epidemic model
+
+![Two-strain epidemic model](assets/portraits/two-strain.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/efd6cf451595d47335b30225c92a1904ddead33c/docs/assets/motor-regimes-rotation.gif)).*
+*First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Three motor rows — physical projection of case 783
+The numerical five-state regime contains unequal outbreaks and extremely small prevalence. Related epidemic chaos is established; physical interpretation requires the qualifications in the report.
 
-[Evidence and current status](motor-rows-gpu-survey.md)
+Projection (S, 1000 I1, 1000 I2); explicit axis units, not an embedding.
 
-![Three motor rows — physical projection of case 783](../results/motor-rows/cpu-candidate-N3-783.gif)
+[Report](two-strain-research.md)
+
+### Coupled optical operators
+
+![Coupled optical operators](assets/portraits/optical-relay.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ece041347ed4bb2b99c856dda10a8b417c7c29db/results/motor-rows/cpu-candidate-N3-783.gif)).*
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Motor pair — physical-coordinate candidate
+These six-state relay histories have persistent irregular motion in the recorded observation. Later continuations, captures and source-model assumptions are retained in the report.
 
-[Evidence and current status](motor-pair-gpu-survey.md)
+Projection (x_minus, x_plus, y_minus - y_plus); all saved adaptive event/QR knots. The knots are nonuniform in time. Point density is sampling density, not an invariant measure.
 
-![Motor pair — physical-coordinate candidate](assets/motor_pair_candidate_rotation.gif)
+[Report](coupled-operators-research.md)
+
+### Smooth optical feedback
+
+![Smooth optical feedback](assets/portraits/optical-smooth.png)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/d52a5d1f604348dcc2848088ac444e408aa5b1f4/docs/assets/motor_pair_candidate_rotation.gif)).*
+*First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
-## Synchronematic collective oscillators
+At the same logistic-width parameters, saved starts produce regular and irregular histories. This is a finite coexistence observation, not an asymptotic attractor classification.
 
-[Evidence and current status](synchronematic-research.md)
+Projection (x_minus, x_plus, y_minus - y_plus); common scale.
 
-![Synchronematic collective oscillators](assets/synchronematic_projection_rotation.gif)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/6c24df76aa739b9a9c68f09166547f35471baa3b/docs/assets/synchronematic_projection_rotation.gif)).*
-<!-- /drawing-date -->
-
-## Liquid-crystal elastomer slider
-
-[Evidence and current status](lce-slider-research.md)
-
-![Liquid-crystal elastomer slider](assets/lce_slider_evidence.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/0e8678d2f6d8dde8df8313472d3b5663a0864ec1/docs/assets/lce_slider_evidence.png)).*
-<!-- /drawing-date -->
-
-## Two-strain epidemic model
-
-[Evidence and current status](two-strain-research.md)
-
-![Two-strain epidemic model](assets/two_strain_rotation.gif)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2e20f636a960a6b0ff1564bde9d396bd91140800/docs/assets/two_strain_rotation.gif)).*
-<!-- /drawing-date -->
-
-## Optical operators — reference 1026
-
-[Evidence and current status](coupled-operators-research.md)
-
-![Optical operators — reference 1026](assets/coupled_operators_1026.gif)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2ccb13b406e7553d4afbeecf26bedf386c10fef9/docs/assets/coupled_operators_1026.gif)).*
-<!-- /drawing-date -->
-
-## Optical operators — reference 3054
-
-[Evidence and current status](coupled-operators-research.md)
-
-![Optical operators — reference 3054](assets/coupled_operators_3054.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2ccb13b406e7553d4afbeecf26bedf386c10fef9/docs/assets/coupled_operators_3054.png)).*
-<!-- /drawing-date -->
-
-## Smooth optical operators — coexisting regular and irregular motion
-
-[Evidence and current status](coupled-operators-research.md)
-
-![Smooth optical operators — coexisting regular and irregular motion](assets/coupled_operators_smooth_coexistence.gif)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/4176154684c5dc49a2990dadb0d3c27916286035/docs/assets/coupled_operators_smooth_coexistence.gif)).*
-<!-- /drawing-date -->
+[Report](coupled-operators-research.md)

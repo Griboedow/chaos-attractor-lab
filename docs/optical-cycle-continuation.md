@@ -8,10 +8,6 @@ A subsequent [pseudo-arclength continuation](optical-cycle-arclength.md) resolve
 
 ![Period and local stability of the continued optical cycle](assets/optical_cycle_continuation.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ca33408c8a15717d0d69912f40c4d649a95d5ce9/docs/assets/optical_cycle_continuation.png)).*
-<!-- /drawing-date -->
-
 ## Why follow a periodic orbit during a chaos search?
 
 The long-run experiments show some apparently chaotic trajectories eventually reaching a stable cycle. To understand that destination, we continued the cycle itself as the optical width changed. Direct forward integration usually loses an unstable cycle; full-state shooting can retain it and reveal where attraction changes to repulsion.
@@ -70,10 +66,6 @@ Continuing that doubled orbit through six widths up to 0.00658 yields:
 | 0.00658 | 3.6700510352 | 0.0006319 | 1.003513 |
 
 ![The unstable doubled cycle approaches the parent branch](assets/optical_doubled_branch.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ca33408c8a15717d0d69912f40c4d649a95d5ce9/docs/assets/optical_doubled_branch.png)).*
-<!-- /drawing-date -->
 
 The doubled branch stays on the stable-parent side, approaches the parent's shape and twice its period, and its unstable multiplier approaches +1. Squared half-period separation is approximately proportional to distance from the first flip in these samples. Together, these observations support a **subcritical** local picture: an unstable doubled orbit approaches the cycle that is about to lose stability. No normal-form coefficient or interval-arithmetic certification was computed, so this remains numerical evidence rather than a theorem.
 

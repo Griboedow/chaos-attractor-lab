@@ -4,10 +4,6 @@
 
 ![Survey and independent stable-cycle control](assets/rayleigh-pair-search.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ed9517e4eb68d9336e958c553aa669a5f15c13e7/docs/assets/rayleigh-pair-search.png)).*
-<!-- /drawing-date -->
-
 The first panel shows finite-time estimates, including positive values that did not survive the selection criteria. It is not an existence map of chaotic attractors. The dashed threshold in the second panel is only the later mean-exponent cutoff; retention also requires four positive windows above a separate cutoff.
 
 ## Exact model and the meaning of its coordinates
@@ -84,10 +80,6 @@ The three endpoints lie about `2.0e-10`, `7.9e-8`, and `1.5e-10` from the symmet
 
 ![Off-modal saddle control and very long weak-coupling checks](assets/rayleigh-pair-weak-coupling.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ed9517e4eb68d9336e958c553aa669a5f15c13e7/docs/assets/rayleigh-pair-weak-coupling.png)).*
-<!-- /drawing-date -->
-
 At exactly the same parameters, full four-state shooting finds an off-modal periodic saddle with section state
 
 ```text
@@ -103,10 +95,6 @@ This periodic orbit illustrates a precise distinction: an orbit can have an expa
 Yes, within the finite numerical observation. A separate DOP853 integration from the original row-193 start runs to `sigma=30000`. At each saved time, it measures Euclidean distance in all four canonical coordinates to phase-shifted points of the closed cycles, including exchange and global-sign symmetry copies. Distances are minimized over polygon segments of 6,001-point cycle representations; a coarser representation supplies a resolution check. This is a geometric numerical comparison, not an infinite-time shadowing theorem.
 
 ![Independent trajectory approaching and leaving the saddle cycle](assets/rayleigh-pair-saddle-visit.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/ed9517e4eb68d9336e958c553aa669a5f15c13e7/docs/assets/rayleigh-pair-saddle-visit.png)).*
-<!-- /drawing-date -->
 
 The trajectory's minimum distance from the saddle is **0.00155**, around `sigma=500`. Samples remain within distance `0.01` from approximately `sigma=223` to `8089`, with a few further threshold crossings until `8111`; temporal sampling is one canonical unit. It later leaves: distance is **0.3378** at the refined GPU endpoint, and approximately **1.009** at `sigma=30000`. At that last time, distance to the stable symmetric cycle has fallen to **0.300**; this CPU interval alone does not yet demonstrate convergence to it.
 

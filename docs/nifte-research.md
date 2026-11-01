@@ -4,10 +4,6 @@ Research date: 30 October 2026. **The five-state and nine-state published NIFTE 
 
 ![Recovered periodic controls, different outcomes from two starts, and finite-time exponent surveys](assets/nifte-controls.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/1dc034ad51f993509f70c06229473a3dbfd81c70/docs/assets/nifte-controls.png)).*
-<!-- /drawing-date -->
-
 The upper-left curves are periodic orbits, including an unstable one. They are projections of five- or nine-dimensional state spaces. The other panels show parameter space. Near-zero finite-time exponents and different oscillation amplitudes do not establish chaos or a new attractor type.
 
 ## The physical idea and the exact implementation
@@ -91,10 +87,6 @@ Its sum agrees with the constant divergence within `4e-11/s`. The leading window
 Newton shooting then closed a stable periodic orbit with `T=1.9995486235 s`; an independent dimensional-mass Radau integration closed it within `3e-15`. The largest transverse multiplier is `0.9097851`. The Floquet exponents have one exact neutral direction and four negative directions. Thus this saved endpoint supports a regular cycle, not chaos. Its several-metre displacement reconstruction also illustrates why random component samples are mathematical controls rather than a calibrated apparatus prediction.
 
 ![Positive scout estimates contrasted with a neutral-flow control and the independently closed periodic orbit](assets/nifte-neutral-control.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/1dc034ad51f993509f70c06229473a3dbfd81c70/docs/assets/nifte-neutral-control.png)).*
-<!-- /drawing-date -->
 
 See [CPU spectrum settings](../results/nifte/cpu-row215-spectrum.json), [cycle verification](../results/nifte/cpu-row215-cycle.json), and the adjacent arrays. The graph compares separate windows from the scout and later CPU run; it is not a single continuous estimate.
 

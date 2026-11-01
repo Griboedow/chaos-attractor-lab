@@ -12,10 +12,6 @@ where $F$ is the printed fixed-center Fourier approximation of Leyva et al. [1].
 
 ![Periodic branches, stability, doubled orbit and finite basin probe](assets/synchronematic_bifurcations.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/311053fc8f9900197611f203cb9f6b4f2901e4f4/docs/assets/synchronematic_bifurcations.png)).*
-<!-- /drawing-date -->
-
 In panel A, the doubled orbit's period is divided by two to compare its branch with the parent; its actual period is about 10.96. Panel B omits the neutral flow multiplier. Panel D shows means and ranges across four observation windows, not uncertainty bars or basin-volume estimates. The local starts pool three different perturbation sizes, detailed below.
 
 ## Continue an orbit instead of coloring trajectories

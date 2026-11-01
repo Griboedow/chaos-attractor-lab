@@ -6,10 +6,6 @@ This follow-up continues the **same initial conditions and tangent vectors** use
 
 ![Extended cohort and finite-time expansion](assets/optical_lifetime_extension.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-30** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/b60418fc2fbdd8a34ab873c5581e31f1b9c0727a/docs/assets/optical_lifetime_extension.png)).*
-<!-- /drawing-date -->
-
 ## What changed when we waited longer?
 
 | Optical width | Periodic captures at 20,000 | Additional verified captures | Final periodic captures | Still observed at 100,000 | Latest first qualifying checkpoint |

@@ -5,7 +5,7 @@ The published molecular-motor family contains an unusually slender numerical cha
 ![Four motor groups in a rotating physical view](assets/motor-four-rotation.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/de10ae8327d743a10f1f602cafc2fc607ae3d899/docs/assets/motor-four-rotation.gif)).*
+*First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
 The camera rotates around fixed data. The image uses the final 1,200 units of the saved trajectory, with 30,001 equally spaced samples; the axis bounds use the entire 12,000-unit observation. [Poster](assets/motor-four-poster.png) · [Rendering record](../results/motor-four-geometry/portrait/render.json).
@@ -66,10 +66,6 @@ Case 2650 also retains positive growth over 12,000 units, with leading estimates
 
 ![Fixed physical views and unfiltered return diagnostics](assets/motor-four-camera-audit.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/de10ae8327d743a10f1f602cafc2fc607ae3d899/docs/assets/motor-four-camera-audit.png)).*
-<!-- /drawing-date -->
-
 The trajectory panels use the entire observation at every third sample. The bottom panels use every section event. The scalar successive-return plot is not asserted to be a single-valued one-dimensional map. Projected crossings do not prove a knot, a branched-manifold topology or a three-dimensional embedding.
 
 ## Equation symmetry is not attractor symmetry
@@ -96,17 +92,9 @@ The best-permutation median distances range from `.00124647` to `.00144932`; the
 
 ![Separate fresh starts in the eight observed orientations](assets/motor-four-eight-orientations.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/dba1a6f24dff67b32885c13fa031487014f8c167/docs/assets/motor-four-eight-orientations.png)).*
-<!-- /drawing-date -->
-
 The classes use the row with smallest mean displacement and the sign of the time-averaged circulation of the remaining rows, in their sorted label order. Their counts are `4,5,5,3,3,4,4,4` for rows 0 through 3 and signs minus/plus. These frequencies describe the 32 declared starts only. A net circulation sign does not imply monotonic phase rotation or exact phase/frequency locking.
 
 ![Comparison before and after row relabeling](assets/motor-four-relabeling-overlay.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/dba1a6f24dff67b32885c13fa031487014f8c167/docs/assets/motor-four-relabeling-overlay.png)).*
-<!-- /drawing-date -->
 
 Each color is a separately integrated trajectory. The right panel applies only the measured row permutation; it neither fits nor deforms the curves. Neither overlay is a single attractor trajectory. [Complete comparisons and source snapshots](../results/motor-four-extension/motor-four-start-histories02/) · [Selection and rendering record](../results/motor-four-extension/motor-four-start-gallery/). The original failed sampling-grid attempt is preserved in the extension packet alongside the corrected completed run.
 
@@ -115,10 +103,6 @@ Each color is a separately integrated trajectory. The right panel applies only t
 The physical model is published, and symmetric chaos is old. The relevant comparisons include more than famous two-winged pictures:
 
 ![The motor candidate beside published symmetric and narrow chaotic regimes](assets/motor-known-comparison.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-11-01** ([record](https://github.com/Griboedow/chaos-attractor-lab/blob/68b8f2effa76d912affa6473864bec1093890779/docs/assets/motor-known-comparison.png)).*
-<!-- /drawing-date -->
 
 This comparison reintegrates the [Halvorsen system in Sprott's 1997/2004 technical note](https://sprott.physics.wisc.edu/chaos/symmetry.htm), and two examples of [partially predictable chaos studied by Wernecke, Sándor and Gros (2017)](https://doi.org/10.1038/s41598-017-01083-x). The latter include a narrow chaotic regime of the Lorenz system itself and a cubic jerk equation. Thin broadened loops and cyclic symmetry are therefore established precedents. The motor projection's particular appearance remains interesting, but neither feature alone is evidence of a new attractor type.
 

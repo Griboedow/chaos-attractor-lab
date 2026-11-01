@@ -10,15 +10,7 @@ A later [periodic-orbit continuation](optical-cycle-continuation.md) connects th
 
 ![Coupled operator evidence](assets/coupled_operators_1026.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2ccb13b406e7553d4afbeecf26bedf386c10fef9/docs/assets/coupled_operators_1026.png)).*
-<!-- /drawing-date -->
-
 ![Camera rotation of a physical projection](assets/coupled_operators_1026.gif)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2ccb13b406e7553d4afbeecf26bedf386c10fef9/docs/assets/coupled_operators_1026.gif)).*
-<!-- /drawing-date -->
 
 The three-dimensional picture is a **projection of a six-dimensional flow**, not its complete phase portrait. It shows the two material displacements and the difference between their thermal states. The folded bands and multiple return-section branches are interesting numerical structure, but they do not establish a new topological type of attractor.
 
@@ -101,10 +93,6 @@ The nearly zero second exponent is consistent with the neutral direction of an a
 
 ![Higher-frequency physical projection and section](assets/coupled_operators_3054.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/2ccb13b406e7553d4afbeecf26bedf386c10fef9/docs/assets/coupled_operators_3054.png)).*
-<!-- /drawing-date -->
-
 Reference A has a structured projected return section with several curved branches. Reference B has a broader projected section and much faster expansion. Neither appearance alone establishes a new attractor class. Plotting is densified with exact branch flow between CPU-verified event/QR knots; the maximum branch-end mismatch is below `1.1e-11`, so fast mechanical motion is not represented by sparsely connected QR samples.
 
 ## Finite optical width: a stronger physical test
@@ -156,10 +144,6 @@ Thus broadening this assumed optical response can remove and then restore the ob
 
 ![Width survey and physical displacement projections](assets/coupled_operators_smooth_width.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/4176154684c5dc49a2990dadb0d3c27916286035/docs/assets/coupled_operators_smooth_width.png)).*
-<!-- /drawing-date -->
-
 The lower panels use actual displacement coordinates, projected from the six-state system. The curve for equilibrium eigenvalues describes local equilibrium stability, whereas the dots describe the sampled trajectories; they need not agree while an oscillatory attractor is present. Crosses at the bottom mark unresolved refinements and have no exponent value.
 
 ### A regular orbit coexists with the broad-width chaotic candidate
@@ -170,16 +154,12 @@ All eight A starts at `w=0.04` were separately resumed for another 400 discarded
 
 ![Coexisting trajectories, projected section and return intervals](assets/coupled_operators_coexistence.png)
 
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/4176154684c5dc49a2990dadb0d3c27916286035/docs/assets/coupled_operators_coexistence.png)).*
-<!-- /drawing-date -->
-
 This supports coexistence of a stable periodic orbit and a long-lived chaotic numerical regime at identical equations and parameters. It does not prove that the latter is an asymptotic attractor rather than a long-lived chaotic saddle. The eight selected initial states are not a measurement of basin volumes. In particular, the weakening narrow-width trajectories above make this distinction consequential.
 
 ![Rotating physical projection of the coexisting regimes](assets/coupled_operators_smooth_coexistence.gif)
 
 <!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/4176154684c5dc49a2990dadb0d3c27916286035/docs/assets/coupled_operators_smooth_coexistence.gif)).*
+*First recorded portrait: **2026-10-29**.*
 <!-- /drawing-date -->
 
 The blue curve closes while the red trajectory visits a band of loops and produces a spread of section points and return intervals. These are physical observables of a six-state model, not a new coordinate transformation of Chua. However, this appearance and coexistence mechanism do not by themselves establish a new topological class or scientific priority.
@@ -199,10 +179,6 @@ Every survivor has positive estimates in all four windows of its last block. The
 At the two narrow widths, periodic capture continues as late as the checkpoint at **18,000 units**, confirmed one block later. At `w=0.04`, all six captures qualify by time 1,000; the other 26 remain irregular for the full observation. Thus the broader-width candidate has substantially stronger persistence evidence, while the narrow-width examples clearly include very long chaotic transients. We have not proved that every surviving narrow-width trajectory will escape, or that the broad-width set is an asymptotic attractor.
 
 ![Finite-time persistence and periodic capture](assets/coupled_operators_lifetimes.png)
-
-<!-- drawing-date -->
-*First recorded drawing: **2026-10-29** ([record](https://github.com/Griboedow/chua-gpu-atlas/blob/d11e10981316a88cae9377aa6923bc51dbf5c940/docs/assets/coupled_operators_lifetimes.png)).*
-<!-- /drawing-date -->
 
 Two new independent CPU controls identify the narrow-width limiting cycles:
 
