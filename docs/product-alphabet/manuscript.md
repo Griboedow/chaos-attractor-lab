@@ -784,7 +784,7 @@ For an L-Lipschitz graph through the origin, the horizontal image is
 strictly decreasing, expands secant lengths by at least $`\mu`$, and
 covers $`[-r_0,r_0]`$. The stable image stays within its allowed box.
 Restricting the image to this horizontal interval defines a graph
-transform. The first inequality bounds its slope; the second displayed
+transform. The ratio $`(C_1+D_1L)/\mu`$ bounds its slope; the next displayed
 line gives its contraction in the uniform norm. The complete space of
 L-Lipschitz graphs through zero therefore has a fixed graph h. Its
 horizontal inverse contracts by at most $`1/\mu`$, so backward G-iterates
