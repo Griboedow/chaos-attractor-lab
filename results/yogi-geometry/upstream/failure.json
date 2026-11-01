@@ -1,0 +1,6 @@
+{
+  "stage": "First20cold-startcomparison beforelongintegration",
+  "error": "AssertionError",
+  "cause": "InstalledOptax0.2.8initializesbothfirstandsecondmoments to1e-6;inspectedmainbranchinitializesfirstmomenttozero. The draft reference incorrectly assumedzero.",
+  "resolution": "Read actual initialized memories from the installed optimizer and retain exact version/source hashes; do not alter upstream behavior."
+}

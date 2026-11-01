@@ -51,3 +51,6 @@ results/motor-five-geometry/** -text whitespace=cr-at-eol
 results/twist-followup/** -text whitespace=cr-at-eol
 results/adamax-geometry/** -text whitespace=cr-at-eol
 results/motor-three-transverse/** -text whitespace=cr-at-eol
+results/yogi-geometry/** -text whitespace=cr-at-eol
+# Preserve inspected upstream source files, including original spacing.
+results/yogi-geometry/source/*.py -whitespace

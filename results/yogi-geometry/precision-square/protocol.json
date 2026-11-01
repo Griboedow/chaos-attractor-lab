@@ -1,0 +1,19 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-scout\\scout.npz",
+  "source_sha256": "6263e0001411ec536f68ad2e0aaf85c7ba042efc3f74b5757c2d13499e4ad3e2",
+  "ids": [
+    7591
+  ],
+  "digits": [
+    70,
+    90
+  ],
+  "warmup": 100000,
+  "alignment": 5000,
+  "observed": 100000,
+  "window": 10000,
+  "method": "Independent scalar recurrence and two finite-separation directions; repeated Euclidean Gram-Schmidt and renormalization each step. No analytic Jacobian or production-map import.",
+  "parameter_semantics": "Exact promotion of the selected binary64 coefficients. Initial state is either exact promotion of all stored coordinates, or an explicitly requested algebraic v0=x0^2 relation evaluated at working precision.",
+  "initialization": "square_relation",
+  "scope": "Finite numerical evidence for leading and second growth, including discontinuity checks; not asymptotic chaos or historical uniqueness."
+}

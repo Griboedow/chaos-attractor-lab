@@ -1,0 +1,11 @@
+{
+  "issue": "Tangent frame initialized as identity on already collapsed fixed-line trajectories. An exactly block-triangular derivative can retain non-generic column ordering or extremely slow alignment from subnormal off-diagonal entries.",
+  "affected_ids": [
+    44,
+    2220,
+    8192,
+    8194
+  ],
+  "scope": "Chaotic-case spectra and one-step residual checks remain valid. Fixed-line rate ordering is revised with a deterministic generic orthonormal initial frame and exact fixed-line eigenvalue controls.",
+  "resolution": "Keep this run and recompute in analysis02."
+}

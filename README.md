@@ -2,6 +2,12 @@
 
 Reproducible investigations of unusual physical and biological oscillator models, deterministic algorithms and constructed maps, using Python, OpenCL parameter surveys and independent CPU checks. **Historical priority remains under review.** The reports distinguish certified periodic dynamics, numerical chaos candidates, known literature results and open hypotheses.
 
+**[Yogi: paired fans, a sunburst, and two expanding directions](docs/yogi-geometry.md).** A published optimizer on a scalar quadratic produces intricate full-state geometry. A separate candidate retains two positive branch growth rates across all 100 windows of a five-million-step run, corroborated by independent 70/90-digit calculations and an actual Optax run. Competing fixed outcomes and a precision-sensitive initialization at the map's discontinuity are retained. These are numerical regimes in a known map; historical uniqueness and asymptotic chaotic attraction remain unresolved.
+
+![Two fixed Yogi state clouds viewed by a rotating orthographic camera](docs/assets/yogi-rotation.gif)
+
+[Large portrait](docs/assets/yogi-geometry.png) · [Evidence for two expanding directions](docs/assets/yogi-two-directions.png) · [Mathematical structure](docs/yogi-structure.md) · [Prior-art and equivalence audit](docs/yogi-priority.md)
+
 **[New visual study: crowns and serrated wings inside Adamax](docs/adamax-geometry.md).** A standard optimizer's internal memory produces intricate full-state geometries on a one-variable quadratic objective. Four-million-step checks, independent 70/90-digit calculations and actual PyTorch runs support persistent chaos. The crown passes every declared cold-start and nearby-setting check; the wings coexist with two reflected 68-cycles. These are numerical candidates in a known algorithm, with historical uniqueness unresolved.
 
 ![Two fixed Adamax state clouds viewed by a rotating orthographic camera](docs/assets/adamax-rotation.gif)

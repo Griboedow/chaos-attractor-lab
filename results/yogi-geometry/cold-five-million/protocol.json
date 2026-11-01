@@ -1,0 +1,22 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-scout\\scout.npz",
+  "sha256": "6263e0001411ec536f68ad2e0aaf85c7ba042efc3f74b5757c2d13499e4ad3e2",
+  "ids": [
+    7590
+  ],
+  "selection": "Visually selected cases44,2220,7591,5174,4214,7158; known later-collapse control4454 and default-pair controls8192/8194.",
+  "starts": [
+    [
+      0.73,
+      0.0,
+      0.0
+    ]
+  ],
+  "bias_corrected_warmup": false,
+  "warmup": 100000,
+  "observed": 5000000,
+  "window": 50000,
+  "tail": 100000,
+  "tangent": "Full3D branch derivative, repeated modified Gram-Schmidt each step; determinant beta1 supplies an independent sum check.",
+  "scope": "The map is discontinuous at v=x^2. Finite branch derivative estimates do not prove asymptotic chaotic attraction or historical novelty."
+}

@@ -1,0 +1,104 @@
+{
+  "source": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-scout\\scout.npz",
+  "source_sha256": "6263e0001411ec536f68ad2e0aaf85c7ba042efc3f74b5757c2d13499e4ad3e2",
+  "reference": "D:\\Codex\\chaos-attractor-search-20261031\\yogi-spectra-five-million\\histories.npz",
+  "reference_sha256": "775e2bebb880724bbaee2ccb6b57384f7438d9e4f5f76296e09cd95b0e013af3",
+  "ids": [
+    44,
+    7590,
+    4214,
+    5174
+  ],
+  "cold_amplitudes": [
+    -1e-06,
+    -7.742636826811277e-06,
+    -5.994842503189409e-05,
+    -0.00046415888336127773,
+    -0.003593813663804626,
+    -0.02782559402207126,
+    -0.21544346900318823,
+    -1.6681005372000557,
+    -12.915496650148826,
+    -100.0,
+    1e-06,
+    7.742636826811277e-06,
+    5.994842503189409e-05,
+    0.00046415888336127773,
+    0.003593813663804626,
+    0.02782559402207126,
+    0.21544346900318823,
+    1.6681005372000557,
+    12.915496650148826,
+    100.0,
+    -0.73,
+    0.73
+  ],
+  "parameter_design": "32 Sobol triples, seed2026110142; multiply(1-b,1-c,e) by exp(.04*(u-.5)), approximately+/-2%.",
+  "state_boxes": [
+    {
+      "id": 44,
+      "lower": [
+        -0.7383146980639325,
+        -0.7069991482335076,
+        0.024528646223203675
+      ],
+      "upper": [
+        0.7392246356032927,
+        0.7080460748113919,
+        0.27156820110929425
+      ],
+      "reference_id": 44
+    },
+    {
+      "id": 7590,
+      "lower": [
+        -0.4886879147182468,
+        -0.12059451307698082,
+        1e-08
+      ],
+      "upper": [
+        0.43204107028306704,
+        0.10023334058239519,
+        0.1772135431263842
+      ],
+      "reference_id": 7591
+    },
+    {
+      "id": 4214,
+      "lower": [
+        -0.8634808603148301,
+        -0.11237270596577474,
+        1e-08
+      ],
+      "upper": [
+        0.8656858031225513,
+        0.11240835191121946,
+        0.7769950965787149
+      ],
+      "reference_id": 4214
+    },
+    {
+      "id": 5174,
+      "lower": [
+        -1.3350590929652277,
+        -0.27779546070992106,
+        1e-08
+      ],
+      "upper": [
+        1.2601298036361441,
+        0.22752953059231681,
+        2.3233236109555735
+      ],
+      "reference_id": 5174
+    }
+  ],
+  "box_design": "64 Sobol triples, seed2026110143, in full3D reference bounding boxes expanded10% on both sides; lower v clipped to1e-8.",
+  "warm": 100000,
+  "observed": 200000,
+  "window": 50000,
+  "tail": 4096,
+  "bias_correction": false,
+  "interpretation": "Every declared run retained. Positive rule: all leading windows>.005,tail x span>1e-4,no lag<=128 closure. Second-direction positivity reported separately.",
+  "support_distance": "Directed Euclidean nearest-neighbor distance to100000 reference states divided by reference extent norm; finite sampled support diagnostic.",
+  "scope": "Finite cohorts, not basin probabilities, an open chaotic region or proof. Cold +/- pairs are exactly symmetry-related, not independent attractor discoveries."
+}

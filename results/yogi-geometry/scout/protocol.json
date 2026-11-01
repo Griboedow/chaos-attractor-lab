@@ -1,0 +1,16 @@
+{
+  "seed": 2026110141,
+  "count": 8202,
+  "alpha": 0.01,
+  "objective": "theta^2/2",
+  "coordinates": "x=theta/alpha,m=M/alpha,v=V/alpha^2",
+  "warmup": 10000,
+  "observed": 20000,
+  "window": 5000,
+  "tail": 512,
+  "design": "4096 Sobol parameter rows plus five controls, each with two prescribed initial second moments. beta1=.02+.97*u; first 2048 beta2=.02+.97*v, remaining beta2=1-10^(-4+3.95*v). Even parameter rows have e=.1; odd rows have e=10^(-6+5*w).",
+  "initialization": "x=.73,m=0; paired v=0 and v=x^2. Autonomous Algorithm2 throughout, no bias correction.",
+  "primary_rule": "Completed; all four leading derivative windows>.005; final-tail x range>1e-4; no tail return at lags1..32 under tolerance1e-9*(1+maximum state magnitude).",
+  "source": "Zaheer et al2018 Algorithm2; source PDF retrieved before implementation. Optax scale_by_yogi inspected separately; it uses bias correction and positive initial accumulator, so this scout does not claim exact cold-start library equality.",
+  "scope": "Discontinuous map; smooth-branch derivative growth is a screening statistic, not an attractor or novelty proof."
+}
