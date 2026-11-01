@@ -1,6 +1,8 @@
 # Portrait conventions
 
-The main README and gallery use one presentation set in `docs/assets/portraits`.
+The main README contains all current portraits from `docs/assets/portraits`.
+Selected findings come first, followed by further portraits grouped by system
+and the research index. There is no separate gallery page.
 The [catalog](../provenance/portrait-catalog.json) identifies each numerical
 source, coordinate selection and report. [Render records](../docs/assets/portraits/render.json)
 give input hashes, sample counts, cameras and display operations. Archived
@@ -26,13 +28,15 @@ no additional trajectory states are inferred. Discrete map images are not
 joined by curves. No symmetry replication, smoothing or synthetic image
 generation is used.
 
-The main-page portraits are 800 by 480 pixel lossless animated WebP files
+Animated main-page portraits are 800 by 480 pixel lossless WebP files
 in the same palette. A rigid camera rotates around the displayed vertical axis
 through 600 views, each shown for 40 milliseconds: 25 frames per second and
 one revolution in 24 seconds. Consecutive camera angles differ by 0.6 degrees. The
 trajectory, labels, spatial bounds and intensity scale remain fixed for the
-whole revolution. There is no simulated time evolution. Each main-page entry
-links to its static portrait; the gallery remains static.
+whole revolution. There is no simulated time evolution. The corresponding
+full-resolution static portrait is embedded directly below each animation.
+Every cataloged study has exactly one static portrait on the main page, with
+its drawing date, coordinate description and evidence link.
 
 [Animation records](../docs/assets/portraits/animation.json) give the source
 hashes, retained states, orthogonal transforms, frame counts and durations.
