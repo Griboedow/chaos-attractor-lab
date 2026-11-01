@@ -5,7 +5,7 @@ compact numerical summaries, certificates and published figures. Large computed
 trajectories, point clouds, histograms and intermediate arrays are optional cache
 data. They are excluded from Git rather than committed after each calculation.
 
-The [payload registry](../provenance/generated-data.json) records each omitted
+The [payload registry](../records/generated-data.json) records each omitted
 file's original path, SHA-256, Git object, byte count, array shapes and retained
 summary keys. The source snapshot is pinned to commit
 `7468bb17bcc19db23103f3204079d0269cbd45e4`. [Compact arrays](../results/compact-data/README.md)
@@ -85,7 +85,7 @@ snapshot and needs about four gigabytes; it is unnecessary for normal browsing.
 
 Keep generated numerical payloads of 256 KiB or more outside Git. Exceptions
 must identify an essential input or explicitly linked evidence. Preserve small
-inputs, final metrics, provenance, code and the figures used in reports. Do not
+inputs, final metrics, source records, code and the figures used in reports. Do not
 replace a full array with a thinned array under the same filename or checksum.
 
 Run `python tools/check_data_storage.py` before publishing. The normal

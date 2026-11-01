@@ -8,7 +8,7 @@
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Large portrait](assets/raar-circles-geometry.png) · [Research manuscript](../papers/raar-circles/manuscript.md) · [Exact structure and certificates](raar-structure.md) · [Prior-art and equivalence audit](raar-priority.md)
+[Large portrait](assets/raar-circles-geometry.png) · [Research manuscript](raar-circles/manuscript.md) · [Exact structure and certificates](raar-structure.md) · [Prior-art and equivalence audit](raar-priority.md)
 
 The unexpected setting is a geometric search algorithm: two circles in different planes have no common point, but repeated relaxed reflections generate intricate bounded spatial clouds. This is a toy feasibility benchmark, not a new algorithm or a physical experiment. The portraits are actual (x,y,z) states, with rigid cameras, equal units and visit-density color. The lines do not represent closed continuous-time orbits: the dynamics is a discrete map.
 

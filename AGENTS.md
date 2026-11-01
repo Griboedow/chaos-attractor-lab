@@ -32,7 +32,7 @@
 - Label stored parameter-set identifiers as `Case <number>` and explain their
   meaning beside the figures. Name physical parameters explicitly; do not put
   unexplained numbers above portraits.
-- Use `provenance/portrait-catalog.json` and `tools/render_portraits.py` for the
+- Use `records/portrait-catalog.json` and `tools/render_portraits.py` for the
   current README portraits. Keep the common layout and palette.
   Render from numerical data, identify projections and physical unit changes,
   and preserve archived originals. Use `--source-portrait` when a new
@@ -46,12 +46,12 @@
   from the same registry, in the user's conversation language.
 - Before publishing portrait changes, run `python tools/render_dates.py sync`
   and `python tools/render_dates.py check`. Captions and the registry at
-  `provenance/render-dates.json` must agree. Old dates reconstructed from Git
+  `records/render-dates.json` must agree. Old dates reconstructed from Git
   remain labeled **First recorded drawing**, not exact rendering timestamps.
 - Keep frozen numerical packets, images and their manifests unchanged when
   adding date captions. Use D: for temporary work and caches where possible.
 
-- Edit manuscripts directly in `papers/<study>/manuscript.md`; use Markdown for
+- Edit manuscripts directly in `docs/<study>/manuscript.md`; use Markdown for
   new manuscripts and reports. Do not commit PDF exports or duplicate prose
   sources in Python/LaTeX. Preserve historical review and manifest records with
   their original scope. Follow `docs/manuscript-editing.md` and run

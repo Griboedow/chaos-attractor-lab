@@ -10,8 +10,8 @@ gap left by the earlier [near-cloud fold certificate](raar-folding.md).
 ![Certified fold location and actual numerical guide](assets/raar-critical-membership.png)
 
 [Mathematical proof](../results/raar-critical-membership/theorem.md) ·
-[Companion article](../papers/raar-critical-membership/manuscript.md) ·
-[Reproduction](../papers/raar-critical-membership/README.md) ·
+[Companion article](raar-critical-membership/manuscript.md) ·
+[Reproduction](raar-critical-membership/README.md) ·
 [Frozen evidence](../results/raar-critical-membership/README.md)
 
 The wire box contains at least one proved fold of K. The colored guide consists

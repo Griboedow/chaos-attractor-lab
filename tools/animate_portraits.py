@@ -124,10 +124,10 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);parser.add_argument('--ids',nargs='*');args=parser.parse_args()
     output=args.output.resolve();output.mkdir(parents=True,exist_ok=True)
     assert output.is_relative_to(ROOT),'Publication animation output must be inside this repository.'
-    catalog=json.loads((ROOT/'provenance/portrait-catalog.json').read_text(encoding='utf-8'));rows=[r for r in catalog['rows'] if r.get('featured') and (not args.ids or r['id'] in args.ids)]
+    catalog=json.loads((ROOT/'records/portrait-catalog.json').read_text(encoding='utf-8'));rows=[r for r in catalog['rows'] if r.get('featured') and (not args.ids or r['id'] in args.ids)]
     results=[]
     for row in rows:results.append(render(row,output))
-    manifest={'schema':1,'renderer_sha256':digest(Path(__file__)),'static_renderer_sha256':digest(ROOT/'tools/render_portraits.py'),'catalog_sha256':digest(ROOT/'provenance/portrait-catalog.json'),'size':[WIDTH,HEIGHT],'format':'Animated WebP, lossless','palette_size':64,'motion':'Rigid camera rotation about the initial vertical axis. State arrays, labels, point selection, physical units and radial bounds are fixed throughout. No time evolution or geometry morphing.','angle':f'2*pi*frame/{FRAMES}, endpoint excluded','rows':results}
+    manifest={'schema':1,'renderer_sha256':digest(Path(__file__)),'static_renderer_sha256':digest(ROOT/'tools/render_portraits.py'),'catalog_sha256':digest(ROOT/'records/portrait-catalog.json'),'size':[WIDTH,HEIGHT],'format':'Animated WebP, lossless','palette_size':64,'motion':'Rigid camera rotation about the initial vertical axis. State arrays, labels, point selection, physical units and radial bounds are fixed throughout. No time evolution or geometry morphing.','angle':f'2*pi*frame/{FRAMES}, endpoint excluded','rows':results}
     manifest['data_resolver_sha256']=digest(ROOT/'tools/data_cache.py')
     (output/'animation.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({'animations':len(results),'total_bytes':sum(r['bytes'] for r in results)}),flush=True)

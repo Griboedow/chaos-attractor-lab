@@ -8,7 +8,7 @@ tmp/
 .publication/
 dist/
 
-# Optional numerical payloads; see provenance/generated-data.json.
+# Optional numerical payloads; see records/generated-data.json.
 /results/adabelief-quadratic/gallery.npz
 /results/adabelief-quadratic/long/run-000.npz
 /results/adabelief-quadratic/long/run-001.npz
@@ -764,7 +764,7 @@ dist/
 /results/yogi-tanh/upstream/case-8205.npz
 /results/yogi-tanh/upstream/case-8223.npz
 
-# Optional fold-membership proposal arrays; see provenance/generated-data.json.
+# Optional fold-membership proposal arrays; see records/generated-data.json.
 /results/raar-critical-membership/runs/raar-critical-crossing-proposal01/window-0.npz
 /results/raar-critical-membership/runs/raar-critical-crossing-proposal01/window-1.npz
 /results/raar-critical-membership/runs/raar-critical-crossing-proposal01/window-2.npz
@@ -920,3 +920,15 @@ dist/
 /papers/raar-critical-membership/content.py
 /research/build_raar_critical_manuscript.py
 /research/audit_raar_critical_manuscript.py
+
+# Duplicate article authoring sources are also excluded from the documentation tree.
+/docs/raar-circles/content.py
+/docs/raar-cycle-structure/content.py
+/docs/raar-folding/content.py
+/docs/raar-symbolic-dynamics/content.py
+/docs/raar-trapping/content.py
+/docs/replication-instability/main.tex
+/docs/rk23-controller/content.py
+/docs/rk45-controller/content.py
+/docs/yogi-memory/content.py
+/docs/raar-critical-membership/content.py

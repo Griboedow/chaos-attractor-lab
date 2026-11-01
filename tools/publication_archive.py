@@ -9,7 +9,7 @@ import subprocess
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-REGISTRY = ROOT / "provenance/publication-archive.json"
+REGISTRY = ROOT / "records/publication-archive.json"
 
 
 def main() -> None:

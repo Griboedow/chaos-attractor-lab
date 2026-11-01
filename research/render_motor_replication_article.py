@@ -51,7 +51,7 @@ def save(fig,out,name,paths):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output',type=Path,default=ROOT/'papers/replication-instability/figures')
+    parser.add_argument('--output',type=Path,default=ROOT/'docs/replication-instability/figures')
     parser.add_argument('--animate',action='store_true')
     args=parser.parse_args();out=args.output.resolve();out.mkdir(parents=True,exist_ok=True)
     attraction=ROOT/'results/motor-cycle-attraction-visual/local-0p03'

@@ -12,7 +12,7 @@ def digest_file(path):
 
 @lru_cache(maxsize=1)
 def registry():
-    return json.loads((ROOT/'provenance/generated-data.json').read_text(encoding='utf-8'))
+    return json.loads((ROOT/'records/generated-data.json').read_text(encoding='utf-8'))
 
 @lru_cache(maxsize=1)
 def records():return {r['path']:r for r in registry()['files']}
@@ -52,7 +52,7 @@ def recorded_hash(path):
     return records()[path.relative_to(ROOT).as_posix()]['sha256']
 
 def portrait_inputs():
-    catalog=json.loads((ROOT/'provenance/portrait-catalog.json').read_text(encoding='utf-8'))
+    catalog=json.loads((ROOT/'records/portrait-catalog.json').read_text(encoding='utf-8'))
     names={p['source'] for row in catalog['rows'] for p in row['panels']}
     animation=json.loads((ROOT/'docs/assets/portraits/animation.json').read_text(encoding='utf-8'))
     for row in animation['rows']:

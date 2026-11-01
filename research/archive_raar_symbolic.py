@@ -32,7 +32,7 @@ The located least-period-49 saddle has a separate 200-digit existence/least-peri
 
 The return scout's legacy `max_excursion` field measures distance from one selected phase of the seven-cycle, not distance from the whole cycle. It is not used as a geometric excursion estimate. The final itinerary figure uses nearest distance to all seven cycle points.
 
-Final figure files are in `runs/raar-symbolic-render02`. Earlier renderings are retained. Run `python research/verify_raar_symbolic.py` from the repository root. See [the report](../../docs/raar-symbolic-dynamics.md) and [manuscript](../../papers/raar-symbolic-dynamics/manuscript.pdf).
+Final figure files are in `runs/raar-symbolic-render02`. Earlier renderings are retained. Run `python research/verify_raar_symbolic.py` from the repository root. See [the report](../../docs/raar-symbolic-dynamics.md) and [manuscript](../../docs/raar-symbolic-dynamics/manuscript.md).
 ''',encoding='utf-8')
     files=[dict(path=p.relative_to(root).as_posix(),bytes=p.stat().st_size,sha256=sha(p)) for p in sorted(root.rglob('*')) if p.is_file()]
     (root/'manifest.json').write_text(json.dumps(dict(files=files),indent=2)+'\n',encoding='utf-8');print(json.dumps(dict(files=len(files),bytes=sum(r['bytes'] for r in files),manifest_sha256=sha(root/'manifest.json'))))

@@ -7,7 +7,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-REGISTRY = ROOT / 'provenance/render-dates.json'
+REGISTRY = ROOT / 'records/render-dates.json'
 IMAGE = re.compile(r'^(!\[[^\]\n]*\]\(([^)\n]+)\))[ \t]*$', re.MULTILINE)
 CAPTION = re.compile(r'\n\n<!-- drawing-date -->\n.*?\n<!-- /drawing-date -->', re.DOTALL)
 

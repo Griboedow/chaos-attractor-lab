@@ -1,4 +1,4 @@
-"""Check tracked-data size policy and optional compact-record provenance."""
+"""Check tracked-data size policy and optional compact-record hashes."""
 from pathlib import Path
 import argparse,json,subprocess
 import numpy as np

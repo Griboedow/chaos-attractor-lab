@@ -3,7 +3,7 @@
 Dates accompany the principal attractor portraits in the README and
 current reports. Spectra, parameter scans, return diagrams and other diagnostic
 figures do not receive drawing-date captions. All records remain in
-[`provenance/render-dates.json`](../provenance/render-dates.json).
+[`records/render-dates.json`](../records/render-dates.json).
 
 Register a new portrait immediately after its first successful render:
 
@@ -24,7 +24,7 @@ not reset its first date. An earlier date requires `--date YYYY-MM-DD --evidence
 <source>`; do not infer it from file-copy timestamps.
 
 For an optional diagnostic record use `--role diagnostic`. Existing diagnostic
-records are retained as provenance but excluded from captions.
+records are retained as records but excluded from captions.
 
 ```text
 python tools/render_dates.py sync

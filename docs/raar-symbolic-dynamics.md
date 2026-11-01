@@ -6,7 +6,7 @@ This establishes chaotic complexity in the exact map. The [later trapping-region
 
 ![Actual reference states and certified cycles](assets/raar-symbolic-geometry.png)
 
-[Manuscript](../papers/raar-symbolic-dynamics/manuscript.md) · [Reproduction](../papers/raar-symbolic-dynamics/README.md) · [Frozen evidence](../results/raar-symbolic-dynamics/README.md) · [Rotate the native geometry](assets/raar-circles-rotation.gif)
+[Manuscript](raar-symbolic-dynamics/manuscript.md) · [Reproduction](raar-symbolic-dynamics/README.md) · [Frozen evidence](../results/raar-symbolic-dynamics/README.md) · [Rotate the native geometry](assets/raar-circles-rotation.gif)
 
 ## Exact model and windows
 

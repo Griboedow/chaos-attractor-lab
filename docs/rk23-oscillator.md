@@ -12,8 +12,8 @@ asymptotic chaotic attraction remain unproved.**
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
-[Research manuscript (Markdown)](../papers/rk23-controller/manuscript.md) ·
-[Proof, evidence and reproduction](../papers/rk23-controller/README.md) ·
+[Research manuscript (Markdown)](rk23-controller/manuscript.md) ·
+[Proof, evidence and reproduction](rk23-controller/README.md) ·
 [Large portrait](assets/rk23-oscillator-geometry.png) ·
 [Independent evidence](assets/rk23-oscillator-evidence.png) ·
 [Initial volumes approaching](assets/rk23-oscillator-approach.png) ·

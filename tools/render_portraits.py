@@ -9,7 +9,7 @@ from matplotlib.colors import LinearSegmentedColormap
 from data_cache import data_path
 
 ROOT=Path(__file__).resolve().parents[1]
-CATALOG=ROOT/'provenance/portrait-catalog.json'
+CATALOG=ROOT/'records/portrait-catalog.json'
 COLOR=LinearSegmentedColormap.from_list('portrait_ink',['#ffffff','#70a9b7','#164e63','#122f42'])
 
 def digest(path):return hashlib.sha256(data_path(path).read_bytes()).hexdigest()

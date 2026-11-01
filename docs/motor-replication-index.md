@@ -1,6 +1,6 @@
 # Exact stability index of the replicated five-cluster cycle
 
-The [research manuscript](../papers/replication-instability/README.md) strengthens the earlier [replication limit](motor-five-replication-limit.md). For every integer `k >= 1`, the cycle embedded in `N=8k` rows has exactly
+The [research manuscript](replication-instability/README.md) strengthens the earlier [replication limit](motor-five-replication-limit.md). For every integer `k >= 1`, the cycle embedded in `N=8k` rows has exactly
 
 ```math
 (u,n,s)=(2k-2,1,22k).
@@ -8,7 +8,7 @@ The [research manuscript](../papers/replication-instability/README.md) strengthe
 
 All stable multipliers satisfy `|mu|<0.13`. Each formerly singleton contrast block has precisely one real multiplier in `(-23.084,-23.083)` and two multipliers within radius `0.13`. Thus the original `N=8` orbit attracts locally, while every enlarged replica is a periodic saddle. The parameters and cluster weights remain fixed. The inherited positive period is certified; its least-period status is unchanged.
 
-![Replication mechanism and the exact unstable count](../papers/replication-instability/figures/figure-3-replication.png)
+![Replication mechanism and the exact unstable count](replication-instability/figures/figure-3-replication.png)
 
 ## New proof step
 
@@ -22,4 +22,4 @@ The tangent space is the direct sum of the 14-dimensional quotient and `km_a-1` 
 
 All [eight predeclared N=16 starts](../results/motor-replication-article/nonlinear/protocol.json) are retained: both new blocks, both signs, and perturbation norms `1e-6` and `1e-8`. Full47D integrations reproduce amplification and sign reversal. At the first three returns, all smaller-amplitude predictions agree to relative error below `1e-6`. Tighter DOP853 histories and an independent Radau control pass. These numerical illustrations do not classify the eventual destinations or establish a nonlinear basin bound.
 
-Earlier proof files, source snapshots and raw data are unchanged. The manuscript's [claim map and reproduction guide](../papers/replication-instability/README.md), [literature positioning](../papers/replication-instability/priority-and-positioning.md), vector figures and rotating GIF accompany the new evidence.
+Earlier proof files, source snapshots and raw data are unchanged. The manuscript's [claim map and reproduction guide](replication-instability/README.md), [literature positioning](replication-instability/priority-and-positioning.md), vector figures and rotating GIF accompany the new evidence.

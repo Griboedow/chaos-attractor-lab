@@ -1,7 +1,7 @@
 # Compact numerical records
 
 These archives retain inputs and small numerical summaries from the optional
-large payloads listed in [`provenance/generated-data.json`](../../provenance/generated-data.json).
+large payloads listed in [`records/generated-data.json`](../../records/generated-data.json).
 A filename is the SHA-256 of its original full archive. Identical full archives
 share one compact record.
 

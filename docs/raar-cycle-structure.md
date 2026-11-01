@@ -1,6 +1,6 @@
 # Periodic structure behind the serrated RAAR arch
 
-[Six-page companion note](../papers/raar-cycle-structure/manuscript.md) · [Reproduction](../papers/raar-cycle-structure/README.md) · [Base study](raar-circles.md) · [Rotation](assets/raar-circles-rotation.gif) · [Priority audit](raar-priority.md)
+[Six-page companion note](raar-cycle-structure/manuscript.md) · [Reproduction](raar-cycle-structure/README.md) · [Base study](raar-circles.md) · [Rotation](assets/raar-circles-rotation.gif) · [Priority audit](raar-priority.md)
 
 The selected R1051 arch contains a visible seven-fold arrangement. A certified unstable seven-cycle lies near its seven characteristic tips. Nearby parameter settings have certified attracting cycles of least periods **7, 14, 28 and 56**. These concrete results explain part of the observed structure; they do not establish a new chaos mechanism or historical uniqueness.
 

@@ -75,7 +75,7 @@ The same explicit comparison does not identify the full flows. On 10,000 frozen 
 
 ## Evidence and reproduction
 
-[Frozen packet](../results/icosahedral-returns/README.md) · [Portable stages](../research/icosahedral_returns/README.md) · [Drawing date records](../provenance/render-dates.json)
+[Frozen packet](../results/icosahedral-returns/README.md) · [Portable stages](../research/icosahedral_returns/README.md) · [Drawing date records](../records/render-dates.json)
 
 ```text
 python research/verify_icosahedral_returns.py --scratch D:/Codex/verify-icosahedral-returns

@@ -25,9 +25,9 @@ results/motor-five-replication-proof/** -text
 results/motor-original-seed-log/** -text
 results/motor-cycle-attraction-visual/** -text
 results/motor-replication-article/** -text whitespace=cr-at-eol
-papers/replication-instability/** -text whitespace=cr-at-eol
+docs/replication-instability/** -text whitespace=cr-at-eol
 # Native Matplotlib SVG path formatting contains intentional trailing spaces.
-papers/replication-instability/figures/*.svg -whitespace
+docs/replication-instability/figures/*.svg -whitespace
 docs/assets/motor-cycle-attraction.json -text
 # This executed wrapper is also hashed in its frozen source snapshot.
 research/motor_log_original_scalar_audit.py -text
@@ -64,26 +64,26 @@ results/adadelta-cycle-audit/** -text whitespace=cr-at-eol
 results/yogi-smoothing/** -text whitespace=cr-at-eol
 results/yogi-tanh/** -text whitespace=cr-at-eol
 results/yogi-tanh/source/*.py -whitespace
-papers/yogi-memory/** -text whitespace=cr-at-eol
+docs/yogi-memory/** -text whitespace=cr-at-eol
 # Preserve the generated SVG path formatting alongside its frozen hash.
-papers/yogi-memory/figures/*.svg -whitespace
+docs/yogi-memory/figures/*.svg -whitespace
 results/rk23-controller/** -text whitespace=cr-at-eol
 results/rk23-controller/**/installed-rk.py -whitespace
 results/rk23-controller/source/*.c -whitespace
-papers/rk23-controller/** -text whitespace=cr-at-eol
+docs/rk23-controller/** -text whitespace=cr-at-eol
 results/rk45-controller/** -text whitespace=cr-at-eol
 results/rk45-controller/**/installed-rk.py -whitespace
-papers/rk45-controller/** -text whitespace=cr-at-eol
+docs/rk45-controller/** -text whitespace=cr-at-eol
 research/*rk45*.py -text whitespace=cr-at-eol
 results/raar-circles/** -text whitespace=cr-at-eol
 results/raar-circles/upstream/** -whitespace
 results/raar-circles/upstream-source/** -whitespace
-papers/raar-circles/** -text whitespace=cr-at-eol
+docs/raar-circles/** -text whitespace=cr-at-eol
 research/*raar*.py -text whitespace=cr-at-eol
 results/raar-cycle-structure/** -text whitespace=cr-at-eol
-papers/raar-cycle-structure/** -text whitespace=cr-at-eol
+docs/raar-cycle-structure/** -text whitespace=cr-at-eol
 results/raar-folding/** -text whitespace=cr-at-eol
-papers/raar-folding/** -text whitespace=cr-at-eol
+docs/raar-folding/** -text whitespace=cr-at-eol
 results/raar-phase-classes/** -text whitespace=cr-at-eol
 results/raar-priority-extension/** -text whitespace=cr-at-eol
 results/raar-fold-certificate/** -text whitespace=cr-at-eol
@@ -94,7 +94,7 @@ results/attractor-novelty/reference/dysts-flows.py -whitespace
 results/attractor-novelty/reference/README-atlas-upstream.md -whitespace
 results/attractor-novelty/reference/LICENSE-*.txt -whitespace
 results/raar-symbolic-dynamics/** -text whitespace=cr-at-eol
-papers/raar-symbolic-dynamics/** -text whitespace=cr-at-eol
+docs/raar-symbolic-dynamics/** -text whitespace=cr-at-eol
 results/unexpected-search/** -text whitespace=cr-at-eol
 research/unexpected_search/** -text whitespace=cr-at-eol
 research/verify_unexpected_search.py -text whitespace=cr-at-eol
@@ -120,14 +120,14 @@ results/icosahedral-returns/** -text whitespace=cr-at-eol,-blank-at-eof
 research/icosahedral_returns/** -text whitespace=cr-at-eol,-blank-at-eof
 research/verify_icosahedral_returns.py -text whitespace=cr-at-eol,-blank-at-eof
 results/raar-trapping/** -text whitespace=cr-at-eol,-blank-at-eof
-papers/raar-trapping/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/raar-trapping/** -text whitespace=cr-at-eol,-blank-at-eof
 # Preserve the exact executed interval sources, including their final blank lines.
 research/raar_interval_offset_grid.py whitespace=cr-at-eol,-blank-at-eof
 research/raar_interval_offset_grid_fast.py whitespace=cr-at-eol,-blank-at-eof
 research/raar_interval_scalar.py whitespace=cr-at-eol,-blank-at-eof
 
 results/raar-critical-membership/** -text whitespace=cr-at-eol,-blank-at-eof
-papers/raar-critical-membership/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/raar-critical-membership/** -text whitespace=cr-at-eol,-blank-at-eof
 results/raar-priority-flow-limit/** -text whitespace=cr-at-eol,-blank-at-eof
 results/raar-constellations/** -text whitespace=cr-at-eol,-blank-at-eof
 results/cyclic-raar-search/** -text whitespace=cr-at-eol,-blank-at-eof

@@ -1,6 +1,6 @@
-"""Check presentation provenance, retained sample counts, dates and local links."""
+"""Check figure records, retained sample counts, dates and local links."""
 from pathlib import Path
-import argparse,json,re,subprocess,sys
+import argparse,hashlib,json,re,subprocess,sys
 import numpy as np
 from PIL import Image
 from render_portraits import prepare,digest,panel_label
@@ -12,12 +12,27 @@ parser.add_argument('--with-data',action='store_true',help='Recompute counts and
 args=parser.parse_args()
 
 ROOT=Path(__file__).resolve().parents[1]
-catalog=json.loads((ROOT/'provenance/portrait-catalog.json').read_text(encoding='utf-8'))
+
+def rendering_source_matches(name, recorded_sha256):
+    """Accept an original render source only after verifying its path-only edit."""
+    data=(ROOT/name).read_bytes()
+    current=hashlib.sha256(data).hexdigest()
+    if current==recorded_sha256:return True
+    changes=json.loads((ROOT/'records/layout-change.json').read_text(encoding='utf-8'))['path_only_sources']
+    row=next((r for r in changes if r['path']==name),None)
+    if row is None or row['before_sha256']!=recorded_sha256 or row['after_sha256']!=current:return False
+    for edit in reversed(row['replacements']):
+        before,after=edit['before'].encode(),edit['after'].encode()
+        if data.count(after)!=edit['count']:return False
+        data=data.replace(after,before)
+    return hashlib.sha256(data).hexdigest()==recorded_sha256
+
+catalog=json.loads((ROOT/'records/portrait-catalog.json').read_text(encoding='utf-8'))
 render=json.loads((ROOT/'docs/assets/portraits/render.json').read_text(encoding='utf-8'))
-ledger=json.loads((ROOT/'provenance/render-dates.json').read_text(encoding='utf-8'))
-assert render['catalog_sha256']==digest(ROOT/'provenance/portrait-catalog.json')
-assert render['renderer_sha256']==digest(ROOT/'tools/render_portraits.py')
-assert render['data_resolver_sha256']==digest(ROOT/'tools/data_cache.py')
+ledger=json.loads((ROOT/'records/render-dates.json').read_text(encoding='utf-8'))
+assert render['catalog_sha256']==digest(ROOT/'records/portrait-catalog.json')
+assert rendering_source_matches('tools/render_portraits.py',render['renderer_sha256'])
+assert rendering_source_matches('tools/data_cache.py',render['data_resolver_sha256'])
 assert [r['id'] for r in render['rows']]==[r['id'] for r in catalog['rows']]
 panels=0
 for study,saved in zip(catalog['rows'],render['rows']):
@@ -41,10 +56,10 @@ for study,saved in zip(catalog['rows'],render['rows']):
             assert int(hist.sum())==expected['rendered_count']==expected['original_count']
             for key,value in actual.items():assert value==expected[key],(study['id'],key)
 animation=json.loads((ROOT/'docs/assets/portraits/animation.json').read_text(encoding='utf-8'))
-assert animation['renderer_sha256']==digest(ROOT/'tools/animate_portraits.py')
-assert animation['static_renderer_sha256']==digest(ROOT/'tools/render_portraits.py')
-assert animation['catalog_sha256']==digest(ROOT/'provenance/portrait-catalog.json')
-assert animation['data_resolver_sha256']==digest(ROOT/'tools/data_cache.py')
+assert rendering_source_matches('tools/animate_portraits.py',animation['renderer_sha256'])
+assert rendering_source_matches('tools/render_portraits.py',animation['static_renderer_sha256'])
+assert animation['catalog_sha256']==digest(ROOT/'records/portrait-catalog.json')
+assert rendering_source_matches('tools/data_cache.py',animation['data_resolver_sha256'])
 featured=[r for r in catalog['rows'] if r.get('featured')]
 assert [r['id'] for r in animation['rows']]==[r['id'] for r in featured]
 for study,saved in zip(featured,animation['rows']):

@@ -3,10 +3,16 @@
 The main README contains all current portraits from `docs/assets/portraits`.
 Selected findings come first, followed by further portraits grouped by system
 and the research index. There is no separate gallery page.
-The [catalog](../provenance/portrait-catalog.json) identifies each numerical
+The [catalog](../records/portrait-catalog.json) identifies each numerical
 source, coordinate selection and report. [Render records](../docs/assets/portraits/render.json)
 give input hashes, sample counts, cameras and display operations. Archived
 figures and numerical evidence retain their original bytes.
+
+The [folder-change record](../records/layout-change.json) records the rename of
+the record directory. Original render-source hashes remain unchanged in the
+figure receipts. The checker accepts those sources only when reversing the
+recorded path substitutions reproduces their exact original hashes; any other
+source edit requires a new render receipt.
 
 Static portraits are 1920 by 1080 pixels, with a white background, one blue density
 palette, the same typography and fixed label positions. Panel labels identify

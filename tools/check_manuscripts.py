@@ -13,8 +13,12 @@ LINK = re.compile(r"\]\(([^\s)]+)\)")
 
 def main() -> None:
     failures = []
-    manuscripts = sorted((ROOT / "papers").glob("*/manuscript.md"))
-    expected = {v["paper"] for v in json.loads((ROOT / "provenance/markdown-migration.json").read_text(encoding="utf-8"))["manuscripts"]}
+    manuscripts = sorted((ROOT / "docs").glob("*/manuscript.md"))
+    tracked = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
+    old_paths = [p for p in tracked if p.startswith(("papers/", "provenance/")) or p == "PROVENANCE.md"]
+    if old_paths:
+        failures.append("Stage the documentation and records moves; old root directories remain tracked.")
+    expected = {v["paper"] for v in json.loads((ROOT / "records/markdown-migration.json").read_text(encoding="utf-8"))["manuscripts"]}
     actual = {p.parent.name for p in manuscripts}
     if expected - actual:
         failures.append(f"Missing migrated manuscripts: {sorted(expected - actual)}")
@@ -35,8 +39,8 @@ def main() -> None:
         for target in LINK.findall(text):
             if target.startswith("#") and target[1:] not in anchors:
                 failures.append(f"{name}: missing explicit manuscript anchor {target}")
-    documents = [ROOT / "README.md", ROOT / "papers/README.md", ROOT / "docs/manuscript-editing.md"]
-    documents += manuscripts + sorted((ROOT / "papers").glob("*/README.md"))
+    documents = [ROOT / "README.md", ROOT / "RECORDS.md", ROOT / "docs/README.md", ROOT / "docs/manuscript-editing.md"]
+    documents += manuscripts + sorted((ROOT / "docs").glob("*/README.md"))
     links = 0
     for path in documents:
         for target in LINK.findall(path.read_text(encoding="utf-8")):
@@ -49,13 +53,12 @@ def main() -> None:
                 failures.append(f"{path.relative_to(ROOT)}: missing local target {target}")
             if local.suffix.lower() == ".pdf":
                 failures.append(f"{path.relative_to(ROOT)}: local PDF link {target}")
-    tracked = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
     # A staged deletion is absent from the index; an unstaged deletion is absent on disk.
     pdfs = [p for p in tracked if p.lower().endswith(".pdf") and (ROOT / p).exists()]
     if pdfs:
         failures.append(f"Tracked PDF artifacts: {pdfs}")
     for pattern in ("*/content.py", "*/main.tex"):
-        for path in (ROOT / "papers").glob(pattern):
+        for path in (ROOT / "docs").glob(pattern):
             if path.relative_to(ROOT).as_posix() in tracked:
                 failures.append(f"Duplicate manuscript source: {path.relative_to(ROOT)}")
     if failures:
