@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "numba": "0.68.1",
+    "matplotlib": "3.11.2",
+    "pillow": "13.0.0",
+    "dysts": "0.95",
+    "tqdm": "4.70.1"
+  },
+  "dysts_git_commit": "2a03f1ae7b0680b0470458783dcb4664660e131a",
+  "temporary_storage": "D: drive",
+  "scout_sobol_seed": 20261108,
+  "threads": 4,
+  "search": {
+    "rows": 1024,
+    "warm_steps": 10000,
+    "observed_steps": 20000,
+    "h": 0.025,
+    "stored_points_per_lane": 2000,
+    "start": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "positive_rule": "minimum of four leading-exponent windows > 0.005 AND terminal speed > 0.0001"
+  },
+  "followup": {
+    "rows": 45,
+    "warm_steps": 40000,
+    "observed_steps": 160000,
+    "h": 0.0125,
+    "stored_points_per_lane": 40000,
+    "start": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "retained_rule": "minimum of four leading-exponent windows > 0.005"
+  },
+  "selection": "77, 233, 738 selected visually after dense follow-up; 77 chosen for primary image. No novelty score was used to cherry-pick the search."
+}

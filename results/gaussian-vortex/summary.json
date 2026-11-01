@@ -1,0 +1,108 @@
+{
+  "long_runs": [
+    {
+      "candidate_id": 77,
+      "h": 0.0125,
+      "spectrum": [
+        0.03322524232396594,
+        0.00010225714506347346,
+        -0.5900538631162453
+      ],
+      "minimum_leading_window": 0.02643269574330753,
+      "maximum_abs_divergence_error": 9.487850838318934e-09,
+      "max_observed_radius": 2.694341329825972
+    },
+    {
+      "candidate_id": 77,
+      "h": 0.00625,
+      "spectrum": [
+        0.03284305715474906,
+        3.936873016078903e-05,
+        -0.5896087808161583
+      ],
+      "minimum_leading_window": 0.01832438157937495,
+      "maximum_abs_divergence_error": 6.195034485401152e-10,
+      "max_observed_radius": 2.694344561788514
+    },
+    {
+      "candidate_id": 233,
+      "h": 0.0125,
+      "spectrum": [
+        0.20743627951440577,
+        5.4826910388328607e-05,
+        -0.6132348644275818
+      ],
+      "minimum_leading_window": 0.17817006723066023,
+      "maximum_abs_divergence_error": 8.957127495268224e-08,
+      "max_observed_radius": 3.8449708102114415
+    },
+    {
+      "candidate_id": 233,
+      "h": 0.00625,
+      "spectrum": [
+        0.19688415433712667,
+        5.205785532067458e-05,
+        -0.6026799056699114
+      ],
+      "minimum_leading_window": 0.1619683633758665,
+      "maximum_abs_divergence_error": 6.7067691400524154e-09,
+      "max_observed_radius": 3.844988651591605
+    },
+    {
+      "candidate_id": 738,
+      "h": 0.0125,
+      "spectrum": [
+        0.12280753048550758,
+        -2.221045594175721e-05,
+        -0.8853333233327048
+      ],
+      "minimum_leading_window": 0.08828000168335974,
+      "maximum_abs_divergence_error": 6.471142854902467e-08,
+      "max_observed_radius": 2.2923458197642526
+    },
+    {
+      "candidate_id": 738,
+      "h": 0.00625,
+      "spectrum": [
+        0.12216390280938542,
+        1.1855434240210703e-05,
+        -0.8847238008868815
+      ],
+      "minimum_leading_window": 0.09356922972664845,
+      "maximum_abs_divergence_error": 4.618685878199358e-09,
+      "max_observed_radius": 2.2923801040165244
+    }
+  ],
+  "render_spectrum": [
+    0.03212211673387851,
+    7.455666358850876e-06,
+    -0.5888559273317938
+  ],
+  "render_minimum_leading_window": 0.01989975236559227,
+  "render_max_observed_radius": 2.6943451212271463,
+  "cohorts": {
+    "fresh-starts": {
+      "count": 16,
+      "positive_all_windows": 12,
+      "below_gate_indices": [
+        4,
+        6,
+        8,
+        12
+      ],
+      "gate": "Every 500-time-unit leading-exponent window > 0.005",
+      "maximum_abs_divergence_error": 9.514455778791842e-09
+    },
+    "neighbors": {
+      "count": 13,
+      "positive_all_windows": 10,
+      "below_gate_indices": [
+        2,
+        8,
+        10
+      ],
+      "gate": "Every 500-time-unit leading-exponent window > 0.005",
+      "maximum_abs_divergence_error": 9.977586756804158e-09
+    }
+  }
+}
