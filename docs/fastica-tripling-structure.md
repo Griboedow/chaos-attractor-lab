@@ -12,6 +12,11 @@ restricted map `F|K` is noninjective, identify the topology of `K`, or rule out
 a conjugacy defined only on invariant sets. The argument also does not locate
 or classify a particular Whitney fold.
 
+A [certified preimage check](fastica-preimage-rejection.md) demonstrates this
+distinction: one extra preimage lies in the trapping torus but outside its
+image, hence outside the attracting set. That collision does not establish
+noninjectivity of the restricted map.
+
 [Exact checks and reproduction](../results/fastica-local-injectivity/README.md) ·
 [Construction and entropy theorem](fastica-tripling.md) ·
 [Main-page portraits](../README.md#structured-data-fastica)
