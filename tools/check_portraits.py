@@ -143,4 +143,5 @@ assert not re.search(r'^!\[',additional.split('\n## Research index\n',1)[1],re.M
 assert not (ROOT/'docs/attractor-gallery.md').exists(),'The README is the canonical portrait collection.'
 assert 'docs/attractor-gallery.md' not in ledger['caption_documents']
 subprocess.run([sys.executable,str(ROOT/'tools/render_dates.py'),'check'],check=True)
+subprocess.run([sys.executable,str(ROOT/'tools/portrait_equations.py'),'check'],check=True)
 print(json.dumps({'families':len(catalog['rows']),'panels':panels,'main_static_portraits':len(static_images),'main_animations':len(animated_images),'local_links':links,'input_receipts':'passed','animation_checks':'passed','input_recomputation':'passed' if args.with_data else 'not requested','icosahedral_sample_match':'bitwise' if args.with_data else 'not requested'}))

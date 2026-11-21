@@ -1,0 +1,28 @@
+[
+  {
+    "id": "shapes-20261121-cubic",
+    "title": "Triple links selected by a driven cubic",
+    "group": "Shape search of 2026-11-21",
+    "track": "cubic-frontier",
+    "view": [
+      29,
+      15
+    ],
+    "featured": true,
+    "all_components": true,
+    "description": "Cases 47087142 and 48000003 use a single driven cubic to determine all three sheets. In the degree-two return map each sheet contains a chaotic solenoid. The triples have absolute core linking invariants one and three and are inequivalent in three-space.",
+    "coordinates": "Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,000 consecutive states per component. The rotation includes all three components.",
+    "cases": [
+      {
+        "case": 47087142,
+        "cloud": "frontiers/cubic/case-47087142.npz",
+        "reproduce": "python research/shape_search_20261121/frontiers/cubic/sample.py results/shape_search_20261121/frontiers/cubic/certificates.json --cases 47087142 --out RUN/frontiers/cubic --manifest RUN/cubic-replay.json"
+      },
+      {
+        "case": 48000003,
+        "cloud": "frontiers/cubic/case-48000003.npz",
+        "reproduce": "python research/shape_search_20261121/frontiers/cubic/sample.py results/shape_search_20261121/frontiers/cubic/certificates.json --cases 48000003 --out RUN/frontiers/cubic --manifest RUN/cubic-replay.json"
+      }
+    ]
+  }
+]

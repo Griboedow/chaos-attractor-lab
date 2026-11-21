@@ -1,0 +1,750 @@
+{
+  "cache_root": "D:\\Codex\\chaos-attractor-cache\\shape-search-20261121",
+  "case": 180844,
+  "parameters": [
+    7.0,
+    1.202576906027744,
+    -0.5732787999438418,
+    -0.8140901063542096,
+    1.7370637864372105,
+    -0.17822146970368546,
+    0.7027899675496161,
+    0.1728854718184622,
+    -0.3565729815035729,
+    -1.6408334890398675,
+    -3.010340964085613
+  ],
+  "coordinate": "Cartesian (x,y,z), native units",
+  "data_files": [
+    {
+      "cache_relative": "frontiers/flows/adaptive-DOP853.npz",
+      "sha256": "afd92dc5bacdcec5a186f2c8e0334036264b8f96c9904c54f2030731db4a18b8",
+      "bytes": 4576
+    },
+    {
+      "cache_relative": "frontiers/flows/adaptive-RK45.npz",
+      "sha256": "bba1642e14ecaf5d5f0e8b3f781b75fa0fe044e9ecf51f75e7b60bb710ffafe5",
+      "bytes": 1438
+    },
+    {
+      "cache_relative": "frontiers/flows/adaptive.json",
+      "sha256": "69391202a6d8cf4245e6d42d18fffe32f07b90a2702f8c0e0c1d7020e417836f",
+      "bytes": 1147
+    },
+    {
+      "cache_relative": "frontiers/flows/affine-center-positive-area.json",
+      "sha256": "c81a80d539d41870a31a14cce789d0a498a86ca484968343832a866343e93f76",
+      "bytes": 2713
+    },
+    {
+      "cache_relative": "frontiers/flows/affine-center.json",
+      "sha256": "7173013f3fe68c2b26784f7b5f5f3bcc9ef0d5a9a92f4cb32b88192f89ae52b3",
+      "bytes": 121
+    },
+    {
+      "cache_relative": "frontiers/flows/affine-normal.json",
+      "sha256": "10c7b4a26626dc96124773627f4af409850949b627e238fea0038517e50f7af2",
+      "bytes": 230
+    },
+    {
+      "cache_relative": "frontiers/flows/affine-refined.json",
+      "sha256": "0657931317f5841aebc1292747429ac76663553a3c34729d78656cb3d0ca8283",
+      "bytes": 2690
+    },
+    {
+      "cache_relative": "frontiers/flows/affine-right-positive-area.json",
+      "sha256": "2b917c614e8117a1c70f3caf4db846621e496ea21b661468d17248b3a2b30439",
+      "bytes": 2713
+    },
+    {
+      "cache_relative": "frontiers/flows/affine-tiny.json",
+      "sha256": "2b9fb65e7eef25a1880dab8b722af3dc0757007b340d93f32a6e7cf71073cfe1",
+      "bytes": 227
+    },
+    {
+      "cache_relative": "frontiers/flows/arb-center.json",
+      "sha256": "9d8a0dfbc64e27c7b8dcff690ec3d0e1ccd7cc3a86dc087d0ac28a0f3cb6381e",
+      "bytes": 2894
+    },
+    {
+      "cache_relative": "frontiers/flows/arb-edge.json",
+      "sha256": "50020b747c57145cf249229547d136b2760b656b668cb7b961deff97d1930ba5",
+      "bytes": 2895
+    },
+    {
+      "cache_relative": "frontiers/flows/arb-expanded.json",
+      "sha256": "5d9e112c247798c40fd8284be899c644e5227c4d1fa29a37dba0beaf5f68da3e",
+      "bytes": 185
+    },
+    {
+      "cache_relative": "frontiers/flows/arb-fold.json",
+      "sha256": "97880bab7562103793d07a57c194225c769c85caec028773b4579ef8f5570943",
+      "bytes": 2892
+    },
+    {
+      "cache_relative": "frontiers/flows/arb-right.json",
+      "sha256": "f1ef8124811201752daec08ced82c2c8d0733501fb8837cf68fa808e556b8f15",
+      "bytes": 2890
+    },
+    {
+      "cache_relative": "frontiers/flows/ensemble-summary.json",
+      "sha256": "77ef75c0726a6f9e0d31cedd5e549c5230529dbe5b66e9617272b60156c32968",
+      "bytes": 77848
+    },
+    {
+      "cache_relative": "frontiers/flows/reduced-n2049-l17-h0.00625.json",
+      "sha256": "ffb4341e320e13936d87ca7a7b2bae9cbd7156be97918d597c079a7d9e5c3c5b",
+      "bytes": 632
+    },
+    {
+      "cache_relative": "frontiers/flows/reduced-n2049-l17-h0.00625.npz",
+      "sha256": "9098495576cb082471dedc5b2076b4bdda5cba8284376e68ee5fda7ad302d5e0",
+      "bytes": 850728
+    },
+    {
+      "cache_relative": "frontiers/flows/reduced-small.npz",
+      "sha256": "855b43a29c8590908a10ff08470274dcab38786d664408a0c807fab632b440aa",
+      "bytes": 560117
+    },
+    {
+      "cache_relative": "frontiers/flows/s000-h0.0125-t90000.npz",
+      "sha256": "e3b77674c26a84beee1d1face68050767acb36ad56093b04744ad932883057e2",
+      "bytes": 216049
+    },
+    {
+      "cache_relative": "frontiers/flows/s000-h0.02-t90000.npz",
+      "sha256": "b870d26c404c187d7a2b7f0d314f6ea767e6621858b4c52562631aa55ecac22b",
+      "bytes": 216018
+    },
+    {
+      "cache_relative": "frontiers/flows/s001-h0.0125-t90000.npz",
+      "sha256": "2a87d8cfe0643a4635afca4ffb110b7aade1a13c9a1630d73ec33209642cf53c",
+      "bytes": 216155
+    },
+    {
+      "cache_relative": "frontiers/flows/s001-h0.02-t90000.npz",
+      "sha256": "2261739d2e41d628598d96e290e29137474c81e4b20b1648d73cec4453db5e8e",
+      "bytes": 216080
+    },
+    {
+      "cache_relative": "frontiers/flows/s002-h0.0125-t90000.npz",
+      "sha256": "165fd56f6a6bc3021cb058cee8759c47be5222979b66c958a607658db793537d",
+      "bytes": 216134
+    },
+    {
+      "cache_relative": "frontiers/flows/s002-h0.02-t90000.npz",
+      "sha256": "6a79ce1a91d25299bc1795c3e38db8ef060efc8d8b38acc08a21c4b371f39435",
+      "bytes": 216069
+    },
+    {
+      "cache_relative": "frontiers/flows/s003-h0.0125-t90000.npz",
+      "sha256": "b749b5c80a85454580a4d2f56e583b817210ac5ffb362dac3e7e5f4b810886d2",
+      "bytes": 216118
+    },
+    {
+      "cache_relative": "frontiers/flows/s003-h0.02-t90000.npz",
+      "sha256": "4e6b799647bc7fb75b0c8a5e67960a0e8f803d99bef13a160fcc2efd397965d3",
+      "bytes": 216165
+    },
+    {
+      "cache_relative": "frontiers/flows/s004-h0.0125-t90000.npz",
+      "sha256": "bddafe9009e0412266849c139a14e6a1f0c056562c16e294090e0e9cf7afc6f2",
+      "bytes": 216083
+    },
+    {
+      "cache_relative": "frontiers/flows/s004-h0.02-t90000.npz",
+      "sha256": "60bd322c53c2093b18b00c4f3a927054003872a9e0079b3519bbce54f991f979",
+      "bytes": 216164
+    },
+    {
+      "cache_relative": "frontiers/flows/s005-h0.0125-t90000.npz",
+      "sha256": "ffee9b57bffd5a5257f8bdbb1c26be2ec1eb2ba8b5f93aba9241ee5359f058d1",
+      "bytes": 216162
+    },
+    {
+      "cache_relative": "frontiers/flows/s005-h0.02-t90000.npz",
+      "sha256": "9aadaff43903bf03d1aabb2f497d56c5bee49cab90069022abb5b9abadc13f49",
+      "bytes": 216158
+    },
+    {
+      "cache_relative": "frontiers/flows/s006-h0.0125-t90000.npz",
+      "sha256": "9a903e00f4e2d4fde1cef5d8bfa988984ccc350016ac20e55ed5b10138513c61",
+      "bytes": 216043
+    },
+    {
+      "cache_relative": "frontiers/flows/s006-h0.02-t90000.npz",
+      "sha256": "2d70984f21a09f72823243b0d457e7c50d61224c78bdc232c370f1f51d37d2e5",
+      "bytes": 216237
+    },
+    {
+      "cache_relative": "frontiers/flows/s007-h0.0125-t90000.npz",
+      "sha256": "7322d6c4565bb72ad408134993efcb336cf875beab1c6e8f3ac4facf3f3534cb",
+      "bytes": 216146
+    },
+    {
+      "cache_relative": "frontiers/flows/s007-h0.02-t90000.npz",
+      "sha256": "b7a8bdc3b96f41a87e96cc935fa78b051e1a5566bcd314055ae6107230e51272",
+      "bytes": 216024
+    },
+    {
+      "cache_relative": "frontiers/flows/s008-h0.0125-t90000.npz",
+      "sha256": "706ab790965d62e69ea6bbc8ddfcc04b5ae1a343739898eccd1892f988f52f99",
+      "bytes": 216130
+    },
+    {
+      "cache_relative": "frontiers/flows/s008-h0.02-t90000.npz",
+      "sha256": "d98285ff5553135e2a2fd18ece7b84e6a93ad1e5ec937351cb773db7f7be2d69",
+      "bytes": 216170
+    },
+    {
+      "cache_relative": "frontiers/flows/s009-h0.0125-t90000.npz",
+      "sha256": "4e21121c8b76134b2282451732120af1deaecbe603efd1a350834f54bd0d9b17",
+      "bytes": 216146
+    },
+    {
+      "cache_relative": "frontiers/flows/s009-h0.02-t90000.npz",
+      "sha256": "f92881208652360afdbf7c5fa1ddbf68ba7eee3c0b6aba3bc18d483967f3831e",
+      "bytes": 216078
+    },
+    {
+      "cache_relative": "frontiers/flows/s010-h0.0125-t90000.npz",
+      "sha256": "42f206b5fb0e16f15d3e75331491e7b894ff2bc34d5499f5e356987e215c2d98",
+      "bytes": 216062
+    },
+    {
+      "cache_relative": "frontiers/flows/s010-h0.02-t90000.npz",
+      "sha256": "4494e8d1a30061b5ce9966ca6f794d5b259266b448d2c2000ed33e40bb715ef0",
+      "bytes": 216137
+    },
+    {
+      "cache_relative": "frontiers/flows/s011-h0.0125-t90000.npz",
+      "sha256": "39466ad888a0fe9183b869cd011a77196921f10a18113ff2bca55d4d765d3d6b",
+      "bytes": 216186
+    },
+    {
+      "cache_relative": "frontiers/flows/s011-h0.02-t90000.npz",
+      "sha256": "1a4c1c1657438a2d35f4903fe9c12243095cdd1549ac0251a31bfcec626bbca6",
+      "bytes": 216091
+    },
+    {
+      "cache_relative": "frontiers/flows/s012-h0.0125-t90000.npz",
+      "sha256": "777f4981ec8f56668536a85f6f0f517d967702129bfe52a4b97395d94debe9bb",
+      "bytes": 216208
+    },
+    {
+      "cache_relative": "frontiers/flows/s012-h0.02-t90000.npz",
+      "sha256": "b02e3bb49dde982a8ca45a8a37ad46c3891d9c2fc94a3001a3edc59db9a5aa3f",
+      "bytes": 216065
+    },
+    {
+      "cache_relative": "frontiers/flows/s013-h0.0125-t90000.npz",
+      "sha256": "f08af67bec2edac3d0656c63e8cb1cff6cc0aa59b46eda4a1d6c129c15b14647",
+      "bytes": 215913
+    },
+    {
+      "cache_relative": "frontiers/flows/s013-h0.02-t90000.npz",
+      "sha256": "24ab28b066ac6c4ba3d17f4d35a8796d4f542d1de3f7b7f9b27b0365d244bf89",
+      "bytes": 216290
+    },
+    {
+      "cache_relative": "frontiers/flows/s014-h0.0125-t90000.npz",
+      "sha256": "79bcb55d1463277a5b54d1a8b9fe00f9e9363be98872b20d89db866dcc635bad",
+      "bytes": 216038
+    },
+    {
+      "cache_relative": "frontiers/flows/s014-h0.02-t90000.npz",
+      "sha256": "469227af0aacdd7b5f9cb642c0a4c87bbf08e7a04b4e1bd951ad70ba096ed3ea",
+      "bytes": 216019
+    },
+    {
+      "cache_relative": "frontiers/flows/s015-h0.0125-t90000.npz",
+      "sha256": "77f2416860aeeeb8c44ce8053b286146ac8d4855e7b037209c28e46575b16d39",
+      "bytes": 216029
+    },
+    {
+      "cache_relative": "frontiers/flows/s015-h0.02-t90000.npz",
+      "sha256": "e385ca1c6c1fe5e044cba857db8817ef975d163eaaaffddbcc24751599937d25",
+      "bytes": 216160
+    },
+    {
+      "cache_relative": "frontiers/flows/s016-h0.0125-t90000.npz",
+      "sha256": "258e1efed71d709495b228386dd39b095b0860778db9f95dbfab06314d8c4625",
+      "bytes": 216123
+    },
+    {
+      "cache_relative": "frontiers/flows/s016-h0.02-t90000.npz",
+      "sha256": "f02febc8d11b3bea0636886d57327cc9140232ff66c27041d6fa77f2d11b1f7d",
+      "bytes": 216096
+    },
+    {
+      "cache_relative": "frontiers/flows/s017-h0.0125-t90000.npz",
+      "sha256": "de08a745d2c15cb8b34a1422de84d59f93c668c785fa261ccf52e6aadab4802f",
+      "bytes": 216237
+    },
+    {
+      "cache_relative": "frontiers/flows/s017-h0.02-t90000.npz",
+      "sha256": "46e2668fcecad4e95c4a29c95966814e5712f1cce4a834ef63c70a60682327ec",
+      "bytes": 216040
+    },
+    {
+      "cache_relative": "frontiers/flows/s018-h0.0125-t90000.npz",
+      "sha256": "4969cee38fd0de83819bdf873d4cbea81d51fd78ba5d1e9fea6d477721aa4aca",
+      "bytes": 216134
+    },
+    {
+      "cache_relative": "frontiers/flows/s018-h0.02-t90000.npz",
+      "sha256": "39cc015fdbb317eb54e0f4c1b576a144acbd1a05a6b3fe55becbf43ce410403b",
+      "bytes": 215911
+    },
+    {
+      "cache_relative": "frontiers/flows/s019-h0.0125-t90000.npz",
+      "sha256": "ed4bbd97fec45399f16d6e06388032af2f5c10ae34b3d63ddad39286714c187e",
+      "bytes": 216118
+    },
+    {
+      "cache_relative": "frontiers/flows/s019-h0.02-t90000.npz",
+      "sha256": "8fd1eba801e8e5c5ab1cdd321b1bb99f7024794d27e00e3a421a502779adfa76",
+      "bytes": 216148
+    },
+    {
+      "cache_relative": "frontiers/flows/s020-h0.0125-t90000.npz",
+      "sha256": "4a30ebf4bce285d2fcc4723fb7eb4310f69ef9f0c87523076e7aa4dae7dfb8b3",
+      "bytes": 216070
+    },
+    {
+      "cache_relative": "frontiers/flows/s020-h0.02-t90000.npz",
+      "sha256": "d5448aca9d403892d50c47e33370675a9324ff0a2f3060f42cff0064e7e8a1a1",
+      "bytes": 216035
+    },
+    {
+      "cache_relative": "frontiers/flows/s021-h0.0125-t90000.npz",
+      "sha256": "de174d13c98e26e869438e9bfe135cd083b93401e3c72fd10a02c695d4a94c40",
+      "bytes": 216091
+    },
+    {
+      "cache_relative": "frontiers/flows/s021-h0.02-t90000.npz",
+      "sha256": "441d0d19db8e8e61b3828c48534a3129126de5d75e375b3c0bd6ba7603ceca60",
+      "bytes": 216229
+    },
+    {
+      "cache_relative": "frontiers/flows/s022-h0.0125-t90000.npz",
+      "sha256": "63a2a0852380357003081b268af8462eeff9ab2d80dcb269112a2f08c12b5401",
+      "bytes": 216149
+    },
+    {
+      "cache_relative": "frontiers/flows/s022-h0.02-t90000.npz",
+      "sha256": "4a14fdef0eeb7bf4940d92b3fc5bd8a8ac3c8f0c9768884e0728f8f3fca04fab",
+      "bytes": 216109
+    },
+    {
+      "cache_relative": "frontiers/flows/s023-h0.0125-t90000.npz",
+      "sha256": "2540eabfe3e83fd5391dd3d632c081c929195709c354f712be9387e66278faf1",
+      "bytes": 216266
+    },
+    {
+      "cache_relative": "frontiers/flows/s023-h0.02-t90000.npz",
+      "sha256": "72707a3c7885f151f1989c4cfb3cfcf9b79affe5bf0ee879c5e50da24e313613",
+      "bytes": 216117
+    },
+    {
+      "cache_relative": "frontiers/flows/s024-h0.0125-t90000.npz",
+      "sha256": "345cf2b7532a841d732f13d90d0d0009c55146928cd0c7015b1e54d83f060eeb",
+      "bytes": 216248
+    },
+    {
+      "cache_relative": "frontiers/flows/s024-h0.02-t90000.npz",
+      "sha256": "6656b018aa240171864ee02dd656fa63e44baacb5e261076412ce4804d3665d0",
+      "bytes": 216127
+    },
+    {
+      "cache_relative": "frontiers/flows/s025-h0.0125-t90000.npz",
+      "sha256": "13ac561a6c91936a47cee38b9875a221fd38d07eb5420da08278aec59b99a93e",
+      "bytes": 216113
+    },
+    {
+      "cache_relative": "frontiers/flows/s025-h0.02-t90000.npz",
+      "sha256": "37553808ff5d245d4bc3d053126fb448da608660d103037ec4ba5dd8191ce6b2",
+      "bytes": 216156
+    },
+    {
+      "cache_relative": "frontiers/flows/s026-h0.0125-t90000.npz",
+      "sha256": "6f93be8c85830f94c73d7a84d4110d295ece58bccd12f9f983f00fb052dfbfae",
+      "bytes": 216031
+    },
+    {
+      "cache_relative": "frontiers/flows/s026-h0.02-t90000.npz",
+      "sha256": "83519a563b84b9bbb0a32cb87ef077addea25e3170471b143a82cb8adc568642",
+      "bytes": 216130
+    },
+    {
+      "cache_relative": "frontiers/flows/s027-h0.0125-t90000.npz",
+      "sha256": "b1f1a406d165059a7da746de6854a1cda7ad5ae8a9156a9d057084eb89a1c6fe",
+      "bytes": 216045
+    },
+    {
+      "cache_relative": "frontiers/flows/s027-h0.02-t90000.npz",
+      "sha256": "7e05663ff0b4dd6684987a58a0af7130622e6c73d7837db7db9e0af5d32bc2c7",
+      "bytes": 216127
+    },
+    {
+      "cache_relative": "frontiers/flows/s028-h0.0125-t90000.npz",
+      "sha256": "b29064bc842336420efe397cbb3fbef1be9c0e3a3c4916afc2c889036a4c3468",
+      "bytes": 216013
+    },
+    {
+      "cache_relative": "frontiers/flows/s028-h0.02-t90000.npz",
+      "sha256": "1393462350c13330e0ef13ca4c96e8548bddb524c08f30a1de7266298bcddccf",
+      "bytes": 216152
+    },
+    {
+      "cache_relative": "frontiers/flows/s029-h0.0125-t90000.npz",
+      "sha256": "dbc71861604e104fa805414f66f62d0b0edd96624e25f16e9eac5c83e169b227",
+      "bytes": 216118
+    },
+    {
+      "cache_relative": "frontiers/flows/s029-h0.02-t90000.npz",
+      "sha256": "b8425d037729348c5c40669b6bc445b3fe893b64472d69b334b77e1d206165c1",
+      "bytes": 216110
+    },
+    {
+      "cache_relative": "frontiers/flows/s030-h0.0125-t90000.npz",
+      "sha256": "f4fc927bbda4d1701ec1a019abc414e06ffc0a89985db9c76c08f920b4caeac9",
+      "bytes": 216202
+    },
+    {
+      "cache_relative": "frontiers/flows/s030-h0.02-t90000.npz",
+      "sha256": "f8c6cef38f472aeaf608a92d314048a14a0ccbff61da1a1c2b8f51bbee2f7925",
+      "bytes": 216239
+    },
+    {
+      "cache_relative": "frontiers/flows/s031-h0.0125-t90000.npz",
+      "sha256": "e007a433b10760bc26db00a499d539f86d9f5672764f2c507ad20821711d80a0",
+      "bytes": 216087
+    },
+    {
+      "cache_relative": "frontiers/flows/s031-h0.02-t90000.npz",
+      "sha256": "4cf8ed7bdddf24d00d05a55c0e4034a918019cb266338993ebc935e49bc5a4d0",
+      "bytes": 216092
+    },
+    {
+      "cache_relative": "frontiers/flows/s032-h0.015625-t360000.npz",
+      "sha256": "74a45e41a8196b6a375abdd3aecb706ad54bf79e274de7caa5a757d1b049b44d",
+      "bytes": 840765
+    },
+    {
+      "cache_relative": "frontiers/flows/s033-h0.015625-t360000.npz",
+      "sha256": "6fc30c68ac415c0041de363071dd97c1ccc0f111d317ed7754398601dc71b4f1",
+      "bytes": 840827
+    },
+    {
+      "cache_relative": "frontiers/flows/s034-h0.015625-t360000.npz",
+      "sha256": "f4e6787361aa1d53a56cab5e2915a8e965fa6475834be9051a3a9e6e4de1ac49",
+      "bytes": 841081
+    },
+    {
+      "cache_relative": "frontiers/flows/s035-h0.015625-t360000.npz",
+      "sha256": "079dca4a48894b96ca8bbd8b15fa482d6fb29723b0e1711bbfa49d0cfd4456a9",
+      "bytes": 840764
+    },
+    {
+      "cache_relative": "frontiers/flows/s036-h0.015625-t360000.npz",
+      "sha256": "8183df06971b6f1512c9e5fd621449ea466dd468fa01abe5dfe2f56ca635caa7",
+      "bytes": 840901
+    },
+    {
+      "cache_relative": "frontiers/flows/s037-h0.015625-t360000.npz",
+      "sha256": "f4d4e3f9f044ab2cfc830284661f7a2e61bd1d03c1394b2224989799ddf0f234",
+      "bytes": 840742
+    },
+    {
+      "cache_relative": "frontiers/flows/s038-h0.015625-t360000.npz",
+      "sha256": "87c57e038be74c30b92269baa45238e1e3fdfbef63545c4f7b315bfcb2e4f96f",
+      "bytes": 841061
+    },
+    {
+      "cache_relative": "frontiers/flows/s039-h0.015625-t360000.npz",
+      "sha256": "5e96b4c2a6598b1a189746299943e43c8a378c4ebe5a73beeb2c87357ea63378",
+      "bytes": 841193
+    },
+    {
+      "cache_relative": "frontiers/flows/s040-h0.015625-t360000.npz",
+      "sha256": "7fc3501f50382e1bda90c96f9360f8802f2aa51df51b4f63d2e0765fb7fd5de6",
+      "bytes": 840906
+    },
+    {
+      "cache_relative": "frontiers/flows/s041-h0.015625-t360000.npz",
+      "sha256": "de0125ef0bf3e86b8d43b7ce2cdfe389cf90fe34f2f38da80b4aad7706663fd9",
+      "bytes": 841076
+    },
+    {
+      "cache_relative": "frontiers/flows/s042-h0.015625-t360000.npz",
+      "sha256": "95b7ee33a9a13753559de4027daf301f9f379b204193f8741be243009e0ad1b1",
+      "bytes": 840919
+    },
+    {
+      "cache_relative": "frontiers/flows/s043-h0.015625-t360000.npz",
+      "sha256": "f77f7ae7e73f475106d0723521d604777e3fa7a0468d211e507cf187c39e86f5",
+      "bytes": 840510
+    },
+    {
+      "cache_relative": "frontiers/flows/s044-h0.015625-t360000.npz",
+      "sha256": "2724065a5dea2e97ff4fc279f5a67c0a22182771e052193adcec59ae91151be5",
+      "bytes": 840904
+    },
+    {
+      "cache_relative": "frontiers/flows/s045-h0.015625-t360000.npz",
+      "sha256": "b75f50ea5a19ce3176b1bb16821eed9d925b9bb2c22ebb5f0cbbb849d7ff5e7a",
+      "bytes": 840950
+    },
+    {
+      "cache_relative": "frontiers/flows/s046-h0.015625-t360000.npz",
+      "sha256": "e2f7e305ee411af4ca1e753afa882faf037bbe2570b416957cf34476769d8e39",
+      "bytes": 840945
+    },
+    {
+      "cache_relative": "frontiers/flows/s047-h0.015625-t360000.npz",
+      "sha256": "0c8238698aa40e7b9f71ab57606e8cf66eb0505970d9259546f515959d9f008a",
+      "bytes": 840969
+    },
+    {
+      "cache_relative": "frontiers/flows/s048-h0.015625-t360000.npz",
+      "sha256": "927fdf6b42a1fab97a9485313909446cd446f77fe613ee2fa676f1bb6319557d",
+      "bytes": 841017
+    },
+    {
+      "cache_relative": "frontiers/flows/s049-h0.015625-t360000.npz",
+      "sha256": "f15c07d0a9413dd2d9687b3f05a949b876bfdcf4abfd564f56be03b25cf366a5",
+      "bytes": 840890
+    },
+    {
+      "cache_relative": "frontiers/flows/s050-h0.015625-t360000.npz",
+      "sha256": "76c05fa9f578d2b322d19cce440f925cbe580bd4943e3380f75b9677cc25c7ee",
+      "bytes": 840811
+    },
+    {
+      "cache_relative": "frontiers/flows/s051-h0.015625-t360000.npz",
+      "sha256": "72283423755921c415982b06681efe269f52008500d46c843238416bcd68e18f",
+      "bytes": 841212
+    },
+    {
+      "cache_relative": "frontiers/flows/s052-h0.015625-t360000.npz",
+      "sha256": "ae2938d8d7b46e954dcf458925b82d0db99d379f8e0324c4b1e50dbabf56d73a",
+      "bytes": 840971
+    },
+    {
+      "cache_relative": "frontiers/flows/s053-h0.015625-t360000.npz",
+      "sha256": "a17e940b52a0d3b99d3f48d7fd3368c286343aeeef2e82b209042408f1fb4c02",
+      "bytes": 840763
+    },
+    {
+      "cache_relative": "frontiers/flows/s054-h0.015625-t360000.npz",
+      "sha256": "f3bb2210c67f8198382790119256c09289d408f3d8f1a73764a10e434df79f01",
+      "bytes": 840963
+    },
+    {
+      "cache_relative": "frontiers/flows/s055-h0.015625-t360000.npz",
+      "sha256": "08cb03c0c6c2ec4902a5ec0edeebd092b966ff5c05b7b98f56c02de627ab77a3",
+      "bytes": 840641
+    },
+    {
+      "cache_relative": "frontiers/flows/s056-h0.015625-t360000.npz",
+      "sha256": "ee4fbcf919571e77d1bc7f0bd9516fb3ba0bd5749c1f6aed6389934cd69518f8",
+      "bytes": 840785
+    },
+    {
+      "cache_relative": "frontiers/flows/s057-h0.015625-t360000.npz",
+      "sha256": "d98ca0c836f3a154bd7de674bc974824a038af85ee116dceffc16b31ae6dda87",
+      "bytes": 841009
+    },
+    {
+      "cache_relative": "frontiers/flows/s058-h0.015625-t360000.npz",
+      "sha256": "9d5f5277b07550603e5415c40ae4e1acdd8f29775a297f7d3c98d5f1e74550f6",
+      "bytes": 840676
+    },
+    {
+      "cache_relative": "frontiers/flows/s059-h0.015625-t360000.npz",
+      "sha256": "ff490cf5adf6680bfa4eccef58cad8ee9c2be1cf0afcf6ae3da61b6d14709d1c",
+      "bytes": 840909
+    },
+    {
+      "cache_relative": "frontiers/flows/s060-h0.015625-t360000.npz",
+      "sha256": "ab05e1eb5dfcd9493adc78faf656f52f766eb70215ad3ca219dc9029d51e7337",
+      "bytes": 840761
+    },
+    {
+      "cache_relative": "frontiers/flows/s061-h0.015625-t360000.npz",
+      "sha256": "ab36666565da469967668c6b68096fa2487b4fb73268b905b1e8381d0a274df0",
+      "bytes": 840592
+    },
+    {
+      "cache_relative": "frontiers/flows/s062-h0.015625-t360000.npz",
+      "sha256": "ed9e2e9d396dae6ce2a41c2242ef74255d537042620814d8f3c947b7bd90c51f",
+      "bytes": 840841
+    },
+    {
+      "cache_relative": "frontiers/flows/s063-h0.015625-t360000.npz",
+      "sha256": "82430a0482493bbee16bf67db337891ea1f3232491fbf60bc4b0cedf88ffe9eb",
+      "bytes": 840844
+    },
+    {
+      "cache_relative": "frontiers/flows/s064-h0.0125-t90000.npz",
+      "sha256": "d629782ee11279c2f333e9631270b222a4a3f5c9da29a47ae0a3cd9b0f413eaa",
+      "bytes": 216332
+    },
+    {
+      "cache_relative": "frontiers/flows/s064-h0.02-t90000.npz",
+      "sha256": "47df41f2cb21c1545038c017636e8d55f096f72e823091f78a0b0dd2caf22efa",
+      "bytes": 216177
+    },
+    {
+      "cache_relative": "frontiers/flows/s065-h0.0125-t90000.npz",
+      "sha256": "1fb16f113435ebc8bb279b007a279b05a6e64e7e5612dd50eb56cf9e1a3e2931",
+      "bytes": 216211
+    },
+    {
+      "cache_relative": "frontiers/flows/s065-h0.02-t90000.npz",
+      "sha256": "a51c5da62ff675d4de67167ca1c60b20a1f15ba053714526a22a68d8a3858a17",
+      "bytes": 216217
+    },
+    {
+      "cache_relative": "frontiers/flows/s066-h0.0125-t90000.npz",
+      "sha256": "cded47d49b240f4c19f4a228510bca7e416224faf895013ac8c981621a489451",
+      "bytes": 114048
+    },
+    {
+      "cache_relative": "frontiers/flows/s066-h0.02-t90000.npz",
+      "sha256": "fb1055a38fa8266edc36dfddf72459047a69686490dea940df632bf7b0f3c603",
+      "bytes": 216968
+    },
+    {
+      "cache_relative": "frontiers/flows/s067-h0.0125-t90000.npz",
+      "sha256": "8a7ae5159af5090762e23615a17ac9f72bd3387402e58b3fc9dab457503156b3",
+      "bytes": 112612
+    },
+    {
+      "cache_relative": "frontiers/flows/s067-h0.02-t90000.npz",
+      "sha256": "edbc32237a35aecb0215463fa6567ab03ae6552ffbb370a9b7b65582fc022706",
+      "bytes": 116627
+    },
+    {
+      "cache_relative": "frontiers/flows/s068-h0.0125-t90000.npz",
+      "sha256": "6df62b82af1dbeca19ffb05c2d6fb3ae566c5d31659aac0ee9adae86acda658c",
+      "bytes": 216041
+    },
+    {
+      "cache_relative": "frontiers/flows/s068-h0.02-t90000.npz",
+      "sha256": "ab56a2747a2ba60e5a6dabf66528340fe8ee88ce662cf1400650ddfcd6bcaefe",
+      "bytes": 216086
+    },
+    {
+      "cache_relative": "frontiers/flows/s069-h0.0125-t90000.npz",
+      "sha256": "3d4dc3c50f104b9b7945047c8b432f03e67463700b7bb9f1e7332507e8c621a0",
+      "bytes": 112965
+    },
+    {
+      "cache_relative": "frontiers/flows/s069-h0.02-t90000.npz",
+      "sha256": "776cac3c1dd512cc8da5e1231219a68580948a1e75e0487d31759f4163944fb2",
+      "bytes": 116382
+    },
+    {
+      "cache_relative": "frontiers/flows/s070-h0.0125-t90000.npz",
+      "sha256": "0972b327e0f1288aec562749f7eef0073039668dec94be6d18780db6aba74419",
+      "bytes": 112666
+    },
+    {
+      "cache_relative": "frontiers/flows/s070-h0.02-t90000.npz",
+      "sha256": "31baba734ec8a0c544f8df56fde91e203ef9dbf0783a64ca95bd9f4dea4c11cc",
+      "bytes": 118502
+    },
+    {
+      "cache_relative": "frontiers/flows/s071-h0.0125-t90000.npz",
+      "sha256": "b88f81167813810051de420e899a1a44a5b66d17923f1b26245614985345bc77",
+      "bytes": 114401
+    },
+    {
+      "cache_relative": "frontiers/flows/s071-h0.02-t90000.npz",
+      "sha256": "9a19a42d19364dbb8b4b4ebd98d6a9fe5ac813f0d9ae436059617c1be1a9d8b7",
+      "bytes": 118158
+    },
+    {
+      "cache_relative": "frontiers/flows/s072-h0.0125-t90000.npz",
+      "sha256": "ac09284256a38d8a1fed46c9731795455412d48c1bb6e62a9fbc26f11d5d87af",
+      "bytes": 113831
+    },
+    {
+      "cache_relative": "frontiers/flows/s072-h0.02-t90000.npz",
+      "sha256": "1bc6ca006644dc53b6cb96bc9603bfb19162dd93d36a9aa5670490ab229bbf02",
+      "bytes": 116383
+    },
+    {
+      "cache_relative": "frontiers/flows/s073-h0.0125-t90000.npz",
+      "sha256": "3ee4905a1024f59dcdc3aaa2c31e53ea632b0db227fc4bdfc3844fd7b5cdb2ac",
+      "bytes": 111973
+    },
+    {
+      "cache_relative": "frontiers/flows/s073-h0.02-t90000.npz",
+      "sha256": "144187e5182339e1e5096ecea5be946fbc328d04d326c64c6454037456b27868",
+      "bytes": 216155
+    },
+    {
+      "cache_relative": "frontiers/flows/s074-h0.0125-t90000.npz",
+      "sha256": "655448ddac4e12fc4859377948e185c81a90ad5e4d5bd2163b3a394eca3c0c72",
+      "bytes": 114046
+    },
+    {
+      "cache_relative": "frontiers/flows/s074-h0.02-t90000.npz",
+      "sha256": "bd9d29da134bd0d1db686bac807947bd2f86a1beeeb6ded067dd0a8a40472d74",
+      "bytes": 116493
+    },
+    {
+      "cache_relative": "frontiers/flows/s075-h0.0125-t90000.npz",
+      "sha256": "1c902630e50f8aadf63f1af111158bcccd7029410d6ae1b2632e5916bca7ea1e",
+      "bytes": 113974
+    },
+    {
+      "cache_relative": "frontiers/flows/s075-h0.02-t90000.npz",
+      "sha256": "4fc74ea2d49377f6088ec7567af5854ec934d5ba967c9d3020a59ce5dbebf062",
+      "bytes": 217348
+    },
+    {
+      "cache_relative": "frontiers/flows/stable-orbit-section.npy",
+      "sha256": "fc438c0125c5b9f9c97ebd46137e1293f1496b97039e1c2f6f0696e532d3c02a",
+      "bytes": 800
+    },
+    {
+      "cache_relative": "frontiers/flows/transverse-stress.json",
+      "sha256": "0877c652728d2710e6dfe2a3e417e3c93c7c2de36fd7d12864f74773ee6d0107",
+      "bytes": 113955
+    },
+    {
+      "cache_relative": "frontiers/flows/tube-n4097-l17-h0.00625.json",
+      "sha256": "2f5c85d502eb2f635577cd083e6085852651bf1b4070d76d95e15dfc6b7485ab",
+      "bytes": 1292
+    },
+    {
+      "cache_relative": "frontiers/flows/tube-n4097-l17-h0.00625.npz",
+      "sha256": "6eebce0c1755679b77f3130654ae9ca07e68a2595d5e33d1b83ca907f639e90d",
+      "bytes": 2185364
+    },
+    {
+      "cache_relative": "frontiers/flows/tube-n601-l9-h0.0125.json",
+      "sha256": "96d1d2e793083bc686af87cbb7c3bcd15a1351500d66e744cd9f3ca5b7bd4960",
+      "bytes": 1254
+    },
+    {
+      "cache_relative": "frontiers/flows/tube-n601-l9-h0.0125.npz",
+      "sha256": "e336aa55c0c392b9704d875d9010c6504ae0491e255058a0397d64a2108408a2",
+      "bytes": 177693
+    }
+  ],
+  "source_clouds": {
+    "stable": {
+      "cache_relative": "extension/flows/events-a/stable.npz",
+      "sha256": "65aa3fcd610b36dcf9c90343be473423b1602e8cd93508793c0292ad8903c35f"
+    },
+    "coexisting_chaotic_cloud": {
+      "cache_relative": "extension/flows/coexistence-a/coexisting-chaotic-cloud.npz",
+      "sha256": "a56dc0ef2642948cf266eddc6ec5e3d8e27121412eef607756e925c39b4b79e2"
+    }
+  }
+}

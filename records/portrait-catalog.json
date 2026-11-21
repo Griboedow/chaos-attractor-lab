@@ -1795,6 +1795,56 @@
           "mode": "histogram"
         }
       ]
+    },
+    {
+      "id": "shapes-20261121-cubic",
+      "title": "Triple links selected by a driven cubic",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-cubic.png",
+      "description": "Cases 47087142 and 48000003 use a single driven cubic to determine all three sheets. In the degree-two return map each sheet contains a chaotic solenoid. The triples have absolute core linking invariants one and three and are inequivalent in three-space.",
+      "coordinates": "Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,000 consecutive states per component. The rotation includes all three components.",
+      "featured": true,
+      "projection": [
+        [
+          -0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.46829013302933253,
+          -0.12547796296867267,
+          0.8746197071393957
+        ]
+      ],
+      "panels": [
+        {
+          "label": "47087142",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-cubic-47087142-0fa4c60cd4f3.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "48000003",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-cubic-48000003-33a952f15673.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/cubic-frontier-47087142.npz",
+          "key": "points",
+          "last_count": 84000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-cubic-47087142.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/cubic-frontier-48000003.npz",
+          "key": "points",
+          "last_count": 84000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-cubic-48000003.json"
+        }
+      ]
     }
   ]
 }

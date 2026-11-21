@@ -1,0 +1,644 @@
+{
+  "description": "Fit an oriented bounding box to each parity class in the first half of the native cloud, expand each face, then test every full-precision state geometrically against the union. Group gaps at <=64 and match groups with a sixteen-step margin.",
+  "model": {
+    "rms": 0.3256255835952871,
+    "centers": [
+      [
+        -0.979135591586113,
+        -0.8606625570831299,
+        0.4369723424395053
+      ],
+      [
+        -1.086517350930214,
+        -0.24354079621390254,
+        0.37488141844290496
+      ]
+    ],
+    "axes": [
+      [
+        [
+          0.9967853028873964,
+          -0.07183510831998187,
+          0.0354792497149762
+        ],
+        [
+          0.07932915429585659,
+          0.9469402260588058,
+          -0.31146603916061577
+        ],
+        [
+          -0.011222532084397836,
+          0.31327930905879275,
+          0.9495947184400618
+        ]
+      ],
+      [
+        [
+          0.9989317391780542,
+          -0.0007299140773485587,
+          -0.046204411998724174
+        ],
+        [
+          0.005933673846900016,
+          0.9936240094439974,
+          0.11258827368386637
+        ],
+        [
+          0.045827633338268454,
+          -0.11274216195316744,
+          0.9925668909150349
+        ]
+      ]
+    ],
+    "lower": [
+      [
+        -0.11061177143406628,
+        -0.1963248289284577,
+        -0.529962656159613
+      ],
+      [
+        -0.10865321638215482,
+        -0.18805521978112386,
+        -0.5893324615162051
+      ]
+    ],
+    "upper": [
+      [
+        0.13507413842011995,
+        0.17776927401579135,
+        0.16530127541816803
+      ],
+      [
+        0.1223505073506085,
+        0.2783161007868376,
+        0.0931943128615268
+      ]
+    ]
+  },
+  "experiments": [
+    {
+      "padding_rms": 0.05,
+      "heldout_states": 125000,
+      "heldout_outside": 0,
+      "cohorts": [
+        {
+          "cohort": 0,
+          "observed": 50000000,
+          "outside_states": 1400,
+          "geometric_groups": 37,
+          "parity_groups": 5,
+          "parity_events": 791,
+          "parity_pairs_with_outside_endpoint": 785,
+          "parity_groups_with_outside_state_near": 5,
+          "geometric_groups_with_parity_pair_near": 5
+        },
+        {
+          "cohort": 1,
+          "observed": 25000000,
+          "outside_states": 337,
+          "geometric_groups": 19,
+          "parity_groups": 2,
+          "parity_events": 131,
+          "parity_pairs_with_outside_endpoint": 131,
+          "parity_groups_with_outside_state_near": 2,
+          "geometric_groups_with_parity_pair_near": 2
+        },
+        {
+          "cohort": 2,
+          "observed": 25000000,
+          "outside_states": 115,
+          "geometric_groups": 16,
+          "parity_groups": 1,
+          "parity_events": 23,
+          "parity_pairs_with_outside_endpoint": 23,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 3,
+          "observed": 25000000,
+          "outside_states": 109,
+          "geometric_groups": 19,
+          "parity_groups": 1,
+          "parity_events": 2,
+          "parity_pairs_with_outside_endpoint": 2,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 4,
+          "observed": 25000000,
+          "outside_states": 492,
+          "geometric_groups": 18,
+          "parity_groups": 4,
+          "parity_events": 196,
+          "parity_pairs_with_outside_endpoint": 192,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 5,
+          "observed": 5000000,
+          "outside_states": 62,
+          "geometric_groups": 6,
+          "parity_groups": 1,
+          "parity_events": 3,
+          "parity_pairs_with_outside_endpoint": 3,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 6,
+          "observed": 5000000,
+          "outside_states": 5,
+          "geometric_groups": 2,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 7,
+          "observed": 5000000,
+          "outside_states": 23,
+          "geometric_groups": 2,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 8,
+          "observed": 5000000,
+          "outside_states": 5,
+          "geometric_groups": 3,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 9,
+          "observed": 5000000,
+          "outside_states": 68,
+          "geometric_groups": 2,
+          "parity_groups": 1,
+          "parity_events": 18,
+          "parity_pairs_with_outside_endpoint": 18,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 10,
+          "observed": 5000000,
+          "outside_states": 166,
+          "geometric_groups": 5,
+          "parity_groups": 1,
+          "parity_events": 14,
+          "parity_pairs_with_outside_endpoint": 13,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 11,
+          "observed": 5000000,
+          "outside_states": 17,
+          "geometric_groups": 5,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 12,
+          "observed": 5000000,
+          "outside_states": 9,
+          "geometric_groups": 4,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 13,
+          "observed": 5000000,
+          "outside_states": 1,
+          "geometric_groups": 1,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 14,
+          "observed": 5000000,
+          "outside_states": 60,
+          "geometric_groups": 4,
+          "parity_groups": 1,
+          "parity_events": 10,
+          "parity_pairs_with_outside_endpoint": 9,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 15,
+          "observed": 5000000,
+          "outside_states": 7,
+          "geometric_groups": 2,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 16,
+          "observed": 5000000,
+          "outside_states": 7,
+          "geometric_groups": 2,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 17,
+          "observed": 25000000,
+          "outside_states": 217,
+          "geometric_groups": 9,
+          "parity_groups": 4,
+          "parity_events": 23,
+          "parity_pairs_with_outside_endpoint": 23,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 18,
+          "observed": 25000000,
+          "outside_states": 663,
+          "geometric_groups": 15,
+          "parity_groups": 1,
+          "parity_events": 376,
+          "parity_pairs_with_outside_endpoint": 374,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 19,
+          "observed": 25000000,
+          "outside_states": 1006,
+          "geometric_groups": 20,
+          "parity_groups": 4,
+          "parity_events": 589,
+          "parity_pairs_with_outside_endpoint": 589,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 20,
+          "observed": 25000000,
+          "outside_states": 180,
+          "geometric_groups": 13,
+          "parity_groups": 1,
+          "parity_events": 11,
+          "parity_pairs_with_outside_endpoint": 11,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 21,
+          "observed": 25000000,
+          "outside_states": 484,
+          "geometric_groups": 13,
+          "parity_groups": 4,
+          "parity_events": 193,
+          "parity_pairs_with_outside_endpoint": 191,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 22,
+          "observed": 25000000,
+          "outside_states": 112,
+          "geometric_groups": 14,
+          "parity_groups": 1,
+          "parity_events": 2,
+          "parity_pairs_with_outside_endpoint": 2,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 23,
+          "observed": 25000000,
+          "outside_states": 1126,
+          "geometric_groups": 16,
+          "parity_groups": 5,
+          "parity_events": 676,
+          "parity_pairs_with_outside_endpoint": 670,
+          "parity_groups_with_outside_state_near": 5,
+          "geometric_groups_with_parity_pair_near": 5
+        },
+        {
+          "cohort": 24,
+          "observed": 25000000,
+          "outside_states": 184,
+          "geometric_groups": 18,
+          "parity_groups": 2,
+          "parity_events": 9,
+          "parity_pairs_with_outside_endpoint": 9,
+          "parity_groups_with_outside_state_near": 2,
+          "geometric_groups_with_parity_pair_near": 2
+        }
+      ]
+    },
+    {
+      "padding_rms": 0.1,
+      "heldout_states": 125000,
+      "heldout_outside": 0,
+      "cohorts": [
+        {
+          "cohort": 0,
+          "observed": 50000000,
+          "outside_states": 1213,
+          "geometric_groups": 11,
+          "parity_groups": 5,
+          "parity_events": 791,
+          "parity_pairs_with_outside_endpoint": 772,
+          "parity_groups_with_outside_state_near": 5,
+          "geometric_groups_with_parity_pair_near": 5
+        },
+        {
+          "cohort": 1,
+          "observed": 25000000,
+          "outside_states": 264,
+          "geometric_groups": 5,
+          "parity_groups": 2,
+          "parity_events": 131,
+          "parity_pairs_with_outside_endpoint": 128,
+          "parity_groups_with_outside_state_near": 2,
+          "geometric_groups_with_parity_pair_near": 2
+        },
+        {
+          "cohort": 2,
+          "observed": 25000000,
+          "outside_states": 66,
+          "geometric_groups": 4,
+          "parity_groups": 1,
+          "parity_events": 23,
+          "parity_pairs_with_outside_endpoint": 20,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 3,
+          "observed": 25000000,
+          "outside_states": 57,
+          "geometric_groups": 4,
+          "parity_groups": 1,
+          "parity_events": 2,
+          "parity_pairs_with_outside_endpoint": 2,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 4,
+          "observed": 25000000,
+          "outside_states": 396,
+          "geometric_groups": 9,
+          "parity_groups": 4,
+          "parity_events": 196,
+          "parity_pairs_with_outside_endpoint": 191,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 5,
+          "observed": 5000000,
+          "outside_states": 46,
+          "geometric_groups": 2,
+          "parity_groups": 1,
+          "parity_events": 3,
+          "parity_pairs_with_outside_endpoint": 3,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 6,
+          "observed": 5000000,
+          "outside_states": 1,
+          "geometric_groups": 1,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 7,
+          "observed": 5000000,
+          "outside_states": 9,
+          "geometric_groups": 1,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 8,
+          "observed": 5000000,
+          "outside_states": 0,
+          "geometric_groups": 0,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 9,
+          "observed": 5000000,
+          "outside_states": 61,
+          "geometric_groups": 1,
+          "parity_groups": 1,
+          "parity_events": 18,
+          "parity_pairs_with_outside_endpoint": 18,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 10,
+          "observed": 5000000,
+          "outside_states": 111,
+          "geometric_groups": 3,
+          "parity_groups": 1,
+          "parity_events": 14,
+          "parity_pairs_with_outside_endpoint": 12,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 11,
+          "observed": 5000000,
+          "outside_states": 2,
+          "geometric_groups": 2,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 12,
+          "observed": 5000000,
+          "outside_states": 1,
+          "geometric_groups": 1,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 13,
+          "observed": 5000000,
+          "outside_states": 0,
+          "geometric_groups": 0,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 14,
+          "observed": 5000000,
+          "outside_states": 37,
+          "geometric_groups": 2,
+          "parity_groups": 1,
+          "parity_events": 10,
+          "parity_pairs_with_outside_endpoint": 8,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 15,
+          "observed": 5000000,
+          "outside_states": 3,
+          "geometric_groups": 2,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 16,
+          "observed": 5000000,
+          "outside_states": 2,
+          "geometric_groups": 1,
+          "parity_groups": 0,
+          "parity_events": 0,
+          "parity_pairs_with_outside_endpoint": 0,
+          "parity_groups_with_outside_state_near": 0,
+          "geometric_groups_with_parity_pair_near": 0
+        },
+        {
+          "cohort": 17,
+          "observed": 25000000,
+          "outside_states": 159,
+          "geometric_groups": 5,
+          "parity_groups": 4,
+          "parity_events": 23,
+          "parity_pairs_with_outside_endpoint": 23,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 18,
+          "observed": 25000000,
+          "outside_states": 556,
+          "geometric_groups": 7,
+          "parity_groups": 1,
+          "parity_events": 376,
+          "parity_pairs_with_outside_endpoint": 365,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 19,
+          "observed": 25000000,
+          "outside_states": 884,
+          "geometric_groups": 10,
+          "parity_groups": 4,
+          "parity_events": 589,
+          "parity_pairs_with_outside_endpoint": 582,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 20,
+          "observed": 25000000,
+          "outside_states": 103,
+          "geometric_groups": 6,
+          "parity_groups": 1,
+          "parity_events": 11,
+          "parity_pairs_with_outside_endpoint": 11,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 21,
+          "observed": 25000000,
+          "outside_states": 410,
+          "geometric_groups": 5,
+          "parity_groups": 4,
+          "parity_events": 193,
+          "parity_pairs_with_outside_endpoint": 185,
+          "parity_groups_with_outside_state_near": 4,
+          "geometric_groups_with_parity_pair_near": 4
+        },
+        {
+          "cohort": 22,
+          "observed": 25000000,
+          "outside_states": 53,
+          "geometric_groups": 6,
+          "parity_groups": 1,
+          "parity_events": 2,
+          "parity_pairs_with_outside_endpoint": 2,
+          "parity_groups_with_outside_state_near": 1,
+          "geometric_groups_with_parity_pair_near": 1
+        },
+        {
+          "cohort": 23,
+          "observed": 25000000,
+          "outside_states": 980,
+          "geometric_groups": 11,
+          "parity_groups": 5,
+          "parity_events": 676,
+          "parity_pairs_with_outside_endpoint": 650,
+          "parity_groups_with_outside_state_near": 5,
+          "geometric_groups_with_parity_pair_near": 5
+        },
+        {
+          "cohort": 24,
+          "observed": 25000000,
+          "outside_states": 115,
+          "geometric_groups": 7,
+          "parity_groups": 2,
+          "parity_events": 9,
+          "parity_pairs_with_outside_endpoint": 9,
+          "parity_groups_with_outside_state_near": 2,
+          "geometric_groups_with_parity_pair_near": 2
+        }
+      ]
+    }
+  ]
+}

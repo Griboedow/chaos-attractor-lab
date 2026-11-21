@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "e1ceaa2fdba0203515d8df0cb5b7ce6deff6c574b8787ccf75a459ef3eacc72f",
+  "catalog_sha256": "5cf86f9cda670e6c7073dbb26a1f92c6bf41bf4db691e5e6ddb368bad094a9d4",
   "size": [
     1920,
     1080
@@ -3884,6 +3884,83 @@
           "log_saturation": 8.81529490250575,
           "occupied_bins": 248,
           "display_label": "Case 2302642"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-cubic",
+      "file": "docs/assets/portraits/shapes-20261121-cubic.png",
+      "sha256": "033a30b80fb4064eef7b8e3c914a34a26d1587df84c0e32ee6df90886d34f179",
+      "panels": [
+        {
+          "input": {
+            "label": "47087142",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-cubic-47087142-0fa4c60cd4f3.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "0fa4c60cd4f36c0ba3f8a1f58403a9d24647dc2f5b36a8b5b7c1344c04c98c41",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 84000,
+          "nonempty_crop": [
+            [
+              154,
+              21
+            ],
+            [
+              590,
+              731
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 84000,
+          "log_saturation": 4.9720349960371735,
+          "occupied_bins": 6633,
+          "display_label": "Case 47087142"
+        },
+        {
+          "input": {
+            "label": "48000003",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-cubic-48000003-33a952f15673.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "33a952f15673ed9e8d27557b9167ff7159eb4b3765ea18b8edfa39be83d46055",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 84000,
+          "nonempty_crop": [
+            [
+              186,
+              21
+            ],
+            [
+              572,
+              717
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 84000,
+          "log_saturation": 3.6888794541139363,
+          "occupied_bins": 23028,
+          "display_label": "Case 48000003"
         }
       ],
       "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",

@@ -132,6 +132,7 @@ def update_readme(catalog):
             main=main.replace(anchor,block+anchor)
     path.write_text(main,encoding="utf-8",newline="\n")
     subprocess.run([sys.executable,str(ROOT/"tools/render_dates.py"),"sync"],check=True)
+    subprocess.run([sys.executable,str(ROOT/"tools/portrait_equations.py"),"sync"],check=True)
 
 
 def build(specs,runs,refresh=False):

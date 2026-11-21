@@ -1,0 +1,358 @@
+{
+  "method": "Learn 17 departure-point locations from original and prior cohorts, scan all 200 million later-cohort states for first entry into balls, merge gaps <=32, predict an episode onset in the next 1..200 steps. Radius comparisons are exploratory.",
+  "totals": [
+    {
+      "radius_rms": 0.01,
+      "foreground_states": 160,
+      "alarms": 124,
+      "alarms_followed_by_episode_within_200": 18,
+      "episode_starts": 22,
+      "episodes_with_prior_alarm": 18
+    },
+    {
+      "radius_rms": 0.03,
+      "foreground_states": 1065,
+      "alarms": 828,
+      "alarms_followed_by_episode_within_200": 30,
+      "episode_starts": 22,
+      "episodes_with_prior_alarm": 21
+    },
+    {
+      "radius_rms": 0.06,
+      "foreground_states": 13072,
+      "alarms": 8266,
+      "alarms_followed_by_episode_within_200": 36,
+      "episode_starts": 22,
+      "episodes_with_prior_alarm": 22
+    },
+    {
+      "radius_rms": 0.1,
+      "foreground_states": 60834,
+      "alarms": 39291,
+      "alarms_followed_by_episode_within_200": 28,
+      "episode_starts": 22,
+      "episodes_with_prior_alarm": 22
+    }
+  ],
+  "by_cohort": [
+    {
+      "cohort": 17,
+      "radius_rms": 0.01,
+      "foreground_states": 16,
+      "alarms": 15,
+      "alarms_followed_by_episode_within_200": 2,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 2
+    },
+    {
+      "cohort": 17,
+      "radius_rms": 0.03,
+      "foreground_states": 136,
+      "alarms": 103,
+      "alarms_followed_by_episode_within_200": 5,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 17,
+      "radius_rms": 0.06,
+      "foreground_states": 1587,
+      "alarms": 1010,
+      "alarms_followed_by_episode_within_200": 7,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 17,
+      "radius_rms": 0.1,
+      "foreground_states": 7560,
+      "alarms": 4910,
+      "alarms_followed_by_episode_within_200": 5,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 18,
+      "radius_rms": 0.01,
+      "foreground_states": 20,
+      "alarms": 14,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 18,
+      "radius_rms": 0.03,
+      "foreground_states": 118,
+      "alarms": 91,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 18,
+      "radius_rms": 0.06,
+      "foreground_states": 1685,
+      "alarms": 1064,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 18,
+      "radius_rms": 0.1,
+      "foreground_states": 7600,
+      "alarms": 4940,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 19,
+      "radius_rms": 0.01,
+      "foreground_states": 28,
+      "alarms": 17,
+      "alarms_followed_by_episode_within_200": 4,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 19,
+      "radius_rms": 0.03,
+      "foreground_states": 148,
+      "alarms": 105,
+      "alarms_followed_by_episode_within_200": 7,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 19,
+      "radius_rms": 0.06,
+      "foreground_states": 1732,
+      "alarms": 1110,
+      "alarms_followed_by_episode_within_200": 7,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 19,
+      "radius_rms": 0.1,
+      "foreground_states": 7782,
+      "alarms": 4963,
+      "alarms_followed_by_episode_within_200": 5,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 20,
+      "radius_rms": 0.01,
+      "foreground_states": 20,
+      "alarms": 16,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 20,
+      "radius_rms": 0.03,
+      "foreground_states": 122,
+      "alarms": 93,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 20,
+      "radius_rms": 0.06,
+      "foreground_states": 1509,
+      "alarms": 964,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 20,
+      "radius_rms": 0.1,
+      "foreground_states": 7372,
+      "alarms": 4793,
+      "alarms_followed_by_episode_within_200": 2,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 21,
+      "radius_rms": 0.01,
+      "foreground_states": 19,
+      "alarms": 15,
+      "alarms_followed_by_episode_within_200": 3,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 3
+    },
+    {
+      "cohort": 21,
+      "radius_rms": 0.03,
+      "foreground_states": 124,
+      "alarms": 102,
+      "alarms_followed_by_episode_within_200": 4,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 3
+    },
+    {
+      "cohort": 21,
+      "radius_rms": 0.06,
+      "foreground_states": 1599,
+      "alarms": 1056,
+      "alarms_followed_by_episode_within_200": 8,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 21,
+      "radius_rms": 0.1,
+      "foreground_states": 7701,
+      "alarms": 5046,
+      "alarms_followed_by_episode_within_200": 5,
+      "episode_starts": 4,
+      "episodes_with_prior_alarm": 4
+    },
+    {
+      "cohort": 22,
+      "radius_rms": 0.01,
+      "foreground_states": 19,
+      "alarms": 15,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 22,
+      "radius_rms": 0.03,
+      "foreground_states": 135,
+      "alarms": 101,
+      "alarms_followed_by_episode_within_200": 2,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 22,
+      "radius_rms": 0.06,
+      "foreground_states": 1584,
+      "alarms": 1003,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 22,
+      "radius_rms": 0.1,
+      "foreground_states": 7404,
+      "alarms": 4815,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 1,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 23,
+      "radius_rms": 0.01,
+      "foreground_states": 22,
+      "alarms": 17,
+      "alarms_followed_by_episode_within_200": 5,
+      "episode_starts": 5,
+      "episodes_with_prior_alarm": 5
+    },
+    {
+      "cohort": 23,
+      "radius_rms": 0.03,
+      "foreground_states": 128,
+      "alarms": 105,
+      "alarms_followed_by_episode_within_200": 8,
+      "episode_starts": 5,
+      "episodes_with_prior_alarm": 5
+    },
+    {
+      "cohort": 23,
+      "radius_rms": 0.06,
+      "foreground_states": 1695,
+      "alarms": 1038,
+      "alarms_followed_by_episode_within_200": 8,
+      "episode_starts": 5,
+      "episodes_with_prior_alarm": 5
+    },
+    {
+      "cohort": 23,
+      "radius_rms": 0.1,
+      "foreground_states": 7762,
+      "alarms": 4921,
+      "alarms_followed_by_episode_within_200": 7,
+      "episode_starts": 5,
+      "episodes_with_prior_alarm": 5
+    },
+    {
+      "cohort": 24,
+      "radius_rms": 0.01,
+      "foreground_states": 16,
+      "alarms": 15,
+      "alarms_followed_by_episode_within_200": 1,
+      "episode_starts": 2,
+      "episodes_with_prior_alarm": 1
+    },
+    {
+      "cohort": 24,
+      "radius_rms": 0.03,
+      "foreground_states": 154,
+      "alarms": 128,
+      "alarms_followed_by_episode_within_200": 2,
+      "episode_starts": 2,
+      "episodes_with_prior_alarm": 2
+    },
+    {
+      "cohort": 24,
+      "radius_rms": 0.06,
+      "foreground_states": 1681,
+      "alarms": 1021,
+      "alarms_followed_by_episode_within_200": 3,
+      "episode_starts": 2,
+      "episodes_with_prior_alarm": 2
+    },
+    {
+      "cohort": 24,
+      "radius_rms": 0.1,
+      "foreground_states": 7653,
+      "alarms": 4903,
+      "alarms_followed_by_episode_within_200": 2,
+      "episode_starts": 2,
+      "episodes_with_prior_alarm": 2
+    }
+  ],
+  "ordinary_crossing_controls": {
+    "sampled_blocks_per_cohort": 192,
+    "block_length": 4096,
+    "exclusion_margin": 4096,
+    "sampled_boundary_crossings": 1648,
+    "negative_side_crossings": 1401,
+    "positive_side_crossings": 247,
+    "true_departures": 22,
+    "comparison": [
+      {
+        "radius_rms": 0.01,
+        "true_departures_inside": 15,
+        "ordinary_negative_lobe_crossings_inside": 4
+      },
+      {
+        "radius_rms": 0.03,
+        "true_departures_inside": 16,
+        "ordinary_negative_lobe_crossings_inside": 8
+      },
+      {
+        "radius_rms": 0.06,
+        "true_departures_inside": 18,
+        "ordinary_negative_lobe_crossings_inside": 79
+      },
+      {
+        "radius_rms": 0.1,
+        "true_departures_inside": 20,
+        "ordinary_negative_lobe_crossings_inside": 323
+      }
+    ]
+  }
+}

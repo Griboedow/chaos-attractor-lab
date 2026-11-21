@@ -1,0 +1,182 @@
+{
+  "cohort": 11,
+  "observed": 5000000,
+  "compared": 4999999,
+  "events": 0,
+  "initial": [
+    0.5236385454449688,
+    1.7893725678161498,
+    -1.4146608764724395
+  ],
+  "first": null,
+  "last": null,
+  "million_step_counts": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "side_positive": 0,
+  "side_negative": 0,
+  "inter_event_steps": [],
+  "groupings": {
+    "1": {
+      "clusters": 0,
+      "odd": 0,
+      "maximum_edges": 0,
+      "maximum_span": 0
+    },
+    "16": {
+      "clusters": 0,
+      "odd": 0,
+      "maximum_edges": 0,
+      "maximum_span": 0
+    },
+    "64": {
+      "clusters": 0,
+      "odd": 0,
+      "maximum_edges": 0,
+      "maximum_span": 0
+    },
+    "256": {
+      "clusters": 0,
+      "odd": 0,
+      "maximum_edges": 0,
+      "maximum_span": 0
+    },
+    "4096": {
+      "clusters": 0,
+      "odd": 0,
+      "maximum_edges": 0,
+      "maximum_span": 0
+    }
+  },
+  "geometry_columns": [
+    "axis_radius",
+    "core_distance",
+    "peak_posterior"
+  ],
+  "geometry_event_quantiles": [
+    [],
+    [],
+    []
+  ],
+  "geometry_control_quantiles": [
+    [
+      0.27709856244822945,
+      0.4100028164980278,
+      0.4591383264874729,
+      0.5072396675322163,
+      0.6119867393676306
+    ],
+    [
+      0.5661402797692702,
+      0.6807138851673574,
+      0.8698129204757106,
+      0.947947858652288,
+      1.1089213682316612
+    ],
+    [
+      0.5354343453852048,
+      0.8485753922426106,
+      0.998776046261941,
+      0.9999669858050658,
+      0.9999999999523503
+    ]
+  ],
+  "quantiles": [
+    0,
+    0.1,
+    0.5,
+    0.9,
+    1
+  ],
+  "normal": [
+    -0.17060163414195614,
+    0.9803888625592608,
+    -0.09865475456283264
+  ],
+  "cut": -0.36636791420889825,
+  "rms": 0.3256255835952871,
+  "variants": {
+    "frozen": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "first-half fit": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "offset -0.25 RMS": {
+      "count": 2,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 1
+    },
+    "offset -0.10 RMS": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "offset +0.10 RMS": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "offset +0.25 RMS": {
+      "count": 8,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 4
+    },
+    "tilt u -7 deg": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "tilt u +7 deg": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "tilt v -7 deg": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    },
+    "tilt v +7 deg": {
+      "count": 0,
+      "shared": 0,
+      "original_with_match_within_4": 0,
+      "clusters_64": 0
+    }
+  },
+  "nearest_cloud_control": [
+    0.0001577935772682414,
+    0.0016427759371516193,
+    0.0038375585555507977,
+    0.008116782255922526,
+    0.1169136944663022
+  ],
+  "nearest_cloud_event": [],
+  "nearest_cloud_at_plus_16": [],
+  "min_endpoint_plane_margin": [],
+  "window_offsets": [
+    -16,
+    17
+  ],
+  "trace": "trace-11-5000000.npy",
+  "windows": "event-windows-11.npz",
+  "windows_sha256": "e38ff9739a5a91d4f67a33c455bb97cc329a1b9dd0483d69cdbebd5bb327a5c0",
+  "events_relative_to_first_recorded_state": "zero-based index of left endpoint; first stored state follows discarded burn and one map iteration"
+}

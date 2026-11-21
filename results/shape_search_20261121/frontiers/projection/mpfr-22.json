@@ -1,0 +1,20 @@
+{
+  "bits": 256,
+  "case": 2298665,
+  "initial_offset": -16,
+  "final_offset": 17,
+  "windows": 2,
+  "event_reproduced": 2,
+  "full_itinerary_matches": 2,
+  "max_endpoint_euclidean_error": 2.3074821933227486e-15,
+  "max_window_euclidean_error": 8.77667816080862e-14,
+  "endpoint_error_quantiles": [
+    9.641068091295123e-16,
+    1.2999506551778213e-15,
+    1.6357945012261305e-15,
+    1.9716383472744395e-15,
+    2.3074821933227486e-15
+  ],
+  "mismatching_events": [],
+  "method": "Restart each MPFR trajectory from the exact binary64 state sixteen steps before its event. Compare the independently propagated signs up to offset +17."
+}

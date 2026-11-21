@@ -2,7 +2,7 @@
 
 Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
 
-[2026-11-21 spatial search](docs/shape-search-20261121.md) · [Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
+[2026-11-21 spatial search](docs/shape-search-20261121.md) · [Four follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
 
 The selected findings include camera rotations at 25 frames per second, with one revolution every 24 seconds. Each animation uses fixed trajectory data and a constant scale; its full-resolution static portrait appears directly below. Case numbers identify saved parameter sets in the linked reports.
 
@@ -23,6 +23,16 @@ All retained portraits appear on this page. The figures use a common palette and
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation icosahedral -->
+
+```math
+\dot x=-\gamma x+\Omega\sum_{G\in I}\big[(Gu)\times(x-Gc)\big]\exp\!\left(-\frac{\lVert x-Gc\rVert^2}{2\sigma^2}\right).
+```
+
+I consists of the 60 proper icosahedral rotations. The seed center c, seed axis u, width σ, strength Ω and damping γ take the values for Case 177 at left and Case 183 at right. [Model and parameters](docs/icosahedral-flow.md#equation-and-selection)
+
+<!-- /portrait-equation -->
 
 Full three-state coordinates; archived orthographic cameras.
 
@@ -46,6 +56,16 @@ Full three-state coordinates; archived orthographic cameras.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation raar -->
+
+```math
+b=P_B(x_n),\quad v=2b-x_n,\quad x_{n+1}=\beta x_n+\beta P_A(v)+(1-2\beta)b.
+```
+
+P_A and P_B are nearest-point projections onto circumferences. A is the unit xy circle. B is the circle c+r(cos t, cos θ sin t, sin θ sin t). Cases 1051 and 1483 have different centers, radii, tilts and relaxation β. [Model and parameters](docs/raar-circles.md#explicit-existing-map)
+
+<!-- /portrait-equation -->
+
 Full spatial state (x, y, z); archived orthographic cameras.
 
 **Certified attracting positive-entropy set.** For case 1051, an explicit strict trapping region contains the certified symbolic dynamics. Its maximal invariant set attracts a neighborhood and has topological entropy at least `log(2)/49` per iteration. A certified fold in this attracting set excludes ambient-neighborhood conjugacy to locally injective maps. Transitivity and equality with the numerical portrait remain unresolved; case 1483 is a numerical companion.
@@ -65,6 +85,16 @@ Full spatial state (x, y, z); archived orthographic cameras.
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation raar-constellations -->
+
+```math
+b=P_B(x_n),\quad v=2b-x_n,\quad x_{n+1}=\beta x_n+\beta P_A(v)+(1-2\beta)b.
+```
+
+P_B selects the nearest vertex of a finite spatial set. P_A(v) normalizes the xy component and sets z to zero. Case 1504 has four sites and Case 1725 has six. [Model and parameters](docs/raar-constellations.md#model)
+
+<!-- /portrait-equation -->
 
 Full three-state iterates; rigid camera and equal spatial units within each panel.
 
@@ -86,6 +116,16 @@ Full three-state iterates; rigid camera and equal spatial units within each pane
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation soft-constellations -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta P(v)+(1-2\beta)m(x_n).
+```
+
+P(v) normalizes the xy component and sets z to zero. The bⱼ are equally weighted sites, τ is temperature and β is relaxation. Cases 29 and 156 have four and six sites respectively. [Model and parameters](docs/soft-constellations.md#model-and-known-ingredients)
+
+<!-- /portrait-equation -->
+
 Full three-state iterates; rigid camera and equal spatial units within each panel.
 
 **Certified connected attracting positive-entropy set for Case 156.** Gaussian posterior averaging and a circle reflector produce a folded spatial band. A strict trapping region and seven independently checked crossings prove entropy at least `log(2)/6` per iteration. Certified periodic points have one and two unstable directions. Connectedness and opposite orientation signs force failure of local injectivity on the attracting set, excluding neighborhood conjugacy to invertible models such as three-dimensional Hénon maps. Equivalence restricted to the invariant set, transitivity, equality with the numerical portrait and historical uniqueness remain unresolved. Case 29 is a numerical companion with alternating folded lobes, a behavior known from earlier maps.
@@ -106,6 +146,16 @@ Full three-state iterates; rigid camera and equal spatial units within each pane
 *Drawn: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation soft-sphere -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta\frac{v}{\lVert v\rVert}+(1-2\beta)m(x_n).
+```
+
+The normalized vector projects onto the unit sphere. The bⱼ are equally weighted spatial sites, τ is temperature and β is relaxation. Cases 155 and 251 use their own site sets and temperatures. [Model and parameters](docs/soft-sphere/manuscript.md#2-map-derivative-and-elementary-bound)
+
+<!-- /portrait-equation -->
+
 Native three-state iterates; rigid camera and equal spatial units within each panel.
 
 **Numerical candidates with folded strands and curled lobes.** Cases 155 and 251 retain positive leading growth over five million steps, all 33 sampled starts and independent 70/100-digit checks. A complete 429-case temperature sweep preserves regular captures and competing outcomes. Mean-shift/MMSE averaging and its use in reflection constructions are known; asymptotic chaotic attraction, nonlinear equivalence and historical uniqueness remain unresolved.
@@ -125,6 +175,16 @@ Native three-state iterates; rigid camera and equal spatial units within each pa
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation canonical-sphere -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta\frac{v}{\lVert v\rVert}+(1-2\beta)m(x_n).
+```
+
+The canonical sites are b=c+aσ. Case 163 uses the four sign triples with σ₁σ₂σ₃=1 (tetrahedron), and Case 653 uses all eight sign triples (cube). τ is temperature and β is relaxation. [Model and parameters](docs/canonical-sphere/manuscript.md#2-model-and-exact-ideal-reductions)
+
+<!-- /portrait-equation -->
 
 Native three-state iterates; fixed data, rigid camera and equal spatial units within each panel.
 
@@ -147,6 +207,16 @@ Native three-state iterates; fixed data, rigid camera and equal spatial units wi
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation product-alphabet -->
+
+```math
+m_i(x)=\frac{\sum_{\ell\in A_i}\ell\,e^{-(x_i-\ell)^2/\tau}}{\sum_{\ell\in A_i}e^{-(x_i-\ell)^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta\frac{v}{\lVert v\rVert}+(1-2\beta)m(x_n).
+```
+
+Aᵢ is the stored alphabet along coordinate i. Case 988 uses two levels per coordinate and Case 489 uses four. Independent Gaussian weights give the mean m; β controls relaxation and τ is temperature. [Model and parameters](docs/product-alphabet/manuscript.md)
+
+<!-- /portrait-equation -->
 
 Native three-state iterates; rigid orthogonal camera and equal spatial units within each panel. Panel scales and density saturation differ.
 
@@ -176,6 +246,16 @@ The portrait shows the frequently visited core. The longer Case 988 record conta
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation product-irregular -->
+
+```math
+m_i(x)=\frac{\sum_{\ell\in A_i}\ell\,e^{-(x_i-\ell)^2/\tau}}{\sum_{\ell\in A_i}e^{-(x_i-\ell)^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta\frac{v}{\lVert v\rVert}+(1-2\beta)m(x_n).
+```
+
+The levels in each coordinate alphabet Aᵢ have nonuniform spacing. Case 6 has four levels per coordinate and Case 7 has five. Their temperatures τ differ while β is shared. [Model and parameters](docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells)
+
+<!-- /portrait-equation -->
+
 Native three-state discrete iterates; rigid orthogonal cameras and equal units within each panel. Panel scales and density saturation differ. Case numbers are local to the nonuniform-alphabet survey.
 
 **Two numerical folded-shell candidates.** Unevenly spaced posterior levels produce curled shells in Cases 6 and 7. Both retain positive leading growth over 20 million updates, at all 33 tested starts, and in separate 70/100-digit controls. The stills show two million consecutive states; rotation uses a fixed terminal quarter-million. Case 7 has two rare exits beyond the enlarged rendering envelope in the longer run.
@@ -198,6 +278,16 @@ Toroidal and folded-shell motifs have prior examples. Comparisons with 108 froze
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation anderson -->
+
+```math
+(x_0,x_1,x_2)^+=\left(x_1,x_2,\sum_{i=0}^2\alpha_i g(x_i)\right),\quad \alpha=\arg\min_{\sum_i a_i=1}\left[(a^\top r)^2+\lambda\|a\|^2\right]
+```
+
+The residual is rᵢ = g(xᵢ) − xᵢ for g(x) = c + k tanh(x). Cases 54 and 449 use the linked values of c, k and the fixed regularization λ. [Model and parameters](docs/anderson-memory.md#the-exact-algorithm)
+
+<!-- /portrait-equation -->
+
 Three-history state; archived orthographic cameras.
 
 **Numerical chaos with a convergent scalar baseline.** The unaccelerated maps have interval-verified unique fixed points and globally convergent iteration. Adding regularized three-history acceleration produces irregular memory states that persist under 80- and 110-digit checks.
@@ -217,6 +307,16 @@ Three-history state; archived orthographic cameras.
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation rk45 -->
+
+```math
+\begin{aligned}v&=R(hA)y,\quad e=E(hA)y,\quad A=\begin{pmatrix}0&1\\-1&-2\zeta\end{pmatrix},\\R(z)&=\sum_{j=0}^{5} z^j/j!+z^6/600,\quad E(z)=z^5(5z^2-39z+97)/120000,\\w&=\sqrt{\tfrac12\sum_i\left[\frac{e_i}{\tau+\rho\max(|y_i|,|v_i|)}\right]^2}.\end{aligned}
+```
+
+Dormand–Prince 5(4) on the damped oscillator y = (q,p). With absolute and relative tolerances τ, ρ, accept v if w < 1 and multiply h by min(10, 0.9 w^(−1/5)), capped at one after a rejection. Otherwise retry y with factor max(0.2, 0.9 w^(−1/5)). Zero error selects the maximum allowed growth. Cases 335 and 448 use different damping and tolerances. [Model and parameters](docs/rk45-controller-structure.md)
+
+<!-- /portrait-equation -->
 
 Position / atol, velocity / atol, proposed step; archived orthographic cameras.
 
@@ -238,6 +338,16 @@ Position / atol, velocity / atol, proposed step; archived orthographic cameras.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation yogi-tanh -->
+
+```math
+m^+=bm+(1-b)x,\quad v^+=v-(1-c)x^2\tanh\!\big(k(v-x^2)\big),\quad x^+=x-\frac{m^+}{\sqrt{v^+}+e}
+```
+
+Normalized autonomous tanh-Yogi on the scalar quadratic. The memories are b, c, the activation scale is k = 10α² and e = ε/α. The panels use Cases 2850 and 39. [Model and parameters](docs/yogi-tanh.md)
+
+<!-- /portrait-equation -->
+
 Normalized optimizer state (x, m, v); archived orthographic cameras.
 
 **Numerical evidence for two expanding directions.** The published tanh variant of Yogi retains two positive growth rates in selected regimes under five-million-step, high-precision and TensorFlow checks. Separate results cover standard Yogi, Adamax and AdaBelief. These are regimes of existing algorithms.
@@ -257,6 +367,16 @@ Normalized optimizer state (x, m, v); archived orthographic cameras.
 <!-- drawing-date -->
 *Drawn: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation sinkhorn-balanced -->
+
+```math
+u_i^+=u_i^{1-\omega_x}\!\left(\frac{a_i}{(Kv)_i}\right)^{\omega_x},\qquad v_j^+=v_j^{1-\omega_y}\!\left(\frac{b_j}{(K^\top u^+)_j}\right)^{\omega_y}
+```
+
+K is a positive 3 × 2 matrix with row sums a and column sums b. The three plotted variables are log ratios to the first entry of each scaling vector. Row and column rates are (2.1, 1.8) in Case 150 and (2.02, 1.9) in Case 987. [Model and parameters](docs/sinkhorn-unequal-rates.md#map-and-input-design)
+
+<!-- /portrait-equation -->
 
 All three anchored log coordinates; rigid PCA rotation with equal units and no rescaling. Each panel contains 250,000 consecutive states.
 
@@ -280,6 +400,20 @@ All three anchored log coordinates; rigid PCA rotation with equal units and no r
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation motor-four -->
+
+```math
+\begin{aligned}
+ V_j&=-\rho X_j+r(s_j-\bar s),\qquad \dot X_j=V_j,\\
+ \dot c_j&=1-c_j-V_js_j,\qquad \dot s_j=b-s_j+V_jc_j,\\
+ \bar s&=N^{-1}\sum_{k=1}^{N}s_k,\qquad \sum_{j=1}^{N}X_j=0.
+\end{aligned}
+```
+
+For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. The four-row panels use the same mechanical coefficients and compare b = 1.500 and 1.545. [Model and parameters](docs/motor-rows-gpu-survey.md#what-the-system-represents)
+
+<!-- /portrait-equation -->
+
 Three orthonormal displacement contrasts; final 1,200 saved time units; common scale.
 
 **Numerical chaos in an eleven-dimensional physical model.** Changing the dimensionless transition-rate asymmetry `b` changes a narrow braid into a broader regime. Long full-spectrum calculations retain a positive leading rate. The portraits show orthonormal displacement contrasts, not three-dimensional embeddings.
@@ -299,6 +433,20 @@ Three orthonormal displacement contrasts; final 1,200 saved time units; common s
 <!-- drawing-date -->
 *First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation motor-eight -->
+
+```math
+\begin{aligned}
+ V_j&=-\rho X_j+r(s_j-\bar s),\qquad \dot X_j=V_j,\\
+ \dot c_j&=1-c_j-V_js_j,\qquad \dot s_j=b-s_j+V_jc_j,\\
+ \bar s&=N^{-1}\sum_{k=1}^{N}s_k,\qquad \sum_{j=1}^{N}X_j=0.
+\end{aligned}
+```
+
+For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. Eight rows have 23 independent states. The left panel shows a five-cluster periodic orbit and the right shows an irregular trajectory. [Model and parameters](docs/motor-rows-gpu-survey.md#what-the-system-represents)
+
+<!-- /portrait-equation -->
 
 Physical coordinates (X0, X1, s0) of the 23D model; common scale.
 
@@ -321,6 +469,16 @@ Physical coordinates (X0, X1, s0) of the 23D model; common scale.
 <!-- drawing-date -->
 *Drawn: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation fastica-tripling -->
+
+```math
+h(w)=\mathbb E[X(X^\top w)^3]-3\mathbb E[(X^\top w)^2]w,\qquad w^+=\frac{h(w)}{\|h(w)\|}
+```
+
+The expectation averages the 720 specified, equally weighted four-dimensional observations. The two panels use the same cubic FastICA update and the structured data at ε = 0.04 and 0.15, respectively. [Model and parameters](docs/fastica-tripling.md#data-and-update)
+
+<!-- /portrait-equation -->
 
 Projection `(A,B,C)` of a unit weight in four dimensions; equal units and a common scale. The parameter `epsilon` controls the coupling in the fixed input data. Each panel contains 500,000 consecutive iterates.
 
@@ -345,6 +503,16 @@ Projection `(A,B,C)` of a unit weight in four dimensions; equal units and a comm
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-harmonic -->
+
+```math
+\dot x_i=-d_i x_i+a_i\sin(x_j+\phi_i)+b_i\sin(x_k+\psi_i)+c_i\sin(m_i x_j+n_i x_k+\chi_i).
+```
+
+The indices (i, j, k) run cyclically through the three native Cartesian coordinates. Cases 132 and 306 use different coefficient sets for the six-loop rosette and six-sided spiral lattice. [Model and parameters](results/shape_search_20261121/flows/README.md#cartesian-harmonic-coupling)
+
+<!-- /portrait-equation -->
+
 Cases 132 and 306 give two distinct sixfold silhouettes in cyclic harmonic flows. Each has a positive leading numerical rate with four initial states and an independent adaptive solver.
 
 Full spatial states at equal axis scales. The camera looks along (1, 1, 1). [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -362,6 +530,16 @@ Full spatial states at equal axis scales. The camera looks along (1, 1, 1). [Equ
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-torus -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta P(v)+(1-2\beta)m(x_n).
+```
+
+For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Both Case 301027 and Case 370279 use P=P₀, with different sites bⱼ, temperatures τ, tube radii r and relaxations β. [Model and parameters](results/shape_search_20261121/projection/README.md#map-and-geometry) · [Case 301027](results/shape_search_20261121/projection/case-301027.json) · [Case 370279](results/shape_search_20261121/projection/case-370279.json)
+
+<!-- /portrait-equation -->
 
 A Gaussian posterior reflector paired with a torus produces a nested scroll and two ribbed fans. Leading finite-time exponents stay positive over five million double-precision iterations.
 
@@ -381,6 +559,16 @@ Consecutive three-state iterates in equal units. Each panel has its own spatial 
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-phase -->
+
+```math
+z^{(0)}=r x_n+(1-r)e_1,\quad z^{(j)}=R_{i_j k_j}\!\left(a_j+b_jw_j+h_jw_j^3\right)z^{(j-1)},\quad x_{n+1}=z^{(3)}.
+```
+
+The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Case 2603268 visits three spatial groups and Case 3203938 visits four. [Model and parameters](docs/twist-geometry.md#definition-and-exact-structural-properties) · [Maps report](results/shape_search_20261121/maps/README.md)
+
+<!-- /portrait-equation -->
+
 Two dissipative twist maps visit three and four spatial groups in order. Positive growth persists on long runs. The phase count describes successive visits within a single orbit.
 
 Consecutive three-state iterates in equal units. Each panel has its own spatial scale. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -398,6 +586,16 @@ Consecutive three-state iterates in equal units. Each panel has its own spatial 
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-braids -->
+
+```math
+\begin{aligned}\theta^+&=p\theta+0.14\sin(p\theta)+0.137\pmod{2\pi},\\z^+&=C(\theta)+\rho e^{i(m\theta+0.31)}z,\quad C(\theta)=s^{-1}\sum_k(u_k+i v_k)e^{ik\theta}.\end{aligned}
+```
+
+The complex coordinate z lies in the unit disk. Cases 56014 and 114425 have the same angular degree p = 4 and different Fourier cores. Their coefficients, scale s, fiber contraction ρ and twist m are specified in the linked case certificates. [Model and parameters](research/shape_search_20261121/braids/README.md#map-and-trapping-region)
+
+<!-- /portrait-equation -->
 
 Both maps have winding four and determinant-one first cores. Their Alexander polynomials have spans ten and eight, respectively, and exclude all torus knots. Both solenoids have entropy log 4 per iterate.
 
@@ -417,6 +615,21 @@ Three-dimensional states in the same fixed Euclidean embedding of the solid toru
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-rings -->
+
+```math
+\begin{aligned}
+\dot u &= u[\alpha-s+\beta z+i(\omega+\kappa z+\tau s)]
+          +A h^{(n-2)/2}\overline{u}^{n-1},\\
+\dot z &= -d z+e\frac{s-1}{1+s}
+          + f h^{n/2}\mathrm{Re}(e^{i\phi}u^n).
+\end{aligned}
+```
+
+Here u = x + iy, s = |u|² and h = 2/(1+s). Case 21253 uses resonance order n = 4 and Case 20897 uses n = 8. [Model and parameters](results/shape_search_20261121/flows/README.md#angular-resonance)
+
+<!-- /portrait-equation -->
+
 Rotationally symmetric flows fold into a four-lobed sheet and an eight-lobed crown. Independent integration and five starting states retained positive finite-time expansion in both cases.
 
 Full spatial states shown from a steep inclination. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -434,6 +647,16 @@ Full spatial states shown from a steep inclination. [Equations, controls and pri
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-hyper -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta P(v)+(1-2\beta)m(x_n).
+```
+
+For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Case 516308 uses P=P₀. In Case 1291273, C₁ is the unit xz circle centered at (1,0,0); P selects whichever of P₀(v) and P₁(v) is closer to v, choosing P₀ on a tie. [Model and parameters](results/shape_search_20261121/projection/README.md#map-and-geometry) · [Case 516308](results/shape_search_20261121/projection/case-516308.json) · [Case 1291273](results/shape_search_20261121/projection/case-1291273.json)
+
+<!-- /portrait-equation -->
 
 A single torus gives the domed shell at left. Choosing between two linked tori gives the layered cusps at right. Both have two positive finite-time exponents. Case 516308 also has a certified stable fixed point.
 
@@ -453,6 +676,21 @@ The two projections use equal spatial units within each panel. [Equations, contr
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-knotted-band -->
+
+```math
+\begin{aligned}
+\dot u &= u[\alpha-s+\beta z+i(\omega+\kappa z+\tau s)]
+          +A h^{(n-2)/2}\overline{u}^{n-1},\\
+\dot z &= -d z+e\frac{s-1}{1+s}
+          + f h^{n/2}\mathrm{Re}(e^{i\phi}u^n).
+\end{aligned}
+```
+
+Here u = x + iy, s = |u|² and h = 2/(1+s). Both panels use the same order-seven flow. Changing only e from −0.4297716 in Case 28756 to −0.3538341 in Case 180844 links the stable knotted cycle to the chaotic-band parameter. [Model and parameters](results/shape_search_20261121/flows/README.md#angular-resonance)
+
+<!-- /portrait-equation -->
+
 Case 28756 approaches a stable knotted cycle. After changing one coefficient, Case 180844 gives a chaotic band near a numerical continuation of the same knot, now unstable. Five starts and an adaptive solver retained positive growth in the band.
 
 Native spatial coordinates. Each panel preserves equal axis scales. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -470,6 +708,20 @@ Native spatial coordinates. Each panel preserves equal axis scales. [Equations, 
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-links -->
+
+```math
+\begin{aligned}
+ \text{2479: }\dot x_i&=-d_ix_i+a_i\sin(x_j+\phi_i)+b_i\sin(x_k+\psi_i)+c_i\sin(m_ix_j+n_ix_k+\chi_i),\\
+ \text{26471: }\dot u&=u[\alpha-s+\beta z+i(\omega+\kappa z+\tau s)]+Ah^{(n-2)/2}\bar u^{n-1},\\
+ \dot z&=-dz+e(s-1)/(1+s)+fh^{n/2}\mathrm{Re}(e^{i\phi}u^n).
+\end{aligned}
+```
+
+The left triplet solves the cyclic Cartesian harmonic equation. The right quartet solves the angular equation with u = x + iy, s = |u|², h = 2/(1+s) and n = 8. Each panel overlays coexisting solutions at one parameter set. [Model and parameters](results/shape_search_20261121/flows/README.md#equations)
+
+<!-- /portrait-equation -->
 
 Case 2479 has three coexisting numerical cycles with pairwise absolute linking number 30. Case 26471 has four, with absolute linking number 6 for each of the six pairs. Exact polygon checks agree in three projections and at two resolutions.
 
@@ -489,6 +741,16 @@ Each panel combines complete trajectories of the coexisting cycles. The rotation
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-returns -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta P(v)+(1-2\beta)m(x_n).
+```
+
+For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Case 2189166 uses the blended projection P=α₀P₀+α₁P₁, with αᵢ proportional to exp(−‖v−Pᵢ(v)‖²/κ) and α₀+α₁=1. C₁ is the unit xz circle centered at (1,0,0). Case 394727 uses P=P₀. [Model and parameters](results/shape_search_20261121/projection/README.md#map-and-geometry) · [Case 2189166](results/shape_search_20261121/projection/case-2189166.json) · [Case 394727](results/shape_search_20261121/projection/case-394727.json)
+
+<!-- /portrait-equation -->
+
 Case 2189166 exhibits a helical chain and Case 394727 gives curled fins. Local interval certificates establish positive topological entropy for invariant subsystems. Long numerical trajectories produce the displayed shapes.
 
 Equal-unit spatial projection of consecutive map states. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -506,6 +768,16 @@ Equal-unit spatial projection of consecutive map states. [Equations, controls an
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-three -->
+
+```math
+m(x)=\frac{\sum_j b_j e^{-\lVert x-b_j\rVert^2/\tau}}{\sum_j e^{-\lVert x-b_j\rVert^2/\tau}},\quad v=2m(x_n)-x_n,\quad x_{n+1}=\beta x_n+\beta P(v)+(1-2\beta)m(x_n).
+```
+
+For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Both cases use P=P₀. Case 6616162 has four posterior sites and Case 6583985 has seven. [Model and parameters](results/shape_search_20261121/projection/README.md#map-and-geometry) · [Case 6616162](results/shape_search_20261121/projection/three/case-6616162.json) · [Case 6583985](results/shape_search_20261121/projection/three/case-6583985.json)
+
+<!-- /portrait-equation -->
 
 Cases 6616162 and 6583985 have three positive finite-time Lyapunov exponents in all three native coordinates. Their five-million-update spectra are approximately (0.265, 0.132, 0.021) and (0.229, 0.115, 0.026). All 17 starts showed growth in each direction.
 
@@ -525,9 +797,47 @@ Each panel uses equal physical units and the same camera in its signed principal
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-extension-gpu -->
+
+```math
+\begin{aligned}m(x)&=\frac{\sum_j b_j e^{-q\lVert x-b_j\rVert^2}}{\sum_j e^{-q\lVert x-b_j\rVert^2}},\quad v=2m(x_n)-x_n,\\ x_{n+1}&=\beta x_n+\beta(\Phi\circ P_0\circ\Phi^{-1})(v)+(1-2\beta)m(x_n),\\ \Phi(u)&=\mathrm{diag}(s_x,s_y,s_z)\big(u_x,u_y,u_z+w(u_x^2-u_y^2)\big)^\mathsf{T}.\end{aligned}
+```
+
+For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Here q is inverse temperature and the scales sᵢ deform the torus. Case 409700 is affine (w=0); Case 2298665 also has quadratic shear (w≈−0.04253). [Model and parameters](results/shape_search_20261121/extension/projection/README.md#physical-map) · [Case 409700](results/shape_search_20261121/extension/projection/cases/case-409700.json) · [Case 2298665](results/shape_search_20261121/extension/projection/cases/case-2298665.json)
+
+<!-- /portrait-equation -->
+
 Cases 409700 and 2298665 have three positive numerical Lyapunov exponents in three-dimensional maps with deformed torus projections. The two density peaks of Case 409700 occasionally repeat on consecutive steps. In Case 2298665 a plane separates the odd and even states of the displayed sample.
 
 Native Cartesian states with a principal-axis camera and equal axis scales. The displayed clouds contain 250,000 consecutive iterations per case. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Triple links selected by a driven cubic
+
+![Triple links selected by a driven cubic in rotation](docs/assets/portraits/shapes-20261121-cubic.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Triple links selected by a driven cubic](docs/assets/portraits/shapes-20261121-cubic.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-cubic -->
+
+```math
+\begin{aligned}p_\theta(z)&=z^3-3z+b(\theta),\qquad \theta'=2\theta+0.12\sin(2\theta)+0.137\pmod{2\pi},\\p_{\theta'}(z')&=0.2\,p_\theta(z)+0.6D e^{i\theta}.\end{aligned}
+```
+
+Continue on the same cubic sheet, with residual radius $`D`$ from the case certificate. The left drive is $`b=-4\sin(3\theta)+4\sin(4\theta)+3i\sin(7\theta)`$. The right drive is $`b=\tfrac14\sin\theta-4\sin(9\theta)+3i\sin(18\theta)`$. [Model and parameters](results/shape_search_20261121/frontiers/cubic/README.md)
+
+<!-- /portrait-equation -->
+
+Cases 47087142 and 48000003 use a single driven cubic to determine all three sheets. In the degree-two return map each sheet contains a chaotic solenoid. The triples have absolute core linking invariants one and three and are inequivalent in three-space.
+
+Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,000 consecutive states per component. The rotation includes all three components. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-selected -->
 
 ## Further portraits
@@ -544,6 +854,16 @@ Additional numerical candidates and comparison regimes, grouped by system. Each 
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation tetrahedral -->
+
+```math
+\dot x=-\gamma x+\sum_{G\in T}\big[(Gu)\times(x-Gc)\big]\exp\!\left(-\frac{\lVert x-Gc\rVert^2}{2\sigma^2}\right).
+```
+
+T consists of the 12 proper tetrahedral rotations. Cases 421 and 565 specify different seed centers c, unit axes u, widths σ and damping coefficients γ. [Model and parameters](docs/tetrahedral-flow.md#construction)
+
+<!-- /portrait-equation -->
+
 Cases 421 and 565 have a stable central equilibrium and sustained irregular outer motion. Three-dimensional tetrahedral chaos is established prior work.
 
 Full three-state coordinates; archived orthographic cameras.
@@ -558,6 +878,16 @@ Full three-state coordinates; archived orthographic cameras.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation gaussian-vortex -->
+
+```math
+r_j=x-d e_j,\qquad\dot x=-\gamma x+b+\sum_{j=0}^2\omega_j(e_{j+1}\times r_j)\exp\!\left(-\frac{\lVert r_j\rVert^2}{2\sigma_j^2}\right).
+```
+
+The basis index is taken modulo three. Case 77 uses three equally strong vortices of equal width and a constant drift b with equal components. [Model and parameters](docs/gaussian-vortex.md#the-equation)
+
+<!-- /portrait-equation -->
+
 Case 77 survives a 30,000-unit spectrum and independent integration. A competing periodic orbit and resemblance to known threefold geometries limit interpretation.
 
 Full three-state coordinates; archived orthographic camera.
@@ -571,6 +901,16 @@ Full three-state coordinates; archived orthographic camera.
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation twist -->
+
+```math
+z^{(0)}=r x_n+(1-r)e_1,\quad z^{(j)}=R_{i_j k_j}\!\left(a_j+b_jw_j+h_jw_j^3\right)z^{(j-1)},\quad x_{n+1}=z^{(3)}.
+```
+
+The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Cases 1709 and 3254 use different fixed coefficient vectors. [Model and parameters](docs/twist-geometry.md#definition-and-exact-structural-properties) · [Twist map](research/twist_map.py) · [Candidates](results/twist-geometry/candidates.json)
+
+<!-- /portrait-equation -->
 
 Cases 1709 and 3254 retain positive finite-time growth under long and high-precision controls. The first case also has a regular regime.
 
@@ -588,6 +928,16 @@ Full three-state coordinates; archived orthographic cameras.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation raar-constellation-columns -->
+
+```math
+b=P_B(x_n),\quad v=2b-x_n,\quad x_{n+1}=\beta x_n+\beta P_A(v)+(1-2\beta)b.
+```
+
+P_B selects the nearest vertex in the finite set for Case 124 (left) or 896 (right). P_A(v) normalizes the xy component and sets z to zero. β controls relaxation. [Model and parameters](docs/raar-constellations.md#model) · [Search raar constellations](research/search_raar_constellations.py)
+
+<!-- /portrait-equation -->
+
 Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
 
 Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.
@@ -601,6 +951,16 @@ Full three-state iterates, centered and rigidly rotated. Equal spatial units wit
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation raar-constellation-fans -->
+
+```math
+b=P_B(x_n),\quad v=2b-x_n,\quad x_{n+1}=\beta x_n+\beta P_A(v)+(1-2\beta)b.
+```
+
+P_B selects the nearest vertex in the finite set for Case 611 (left) or 1873 (right). P_A(v) normalizes the xy component and sets z to zero. β controls relaxation. [Model and parameters](docs/raar-constellations.md#model) · [Search raar constellations](research/search_raar_constellations.py)
+
+<!-- /portrait-equation -->
 
 Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
 
@@ -616,6 +976,16 @@ Full three-state iterates, centered and rigidly rotated. Equal spatial units wit
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation rk23 -->
+
+```math
+\begin{aligned}v&=R(hA)y,\quad e=E(hA)y,\quad A=\begin{pmatrix}0&1\\-1&-2\zeta\end{pmatrix},\\R(z)&=1+z+z^2/2+z^3/6,\quad E(z)=z^3(1+z)/48,\\w&=\sqrt{\tfrac12\sum_i\left[\frac{e_i}{\tau+\rho\max(|y_i|,|v_i|)}\right]^2}.\end{aligned}
+```
+
+Bogacki–Shampine 3(2) on the damped oscillator y = (q,p). With absolute and relative tolerances τ, ρ, accept v if w < 1 and multiply h by min(10, 0.9 w^(−1/3)), capped at one after a rejection. Otherwise retry y with factor max(0.2, 0.9 w^(−1/3)). Zero error selects the maximum allowed growth. Cases 381 and 883 use different damping and tolerances. [Model and parameters](docs/rk23-controller-structure.md)
+
+<!-- /portrait-equation -->
+
 The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.
 
 Position / atol, velocity / atol, proposed step; archived orthographic cameras.
@@ -629,6 +999,16 @@ Position / atol, velocity / atol, proposed step; archived orthographic cameras.
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation yogi-arc -->
+
+```math
+m^+=bm+(1-b)x,\quad v^+=v-(1-c)x^2\mathrm{sgn}(v-x^2),\quad x^+=x-\frac{m^+}{\sqrt{v^+}+e}
+```
+
+Sign-Yogi on the scalar quadratic in normalized coordinates (x,m,v). Here b and c are memory coefficients, e = ε/α and sign(0) = 0. The high-memory grid selection is Case 670. [Model and parameters](docs/yogi-parameter-plane.md)
+
+<!-- /portrait-equation -->
 
 Case 670 is retained after five million steps and independent controls. Case 125 has stronger evidence for a second expanding direction; their rates remain finite-time quantities.
 
@@ -644,6 +1024,16 @@ Normalized optimizer state (x, m, v); archived orthographic camera.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation yogi -->
+
+```math
+m^+=bm+(1-b)x,\quad v^+=v-(1-c)x^2\mathrm{sgn}(v-x^2),\quad x^+=x-\frac{m^+}{\sqrt{v^+}+e}
+```
+
+Sign-Yogi on the scalar quadratic in normalized coordinates (x,m,v). Here b and c are memory coefficients, e = ε/α and sign(0) = 0. Cases 44 and 7590 have different memory coefficients and epsilon values. [Model and parameters](docs/yogi-geometry.md)
+
+<!-- /portrait-equation -->
+
 Cases 44 and 7590 are visually distinct numerical regimes of the same published optimizer. Initialization and precision controls are retained in the report.
 
 Normalized optimizer state (x, m, v); archived orthographic cameras.
@@ -657,6 +1047,16 @@ Normalized optimizer state (x, m, v); archived orthographic cameras.
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation yogi-expansion -->
+
+```math
+m^+=bm+(1-b)x,\quad v^+=v-(1-c)x^2\mathrm{sgn}(v-x^2),\quad x^+=x-\frac{m^+}{\sqrt{v^+}+e}
+```
+
+Sign-Yogi on the scalar quadratic in normalized coordinates (x,m,v). Here b and c are memory coefficients, e = ε/α and sign(0) = 0. The selections are scout Case 4214 and grid Case 125, with different memory settings. [Model and parameters](docs/yogi-parameter-plane.md)
+
+<!-- /portrait-equation -->
 
 Cases 4214 and 125 have numerical evidence for two expanding directions. Window lengths, library differences and branch discontinuities are reported separately.
 
@@ -672,6 +1072,16 @@ Normalized optimizer states; archived preview cameras. Panels have separate scal
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation adamax -->
+
+```math
+m^+=b m+(1-b)x,\qquad u^+=\max(cu,|x|+e),\qquad x^+=x-\frac{m^+}{u^+}
+```
+
+Normalized late-time Adamax on the scalar quadratic. Both panels use e = 5 × 10⁻⁶. The (b,c) memory pair is approximately (0.363513,0.429109) for Case 847 and (0.9,0.5) for Case 4099. [Model and parameters](docs/adamax-geometry.md)
+
+<!-- /portrait-equation -->
+
 Four-million-step, high-precision and PyTorch controls support the selected regimes. Case 4099 coexists with two reflected periodic orbits.
 
 Normalized optimizer state; archived orthographic cameras.
@@ -686,6 +1096,16 @@ Normalized optimizer state; archived orthographic cameras.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation adabelief -->
+
+```math
+m^+=b m+(1-b)x,\quad s^+=c s+(1-c)(x-m^+)^2+e,\quad x^+=x-\frac{m^+}{\sqrt{s^+}+d}
+```
+
+Autonomous nonrectified AdaBelief on the scalar quadratic at b = 0.52, c = 0.15. With learning rate α = 0.01 and ε = 10⁻¹⁶, the two normalized offsets are e = ε/α² and d = ε/α. [Model and parameters](docs/adabelief-quadratic.md#exact-model-and-selected-parameters)
+
+<!-- /portrait-equation -->
+
 A scalar quadratic objective supports irregular full optimizer states at the selected memory parameters. Finite-time numerical evidence is separated from convergence and novelty claims.
 
 Normalized state (x, m, s); equal displayed coordinate units.
@@ -699,6 +1119,16 @@ Normalized state (x, m, s); equal displayed coordinate units.
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation fastica -->
+
+```math
+u_i=x_i^\top w,\quad h=\frac1N\sum_{i=1}^N\!\left[x_i g(u_i)-g'(u_i)w\right],\quad w^+=\frac{h}{\|h\|},\quad g(u)=u e^{-u^2/2}
+```
+
+The fixed whitened observations xᵢ lie in four dimensions. Case 204 uses N = 32 normal samples and Case 351 uses N = 16 Student-t samples. Both panels follow the first FastICA weight on the unit 3-sphere. [Model and parameters](docs/fastica-dynamics.md#map-and-input-conventions)
+
+<!-- /portrait-equation -->
 
 Cases 204 and 351 retain positive finite-time tangent growth over five million
 steps and at 70 and 100 digits. Case 351 has regular competing outcomes. These
@@ -721,6 +1151,20 @@ panels. Case numbers identify the exact data sets in the report.
 *First recorded portrait: **2026-11-01**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation motor-five -->
+
+```math
+\begin{aligned}
+ V_j&=-\rho X_j+r(s_j-\bar s),\qquad \dot X_j=V_j,\\
+ \dot c_j&=1-c_j-V_js_j,\qquad \dot s_j=b-s_j+V_jc_j,\\
+ \bar s&=N^{-1}\sum_{k=1}^{N}s_k,\qquad \sum_{j=1}^{N}X_j=0.
+\end{aligned}
+```
+
+For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. The same five-row trajectory appears in both panels, through displacement contrasts (1, 2, 3) and (1, 2, 4). [Model and parameters](docs/motor-five-geometry.md#model-and-selection)
+
+<!-- /portrait-equation -->
+
 The same saved fourteen-dimensional trajectory is shown in two projections of its four displacement contrasts. Neither view defines a three-dimensional embedding.
 
 Fourier displacement contrasts; final 800 saved time units.
@@ -734,6 +1178,20 @@ Fourier displacement contrasts; final 800 saved time units.
 <!-- drawing-date -->
 *First recorded portrait: **2026-10-31** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation motor-three-asymmetric -->
+
+```math
+\begin{aligned}
+ V_j&=-\rho X_j+r(s_j-\bar s),\qquad \dot X_j=V_j,\\
+ \dot c_j&=1-c_j-V_js_j,\qquad \dot s_j=b-s_j+V_jc_j,\\
+ \bar s&=N^{-1}\sum_{k=1}^{N}s_k,\qquad \sum_{j=1}^{N}X_j=0.
+\end{aligned}
+```
+
+For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. Three-row Case 2566 uses transition-rate asymmetry b = 0.7 and displays an orthogonal rotation of the three cosine occupancies. [Model and parameters](docs/motor-rows-gpu-survey.md#what-the-system-represents)
+
+<!-- /portrait-equation -->
 
 Case 2566 is an eight-dimensional numerical candidate. The projection uses a fixed orthogonal rotation of the three cosine occupancies.
 
@@ -749,6 +1207,20 @@ Rotated cosine occupancies; final 600 saved time units; stride 2.
 *First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation motor-three -->
+
+```math
+\begin{aligned}
+ V_j&=-\rho X_j+r(s_j-\bar s),\qquad \dot X_j=V_j,\\
+ \dot c_j&=1-c_j-V_js_j,\qquad \dot s_j=b-s_j+V_jc_j,\\
+ \bar s&=N^{-1}\sum_{k=1}^{N}s_k,\qquad \sum_{j=1}^{N}X_j=0.
+\end{aligned}
+```
+
+For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. Three-row Case 783 uses b = 1. The coordinates are the three sine occupancies. [Model and parameters](docs/motor-rows-gpu-survey.md#what-the-system-represents)
+
+<!-- /portrait-equation -->
+
 Case 783 has an independently computed eight-dimensional spectrum with one positive and one near-zero rate. This image shows the three sine occupancies.
 
 Sine occupancies (s0, s1, s2); a projection of the 8D flow.
@@ -762,6 +1234,20 @@ Sine occupancies (s0, s1, s2); a projection of the 8D flow.
 <!-- drawing-date -->
 *First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation motor-pair -->
+
+```math
+\begin{aligned}
+h'&=[-\rho+r(1-Z)]h-rY,\\
+Y'&=h(1-Z)-Y,\\
+Z'&=hY-Z.
+\end{aligned}
+```
+
+Case 444 is rendered in the dimensionless motor-pair coordinates h, Y and Z. The positive parameters ρ and r control mechanical relaxation and coupling. [Model and parameters](docs/motor-pair-source-audit.md#exact-equations-suitable-for-independent-implementation)
+
+<!-- /portrait-equation -->
 
 Case 444 retains positive growth in a long independent CPU calculation. The neutral rate still needs convergence; priority and asymptotic attraction remain unresolved.
 
@@ -777,6 +1263,19 @@ Physical coordinates (h, Y, Z); final 2,000 saved time units.
 *First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation synchronematic -->
+
+```math
+\begin{aligned}
+ f_i&=\sum_{j\ne i}d_{ij}^{-3}F_\theta(\Delta_{ij})\cos\psi_i\cos\psi_j,\qquad \dot\theta_i=f_i-\bar f,\\
+ \dot\chi_i&=\sum_{j\ne i}d_{ij}^{-3}F_\chi(\Delta_{ij})\sin\psi_i\cos\psi_j.
+\end{aligned}
+```
+
+The four phases θ and orientations χ interact at pair distances d. For each pair, Δ is the phase difference θⱼ−θᵢ and ψ measures orientation relative to the pair direction. The source specifies both first- and third-harmonic kernels; f̄ is the four-particle mean. [Model and parameters](docs/synchronematic-research.md#exact-model-and-units)
+
+<!-- /portrait-equation -->
+
 The four-particle candidate is displayed through gauge-invariant collective observables. These do not form an embedding of the seven-dimensional reduced angular dynamics.
 
 Collective observables (Re Q, Im Q, C), not state coordinates.
@@ -790,6 +1289,17 @@ Collective observables (Re Q, Im Q, C), not state coordinates.
 <!-- drawing-date -->
 *First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation lce-slider -->
+
+```math
+\dot u=v,\qquad \dot v=k(d-u-\phi)-bv,\qquad
+\dot\phi=I H(u)(1-\phi)-\phi.
+```
+
+The slider displacement u is measured from the illumination threshold, v is velocity and φ is the light-responsive fraction. The step H switches the light on for u > 0. [Model and parameters](docs/lce-slider-research.md#exact-reduction-of-the-printed-equations)
+
+<!-- /portrait-equation -->
 
 The retained regime belongs to a three-state relay model. The report separates transverse growth estimates, switching assumptions and known related mechanisms.
 
@@ -805,6 +1315,23 @@ Scaled full state (u/q, v/(sqrt(k) q), phi/q); scaling is explicitly physical.
 *First recorded portrait: **2026-10-30** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation two-strain -->
+
+```math
+\begin{aligned}
+\dot S &= \mu(1-S)-\beta_1 I_1 S-F_2 S,\\
+\dot I_1 &= (\beta_1 S-\mu-\gamma_1)I_1,\\
+\dot I_2 &= F_2 S-(\mu+\gamma_2)I_2,\\
+\dot I_{12} &= \sigma_{12}F_2R_1-(\mu+\gamma_{12})I_{12},\\
+\dot R_1 &= \gamma_1I_1-\sigma_{12}F_2R_1-\mu R_1
+\\ F_2&=\beta_2(I_2+\eta_2 I_{12}).
+\end{aligned}
+```
+
+The five variables are population fractions. S is susceptible, I₁ and I₂ are the two primary infections, I₁₂ is the secondary infection, and R₁ is recovery from the first infection. The portrait shows physical fractions. [Model and parameters](docs/two-strain-research.md#exact-model-and-bounded-state-space)
+
+<!-- /portrait-equation -->
+
 The numerical five-state regime contains unequal outbreaks and extremely small prevalence. Related epidemic chaos is established; physical interpretation requires the qualifications in the report.
 
 Projection (S, 1000 I1, 1000 I2); explicit axis units, not an embedding.
@@ -819,6 +1346,16 @@ Projection (S, 1000 I1, 1000 I2); explicit axis units, not an embedding.
 *First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation optical-relay -->
+
+```math
+\begin{aligned}P(D)x_-&=k\,S(x_+-\delta_+),&P(D)x_+&=k\,S(\delta_--x_-),\\P(D)&=(D+1)(D^2+bD+k).\end{aligned}
+```
+
+D denotes time differentiation, x₋ and x₊ are the two normalized displacements and S is the Heaviside switch. The baffle thresholds are δ₋ and δ₊; the mechanical stiffness k and damping b set the response in thermal-time units. Cases 1026 and 3054 use different coefficients. [Model and parameters](docs/coupled-operators-research.md#structural-checks)
+
+<!-- /portrait-equation -->
+
 These six-state relay histories have persistent irregular motion in the recorded observation. Later continuations, captures and source-model assumptions are retained in the report.
 
 Projection (x_minus, x_plus, y_minus - y_plus); all saved adaptive event/QR knots. The knots are nonuniform in time. Point density is sampling density, not an invariant measure.
@@ -832,6 +1369,16 @@ Projection (x_minus, x_plus, y_minus - y_plus); all saved adaptive event/QR knot
 <!-- drawing-date -->
 *First recorded portrait: **2026-10-29** · Current rendering: 2026-11-01.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation optical-smooth -->
+
+```math
+\begin{aligned}P(D)x_-&=k\,S(x_+-\delta_+),&P(D)x_+&=k\,S(\delta_--x_-),\\P(D)&=(D+1)(D^2+bD+k),&S(u)&=(1+e^{-u/w})^{-1}.\end{aligned}
+```
+
+D is time differentiation. The two displacements drive opposite logistic illumination responses with baffle thresholds δ₋ and δ₊. The irregular and regular trajectories use the same reference-A coefficients and width w = 0.04, with different initial conditions. [Model and parameters](docs/coupled-operators-research.md#finite-optical-width-a-stronger-physical-test)
+
+<!-- /portrait-equation -->
 
 At the same logistic-width parameters, saved starts produce regular and irregular histories. This is a finite coexistence observation, not an asymptotic attractor classification.
 
@@ -848,6 +1395,17 @@ Projection (x_minus, x_plus, y_minus - y_plus); common scale.
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-rotor -->
+
+```math
+H(v)=a\cdot v+\tfrac12\sum_i q_i v_i^2+\tfrac14\sum_i h_i v_i^4+cxyz,\qquad
+\dot v=t-Dv+\frac{v\times\nabla H(v)}{1+|v|^2}.
+```
+
+The native state is v = (x, y, z), D is diagonal damping and t is the constant torque. The quartic potential and forcing coefficients differ between Cases 52506 and 51256. [Model and parameters](results/shape_search_20261121/flows/README.md#forced-quartic-precession)
+
+<!-- /portrait-equation -->
+
 A damped, driven precession flow supports two distinct irregular shapes. For Case 52506 all six nearby starts followed the irregular motion, while four broader starts settled at a steady state.
 
 Full three-dimensional trajectories in a rigid camera. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -859,6 +1417,16 @@ Full three-dimensional trajectories in a rigid camera. [Equations, controls and 
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-recruits -->
+
+```math
+(x,y,z)^+=\left(sx+(1-s)z\,e^{r(1-ax-by-cz)},x,y\right),\qquad c=1-a-b
+```
+
+The coordinates are three successive abundances. Case 1008712 uses growth r ≈ 3.02992 and survival s ≈ 0.11481; Case 1025516 uses r ≈ 3.32047 and s = 0.025. The source links the full crowding weights and initial states. [Model and parameters](research/shape_search_20261121/delay/README.md#dynamics)
+
+<!-- /portrait-equation -->
 
 Three successive abundances of a delayed scalar recurrence form a banded ring at left. At right a broader distribution has positive growth in all three tangent directions over two million iterations.
 
@@ -872,6 +1440,16 @@ Each axis shows abundance in its original units at one of three successive times
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-pinched -->
+
+```math
+\begin{aligned}q^+&=q+(\sqrt2-1,\sqrt3-1)\pmod 1,\\h^+&=\frac{\kappa h\prod_j\sin^2\!\big(\pi(k_jq_1+l_jq_2+b_j/32)\big)}{1+(\kappa-1)h}.\end{aligned}
+```
+
+Case 156 uses κ = 64 with wave triples (k,l,b) = (5,4,12), (2,3,30). Case 1267 uses κ = 48 with (5,2,24), (0,1,12). [Model and parameters](research/shape_search_20261121/pinched/README.md#dynamics-and-proof)
+
+<!-- /portrait-equation -->
+
 A two-frequency rotation forces a pinched interval map. The attracting graph is discontinuous almost everywhere and its transverse exponent is strictly negative. The same torus coordinates are used for both portraits.
 
 Fixed tubular coordinates encode the two forcing phases and the physical fiber height. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -883,6 +1461,16 @@ Fixed tubular coordinates encode the two forcing phases and the physical fiber h
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-knots -->
+
+```math
+\dot x_i=-d_i x_i+a_i\sin(x_j+\phi_i)+b_i\sin(x_k+\psi_i)+c_i\sin(m_i x_j+n_i x_k+\chi_i).
+```
+
+The indices (i, j, k) run cyclically through the three native Cartesian coordinates. Cases 967 and 2160 use different coefficients and each panel shows one attracting periodic orbit. [Model and parameters](results/shape_search_20261121/flows/README.md#cartesian-harmonic-coupling)
+
+<!-- /portrait-equation -->
 
 The closed orbit polygons of Cases 967 and 2160 have distinct Alexander polynomials. The orbit in Case 967 has period about 215.27 and determinant 243. Stability of the flow cycles is numerical.
 
@@ -896,6 +1484,16 @@ Native spatial states on one circuit of each periodic orbit. [Equations, control
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-components -->
+
+```math
+z^{(0)}=r x_n+(1-r)e_1,\quad z^{(j)}=R_{i_j k_j}\!\left(a_j+b_jw_j+h_jw_j^3\right)z^{(j-1)},\quad x_{n+1}=z^{(3)}.
+```
+
+The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Cases 2303801 and 2401313 use the coefficient vectors with four and five certified components respectively. [Model and parameters](docs/twist-geometry.md#definition-and-exact-structural-properties) · [Maps report](results/shape_search_20261121/maps/README.md)
+
+<!-- /portrait-equation -->
+
 Cases 2303801 and 2401313 each have a rigorously trapped local attracting set. Their component counts are four and five, respectively, so the two sets are topologically distinguishable.
 
 Both panels show long numerical trajectories in the original three-coordinate maps. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -908,6 +1506,16 @@ Both panels show long numerical trajectories in the original three-coordinate ma
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+<!-- portrait-equation shapes-20261121-brunnian -->
+
+```math
+\begin{aligned}F\big(H_i(\theta,w)\big)&=H_i\big(f_i(\theta),\,0.105w+0.55e^{i\theta}\big),\\f_i(\theta)&=d_i\theta+0.12\sin(d_i\theta)+0.137,\quad (d_1,d_2,d_3)=(2,3,5).\end{aligned}
+```
+
+Each Hᵢ embeds its unit-disk fibers around a separate closed braid strand in three-space; angles are modulo 2π. Cases 30300001 and 30300007 have the same internal maps and different three-strand charts, with absolute triple-linking invariants 1 and 7. [Model and parameters](results/shape_search_20261121/extension/brunnian/README.md#local-maps-and-disjoint-trapping-tubes)
+
+<!-- /portrait-equation -->
+
 Cases 30300001 and 30300007 each contain three chaotic solenoids. Removing any one leaves the other two separated by a sphere. Their triple cannot be separated by a sphere. The two compact triples are inequivalent under ambient homeomorphisms.
 
 Native Cartesian positions at equal axis scales. Each panel combines 40,000 states from each of three attracting tubes. [Equations, controls and prior work](docs/shape-search-20261121.md)
@@ -919,6 +1527,16 @@ Native Cartesian positions at equal axis scales. Each panel combines 40,000 stat
 <!-- drawing-date -->
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
+
+<!-- portrait-equation shapes-20261121-extension-components -->
+
+```math
+z^{(0)}=r x_n+(1-r)e_1,\quad z^{(j)}=R_{i_j k_j}\!\left(a_j+b_jw_j+h_jw_j^3\right)z^{(j-1)},\quad x_{n+1}=z^{(3)}.
+```
+
+The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Cases 2000254 and 2302642 use the coefficient vectors with fourteen and twelve certified components respectively. [Model and parameters](docs/twist-geometry.md#definition-and-exact-structural-properties) · [Maps report](results/shape_search_20261121/extension/maps/README.md)
+
+<!-- /portrait-equation -->
 
 Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and twelve connected components. Each component contains at least two distinct points, as verified by an isolated orbit of twice the return period. The images show sampled trajectories at these parameters.
 

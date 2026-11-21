@@ -1,0 +1,318 @@
+{
+  "equations": {
+    "icosahedral": {
+      "tex": "\\dot x=-\\gamma x+\\Omega\\sum_{G\\in I}\\big[(Gu)\\times(x-Gc)\\big]\\exp\\!\\left(-\\frac{\\lVert x-Gc\\rVert^2}{2\\sigma^2}\\right).",
+      "text": "I consists of the 60 proper icosahedral rotations. The seed center c, seed axis u, width σ, strength Ω and damping γ take the values for Case 177 at left and Case 183 at right.",
+      "source": "docs/icosahedral-flow.md#equation-and-selection"
+    },
+    "tetrahedral": {
+      "tex": "\\dot x=-\\gamma x+\\sum_{G\\in T}\\big[(Gu)\\times(x-Gc)\\big]\\exp\\!\\left(-\\frac{\\lVert x-Gc\\rVert^2}{2\\sigma^2}\\right).",
+      "text": "T consists of the 12 proper tetrahedral rotations. Cases 421 and 565 specify different seed centers c, unit axes u, widths σ and damping coefficients γ.",
+      "source": "docs/tetrahedral-flow.md#construction"
+    },
+    "gaussian-vortex": {
+      "tex": "r_j=x-d e_j,\\qquad\\dot x=-\\gamma x+b+\\sum_{j=0}^2\\omega_j(e_{j+1}\\times r_j)\\exp\\!\\left(-\\frac{\\lVert r_j\\rVert^2}{2\\sigma_j^2}\\right).",
+      "text": "The basis index is taken modulo three. Case 77 uses three equally strong vortices of equal width and a constant drift b with equal components.",
+      "source": "docs/gaussian-vortex.md#the-equation"
+    },
+    "twist": {
+      "tex": "z^{(0)}=r x_n+(1-r)e_1,\\quad z^{(j)}=R_{i_j k_j}\\!\\left(a_j+b_jw_j+h_jw_j^3\\right)z^{(j-1)},\\quad x_{n+1}=z^{(3)}.",
+      "text": "The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Cases 1709 and 3254 use different fixed coefficient vectors.",
+      "source": "docs/twist-geometry.md#definition-and-exact-structural-properties",
+      "sources": [
+        "research/twist_map.py",
+        "results/twist-geometry/candidates.json"
+      ]
+    },
+    "raar": {
+      "tex": "b=P_B(x_n),\\quad v=2b-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P_A(v)+(1-2\\beta)b.",
+      "text": "P_A and P_B are nearest-point projections onto circumferences. A is the unit xy circle. B is the circle c+r(cos t, cos θ sin t, sin θ sin t). Cases 1051 and 1483 have different centers, radii, tilts and relaxation β.",
+      "source": "docs/raar-circles.md#explicit-existing-map"
+    },
+    "raar-constellations": {
+      "tex": "b=P_B(x_n),\\quad v=2b-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P_A(v)+(1-2\\beta)b.",
+      "text": "P_B selects the nearest vertex of a finite spatial set. P_A(v) normalizes the xy component and sets z to zero. Case 1504 has four sites and Case 1725 has six.",
+      "source": "docs/raar-constellations.md#model"
+    },
+    "soft-constellations": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P(v)+(1-2\\beta)m(x_n).",
+      "text": "P(v) normalizes the xy component and sets z to zero. The bⱼ are equally weighted sites, τ is temperature and β is relaxation. Cases 29 and 156 have four and six sites respectively.",
+      "source": "docs/soft-constellations.md#model-and-known-ingredients"
+    },
+    "soft-sphere": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta\\frac{v}{\\lVert v\\rVert}+(1-2\\beta)m(x_n).",
+      "text": "The normalized vector projects onto the unit sphere. The bⱼ are equally weighted spatial sites, τ is temperature and β is relaxation. Cases 155 and 251 use their own site sets and temperatures.",
+      "source": "docs/soft-sphere/manuscript.md#2-map-derivative-and-elementary-bound"
+    },
+    "canonical-sphere": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta\\frac{v}{\\lVert v\\rVert}+(1-2\\beta)m(x_n).",
+      "text": "The canonical sites are b=c+aσ. Case 163 uses the four sign triples with σ₁σ₂σ₃=1 (tetrahedron), and Case 653 uses all eight sign triples (cube). τ is temperature and β is relaxation.",
+      "source": "docs/canonical-sphere/manuscript.md#2-model-and-exact-ideal-reductions"
+    },
+    "product-alphabet": {
+      "tex": "m_i(x)=\\frac{\\sum_{\\ell\\in A_i}\\ell\\,e^{-(x_i-\\ell)^2/\\tau}}{\\sum_{\\ell\\in A_i}e^{-(x_i-\\ell)^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta\\frac{v}{\\lVert v\\rVert}+(1-2\\beta)m(x_n).",
+      "text": "Aᵢ is the stored alphabet along coordinate i. Case 988 uses two levels per coordinate and Case 489 uses four. Independent Gaussian weights give the mean m; β controls relaxation and τ is temperature.",
+      "source": "docs/product-alphabet/manuscript.md"
+    },
+    "product-irregular": {
+      "tex": "m_i(x)=\\frac{\\sum_{\\ell\\in A_i}\\ell\\,e^{-(x_i-\\ell)^2/\\tau}}{\\sum_{\\ell\\in A_i}e^{-(x_i-\\ell)^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta\\frac{v}{\\lVert v\\rVert}+(1-2\\beta)m(x_n).",
+      "text": "The levels in each coordinate alphabet Aᵢ have nonuniform spacing. Case 6 has four levels per coordinate and Case 7 has five. Their temperatures τ differ while β is shared.",
+      "source": "docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells"
+    },
+    "raar-constellation-columns": {
+      "tex": "b=P_B(x_n),\\quad v=2b-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P_A(v)+(1-2\\beta)b.",
+      "text": "P_B selects the nearest vertex in the finite set for Case 124 (left) or 896 (right). P_A(v) normalizes the xy component and sets z to zero. β controls relaxation.",
+      "source": "docs/raar-constellations.md#model",
+      "sources": [
+        "research/search_raar_constellations.py"
+      ]
+    },
+    "raar-constellation-fans": {
+      "tex": "b=P_B(x_n),\\quad v=2b-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P_A(v)+(1-2\\beta)b.",
+      "text": "P_B selects the nearest vertex in the finite set for Case 611 (left) or 1873 (right). P_A(v) normalizes the xy component and sets z to zero. β controls relaxation.",
+      "source": "docs/raar-constellations.md#model",
+      "sources": [
+        "research/search_raar_constellations.py"
+      ]
+    },
+    "anderson": {
+      "tex": "(x_0,x_1,x_2)^+=\\left(x_1,x_2,\\sum_{i=0}^2\\alpha_i g(x_i)\\right),\\quad \\alpha=\\arg\\min_{\\sum_i a_i=1}\\left[(a^\\top r)^2+\\lambda\\|a\\|^2\\right]",
+      "text": "The residual is rᵢ = g(xᵢ) − xᵢ for g(x) = c + k tanh(x). Cases 54 and 449 use the linked values of c, k and the fixed regularization λ.",
+      "source": "docs/anderson-memory.md#the-exact-algorithm"
+    },
+    "rk45": {
+      "tex": "\\begin{aligned}v&=R(hA)y,\\quad e=E(hA)y,\\quad A=\\begin{pmatrix}0&1\\\\-1&-2\\zeta\\end{pmatrix},\\\\R(z)&=\\sum_{j=0}^{5} z^j/j!+z^6/600,\\quad E(z)=z^5(5z^2-39z+97)/120000,\\\\w&=\\sqrt{\\tfrac12\\sum_i\\left[\\frac{e_i}{\\tau+\\rho\\max(|y_i|,|v_i|)}\\right]^2}.\\end{aligned}",
+      "text": "Dormand–Prince 5(4) on the damped oscillator y = (q,p). With absolute and relative tolerances τ, ρ, accept v if w < 1 and multiply h by min(10, 0.9 w^(−1/5)), capped at one after a rejection. Otherwise retry y with factor max(0.2, 0.9 w^(−1/5)). Zero error selects the maximum allowed growth. Cases 335 and 448 use different damping and tolerances.",
+      "source": "docs/rk45-controller-structure.md"
+    },
+    "rk23": {
+      "tex": "\\begin{aligned}v&=R(hA)y,\\quad e=E(hA)y,\\quad A=\\begin{pmatrix}0&1\\\\-1&-2\\zeta\\end{pmatrix},\\\\R(z)&=1+z+z^2/2+z^3/6,\\quad E(z)=z^3(1+z)/48,\\\\w&=\\sqrt{\\tfrac12\\sum_i\\left[\\frac{e_i}{\\tau+\\rho\\max(|y_i|,|v_i|)}\\right]^2}.\\end{aligned}",
+      "text": "Bogacki–Shampine 3(2) on the damped oscillator y = (q,p). With absolute and relative tolerances τ, ρ, accept v if w < 1 and multiply h by min(10, 0.9 w^(−1/3)), capped at one after a rejection. Otherwise retry y with factor max(0.2, 0.9 w^(−1/3)). Zero error selects the maximum allowed growth. Cases 381 and 883 use different damping and tolerances.",
+      "source": "docs/rk23-controller-structure.md"
+    },
+    "yogi-tanh": {
+      "tex": "m^+=bm+(1-b)x,\\quad v^+=v-(1-c)x^2\\tanh\\!\\big(k(v-x^2)\\big),\\quad x^+=x-\\frac{m^+}{\\sqrt{v^+}+e}",
+      "text": "Normalized autonomous tanh-Yogi on the scalar quadratic. The memories are b, c, the activation scale is k = 10α² and e = ε/α. The panels use Cases 2850 and 39.",
+      "source": "docs/yogi-tanh.md"
+    },
+    "sinkhorn-balanced": {
+      "tex": "u_i^+=u_i^{1-\\omega_x}\\!\\left(\\frac{a_i}{(Kv)_i}\\right)^{\\omega_x},\\qquad v_j^+=v_j^{1-\\omega_y}\\!\\left(\\frac{b_j}{(K^\\top u^+)_j}\\right)^{\\omega_y}",
+      "text": "K is a positive 3 × 2 matrix with row sums a and column sums b. The three plotted variables are log ratios to the first entry of each scaling vector. Row and column rates are (2.1, 1.8) in Case 150 and (2.02, 1.9) in Case 987.",
+      "source": "docs/sinkhorn-unequal-rates.md#map-and-input-design"
+    },
+    "yogi-arc": {
+      "tex": "m^+=bm+(1-b)x,\\quad v^+=v-(1-c)x^2\\mathrm{sgn}(v-x^2),\\quad x^+=x-\\frac{m^+}{\\sqrt{v^+}+e}",
+      "text": "Sign-Yogi on the scalar quadratic in normalized coordinates (x,m,v). Here b and c are memory coefficients, e = ε/α and sign(0) = 0. The high-memory grid selection is Case 670.",
+      "source": "docs/yogi-parameter-plane.md"
+    },
+    "yogi": {
+      "tex": "m^+=bm+(1-b)x,\\quad v^+=v-(1-c)x^2\\mathrm{sgn}(v-x^2),\\quad x^+=x-\\frac{m^+}{\\sqrt{v^+}+e}",
+      "text": "Sign-Yogi on the scalar quadratic in normalized coordinates (x,m,v). Here b and c are memory coefficients, e = ε/α and sign(0) = 0. Cases 44 and 7590 have different memory coefficients and epsilon values.",
+      "source": "docs/yogi-geometry.md"
+    },
+    "yogi-expansion": {
+      "tex": "m^+=bm+(1-b)x,\\quad v^+=v-(1-c)x^2\\mathrm{sgn}(v-x^2),\\quad x^+=x-\\frac{m^+}{\\sqrt{v^+}+e}",
+      "text": "Sign-Yogi on the scalar quadratic in normalized coordinates (x,m,v). Here b and c are memory coefficients, e = ε/α and sign(0) = 0. The selections are scout Case 4214 and grid Case 125, with different memory settings.",
+      "source": "docs/yogi-parameter-plane.md"
+    },
+    "adamax": {
+      "tex": "m^+=b m+(1-b)x,\\qquad u^+=\\max(cu,|x|+e),\\qquad x^+=x-\\frac{m^+}{u^+}",
+      "text": "Normalized late-time Adamax on the scalar quadratic. Both panels use e = 5 × 10⁻⁶. The (b,c) memory pair is approximately (0.363513,0.429109) for Case 847 and (0.9,0.5) for Case 4099.",
+      "source": "docs/adamax-geometry.md"
+    },
+    "adabelief": {
+      "tex": "m^+=b m+(1-b)x,\\quad s^+=c s+(1-c)(x-m^+)^2+e,\\quad x^+=x-\\frac{m^+}{\\sqrt{s^+}+d}",
+      "text": "Autonomous nonrectified AdaBelief on the scalar quadratic at b = 0.52, c = 0.15. With learning rate α = 0.01 and ε = 10⁻¹⁶, the two normalized offsets are e = ε/α² and d = ε/α.",
+      "source": "docs/adabelief-quadratic.md#exact-model-and-selected-parameters"
+    },
+    "motor-four": {
+      "tex": "\\begin{aligned}\n V_j&=-\\rho X_j+r(s_j-\\bar s),\\qquad \\dot X_j=V_j,\\\\\n \\dot c_j&=1-c_j-V_js_j,\\qquad \\dot s_j=b-s_j+V_jc_j,\\\\\n \\bar s&=N^{-1}\\sum_{k=1}^{N}s_k,\\qquad \\sum_{j=1}^{N}X_j=0.\n\\end{aligned}",
+      "text": "For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. The four-row panels use the same mechanical coefficients and compare b = 1.500 and 1.545.",
+      "source": "docs/motor-rows-gpu-survey.md#what-the-system-represents"
+    },
+    "motor-five": {
+      "tex": "\\begin{aligned}\n V_j&=-\\rho X_j+r(s_j-\\bar s),\\qquad \\dot X_j=V_j,\\\\\n \\dot c_j&=1-c_j-V_js_j,\\qquad \\dot s_j=b-s_j+V_jc_j,\\\\\n \\bar s&=N^{-1}\\sum_{k=1}^{N}s_k,\\qquad \\sum_{j=1}^{N}X_j=0.\n\\end{aligned}",
+      "text": "For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. The same five-row trajectory appears in both panels, through displacement contrasts (1, 2, 3) and (1, 2, 4).",
+      "source": "docs/motor-five-geometry.md#model-and-selection"
+    },
+    "motor-three-asymmetric": {
+      "tex": "\\begin{aligned}\n V_j&=-\\rho X_j+r(s_j-\\bar s),\\qquad \\dot X_j=V_j,\\\\\n \\dot c_j&=1-c_j-V_js_j,\\qquad \\dot s_j=b-s_j+V_jc_j,\\\\\n \\bar s&=N^{-1}\\sum_{k=1}^{N}s_k,\\qquad \\sum_{j=1}^{N}X_j=0.\n\\end{aligned}",
+      "text": "For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. Three-row Case 2566 uses transition-rate asymmetry b = 0.7 and displays an orthogonal rotation of the three cosine occupancies.",
+      "source": "docs/motor-rows-gpu-survey.md#what-the-system-represents"
+    },
+    "motor-eight": {
+      "tex": "\\begin{aligned}\n V_j&=-\\rho X_j+r(s_j-\\bar s),\\qquad \\dot X_j=V_j,\\\\\n \\dot c_j&=1-c_j-V_js_j,\\qquad \\dot s_j=b-s_j+V_jc_j,\\\\\n \\bar s&=N^{-1}\\sum_{k=1}^{N}s_k,\\qquad \\sum_{j=1}^{N}X_j=0.\n\\end{aligned}",
+      "text": "For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. Eight rows have 23 independent states. The left panel shows a five-cluster periodic orbit and the right shows an irregular trajectory.",
+      "source": "docs/motor-rows-gpu-survey.md#what-the-system-represents"
+    },
+    "motor-three": {
+      "tex": "\\begin{aligned}\n V_j&=-\\rho X_j+r(s_j-\\bar s),\\qquad \\dot X_j=V_j,\\\\\n \\dot c_j&=1-c_j-V_js_j,\\qquad \\dot s_j=b-s_j+V_jc_j,\\\\\n \\bar s&=N^{-1}\\sum_{k=1}^{N}s_k,\\qquad \\sum_{j=1}^{N}X_j=0.\n\\end{aligned}",
+      "text": "For row j, c and s are the cosine and sine occupancy coefficients, X is displacement and V is velocity. Three-row Case 783 uses b = 1. The coordinates are the three sine occupancies.",
+      "source": "docs/motor-rows-gpu-survey.md#what-the-system-represents"
+    },
+    "motor-pair": {
+      "tex": "\\begin{aligned}\nh'&=[-\\rho+r(1-Z)]h-rY,\\\\\nY'&=h(1-Z)-Y,\\\\\nZ'&=hY-Z.\n\\end{aligned}",
+      "text": "Case 444 is rendered in the dimensionless motor-pair coordinates h, Y and Z. The positive parameters ρ and r control mechanical relaxation and coupling.",
+      "source": "docs/motor-pair-source-audit.md#exact-equations-suitable-for-independent-implementation"
+    },
+    "synchronematic": {
+      "tex": "\\begin{aligned}\n f_i&=\\sum_{j\\ne i}d_{ij}^{-3}F_\\theta(\\Delta_{ij})\\cos\\psi_i\\cos\\psi_j,\\qquad \\dot\\theta_i=f_i-\\bar f,\\\\\n \\dot\\chi_i&=\\sum_{j\\ne i}d_{ij}^{-3}F_\\chi(\\Delta_{ij})\\sin\\psi_i\\cos\\psi_j.\n\\end{aligned}",
+      "text": "The four phases θ and orientations χ interact at pair distances d. For each pair, Δ is the phase difference θⱼ−θᵢ and ψ measures orientation relative to the pair direction. The source specifies both first- and third-harmonic kernels; f̄ is the four-particle mean.",
+      "source": "docs/synchronematic-research.md#exact-model-and-units"
+    },
+    "lce-slider": {
+      "tex": "\\dot u=v,\\qquad \\dot v=k(d-u-\\phi)-bv,\\qquad\n\\dot\\phi=I H(u)(1-\\phi)-\\phi.",
+      "text": "The slider displacement u is measured from the illumination threshold, v is velocity and φ is the light-responsive fraction. The step H switches the light on for u > 0.",
+      "source": "docs/lce-slider-research.md#exact-reduction-of-the-printed-equations"
+    },
+    "two-strain": {
+      "tex": "\\begin{aligned}\n\\dot S &= \\mu(1-S)-\\beta_1 I_1 S-F_2 S,\\\\\n\\dot I_1 &= (\\beta_1 S-\\mu-\\gamma_1)I_1,\\\\\n\\dot I_2 &= F_2 S-(\\mu+\\gamma_2)I_2,\\\\\n\\dot I_{12} &= \\sigma_{12}F_2R_1-(\\mu+\\gamma_{12})I_{12},\\\\\n\\dot R_1 &= \\gamma_1I_1-\\sigma_{12}F_2R_1-\\mu R_1\n\\\\ F_2&=\\beta_2(I_2+\\eta_2 I_{12}).\n\\end{aligned}",
+      "text": "The five variables are population fractions. S is susceptible, I₁ and I₂ are the two primary infections, I₁₂ is the secondary infection, and R₁ is recovery from the first infection. The portrait shows physical fractions.",
+      "source": "docs/two-strain-research.md#exact-model-and-bounded-state-space"
+    },
+    "optical-relay": {
+      "tex": "\\begin{aligned}P(D)x_-&=k\\,S(x_+-\\delta_+),&P(D)x_+&=k\\,S(\\delta_--x_-),\\\\P(D)&=(D+1)(D^2+bD+k).\\end{aligned}",
+      "text": "D denotes time differentiation, x₋ and x₊ are the two normalized displacements and S is the Heaviside switch. The baffle thresholds are δ₋ and δ₊; the mechanical stiffness k and damping b set the response in thermal-time units. Cases 1026 and 3054 use different coefficients.",
+      "source": "docs/coupled-operators-research.md#structural-checks"
+    },
+    "optical-smooth": {
+      "tex": "\\begin{aligned}P(D)x_-&=k\\,S(x_+-\\delta_+),&P(D)x_+&=k\\,S(\\delta_--x_-),\\\\P(D)&=(D+1)(D^2+bD+k),&S(u)&=(1+e^{-u/w})^{-1}.\\end{aligned}",
+      "text": "D is time differentiation. The two displacements drive opposite logistic illumination responses with baffle thresholds δ₋ and δ₊. The irregular and regular trajectories use the same reference-A coefficients and width w = 0.04, with different initial conditions.",
+      "source": "docs/coupled-operators-research.md#finite-optical-width-a-stronger-physical-test"
+    },
+    "fastica": {
+      "tex": "u_i=x_i^\\top w,\\quad h=\\frac1N\\sum_{i=1}^N\\!\\left[x_i g(u_i)-g'(u_i)w\\right],\\quad w^+=\\frac{h}{\\|h\\|},\\quad g(u)=u e^{-u^2/2}",
+      "text": "The fixed whitened observations xᵢ lie in four dimensions. Case 204 uses N = 32 normal samples and Case 351 uses N = 16 Student-t samples. Both panels follow the first FastICA weight on the unit 3-sphere.",
+      "source": "docs/fastica-dynamics.md#map-and-input-conventions"
+    },
+    "fastica-tripling": {
+      "tex": "h(w)=\\mathbb E[X(X^\\top w)^3]-3\\mathbb E[(X^\\top w)^2]w,\\qquad w^+=\\frac{h(w)}{\\|h(w)\\|}",
+      "text": "The expectation averages the 720 specified, equally weighted four-dimensional observations. The two panels use the same cubic FastICA update and the structured data at ε = 0.04 and 0.15, respectively.",
+      "source": "docs/fastica-tripling.md#data-and-update"
+    },
+    "shapes-20261121-harmonic": {
+      "tex": "\\dot x_i=-d_i x_i+a_i\\sin(x_j+\\phi_i)+b_i\\sin(x_k+\\psi_i)+c_i\\sin(m_i x_j+n_i x_k+\\chi_i).",
+      "text": "The indices (i, j, k) run cyclically through the three native Cartesian coordinates. Cases 132 and 306 use different coefficient sets for the six-loop rosette and six-sided spiral lattice.",
+      "source": "results/shape_search_20261121/flows/README.md#cartesian-harmonic-coupling"
+    },
+    "shapes-20261121-torus": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P(v)+(1-2\\beta)m(x_n).",
+      "text": "For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Both Case 301027 and Case 370279 use P=P₀, with different sites bⱼ, temperatures τ, tube radii r and relaxations β.",
+      "source": "results/shape_search_20261121/projection/README.md#map-and-geometry",
+      "sources": [
+        "results/shape_search_20261121/projection/case-301027.json",
+        "results/shape_search_20261121/projection/case-370279.json"
+      ]
+    },
+    "shapes-20261121-phase": {
+      "tex": "z^{(0)}=r x_n+(1-r)e_1,\\quad z^{(j)}=R_{i_j k_j}\\!\\left(a_j+b_jw_j+h_jw_j^3\\right)z^{(j-1)},\\quad x_{n+1}=z^{(3)}.",
+      "text": "The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Case 2603268 visits three spatial groups and Case 3203938 visits four.",
+      "source": "docs/twist-geometry.md#definition-and-exact-structural-properties",
+      "sources": [
+        "results/shape_search_20261121/maps/README.md"
+      ]
+    },
+    "shapes-20261121-braids": {
+      "tex": "\\begin{aligned}\\theta^+&=p\\theta+0.14\\sin(p\\theta)+0.137\\pmod{2\\pi},\\\\z^+&=C(\\theta)+\\rho e^{i(m\\theta+0.31)}z,\\quad C(\\theta)=s^{-1}\\sum_k(u_k+i v_k)e^{ik\\theta}.\\end{aligned}",
+      "text": "The complex coordinate z lies in the unit disk. Cases 56014 and 114425 have the same angular degree p = 4 and different Fourier cores. Their coefficients, scale s, fiber contraction ρ and twist m are specified in the linked case certificates.",
+      "source": "research/shape_search_20261121/braids/README.md#map-and-trapping-region"
+    },
+    "shapes-20261121-rings": {
+      "tex": "\\begin{aligned}\n\\dot u &= u[\\alpha-s+\\beta z+i(\\omega+\\kappa z+\\tau s)]\n          +A h^{(n-2)/2}\\overline{u}^{n-1},\\\\\n\\dot z &= -d z+e\\frac{s-1}{1+s}\n          + f h^{n/2}\\mathrm{Re}(e^{i\\phi}u^n).\n\\end{aligned}",
+      "text": "Here u = x + iy, s = |u|² and h = 2/(1+s). Case 21253 uses resonance order n = 4 and Case 20897 uses n = 8.",
+      "source": "results/shape_search_20261121/flows/README.md#angular-resonance"
+    },
+    "shapes-20261121-hyper": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P(v)+(1-2\\beta)m(x_n).",
+      "text": "For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Case 516308 uses P=P₀. In Case 1291273, C₁ is the unit xz circle centered at (1,0,0); P selects whichever of P₀(v) and P₁(v) is closer to v, choosing P₀ on a tie.",
+      "source": "results/shape_search_20261121/projection/README.md#map-and-geometry",
+      "sources": [
+        "results/shape_search_20261121/projection/case-516308.json",
+        "results/shape_search_20261121/projection/case-1291273.json"
+      ]
+    },
+    "shapes-20261121-rotor": {
+      "tex": "H(v)=a\\cdot v+\\tfrac12\\sum_i q_i v_i^2+\\tfrac14\\sum_i h_i v_i^4+cxyz,\\qquad\n\\dot v=t-Dv+\\frac{v\\times\\nabla H(v)}{1+|v|^2}.",
+      "text": "The native state is v = (x, y, z), D is diagonal damping and t is the constant torque. The quartic potential and forcing coefficients differ between Cases 52506 and 51256.",
+      "source": "results/shape_search_20261121/flows/README.md#forced-quartic-precession"
+    },
+    "shapes-20261121-recruits": {
+      "tex": "(x,y,z)^+=\\left(sx+(1-s)z\\,e^{r(1-ax-by-cz)},x,y\\right),\\qquad c=1-a-b",
+      "text": "The coordinates are three successive abundances. Case 1008712 uses growth r ≈ 3.02992 and survival s ≈ 0.11481; Case 1025516 uses r ≈ 3.32047 and s = 0.025. The source links the full crowding weights and initial states.",
+      "source": "research/shape_search_20261121/delay/README.md#dynamics"
+    },
+    "shapes-20261121-pinched": {
+      "tex": "\\begin{aligned}q^+&=q+(\\sqrt2-1,\\sqrt3-1)\\pmod 1,\\\\h^+&=\\frac{\\kappa h\\prod_j\\sin^2\\!\\big(\\pi(k_jq_1+l_jq_2+b_j/32)\\big)}{1+(\\kappa-1)h}.\\end{aligned}",
+      "text": "Case 156 uses κ = 64 with wave triples (k,l,b) = (5,4,12), (2,3,30). Case 1267 uses κ = 48 with (5,2,24), (0,1,12).",
+      "source": "research/shape_search_20261121/pinched/README.md#dynamics-and-proof"
+    },
+    "shapes-20261121-knotted-band": {
+      "tex": "\\begin{aligned}\n\\dot u &= u[\\alpha-s+\\beta z+i(\\omega+\\kappa z+\\tau s)]\n          +A h^{(n-2)/2}\\overline{u}^{n-1},\\\\\n\\dot z &= -d z+e\\frac{s-1}{1+s}\n          + f h^{n/2}\\mathrm{Re}(e^{i\\phi}u^n).\n\\end{aligned}",
+      "text": "Here u = x + iy, s = |u|² and h = 2/(1+s). Both panels use the same order-seven flow. Changing only e from −0.4297716 in Case 28756 to −0.3538341 in Case 180844 links the stable knotted cycle to the chaotic-band parameter.",
+      "source": "results/shape_search_20261121/flows/README.md#angular-resonance"
+    },
+    "shapes-20261121-links": {
+      "tex": "\\begin{aligned}\n \\text{2479: }\\dot x_i&=-d_ix_i+a_i\\sin(x_j+\\phi_i)+b_i\\sin(x_k+\\psi_i)+c_i\\sin(m_ix_j+n_ix_k+\\chi_i),\\\\\n \\text{26471: }\\dot u&=u[\\alpha-s+\\beta z+i(\\omega+\\kappa z+\\tau s)]+Ah^{(n-2)/2}\\bar u^{n-1},\\\\\n \\dot z&=-dz+e(s-1)/(1+s)+fh^{n/2}\\mathrm{Re}(e^{i\\phi}u^n).\n\\end{aligned}",
+      "text": "The left triplet solves the cyclic Cartesian harmonic equation. The right quartet solves the angular equation with u = x + iy, s = |u|², h = 2/(1+s) and n = 8. Each panel overlays coexisting solutions at one parameter set.",
+      "source": "results/shape_search_20261121/flows/README.md#equations"
+    },
+    "shapes-20261121-returns": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P(v)+(1-2\\beta)m(x_n).",
+      "text": "For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Case 2189166 uses the blended projection P=α₀P₀+α₁P₁, with αᵢ proportional to exp(−‖v−Pᵢ(v)‖²/κ) and α₀+α₁=1. C₁ is the unit xz circle centered at (1,0,0). Case 394727 uses P=P₀.",
+      "source": "results/shape_search_20261121/projection/README.md#map-and-geometry",
+      "sources": [
+        "results/shape_search_20261121/projection/case-2189166.json",
+        "results/shape_search_20261121/projection/case-394727.json"
+      ]
+    },
+    "shapes-20261121-knots": {
+      "tex": "\\dot x_i=-d_i x_i+a_i\\sin(x_j+\\phi_i)+b_i\\sin(x_k+\\psi_i)+c_i\\sin(m_i x_j+n_i x_k+\\chi_i).",
+      "text": "The indices (i, j, k) run cyclically through the three native Cartesian coordinates. Cases 967 and 2160 use different coefficients and each panel shows one attracting periodic orbit.",
+      "source": "results/shape_search_20261121/flows/README.md#cartesian-harmonic-coupling"
+    },
+    "shapes-20261121-components": {
+      "tex": "z^{(0)}=r x_n+(1-r)e_1,\\quad z^{(j)}=R_{i_j k_j}\\!\\left(a_j+b_jw_j+h_jw_j^3\\right)z^{(j-1)},\\quad x_{n+1}=z^{(3)}.",
+      "text": "The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Cases 2303801 and 2401313 use the coefficient vectors with four and five certified components respectively.",
+      "source": "docs/twist-geometry.md#definition-and-exact-structural-properties",
+      "sources": [
+        "results/shape_search_20261121/maps/README.md"
+      ]
+    },
+    "shapes-20261121-three": {
+      "tex": "m(x)=\\frac{\\sum_j b_j e^{-\\lVert x-b_j\\rVert^2/\\tau}}{\\sum_j e^{-\\lVert x-b_j\\rVert^2/\\tau}},\\quad v=2m(x_n)-x_n,\\quad x_{n+1}=\\beta x_n+\\beta P(v)+(1-2\\beta)m(x_n).",
+      "text": "For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Both cases use P=P₀. Case 6616162 has four posterior sites and Case 6583985 has seven.",
+      "source": "results/shape_search_20261121/projection/README.md#map-and-geometry",
+      "sources": [
+        "results/shape_search_20261121/projection/three/case-6616162.json",
+        "results/shape_search_20261121/projection/three/case-6583985.json"
+      ]
+    },
+    "shapes-20261121-brunnian": {
+      "tex": "\\begin{aligned}F\\big(H_i(\\theta,w)\\big)&=H_i\\big(f_i(\\theta),\\,0.105w+0.55e^{i\\theta}\\big),\\\\f_i(\\theta)&=d_i\\theta+0.12\\sin(d_i\\theta)+0.137,\\quad (d_1,d_2,d_3)=(2,3,5).\\end{aligned}",
+      "text": "Each Hᵢ embeds its unit-disk fibers around a separate closed braid strand in three-space; angles are modulo 2π. Cases 30300001 and 30300007 have the same internal maps and different three-strand charts, with absolute triple-linking invariants 1 and 7.",
+      "source": "results/shape_search_20261121/extension/brunnian/README.md#local-maps-and-disjoint-trapping-tubes"
+    },
+    "shapes-20261121-extension-gpu": {
+      "tex": "\\begin{aligned}m(x)&=\\frac{\\sum_j b_j e^{-q\\lVert x-b_j\\rVert^2}}{\\sum_j e^{-q\\lVert x-b_j\\rVert^2}},\\quad v=2m(x_n)-x_n,\\\\ x_{n+1}&=\\beta x_n+\\beta(\\Phi\\circ P_0\\circ\\Phi^{-1})(v)+(1-2\\beta)m(x_n),\\\\ \\Phi(u)&=\\mathrm{diag}(s_x,s_y,s_z)\\big(u_x,u_y,u_z+w(u_x^2-u_y^2)\\big)^\\mathsf{T}.\\end{aligned}",
+      "text": "For a centerline circle Cᵢ, let cᵢ be its nearest point to v and Pᵢ(v)=cᵢ+r(v−cᵢ)/‖v−cᵢ‖. C₀ is the unit xy circle. Here q is inverse temperature and the scales sᵢ deform the torus. Case 409700 is affine (w=0); Case 2298665 also has quadratic shear (w≈−0.04253).",
+      "source": "results/shape_search_20261121/extension/projection/README.md#physical-map",
+      "sources": [
+        "results/shape_search_20261121/extension/projection/cases/case-409700.json",
+        "results/shape_search_20261121/extension/projection/cases/case-2298665.json"
+      ]
+    },
+    "shapes-20261121-extension-components": {
+      "tex": "z^{(0)}=r x_n+(1-r)e_1,\\quad z^{(j)}=R_{i_j k_j}\\!\\left(a_j+b_jw_j+h_jw_j^3\\right)z^{(j-1)},\\quad x_{n+1}=z^{(3)}.",
+      "text": "The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the remaining coordinate immediately before its rotation, r is the contraction ratio and e₁=(1,0,0). Cases 2000254 and 2302642 use the coefficient vectors with fourteen and twelve certified components respectively.",
+      "source": "docs/twist-geometry.md#definition-and-exact-structural-properties",
+      "sources": [
+        "results/shape_search_20261121/extension/maps/README.md"
+      ]
+    },
+    "shapes-20261121-cubic": {
+      "tex": "\\begin{aligned}p_\\theta(z)&=z^3-3z+b(\\theta),\\qquad \\theta'=2\\theta+0.12\\sin(2\\theta)+0.137\\pmod{2\\pi},\\\\p_{\\theta'}(z')&=0.2\\,p_\\theta(z)+0.6D e^{i\\theta}.\\end{aligned}",
+      "text": "Continue on the same cubic sheet, with residual radius $`D`$ from the case certificate. The left drive is $`b=-4\\sin(3\\theta)+4\\sin(4\\theta)+3i\\sin(7\\theta)`$. The right drive is $`b=\\tfrac14\\sin\\theta-4\\sin(9\\theta)+3i\\sin(18\\theta)`$.",
+      "source": "results/shape_search_20261121/frontiers/cubic/README.md"
+    }
+  }
+}

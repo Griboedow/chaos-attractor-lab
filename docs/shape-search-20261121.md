@@ -8,6 +8,22 @@ This campaign extends the atlas at revision `57869986`. A **case** denotes a par
 *Drawn: **2026-11-21**.*
 <!-- /drawing-date -->
 
+## Four follow-up experiments
+
+**A cubic oscillator ties three attracting cycles into the Borromean rings.** Case 48000001 uses the same three-harmonic force in both regimes. At response gain 0.03 the three periodic orbits form an unlink. At 0.34 each pair can still be separated, yet the triple is inseparable. Moving-disk bounds on 65,536 phase intervals certify both sets of attracting orbits and their link types. In an associated discrete map, an expanding phase produces three chaotic solenoids on the same cubic sheets. [Equations, proof and reproduction](../results/shape_search_20261121/frontiers/cubic/README.md)
+
+![Four responses of the same driven cubic at increasing gains](assets/shape-search-20261121-cubic-transition.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+**A binary shift inside a ten-component attractor.** In Case 2300491, every bi-infinite binary sequence occurs under the twentieth iterate on a compact invariant subset. All ten components have topological dimension one. The full attractor has Hausdorff dimension strictly above 1.018256 and at most 1.6, throughout a specified ten-parameter neighborhood. [Covering and dimension certificates](../results/shape_search_20261121/frontiers/maps/README.md)
+
+**Five excursions explain 791 same-side pairs.** Most iterates of Case 2298665 alternate between two half-spaces. All 791 exceptions in the original run belong to five excursions. Three reset the alternating phase. Across 25 starts, high-precision replay confirmed the local signs in all 3,067 windows. A spatial precursor predicted 18 of 22 held-out excursions within 200 updates, with 106 false alarms among 124 alerts. [Event traces and prediction controls](../results/shape_search_20261121/frontiers/projection/README.md)
+
+**An eighth attracting set remains a possibility.** Near seven attracting cycles in flow Case 180844, 96 long runs starting on the candidate chaotic set avoided capture for a combined 17.28 million model-time units. Every point on a grid of 69,649 returned inside the chosen neighborhood after five section returns. A trapping proof for the full neighborhood remains open. [Poincaré sections, interval boxes and basin tests](../results/shape_search_20261121/frontiers/flows/README.md)
+
 <!-- campaign-totals -->
 ## Search totals
 

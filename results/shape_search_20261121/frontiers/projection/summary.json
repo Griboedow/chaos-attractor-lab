@@ -1,0 +1,53 @@
+{
+  "case": 2298665,
+  "groups": [
+    {
+      "cohort": "original",
+      "starts": 1,
+      "represented_starts": 1,
+      "states": 50000000,
+      "pairs_compared": 49999999,
+      "events": 791,
+      "episodes": 5,
+      "phase_changes": 3,
+      "mean_episode_count_per_million": 0.09999999999999999
+    },
+    {
+      "cohort": "earlier_other",
+      "starts": 16,
+      "represented_starts": 8,
+      "states": 160000000,
+      "pairs_compared": 159999984,
+      "events": 397,
+      "episodes": 12,
+      "phase_changes": 5,
+      "mean_episode_count_per_million": 0.075
+    },
+    {
+      "cohort": "new_starts",
+      "starts": 8,
+      "represented_starts": 8,
+      "states": 200000000,
+      "pairs_compared": 199999992,
+      "events": 1879,
+      "episodes": 22,
+      "phase_changes": 7,
+      "mean_episode_count_per_million": 0.11
+    },
+    {
+      "cohort": "all",
+      "starts": 25,
+      "represented_starts": 17,
+      "states": 410000000,
+      "pairs_compared": 409999975,
+      "events": 3067,
+      "episodes": 39,
+      "phase_changes": 15,
+      "mean_episode_count_per_million": 0.0951219512195122
+    }
+  ],
+  "unique_event_windows": 3067,
+  "all_saved_windows_equal_complete_native_trace": true,
+  "manifest_sha256": "c156529a0c8738822ae4b98b027b53630515508c761ce0b973a984a4698eccab",
+  "indices_sha256": "0d48e1d303afcdb7a5dd1c2c2e3beac38004abb173c4ca408dfc3fb4dde89ecb"
+}

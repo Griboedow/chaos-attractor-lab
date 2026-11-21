@@ -112,7 +112,7 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 10237671799,
+  "removed_bytes": 10241651427,
   "compact_bytes": 83019852,
   "files": [
     {
@@ -199175,6 +199175,164 @@
       "bytes": 4215,
       "git_blob": null,
       "sha256": "1fb95972af248d2e93578d0ca502a6e3808d5e119bff5b6e40db780dbdf9a582",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/cubic-frontier-47087142.npz",
+      "bytes": 1952119,
+      "git_blob": null,
+      "sha256": "5468a8a3e4b9a8b79f406136e55df21ad8660ee465578ea01197e70089f9a258",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            84000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2016000,
+          "retained": false
+        },
+        {
+          "key": "component",
+          "shape": [
+            84000
+          ],
+          "dtype": "int8",
+          "bytes": 84000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/frontiers/cubic/sample.py results/shape_search_20261121/frontiers/cubic/certificates.json --cases 47087142 --out RUN/frontiers/cubic --manifest RUN/cubic-replay.json"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-cubic-47087142-0fa4c60cd4f3.npz",
+      "bytes": 32576,
+      "git_blob": null,
+      "sha256": "0fa4c60cd4f36c0ba3f8a1f58403a9d24647dc2f5b36a8b5b7c1344c04c98c41",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/cubic-frontier-48000003.npz",
+      "bytes": 1954704,
+      "git_blob": null,
+      "sha256": "342915aa223ce4fe4a0416046a0ce84d64773e2051ac031a0e3b2b21331ef05e",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            84000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2016000,
+          "retained": false
+        },
+        {
+          "key": "component",
+          "shape": [
+            84000
+          ],
+          "dtype": "int8",
+          "bytes": 84000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/frontiers/cubic/sample.py results/shape_search_20261121/frontiers/cubic/certificates.json --cases 48000003 --out RUN/frontiers/cubic --manifest RUN/cubic-replay.json"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-cubic-48000003-33a952f15673.npz",
+      "bytes": 40229,
+      "git_blob": null,
+      "sha256": "33a952f15673ed9e8d27557b9167ff7159eb4b3765ea18b8edfa39be83d46055",
       "group": "shape-search-20261121",
       "compact": null,
       "arrays": [

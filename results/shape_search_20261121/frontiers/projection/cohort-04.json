@@ -1,0 +1,244 @@
+{
+  "cohort": 4,
+  "observed": 25000000,
+  "compared": 24999999,
+  "events": 196,
+  "initial": [
+    0.3505125206700681,
+    -0.6687702024458004,
+    -0.8951740323835189
+  ],
+  "first": 7154857,
+  "last": 10485808,
+  "million_step_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    129,
+    10,
+    55,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "side_positive": 90,
+  "side_negative": 106,
+  "inter_event_steps": [
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    1620414.0
+  ],
+  "groupings": {
+    "1": {
+      "clusters": 42,
+      "odd": 20,
+      "maximum_edges": 8,
+      "maximum_span": 8
+    },
+    "16": {
+      "clusters": 5,
+      "odd": 2,
+      "maximum_edges": 127,
+      "maximum_span": 155
+    },
+    "64": {
+      "clusters": 4,
+      "odd": 2,
+      "maximum_edges": 129,
+      "maximum_span": 193
+    },
+    "256": {
+      "clusters": 4,
+      "odd": 2,
+      "maximum_edges": 129,
+      "maximum_span": 193
+    },
+    "4096": {
+      "clusters": 4,
+      "odd": 2,
+      "maximum_edges": 129,
+      "maximum_span": 193
+    }
+  },
+  "geometry_columns": [
+    "axis_radius",
+    "core_distance",
+    "peak_posterior"
+  ],
+  "geometry_event_quantiles": [
+    [
+      0.00980825206212192,
+      0.12415836277991767,
+      0.4872029533646125,
+      1.3132310119979294,
+      1.7713505432529346
+    ],
+    [
+      0.11246969028357388,
+      0.4724920332480506,
+      0.8200055447642428,
+      1.1697211926203999,
+      2.369521028898343
+    ],
+    [
+      0.6658112561124888,
+      0.9700939434944701,
+      0.9977245132299295,
+      0.9999999990988736,
+      0.9999999999999998
+    ]
+  ],
+  "geometry_control_quantiles": [
+    [
+      0.27209911232002715,
+      0.40976672797917163,
+      0.4589104619188903,
+      0.5056777930882562,
+      0.591501206842532
+    ],
+    [
+      0.5670431458035755,
+      0.6799862794682903,
+      0.8671192685501516,
+      0.9478536868532548,
+      1.180070954403272
+    ],
+    [
+      0.5644380639381368,
+      0.84890555715298,
+      0.9987497803808232,
+      0.9999642822266277,
+      0.9999999998103786
+    ]
+  ],
+  "quantiles": [
+    0,
+    0.1,
+    0.5,
+    0.9,
+    1
+  ],
+  "normal": [
+    -0.17060163414195614,
+    0.9803888625592608,
+    -0.09865475456283264
+  ],
+  "cut": -0.36636791420889825,
+  "rms": 0.3256255835952871,
+  "variants": {
+    "frozen": {
+      "count": 196,
+      "shared": 196,
+      "original_with_match_within_4": 196,
+      "clusters_64": 4
+    },
+    "first-half fit": {
+      "count": 196,
+      "shared": 196,
+      "original_with_match_within_4": 196,
+      "clusters_64": 4
+    },
+    "offset -0.25 RMS": {
+      "count": 238,
+      "shared": 163,
+      "original_with_match_within_4": 196,
+      "clusters_64": 7
+    },
+    "offset -0.10 RMS": {
+      "count": 194,
+      "shared": 166,
+      "original_with_match_within_4": 195,
+      "clusters_64": 4
+    },
+    "offset +0.10 RMS": {
+      "count": 216,
+      "shared": 179,
+      "original_with_match_within_4": 196,
+      "clusters_64": 4
+    },
+    "offset +0.25 RMS": {
+      "count": 314,
+      "shared": 180,
+      "original_with_match_within_4": 196,
+      "clusters_64": 8
+    },
+    "tilt u -7 deg": {
+      "count": 208,
+      "shared": 189,
+      "original_with_match_within_4": 196,
+      "clusters_64": 4
+    },
+    "tilt u +7 deg": {
+      "count": 204,
+      "shared": 182,
+      "original_with_match_within_4": 196,
+      "clusters_64": 4
+    },
+    "tilt v -7 deg": {
+      "count": 202,
+      "shared": 188,
+      "original_with_match_within_4": 196,
+      "clusters_64": 4
+    },
+    "tilt v +7 deg": {
+      "count": 190,
+      "shared": 182,
+      "original_with_match_within_4": 194,
+      "clusters_64": 4
+    }
+  },
+  "nearest_cloud_control": [
+    0.0002327041752849847,
+    0.001635491815580273,
+    0.003798342842508999,
+    0.008073095598393167,
+    0.06850539796537258
+  ],
+  "nearest_cloud_event": [
+    0.3322384636058418,
+    0.3941369215444991,
+    0.6450535582600543,
+    2.091354263159247,
+    3.2940777814960143
+  ],
+  "nearest_cloud_at_plus_16": [
+    0.0034575671978723647,
+    0.05526419698478783,
+    0.6450535582600543,
+    2.0520030984345317,
+    3.2940777814960143
+  ],
+  "min_endpoint_plane_margin": [
+    0.0005800745926658085,
+    0.035076550712913185,
+    0.2250532051697795,
+    0.5789762056567518,
+    1.31013707421405
+  ],
+  "window_offsets": [
+    -16,
+    17
+  ],
+  "trace": "trace-04-25000000.npy",
+  "windows": "event-windows-04.npz",
+  "windows_sha256": "54be1738cbb742f08115ea6ba91434e5923f0f2b02f74067f7fa9271469941e9",
+  "events_relative_to_first_recorded_state": "zero-based index of left endpoint; first stored state follows discarded burn and one map iteration"
+}

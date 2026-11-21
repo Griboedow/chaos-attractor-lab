@@ -8,6 +8,11 @@ source, coordinate selection and report. [Render records](../docs/assets/portrai
 give input hashes, sample counts, cameras and display operations. Archived
 figures and numerical evidence retain their original bytes.
 
+Each static portrait has a short defining equation and a link to its parameters.
+The paired animation shows the same system. Edit the
+[equation registry](../records/portrait-equations.json) and run
+`python tools/portrait_equations.py sync` to update the main page.
+
 The [folder-change record](../records/layout-change.json) records the rename of
 the record directory. Original render-source hashes remain unchanged in the
 figure receipts. The checker accepts those sources only when reversing the

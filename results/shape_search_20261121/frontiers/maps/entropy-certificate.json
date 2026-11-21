@@ -1,0 +1,552 @@
+{
+  "case": 2300491,
+  "base_order": 10,
+  "symbolic_order": 20,
+  "radius_each_of_ten_binary64_coefficients": "2^-23",
+  "block_radius_bits": 23,
+  "source_trap_box": {
+    "mode": "return",
+    "case_order": 10,
+    "center": [
+      [
+        0.01968488889517326,
+        -0.4554655480595949,
+        -0.4300707214519269
+      ]
+    ],
+    "basis": [
+      [
+        [
+          0.2700875964859366,
+          0.0187501964523772,
+          -0.9626531672193512
+        ],
+        [
+          0.9583904449304567,
+          0.09072802870807067,
+          0.27065878864864146
+        ],
+        [
+          -0.09241452965011689,
+          0.9956991789389731,
+          -0.006534506087142611
+        ]
+      ]
+    ],
+    "lo": [
+      [
+        -0.0001345384195987161,
+        -0.0016126497869230036,
+        -0.026907683919743217
+      ]
+    ],
+    "hi": [
+      [
+        0.0001345384195987161,
+        0.0027190230226381835,
+        0.03455290513275814
+      ]
+    ],
+    "sampled_return_margin": 0.0521209657550501,
+    "sampled_avoidance_margin": 3.5884222101925394,
+    "passes": 2,
+    "dimension_floor": 0.005,
+    "case": 2300491,
+    "params": [
+      0.5440115656344597,
+      -1.5951763225102398,
+      -0.31720021686130445,
+      -1.6259374603674477,
+      0.14078715329765962,
+      -0.9093761794224656,
+      -2.207788311233357,
+      -3.0064510485821336,
+      4.085708776621947,
+      17.10859211349714
+    ],
+    "source_phase": 4,
+    "dense_return_margin": 0.05212096575503811,
+    "dense_avoidance_margin": 3.588422210192525,
+    "selection_score": 0.009752906422111433
+  },
+  "source_box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+  "axis_zero_based": 2,
+  "faces": [
+    -0.5625,
+    -0.25,
+    -0.1875,
+    0.28125
+  ],
+  "orientations": [
+    -1,
+    1,
+    1,
+    -1
+  ],
+  "intermediate_boxes": [
+    [
+      [
+        -0.2,
+        -0.355,
+        -0.417
+      ],
+      [
+        -0.147,
+        -0.283,
+        -0.308
+      ]
+    ],
+    [
+      [
+        -0.018,
+        -0.096,
+        -0.94
+      ],
+      [
+        0.082,
+        0.094,
+        -0.787
+      ]
+    ],
+    [
+      [
+        -0.01,
+        -0.107,
+        -0.961
+      ],
+      [
+        0.101,
+        0.097,
+        -0.797
+      ]
+    ],
+    [
+      [
+        -0.122,
+        -0.723,
+        -0.461
+      ],
+      [
+        -0.069,
+        -0.59,
+        -0.296
+      ]
+    ]
+  ],
+  "complete_region_checks": [
+    {
+      "arb": {
+        "region": {
+          "name": "face-0-first-return",
+          "lo": [
+            -1.0,
+            -1.0,
+            -0.5625
+          ],
+          "hi": [
+            1.0,
+            1.0,
+            -0.5625
+          ],
+          "target_lo": [
+            -0.2,
+            -0.355,
+            -0.417
+          ],
+          "target_hi": [
+            -0.147,
+            -0.283,
+            -0.308
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 27,
+        "leaves": 14,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.00048828125,
+        "partition_zlib_base64": "eNpjYGBkZmRmBhMMjAzMYA6QAiIAApEAMg=="
+      },
+      "directed_binary64": {
+        "name": "face-0-first-return",
+        "original_nodes": 27,
+        "extra_splits": 0,
+        "leaves": 14,
+        "normalized_margin_lower_directed": 0.008181239280043271
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-0-second-return",
+          "lo": [
+            -0.2,
+            -0.355,
+            -0.417
+          ],
+          "hi": [
+            -0.147,
+            -0.283,
+            -0.308
+          ],
+          "target_lo": [
+            null,
+            null,
+            null
+          ],
+          "target_hi": [
+            null,
+            null,
+            -0.5625
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 3,
+        "leaves": 2,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.03125,
+        "partition_zlib_base64": "eNpjYmYGAAASAAk="
+      },
+      "directed_binary64": {
+        "name": "face-0-second-return",
+        "original_nodes": 3,
+        "extra_splits": 0,
+        "leaves": 2,
+        "normalized_margin_lower_directed": 0.09679062509499335
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-1-first-return",
+          "lo": [
+            -1.0,
+            -1.0,
+            -0.25
+          ],
+          "hi": [
+            1.0,
+            1.0,
+            -0.25
+          ],
+          "target_lo": [
+            -0.018,
+            -0.096,
+            -0.94
+          ],
+          "target_hi": [
+            0.082,
+            0.094,
+            -0.787
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 15,
+        "leaves": 8,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 6.103515625e-05,
+        "partition_zlib_base64": "eNpjZGRkYGZmZgQhIAMAANwAHg=="
+      },
+      "directed_binary64": {
+        "name": "face-1-first-return",
+        "original_nodes": 15,
+        "extra_splits": 0,
+        "leaves": 8,
+        "normalized_margin_lower_directed": 0.007007176108418333
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-1-second-return",
+          "lo": [
+            -0.018,
+            -0.096,
+            -0.94
+          ],
+          "hi": [
+            0.082,
+            0.094,
+            -0.787
+          ],
+          "target_lo": [
+            null,
+            null,
+            0.28125
+          ],
+          "target_hi": [
+            null,
+            null,
+            null
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 17,
+        "leaves": 9,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.0078125,
+        "partition_zlib_base64": "eNpjYmJiYmZmBmIQDUQAAYQALA=="
+      },
+      "directed_binary64": {
+        "name": "face-1-second-return",
+        "original_nodes": 17,
+        "extra_splits": 0,
+        "leaves": 9,
+        "normalized_margin_lower_directed": 0.021699181103656314
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-2-first-return",
+          "lo": [
+            -1.0,
+            -1.0,
+            -0.1875
+          ],
+          "hi": [
+            1.0,
+            1.0,
+            -0.1875
+          ],
+          "target_lo": [
+            -0.01,
+            -0.107,
+            -0.961
+          ],
+          "target_hi": [
+            0.101,
+            0.097,
+            -0.797
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 11,
+        "leaves": 6,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.000244140625,
+        "partition_zlib_base64": "eNpjZGRkZmZmBEJmAACFABg="
+      },
+      "directed_binary64": {
+        "name": "face-2-first-return",
+        "original_nodes": 11,
+        "extra_splits": 0,
+        "leaves": 6,
+        "normalized_margin_lower_directed": 0.007800620361452681
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-2-second-return",
+          "lo": [
+            -0.01,
+            -0.107,
+            -0.961
+          ],
+          "hi": [
+            0.101,
+            0.097,
+            -0.797
+          ],
+          "target_lo": [
+            null,
+            null,
+            0.28125
+          ],
+          "target_hi": [
+            null,
+            null,
+            null
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 15,
+        "leaves": 8,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.00390625,
+        "partition_zlib_base64": "eNpjYmJiZgYhCAUAATMAJw=="
+      },
+      "directed_binary64": {
+        "name": "face-2-second-return",
+        "original_nodes": 15,
+        "extra_splits": 0,
+        "leaves": 8,
+        "normalized_margin_lower_directed": 0.028936486084085052
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-3-first-return",
+          "lo": [
+            -1.0,
+            -1.0,
+            0.28125
+          ],
+          "hi": [
+            1.0,
+            1.0,
+            0.28125
+          ],
+          "target_lo": [
+            -0.122,
+            -0.723,
+            -0.461
+          ],
+          "target_hi": [
+            -0.069,
+            -0.59,
+            -0.296
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 7,
+        "leaves": 4,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.0001220703125,
+        "partition_zlib_base64": "eNpjZGRmBiIAADsAEA=="
+      },
+      "directed_binary64": {
+        "name": "face-3-first-return",
+        "original_nodes": 7,
+        "extra_splits": 0,
+        "leaves": 4,
+        "normalized_margin_lower_directed": 0.0069034281477994
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "face-3-second-return",
+          "lo": [
+            -0.122,
+            -0.723,
+            -0.461
+          ],
+          "hi": [
+            -0.069,
+            -0.59,
+            -0.296
+          ],
+          "target_lo": [
+            null,
+            null,
+            null
+          ],
+          "target_hi": [
+            null,
+            null,
+            -0.5625
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 5,
+        "leaves": 3,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.00390625,
+        "partition_zlib_base64": "eNpjYmZiZgYAACoADg=="
+      },
+      "directed_binary64": {
+        "name": "face-3-second-return",
+        "original_nodes": 5,
+        "extra_splits": 0,
+        "leaves": 3,
+        "normalized_margin_lower_directed": 0.024170004437789824
+      }
+    },
+    {
+      "arb": {
+        "region": {
+          "name": "trapping-and-prior-phase-exclusions",
+          "lo": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "hi": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "target_lo": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "target_hi": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "bits": 23,
+        "box_sha256": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+        "nodes": 901,
+        "leaves": 451,
+        "precision_bits": 144,
+        "normalized_strict_margin_above": 0.0001220703125,
+        "partition_zlib_base64": "eNqlU4sOg0AIa+H//3kH3CGg25LNmJSWx2FVEb8IURWqKnRFhAUurFsOHjp5IK3TkgaLBkz6Lf1ueLZ7dc2TcpJ7VCCGzCEMKrUdUdDSZFm07NNnRGTmyTYRsSnSPRy/9kMg5qD4HuhQjLkoE09D46wDYvcmTDoP1KezkG9MhnSr+Jz+s50/97cvq41hVnrEW7UVNwHXu9vzQql/jnuY1pqvuWJz+wWjmgeV"
+      },
+      "directed_binary64": {
+        "name": "trapping-and-prior-phase-exclusions",
+        "original_nodes": 901,
+        "extra_splits": 0,
+        "leaves": 451,
+        "normalized_margin_lower_directed": 0.02486697172223484
+      }
+    }
+  ],
+  "strict_trapping_compositions": 2,
+  "contained_full_slabs": 2,
+  "entropy_lower": "log(2)/20",
+  "face_center_negative_controls": [
+    {
+      "face": -0.5625,
+      "exact_input_normalized": [
+        0.0,
+        0.0,
+        -0.5625
+      ],
+      "output_u_approx": -0.7745751644018781,
+      "opposite_crossing_ruled_out": true
+    },
+    {
+      "face": -0.25,
+      "exact_input_normalized": [
+        0.0,
+        0.0,
+        -0.25
+      ],
+      "output_u_approx": 0.533741344868238,
+      "opposite_crossing_ruled_out": true
+    },
+    {
+      "face": -0.1875,
+      "exact_input_normalized": [
+        0.0,
+        0.0,
+        -0.1875
+      ],
+      "output_u_approx": 0.572831380773445,
+      "opposite_crossing_ruled_out": true
+    },
+    {
+      "face": 0.28125,
+      "exact_input_normalized": [
+        0.0,
+        0.0,
+        0.28125
+      ],
+      "output_u_approx": -0.7633176418118086,
+      "opposite_crossing_ruled_out": true
+    }
+  ]
+}

@@ -1,0 +1,2488 @@
+{
+  "case": 48000001,
+  "turns": 64,
+  "steps_per_turn": 2048,
+  "initials": [
+    [
+      -1.7320508075688772,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.7320508075688772,
+      0.0
+    ],
+    [
+      -0.9429054981640173,
+      0.39020862026400716
+    ],
+    [
+      -0.3346997382904213,
+      -0.17633847756062404
+    ],
+    [
+      -0.3248162895202471,
+      1.4661596913401103
+    ],
+    [
+      1.1779140050071497,
+      -1.5177300584138829
+    ],
+    [
+      1.2254320380026953,
+      0.6194278781234495
+    ],
+    [
+      0.07424182398138912,
+      0.6448707749831994
+    ],
+    [
+      -1.7014019763343575,
+      0.724670148390683
+    ],
+    [
+      -1.4448048336984707,
+      -1.3562984340924151
+    ],
+    [
+      -0.8785922772155672,
+      -0.711991288403798
+    ],
+    [
+      1.9703033395755347,
+      0.018026162137367407
+    ],
+    [
+      1.1989945087217286,
+      0.397182559683841
+    ],
+    [
+      -0.9741809487375126,
+      -1.1204051772802455
+    ]
+  ],
+  "control_cloud": "frontiers/cubic/transition-curves.npz",
+  "sha256": "43e5de3775fb9454d8989611fbd4bd233c74a8868603ec3ea33b2d1a187eb5a6",
+  "sweep": [
+    {
+      "gain": 0.03,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ],
+      "independent_DOP853": [
+        {
+          "period": 1,
+          "closure": 3.118821492094023e-11,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 0.001024872875954869
+        },
+        {
+          "period": 1,
+          "closure": 1.1125024220969793e-12,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 0.18728955323636723
+        },
+        {
+          "period": 1,
+          "closure": 1.4663911995773848e-11,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 0.0010248728759744792
+        }
+      ]
+    },
+    {
+      "gain": 0.075,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.08,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.085,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            3,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            4,
+            5,
+            8,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.09,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            3,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            4,
+            5,
+            8,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.095,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            3,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            4,
+            5,
+            8,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.1,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            3,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            4,
+            5,
+            8,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.105,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            3,
+            9
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 7,
+          "starts": [
+            7
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "gain": 0.11,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 3,
+          "starts": [
+            3,
+            9
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.115,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.12,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.125,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.13,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.135,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.14,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.145,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.15,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "independent_DOP853": [
+        {
+          "period": 1,
+          "closure": 2.1722974204045974e-12,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 0.003609672450724819
+        }
+      ]
+    },
+    {
+      "gain": 0.155,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.16,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.165,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.17,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.175,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.18,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.185,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.19,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.195,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.2,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.205,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.21,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.215,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.22,
+      "components": [
+        {
+          "period": 7,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.225,
+      "components": [
+        {
+          "period": 3,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.23,
+      "components": [
+        {
+          "period": 3,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "independent_DOP853": [
+        {
+          "period": 3,
+          "closure": 1.5475146954444651e-09,
+          "least_phase_distance": 0.792096506647164,
+          "dominant_multiplier_modulus": 6.701176184345317e-25
+        }
+      ]
+    },
+    {
+      "gain": 0.235,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 3,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.24,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            2,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.245,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.25,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.255,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            2,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.26,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            2,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        }
+      ],
+      "unclassified": 0
+    },
+    {
+      "gain": 0.265,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.27,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.275,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.28,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.285,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.29,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.295,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.3,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.305,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.31,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.315,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.32,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.325,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.33,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.335,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.34,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ],
+      "independent_DOP853": [
+        {
+          "period": 1,
+          "closure": 3.010191536712963e-09,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 4.240478120653825e-48
+        },
+        {
+          "period": 1,
+          "closure": 8.078083342346028e-10,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 4.789020137139007e-49
+        },
+        {
+          "period": 1,
+          "closure": 1.3682577391339546e-09,
+          "least_phase_distance": 0.0,
+          "dominant_multiplier_modulus": 1.121851684761255e-46
+        }
+      ]
+    },
+    {
+      "gain": 0.345,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "gain": 0.35,
+      "components": [
+        {
+          "period": 1,
+          "representative": 0,
+          "starts": [
+            0,
+            9,
+            10,
+            11,
+            14
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 1,
+          "starts": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "period": 1,
+          "representative": 2,
+          "starts": [
+            2,
+            6,
+            7,
+            12,
+            13
+          ]
+        }
+      ],
+      "unclassified": 0,
+      "geometric_views": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          -1
+        ]
+      ]
+    }
+  ]
+}
