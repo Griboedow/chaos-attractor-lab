@@ -1,0 +1,20 @@
+{
+  "case": 3231505,
+  "beta_binary64": 0.9986274242401123,
+  "beta_radius": "1e-36",
+  "root_radius": "1e-18",
+  "return_steps": 188,
+  "checks": {
+    "jet": {
+      "root_inclusion": 2.3347241901003567e-11,
+      "inverse_box_fraction": 0.9709021288721448,
+      "local_inverse_lipschitz": 0.7210812667722643
+    },
+    "analytic": {
+      "root_inclusion": 8.584259254344108e-12,
+      "inverse_box_fraction": 0.9710297564666506,
+      "local_inverse_lipschitz": 0.5870188298819559
+    }
+  },
+  "packet": "return-3231505.json"
+}

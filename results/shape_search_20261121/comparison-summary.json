@@ -1,0 +1,511 @@
+{
+  "clouds": 636,
+  "by_mode": {
+    "similarity": {
+      "reference_counts": [
+        177
+      ],
+      "aligned_selected": 30,
+      "alignment_ratio_quartiles": [
+        2.7825349133820656,
+        4.209737010806066,
+        7.4450540541974455
+      ],
+      "ratio_exceeds_one": 30
+    },
+    "affine": {
+      "reference_counts": [
+        177
+      ],
+      "aligned_selected": 30,
+      "alignment_ratio_quartiles": [
+        2.0067250514766233,
+        3.256926821917017,
+        5.209043551951514
+      ],
+      "ratio_exceeds_one": 30
+    }
+  },
+  "selected": {
+    "flows/132": {
+      "similarity": {
+        "nearest_reference": "motor-three/783",
+        "fingerprint_distance": 0.18066204035259156,
+        "split_distance": 0.056662493080115964,
+        "registration_residual": 0.22526162236234953,
+        "split_registration_residual": 0.0527778658683684
+      },
+      "affine": {
+        "nearest_reference": "reference/Finance",
+        "fingerprint_distance": 0.11343232687846524,
+        "split_distance": 0.06085422834754912,
+        "registration_residual": 0.25167147181062505,
+        "split_registration_residual": 0.07066800505627197
+      }
+    },
+    "flows/306": {
+      "similarity": {
+        "nearest_reference": "adamax/847",
+        "fingerprint_distance": 0.2702892835314308,
+        "split_distance": 0.09278630899309015,
+        "registration_residual": 0.31096238381195246,
+        "split_registration_residual": 0.053968794552377616
+      },
+      "affine": {
+        "nearest_reference": "motor-three-asymmetric/2566",
+        "fingerprint_distance": 0.17058160074244594,
+        "split_distance": 0.038460529451829505,
+        "registration_residual": 0.258651770449643,
+        "split_registration_residual": 0.06473633583255253
+      }
+    },
+    "projection/301027": {
+      "similarity": {
+        "nearest_reference": "reference/SprottK",
+        "fingerprint_distance": 0.1887494738952673,
+        "split_distance": 0.04220439994928142,
+        "registration_residual": 0.17596060446793818,
+        "split_registration_residual": 0.047283485334803664
+      },
+      "affine": {
+        "nearest_reference": "reference/LorenzBounded",
+        "fingerprint_distance": 0.10988581119558322,
+        "split_distance": 0.03285224526091495,
+        "registration_residual": 0.261034002584637,
+        "split_registration_residual": 0.05046210931488965
+      }
+    },
+    "projection/370279": {
+      "similarity": {
+        "nearest_reference": "lce-slider/Relay model",
+        "fingerprint_distance": 0.19808853667304582,
+        "split_distance": 0.046782894897989,
+        "registration_residual": 0.30214971128391505,
+        "split_registration_residual": 0.04031074886525997
+      },
+      "affine": {
+        "nearest_reference": "reference/HastingsPowell",
+        "fingerprint_distance": 0.1583155666247858,
+        "split_distance": 0.051765923914837794,
+        "registration_residual": 0.2192339822944895,
+        "split_registration_residual": 0.04564130024251075
+      }
+    },
+    "maps/2603268": {
+      "similarity": {
+        "nearest_reference": "reference/Henon3D-1.4-0.2-0.1",
+        "fingerprint_distance": 0.3634519644143098,
+        "split_distance": 0.0583597567988922,
+        "registration_residual": 0.26876566668063623,
+        "split_registration_residual": 0.02537496633430687
+      },
+      "affine": {
+        "nearest_reference": "fastica/351",
+        "fingerprint_distance": 0.1215965790531762,
+        "split_distance": 0.031048265133865077,
+        "registration_residual": 0.26356043807882557,
+        "split_registration_residual": 0.07971307439255564
+      }
+    },
+    "maps/3203938": {
+      "similarity": {
+        "nearest_reference": "archive/vortex/738/4",
+        "fingerprint_distance": 0.2249309118497148,
+        "split_distance": 0.03372499821904982,
+        "registration_residual": 0.2832531605856909,
+        "split_registration_residual": 0.03137751822379425
+      },
+      "affine": {
+        "nearest_reference": "reference/Colpitts",
+        "fingerprint_distance": 0.14887811264555573,
+        "split_distance": 0.0323268326983055,
+        "registration_residual": 0.2026933621559435,
+        "split_registration_residual": 0.03907629736213488
+      }
+    },
+    "braids/56014": {
+      "similarity": {
+        "nearest_reference": "reference/Torus",
+        "fingerprint_distance": 0.17747811599598068,
+        "split_distance": 0.03586785860506201,
+        "registration_residual": 0.1770748508779773,
+        "split_registration_residual": 0.05439420383730525
+      },
+      "affine": {
+        "nearest_reference": "motor-three-asymmetric/2566",
+        "fingerprint_distance": 0.12023463625261926,
+        "split_distance": 0.03285387529806899,
+        "registration_residual": 0.25918930417957564,
+        "split_registration_residual": 0.0482956960193374
+      }
+    },
+    "braids/114425": {
+      "similarity": {
+        "nearest_reference": "reference/Halvorsen-a1.3",
+        "fingerprint_distance": 0.15543017839613438,
+        "split_distance": 0.03141928713143679,
+        "registration_residual": 0.2151454883123669,
+        "split_registration_residual": 0.05358973382216148
+      },
+      "affine": {
+        "nearest_reference": "reference/Hadley",
+        "fingerprint_distance": 0.10517971008253829,
+        "split_distance": 0.02619001002678259,
+        "registration_residual": 0.18544784848018334,
+        "split_registration_residual": 0.12698421598121734
+      }
+    },
+    "flows/21253": {
+      "similarity": {
+        "nearest_reference": "archive/vortex/77/0",
+        "fingerprint_distance": 0.23445661372431575,
+        "split_distance": 0.04826925653538666,
+        "registration_residual": 0.2556132918858508,
+        "split_registration_residual": 0.05425428594331301
+      },
+      "affine": {
+        "nearest_reference": "soft-constellations/156",
+        "fingerprint_distance": 0.1743024383852529,
+        "split_distance": 0.03834846520454299,
+        "registration_residual": 0.21238201587557193,
+        "split_registration_residual": 0.07070692550920095
+      }
+    },
+    "flows/20897": {
+      "similarity": {
+        "nearest_reference": "reference/KickedTop-A35-b0.1",
+        "fingerprint_distance": 0.3311242667881821,
+        "split_distance": 0.04597251405917625,
+        "registration_residual": 0.18858680905127193,
+        "split_registration_residual": 0.03863858654264269
+      },
+      "affine": {
+        "nearest_reference": "yogi-arc/670",
+        "fingerprint_distance": 0.15392893745367991,
+        "split_distance": 0.025478475650971593,
+        "registration_residual": 0.17082867178343544,
+        "split_registration_residual": 0.05777738276482347
+      }
+    },
+    "projection/516308": {
+      "similarity": {
+        "nearest_reference": "optical-relay/1026",
+        "fingerprint_distance": 0.17601121217995663,
+        "split_distance": 0.032143967954205745,
+        "registration_residual": 0.16105254852049386,
+        "split_registration_residual": 0.05821005404167933
+      },
+      "affine": {
+        "nearest_reference": "reference/HastingsPowell",
+        "fingerprint_distance": 0.12260438728577709,
+        "split_distance": 0.03525544577519957,
+        "registration_residual": 0.1872413154776332,
+        "split_registration_residual": 0.0824660618167852
+      }
+    },
+    "projection/1291273": {
+      "similarity": {
+        "nearest_reference": "reference/BurkeShaw",
+        "fingerprint_distance": 0.1990078882864862,
+        "split_distance": 0.04289105988381664,
+        "registration_residual": 0.261672633437907,
+        "split_registration_residual": 0.11089646517156661
+      },
+      "affine": {
+        "nearest_reference": "reference/YuWang",
+        "fingerprint_distance": 0.09834573579523428,
+        "split_distance": 0.03298871110662878,
+        "registration_residual": 0.22174461113915184,
+        "split_registration_residual": 0.13692318608884735
+      }
+    },
+    "flows/52506": {
+      "similarity": {
+        "nearest_reference": "product-irregular/7",
+        "fingerprint_distance": 0.24203688939032494,
+        "split_distance": 0.04708395609478576,
+        "registration_residual": 0.15137703937384925,
+        "split_registration_residual": 0.036464390816871556
+      },
+      "affine": {
+        "nearest_reference": "anderson/54",
+        "fingerprint_distance": 0.14154501464507868,
+        "split_distance": 0.0312811656706541,
+        "registration_residual": 0.22554790206993527,
+        "split_registration_residual": 0.0663617830787259
+      }
+    },
+    "flows/51256": {
+      "similarity": {
+        "nearest_reference": "reference/LuChenCheng",
+        "fingerprint_distance": 0.19968403025449383,
+        "split_distance": 0.06029737274744968,
+        "registration_residual": 0.2533110328352817,
+        "split_registration_residual": 0.08123481036908606
+      },
+      "affine": {
+        "nearest_reference": "product-alphabet/489",
+        "fingerprint_distance": 0.16101387003072445,
+        "split_distance": 0.05797797760750288,
+        "registration_residual": 0.2646985359441621,
+        "split_registration_residual": 0.10225001615260686
+      }
+    },
+    "delay/1008712": {
+      "similarity": {
+        "nearest_reference": "motor-five/Contrasts 1, 2, 4",
+        "fingerprint_distance": 0.22815947947954923,
+        "split_distance": 0.026893878878447026,
+        "registration_residual": 0.24982714909799594,
+        "split_registration_residual": 0.04258586925380973
+      },
+      "affine": {
+        "nearest_reference": "motor-five/Contrasts 1, 2, 3",
+        "fingerprint_distance": 0.1948886064923674,
+        "split_distance": 0.02458438013248256,
+        "registration_residual": 0.25419426092893016,
+        "split_registration_residual": 0.045600638865936814
+      }
+    },
+    "delay/1025516": {
+      "similarity": {
+        "nearest_reference": "reference/Atlas-Aurelia",
+        "fingerprint_distance": 0.15396088613293807,
+        "split_distance": 0.03555785528621193,
+        "registration_residual": 0.21466686406568497,
+        "split_registration_residual": 0.09765737944464346
+      },
+      "affine": {
+        "nearest_reference": "optical-relay/1026",
+        "fingerprint_distance": 0.09416791268140695,
+        "split_distance": 0.030975463813596227,
+        "registration_residual": 0.20701429834992519,
+        "split_registration_residual": 0.10661884459406676
+      }
+    },
+    "pinched/156": {
+      "similarity": {
+        "nearest_reference": "reference/Halvorsen",
+        "fingerprint_distance": 0.18004215863471426,
+        "split_distance": 0.02339355196030302,
+        "registration_residual": 0.201698891485907,
+        "split_registration_residual": 0.08213518368564204
+      },
+      "affine": {
+        "nearest_reference": "rk45/335",
+        "fingerprint_distance": 0.1607396826722195,
+        "split_distance": 0.02875394772078539,
+        "registration_residual": 0.20584885844356568,
+        "split_registration_residual": 0.10333849435154198
+      }
+    },
+    "pinched/1267": {
+      "similarity": {
+        "nearest_reference": "reference/Lorenz84",
+        "fingerprint_distance": 0.2434983905515083,
+        "split_distance": 0.022363821961670156,
+        "registration_residual": 0.17362596786023135,
+        "split_registration_residual": 0.06445539502701862
+      },
+      "affine": {
+        "nearest_reference": "yogi-tanh/39",
+        "fingerprint_distance": 0.14296624308636602,
+        "split_distance": 0.02475657957312878,
+        "registration_residual": 0.18854345523680874,
+        "split_registration_residual": 0.09193019671839102
+      }
+    },
+    "cycles/28756": {
+      "similarity": {
+        "nearest_reference": "fastica-tripling/epsilon = 0.15",
+        "fingerprint_distance": 0.3909902344968529,
+        "split_distance": 0.013249696409699837,
+        "registration_residual": 0.21220884843458376,
+        "split_registration_residual": 0.014873774554289858
+      },
+      "affine": {
+        "nearest_reference": "fastica-tripling/epsilon = 0.15",
+        "fingerprint_distance": 0.22728491501722933,
+        "split_distance": 0.017579816547658354,
+        "registration_residual": 0.17553024048045385,
+        "split_registration_residual": 0.025712272998993778
+      }
+    },
+    "flows/180844": {
+      "similarity": {
+        "nearest_reference": "fastica-tripling/epsilon = 0.15",
+        "fingerprint_distance": 0.37751789897186605,
+        "split_distance": 0.023123576386068833,
+        "registration_residual": 0.1971176241763349,
+        "split_registration_residual": 0.02267488458675604
+      },
+      "affine": {
+        "nearest_reference": "reference/Lorenz84",
+        "fingerprint_distance": 0.17595448945024042,
+        "split_distance": 0.023206380449542804,
+        "registration_residual": 0.18876580143675395,
+        "split_registration_residual": 0.03618731978255632
+      }
+    },
+    "links/2479": {
+      "similarity": {
+        "nearest_reference": "tetrahedral/565",
+        "fingerprint_distance": 0.22647014549605082,
+        "split_distance": 0.017176175632014824,
+        "registration_residual": 0.24066161391973412,
+        "split_registration_residual": 0.03299591289118985
+      },
+      "affine": {
+        "nearest_reference": "archive/vortex/233/2",
+        "fingerprint_distance": 0.16426511958361084,
+        "split_distance": 0.02160377338699351,
+        "registration_residual": 0.1855859703722108,
+        "split_registration_residual": 0.033693786727864786
+      }
+    },
+    "links/26471": {
+      "similarity": {
+        "nearest_reference": "reference/Atlas-Mobula",
+        "fingerprint_distance": 0.1996622155798534,
+        "split_distance": 0.017862117729053818,
+        "registration_residual": 0.1768112371674093,
+        "split_registration_residual": 0.05143762577117463
+      },
+      "affine": {
+        "nearest_reference": "reference/Atlas-Mobula",
+        "fingerprint_distance": 0.1398985664214148,
+        "split_distance": 0.01826244905270759,
+        "registration_residual": 0.16177373220465566,
+        "split_registration_residual": 0.05043624431208559
+      }
+    },
+    "projection/2189166": {
+      "similarity": {
+        "nearest_reference": "reference/LuChenCheng",
+        "fingerprint_distance": 0.2418324505418255,
+        "split_distance": 0.054543291124415125,
+        "registration_residual": 0.21294625122418395,
+        "split_registration_residual": 0.07524879685765604
+      },
+      "affine": {
+        "nearest_reference": "reference/Blasius",
+        "fingerprint_distance": 0.17976191269773972,
+        "split_distance": 0.047041462604776055,
+        "registration_residual": 0.3048360304687486,
+        "split_registration_residual": 0.11171770208886225
+      }
+    },
+    "projection/394727": {
+      "similarity": {
+        "nearest_reference": "reference/RayleighBenard",
+        "fingerprint_distance": 0.14390547191344435,
+        "split_distance": 0.03607771948698514,
+        "registration_residual": 0.18419309698683167,
+        "split_registration_residual": 0.0877604291229484
+      },
+      "affine": {
+        "nearest_reference": "reference/SprottC",
+        "fingerprint_distance": 0.13048269479298763,
+        "split_distance": 0.035197404336710106,
+        "registration_residual": 0.2668971500841242,
+        "split_registration_residual": 0.13577561476569458
+      }
+    },
+    "cycles/967": {
+      "similarity": {
+        "nearest_reference": "reference/Atlas-Aurelia",
+        "fingerprint_distance": 0.23127675916183307,
+        "split_distance": 0.021741623003941838,
+        "registration_residual": 0.2239553199919326,
+        "split_registration_residual": 0.031879455346731415
+      },
+      "affine": {
+        "nearest_reference": "motor-three-asymmetric/2566",
+        "fingerprint_distance": 0.16260213016459235,
+        "split_distance": 0.018267746591876906,
+        "registration_residual": 0.24040009614007438,
+        "split_registration_residual": 0.14786030939124054
+      }
+    },
+    "cycles/2160": {
+      "similarity": {
+        "nearest_reference": "reference/Atlas-Cassiopea",
+        "fingerprint_distance": 0.29944788172490355,
+        "split_distance": 0.01564390890274302,
+        "registration_residual": 0.25255640080878544,
+        "split_registration_residual": 0.023778098762383588
+      },
+      "affine": {
+        "nearest_reference": "reference/CellularNeuralNetwork",
+        "fingerprint_distance": 0.22330096097322663,
+        "split_distance": 0.020923122572388268,
+        "registration_residual": 0.21145241270618484,
+        "split_registration_residual": 0.02549699398066148
+      }
+    },
+    "maps/2303801": {
+      "similarity": {
+        "nearest_reference": "reference/Atlas-Naiad",
+        "fingerprint_distance": 0.5662551310897442,
+        "split_distance": 0.051124959000601405,
+        "registration_residual": 0.32607443376645207,
+        "split_registration_residual": 0.00322825449334641
+      },
+      "affine": {
+        "nearest_reference": "reference/KickedTop-A35-b0.1",
+        "fingerprint_distance": 0.46174321993417156,
+        "split_distance": 0.05303788656272104,
+        "registration_residual": 0.20000117980340285,
+        "split_registration_residual": 0.00976545262596099
+      }
+    },
+    "maps/2401313": {
+      "similarity": {
+        "nearest_reference": "fastica/204",
+        "fingerprint_distance": 1.0054481000387439,
+        "split_distance": 0.10076118932370394,
+        "registration_residual": 0.36346846061379556,
+        "split_registration_residual": 0.020524128869211268
+      },
+      "affine": {
+        "nearest_reference": "sinkhorn-balanced/150",
+        "fingerprint_distance": 0.4412034249941351,
+        "split_distance": 0.059193602681642865,
+        "registration_residual": 0.31640829913029656,
+        "split_registration_residual": 0.01231889363431704
+      }
+    },
+    "projection/6616162": {
+      "similarity": {
+        "nearest_reference": "reference/SprottB",
+        "fingerprint_distance": 0.1392956852152968,
+        "split_distance": 0.037857457177696535,
+        "registration_residual": 0.2425436884323233,
+        "split_registration_residual": 0.11521643882046144
+      },
+      "affine": {
+        "nearest_reference": "reference/SanUmSrisuchinwong",
+        "fingerprint_distance": 0.07812894133712135,
+        "split_distance": 0.03404466672558919,
+        "registration_residual": 0.20166762393271576,
+        "split_registration_residual": 0.13467790614010045
+      }
+    },
+    "projection/6583985": {
+      "similarity": {
+        "nearest_reference": "reference/BurkeShaw",
+        "fingerprint_distance": 0.11761684766891374,
+        "split_distance": 0.03537179213554677,
+        "registration_residual": 0.21794478009742693,
+        "split_registration_residual": 0.1286284667255764
+      },
+      "affine": {
+        "nearest_reference": "reference/SanUmSrisuchinwong",
+        "fingerprint_distance": 0.07816924468207109,
+        "split_distance": 0.036441194752959975,
+        "registration_residual": 0.2096906842403187,
+        "split_registration_residual": 0.13902036140277432
+      }
+    }
+  }
+}

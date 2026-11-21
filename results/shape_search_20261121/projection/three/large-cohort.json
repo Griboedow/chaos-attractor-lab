@@ -1,0 +1,451 @@
+{
+  "threshold": "All three exponents above 0.001 in each of four windows",
+  "volume": "Uniform random initial states in [-2,2]^3; independently seeded for each case; identical binary32 input states for GPU and widened binary64 CPU.",
+  "gpu_burn": 32768,
+  "gpu_window": 8192,
+  "cpu_burn": 65536,
+  "cpu_window": 32768,
+  "paired_order": [
+    "neither",
+    "CPU only",
+    "GPU only",
+    "both"
+  ],
+  "checkpoint_prefix": "projection/three-cohort/",
+  "rows": [
+    {
+      "case": 3008791,
+      "seed": 3093212,
+      "starts": 1024,
+      "gpu_three": 963,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        5,
+        0,
+        27
+      ]
+    },
+    {
+      "case": 3011275,
+      "seed": 3095696,
+      "starts": 1024,
+      "gpu_three": 1022,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 3014945,
+      "seed": 3099366,
+      "starts": 1024,
+      "gpu_three": 733,
+      "cpu_checked": 32,
+      "cpu_three": 26,
+      "paired_counts": [
+        6,
+        5,
+        0,
+        21
+      ]
+    },
+    {
+      "case": 3061571,
+      "seed": 3145992,
+      "starts": 1024,
+      "gpu_three": 948,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        3,
+        0,
+        29
+      ]
+    },
+    {
+      "case": 3064303,
+      "seed": 3148724,
+      "starts": 1024,
+      "gpu_three": 932,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        4,
+        0,
+        28
+      ]
+    },
+    {
+      "case": 3143582,
+      "seed": 3228003,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 3231505,
+      "seed": 3315926,
+      "starts": 1024,
+      "gpu_three": 835,
+      "cpu_checked": 32,
+      "cpu_three": 28,
+      "paired_counts": [
+        4,
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "case": 3265947,
+      "seed": 3350368,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 3275794,
+      "seed": 3360215,
+      "starts": 1024,
+      "gpu_three": 754,
+      "cpu_checked": 32,
+      "cpu_three": 25,
+      "paired_counts": [
+        7,
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "case": 3295921,
+      "seed": 3380342,
+      "starts": 1024,
+      "gpu_three": 848,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        7,
+        0,
+        25
+      ]
+    },
+    {
+      "case": 3333965,
+      "seed": 3418386,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 3336225,
+      "seed": 3420646,
+      "starts": 1024,
+      "gpu_three": 1019,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 3386440,
+      "seed": 3470861,
+      "starts": 1024,
+      "gpu_three": 920,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        4,
+        0,
+        28
+      ]
+    },
+    {
+      "case": 6044998,
+      "seed": 6129419,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6071984,
+      "seed": 6156405,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6174331,
+      "seed": 6258752,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6227178,
+      "seed": 6311599,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6263583,
+      "seed": 6348004,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6268324,
+      "seed": 6352745,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6271020,
+      "seed": 6355441,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6438193,
+      "seed": 6522614,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6560098,
+      "seed": 6644519,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6583985,
+      "seed": 6668406,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6616162,
+      "seed": 6700583,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6653105,
+      "seed": 6737526,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6679894,
+      "seed": 6764315,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6746662,
+      "seed": 6831083,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6758635,
+      "seed": 6843056,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6802681,
+      "seed": 6887102,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 6858107,
+      "seed": 6942528,
+      "starts": 1024,
+      "gpu_three": 1024,
+      "cpu_checked": 32,
+      "cpu_three": 32,
+      "paired_counts": [
+        0,
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "case": 7033904,
+      "seed": 7118325,
+      "starts": 1024,
+      "gpu_three": 866,
+      "cpu_checked": 32,
+      "cpu_three": 24,
+      "paired_counts": [
+        8,
+        0,
+        0,
+        24
+      ]
+    }
+  ]
+}

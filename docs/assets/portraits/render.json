@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "7a5f0bfb0e36f208c0cd6bc0e6629205691a47ea1e7d6efa57da9991020f644a",
+  "catalog_sha256": "3b7ae64a904e1b54a7b5d2bfc302f70baa1a98d5d4c31eed41f2f2ef7050ce6b",
   "size": [
     1920,
     1080
@@ -2498,6 +2498,1161 @@
           "log_saturation": 4.787491742782046,
           "occupied_bins": 140454,
           "display_label": "epsilon = 0.15"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-harmonic",
+      "file": "docs/assets/portraits/shapes-20261121-harmonic.png",
+      "sha256": "d6632a1c5b239ea9bd69b94d5c56fe762935b0bef8d8db46ff457a499a02ff63",
+      "panels": [
+        {
+          "input": {
+            "label": "132",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-harmonic-132-5005c5adffc3.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "5005c5adffc3461d3d6c8956395013905e15ed570745f81ff137f9f8b062c08c",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 320000,
+          "nonempty_crop": [
+            [
+              22,
+              59
+            ],
+            [
+              739,
+              700
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 320000,
+          "log_saturation": 4.360581490525978,
+          "occupied_bins": 35393,
+          "display_label": "Case 132"
+        },
+        {
+          "input": {
+            "label": "306",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-harmonic-306-d35f6e2d55a2.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "d35f6e2d55a246e2686d36c258d19d59879f4e571d48132945948f568bbb37ef",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 320000,
+          "nonempty_crop": [
+            [
+              24,
+              53
+            ],
+            [
+              739,
+              708
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 320000,
+          "log_saturation": 4.4709550936906535,
+          "occupied_bins": 46770,
+          "display_label": "Case 306"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-torus",
+      "file": "docs/assets/portraits/shapes-20261121-torus.png",
+      "sha256": "3273d93799c2e238b661063257dea1c4378d1b02a56ef8b8c651f8a553027ecf",
+      "panels": [
+        {
+          "input": {
+            "label": "301027",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-torus-301027-8bc70362dc63.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "8bc70362dc63b1923165d0aae57761c61db3bce91d3647e1b01ff135e37978d2",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              46,
+              26
+            ],
+            [
+              739,
+              735
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 5.6941549591817555,
+          "occupied_bins": 27875,
+          "display_label": "Case 301027"
+        },
+        {
+          "input": {
+            "label": "370279",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-torus-370279-80d372932d68.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "80d372932d68c8e97972347bc26165679c864fb1c94173011abbc876801d2ba0",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              79,
+              118
+            ],
+            [
+              739,
+              723
+            ]
+          ],
+          "empty_margin": 27,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 5.7099777623955985,
+          "occupied_bins": 30091,
+          "display_label": "Case 370279"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-phase",
+      "file": "docs/assets/portraits/shapes-20261121-phase.png",
+      "sha256": "6a2cec29915e65b99bfe927189f1ad58a25eec560144a59ada5107a045780705",
+      "panels": [
+        {
+          "input": {
+            "label": "2603268",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-phase-2603268-27125d88e137.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "27125d88e1371f871340c50ca2b56d03c4999c25b50e3445f309c26501805296",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              118,
+              21
+            ],
+            [
+              639,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 5.982991577232295,
+          "occupied_bins": 17583,
+          "display_label": "Case 2603268"
+        },
+        {
+          "input": {
+            "label": "3203938",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-phase-3203938-32d231d5ed83.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "32d231d5ed8379069c298a6c05a85576102339cb3565eadc7697fb3c001d81e7",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              32,
+              21
+            ],
+            [
+              698,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 6.13714254345947,
+          "occupied_bins": 16180,
+          "display_label": "Case 3203938"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-braids",
+      "file": "docs/assets/portraits/shapes-20261121-braids.png",
+      "sha256": "e0235e1df18a39c04b4f5eee693a2e011de8c0059460fef3391ac9bfd4454472",
+      "panels": [
+        {
+          "input": {
+            "label": "56014",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-braids-56014-fb74914f3fed.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "fb74914f3fed7a1542fc0a0f989ab400d863db97077eccf9a5721ce21cba260b",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 480000,
+          "nonempty_crop": [
+            [
+              74,
+              21
+            ],
+            [
+              656,
+              706
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 480000,
+          "log_saturation": 4.0990058253724495,
+          "occupied_bins": 63437,
+          "display_label": "Case 56014"
+        },
+        {
+          "input": {
+            "label": "114425",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-braids-114425-93a8b896a088.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "93a8b896a088566b42543131bdb7c3e7f01f451302bfea6ac7fbd6986683da0d",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 480000,
+          "nonempty_crop": [
+            [
+              71,
+              41
+            ],
+            [
+              700,
+              739
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 480000,
+          "log_saturation": 3.6888794541139363,
+          "occupied_bins": 91079,
+          "display_label": "Case 114425"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-rings",
+      "file": "docs/assets/portraits/shapes-20261121-rings.png",
+      "sha256": "f6513b02422b0dd50a2cc29441303dcbd3683579a6a28468b4a979fdcfbdc4b7",
+      "panels": [
+        {
+          "input": {
+            "label": "21253",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-rings-21253-2b5141311d79.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "2b5141311d790808d13ac05a3daf592b4956845a7f9d2c9d9f456767eddae9a6",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 266666,
+          "nonempty_crop": [
+            [
+              75,
+              42
+            ],
+            [
+              739,
+              715
+            ]
+          ],
+          "empty_margin": 27,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 266666,
+          "log_saturation": 4.095555779060446,
+          "occupied_bins": 60920,
+          "display_label": "Case 21253"
+        },
+        {
+          "input": {
+            "label": "20897",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-rings-20897-68c69f409dcb.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "68c69f409dcbb2479e27b20e1c7137e6fbf0ca6cc4564e5f4a286e66685041bc",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 266666,
+          "nonempty_crop": [
+            [
+              84,
+              46
+            ],
+            [
+              739,
+              714
+            ]
+          ],
+          "empty_margin": 27,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 266666,
+          "log_saturation": 4.110873864173311,
+          "occupied_bins": 74842,
+          "display_label": "Case 20897"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-hyper",
+      "file": "docs/assets/portraits/shapes-20261121-hyper.png",
+      "sha256": "1f342348385ed29cae640d69b444d0985febb06dfe1c39c0fe134acc1bf7d604",
+      "panels": [
+        {
+          "input": {
+            "label": "516308",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-hyper-516308-ad50cc8570d5.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "ad50cc8570d56dd294dd9b96dfa7fea4d3b1656770fd8febc3f3c62e174f0cdb",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              57,
+              160
+            ],
+            [
+              739,
+              535
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 3.4339872044851463,
+          "occupied_bins": 86560,
+          "display_label": "Case 516308"
+        },
+        {
+          "input": {
+            "label": "1291273",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-hyper-1291273-31acb5e0a650.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "31acb5e0a6508a81a4a010f33a6d7a2c96f8e24e8e3b86100aa641d8f66facf7",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              46,
+              52
+            ],
+            [
+              739,
+              603
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 3.912023005428146,
+          "occupied_bins": 80464,
+          "display_label": "Case 1291273"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-rotor",
+      "file": "docs/assets/portraits/shapes-20261121-rotor.png",
+      "sha256": "11b35b68e98daf1a156d14fceedbf907d349f078b9a91c13856eb27468e0d1a6",
+      "panels": [
+        {
+          "input": {
+            "label": "52506",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-rotor-52506-ca983ddd297a.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "ca983ddd297a62a01f9f6a0854ae5161660384d4b54bca68b899accd06542579",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 320000,
+          "nonempty_crop": [
+            [
+              137,
+              21
+            ],
+            [
+              634,
+              730
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 320000,
+          "log_saturation": 5.647732118355202,
+          "occupied_bins": 29352,
+          "display_label": "Case 52506"
+        },
+        {
+          "input": {
+            "label": "51256",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-rotor-51256-784767de079c.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "784767de079c1ee8934ec244362a7f2a3c1eaf39390aa7fd39f536f7858af906",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 320000,
+          "nonempty_crop": [
+            [
+              44,
+              88
+            ],
+            [
+              702,
+              739
+            ]
+          ],
+          "empty_margin": 27,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 320000,
+          "log_saturation": 4.653142162095632,
+          "occupied_bins": 92172,
+          "display_label": "Case 51256"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-recruits",
+      "file": "docs/assets/portraits/shapes-20261121-recruits.png",
+      "sha256": "0eb2b66c826cff340ffc136a799588d736421e5d0ca503959356eacdba6c2627",
+      "panels": [
+        {
+          "input": {
+            "label": "1008712",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-recruits-1008712-61e19fb6512c.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "61e19fb6512c2fa5b1b6e7af3a007472fc85281d4a9b1fe0823014da26281bc5",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 180000,
+          "nonempty_crop": [
+            [
+              31,
+              39
+            ],
+            [
+              739,
+              712
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            1
+          ],
+          "rendered_count": 180000,
+          "log_saturation": 5.004026573803285,
+          "occupied_bins": 37977,
+          "display_label": "Case 1008712"
+        },
+        {
+          "input": {
+            "label": "1025516",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-recruits-1025516-bf5f16677206.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "bf5f166772064a9b1b4271d319c4468f87b6a985769a656549f56e2fcc3701c2",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 180000,
+          "nonempty_crop": [
+            [
+              119,
+              53
+            ],
+            [
+              739,
+              577
+            ]
+          ],
+          "empty_margin": 25,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 180000,
+          "log_saturation": 2.70805020110221,
+          "occupied_bins": 96916,
+          "display_label": "Case 1025516"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-pinched",
+      "file": "docs/assets/portraits/shapes-20261121-pinched.png",
+      "sha256": "fa966e1dfee6955e791191525a54ac6aa144a6aa7ec0c43c9875f866985363cd",
+      "panels": [
+        {
+          "input": {
+            "label": "156",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-pinched-156-3fcd250ba793.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "3fcd250ba793d6171e09da3f66a2a586e4042a8b14ae93c3be2dccdc047ad5fc",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              139,
+              89
+            ],
+            [
+              628,
+              739
+            ]
+          ],
+          "empty_margin": 26,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 3.1780538303479458,
+          "occupied_bins": 101474,
+          "display_label": "Case 156"
+        },
+        {
+          "input": {
+            "label": "1267",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-pinched-1267-b1573a56a110.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "b1573a56a110119f68d8d3b116c7e4058b0793ac5ba5379c08a76f2c06cbda7a",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              178,
+              21
+            ],
+            [
+              581,
+              712
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 3.258096538021482,
+          "occupied_bins": 107457,
+          "display_label": "Case 1267"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-knotted-band",
+      "file": "docs/assets/portraits/shapes-20261121-knotted-band.png",
+      "sha256": "9ee05bc9cc2e764262f40c5b51b61aadc4538a69f5e6a0cdb17662f8ef07aa00",
+      "panels": [
+        {
+          "input": {
+            "label": "28756",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-knotted-band-28756-9b95d6ec135e.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "9b95d6ec135ecab14c5d859d65ce589ab866cf6ea8254aed7178be7662838b62",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 32768,
+          "nonempty_crop": [
+            [
+              122,
+              22
+            ],
+            [
+              600,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            1
+          ],
+          "rendered_count": 32768,
+          "log_saturation": 4.525371895237748,
+          "occupied_bins": 3649,
+          "display_label": "Case 28756"
+        },
+        {
+          "input": {
+            "label": "180844",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-knotted-band-180844-f5c9637fc1d2.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "f5c9637fc1d24457795ea43ed63d66b8f9dda2a16f63bf95a86e0c3a0fc0b721",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 266666,
+          "nonempty_crop": [
+            [
+              103,
+              21
+            ],
+            [
+              618,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 266666,
+          "log_saturation": 5.257447558744207,
+          "occupied_bins": 17337,
+          "display_label": "Case 180844"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-links",
+      "file": "docs/assets/portraits/shapes-20261121-links.png",
+      "sha256": "69004a1e1ba20d0c4822a3373da4f56c7c950db14ebd7c6112a2c1b81afab7df",
+      "panels": [
+        {
+          "input": {
+            "label": "2479",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-links-2479-3771301e021c.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "3771301e021ce7460ee046cdb4d4cd0cb15bd9fc1b77953007e733ce27b5e123",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 98304,
+          "nonempty_crop": [
+            [
+              67,
+              21
+            ],
+            [
+              705,
+              653
+            ]
+          ],
+          "empty_margin": 26,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 98304,
+          "log_saturation": 3.5263605246161616,
+          "occupied_bins": 25472,
+          "display_label": "Case 2479"
+        },
+        {
+          "input": {
+            "label": "26471",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-links-26471-d57dff8d6b7d.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "d57dff8d6b7d79f9f3cb5b26131ce9584a8374002084e9ed2c1fbea59d45a773",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 131072,
+          "nonempty_crop": [
+            [
+              58,
+              103
+            ],
+            [
+              739,
+              657
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 131072,
+          "log_saturation": 4.674014889526372,
+          "occupied_bins": 21746,
+          "display_label": "Case 26471"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-returns",
+      "file": "docs/assets/portraits/shapes-20261121-returns.png",
+      "sha256": "bb1762f4751bdf55dd1be60e90604130558a78f77bd6cafa3a6415da03827252",
+      "panels": [
+        {
+          "input": {
+            "label": "2189166",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-returns-2189166-e2ca0f12c375.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "e2ca0f12c375feffcad5ea843326e074d2c174eceb342f8e0e72cd31da0b47de",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              160,
+              21
+            ],
+            [
+              607,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 6.444131256700441,
+          "occupied_bins": 15613,
+          "display_label": "Case 2189166"
+        },
+        {
+          "input": {
+            "label": "394727",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-returns-394727-ce9997ffb63f.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "ce9997ffb63fec8266c39bcc7458a245b71a7c63e869f635988b4585edd4cbfe",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              21,
+              97
+            ],
+            [
+              735,
+              663
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 5.063675880930865,
+          "occupied_bins": 31527,
+          "display_label": "Case 394727"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-knots",
+      "file": "docs/assets/portraits/shapes-20261121-knots.png",
+      "sha256": "f87b715983f0ef915f5478413c02fa9b943ababee277eb5d3d42dba1ce0e0123",
+      "panels": [
+        {
+          "input": {
+            "label": "967",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-knots-967-2a0b2d2ea8cb.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "2a0b2d2ea8cbb31eefb01b76c481f03f8fea4e1858e5b1d1396e5976dd438862",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 32768,
+          "nonempty_crop": [
+            [
+              40,
+              56
+            ],
+            [
+              739,
+              699
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 32768,
+          "log_saturation": 3.508389040800085,
+          "occupied_bins": 15205,
+          "display_label": "Case 967"
+        },
+        {
+          "input": {
+            "label": "2160",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-knots-2160-e82611c8d553.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "e82611c8d553f7b8fa7a783dd4b6d486997ace2416356a5a91c377b6ae6962da",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 32768,
+          "nonempty_crop": [
+            [
+              21,
+              33
+            ],
+            [
+              739,
+              727
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 32768,
+          "log_saturation": 4.1588830833596715,
+          "occupied_bins": 5644,
+          "display_label": "Case 2160"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-components",
+      "file": "docs/assets/portraits/shapes-20261121-components.png",
+      "sha256": "6be61cae4ba7b054e214f516e7c461dc1da57605d53c436fbb49bc1792c633af",
+      "panels": [
+        {
+          "input": {
+            "label": "2303801",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-components-2303801-81240343b316.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "81240343b316893e83b94f67a810bfad651fbec176dbb5924b1cbd9f5fa7ab0f",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              142,
+              222
+            ],
+            [
+              715,
+              739
+            ]
+          ],
+          "empty_margin": 23,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 8.07488931346992,
+          "occupied_bins": 813,
+          "display_label": "Case 2303801"
+        },
+        {
+          "input": {
+            "label": "2401313",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-components-2401313-06273e584444.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "06273e584444d1d68cfb38dec87ce8791cc21e86839c36f9e826b1db65e428e7",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              161,
+              129
+            ],
+            [
+              568,
+              739
+            ]
+          ],
+          "empty_margin": 25,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 8.175000551024809,
+          "occupied_bins": 410,
+          "display_label": "Case 2401313"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-three",
+      "file": "docs/assets/portraits/shapes-20261121-three.png",
+      "sha256": "bf19c4424cb0a270d822c06f7ea8262ed59a59143e3e10421373c3a7dc3783e2",
+      "panels": [
+        {
+          "input": {
+            "label": "6616162",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-three-6616162-c686741f7743.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "c686741f7743ec8341f9f8e7b366d3201f1e6530d4412ef288d03707c842ab22",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              24,
+              21
+            ],
+            [
+              677,
+              614
+            ]
+          ],
+          "empty_margin": 27,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 3.5553480614894135,
+          "occupied_bins": 60333,
+          "display_label": "Case 6616162"
+        },
+        {
+          "input": {
+            "label": "6583985",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-three-6583985-c56423c09ada.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "c56423c09adae912a7ffb3cd0cc5a80d40e7f9be9061fe1bb238af5556218169",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              182,
+              21
+            ],
+            [
+              704,
+              718
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 3.091042453358316,
+          "occupied_bins": 67855,
+          "display_label": "Case 6583985"
         }
       ],
       "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",

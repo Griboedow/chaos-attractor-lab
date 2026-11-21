@@ -1,0 +1,456 @@
+{
+  "precision_decimal": 160,
+  "mpmath": "1.4.1",
+  "cases": [
+    {
+      "case": 3014945,
+      "packet": "return-3014945.json",
+      "period": 2,
+      "blocks": 75,
+      "return_steps": 148,
+      "W": "1e-6",
+      "V": "0.000000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.9437216764138553,
+          "largest_inverse_box_fraction_display": 0.9708737864313135,
+          "preimage_chart_distance_upper_display": 4.398151918111074e-18,
+          "local_branch_lipschitz_upper_display": 0.013754691602723999,
+          "excursion_lipschitz_upper_display": 5.862531412755182e-05
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.8798353409497173,
+          "largest_inverse_box_fraction_display": 0.970873786419478,
+          "preimage_chart_distance_upper_display": 4.398151918111074e-18,
+          "local_branch_lipschitz_upper_display": 7.686060383721575e-05,
+          "excursion_lipschitz_upper_display": 5.8625314119625e-05
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.02619133515339729,
+        "excursion_max": 0.028206001734855806,
+        "excursion_median": 0.018339886294736478,
+        "late_to_early_nearest_q50_q99": [
+          0.015043637752510353,
+          0.07152077749163603
+        ]
+      }
+    },
+    {
+      "case": 3143582,
+      "packet": "return-3143582.json",
+      "period": 2,
+      "blocks": 208,
+      "return_steps": 406,
+      "W": "1e-7",
+      "V": "0.000000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.8776715637230814,
+          "largest_inverse_box_fraction_display": 0.9708737887280897,
+          "preimage_chart_distance_upper_display": 4.453882024051073e-18,
+          "local_branch_lipschitz_upper_display": 3.1361844655331883e-12,
+          "excursion_lipschitz_upper_display": 4.190095998761646e-11
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.8591031109082944,
+          "largest_inverse_box_fraction_display": 0.9708737867852758,
+          "preimage_chart_distance_upper_display": 4.453882024051073e-18,
+          "local_branch_lipschitz_upper_display": 4.085020200225858e-14,
+          "excursion_lipschitz_upper_display": 4.190095915059396e-11
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.029035632351580284,
+        "excursion_max": 0.03266787712618299,
+        "excursion_median": 0.018453121083027095,
+        "late_to_early_nearest_q50_q99": [
+          0.017521082976690874,
+          0.07774230615503915
+        ]
+      }
+    },
+    {
+      "case": 3231505,
+      "packet": "return-3231505.json",
+      "period": 2,
+      "blocks": 56,
+      "return_steps": 188,
+      "W": "1e-7",
+      "V": "0.00000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.7210812667699449,
+          "largest_inverse_box_fraction_display": 0.9708737909352221,
+          "preimage_chart_distance_upper_display": 2.239534529500718e-17,
+          "local_branch_lipschitz_upper_display": 2.1147450237634055e-07,
+          "excursion_lipschitz_upper_display": 1.0970024966909155e-09
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.5870188298815254,
+          "largest_inverse_box_fraction_display": 0.9708737877247995,
+          "preimage_chart_distance_upper_display": 2.239534529500718e-17,
+          "local_branch_lipschitz_upper_display": 1.338583669818868e-11,
+          "excursion_lipschitz_upper_display": 1.097002479930021e-09
+        }
+      },
+      "disjoint_certified_sinks": [
+        {
+          "index": 0,
+          "least_period": 4,
+          "distance_lower_display": {
+            "jet": 2.1091998016628835,
+            "analytic": 2.1091998016628835
+          }
+        }
+      ],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.02311167428907463,
+        "excursion_max": 0.029151625651268075,
+        "excursion_median": 0.0172195694073383,
+        "late_to_early_nearest_q50_q99": [
+          0.015070778765303966,
+          0.08299588967934694
+        ]
+      }
+    },
+    {
+      "case": 3265947,
+      "packet": "return-3265947.json",
+      "period": 2,
+      "blocks": 121,
+      "return_steps": 236,
+      "W": "1e-6",
+      "V": "0.000000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.9385277827576665,
+          "largest_inverse_box_fraction_display": 0.9708737871050303,
+          "preimage_chart_distance_upper_display": 4.437770731846751e-18,
+          "local_branch_lipschitz_upper_display": 0.0005607402548797254,
+          "excursion_lipschitz_upper_display": 1.6837229275327445e-08
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.8445827243973677,
+          "largest_inverse_box_fraction_display": 0.9708737866650348,
+          "preimage_chart_distance_upper_display": 4.437770731846751e-18,
+          "local_branch_lipschitz_upper_display": 2.2068807954884333e-09,
+          "excursion_lipschitz_upper_display": 1.6837229197443467e-08
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.00852917057370945,
+        "excursion_max": 0.03182855513556755,
+        "excursion_median": 0.00852731483862782,
+        "late_to_early_nearest_q50_q99": [
+          0.016658299511398904,
+          0.08110243114168496
+        ]
+      }
+    },
+    {
+      "case": 3275794,
+      "packet": "return-3275794.json",
+      "period": 2,
+      "blocks": 66,
+      "return_steps": 220,
+      "W": "1e-7",
+      "V": "0.00000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.8953400241107858,
+          "largest_inverse_box_fraction_display": 0.9708737906574965,
+          "preimage_chart_distance_upper_display": 4.7428341096867656e-17,
+          "local_branch_lipschitz_upper_display": 0.0022873885788359653,
+          "excursion_lipschitz_upper_display": 1.5575053330041686e-05
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.771290698347036,
+          "largest_inverse_box_fraction_display": 0.9708737875415271,
+          "preimage_chart_distance_upper_display": 4.7428341096867656e-17,
+          "local_branch_lipschitz_upper_display": 6.266068852161252e-07,
+          "excursion_lipschitz_upper_display": 1.5575053025856972e-05
+        }
+      },
+      "disjoint_certified_sinks": [
+        {
+          "index": 0,
+          "least_period": 2,
+          "distance_lower_display": {
+            "jet": 1.9129668384598666,
+            "analytic": 1.9129668384598666
+          }
+        }
+      ],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.010441725410127963,
+        "excursion_max": 0.02842906328965723,
+        "excursion_median": 0.010441704673935251,
+        "late_to_early_nearest_q50_q99": [
+          0.016364264862502566,
+          0.08457268498474083
+        ]
+      }
+    },
+    {
+      "case": 3333965,
+      "packet": "return-3333965.json",
+      "period": 2,
+      "blocks": 116,
+      "return_steps": 228,
+      "W": "1e-7",
+      "V": "0.000000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.8833551230761727,
+          "largest_inverse_box_fraction_display": 0.9708737867037877,
+          "preimage_chart_distance_upper_display": 4.833665918226628e-18,
+          "local_branch_lipschitz_upper_display": 7.234822151573393e-07,
+          "excursion_lipschitz_upper_display": 1.5084064641733279e-05
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.8683362328281746,
+          "largest_inverse_box_fraction_display": 0.9708737864774196,
+          "preimage_chart_distance_upper_display": 4.833665918226628e-18,
+          "local_branch_lipschitz_upper_display": 1.0242907056995778e-07,
+          "excursion_lipschitz_upper_display": 1.5084064600981308e-05
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.01986396844683616,
+        "excursion_max": 0.025739417922546446,
+        "excursion_median": 0.01301055551515245,
+        "late_to_early_nearest_q50_q99": [
+          0.016680195481840614,
+          0.08523318939346472
+        ]
+      }
+    },
+    {
+      "case": 3386440,
+      "packet": "return-3386440.json",
+      "period": 2,
+      "blocks": 86,
+      "return_steps": 168,
+      "W": "1e-6",
+      "V": "0.000000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.9512437816374407,
+          "largest_inverse_box_fraction_display": 0.9708737866101188,
+          "preimage_chart_distance_upper_display": 2.7328307456768907e-18,
+          "local_branch_lipschitz_upper_display": 0.01501460061201701,
+          "excursion_lipschitz_upper_display": 0.000501814548243269
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.8912738608952718,
+          "largest_inverse_box_fraction_display": 0.9708737864929577,
+          "preimage_chart_distance_upper_display": 2.7328307456768907e-18,
+          "local_branch_lipschitz_upper_display": 6.323219585784532e-05,
+          "excursion_lipschitz_upper_display": 0.0005018145476212754
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.015213973904453452,
+        "excursion_max": 0.042802677214640726,
+        "excursion_median": 0.01394937408556437,
+        "late_to_early_nearest_q50_q99": [
+          0.01560098267400817,
+          0.08227593399588749
+        ]
+      }
+    },
+    {
+      "case": 6560098,
+      "packet": "return-6560098.json",
+      "period": 2,
+      "blocks": 59,
+      "return_steps": 252,
+      "W": "1e-9",
+      "V": "0.00000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.581789591781916,
+          "largest_inverse_box_fraction_display": 0.9708739697956192,
+          "preimage_chart_distance_upper_display": 3.797288457220536e-17,
+          "local_branch_lipschitz_upper_display": 1.3187722284711104e-10,
+          "excursion_lipschitz_upper_display": 4.29224152460601e-08
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.5550074675781003,
+          "largest_inverse_box_fraction_display": 0.970873815578101,
+          "preimage_chart_distance_upper_display": 3.797288457220536e-17,
+          "local_branch_lipschitz_upper_display": 1.8220098286485234e-11,
+          "excursion_lipschitz_upper_display": 4.2922398864700585e-08
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.009640402370559402,
+        "excursion_max": 0.020960222679831244,
+        "excursion_median": 0.008458397132571748,
+        "late_to_early_nearest_q50_q99": [
+          0.016883666133107343,
+          0.08546887519674295
+        ]
+      }
+    },
+    {
+      "case": 6653105,
+      "packet": "return-6653105.json",
+      "period": 2,
+      "blocks": 57,
+      "return_steps": 252,
+      "W": "1e-9",
+      "V": "0.00000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.5413854609315785,
+          "largest_inverse_box_fraction_display": 0.9708742157589489,
+          "preimage_chart_distance_upper_display": 2.309021754222279e-17,
+          "local_branch_lipschitz_upper_display": 6.416182616526748e-12,
+          "excursion_lipschitz_upper_display": 1.3947255021654794e-09
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.5028414914665732,
+          "largest_inverse_box_fraction_display": 0.9708738373005523,
+          "preimage_chart_distance_upper_display": 2.309021754222279e-17,
+          "local_branch_lipschitz_upper_display": 2.884738472436983e-13,
+          "excursion_lipschitz_upper_display": 1.3947243601406779e-09
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.0034741490246627264,
+        "excursion_max": 0.028884069669174374,
+        "excursion_median": 0.0034741172412298266,
+        "late_to_early_nearest_q50_q99": [
+          0.01647735878797748,
+          0.081904258809501
+        ]
+      }
+    },
+    {
+      "case": 6746662,
+      "packet": "return-6746662.json",
+      "period": 2,
+      "blocks": 86,
+      "return_steps": 170,
+      "W": "1e-7",
+      "V": "0.000000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.9077205633887363,
+          "largest_inverse_box_fraction_display": 0.9708737864587328,
+          "preimage_chart_distance_upper_display": 3.767101868651965e-18,
+          "local_branch_lipschitz_upper_display": 0.0002666458266785717,
+          "excursion_lipschitz_upper_display": 0.00095009594002952
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.8907623143617721,
+          "largest_inverse_box_fraction_display": 0.9708737864207455,
+          "preimage_chart_distance_upper_display": 3.767101868651965e-18,
+          "local_branch_lipschitz_upper_display": 5.3673012686548703e-05,
+          "excursion_lipschitz_upper_display": 0.0009500959395454471
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.020573058540606388,
+        "excursion_max": 0.022880385472205254,
+        "excursion_median": 0.015212036634043788,
+        "late_to_early_nearest_q50_q99": [
+          0.0160198188677633,
+          0.08367792601172272
+        ]
+      }
+    },
+    {
+      "case": 6802681,
+      "packet": "return-6802681.json",
+      "period": 2,
+      "blocks": 54,
+      "return_steps": 234,
+      "W": "1e-9",
+      "V": "0.00000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.5468726457725198,
+          "largest_inverse_box_fraction_display": 0.9708741192633422,
+          "preimage_chart_distance_upper_display": 2.593287643852526e-17,
+          "local_branch_lipschitz_upper_display": 5.991862385515267e-11,
+          "excursion_lipschitz_upper_display": 2.766325064678896e-08
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.5176708614205717,
+          "largest_inverse_box_fraction_display": 0.9708738364803827,
+          "preimage_chart_distance_upper_display": 2.593287643852526e-17,
+          "local_branch_lipschitz_upper_display": 7.0484737476320375e-12,
+          "excursion_lipschitz_upper_display": 2.7663232967727316e-08
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.010342184174328736,
+        "excursion_max": 0.01912365240097798,
+        "excursion_median": 0.008812812560592069,
+        "late_to_early_nearest_q50_q99": [
+          0.0160907769104832,
+          0.08101472102329098
+        ]
+      }
+    },
+    {
+      "case": 6858107,
+      "packet": "return-6858107.json",
+      "period": 2,
+      "blocks": 61,
+      "return_steps": 264,
+      "W": "1e-9",
+      "V": "0.00000000000000005",
+      "checks": {
+        "jet": {
+          "local_contraction_upper_display": 0.6662426329181235,
+          "largest_inverse_box_fraction_display": 0.9708739159414567,
+          "preimage_chart_distance_upper_display": 3.878169843532216e-17,
+          "local_branch_lipschitz_upper_display": 1.7371066002265037e-08,
+          "excursion_lipschitz_upper_display": 4.875524617297966e-07
+        },
+        "analytic": {
+          "local_contraction_upper_display": 0.6258326776094091,
+          "largest_inverse_box_fraction_display": 0.970873802501019,
+          "preimage_chart_distance_upper_display": 3.878169843532216e-17,
+          "local_branch_lipschitz_upper_display": 1.107037622226973e-09,
+          "excursion_lipschitz_upper_display": 4.875523004593931e-07
+        }
+      },
+      "disjoint_certified_sinks": [],
+      "sample_proximity": {
+        "units": "RMS radius",
+        "periodic_orbit_max": 0.010950465149592954,
+        "excursion_max": 0.02272934493644738,
+        "excursion_median": 0.010889615195898964,
+        "late_to_early_nearest_q50_q99": [
+          0.01695118338671185,
+          0.08502714767862045
+        ]
+      }
+    }
+  ]
+}

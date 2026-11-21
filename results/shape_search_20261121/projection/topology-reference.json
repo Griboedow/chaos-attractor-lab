@@ -1,0 +1,2407 @@
+{
+  "reference_count": 108,
+  "skipped": [],
+  "gudhi": "3.13.0",
+  "method": "Within each of four matched finite samples, compute the maximum bottleneck distance in H0, H1 and H2 with the six longest finite radius intervals per degree. Omitted bars can be paired to their diagonals within half the sixth lifetime. Triangle bounds propagate this truncation to the full finite diagrams. Rank by median over four paired samples. These are point-cloud offsets in RMS units.",
+  "self_columns": [
+    "truncated",
+    "full_lower",
+    "full_upper"
+  ],
+  "cases": [
+    {
+      "case": 1006801,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.10004361909534183,
+          "full_median_lower": 0.00370353181995716,
+          "full_median_upper": 0.29644962656288343
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.12144070016027425,
+          "full_median_lower": 0.010051527363199286,
+          "full_median_upper": 0.36801641308484373
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.12375217368990651,
+          "full_median_lower": 0.014750344941245,
+          "full_median_upper": 0.3432188313511742
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.13254281096852139,
+          "full_median_lower": 0.029392019912621664,
+          "full_median_upper": 0.32296898437491717
+        }
+      ],
+      "self_by_size": [
+        [
+          0.0845168114924404,
+          0.00024160322509161666,
+          0.27751575846172805
+        ],
+        [
+          0.06683142264015457,
+          0.0044894647520773495,
+          0.25655223141738764
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.00370353181995716
+    },
+    {
+      "case": 10238,
+      "matches": [
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.028556267063179232,
+          "full_median_lower": 0.0004908265493825586,
+          "full_median_upper": 0.10430077275333863
+        },
+        {
+          "reference": "IsothermalChemical",
+          "truncated_median": 0.02957679746948136,
+          "full_median_lower": 0.0013488909069957027,
+          "full_median_upper": 0.07453158941790086
+        },
+        {
+          "reference": "GenesioTesi",
+          "truncated_median": 0.03154045025967907,
+          "full_median_lower": 0.0007080687555982766,
+          "full_median_upper": 0.08817681476642703
+        },
+        {
+          "reference": "HastingsPowell",
+          "truncated_median": 0.032926064530776,
+          "full_median_lower": 0.002878737136546948,
+          "full_median_upper": 0.08145786234161231
+        }
+      ],
+      "self_by_size": [
+        [
+          0.030535262622871148,
+          0.00014272988478930497,
+          0.08813404068056135
+        ],
+        [
+          0.017471853140301467,
+          0.0013726405246557512,
+          0.07103114480337014
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0004908265493825586
+    },
+    {
+      "case": 1079549,
+      "matches": [
+        {
+          "reference": "SprottH",
+          "truncated_median": 0.06631558765393203,
+          "full_median_lower": 0.00904880258835381,
+          "full_median_upper": 0.15296557249745635
+        },
+        {
+          "reference": "BelousovZhabotinsky",
+          "truncated_median": 0.069074578058189,
+          "full_median_lower": 0.016862775226796713,
+          "full_median_upper": 0.138991651875155
+        },
+        {
+          "reference": "SprottR",
+          "truncated_median": 0.07412305712641176,
+          "full_median_lower": 0.0169237965492113,
+          "full_median_upper": 0.17928100373789435
+        },
+        {
+          "reference": "Atlas-Cassiopea",
+          "truncated_median": 0.07431179042566494,
+          "full_median_lower": 0.014959912293217668,
+          "full_median_upper": 0.16228737356111722
+        }
+      ],
+      "self_by_size": [
+        [
+          0.06823286325933299,
+          0.016334178378391,
+          0.14122550496976272
+        ],
+        [
+          0.0335159908970609,
+          0.013889368970573142,
+          0.1464955201242873
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.005221316025580389
+    },
+    {
+      "case": 1147837,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.14564879306799206,
+          "full_median_lower": 0.022980867185843575,
+          "full_median_upper": 0.30227427254318895
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.1562848214416233,
+          "full_median_lower": 0.042139647671149194,
+          "full_median_upper": 0.3066290581760436
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.1672892857866068,
+          "full_median_lower": 0.02929942657803751,
+          "full_median_upper": 0.32230671372541597
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.1674066348291985,
+          "full_median_lower": 0.044683208959040446,
+          "full_median_upper": 0.34930018047388806
+        }
+      ],
+      "self_by_size": [
+        [
+          0.07067165276098923,
+          0.01563544124558824,
+          0.12570786427639022
+        ],
+        [
+          0.05082483812457998,
+          0.000609048653133212,
+          0.10488711083443286
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.022980867185843575
+    },
+    {
+      "case": 1161974,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.07202659833345232,
+          "full_median_lower": 0.0007446240891578345,
+          "full_median_upper": 0.2713210092358467
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.07217031355308604,
+          "full_median_lower": 0.00126161348253489,
+          "full_median_upper": 0.2528640561521649
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.0760318770247593,
+          "full_median_lower": 0.0035442195199879662,
+          "full_median_upper": 0.23847323607735457
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.0801244242038607,
+          "full_median_lower": 0.009699875406207547,
+          "full_median_upper": 0.24662919479769774
+        }
+      ],
+      "self_by_size": [
+        [
+          0.058097141203956607,
+          0.002692662477613282,
+          0.24567798797539894
+        ],
+        [
+          0.09557074346381582,
+          0.0,
+          0.2625669895407194
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0007446240891578345
+    },
+    {
+      "case": 1167605,
+      "matches": [
+        {
+          "reference": "ItikBanksTumor",
+          "truncated_median": 0.054121245484437114,
+          "full_median_lower": 0.010009910496346095,
+          "full_median_upper": 0.14625927811217987
+        },
+        {
+          "reference": "Atlas-Naiad",
+          "truncated_median": 0.06070018005410073,
+          "full_median_lower": 0.03905702995552899,
+          "full_median_upper": 0.1660447226833589
+        },
+        {
+          "reference": "Atlas-Mobula",
+          "truncated_median": 0.06258184000352116,
+          "full_median_lower": 0.014301415117964369,
+          "full_median_upper": 0.15875377392164133
+        },
+        {
+          "reference": "Atlas-Cassiopea",
+          "truncated_median": 0.06657196283673392,
+          "full_median_lower": 0.01972267091342453,
+          "full_median_upper": 0.16541307707706832
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04625804163556026,
+          0.0,
+          0.1363717405004172
+        ],
+        [
+          0.12473273742312621,
+          0.027163002648296596,
+          0.22230247219795582
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0033302296716305356
+    },
+    {
+      "case": 1181714,
+      "matches": [
+        {
+          "reference": "Arneodo",
+          "truncated_median": 0.09384824646867326,
+          "full_median_lower": 0.02637321246293633,
+          "full_median_upper": 0.20011011320473854
+        },
+        {
+          "reference": "AnishchenkoAstakhov",
+          "truncated_median": 0.09401096882928492,
+          "full_median_lower": 0.02614354306323543,
+          "full_median_upper": 0.18136262551026572
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.09751368904185392,
+          "full_median_lower": 0.02987543001066896,
+          "full_median_upper": 0.22140831189246638
+        },
+        {
+          "reference": "Atlas-Naiad",
+          "truncated_median": 0.09778231260236754,
+          "full_median_lower": 0.03496396548411556,
+          "full_median_upper": 0.18329543719044694
+        }
+      ],
+      "self_by_size": [
+        [
+          0.07300032494660369,
+          0.024135501753063754,
+          0.2169598892805257
+        ],
+        [
+          0.11448472530905598,
+          0.05097754541647158,
+          0.1779919052016404
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.007871095620092278
+    },
+    {
+      "case": 119143,
+      "matches": [
+        {
+          "reference": "SprottQ",
+          "truncated_median": 0.031581946020198454,
+          "full_median_lower": 0.0036942317630628916,
+          "full_median_upper": 0.093961154647977
+        },
+        {
+          "reference": "SprottS",
+          "truncated_median": 0.04307085519819075,
+          "full_median_lower": 0.0018531713254076694,
+          "full_median_upper": 0.10023966299511372
+        },
+        {
+          "reference": "GenesioTesi",
+          "truncated_median": 0.04322495955462298,
+          "full_median_lower": 0.0020135182241108043,
+          "full_median_upper": 0.10419179431853423
+        },
+        {
+          "reference": "Colpitts",
+          "truncated_median": 0.04559287772920427,
+          "full_median_lower": 0.0009044449997241335,
+          "full_median_upper": 0.10134578438116468
+        }
+      ],
+      "self_by_size": [
+        [
+          0.03866542913066058,
+          9.010426550573463e-05,
+          0.10558436167799534
+        ],
+        [
+          0.023092215304605514,
+          0.0,
+          0.0799681031805187
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0007036853593460591
+    },
+    {
+      "case": 1229838,
+      "matches": [
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.15400199294084835,
+          "full_median_lower": 0.01963524510749716,
+          "full_median_upper": 0.31289116399012645
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.1599760629747305,
+          "full_median_lower": 0.01393478152159429,
+          "full_median_upper": 0.35368016559624416
+        },
+        {
+          "reference": "WangSun",
+          "truncated_median": 0.18598503533848665,
+          "full_median_lower": 0.042375126397725026,
+          "full_median_upper": 0.3696010012115472
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.19161900905581883,
+          "full_median_lower": 0.032966006441997264,
+          "full_median_upper": 0.35457611841044007
+        }
+      ],
+      "self_by_size": [
+        [
+          0.05140033325180661,
+          0.003709941036759768,
+          0.13730789798513485
+        ],
+        [
+          0.02063215141198322,
+          0.0,
+          0.07959049658213704
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.01393478152159429
+    },
+    {
+      "case": 127600,
+      "matches": [
+        {
+          "reference": "SprottTorus",
+          "truncated_median": 0.1425469930722726,
+          "full_median_lower": 0.031258797975794096,
+          "full_median_upper": 0.37413393898788894
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.15452662602017553,
+          "full_median_lower": 0.05958227692172167,
+          "full_median_upper": 0.37169932588156124
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.174697495159422,
+          "full_median_lower": 0.06703240856119926,
+          "full_median_upper": 0.31499723771006416
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.18520058566010422,
+          "full_median_lower": 0.06642583020278808,
+          "full_median_upper": 0.3527278691589271
+        }
+      ],
+      "self_by_size": [
+        [
+          0.11700077167686473,
+          0.0019182280638008558,
+          0.3095809302775511
+        ],
+        [
+          0.14930077703618178,
+          0.0037167272057995224,
+          0.34722530155836784
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.006888114566166834
+    },
+    {
+      "case": 1282003,
+      "matches": [
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.07450558847137247,
+          "full_median_lower": 0.008677957352544854,
+          "full_median_upper": 0.22686229808622396
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.08448316820805002,
+          "full_median_lower": 0.004302632043479775,
+          "full_median_upper": 0.24217578408377066
+        },
+        {
+          "reference": "KickedTop-A15-b0.5",
+          "truncated_median": 0.09775372389579828,
+          "full_median_lower": 0.02204239777555598,
+          "full_median_upper": 0.22084418489434093
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.10108316690016639,
+          "full_median_lower": 0.029263915394932137,
+          "full_median_upper": 0.2515708495045486
+        }
+      ],
+      "self_by_size": [
+        [
+          0.07466523880146861,
+          0.0006013016624747016,
+          0.20856723271236963
+        ],
+        [
+          0.060449971343335206,
+          0.00035438200534845235,
+          0.1808576660906984
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0023559685101824843
+    },
+    {
+      "case": 1291273,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08062129220370512,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.3047960797081612
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.09357217107119098,
+          "full_median_lower": 0.0021536831995243376,
+          "full_median_upper": 0.33840578858496356
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.09436072652478525,
+          "full_median_lower": 0.008123886712603154,
+          "full_median_upper": 0.3586999121650353
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11925984028194293,
+          "full_median_lower": 0.0013301899716439793,
+          "full_median_upper": 0.3476623005831203
+        }
+      ],
+      "self_by_size": [
+        [
+          0.08112999978568981,
+          0.0,
+          0.3233966894033806
+        ],
+        [
+          0.07460396228795291,
+          0.003099881872736097,
+          0.2981344894285693
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 1322937,
+      "matches": [
+        {
+          "reference": "SprottH",
+          "truncated_median": 0.05450709559910455,
+          "full_median_lower": 0.0033196171101429277,
+          "full_median_upper": 0.1883785026339163
+        },
+        {
+          "reference": "Atlas-Cassiopea",
+          "truncated_median": 0.054754132300865524,
+          "full_median_lower": 0.006950469027161701,
+          "full_median_upper": 0.1826809712686966
+        },
+        {
+          "reference": "SprottR",
+          "truncated_median": 0.060560417342702996,
+          "full_median_lower": 0.011941283454168375,
+          "full_median_upper": 0.16811175424459895
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.06556254070592077,
+          "full_median_lower": 0.004298391569001099,
+          "full_median_upper": 0.18707349505076898
+        }
+      ],
+      "self_by_size": [
+        [
+          0.0457388831252894,
+          0.0,
+          0.1775556780520687
+        ],
+        [
+          0.09007313947444362,
+          0.008688279982771004,
+          0.23066833313653098
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.001629850214385735
+    },
+    {
+      "case": 1364145,
+      "matches": [
+        {
+          "reference": "KickedTop-A15-b0.5",
+          "truncated_median": 0.06459177536027454,
+          "full_median_lower": 0.006824053394251085,
+          "full_median_upper": 0.1610329906468186
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.06602123303543073,
+          "full_median_lower": 0.007552679438583653,
+          "full_median_upper": 0.22121491567827456
+        },
+        {
+          "reference": "Finance",
+          "truncated_median": 0.0663678534662216,
+          "full_median_lower": 0.009518126180730304,
+          "full_median_upper": 0.17394782072824044
+        },
+        {
+          "reference": "YuWang",
+          "truncated_median": 0.06655314832027057,
+          "full_median_lower": 0.010416210779920741,
+          "full_median_upper": 0.17170608829826978
+        }
+      ],
+      "self_by_size": [
+        [
+          0.07015352542392861,
+          0.00175629743858666,
+          0.17718831891752976
+        ],
+        [
+          0.049754662142068876,
+          0.007865289124552935,
+          0.14493390879648058
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 1391489,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.1335066100089336,
+          "full_median_lower": 0.011426055568331112,
+          "full_median_upper": 0.2862641495858599
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.14915906568711518,
+          "full_median_lower": 0.08475690547528825,
+          "full_median_upper": 0.3005889459954084
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.1608226684931949,
+          "full_median_lower": 0.030871838817110087,
+          "full_median_upper": 0.30351121859795677
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.16701398338207424,
+          "full_median_lower": 0.06902379702488079,
+          "full_median_upper": 0.28615763499802305
+        }
+      ],
+      "self_by_size": [
+        [
+          0.024609783951379492,
+          0.0005161441143979541,
+          0.09025402050378666
+        ],
+        [
+          0.013216369979508744,
+          0.00034895889038940176,
+          0.07492709737351762
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.011426055568331112
+    },
+    {
+      "case": 1451361,
+      "matches": [
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.08515540738622762,
+          "full_median_lower": 0.009654593614804821,
+          "full_median_upper": 0.2377384282438338
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.09046710396561478,
+          "full_median_lower": 0.003544235052197784,
+          "full_median_upper": 0.24817891786565496
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.10999395827103692,
+          "full_median_lower": 0.007520265031427489,
+          "full_median_upper": 0.2533523738576622
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.11031455809447932,
+          "full_median_lower": 0.009866686290763527,
+          "full_median_upper": 0.25204871683911323
+        }
+      ],
+      "self_by_size": [
+        [
+          0.13155616333966313,
+          0.015290188360738782,
+          0.2478221383185875
+        ],
+        [
+          0.12072763253842017,
+          0.0030099387253769492,
+          0.2645177230497297
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.003544235052197784
+    },
+    {
+      "case": 1496296,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08086958678713754,
+          "full_median_lower": 0.005853912452665549,
+          "full_median_upper": 0.2803638383075694
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11550920123786027,
+          "full_median_lower": 0.00938734545743297,
+          "full_median_upper": 0.30322781816186856
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.12067366671362217,
+          "full_median_lower": 0.008221086474037714,
+          "full_median_upper": 0.3033716617716903
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.13031509421460405,
+          "full_median_lower": 0.027450783957854864,
+          "full_median_upper": 0.31544270572203614
+        }
+      ],
+      "self_by_size": [
+        [
+          0.08633192208802512,
+          0.005355711092072664,
+          0.28337469202524573
+        ],
+        [
+          0.11744747563634444,
+          0.015639377142540926,
+          0.28484340294932303
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.005853912452665549
+    },
+    {
+      "case": 1518001,
+      "matches": [
+        {
+          "reference": "CoevolvingPredatorPrey",
+          "truncated_median": 0.08999271927993424,
+          "full_median_lower": 0.024886639844575915,
+          "full_median_upper": 0.23014645598383804
+        },
+        {
+          "reference": "DequanLi",
+          "truncated_median": 0.11084703023140327,
+          "full_median_lower": 0.026506659740717017,
+          "full_median_upper": 0.2103772753222511
+        },
+        {
+          "reference": "KawczynskiStrizhak",
+          "truncated_median": 0.12948488479808043,
+          "full_median_lower": 0.09886469568850262,
+          "full_median_upper": 0.2140030875069314
+        },
+        {
+          "reference": "Lorenz84",
+          "truncated_median": 0.14252861042591214,
+          "full_median_lower": 0.09522079763532493,
+          "full_median_upper": 0.22340741582515222
+        }
+      ],
+      "self_by_size": [
+        [
+          0.12492105404671194,
+          0.0427495799494399,
+          0.2629162249096828
+        ],
+        [
+          0.17932894539892774,
+          0.08867844150723515,
+          0.28612668866437807
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.024886639844575915
+    },
+    {
+      "case": 1523981,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.28634275455251995,
+          "full_median_lower": 0.12659637454237146,
+          "full_median_upper": 0.43244444418165906
+        },
+        {
+          "reference": "LiuChen",
+          "truncated_median": 0.2912569795756468,
+          "full_median_lower": 0.0754844286250127,
+          "full_median_upper": 0.5349255222475575
+        },
+        {
+          "reference": "ZhouChen",
+          "truncated_median": 0.30028282780116644,
+          "full_median_lower": 0.08530352645039692,
+          "full_median_upper": 0.5178473076992207
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.30572135240292697,
+          "full_median_lower": 0.1616349652540659,
+          "full_median_upper": 0.449807739551788
+        }
+      ],
+      "self_by_size": [
+        [
+          0.03504022186743486,
+          0.00897175904992343,
+          0.0632664485798832
+        ],
+        [
+          0.015970870819344736,
+          0.00033679898129254985,
+          0.047732588327226835
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0754844286250127
+    },
+    {
+      "case": 175369,
+      "matches": [
+        {
+          "reference": "HastingsPowell",
+          "truncated_median": 0.02098766765590654,
+          "full_median_lower": 0.003095562610267744,
+          "full_median_upper": 0.06359160298985594
+        },
+        {
+          "reference": "GlycolyticOscillation",
+          "truncated_median": 0.026082056570153632,
+          "full_median_lower": 0.001541713506237071,
+          "full_median_upper": 0.06351014064587895
+        },
+        {
+          "reference": "Chua",
+          "truncated_median": 0.026590622521432884,
+          "full_median_lower": 0.00655999560863332,
+          "full_median_upper": 0.0742812428836683
+        },
+        {
+          "reference": "BeerRNN",
+          "truncated_median": 0.026791551605198805,
+          "full_median_lower": 0.0007580840653211016,
+          "full_median_upper": 0.07259686929910793
+        }
+      ],
+      "self_by_size": [
+        [
+          0.030111155330674058,
+          0.00010232565367065734,
+          0.08208396516316122
+        ],
+        [
+          0.026101906341102744,
+          0.00044536858399989545,
+          0.0737482917465374
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0001740795475635766
+    },
+    {
+      "case": 186800,
+      "matches": [
+        {
+          "reference": "HastingsPowell",
+          "truncated_median": 0.03420967315858958,
+          "full_median_lower": 0.0031012686404508242,
+          "full_median_upper": 0.083494099454897
+        },
+        {
+          "reference": "IsothermalChemical",
+          "truncated_median": 0.03549919072492533,
+          "full_median_lower": 0.001390279687510557,
+          "full_median_upper": 0.07617336335014063
+        },
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.03876595119669182,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.10649733882022114
+        },
+        {
+          "reference": "SprottP",
+          "truncated_median": 0.03917958501351848,
+          "full_median_lower": 0.002243833139607678,
+          "full_median_upper": 0.09906193449220035
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04049871866259533,
+          7.050662019467646e-05,
+          0.09276490432492086
+        ],
+        [
+          0.036678912584040435,
+          2.1233873236528342e-07,
+          0.08484667139189002
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 198237,
+      "matches": [
+        {
+          "reference": "ExcitableCell",
+          "truncated_median": 0.054712446119026543,
+          "full_median_lower": 0.028025866430004397,
+          "full_median_upper": 0.09938144628264894
+        },
+        {
+          "reference": "YuWang",
+          "truncated_median": 0.05717574072773868,
+          "full_median_lower": 0.005643103319891822,
+          "full_median_upper": 0.13074746925487185
+        },
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.0586869703507793,
+          "full_median_lower": 0.009316529409343095,
+          "full_median_upper": 0.13186035861595347
+        },
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.061118336548972745,
+          "full_median_lower": 0.013416018873623576,
+          "full_median_upper": 0.13171161267800768
+        }
+      ],
+      "self_by_size": [
+        [
+          0.02849136689341422,
+          0.00046021733648833206,
+          0.058215835966231845
+        ],
+        [
+          0.07652425279660663,
+          0.039897014378997384,
+          0.11315149121421589
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0005534921337373917
+    },
+    {
+      "case": 2006357,
+      "matches": [
+        {
+          "reference": "Halvorsen-a1.5",
+          "truncated_median": 0.13623156073019682,
+          "full_median_lower": 0.09898285751877546,
+          "full_median_upper": 0.17357693135386604
+        },
+        {
+          "reference": "PehlivanWei",
+          "truncated_median": 0.1487446487032214,
+          "full_median_lower": 0.0798074462074576,
+          "full_median_upper": 0.22472563740109064
+        },
+        {
+          "reference": "DequanLi",
+          "truncated_median": 0.15983499942232757,
+          "full_median_lower": 0.062438109855891016,
+          "full_median_upper": 0.2577926209008733
+        },
+        {
+          "reference": "GuckenheimerHolmes",
+          "truncated_median": 0.1669003796671577,
+          "full_median_lower": 0.10766260695757812,
+          "full_median_upper": 0.24098663144886323
+        }
+      ],
+      "self_by_size": [
+        [
+          0.031522701907203104,
+          0.0024612267357629826,
+          0.08545891226924898
+        ],
+        [
+          0.048942580381437145,
+          0.004704829846293389,
+          0.10531813630476822
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.02853586025433054
+    },
+    {
+      "case": 2008466,
+      "matches": [
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.10298819970537205,
+          "full_median_lower": 0.012695739193497237,
+          "full_median_upper": 0.3648990602473028
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.10689113147495141,
+          "full_median_lower": 0.004672656390085776,
+          "full_median_upper": 0.3559495965271747
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.10976797208001257,
+          "full_median_lower": 0.011696479904582467,
+          "full_median_upper": 0.34463241810700734
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.1630370253253217,
+          "full_median_lower": 0.012181679656741535,
+          "full_median_upper": 0.3793380352998632
+        }
+      ],
+      "self_by_size": [
+        [
+          0.11940539653089147,
+          0.049627476167542456,
+          0.3907306226377861
+        ],
+        [
+          0.09376312595942063,
+          0.006594443710347558,
+          0.31840550022051645
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.004672656390085776
+    },
+    {
+      "case": 2028066,
+      "matches": [
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.05368652167186706,
+          "full_median_lower": 0.004429938988370775,
+          "full_median_upper": 0.15813457579643464
+        },
+        {
+          "reference": "Rucklidge",
+          "truncated_median": 0.05884424962575767,
+          "full_median_lower": 0.003920745829500064,
+          "full_median_upper": 0.1669129963538076
+        },
+        {
+          "reference": "Finance",
+          "truncated_median": 0.0600472044113497,
+          "full_median_lower": 0.007772655726190184,
+          "full_median_upper": 0.15951899401963865
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.06106118946263464,
+          "full_median_lower": 0.009001522466630302,
+          "full_median_upper": 0.16992576859609387
+        }
+      ],
+      "self_by_size": [
+        [
+          0.034075536795369454,
+          0.00259474751189225,
+          0.14322928822955536
+        ],
+        [
+          0.7417549753364937,
+          0.6100779299097909,
+          0.8734320207631965
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0007660283960716501
+    },
+    {
+      "case": 2039634,
+      "matches": [
+        {
+          "reference": "VallisElNino",
+          "truncated_median": 0.026008125728777597,
+          "full_median_lower": 0.003396305382006185,
+          "full_median_upper": 0.05833911578903693
+        },
+        {
+          "reference": "WindmiReduced",
+          "truncated_median": 0.026830128953251573,
+          "full_median_lower": 0.006510077987184814,
+          "full_median_upper": 0.054906730186999514
+        },
+        {
+          "reference": "Chua",
+          "truncated_median": 0.03507119169080508,
+          "full_median_lower": 0.003868748648410099,
+          "full_median_upper": 0.0815158741639107
+        },
+        {
+          "reference": "GlycolyticOscillation",
+          "truncated_median": 0.03603439596640083,
+          "full_median_lower": 0.010502753753763668,
+          "full_median_upper": 0.06697464093871372
+        }
+      ],
+      "self_by_size": [
+        [
+          0.01971398027791589,
+          0.0,
+          0.06286438330400651
+        ],
+        [
+          0.010329858471395798,
+          0.0,
+          0.046364881415690895
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.002245945861652042
+    },
+    {
+      "case": 2087905,
+      "matches": [
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.03398251147031797,
+          "full_median_lower": 0.005068771032441353,
+          "full_median_upper": 0.11684354443303754
+        },
+        {
+          "reference": "SprottP",
+          "truncated_median": 0.04777082865770184,
+          "full_median_lower": 0.0023113421770725897,
+          "full_median_upper": 0.12838776865678514
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.05004876711682113,
+          "full_median_lower": 0.005048048546945041,
+          "full_median_upper": 0.12670654153330546
+        },
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.05174350346743835,
+          "full_median_lower": 0.004434119168896638,
+          "full_median_upper": 0.12004097429915084
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04421539960501543,
+          0.005837903226294654,
+          0.12525084443712622
+        ],
+        [
+          0.040692788730383206,
+          0.0016229165310753936,
+          0.1091693454845285
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.001222644199146345
+    },
+    {
+      "case": 2158223,
+      "matches": [
+        {
+          "reference": "CoevolvingPredatorPrey",
+          "truncated_median": 0.11460246397210135,
+          "full_median_lower": 0.05818813783036715,
+          "full_median_upper": 0.22411367866690757
+        },
+        {
+          "reference": "Bouali",
+          "truncated_median": 0.12417100964792951,
+          "full_median_lower": 0.08905052493313306,
+          "full_median_upper": 0.16187688594044933
+        },
+        {
+          "reference": "KawczynskiStrizhak",
+          "truncated_median": 0.12633331872234166,
+          "full_median_lower": 0.11115467003308149,
+          "full_median_upper": 0.15924019782660537
+        },
+        {
+          "reference": "Aizawa",
+          "truncated_median": 0.15197469765856958,
+          "full_median_lower": 0.1287083345505055,
+          "full_median_upper": 0.19313896526050678
+        }
+      ],
+      "self_by_size": [
+        [
+          0.031732275969095086,
+          0.019057552518162994,
+          0.145700112772196
+        ],
+        [
+          0.07128996683443602,
+          0.04659063696651921,
+          0.1324936365673863
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.05818813783036715
+    },
+    {
+      "case": 2189166,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06063222792245178,
+          "full_median_lower": 0.00251485532331091,
+          "full_median_upper": 0.29911399082583523
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.08969393958570053,
+          "full_median_lower": 0.018840834126771525,
+          "full_median_upper": 0.3487862195544651
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.0928823515173921,
+          "full_median_lower": 0.01351490496400775,
+          "full_median_upper": 0.33732002779587966
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.10680490238326429,
+          "full_median_lower": 0.006289294302476739,
+          "full_median_upper": 0.33669761565312994
+        }
+      ],
+      "self_by_size": [
+        [
+          0.08251610893418052,
+          0.024115763459014762,
+          0.2935414242433646
+        ],
+        [
+          0.058427190342793076,
+          0.0008953869695923674,
+          0.28956611294016676
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.00251485532331091
+    },
+    {
+      "case": 220329,
+      "matches": [
+        {
+          "reference": "SprottMore",
+          "truncated_median": 0.12434714199297851,
+          "full_median_lower": 0.01727250180183671,
+          "full_median_upper": 0.2612156289748909
+        },
+        {
+          "reference": "NoseHoover",
+          "truncated_median": 0.12609947630692137,
+          "full_median_lower": 0.004454213592929323,
+          "full_median_upper": 0.2905583826591036
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.13075389068717969,
+          "full_median_lower": 0.04231219407434736,
+          "full_median_upper": 0.2987704169548608
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.13718862791087336,
+          "full_median_lower": 0.035480391052829734,
+          "full_median_upper": 0.3098259928424234
+        }
+      ],
+      "self_by_size": [
+        [
+          0.1464021903798432,
+          0.0008562729067198167,
+          0.30325753369106584
+        ],
+        [
+          0.134192098778214,
+          0.012502417372987917,
+          0.36323230731587436
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.004454213592929323
+    },
+    {
+      "case": 2220593,
+      "matches": [
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.04397613768952843,
+          "full_median_lower": 0.0009912054819664054,
+          "full_median_upper": 0.1333890744885503
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.04714281963856138,
+          "full_median_lower": 0.0031359414894275286,
+          "full_median_upper": 0.13562499031723413
+        },
+        {
+          "reference": "Atlas-Cassiopea",
+          "truncated_median": 0.05321143385074444,
+          "full_median_lower": 0.0120357391108581,
+          "full_median_upper": 0.14184889213900265
+        },
+        {
+          "reference": "Finance",
+          "truncated_median": 0.0578932408792259,
+          "full_median_lower": 0.00013055781345504687,
+          "full_median_upper": 0.15852562186493319
+        }
+      ],
+      "self_by_size": [
+        [
+          0.06667715472354582,
+          0.007324957902278161,
+          0.15621184277691366
+        ],
+        [
+          0.04778583534353743,
+          0.0,
+          0.13632573738910717
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.00013055781345504687
+    },
+    {
+      "case": 2304011,
+      "matches": [
+        {
+          "reference": "NewtonLiepnik",
+          "truncated_median": 0.10696847024896919,
+          "full_median_lower": 0.045634012067407755,
+          "full_median_upper": 0.1888288459455803
+        },
+        {
+          "reference": "Atlas-Naiad",
+          "truncated_median": 0.11422154713696533,
+          "full_median_lower": 0.060063937770027755,
+          "full_median_upper": 0.20353642485573786
+        },
+        {
+          "reference": "SprottH",
+          "truncated_median": 0.1149928539484222,
+          "full_median_lower": 0.045420174806707736,
+          "full_median_upper": 0.20136545767352002
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11838990235776933,
+          "full_median_lower": 0.04279410856766322,
+          "full_median_upper": 0.26154947757131153
+        }
+      ],
+      "self_by_size": [
+        [
+          0.1729178368364297,
+          0.11914421662355512,
+          0.22669145704930427
+        ],
+        [
+          0.14634753303411097,
+          0.08836943224876145,
+          0.2265064750862577
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.013137378814890913
+    },
+    {
+      "case": 2361186,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.11786297130827465,
+          "full_median_lower": 0.0015055804688820225,
+          "full_median_upper": 0.31563893313616487
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.12375225365830977,
+          "full_median_lower": 0.003332872982681717,
+          "full_median_upper": 0.29195217244528826
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.13557800232090472,
+          "full_median_lower": 0.023284399396831655,
+          "full_median_upper": 0.2871845851126214
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.13671288719471583,
+          "full_median_lower": 0.009875197840710965,
+          "full_median_upper": 0.35570194345041184
+        }
+      ],
+      "self_by_size": [
+        [
+          0.0898972732520872,
+          0.0,
+          0.25417392122523125
+        ],
+        [
+          0.12277558204427019,
+          0.005445762620021741,
+          0.25294302569629534
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0015055804688820225
+    },
+    {
+      "case": 2417165,
+      "matches": [
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.033808817239059714,
+          "full_median_lower": 0.0012732635350174576,
+          "full_median_upper": 0.09956629206264142
+        },
+        {
+          "reference": "IsothermalChemical",
+          "truncated_median": 0.034020908747947554,
+          "full_median_lower": 0.006404631232925896,
+          "full_median_upper": 0.09300514802860804
+        },
+        {
+          "reference": "GenesioTesi",
+          "truncated_median": 0.038192267425674546,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.09763022132461796
+        },
+        {
+          "reference": "SprottP",
+          "truncated_median": 0.03953311793260707,
+          "full_median_lower": 3.9569220010769904e-05,
+          "full_median_upper": 0.09682947023192258
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04804808734748001,
+          0.0021342461339703407,
+          0.09502816311028098
+        ],
+        [
+          0.026077160397577553,
+          0.0,
+          0.08709283137702048
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 2425586,
+      "matches": [
+        {
+          "reference": "KawczynskiStrizhak",
+          "truncated_median": 0.09271759434767521,
+          "full_median_lower": 0.03247192755800006,
+          "full_median_upper": 0.1582907662804689
+        },
+        {
+          "reference": "JerkCircuit",
+          "truncated_median": 0.09419753235845196,
+          "full_median_lower": 0.029181692406363067,
+          "full_median_upper": 0.17535245537907876
+        },
+        {
+          "reference": "NoseHoover",
+          "truncated_median": 0.09527425170676757,
+          "full_median_lower": 0.014605076837915443,
+          "full_median_upper": 0.19288365042501684
+        },
+        {
+          "reference": "GuckenheimerHolmes",
+          "truncated_median": 0.0985088316254896,
+          "full_median_lower": 0.035315834286819156,
+          "full_median_upper": 0.19190740418244018
+        }
+      ],
+      "self_by_size": [
+        [
+          0.10294793432390363,
+          0.004200045002849056,
+          0.24756586859611707
+        ],
+        [
+          0.0764417746232863,
+          0.001201629557251688,
+          0.16079812347256603
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0018220195688775963
+    },
+    {
+      "case": 2427630,
+      "matches": [
+        {
+          "reference": "SprottR",
+          "truncated_median": 0.0655581222441037,
+          "full_median_lower": 0.01073046647707164,
+          "full_median_upper": 0.21751537890783143
+        },
+        {
+          "reference": "Finance",
+          "truncated_median": 0.06812575338087237,
+          "full_median_lower": 0.0074364926461921305,
+          "full_median_upper": 0.19766896209635665
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.0732457113950999,
+          "full_median_lower": 0.008018217168940009,
+          "full_median_upper": 0.2278051865563781
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.0792900399331415,
+          "full_median_lower": 0.006519945284220836,
+          "full_median_upper": 0.2403893819620313
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04418960882779146,
+          0.0012364328916440281,
+          0.18315704649547612
+        ],
+        [
+          0.04565991894478171,
+          0.0,
+          0.18306517784995116
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 2503686,
+      "matches": [
+        {
+          "reference": "HindmarshRose",
+          "truncated_median": 0.19547508911240982,
+          "full_median_lower": 0.14813192765382124,
+          "full_median_upper": 0.36324979259767687
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.21261300093620877,
+          "full_median_lower": 0.10510970809423843,
+          "full_median_upper": 0.3888333725474862
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.2235507614512549,
+          "full_median_lower": 0.16644620708866983,
+          "full_median_upper": 0.3338417986359502
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.2235507614512549,
+          "full_median_lower": 0.15938554570754035,
+          "full_median_upper": 0.36567489381283935
+        }
+      ],
+      "self_by_size": [
+        [
+          0.4244062292531221,
+          0.25399743495920685,
+          0.5948150235470373
+        ],
+        [
+          0.1082905420227655,
+          0.024285881012892682,
+          0.31672467300374113
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.05595919070311711
+    },
+    {
+      "case": 2508549,
+      "matches": [
+        {
+          "reference": "KawczynskiStrizhak",
+          "truncated_median": 0.09732596638842878,
+          "full_median_lower": 0.07246032272913604,
+          "full_median_upper": 0.1793607458007057
+        },
+        {
+          "reference": "CoevolvingPredatorPrey",
+          "truncated_median": 0.10026104447065103,
+          "full_median_lower": 0.024816346994902552,
+          "full_median_upper": 0.22221783837587206
+        },
+        {
+          "reference": "GuckenheimerHolmes",
+          "truncated_median": 0.12208282387881417,
+          "full_median_lower": 0.08070426108461692,
+          "full_median_upper": 0.1963569941570058
+        },
+        {
+          "reference": "SprottMore",
+          "truncated_median": 0.12488824490957584,
+          "full_median_lower": 0.04676843848909328,
+          "full_median_upper": 0.2503950056035852
+        }
+      ],
+      "self_by_size": [
+        [
+          0.048898094577249834,
+          0.007129009233924693,
+          0.14652648002842122
+        ],
+        [
+          0.07190395084208365,
+          0.029146139423170223,
+          0.1426819411532452
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.02246834617989154
+    },
+    {
+      "case": 253746,
+      "matches": [
+        {
+          "reference": "AtmosphericRegime",
+          "truncated_median": 0.06996236970080083,
+          "full_median_lower": 0.0005489793292378198,
+          "full_median_upper": 0.15681174268601922
+        },
+        {
+          "reference": "JerkCircuit",
+          "truncated_median": 0.07658711555171774,
+          "full_median_lower": 0.01547699088083203,
+          "full_median_upper": 0.14783059248296643
+        },
+        {
+          "reference": "Hadley",
+          "truncated_median": 0.07971072937541916,
+          "full_median_lower": 0.012185705197804361,
+          "full_median_upper": 0.15161742598474748
+        },
+        {
+          "reference": "Halvorsen-a1.3",
+          "truncated_median": 0.08040363093896288,
+          "full_median_lower": 0.009112694391131115,
+          "full_median_upper": 0.15269654816968148
+        }
+      ],
+      "self_by_size": [
+        [
+          0.07166783848662012,
+          0.0006386996378814223,
+          0.14586457567095176
+        ],
+        [
+          0.05773036150802493,
+          0.0006417721293160214,
+          0.12915390330035895
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0005489793292378198
+    },
+    {
+      "case": 261538,
+      "matches": [
+        {
+          "reference": "BeerRNN",
+          "truncated_median": 0.02464213240563856,
+          "full_median_lower": 0.002226167299027047,
+          "full_median_upper": 0.06658183106222458
+        },
+        {
+          "reference": "Chua",
+          "truncated_median": 0.027115052629253063,
+          "full_median_lower": 0.003354775672927974,
+          "full_median_upper": 0.0746492345581098
+        },
+        {
+          "reference": "Henon3D-0.0-0.85-0.7",
+          "truncated_median": 0.027296529934707794,
+          "full_median_lower": 0.0027162978987523814,
+          "full_median_upper": 0.06687400702491893
+        },
+        {
+          "reference": "GlycolyticOscillation",
+          "truncated_median": 0.027587993203570988,
+          "full_median_lower": 0.004045080121586756,
+          "full_median_upper": 0.06150211411029177
+        }
+      ],
+      "self_by_size": [
+        [
+          0.01857710421418869,
+          0.0,
+          0.06644696723351232
+        ],
+        [
+          0.006581962991033854,
+          0.0,
+          0.05257002715946153
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0010011162383903867
+    },
+    {
+      "case": 301027,
+      "matches": [
+        {
+          "reference": "LuChen",
+          "truncated_median": 0.09942002201419659,
+          "full_median_lower": 0.03280950601561296,
+          "full_median_upper": 0.1660305380127802
+        },
+        {
+          "reference": "Atlas-Aurelia",
+          "truncated_median": 0.10931458821838612,
+          "full_median_lower": 0.07216709303452991,
+          "full_median_upper": 0.21376972297175545
+        },
+        {
+          "reference": "Rossler",
+          "truncated_median": 0.10996968174133495,
+          "full_median_lower": 0.03648861712496609,
+          "full_median_upper": 0.19308767600904475
+        },
+        {
+          "reference": "Halvorsen-a1.7",
+          "truncated_median": 0.1122134964668442,
+          "full_median_lower": 0.0016989218009231225,
+          "full_median_upper": 0.23395450017573005
+        }
+      ],
+      "self_by_size": [
+        [
+          0.045765498863363716,
+          0.0005048947558843583,
+          0.12733414552387243
+        ],
+        [
+          0.03560920722979269,
+          0.0007560298794525908,
+          0.1313088801757159
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0014097449313209436
+    },
+    {
+      "case": 303603,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06537927728326186,
+          "full_median_lower": 0.021110850864560514,
+          "full_median_upper": 0.30481271394957254
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.10618785827537824,
+          "full_median_lower": 0.0323112604655501,
+          "full_median_upper": 0.36568171283540224
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.11332303596447335,
+          "full_median_lower": 0.04091134180834156,
+          "full_median_upper": 0.3423357843564351
+        },
+        {
+          "reference": "SprottMore",
+          "truncated_median": 0.11457271532649052,
+          "full_median_lower": 0.01637592121378613,
+          "full_median_upper": 0.31854749426623985
+        }
+      ],
+      "self_by_size": [
+        [
+          0.08353442340392966,
+          0.01121237705013154,
+          0.3269342570687818
+        ],
+        [
+          0.08849626945013342,
+          0.02346629394435404,
+          0.3074119834297498
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.010758938287162734
+    },
+    {
+      "case": 317370,
+      "matches": [
+        {
+          "reference": "NewtonLiepnik",
+          "truncated_median": 0.05313439338567031,
+          "full_median_lower": 0.0010223599696444281,
+          "full_median_upper": 0.1549832511443402
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.05512568057374965,
+          "full_median_lower": 0.011813966953734753,
+          "full_median_upper": 0.15727539870968466
+        },
+        {
+          "reference": "YuWang",
+          "truncated_median": 0.06076345571527364,
+          "full_median_lower": 0.0060092893222423475,
+          "full_median_upper": 0.16450512970950154
+        },
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.06364691604277631,
+          "full_median_lower": 0.004842704329744967,
+          "full_median_upper": 0.15805195635195782
+        }
+      ],
+      "self_by_size": [
+        [
+          0.23386414402415764,
+          0.11536567308358998,
+          0.3523626149647253
+        ],
+        [
+          0.05216385864389927,
+          0.00034160240673861695,
+          0.12068473750710414
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0010223599696444281
+    },
+    {
+      "case": 346817,
+      "matches": [
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.061332543955366255,
+          "full_median_lower": 0.005076193067448553,
+          "full_median_upper": 0.16082284280341325
+        },
+        {
+          "reference": "Finance",
+          "truncated_median": 0.06696443912035667,
+          "full_median_lower": 0.0046737566732680145,
+          "full_median_upper": 0.15322379961432864
+        },
+        {
+          "reference": "SprottH",
+          "truncated_median": 0.06911303217418074,
+          "full_median_lower": 0.0018640456561131685,
+          "full_median_upper": 0.15547433878262906
+        },
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.06975054440583657,
+          "full_median_lower": 0.003488516468603574,
+          "full_median_upper": 0.1578316927798087
+        }
+      ],
+      "self_by_size": [
+        [
+          0.03789061237216866,
+          0.0,
+          0.10749877635619033
+        ],
+        [
+          0.07946050729386711,
+          0.017986608228737756,
+          0.14093440635899646
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.00043251783060259196
+    },
+    {
+      "case": 351879,
+      "matches": [
+        {
+          "reference": "KickedTop-A35-b0.1",
+          "truncated_median": 0.21431497246940792,
+          "full_median_lower": 0.13754815378462748,
+          "full_median_upper": 0.32379885219806925
+        },
+        {
+          "reference": "Tsucs2",
+          "truncated_median": 0.22617697120194435,
+          "full_median_lower": 0.14159944176770384,
+          "full_median_upper": 0.39005817081807703
+        },
+        {
+          "reference": "HindmarshRose",
+          "truncated_median": 0.22911829087906166,
+          "full_median_lower": 0.155365989965549,
+          "full_median_upper": 0.33039724691831446
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.25457134208886234,
+          "full_median_lower": 0.1531806088534765,
+          "full_median_upper": 0.38766993269698025
+        }
+      ],
+      "self_by_size": [
+        [
+          0.11092168534287083,
+          0.0011929490098108028,
+          0.30858728669796603
+        ],
+        [
+          0.11370963904965214,
+          0.004745324624521106,
+          0.265159310883158
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.10496569088668685
+    },
+    {
+      "case": 354353,
+      "matches": [
+        {
+          "reference": "KickedTop-A15-b0.5",
+          "truncated_median": 0.0859366874516315,
+          "full_median_lower": 0.028314728689278944,
+          "full_median_upper": 0.18472285166591845
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.10577639854296243,
+          "full_median_lower": 0.012001335595378831,
+          "full_median_upper": 0.2456760429270522
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.10758906685291053,
+          "full_median_lower": 0.018972007739977616,
+          "full_median_upper": 0.24335365100919137
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11393252748145921,
+          "full_median_lower": 0.006510414119771092,
+          "full_median_upper": 0.23682020907452056
+        }
+      ],
+      "self_by_size": [
+        [
+          0.06155753574392679,
+          0.003264467406074486,
+          0.1546476949979669
+        ],
+        [
+          0.090205315814556,
+          0.0070549804147651265,
+          0.17335565121434687
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.006510414119771092
+    },
+    {
+      "case": 367791,
+      "matches": [
+        {
+          "reference": "Rucklidge",
+          "truncated_median": 0.03855779708868884,
+          "full_median_lower": 0.0012404987847375718,
+          "full_median_upper": 0.1266517326859118
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.04316520193474651,
+          "full_median_lower": 0.006534040117269997,
+          "full_median_upper": 0.12667497637110864
+        },
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.04834425178190349,
+          "full_median_lower": 0.0006481436425789938,
+          "full_median_upper": 0.1253425256567416
+        },
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.05003195483271494,
+          "full_median_lower": 0.003312204804475468,
+          "full_median_upper": 0.1284883009315906
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04027217339652985,
+          0.0,
+          0.13186006334022984
+        ],
+        [
+          0.03783220397711108,
+          0.0,
+          0.12361738714981443
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 3.4597730205960464e-05
+    },
+    {
+      "case": 367853,
+      "matches": [
+        {
+          "reference": "LiuChen",
+          "truncated_median": 0.32001265242161137,
+          "full_median_lower": 0.0753115294507927,
+          "full_median_upper": 0.6855367957010718
+        },
+        {
+          "reference": "WangSun",
+          "truncated_median": 0.33459131883236737,
+          "full_median_lower": 0.1367860496194214,
+          "full_median_upper": 0.6654750723733087
+        },
+        {
+          "reference": "ZhouChen",
+          "truncated_median": 0.3433845530125881,
+          "full_median_lower": 0.07764349290682594,
+          "full_median_upper": 0.6984167324284336
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.3445481337155121,
+          "full_median_lower": 0.08107072683764521,
+          "full_median_upper": 0.6614336528744647
+        }
+      ],
+      "self_by_size": [
+        [
+          0.7963717932528311,
+          0.5335972683138778,
+          1.0591463181917846
+        ],
+        [
+          0.21797045367247192,
+          0.006317434602619464,
+          0.6079716750881661
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0753115294507927
+    },
+    {
+      "case": 370279,
+      "matches": [
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.0404439402111202,
+          "full_median_lower": 0.002713688727513402,
+          "full_median_upper": 0.11925209194224419
+        },
+        {
+          "reference": "GenesioTesi",
+          "truncated_median": 0.052987617626696334,
+          "full_median_lower": 0.0032547415305683534,
+          "full_median_upper": 0.11541941600172459
+        },
+        {
+          "reference": "IsothermalChemical",
+          "truncated_median": 0.05308956282361011,
+          "full_median_lower": 0.019605907245467756,
+          "full_median_upper": 0.10848217855914288
+        },
+        {
+          "reference": "SaltonSea",
+          "truncated_median": 0.05592863482295035,
+          "full_median_lower": 0.003511399599763365,
+          "full_median_upper": 0.11552664399534174
+        }
+      ],
+      "self_by_size": [
+        [
+          0.02479780023633497,
+          0.0006788302688192255,
+          0.09439584991307101
+        ],
+        [
+          0.019348704000838636,
+          0.000881135337597576,
+          0.07716357539601926
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0014024564221511008
+    },
+    {
+      "case": 394727,
+      "matches": [
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.13005236090123212,
+          "full_median_lower": 0.014544744436100019,
+          "full_median_upper": 0.3539675534745481
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.15116873448485427,
+          "full_median_lower": 0.006557544961453655,
+          "full_median_upper": 0.3734714861372066
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.1735937689053514,
+          "full_median_lower": 0.004010348642222101,
+          "full_median_upper": 0.42143670798726673
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.1757510041423535,
+          "full_median_lower": 0.004487724560340449,
+          "full_median_upper": 0.40175964488661176
+        }
+      ],
+      "self_by_size": [
+        [
+          0.2713245300118876,
+          0.08021718155803703,
+          0.46243187846573824
+        ],
+        [
+          0.25051843694618636,
+          0.07945936260979229,
+          0.4215775112825805
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.004010348642222101
+    },
+    {
+      "case": 428554,
+      "matches": [
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.08276434471882706,
+          "full_median_lower": 0.009581506652021938,
+          "full_median_upper": 0.22615308250766036
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.08817228650793037,
+          "full_median_lower": 0.006760419875763566,
+          "full_median_upper": 0.24597389656421637
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.09134670667114396,
+          "full_median_lower": 0.02550530852582688,
+          "full_median_upper": 0.2171437208988247
+        },
+        {
+          "reference": "ThomasLabyrinth",
+          "truncated_median": 0.0919486471004944,
+          "full_median_lower": 0.006752220385664498,
+          "full_median_upper": 0.24588498641558443
+        }
+      ],
+      "self_by_size": [
+        [
+          0.10497669983930297,
+          0.014572278501055969,
+          0.225610547141573
+        ],
+        [
+          0.08573788973949914,
+          0.005347115782170304,
+          0.19919614764711271
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0023054688398208728
+    },
+    {
+      "case": 449458,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.10684883189088183,
+          "full_median_lower": 0.00500170197938776,
+          "full_median_upper": 0.29851788888574743
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.1296187362209104,
+          "full_median_lower": 0.04310647414052114,
+          "full_median_upper": 0.30739987259547175
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.1323027485172908,
+          "full_median_lower": 0.003453613793190257,
+          "full_median_upper": 0.3125678004421144
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.13269752921830158,
+          "full_median_lower": 0.003921230815930935,
+          "full_median_upper": 0.35524931027536044
+        }
+      ],
+      "self_by_size": [
+        [
+          0.13424152741598416,
+          0.002791664648140016,
+          0.31172877873424487
+        ],
+        [
+          0.07785017580893047,
+          0.0009786241439550254,
+          0.23730163320064537
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.003453613793190257
+    },
+    {
+      "case": 454181,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.13973711488262106,
+          "full_median_lower": 0.01185869358270385,
+          "full_median_upper": 0.3739688124649534
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.14785379088219847,
+          "full_median_lower": 0.03098868811096557,
+          "full_median_upper": 0.41644056370040855
+        },
+        {
+          "reference": "HindmarshRose",
+          "truncated_median": 0.18020123547868544,
+          "full_median_lower": 0.06882518739654134,
+          "full_median_upper": 0.4110962584812564
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.18127537748274716,
+          "full_median_lower": 0.06287596413043581,
+          "full_median_upper": 0.4374521707106466
+        }
+      ],
+      "self_by_size": [
+        [
+          0.15468368268034122,
+          0.015756159063465253,
+          0.45605299208319566
+        ],
+        [
+          0.2583879003181655,
+          0.04999244043165475,
+          0.5553720565219742
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.01185869358270385
+    },
+    {
+      "case": 45458,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.09151360093702748,
+          "full_median_lower": 0.007361560651247252,
+          "full_median_upper": 0.3180413565721263
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.0934616250101948,
+          "full_median_lower": 0.009648344792951347,
+          "full_median_upper": 0.3405678576678602
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.09836800291628742,
+          "full_median_lower": 0.008688989655888935,
+          "full_median_upper": 0.36942682880848104
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.10068108386247711,
+          "full_median_lower": 0.006937944551097276,
+          "full_median_upper": 0.3468302383813714
+        }
+      ],
+      "self_by_size": [
+        [
+          0.15544201761565596,
+          0.012167734026036242,
+          0.39356549852148986
+        ],
+        [
+          0.08417140322531369,
+          0.007860633899975787,
+          0.32726000167321795
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0063156389222099
+    },
+    {
+      "case": 475471,
+      "matches": [
+        {
+          "reference": "Chen",
+          "truncated_median": 0.06836895489600536,
+          "full_median_lower": 0.01111687578808976,
+          "full_median_upper": 0.23663893407135583
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.06852041494183288,
+          "full_median_lower": 0.013508747970875324,
+          "full_median_upper": 0.24856784168565632
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.07670666622431138,
+          "full_median_lower": 0.01089662303513255,
+          "full_median_upper": 0.23593692290595134
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.08083402499297096,
+          "full_median_lower": 0.005397079063905375,
+          "full_median_upper": 0.2624446802897993
+        }
+      ],
+      "self_by_size": [
+        [
+          0.06430578509365331,
+          0.010250597359727675,
+          0.21484053215570756
+        ],
+        [
+          0.11616490123685819,
+          0.00957525567345581,
+          0.2502129785064286
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.005397079063905375
+    },
+    {
+      "case": 516308,
+      "matches": [
+        {
+          "reference": "MultiChua",
+          "truncated_median": 0.03814103996597083,
+          "full_median_lower": 0.0032838421694875437,
+          "full_median_upper": 0.12196996051493672
+        },
+        {
+          "reference": "SprottF",
+          "truncated_median": 0.04622240588441029,
+          "full_median_lower": 0.006518364543465122,
+          "full_median_upper": 0.1222750836763544
+        },
+        {
+          "reference": "Finance",
+          "truncated_median": 0.0517789674993082,
+          "full_median_lower": 0.00012997111705979276,
+          "full_median_upper": 0.16761249217778526
+        },
+        {
+          "reference": "RayleighBenard",
+          "truncated_median": 0.05292276433625615,
+          "full_median_lower": 0.00421101741561999,
+          "full_median_upper": 0.12751141662147536
+        }
+      ],
+      "self_by_size": [
+        [
+          0.037355697538198646,
+          0.0022400536751366767,
+          0.14114431267040264
+        ],
+        [
+          0.04521133930800651,
+          0.0011942103871925192,
+          0.1293945070274878
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.00012997111705979276
+    },
+    {
+      "case": 72726,
+      "matches": [
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.08460990011479826,
+          "full_median_lower": 0.006585871758292432,
+          "full_median_upper": 0.23953326582719292
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.10785463343357582,
+          "full_median_lower": 0.005212445822142025,
+          "full_median_upper": 0.26429784258608163
+        },
+        {
+          "reference": "YuWang",
+          "truncated_median": 0.10984059869917825,
+          "full_median_lower": 0.017988701630224382,
+          "full_median_upper": 0.22493377216997007
+        },
+        {
+          "reference": "SprottMore",
+          "truncated_median": 0.11203777611405638,
+          "full_median_lower": 0.021265523477174114,
+          "full_median_upper": 0.2802422476375026
+        }
+      ],
+      "self_by_size": [
+        [
+          0.20779851691662288,
+          0.08435134161126763,
+          0.3312456922219782
+        ],
+        [
+          0.16880731874016652,
+          0.048769920877055783,
+          0.2888447166032773
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.002505391900943388
+    }
+  ]
+}

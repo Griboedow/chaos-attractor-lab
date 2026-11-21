@@ -993,6 +993,686 @@
           "last_count": 500000
         }
       ]
+    },
+    {
+      "id": "shapes-20261121-harmonic",
+      "title": "Six-loop rosette and six-sided spiral lattice",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-harmonic.png",
+      "description": "Cases 132 and 306 give two distinct sixfold silhouettes in cyclic harmonic flows. Each has a positive leading numerical rate with four initial states and an independent adaptive solver.",
+      "coordinates": "Full spatial states at equal axis scales. The camera looks along (1, 1, 1).",
+      "featured": true,
+      "projection": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.40824829046432,
+          -0.40824829046432,
+          0.8164965809272692
+        ]
+      ],
+      "panels": [
+        {
+          "label": "132",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-harmonic-132-5005c5adffc3.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "306",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-harmonic-306-d35f6e2d55a2.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/flows-132.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-harmonic-132.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/flows-306.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-harmonic-306.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-torus",
+      "title": "Nested scrolls and ribbed fans",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-torus.png",
+      "description": "A Gaussian posterior reflector paired with a torus produces a nested scroll and two ribbed fans. Leading finite-time exponents stay positive over five million double-precision iterations.",
+      "coordinates": "Consecutive three-state iterates in equal units. Each panel has its own spatial scale.",
+      "featured": true,
+      "projection": [
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.9330127018922194,
+          0.24999999999999997,
+          0.25881904510252074
+        ]
+      ],
+      "panels": [
+        {
+          "label": "301027",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-torus-301027-8bc70362dc63.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "370279",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-torus-370279-80d372932d68.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/projection-301027.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-torus-301027.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/projection-370279.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-torus-370279.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-phase",
+      "title": "Three-phase curls and four-phase crescents",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-phase.png",
+      "description": "Two dissipative twist maps visit three and four spatial groups in order. Positive growth persists on long runs. The phase count describes successive visits within a single orbit.",
+      "coordinates": "Consecutive three-state iterates in equal units. Each panel has its own spatial scale.",
+      "featured": true,
+      "projection": [
+        [
+          -1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -1.5848095757158825e-17,
+          -0.25881904510252074,
+          0.9659258262890683
+        ]
+      ],
+      "panels": [
+        {
+          "label": "2603268",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-phase-2603268-27125d88e137.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "3203938",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-phase-3203938-32d231d5ed83.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/maps-2603268.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-phase-2603268.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/maps-3203938.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-phase-3203938.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-braids",
+      "title": "Different core knots at the same winding and determinant",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-braids.png",
+      "description": "Both maps have winding four and determinant-one first cores. Their Alexander polynomials have spans ten and eight, respectively, and exclude all torus knots. Both solenoids have entropy log 4 per iterate.",
+      "coordinates": "Three-dimensional states in the same fixed Euclidean embedding of the solid torus.",
+      "featured": true,
+      "projection": [
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.9330127018922194,
+          0.24999999999999997,
+          0.25881904510252074
+        ]
+      ],
+      "panels": [
+        {
+          "label": "56014",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-braids-56014-fb74914f3fed.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "114425",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-braids-114425-93a8b896a088.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/braids-56014.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-braids-56014.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/braids-114425.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-braids-114425.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-rings",
+      "title": "Four-lobed and eight-lobed resonant flows",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-rings.png",
+      "description": "Rotationally symmetric flows fold into a four-lobed sheet and an eight-lobed crown. Independent integration and five starting states retained positive finite-time expansion in both cases.",
+      "coordinates": "Full spatial states shown from a steep inclination.",
+      "featured": true,
+      "projection": [
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.9330127018922194,
+          0.24999999999999997,
+          0.25881904510252074
+        ]
+      ],
+      "panels": [
+        {
+          "label": "21253",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-rings-21253-2b5141311d79.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "20897",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-rings-20897-68c69f409dcb.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/flows-21253.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-rings-21253.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/flows-20897.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-rings-20897.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-hyper",
+      "title": "A domed shell and a stack of cusps",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-hyper.png",
+      "description": "A single torus gives the domed shell at left. Choosing between two linked tori gives the layered cusps at right. Both have two positive finite-time exponents. Case 516308 also has a certified stable fixed point.",
+      "coordinates": "The two projections use equal spatial units within each panel.",
+      "featured": true,
+      "projection": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.40557978767263886,
+          -0.40557978767263886,
+          0.8191520442889918
+        ]
+      ],
+      "panels": [
+        {
+          "label": "516308",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-hyper-516308-ad50cc8570d5.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "1291273",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-hyper-1291273-31acb5e0a650.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/projection-516308.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-hyper-516308.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/projection-1291273.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-hyper-1291273.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-rotor",
+      "title": "Eye-shaped crest and folded plume in precession",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-rotor.png",
+      "description": "A damped, driven precession flow supports two distinct irregular shapes. For Case 52506 all six nearby starts followed the irregular motion, while four broader starts settled at a steady state.",
+      "coordinates": "Full three-dimensional trajectories in a rigid camera.",
+      "featured": false,
+      "projection": [
+        [
+          -0.5735764363510459,
+          -0.8191520442889919,
+          0.0
+        ],
+        [
+          0.14224425972292404,
+          -0.09960050292505118,
+          0.984807753012208
+        ]
+      ],
+      "panels": [
+        {
+          "label": "52506",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-rotor-52506-ca983ddd297a.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "51256",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-rotor-51256-784767de079c.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-recruits",
+      "title": "Folded recruitment bands and three expanding directions",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-recruits.png",
+      "description": "Three successive abundances of a delayed scalar recurrence form a banded ring at left. At right a broader distribution has positive growth in all three tangent directions over two million iterations.",
+      "coordinates": "Each axis shows abundance in its original units at one of three successive times.",
+      "featured": false,
+      "projection": [
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.32101976096010304,
+          0.32101976096010304,
+          0.8910065241883679
+        ]
+      ],
+      "panels": [
+        {
+          "label": "1008712",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-recruits-1008712-61e19fb6512c.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "1025516",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-recruits-1025516-bf5f16677206.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-pinched",
+      "title": "Quasiperiodic petals and a corrugated rim",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-pinched.png",
+      "description": "A two-frequency rotation forces a pinched interval map. The attracting graph is discontinuous almost everywhere and its transverse exponent is strictly negative. The same torus coordinates are used for both portraits.",
+      "coordinates": "Fixed tubular coordinates encode the two forcing phases and the physical fiber height.",
+      "featured": false,
+      "projection": [
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.32101976096010304,
+          0.32101976096010304,
+          0.8910065241883679
+        ]
+      ],
+      "panels": [
+        {
+          "label": "156",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-pinched-156-3fcd250ba793.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "1267",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-pinched-1267-b1573a56a110.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-knotted-band",
+      "title": "A periodic knot and a nearby chaotic band",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-knotted-band.png",
+      "description": "Case 28756 approaches a stable knotted cycle. After changing one coefficient, Case 180844 gives a chaotic band near a numerical continuation of the same knot, now unstable. Five starts and an adaptive solver retained positive growth in the band.",
+      "coordinates": "Native spatial coordinates. Each panel preserves equal axis scales.",
+      "featured": true,
+      "projection": [
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.32101976096010304,
+          0.32101976096010304,
+          0.8910065241883679
+        ]
+      ],
+      "panels": [
+        {
+          "label": "28756",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-knotted-band-28756-9b95d6ec135e.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "180844",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-knotted-band-180844-f5c9637fc1d2.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/flows-28756.npz",
+          "key": "points",
+          "last_count": 32768,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-knotted-band-28756.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/flows-180844.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-knotted-band-180844.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-links",
+      "title": "Interlocking triplets and quartets of periodic orbits",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-links.png",
+      "description": "Case 2479 has three coexisting numerical cycles with pairwise absolute linking number 30. Case 26471 has four, with absolute linking number 6 for each of the six pairs. Exact polygon checks agree in three projections and at two resolutions.",
+      "coordinates": "Each panel combines complete trajectories of the coexisting cycles. The rotation includes every component.",
+      "featured": true,
+      "projection": [
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.9076733711903686,
+          0.24321034680169393,
+          0.3420201433256688
+        ]
+      ],
+      "panels": [
+        {
+          "label": "2479",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-links-2479-3771301e021c.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "26471",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-links-26471-d57dff8d6b7d.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/links-2479.npz",
+          "key": "points",
+          "last_count": 98304,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-links-2479.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/links-26471.npz",
+          "key": "points",
+          "last_count": 131072,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-links-26471.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-returns",
+      "title": "Helical chain and four curled fins",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-returns.png",
+      "description": "Case 2189166 exhibits a helical chain and Case 394727 gives curled fins. Local interval certificates establish positive topological entropy for invariant subsystems. Long numerical trajectories produce the displayed shapes.",
+      "coordinates": "Equal-unit spatial projection of consecutive map states.",
+      "featured": true,
+      "projection": [
+        [
+          -1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -1.5848095757158825e-17,
+          -0.25881904510252074,
+          0.9659258262890683
+        ]
+      ],
+      "panels": [
+        {
+          "label": "2189166",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-returns-2189166-e2ca0f12c375.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "394727",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-returns-394727-ce9997ffb63f.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/projection-2189166.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-returns-2189166.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/projection-394727.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-returns-394727.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-knots",
+      "title": "Two knotted limit cycles in cyclic harmonic flows",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-knots.png",
+      "description": "The closed orbit polygons of Cases 967 and 2160 have distinct Alexander polynomials. The orbit in Case 967 has period about 215.27 and determinant 243. Stability of the flow cycles is numerical.",
+      "coordinates": "Native spatial states on one circuit of each periodic orbit.",
+      "featured": false,
+      "projection": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.40824829043610533,
+          -0.40824829043610533,
+          0.8164965809554837
+        ]
+      ],
+      "panels": [
+        {
+          "label": "967",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-knots-967-2a0b2d2ea8cb.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "2160",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-knots-2160-e82611c8d553.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-components",
+      "title": "Attracting sets with four and five components",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-components.png",
+      "description": "Cases 2303801 and 2401313 each have a rigorously trapped local attracting set. Their component counts are four and five, respectively, so the two sets are topologically distinguishable.",
+      "coordinates": "Both panels show long numerical trajectories in the original three-coordinate maps.",
+      "featured": false,
+      "projection": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.40824829043610533,
+          -0.40824829043610533,
+          0.8164965809554837
+        ]
+      ],
+      "panels": [
+        {
+          "label": "2303801",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-components-2303801-81240343b316.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "2401313",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-components-2401313-06273e584444.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-three",
+      "title": "Forked sail and horned cup",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-three.png",
+      "description": "Cases 6616162 and 6583985 have three positive finite-time Lyapunov exponents in all three native coordinates. Their five-million-update spectra are approximately (0.265, 0.132, 0.021) and (0.229, 0.115, 0.026). All 17 starts showed growth in each direction.",
+      "coordinates": "Each panel uses equal physical units and the same camera in its signed principal-axis frame. The saved camera matrices specify both views in native coordinates.",
+      "featured": true,
+      "projection": [
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.32101976096010304,
+          0.32101976096010304,
+          0.8910065241883679
+        ]
+      ],
+      "panels": [
+        {
+          "label": "6616162",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-three-6616162-c686741f7743.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "6583985",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-three-6583985-c56423c09ada.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/projection-6616162.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-three-6616162.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/projection-6583985.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-three-6583985.json"
+        }
+      ]
     }
   ]
 }

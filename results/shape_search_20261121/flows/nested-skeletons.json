@@ -1,0 +1,391 @@
+{
+  "case": 180844,
+  "cores": [
+    {
+      "case": 180844,
+      "period_order": 2,
+      "family": "ring",
+      "label": "Unstable periodic orbit of order 2",
+      "parameters": [
+        7.0,
+        1.202576906027744,
+        -0.5732787999438418,
+        -0.8140901063542096,
+        1.7370637864372105,
+        -0.17822146970368546,
+        0.7027899675496161,
+        0.1728854718184622,
+        -0.3538341347835525,
+        -1.6408334890398675,
+        -3.010340964085613
+      ],
+      "initial": [
+        0.9944079200558937,
+        0.000833452761241807,
+        0.8678247086621848
+      ],
+      "period": 53.388467785531354,
+      "dominant_multiplier": [
+        220.08663969884253,
+        0.0
+      ],
+      "neutral_multiplier": [
+        1.0000000020932955,
+        0.0
+      ],
+      "closure_native": 3.61689180079554e-10,
+      "orbit_to_cloud_p95_rms": 0.0027665914326725697,
+      "cloud_to_orbit_p95_rms": 0.02351850878555852,
+      "shape": [
+        32768,
+        3
+      ],
+      "point_key": "points",
+      "point_dtype": "float64",
+      "sample_time_step": 0.0016292867366189988,
+      "path": "D:\\Codex\\chaos-attractor-cache\\shape-search-20261121\\flows\\final-doubled-orbits-a\\orbit-2.npz",
+      "cloud_relative": "flows/final-doubled-orbits-a/orbit-2.npz",
+      "sha256": "dda83443bea859ee8560f8c05f924b3c781a316f590c3d2e2cbc81a1b1ab6154",
+      "dense_polygon_witness": "nested-dense-witness.json",
+      "alexander_coefficients": [
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1
+      ],
+      "adjacent_core_pair": {
+        "parent_order": 1,
+        "camera_seeds": [
+          17,
+          35,
+          81
+        ],
+        "link_checks": [
+          {
+            "parent_vertices": 2560,
+            "child_vertices": 2560,
+            "values_and_crossings": [
+              [
+                -21,
+                58
+              ],
+              [
+                -21,
+                70
+              ],
+              [
+                -21,
+                124
+              ]
+            ]
+          },
+          {
+            "parent_vertices": 5120,
+            "child_vertices": 5120,
+            "values_and_crossings": [
+              [
+                -21,
+                58
+              ],
+              [
+                -21,
+                70
+              ],
+              [
+                -21,
+                122
+              ]
+            ]
+          },
+          {
+            "parent_vertices": 16384,
+            "child_vertices": 16384,
+            "values_and_crossings": [
+              [
+                -21,
+                58
+              ],
+              [
+                -21,
+                70
+              ],
+              [
+                -21,
+                122
+              ]
+            ]
+          },
+          {
+            "parent_vertices": 32768,
+            "child_vertices": 32768,
+            "values_and_crossings": [
+              [
+                -21,
+                58
+              ],
+              [
+                -21,
+                70
+              ],
+              [
+                -21,
+                122
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period_order": 4,
+      "achieved_fraction": 1.0,
+      "completed": true,
+      "relative_rotation_index": 1,
+      "sector_period": 15.25132988463976,
+      "sector_return_error_into_rotated_center": 1.0851441310560222e-11,
+      "sector_neutral": [
+        1.0000000009202656,
+        0.0
+      ],
+      "sector_unstable": [
+        -4.543304740751074,
+        0.0
+      ],
+      "neutral_multiplier": [
+        1.0000000064418595,
+        0.0
+      ],
+      "dominant_multiplier": [
+        -39957.938646495924,
+        0.0
+      ],
+      "sector_integrated_divergence": -28.39300388944005,
+      "case": 180844,
+      "family": "ring",
+      "label": "Unstable C7-relative orbit of order 4",
+      "parameters": [
+        7.0,
+        1.202576906027744,
+        -0.5732787999438418,
+        -0.8140901063542096,
+        1.7370637864372105,
+        -0.17822146970368546,
+        0.7027899675496161,
+        0.1728854718184622,
+        -0.3538341347835525,
+        -1.6408334890398675,
+        -3.010340964085613
+      ],
+      "initial": [
+        0.9862646012941989,
+        -0.0012688005834345555,
+        0.8602833541460334
+      ],
+      "period": 106.75930919247833,
+      "shape": [
+        32768,
+        3
+      ],
+      "point_dtype": "float64",
+      "point_key": "points",
+      "sample_time_step": 0.003258035558852488,
+      "method": "C7 relative shooting",
+      "path": "D:\\Codex\\chaos-attractor-cache\\shape-search-20261121\\flows\\relative-final-cores-a\\orbit-4.npz",
+      "cloud_relative": "flows/relative-final-cores-a/orbit-4.npz",
+      "sha256": "823ae9b1e3945c43ef7800092e13f9d50f9e99243dd86836f47697398b1bb700",
+      "orbit_to_cloud_p95_rms": 0.0026462606782445774,
+      "cloud_to_orbit_p95_rms": 0.010934391234266094,
+      "independent_sector_closures": [
+        {
+          "method": "RK45",
+          "rtol": 2e-12,
+          "absolute_rotated_sector_closure": 7.100114350508536e-12
+        },
+        {
+          "method": "DOP853",
+          "rtol": 4e-13,
+          "absolute_rotated_sector_closure": 1.8524968604907365e-13
+        }
+      ],
+      "minimum_phase_shift_floor_rms": 0.13001266801565362,
+      "worst_divisor": 2
+    },
+    {
+      "period_order": 8,
+      "achieved_fraction": 1.0,
+      "completed": true,
+      "relative_rotation_index": 2,
+      "sector_period": 30.505409053109798,
+      "sector_return_error_into_rotated_center": 2.5388612928157747e-12,
+      "sector_neutral": [
+        1.0000000017296669,
+        0.0
+      ],
+      "sector_unstable": [
+        -21.271923883852875,
+        0.0
+      ],
+      "neutral_multiplier": [
+        1.000000012107668,
+        0.0
+      ],
+      "dominant_multiplier": [
+        -1970821957.3637297,
+        0.0
+      ],
+      "sector_integrated_divergence": -56.795142812210905,
+      "case": 180844,
+      "family": "ring",
+      "label": "Unstable C7-relative orbit of order 8",
+      "parameters": [
+        7.0,
+        1.202576906027744,
+        -0.5732787999438418,
+        -0.8140901063542096,
+        1.7370637864372105,
+        -0.17822146970368546,
+        0.7027899675496161,
+        0.1728854718184622,
+        -0.3538341347835525,
+        -1.6408334890398675,
+        -3.010340964085613
+      ],
+      "initial": [
+        0.8662000482624103,
+        -0.0010038439003395782,
+        0.9102345881309309
+      ],
+      "period": 213.5378633717686,
+      "shape": [
+        65536,
+        3
+      ],
+      "point_dtype": "float64",
+      "point_key": "points",
+      "sample_time_step": 0.003258329214046762,
+      "method": "C7 relative shooting",
+      "path": "D:\\Codex\\chaos-attractor-cache\\shape-search-20261121\\flows\\relative-final-cores-a\\orbit-8.npz",
+      "cloud_relative": "flows/relative-final-cores-a/orbit-8.npz",
+      "sha256": "dd20edb537b738b4d72f4b10d391a5b42602accd9ed26fc74a200eec58f96a25",
+      "orbit_to_cloud_p95_rms": 0.0026019462815818377,
+      "cloud_to_orbit_p95_rms": 0.008548341040964929,
+      "independent_sector_closures": [
+        {
+          "method": "RK45",
+          "rtol": 2e-12,
+          "absolute_rotated_sector_closure": 3.98948731555832e-11
+        },
+        {
+          "method": "DOP853",
+          "rtol": 4e-13,
+          "absolute_rotated_sector_closure": 3.8953028750421105e-12
+        }
+      ],
+      "minimum_phase_shift_floor_rms": 0.08569083469374113,
+      "worst_divisor": 2
+    },
+    {
+      "period_order": 16,
+      "achieved_fraction": 1.0,
+      "completed": true,
+      "relative_rotation_index": 4,
+      "sector_period": 61.008312520467236,
+      "sector_return_error_into_rotated_center": 8.17346289370284e-11,
+      "sector_neutral": [
+        0.9999999878897783,
+        0.0
+      ],
+      "sector_unstable": [
+        -440.2608708271482,
+        0.0
+      ],
+      "neutral_multiplier": [
+        0.999999915228451,
+        0.0
+      ],
+      "dominant_multiplier": [
+        -3.206052412722444e+18,
+        0.0
+      ],
+      "sector_integrated_divergence": -113.58196091927344,
+      "case": 180844,
+      "family": "ring",
+      "label": "Unstable C7-relative orbit of order 16",
+      "parameters": [
+        7.0,
+        1.202576906027744,
+        -0.5732787999438418,
+        -0.8140901063542096,
+        1.7370637864372105,
+        -0.17822146970368546,
+        0.7027899675496161,
+        0.1728854718184622,
+        -0.3538341347835525,
+        -1.6408334890398675,
+        -3.010340964085613
+      ],
+      "initial": [
+        -0.23278196522016367,
+        -0.8024314729688373,
+        0.8445668540574462
+      ],
+      "period": 427.0581876432706,
+      "shape": [
+        65536,
+        3
+      ],
+      "point_dtype": "float64",
+      "point_key": "points",
+      "sample_time_step": 0.0065163908026622105,
+      "method": "C7 relative shooting",
+      "path": "D:\\Codex\\chaos-attractor-cache\\shape-search-20261121\\flows\\relative-final-cores-a\\orbit-16.npz",
+      "cloud_relative": "flows/relative-final-cores-a/orbit-16.npz",
+      "sha256": "60bfcf81322ff650be69a84c8d8b862584b7396b54b55df49a25bd82a4168b4c",
+      "orbit_to_cloud_p95_rms": 0.00260753000246573,
+      "cloud_to_orbit_p95_rms": 0.008268275043332336,
+      "independent_sector_closures": [
+        {
+          "method": "RK45",
+          "rtol": 2e-12,
+          "absolute_rotated_sector_closure": 1.4620743464906528e-09
+        },
+        {
+          "method": "DOP853",
+          "rtol": 4e-13,
+          "absolute_rotated_sector_closure": 1.1589641820746093e-10
+        }
+      ],
+      "minimum_phase_shift_floor_rms": 0.05702101901005161,
+      "worst_divisor": 2
+    }
+  ]
+}

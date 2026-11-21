@@ -1,0 +1,20 @@
+{
+  "case": 303603,
+  "beta_binary64": 0.9907591938972473,
+  "beta_radius": "1e-44",
+  "root_radius": "1e-36",
+  "return_steps": 321,
+  "checks": {
+    "jet": {
+      "root_inclusion": 0.002240692386570807,
+      "inverse_box_fraction": 0.9726437598067644,
+      "local_inverse_lipschitz": 0.660675565160206
+    },
+    "analytic": {
+      "root_inclusion": 0.008541191392042203,
+      "inverse_box_fraction": 0.9709594827662789,
+      "local_inverse_lipschitz": 0.6077570940247892
+    }
+  },
+  "packet": "arches-303603.json"
+}

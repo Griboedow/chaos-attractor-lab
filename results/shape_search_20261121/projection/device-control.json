@@ -1,0 +1,77 @@
+[
+  {
+    "geometry": "single",
+    "size": 256,
+    "seed": 6161,
+    "parameters_batch": 351,
+    "device": "NVIDIA GeForce GTX 1080",
+    "driver": "582.28",
+    "opencl": "OpenCL 3.0 CUDA",
+    "numpy": "2.4.6",
+    "pyopencl": "2026.1.5",
+    "state_max_abs_by_step": [
+      5.944659671186514e-07,
+      4.3027933973038834e-06,
+      1.2791198865991227e-05,
+      7.923141003840506e-06
+    ],
+    "state_median_abs_by_step": [
+      7.691434159018407e-08,
+      9.643256243530018e-08,
+      1.0778007009104584e-07,
+      1.3684008087766486e-07
+    ],
+    "one_step_log_tangent_max_abs": 1.3753311079112152e-05,
+    "all_four_step_log_tangent_max_abs": 8.101327758530674e-05
+  },
+  {
+    "geometry": "linked",
+    "size": 256,
+    "seed": 6161,
+    "parameters_batch": 351,
+    "device": "NVIDIA GeForce GTX 1080",
+    "driver": "582.28",
+    "opencl": "OpenCL 3.0 CUDA",
+    "numpy": "2.4.6",
+    "pyopencl": "2026.1.5",
+    "state_max_abs_by_step": [
+      5.617534709623229e-07,
+      1.7018953514247315e-06,
+      1.5972820044396485e-06,
+      3.7848098421999765e-06
+    ],
+    "state_median_abs_by_step": [
+      7.426802456356185e-08,
+      8.136944493197795e-08,
+      9.05181847810077e-08,
+      9.259427394270325e-08
+    ],
+    "one_step_log_tangent_max_abs": 3.9599401896850406e-05,
+    "all_four_step_log_tangent_max_abs": 0.00013107164966230656
+  },
+  {
+    "geometry": "smooth",
+    "size": 256,
+    "seed": 6161,
+    "parameters_batch": 351,
+    "device": "NVIDIA GeForce GTX 1080",
+    "driver": "582.28",
+    "opencl": "OpenCL 3.0 CUDA",
+    "numpy": "2.4.6",
+    "pyopencl": "2026.1.5",
+    "state_max_abs_by_step": [
+      7.201122059763421e-07,
+      1.4282271481036446e-06,
+      2.732937739974295e-06,
+      1.58134392435616e-05
+    ],
+    "state_median_abs_by_step": [
+      8.930722472655361e-08,
+      9.646546617059215e-08,
+      8.613163954285241e-08,
+      1.0526142154437812e-07
+    ],
+    "one_step_log_tangent_max_abs": 3.31092120489096e-05,
+    "all_four_step_log_tangent_max_abs": 7.774974041757643e-05
+  }
+]

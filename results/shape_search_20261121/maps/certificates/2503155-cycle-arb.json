@@ -1,0 +1,69 @@
+{
+  "case": 2503155,
+  "precision_bits": 128,
+  "independent_regions": [
+    {
+      "kind": "avoid",
+      "map_steps": 1,
+      "axis": 0,
+      "original_nodes": 1,
+      "extra_splits": 0,
+      "accepted_leaves": 1
+    },
+    {
+      "kind": "avoid",
+      "map_steps": 2,
+      "axis": 0,
+      "original_nodes": 9,
+      "extra_splits": 0,
+      "accepted_leaves": 5
+    },
+    {
+      "kind": "avoid",
+      "map_steps": 3,
+      "axis": 0,
+      "original_nodes": 15,
+      "extra_splits": 0,
+      "accepted_leaves": 8
+    },
+    {
+      "kind": "avoid",
+      "map_steps": 4,
+      "axis": 0,
+      "original_nodes": 31,
+      "extra_splits": 0,
+      "accepted_leaves": 16
+    },
+    {
+      "kind": "coordinate",
+      "map_steps": 5,
+      "axis": 0,
+      "original_nodes": 32963,
+      "extra_splits": 3497,
+      "accepted_leaves": 19979
+    },
+    {
+      "kind": "coordinate",
+      "map_steps": 5,
+      "axis": 1,
+      "original_nodes": 27565,
+      "extra_splits": 1515,
+      "accepted_leaves": 15298
+    },
+    {
+      "kind": "coordinate",
+      "map_steps": 5,
+      "axis": 2,
+      "original_nodes": 7321,
+      "extra_splits": 441,
+      "accepted_leaves": 4102
+    }
+  ],
+  "phase_regions": 5,
+  "primary_start_entry": {
+    "iterate": 6,
+    "phase": 0,
+    "maximum_normalized_coordinate_upper": 0.7293303505541268,
+    "precision_bits": 256
+  }
+}

@@ -2,7 +2,7 @@
 
 Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
 
-[Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
+[2026-11-21 spatial search](docs/shape-search-20261121.md) · [Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
 
 The selected findings include camera rotations at 25 frames per second, with one revolution every 24 seconds. Each animation uses fixed trajectory data and a constant scale; its full-resolution static portrait appears directly below. Case numbers identify saved parameter sets in the linked reports.
 
@@ -328,6 +328,190 @@ Projection `(A,B,C)` of a unit weight in four dimensions; equal units and a comm
 
 [Construction and entropy](docs/fastica-tripling.md) · [Local noninjectivity](docs/fastica-tripling-structure.md) · [Rejected intrinsic-collision candidate](docs/fastica-preimage-rejection.md) · [Numerical controls and reproduction](results/fastica-tripling/README.md)
 
+<!-- shape-search-20261121-selected -->
+## Shape search of 2026-11-21
+
+### Six-loop rosette and six-sided spiral lattice
+
+![Six-loop rosette and six-sided spiral lattice in rotation](docs/assets/portraits/shapes-20261121-harmonic.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Six-loop rosette and six-sided spiral lattice](docs/assets/portraits/shapes-20261121-harmonic.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Cases 132 and 306 give two distinct sixfold silhouettes in cyclic harmonic flows. Each has a positive leading numerical rate with four initial states and an independent adaptive solver.
+
+Full spatial states at equal axis scales. The camera looks along (1, 1, 1). [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Nested scrolls and ribbed fans
+
+![Nested scrolls and ribbed fans in rotation](docs/assets/portraits/shapes-20261121-torus.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Nested scrolls and ribbed fans](docs/assets/portraits/shapes-20261121-torus.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+A Gaussian posterior reflector paired with a torus produces a nested scroll and two ribbed fans. Leading finite-time exponents stay positive over five million double-precision iterations.
+
+Consecutive three-state iterates in equal units. Each panel has its own spatial scale. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Three-phase curls and four-phase crescents
+
+![Three-phase curls and four-phase crescents in rotation](docs/assets/portraits/shapes-20261121-phase.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Three-phase curls and four-phase crescents](docs/assets/portraits/shapes-20261121-phase.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Two dissipative twist maps visit three and four spatial groups in order. Positive growth persists on long runs. The phase count describes successive visits within a single orbit.
+
+Consecutive three-state iterates in equal units. Each panel has its own spatial scale. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Different core knots at the same winding and determinant
+
+![Different core knots at the same winding and determinant in rotation](docs/assets/portraits/shapes-20261121-braids.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Different core knots at the same winding and determinant](docs/assets/portraits/shapes-20261121-braids.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Both maps have winding four and determinant-one first cores. Their Alexander polynomials have spans ten and eight, respectively, and exclude all torus knots. Both solenoids have entropy log 4 per iterate.
+
+Three-dimensional states in the same fixed Euclidean embedding of the solid torus. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Four-lobed and eight-lobed resonant flows
+
+![Four-lobed and eight-lobed resonant flows in rotation](docs/assets/portraits/shapes-20261121-rings.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Four-lobed and eight-lobed resonant flows](docs/assets/portraits/shapes-20261121-rings.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Rotationally symmetric flows fold into a four-lobed sheet and an eight-lobed crown. Independent integration and five starting states retained positive finite-time expansion in both cases.
+
+Full spatial states shown from a steep inclination. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### A domed shell and a stack of cusps
+
+![A domed shell and a stack of cusps in rotation](docs/assets/portraits/shapes-20261121-hyper.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![A domed shell and a stack of cusps](docs/assets/portraits/shapes-20261121-hyper.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+A single torus gives the domed shell at left. Choosing between two linked tori gives the layered cusps at right. Both have two positive finite-time exponents. Case 516308 also has a certified stable fixed point.
+
+The two projections use equal spatial units within each panel. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### A periodic knot and a nearby chaotic band
+
+![A periodic knot and a nearby chaotic band in rotation](docs/assets/portraits/shapes-20261121-knotted-band.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![A periodic knot and a nearby chaotic band](docs/assets/portraits/shapes-20261121-knotted-band.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Case 28756 approaches a stable knotted cycle. After changing one coefficient, Case 180844 gives a chaotic band near a numerical continuation of the same knot, now unstable. Five starts and an adaptive solver retained positive growth in the band.
+
+Native spatial coordinates. Each panel preserves equal axis scales. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Interlocking triplets and quartets of periodic orbits
+
+![Interlocking triplets and quartets of periodic orbits in rotation](docs/assets/portraits/shapes-20261121-links.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Interlocking triplets and quartets of periodic orbits](docs/assets/portraits/shapes-20261121-links.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Case 2479 has three coexisting numerical cycles with pairwise absolute linking number 30. Case 26471 has four, with absolute linking number 6 for each of the six pairs. Exact polygon checks agree in three projections and at two resolutions.
+
+Each panel combines complete trajectories of the coexisting cycles. The rotation includes every component. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Helical chain and four curled fins
+
+![Helical chain and four curled fins in rotation](docs/assets/portraits/shapes-20261121-returns.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Helical chain and four curled fins](docs/assets/portraits/shapes-20261121-returns.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Case 2189166 exhibits a helical chain and Case 394727 gives curled fins. Local interval certificates establish positive topological entropy for invariant subsystems. Long numerical trajectories produce the displayed shapes.
+
+Equal-unit spatial projection of consecutive map states. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Forked sail and horned cup
+
+![Forked sail and horned cup in rotation](docs/assets/portraits/shapes-20261121-three.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Forked sail and horned cup](docs/assets/portraits/shapes-20261121-three.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Cases 6616162 and 6583985 have three positive finite-time Lyapunov exponents in all three native coordinates. Their five-million-update spectra are approximately (0.265, 0.132, 0.021) and (0.229, 0.115, 0.026). All 17 starts showed growth in each direction.
+
+Each panel uses equal physical units and the same camera in its signed principal-axis frame. The saved camera matrices specify both views in native coordinates. [Equations, controls and prior work](docs/shape-search-20261121.md)
+<!-- /shape-search-20261121-selected -->
+
 ## Further portraits
 
 Additional numerical candidates and comparison regimes, grouped by system. Each entry links to its evidence and limitations.
@@ -636,6 +820,68 @@ At the same logistic-width parameters, saved starts produce regular and irregula
 Projection (x_minus, x_plus, y_minus - y_plus); common scale.
 
 [Report](docs/coupled-operators-research.md)
+
+<!-- shape-search-20261121-additional -->
+### Eye-shaped crest and folded plume in precession
+
+![Eye-shaped crest and folded plume in precession](docs/assets/portraits/shapes-20261121-rotor.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+A damped, driven precession flow supports two distinct irregular shapes. For Case 52506 all six nearby starts followed the irregular motion, while four broader starts settled at a steady state.
+
+Full three-dimensional trajectories in a rigid camera. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Folded recruitment bands and three expanding directions
+
+![Folded recruitment bands and three expanding directions](docs/assets/portraits/shapes-20261121-recruits.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Three successive abundances of a delayed scalar recurrence form a banded ring at left. At right a broader distribution has positive growth in all three tangent directions over two million iterations.
+
+Each axis shows abundance in its original units at one of three successive times. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Quasiperiodic petals and a corrugated rim
+
+![Quasiperiodic petals and a corrugated rim](docs/assets/portraits/shapes-20261121-pinched.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+A two-frequency rotation forces a pinched interval map. The attracting graph is discontinuous almost everywhere and its transverse exponent is strictly negative. The same torus coordinates are used for both portraits.
+
+Fixed tubular coordinates encode the two forcing phases and the physical fiber height. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Two knotted limit cycles in cyclic harmonic flows
+
+![Two knotted limit cycles in cyclic harmonic flows](docs/assets/portraits/shapes-20261121-knots.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+The closed orbit polygons of Cases 967 and 2160 have distinct Alexander polynomials. The orbit in Case 967 has period about 215.27 and determinant 243. Stability of the flow cycles is numerical.
+
+Native spatial states on one circuit of each periodic orbit. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Attracting sets with four and five components
+
+![Attracting sets with four and five components](docs/assets/portraits/shapes-20261121-components.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Cases 2303801 and 2401313 each have a rigorously trapped local attracting set. Their component counts are four and five, respectively, so the two sets are topologically distinguishable.
+
+Both panels show long numerical trajectories in the original three-coordinate maps. [Equations, controls and prior work](docs/shape-search-20261121.md)
+<!-- /shape-search-20261121-additional -->
 
 ## Research index
 

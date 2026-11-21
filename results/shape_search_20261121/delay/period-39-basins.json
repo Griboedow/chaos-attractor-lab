@@ -1,0 +1,50 @@
+{
+  "seed": 2026112113,
+  "initials_per_group": 4096,
+  "time_quantiles": [
+    0,
+    0.5,
+    0.9,
+    0.99,
+    1
+  ],
+  "cohorts": {
+    "uniform_cube": {
+      "draws": 4096,
+      "observed_captures": 4096,
+      "limit": 150000,
+      "first_matching_check_quantiles": [
+        516.0,
+        3698.0,
+        8987.0,
+        16168.0,
+        29154.0
+      ]
+    },
+    "log_uniform": {
+      "draws": 4096,
+      "observed_captures": 4096,
+      "limit": 150000,
+      "first_matching_check_quantiles": [
+        688.0,
+        3870.0,
+        8772.0,
+        16987.15000000001,
+        31089.0
+      ]
+    },
+    "symbol_intervals": {
+      "draws": 4096,
+      "observed_captures": 4096,
+      "limit": 150000,
+      "first_matching_check_quantiles": [
+        1118.0,
+        3827.0,
+        8772.0,
+        16041.150000000009,
+        27864.0
+      ]
+    }
+  },
+  "test": "Near a reference phase at a 43-step checkpoint within 1e-8, then within 1e-7 for 117 consecutive steps in phase order."
+}

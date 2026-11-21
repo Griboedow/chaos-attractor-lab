@@ -1,0 +1,54 @@
+{
+  "parameter_intervals": {
+    "r": [
+      "112/25",
+      "113/25"
+    ],
+    "a": [
+      "17/500",
+      "7/200"
+    ],
+    "b": [
+      "3/125",
+      "1/40"
+    ],
+    "c=1-a-b": [
+      "47/50",
+      "471/500"
+    ],
+    "s": [
+      "9/20000",
+      "11/20000"
+    ]
+  },
+  "L": [
+    "37/10000",
+    "209/1000"
+  ],
+  "H": [
+    "19/50",
+    "57/20"
+  ],
+  "B": [
+    "1/10000000000000000000000",
+    "10"
+  ],
+  "margins_display_float": {
+    "increasing_on_L": 0.11011144,
+    "decreasing_on_H": 0.600256,
+    "L_left_below_H": 0.04441540764937385,
+    "L_right_above_H": 0.6964100956131235,
+    "H_left_above_H": 0.2834215479135458,
+    "H_right_below_L": 0.0005925610635519018,
+    "B_lower_at_left": 4.998592564363728e-22,
+    "B_lower_at_right": 1.9651654421590998e-17,
+    "B_upper": 1.975591975911659
+  },
+  "three_step_trapping": "strict",
+  "symbolic_transitions_at_stride_three": [
+    "L->H",
+    "H->L",
+    "H->H"
+  ],
+  "entropy_lower_bound_per_update": "log((1+sqrt(5))/2)"
+}

@@ -1,0 +1,1315 @@
+{
+  "reference_count": 108,
+  "skipped": [],
+  "gudhi": "3.13.0",
+  "method": "Within each of four matched finite samples, compute the maximum bottleneck distance in H0, H1 and H2 with the six longest finite radius intervals per degree. Omitted bars can be paired to their diagonals within half the sixth lifetime. Triangle bounds propagate this truncation to the full finite diagrams. Rank by median over four paired samples. These are point-cloud offsets in RMS units.",
+  "self_columns": [
+    "truncated",
+    "full_lower",
+    "full_upper"
+  ],
+  "cases": [
+    {
+      "case": 3008791,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08876911550873379,
+          "full_median_lower": 0.0008361030261928787,
+          "full_median_upper": 0.31542214253667367
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.09406848460299996,
+          "full_median_lower": 0.002890332751288825,
+          "full_median_upper": 0.31335489303167013
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.10202328917716838,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.303049360060032
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.10457650004056368,
+          "full_median_lower": 0.0025545110473830434,
+          "full_median_upper": 0.3108524527578336
+        }
+      ],
+      "self_by_size": [
+        [
+          0.0550517252313587,
+          0.0,
+          0.2886562195907178
+        ],
+        [
+          0.13363894723639025,
+          0.0,
+          0.3652447911961563
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 3011275,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.0983927788928845,
+          "full_median_lower": 0.009541429134710415,
+          "full_median_upper": 0.33251874845873935
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.1550688684370562,
+          "full_median_lower": 0.00612486591577944,
+          "full_median_upper": 0.39801571907676275
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.17363049099818367,
+          "full_median_lower": 0.043115832520489866,
+          "full_median_upper": 0.3747417113616657
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.17568380571972692,
+          "full_median_lower": 0.008280937399617746,
+          "full_median_upper": 0.4373285514086582
+        }
+      ],
+      "self_by_size": [
+        [
+          0.45826689559711814,
+          0.22763043977904035,
+          0.6889033514151959
+        ],
+        [
+          0.21400274438450362,
+          0.0,
+          0.44392752123277673
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.002417433871839536
+    },
+    {
+      "case": 3014945,
+      "matches": [
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.0654413717339452,
+          "full_median_lower": 0.0013416576285130049,
+          "full_median_upper": 0.2787136783006039
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08562508310507352,
+          "full_median_lower": 0.0012628748114586591,
+          "full_median_upper": 0.29928342493459925
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.0924462020533573,
+          "full_median_lower": 0.003764816145602823,
+          "full_median_upper": 0.292347433532232
+        },
+        {
+          "reference": "SprottR",
+          "truncated_median": 0.10525638825600167,
+          "full_median_lower": 0.012733337041050147,
+          "full_median_upper": 0.298560868890723
+        }
+      ],
+      "self_by_size": [
+        [
+          0.10582165256082532,
+          0.0,
+          0.298466443941624
+        ],
+        [
+          0.19831897793990136,
+          0.0,
+          0.4009811928756839
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0012628748114586591
+    },
+    {
+      "case": 3061571,
+      "matches": [
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.09334743797123966,
+          "full_median_lower": 0.007065465676978545,
+          "full_median_upper": 0.36595301247784684
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.1010939420287376,
+          "full_median_lower": 0.005593476517520637,
+          "full_median_upper": 0.3434612416426194
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.12743615946064407,
+          "full_median_lower": 0.00922871466268162,
+          "full_median_upper": 0.35833595977573024
+        },
+        {
+          "reference": "KickedTop-A15-b0.5",
+          "truncated_median": 0.12943368334664873,
+          "full_median_lower": 0.00647593541500709,
+          "full_median_upper": 0.32538415105625873
+        }
+      ],
+      "self_by_size": [
+        [
+          0.08211667141067988,
+          0.0,
+          0.33951328988444957
+        ],
+        [
+          0.2287566505000359,
+          0.0,
+          0.4657858421889172
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.002408514329629551
+    },
+    {
+      "case": 3064303,
+      "matches": [
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.057055597057449225,
+          "full_median_lower": 0.004848941149901363,
+          "full_median_upper": 0.24823525842405475
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.06834970186844669,
+          "full_median_lower": 0.005655033803069134,
+          "full_median_upper": 0.24777366903049028
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.09061014969516465,
+          "full_median_lower": 0.0154511079402345,
+          "full_median_upper": 0.2553192118449874
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.09327643839672717,
+          "full_median_lower": 0.005674033399476521,
+          "full_median_upper": 0.31695980701479765
+        }
+      ],
+      "self_by_size": [
+        [
+          0.067197060995725,
+          0.0,
+          0.26997835801424175
+        ],
+        [
+          0.057067520606176286,
+          0.0,
+          0.21432692523095817
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0027596202057994525
+    },
+    {
+      "case": 3143582,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.1068220039463883,
+          "full_median_lower": 0.0006841045514406044,
+          "full_median_upper": 0.3451381122337182
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.1231385760716081,
+          "full_median_lower": 0.005518674926371033,
+          "full_median_upper": 0.37047704179674745
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.1324817722745341,
+          "full_median_lower": 0.0034419460292670497,
+          "full_median_upper": 0.3894181493485679
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.14869512730892112,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.3607193731447331
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04713374745241691,
+          0.0,
+          0.2783753969766863
+        ],
+        [
+          0.12259033022954524,
+          0.0,
+          0.34408081586701894
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 3231505,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08401779787130326,
+          "full_median_lower": 0.0026956133986940746,
+          "full_median_upper": 0.32606695771971905
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.08920842157732765,
+          "full_median_lower": 0.006448781160176452,
+          "full_median_upper": 0.3533091085850414
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.09553151694496784,
+          "full_median_lower": 0.0010624167631382363,
+          "full_median_upper": 0.299819905346198
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.1142816216217575,
+          "full_median_lower": 0.008802453486961462,
+          "full_median_upper": 0.36935071523038365
+        }
+      ],
+      "self_by_size": [
+        [
+          0.09136351254949154,
+          0.0,
+          0.33154056804575777
+        ],
+        [
+          0.0469505432316307,
+          0.0,
+          0.28381362861670406
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0010624167631382363
+    },
+    {
+      "case": 3265947,
+      "matches": [
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.1186836346857548,
+          "full_median_lower": 0.008830402669294003,
+          "full_median_upper": 0.3599019001049103
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.14836125857374294,
+          "full_median_lower": 0.0029494254196074407,
+          "full_median_upper": 0.41531554184534775
+        },
+        {
+          "reference": "WangSun",
+          "truncated_median": 0.1675200604031708,
+          "full_median_lower": 0.018168443891603592,
+          "full_median_upper": 0.4462484025454112
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.16754248951119147,
+          "full_median_lower": 0.004377262792549133,
+          "full_median_upper": 0.415859897805819
+        }
+      ],
+      "self_by_size": [
+        [
+          0.0970287735959216,
+          0.0,
+          0.3559843757575026
+        ],
+        [
+          0.045348959373145405,
+          0.0,
+          0.2707822180195862
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0029494254196074407
+    },
+    {
+      "case": 3275794,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.09306440691305617,
+          "full_median_lower": 0.0030503187497014426,
+          "full_median_upper": 0.34166508797977446
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.09727690255349017,
+          "full_median_lower": 0.006638634140610526,
+          "full_median_upper": 0.34965505839920963
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.11483956624593797,
+          "full_median_lower": 0.0055763363133012655,
+          "full_median_upper": 0.38862971851185346
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11901700677821374,
+          "full_median_lower": 0.0014264408701014778,
+          "full_median_upper": 0.33826271348832015
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04398542161484616,
+          0.0,
+          0.256022161402084
+        ],
+        [
+          0.06303923830399788,
+          0.0,
+          0.32287217153185255
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0014264408701014778
+    },
+    {
+      "case": 3295921,
+      "matches": [
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.07198530949219167,
+          "full_median_lower": 0.004356782636234735,
+          "full_median_upper": 0.25992800807185973
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.0824621442210493,
+          "full_median_lower": 0.0021633571053295514,
+          "full_median_upper": 0.317752179473907
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.08935214404197073,
+          "full_median_lower": 0.010435208267751753,
+          "full_median_upper": 0.275924514855477
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.0918779034078817,
+          "full_median_lower": 0.004814009670387954,
+          "full_median_upper": 0.2871520425401413
+        }
+      ],
+      "self_by_size": [
+        [
+          0.10193373898874836,
+          0.0,
+          0.30373236435264633
+        ],
+        [
+          0.04592542931515971,
+          0.0,
+          0.23840074011428383
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 3333965,
+      "matches": [
+        {
+          "reference": "WangSun",
+          "truncated_median": 0.18372182190119857,
+          "full_median_lower": 0.019949587226085454,
+          "full_median_upper": 0.4560709510218226
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.21283942291418753,
+          "full_median_lower": 0.009992978766533534,
+          "full_median_upper": 0.4374529993590663
+        },
+        {
+          "reference": "ZhouChen",
+          "truncated_median": 0.21470724721465628,
+          "full_median_lower": 0.026247781766795514,
+          "full_median_upper": 0.5420218399895476
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.23950432196236765,
+          "full_median_lower": 0.016290524042394672,
+          "full_median_upper": 0.4991012437363699
+        }
+      ],
+      "self_by_size": [
+        [
+          0.12495911286379771,
+          0.0,
+          0.3287592907245065
+        ],
+        [
+          0.2974330061123472,
+          0.044466252484147734,
+          0.5503997597405467
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.009992978766533534
+    },
+    {
+      "case": 3336225,
+      "matches": [
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.09546135395678845,
+          "full_median_lower": 0.006758913559587213,
+          "full_median_upper": 0.33225845410328547
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.11184910365006082,
+          "full_median_lower": 0.010454076633643694,
+          "full_median_upper": 0.36442528037332667
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.11534128170831914,
+          "full_median_lower": 0.014760731316443721,
+          "full_median_upper": 0.39254108057768594
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.13321229130330164,
+          "full_median_lower": 0.051131071643684724,
+          "full_median_upper": 0.35531767095321687
+        }
+      ],
+      "self_by_size": [
+        [
+          0.06318088526432294,
+          0.0,
+          0.29909251452328217
+        ],
+        [
+          0.7156541524605345,
+          0.4749535324038762,
+          0.9563547725171928
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.006758913559587213
+    },
+    {
+      "case": 3386440,
+      "matches": [
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.09749063755883207,
+          "full_median_lower": 0.00980592242383312,
+          "full_median_upper": 0.3524892759002336
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.14690877869811153,
+          "full_median_lower": 0.0076728536357190714,
+          "full_median_upper": 0.4372698204648589
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.16985256838040724,
+          "full_median_lower": 0.007659145366489676,
+          "full_median_upper": 0.4181794072175634
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.17051671375128385,
+          "full_median_lower": 0.003053015971512636,
+          "full_median_upper": 0.44225748673132736
+        }
+      ],
+      "self_by_size": [
+        [
+          0.23512876798288318,
+          0.0,
+          0.49793703853447274
+        ],
+        [
+          0.25205959077532447,
+          0.0,
+          0.5056886442914633
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.003053015971512636
+    },
+    {
+      "case": 6044998,
+      "matches": [
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.06690428603839765,
+          "full_median_lower": 0.0031225436755462554,
+          "full_median_upper": 0.24076878632235466
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.06716329980524424,
+          "full_median_lower": 0.009880127623980772,
+          "full_median_upper": 0.2442667265814478
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.06906885887829914,
+          "full_median_lower": 0.003088851853033841,
+          "full_median_upper": 0.2581111027981057
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08583728160825478,
+          "full_median_lower": 0.0031477528097802803,
+          "full_median_upper": 0.30149586328335043
+        }
+      ],
+      "self_by_size": [
+        [
+          0.12548282215748796,
+          0.0,
+          0.30665061511733366
+        ],
+        [
+          0.04411131460557728,
+          0.0,
+          0.24166946378682355
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 6071984,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.07481649450994848,
+          "full_median_lower": 0.0037521276390749736,
+          "full_median_upper": 0.29700263151545536
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.10049145421604799,
+          "full_median_lower": 0.00804480297958051,
+          "full_median_upper": 0.3598131668607905
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.11834242323008151,
+          "full_median_lower": 0.0008054904140235156,
+          "full_median_upper": 0.30058455550803753
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.11972806477233547,
+          "full_median_lower": 0.005133652812892513,
+          "full_median_upper": 0.3421079599676312
+        }
+      ],
+      "self_by_size": [
+        [
+          0.0746541743290261,
+          0.0,
+          0.29164551310246034
+        ],
+        [
+          0.06521271575606544,
+          0.0,
+          0.26479359518399087
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 6174331,
+      "matches": [
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.1371156288822681,
+          "full_median_lower": 0.004422214271896106,
+          "full_median_upper": 0.4063022935943149
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.18284049208062328,
+          "full_median_lower": 0.021251110715647784,
+          "full_median_upper": 0.4390344777271298
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.1845486824441576,
+          "full_median_lower": 0.009335138603167415,
+          "full_median_upper": 0.44314567107084746
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.21770107115069603,
+          "full_median_lower": 0.054569290721496536,
+          "full_median_upper": 0.45465792394680227
+        }
+      ],
+      "self_by_size": [
+        [
+          0.09301401004898144,
+          0.0,
+          0.3427036236543997
+        ],
+        [
+          0.47778655866243813,
+          0.1937299842734228,
+          0.7618431330514535
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.004422214271896106
+    },
+    {
+      "case": 6227178,
+      "matches": [
+        {
+          "reference": "ZhouChen",
+          "truncated_median": 0.18552082083432475,
+          "full_median_lower": 0.007655908991919275,
+          "full_median_upper": 0.5639975618370827
+        },
+        {
+          "reference": "WangSun",
+          "truncated_median": 0.21052101833101264,
+          "full_median_lower": 0.014129616891184183,
+          "full_median_upper": 0.521028441156368
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.21605556401785503,
+          "full_median_lower": 0.006826959268904314,
+          "full_median_upper": 0.5247842884735416
+        },
+        {
+          "reference": "LiuChen",
+          "truncated_median": 0.22216402734064197,
+          "full_median_lower": 0.024625678266765684,
+          "full_median_upper": 0.6020686799511346
+        }
+      ],
+      "self_by_size": [
+        [
+          0.3217644645938429,
+          0.016232525014189952,
+          0.6272964041734957
+        ],
+        [
+          0.10977806337763305,
+          0.0,
+          0.48346569538679535
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.006318426169114845
+    },
+    {
+      "case": 6263583,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06972003305559629,
+          "full_median_lower": 0.006290259664855232,
+          "full_median_upper": 0.30670014144173385
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.09185474029703614,
+          "full_median_lower": 0.006630718384136943,
+          "full_median_upper": 0.3208617597538509
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.11106310028719707,
+          "full_median_lower": 0.008477915228480539,
+          "full_median_upper": 0.3409836885333667
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.1124984432769626,
+          "full_median_lower": 0.0024815503574036626,
+          "full_median_upper": 0.2985105811463253
+        }
+      ],
+      "self_by_size": [
+        [
+          0.21559047175663082,
+          0.0,
+          0.43709429250479576
+        ],
+        [
+          0.05512812631449557,
+          0.0,
+          0.2667510553770268
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0024815503574036626
+    },
+    {
+      "case": 6268324,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.1691155213531885,
+          "full_median_lower": 0.009718127560850389,
+          "full_median_upper": 0.43698351579736483
+        },
+        {
+          "reference": "ZhouChen",
+          "truncated_median": 0.22092564823535812,
+          "full_median_lower": 0.02726785770696464,
+          "full_median_upper": 0.5594453541782978
+        },
+        {
+          "reference": "LiuChen",
+          "truncated_median": 0.2540661006807029,
+          "full_median_lower": 0.018375897466477394,
+          "full_median_upper": 0.5995184950424373
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.25737586266849644,
+          "full_median_lower": 0.05575135292996597,
+          "full_median_upper": 0.5438372237487997
+        }
+      ],
+      "self_by_size": [
+        [
+          0.39654968843726845,
+          0.1652656652580235,
+          0.6278337116165134
+        ],
+        [
+          0.366579773608485,
+          0.07929386772374614,
+          0.6538656794932237
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.009718127560850389
+    },
+    {
+      "case": 6271020,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06794741221293837,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.3012694259531902
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.06938441847674087,
+          "full_median_lower": 0.0055484023642611065,
+          "full_median_upper": 0.2783914428576191
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.0825493536638764,
+          "full_median_lower": 0.004761607776234629,
+          "full_median_upper": 0.28105444517675504
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.08485516764102483,
+          "full_median_lower": 0.0016161472357518743,
+          "full_median_upper": 0.2839899561594248
+        }
+      ],
+      "self_by_size": [
+        [
+          0.042871268382931524,
+          0.0,
+          0.2470709000549933
+        ],
+        [
+          0.2148840105627863,
+          0.0,
+          0.4316858129544668
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 6438193,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06646607688809757,
+          "full_median_lower": 0.005575820614686149,
+          "full_median_upper": 0.2990740310740088
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.10637198141279985,
+          "full_median_lower": 0.010771837981708015,
+          "full_median_upper": 0.37814473094034007
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.11281739870372595,
+          "full_median_lower": 0.0029194286809604937,
+          "full_median_upper": 0.33315274858633037
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11334794422878494,
+          "full_median_lower": 0.001408913611117111,
+          "full_median_upper": 0.323563244662378
+        }
+      ],
+      "self_by_size": [
+        [
+          0.12004574370857206,
+          0.0,
+          0.3684219568025496
+        ],
+        [
+          0.5841880069643519,
+          0.3570932556054164,
+          0.8112827583232873
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.001408913611117111
+    },
+    {
+      "case": 6560098,
+      "matches": [
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.09756828109376374,
+          "full_median_lower": 0.006847219742361289,
+          "full_median_upper": 0.3732992765517915
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.11190520193092904,
+          "full_median_lower": 0.0032842700204554483,
+          "full_median_upper": 0.38054809164823666
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.12806761233016478,
+          "full_median_lower": 0.0017235590064661411,
+          "full_median_upper": 0.37352465102247134
+        },
+        {
+          "reference": "SprottC",
+          "truncated_median": 0.1349252615916986,
+          "full_median_lower": 0.047845794397478,
+          "full_median_upper": 0.3691647480405691
+        }
+      ],
+      "self_by_size": [
+        [
+          0.10930576982476506,
+          0.0,
+          0.38568161622471436
+        ],
+        [
+          0.3872241316656037,
+          0.13112177967078797,
+          0.6433264836604194
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 6583985,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.10922579982682992,
+          "full_median_lower": 0.009197517413621039,
+          "full_median_upper": 0.3693776364751952
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.11282826121883692,
+          "full_median_lower": 0.011225978893882996,
+          "full_median_upper": 0.40708745087045084
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.11764707598256463,
+          "full_median_lower": 0.0073965380015583535,
+          "full_median_upper": 0.37692292030505514
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.12971439952278843,
+          "full_median_lower": 0.011130742186885829,
+          "full_median_upper": 0.39795893614863254
+        }
+      ],
+      "self_by_size": [
+        [
+          0.11941762877449351,
+          0.011510966592169526,
+          0.3949967689915158
+        ],
+        [
+          0.28128130963572584,
+          0.01115502419316508,
+          0.5514075950782865
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0073965380015583535
+    },
+    {
+      "case": 6616162,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.05975418898031803,
+          "full_median_lower": 0.0004664782997811018,
+          "full_median_upper": 0.2575880691638852
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.06982402333320695,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.2799658639580655
+        },
+        {
+          "reference": "Chen",
+          "truncated_median": 0.09253989837940399,
+          "full_median_lower": 0.0016572844600468892,
+          "full_median_upper": 0.27310494070769364
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.0928479224295207,
+          "full_median_lower": 0.0007190213055081882,
+          "full_median_upper": 0.3026875428068613
+        }
+      ],
+      "self_by_size": [
+        [
+          0.06708289658591918,
+          0.0,
+          0.2259758808156577
+        ],
+        [
+          0.059589185031471384,
+          0.0,
+          0.2868204204126118
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 6653105,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06198553126187917,
+          "full_median_lower": 0.0012194624473208999,
+          "full_median_upper": 0.2601279153414692
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.12175142687328906,
+          "full_median_lower": 0.010499766092446973,
+          "full_median_upper": 0.38028031627690034
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.12187340341944641,
+          "full_median_lower": 0.00207175474989941,
+          "full_median_upper": 0.35807565660353646
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.12393369382381422,
+          "full_median_lower": 0.002574556406743583,
+          "full_median_upper": 0.3248948943350576
+        }
+      ],
+      "self_by_size": [
+        [
+          0.25755376748617037,
+          0.02731104955644212,
+          0.48779648541589865
+        ],
+        [
+          0.05769542667994383,
+          0.0023613206676543065,
+          0.28790413628504347
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0012194624473208999
+    },
+    {
+      "case": 6679894,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.08888959289633606,
+          "full_median_lower": 0.0039016795236627667,
+          "full_median_upper": 0.33481182291358186
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.10150314332487799,
+          "full_median_lower": 0.006681364339276258,
+          "full_median_upper": 0.3725236653059216
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.11957542958387732,
+          "full_median_lower": 4.649041769316424e-05,
+          "full_median_upper": 0.33128466216869495
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.1277761194823721,
+          "full_median_lower": 0.004025559760900489,
+          "full_median_upper": 0.3291916622925275
+        }
+      ],
+      "self_by_size": [
+        [
+          0.08813815862491355,
+          0.0,
+          0.3190726856247393
+        ],
+        [
+          0.4601963525224698,
+          0.22340287368346962,
+          0.6969898313614701
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 6746662,
+      "matches": [
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.10888497973142994,
+          "full_median_lower": 0.005580233355681239,
+          "full_median_upper": 0.35662487560329903
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.14610285649502297,
+          "full_median_lower": 0.002695032254868187,
+          "full_median_upper": 0.38955392280458384
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.17004179459835286,
+          "full_median_lower": 0.029752001759400248,
+          "full_median_upper": 0.3786372754581748
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.18084733217480886,
+          "full_median_lower": 0.006252485057606444,
+          "full_median_upper": 0.40712508196574243
+        }
+      ],
+      "self_by_size": [
+        [
+          0.2601712317706779,
+          0.020407311341701484,
+          0.4999351521996544
+        ],
+        [
+          0.24775954858137478,
+          0.025265782868030773,
+          0.4702533142947188
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.002581941657121342
+    },
+    {
+      "case": 6758635,
+      "matches": [
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.1057634958152524,
+          "full_median_lower": 0.011742731601337614,
+          "full_median_upper": 0.36976641972031576
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.1294112748493981,
+          "full_median_lower": 0.0023045486410488455,
+          "full_median_upper": 0.35365773116038446
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.13616419720215506,
+          "full_median_lower": 0.006113257948500415,
+          "full_median_upper": 0.3834611698844058
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.14723142347888163,
+          "full_median_lower": 0.005011015288124517,
+          "full_median_upper": 0.38288132273258296
+        }
+      ],
+      "self_by_size": [
+        [
+          0.15782376079057725,
+          0.0,
+          0.39150777312041274
+        ],
+        [
+          0.6503667879176043,
+          0.43847537777332773,
+          0.8622581980618808
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0023045486410488455
+    },
+    {
+      "case": 6802681,
+      "matches": [
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.08615489684090583,
+          "full_median_lower": 0.0167957885240119,
+          "full_median_upper": 0.3131136922531409
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.10732164710701325,
+          "full_median_lower": 0.00836659838481158,
+          "full_median_upper": 0.36104099378926036
+        },
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.11028645213261401,
+          "full_median_lower": 0.00025399134091317444,
+          "full_median_upper": 0.3480326229118
+        },
+        {
+          "reference": "Dadras",
+          "truncated_median": 0.13086006870199843,
+          "full_median_lower": 0.005466209473831591,
+          "full_median_upper": 0.3636127455323297
+        }
+      ],
+      "self_by_size": [
+        [
+          0.23482106537616104,
+          0.02032770804219941,
+          0.44931442271012273
+        ],
+        [
+          0.07618654230578795,
+          0.0,
+          0.29026052114069284
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.00025399134091317444
+    },
+    {
+      "case": 6858107,
+      "matches": [
+        {
+          "reference": "SprottB",
+          "truncated_median": 0.06125600398189507,
+          "full_median_lower": 0.0,
+          "full_median_upper": 0.300994686847285
+        },
+        {
+          "reference": "SanUmSrisuchinwong",
+          "truncated_median": 0.078095218171274,
+          "full_median_lower": 0.0004247992079800999,
+          "full_median_upper": 0.29822098827296484
+        },
+        {
+          "reference": "Bouali2",
+          "truncated_median": 0.0923710193067781,
+          "full_median_lower": 0.008557930284177841,
+          "full_median_upper": 0.33041687079567894
+        },
+        {
+          "reference": "Sakarya",
+          "truncated_median": 0.09726478550483,
+          "full_median_lower": 0.005258754172796751,
+          "full_median_upper": 0.3635686537149104
+        }
+      ],
+      "self_by_size": [
+        [
+          0.04261896245544504,
+          0.0,
+          0.2696363724407587
+        ],
+        [
+          0.11904476468525174,
+          0.0,
+          0.3569631411773359
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    },
+    {
+      "case": 7033904,
+      "matches": [
+        {
+          "reference": "Chen",
+          "truncated_median": 0.04353951414769574,
+          "full_median_lower": 0.003008979920256796,
+          "full_median_upper": 0.22854567962025438
+        },
+        {
+          "reference": "QiChen",
+          "truncated_median": 0.05867639547332762,
+          "full_median_lower": 0.005208230167795604,
+          "full_median_upper": 0.2325476509379511
+        },
+        {
+          "reference": "BurkeShaw",
+          "truncated_median": 0.05894854033049143,
+          "full_median_lower": 0.0018885802608917999,
+          "full_median_upper": 0.21914784344202962
+        },
+        {
+          "reference": "NewtonLiepnik",
+          "truncated_median": 0.07145632303250778,
+          "full_median_lower": 0.004920337223229847,
+          "full_median_upper": 0.22581895543098607
+        }
+      ],
+      "self_by_size": [
+        [
+          0.038204407917140464,
+          0.0,
+          0.21147448494596963
+        ],
+        [
+          0.046620447078681695,
+          0.0,
+          0.23112680729889132
+        ]
+      ],
+      "smallest_full_median_lower_across_refs": 0.0
+    }
+  ]
+}

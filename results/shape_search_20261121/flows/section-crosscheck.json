@@ -1,0 +1,213 @@
+{
+  "case": 180844,
+  "scope": "Exact for the closed piecewise-linear polygons through the stored binary coordinates. ODE orbit closure and interpolation accuracy are separate numerical controls.",
+  "section": "Vertical half-plane y=0, x>0, counting each crossing on one traversal of the closed polygon. Half-open side tests count a section vertex once.",
+  "additional_control": "All oriented edges have strictly positive exact planar determinant. Hence their azimuth increases along each straight edge, each ray has the same signed count, and there is exactly one positive intersection per azimuthal revolution.",
+  "checked_integer_rays": [
+    [
+      -3,
+      -2
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -3,
+      2
+    ],
+    [
+      -2,
+      -3
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -1,
+      -3
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      -2
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "rows": [
+    {
+      "period_order": 1,
+      "cache_relative": "flows/knot-continuation-a/case-180844.npz",
+      "vertices": 32768,
+      "dtype": "float64",
+      "sha256": "1b14c0ae448ea46e8961396a653ec8f1b3fea1e4d906471f2788f8e18fa0eac7",
+      "positive_crossings_per_closed_orbit": 2,
+      "negative_crossings": 0,
+      "winding_about_z": 2,
+      "distinct_primary_section_points": 2,
+      "minimum_primary_hit_spacing_native": 0.11979766810081777,
+      "minimum_primary_hit_spacing_squared_exact": "16814931497338967320808830604726716768074544933821036987575153860238826022327530446907329/1171651285778243755580106353927716424277904511441968434156377269908672074476735744071172096",
+      "minimum_native_xy_edge_determinant": 0.00013838738871300367,
+      "section_count_relative_to_base": 1
+    },
+    {
+      "period_order": 2,
+      "cache_relative": "flows/final-doubled-orbits-a/orbit-2.npz",
+      "vertices": 32768,
+      "dtype": "float64",
+      "sha256": "dda83443bea859ee8560f8c05f924b3c781a316f590c3d2e2cbc81a1b1ab6154",
+      "positive_crossings_per_closed_orbit": 4,
+      "negative_crossings": 0,
+      "winding_about_z": 4,
+      "distinct_primary_section_points": 4,
+      "minimum_primary_hit_spacing_native": 0.03834303102586623,
+      "minimum_primary_hit_spacing_squared_exact": "593086754423561426331004662290386937732766129706648490281484004121385352929871510937/403408776991136889858533252589348289620257808145962673546345567240586032210568410038272",
+      "minimum_native_xy_edge_determinant": 0.00025005775352654165,
+      "section_count_relative_to_base": 2
+    },
+    {
+      "period_order": 4,
+      "cache_relative": "flows/relative-final-cores-a/orbit-4.npz",
+      "vertices": 32768,
+      "dtype": "float64",
+      "sha256": "823ae9b1e3945c43ef7800092e13f9d50f9e99243dd86836f47697398b1bb700",
+      "positive_crossings_per_closed_orbit": 8,
+      "negative_crossings": 0,
+      "winding_about_z": 8,
+      "distinct_primary_section_points": 8,
+      "minimum_primary_hit_spacing_native": 0.009222340273257176,
+      "minimum_primary_hit_spacing_squared_exact": "5895121272827407213893349874169300293879396918971633622127211412691257855770021476308566045/69312323781070123931561888110360568204289448360686278348838559875363116435911652818043961081856",
+      "minimum_native_xy_edge_determinant": 0.0004998176491630013,
+      "section_count_relative_to_base": 4
+    },
+    {
+      "period_order": 8,
+      "cache_relative": "flows/relative-final-cores-a/orbit-8.npz",
+      "vertices": 65536,
+      "dtype": "float64",
+      "sha256": "dd20edb537b738b4d72f4b10d391a5b42602accd9ed26fc74a200eec58f96a25",
+      "positive_crossings_per_closed_orbit": 16,
+      "negative_crossings": 0,
+      "winding_about_z": 16,
+      "distinct_primary_section_points": 16,
+      "minimum_primary_hit_spacing_native": 0.0021627309794369468,
+      "minimum_primary_hit_spacing_squared_exact": "2647620355435573446647953328125908934741536534437763639813750679619321486180694258975618265/566044674688854426005641939403423560526854471670989972853377142269698756815563711111781765087232",
+      "minimum_native_xy_edge_determinant": 0.0005005202726254009,
+      "section_count_relative_to_base": 8
+    },
+    {
+      "period_order": 16,
+      "cache_relative": "flows/relative-final-cores-a/orbit-16.npz",
+      "vertices": 65536,
+      "dtype": "float64",
+      "sha256": "60bfcf81322ff650be69a84c8d8b862584b7396b54b55df49a25bd82a4168b4c",
+      "positive_crossings_per_closed_orbit": 32,
+      "negative_crossings": 0,
+      "winding_about_z": 32,
+      "distinct_primary_section_points": 32,
+      "minimum_primary_hit_spacing_native": 0.00010999032162803822,
+      "minimum_primary_hit_spacing_squared_exact": "81708970030397844983458948855452636294926714474403401732574463456827330684633160237276993/6753995891597344659875619154523350109225197617389633032022955795826576534285024311904610094678016",
+      "minimum_native_xy_edge_determinant": 0.0009973842892472367,
+      "section_count_relative_to_base": 16
+    }
+  ]
+}

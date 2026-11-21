@@ -1,0 +1,206 @@
+{
+  "unique_screened_equations": 70356,
+  "by_family": {
+    "cartesian": {
+      "rows": {
+        "fixed_step_replay": 261,
+        "period_screen": 8937,
+        "broad_chaos_screen": 2560
+      },
+      "unique_per_stage": {
+        "fixed_step_replay": 106,
+        "period_screen": 8937,
+        "broad_chaos_screen": 2560,
+        "single_coefficient_screen": 0,
+        "period_doubling_grid": 0
+      },
+      "unique_screened_equations": 10560,
+      "extra_from_period_screen": 8000,
+      "additional_control_only": 0,
+      "equation_set_sha256": "fea3d65ae9c94fe1d38048191872d8add90c6c48da2de50090abfb1385241ea1",
+      "raw_coefficient_archives_crosschecked": 1069
+    },
+    "ring": {
+      "rows": {
+        "fixed_step_replay": 256,
+        "period_screen": 3837,
+        "broad_chaos_screen": 10240,
+        "single_coefficient_screen": 3441,
+        "period_doubling_grid": 36,
+        "diagnostic_bisection": 23
+      },
+      "unique_per_stage": {
+        "fixed_step_replay": 82,
+        "period_screen": 3837,
+        "broad_chaos_screen": 10240,
+        "single_coefficient_screen": 3441,
+        "period_doubling_grid": 36,
+        "diagnostic_bisection": 23
+      },
+      "unique_screened_equations": 13716,
+      "extra_from_period_screen": 0,
+      "additional_control_only": 23,
+      "equation_set_sha256": "3465f964e2adf095f9e6dbaa04e18fc321cefdefda840a95affde94b164e78ba",
+      "raw_coefficient_archives_crosschecked": 74
+    },
+    "rotor": {
+      "rows": {
+        "fixed_step_replay": 209,
+        "period_screen": 1072,
+        "broad_chaos_screen": 20480
+      },
+      "unique_per_stage": {
+        "fixed_step_replay": 47,
+        "period_screen": 1072,
+        "broad_chaos_screen": 20480,
+        "single_coefficient_screen": 0,
+        "period_doubling_grid": 0
+      },
+      "unique_screened_equations": 20480,
+      "extra_from_period_screen": 0,
+      "additional_control_only": 0,
+      "equation_set_sha256": "b2c36f60daf561b7bde955df9921b67dc9b217c44b1aec10d2203f79f2d27f05",
+      "raw_coefficient_archives_crosschecked": 47
+    },
+    "planes": {
+      "rows": {
+        "fixed_step_replay": 60,
+        "broad_chaos_screen": 24576
+      },
+      "unique_per_stage": {
+        "fixed_step_replay": 35,
+        "broad_chaos_screen": 24576,
+        "period_screen": 0,
+        "single_coefficient_screen": 0,
+        "period_doubling_grid": 0
+      },
+      "unique_screened_equations": 24576,
+      "extra_from_period_screen": 0,
+      "additional_control_only": 0,
+      "equation_set_sha256": "78e859971802d8a692ce93b889a4be74b96b6283fa0f8c0ddf64f3bc072952b0",
+      "raw_coefficient_archives_crosschecked": 35
+    },
+    "crossed": {
+      "rows": {
+        "fixed_step_replay": 80,
+        "broad_chaos_screen": 1024
+      },
+      "unique_per_stage": {
+        "fixed_step_replay": 40,
+        "broad_chaos_screen": 1024,
+        "period_screen": 0,
+        "single_coefficient_screen": 0,
+        "period_doubling_grid": 0
+      },
+      "unique_screened_equations": 1024,
+      "extra_from_period_screen": 0,
+      "additional_control_only": 0,
+      "equation_set_sha256": "0fac8d163d15c6ae9e9abb5073128e7450b6d1b6520bd883ada313c66a467433",
+      "raw_coefficient_archives_crosschecked": 179
+    }
+  },
+  "selected_by_family": {
+    "cartesian": {
+      "chaotic_selected": 10,
+      "stable_knots": 124,
+      "linked_sets": 1,
+      "unstable_cores": 0,
+      "tested_chaos_starts": 40,
+      "positive_chaos_starts": 40
+    },
+    "ring": {
+      "chaotic_selected": 10,
+      "stable_knots": 37,
+      "linked_sets": 3,
+      "unstable_cores": 2,
+      "tested_chaos_starts": 50,
+      "positive_chaos_starts": 47
+    },
+    "rotor": {
+      "chaotic_selected": 8,
+      "stable_knots": 13,
+      "linked_sets": 0,
+      "unstable_cores": 0,
+      "tested_chaos_starts": 40,
+      "positive_chaos_starts": 33
+    },
+    "planes": {
+      "chaotic_selected": 3,
+      "stable_knots": 0,
+      "linked_sets": 0,
+      "unstable_cores": 0,
+      "tested_chaos_starts": 12,
+      "positive_chaos_starts": 10
+    },
+    "crossed": {
+      "chaotic_selected": 4,
+      "stable_knots": 0,
+      "linked_sets": 0,
+      "unstable_cores": 0,
+      "tested_chaos_starts": 16,
+      "positive_chaos_starts": 15
+    }
+  },
+  "selected_control_counts": {
+    "standard_fresh_start_growth": {
+      "rows": 158,
+      "passing": 145
+    },
+    "local_recapture": {
+      "cases": 26,
+      "trials": 416,
+      "passed": 400
+    },
+    "chaotic_adaptive_spectra": 35,
+    "sliced_geometry_cases": 35,
+    "unstable_short_returns_in_chaotic_clouds": {
+      "cases": 11,
+      "periodic_orbits": 33
+    },
+    "stable_cycle_perturbations": 1044,
+    "linked_basin_perturbations": {
+      "trials": 57,
+      "captured": 57
+    },
+    "selected_geometry_index": {
+      "chaotic_clouds": 35,
+      "stable_orbits": 174,
+      "composite_linked_sets": 4,
+      "unstable_knotted_cores": 2
+    },
+    "supplemental_same_parameter_cores": 4,
+    "supplemental_parent_daughter_pairs": 4
+  },
+  "archive_cohorts": {
+    "archive-comparison.json.gz": {
+      "total": 215,
+      "per_collection": {
+        "flows": 35,
+        "links": 4,
+        "skeletons": 2,
+        "cycles": 174
+      },
+      "reference_counts": [
+        177
+      ]
+    },
+    "ode-reference-comparison.json.gz": {
+      "total": 215,
+      "per_collection": {
+        "flows": 35,
+        "links": 4,
+        "skeletons": 2,
+        "cycles": 174
+      },
+      "reference_counts": [
+        98
+      ]
+    }
+  },
+  "interpretation": [
+    "Independent screened equations are exact binary64 parameter vectors per family in a primary survey, a periodic screen, a one-coefficient sweep or the 36-point bifurcation grid.",
+    "Initial conditions, time steps, solver calls and component symmetries do not create new equations. Root-finding and diagnostic bisection probes are excluded from the primary total.",
+    "Equation counts do not quotient by symmetries, change of units or dynamical conjugacy.",
+    "One linked set contains several coexisting cycles. Each unstable core uses the same coefficients as its chaotic cloud. A cataloged geometry is a reproducible point sample, not a distinct mechanism."
+  ]
+}

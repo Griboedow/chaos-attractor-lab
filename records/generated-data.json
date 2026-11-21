@@ -112,7 +112,7 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 10095843161,
+  "removed_bytes": 10221403435,
   "compact_bytes": 83019852,
   "files": [
     {
@@ -196194,6 +196194,2559 @@
       "recovery": "recompute",
       "recompute_command": "See results/product-attractor-status/README.md for run product-attractor988-wide-trap01; use its retained source in a fresh external directory.",
       "original_run_path": "D:\\Codex\\chaos-attractor-search-20261031\\product-attractor988-wide-trap01\\proposal.npz"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-132.npz",
+      "bytes": 7426717,
+      "git_blob": null,
+      "sha256": "438ba9055d5c98c78042875a7d8713ce2144cff25035edf442b0c361c2f8bdb3",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            320000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680000,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            3,
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 216,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the flows reproduction commands and saved Case 132 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-306.npz",
+      "bytes": 7374576,
+      "git_blob": null,
+      "sha256": "80878b4698888941046d6b5ceecef6dc6bfc4b0926b15f4dc8cb4fbba5705ca4",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            320000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680000,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            3,
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 216,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the flows reproduction commands and saved Case 306 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-301027.npz",
+      "bytes": 2777911,
+      "git_blob": null,
+      "sha256": "9aaf67765b4b684061ea215fa49648d62b233b155fa8e42cf3c8a3aadd051819",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the projection reproduction commands and saved Case 301027 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-370279.npz",
+      "bytes": 2649333,
+      "git_blob": null,
+      "sha256": "b86d7b44cc99fdea792025ea106cb762af3ec912720787ad66df79d5790c8a09",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the projection reproduction commands and saved Case 370279 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/maps-2603268.npz",
+      "bytes": 2686007,
+      "git_blob": null,
+      "sha256": "58c2d9e177f4837a01fdb79de093822e3708c098923d713e426ca39d55c2e23a",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 2880000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the maps reproduction commands and saved Case 2603268 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/maps-3203938.npz",
+      "bytes": 2599732,
+      "git_blob": null,
+      "sha256": "f8f15a341c5bfa7af2ea54762ea21bb7dd91b1f4e93ce12c8c41a7bb15ab49a4",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 2880000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the maps reproduction commands and saved Case 3203938 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-harmonic-132-5005c5adffc3.npz",
+      "bytes": 97679,
+      "git_blob": null,
+      "sha256": "5005c5adffc3461d3d6c8956395013905e15ed570745f81ff137f9f8b062c08c",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-harmonic-306-d35f6e2d55a2.npz",
+      "bytes": 123185,
+      "git_blob": null,
+      "sha256": "d35f6e2d55a246e2686d36c258d19d59879f4e571d48132945948f568bbb37ef",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-torus-301027-8bc70362dc63.npz",
+      "bytes": 88678,
+      "git_blob": null,
+      "sha256": "8bc70362dc63b1923165d0aae57761c61db3bce91d3647e1b01ff135e37978d2",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-torus-370279-80d372932d68.npz",
+      "bytes": 51068,
+      "git_blob": null,
+      "sha256": "80d372932d68c8e97972347bc26165679c864fb1c94173011abbc876801d2ba0",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-phase-2603268-27125d88e137.npz",
+      "bytes": 60165,
+      "git_blob": null,
+      "sha256": "27125d88e1371f871340c50ca2b56d03c4999c25b50e3445f309c26501805296",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-phase-3203938-32d231d5ed83.npz",
+      "bytes": 63752,
+      "git_blob": null,
+      "sha256": "32d231d5ed8379069c298a6c05a85576102339cb3565eadc7697fb3c001d81e7",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/braids-56014.npz",
+      "bytes": 11034658,
+      "git_blob": null,
+      "sha256": "f1ca989df17e180136537cf61060cb5a68aba65d4c6d09aab9c5f32d8bced268",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            480000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 11520000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the braids reproduction commands and saved Case 56014 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-braids-56014-fb74914f3fed.npz",
+      "bytes": 91178,
+      "git_blob": null,
+      "sha256": "fb74914f3fed7a1542fc0a0f989ab400d863db97077eccf9a5721ce21cba260b",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/braids-114425.npz",
+      "bytes": 11033107,
+      "git_blob": null,
+      "sha256": "d307e0d3f67079c6b534cd9e0e6f00ad5b1c8cd490459a0f432eb41806c8f2cb",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            480000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 11520000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the braids reproduction commands and saved Case 114425 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-braids-114425-93a8b896a088.npz",
+      "bytes": 110135,
+      "git_blob": null,
+      "sha256": "93a8b896a088566b42543131bdb7c3e7f01f451302bfea6ac7fbd6986683da0d",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-21253.npz",
+      "bytes": 6100198,
+      "git_blob": null,
+      "sha256": "f42e9f8119f29e97d0804a5cbaeb6d9ab1903dc224acefb7c7fc2654824f1fd0",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            266666,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6399984,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            11
+          ],
+          "dtype": "float64",
+          "bytes": 88,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the flows reproduction commands and saved Case 21253 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-rings-21253-2b5141311d79.npz",
+      "bytes": 70360,
+      "git_blob": null,
+      "sha256": "2b5141311d790808d13ac05a3daf592b4956845a7f9d2c9d9f456767eddae9a6",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-20897.npz",
+      "bytes": 6103260,
+      "git_blob": null,
+      "sha256": "cdbadf7d391d1e0e3cf5e5eb531e064e5b5af978ec9f94dd06528f58b6b10fb2",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            266666,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6399984,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            11
+          ],
+          "dtype": "float64",
+          "bytes": 88,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the flows reproduction commands and saved Case 20897 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-rings-20897-68c69f409dcb.npz",
+      "bytes": 79431,
+      "git_blob": null,
+      "sha256": "68c69f409dcbb2479e27b20e1c7137e6fbf0ca6cc4564e5f4a286e66685041bc",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-516308.npz",
+      "bytes": 2805353,
+      "git_blob": null,
+      "sha256": "6641db58d1dc574416abb71ba3a53e7cfcc48f2fcbe4583e819da525b4e7acbf",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the projection reproduction commands and saved Case 516308 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-hyper-516308-ad50cc8570d5.npz",
+      "bytes": 81720,
+      "git_blob": null,
+      "sha256": "ad50cc8570d56dd294dd9b96dfa7fea4d3b1656770fd8febc3f3c62e174f0cdb",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-1291273.npz",
+      "bytes": 2767657,
+      "git_blob": null,
+      "sha256": "e1d8ec961c0303a3f720a5723de1e9da3e0999fb0b3d943944a5534a010f3d1b",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the projection reproduction commands and saved Case 1291273 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-hyper-1291273-31acb5e0a650.npz",
+      "bytes": 86379,
+      "git_blob": null,
+      "sha256": "31acb5e0a6508a81a4a010f33a6d7a2c96f8e24e8e3b86100aa641d8f66facf7",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-52506.npz",
+      "bytes": 7359347,
+      "git_blob": null,
+      "sha256": "be781eeb27198975f957f3e762397142c9312eea1950d542e560c7d5db5d3855",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            320000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680000,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            16
+          ],
+          "dtype": "float64",
+          "bytes": 128,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the flows reproduction commands and saved Case 52506 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-rotor-52506-ca983ddd297a.npz",
+      "bytes": 87923,
+      "git_blob": null,
+      "sha256": "ca983ddd297a62a01f9f6a0854ae5161660384d4b54bca68b899accd06542579",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-51256.npz",
+      "bytes": 7340807,
+      "git_blob": null,
+      "sha256": "3b025c287ce6dc48a6f698781884500b88c1fe9cfaff2460fab596d3df0f905c",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            320000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 7680000,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            16
+          ],
+          "dtype": "float64",
+          "bytes": 128,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the flows reproduction commands and saved Case 51256 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-rotor-51256-784767de079c.npz",
+      "bytes": 103761,
+      "git_blob": null,
+      "sha256": "784767de079c1ee8934ec244362a7f2a3c1eaf39390aa7fd39f536f7858af906",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/delay-1008712.npz",
+      "bytes": 1553924,
+      "git_blob": null,
+      "sha256": "d7c940687cae2ee185cfd875b7abcf2e3e741cadf8ff2f8e76ebf1b47b7bc0be",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            180000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4320000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the delay reproduction commands and saved Case 1008712 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-recruits-1008712-61e19fb6512c.npz",
+      "bytes": 89668,
+      "git_blob": null,
+      "sha256": "61e19fb6512c2fa5b1b6e7af3a007472fc85281d4a9b1fe0823014da26281bc5",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/delay-1025516.npz",
+      "bytes": 1524687,
+      "git_blob": null,
+      "sha256": "1562f73371c27db791172e8a9dacd8521218e26a94461f0971d1b654740f29f7",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            180000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 4320000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the delay reproduction commands and saved Case 1025516 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-recruits-1025516-bf5f16677206.npz",
+      "bytes": 88754,
+      "git_blob": null,
+      "sha256": "bf5f166772064a9b1b4271d319c4468f87b6a985769a656549f56e2fcc3701c2",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/pinched-156.npz",
+      "bytes": 5516251,
+      "git_blob": null,
+      "sha256": "46aa1e3c8c4b8072743d57b7424acc5270a4067e488f4869694f17f422746931",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 5760000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the pinched reproduction commands and saved Case 156 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-pinched-156-3fcd250ba793.npz",
+      "bytes": 93673,
+      "git_blob": null,
+      "sha256": "3fcd250ba793d6171e09da3f66a2a586e4042a8b14ae93c3be2dccdc047ad5fc",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/pinched-1267.npz",
+      "bytes": 5513388,
+      "git_blob": null,
+      "sha256": "9c02cab658d29ac1a35fa3c5ee44a7a1d389b03d4478489c989430017ee6f695",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 5760000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the pinched reproduction commands and saved Case 1267 in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-pinched-1267-b1573a56a110.npz",
+      "bytes": 95555,
+      "git_blob": null,
+      "sha256": "b1573a56a110119f68d8d3b116c7e4058b0793ac5ba5379c08a76f2c06cbda7a",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-28756.npz",
+      "bytes": 731781,
+      "git_blob": null,
+      "sha256": "0e690a2ad1be5ec7de560d6b24097414b8f840b9cae19a58f7001e14caf5c6b3",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            32768,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-knotted-band-28756-9b95d6ec135e.npz",
+      "bytes": 16049,
+      "git_blob": null,
+      "sha256": "9b95d6ec135ecab14c5d859d65ce589ab866cf6ea8254aed7178be7662838b62",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/flows-180844.npz",
+      "bytes": 6100011,
+      "git_blob": null,
+      "sha256": "e9a55071c3482f6db8c71d9ca085b76bd112d87aac27ef01ccd0c89ea794f54e",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            266666,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6399984,
+          "retained": false
+        },
+        {
+          "key": "parameters",
+          "shape": [
+            11
+          ],
+          "dtype": "float64",
+          "bytes": 88,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "bytes": 64,
+          "retained": false
+        },
+        {
+          "key": "step_size",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "sample_stride",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-knotted-band-180844-f5c9637fc1d2.npz",
+      "bytes": 64660,
+      "git_blob": null,
+      "sha256": "f5c9637fc1d24457795ea43ed63d66b8f9dda2a16f63bf95a86e0c3a0fc0b721",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/links-2479.npz",
+      "bytes": 2244454,
+      "git_blob": null,
+      "sha256": "b61c283d5755a7c97448f94410de2d0a8df9a4de9953424779fe00ec031f537b",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            98304,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2359296,
+          "retained": false
+        },
+        {
+          "key": "component",
+          "shape": [
+            98304
+          ],
+          "dtype": "int64",
+          "bytes": 786432,
+          "retained": false
+        },
+        {
+          "key": "offsets",
+          "shape": [
+            4
+          ],
+          "dtype": "int64",
+          "bytes": 32,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-links-2479-3771301e021c.npz",
+      "bytes": 41333,
+      "git_blob": null,
+      "sha256": "3771301e021ce7460ee046cdb4d4cd0cb15bd9fc1b77953007e733ce27b5e123",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/links-26471.npz",
+      "bytes": 2781441,
+      "git_blob": null,
+      "sha256": "48265be155ec3f51a8870a239de68d4ad40b0e90ac1ed6da462ebe2d996eedcd",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            131072,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 3145728,
+          "retained": false
+        },
+        {
+          "key": "component",
+          "shape": [
+            131072
+          ],
+          "dtype": "int64",
+          "bytes": 1048576,
+          "retained": false
+        },
+        {
+          "key": "offsets",
+          "shape": [
+            5
+          ],
+          "dtype": "int64",
+          "bytes": 40,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-links-26471-d57dff8d6b7d.npz",
+      "bytes": 37316,
+      "git_blob": null,
+      "sha256": "d57dff8d6b7d79f9f3cb5b26131ce9584a8374002084e9ed2c1fbea59d45a773",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-2189166.npz",
+      "bytes": 2654663,
+      "git_blob": null,
+      "sha256": "e1ad41786a4dad313c2c50a5bca8beb61e18609668578b83dec79512c7e82b8e",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-returns-2189166-e2ca0f12c375.npz",
+      "bytes": 52165,
+      "git_blob": null,
+      "sha256": "e2ca0f12c375feffcad5ea843326e074d2c174eceb342f8e0e72cd31da0b47de",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-394727.npz",
+      "bytes": 2675432,
+      "git_blob": null,
+      "sha256": "6a630337d0ec24ac1e78b0c6b9c5d1f7717cd1f87e83737ef0e5db1f9d1c9e27",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-returns-394727-ce9997ffb63f.npz",
+      "bytes": 82177,
+      "git_blob": null,
+      "sha256": "ce9997ffb63fec8266c39bcc7458a245b71a7c63e869f635988b4585edd4cbfe",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/cycles-967.npz",
+      "bytes": 744448,
+      "git_blob": null,
+      "sha256": "c122568ee7c31caeb883ae6479e9e23dd91808cf5155a21377d0865690607062",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            32768,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-knots-967-2a0b2d2ea8cb.npz",
+      "bytes": 29052,
+      "git_blob": null,
+      "sha256": "2a0b2d2ea8cbb31eefb01b76c481f03f8fea4e1858e5b1d1396e5976dd438862",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/cycles-2160.npz",
+      "bytes": 745281,
+      "git_blob": null,
+      "sha256": "d668da7703e6e0bd1213c3e6fe87c3969391b669ef194ddcd33bdeb77bd6c845",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            32768,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 786432,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-knots-2160-e82611c8d553.npz",
+      "bytes": 24296,
+      "git_blob": null,
+      "sha256": "e82611c8d553f7b8fa7a783dd4b6d486997ace2416356a5a91c377b6ae6962da",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/maps-2303801.npz",
+      "bytes": 2610189,
+      "git_blob": null,
+      "sha256": "2051e31606edf4389bab71885f013bbc1f6b99d527eb34367b04d2a921e2b271",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 2880000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-components-2303801-81240343b316.npz",
+      "bytes": 6144,
+      "git_blob": null,
+      "sha256": "81240343b316893e83b94f67a810bfad651fbec176dbb5924b1cbd9f5fa7ab0f",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/maps-2401313.npz",
+      "bytes": 2620248,
+      "git_blob": null,
+      "sha256": "c6f504679d35570f27fb7522303b117435ce7a8d4077477025fb0e54957661ce",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 2880000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "See the per-case reproduction instructions in docs/shape-search-20261121.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-components-2401313-06273e584444.npz",
+      "bytes": 4538,
+      "git_blob": null,
+      "sha256": "06273e584444d1d68cfb38dec87ce8791cc21e86839c36f9e826b1db65e428e7",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-6616162.npz",
+      "bytes": 2720602,
+      "git_blob": null,
+      "sha256": "bc5e19e35dd81cb14c0e22dd7c2e0e7d75de2e124870cf19076de42eeb6021c4",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/projection/reproduce.py --record results/shape_search_20261121/projection/three/case-6616162.json --out RUN/projection/final/case-6616162-points.npz"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-three-6616162-c686741f7743.npz",
+      "bytes": 61041,
+      "git_blob": null,
+      "sha256": "c686741f7743ec8341f9f8e7b366d3201f1e6530d4412ef288d03707c842ab22",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/projection-6583985.npz",
+      "bytes": 2716965,
+      "git_blob": null,
+      "sha256": "a900eb9cf0dff1c071a775b59d2d18453a3221ec76d0054d85b7b96cac69edc9",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/projection/reproduce.py --record results/shape_search_20261121/projection/three/case-6583985.json --out RUN/projection/final/case-6583985-points.npz"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-three-6583985-c56423c09ada.npz",
+      "bytes": 66011,
+      "git_blob": null,
+      "sha256": "c56423c09adae912a7ffb3cd0cc5a80d40e7f9be9061fe1bb238af5556218169",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "stages": [
+    {
+      "geometry": "single",
+      "screened": 524288,
+      "short_positive": 41132,
+      "spatial_rescreened": 25851,
+      "deep_positive": 23455,
+      "shape_eligible": 18228,
+      "shape_inspected": 192,
+      "gpu_two_rate": 113,
+      "cpu_two_rate": 110
+    },
+    {
+      "geometry": "linked",
+      "screened": 524288,
+      "short_positive": 15333,
+      "spatial_rescreened": 6154,
+      "deep_positive": 5700,
+      "shape_eligible": 4658,
+      "shape_inspected": 192,
+      "gpu_two_rate": 16,
+      "cpu_two_rate": 16
+    },
+    {
+      "geometry": "smooth",
+      "screened": 524288,
+      "short_positive": 27360,
+      "spatial_rescreened": 6334,
+      "deep_positive": 5982,
+      "shape_eligible": 4581,
+      "shape_inspected": 192,
+      "gpu_two_rate": 41,
+      "cpu_two_rate": 41
+    }
+  ],
+  "matched_linked_short_screen": {
+    "neither": 488390,
+    "only_blended": 20565,
+    "only_hard": 8538,
+    "both": 6795
+  },
+  "long_tested": 60,
+  "retained": 57,
+  "additional_three_positive": 31,
+  "aggregate_retained": 88,
+  "retained_with_second_min_above_0015": 23,
+  "certified_cycles": 202,
+  "certified_sinks": 13
+}

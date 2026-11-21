@@ -1,0 +1,405 @@
+{
+  "precision_bits": 192,
+  "cases": [
+    {
+      "case": 10003563,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 133,
+      "observed_alternate_periods": [
+        1
+      ],
+      "attracting_cycle_certificates": [
+        {
+          "period": 1,
+          "native_center": [
+            -0.04319417199882742,
+            -0.07927168649391167,
+            0.036172555239580524
+          ],
+          "linear_chart": [
+            [
+              0.07337874079048828,
+              0.04846684884494004,
+              -0.03139822285104979
+            ],
+            [
+              0.0,
+              0.32829333117587456,
+              -0.5681769396862814
+            ],
+            [
+              0.0,
+              0.0,
+              0.1420744777007382
+            ]
+          ],
+          "normalized_euclidean_ball_radius": 3.725290298461914e-09,
+          "uniform_derivative_norm_upper": 0.9991263080090509,
+          "normalized_center_return_error_upper_approximation": 3.928623783293847e-16,
+          "sylvester_lower_approximations": [
+            0.003637760202843378,
+            0.00038160517382520865,
+            4.467156738591995e-06
+          ],
+          "all_earlier_phases_disjoint": true,
+          "conclusion": "strict contraction on the closed ellipsoid; one attracting orbit of the stated least period"
+        }
+      ],
+      "example_starts": [
+        [
+          0.7262656647331562,
+          1.1939812893972928,
+          0.5377552576154434
+        ]
+      ]
+    },
+    {
+      "case": 2003860,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    },
+    {
+      "case": 20100964,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 890,
+      "observed_alternate_periods": [
+        4
+      ],
+      "attracting_cycle_certificates": [
+        {
+          "period": 4,
+          "native_center": [
+            -0.09624896970895562,
+            -0.246083233149855,
+            0.3674313220404302
+          ],
+          "linear_chart": [
+            [
+              0.6626812963956614,
+              0.5788992890768705,
+              -0.08328038778729448
+            ],
+            [
+              0.0,
+              0.41711273571667373,
+              0.8127758363518144
+            ],
+            [
+              0.0,
+              0.0,
+              0.2161894852816638
+            ]
+          ],
+          "normalized_euclidean_ball_radius": 3.725290298461914e-09,
+          "uniform_derivative_norm_upper": 0.9986395426883278,
+          "normalized_center_return_error_upper_approximation": 3.8574399470648936e-16,
+          "sylvester_lower_approximations": [
+            0.43642249753201,
+            0.07382547903405297,
+            0.0017628278334550936
+          ],
+          "all_earlier_phases_disjoint": true,
+          "conclusion": "strict contraction on the closed ellipsoid; one attracting orbit of the stated least period"
+        }
+      ],
+      "example_starts": [
+        [
+          1.2235859629146573,
+          -0.9526184499113648,
+          -1.3729763192991413
+        ]
+      ]
+    },
+    {
+      "case": 2100947,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    },
+    {
+      "case": 2303546,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 1688,
+      "observed_alternate_periods": [
+        2,
+        24
+      ],
+      "attracting_cycle_certificates": [
+        {
+          "period": 2,
+          "native_center": [
+            -0.20258942444308742,
+            -0.33017855389718304,
+            0.2095874162103891
+          ],
+          "linear_chart": [
+            [
+              0.30405397346820195,
+              0.47790767088892416,
+              -0.4534814379933733
+            ],
+            [
+              0.0,
+              0.24061771393479786,
+              -0.4080607951782535
+            ],
+            [
+              0.0,
+              0.0,
+              0.6645254516745956
+            ]
+          ],
+          "normalized_euclidean_ball_radius": 3.725290298461914e-09,
+          "uniform_derivative_norm_upper": 0.996704094342709,
+          "normalized_center_return_error_upper_approximation": 1.1566052554364548e-16,
+          "sylvester_lower_approximations": [
+            0.08586495473232444,
+            0.002901113934678444,
+            0.0011268872760004578
+          ],
+          "all_earlier_phases_disjoint": true,
+          "conclusion": "strict contraction on the closed ellipsoid; one attracting orbit of the stated least period"
+        },
+        {
+          "period": 24,
+          "native_phase_centers": [
+            [
+              -0.3305661349194744,
+              0.1113397140023368,
+              0.38831075326008213
+            ],
+            [
+              -0.3116775897525561,
+              -0.18485890907827104,
+              -0.0073633578237617126
+            ],
+            [
+              -0.24997368330014738,
+              -0.05960544224989644,
+              0.18645345611602254
+            ],
+            [
+              -0.2378655234932025,
+              -0.19738382697713297,
+              0.16531273880573905
+            ],
+            [
+              -0.1471382850931364,
+              -0.17749327558252093,
+              0.28634752799786367
+            ],
+            [
+              -0.08933763089335935,
+              -0.2567228995252632,
+              0.3315331569283706
+            ],
+            [
+              -0.026294765693391092,
+              -0.11611123359436572,
+              0.460643774757809
+            ],
+            [
+              0.08238112190090122,
+              -0.19879344094049367,
+              0.47276757301246697
+            ],
+            [
+              -0.3988659354490284,
+              0.28532853807388375,
+              0.3094013476563321
+            ],
+            [
+              -0.27060753630978474,
+              -0.06126748237292666,
+              -0.19608489755631342
+            ],
+            [
+              -0.32809166528519124,
+              -0.021276485833261666,
+              0.09296108228538709
+            ],
+            [
+              -0.2596130856939807,
+              -0.10885763295360944,
+              0.0961124152342294
+            ],
+            [
+              -0.21365445439715436,
+              -0.15563845857808564,
+              0.21144204556900761
+            ],
+            [
+              -0.15524160700688888,
+              -0.2239275010443463,
+              0.2657285483218959
+            ],
+            [
+              -0.05491866130789058,
+              -0.20608061952921147,
+              0.37017831155111225
+            ],
+            [
+              0.03273235775997646,
+              -0.1636796793496635,
+              0.46397985060035485
+            ],
+            [
+              -0.22194056908832333,
+              0.051889161857132216,
+              0.5020033281406698
+            ],
+            [
+              -0.25031903789802346,
+              -0.3482694380162845,
+              0.10212717735401051
+            ],
+            [
+              -0.23625837269486927,
+              -0.04015731783051791,
+              0.3029469602474105
+            ],
+            [
+              -0.2532818134599526,
+              -0.24622759663124053,
+              0.13649502697417787
+            ],
+            [
+              -0.15569799513379984,
+              -0.13265106206186936,
+              0.30241339360728287
+            ],
+            [
+              -0.15120966715213335,
+              -0.2877704927515026,
+              0.2708097260318424
+            ],
+            [
+              -0.06775947798075246,
+              -0.11784184542359118,
+              0.41919472188833806
+            ],
+            [
+              -0.02878017512747999,
+              -0.29358850233314326,
+              0.39119558795783194
+            ]
+          ],
+          "native_cube_radius": 1.4551915228366852e-11,
+          "all_boxes_disjoint": true,
+          "root_contraction_upper_approximation": 3.5935921510604762e-06,
+          "characteristic_remainder_norm_upper_approximation": 0.4541366465172156,
+          "conclusion": "unique cyclic product-space root and all multipliers strictly inside the unit circle"
+        }
+      ],
+      "example_starts": [
+        [
+          -0.3702713418729897,
+          -1.357539349922222,
+          -0.795974610528142
+        ],
+        [
+          0.20543944616715412,
+          0.4076172477350067,
+          -0.22404869419182694
+        ]
+      ]
+    },
+    {
+      "case": 2303801,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    },
+    {
+      "case": 2401313,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    },
+    {
+      "case": 2503155,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    },
+    {
+      "case": 2602435,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    },
+    {
+      "case": 2603621,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 898,
+      "observed_alternate_periods": [
+        4
+      ],
+      "attracting_cycle_certificates": [
+        {
+          "period": 4,
+          "native_center": [
+            -0.1589117588740161,
+            -0.38426794633049727,
+            -0.3888903883425544
+          ],
+          "linear_chart": [
+            [
+              0.20959633514657788,
+              0.40765890162639823,
+              0.3771691164787034
+            ],
+            [
+              0.0,
+              0.8119458778126208,
+              0.1505244804102609
+            ],
+            [
+              0.0,
+              0.0,
+              0.5904233069429128
+            ]
+          ],
+          "normalized_euclidean_ball_radius": 3.725290298461914e-09,
+          "uniform_derivative_norm_upper": 0.9928267007856896,
+          "normalized_center_return_error_upper_approximation": 1.4467689233244541e-15,
+          "sylvester_lower_approximations": [
+            0.029633116921365363,
+            0.016735320546249547,
+            0.004755043155325281
+          ],
+          "all_earlier_phases_disjoint": true,
+          "conclusion": "strict contraction on the closed ellipsoid; one attracting orbit of the stated least period"
+        }
+      ],
+      "example_starts": [
+        [
+          0.8015718609565092,
+          -0.4212332527117151,
+          1.5294212637426563
+        ]
+      ]
+    },
+    {
+      "case": 2803715,
+      "initial_states": 4096,
+      "finite_negative_periodic_starts": 0,
+      "observed_alternate_periods": [],
+      "attracting_cycle_certificates": [],
+      "example_starts": []
+    }
+  ]
+}

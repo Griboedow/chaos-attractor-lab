@@ -1,0 +1,43 @@
+{
+  "hash": "BLAKE2b-128 over contiguous binary32 parameter storage, including surface selector. The common initial state is fixed.",
+  "rows": 3801088,
+  "distinct_digests": 3801088,
+  "duplicated_rows": 0,
+  "stages": [
+    {
+      "stage": "base-single",
+      "rows": 524288,
+      "distinct_digests": 524288
+    },
+    {
+      "stage": "perturbed-single",
+      "rows": 393216,
+      "distinct_digests": 393216
+    },
+    {
+      "stage": "base-linked",
+      "rows": 524288,
+      "distinct_digests": 524288
+    },
+    {
+      "stage": "perturbed-linked",
+      "rows": 393216,
+      "distinct_digests": 393216
+    },
+    {
+      "stage": "base-smooth",
+      "rows": 524288,
+      "distinct_digests": 524288
+    },
+    {
+      "stage": "perturbed-smooth",
+      "rows": 393216,
+      "distinct_digests": 393216
+    },
+    {
+      "stage": "evolved-single",
+      "rows": 1048576,
+      "distinct_digests": 1048576
+    }
+  ]
+}

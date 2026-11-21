@@ -1,0 +1,133 @@
+{
+  "case": 2503155,
+  "cover": {
+    "faces": [
+      -0.44791666666666674,
+      0.03125,
+      0.05208333333333326,
+      0.6354166666666665
+    ],
+    "side": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sampled_minimum_margin": 0.20436890777615013,
+    "case": 2503155,
+    "axis": 2,
+    "returns": 1,
+    "map_steps": 5
+  },
+  "regions": [
+    {
+      "kind": "face",
+      "side": 0,
+      "lo": [
+        -1.0,
+        -1.0,
+        -0.44791666666666674
+      ],
+      "hi": [
+        1.0,
+        1.0,
+        -0.44791666666666674
+      ],
+      "nodes": 15,
+      "leaves": 8,
+      "new_splits": 7,
+      "partition_zlib_base64": "eNpjZGRgZgYiKAUAAM8AHA=="
+    },
+    {
+      "kind": "face",
+      "side": 1,
+      "lo": [
+        -1.0,
+        -1.0,
+        0.03125
+      ],
+      "hi": [
+        1.0,
+        1.0,
+        0.03125
+      ],
+      "nodes": 15,
+      "leaves": 8,
+      "new_splits": 7,
+      "partition_zlib_base64": "eNpjZGRgZgYiKAUAAM8AHA=="
+    },
+    {
+      "kind": "face",
+      "side": 1,
+      "lo": [
+        -1.0,
+        -1.0,
+        0.05208333333333326
+      ],
+      "hi": [
+        1.0,
+        1.0,
+        0.05208333333333326
+      ],
+      "nodes": 15,
+      "leaves": 8,
+      "new_splits": 7,
+      "partition_zlib_base64": "eNpjZGRgZgYiKAUAAM8AHA=="
+    },
+    {
+      "kind": "face",
+      "side": 0,
+      "lo": [
+        -1.0,
+        -1.0,
+        0.6354166666666665
+      ],
+      "hi": [
+        1.0,
+        1.0,
+        0.6354166666666665
+      ],
+      "nodes": 7,
+      "leaves": 4,
+      "new_splits": 3,
+      "partition_zlib_base64": "eNpjZGRmBiIAADsAEA=="
+    },
+    {
+      "kind": "slab",
+      "side": null,
+      "lo": [
+        -1.0,
+        -1.0,
+        -0.44791666666666674
+      ],
+      "hi": [
+        1.0,
+        1.0,
+        0.03125
+      ],
+      "nodes": 6535,
+      "leaves": 3268,
+      "new_splits": 3267,
+      "partition_zlib_base64": "eNrtWIsOwyAILPj//zzFF2q0Wm1dItky6+A4D8QmIiLozwWolP6CUuHRDg0Tg9lBTy/9a0A0FCGCGzlxl84lYNciiug1lxiEwphVa3oVHoKfMYJbGw009ZNMdhEqSRDDtYLYBZWcwAG1WH3QqnmEOiZrljSUoDtrMWc87S14WdreVC9RO5LgdANNbAbf4DPF+WZDvUW/RL47mvyJkkwjHFM4LpOf0UMXfdJZUv4F/Df5f1v+E3rf/u40ZBsYeYiWeRK+md6YIfsrA7TNk/Dd9FL+/y7/nfxJevv+P7kD5ACQ8h9dfthcgN0JOFq+lP9s+dL/0v/79Sdze0s3TColH3zl22tQcicry34016rBEOgvkly8+IenuHzOv61zoXJUo/NHrjFVaO9QCMFMKmagKzk38X+6MzVP"
+    },
+    {
+      "kind": "slab",
+      "side": null,
+      "lo": [
+        -1.0,
+        -1.0,
+        0.05208333333333326
+      ],
+      "hi": [
+        1.0,
+        1.0,
+        0.6354166666666665
+      ],
+      "nodes": 6167,
+      "leaves": 3084,
+      "new_splits": 3083,
+      "partition_zlib_base64": "eNrtWIsOwyAI1PP//3kMrCLa2sUtayLpHkXkhDtdMwAg0hViSvTKX2wextCpTPKLkfjmJKCi0RVAozRE76QNaHR2ygfNyVDsgtymOpxjWhOMAUGR6RqDV5sUF6HyMHCDTJGru8pqlvRa+J+XhxAWD57khoZskpls3i9Wp7cZGuFWswq8R6PeobJyCjo75dTm9pKus38q//PL9zO9d/ku//blu/5+/F3+Pcv357//ALj8/vx3/f34P6H+cbQ00NQsF/0rf/p1Z5LN2jisLcmW+RqVdclAR7dTGk/X2B+l/yPqm8L6Nu3tRSw9XJ101goXLTnjCcpEQ5diFz35huduMYtVkDBJo7hLH9yYN8NP3fPO9KQrvxD+Ak4wMfA="
+    }
+  ],
+  "method": "outward binary64 intervals, rational trigonometric bounds"
+}
