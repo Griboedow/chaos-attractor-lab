@@ -1,0 +1,88 @@
+{
+  "box": {
+    "mode": "return",
+    "case_order": 14,
+    "center": [
+      [
+        -0.33288881371146856,
+        0.18852918114971287,
+        -0.48964466493276154
+      ]
+    ],
+    "basis": [
+      [
+        [
+          0.5333944098201173,
+          0.4009369767769464,
+          -0.7448086628293276
+        ],
+        [
+          0.8214924172232232,
+          -0.45539699143594636,
+          0.3431672895773056
+        ],
+        [
+          0.201595168636042,
+          0.7948981826901172,
+          0.5722728956874988
+        ]
+      ]
+    ],
+    "lo": [
+      [
+        -0.0002065843161688817,
+        -0.0002065843161688817,
+        -0.0068950762277234555
+      ]
+    ],
+    "hi": [
+      [
+        0.0002065843161688817,
+        0.0002065843161688817,
+        0.009056538849539848
+      ]
+    ],
+    "sampled_return_margin": 0.056345349388242094,
+    "sampled_avoidance_margin": 436.3238994388332,
+    "passes": 2,
+    "dimension_floor": 0.03,
+    "case": 2000254,
+    "params": [
+      0.5416015480947617,
+      -0.4153357143345528,
+      -0.5885881672588562,
+      2.4441123916862626,
+      -0.6693137878770017,
+      0.4029123362684042,
+      0.6889532376787297,
+      3.8441853078382775,
+      -19.53980750285978,
+      28.72584278427118
+    ],
+    "source_phase": 2,
+    "dense_return_margin": 0.05634534938824143,
+    "dense_avoidance_margin": 436.32389943883317,
+    "selection_score": 0.016252112377396002
+  },
+  "directed": {
+    "case": 2000254,
+    "map_order": 14,
+    "nodes": 59,
+    "leaves": 30,
+    "box_digest": "d4dd86c9785cde3df62938682dfd45f16ca5a671b97db9ccb4b686e82d4a6ed5",
+    "partition_zlib_base64": "eNpjYmJiYmZmYgYREBYznMLgI3GBBAARTwCV",
+    "method": "directed IEEE interval arithmetic, centered telescoping tangent products",
+    "complete_avoidance_for_every_earlier_iterate": true,
+    "strict_full_return": true
+  },
+  "arb": {
+    "case": 2000254,
+    "components": 14,
+    "precision_bits": 150,
+    "replayed_nodes": 59,
+    "accepted_leaves": 34,
+    "extra_splits": 4,
+    "all_earlier_phases_disjoint": true,
+    "strict_last_return": true
+  }
+}

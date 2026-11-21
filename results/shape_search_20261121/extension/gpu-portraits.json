@@ -1,0 +1,28 @@
+[
+  {
+    "id": "shapes-20261121-extension-gpu",
+    "title": "Twin density peaks and alternating spatial lobes",
+    "group": "Shape search of 2026-11-21",
+    "track": "extension-gpu",
+    "view": [
+      35.264,
+      45
+    ],
+    "pca_camera": true,
+    "featured": true,
+    "description": "Cases 409700 and 2298665 have three positive numerical Lyapunov exponents in three-dimensional maps with deformed torus projections. The two density peaks of Case 409700 occasionally repeat on consecutive steps. In Case 2298665 a plane separates the odd and even states of the displayed sample.",
+    "coordinates": "Native Cartesian states with a principal-axis camera and equal axis scales. The displayed clouds contain 250,000 consecutive iterations per case.",
+    "cases": [
+      {
+        "case": 409700,
+        "cloud": "extension/projection/clouds/affine-409700.npz",
+        "reproduce": "python research/shape_search_20261121/extension/projection/replay.py --record results/shape_search_20261121/extension/projection/cases/case-409700.json --cloud RUN/extension/projection/clouds/affine-409700.npz"
+      },
+      {
+        "case": 2298665,
+        "cloud": "extension/projection/clouds/affine-2298665.npz",
+        "reproduce": "python research/shape_search_20261121/extension/projection/replay.py --record results/shape_search_20261121/extension/projection/cases/case-2298665.json --cloud RUN/extension/projection/clouds/affine-2298665.npz"
+      }
+    ]
+  }
+]

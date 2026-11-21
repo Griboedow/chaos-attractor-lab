@@ -1,0 +1,28 @@
+[
+  {
+    "id": "shapes-20261121-extension-components",
+    "title": "Fourteen and twelve connected components",
+    "group": "Shape search of 2026-11-21",
+    "track": "extension-maps",
+    "view": [
+      35.264,
+      45
+    ],
+    "pca_camera": true,
+    "featured": false,
+    "description": "Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and twelve connected components. Each component contains at least two distinct points, as verified by an isolated orbit of twice the return period. The images show sampled trajectories at these parameters.",
+    "coordinates": "Native three-axis twist coordinates, shown at equal axis scales with a principal-axis camera.",
+    "cases": [
+      {
+        "case": 2000254,
+        "cloud": "extension/maps/clouds/2000254.npz",
+        "reproduce": "Regenerate the native cloud from the case record using the commands in results/shape_search_20261121/extension/maps/README.md."
+      },
+      {
+        "case": 2302642,
+        "cloud": "extension/maps/clouds/2302642.npz",
+        "reproduce": "Regenerate the native cloud from the case record using the commands in results/shape_search_20261121/extension/maps/README.md."
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "shapes-20261121-brunnian",
+    "title": "Three coexisting solenoids with inseparable triple links",
+    "group": "Shape search of 2026-11-21",
+    "track": "brunnian",
+    "view": [
+      41,
+      16
+    ],
+    "featured": false,
+    "description": "Cases 30300001 and 30300007 each contain three chaotic solenoids. Removing any one leaves the other two separated by a sphere. Their triple cannot be separated by a sphere. The two compact triples are inequivalent under ambient homeomorphisms.",
+    "coordinates": "Native Cartesian positions at equal axis scales. Each panel combines 40,000 states from each of three attracting tubes.",
+    "cases": [
+      {
+        "case": 30300001,
+        "cloud": "extension/brunnian/case-30300001.npz",
+        "reproduce": "python research/shape_search_20261121/extension/brunnian/sample.py results/shape_search_20261121/extension/brunnian/designs.json --cases 30300001 --out RUN/extension/brunnian --manifest RUN/brunnian-replay.json"
+      },
+      {
+        "case": 30300007,
+        "cloud": "extension/brunnian/case-30300007.npz",
+        "reproduce": "python research/shape_search_20261121/extension/brunnian/sample.py results/shape_search_20261121/extension/brunnian/designs.json --cases 30300007 --out RUN/extension/brunnian --manifest RUN/brunnian-replay.json"
+      }
+    ]
+  }
+]

@@ -61,7 +61,8 @@ def update():
     start,end="<!-- campaign-totals -->","<!-- /campaign-totals -->"
     section=start+"\n"+"\n".join(lines)+"\n"+end+"\n\n"
     s=re.sub(re.escape(start)+".*?"+re.escape(end)+"\n\n","",s,flags=re.S)
-    s=s.replace("## A knotted chaotic band",section+"## A knotted chaotic band")
+    anchor="## Follow-up search" if "## Follow-up search" in s else "## A knotted chaotic band"
+    s=s.replace(anchor,section+anchor,1)
     doc.write_text(s,encoding="utf-8",newline="\n")
     return summary
 

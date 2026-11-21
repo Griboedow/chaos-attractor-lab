@@ -25,6 +25,34 @@ The campaign screened at least **4,312,081 distinct parameter settings** across 
 The Fourier count merges proportional coefficient lists before normalization and gives a lower bound. Local sweeps used solely to locate bifurcations and replicate trajectories are excluded from the design total.
 <!-- /campaign-totals -->
 
+## Follow-up search
+
+The next 17-minute run continued from revision `6610acc`. The follow-up archive includes 80 constructed solenoid triples, 78 projection clouds, nine three-axis twist clouds and eight flow samples. Each new sample was checked against its source checksum, the previous 636 samples and 177 labeled references. The table above describes the first two hours. [Follow-up geometry counts](../results/shape_search_20261121/extension/geometry-totals.json) · [Nearest geometric matches](../results/shape_search_20261121/extension/geometry-comparison.json.gz)
+
+### Seven attracting cycles and a new doubled orbit
+
+Continuation of the symmetry-breaking branch in Case 180844 found a saddle-node near e = −0.356574826410, followed by period doubling near −0.356571312071. Across this interval of width approximately 0.00000351434, seven rotated copies of one numerical cycle attract nearby starts. At the original chaotic coefficient the partner branch adds seven further distinct periodic orbits, bringing the numerical lower bound from twelve to **nineteen**. Two further steps on the original period-doubling path produced attracting orbits of orders 32 and 64. Their periods are 853.85685 and 1707.71796, with transverse multipliers about +0.34439 and +0.37162. The full observed sequence runs from 1 through 64 by successive doublings. The flow bifurcations and orbit counts are numerical. [Flow branch and solver checks](../results/shape_search_20261121/extension/flows/README.md)
+
+### Additional rigorously separated components
+
+Independent interval arithmetic verified local attracting sets with each of the exact component counts **8 through 14** across nine cases. For all nine parameter sets, an independently isolated orbit of twice the return period forces at least two distinct points in every component. Thus all components are nontrivial connected compact sets. For Case 2000254 the recorded initial state enters the certified 14-way trap at step 57. [Trapping and separation certificates](../results/shape_search_20261121/extension/maps/traps) · [Noncollapse certificates](../results/shape_search_20261121/extension/maps/noncollapse)
+
+The nine trapping proofs concern previously screened coefficients. A separate search of 1,920 parameter vectors verified as new against all 175,104 previous twist designs isolated attracting cycles at 26 new vectors. Fourteen have at least two distinct certified sinks. Examples include pairs of least periods (4, 348) and (29, 232). The lower bound on the Hausdorff dimension of the original five-component Case 2503155 now exceeds 1.041063 throughout the same ten-parameter block. [Twist follow-up and results](../results/shape_search_20261121/extension/maps/README.md)
+
+### Alternating lobes in hyperchaotic candidates
+
+Two additional projection families screened **2,359,296** configurations on the GTX 1080: 1,572,864 for affine deformations and 786,432 with an added quadratic shear. Seventy-eight passed the independent numerical selection for three positive exponents. In Case 409700 the smallest third exponent across twenty five-million-step windows was 0.01642. In Case 2298665 the 250,000-point portrait alternates strictly between two half-spaces. A longer run found 791 consecutive pairs in the same half-space among 49,999,999 transitions. The half-space alternation held for 99.9984% of those transitions. [Projection cases and spectra](../results/shape_search_20261121/extension/projection/README.md)
+
+### Three chaotic sets linked only as a triple
+
+Eighty explicit maps have three coexisting solenoidal attractors. Removing any one allows the remaining two to be separated by a sphere. With all three present, no sphere in their complement separates one from another. An integer derived from the Milnor triple invariant of their trapping tubes distinguishes at least **68 ambient homeomorphism types of the limiting compact triples**. The three internal dynamics and their individual Hausdorff dimensions, approximately 1.30755, 1.48745 and 1.71410, stay fixed across all cases. The search enumerated 217,690 balanced braid words, then added a family of integer lattice paths. [Proof, code and results](../results/shape_search_20261121/extension/brunnian/README.md)
+
+![Two configurations of three individually colored chaotic solenoids and their braid diagrams](assets/shape-search-20261121-brunnian.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
 ## A knotted chaotic band
 
 Case 180844 is a three-dimensional autonomous flow. Five numerical starts led to a band surrounding a periodic orbit of the same equation and parameters. Two trajectories each ran for 100,000 time units. The largest finite-time Lyapunov exponent remained between 0.08797 and 0.09466 in all 40 windows. In the primary cloud, the 95th-percentile distance to the polygonal orbit was 3.90% of the cloud's root-mean-square radius. Independent adaptive RK45 and DOP853 samples reproduced that distance within 0.03 percentage points. The figure uses both trajectories in their original coordinates. [Flow results, equations and controls](../results/shape_search_20261121/flows/README.md)

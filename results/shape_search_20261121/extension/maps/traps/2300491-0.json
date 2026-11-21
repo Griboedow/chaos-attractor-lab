@@ -1,0 +1,88 @@
+{
+  "box": {
+    "mode": "return",
+    "case_order": 10,
+    "center": [
+      [
+        0.01968488889517326,
+        -0.4554655480595949,
+        -0.4300707214519269
+      ]
+    ],
+    "basis": [
+      [
+        [
+          0.2700875964859366,
+          0.0187501964523772,
+          -0.9626531672193512
+        ],
+        [
+          0.9583904449304567,
+          0.09072802870807067,
+          0.27065878864864146
+        ],
+        [
+          -0.09241452965011689,
+          0.9956991789389731,
+          -0.006534506087142611
+        ]
+      ]
+    ],
+    "lo": [
+      [
+        -0.0001345384195987161,
+        -0.0016126497869230036,
+        -0.026907683919743217
+      ]
+    ],
+    "hi": [
+      [
+        0.0001345384195987161,
+        0.0027190230226381835,
+        0.03455290513275814
+      ]
+    ],
+    "sampled_return_margin": 0.0521209657550501,
+    "sampled_avoidance_margin": 3.5884222101925394,
+    "passes": 2,
+    "dimension_floor": 0.005,
+    "case": 2300491,
+    "params": [
+      0.5440115656344597,
+      -1.5951763225102398,
+      -0.31720021686130445,
+      -1.6259374603674477,
+      0.14078715329765962,
+      -0.9093761794224656,
+      -2.207788311233357,
+      -3.0064510485821336,
+      4.085708776621947,
+      17.10859211349714
+    ],
+    "source_phase": 4,
+    "dense_return_margin": 0.05212096575503811,
+    "dense_avoidance_margin": 3.588422210192525,
+    "selection_score": 0.009752906422111433
+  },
+  "directed": {
+    "case": 2300491,
+    "map_order": 10,
+    "nodes": 391,
+    "leaves": 196,
+    "box_digest": "87cbe3ccdbf45ff0355fc06fca74d9930a1b6d1448cb17de1488eaf519e3b4c7",
+    "partition_zlib_base64": "eNptUAESwDAEI/7/5zFiLetdLwlRuQJxFGpmMHMIGoCDklAP2YUaI5zNfA6k4MYewCV6fK7StGg79LboyvoVxIlfeV1FEpb87ftOL2QAYQ52sHqYXkH9kmQm6ZgPopgDWQ==",
+    "method": "directed IEEE interval arithmetic, centered telescoping tangent products",
+    "complete_avoidance_for_every_earlier_iterate": true,
+    "strict_full_return": true
+  },
+  "arb": {
+    "case": 2300491,
+    "components": 10,
+    "precision_bits": 150,
+    "replayed_nodes": 391,
+    "accepted_leaves": 563,
+    "extra_splits": 367,
+    "all_earlier_phases_disjoint": true,
+    "strict_last_return": true
+  }
+}

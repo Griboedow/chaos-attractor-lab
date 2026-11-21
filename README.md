@@ -510,6 +510,24 @@ Equal-unit spatial projection of consecutive map states. [Equations, controls an
 Cases 6616162 and 6583985 have three positive finite-time Lyapunov exponents in all three native coordinates. Their five-million-update spectra are approximately (0.265, 0.132, 0.021) and (0.229, 0.115, 0.026). All 17 starts showed growth in each direction.
 
 Each panel uses equal physical units and the same camera in its signed principal-axis frame. The saved camera matrices specify both views in native coordinates. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Twin density peaks and alternating spatial lobes
+
+![Twin density peaks and alternating spatial lobes in rotation](docs/assets/portraits/shapes-20261121-extension-gpu.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-21**.*
+<!-- /drawing-date -->
+
+![Twin density peaks and alternating spatial lobes](docs/assets/portraits/shapes-20261121-extension-gpu.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Cases 409700 and 2298665 have three positive numerical Lyapunov exponents in three-dimensional maps with deformed torus projections. The two density peaks of Case 409700 occasionally repeat on consecutive steps. In Case 2298665 a plane separates the odd and even states of the displayed sample.
+
+Native Cartesian states with a principal-axis camera and equal axis scales. The displayed clouds contain 250,000 consecutive iterations per case. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-selected -->
 
 ## Further portraits
@@ -881,6 +899,30 @@ Native spatial states on one circuit of each periodic orbit. [Equations, control
 Cases 2303801 and 2401313 each have a rigorously trapped local attracting set. Their component counts are four and five, respectively, so the two sets are topologically distinguishable.
 
 Both panels show long numerical trajectories in the original three-coordinate maps. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Three coexisting solenoids with inseparable triple links
+
+![Three coexisting solenoids with inseparable triple links](docs/assets/portraits/shapes-20261121-brunnian.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Cases 30300001 and 30300007 each contain three chaotic solenoids. Removing any one leaves the other two separated by a sphere. Their triple cannot be separated by a sphere. The two compact triples are inequivalent under ambient homeomorphisms.
+
+Native Cartesian positions at equal axis scales. Each panel combines 40,000 states from each of three attracting tubes. [Equations, controls and prior work](docs/shape-search-20261121.md)
+
+### Fourteen and twelve connected components
+
+![Fourteen and twelve connected components](docs/assets/portraits/shapes-20261121-extension-components.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-21**.*
+<!-- /drawing-date -->
+
+Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and twelve connected components. Each component contains at least two distinct points, as verified by an isolated orbit of twice the return period. The images show sampled trajectories at these parameters.
+
+Native three-axis twist coordinates, shown at equal axis scales with a principal-axis camera. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-additional -->
 
 ## Research index

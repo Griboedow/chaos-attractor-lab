@@ -1,0 +1,88 @@
+{
+  "box": {
+    "mode": "return",
+    "case_order": 13,
+    "center": [
+      [
+        -0.1112278163662196,
+        -0.03112224906365641,
+        -0.00018905015231026104
+      ]
+    ],
+    "basis": [
+      [
+        [
+          0.2702278909190508,
+          0.9341855688062544,
+          -0.23296825964834048
+        ],
+        [
+          0.6625689130660753,
+          -0.004875741588375365,
+          0.7489850883578407
+        ],
+        [
+          0.6985551677626338,
+          -0.3567541873308545,
+          -0.6202798782920661
+        ]
+      ]
+    ],
+    "lo": [
+      [
+        -0.0019189218955400385,
+        -0.0042944755094528,
+        -0.022939730157250787
+      ]
+    ],
+    "hi": [
+      [
+        0.0018351784125800628,
+        0.0018351784125800628,
+        0.03152140265697942
+      ]
+    ],
+    "sampled_return_margin": 0.03609415466655874,
+    "sampled_avoidance_margin": 3.668888387262861,
+    "passes": 3,
+    "dimension_floor": 0.08,
+    "case": 2102331,
+    "params": [
+      0.6238071942632857,
+      0.7721377400524392,
+      -2.4225609775798076,
+      2.3347675110056225,
+      -1.0832563795604893,
+      0.20412603863401352,
+      -10.69810067415478,
+      -3.6512880466043747,
+      -0.9823456430412899,
+      -4.73728222671884
+    ],
+    "source_phase": 2,
+    "dense_return_margin": 0.03609415466655863,
+    "dense_avoidance_margin": 3.668888387262858,
+    "selection_score": 0.00637408532221097
+  },
+  "directed": {
+    "case": 2102331,
+    "map_order": 13,
+    "nodes": 4735,
+    "leaves": 2368,
+    "box_digest": "a69bcbd7171e5e32bee48f9a207f87514540a49d10e430ae23cc36c5eb76bc8f",
+    "partition_zlib_base64": "eNrtV40SgyAIRnr/d542MgHts9HN293WrkL8APnTmPMv5Ys40bblvzwMebIbVn79CFZuBSnD+8OQiH3D4C77gHN+NXMyPSnkziKoN0Ec/7kfHnHjF9VXtRmphzQJ2EH4YvUZPiFB0lTyTtOW/ay44h4mFUdNFvvlZS8fdllVFZ3wVr6Z78j9elemaNAkYHu41DlhuKwf1H2lRa7vL/MiRnBupI8V7YIYiApYMu+Mmt2POoJ7zcK14Sv2Aw4gk346nZpAeWYTRgAesF2uVZwerq1tLG+mM3LQ4DAcTjjpYr9sMzKk21Iydc/iBN+mTbfoDyctsNtm+c62YXdTtNle46lKOOxtjCdOpknYnlGFyGGlnoAuSiN4BkvcOwC5YCjaliLgE9opwATAvgX3bk/f0z8O+5WB6AAcT4DFBsTwUfhi/euXf8R/2Jj+8Z/VPzogrnYB+HT5uRqw6wELJPitBRQgATH9HLU/Bn8BYa8kPQ==",
+    "method": "directed IEEE interval arithmetic, centered telescoping tangent products",
+    "complete_avoidance_for_every_earlier_iterate": true,
+    "strict_full_return": true
+  },
+  "arb": {
+    "case": 2102331,
+    "components": 13,
+    "precision_bits": 150,
+    "replayed_nodes": 4735,
+    "accepted_leaves": 2434,
+    "extra_splits": 66,
+    "all_earlier_phases_disjoint": true,
+    "strict_last_return": true
+  }
+}

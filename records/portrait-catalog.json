@@ -1673,6 +1673,128 @@
           "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-three-6583985.json"
         }
       ]
+    },
+    {
+      "id": "shapes-20261121-brunnian",
+      "title": "Three coexisting solenoids with inseparable triple links",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-brunnian.png",
+      "description": "Cases 30300001 and 30300007 each contain three chaotic solenoids. Removing any one leaves the other two separated by a sphere. Their triple cannot be separated by a sphere. The two compact triples are inequivalent under ambient homeomorphisms.",
+      "coordinates": "Native Cartesian positions at equal axis scales. Each panel combines 40,000 states from each of three attracting tubes.",
+      "featured": false,
+      "projection": [
+        [
+          -0.27563735581699916,
+          0.9612616959383189,
+          0.0
+        ],
+        [
+          -0.6306444148430618,
+          -0.18083437601081143,
+          0.754709580222772
+        ]
+      ],
+      "panels": [
+        {
+          "label": "30300001",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-brunnian-30300001-1008b665318a.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "30300007",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-brunnian-30300007-e12a3fe30361.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-extension-gpu",
+      "title": "Twin density peaks and alternating spatial lobes",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-extension-gpu.png",
+      "description": "Cases 409700 and 2298665 have three positive numerical Lyapunov exponents in three-dimensional maps with deformed torus projections. The two density peaks of Case 409700 occasionally repeat on consecutive steps. In Case 2298665 a plane separates the odd and even states of the displayed sample.",
+      "coordinates": "Native Cartesian states with a principal-axis camera and equal axis scales. The displayed clouds contain 250,000 consecutive iterations per case.",
+      "featured": true,
+      "projection": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.4082443637525729,
+          -0.4082443637525729,
+          0.8165005076106897
+        ]
+      ],
+      "panels": [
+        {
+          "label": "409700",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-gpu-409700-588f3ea7330c.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "2298665",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-gpu-2298665-aa5ca9b59b00.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/shape_search_20261121/clouds/extension-gpu-409700.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-extension-gpu-409700.json"
+        },
+        {
+          "source": "results/shape_search_20261121/clouds/extension-gpu-2298665.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-extension-gpu-2298665.json"
+        }
+      ]
+    },
+    {
+      "id": "shapes-20261121-extension-components",
+      "title": "Fourteen and twelve connected components",
+      "group": "Shape search of 2026-11-21",
+      "report": "docs/shape-search-20261121.md",
+      "source_portrait": "docs/assets/portraits/shapes-20261121-extension-components.png",
+      "description": "Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and twelve connected components. Each component contains at least two distinct points, as verified by an isolated orbit of twice the return period. The images show sampled trajectories at these parameters.",
+      "coordinates": "Native three-axis twist coordinates, shown at equal axis scales with a principal-axis camera.",
+      "featured": false,
+      "projection": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.4082443637525729,
+          -0.4082443637525729,
+          0.8165005076106897
+        ]
+      ],
+      "panels": [
+        {
+          "label": "2000254",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-components-2000254-0fb4274bd031.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "2302642",
+          "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-components-2302642-1fb95972af24.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
     }
   ]
 }

@@ -112,7 +112,7 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 10221403435,
+  "removed_bytes": 10237671799,
   "compact_bytes": 83019852,
   "files": [
     {
@@ -198705,6 +198705,476 @@
       "bytes": 66011,
       "git_blob": null,
       "sha256": "c56423c09adae912a7ffb3cd0cc5a80d40e7f9be9061fe1bb238af5556218169",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/brunnian-30300001.npz",
+      "bytes": 2785464,
+      "git_blob": null,
+      "sha256": "1ace6f0b2b53d655e56abddfb9360b62ae71ee7694ad3a28e928ff2c7ae4e36c",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            120000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2880000,
+          "retained": false
+        },
+        {
+          "key": "component",
+          "shape": [
+            120000
+          ],
+          "dtype": "int8",
+          "bytes": 120000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/extension/brunnian/sample.py results/shape_search_20261121/extension/brunnian/designs.json --cases 30300001 --out RUN/extension/brunnian --manifest RUN/brunnian-replay.json"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-brunnian-30300001-1008b665318a.npz",
+      "bytes": 58079,
+      "git_blob": null,
+      "sha256": "1008b665318a77ce2a28886ba0dc8c28bdca54c8fd1765f591f612929a41a4d0",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/brunnian-30300007.npz",
+      "bytes": 2785550,
+      "git_blob": null,
+      "sha256": "5411f55c01e9a4fbff7da4d6ee637c400978af2af88bce394e6660a4209bab65",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            120000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2880000,
+          "retained": false
+        },
+        {
+          "key": "component",
+          "shape": [
+            120000
+          ],
+          "dtype": "int8",
+          "bytes": 120000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/extension/brunnian/sample.py results/shape_search_20261121/extension/brunnian/designs.json --cases 30300007 --out RUN/extension/brunnian --manifest RUN/brunnian-replay.json"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-brunnian-30300007-e12a3fe30361.npz",
+      "bytes": 63303,
+      "git_blob": null,
+      "sha256": "e12a3fe3036198b2c2045c6e1cac79bc8aab06a7338fdb7c02f12df68ac0c40b",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/extension-gpu-409700.npz",
+      "bytes": 2724452,
+      "git_blob": null,
+      "sha256": "ec99479f27fe9c23aabc7f6f7166712a3186290b4f05cda8762b7dbcd07c6ee5",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/extension/projection/replay.py --record results/shape_search_20261121/extension/projection/cases/case-409700.json --cloud RUN/extension/projection/clouds/affine-409700.npz"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-extension-gpu-409700-588f3ea7330c.npz",
+      "bytes": 30842,
+      "git_blob": null,
+      "sha256": "588f3ea7330c94b025ccbeb9b352ee2658f0659f51670e5e80f7ac118d762da8",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/extension-gpu-2298665.npz",
+      "bytes": 2680700,
+      "git_blob": null,
+      "sha256": "9c65ad5237311873be62475e8b1ab5dd5b44496fbc052a9c1225ff2df80266b2",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            250000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 3000000,
+          "retained": false
+        },
+        {
+          "key": "case",
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/shape_search_20261121/extension/projection/replay.py --record results/shape_search_20261121/extension/projection/cases/case-2298665.json --cloud RUN/extension/projection/clouds/affine-2298665.npz"
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-extension-gpu-2298665-aa5ca9b59b00.npz",
+      "bytes": 51126,
+      "git_blob": null,
+      "sha256": "aa5ca9b59b0031c1849d290dde9cfe442ba56e5928ff81b98e74f9474cf32a67",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/extension-maps-2000254.npz",
+      "bytes": 2559548,
+      "git_blob": null,
+      "sha256": "07383c56090776be2fe234b0aa169a63801a3b7fc27f4f2f226c8e257bedc40a",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 2880000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the native cloud from the case record using the commands in results/shape_search_20261121/extension/maps/README.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-extension-components-2000254-0fb4274bd031.npz",
+      "bytes": 3694,
+      "git_blob": null,
+      "sha256": "0fb4274bd031558320c4324d3df98dc63e4a2be2945b04003c44884313ea2c79",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            760,
+            760
+          ],
+          "dtype": "uint32",
+          "bytes": 2310400,
+          "retained": false
+        },
+        {
+          "key": "projection",
+          "shape": [
+            2,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "center",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        },
+        {
+          "key": "half_width",
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/extension-maps-2302642.npz",
+      "bytes": 2521391,
+      "git_blob": null,
+      "sha256": "913ce3e232538460d745d2d1cd117b0ed3378ea536d2b6d77160598189a20588",
+      "group": "shape-search-20261121",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            240000,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 2880000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "Regenerate the native cloud from the case record using the commands in results/shape_search_20261121/extension/maps/README.md."
+    },
+    {
+      "path": "results/shape_search_20261121/clouds/shapes-20261121-extension-components-2302642-1fb95972af24.npz",
+      "bytes": 4215,
+      "git_blob": null,
+      "sha256": "1fb95972af248d2e93578d0ca502a6e3808d5e119bff5b6e40db780dbdf9a582",
       "group": "shape-search-20261121",
       "compact": null,
       "arrays": [

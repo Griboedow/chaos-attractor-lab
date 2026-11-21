@@ -1,0 +1,88 @@
+{
+  "box": {
+    "mode": "return",
+    "case_order": 13,
+    "center": [
+      [
+        -0.41598719787810834,
+        0.1506784675906605,
+        0.0015194044200048625
+      ]
+    ],
+    "basis": [
+      [
+        [
+          0.6967778360332088,
+          0.7172862359227506,
+          -0.001050223143607589
+        ],
+        [
+          0.6283448374945741,
+          -0.6110842862778519,
+          -0.48141329464214594
+        ],
+        [
+          0.34595290489717884,
+          -0.3347782113878686,
+          0.8764930899745551
+        ]
+      ]
+    ],
+    "lo": [
+      [
+        -6.90289236003052e-05,
+        -0.0006641967633021948,
+        -0.0053704032275981315
+      ]
+    ],
+    "hi": [
+      [
+        6.90289236003052e-05,
+        0.001257919485618687,
+        0.0023009641200101736
+      ]
+    ],
+    "sampled_return_margin": 0.03479772040225959,
+    "sampled_avoidance_margin": 24.39902518195124,
+    "passes": 3,
+    "dimension_floor": 0.03,
+    "case": 2700304,
+    "params": [
+      0.614136764454842,
+      -0.17744404813745687,
+      -2.170235052008154,
+      -2.130484387112358,
+      1.1130775876290155,
+      -11.686607139253201,
+      -6.958460015649273,
+      15.469178989721676,
+      -19.216870053472093,
+      16.11675815002379
+    ],
+    "source_phase": 12,
+    "dense_return_margin": 0.03479772040221607,
+    "dense_avoidance_margin": 24.399025181951238,
+    "selection_score": 0.0035966928438096227
+  },
+  "directed": {
+    "case": 2700304,
+    "map_order": 13,
+    "nodes": 2391,
+    "leaves": 1196,
+    "box_digest": "ddae977097846c95c01bfb92f186e513d4d4f97ace1829cea7ae625d78d22cd1",
+    "partition_zlib_base64": "eNq1VgcOwCAIrOf//9yFI4RZbdpE0bKOgxRAaU+t10sLE53rW30Srq2iMtsLOlTcLUZLQY5YZ9G5loJ/t0GcGEYCcIKDEnfhYNNNCbCNExVZumgHz1rq8aTFlUgWw8oWbLXiJhkd2/udZ5Nf5et39dm9fN2J9X5Tt/QXOkmVcTJInG3WD9XLDLef6jWBEQPQYTxY2RAcV8rYi6b8E0FbXFBb2LYggrGljDniWAapqqxwPIVkC3qAOi0Dc2TCSc6EhWvzTGUUJAoPN92q8XsBM9RQHCf1/BTw",
+    "method": "directed IEEE interval arithmetic, centered telescoping tangent products",
+    "complete_avoidance_for_every_earlier_iterate": true,
+    "strict_full_return": true
+  },
+  "arb": {
+    "case": 2700304,
+    "components": 13,
+    "precision_bits": 150,
+    "replayed_nodes": 2391,
+    "accepted_leaves": 1213,
+    "extra_splits": 17,
+    "all_earlier_phases_disjoint": true,
+    "strict_last_return": true
+  }
+}

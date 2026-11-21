@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "3b7ae64a904e1b54a7b5d2bfc302f70baa1a98d5d4c31eed41f2f2ef7050ce6b",
+  "catalog_sha256": "e1ceaa2fdba0203515d8df0cb5b7ce6deff6c574b8787ccf75a459ef3eacc72f",
   "size": [
     1920,
     1080
@@ -3653,6 +3653,237 @@
           "log_saturation": 3.091042453358316,
           "occupied_bins": 67855,
           "display_label": "Case 6583985"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-brunnian",
+      "file": "docs/assets/portraits/shapes-20261121-brunnian.png",
+      "sha256": "63adb5616a3c71f431f472cb04913e88e29dfa19ff75f8d1f3069afe4ef69ad3",
+      "panels": [
+        {
+          "input": {
+            "label": "30300001",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-brunnian-30300001-1008b665318a.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "1008b665318a77ce2a28886ba0dc8c28bdca54c8fd1765f591f612929a41a4d0",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 120000,
+          "nonempty_crop": [
+            [
+              137,
+              22
+            ],
+            [
+              621,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            1
+          ],
+          "rendered_count": 120000,
+          "log_saturation": 4.787491742782046,
+          "occupied_bins": 15693,
+          "display_label": "Case 30300001"
+        },
+        {
+          "input": {
+            "label": "30300007",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-brunnian-30300007-e12a3fe30361.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "e12a3fe3036198b2c2045c6e1cac79bc8aab06a7338fdb7c02f12df68ac0c40b",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 120000,
+          "nonempty_crop": [
+            [
+              125,
+              21
+            ],
+            [
+              622,
+              738
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 120000,
+          "log_saturation": 4.251121947887679,
+          "occupied_bins": 18810,
+          "display_label": "Case 30300007"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-extension-gpu",
+      "file": "docs/assets/portraits/shapes-20261121-extension-gpu.png",
+      "sha256": "562655102bb4f83a9e2e40efc9d725ed4e57adefe398537c06e8e01c77d33fc6",
+      "panels": [
+        {
+          "input": {
+            "label": "409700",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-gpu-409700-588f3ea7330c.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "588f3ea7330c94b025ccbeb9b352ee2658f0659f51670e5e80f7ac118d762da8",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              200,
+              181
+            ],
+            [
+              587,
+              739
+            ]
+          ],
+          "empty_margin": 23,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 5.359901574907869,
+          "occupied_bins": 20592,
+          "display_label": "Case 409700"
+        },
+        {
+          "input": {
+            "label": "2298665",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-gpu-2298665-aa5ca9b59b00.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "aa5ca9b59b0031c1849d290dde9cfe442ba56e5928ff81b98e74f9474cf32a67",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 250000,
+          "nonempty_crop": [
+            [
+              86,
+              42
+            ],
+            [
+              698,
+              739
+            ]
+          ],
+          "empty_margin": 28,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 250000,
+          "log_saturation": 3.871201010907891,
+          "occupied_bins": 44019,
+          "display_label": "Case 2298665"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "shapes-20261121-extension-components",
+      "file": "docs/assets/portraits/shapes-20261121-extension-components.png",
+      "sha256": "19b1ae53b75c891f2cef6d9c2a01af30ff8212354e1dbddae329a577d16718a0",
+      "panels": [
+        {
+          "input": {
+            "label": "2000254",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-components-2000254-0fb4274bd031.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "0fb4274bd031558320c4324d3df98dc63e4a2be2945b04003c44884313ea2c79",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              189,
+              23
+            ],
+            [
+              601,
+              739
+            ]
+          ],
+          "empty_margin": 29,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 9.528678501727551,
+          "occupied_bins": 70,
+          "display_label": "Case 2000254"
+        },
+        {
+          "input": {
+            "label": "2302642",
+            "source": "results/shape_search_20261121/clouds/shapes-20261121-extension-components-2302642-1fb95972af24.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "1fb95972af248d2e93578d0ca502a6e3808d5e119bff5b6e40db780dbdf9a582",
+          "original_shape": [
+            760,
+            760
+          ],
+          "original_count": 240000,
+          "nonempty_crop": [
+            [
+              136,
+              21
+            ],
+            [
+              550,
+              648
+            ]
+          ],
+          "empty_margin": 26,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 240000,
+          "log_saturation": 8.81529490250575,
+          "occupied_bins": 248,
+          "display_label": "Case 2302642"
         }
       ],
       "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",

@@ -1,0 +1,88 @@
+{
+  "box": {
+    "mode": "return",
+    "case_order": 8,
+    "center": [
+      [
+        0.81492098563044,
+        0.26466309891338063,
+        0.011399877513254997
+      ]
+    ],
+    "basis": [
+      [
+        [
+          0.023919614589445828,
+          0.8616497778980445,
+          -0.506939357602212
+        ],
+        [
+          0.8596822716040454,
+          0.2410949416798558,
+          0.45035499440563
+        ],
+        [
+          0.5102687957612149,
+          -0.4465790964035798,
+          -0.734978140306065
+        ]
+      ]
+    ],
+    "lo": [
+      [
+        -0.0008737001698886234,
+        -0.0010717023886496191,
+        -0.014247522296034343
+      ]
+    ],
+    "hi": [
+      [
+        0.0008737001698886234,
+        0.0008737001698886234,
+        0.010921252123607793
+      ]
+    ],
+    "sampled_return_margin": 0.058131975787295675,
+    "sampled_avoidance_margin": 27.919658450393463,
+    "passes": 3,
+    "dimension_floor": 0.08,
+    "case": 2200235,
+    "params": [
+      0.43809980615787536,
+      -1.0444489079811847,
+      -2.8637623209953302,
+      0.8621284939935902,
+      -0.9103329344219924,
+      1.3197121192131542,
+      -2.137942733895616,
+      2.3323551694451647,
+      -0.8561747969301291,
+      20.242692292954057
+    ],
+    "source_phase": 3,
+    "dense_return_margin": 0.05813197578728224,
+    "dense_avoidance_margin": 27.913041394900635,
+    "selection_score": 0.019869889157622802
+  },
+  "directed": {
+    "case": 2200235,
+    "map_order": 8,
+    "nodes": 345,
+    "leaves": 173,
+    "box_digest": "ecc579354d821bd2de1623beca1287e26bb98be7015a5db48bd132bbd96708ae",
+    "partition_zlib_base64": "eNqFkFEOwCAIQ4Xe/86jzC6xGueHz1KsxEyuyIEABlAHIiYF027ffF6ujcVGP7cU3P+x9wZw+BQlXU++EQpT4ZM4mWvMNpv/SPXhAffMAwE=",
+    "method": "directed IEEE interval arithmetic, centered telescoping tangent products",
+    "complete_avoidance_for_every_earlier_iterate": true,
+    "strict_full_return": true
+  },
+  "arb": {
+    "case": 2200235,
+    "components": 8,
+    "precision_bits": 150,
+    "replayed_nodes": 345,
+    "accepted_leaves": 363,
+    "extra_splits": 190,
+    "all_earlier_phases_disjoint": true,
+    "strict_last_return": true
+  }
+}
