@@ -86,7 +86,7 @@ M_5=\begin{pmatrix}0&0&1&1\\0&0&0&1\\0&1&1&0\\1&0&0&0\end{pmatrix},
 \quad h_{\mathrm{top}}(F|_X)\ge\log\rho(M_5)\simeq0.41401.
 ```
 
-The second matrix has characteristic polynomial $`t^4-t^3-t^2+t-1`$ and Perron root 1.5128764 to the displayed precision. The bounds are per iteration. A gap-boundary point moves inside a trapping annulus, so $`X`$ is disjoint from the local attractor $`K`$. Positive entropy inside the bands remains open. The two- and four-band graphs have spectral radius one.
+The second matrix has characteristic polynomial $`t^4-t^3-t^2+t-1`$ and Perron root 1.5128764 to the displayed precision. The bounds are per iteration. A gap-boundary point moves inside a trapping annulus, so $`X`$ is disjoint from the local attractor $`K`$. For Case 13745 a [separate inverse-branch proof](../../low_hanging_20261122/annuli/README.md) gives positive entropy inside the local attractor and proves that each component contains an open set. Positive entropy within the other three cases’ attracting bands remains open. The two- and four-band gap graphs have spectral radius one.
 
 ## Screening and independent checks
 

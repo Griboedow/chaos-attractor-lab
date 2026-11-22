@@ -68,7 +68,7 @@ For these parameters, $`k+g>0`$ and $`0<\delta<\delta+k+g<\pi`$. The left side i
 
 ### Alternating lobes
 
-**Case 56729.** The real field alternated between $`[-.456,.321]`$ and $`[1.890,2.805]`$ at every stored step (outward-rounded bounds). The second exponent ranged from .03141 to .03330 across the long windows. Four of sixteen additional starts reached this two-positive-exponent regime. The other twelve had negative leading exponents. [Spectra and starts](case-56729.json) · [Parity ranges](manifest.json)
+**Case 56729.** The real field alternated between $`[-.456,.321]`$ and $`[1.890,2.805]`$ at every stored step (outward-rounded bounds). The second exponent ranged from .03141 to .03330 across the long windows. Four of sixteen additional starts reached this two-positive-exponent regime. The other twelve had negative leading exponents. A [follow-up at the same coefficients](../../low_hanging_20261122/optics/README.md) certifies a period-ten sink and two distinct period-two saddles. [Spectra and starts](case-56729.json) · [Parity ranges](manifest.json)
 
 ## Selection and replication
 

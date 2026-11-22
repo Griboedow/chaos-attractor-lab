@@ -12,7 +12,7 @@ Follow the gold dot. On every step it switches between the inner and outer ring.
 *First recorded portrait: **2026-11-22**.*
 <!-- /drawing-date -->
 
-The equation imposes seventeenfold symmetry. One orbit visits all seventeen lobes. Interval arithmetic proves that the map sends each annulus strictly inside the other. Each contains one connected component of the local attractor. Both measured Lyapunov exponents are positive. A proof of chaos on the rings remains open. [Equation, exact coefficients and checks](../results/wow_search_20261122/symmetry/README.md)
+The equation imposes seventeenfold symmetry. One orbit visits all seventeen lobes. Interval arithmetic proves that the map sends each annulus strictly inside the other. Each contains one connected component of the local attractor. Both components contain open sets. Within the outer component, two verified return paths realize every binary sequence and give a positive entropy bound for this attractor. Whether the plotted orbit visits that symbolic set is open. [Equation and coefficients](../results/wow_search_20261122/symmetry/README.md) · [Two-branch proof](../results/low_hanging_20261122/annuli/README.md)
 
 ![Visit density with seventeen inner lobes and a scalloped outer rim](../results/wow_search_20261122/symmetry/cyclic-13745.png)
 
@@ -56,4 +56,4 @@ Three cosine waves define a periodic surface. Identifying opposite faces of one 
 *Drawn: **2026-11-22**.*
 <!-- /drawing-date -->
 
-In a numerical check, turning the initial velocity by one millionth of a radian separated two trajectories by 0.2 length units after 47.454 time units. A full lap of the straight orbit takes 63.457.
+In a numerical check, turning the initial velocity by one millionth of a radian separated two trajectories by 0.2 length units after 47.454 time units. A full lap of the straight orbit takes 63.457. Across the whole surface there are exactly 24 straight closed routes. Changing one weight leaves eight, while a short curved route survives. [Count and length comparison](../results/low_hanging_20261122/geodesics/README.md)

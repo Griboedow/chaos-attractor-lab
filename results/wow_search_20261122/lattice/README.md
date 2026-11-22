@@ -63,6 +63,8 @@ The gold path uses the first 337.5 time units of a second orbit, launched at a 0
 
 Kuznetsov studied three coupled rotators on a three-cosine surface with Anosov dynamics. Here the shear gives a fifteen-handle cover with an explicit straight orbit and a certified multiplier. Priority for the weighted cover is open. [Kuznetsov, *Chaos in three coupled rotators*](https://arxiv.org/abs/1708.04493)
 
+A [classification of all straight closed geodesics](../../low_hanging_20261122/geodesics/README.md) counts 24 at these coefficients. Perturbing the second wave weight leaves eight, with the shortest straight lap more than seven times its former length.
+
 ## Reproduction
 
 Run from the repository root with NumPy, SciPy, Numba, Matplotlib, Pillow and python-flint. Replace `RUN` with an external output directory.

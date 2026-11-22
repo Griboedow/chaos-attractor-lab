@@ -4,7 +4,7 @@ A single orbit can trace [two nested rings](#two-and-four-nested-rings-from-one-
 
 ## Contents
 
-- **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
+- **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Four follow-up proofs](results/low_hanging_20261122/README.md) · [Further portraits](#further-portraits)
 - **By system** · [Constructed flows](#constructed-flows) · [Numerical algorithms](#numerical-algorithms) · [Molecular motors](#molecular-motor-dynamics) · [Constructed data](#constructed-data)
 - **Reports and data** · [Research index](#research-index) · [Articles](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data and certificates](results/README.md)
 
@@ -79,7 +79,7 @@ Both panels show the full three-dimensional state.
 
 ### RAAR projection algorithm
 
-Relaxed reflections between two circles produce a folded set in space. In Case 1051 a trapping region contains an attracting set with entropy at least `log(2)/49` per step and a certified fold. How much of this set the pictured orbit visits is open. Case 1483 is a numerical comparison.
+Relaxed reflections between two circles produce a folded set in space. In Case 1051 a trapping region contains a certified fold and periodic orbits of every least period 49, 56, 63, … . At period 700 alone there are at least 75,683,050 distinct orbits. [Counting proof and stronger entropy bound](results/low_hanging_20261122/algorithms/README.md) How much of this set the pictured orbit visits is open. Case 1483 is a numerical comparison.
 
 ![Spatial-circle RAAR, cases 1051 and 1483](docs/assets/portraits/raar.webp)
 
@@ -3077,7 +3077,7 @@ Native three-axis twist coordinates, shown at equal axis scales with a principal
 
 #### Two and four nested rings from one orbit
 
-One point draws both rings in Case 13745, switching rings on every step. In Case 5529 it visits four bands in the order first, third, second, fourth. Interval bounds prove both cycles of bands.
+One point draws both rings in Case 13745, switching rings on every step. In Case 5529 it visits four bands in the order first, third, second, fourth. Interval bounds prove both cycles of bands. In Case 13745 each component has interior, and two inverse branches inside the outer component encode every binary sequence. [Entropy proof](results/low_hanging_20261122/annuli/README.md)
 
 ![Two and four nested rings from one orbit](docs/assets/portraits/forms-20261122-nested-crowns.png)
 
@@ -3204,7 +3204,7 @@ Case 11450 `(3, -1.4752569892480971, 2.2683117125593126, 0.4538186067715287, 1.5
 
 | Study | Findings and evidence |
 | --- | --- |
-| [Rings, optical fans, Newton basins and geodesics](docs/chaotic-forms-20261122.md) | [Ring permutations](results/wow_search_20261122/symmetry/README.md) · [Optical field](results/wow_search_20261122/orbit/README.md) · [Shared basin boundary](results/wow_search_20261122/boundary/README.md) · [Straight geodesic](results/wow_search_20261122/lattice/README.md) |
+| [Rings, optical fans, Newton basins and geodesics](docs/chaotic-forms-20261122.md) | [Ring permutations](results/wow_search_20261122/symmetry/README.md) · [Optical field](results/wow_search_20261122/orbit/README.md) · [Shared basin boundary](results/wow_search_20261122/boundary/README.md) · [Straight geodesic](results/wow_search_20261122/lattice/README.md) · [Closed routes, ring entropy and optical cycles](results/low_hanging_20261122/README.md) |
 | [Spatial attractor search](docs/shape-search-20261121.md) | [Follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Knotted bands](docs/shape-search-20261121.md#a-knotted-chaotic-band) · [Component counts](docs/shape-search-20261121.md#attracting-sets-with-different-numbers-of-components) |
 
 ### Constructed flows and maps
