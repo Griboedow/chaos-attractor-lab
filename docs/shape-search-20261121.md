@@ -1,6 +1,10 @@
 # Spatial attractor search on 2026-11-21
 
-This campaign extends the atlas at revision `57869986`. A **case** denotes a parameter set within a family. Its curves may represent one time history, several coexisting orbits, or a certified subset of the full dynamics. The case records identify the coordinates, initial conditions, verification method and file hashes.
+Six families of maps and flows produced knotted orbits, nested scrolls and attracting sets with several connected components. A case number identifies a parameter set within one family. Each figure states whether it shows one trajectory, coexisting orbits, or a subset isolated by proof.
+
+- **Experiments.** [Four follow-up results](#four-follow-up-experiments) · [Search counts](#search-totals) · [Extended search](#follow-up-search)
+- **Portraits.** [Knotted band](#a-knotted-chaotic-band) · [Linked cycles](#several-stable-knots-in-one-flow) · [Disconnected attractors](#attracting-sets-with-different-numbers-of-components) · [Projection maps](#toroidal-projection-maps) · [Other families](#constructed-solenoids-pinched-graphs-and-delayed-maps)
+- **Methods.** [Compare with known shapes](#comparison-and-reproduction) · [Reproduce a portrait](#reproduce-the-portraits)
 
 ![Twelve spatial portraits, with labeled cases](assets/shape-search-20261121-overview.png)
 
@@ -10,7 +14,7 @@ This campaign extends the atlas at revision `57869986`. A **case** denotes a par
 
 ## Four follow-up experiments
 
-**A cubic oscillator ties three attracting cycles into the Borromean rings.** Case 48000001 uses the same three-harmonic force in both regimes. At response gain 0.03 the three periodic orbits form an unlink. At 0.34 each pair can still be separated, yet the triple is inseparable. Moving-disk bounds on 65,536 phase intervals certify both sets of attracting orbits and their link types. In an associated discrete map, an expanding phase produces three chaotic solenoids on the same cubic sheets. [Equations, proof and reproduction](../results/shape_search_20261121/frontiers/cubic/README.md)
+**Three periodic orbits form Borromean rings.** In cubic oscillator Case 48000001, a response gain of 0.03 gives three unlinked attracting cycles. At 0.34 each pair still separates, but all three together form a link. The three-harmonic force stays fixed. Moving-disk bounds on 65,536 phase intervals certify both link types and attraction. An associated map with an expanding phase has three chaotic solenoids on the same cubic sheets. [Equation, proof and reproduction](../results/shape_search_20261121/frontiers/cubic/README.md)
 
 ![Four responses of the same driven cubic at increasing gains](assets/shape-search-20261121-cubic-transition.png)
 
@@ -20,7 +24,7 @@ This campaign extends the atlas at revision `57869986`. A **case** denotes a par
 
 **A binary shift inside a ten-component attractor.** In Case 2300491, every bi-infinite binary sequence occurs under the twentieth iterate on a compact invariant subset. All ten components have topological dimension one. The full attractor has Hausdorff dimension strictly above 1.018256 and at most 1.6, throughout a specified ten-parameter neighborhood. [Covering and dimension certificates](../results/shape_search_20261121/frontiers/maps/README.md)
 
-**Five excursions explain 791 same-side pairs.** Most iterates of Case 2298665 alternate between two half-spaces. All 791 exceptions in the original run belong to five excursions. Three reset the alternating phase. Across 25 starts, high-precision replay confirmed the local signs in all 3,067 windows. A spatial precursor predicted 18 of 22 held-out excursions within 200 updates, with 106 false alarms among 124 alerts. [Event traces and prediction controls](../results/shape_search_20261121/frontiers/projection/README.md)
+**One trajectory breaks its alternating rhythm five times.** Case 2298665 usually changes half-space at each step. Five excursions account for all 791 same-side pairs in the original run. Three reset the alternating phase. High-precision replay confirmed the signs in all 3,067 test windows across 25 starts. A spatial warning detected 18 of 22 held-out excursions within 200 steps and raised 106 false alarms. [Event traces and prediction tests](../results/shape_search_20261121/frontiers/projection/README.md)
 
 **An eighth attracting set remains a possibility.** Near seven attracting cycles in flow Case 180844, 96 long runs starting on the candidate chaotic set avoided capture for a combined 17.28 million model-time units. Every point on a grid of 69,649 returned inside the chosen neighborhood after five section returns. A trapping proof for the full neighborhood remains open. [Poincaré sections, interval boxes and basin tests](../results/shape_search_20261121/frontiers/flows/README.md)
 
@@ -43,7 +47,7 @@ The Fourier count merges proportional coefficient lists before normalization and
 
 ## Follow-up search
 
-The next 17-minute run continued from revision `6610acc`. The follow-up archive includes 80 constructed solenoid triples, 78 projection clouds, nine three-axis twist clouds and eight flow samples. Each new sample was checked against its source checksum, the previous 636 samples and 177 labeled references. The table above describes the first two hours. [Follow-up geometry counts](../results/shape_search_20261121/extension/geometry-totals.json) · [Nearest geometric matches](../results/shape_search_20261121/extension/geometry-comparison.json.gz)
+The initial survey extended atlas revision `57869986`. The follow-up from `6610acc` added 80 solenoid triples, 78 projection samples, nine three-axis twist samples and eight flow samples to the 636 in the table above. Each new sample was checked against its source checksum and compared with the original samples and 177 labeled references. [Counts](../results/shape_search_20261121/extension/geometry-totals.json) · [Nearest geometric matches](../results/shape_search_20261121/extension/geometry-comparison.json.gz)
 
 ### Seven attracting cycles and a new doubled orbit
 
@@ -153,16 +157,18 @@ The external KnotInfo comparison includes 12,965 tabulated prime knots of at mos
 
 For each of 30 gallery samples, local point-cloud alignment to the nearest reference selected by the distance histogram had a larger residual than the same procedure on a split of the sample itself. The median ratio was 4.21 with rigid normalization and 3.26 after affine whitening. These comparisons use fixed sample sizes and a local registration search. [Alignment controls](../results/shape_search_20261121/comparison-summary.json)
 
-The main README has paired static images and 24-second rigid rotations. Static images use the full registered sample. Rotations use up to 60,000 consecutive states per panel, or every component when comparing coexisting linked cycles. Raw clouds are stored outside Git in `D:/Codex/chaos-attractor-cache/shape-search-20261121`. The relative cloud index maps each family and case to an archive path. The committed parameters and per-track scripts regenerate the samples. [Cloud index](../results/shape_search_20261121/comparison-inputs.json) · [Portrait inputs](../results/shape_search_20261121/presentation.json)
+### Reproduce the portraits
 
-From the repository root, the following commands regenerate all 30 gallery inputs in a fresh external directory and build the portraits. Replace RUN with the directory you want to use. The replay checks the archived SHA-256 of each file. All 30 files were reproduced on Windows x86-64 with CPython 3.11.15, NumPy 2.4.6, SciPy 1.17.1 and Numba 0.68.1. [Verified replay](../results/shape_search_20261121/gallery-replay.json)
+The static portraits use each full sample. The 24-second rotations use up to 60,000 consecutive states per panel, or every component when showing coexisting linked cycles. The cloud index records filenames by family and case. The original external cache was `D:/Codex/chaos-attractor-cache/shape-search-20261121`. [Cloud index](../results/shape_search_20261121/comparison-inputs.json) · [Portrait inputs](../results/shape_search_20261121/presentation.json)
+
+To regenerate all 30 inputs, replace `RUN` with a fresh external directory and run the two commands below from the repository root. The replay checks each file's SHA-256. All 30 hashes matched on Windows x86-64 using CPython 3.11.15, NumPy 2.4.6, SciPy 1.17.1 and Numba 0.68.1. [Verified replay](../results/shape_search_20261121/gallery-replay.json)
 
 ```text
 python research/shape_search_20261121/replay_portraits.py --out RUN --workers 4
 python research/shape_search_20261121/build_portraits.py --runs RUN
 ```
 
-Individual cases can also be regenerated directly.
+For a single portrait, choose the corresponding command. The first two reproduce the trajectory and periodic core of the same knotted band.
 
 ```text
 python research/shape_search_20261121/flows/replay_case.py --case 180844 --out RUN/band.npz

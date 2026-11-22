@@ -1,55 +1,59 @@
 # Chaotic forms from four dynamical systems
 
+[Two rings, one orbit](#two-rings-drawn-by-one-point) · [Optical fan](#a-scalloped-fan-from-one-optical-orbit) · [Fifteen Newton basins](#fifteen-basins-have-the-same-boundary) · [Straight geodesic](#a-straight-line-inside-a-uniformly-chaotic-flow)
+
 ## Two rings drawn by one point
 
-One dot jumps from the inner band to the outer band on every step. After two million updates of the same planar polynomial, its density shows seventeen scalloped lobes inside a braided-looking rim. The equation enforces seventeenfold rotational symmetry. No rotated copies were added to the portrait. Interval arithmetic proves that two disjoint nested annuli map strictly into one another and that each contains exactly one connected component of the local attractor. Both surround the origin. Two positive Lyapunov exponents are numerical evidence in Case 13745. [Equation, coefficients, starts and interval checks](../results/wow_search_20261122/symmetry/README.md)
+Follow the gold dot. On every step it switches between the inner and outer ring. The animation shows 108 consecutive steps of Case 13745 against the density of two million visits. The five fainter dots mark its preceding positions.
 
-![Two million native visits in the complex plane, Case 13745](../results/wow_search_20261122/symmetry/cyclic-13745.png)
-
-<!-- drawing-date -->
-*Drawn: **2026-11-22**.*
-<!-- /drawing-date -->
-
-The gold dot below follows 108 consecutive updates, then restarts. The background shows the two-million-point density. The five faint preceding positions indicate the direction of time. The dot advances by one full update per frame with no interpolation.
-
-![Consecutive updates of the original polynomial map](../results/wow_search_20261122/symmetry/alternating-orbit.webp)
+![A gold dot alternating between two nested rings](../results/wow_search_20261122/symmetry/alternating-orbit.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-22**.*
 <!-- /drawing-date -->
 
-Changing the polynomial coefficients produces examples with three, four and five nested components. The four-component case visits radii in the order first, third, second, fourth. For the three-component example the permutation forces positive topological entropy on a separate invariant set in the two gaps. Symbolic itineraries there include every left/right gap sequence without consecutive visits to the first gap. The annular components and the intervening invariant set describe different initial states. [Case certificates](../results/wow_search_20261122/symmetry/annuli.json)
+The equation imposes seventeenfold symmetry. One orbit visits all seventeen lobes. Interval arithmetic proves that the map sends each annulus strictly inside the other. Each contains one connected component of the local attractor. Both measured Lyapunov exponents are positive. A proof of chaos on the rings remains open. [Equation, exact coefficients and checks](../results/wow_search_20261122/symmetry/README.md)
+
+![Visit density with seventeen inner lobes and a scalloped outer rim](../results/wow_search_20261122/symmetry/cyclic-13745.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+Other coefficients give three, four or five components. In the three-ring case, call the inner gap A and the outer gap B. Every infinite A/B sequence without consecutive A’s occurs as the itinerary of some point in the gaps. [Proof and trapping intervals](../results/wow_search_20261122/symmetry/README.md#entropy-forced-between-the-bands)
 
 ## A scalloped fan from one optical orbit
 
-A pumped optical field rotates by an angle that depends on its intensity and on a relaxing memory variable. The portrait shows 786,432 consecutive complex field values. The color measures the time since the last peak of the memory. Among the measured peak-to-peak intervals, 56.5% lasted exactly twenty updates. The spiral and scalloped edge are visible in the native real and imaginary field coordinates. The model contains no imposed rotational symmetry of the fan. [Map, numerical spectra and controls](../results/wow_search_20261122/orbit/README.md)
+A model of a pumped optical cavity produces this spiral fan without imposing a rotational symmetry. Each of the 786,432 points on the left is one successive value of the complex field. Color counts the steps since the last detuning peak. On the right, 56.5% of measured intervals between peaks last exactly twenty steps. [Cavity equation and Case 45941](../results/wow_search_20261122/orbit/README.md)
 
-![Scalloped fan in the field plane with the timing of its memory pulses](../results/wow_search_20261122/orbit/scalloped-cavity-fan.png)
+![Scalloped field amplitudes at left, detuning peaks and return times at right](../results/wow_search_20261122/orbit/scalloped-cavity-fan.png)
 
 <!-- drawing-date -->
 *Drawn: **2026-11-22**.*
 <!-- /drawing-date -->
 
-At a second setting, Case 86780, changing only the initial state selects two long-lived detuning ranges. Of 2,313 tested starts, 822 reached the lower range and 1,491 the upper. Eight independent continuations of 16,777,216 iterations each stayed clear of the interval (6.108, 7.957). Interval arithmetic verifies 6,145 consecutive updates on each of two starts. Permanent separation remains open. [Common-scale comparison](../results/wow_search_20261122/orbit/coexisting-cavity-regimes.png) · [Basin counts and controls](../results/wow_search_20261122/orbit/case-86780-basins.json)
+At a second setting, 822 of 2,313 initial states reached a lower detuning range and 1,491 a higher one. Eight long runs stayed on their respective sides of the gap for over sixteen million steps each. Whether the separation persists forever is open. [Both regimes at the same scale](../results/wow_search_20261122/orbit/coexisting-cavity-regimes.png) · [Initial states and counts](../results/wow_search_20261122/orbit/case-86780-basins.json)
 
 ## Fifteen basins have the same boundary
 
-Newton's method for a particular sextic has six attracting roots and a separate attracting nine-cycle. Observing every ninth update turns the nine phases into separate attracting fixed points. All fifteen full basins have exactly the same Julia boundary. Interval arithmetic locates fifteen open sets of initial conditions, one for each outcome, inside the same disk of radius 3 × 10⁻³² around a pole. The right panel resolves a window only 2 × 10⁻³⁰ wide in the same coordinates as the left. The colored areas describe forward attraction. The common boundary was sampled independently from preimages of the poles. [Algebraic coefficient, interval witnesses and prior work](../results/wow_search_20261122/boundary/README.md)
+Newton’s method for a sixth-degree polynomial has six attracting roots and one attracting cycle of period nine. Looking at every ninth step distinguishes the nine cycle phases. All fifteen outcomes have the same basin boundary. A disk of radius 3 × 10⁻³² around the marked pole contains starting points for every outcome. [Polynomial, coefficient and proof](../results/wow_search_20261122/boundary/README.md)
 
-![Global basin map and a computed microscopic window around a pole](../results/wow_search_20261122/boundary/fifteen-newton-basins.png)
+![Colors identify the fifteen outcomes in a global view and in a window only 2 × 10⁻³⁰ wide](../results/wow_search_20261122/boundary/fifteen-newton-basins.png)
 
 <!-- drawing-date -->
 *Drawn: **2026-11-22**.*
 <!-- /drawing-date -->
 
-At the marked pole an exact local change of coordinates has derivative 5/6. It leaves the six root outcomes unchanged and shifts each of the nine cycle phases back by one. An ordinary Euclidean contraction by 5/6 approximates this change at small scales. In the microscopic window, all 204 interval-checked pairs showed the predicted outcome and exactly one extra Newton iteration before capture. [Local rescaling control](../results/wow_search_20261122/boundary/scale-control.json)
+The right panel spans just 2 × 10⁻³⁰ in the coordinates of the left panel. Near the pole, an exact change of coordinates preserves the six root colors and shifts the nine cycle colors back by one phase. Its local scale factor is 5/6. [Derivation and numerical zoom](../results/wow_search_20261122/boundary/README.md#a-zoom-that-permutes-nine-colors)
 
 ## A straight line inside a uniformly chaotic flow
 
-Three cosine terms define a periodic surface with fifteen handles in each phase cell. A unit-speed particle can follow an exact straight line, winding seven, minus seven and minus two times in the three coordinates before returning. The unstable transverse multiplier of this periodic orbit is strictly between 4.45 and 4.47 million per lap. Rotating the initial velocity by a millionth of a radian produces a 0.2-unit departure after about 47.454 time units. The full lap lasts about 63.457. [Equations, geometric proof and numerical controls](../results/wow_search_20261122/lattice/README.md)
+Three cosine waves define a periodic surface. Identifying opposite faces of one cell gives a closed surface with fifteen handles. One ray follows an exact straight line that winds (7, −7, −2) times around the coordinate directions before closing. Along the unstable direction, its linearized return amplifies a perturbation between 4.45 and 4.47 million times per lap. [Flow equations and multiplier proof](../results/wow_search_20261122/lattice/README.md)
 
-![Exact ray and a measured geodesic on the fifteen-handle surface](../results/wow_search_20261122/lattice/crystal.png)
+![An exact straight ray and a generic geodesic on a surface with fifteen handles](../results/wow_search_20261122/lattice/crystal.png)
 
 <!-- drawing-date -->
 *Drawn: **2026-11-22**.*
 <!-- /drawing-date -->
+
+In a numerical check, turning the initial velocity by one millionth of a radian separated two trajectories by 0.2 length units after 47.454 time units. A full lap of the straight orbit takes 63.457.

@@ -1,16 +1,20 @@
 # Chaos Attractor Lab
 
-Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
+A single orbit can trace [two nested rings](#two-and-four-nested-rings-from-one-orbit), [a fan of scallops](#a-scalloped-fan-from-pulsed-optical-feedback) or [a band around a knotted orbit](#a-periodic-knot-and-a-nearby-chaotic-band). Each portrait gives the system, equation and parameters that produced it.
 
-[2026-11-22 chaotic forms and real-time orbit](docs/chaotic-forms-20261122.md) · [2026-11-21 spatial search](docs/shape-search-20261121.md) · [Four follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
+## Contents
 
-The selected findings include camera rotations at 25 frames per second, with one revolution every 24 seconds. Each animation uses fixed trajectory data and a constant scale; its full-resolution static portrait appears directly below. Case numbers identify saved parameter sets in the linked reports.
+- **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
+- **By system** · [Constructed flows](#constructed-flows) · [Numerical algorithms](#numerical-algorithms) · [Molecular motors](#molecular-motor-dynamics) · [Constructed data](#constructed-data)
+- **Reports and data** · [Research index](#research-index) · [Articles](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data and certificates](results/README.md)
 
-All retained portraits appear on this page. Each equation names its system and lists the settings for the panels in display order. Expand **Full numerical settings** where provided to see longer inputs and starting states. Figures use a common palette, with the coordinate projection and changes of physical units stated beside each portrait. Density saturation is independent between studies. Drawing dates refer to these images.
+A **Case** number identifies a saved parameter set within its study. The [ring search](results/wow_search_20261122/symmetry/README.md#screening-and-independent-checks) shows how the parameter sets were sampled and shortlisted. Panels list their settings from left to right. Rotations show a fixed point cloud at constant scale. A **certificate** proves the stated property. Measured growth rates describe finite trajectories.
 
 ## Constructed flows
 
 ### Icosahedral flow
+
+Thirty spiral regions surround a stable center. Cases 177 and 183 show sustained expansion over 16,000 time units. An independent solver also finds positive growth. The absorbing bounds and local equilibria have proofs. Whether the spiral motion itself is chaotic remains open.
 
 ![Icosahedral Gaussian flow, cases 177 and 183](docs/assets/portraits/icosahedral.webp)
 
@@ -67,15 +71,15 @@ I consists of the 60 proper icosahedral rotations. Each rotation acts on both th
 
 <!-- /portrait-equation -->
 
-Full three-state coordinates; archived orthographic cameras.
-
-**Numerical chaos; certified bounds and local equilibria.** A smooth three-state field produces thirty spiral regions around a stable center. Cases 177 and 183 survive 16,000-unit observations, step refinement and independent integration. The 60-edge geometric skeleton has a known integrable counterpart; the sampled return strips are not yet a covering proof.
+Both panels show the full three-dimensional state.
 
 [Equations and evidence](docs/icosahedral-flow.md) · [Equilibria](docs/icosahedral-structure.md) · [Periodic orbits](docs/icosahedral-cycles.md) · [Return map and prior art](docs/icosahedral-returns.md)
 
 ## Numerical algorithms
 
 ### RAAR projection algorithm
+
+Relaxed reflections between two circles produce a folded set in space. In Case 1051 a trapping region contains an attracting set with entropy at least `log(2)/49` per step and a certified fold. How much of this set the pictured orbit visits is open. Case 1483 is a numerical comparison.
 
 ![Spatial-circle RAAR, cases 1051 and 1483](docs/assets/portraits/raar.webp)
 
@@ -129,13 +133,13 @@ P_A and P_B are nearest-point projections onto circumferences. A is the unit xy 
 
 <!-- /portrait-equation -->
 
-Full spatial state (x, y, z); archived orthographic cameras.
-
-**Certified attracting positive-entropy set.** For case 1051, an explicit strict trapping region contains the certified symbolic dynamics. Its maximal invariant set attracts a neighborhood and has topological entropy at least `log(2)/49` per iteration. A certified fold in this attracting set excludes ambient-neighborhood conjugacy to locally injective maps. Transitivity and equality with the numerical portrait remain unresolved; case 1483 is a numerical companion.
+Both panels show the full three-dimensional state.
 
 [Trapping theorem and article](docs/raar-trapping.md) · [Fold membership and article](docs/raar-critical-membership.md) · [Symbolic certificate](docs/raar-symbolic-dynamics.md) · [Model and trajectories](docs/raar-circles.md) · [Prior art](docs/raar-priority.md)
 
 ### Circle and finite-point projections
+
+A circle and three active sites produce layers of curved sheets. Cases 1504 and 1725 retained positive leading growth over five million steps, across 33 starts and at 70- and 100-digit precision.
 
 ![Finite-point RAAR, cases 1504 and 1725](docs/assets/portraits/raar-constellations.webp)
 
@@ -198,11 +202,11 @@ P_B selects the nearest vertex of a finite spatial set. P_A(v) normalizes the xy
 
 Full three-state iterates; rigid camera and equal spatial units within each panel.
 
-**Numerical candidates with layered spatial structure.** A circle and a finite set of points produce separated curved sheets in the three-state RAAR iteration. Cases 1504 and 1725 survive five-million-step observations, 33 initial states and 70/100-digit checks. Both use three sites in the observed post-transient motion. Finite-alphabet phase retrieval and projection-map chaos are known; historical uniqueness of these configurations remains unresolved.
-
 [Model, controls and prior art](docs/raar-constellations.md)
 
 ### Gaussian posterior mean and a circle
+
+The sampled orbit in Case 156 traces a folded band. The map has a certified connected attracting set. Seven verified crossings give an entropy lower bound of `log(2)/6` per step. The set contains periodic points with one and two unstable directions. In Case 29 the two lobes alternate in the numerical orbit.
 
 ![Gaussian averaging and reflection, cases 29 and 156](docs/assets/portraits/soft-constellations.webp)
 
@@ -267,11 +271,11 @@ P(v) normalizes the xy component and sets z to zero. The bⱼ are equally weight
 
 Full three-state iterates; rigid camera and equal spatial units within each panel.
 
-**Certified connected attracting positive-entropy set for Case 156.** Gaussian posterior averaging and a circle reflector produce a folded spatial band. A strict trapping region and seven independently checked crossings prove entropy at least `log(2)/6` per iteration. Certified periodic points have one and two unstable directions. Connectedness and opposite orientation signs force failure of local injectivity on the attracting set, excluding neighborhood conjugacy to invertible models such as three-dimensional Hénon maps. Equivalence restricted to the invariant set, transitivity, equality with the numerical portrait and historical uniqueness remain unresolved. Case 29 is a numerical companion with alternating folded lobes, a behavior known from earlier maps.
-
 [Entropy and periodic-structure article](docs/soft-symbolic-dynamics/manuscript.md) · [Trapping and entry certificate](docs/soft-constellation-trapping.md) · [Model and numerical controls](docs/soft-constellations.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
 
 ### Gaussian posterior mean and a sphere
+
+Two site configurations produce folded strands and curled lobes. Cases 155 and 251 gave positive leading growth over five million steps, across 33 starts and at 70- and 100-digit precision.
 
 ![Gaussian posterior mean and a sphere, Cases 155 and 251](docs/assets/portraits/soft-sphere.webp)
 
@@ -338,11 +342,11 @@ The normalized vector projects onto the unit sphere. The bⱼ are equally weight
 
 Native three-state iterates; rigid camera and equal spatial units within each panel.
 
-**Numerical candidates with folded strands and curled lobes.** Cases 155 and 251 retain positive leading growth over five million steps, all 33 sampled starts and independent 70/100-digit checks. A complete 429-case temperature sweep preserves regular captures and competing outcomes. Mean-shift/MMSE averaging and its use in reflection constructions are known; asymptotic chaotic attraction, nonlinear equivalence and historical uniqueness remain unresolved.
-
 [Numerical article, controls and comparison limits](docs/soft-sphere/manuscript.md) · [Evidence and reproduction](results/soft-sphere/README.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
 
 ### Canonical posterior maps: ribbon and spatial folds
+
+Tetrahedral and cubic site configurations produce a ribbon and a folded sheet. In cubic Case 653, all 33 starts gave two positive finite-time growth rates. A separate proof for this map places two merging histories and a return to the same saddle inside a trapping box. Whether the orbit fills that attracting set is open.
 
 ![Canonical posterior maps, Cases 163 and 653](docs/assets/portraits/canonical-sphere.webp)
 
@@ -413,13 +417,11 @@ The canonical sites are b=c+aσ. Case 163 uses the four sign triples with σ₁�
 
 Native three-state iterates; fixed data, rigid camera and equal spatial units within each panel.
 
-**Numerical folded ribbon and hyperchaos candidate.** Simple tetrahedral and cubic site configurations produce Cases 163 and 653 in a complete 656-case campaign. Both survive five-million-step observations, 33 initial states and 70/100-digit controls. Case 653 has two positive finite-time QR rates, also retained across all 33 sampled starts. Exact ideal reductions identify independent-spin and parity-constrained posteriors. Symmetric maps, sigmoid chaos and three-dimensional hyperchaos are known; chaotic attraction and historical uniqueness remain unresolved.
-
-**Certified structure of the cubic map.** A strict trapping box contains an attracting set with distinct histories that merge and a homoclinic return to a saddle. Independent formulas verify the interval bounds. Intrinsic noninjectivity excludes conjugacy of this entire set with an injective map; equality with the pictured cloud remains open.
-
 [Article and proofs](docs/canonical-sphere/manuscript.md) · [Numerical campaign](results/canonical-sphere/README.md) · [Collision and homoclinic certificates](results/canonical-collision/README.md) · [Equivalent formulations and prior art](docs/soft-constellation-priority.md)
 
 ### Product alphabets: folded wings and layered arches
+
+Two levels per coordinate give four folded wings (Case 988). Four levels give layered arches (Case 489). Both showed expansion over 100 million steps. Case 988 has a certified positive-entropy core containing a period-92 orbit with an orientation-reversing return. The core is unstable, and attraction of the larger four-wing shape remains open.
 
 ![Product-alphabet posterior maps, Cases 988 and 489](docs/assets/portraits/product-alphabet.webp)
 
@@ -484,19 +486,11 @@ Aᵢ is the stored alphabet along coordinate i. Case 988 uses two levels per coo
 
 Native three-state iterates; rigid orthogonal camera and equal spatial units within each panel. Panel scales and density saturation differ.
 
-**Numerical spatial candidates from quantized-coordinate posteriors.** A complete 1,753-case survey yields four folded wings in the binary Case 988 and layered arches in the four-level Case 489. Both retain positive leading growth over 100 million binary64 iterations and in separate 70/100-digit controls. All 33 tested starts remain irregular in Case 988; Case 489 has twenty competing fixed outcomes. Nearby parameter sets include periodic windows. Spin responses, reflection algorithms and feedback chaos are known; asymptotic chaotic attraction and historical uniqueness remain unresolved.
-
-The portrait shows the frequently visited core. The longer Case 988 record contains 56 rare exits beyond its original coordinate box enlarged by 0.02. Three short escapes are interval-certified; the [full-range diagnostic and evidence](docs/product-alphabet/manuscript.md#41-a-hundred-million-step-horizon-and-rare-excursions) explain why the pictured envelope is not a trapping region.
-
-**Certified dynamics for Case 988:** two interval formulas establish a compact invariant subsystem with entropy above **0.0254 per iteration** and a **least-period-92 orbit with reversed orientation**. The return excludes neighborhood topological conjugacy to standard three-dimensional Henon maps and smooth Euclidean flow return maps. A further proof shows that this particular subsystem is **not Lyapunov stable**; a larger attracting set and its connection to the cloud remain open. Six ordinary folds and two singular preimages are certified. [Critical-set images and parameter slices](docs/product-alphabet/manuscript.md#65-switching-postcritical-images-and-parameter-dependence) explain the numerical geometry using established mechanisms.
-
-**Could the core be part of a larger attractor?** A validated outgoing unstable point reaches within 0.000011199 of the numerical wings, and both numerical branches recover their geometry and statistics. Two fresh 50-million-step runs leave the reverse membership question unresolved. [Comparison figure and precise limits](docs/product-alphabet/manuscript.md#66-testing-containment-in-a-larger-attracting-set).
-
-**Attraction status, 2026-11-02.** All 256 new starts retain positive leading growth through four million observed updates each. A certified point less than 0.000060 from a saved cloud state reaches a normalization singularity after 27 steps. Any smooth-domain trapping region must exclude it; this rules out the specified entire ball, but not every thinner trap. **The full four-wing regime remains an attractor candidate.** [Proof, diagnostic and limits](docs/product-alphabet/manuscript.md#67-attraction-status-and-a-nearby-singular-preimage) · [Reproducible evidence](results/product-attractor-status/README.md).
-
-[Article, approach trajectories and prior art](docs/product-alphabet/manuscript.md) · [Numerical campaign](results/product-alphabet/README.md) · [Entropy certificate](results/product-symbolic/README.md) · [Orientation and equivalence certificate](results/product-orientation/README.md) · [Long horizon and certified excursions](results/product-horizon/README.md) · [Instability, folds and mechanism](results/product-mechanism/README.md) · [Larger-attractor investigation](results/product-larger-attractor/README.md)
+[Survey and portraits](results/product-alphabet/README.md) · [Entropy](results/product-symbolic/README.md) · [Reversed return](results/product-orientation/README.md) · [Rare exits](results/product-horizon/README.md) · [Core instability](results/product-mechanism/README.md) · [Tests of attraction](results/product-larger-attractor/README.md) · [Nearby singularity](results/product-attractor-status/README.md)
 
 ### Folded shells from nonuniform quantizer levels
+
+Uneven quantizer levels produce two curled shells. Both retained positive leading growth over 20 million steps, 33 starts and at 70- and 100-digit precision. Case 7 twice left the enlarged portrait bounds on its longer run.
 
 ![Nonuniform product posteriors, Cases 6 and 7](docs/assets/portraits/product-irregular.webp)
 
@@ -557,13 +551,11 @@ The levels in each coordinate alphabet Aᵢ have nonuniform spacing. Case 6 has 
 
 Native three-state discrete iterates; rigid orthogonal cameras and equal units within each panel. Panel scales and density saturation differ. Case numbers are local to the nonuniform-alphabet survey.
 
-**Two numerical folded-shell candidates.** Unevenly spaced posterior levels produce curled shells in Cases 6 and 7. Both retain positive leading growth over 20 million updates, at all 33 tested starts, and in separate 70/100-digit controls. The stills show two million consecutive states; rotation uses a fixed terminal quarter-million. Case 7 has two rare exits beyond the enlarged rendering envelope in the longer run.
-
-Toroidal and folded-shell motifs have prior examples. Comparisons with 108 frozen reference clouds and primary-source checks do not establish historical uniqueness, topology or chaotic attraction. The certified theorems for Case 988 above do not transfer to these cases.
-
 [Model, approach trajectories and visual precedents](docs/product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells) · [Complete higher-order and nonuniform searches](results/product-highorder/README.md)
 
 ### Acceleration memory in a scalar iteration
+
+The scalar iteration converges to a unique fixed point. When Anderson acceleration uses its last three states, the memory traces an irregular shape that persists in 80- and 110-digit calculations.
 
 ![Three-history acceleration, cases 54 and 449](docs/assets/portraits/anderson.webp)
 
@@ -617,13 +609,13 @@ The residual is rᵢ = g(xᵢ) − xᵢ for g(x) = c + k tanh(x). The coefficien
 
 <!-- /portrait-equation -->
 
-Three-history state; archived orthographic cameras.
-
-**Numerical chaos with a convergent scalar baseline.** The unaccelerated maps have interval-verified unique fixed points and globally convergent iteration. Adding regularized three-history acceleration produces irregular memory states that persist under 80- and 110-digit checks.
+Three-history state.
 
 [Model, controls and limitations](docs/anderson-memory.md) · [Reproduction](research/unexpected_search/README.md)
 
 ### Adaptive integration of a decaying oscillator
+
+The oscillator decays to rest. Near its error tolerance, the RK45 solver keeps changing its step size, tracing this irregular shape in position, velocity and proposed step. Five-million-step runs, higher precision and the original library reproduce the behavior.
 
 ![RK45 controller states, cases 335 and 448](docs/assets/portraits/rk45.webp)
 
@@ -660,13 +652,13 @@ The portrait runs start at `(q/τ, p/τ, log h)`. Left · Case 335 `(-0.02823823
 
 <!-- /portrait-equation -->
 
-Position / atol, velocity / atol, proposed step; archived orthographic cameras.
-
-**Numerical chaos in the solver state.** The physical linear oscillator decays, while RK45's position, velocity and proposed step can remain irregular near the error tolerance. Five-million-step, high-precision and unmodified-library controls agree. RK23 has related retained regimes.
+Position / atol, velocity / atol, proposed step.
 
 [RK45 results](docs/rk45-oscillator.md) · [RK23 results](docs/rk23-oscillator.md) · [RK45 manuscript](docs/rk45-controller/manuscript.md) · [Prior art](docs/rk45-priority.md)
 
 ### Optimizer memory on a scalar quadratic
+
+The tanh variant of Yogi produces two positive finite-time growth rates on a scalar quadratic objective. Five-million-step runs, higher precision and TensorFlow reproduce the effect in the optimizer’s internal state.
 
 ![Published smooth Yogi variant, cases 2850 and 39](docs/assets/portraits/yogi-tanh.webp)
 
@@ -703,13 +695,13 @@ The portrait runs start at `(x, m, v)`. Left · Case 2850 `(0.43612120565008095,
 
 <!-- /portrait-equation -->
 
-Normalized optimizer state (x, m, v); archived orthographic cameras.
-
-**Numerical evidence for two expanding directions.** The published tanh variant of Yogi retains two positive growth rates in selected regimes under five-million-step, high-precision and TensorFlow checks. Separate results cover standard Yogi, Adamax and AdaBelief. These are regimes of existing algorithms.
+Normalized optimizer state (x, m, v).
 
 [Smooth Yogi](docs/yogi-tanh.md) · [Manuscript](docs/yogi-memory/manuscript.md) · [Standard Yogi](docs/yogi-parameter-plane.md) · [Adamax](docs/adamax-geometry.md) · [AdaBelief](docs/adabelief-quadratic.md)
 
 ### Matrix scaling with unequal rates
+
+Unequal row and column update rates produce curved bands when scaling a 3 × 2 matrix. Cases 150 and 987 gave two positive finite-time rates after 106 million steps. Independent high-precision runs confirmed the leading rate. Some starts in Case 150 escape.
 
 ![Unequal-rate matrix scaling, Cases 150 and 987](docs/assets/portraits/sinkhorn-balanced.webp)
 
@@ -750,13 +742,13 @@ Right · Case 987. The rows of log K are `(-1.8443759468735423, -1.2319344974789
 
 All three anchored log coordinates; rigid PCA rotation with equal units and no rescaling. Each panel contains 250,000 consecutive states.
 
-**Numerical candidates with two expanding directions.** Different fixed row and column relaxation rates produce separated curved bands in a 3 × 2 matrix-scaling problem. Cases 150 and 987 retain two positive QR rates after 106 million steps and pass independent 70/100-digit checks. Case 150 has escaping alternative starts and a nearby regular regime. These rates extend the usual Sinkhorn iteration beyond its convergence safeguards; trapping, asymptotic chaotic attraction and historical uniqueness remain unresolved.
-
 [Map, complete screen and prior art](docs/sinkhorn-unequal-rates.md) · [Evidence and reproduction](results/sinkhorn-unequal-rates/README.md)
 
 ## Molecular-motor dynamics
 
 ### Four-row irregular motion
+
+Changing the transition-rate asymmetry turns a narrow braid into a broader band. The eleven-dimensional model has positive leading growth in long numerical runs. These three displacement contrasts show one projection of its motion.
 
 ![Two regimes of the four-row motor model](docs/assets/portraits/motor-four.webp)
 
@@ -803,11 +795,11 @@ Right · `(0.4359496406479541, 0.08400727167673762, 0.5968330642392213, 0.144452
 
 Three orthonormal displacement contrasts; final 1,200 saved time units; common scale.
 
-**Numerical chaos in an eleven-dimensional physical model.** Changing the dimensionless transition-rate asymmetry `b` changes a narrow braid into a broader regime. Long full-spectrum calculations retain a positive leading rate. The portraits show orthonormal displacement contrasts, not three-dimensional embeddings.
-
 [Four-row comparison](docs/motor-four-b-study.md) · [Five-row geometry](docs/motor-five-geometry.md) · [Source equations](docs/motor-rows-source-audit.md)
 
 ### Eight-row periodic attraction
+
+At the periodic setting, a five-cluster orbit attracts nearby states in all 22 transverse directions. At the irregular setting, the same model gives six positive finite-time exponents over 20,000 time units.
 
 ![Periodic and irregular eight-row motor trajectories](docs/assets/portraits/motor-eight.webp)
 
@@ -854,13 +846,13 @@ Right · `(0.9866544379243679, 1.1446176533428414, 0.9079349663187947, 1.2013879
 
 Physical coordinates (X0, X1, s0) of the 23D model; common scale.
 
-**Certified periodic attraction in 23 dimensions.** At the stated exact parameters, a five-cluster periodic orbit has all 22 transverse Floquet multipliers inside the unit circle. The irregular comparison has six positive finite-time exponents over 20,000 units. The two panels show the same physical projection and scale; only the periodic attractor is certified.
-
 [Periodic-attractor certificate](docs/motor-five-cycle-certificate.md) · [Replication instability](docs/motor-five-replication-limit.md) · [Irregular regimes](docs/motor-activity-continuation.md)
 
 ## Constructed data
 
 ### Structured-data FastICA
+
+On a constructed 720-row dataset, the attracting set of standard cubic FastICA maps onto a circle. Each iteration triples the angle on that circle. For coupling from 0 to 1/25, the attracting set has entropy at least `log(3)` per iteration, including after identifying opposite weight vectors. The left panel lies in that proved range. The right panel is a numerical comparison.
 
 ![Structured-data FastICA: rotating projections](docs/assets/portraits/fastica-tripling.webp)
 
@@ -899,14 +891,14 @@ Each base point (x,y) among (±1,0), (0,±1) occurs four times, and each among (
 
 Projection `(A,B,C)` of a unit weight in four dimensions; equal units and a common scale. The parameter `epsilon` controls the coupling in the fixed input data. Each panel contains 500,000 consecutive iterates.
 
-**Analytically proved attracting positive-entropy set.** A 720-row data construction gives standard cubic FastICA a strict trapping tube and an angle-tripling factor for `0 <= epsilon <= 1/25`, with entropy at least `log(3)` per iteration, including after ICA sign identification. For positive parameters in that interval, the attracting set contains a point where the full map is not locally injective, excluding ambient-neighborhood conjugacy to a classical solenoid embedding. The left panel lies in the proved interval; the right is numerical. Both retain positive growth over five million steps and at 70/100 digits. Historical priority, intrinsic solenoid equivalence and equality of the sampled portrait with the proved set remain unresolved.
-
 [Construction and entropy](docs/fastica-tripling.md) · [Local noninjectivity](docs/fastica-tripling-structure.md) · [Rejected intrinsic-collision candidate](docs/fastica-preimage-rejection.md) · [Numerical controls and reproduction](results/fastica-tripling/README.md)
 
 <!-- shape-search-20261121-selected -->
 ## Shape search of 2026-11-21
 
 ### Six-loop rosette and six-sided spiral lattice
+
+Cases 132 and 306 give two distinct sixfold silhouettes in cyclic harmonic flows. Each has a positive leading numerical rate with four initial states and an independent adaptive solver.
 
 ![Six-loop rosette and six-sided spiral lattice in rotation](docs/assets/portraits/shapes-20261121-harmonic.webp)
 
@@ -951,11 +943,11 @@ initial native XYZ = [-0.8083560469249171, 1.6382409895925187, 3.873259409030122
 
 <!-- /portrait-equation -->
 
-Cases 132 and 306 give two distinct sixfold silhouettes in cyclic harmonic flows. Each has a positive leading numerical rate with four initial states and an independent adaptive solver.
-
 Full spatial states at equal axis scales. The camera looks along (1, 1, 1). [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Nested scrolls and ribbed fans
+
+A Gaussian posterior reflector paired with a torus produces a nested scroll and two ribbed fans. Leading finite-time exponents stay positive over five million double-precision iterations.
 
 ![Nested scrolls and ribbed fans in rotation](docs/assets/portraits/shapes-20261121-torus.webp)
 
@@ -1022,11 +1014,11 @@ initial native XYZ = [0.31700000166893005, -0.210999995470047, 0.418999999761581
 
 <!-- /portrait-equation -->
 
-A Gaussian posterior reflector paired with a torus produces a nested scroll and two ribbed fans. Leading finite-time exponents stay positive over five million double-precision iterations.
-
 Consecutive three-state iterates in equal units. Each panel has its own spatial scale. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Three-phase curls and four-phase crescents
+
+Two dissipative twist maps visit three and four spatial groups in order. Positive growth persists on long runs. The phase count describes successive visits within a single orbit.
 
 ![Three-phase curls and four-phase crescents in rotation](docs/assets/portraits/shapes-20261121-phase.webp)
 
@@ -1077,11 +1069,11 @@ initial native XYZ = [0.1, 0.2, 0.3]
 
 <!-- /portrait-equation -->
 
-Two dissipative twist maps visit three and four spatial groups in order. Positive growth persists on long runs. The phase count describes successive visits within a single orbit.
-
 Consecutive three-state iterates in equal units. Each panel has its own spatial scale. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Different core knots at the same winding and determinant
+
+Both maps have winding four and determinant-one first cores. Their Alexander polynomials have spans ten and eight, respectively, and exclude all torus knots. Both solenoids have entropy log 4 per iterate.
 
 ![Different core knots at the same winding and determinant in rotation](docs/assets/portraits/shapes-20261121-braids.webp)
 
@@ -1144,11 +1136,11 @@ initial (theta, Re z, Im z) = (0.71, 0.24, -0.03)
 
 <!-- /portrait-equation -->
 
-Both maps have winding four and determinant-one first cores. Their Alexander polynomials have spans ten and eight, respectively, and exclude all torus knots. Both solenoids have entropy log 4 per iterate.
-
 Three-dimensional states in the same fixed Euclidean embedding of the solid torus. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Four-lobed and eight-lobed resonant flows
+
+Rotationally symmetric flows fold into a four-lobed sheet and an eight-lobed crown. Independent integration and five starting states retained positive finite-time expansion in both cases.
 
 ![Four-lobed and eight-lobed resonant flows in rotation](docs/assets/portraits/shapes-20261121-rings.webp)
 
@@ -1198,11 +1190,11 @@ initial native XYZ = [0.8620033105888245, -0.5069026460119405, 0.014925477169952
 
 <!-- /portrait-equation -->
 
-Rotationally symmetric flows fold into a four-lobed sheet and an eight-lobed crown. Independent integration and five starting states retained positive finite-time expansion in both cases.
-
 Full spatial states shown from a steep inclination. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### A domed shell and a stack of cusps
+
+A single torus gives the domed shell at left. Choosing between two linked tori gives the layered cusps at right. Both have two positive finite-time exponents. Case 516308 also has a certified stable fixed point.
 
 ![A domed shell and a stack of cusps in rotation](docs/assets/portraits/shapes-20261121-hyper.webp)
 
@@ -1271,11 +1263,11 @@ initial native XYZ = [0.31700000166893005, -0.210999995470047, 0.418999999761581
 
 <!-- /portrait-equation -->
 
-A single torus gives the domed shell at left. Choosing between two linked tori gives the layered cusps at right. Both have two positive finite-time exponents. Case 516308 also has a certified stable fixed point.
-
 The two projections use equal spatial units within each panel. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### A periodic knot and a nearby chaotic band
+
+Case 28756 approaches a stable knotted cycle. Changing one coefficient produces a band near a numerical continuation of the knot, now unstable. In Case 180844, five starts and an independent solver gave positive finite-time growth in the band.
 
 ![A periodic knot and a nearby chaotic band in rotation](docs/assets/portraits/shapes-20261121-knotted-band.webp)
 
@@ -1326,11 +1318,11 @@ initial native XYZ = [0.0075025084257606045, -0.9172876284753183, 1.112337143763
 
 <!-- /portrait-equation -->
 
-Case 28756 approaches a stable knotted cycle. After changing one coefficient, Case 180844 gives a chaotic band near a numerical continuation of the same knot, now unstable. Five starts and an adaptive solver retained positive growth in the band.
-
 Native spatial coordinates. Each panel preserves equal axis scales. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Interlocking triplets and quartets of periodic orbits
+
+Case 2479 has three coexisting numerical cycles with pairwise absolute linking number 30. Case 26471 has four, with absolute linking number 6 for each of the six pairs. Exact polygon checks agree in three projections and at two resolutions.
 
 ![Interlocking triplets and quartets of periodic orbits in rotation](docs/assets/portraits/shapes-20261121-links.webp)
 
@@ -1383,11 +1375,11 @@ row-vector transforms applied to this orbit = [[[1.0, 0.0, 0.0], [-0.0, 1.0, 0.0
 
 <!-- /portrait-equation -->
 
-Case 2479 has three coexisting numerical cycles with pairwise absolute linking number 30. Case 26471 has four, with absolute linking number 6 for each of the six pairs. Exact polygon checks agree in three projections and at two resolutions.
-
 Each panel combines complete trajectories of the coexisting cycles. The rotation includes every component. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Helical chain and four curled fins
+
+Case 2189166 exhibits a helical chain and Case 394727 gives curled fins. Local interval certificates establish positive topological entropy for invariant subsystems. Long numerical trajectories produce the displayed shapes.
 
 ![Helical chain and four curled fins in rotation](docs/assets/portraits/shapes-20261121-returns.webp)
 
@@ -1461,11 +1453,11 @@ initial native XYZ = [0.31700000166893005, -0.210999995470047, 0.418999999761581
 
 <!-- /portrait-equation -->
 
-Case 2189166 exhibits a helical chain and Case 394727 gives curled fins. Local interval certificates establish positive topological entropy for invariant subsystems. Long numerical trajectories produce the displayed shapes.
-
 Equal-unit spatial projection of consecutive map states. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Forked sail and horned cup
+
+Both three-dimensional maps have three positive finite-time Lyapunov exponents. Over five million updates the spectra are approximately (0.265, 0.132, 0.021) in Case 6616162 and (0.229, 0.115, 0.026) in Case 6583985. All 17 starts gave three positive rates.
 
 ![Forked sail and horned cup in rotation](docs/assets/portraits/shapes-20261121-three.webp)
 
@@ -1531,11 +1523,11 @@ initial native XYZ = [0.31700000166893005, -0.210999995470047, 0.418999999761581
 
 <!-- /portrait-equation -->
 
-Cases 6616162 and 6583985 have three positive finite-time Lyapunov exponents in all three native coordinates. Their five-million-update spectra are approximately (0.265, 0.132, 0.021) and (0.229, 0.115, 0.026). All 17 starts showed growth in each direction.
-
 Each panel uses equal physical units and the same camera in its signed principal-axis frame. The saved camera matrices specify both views in native coordinates. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Twin density peaks and alternating spatial lobes
+
+Cases 409700 and 2298665 have three positive numerical Lyapunov exponents in three-dimensional maps with deformed torus projections. The two density peaks of Case 409700 occasionally repeat on consecutive steps. In Case 2298665 a plane separates the odd and even states of the displayed sample.
 
 ![Twin density peaks and alternating spatial lobes in rotation](docs/assets/portraits/shapes-20261121-extension-gpu.webp)
 
@@ -1603,11 +1595,11 @@ initial native XYZ = [0.31700000166893005, -0.210999995470047, 0.418999999761581
 
 <!-- /portrait-equation -->
 
-Cases 409700 and 2298665 have three positive numerical Lyapunov exponents in three-dimensional maps with deformed torus projections. The two density peaks of Case 409700 occasionally repeat on consecutive steps. In Case 2298665 a plane separates the odd and even states of the displayed sample.
-
 Native Cartesian states with a principal-axis camera and equal axis scales. The displayed clouds contain 250,000 consecutive iterations per case. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
 ### Triple links selected by a driven cubic
+
+Cases 47087142 and 48000003 use a single driven cubic to determine all three sheets. In the degree-two return map each sheet contains a chaotic solenoid. The triples have absolute core linking invariants one and three and are inequivalent in three-space.
 
 ![Triple links selected by a driven cubic in rotation](docs/assets/portraits/shapes-20261121-cubic.webp)
 
@@ -1666,8 +1658,6 @@ sheet starting phases = (0.27, 1.34, 3.16); initial residual = 0
 
 <!-- /portrait-equation -->
 
-Cases 47087142 and 48000003 use a single driven cubic to determine all three sheets. In the degree-two return map each sheet contains a chaotic solenoid. The triples have absolute core linking invariants one and three and are inequivalent in three-space.
-
 Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,000 consecutive states per component. The rotation includes all three components. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-selected -->
 
@@ -1675,6 +1665,8 @@ Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,0
 ## Shape search of 2026-11-22
 
 ### A straight orbit on a fifteen-handle attractor
+
+After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow.
 
 ![A straight orbit on a fifteen-handle attractor in rotation](docs/assets/portraits/forms-20261122-lattice.webp)
 
@@ -1707,11 +1699,11 @@ n = 7, k = 0.375. Start at (π/2, π/2, π/14). Rotate the unit straight-ray vel
 
 <!-- /portrait-equation -->
 
-A three-wave constraint supports an attracting unit tangent bundle with uniformly hyperbolic geodesic flow. One exactly straight ray winds (7, −7, −2) and has a certified transverse multiplier between 4.45 and 4.47 million per lap.
-
 A single orbit in one cubic phase cell, with opposite faces identified. The still uses 280,000 successive measured positions. The rotation shows the last 60,000. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
 ### One boundary for fifteen Newton basins
+
+Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. A single disk of radius 3 × 10⁻³² contains certified starting boxes for all fifteen.
 
 ![One boundary for fifteen Newton basins in rotation](docs/assets/portraits/forms-20261122-boundary.webp)
 
@@ -1748,11 +1740,11 @@ The parameter is an algebraic number. The certified isolating disk has radius 10
 
 <!-- /portrait-equation -->
 
-A sextic Newton iteration has six distinct attracting roots and an additional attracting orbit of exact period nine. Under the ninth iterate, the six roots and nine cycle phases have fifteen full basins with the same Julia boundary. Certified starting boxes representing all fifteen outcomes fit inside a single disk of radius 10⁻³⁰.
-
 Riemann-sphere positions of 99,423 distinct retained numerical preimages of poles, sampled through depth 23. The same complete collection is used in the still and rotation. Forward attraction is to the roots and cycle phases. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
 ### A scalloped fan from pulsed optical feedback
+
+One orbit of an optical field draws the entire scalloped fan. Its detuning peaks most often lie twenty steps apart. Sixteen additional starting states reproduced the same numerical regime.
 
 ![A scalloped fan from pulsed optical feedback in rotation](docs/assets/portraits/forms-20261122-fan.webp)
 
@@ -1782,11 +1774,11 @@ Case 45941 uses (P, a, δ, k, g, h) = (2.203066349029541, 0.9630072116851807, -1
 
 <!-- /portrait-equation -->
 
-One uninterrupted orbit of a complex field with a relaxing detuning produces a spiral and a fan of scallops. The detuning most often peaks 20 iterations apart. All 16 additional starts reproduced the same numerical regime.
-
 Native complex-field plane in the still. The rotation uses the field and memory coordinates at equal scale. The full stored cloud contains 786,432 consecutive states. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
 ### Two detuning regimes at identical optical settings
+
+The same six coefficients yield two separated long-run detuning ranges in the sampled starts. Independent 16,777,216-step trajectories stayed on their initial side of the observed gap.
 
 ![Two detuning regimes at identical optical settings in rotation](docs/assets/portraits/forms-20261122-optical-basins.webp)
 
@@ -1816,18 +1808,19 @@ Both panels use Case 86780, with (P, a, δ, k, g, h) = (0.6838027238845825, 0.47
 
 <!-- /portrait-equation -->
 
-The same six coefficients yield two separated long-run detuning ranges in the sampled starts. Independent 16,777,216-step trajectories stayed on their initial side of the observed gap.
-
 Each panel contains 786,432 consecutive native field and memory states. The camera and units are shared, with independent centering and portrait bounds. The study includes a common-scale comparison. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
 <!-- /wow-20261122-true -->
 
 ## Further portraits
 
-Additional numerical candidates and comparison regimes, grouped by system. Each entry links to its evidence and limitations.
+[Constructed systems](#constructed-systems) · [Algorithms](#algorithmic-dynamics) · [Physical and biological models](#physical-and-biological-models) · [Spatial maps and flows](#spatial-maps-and-flows) · [Planar rings](#two-and-four-nested-rings-from-one-orbit)
 
 ### Constructed systems
 
 #### Tetrahedral Gaussian flow
+
+Cases 421 and 565 have a stable central equilibrium and sustained irregular outer motion. Three-dimensional tetrahedral chaos is established prior work.
 
 ![Tetrahedral Gaussian flow](docs/assets/portraits/tetrahedral.png)
 
@@ -1875,13 +1868,13 @@ T consists of the 12 proper tetrahedral rotations. The seed center c and unit ax
 
 <!-- /portrait-equation -->
 
-Cases 421 and 565 have a stable central equilibrium and sustained irregular outer motion. Three-dimensional tetrahedral chaos is established prior work.
-
-Full three-state coordinates; archived orthographic cameras.
+Both panels show the full three-dimensional state.
 
 [Report](docs/tetrahedral-flow.md)
 
 #### Localized Gaussian vortices
+
+Case 77 survives a 30,000-unit spectrum and independent integration. A competing periodic orbit and resemblance to known threefold geometries limit interpretation.
 
 ![Localized Gaussian vortices](docs/assets/portraits/gaussian-vortex.png)
 
@@ -1923,13 +1916,13 @@ The basis index is taken modulo three. Case 77 uses three equally strong vortice
 
 <!-- /portrait-equation -->
 
-Case 77 survives a 30,000-unit spectrum and independent integration. A competing periodic orbit and resemblance to known threefold geometries limit interpretation.
-
-Full three-state coordinates; archived orthographic camera.
+The portrait shows the full three-dimensional state.
 
 [Report](docs/gaussian-vortex.md)
 
 #### Dissipative three-axis twist map
+
+Cases 1709 and 3254 retain positive finite-time growth under long and high-precision controls. The first case also has a regular regime.
 
 ![Dissipative three-axis twist map](docs/assets/portraits/twist.png)
 
@@ -1977,15 +1970,15 @@ The rotations act in the xy, yz and zx planes in that order. Each wⱼ is the re
 
 <!-- /portrait-equation -->
 
-Cases 1709 and 3254 retain positive finite-time growth under long and high-precision controls. The first case also has a regular regime.
-
-Full three-state coordinates; archived orthographic cameras.
+Both panels show the full three-dimensional state.
 
 [Report](docs/twist-geometry.md)
 
 ### Algorithmic dynamics
 
 #### Finite-point RAAR: fragmented columns and sheets
+
+A circle reflector and a finite set of sites produce fragmented columns and sheets. The selected runs retained positive leading growth over five million steps and across 33 starts.
 
 ![Finite-point RAAR: fragmented columns and sheets](docs/assets/portraits/raar-constellation-columns.png)
 
@@ -2038,13 +2031,13 @@ P_B selects the nearest vertex in the finite set for Case 124 (left) or 896 (rig
 
 <!-- /portrait-equation -->
 
-Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
-
 Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.
 
 [Report and prior art](docs/raar-constellations.md)
 
 #### Finite-point RAAR: fans and sparse branches
+
+Changing the point configuration produces fans and sparse branches. The selected runs retained positive leading growth over five million steps and across 33 starts.
 
 ![Finite-point RAAR: fans and sparse branches](docs/assets/portraits/raar-constellation-fans.png)
 
@@ -2107,13 +2100,13 @@ P_B selects the nearest vertex in the finite set for Case 611 (left) or 1873 (ri
 
 <!-- /portrait-equation -->
 
-Numerical candidates in a known projection algorithm. Five-million-step observations and 33-start cohorts retain positive finite-time growth. Finite-alphabet phase retrieval is established prior art; historical uniqueness remains open.
-
 Full three-state iterates, centered and rigidly rotated. Equal spatial units within each panel; independent scales. Two million consecutive states per static portrait.
 
 [Report and prior art](docs/raar-constellations.md)
 
 #### RK23 step-size controller
+
+The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.
 
 ![RK23 step-size controller](docs/assets/portraits/rk23.png)
 
@@ -2144,13 +2137,13 @@ The portrait runs start at `(q/τ, p/τ, log h)`. Left · Case 381 `(1.273229775
 
 <!-- /portrait-equation -->
 
-The physical linear oscillator decays. The adaptive solver has a persistent irregular internal state near its error tolerance, reproduced with the original library and high-precision arithmetic.
-
-Position / atol, velocity / atol, proposed step; archived orthographic cameras.
+Position / atol, velocity / atol, proposed step.
 
 [Report](docs/rk23-oscillator.md)
 
 #### Yogi parameter-plane candidate
+
+Case 670 is retained after five million steps and independent controls. Case 125 has stronger evidence for a second expanding direction; their rates remain finite-time quantities.
 
 ![Yogi parameter-plane candidate](docs/assets/portraits/yogi-arc.png)
 
@@ -2181,13 +2174,13 @@ The portrait runs start at `(x, m, v)`. Case 670 `(0.1626129378580938, 0.0045670
 
 <!-- /portrait-equation -->
 
-Case 670 is retained after five million steps and independent controls. Case 125 has stronger evidence for a second expanding direction; their rates remain finite-time quantities.
-
-Normalized optimizer state (x, m, v); archived orthographic camera.
+Normalized optimizer state (x, m, v).
 
 [Report](docs/yogi-parameter-plane.md)
 
 #### Yogi memory
+
+Cases 44 and 7590 are visually distinct numerical regimes of the same published optimizer. Initialization and precision controls are retained in the report.
 
 ![Yogi memory](docs/assets/portraits/yogi.png)
 
@@ -2218,13 +2211,13 @@ The portrait runs start at `(x, m, v)`. Left · Case 44 `(0.3007792874087321, -0
 
 <!-- /portrait-equation -->
 
-Cases 44 and 7590 are visually distinct numerical regimes of the same published optimizer. Initialization and precision controls are retained in the report.
-
-Normalized optimizer state (x, m, v); archived orthographic cameras.
+Normalized optimizer state (x, m, v).
 
 [Report](docs/yogi-geometry.md)
 
 #### Yogi: additional expanding regimes
+
+Cases 4214 and 125 have numerical evidence for two expanding directions. Window lengths, library differences and branch discontinuities are reported separately.
 
 ![Yogi: additional expanding regimes](docs/assets/portraits/yogi-expansion.png)
 
@@ -2255,13 +2248,13 @@ The portrait runs start at `(x, m, v)`. Left · Case 4214 `(-0.1946440814749672,
 
 <!-- /portrait-equation -->
 
-Cases 4214 and 125 have numerical evidence for two expanding directions. Window lengths, library differences and branch discontinuities are reported separately.
-
 Normalized optimizer states; archived preview cameras. Panels have separate scales.
 
 [Report](docs/yogi-parameter-plane.md) · [Related result](docs/yogi-geometry.md)
 
 #### Adamax memory
+
+Four-million-step, high-precision and PyTorch controls support the selected regimes. Case 4099 coexists with two reflected periodic orbits.
 
 ![Adamax memory](docs/assets/portraits/adamax.png)
 
@@ -2292,13 +2285,13 @@ The portrait runs start at `(x, m, u)`. Left · Case 847 `(0.057301147223669816,
 
 <!-- /portrait-equation -->
 
-Four-million-step, high-precision and PyTorch controls support the selected regimes. Case 4099 coexists with two reflected periodic orbits.
-
-Normalized optimizer state; archived orthographic cameras.
+Normalized optimizer state.
 
 [Report](docs/adamax-geometry.md)
 
 #### AdaBelief memory
+
+AdaBelief on a scalar quadratic traces irregular paths through position, momentum and variance at the displayed settings.
 
 ![AdaBelief memory](docs/assets/portraits/adabelief.png)
 
@@ -2322,13 +2315,13 @@ Use `(b, c, e, d) = (0.52, 0.15, 1e-12, 1e-14)` and start at `(x, m, s) = (0.73,
 
 <!-- /portrait-equation -->
 
-A scalar quadratic objective supports irregular full optimizer states at the selected memory parameters. Finite-time numerical evidence is separated from convergence and novelty claims.
-
 Normalized state (x, m, s); equal displayed coordinate units.
 
 [Report](docs/adabelief-quadratic.md)
 
 #### Finite-sample FastICA
+
+Cases 204 and 351 retained positive leading growth over five million steps and at 70- and 100-digit precision. Other starts in Case 351 reached regular motion.
 
 ![Finite-sample FastICA](docs/assets/portraits/fastica.png)
 
@@ -2359,11 +2352,6 @@ The exact whitened observation matrices are the X arrays of the two input files.
 
 <!-- /portrait-equation -->
 
-Cases 204 and 351 retain positive finite-time tangent growth over five million
-steps and at 70 and 100 digits. Case 351 has regular competing outcomes. These
-are regimes of an established algorithm; historical priority and asymptotic
-chaotic attraction remain unresolved.
-
 Projection of the unit weight on $`(w_1,w_2,w_4)`$; every consecutive state is
 retained. No sign folding. Spatial scale and density saturation differ between
 panels. Case numbers identify the exact data sets in the report.
@@ -2373,6 +2361,8 @@ panels. Case numbers identify the exact data sets in the report.
 ### Physical and biological models
 
 #### Five motor rows
+
+Two views of the same fourteen-dimensional trajectory reveal how the five-row ribbon bends across its four displacement contrasts.
 
 ![Five motor rows](docs/assets/portraits/motor-five.png)
 
@@ -2409,13 +2399,13 @@ Start at `(0.5564638405923832, 0.14088141167094723, 0.644575919618252, 0.3815752
 
 <!-- /portrait-equation -->
 
-The same saved fourteen-dimensional trajectory is shown in two projections of its four displacement contrasts. Neither view defines a three-dimensional embedding.
-
 Fourier displacement contrasts; final 800 saved time units.
 
 [Report](docs/motor-five-geometry.md)
 
 #### Three motor rows with unequal rates
+
+Case 2566 is an eight-dimensional numerical candidate. The projection uses a fixed orthogonal rotation of the three cosine occupancies.
 
 ![Three motor rows with unequal rates](docs/assets/portraits/motor-three-asymmetric.png)
 
@@ -2452,13 +2442,13 @@ Start at `(0.182796914392684, 0.6700280946470301, 0.7792223150467322, 0.93663612
 
 <!-- /portrait-equation -->
 
-Case 2566 is an eight-dimensional numerical candidate. The projection uses a fixed orthogonal rotation of the three cosine occupancies.
-
 Rotated cosine occupancies; final 600 saved time units; stride 2.
 
 [Report](docs/motor-asymmetry-geometry.md)
 
 #### Three symmetric motor rows
+
+Case 783 has an independently computed eight-dimensional spectrum with one positive and one near-zero rate. This image shows the three sine occupancies.
 
 ![Three symmetric motor rows](docs/assets/portraits/motor-three.png)
 
@@ -2493,13 +2483,13 @@ Initial (c₀, c₁, c₂, s₀, s₁, s₂, X₀, X₁) = [1.0725874965760862, 
 
 <!-- /portrait-equation -->
 
-Case 783 has an independently computed eight-dimensional spectrum with one positive and one near-zero rate. This image shows the three sine occupancies.
-
 Sine occupancies (s0, s1, s2); a projection of the 8D flow.
 
 [Report](docs/motor-rows-gpu-survey.md)
 
 #### Motor-pair model
+
+Case 444 retained positive leading growth in an independent CPU calculation. The estimate of the neutral exponent had yet to converge.
 
 ![Motor-pair model](docs/assets/portraits/motor-pair.png)
 
@@ -2534,13 +2524,13 @@ Original (Q, Y, Z) = [0.01, 0.0, 0.0]. The extended CPU replay starts at the sav
 
 <!-- /portrait-equation -->
 
-Case 444 retains positive growth in a long independent CPU calculation. The neutral rate still needs convergence; priority and asymptotic attraction remain unresolved.
-
 Physical coordinates (h, Y, Z); final 2,000 saved time units.
 
 [Report](docs/motor-pair-gpu-survey.md)
 
 #### Synchronematic oscillators
+
+The plot follows three collective observables in a four-particle system with seven reduced angular coordinates.
 
 ![Synchronematic oscillators](docs/assets/portraits/synchronematic.png)
 
@@ -2574,13 +2564,13 @@ Particle centers = [[-1.9790993183779289, 1.985651376724929], [-2.13164667355861
 
 <!-- /portrait-equation -->
 
-The four-particle candidate is displayed through gauge-invariant collective observables. These do not form an embedding of the seven-dimensional reduced angular dynamics.
-
 Collective observables (Re Q, Im Q, C), not state coordinates.
 
 [Report](docs/synchronematic-research.md)
 
 #### Light-driven elastomer slider
+
+The three-state slider model switches between two light responses. The linked study varies the switching width and measures transverse growth.
 
 ![Light-driven elastomer slider](docs/assets/portraits/lce-slider.png)
 
@@ -2612,13 +2602,13 @@ The original upward-section (v, φ) = [0.023299383405718962, 0.00207617393024528
 
 <!-- /portrait-equation -->
 
-The retained regime belongs to a three-state relay model. The report separates transverse growth estimates, switching assumptions and known related mechanisms.
-
 Scaled full state (u/q, v/(sqrt(k) q), phi/q); scaling is explicitly physical.
 
 [Report](docs/lce-slider-research.md)
 
 #### Two-strain epidemic model
+
+The five-state model produces outbreaks of unequal size. Between outbreaks, the computed prevalence reaches extremely small values.
 
 ![Two-strain epidemic model](docs/assets/portraits/two-strain.png)
 
@@ -2656,13 +2646,13 @@ In model order (μ, β₁, β₂, γ₁, γ₂, γ₁₂, σ₁₂, η₂), the 
 
 <!-- /portrait-equation -->
 
-The numerical five-state regime contains unequal outbreaks and extremely small prevalence. Related epidemic chaos is established; physical interpretation requires the qualifications in the report.
-
 Projection (S, 1000 I1, 1000 I2); explicit axis units, not an embedding.
 
 [Report](docs/two-strain-research.md)
 
 #### Coupled optical operators
+
+The two coupled optical relays have long irregular transients. Some starts eventually reach periodic cycles.
 
 ![Coupled optical operators](docs/assets/portraits/optical-relay.png)
 
@@ -2693,13 +2683,13 @@ The exact (k, b, δ₋, δ₊) values are, at left, [74.1567393414624, 1.7841804
 
 <!-- /portrait-equation -->
 
-These six-state relay histories have persistent irregular motion in the recorded observation. Later continuations, captures and source-model assumptions are retained in the report.
-
 Projection (x_minus, x_plus, y_minus - y_plus); all saved adaptive event/QR knots. The knots are nonuniform in time. Point density is sampling density, not an invariant measure.
 
 [Report](docs/coupled-operators-research.md)
 
 #### Smooth optical feedback
+
+At the same switching width, different initial states give regular and irregular histories over the observed interval.
 
 ![Smooth optical feedback](docs/assets/portraits/optical-smooth.png)
 
@@ -2730,14 +2720,16 @@ Exact (k, b, δ₋, δ₊) = [74.1567393414624, 1.784180421282182, 0.41395173399
 
 <!-- /portrait-equation -->
 
-At the same logistic-width parameters, saved starts produce regular and irregular histories. This is a finite coexistence observation, not an asymptotic attractor classification.
-
 Projection (x_minus, x_plus, y_minus - y_plus); common scale.
 
 [Report](docs/coupled-operators-research.md)
 
 <!-- shape-search-20261121-additional -->
-### Eye-shaped crest and folded plume in precession
+### Spatial maps and flows
+
+#### Eye-shaped crest and folded plume in precession
+
+A damped, driven precession flow supports two distinct irregular shapes. For Case 52506 all six nearby starts followed the irregular motion, while four broader starts settled at a steady state.
 
 ![Eye-shaped crest and folded plume in precession](docs/assets/portraits/shapes-20261121-rotor.png)
 
@@ -2787,11 +2779,11 @@ initial native XYZ = [0.08068913518366339, -0.17568587658731483, -0.305430903956
 
 <!-- /portrait-equation -->
 
-A damped, driven precession flow supports two distinct irregular shapes. For Case 52506 all six nearby starts followed the irregular motion, while four broader starts settled at a steady state.
-
 Full three-dimensional trajectories in a rigid camera. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
-### Folded recruitment bands and three expanding directions
+#### Folded recruitment bands and three expanding directions
+
+Three successive abundances of a delayed scalar recurrence form a banded ring at left. At right a broader distribution has positive growth in all three tangent directions over two million iterations.
 
 ![Folded recruitment bands and three expanding directions](docs/assets/portraits/shapes-20261121-recruits.png)
 
@@ -2830,11 +2822,11 @@ initial abundances (x, y, z) = [0.59, 1.12, 0.47]
 
 <!-- /portrait-equation -->
 
-Three successive abundances of a delayed scalar recurrence form a banded ring at left. At right a broader distribution has positive growth in all three tangent directions over two million iterations.
-
 Each axis shows abundance in its original units at one of three successive times. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
-### Quasiperiodic petals and a corrugated rim
+#### Quasiperiodic petals and a corrugated rim
+
+A two-frequency rotation forces a pinched interval map. The attracting graph is discontinuous almost everywhere and its transverse exponent is strictly negative. The same torus coordinates are used for both portraits.
 
 ![Quasiperiodic petals and a corrugated rim](docs/assets/portraits/shapes-20261121-pinched.png)
 
@@ -2877,11 +2869,11 @@ initial (theta, phi, height) = (sqrt(5)/7, sqrt(7)/9, 0.81)
 
 <!-- /portrait-equation -->
 
-A two-frequency rotation forces a pinched interval map. The attracting graph is discontinuous almost everywhere and its transverse exponent is strictly negative. The same torus coordinates are used for both portraits.
-
 Fixed tubular coordinates encode the two forcing phases and the physical fiber height. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
-### Two knotted limit cycles in cyclic harmonic flows
+#### Two knotted limit cycles in cyclic harmonic flows
+
+The closed orbit polygons of Cases 967 and 2160 have distinct Alexander polynomials. The orbit in Case 967 has period about 215.27 and determinant 243. Stability of the flow cycles is numerical.
 
 ![Two knotted limit cycles in cyclic harmonic flows](docs/assets/portraits/shapes-20261121-knots.png)
 
@@ -2922,11 +2914,11 @@ period used to integrate the sampled orbit = 138.17345095697522
 
 <!-- /portrait-equation -->
 
-The closed orbit polygons of Cases 967 and 2160 have distinct Alexander polynomials. The orbit in Case 967 has period about 215.27 and determinant 243. Stability of the flow cycles is numerical.
-
 Native spatial states on one circuit of each periodic orbit. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
-### Attracting sets with four and five components
+#### Attracting sets with four and five components
+
+Cases 2303801 and 2401313 each have a rigorously trapped local attracting set. Their component counts are four and five, respectively, so the two sets are topologically distinguishable.
 
 ![Attracting sets with four and five components](docs/assets/portraits/shapes-20261121-components.png)
 
@@ -2971,11 +2963,11 @@ initial native XYZ = [0.1, 0.2, 0.3]
 
 <!-- /portrait-equation -->
 
-Cases 2303801 and 2401313 each have a rigorously trapped local attracting set. Their component counts are four and five, respectively, so the two sets are topologically distinguishable.
-
 Both panels show long numerical trajectories in the original three-coordinate maps. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
-### Three coexisting solenoids with inseparable triple links
+#### Three coexisting solenoids with inseparable triple links
+
+Cases 30300001 and 30300007 each contain three chaotic solenoids. Removing any one leaves the other two separated by a sphere. Their triple cannot be separated by a sphere. The two compact triples are inequivalent under ambient homeomorphisms.
 
 ![Three coexisting solenoids with inseparable triple links](docs/assets/portraits/shapes-20261121-brunnian.png)
 
@@ -3028,11 +3020,11 @@ three starts (theta, Re w, Im w) = [[0.63891, 0.142, -0.17], [0.95201, 0.0119999
 
 <!-- /portrait-equation -->
 
-Cases 30300001 and 30300007 each contain three chaotic solenoids. Removing any one leaves the other two separated by a sphere. Their triple cannot be separated by a sphere. The two compact triples are inequivalent under ambient homeomorphisms.
-
 Native Cartesian positions at equal axis scales. Each panel combines 40,000 states from each of three attracting tubes. [Equations, controls and prior work](docs/shape-search-20261121.md)
 
-### Fourteen and twelve connected components
+#### Fourteen and twelve connected components
+
+Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and twelve connected components. Each component contains at least two distinct points, as verified by an isolated orbit of twice the return period. The images show sampled trajectories at these parameters.
 
 ![Fourteen and twelve connected components](docs/assets/portraits/shapes-20261121-extension-components.png)
 
@@ -3077,8 +3069,6 @@ initial native XYZ = [0.1, 0.2, 0.3]
 
 <!-- /portrait-equation -->
 
-Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and twelve connected components. Each component contains at least two distinct points, as verified by an isolated orbit of twice the return period. The images show sampled trajectories at these parameters.
-
 Native three-axis twist coordinates, shown at equal axis scales with a principal-axis camera. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-additional -->
 
@@ -3086,6 +3076,8 @@ Native three-axis twist coordinates, shown at equal axis scales with a principal
 ### Shape search of 2026-11-22
 
 #### Two and four nested rings from one orbit
+
+One point draws both rings in Case 13745, switching rings on every step. In Case 5529 it visits four bands in the order first, third, second, fourth. Interval bounds prove both cycles of bands.
 
 ![Two and four nested rings from one orbit](docs/assets/portraits/forms-20261122-nested-crowns.png)
 
@@ -3120,11 +3112,11 @@ Case 5529 `(18, 2.2863991321995853, -3.235570552293211, 0.015576599538326255, 0.
 
 <!-- /portrait-equation -->
 
-The polynomial alternates between two concentric trapping annuli in Case 13745. In Case 5529 it visits the four certified bands in the radial order A → C → B → D → A.
-
 2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
 #### Three and five nested rings force chaos in the gaps
+
+The two local attractors have exactly three and five connected components. The order in which the map visits the bands forces positive topological entropy on a separate invariant set in the gaps.
 
 ![Three and five nested rings force chaos in the gaps](docs/assets/portraits/forms-20261122-odd-cycles.png)
 
@@ -3159,11 +3151,11 @@ Case 202080 `(20, 2.396712339599099, -4.318038192105558, -0.04008208259940147, 0
 
 <!-- /portrait-equation -->
 
-The two maps have rigorously distinct local attractors with exactly three and five connected components respectively. Their permutations force positive topological entropy on separate invariant sets between the bands.
-
 2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
 #### Three shapes from cyclic polynomial maps
+
+A central four-cornered web, an eight-sided hollow frame, and three chains of loops each arise from one uninterrupted trajectory in the complex plane. The forms and leading expansion are numerical findings.
 
 ![Three shapes from cyclic polynomial maps](docs/assets/portraits/forms-20261122-planar-icons.png)
 
@@ -3200,16 +3192,20 @@ Case 11450 `(3, -1.4752569892480971, 2.2683117125593126, 0.4538186067715287, 1.5
 
 <!-- /portrait-equation -->
 
-A central four-cornered web, an eight-sided hollow frame, and three chains of loops each arise from one uninterrupted trajectory in the complex plane. The forms and leading expansion are numerical findings.
-
 3 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
 <!-- /wow-20261122-false -->
 
 ## Research index
 
-This index covers the illustrated studies above, periodic captures, failed searches, source discrepancies and structural exclusions.
+[Shape searches](#shape-search-reports) · [Constructed flows and maps](#constructed-flows-and-maps) · [Algorithms](#numerical-algorithms-1) · [Molecular motors](#molecular-motors) · [Physical and biological models](#other-physical-and-biological-models) · [Negative and incomplete results](#negative-incomplete-and-excluded-searches)
 
-“Certified” refers to the particular interval or analytical statement in a report. Positive finite-time growth and a persistent point cloud are numerical evidence. Neither category establishes historical priority without a separate comparison.
+### Shape search reports
+
+| Study | Findings and evidence |
+| --- | --- |
+| [Rings, optical fans, Newton basins and geodesics](docs/chaotic-forms-20261122.md) | [Ring permutations](results/wow_search_20261122/symmetry/README.md) · [Optical field](results/wow_search_20261122/orbit/README.md) · [Shared basin boundary](results/wow_search_20261122/boundary/README.md) · [Straight geodesic](results/wow_search_20261122/lattice/README.md) |
+| [Spatial attractor search](docs/shape-search-20261121.md) | [Follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Knotted bands](docs/shape-search-20261121.md#a-knotted-chaotic-band) · [Component counts](docs/shape-search-20261121.md#attracting-sets-with-different-numbers-of-components) |
 
 ### Constructed flows and maps
 
@@ -3269,7 +3265,7 @@ This index covers the illustrated studies above, periodic captures, failed searc
 
 ### Negative, incomplete and excluded searches
 
-These studies are retained to document tested mechanisms and prevent repeated false positives. An incomplete integration is not a negative result.
+The outcome column distinguishes runs that settled to a cycle, runs that stopped early, and models that could not be reconstructed from their sources.
 
 | System | Outcome or unresolved issue |
 | --- | --- |
@@ -3292,4 +3288,4 @@ These studies are retained to document tested mechanisms and prevent repeated fa
 
 [All report files](docs) · [Result directories](results/README.md) · [Sources and checks](RECORDS.md) · [Dependency notices](THIRD_PARTY_NOTICES.md)
 
-Portraits use a common rendering convention and declared coordinates. Dates refer to our drawings, not discovery priority. [Figure records](tools/README-portraits.md) · [License](LICENSE)
+[Figure records and rendering conventions](tools/README-portraits.md) · [License](LICENSE)

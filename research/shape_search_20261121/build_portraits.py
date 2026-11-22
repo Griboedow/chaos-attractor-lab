@@ -1,7 +1,6 @@
 """Register selected run inputs and build their canonical portraits and rotations."""
 import argparse
 import json
-import re
 import shutil
 import subprocess
 import sys
@@ -107,32 +106,41 @@ def make_row(study,runs,registry):
 
 
 def update_readme(catalog):
-    path=ROOT/"README.md"
-    main=path.read_text(encoding="utf-8")
-    current=[row for row in catalog["rows"] if row["id"].startswith("shapes-20261121-")]
-    for featured,position in ((True,"Further portraits"),(False,"Research index")):
-        name="selected" if featured else "additional"
-        start=f"<!-- shape-search-20261121-{name} -->"
-        end=f"<!-- /shape-search-20261121-{name} -->"
-        main=re.sub(re.escape(start)+r".*?"+re.escape(end)+r"\n\n","",main,flags=re.S)
-        headings=["## Shape search of 2026-11-21"] if featured else []
-        for row in current:
-            if bool(row.get("featured"))!=featured:
+    path = ROOT / "README.md"
+    main = path.read_text(encoding="utf-8")
+    studies = [row for row in catalog["rows"] if row["id"].startswith("shapes-20261121-")]
+    for featured, position in ((True, "Further portraits"), (False, "Research index")):
+        name = "selected" if featured else "additional"
+        start = f"<!-- shape-search-20261121-{name} -->"
+        end = f"<!-- /shape-search-20261121-{name} -->"
+        heading = "## Shape search of 2026-11-21" if featured else "### Spatial maps and flows"
+        title_level = "###" if featured else "####"
+        entries = []
+        for row in studies:
+            if bool(row.get("featured")) != featured:
                 continue
-            headings.append("### "+row["title"])
-            stem="docs/assets/portraits/"+row["id"]
+            title = row["title"]
+            stem = "docs/assets/portraits/" + row["id"]
+            entries.extend([f"{title_level} {title}", row["description"]])
             if featured:
-                headings.append("!["+row["title"]+" in rotation]("+stem+".webp)")
-            headings.extend(["!["+row["title"]+"]("+stem+".png)",row["description"],
-                             row["coordinates"]+" [Equations, controls and prior work](docs/shape-search-20261121.md)"])
-        if headings:
-            block=start+"\n"+"\n\n".join(headings)+"\n"+end+"\n\n"
-            anchor="## "+position+"\n"
-            assert main.count(anchor)==1
-            main=main.replace(anchor,block+anchor)
-    path.write_text(main,encoding="utf-8",newline="\n")
-    subprocess.run([sys.executable,str(ROOT/"tools/render_dates.py"),"sync"],check=True)
-    subprocess.run([sys.executable,str(ROOT/"tools/portrait_equations.py"),"sync"],check=True)
+                entries.append(f"![{title} in rotation]({stem}.webp)")
+            entries.extend([
+                f"![{title}]({stem}.png)",
+                row["coordinates"] + " [Equations, controls and prior work](docs/shape-search-20261121.md)",
+            ])
+
+        block = start + "\n" + "\n\n".join([heading, *entries]) + "\n" + end if entries else ""
+        if start in main:
+            first = main.index(start)
+            last = main.index(end, first) + len(end)
+            main = main[:first] + block + main[last:]
+        elif block:
+            anchor = f"## {position}\n"
+            assert main.count(anchor) == 1
+            main = main.replace(anchor, block + "\n\n" + anchor)
+    path.write_text(main, encoding="utf-8", newline="\n")
+    subprocess.run([sys.executable, str(ROOT / "tools/render_dates.py"), "sync"], check=True)
+    subprocess.run([sys.executable, str(ROOT / "tools/portrait_equations.py"), "sync"], check=True)
 
 
 def build(specs,runs,refresh=False):

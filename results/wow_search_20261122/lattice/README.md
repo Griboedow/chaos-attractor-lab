@@ -1,6 +1,8 @@
 # An exactly straight orbit on a fifteen-handle chaotic attractor
 
-A straight line on a periodic three-dimensional lattice closes after winding seven times in x, seven times backwards in y, and twice backwards in z. It lies on a uniformly hyperbolic attractor. Its unstable transverse multiplier is strictly between **4,450,000 and 4,470,000** per lap. In two independent numerical integrations, rotating its initial velocity by one millionth of a radian sends the particle 0.2 distance units away from the straight ray after 47.454 time units, before the ray completes one lap.
+A particle can follow a straight line around a periodic surface with fifteen handles. It returns to its starting point after winding (7, −7, −2) times around the three coordinate axes. An infinitesimal perturbation in the unstable direction grows by a factor between **4.45 and 4.47 million** per lap.
+
+[Flow equations](#three-waves-and-a-unit-speed-flow) · [Surface topology](#why-the-surface-has-fifteen-handles) · [Hyperbolicity](#why-the-geodesic-dynamics-is-hyperbolic) · [Multiplier proof](#the-ray-and-its-multiplier) · [Reproduce](#reproduction)
 
 ![An exact straight ray and a generic geodesic on the fifteen-handle surface in one periodic cell](crystal.png)
 
@@ -10,7 +12,7 @@ A straight line on a periodic three-dimensional lattice closes after winding sev
 
 ## Three waves and a unit-speed flow
 
-Coordinates q = (x,y,z) are angles modulo 2π. The crystal in the figure has n = 7 and k = 3/8. Let g and H be the ordinary gradient and Hessian of F. A particle's tangential velocity is u. The following smooth equations define the flow on a neighborhood of its attracting set.
+Position q = (x,y,z) is periodic modulo 2π in each coordinate. The figure uses n = 7 and k = 3/8. Write g and H for the gradient and Hessian of F, v for velocity, and u for its tangential part. Where g is nonzero, the flow is
 
 ```math
 \begin{aligned}
@@ -21,43 +23,49 @@ Coordinates q = (x,y,z) are angles modulo 2π. The crystal in the figure has n =
 \end{aligned}
 ```
 
-The attracting set consists of the unit tangent vectors to F = 0. On this set normal acceleration supplies the constraint, tangential acceleration vanishes, and the particle follows a unit-speed geodesic. The geometric surface in the figure is its projection into position space. The state also includes velocity. The feedback equation gives F″ + 3F′ + 2F = 0 exactly. On F = F′ = 0 the speed approaches one for all nearby positive initial speeds. More explicitly, for S = |v|² near the target, S′ = 2(1−S)S + O(|F| + |F′|), uniformly on a compact neighborhood with |g| bounded below. The decaying forcing and the stable scalar equilibrium S = 1 give local attraction. The model only needs the neighborhood where g is nonzero.
+The figure shows the position surface F = 0. Its unit tangent vectors form the attractor in position–velocity space. On this set the acceleration is normal, so the particle follows a unit-speed geodesic.
+
+To see attraction, differentiate the constraint along the flow. The feedback gives F″ + 3F′ + 2F = 0, so both F and F′ decay. Near the unit tangent bundle the squared speed S = |v|² obeys S′ = 2(1−S)S + O(|F| + |F′|), uniformly since |g| is bounded below. The equilibrium S = 1 is locally stable under this decaying forcing.
 
 ## Why the surface has fifteen handles
 
-Use w = x − y + nz. The map (x,y,z) ↦ (x,y,w) is an n-fold covering of the flat torus. Project the basic level surface to the (x,y) torus. For 0 < k < 2 the allowed domain |cos x + cos y| ≤ k is a torus with two open disks removed. The excluded regions are the caps around the unique maximum and minimum, bounded by regular level circles above and below the saddle value zero. The basic surface glues two copies of this punctured torus along both circles. It is connected and has Euler characteristic −4.
+Set w = x − y + nz. The map (x,y,z) ↦ (x,y,w) is an n-fold torus cover. Project the basic level surface onto (x,y). For 0 < k < 2 its image |cos x + cos y| ≤ k is the torus minus two open disks. The excluded caps enclose the unique maximum and minimum, above and below the saddle value zero. Gluing two copies of the punctured torus along both boundary circles gives the basic surface, with Euler characteristic −4.
 
-There is a closed curve on the basic surface with x = π/2 and y = arccos(−k cos w) when k ≤ 1. It winds once in w and zero times in x,y, so it cycles all n lifts in z. This proves connectedness for k = 3/8. Throughout 0 < k < 2 the surface stays regular and compact, so the connected covering type persists under deformation of k. Euler characteristic of the cover is −4n. Its genus is 2n + 1.
+For k ≤ 1 the closed curve x = π/2, y = arccos(−k cos w) winds once in w and zero times in x and y. It cycles all n lifts in z, proving connectedness at k = 3/8. Regularity and compactness preserve the covering type throughout 0 < k < 2. The cover has Euler characteristic −4n and genus 2n + 1, hence fifteen handles for n = 7.
 
 ## Why the geodesic dynamics is hyperbolic
 
-In the coordinates (x,y,w), write A = cos x, B = cos y, C = k cos w. The numerator of the implicit Gaussian curvature, computed as the gradient times the adjugate Hessian times the gradient, equals k²AB + AC + BC on A+B+C = 0. The shear and covering map multiply that numerator by n² in the physical coordinates. The denominator is |g|⁴. Thus
+Write A = cos x, B = cos y and C = k cos w, so A+B+C = 0. In (x,y,w) the curvature numerator (gradient times adjugate Hessian times gradient) is k²AB + AC + BC. Changing back to (x,y,z) multiplies it by n². Dividing by |g|⁴ gives
 
 ```math
  K=-\frac{n^2}{|g|^4}\big(A^2+B^2+(2-k^2)AB\big).
 ```
 
-The quadratic form is positive definite for 0 < k < 2. Curvature is strictly negative except at the finitely many points where all three cosines vanish. No complete geodesic lies in those points. The compact nonpositively curved surface therefore satisfies the Anosov criterion. One direct argument uses the scalar Jacobi equation J″ = −KJ. Its first-order system has nonnegative off-diagonal entries. On every unit-time segment curvature is negative on some open subinterval, so the two boundary rays of the nonnegative Jacobi cone enter its interior. Compactness makes this strict cone condition uniform. Time reversal gives the stable cone. This is a proof for the full unit tangent flow. Values of individual Lyapunov exponents away from the straight orbit are a separate question. [Eberlein's criterion](https://doi.org/10.4310/jdg/1214431801) · [Xu on compact surfaces of nonpositive curvature](https://www.numdam.org/item/AFST_2015_6_24_3_625_0/)
+For 0 < k < 2 the quadratic form is positive definite. Curvature is negative except at the finitely many points where all three cosines vanish. Every unit-time geodesic segment therefore contains an open interval of negative curvature.
+
+In the Jacobi equation J″ = −KJ, the nonnegative (J,J′) cone is forward invariant. Negative curvature on part of each segment sends both boundary rays into its interior. Compactness makes the cone condition uniform. Time reversal gives the stable cone, proving that the unit tangent flow is Anosov. [Eberlein's criterion](https://doi.org/10.4310/jdg/1214431801) · [Xu on compact surfaces of nonpositive curvature](https://www.numdam.org/item/AFST_2015_6_24_3_625_0/)
 
 ## The ray and its multiplier
 
-Start at q₀ = (π/2, π/2, π/14) with velocity proportional to (1,−1,−2/7). Along this line w = π/2 and y = π−x before reduction modulo 2π. The two first cosines cancel, so an exactly straight line lies on the surface. Its acceleration is zero. Its primitive length L is 2π√102. The Jacobi curvature coefficient along it repeats every half turn in x:
+Launch from q₀ = (π/2, π/2, π/14) with unit velocity parallel to (1,−1,−2/7). Along the straight ray w = π/2 and y = π−x, so the first two cosines cancel and F stays zero. The acceleration vanishes. One primitive lap has length L = 2π√102. Its Jacobi coefficient repeats every half turn in x.
 
 ```math
  -K=\left(\frac{nk\cos x}{2\sin^2 x+(n^2+2)k^2}\right)^2 .
 ```
 
-The interval computation divides one half turn into 16,384 cells and bounds this coefficient below and above on each entire cell at 128-bit precision. With nonnegative initial Jacobi data, constant-coefficient solutions on each cell give entrywise lower and upper bounds on the exact transfer matrix. The true short return matrix has determinant one by the Wronskian identity. Its trace therefore bounds the expanding eigenvalue via (t + √(t² − 4))/2. There are 14 half turns in one full ray. Raising these bounds to the fourteenth power gives the strict multiplier enclosure above. This describes infinitesimal changes along an unstable direction. Finite orbit separation saturates. [Interval certificate](ray-certificate.json) · [Comparison implementation](../../../research/wow_search_20261122/lattice/certify.py)
+At 128-bit precision, bound this coefficient on each of 16,384 cells in a half turn. With nonnegative Jacobi initial data, the constant-coefficient solutions at the two bounds enclose each entry of the transfer matrix. Its determinant is one by the Wronskian identity. A trace bound t thus gives an eigenvalue bound (t + √(t² − 4))/2. One lap contains 14 half turns. Raising the two eigenvalue bounds to the fourteenth power gives the stated interval for infinitesimal transverse growth. [Interval certificate](ray-certificate.json) · [Verification code](../../../research/wow_search_20261122/lattice/certify.py)
 
 ## What was measured
 
-The sweep computed the straight-ray multiplier for 72 combinations of winding frequency and third-wave amplitude. The published example combines fifteen handles with a short exact coefficient. A generic run rotated the straight velocity by 0.321 radians within the tangent plane and recorded 280,000 positions at intervals 0.1. The orbit visited all 14 local sheets, with between 19,365 and 20,824 visits per sheet. The maximum absolute constraint residual was below 0.000026. For launch deflections of 10⁻⁴, 10⁻⁶ and 10⁻⁸ radians, DOP853 and RK45 agreed on the first 0.2 departure times to within 0.000001. The figure uses a more finely sampled 337.5-unit prefix for the visible gold path. Surface shading is a rendering of the exact constraint. [Parameters, start, numerical checks and cloud hash](control.json)
+A sweep of 72 winding frequencies and amplitudes selected the fifteen-handle case. For a deflection of 10⁻⁶ radians the particle first moved 0.2 distance units from the straight ray at time 47.454, before one lap (about 63.457). DOP853 and RK45 agreed within 10⁻⁶ time units for launch deflections of 10⁻⁴, 10⁻⁶ and 10⁻⁸ radians.
 
-The three-cosine surface and Anosov dynamics of coupled rotators have published precedents. The sheared fifteen-handle cover, exact ray and multiplier are the specific example investigated here. Historical priority for the weighted covering construction is open. [Kuznetsov, *Chaos in three coupled rotators*](https://arxiv.org/abs/1708.04493)
+The gold path uses the first 337.5 time units of a second orbit, launched at a 0.321-radian deflection. In 280,000 positions sampled every 0.1 time units, it visited all 14 sheets (19,365–20,824 samples per sheet). The maximum absolute constraint residual was below 0.000026. Surface shading comes from the exact constraint. [Parameters, initial conditions and controls](control.json)
+
+Kuznetsov studied three coupled rotators on a three-cosine surface with Anosov dynamics. Here the shear gives a fifteen-handle cover with an explicit straight orbit and a certified multiplier. Priority for the weighted cover is open. [Kuznetsov, *Chaos in three coupled rotators*](https://arxiv.org/abs/1708.04493)
 
 ## Reproduction
 
-Use Python with NumPy, SciPy, Numba, Matplotlib and Pillow. The interval program also uses python-flint. Run from the repository root with an external output directory for the trajectory.
+Run from the repository root with NumPy, SciPy, Numba, Matplotlib, Pillow and python-flint. Replace `RUN` with an external output directory.
 
 ```text
 python research/wow_search_20261122/lattice/geodesic.py --out RUN/lattice --report RUN/lattice/control.json

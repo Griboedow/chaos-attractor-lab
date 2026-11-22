@@ -1,6 +1,10 @@
 # Cyclic polynomial maps with nested trapping annuli
 
-A single orbit draws each portrait. The four certified maps have local attractors with exactly two, three, four or five connected components. Each component winds around the origin in the sense that it separates the origin from infinity. The three- and five-component permutations also force positive topological entropy on compact invariant sets in the radial gaps. The latter theorem concerns trajectories between the attracting bands. The Lyapunov rates measured in the bands are numerical.
+One point alternates between two concentric bands on every step in Case 13745. Two million steps trace 17 lobes on the inner band and a scalloped outer rim. Changing the coefficients produces three, four or five bands. Interval arithmetic proves the number of connected components and the order in which the map visits them.
+
+[Map and coefficients](#the-map-and-parameters) · [Proof of the bands](#strict-radial-traps-and-essential-components) · [Dynamics in the gaps](#entropy-forced-between-the-bands) · [Search](#screening-and-independent-checks) · [Reproduce](#reproduction)
+
+The letters below label bands from the center out. Each portrait records a single orbit. [Watch 108 consecutive steps of Case 13745](alternating-orbit.webp).
 
 | Case | Rotation order | Certified radial cycle, innermost = A | Mean numerical rates per iterate | Portrait |
 | --- | ---: | --- | --- | --- |
@@ -9,11 +13,11 @@ A single orbit draws each portrait. The four certified maps have local attractor
 | 5529 | 18 | A → C → B → D → A | +0.014771, −0.001591 | [Four interleaved rings](cyclic-5529.png) |
 | 202080 | 20 | A → C → D → B → E → A | +0.027593, −0.000218 | [Five nested rings](cyclic-202080.png) |
 
-**Drawing date:** 2026-11-22 for the seven portraits in this packet. The other three selected settings are numerical. [Case 1723](cyclic-1723.png) has a small four-cornered central web surrounded by four arcing outer branches. [Case 14725](cyclic-14725.png) has eight concave sides and a large hollow center. [Case 11450](cyclic-11450.png) traces three bent chains of small loops. The second rate in Case 205188 crosses zero in at least one measured window.
+All seven portraits were drawn on **2026-11-22**. Three more settings were selected by numerical screening: [a four-cornered web (Case 1723)](cyclic-1723.png), [a hollow octagon (Case 14725)](cyclic-14725.png) and [three bent chains of loops (Case 11450)](cyclic-11450.png).
 
 ## The map and parameters
 
-Write the two Cartesian state coordinates as $`z=x+iy`$. The autonomous polynomial map is
+In Cartesian coordinates $`z=x+iy`$, iterate the polynomial
 
 ```math
 F(z)=\left[\lambda+i\omega+(\alpha+i\delta)|z|^2+\beta\mathrm{Re}(z^n)\right]z
@@ -30,11 +34,11 @@ F(z)=\left[\lambda+i\omega+(\alpha+i\delta)|z|^2+\beta\mathrm{Re}(z^n)\right]z
 | 14725 | 8 | -1.66796 | 1.365686 | -0.1338975 | 1.234103 | -0.1803585 | -0.06525403 | -0.1957832 | -0.3894122 |
 | 11450 | 3 | -1.475257 | 2.268312 | 0.4538186 | 1.533973 | -0.07809093 | -0.3077413 | 0.2462413 | 0.6479135 |
 
-The table is rounded. The [numerical receipt](numerics.json) gives each coefficient in binary64 hexadecimal, the screen seed, the seven initial states and the byte hashes. All displayed trajectories start at $`(0.247,0.193)`$, with each input decimal converted to its nearest binary64 value. The [annulus certificate](annuli.json) interprets each resulting coefficient exactly as a binary rational.
+Every portrait starts at $`(0.247,0.193)`$. The table rounds the coefficients. The search and the certificate use the exact binary64 values. [Hexadecimal coefficients, seeds and starting points](numerics.json) · [Certified annuli](annuli.json)
 
-For $`\zeta^n=1`$, direct substitution gives $`F(\zeta z)=\zeta F(z)`$. Conversely, the nonzero monomial with coefficient $`\gamma`$ forces every commuting origin-centered rotation to satisfy $`\zeta^n=1`$. Complex multiplication by $`\lambda+i\omega`$ is the derivative at zero. Here $`\omega\ne0`$, so no origin-centered orthogonal reflection can commute with that derivative. This establishes the exact cyclic group for the map's origin-centered orthogonal symmetries. Its invariant components inherit the rotations. Symmetry alone does not imply that a particular orbit samples them uniformly.
+For $`\zeta^n=1`$, substitution gives $`F(\zeta z)=\zeta F(z)`$. Conversely the nonzero $`\gamma`$ term forces $`\zeta^n=1`$ for every rotation commuting with the map. The derivative at zero multiplies by $`\lambda+i\omega`$. Since $`\omega\ne0`$, it commutes with no reflection through the origin. The exact rotation group therefore has order $`n`$.
 
-Field and Golubitsky previously developed polynomial symmetric icons with the $`\lambda,\alpha,\beta,\gamma,\omega`$ terms and studied finite orbits with many rotation sectors. This search uses radial angular drift $`i\delta|z|^2z`$ and a complex second angular harmonic $`\eta\bar z^{2n-1}`$. The evidence here concerns these coefficients, explicit trapping intervals, radial permutations and recorded orbits. Historical uniqueness of the forms and families is open. [Field and Golubitsky, *Symmetry in Chaos*, Appendix A](https://epubs.siam.org/doi/abs/10.1137/1.9780898717709.appa). [Authors' paper on symmetric chaos](https://www.asc.ohio-state.edu/golubitsky.4/reprintweb-0.5/output/papers/symmetric_chaos.pdf).
+Field and Golubitsky studied the polynomial with the $`\lambda,\alpha,\beta,\gamma,\omega`$ terms. The map here adds radial angular drift $`i\delta|z|^2z`$ and a second angular harmonic $`\eta\bar z^{2n-1}`$. [*Symmetry in Chaos*, Appendix A](https://epubs.siam.org/doi/abs/10.1137/1.9780898717709.appa) · [Field and Golubitsky on symmetric chaos](https://www.asc.ohio-state.edu/golubitsky.4/reprintweb-0.5/output/papers/symmetric_chaos.pdf)
 
 ## Strict radial traps and essential components
 
@@ -45,24 +49,28 @@ W=r\big[\lambda+i\omega+(\alpha+i\delta)r^2+\beta r^n\cos\psi\big]
    +\gamma r^{n-1}e^{-i\psi}+\eta r^{2n-1}e^{-2i\psi}.
 ```
 
-The [Arb replay](../../../research/wow_search_20261122/symmetry/certify.py) encloses this expression on complete closed boxes in $`[a_i,b_i]\times[0,2\pi]`$. The verifier recursively bisects rational radius and turn intervals. Rounded comparisons guide partitioning only. Acceptance uses strict 100-bit ball inequalities on every leaf. For every phase it proves
+The verifier covers $`[a_i,b_i]\times[0,2\pi]`$ with closed boxes. Rounded estimates guide subdivision. On each final box, 100-bit Arb interval arithmetic proves both strict inequalities. [Verifier](../../../research/wow_search_20261122/symmetry/certify.py)
 
 ```math
 a_{i+1}^2+10^{-6}\lt |W|^2\lt b_{i+1}^2-10^{-6},
 \qquad \mathrm{Re}W\gt 10^{-6}.
 ```
 
-The four replays use 524, 441, 557 and 1,016 leaves in table order. Therefore $`F(A_i)\subset\mathrm{int} A_{i+1}`$ with indices taken modulo $`q`$. Write $`K_i=\bigcap_{m\ge0}F^{qm}(A_i)`$. These nested nonempty compact connected images have a connected intersection. Their union $`K`$ is the attracting invariant set of the trapping neighborhood. Compactness gives $`F(K_i)=K_{i+1}`$: the forward images of $`F(A_i)`$ under $`F^q`$ lie between two successive nested images of $`A_{i+1}`$. The disjoint annuli separate the $`q`$ nonempty connected sets, proving that $`K`$ has exactly $`q`$ components. Orbits starting in the trapping neighborhood approach $`K`$ in distance, by nested compactness. Every $`K_i`$ is itself invariant under the rotations because both $`A_i`$ and $`F`$ have this symmetry.
+**Component count.** The four cases required 524, 441, 557 and 1,016 boxes in table order. The first inequality gives $`F(A_i)\subset\mathrm{int} A_{i+1}`$, cyclically modulo $`q`$. Each $`K_i=\bigcap_{m\ge0}F^{qm}(A_i)`$ is a nested intersection of nonempty compact connected sets. The successive images of $`F(A_i)`$ under $`F^q`$ lie between successive images of $`A_{i+1}`$, so $`F(K_i)=K_{i+1}`$. Their union $`K`$ attracts the trapping neighborhood by nested compactness. The disjoint annuli separate its $`q`$ connected components. Each inherits the rotational symmetry.
 
-Take a circle in $`A_i`$ wound once about zero. The positive real part of $`W`$ gives a single continuous, periodic argument for $`F(z)/z`$ on every trapping annulus. Thus applying $`F`$ to any closed loop there preserves winding number. Each $`F^{qm}(A_i)`$ contains the image of the chosen circle, still of winding one. If a path from zero to the exterior avoided $`K_i`$, truncate it beyond the outermost annulus. Its compact image would miss one of the nested compact sets and hence miss that set's winding-one loop. The winding number of this loop at points along such a path would have to change from one to zero without a crossing, which is impossible. Every component therefore separates zero from infinity. Each meets every radial ray and contains more than one point. The argument allows complicated connected sets and does not identify them as simple curves.
+**Each component surrounds zero.** The second inequality gives a continuous periodic argument for $`F(z)/z`$ on every trapping annulus. Applying $`F`$ therefore preserves the winding number of a closed loop there. Every $`F^{qm}(A_i)`$ contains the image of a circle wound once around zero. If a path reached the exterior from zero while avoiding $`K_i`$, its compact portion up to the exterior would miss one of the nested sets. It would then avoid this set's winding-one loop even as the loop's index along the path changed from one to zero, a contradiction. Thus each component meets every radial ray. Whether it is a simple curve remains open.
 
-Direct 800-bit complex-ball propagation also certifies that the primary exact initial point enters one of the strict traps after 2, 6, 9 and 7 steps, respectively. It verifies entry for every tested start for the first three maps, and six of seven for Case 202080. The seventh five-component start exceeded the numerical radius cutoff. This proves attraction of each verified exact orbit to its designated $`K`$, without requiring that the orbit be dense in $`K`$.
+**Entry from the plotted start.** At 800-bit precision the starting point enters a trapping annulus after 2, 6, 9 and 7 steps, respectively. All seven starts were certified for the first three maps and six for Case 202080. The seventh exceeded the numerical radius cutoff. Certification establishes attraction to the component cycle. Density of a single orbit in that cycle remains open.
 
 ## Entropy forced between the bands
 
-Order the annuli by increasing radius. For each neighboring pair, let $`G_j`$ be the closed intervening gap, including the outer boundary of the inner annulus and the inner boundary of the outer one. These compact gaps have positive pairwise separation. Join a point of one boundary circle of a gap to the other by any continuous path contained in that gap. The images of the endpoints lie strictly inside the two target annuli specified by the permutation. The intermediate-value theorem on the radius of the image path yields a closed subpath traversing each gap between the targets. To choose such a subpath, take the first hit of the far boundary and the last preceding hit of the near boundary. Its interior stays in the chosen gap. The same argument applies in either orientation.
+For the three-band map, every infinite itinerary through the two gaps that avoids consecutive visits to the inner gap occurs. For the five-band map the allowed itineraries have the four-state graph below. These claims concern points that stay **between** the attracting bands.
 
-Starting with a radial path across $`G_j`$, apply this rule successively and restrict its parameter interval at each step. For any finite allowed word the remaining closed subinterval is nonempty and all its points follow that word. Nested compactness gives a point for every infinite one-sided word. Let $`X_+`$ consist of points whose forward iterates stay in the gaps and whose successive gap labels follow the edges just constructed. This set is compact because each allowed pair of successive labels defines a closed condition and there are finitely many such pairs. Its itinerary map is continuous by positive separation, commutes with the forward maps and is onto the one-sided path shift. Pass to $`X=\bigcap_{k\ge0} F^k(X_+)`$ for equality $`F(X)=X`$. The two graphs below have predecessors at every vertex. Any one-sided word therefore has arbitrarily long admissible pasts. Intersecting the nested compact sets $`F^k(X_+)`$ in the closed fiber of that word preserves surjectivity from $`X`$. This constructs a **factor** onto the path shift. Multiple physical points may have the same itinerary.
+**Crossing a gap.** Let $`G_j`$ be the closed gap between neighboring annuli, including its two boundary circles. Distinct gaps have positive separation. Join the boundaries of one gap by a path in it. Its endpoints map into the interiors of their respective target annuli. By continuity of radius the image crosses every intervening gap, in either orientation. For each crossing, take the first hit of the far boundary and the last preceding hit of the near boundary. The subpath stays in the chosen gap.
+
+**Coding a trajectory.** Start with a radial path across $`G_j`$ and restrict its parameter interval at each crossing. Every finite admissible word leaves a nonempty closed interval. Nested compactness realizes each infinite one-sided word. Let $`X_+`$ contain the points whose forward gap labels follow the graph. This is compact because the finite union of allowed closed transition conditions is closed at each time. Positive gap separation makes the itinerary map continuous, and it intertwines $`F`$ with the one-sided shift.
+
+To obtain an invariant domain, set $`X=\bigcap_{k\ge0}F^k(X_+)`$. Each vertex has a predecessor, so any word has arbitrarily long admissible pasts. Its closed fiber meets every nested $`F^k(X_+)`$ and hence meets $`X`$. The resulting itinerary map is onto, with $`F(X)=X`$. The entropy of the symbolic shift gives a lower bound for the entropy on $`X`$.
 
 For Case 205188 the order $`A\to B\to C\to A`$ gives
 
@@ -78,17 +86,19 @@ M_5=\begin{pmatrix}0&0&1&1\\0&0&0&1\\0&1&1&0\\1&0&0&0\end{pmatrix},
 \quad h_{\mathrm{top}}(F|_X)\ge\log\rho(M_5)\simeq0.41401.
 ```
 
-The characteristic polynomial of the second matrix is $`t^4-t^3-t^2+t-1`$, with Perron root approximately 1.5128764. All entropy bounds are per application of $`F`$. A point on a boundary of a gap maps strictly into a trapping annulus, so the invariant gap set is disjoint from the local attracting set $`K`$. Positive entropy **inside** the attracting bands remains an open question. The analogous two- and four-component gap graphs in the receipt have spectral radius one.
+The second matrix has characteristic polynomial $`t^4-t^3-t^2+t-1`$ and Perron root 1.5128764 to the displayed precision. The bounds are per iteration. A gap-boundary point moves inside a trapping annulus, so $`X`$ is disjoint from the local attractor $`K`$. Positive entropy inside the bands remains open. The two- and four-band graphs have spectral radius one.
 
 ## Screening and independent checks
 
-The initial Sobol screen covered 16,384 parameter rows. Its finite-time gate required a leading rate above 0.006 in every window, occupancy of at least 85 of 48×48 Cartesian bins and at least eight visits in each of 18 angular sectors. It retained 2,689 rows. Four geometric rankings gave 181 distinct previews. Cases 1723, 13745, 14725, 11450 and 5529 were selected after viewing these previews. Rechecking all retained rows for non-power-of-two radial periods found a short-lived five-band pattern in Case 15960. A 100,000-step burn-in erased the separation there, so it was kept as an external negative control.
+The first Sobol search tested 16,384 parameter sets. To pass, an orbit needed a leading growth rate above 0.006 in every window, at least 85 occupied bins on a 48×48 grid, and at least eight visits in each of 18 angular sectors. Of 2,689 survivors, four geometric rankings yielded 181 previews. Visual inspection selected Cases 1723, 13745, 14725, 11450 and 5529. In Case 15960 an apparent five-band pattern disappeared after 100,000 steps.
 
-The follow-up generated 8,192 additional settings near the scalar radius-map windows of orders three and five. It flagged 123 settings with sampled separated bands and positive leading growth. Across both screens there were 24,576 distinct parameter settings. In the first screen the numeric case is the zero-based Sobol row. In the follow-up it is 200000 plus that row. The follow-up selected two cases with separated full-angle trapping annuli and structured orbit density.
+A second search sampled 8,192 settings near period-three and period-five windows of the scalar radius map. Of 123 candidates with separated bands and positive leading growth, Cases 205188 and 202080 admitted full-annulus certificates. Case numbers are zero-based Sobol row numbers, with 200000 added for this second search.
 
-Each PNG counts two million consecutive post-transient states from one orbit in a 1,200×1,200 square with equal axes, after 100,000 discarded iterates. Color is a monotone function of visits. The complete arrays contain the raw $`x,y`$ coordinates. The same stored orbit supplies all angular sectors. For the two-, three-, four- and five-component examples, all 20 leading growth windows were positive. The strongest two-direction result was Case 13745, with second rate in the interval [0.00329, 0.00745] across its 20 windows and positive second mean at each of six additional starts. In Case 5529 each of 18 sectors received 5.55190–5.56115% of the orbit. In Case 13745 each of 17 sectors received 5.87235–5.88910%. The receipt includes the complete vectors.
+Each 1,200×1,200 portrait counts two million consecutive visits after discarding the first 100,000. Brighter pixels received more visits. The 17 sectors in Case 13745 each received 5.87235–5.88910% of the orbit. The 18 sectors in Case 5529 each received 5.55190–5.56115%.
 
-For all seven candidates, [the validation program](../../../research/wow_search_20261122/symmetry/validate.py) measures growth via the analytic real-linear tangent map, checks both Jacobian columns against centered differences and replays using a separately written polar formula. It retains full-window ranges, all alternate starts, total-variation distances on a fixed 64×64 grid, a lag-1–512 late periodicity diagnostic and external trajectory hashes. Agreement of finite-time growth and visit distributions supports the numerical interpretations.
+The leading growth rate was positive in all 20 windows for each certified map. For Case 13745 the second rate ranged from 0.00329 to 0.00745, with positive means at six additional starts. For Case 205188 the second rate crossed zero across windows. These finite measurements do not settle chaos on the attracting components.
+
+The validator compares the analytic tangent map with centered differences and replays each orbit in polar coordinates. It records the growth windows, independent starts, 64×64 occupancy comparisons and a periodicity check at lags 1–512. [Validation code](../../../research/wow_search_20261122/symmetry/validate.py) · [Results and array hashes](numerics.json)
 
 ## Reproduction
 

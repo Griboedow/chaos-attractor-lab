@@ -1,49 +1,57 @@
 # Reproduction
 
-Use the instructions and environment recorded for the selected study. The repository contains several numerical pipelines; one environment is not a validation of every result. Write new outputs to a separate directory.
+Run commands from the repository root. Each study records its own equations, parameters, initial states and software versions. Use an external output directory or a disposable checkout for scripts that write to fixed paths.
 
-Large computed arrays are optional cache data. See [data storage](data-storage.md)
-for a shallow clone, selected-payload recovery and the `--materialize` option
-required by older verification scripts. Sources, small inputs, compact summaries
-and certificates remain tracked. Historical figure exports needed by some frozen
-packet verifiers can be restored separately; see [manuscript editing and archive
-instructions](manuscript-editing.md).
+## Check the two-ring attractor
+
+Case 13745 has two annuli that map strictly into each other. To repeat the interval proof, use a Python 3.11 virtual environment and the certificate committed with the study. The verifier runs on a CPU and reads the exact coefficients from the repository.
+
+```sh
+python -m pip install python-flint==0.9.0
+python research/wow_search_20261122/symmetry/certify.py --verify --case 13745
+```
+
+The verifier checks 392 boxes in the inner annulus and 132 in the outer annulus, then compares the bounds with the stored certificate. [Proof and full portrait replay](../results/wow_search_20261122/symmetry/README.md#reproduction)
 
 ## Selected verification entry points
 
-| Study | Instructions |
+| Study | What to reproduce |
 | --- | --- |
-| Product-posterior attraction status | [Finite fate search, singular-preimage certificate and exact audit](../results/product-attractor-status/README.md#storage-and-reproduction) |
-| Product-posterior larger-attractor investigation | [Validated unstable continuation, branch controls and recurrence search](../results/product-larger-attractor/README.md#reproduction) |
-| Product-posterior instability and folds | [Two interval expressions, exact audits, parameter slices and reference replay](../results/product-mechanism/README.md#reproduction) |
-| Icosahedral flow | [Search and absorbing bounds](../research/icosahedral_search/README.md), [equilibria](icosahedral-structure.md), [numerical returns](../research/icosahedral_returns/README.md) |
-| RAAR symbolic dynamics | [Certificate and manuscript](raar-symbolic-dynamics/README.md) |
-| Scalar acceleration memory | [Reproducible search](../research/unexpected_search/README.md) |
-| Overrelaxed Sinkhorn | [All inputs, continuation drivers, precision and verification](../results/sinkhorn-screen/README.md) |
-| Unequal-rate matrix scaling | [Complete campaign, long continuations, precision and portrait inputs](../results/sinkhorn-unequal-rates/README.md) |
-| Adaptive solvers | [RK45](rk45-controller/README.md), [RK23](rk23-controller/README.md) |
-| Optimizer memory | [Yogi](yogi-memory/README.md), [Adamax](adamax-geometry.md) |
-| Motor periodic attractor | [Five-cluster certificate](motor-five-cycle-certificate.md), [proof implementation review](motor-proof-review.md) |
-| Presentation figures | [Rendering and date conventions](../tools/README-portraits.md) |
-| Structured-data FastICA | [Exact algebra, long runs, precision and library controls](../results/fastica-tripling/README.md) |
-| FastICA local noninjectivity | [Uniform algebraic checks and periodic-point controls](../results/fastica-local-injectivity/README.md) |
-| FastICA rejected preimage | [Exact root box, predecessor exclusion and partition audit](../results/fastica-preimage-rejection/README.md) |
-| Morphoelastic hydrogel filament | [Planar controls](../results/hydrogel-planar-controls/README.md), [spatial controls](../results/hydrogel-spatial-controls/README.md), [thinner-rod symmetry screen](../results/hydrogel-slender-screen/README.md), [refinement and implicit tangent checks](../results/hydrogel-variational-checks/README.md) |
+| Spatial search of 2026-11-21 | [Regenerate one trajectory or all 30 portrait inputs](shape-search-20261121.md#reproduce-the-portraits) |
+| Optical cavity, Newton basins and geodesic flow | [Optical field and basin checks](../results/wow_search_20261122/orbit/README.md#selection-and-replication) · [Fifteen Newton outcomes](../results/wow_search_20261122/boundary/README.md#reproduction) · [Straight periodic ray](../results/wow_search_20261122/lattice/README.md#reproduction) |
+| Product-posterior maps | [Fate and singular preimages](../results/product-attractor-status/README.md#storage-and-reproduction) · [Unstable branches and returns](../results/product-larger-attractor/README.md#reproduction) · [Instability and folds](../results/product-mechanism/README.md#reproduction) |
+| Icosahedral flow | [Search and absorbing bounds](../research/icosahedral_search/README.md) · [Equilibria](icosahedral-structure.md) · [Numerical returns](../research/icosahedral_returns/README.md) |
+| RAAR symbolic dynamics | [Certificate and proof](raar-symbolic-dynamics/README.md) |
+| Matrix scaling | [Overrelaxed Sinkhorn](../results/sinkhorn-screen/README.md) · [Unequal-rate inputs and continuations](../results/sinkhorn-unequal-rates/README.md) |
+| Adaptive solvers | [RK45](rk45-controller/README.md) · [RK23](rk23-controller/README.md) |
+| Acceleration and optimizer memory | [Scalar acceleration](../research/unexpected_search/README.md) · [Yogi](yogi-memory/README.md) · [Adamax](adamax-geometry.md) |
+| Motor periodic attractor | [Five-cluster certificate](motor-five-cycle-certificate.md) · [Proof implementation](motor-proof-review.md) |
+| Structured-data FastICA | [Algebra and numerical controls](../results/fastica-tripling/README.md) · [Local noninjectivity](../results/fastica-local-injectivity/README.md) · [Rejected second preimage](../results/fastica-preimage-rejection/README.md) |
+| Hydrogel filaments | [Planar solver](../results/hydrogel-planar-controls/README.md) · [Spatial solver](../results/hydrogel-spatial-controls/README.md) · [Thin rods](../results/hydrogel-slender-screen/README.md) · [Refinement and tangent checks](../results/hydrogel-variational-checks/README.md) |
+
+The [results index](../results/README.md) lists additional studies. To restore a large input, select its study or filename in the [cache instructions](data-storage.md). Older verifiers may need `--materialize` to restore original paths or [archived figure exports](manuscript-editing.md).
 
 ## Recorded environments and runtime checks
 
+The original GPU and CPU controls used Python 3.14.3. From the repository root, create a virtual environment with `python -m venv .venv`. Activate it with `source .venv/bin/activate` on Unix or `.\.venv\Scripts\Activate.ps1` in PowerShell, then install the base packages. GPU controls require an OpenCL driver with double-precision support. [Recorded package versions](../requirements-lock.txt)
 
-The later motor modules were also checked in the updated independent public clone at `ad83bf2`: N=3/N=8 GPU versus CPU controls passed under isolated Python, with no Chua imports or changes to archived results. [Additional packaging record](../records/motor-public-clone-validation.json).
+```sh
+python -m pip install -r requirements.txt
+python -m pip check
+```
 
-The published five-cluster proof tree at `bcd5119` was separately exported from the fetched public branch. All 24 manifest hashes matched; its algebra controls and exact symmetry enumeration passed in the separate proof environment. Local links were checked, while browser rendering was unavailable for these latest reports. [Publication verification](../records/motor-session-publication-20261030.json).
+For the archived DCR source solver, also run `python -m pip install -r requirements-dcr.txt`. This installs scikit-sundae 1.2.0 with the SUNDIALS bindings. The CPU check ran for 0.01 time units and matched the reference to within 1.16 × 10⁻¹⁰. [DCR commands and scope](dcr-research.md) · [Dependency check at `3cf58d0`](../records/optional-dcr-packaging.json)
 
-**Public-clone check:** a fresh clone of this repository at `a514509`, with a newly installed environment, passed four GPU/CPU runtime controls, the optional DCR control and `pip check`. The checks ran outside both repositories with isolated Python, imported no Chua module and left the archived evidence unchanged. [Validation record](../records/public-clone-validation.json), [file-copy audit](../records/publication-copy-integrity.json). This verifies the tested packaging paths, not every scientific result or platform.
+| Revision | Verified |
+| --- | --- |
+| `8a3564c` | Four GPU/CPU runtime controls in a fresh environment. [Installation and checks](../records/packaging-validation.json) |
+| `a514509` | The same four controls, optional DCR control and package compatibility in a fresh public clone. [Validation](../records/public-clone-validation.json) · [File-copy audit](../records/publication-copy-integrity.json) |
+| `ad83bf2` | Three- and eight-row motor simulations compared on GPU and CPU in isolated Python. [Validation](../records/motor-public-clone-validation.json) |
+| `bcd5119` | All 24 five-cluster proof files matched their hashes. Algebra and exact symmetry checks passed. [Proof export](../records/motor-session-publication-20261030.json) |
 
-From the project root, create an environment with `python -m venv .venv`. Activate it using `source .venv/bin/activate` on Unix-like systems or `.venv\Scripts\Activate.ps1` in PowerShell, then run `python -m pip install -r requirements.txt`. Python 3.14.3 was used for the recorded work. A separate fresh environment passed installation, `pip check` and four extracted GPU/CPU controls at source snapshot `8a3564c`; those tested modules and the runtime extraction are unchanged in this refreshed copy. The [validation record](../records/packaging-validation.json) retains those checks, and [requirements-lock.txt](../requirements-lock.txt) records the observed environment. This does not certify every model, every platform or a future public clone. GPU scripts require a working OpenCL GPU driver with FP64 support. They do not silently substitute CPU execution.
+## Rebuild figures from saved data
 
-The optional archived DCR source-solver controls additionally require `python -m pip install -r requirements-dcr.txt` after installing the main requirements. This adds pinned `scikit-sundae`/SUNDIALS bindings. Version 1.2.0 passed a separate fresh-environment dependency check and an isolated CPU control of duration 0.01. Its maximum state discrepancy from the archived fine control was 1.16e-10; [optional-dependency record](../records/optional-dcr-packaging.json) retains the original 3cf58d0 snapshot and confirms the relevant files are unchanged here. This is a packaging check, not a new scientific result. The observed lock includes this optional package. It was not part of the four-module base-runtime validation and no DCR mass survey is supported. See [the DCR reproduction instructions](../docs/dcr-research.md) before starting its bounded controls.
-
-Run existing command-line scripts from the repository root: some default result paths depend on the current working directory. Examples using saved data, without a new parameter survey:
+For current main-page images, see the [portrait renderer](../tools/README-portraits.md). The following scripts rebuild individual archived figures or observables in place. Run the script for the figure you want from a disposable checkout.
 
 ```sh
 python research/synchronematic_observables.py
@@ -55,5 +63,3 @@ python research/plot_microfluidic.py
 python research/plot_core_shell_stiff.py
 python research/extend_optical_lifetimes.py --plot
 ```
-
-Plotting commands write figures. Keep the archived evidence in a clean checkout and use a disposable copy when reproducing figures or simulations. The [results index](../results/README.md) and individual reports identify settings, seeds, traces and exact model versions. Many simulation scripts overwrite named result files; read their arguments before running.

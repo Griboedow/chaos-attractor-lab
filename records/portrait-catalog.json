@@ -1408,7 +1408,7 @@
       "group": "Shape search of 2026-11-21",
       "report": "docs/shape-search-20261121.md",
       "source_portrait": "docs/assets/portraits/shapes-20261121-knotted-band.png",
-      "description": "Case 28756 approaches a stable knotted cycle. After changing one coefficient, Case 180844 gives a chaotic band near a numerical continuation of the same knot, now unstable. Five starts and an adaptive solver retained positive growth in the band.",
+      "description": "Case 28756 approaches a stable knotted cycle. Changing one coefficient produces a band near a numerical continuation of the knot, now unstable. In Case 180844, five starts and an independent solver gave positive finite-time growth in the band.",
       "coordinates": "Native spatial coordinates. Each panel preserves equal axis scales.",
       "featured": true,
       "projection": [
@@ -1630,7 +1630,7 @@
       "group": "Shape search of 2026-11-21",
       "report": "docs/shape-search-20261121.md",
       "source_portrait": "docs/assets/portraits/shapes-20261121-three.png",
-      "description": "Cases 6616162 and 6583985 have three positive finite-time Lyapunov exponents in all three native coordinates. Their five-million-update spectra are approximately (0.265, 0.132, 0.021) and (0.229, 0.115, 0.026). All 17 starts showed growth in each direction.",
+      "description": "Both three-dimensional maps have three positive finite-time Lyapunov exponents. Over five million updates the spectra are approximately (0.265, 0.132, 0.021) in Case 6616162 and (0.229, 0.115, 0.026) in Case 6583985. All 17 starts gave three positive rates.",
       "coordinates": "Each panel uses equal physical units and the same camera in its signed principal-axis frame. The saved camera matrices specify both views in native coordinates.",
       "featured": true,
       "projection": [
@@ -1852,7 +1852,7 @@
       "group": "Shape search of 2026-11-22",
       "report": "docs/chaotic-forms-20261122.md",
       "source_portrait": "docs/assets/portraits/forms-20261122-lattice.png",
-      "description": "A three-wave constraint supports an attracting unit tangent bundle with uniformly hyperbolic geodesic flow. One exactly straight ray winds (7, −7, −2) and has a certified transverse multiplier between 4.45 and 4.47 million per lap.",
+      "description": "After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow.",
       "coordinates": "A single orbit in one cubic phase cell, with opposite faces identified. The still uses 280,000 successive measured positions. The rotation shows the last 60,000.",
       "featured": true,
       "panels": [
@@ -1878,7 +1878,7 @@
       "group": "Shape search of 2026-11-22",
       "report": "docs/chaotic-forms-20261122.md",
       "source_portrait": "docs/assets/portraits/forms-20261122-boundary.png",
-      "description": "A sextic Newton iteration has six distinct attracting roots and an additional attracting orbit of exact period nine. Under the ninth iterate, the six roots and nine cycle phases have fifteen full basins with the same Julia boundary. Certified starting boxes representing all fifteen outcomes fit inside a single disk of radius 10⁻³⁰.",
+      "description": "Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. A single disk of radius 3 × 10⁻³² contains certified starting boxes for all fifteen.",
       "coordinates": "Riemann-sphere positions of 99,423 distinct retained numerical preimages of poles, sampled through depth 23. The same complete collection is used in the still and rotation. Forward attraction is to the roots and cycle phases.",
       "featured": true,
       "panels": [
@@ -1904,7 +1904,7 @@
       "group": "Shape search of 2026-11-22",
       "report": "docs/chaotic-forms-20261122.md",
       "source_portrait": "docs/assets/portraits/forms-20261122-fan.png",
-      "description": "One uninterrupted orbit of a complex field with a relaxing detuning produces a spiral and a fan of scallops. The detuning most often peaks 20 iterations apart. All 16 additional starts reproduced the same numerical regime.",
+      "description": "One orbit of an optical field draws the entire scalloped fan. Its detuning peaks most often lie twenty steps apart. Sixteen additional starting states reproduced the same numerical regime.",
       "coordinates": "Native complex-field plane in the still. The rotation uses the field and memory coordinates at equal scale. The full stored cloud contains 786,432 consecutive states.",
       "featured": true,
       "panels": [
@@ -1968,7 +1968,7 @@
       "group": "Shape search of 2026-11-22",
       "report": "docs/chaotic-forms-20261122.md",
       "source_portrait": "docs/assets/portraits/forms-20261122-nested-crowns.png",
-      "description": "The polynomial alternates between two concentric trapping annuli in Case 13745. In Case 5529 it visits the four certified bands in the radial order A → C → B → D → A.",
+      "description": "One point draws both rings in Case 13745, switching rings on every step. In Case 5529 it visits four bands in the order first, third, second, fourth. Interval bounds prove both cycles of bands.",
       "coordinates": "2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density.",
       "featured": false,
       "panels": [
@@ -1992,7 +1992,7 @@
       "group": "Shape search of 2026-11-22",
       "report": "docs/chaotic-forms-20261122.md",
       "source_portrait": "docs/assets/portraits/forms-20261122-odd-cycles.png",
-      "description": "The two maps have rigorously distinct local attractors with exactly three and five connected components respectively. Their permutations force positive topological entropy on separate invariant sets between the bands.",
+      "description": "The two local attractors have exactly three and five connected components. The order in which the map visits the bands forces positive topological entropy on a separate invariant set in the gaps.",
       "coordinates": "2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density.",
       "featured": false,
       "panels": [

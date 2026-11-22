@@ -1,9 +1,16 @@
 # Documentation
 
-Reports, full articles and reproduction notes are collected here in Markdown.
-The [main research index](../README.md#research-index) covers all studies,
-including negative and incomplete results. The table below connects each full
-article to its shorter report and numerical evidence.
+The [main page](../README.md) pairs each portrait with its equations and parameters. The [research index](../README.md#research-index) also covers searches that ended in periodic motion, numerical artifacts or open questions.
+
+| Start with | What you will find |
+| --- | --- |
+| [Four studies from 2026-11-22](chaotic-forms-20261122.md) | A point alternating between rings, a fan in an optical cavity, fifteen Newton basins with one boundary, and a straight orbit on a chaotic surface. |
+| [Spatial search from 2026-11-21](shape-search-20261121.md) | Knotted periodic orbits, linked attractors and maps with several connected components. |
+| [Reproduce a result](reproduction.md) | A first certificate to check, instructions for individual studies and the software used. |
+
+## Articles, proofs and data
+
+RAAR stands for relaxed averaged alternating reflections. The first six rows cover different properties of the same spatial-circle projection algorithm.
 
 | Study | Report | Full article | Evidence and reproduction |
 | --- | --- | --- | --- |
@@ -23,30 +30,10 @@ article to its shorter report and numerical evidence.
 | Product-alphabet posterior maps | [Main portraits](../README.md#product-alphabets-folded-wings-and-layered-arches) | [Article, entropy, orientation and instability theorems](product-alphabet/manuscript.md) | [Numerical campaign](../results/product-alphabet/README.md), [entropy](../results/product-symbolic/README.md), [orientation and equivalence](../results/product-orientation/README.md), [long horizon and excursions](../results/product-horizon/README.md), [instability and mechanism](../results/product-mechanism/README.md) |
 | Nonuniform product posteriors | [Folded-shell portraits](../README.md#folded-shells-from-nonuniform-quantizer-levels) | [Model, controls and prior art](product-alphabet/manuscript.md#32-nonuniform-alphabets-and-folded-shells) | [Complete higher-order and nonuniform searches](../results/product-highorder/README.md) |
 
-The [structured-data FastICA report](fastica-tripling.md) contains its full
-analytic proof, numerical controls and prior-art discussion in one document.
-Its [structural extension](fastica-tripling-structure.md) proves an obstruction
-to ambient-neighborhood equivalence with solenoid embeddings.
-A [preimage audit](fastica-preimage-rejection.md) rejects one proposed intrinsic
-collision by proving that its extra branch is outside the attracting set.
+## Studies with shorter reports
 
-The [hydrogel-filament controls](hydrogel-planar-controls.md) document an
-independent planar solver, an eight-case screen and its physical limitations.
-The [spatial extension](hydrogel-spatial-controls.md) adds twist equilibrium,
-spatial periodic controls and an explicit coarse-mesh artifact.
-Its [thinner-rod screen](hydrogel-spatial-controls.md#circular-section-symmetry-and-thinner-filaments)
-compares full states modulo axial rotation and records two close-contact outcomes.
-The [variational follow-up](hydrogel-variational-checks.md) differentiates the
-implicit evolution, checks refinement and exposes slow drift behind positive
-finite growth; it does not establish a chaotic attractor.
+- **Structured-data FastICA.** A constructed data set gives an attracting set with angle tripling as a factor. The follow-ups distinguish the map near this set from a solenoid embedding and show why a proposed second inverse branch falls outside the set. [Proof and numerical tests](fastica-tripling.md) · [Geometry](fastica-tripling-structure.md) · [Rejected branch](fastica-preimage-rejection.md)
+- **Hydrogel filaments.** An independent solver reproduced the planar controls. Spatial runs exposed a coarse-mesh artifact and two close-contact outcomes in thinner rods. Refinement revealed slow drift behind apparent growth. [Eight planar cases](hydrogel-planar-controls.md) · [Spatial controls](hydrogel-spatial-controls.md) · [Thinner rods](hydrogel-spatial-controls.md#circular-section-symmetry-and-thinner-filaments) · [Drift and refinement](hydrogel-variational-checks.md)
+- **Sinkhorn matrix scaling.** Long continuations of a 576-input screen exposed transient growth. Of 4,864 rectangular and unequal-rate inputs, two candidates retained irregular motion over 106 million steps. Chaotic attraction remains open. [First screen and absorbing bounds](sinkhorn-screen.md) · [Unequal-rate results and precision tests](sinkhorn-unequal-rates.md)
 
-The [overrelaxed Sinkhorn screen](sinkhorn-screen.md) records 576 matrix-scaling
-inputs, all-flag continuations, long transient rejections and exact absorbing
-bounds. Persistent finite growth remains distinct from established chaotic attraction.
-
-The [rectangular and unequal-rate extension](sinkhorn-unequal-rates.md) retains
-4,864 inputs and two spatial numerical candidates followed for 106 million
-steps, together with high-precision controls and escaping alternatives.
-
-[Reproduction](reproduction.md) · [Editing articles](manuscript-editing.md) ·
-[Data storage](data-storage.md) · [Sources and checks](../RECORDS.md)
+[Numerical data and cache](data-storage.md) · [Sources and checks](../RECORDS.md) · [Editing articles](manuscript-editing.md)
