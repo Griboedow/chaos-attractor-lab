@@ -8,8 +8,11 @@ source, coordinate selection and report. [Render records](../docs/assets/portrai
 give input hashes, sample counts, cameras and display operations. Archived
 figures and numerical evidence retain their original bytes.
 
-Each static portrait has a short defining equation and a link to its parameters.
-The paired animation shows the same system. Edit the
+Each static portrait names its system and gives the equation and the numerical
+settings used for the plotted panels. Identify the panels in display order.
+For long coefficient vectors or distinct starting states, use the optional
+expandable block and link to the frozen input. The paired animation shows the
+same system. Edit the
 [equation registry](../records/portrait-equations.json) and run
 `python tools/portrait_equations.py sync` to update the main page.
 

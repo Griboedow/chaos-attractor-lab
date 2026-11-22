@@ -15,6 +15,11 @@ PORTRAIT = re.compile(
 
 
 def render(ident, row):
+    system = row["system"].strip()
+    parameters = row["parameters"].strip()
+    exact = row.get("exact", "").strip()
+    if not system or not re.search(r"\d", parameters):
+        raise ValueError(f"{ident}: include a system name and numerical portrait settings")
     source = row["source"]
     links = [("Model and parameters", source)]
     for extra in row.get("sources", []):
@@ -30,9 +35,12 @@ def render(ident, row):
     for _, target in links:
         if not (ROOT / target.split("#", 1)[0]).is_file():
             raise ValueError(f"{ident}: missing equation source {target}")
+    for target in re.findall(r"\[[^\]]+\]\(([^)]+)\)", parameters + "\n" + exact):
+        if not (ROOT / target.split("#", 1)[0]).exists():
+            raise ValueError(f"{ident}: missing source for the numerical settings {target}")
     if not row.get("text", "").strip():
         raise ValueError(f"{ident}: missing model description")
-    parts = [START + ident + " -->"]
+    parts = [START + ident + " -->", "**" + system + "**"]
     if row.get("tex"):
         tex = row["tex"].strip()
         if "```" in tex:
@@ -40,6 +48,9 @@ def render(ident, row):
         parts.append("```math\n" + tex + "\n```")
     references = " · ".join(f"[{label}]({target})" for label, target in links)
     parts.append(row["text"].strip() + " " + references)
+    parts.extend(["**Parameters used for this portrait**", parameters])
+    if exact:
+        parts.append("<details>\n<summary>Full numerical settings</summary>\n\n" + exact + "\n\n</details>")
     return "\n\n".join(parts) + "\n\n" + END
 
 
