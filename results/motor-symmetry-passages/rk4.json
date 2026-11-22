@@ -1,0 +1,787 @@
+{
+  "method": "RK4",
+  "step": 0.01,
+  "original_distinguished_row": 2,
+  "training_duration": 6000,
+  "wide_duration": 60000,
+  "sampling": "Hermite-interpolated upward mean-c crossings",
+  "class_order": "2*distinguished row + parity of permutation relative to the training history",
+  "runs": [
+    {
+      "b": 1.5,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 3323,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 3446,
+          "visits": [
+            0,
+            0,
+            0,
+            0,
+            3446,
+            0,
+            0,
+            0
+          ],
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0,
+          "median_elapsed": null,
+          "matrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 1723,
+              "changes": 0,
+              "edge": 0,
+              "face": 0,
+              "opposite": 0
+            },
+            {
+              "section_count": 1723,
+              "changes": 0,
+              "edge": 0,
+              "face": 0,
+              "opposite": 0
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 3446,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 3446,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 3446,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 3446,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 3446,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 3491,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        }
+      ]
+    },
+    {
+      "b": 1.54,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 33999,
+          "changes": 1482,
+          "edge": 1213,
+          "face": 226,
+          "opposite": 43
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34413,
+          "visits": [
+            417,
+            438,
+            447,
+            448,
+            530,
+            384,
+            387,
+            485
+          ],
+          "changes": 1507,
+          "edge": 1219,
+          "face": 247,
+          "opposite": 41,
+          "median_elapsed": 34.63112206435835,
+          "matrix": [
+            [
+              0,
+              7,
+              9,
+              34,
+              15,
+              65,
+              9,
+              40
+            ],
+            [
+              5,
+              0,
+              26,
+              9,
+              58,
+              11,
+              75,
+              10
+            ],
+            [
+              9,
+              59,
+              0,
+              7,
+              15,
+              25,
+              10,
+              67
+            ],
+            [
+              41,
+              10,
+              6,
+              0,
+              74,
+              15,
+              38,
+              6
+            ],
+            [
+              7,
+              74,
+              17,
+              42,
+              0,
+              5,
+              5,
+              63
+            ],
+            [
+              38,
+              12,
+              63,
+              13,
+              3,
+              0,
+              30,
+              9
+            ],
+            [
+              9,
+              29,
+              11,
+              74,
+              11,
+              36,
+              0,
+              3
+            ],
+            [
+              70,
+              3,
+              60,
+              11,
+              38,
+              11,
+              5,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 17207,
+              "changes": 753,
+              "edge": 603,
+              "face": 123,
+              "opposite": 27
+            },
+            {
+              "section_count": 17206,
+              "changes": 753,
+              "edge": 615,
+              "face": 124,
+              "opposite": 14
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 34413,
+          "changes": 1869,
+          "edge": 1520,
+          "face": 149,
+          "opposite": 200
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 34413,
+          "changes": 1296,
+          "edge": 1129,
+          "face": 110,
+          "opposite": 57
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 34413,
+          "changes": 1161,
+          "edge": 1055,
+          "face": 73,
+          "opposite": 33
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 34413,
+          "changes": 1381,
+          "edge": 1165,
+          "face": 177,
+          "opposite": 39
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 34413,
+          "changes": 1518,
+          "edge": 1221,
+          "face": 254,
+          "opposite": 43
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34551,
+          "changes": 1488,
+          "edge": 1201,
+          "face": 244,
+          "opposite": 43
+        }
+      ]
+    },
+    {
+      "b": 1.545,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 33977,
+          "changes": 1030,
+          "edge": 823,
+          "face": 152,
+          "opposite": 55
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34359,
+          "visits": [
+            179,
+            198,
+            270,
+            165,
+            203,
+            197,
+            197,
+            275
+          ],
+          "changes": 1045,
+          "edge": 795,
+          "face": 188,
+          "opposite": 62,
+          "median_elapsed": 48.09678555636492,
+          "matrix": [
+            [
+              0,
+              6,
+              8,
+              17,
+              14,
+              19,
+              9,
+              42
+            ],
+            [
+              7,
+              0,
+              38,
+              6,
+              22,
+              6,
+              34,
+              5
+            ],
+            [
+              12,
+              36,
+              0,
+              7,
+              10,
+              43,
+              10,
+              54
+            ],
+            [
+              24,
+              4,
+              10,
+              0,
+              28,
+              8,
+              31,
+              8
+            ],
+            [
+              8,
+              26,
+              6,
+              28,
+              0,
+              6,
+              10,
+              37
+            ],
+            [
+              23,
+              1,
+              45,
+              6,
+              7,
+              0,
+              21,
+              12
+            ],
+            [
+              8,
+              40,
+              4,
+              38,
+              6,
+              22,
+              0,
+              8
+            ],
+            [
+              33,
+              5,
+              60,
+              11,
+              34,
+              11,
+              11,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 17180,
+              "changes": 517,
+              "edge": 380,
+              "face": 110,
+              "opposite": 27
+            },
+            {
+              "section_count": 17179,
+              "changes": 527,
+              "edge": 414,
+              "face": 78,
+              "opposite": 35
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 34359,
+          "changes": 1454,
+          "edge": 1058,
+          "face": 222,
+          "opposite": 174
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 34359,
+          "changes": 705,
+          "edge": 551,
+          "face": 115,
+          "opposite": 39
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 34359,
+          "changes": 292,
+          "edge": 148,
+          "face": 117,
+          "opposite": 27
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 34359,
+          "changes": 684,
+          "edge": 506,
+          "face": 143,
+          "opposite": 35
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 34359,
+          "changes": 1080,
+          "edge": 823,
+          "face": 189,
+          "opposite": 68
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34514,
+          "changes": 891,
+          "edge": 677,
+          "face": 162,
+          "opposite": 52
+        }
+      ]
+    },
+    {
+      "b": 1.55,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34292,
+          "changes": 662,
+          "edge": 457,
+          "face": 177,
+          "opposite": 28
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34565,
+          "visits": [
+            99,
+            126,
+            119,
+            112,
+            115,
+            98,
+            109,
+            100
+          ],
+          "changes": 586,
+          "edge": 395,
+          "face": 151,
+          "opposite": 40,
+          "median_elapsed": 79.05899883100028,
+          "matrix": [
+            [
+              0,
+              3,
+              7,
+              10,
+              10,
+              15,
+              6,
+              18
+            ],
+            [
+              7,
+              0,
+              21,
+              5,
+              12,
+              5,
+              27,
+              5
+            ],
+            [
+              8,
+              17,
+              0,
+              4,
+              7,
+              18,
+              8,
+              14
+            ],
+            [
+              18,
+              11,
+              5,
+              0,
+              17,
+              2,
+              12,
+              8
+            ],
+            [
+              3,
+              24,
+              5,
+              20,
+              0,
+              9,
+              4,
+              12
+            ],
+            [
+              14,
+              6,
+              15,
+              5,
+              3,
+              0,
+              16,
+              6
+            ],
+            [
+              7,
+              13,
+              9,
+              24,
+              7,
+              12,
+              0,
+              5
+            ],
+            [
+              11,
+              8,
+              14,
+              5,
+              21,
+              4,
+              4,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 17283,
+              "changes": 294,
+              "edge": 200,
+              "face": 77,
+              "opposite": 17
+            },
+            {
+              "section_count": 17282,
+              "changes": 291,
+              "edge": 195,
+              "face": 73,
+              "opposite": 23
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 34565,
+          "changes": 798,
+          "edge": 479,
+          "face": 203,
+          "opposite": 116
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 34565,
+          "changes": 370,
+          "edge": 215,
+          "face": 107,
+          "opposite": 48
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 34565,
+          "changes": 159,
+          "edge": 75,
+          "face": 64,
+          "opposite": 20
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 34565,
+          "changes": 325,
+          "edge": 172,
+          "face": 110,
+          "opposite": 43
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 34565,
+          "changes": 595,
+          "edge": 400,
+          "face": 154,
+          "opposite": 41
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34660,
+          "changes": 500,
+          "edge": 301,
+          "face": 159,
+          "opposite": 40
+        }
+      ]
+    }
+  ]
+}

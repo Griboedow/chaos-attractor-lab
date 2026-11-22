@@ -1,0 +1,787 @@
+{
+  "method": "RK4",
+  "step": 0.005,
+  "original_distinguished_row": 2,
+  "training_duration": 6000,
+  "wide_duration": 60000,
+  "sampling": "Hermite-interpolated upward mean-c crossings",
+  "class_order": "2*distinguished row + parity of permutation relative to the training history",
+  "runs": [
+    {
+      "b": 1.5,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 3322,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 3448,
+          "visits": [
+            0,
+            0,
+            0,
+            0,
+            3448,
+            0,
+            0,
+            0
+          ],
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0,
+          "median_elapsed": null,
+          "matrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 1724,
+              "changes": 0,
+              "edge": 0,
+              "face": 0,
+              "opposite": 0
+            },
+            {
+              "section_count": 1724,
+              "changes": 0,
+              "edge": 0,
+              "face": 0,
+              "opposite": 0
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 3448,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 3448,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 3448,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 3448,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 3448,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 3491,
+          "changes": 0,
+          "edge": 0,
+          "face": 0,
+          "opposite": 0
+        }
+      ]
+    },
+    {
+      "b": 1.54,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34033,
+          "changes": 1498,
+          "edge": 1221,
+          "face": 224,
+          "opposite": 53
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34461,
+          "visits": [
+            544,
+            369,
+            440,
+            447,
+            321,
+            537,
+            459,
+            423
+          ],
+          "changes": 1518,
+          "edge": 1226,
+          "face": 236,
+          "opposite": 56,
+          "median_elapsed": 34.639554140507926,
+          "matrix": [
+            [
+              0,
+              6,
+              7,
+              80,
+              11,
+              77,
+              4,
+              33
+            ],
+            [
+              9,
+              0,
+              38,
+              13,
+              32,
+              13,
+              51,
+              10
+            ],
+            [
+              10,
+              37,
+              0,
+              8,
+              6,
+              41,
+              9,
+              72
+            ],
+            [
+              35,
+              9,
+              9,
+              0,
+              45,
+              7,
+              76,
+              18
+            ],
+            [
+              10,
+              47,
+              9,
+              30,
+              0,
+              5,
+              5,
+              36
+            ],
+            [
+              68,
+              15,
+              73,
+              10,
+              7,
+              0,
+              41,
+              14
+            ],
+            [
+              8,
+              39,
+              7,
+              50,
+              8,
+              73,
+              0,
+              7
+            ],
+            [
+              78,
+              13,
+              40,
+              8,
+              34,
+              12,
+              5,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 17231,
+              "changes": 760,
+              "edge": 600,
+              "face": 137,
+              "opposite": 23
+            },
+            {
+              "section_count": 17230,
+              "changes": 757,
+              "edge": 626,
+              "face": 98,
+              "opposite": 33
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 34461,
+          "changes": 1877,
+          "edge": 1517,
+          "face": 147,
+          "opposite": 213
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 34461,
+          "changes": 1299,
+          "edge": 1138,
+          "face": 85,
+          "opposite": 76
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 34461,
+          "changes": 1173,
+          "edge": 1057,
+          "face": 73,
+          "opposite": 43
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 34461,
+          "changes": 1393,
+          "edge": 1163,
+          "face": 173,
+          "opposite": 57
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 34461,
+          "changes": 1529,
+          "edge": 1226,
+          "face": 245,
+          "opposite": 58
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34606,
+          "changes": 1490,
+          "edge": 1200,
+          "face": 238,
+          "opposite": 52
+        }
+      ]
+    },
+    {
+      "b": 1.545,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 33997,
+          "changes": 1053,
+          "edge": 854,
+          "face": 168,
+          "opposite": 31
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34361,
+          "visits": [
+            214,
+            213,
+            230,
+            203,
+            236,
+            192,
+            167,
+            244
+          ],
+          "changes": 1039,
+          "edge": 810,
+          "face": 184,
+          "opposite": 45,
+          "median_elapsed": 46.718799310525355,
+          "matrix": [
+            [
+              0,
+              2,
+              8,
+              30,
+              7,
+              28,
+              4,
+              46
+            ],
+            [
+              6,
+              0,
+              36,
+              4,
+              38,
+              6,
+              19,
+              11
+            ],
+            [
+              2,
+              34,
+              0,
+              5,
+              10,
+              43,
+              8,
+              33
+            ],
+            [
+              30,
+              10,
+              8,
+              0,
+              38,
+              6,
+              26,
+              9
+            ],
+            [
+              10,
+              36,
+              8,
+              43,
+              0,
+              4,
+              5,
+              42
+            ],
+            [
+              27,
+              9,
+              32,
+              12,
+              6,
+              0,
+              31,
+              10
+            ],
+            [
+              5,
+              17,
+              4,
+              24,
+              9,
+              33,
+              0,
+              7
+            ],
+            [
+              45,
+              12,
+              39,
+              8,
+              40,
+              7,
+              7,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 17181,
+              "changes": 515,
+              "edge": 406,
+              "face": 87,
+              "opposite": 22
+            },
+            {
+              "section_count": 17180,
+              "changes": 523,
+              "edge": 403,
+              "face": 97,
+              "opposite": 23
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 34361,
+          "changes": 1443,
+          "edge": 1060,
+          "face": 206,
+          "opposite": 177
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 34361,
+          "changes": 716,
+          "edge": 564,
+          "face": 114,
+          "opposite": 38
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 34361,
+          "changes": 280,
+          "edge": 129,
+          "face": 117,
+          "opposite": 34
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 34361,
+          "changes": 707,
+          "edge": 527,
+          "face": 140,
+          "opposite": 40
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 34361,
+          "changes": 1087,
+          "edge": 844,
+          "face": 194,
+          "opposite": 49
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34540,
+          "changes": 896,
+          "edge": 705,
+          "face": 150,
+          "opposite": 41
+        }
+      ]
+    },
+    {
+      "b": 1.55,
+      "runs": [
+        {
+          "level": -0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34294,
+          "changes": 657,
+          "edge": 433,
+          "face": 183,
+          "opposite": 41
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34567,
+          "visits": [
+            110,
+            107,
+            109,
+            112,
+            113,
+            102,
+            93,
+            116
+          ],
+          "changes": 592,
+          "edge": 371,
+          "face": 166,
+          "opposite": 55,
+          "median_elapsed": 79.05913023972062,
+          "matrix": [
+            [
+              0,
+              9,
+              9,
+              14,
+              5,
+              14,
+              7,
+              22
+            ],
+            [
+              8,
+              0,
+              16,
+              7,
+              12,
+              11,
+              11,
+              6
+            ],
+            [
+              8,
+              13,
+              0,
+              8,
+              10,
+              18,
+              3,
+              16
+            ],
+            [
+              16,
+              8,
+              9,
+              0,
+              17,
+              4,
+              17,
+              6
+            ],
+            [
+              5,
+              12,
+              9,
+              19,
+              0,
+              5,
+              5,
+              21
+            ],
+            [
+              15,
+              3,
+              14,
+              10,
+              8,
+              0,
+              15,
+              5
+            ],
+            [
+              6,
+              16,
+              9,
+              10,
+              5,
+              12,
+              0,
+              4
+            ],
+            [
+              22,
+              10,
+              10,
+              9,
+              19,
+              6,
+              4,
+              0
+            ]
+          ],
+          "halves": [
+            {
+              "section_count": 17284,
+              "changes": 291,
+              "edge": 175,
+              "face": 83,
+              "opposite": 33
+            },
+            {
+              "section_count": 17283,
+              "changes": 300,
+              "edge": 196,
+              "face": 82,
+              "opposite": 22
+            }
+          ]
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 1.5,
+          "section_count": 34567,
+          "changes": 800,
+          "edge": 460,
+          "face": 208,
+          "opposite": 132
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 2.5,
+          "section_count": 34567,
+          "changes": 351,
+          "edge": 201,
+          "face": 97,
+          "opposite": 53
+        },
+        {
+          "level": 0.0,
+          "radius": 0.075,
+          "ratio": 3.0,
+          "section_count": 34567,
+          "changes": 139,
+          "edge": 65,
+          "face": 55,
+          "opposite": 19
+        },
+        {
+          "level": 0.0,
+          "radius": 0.05,
+          "ratio": 2.0,
+          "section_count": 34567,
+          "changes": 318,
+          "edge": 158,
+          "face": 114,
+          "opposite": 46
+        },
+        {
+          "level": 0.0,
+          "radius": 0.1,
+          "ratio": 2.0,
+          "section_count": 34567,
+          "changes": 604,
+          "edge": 380,
+          "face": 168,
+          "opposite": 56
+        },
+        {
+          "level": 0.125,
+          "radius": 0.075,
+          "ratio": 2.0,
+          "section_count": 34686,
+          "changes": 501,
+          "edge": 290,
+          "face": 153,
+          "opposite": 58
+        }
+      ]
+    }
+  ]
+}
