@@ -1,6 +1,8 @@
 # Chaos Attractor Lab
 
-A single orbit can trace [two nested rings](#two-and-four-nested-rings-from-one-orbit), [a fan of scallops](#a-scalloped-fan-from-pulsed-optical-feedback) or [a band around a knotted orbit](#a-periodic-knot-and-a-nearby-chaotic-band). Each portrait gives the system, equation and parameters that produced it.
+I’m hunting for attractor shapes nobody has seen before, and for other odd things chaotic systems can do. When [a single orbit draws two rings](#two-and-four-nested-rings-from-one-orbit), I want to know what makes it jump from one to the other.
+
+I run this experiment from my phone through Codex, using the most capable models available at the time of each commit. I do it for fun. If I turn up a little new mathematics or give someone else an idea to chase, I’ll be happy. My work here is [MIT-licensed](LICENSE).
 
 ## Contents
 
@@ -8,7 +10,7 @@ A single orbit can trace [two nested rings](#two-and-four-nested-rings-from-one-
 - **By system** · [Constructed flows](#constructed-flows) · [Numerical algorithms](#numerical-algorithms) · [Molecular motors](#molecular-motor-dynamics) · [Constructed data](#constructed-data)
 - **Reports and data** · [Research index](#research-index) · [Articles](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data and certificates](results/README.md)
 
-A **Case** number identifies a saved parameter set within its study. The [ring search](results/wow_search_20261122/symmetry/README.md#screening-and-independent-checks) shows how the parameter sets were sampled and shortlisted. Panels list their settings from left to right. Rotations show a fixed point cloud at constant scale. A **certificate** proves the stated property. Measured growth rates describe finite trajectories.
+Each portrait gives its system, equation and parameters. A **Case** number identifies a saved parameter set within its study. The [ring search](results/wow_search_20261122/symmetry/README.md#screening-and-independent-checks) shows how the parameter sets were sampled and shortlisted. Panels list their settings from left to right. Rotations show a fixed point cloud at constant scale. A **certificate** proves the stated property. Measured growth rates describe finite trajectories.
 
 ## Constructed flows
 
