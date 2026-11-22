@@ -126,8 +126,7 @@ art_figures = {
     'forms-20261122-boundary': ['results/art_20261122/newton/nine-scale-newton-torus.png'],
     'forms-20261122-optical-basins': ['results/art_20261122/memory-transplant/memory-transplant.png'],
     'forms-20261122-nested-crowns': ['results/art_20261122/rings/postcritical-crown.png'],
-    'sevenfold-rosette': ['results/art_20261122/rosette/between-samples.webp',
-                         'results/art_20261122/double-exposure/directional-eraser.png'],
+    'sevenfold-rosette': ['results/art_20261122/rosette/between-samples.webp'],
 }
 art_paths = [path for paths in art_figures.values() for path in paths]
 catalog_images = [path for path in main_images if path not in art_paths]

@@ -1,8 +1,7 @@
-# Mathematical art from dynamical systems
+# Mathematical art from attractors and chaos
 
 | Study | How to read the picture |
 | --- | --- |
-| [One photograph, two histories](double-exposure/README.md) | Identical middle frames hide a rosette in the past and an eye in the future. The direction of a subpixel move selects which drawing survives. |
 | [Transplanting memory into an optical cavity](memory-transplant/README.md) | Read across a stripe to see a fixed light field switch between two outcomes as the cavity's starting memory increases. |
 | [One rosette, two motions](rosette/README.md) | A rigid rotation and a chaotic map expose the same seven-lobed density. In the animation, moving each sample halfway towards its successor reveals which clock drew it. |
 | [A nine-scale Newton weave](newton/README.md) | One circuit spans nine magnifications. Fifteen colors label six roots and the nine phases of a cycle. The same small displacement from five poles can lead to five different roots. |
