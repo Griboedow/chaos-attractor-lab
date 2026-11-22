@@ -6,6 +6,8 @@ The fifteen-handle surface in the [original study](../../wow_search_20261122/lat
 
 ## Which straight lines survive?
 
+The same family also has straight rays of fixed winding and length whose transverse expansion per lap grows without bound. [Limiting law and numerical checks](../../attractor_followup_2/geodesics/README.md)
+
 Work in the flat three-torus of period $`2\pi`$ in each coordinate, with its ordinary Euclidean metric. The original surface has $`b=1`$. Compare it with $`b=9/8`$.
 
 ```math

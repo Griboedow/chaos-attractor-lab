@@ -26,6 +26,8 @@ Each simple root of $`p_a`$ is a superattracting fixed point of $`N_a`$. The rem
 
 ## Fifteen choices at one pole
 
+All fifteen outcomes also occur on each horizontal ray ending at this pole, in infinitely many successively smaller radial intervals. Each of two narrow vertical sectors goes to a single root. [Directional proof](../../attractor_followup_2/newton/README.md)
+
 The marked pole $`\xi=(a/6)^{1/5}\simeq0.734161053096716+0.008556170353017i`$ (principal branch) maps to the repelling fixed point at infinity. A 656-bit Arb calculation certifies contraction for the parameter and root equations and for the capture disks around the roots and zero. On the zero-centered disk of radius $`10^{-7}`$, the derivative of $`N_a^9`$ has modulus below $`7.18\times10^{-24}`$.
 
 Inverse branches give fifteen starting boxes of coordinate half-width $`10^{-101}`$ inside $`|z-\xi|\lt 3\times10^{-32}`$. Interval propagation sends each entire box into its assigned capture disk after 386–394 Newton steps. A second implementation with 160-digit `Decimal` arithmetic, using the polynomial and derivative directly, agrees on every center and capture time. [Witness boxes](certificate.json) · [Independent replay](independent-decimal.json)

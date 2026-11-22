@@ -8,6 +8,8 @@ The gold marker locates the center of the starting square on the observed densit
 
 ## The two ways back
 
+The pictured start enters the interior of the attracting set on its second step. Arithmetic in the Gaussian rationals excludes repeats along its exact orbit. [Entry times for all seven archived starts](../../attractor_followup_2/annuli/README.md)
+
 Let $`F`$ be the original polynomial, $`R(z)=e^{2\pi i/17}z`$ and $`H=R\circ F^{18}`$. After 18 steps a particular orbit has rotated backwards by one sector. The rotation in $`H`$ puts it back in place. Its least period under $`F`$ is 306.
 
 Start with the square $`B_0`$ of half-width $`10^{-7}`$ centered at (0.7654889343566528, −0.09473530641366687). Every point in the square has two certified ways to trace nine steps of $`H`$ backwards:

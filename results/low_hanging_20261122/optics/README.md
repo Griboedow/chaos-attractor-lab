@@ -8,6 +8,8 @@ The upper trace records 4,247 round trips. The lower panel resolves the first 1,
 
 ## Orbits at Case 56729
 
+The stable surface of the gap saddle lies on the boundary of all ten phase basins. On one branch leaving the saddle, 41 certified starting slices reach all ten phases. [Proof and phase diagram](../../attractor_followup_2/optics/README.md)
+
 The state is a complex field E and a relaxing detuning T. Each step adds the pump to a rotated, damped field. We used the archived binary64 parameters exactly. [Cavity equation](../../wow_search_20261122/orbit/README.md#the-cavity-map) · [Six coefficients and original starts](../../wow_search_20261122/orbit/case-56729.json)
 
 | Orbit | Detuning across the full cycle | Real return multiplier | Modulus of the conjugate pair |

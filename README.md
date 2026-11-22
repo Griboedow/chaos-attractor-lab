@@ -6,7 +6,8 @@ I run this experiment from my phone through Codex, using the most capable models
 
 ## Contents
 
-- **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Four follow-up proofs](results/low_hanging_20261122/README.md) · [Further portraits](#further-portraits)
+- **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
+- **Follow-up proofs** · [Periodic orbits and ring entropy](results/low_hanging_20261122/README.md) · [Fifteen outcomes on a line and unbounded growth per lap](results/attractor_followup_2/README.md)
 - **By system** · [Constructed flows](#constructed-flows) · [Numerical algorithms](#numerical-algorithms) · [Molecular motors](#molecular-motor-dynamics) · [Constructed data](#constructed-data)
 - **Reports and data** · [Research index](#research-index) · [Articles](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data and certificates](results/README.md)
 
@@ -1668,7 +1669,7 @@ Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,0
 
 ### A straight orbit on a fifteen-handle attractor
 
-After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow.
+After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow. Varying one wave amplitude gives a family of straight orbits of fixed length with [unbounded growth per lap](results/attractor_followup_2/geodesics/README.md).
 
 ![A straight orbit on a fifteen-handle attractor in rotation](docs/assets/portraits/forms-20261122-lattice.webp)
 
@@ -1705,7 +1706,7 @@ A single orbit in one cubic phase cell, with opposite faces identified. The stil
 
 ### One boundary for fifteen Newton basins
 
-Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. A single disk of radius 3 × 10⁻³² contains certified starting boxes for all fifteen.
+Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. Approaching a pole along either horizontal ray gives all fifteen outcomes at arbitrarily small scales. A 24° sector above the pole leads to one root, and a 24° sector below it leads to another. [Directional basin proof](results/attractor_followup_2/newton/README.md)
 
 ![One boundary for fifteen Newton basins in rotation](docs/assets/portraits/forms-20261122-boundary.webp)
 
@@ -3079,7 +3080,7 @@ Native three-axis twist coordinates, shown at equal axis scales with a principal
 
 #### Two and four nested rings from one orbit
 
-One point draws both rings in Case 13745, switching rings on every step. In Case 5529 it visits four bands in the order first, third, second, fourth. Interval bounds prove both cycles of bands. In Case 13745 each component has interior, and two inverse branches inside the outer component encode every binary sequence. [Entropy proof](results/low_hanging_20261122/annuli/README.md)
+One point draws both rings in Case 13745, switching rings on every step. Its exact initial state enters the interior of the attractor on step two and never repeats. Two inverse branches in the outer component encode every binary sequence. In Case 5529 one orbit visits four bands in the order first, third, second, fourth. [Entry and nonrepetition](results/attractor_followup_2/annuli/README.md) · [Entropy proof](results/low_hanging_20261122/annuli/README.md)
 
 ![Two and four nested rings from one orbit](docs/assets/portraits/forms-20261122-nested-crowns.png)
 
@@ -3207,6 +3208,7 @@ Case 11450 `(3, -1.4752569892480971, 2.2683117125593126, 0.4538186067715287, 1.5
 | Study | Findings and evidence |
 | --- | --- |
 | [Rings, optical fans, Newton basins and geodesics](docs/chaotic-forms-20261122.md) | [Ring permutations](results/wow_search_20261122/symmetry/README.md) · [Optical field](results/wow_search_20261122/orbit/README.md) · [Shared basin boundary](results/wow_search_20261122/boundary/README.md) · [Straight geodesic](results/wow_search_20261122/lattice/README.md) · [Closed routes, ring entropy and optical cycles](results/low_hanging_20261122/README.md) |
+| [Four closer looks at the same systems](results/attractor_followup_2/README.md) | [Directional Newton basins](results/attractor_followup_2/newton/README.md) · [Instability at fixed lap length](results/attractor_followup_2/geodesics/README.md) · [Ten optical phases](results/attractor_followup_2/optics/README.md) · [Exact entry times for the rings](results/attractor_followup_2/annuli/README.md) |
 | [Spatial attractor search](docs/shape-search-20261121.md) | [Follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Knotted bands](docs/shape-search-20261121.md#a-knotted-chaotic-band) · [Component counts](docs/shape-search-20261121.md#attracting-sets-with-different-numbers-of-components) |
 
 ### Constructed flows and maps
