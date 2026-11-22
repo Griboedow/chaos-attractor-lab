@@ -1,0 +1,162 @@
+{
+  "phase_indices": [
+    0,
+    11,
+    21,
+    32,
+    43,
+    53
+  ],
+  "phase_denominator": 64,
+  "signs": "sign of Re(z)",
+  "certified_abs_real_lower": "0.9312",
+  "node_file_sha256": "d0e1dee293fb130aeb8aab7823c63baca867955445ecb67bebc01b890eff3609",
+  "sign_order": [
+    "-",
+    "+"
+  ],
+  "alternating_allowed_steps": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "one_turn_count_matrix": [
+    [
+      5,
+      8
+    ],
+    [
+      8,
+      13
+    ]
+  ],
+  "trace": 18,
+  "binary_words_examined": 64,
+  "saddle_words": [
+    {
+      "orbit": 3,
+      "word": "++++++",
+      "sign_changes": 0,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 4,
+      "word": "------",
+      "sign_changes": 0,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 5,
+      "word": "+-+-+-",
+      "sign_changes": 6,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 6,
+      "word": "+++++-",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 7,
+      "word": "--+---",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 8,
+      "word": "+-+++-",
+      "sign_changes": 4,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 9,
+      "word": "--+-+-",
+      "sign_changes": 4,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 10,
+      "word": "+---++",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 11,
+      "word": "----+-",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 12,
+      "word": "+-++++",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 13,
+      "word": "+++---",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 14,
+      "word": "--+++-",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 15,
+      "word": "+-+-++",
+      "sign_changes": 4,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 16,
+      "word": "+---+-",
+      "sign_changes": 4,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 17,
+      "word": "+-+---",
+      "sign_changes": 4,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 18,
+      "word": "+++-+-",
+      "sign_changes": 4,
+      "expanding_multiplier_sign": -1
+    },
+    {
+      "orbit": 19,
+      "word": "+++-++",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    },
+    {
+      "orbit": 20,
+      "word": "+-----",
+      "sign_changes": 2,
+      "expanding_multiplier_sign": 1
+    }
+  ]
+}

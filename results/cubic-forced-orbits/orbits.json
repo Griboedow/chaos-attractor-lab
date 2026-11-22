@@ -1,0 +1,162 @@
+{
+  "gain": [
+    17,
+    50
+  ],
+  "case": 48000001,
+  "phase_nodes_per_turn": 64,
+  "box_half_width": "2^-40",
+  "subdivisions": 16,
+  "degree": 14,
+  "arb_bits": 112,
+  "node_file_sha256": "d0e1dee293fb130aeb8aab7823c63baca867955445ecb67bebc01b890eff3609",
+  "orbits": [
+    {
+      "orbit": 0,
+      "type": "sink",
+      "contraction_bound": "[4.06720539035360898809138038436992e-11 +/- 2.60e-44]",
+      "center_correction_bound": "[2.63374614597713494034506809685204e-15 +/- 1.25e-48]",
+      "return_trace_enclosure": "[1.129e-46 +/- 4.74e-50]"
+    },
+    {
+      "orbit": 1,
+      "type": "sink",
+      "contraction_bound": "[2.50197134157902010237297245299252e-11 +/- 1.71e-44]",
+      "center_correction_bound": "[2.91976999727885227021834076344972e-15 +/- 1.27e-48]",
+      "return_trace_enclosure": "[6.98e-48 +/- 6.51e-51]"
+    },
+    {
+      "orbit": 2,
+      "type": "sink",
+      "contraction_bound": "[3.71715004864876853689265029027124e-11 +/- 2.01e-44]",
+      "center_correction_bound": "[1.56576393497781078880722177754546e-15 +/- 3.09e-48]",
+      "return_trace_enclosure": "[4.799e-49 +/- 4.71e-53]"
+    },
+    {
+      "orbit": 3,
+      "type": "negative saddle",
+      "contraction_bound": "[3.04314069290254911827273573051423e-11 +/- 3.94e-44]",
+      "center_correction_bound": "0",
+      "return_trace_enclosure": "[-1.221948482e+19 +/- 8.51e+9]"
+    },
+    {
+      "orbit": 4,
+      "type": "negative saddle",
+      "contraction_bound": "[3.04312564286490823084054879443868e-11 +/- 3.57e-44]",
+      "center_correction_bound": "0",
+      "return_trace_enclosure": "[-1.221948482e+19 +/- 7.17e+9]"
+    },
+    {
+      "orbit": 5,
+      "type": "positive saddle",
+      "contraction_bound": "[5.55715140537315418489226580898733e-11 +/- 4.91e-44]",
+      "center_correction_bound": "[5.29148462714765695730123469241413e-15 +/- 1.21e-49]",
+      "return_trace_enclosure": "[4.17450826e+8 +/- 0.694]"
+    },
+    {
+      "orbit": 6,
+      "type": "positive saddle",
+      "contraction_bound": "[5.55343665674794824302161402279188e-11 +/- 1.94e-44]",
+      "center_correction_bound": "[2.74802092852508792894690742454220e-15 +/- 6.03e-49]",
+      "return_trace_enclosure": "[2.60408335e+15 +/- 6.04e+6]"
+    },
+    {
+      "orbit": 7,
+      "type": "positive saddle",
+      "contraction_bound": "[5.55341572379311350725207692989784e-11 +/- 7.46e-45]",
+      "center_correction_bound": "[3.13105094231838182964531955768070e-15 +/- 4.09e-48]",
+      "return_trace_enclosure": "[2.60408335e+15 +/- 5.98e+6]"
+    },
+    {
+      "orbit": 8,
+      "type": "negative saddle",
+      "contraction_bound": "[5.55184339812257934118108574122397e-11 +/- 4.45e-44]",
+      "center_correction_bound": "[2.61286252020340616793050784115250e-15 +/- 1.53e-48]",
+      "return_trace_enclosure": "[-1.32315772e+12 +/- 4.30e+3]"
+    },
+    {
+      "orbit": 9,
+      "type": "negative saddle",
+      "contraction_bound": "[5.55187261840133161621627820084157e-11 +/- 4.17e-44]",
+      "center_correction_bound": "[2.58292041150632328842686894996437e-15 +/- 4.64e-48]",
+      "return_trace_enclosure": "[-1.32315772e+12 +/- 4.07e+3]"
+    },
+    {
+      "orbit": 10,
+      "type": "positive saddle",
+      "contraction_bound": "[5.28255397193338528157804172156250e-11 +/- 4.68e-44]",
+      "center_correction_bound": "[7.43448654633533213733705100070162e-16 +/- 1.04e-49]",
+      "return_trace_enclosure": "[6.97836911e+15 +/- 7.51e+6]"
+    },
+    {
+      "orbit": 11,
+      "type": "positive saddle",
+      "contraction_bound": "[5.37703540459094890571148449980139e-11 +/- 1.91e-44]",
+      "center_correction_bound": "[2.65298376113107437019047857196667e-15 +/- 1.15e-48]",
+      "return_trace_enclosure": "[5.68129954e+15 +/- 3.97e+6]"
+    },
+    {
+      "orbit": 12,
+      "type": "positive saddle",
+      "contraction_bound": "[5.37708752795153035371905513628840e-11 +/- 6.72e-45]",
+      "center_correction_bound": "[1.50947592810455121652213762889544e-15 +/- 4.94e-48]",
+      "return_trace_enclosure": "[5.68129954e+15 +/- 5.51e+6]"
+    },
+    {
+      "orbit": 13,
+      "type": "positive saddle",
+      "contraction_bound": "[5.22145000935075846856345722280554e-11 +/- 2.78e-44]",
+      "center_correction_bound": "[1.47940726174929256222580766133984e-15 +/- 7.44e-49]",
+      "return_trace_enclosure": "[1.32224510e+15 +/- 2.64e+6]"
+    },
+    {
+      "orbit": 14,
+      "type": "positive saddle",
+      "contraction_bound": "[5.37015875185802729112370081857335e-11 +/- 1.28e-45]",
+      "center_correction_bound": "[3.94263329478035600883343117290967e-15 +/- 4.47e-48]",
+      "return_trace_enclosure": "[4.17732441e+15 +/- 3.61e+6]"
+    },
+    {
+      "orbit": 15,
+      "type": "negative saddle",
+      "contraction_bound": "[5.55678016234712780951125475563886e-11 +/- 1.91e-44]",
+      "center_correction_bound": "[1.56523481385220453903678798110430e-15 +/- 1.21e-48]",
+      "return_trace_enclosure": "[-1.71039477e+12 +/- 2.51e+3]"
+    },
+    {
+      "orbit": 16,
+      "type": "negative saddle",
+      "contraction_bound": "[5.55672011014160693251592266632259e-11 +/- 2.07e-44]",
+      "center_correction_bound": "[3.37554489011266780452305314859803e-15 +/- 2.52e-48]",
+      "return_trace_enclosure": "[-1.71039477e+12 +/- 2.40e+3]"
+    },
+    {
+      "orbit": 17,
+      "type": "negative saddle",
+      "contraction_bound": "[5.55862566845546758989587799826702e-11 +/- 3.09e-44]",
+      "center_correction_bound": "[2.75066457369138110345881729652331e-15 +/- 4.51e-48]",
+      "return_trace_enclosure": "[-7.46194646e+11 +/- 8.51e+2]"
+    },
+    {
+      "orbit": 18,
+      "type": "negative saddle",
+      "contraction_bound": "[5.55862500294619718241901898243415e-11 +/- 4.58e-44]",
+      "center_correction_bound": "[2.69755737209993360588683715179954e-15 +/- 2.33e-48]",
+      "return_trace_enclosure": "[-7.46194646e+11 +/- 7.32e+2]"
+    },
+    {
+      "orbit": 19,
+      "type": "positive saddle",
+      "contraction_bound": "[5.43769356626076452312430612057183e-11 +/- 7.27e-45]",
+      "center_correction_bound": "[2.14659603072246853561463409536356e-15 +/- 1.70e-48]",
+      "return_trace_enclosure": "[3.34218805e+15 +/- 2.89e+6]"
+    },
+    {
+      "orbit": 20,
+      "type": "positive saddle",
+      "contraction_bound": "[5.43764705538688400429832984547205e-11 +/- 3.40e-44]",
+      "center_correction_bound": "[3.58988596273517519360897614792885e-15 +/- 2.54e-49]",
+      "return_trace_enclosure": "[3.34218805e+15 +/- 3.22e+6]"
+    }
+  ]
+}

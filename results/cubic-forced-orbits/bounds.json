@@ -1,0 +1,60 @@
+{
+  "case": 48000001,
+  "gain": [
+    17,
+    50
+  ],
+  "word": [
+    -1,
+    2,
+    -1,
+    2,
+    -1,
+    2
+  ],
+  "matrix": [
+    [
+      5,
+      -8
+    ],
+    [
+      -8,
+      13
+    ]
+  ],
+  "entropy_lower_exact": "log(9 + 4 sqrt(5))",
+  "entropy_lower_approx": 2.8872709503576206,
+  "fixed_points_of_iterates": [
+    {
+      "turns": 1,
+      "trace": 18,
+      "finite_fixed_points_at_least": 21
+    },
+    {
+      "turns": 2,
+      "trace": 322,
+      "finite_fixed_points_at_least": 325
+    },
+    {
+      "turns": 3,
+      "trace": 5778,
+      "finite_fixed_points_at_least": 5781
+    },
+    {
+      "turns": 4,
+      "trace": 103682,
+      "finite_fixed_points_at_least": 103685
+    },
+    {
+      "turns": 5,
+      "trace": 1860498,
+      "finite_fixed_points_at_least": 1860501
+    },
+    {
+      "turns": 6,
+      "trace": 33385282,
+      "finite_fixed_points_at_least": 33385285
+    }
+  ],
+  "family_sufficient_gain_per_harmonic_index": 1200
+}
