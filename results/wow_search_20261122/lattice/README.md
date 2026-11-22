@@ -1,4 +1,4 @@
-# An exactly straight orbit on a fifteen-handle chaotic attractor
+# An exactly straight geodesic on a surface with fifteen handles
 
 A particle can follow a straight line around a periodic surface with fifteen handles. It returns to its starting point after winding (7, −7, −2) times around the three coordinate axes. An infinitesimal perturbation in the unstable direction grows by a factor between **4.45 and 4.47 million** per lap.
 

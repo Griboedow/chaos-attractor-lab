@@ -1668,17 +1668,19 @@ Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,0
 <!-- wow-20261122-true -->
 ## Shape search of 2026-11-22
 
-### A straight orbit on a fifteen-handle attractor
+<a id="a-straight-orbit-on-a-fifteen-handle-attractor"></a>
 
-After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow. Varying one wave amplitude gives a family of straight orbits of fixed length with [unbounded growth per lap](results/attractor_followup_2/geodesics/README.md).
+### A straight geodesic on a surface with fifteen handles
 
-![A straight orbit on a fifteen-handle attractor in rotation](docs/assets/portraits/forms-20261122-lattice.webp)
+After opposite faces of the periodic cell are identified, the position surface has fifteen handles. Position and unit tangent velocity together form the three-dimensional attractor. One exactly straight closed orbit has a linearized perturbation that grows by a factor between 4.45 and 4.47 million per lap along its unstable direction. Varying one wave amplitude gives straight orbits of fixed length with [unbounded growth per lap](results/attractor_followup_2/geodesics/README.md).
+
+![Rotating view of positions from a geodesic launched at an angle to the straight orbit](docs/assets/portraits/forms-20261122-lattice.webp)
 
 <!-- drawing-date -->
 *First recorded portrait: **2026-11-22**.*
 <!-- /drawing-date -->
 
-![A straight orbit on a fifteen-handle attractor](docs/assets/portraits/forms-20261122-lattice.png)
+![Positions from the tilted launch on the surface with fifteen handles](docs/assets/portraits/forms-20261122-lattice.png)
 
 <!-- drawing-date -->
 *Drawn: **2026-11-22**.*
@@ -1703,7 +1705,7 @@ n = 7, k = 0.375. Start at (π/2, π/2, π/14). Rotate the unit straight-ray vel
 
 <!-- /portrait-equation -->
 
-A single orbit in one cubic phase cell, with opposite faces identified. The still uses 280,000 successive measured positions. The rotation shows the last 60,000. [Study and reproduction](docs/chaotic-forms-20261122.md)
+The pictured orbit starts at an angle of 0.321 radians to the exact straight ray. The still uses 280,000 successive positions in one cubic phase cell, and the rotation shows the last 60,000. [View the straight and tilted orbits together](results/wow_search_20261122/lattice/README.md) · [Study and reproduction](docs/chaotic-forms-20261122.md#a-straight-line-inside-a-uniformly-chaotic-flow)
 
 ![Two geodesic mosaics with additional gold lines in the right disk](results/art_20261122/weave/geodesic-weave.png)
 
@@ -1711,7 +1713,7 @@ Eight straight geodesics cut the surface into 140 tiles on the left. When two wa
 
 ### One boundary for fifteen Newton basins
 
-Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. Approaching a pole along either horizontal ray gives all fifteen outcomes at arbitrarily small scales. A 24° sector above the pole leads to one root, and a 24° sector below it leads to another. [Directional basin proof](results/attractor_followup_2/newton/README.md)
+Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. Approaching the principal pole along either horizontal ray gives all fifteen outcomes at arbitrarily small scales. A 24° sector above that pole leads to one root, and a 24° sector below it leads to another. [Directional basin proof](results/attractor_followup_2/newton/README.md)
 
 ![One boundary for fifteen Newton basins in rotation](docs/assets/portraits/forms-20261122-boundary.webp)
 
@@ -1748,7 +1750,7 @@ The parameter is an algebraic number. The certified isolating disk has radius 10
 
 <!-- /portrait-equation -->
 
-Riemann-sphere positions of 99,423 distinct retained numerical preimages of poles, sampled through depth 23. The same complete collection is used in the still and rotation. Forward attraction is to the roots and cycle phases. [Study and reproduction](docs/chaotic-forms-20261122.md)
+Both views use 99,423 retained numerical preimages of poles, sampled through depth 23 to approximate the Julia boundary. Under exact forward iteration a pole preimage reaches infinity. Points in the adjacent open basins approach one of the six roots or the nine-cycle. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
 ![Newton basins wrapped around a torus, with narrow colored bands woven between root regions](results/art_20261122/newton/nine-scale-newton-torus.png)
 
@@ -1756,7 +1758,7 @@ Riemann-sphere positions of 99,423 distinct retained numerical preimages of pole
 *Drawn: **2026-11-22**.*
 <!-- /drawing-date -->
 
-One trip around the hole takes nine zoom steps near a pole, each by a factor of 6/5. The six root colors stay fixed, while the nine cycle colors shift one place per step and match again at the seam. [Unwrap the torus](results/art_20261122/newton/README.md)
+The torus is a way to display the basins. One trip around its hole covers nine zoom steps near a pole, each by a factor of 6/5 in the linearizing coordinate. The six root colors stay fixed, while the nine cycle colors shift one place per step and match again at the seam. [Unwrap the torus](results/art_20261122/newton/README.md)
 
 ### A scalloped fan from pulsed optical feedback
 
@@ -1794,7 +1796,7 @@ Native complex-field plane in the still. The rotation uses the field and memory 
 
 ### Two detuning regimes at identical optical settings
 
-The same six coefficients yield two separated long-run detuning ranges in the sampled starts. Independent 16,777,216-step trajectories stayed on their initial side of the observed gap.
+The same six coefficients yield two separated detuning ranges in the sampled starts. After 131,072 warm-up steps, each of eight runs stayed on one side of the observed gap for all 16,777,216 measured steps.
 
 ![Two detuning regimes at identical optical settings in rotation](docs/assets/portraits/forms-20261122-optical-basins.webp)
 
@@ -1828,7 +1830,7 @@ Each panel contains 786,432 consecutive native field and memory states. The came
 
 ![Sixteen strips show which optical regime a fixed field reaches as its starting memory increases](results/art_20261122/memory-transplant/memory-transplant.png)
 
-Take the light field from one run and the cavity memory from another. All 256 pairings followed the memory donor in the two observation windows. Read across a stripe as the starting memory increases. Two fields switched outcome at least seven times among the samples where both implementations agreed. [Transplant experiment and numerical checks](results/art_20261122/memory-transplant/README.md)
+Take the light field from one run and the cavity memory from another. All 256 pairings followed the memory donor in both observation windows, including a 160-bit replay. Near the boundary, the two double-precision implementations sometimes agreed with each other and differed from higher-precision runs. On 21 consecutive starting memories, replays at 640, 1,280 and 2,560 bits agreed on seven switches for field U04 and five for L01. [Transplant experiment, grid and precision checks](results/art_20261122/memory-transplant/README.md)
 
 <!-- /wow-20261122-true -->
 
@@ -3097,7 +3099,7 @@ Native three-axis twist coordinates, shown at equal axis scales with a principal
 
 #### Two and four nested rings from one orbit
 
-One point draws both rings in Case 13745, switching rings on every step. Its exact initial state enters the interior of the attractor on step two and never repeats. Two inverse branches in the outer component encode every binary sequence. In Case 5529 one orbit visits four bands in the order first, third, second, fourth. [Entry and nonrepetition](results/attractor_followup_2/annuli/README.md) · [Entropy proof](results/low_hanging_20261122/annuli/README.md)
+The seed for the Case 13745 portrait enters the interior of the attractor on step two. From then on, it switches rings at every step and never repeats a point. Two inverse branches in the outer component encode every binary sequence. In Case 5529 one orbit visits four bands in the order first, third, second, fourth. [Entry and nonrepetition](results/attractor_followup_2/annuli/README.md) · [Entropy proof](results/low_hanging_20261122/annuli/README.md)
 
 ![Two and four nested rings from one orbit](docs/assets/portraits/forms-20261122-nested-crowns.png)
 
@@ -3254,7 +3256,7 @@ Each dot moves toward its next recorded position. Halfway there, the rigid rotat
 
 ![Identical middle frames with a rosette surviving in the past of the upper row and an eye in the future of the lower row](results/art_20261122/double-exposure/directional-eraser.png)
 
-These two photographs agree in every visible pixel. We selected particles that draw the rosette fifteen steps back and an eye fifteen steps ahead. Moving them inside their pixels erases one drawing or the other, depending on the direction of the move. [One photograph, two histories](results/art_20261122/double-exposure/README.md)
+For this experiment the cat map runs on a grid of 2³¹ − 1 sites per axis. We selected 262,144 particles that draw the rosette fifteen steps back and an eye fifteen steps ahead. Two different subpixel shifts preserve the same 320 × 320 present photograph. One leaves the past rosette visible, the other the future eye. [One photograph, two histories](results/art_20261122/double-exposure/README.md)
 
 ## Research index
 

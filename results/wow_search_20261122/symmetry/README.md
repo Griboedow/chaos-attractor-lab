@@ -1,6 +1,6 @@
 # Cyclic polynomial maps with nested trapping annuli
 
-One point alternates between two concentric bands on every step in Case 13745. Two million steps trace 17 lobes on the inner band and a scalloped outer rim. Changing the coefficients produces three, four or five bands. Interval arithmetic proves the number of connected components and the order in which the map visits them.
+The plotted seed enters the Case 13745 attractor on step two and then alternates between two concentric bands. Two million measured steps trace 17 lobes on the inner band and a scalloped outer rim. Changing the coefficients produces three, four or five bands. Interval arithmetic proves the number of connected components and the order in which the map visits them. [Entry proof for the plotted seed](../../attractor_followup_2/annuli/README.md)
 
 [Map and coefficients](#the-map-and-parameters) · [Proof of the bands](#strict-radial-traps-and-essential-components) · [Dynamics in the gaps](#entropy-forced-between-the-bands) · [Search](#screening-and-independent-checks) · [Reproduce](#reproduction)
 

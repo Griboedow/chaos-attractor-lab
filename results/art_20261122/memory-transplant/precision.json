@@ -1,0 +1,119 @@
+{
+  "case": 86780,
+  "inclusive_zero_based_indices": [
+    62,
+    82
+  ],
+  "dose_binary64_formula": "5.5 + (3.7 * j) / 192",
+  "dose_binary64_hex": [
+    "0x1.ac77777777778p+2",
+    "0x1.adb3333333333p+2",
+    "0x1.aeeeeeeeeeeefp+2",
+    "0x1.b02aaaaaaaaabp+2",
+    "0x1.b166666666666p+2",
+    "0x1.b2a2222222222p+2",
+    "0x1.b3ddddddddddep+2",
+    "0x1.b51999999999ap+2",
+    "0x1.b655555555555p+2",
+    "0x1.b791111111111p+2",
+    "0x1.b8ccccccccccdp+2",
+    "0x1.ba08888888889p+2",
+    "0x1.bb44444444444p+2",
+    "0x1.bc80000000000p+2",
+    "0x1.bdbbbbbbbbbbcp+2",
+    "0x1.bef7777777778p+2",
+    "0x1.c033333333333p+2",
+    "0x1.c16eeeeeeeeefp+2",
+    "0x1.c2aaaaaaaaaabp+2",
+    "0x1.c3e6666666666p+2",
+    "0x1.c522222222222p+2"
+  ],
+  "windows": [
+    [
+      6145,
+      8192
+    ],
+    [
+      24577,
+      32768
+    ]
+  ],
+  "threshold": 7.5,
+  "rows": [
+    {
+      "field": "L01",
+      "reference_binary64": "LLLLUULLULLUULLUULUUU",
+      "numpy_binary64": "LLLLLLLLULLULLLUULLUU",
+      "labels_by_precision_bits": {
+        "160": "LLLLLULLULLLLUULUUULU",
+        "320": "LLLLLULLLLLLLLULUUULU",
+        "640": "LLLLLULLLLLLLLLLUUULU",
+        "1280": "LLLLLULLLLLLLLLLUUULU",
+        "2560": "LLLLLULLLLLLLLLLUUULU"
+      },
+      "switches_by_precision_bits": {
+        "160": 9,
+        "320": 7,
+        "640": 5,
+        "1280": 5,
+        "2560": 5
+      }
+    },
+    {
+      "field": "U04",
+      "reference_binary64": "LLULLLLLLULLULUUULUUU",
+      "numpy_binary64": "LUULLLLLLULLUUUUULUUU",
+      "labels_by_precision_bits": {
+        "160": "LLULLLLLUULLUULUUUUUU",
+        "320": "LLLLLLLLUULLULLUUUUUU",
+        "640": "LLULLLLLUULLULLUUUUUU",
+        "1280": "LLULLLLLUULLULLUUUUUU",
+        "2560": "LLULLLLLUULLULLUUUUUU"
+      },
+      "switches_by_precision_bits": {
+        "160": 7,
+        "320": 5,
+        "640": 7,
+        "1280": 7,
+        "2560": 7
+      }
+    }
+  ],
+  "donor_swap_precision_bits": 160,
+  "donor_order": [
+    "L01",
+    "L02",
+    "L03",
+    "L04",
+    "L05",
+    "L06",
+    "L07",
+    "L08",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08"
+  ],
+  "donor_swap_rows": [
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU",
+    "LLLLLLLLUUUUUUUU"
+  ]
+}

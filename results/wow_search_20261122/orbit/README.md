@@ -54,7 +54,7 @@ The leading exponent ranged from .09471 to .09789 across twelve windows. The exp
 *Drawn: **2026-11-22**.*
 <!-- /drawing-date -->
 
-**Numerical persistence.** Nine initial fields crossed with 257 initial detunings gave 2,313 starts. During 8,192 post-transient steps, 822 stayed below $`T=7.5`$ and 1,491 above. These counts describe the sampled grid. Eight independent runs totaling 134,217,728 steps left the interval (6.10748, 7.95709) empty. [Starts and long-run controls](case-86780-basins.json)
+**Numerical persistence.** Nine initial fields crossed with 257 initial detunings gave 2,313 starts. During 8,192 post-transient steps, 822 stayed below $`T=7.5`$ and 1,491 above. These counts describe the sampled grid. Across the 134,217,728 post-transient samples of eight long runs, none lay in (6.10748, 7.95708), with the bounds rounded inward. [Starts and long-run controls](case-86780-basins.json)
 
 **Certified separation.** For two exact starting points, Arb encloses each iterate from 2,048 through 8,192 in $`5\lt T\lt 6.3`$ or $`7.6\lt T\lt 11`$, respectively. Every coordinate-ball radius stayed below $`2^{-64}`$. Inputs are the exact binary values of the archived floats. Separation for all future time remains open. [Lower interval calculation, 24,576 bits](arb-lower.json) · [Upper interval calculation, 40,960 bits](arb-upper.json)
 

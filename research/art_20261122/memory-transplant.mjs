@@ -1,41 +1,34 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { donorMatches, makeAdvance } from "./memory_transplant_map.mjs";
 
 const results = new URL("../../results/art_20261122/memory-transplant/", import.meta.url);
 const archive = new URL("../../results/wow_search_20261122/orbit/case-86780.json", import.meta.url);
 const { parameters } = JSON.parse(readFileSync(archive, "utf8"));
-const { fields } = JSON.parse(readFileSync(new URL("donors.json", results), "utf8"));
-const {
-  pump, field_retention: retention, base_detuning: detuning, fast_shift: fast,
-  memory_gain: gain, relaxation
-} = parameters;
+const donors = JSON.parse(readFileSync(new URL("donors.json", results), "utf8"));
+const { fields } = donors;
+const advance = makeAdvance(parameters);
 const threshold = 7.5;
 const windows = [[6145, 8192], [24577, 32768]];
 const doses = Array.from({ length: 193 }, (_, i) => 5.5 + 3.7 * i / 192);
 
 function classify(x, y, memory) {
+  let state = [x, y, memory], previous = 0;
   const labels = [];
-  for (let windowIndex = 0, step = 1; windowIndex < windows.length; windowIndex++) {
-    const [first, last] = windows[windowIndex];
-    let low = Infinity, high = -Infinity;
-    for (; step <= last; step++) {
-      const intensity = x * x + y * y;
-      const response = intensity / (1 + intensity);
-      const phase = detuning + fast * response + memory;
-      const c = retention * Math.cos(phase), s = retention * Math.sin(phase);
-      const real = pump + x * c - y * s;
-      y = x * s + y * c;
-      x = real;
-      memory = (1 - relaxation) * memory + relaxation * gain * response;
-      if (step >= first) {
-        low = Math.min(low, memory);
-        high = Math.max(high, memory);
-      }
-    }
-    labels.push(high < threshold ? "L" : low > threshold ? "U" : "?");
+  for (const [first, last] of windows) {
+    const run = advance(state, last - previous, first - previous);
+    labels.push(run.high < threshold ? "L" : run.low > threshold ? "U" : "?");
+    state = run.state;
+    previous = last;
   }
   return labels[0] === labels[1] ? labels[0] : "?";
+}
+
+if (process.argv.includes("--check-donors")) {
+  const matches = donorMatches(donors, advance);
+  console.log(`${matches.filter(Boolean).length}/${fields.length} donors match their published coordinates exactly.`);
+  process.exit(matches.every(Boolean) ? 0 : 1);
 }
 
 const replayFile = fileURLToPath(new URL("memory_transplant_replay.py", import.meta.url));
@@ -101,12 +94,12 @@ label(35, 49, "Transplanting memory into an optical cavity", 36, ink, "start", 7
 label(36, 83, "One field per row. Only the starting memory changes from left to right.", 20, grey);
 rect(36, 104, 18, 12, colors.L);  label(63, 116, "Lower regime", 16);
 rect(197, 104, 18, 12, colors.U); label(224, 116, "Upper regime", 16);
-rect(359, 104, 18, 12, colors["?"]); label(386, 116, "Calculations disagree", 16);
+rect(359, 104, 18, 12, colors["?"]); label(386, 116, "Binary64 runs disagree", 16);
 
 label(34, 161, "Field", 16, ink, "start", 700);
 label(whole.x, 161, "Full dose range", 18, ink, "start", 700);
 label(zoom.x, 161, "Boundary in detail", 18, ink, "start", 700);
-label(1027, 161, "Switches", 16, ink, "middle", 700);
+label(1027, 161, "Binary64 switches", 16, ink, "middle", 700);
 label(988, 191, "All", 15, grey, "middle");
 label(1060, 191, "Agreed", 15, grey, "middle");
 function ypos(i) { return 207 + i * 21 + (i >= 8 ? 14 : 0); }
