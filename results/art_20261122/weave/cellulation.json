@@ -1,0 +1,134 @@
+{
+  "generic-1": {
+    "sheets": 1,
+    "genus": 3,
+    "rays": 8,
+    "vertices": 24,
+    "edges": 48,
+    "pair_counts_by_intersection_multiplicity": {
+      "oval / oval": {
+        "2": 12
+      }
+    },
+    "cells": 20,
+    "faces_by_edges": {
+      "4": 12,
+      "6": 8
+    },
+    "nodes_by_kind": {
+      "M": 24
+    },
+    "ray_lengths_in_graph_edges": {
+      "oval": {
+        "6": 8
+      }
+    },
+    "euler_characteristic": -4
+  },
+  "equal-1": {
+    "sheets": 1,
+    "genus": 3,
+    "rays": 12,
+    "vertices": 44,
+    "edges": 88,
+    "pair_counts_by_intersection_multiplicity": {
+      "diameter / diameter": {
+        "2": 2
+      },
+      "diameter / oval": {
+        "1": 16
+      },
+      "oval / oval": {
+        "2": 12
+      }
+    },
+    "cells": 40,
+    "faces_by_edges": {
+      "4": 24,
+      "5": 16
+    },
+    "nodes_by_kind": {
+      "M": 24,
+      "P": 16,
+      "V": 4
+    },
+    "ray_lengths_in_graph_edges": {
+      "diameter": {
+        "6": 4
+      },
+      "oval": {
+        "8": 8
+      }
+    },
+    "euler_characteristic": -4
+  },
+  "generic-7": {
+    "sheets": 7,
+    "genus": 15,
+    "rays": 8,
+    "vertices": 168,
+    "edges": 336,
+    "pair_counts_by_intersection_multiplicity": {
+      "oval / oval": {
+        "14": 12
+      }
+    },
+    "cells": 140,
+    "faces_by_edges": {
+      "4": 84,
+      "6": 56
+    },
+    "nodes_by_kind": {
+      "M": 168
+    },
+    "ray_lengths_in_graph_edges": {
+      "oval": {
+        "42": 8
+      }
+    },
+    "euler_characteristic": -28,
+    "native_torus_coordinate_check": true
+  },
+  "equal-7": {
+    "sheets": 7,
+    "genus": 15,
+    "rays": 24,
+    "vertices": 308,
+    "edges": 616,
+    "pair_counts_by_intersection_multiplicity": {
+      "long diameter / oval": {
+        "7": 8
+      },
+      "long diameter / short diameter": {
+        "2": 14
+      },
+      "oval / oval": {
+        "14": 12
+      },
+      "oval / short diameter": {
+        "1": 56
+      }
+    },
+    "cells": 280,
+    "faces_by_edges": {
+      "4": 168,
+      "5": 112
+    },
+    "nodes_by_kind": {
+      "M": 168,
+      "P": 112,
+      "V": 28
+    },
+    "ray_lengths_in_graph_edges": {
+      "diameter": {
+        "6": 14,
+        "42": 2
+      },
+      "oval": {
+        "56": 8
+      }
+    },
+    "euler_characteristic": -28,
+    "native_torus_coordinate_check": true
+  }
+}

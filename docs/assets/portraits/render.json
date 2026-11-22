@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "c8dcf74fe27915f3e927bc7e76a6d3f5206baaa5844e0b6a3519e89771dc2749",
+  "catalog_sha256": "48186b86364014a1f295331bdcb05091dc0ebe47d0d1bd24b566d92e1739519d",
   "size": [
     1920,
     1080
@@ -4432,6 +4432,83 @@
           "log_saturation": 7.667532824190062,
           "occupied_bins": 26853,
           "display_label": "Case 11450"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "sevenfold-rosette",
+      "file": "docs/assets/portraits/sevenfold-rosette.png",
+      "sha256": "2577bb0663c04ae12c7e8431a2ff688a77ca7643f6fe1371e0e32a674232bd0c",
+      "panels": [
+        {
+          "input": {
+            "label": "Rigid rotation",
+            "source": "results/art_20261122/rosette/rotation-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "fc7380078aad5f6e0906967f948b1a395c850a5af462a04a38b9f70255e8f760",
+          "original_shape": [
+            256,
+            256
+          ],
+          "original_count": 16777216,
+          "nonempty_crop": [
+            [
+              6,
+              14
+            ],
+            [
+              250,
+              252
+            ]
+          ],
+          "empty_margin": 10,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 16777216,
+          "log_saturation": 8.229560919444367,
+          "occupied_bins": 31081,
+          "display_label": "Rigid rotation"
+        },
+        {
+          "input": {
+            "label": "Cat map",
+            "source": "results/art_20261122/rosette/cat-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "1f3f7f6dfefc3dd9df23add53d36fa6b0a1757773a040920a561a94e6a8a817e",
+          "original_shape": [
+            256,
+            256
+          ],
+          "original_count": 16777216,
+          "nonempty_crop": [
+            [
+              6,
+              14
+            ],
+            [
+              250,
+              252
+            ]
+          ],
+          "empty_margin": 10,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 16777216,
+          "log_saturation": 8.233574130925225,
+          "occupied_bins": 31085,
+          "display_label": "Cat map"
         }
       ],
       "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",

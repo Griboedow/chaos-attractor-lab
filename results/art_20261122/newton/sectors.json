@@ -1,0 +1,54 @@
+{
+  "case": 6902,
+  "common_radius": "1.79568e-14",
+  "n_min": 120,
+  "reference_R": [
+    1000,
+    1200
+  ],
+  "all_poles_regular_part_bound": 2,
+  "reference_landing_error_bound": "1e-8",
+  "angle_cells_per_sector": 192,
+  "sectors": [
+    {
+      "direction_degrees_closed": [
+        149,
+        153
+      ],
+      "root_labels_1based": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "tiles_at_each_pole": [
+        19296,
+        24576,
+        13458,
+        19330,
+        25487
+      ]
+    },
+    {
+      "direction_degrees_closed": [
+        207,
+        211
+      ],
+      "root_labels_1based": [
+        6,
+        1,
+        2,
+        4,
+        5
+      ],
+      "tiles_at_each_pole": [
+        21812,
+        22489,
+        25130,
+        21889,
+        24576
+      ]
+    }
+  ]
+}

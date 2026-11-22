@@ -2039,6 +2039,30 @@
           "mode": "histogram"
         }
       ]
+    },
+    {
+      "id": "sevenfold-rosette",
+      "title": "One rosette drawn by two motions",
+      "group": "Shape search of 2026-11-22",
+      "report": "results/art_20261122/rosette/README.md",
+      "source_portrait": "results/art_20261122/rosette/sevenfold-rosette.png",
+      "description": "An irrational torus translation and a hyperbolic torus automorphism have the same projected stationary measure.",
+      "coordinates": "Complex observation plane. Each cumulative histogram contains all 16,777,216 consecutive observations.",
+      "featured": false,
+      "panels": [
+        {
+          "label": "Rigid rotation",
+          "source": "results/art_20261122/rosette/rotation-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "Cat map",
+          "source": "results/art_20261122/rosette/cat-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
     }
   ]
 }

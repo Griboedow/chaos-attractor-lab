@@ -17,6 +17,7 @@ The verifier checks 392 boxes in the inner annulus and 132 in the outer annulus,
 
 | Study | What to reproduce |
 | --- | --- |
+| Mathematical art | [Two orbital exposures and their time ordering](../results/art_20261122/rosette/README.md#reproduce) · [All four studies and their code](../results/art_20261122/README.md) |
 | Spatial search of 2026-11-21 | [Regenerate one trajectory or all 30 portrait inputs](shape-search-20261121.md#reproduce-the-portraits) |
 | Optical cavity, Newton basins and geodesic flow | [Optical field and basin checks](../results/wow_search_20261122/orbit/README.md#selection-and-replication) · [Fifteen Newton outcomes](../results/wow_search_20261122/boundary/README.md#reproduction) · [Straight periodic ray](../results/wow_search_20261122/lattice/README.md#reproduction) |
 | Product-posterior maps | [Fate and singular preimages](../results/product-attractor-status/README.md#storage-and-reproduction) · [Unstable branches and returns](../results/product-larger-attractor/README.md#reproduction) · [Instability and folds](../results/product-mechanism/README.md#reproduction) |

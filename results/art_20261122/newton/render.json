@@ -1,0 +1,65 @@
+{
+  "case": 6902,
+  "size": [
+    2100,
+    1360
+  ],
+  "supersample_per_axis": 2,
+  "surface_subpixels": 5246352,
+  "unresolved": 0,
+  "outcome_subpixels_in_label_order": [
+    1118086,
+    290495,
+    1362602,
+    721494,
+    272769,
+    1163048,
+    25236,
+    15623,
+    28859,
+    26895,
+    33080,
+    29555,
+    34821,
+    10791,
+    112998
+  ],
+  "palette": [
+    "639cda",
+    "73c8b5",
+    "445b9e",
+    "e2b078",
+    "46a9bf",
+    "b087b2",
+    "ffca72",
+    "ff9556",
+    "ed5847",
+    "dc477a",
+    "b556a7",
+    "8a6ad6",
+    "4f9bc3",
+    "69c9ad",
+    "ddce70"
+  ],
+  "coordinates": "scale=9*(u/(2*pi)+0.24) mod 9; angle=-pi-.01+2*atan2(.055*sin(b),cos(b)) mod 2pi; b=(v+u+.45)/2",
+  "weave": {
+    "shape": [
+      560,
+      2340
+    ],
+    "angle_span_radians": 0.085,
+    "angle_center": "-pi-.01",
+    "per_phase_pixels": [
+      33490,
+      33490,
+      33490,
+      33490,
+      33490,
+      33490,
+      33490,
+      33490,
+      33490
+    ],
+    "rows_with_equal_phase_counts": 560
+  }
+}
