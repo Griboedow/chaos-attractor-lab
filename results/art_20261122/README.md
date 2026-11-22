@@ -1,7 +1,9 @@
-# Mathematical art from four dynamical systems
+# Mathematical art from dynamical systems
 
 | Study | How to read the picture |
 | --- | --- |
+| [One photograph, two histories](double-exposure/README.md) | Identical middle frames hide a rosette in the past and an eye in the future. The direction of a subpixel move selects which drawing survives. |
+| [Transplanting memory into an optical cavity](memory-transplant/README.md) | Read across a stripe to see a fixed light field switch between two outcomes as the cavity's starting memory increases. |
 | [One rosette, two motions](rosette/README.md) | A rigid rotation and a chaotic map expose the same seven-lobed density. In the animation, moving each sample halfway towards its successor reveals which clock drew it. |
 | [A nine-color Newton weave](newton/README.md) | One circuit of the torus wraps nine successive magnifications of a basin boundary. Five different poles send a common small displacement to five different roots. |
 | [A mosaic of straight geodesics](weave/README.md) | The eight straight rays on a surface of genus fifteen divide it into 140 tiles. At equal wave weights sixteen more rays appear. One new line in the cosine plane accounts for the jump to 280 tiles. |
@@ -10,6 +12,10 @@
 Each study gives its equations, settings, evidence, source code and references. [Main atlas](../../README.md)
 
 ## Where to look next
+
+**Three pins and a length of thread.** Move three pins in a disk. Let A turn the left pair around each other once and B do the same to the right pair. For two moves X and Y, write [X,Y] for X, Y, undo X, undo Y. Put a thread loop around the first two pins, run [[A,B],A], and tighten it. The pins are back where they started. Any two alone trace a braid that unravels completely. With all three present the slope matrix has determinant 1 and trace 258, giving an asymptotic stretch factor near 258 per repeat. Film the tightening, then replay the same motions with one pin removed. [Archived pin paths](../shape_search_20261121/extension/brunnian/README.md#local-maps-and-disjoint-trapping-tubes) · [Boyland, Aref and Stremler on stirring with rods](https://people.clas.ufl.edu/boyland/files/stir.pdf)
+
+**An orbit that prints its own instructions.** Feed the two circles used by the RAAR projection algorithm back to it as a small black-and-white drawing. Each 49 updates can encode one pixel, read from the window the orbit visits on update seven of that block. A covering proof guarantees a periodic starting point for any finite raster, including a picture of those two circles. The experiment is to find one such point and round its coordinates, digit by digit, until the image loses a recognizable feature. [Window and return certificates for Case 1051](../low_hanging_20261122/algorithms/README.md) · [Hayes, Grebogi and Ott on coding a message in a chaotic oscillator](https://doi.org/10.1103/PhysRevLett.70.3031)
 
 **Five transparent maps of one Newton cycle.** Give all five poles the same displacement. Paint one transparent layer per pole wherever that start reaches the nine-cycle. Use angle horizontally and logarithmic distance vertically. Two layers already overlap. At radius 10⁻¹⁴ and angle 27.5°, direct interval iteration puts poles 2 and 5 in the cycle and the other three at distinct roots. Can three layers overlap anywhere within radius 1.79568 × 10⁻¹⁴? One certified patch would settle it. [Pole numbering and verifier](newton/README.md#five-poles-five-different-roots) · [Hubbard, Schleicher and Sutherland on Newton basins](https://www.math.stonybrook.edu/~scott/Papers/Newton-HSS.pdf)
 

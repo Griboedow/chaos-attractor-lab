@@ -8,7 +8,7 @@ I run this experiment from my phone through Codex, using the most capable models
 
 - **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
 - **Follow-up proofs** · [Periodic orbits and ring entropy](results/low_hanging_20261122/README.md) · [Fifteen outcomes on a line and unbounded growth per lap](results/attractor_followup_2/README.md)
-- **Mathematical art** · [One rosette drawn by two motions](#one-rosette-drawn-by-two-motions) · [Newton weave, geodesic mosaic and crown](results/art_20261122/README.md) · [Where to look next](results/art_20261122/README.md#where-to-look-next)
+- **Mathematical art** · [One photograph, two histories](results/art_20261122/double-exposure/README.md) · [Optical memory transplant](results/art_20261122/memory-transplant/README.md) · [All studies and sketches](results/art_20261122/README.md)
 - **By system** · [Constructed flows](#constructed-flows) · [Numerical algorithms](#numerical-algorithms) · [Molecular motors](#molecular-motor-dynamics) · [Constructed data](#constructed-data)
 - **Reports and data** · [Research index](#research-index) · [Articles](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data and certificates](results/README.md)
 
@@ -1826,6 +1826,10 @@ Both panels use Case 86780, with (P, a, δ, k, g, h) = (0.6838027238845825, 0.47
 
 Each panel contains 786,432 consecutive native field and memory states. The camera and units are shared, with independent centering and portrait bounds. The study includes a common-scale comparison. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
+![Sixteen strips show which optical regime a fixed field reaches as its starting memory increases](results/art_20261122/memory-transplant/memory-transplant.png)
+
+Take the light field from one run and the cavity memory from another. All 256 pairings followed the memory donor in the two observation windows. Read across a stripe as the starting memory increases. Two fields switched outcome at least seven times among the samples where both implementations agreed. [Transplant experiment and numerical checks](results/art_20261122/memory-transplant/README.md)
+
 <!-- /wow-20261122-true -->
 
 ## Further portraits
@@ -3248,6 +3252,10 @@ Each panel contains 16,777,216 consecutive observations. [Why there are fourteen
 
 Each dot moves toward its next recorded position. Halfway there, the rigid rotation on the left keeps its petals and the chaotic map on the right draws a star through its center. [Why two frames separate the motions](results/art_20261122/rosette/README.md#look-between-the-samples)
 
+![Identical middle frames with a rosette surviving in the past of the upper row and an eye in the future of the lower row](results/art_20261122/double-exposure/directional-eraser.png)
+
+These two photographs agree in every visible pixel. We selected particles that draw the rosette fifteen steps back and an eye fifteen steps ahead. Moving them inside their pixels erases one drawing or the other, depending on the direction of the move. [One photograph, two histories](results/art_20261122/double-exposure/README.md)
+
 ## Research index
 
 [Shape searches](#shape-search-reports) · [Constructed flows and maps](#constructed-flows-and-maps) · [Algorithms](#numerical-algorithms-1) · [Molecular motors](#molecular-motors) · [Physical and biological models](#other-physical-and-biological-models) · [Negative and incomplete results](#negative-incomplete-and-excluded-searches)
@@ -3256,7 +3264,7 @@ Each dot moves toward its next recorded position. Halfway there, the rigid rotat
 
 | Study | Findings and evidence |
 | --- | --- |
-| [Mathematical art](results/art_20261122/README.md) | [Two clocks, one rosette](results/art_20261122/rosette/README.md) · [Newton weave](results/art_20261122/newton/README.md) · [Geodesic mosaic](results/art_20261122/weave/README.md) · [Seventeen cusps](results/art_20261122/rings/README.md) |
+| [Mathematical art](results/art_20261122/README.md) | [One photograph, two histories](results/art_20261122/double-exposure/README.md) · [Optical memory transplant](results/art_20261122/memory-transplant/README.md) · [Newton weave](results/art_20261122/newton/README.md) · [Geodesic mosaic](results/art_20261122/weave/README.md) · [Seventeen cusps](results/art_20261122/rings/README.md) · [Two clocks, one rosette](results/art_20261122/rosette/README.md) |
 | [Rings, optical fans, Newton basins and geodesics](docs/chaotic-forms-20261122.md) | [Ring permutations](results/wow_search_20261122/symmetry/README.md) · [Optical field](results/wow_search_20261122/orbit/README.md) · [Shared basin boundary](results/wow_search_20261122/boundary/README.md) · [Straight geodesic](results/wow_search_20261122/lattice/README.md) · [Closed routes, ring entropy and optical cycles](results/low_hanging_20261122/README.md) |
 | [Four closer looks at the same systems](results/attractor_followup_2/README.md) | [Directional Newton basins](results/attractor_followup_2/newton/README.md) · [Instability at fixed lap length](results/attractor_followup_2/geodesics/README.md) · [Ten optical phases](results/attractor_followup_2/optics/README.md) · [Exact entry times for the rings](results/attractor_followup_2/annuli/README.md) |
 | [Spatial attractor search](docs/shape-search-20261121.md) | [Follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Knotted bands](docs/shape-search-20261121.md#a-knotted-chaotic-band) · [Component counts](docs/shape-search-20261121.md#attracting-sets-with-different-numbers-of-components) |

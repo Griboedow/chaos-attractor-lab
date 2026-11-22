@@ -122,26 +122,28 @@ assert not bad,bad
 main=(ROOT/'README.md').read_text(encoding='utf-8')
 main_images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',main,re.M)
 art_figures = {
-    'forms-20261122-lattice': 'results/art_20261122/weave/geodesic-weave.png',
-    'forms-20261122-boundary': 'results/art_20261122/newton/nine-scale-newton-torus.png',
-    'forms-20261122-nested-crowns': 'results/art_20261122/rings/postcritical-crown.png',
-    'sevenfold-rosette': 'results/art_20261122/rosette/between-samples.webp',
+    'forms-20261122-lattice': ['results/art_20261122/weave/geodesic-weave.png'],
+    'forms-20261122-boundary': ['results/art_20261122/newton/nine-scale-newton-torus.png'],
+    'forms-20261122-optical-basins': ['results/art_20261122/memory-transplant/memory-transplant.png'],
+    'forms-20261122-nested-crowns': ['results/art_20261122/rings/postcritical-crown.png'],
+    'sevenfold-rosette': ['results/art_20261122/rosette/between-samples.webp',
+                         'results/art_20261122/double-exposure/directional-eraser.png'],
 }
-catalog_images = [path for path in main_images if path not in art_figures.values()]
+art_paths = [path for paths in art_figures.values() for path in paths]
+catalog_images = [path for path in main_images if path not in art_paths]
 expected_static={f"docs/assets/portraits/{row['id']}.png" for row in catalog['rows']}
 static_images=[p for p in catalog_images if p.endswith('.png')]
 animated_images=[p for p in catalog_images if p.endswith('.webp')]
 assert len(static_images)==len(expected_static) and set(static_images)==expected_static
 assert animated_images==[f"docs/assets/portraits/{row['id']}.webp" for row in featured]
-assert len(main_images)==len(static_images)+len(animated_images)+len(art_figures)
+assert len(main_images)==len(static_images)+len(animated_images)+len(art_paths)
 sections=re.split(r'^#{2,4} ',main,flags=re.M)
 for row in catalog['rows']:
     still=f"docs/assets/portraits/{row['id']}.png"
     section=next(s for s in sections if f']({still})' in s)
     images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',section,re.M)
     expected=[f"docs/assets/portraits/{row['id']}.webp",still] if row.get('featured') else [still]
-    if row['id'] in art_figures:
-        expected.append(art_figures[row['id']])
+    expected.extend(art_figures.get(row['id'], []))
     assert images==expected,(row['id'],'Unexpected images or image order in study section.',expected)
     assert re.search(r'\]\((?:docs|papers|research)/[^)]+\.md(?:#[^)]*)?\)',section),row['id']
 assert main.count('\n## Research index\n')==1
