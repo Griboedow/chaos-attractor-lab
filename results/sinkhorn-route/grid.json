@@ -1,0 +1,35 @@
+{
+  "interval": [
+    -32,
+    32
+  ],
+  "samples_per_axis": 513,
+  "max_steps": 400,
+  "detection": "Every eighth full update; sup-norm distance below 1e-8 to any target phase.",
+  "columns": [
+    "unclassified",
+    "solution",
+    "row order 1-2-3",
+    "row order 1-3-2"
+  ],
+  "counts": [
+    [
+      0,
+      193208,
+      69961,
+      0
+    ],
+    [
+      0,
+      205971,
+      28599,
+      28599
+    ],
+    [
+      0,
+      193208,
+      0,
+      69961
+    ]
+  ]
+}

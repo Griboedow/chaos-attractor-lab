@@ -1,0 +1,85 @@
+{
+  "kernel_diagonal": 8,
+  "kernel_off_diagonal": 1,
+  "target_sum": 10,
+  "omega": "9/5",
+  "attracting_fixed_point": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fixed_modulus_upper": 0.801,
+  "cycle": {
+    "period": 3,
+    "seed_approx": [
+      2.763440186192685,
+      -1.1999911244267714,
+      -3.9634313106194563,
+      -2.763440186192685
+    ],
+    "radius_power_of_two": -225,
+    "krawczyk_ratio_ceiling": 1.4844179763538109e-65,
+    "phase_separation_lower": 6.725,
+    "multiplier_modulus_upper": 0.6478
+  },
+  "row_itinerary": [
+    2,
+    3,
+    1
+  ],
+  "largest_row_share_interval": [
+    0.69282,
+    0.69283
+  ],
+  "starting_rows": [
+    4,
+    64,
+    1
+  ],
+  "starting_columns": [
+    64,
+    1,
+    4
+  ],
+  "steps_to_verified_trap": 75,
+  "trap_radius_power_of_two": -18,
+  "sixth_return_contraction_upper": 0.858,
+  "phase_seeds": [
+    [
+      2.763440186192685,
+      -1.1999911244267714,
+      -3.9634313106194563,
+      -2.763440186192685
+    ],
+    [
+      1.1999911244267714,
+      3.9634313106194563,
+      2.763440186192685,
+      -1.1999911244267714
+    ],
+    [
+      -3.9634313106194563,
+      -2.763440186192685,
+      1.1999911244267714,
+      3.9634313106194563
+    ]
+  ],
+  "reflected_by": "swap row labels 2 and 3 and the same column labels",
+  "rotating_branch_fold": {
+    "seed_approx": [
+      1.9931560216127124,
+      -1.6594914910437053,
+      1.7651485112245098
+    ],
+    "radius_power_of_two": -225,
+    "krawczyk_ratio_ceiling": 1.5053917502802299e-66,
+    "omega_interval": [
+      1.7651485,
+      1.76514852
+    ],
+    "pivot": 0.10410137205983096,
+    "left_Gw": 1.0693077507449102,
+    "left_Gxx_right_right": -0.005937124075527245
+  }
+}

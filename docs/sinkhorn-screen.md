@@ -7,6 +7,8 @@ four exhibit fixed-state recurrence, and four remain weak or drifting cases.
 The sampled projections are diffuse clouds. No new portrait is promoted, and
 neither asymptotic chaotic attraction nor historical novelty is established.
 
+[Follow-up proofs](../results/sinkhorn-route/) establish attraction and least period for all 21 nonconstant recurrences, and locate an expanding three-step return in 4 × 4 Case 64.
+
 [Numerical packet and reproduction](../results/sinkhorn-screen/README.md) ·
 [Research index](../README.md#research-index)
 
