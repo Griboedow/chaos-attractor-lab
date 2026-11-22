@@ -1,4 +1,6 @@
 * text=auto eol=lf
+# Preserve exact numerical receipts referenced by the 2026-11-22 run manifest.
+results/wow_search_20261122/*/*.json -text whitespace=cr-at-eol
 *.npz binary
 *.gif binary
 *.webp binary

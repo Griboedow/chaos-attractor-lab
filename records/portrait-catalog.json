@@ -1845,6 +1845,200 @@
           "metadata_source": "results/shape_search_20261121/cameras/shapes-20261121-cubic-48000003.json"
         }
       ]
+    },
+    {
+      "id": "forms-20261122-lattice",
+      "title": "A straight orbit on a fifteen-handle attractor",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-lattice.png",
+      "description": "A three-wave constraint supports an attracting unit tangent bundle with uniformly hyperbolic geodesic flow. One exactly straight ray winds (7, −7, −2) and has a certified transverse multiplier between 4.45 and 4.47 million per lap.",
+      "coordinates": "A single orbit in one cubic phase cell, with opposite faces identified. The still uses 280,000 successive measured positions. The rotation shows the last 60,000.",
+      "featured": true,
+      "panels": [
+        {
+          "label": "Fifteen handles per phase cell",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-lattice-lattice-cloud-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/wow_search_20261122/clouds/lattice-lattice-cloud.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/wow_search_20261122/cameras/forms-20261122-lattice-lattice-cloud.json"
+        }
+      ]
+    },
+    {
+      "id": "forms-20261122-boundary",
+      "title": "One boundary for fifteen Newton basins",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-boundary.png",
+      "description": "A sextic Newton iteration has six distinct attracting roots and an additional attracting orbit of exact period nine. Under the ninth iterate, the six roots and nine cycle phases have fifteen full basins with the same Julia boundary. Certified starting boxes representing all fifteen outcomes fit inside a single disk of radius 10⁻³⁰.",
+      "coordinates": "Riemann-sphere positions of 99,423 distinct retained numerical preimages of poles, sampled through depth 23. The same complete collection is used in the still and rotation. Forward attraction is to the roots and cycle phases.",
+      "featured": true,
+      "panels": [
+        {
+          "label": "6902",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-boundary-case-6902-stratified-inverse-sphere-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/wow_search_20261122/clouds/boundary-case-6902-stratified-inverse-sphere.npz",
+          "key": "points",
+          "last_count": 99423,
+          "metadata_source": "results/wow_search_20261122/cameras/forms-20261122-boundary-case-6902-stratified-inverse-sphere.json"
+        }
+      ]
+    },
+    {
+      "id": "forms-20261122-fan",
+      "title": "A scalloped fan from pulsed optical feedback",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-fan.png",
+      "description": "One uninterrupted orbit of a complex field with a relaxing detuning produces a spiral and a fan of scallops. The detuning most often peaks 20 iterations apart. All 16 additional starts reproduced the same numerical regime.",
+      "coordinates": "Native complex-field plane in the still. The rotation uses the field and memory coordinates at equal scale. The full stored cloud contains 786,432 consecutive states.",
+      "featured": true,
+      "panels": [
+        {
+          "label": "45941",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-fan-case-45941-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/wow_search_20261122/clouds/orbit-case-45941.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/wow_search_20261122/cameras/forms-20261122-fan-case-45941.json"
+        }
+      ]
+    },
+    {
+      "id": "forms-20261122-optical-basins",
+      "title": "Two detuning regimes at identical optical settings",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-optical-basins.png",
+      "description": "The same six coefficients yield two separated long-run detuning ranges in the sampled starts. Independent 16,777,216-step trajectories stayed on their initial side of the observed gap.",
+      "coordinates": "Each panel contains 786,432 consecutive native field and memory states. The camera and units are shared, with independent centering and portrait bounds. The study includes a common-scale comparison.",
+      "featured": true,
+      "panels": [
+        {
+          "label": "Lower detuning",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-optical-basins-case-86780-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "Higher detuning",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-optical-basins-case-86780-upper-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/wow_search_20261122/clouds/orbit-case-86780.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/wow_search_20261122/cameras/forms-20261122-optical-basins-case-86780.json"
+        },
+        {
+          "source": "results/wow_search_20261122/clouds/orbit-case-86780-upper.npz",
+          "key": "points",
+          "last_count": 60000,
+          "metadata_source": "results/wow_search_20261122/cameras/forms-20261122-optical-basins-case-86780-upper.json"
+        }
+      ]
+    },
+    {
+      "id": "forms-20261122-nested-crowns",
+      "title": "Two and four nested rings from one orbit",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-nested-crowns.png",
+      "description": "The polynomial alternates between two concentric trapping annuli in Case 13745. In Case 5529 it visits the four certified bands in the radial order A → C → B → D → A.",
+      "coordinates": "2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density.",
+      "featured": false,
+      "panels": [
+        {
+          "label": "13745",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-nested-crowns-cyclic-13745-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "5529",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-nested-crowns-cyclic-5529-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "forms-20261122-odd-cycles",
+      "title": "Three and five nested rings force chaos in the gaps",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-odd-cycles.png",
+      "description": "The two maps have rigorously distinct local attractors with exactly three and five connected components respectively. Their permutations force positive topological entropy on separate invariant sets between the bands.",
+      "coordinates": "2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density.",
+      "featured": false,
+      "panels": [
+        {
+          "label": "205188",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-odd-cycles-cyclic-205188-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "202080",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-odd-cycles-cyclic-202080-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
+    },
+    {
+      "id": "forms-20261122-planar-icons",
+      "title": "Three shapes from cyclic polynomial maps",
+      "group": "Shape search of 2026-11-22",
+      "report": "docs/chaotic-forms-20261122.md",
+      "source_portrait": "docs/assets/portraits/forms-20261122-planar-icons.png",
+      "description": "A central four-cornered web, an eight-sided hollow frame, and three chains of loops each arise from one uninterrupted trajectory in the complex plane. The forms and leading expansion are numerical findings.",
+      "coordinates": "3 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density.",
+      "featured": false,
+      "panels": [
+        {
+          "label": "1723",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-1723-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "14725",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-14725-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        },
+        {
+          "label": "11450",
+          "source": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-11450-counts.npz",
+          "key": "counts",
+          "mode": "histogram"
+        }
+      ]
     }
   ]
 }

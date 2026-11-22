@@ -477,6 +477,59 @@
       "parameters": "Both use angular degree 2, ripple 0.12, shift 0.137, residual contraction 0.2 and forcing amplitude 0.6D. The cylindrical embedding radius is 3.25. Left Case 47087142 uses b(θ) = −4 sin(3θ) + 4 sin(4θ) + 3i sin(7θ) and residual radius D = 0.50390625. Right Case 48000003 uses b(θ) = ¼ sin(θ) − 4 sin(9θ) + 3i sin(18θ) and residual radius D = 0.6171875. [Case 47087142 drive and certificate](results/shape_search_20261121/frontiers/cubic/certificates.json#L539) · [Case 48000003 drive and certificate](results/shape_search_20261121/frontiers/cubic/certificates.json#L885) · [Reproduce the portraits](research/shape_search_20261121/frontiers/cubic/sample.py)",
       "exact": "```text\nLeft — Case 47087142\nreal-drive numerator: constant, cosine coefficient array, sine coefficient array = [0, [0, 0, 0, 0], [0, 0, -4, 4]]\nreal-drive divisor = 1\nimaginary-drive sine frequency k = 7\nimaginary-drive amplitude = 3\nresidual radius D = 0.50390625\ncylindrical embedding radius = 3.25\nangular degree = 2; ripple = 0.12; shift = 0.137\nresidual contraction = 0.2; angular forcing amplitude = 0.6 D\nsheet starting phases = (0.27, 1.34, 3.16); initial residual = 0\n\nRight — Case 48000003\nreal-drive numerator: constant, cosine coefficient array, sine coefficient array = [0, [0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, -16]]\nreal-drive divisor = 4\nimaginary-drive sine frequency k = 18\nimaginary-drive amplitude = 3\nresidual radius D = 0.6171875\ncylindrical embedding radius = 3.25\nangular degree = 2; ripple = 0.12; shift = 0.137\nresidual contraction = 0.2; angular forcing amplitude = 0.6 D\nsheet starting phases = (0.27, 1.34, 3.16); initial residual = 0\n```",
       "source": "results/shape_search_20261121/frontiers/cubic/README.md"
+    },
+    "forms-20261122-lattice": {
+      "system": "Dissipative geodesic flow on a sheared cover of the three-cosine surface",
+      "tex": "\\begin{aligned}\nF(q)&=\\cos x+\\cos y+k\\cos(x-y+nz),\\quad u=v-g(g\\cdot v)/|g|^2,\\\\\n\\dot q&=v,\\quad \\dot v=-g\\,(v^THv+3g\\cdot v+2F)/|g|^2+(1-|u|^2)u .\n\\end{aligned}",
+      "text": "Here g and H are the gradient and Hessian of F. Each phase has period 2π. The portrait projects the unit tangent attractor to its positions.",
+      "parameters": "n = 7, k = 0.375. Start at (π/2, π/2, π/14). Rotate the unit straight-ray velocity along (1, −1, −2/7) within the tangent plane by +0.321 radians toward the unit vector along g × v. The step is 0.0125 and every eighth state is retained. [Exact numerical start and trajectory hash](results/wow_search_20261122/lattice/control.json)",
+      "source": "results/wow_search_20261122/lattice/README.md"
+    },
+    "forms-20261122-boundary": {
+      "system": "Newton's rational map for a degree-six complex polynomial",
+      "tex": "p_a(z)=z^6-az+a,\\qquad N_a(z)=z-\\frac{p_a(z)}{p'_a(z)}=\\frac{5z^6-a}{6z^5-a},\\qquad R=N_a^9.",
+      "text": "The nine phases become fixed points of R. The plotted Julia set is their shared basin boundary, sampled by inverse iteration from the poles of N.",
+      "parameters": "Case 6902 uses the isolated complex solution of Nₐ⁹(0) = 0 near a = 1.2779613580322 + 0.0745500698270i. Here 0 has exact period nine. Start the inverse construction at the five poles z⁵ = a/6 and retain distinct sphere cells of width 0.004 through depth 23.",
+      "exact": "The parameter is an algebraic number. The certified isolating disk has radius 10⁻¹⁴² around the stored dyadic center. This specifies the coefficient beyond the displayed decimal approximation. [Isolating disk, attractors and basin witnesses](results/wow_search_20261122/boundary/certificate.json) · [Inverse sampling receipt](results/wow_search_20261122/boundary/stratified-inverse.json)",
+      "source": "results/wow_search_20261122/boundary/README.md"
+    },
+    "forms-20261122-fan": {
+      "system": "Driven optical cavity map with saturable phase shift and relaxing detuning",
+      "tex": "u=\\frac{|E|^2}{1+|E|^2},\\qquad E^+=P+aE e^{i(\\delta+ku+T)},\\qquad T^+=(1-h)T+hgu.",
+      "text": "The real pump P adds a fixed field on every update. The instantaneous intensity and detuning T control how far the returning field E rotates.",
+      "parameters": "Case 45941 uses (P, a, δ, k, g, h) = (2.203066349029541, 0.9630072116851807, -1.3305402994155884, 9.051758766174316, -1.6761609315872192, 0.6959419250488281). Initial (Re E, Im E, T) = (0.173, −0.341, 0.271). The cloud consists of the last 786,432 states from 3,145,728 measured updates following 131,072 warm-up steps. [Input and independent checks](results/wow_search_20261122/orbit/case-45941.json)",
+      "source": "results/wow_search_20261122/orbit/README.md"
+    },
+    "forms-20261122-optical-basins": {
+      "system": "Driven optical cavity map with saturable phase shift and relaxing detuning",
+      "tex": "u=\\frac{|E|^2}{1+|E|^2},\\qquad E^+=P+aE e^{i(\\delta+ku+T)},\\qquad T^+=(1-h)T+hgu.",
+      "text": "The complex field E and the detuning T form the three real state coordinates.",
+      "parameters": "Both panels use Case 86780, with (P, a, δ, k, g, h) = (0.6838027238845825, 0.4769441485404968, 0.6492727398872375, -17.94019889831543, 19.38252067565918, 0.0038743906188756227). Left start (Re E, Im E, T) = (0.173, −0.341, 0.271). Right start (0.7124512033204118, −0.4674104975241916, 9.823930680698279). [Basin scan and independent histories](results/wow_search_20261122/orbit/case-86780-basins.json)",
+      "source": "results/wow_search_20261122/orbit/README.md"
+    },
+    "forms-20261122-nested-crowns": {
+      "system": "Cyclically equivariant polynomial map of the complex plane",
+      "tex": "F(z)=\\big[\\lambda+i\\omega+(\\alpha+i\\delta)|z|^2+\\beta\\,\\mathrm{Re}(z^n)\\big]z+\\gamma\\bar z^{\\,n-1}+\\eta\\bar z^{\\,2n-1}.",
+      "text": "The coefficients enforce n-fold rotational equivariance. Each panel shows one initial condition iterated directly in the native real and imaginary coordinates.",
+      "parameters": "Left · Case 13745 has n = 17 and λ ≈ 2.312147. Right · Case 5529 has n = 18 and λ ≈ 2.286399. All start at z = 0.247 + 0.193i. Discard 100,000 iterations and retain the next two million. [All exact parameter vectors and runs](results/wow_search_20261122/symmetry/numerics.json)",
+      "exact": "Coefficient order is (n, λ, α, β, γ, ω, δ, Re η, Im η).\n\nCase 13745 `(17, 2.312147281840444, -2.979882064741105, 0.00705638956278562, 1.2145798933692276, 0.1358502756245434, -0.3287479327991605, -0.23178551886230708, -0.11128116576001049)`.\n\nCase 5529 `(18, 2.2863991321995853, -3.235570552293211, 0.015576599538326255, 0.8797143139876425, -0.27291807238943877, 0.2012810145970434, 0.212484014313668, -0.3247909559868276)`.",
+      "source": "results/wow_search_20261122/symmetry/README.md"
+    },
+    "forms-20261122-odd-cycles": {
+      "system": "Cyclically equivariant polynomial map of the complex plane",
+      "tex": "F(z)=\\big[\\lambda+i\\omega+(\\alpha+i\\delta)|z|^2+\\beta\\,\\mathrm{Re}(z^n)\\big]z+\\gamma\\bar z^{\\,n-1}+\\eta\\bar z^{\\,2n-1}.",
+      "text": "The coefficients enforce n-fold rotational equivariance. Each panel shows one initial condition iterated directly in the native real and imaginary coordinates.",
+      "parameters": "Left · Case 205188 has n = 18 and λ ≈ 2.467358. Right · Case 202080 has n = 20 and λ ≈ 2.396712. All start at z = 0.247 + 0.193i. Discard 100,000 iterations and retain the next two million. [All exact parameter vectors and runs](results/wow_search_20261122/symmetry/numerics.json)",
+      "exact": "Coefficient order is (n, λ, α, β, γ, ω, δ, Re η, Im η).\n\nCase 205188 `(18, 2.4673584890066538, -3.7667032828345723, -0.04713289551436901, 0.16145130503922703, -0.058611005768179895, 0.0819005724042654, -0.08924180686404122, 0.2548252340480455)`.\n\nCase 202080 `(20, 2.396712339599099, -4.318038192105558, -0.04008208259940147, 0.426438063159585, -0.027753127831965686, 0.015960691962391138, -0.1344972140699269, 0.2341164227631805)`.",
+      "source": "results/wow_search_20261122/symmetry/README.md"
+    },
+    "forms-20261122-planar-icons": {
+      "system": "Cyclically equivariant polynomial map of the complex plane",
+      "tex": "F(z)=\\big[\\lambda+i\\omega+(\\alpha+i\\delta)|z|^2+\\beta\\,\\mathrm{Re}(z^n)\\big]z+\\gamma\\bar z^{\\,n-1}+\\eta\\bar z^{\\,2n-1}.",
+      "text": "The coefficients enforce n-fold rotational equivariance. Each panel shows one initial condition iterated directly in the native real and imaginary coordinates.",
+      "parameters": "Left · Case 1723 has n = 4 and λ ≈ 1.015272. Middle · Case 14725 has n = 8 and λ ≈ -1.667960. Right · Case 11450 has n = 3 and λ ≈ -1.475257. All start at z = 0.247 + 0.193i. Discard 100,000 iterations and retain the next two million. [All exact parameter vectors and runs](results/wow_search_20261122/symmetry/numerics.json)",
+      "exact": "Coefficient order is (n, λ, α, β, γ, ω, δ, Re η, Im η).\n\nCase 1723 `(4, 1.0152718603238464, -0.4927374313119799, 0.491210725530982, -0.9452271513640881, 0.0013964057061821222, 0.18114449107088149, -0.06119981445372105, 0.09918608795851469)`.\n\nCase 14725 `(8, -1.6679601683691145, 1.3656859003417194, -0.13389752069488167, 1.2341027683578432, -0.18035847622901202, -0.0652540335431695, -0.1957832499407232, -0.3894121809862554)`.\n\nCase 11450 `(3, -1.4752569892480971, 2.2683117125593126, 0.4538186067715287, 1.5339731233194471, -0.07809092902578414, -0.30774130020290613, 0.2462412984110415, 0.6479134583845735)`.",
+      "source": "results/wow_search_20261122/symmetry/README.md"
     }
   }
 }

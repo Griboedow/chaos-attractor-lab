@@ -1,0 +1,186 @@
+{
+  "case": 6902,
+  "cloud_relative": "boundary/case-6902-stratified-inverse-sphere.npz",
+  "point_key": "points",
+  "shape": [
+    99423,
+    3
+  ],
+  "dtype": "float64",
+  "sha256": "d0a48e5781a7f5e9b4a0d07751597700d63ac98df29993e7c4c4f22697337588",
+  "voxel_spacing": 0.004,
+  "final_depth": 23,
+  "levels": [
+    {
+      "depth": 2,
+      "retained": 30,
+      "unique_total": 35,
+      "inverse_max_relative_residual": 2.84396328478462e-15
+    },
+    {
+      "depth": 3,
+      "retained": 180,
+      "unique_total": 215,
+      "inverse_max_relative_residual": 4.172523070743168e-15
+    },
+    {
+      "depth": 4,
+      "retained": 962,
+      "unique_total": 1136,
+      "inverse_max_relative_residual": 5.385874128825192e-15
+    },
+    {
+      "depth": 5,
+      "retained": 3291,
+      "unique_total": 3780,
+      "inverse_max_relative_residual": 8.46140854240981e-15
+    },
+    {
+      "depth": 6,
+      "retained": 7962,
+      "unique_total": 9106,
+      "inverse_max_relative_residual": 7.697549593929849e-15
+    },
+    {
+      "depth": 7,
+      "retained": 15376,
+      "unique_total": 17622,
+      "inverse_max_relative_residual": 8.0820067547306e-15
+    },
+    {
+      "depth": 8,
+      "retained": 24690,
+      "unique_total": 28334,
+      "inverse_max_relative_residual": 1.0077100063384087e-14
+    },
+    {
+      "depth": 9,
+      "retained": 34851,
+      "unique_total": 40296,
+      "inverse_max_relative_residual": 9.698307550972286e-15
+    },
+    {
+      "depth": 10,
+      "retained": 44058,
+      "unique_total": 51699,
+      "inverse_max_relative_residual": 9.901285809491729e-15
+    },
+    {
+      "depth": 11,
+      "retained": 51900,
+      "unique_total": 61966,
+      "inverse_max_relative_residual": 1.0302270996081115e-14
+    },
+    {
+      "depth": 12,
+      "retained": 57989,
+      "unique_total": 70508,
+      "inverse_max_relative_residual": 9.398001269910538e-15
+    },
+    {
+      "depth": 13,
+      "retained": 62727,
+      "unique_total": 77610,
+      "inverse_max_relative_residual": 1.091740224189933e-14
+    },
+    {
+      "depth": 14,
+      "retained": 66020,
+      "unique_total": 83150,
+      "inverse_max_relative_residual": 1.0030122514729036e-14
+    },
+    {
+      "depth": 15,
+      "retained": 68470,
+      "unique_total": 87497,
+      "inverse_max_relative_residual": 1.0722522667000728e-14
+    },
+    {
+      "depth": 16,
+      "retained": 70167,
+      "unique_total": 90767,
+      "inverse_max_relative_residual": 1.1855313182539017e-14
+    },
+    {
+      "depth": 17,
+      "retained": 71397,
+      "unique_total": 93293,
+      "inverse_max_relative_residual": 1.3901802434615216e-14
+    },
+    {
+      "depth": 18,
+      "retained": 72075,
+      "unique_total": 95194,
+      "inverse_max_relative_residual": 1.4702380295737867e-14
+    },
+    {
+      "depth": 19,
+      "retained": 72586,
+      "unique_total": 96625,
+      "inverse_max_relative_residual": 1.727597507472475e-14
+    },
+    {
+      "depth": 20,
+      "retained": 72952,
+      "unique_total": 97655,
+      "inverse_max_relative_residual": 1.5338497625381978e-14
+    },
+    {
+      "depth": 21,
+      "retained": 73205,
+      "unique_total": 98476,
+      "inverse_max_relative_residual": 1.6214113037872498e-14
+    },
+    {
+      "depth": 22,
+      "retained": 73307,
+      "unique_total": 99031,
+      "inverse_max_relative_residual": 1.654635214977767e-14
+    },
+    {
+      "depth": 23,
+      "retained": 73297,
+      "unique_total": 99423,
+      "inverse_max_relative_residual": 1.8736208421091634e-14
+    }
+  ],
+  "screen_control": {
+    "screen": [
+      -1.85,
+      1.85,
+      -1.2,
+      1.2
+    ],
+    "shape": [
+      960,
+      1480
+    ],
+    "known_fraction": 1.0,
+    "pixel_width": 0.0025,
+    "pixel_height": 0.0025,
+    "forward_interface_pixels": 176794,
+    "inverse_to_forward_samples": 67760,
+    "forward_to_inverse_samples": 160000,
+    "quantile_levels": [
+      0.5,
+      0.9,
+      0.99,
+      1
+    ],
+    "inverse_to_forward_grid_pixels": [
+      0.0,
+      0.0,
+      1.0,
+      1.4142135623730951
+    ],
+    "forward_to_inverse_grid_pixels": [
+      0.833697366771025,
+      3.6042674065899343,
+      22.62425819337254,
+      34.69611824127093
+    ],
+    "inverse_fraction_within_two_pixels": 1.0,
+    "forward_fraction_within_two_pixels": 0.8368375
+  },
+  "embedding": "Unit Riemann sphere: (2 Re z, 2 Im z, |z|²−1)/(1+|z|²). No planar crop; no point interpolation. A representative is retained per occupied 3D voxel."
+}

@@ -1,0 +1,194 @@
+{
+  "case": 6902,
+  "system": "Newton map of p_a(z) = z^6 - az + a",
+  "parameter": "Unique zero of N_a^9(0) in the parameter disk in certificate.json",
+  "search": {
+    "seeds": 172032,
+    "converged": 114778,
+    "parameter_clusters_including_lower_period": 4588,
+    "checked": 801,
+    "passed": 54,
+    "degree": [
+      4,
+      5,
+      6
+    ],
+    "period": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "settings_per_cell": 8192,
+    "cluster_accounting": "Totals per degree/period cell. Counts include lower-period returns and repeat appearances across cells.",
+    "search_file": "boundary/candidate-search.json",
+    "sha256": "cf9896bfb2e9a7b50d16e9e232d79d5f92d77a2ee6ee5ff1028e9ec52dfb86b5"
+  },
+  "primary_inverse_cloud": {
+    "cloud_relative": "boundary/case-6902-stratified-inverse-sphere.npz",
+    "key": "points",
+    "shape": [
+      99423,
+      3
+    ],
+    "arrays": {
+      "points": {
+        "shape": [
+          99423,
+          3
+        ],
+        "dtype": "float64"
+      },
+      "first_infinity_depth": {
+        "shape": [
+          99423
+        ],
+        "dtype": "uint8"
+      },
+      "plane": {
+        "shape": [
+          99423,
+          2
+        ],
+        "dtype": "float64"
+      }
+    },
+    "bytes": 3800102,
+    "sha256": "d0a48e5781a7f5e9b4a0d07751597700d63ac98df29993e7c4c4f22697337588",
+    "recipe": "inverse.py then stratified.py"
+  },
+  "full_depth_eight_clouds": [
+    {
+      "cloud_relative": "boundary/case-6902-inverse-sphere.npz",
+      "key": "points",
+      "shape": [
+        1399680,
+        3
+      ],
+      "arrays": {
+        "points": {
+          "shape": [
+            1399680,
+            3
+          ],
+          "dtype": "float64"
+        }
+      },
+      "bytes": 32121074,
+      "sha256": "a7524626f809d4d3e010463bb46762c6e0149b661c767b0d195009cb2a751cd0",
+      "recipe": "inverse.py --depth 8"
+    },
+    {
+      "cloud_relative": "boundary/case-6902-inverse-plane.npz",
+      "key": "points",
+      "shape": [
+        1399680,
+        2
+      ],
+      "arrays": {
+        "points": {
+          "shape": [
+            1399680,
+            2
+          ],
+          "dtype": "float64"
+        }
+      },
+      "bytes": 21387343,
+      "sha256": "4301d7b4fbb4bb4a39bf31ad7d3b0e56e9a813b78c3db1f38b49b16050cad125",
+      "recipe": "inverse.py --depth 8"
+    }
+  ],
+  "forward_basin_grids": [
+    {
+      "cloud_relative": "boundary/case-6902-forward.npz",
+      "key": "labels",
+      "shape": [
+        960,
+        1480
+      ],
+      "arrays": {
+        "labels": {
+          "shape": [
+            960,
+            1480
+          ],
+          "dtype": "int16"
+        },
+        "steps": {
+          "shape": [
+            960,
+            1480
+          ],
+          "dtype": "int16"
+        },
+        "bounds": {
+          "shape": [
+            4
+          ],
+          "dtype": "float64"
+        }
+      },
+      "bytes": 426613,
+      "sha256": "0edd080013b07a02aa66f849f12c965cd6d7c312851baf1a4945ace22d48f735",
+      "recipe": "inverse.py --depth 8"
+    },
+    {
+      "cloud_relative": "boundary/case-6902-microscopic.npz",
+      "key": "labels",
+      "shape": [
+        800,
+        1000
+      ],
+      "arrays": {
+        "labels": {
+          "shape": [
+            800,
+            1000
+          ],
+          "dtype": "int16"
+        },
+        "steps": {
+          "shape": [
+            800,
+            1000
+          ],
+          "dtype": "int16"
+        },
+        "box": {
+          "shape": [
+            4
+          ],
+          "dtype": "float64"
+        },
+        "native_unit": {
+          "shape": [],
+          "dtype": "float64"
+        }
+      },
+      "bytes": 195357,
+      "sha256": "e8e6ca4f0961e69bc83c941a3b454ff152c8e318694bac3c995abf5c07344d81",
+      "recipe": "microscope.py --width 1000 --height 800"
+    }
+  ],
+  "image": {
+    "path": "fifteen-newton-basins.png",
+    "shape_width_height": [
+      1632,
+      898
+    ],
+    "sha256": "2177e7e97341e3cbe2978e516efac4ea3348ee0c85c83188db0c179f713d7fca",
+    "drawn": "2026-11-22"
+  },
+  "controls": {
+    "certificate.json": "4b7a5a2b92522ceafe6da91367710d022c2474ae8e33992506b4b9efae2f681e",
+    "independent-decimal.json": "be1349c3ba7fd008b4d6f5fbc7d6dac7437d19230e94973d68020660c571a0b8",
+    "inverse-check.json": "d193eee6097c25a6e21249b734e5fd718de50c5be116e383a309dfa951c6d0c7",
+    "stratified-inverse.json": "4c5b70e78e4119106f3ae5799a084c6c44cdcc363a6dfc04b2d44bed751ddf9e",
+    "microscopic-check.json": "3e41c09160b811b96e516698d0cea740c6e89ea87a8c93db17a980f5fae55f81",
+    "scale-control.json": "f400edf42aaab04c0d377a381c4c60c5cab84f24f107370fe8c0d6c40f1c4691"
+  }
+}

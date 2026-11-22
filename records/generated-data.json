@@ -112,7 +112,7 @@
     }
   ],
   "before_tracked_bytes": 4687761621,
-  "removed_bytes": 10241651427,
+  "removed_bytes": 10493194309,
   "compact_bytes": 83019852,
   "files": [
     {
@@ -199375,6 +199375,740 @@
       ],
       "recovery": "recompute",
       "recompute_command": "Regenerate the raw run, then run python research/shape_search_20261121/build_portraits.py."
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/lattice-lattice-cloud.npz",
+      "bytes": 6275918,
+      "git_blob": null,
+      "sha256": "3a6a1086e420839a43f7e63e9ed457f247854a8f8d0f0fb1dc5b50504e7e95e7",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            280000,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 6720000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/lattice/geodesic.py --out RUN/lattice --report RUN/lattice/control.json"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-lattice-lattice-cloud-counts.npz",
+      "bytes": 190642,
+      "git_blob": null,
+      "sha256": "a01d92b86b44d4ba659021eb4a27f2396b86432f1d7272912ee8f480aa2112d1",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/lattice/geodesic.py --out RUN/lattice --report RUN/lattice/control.json followed by python research/wow_search_20261122/build_portraits.py RUN/lattice/lattice-cloud.npz RUN/forms-20261122-lattice-lattice-cloud-counts.npz RUN/forms-20261122-lattice-lattice-cloud.json --key points --virtual results/wow_search_20261122/clouds/lattice-lattice-cloud.npz --view 25 30"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/boundary-case-6902-stratified-inverse-sphere.npz",
+      "bytes": 3800102,
+      "git_blob": null,
+      "sha256": "d0a48e5781a7f5e9b4a0d07751597700d63ac98df29993e7c4c4f22697337588",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            99423,
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 2386152,
+          "retained": false
+        },
+        {
+          "key": "first_infinity_depth",
+          "shape": [
+            99423
+          ],
+          "dtype": "uint8",
+          "bytes": 99423,
+          "retained": false
+        },
+        {
+          "key": "plane",
+          "shape": [
+            99423,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 1590768,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/boundary/inverse.py followed by python research/wow_search_20261122/boundary/stratified.py"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-boundary-case-6902-stratified-inverse-sphere-counts.npz",
+      "bytes": 90957,
+      "git_blob": null,
+      "sha256": "1e9e136774417a36dfa6f634382be79612d3be1b49312e6d78d3761bdf9f3f75",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/boundary/inverse.py followed by python research/wow_search_20261122/boundary/stratified.py followed by python research/wow_search_20261122/build_portraits.py RUN/boundary/case-6902-stratified-inverse-sphere.npz RUN/forms-20261122-boundary-case-6902-stratified-inverse-sphere-counts.npz RUN/forms-20261122-boundary-case-6902-stratified-inverse-sphere.json --key points --virtual results/wow_search_20261122/clouds/boundary-case-6902-stratified-inverse-sphere.npz --view 18 22"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/orbit-case-45941.npz",
+      "bytes": 8570280,
+      "git_blob": null,
+      "sha256": "048de46c974261981249b30395332b18e66a731d0db652566cec32de254fbcf8",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            786432,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 9437184,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            6
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/orbit/validate.py --record results/wow_search_20261122/orbit/case-45941.json --cache RUN/orbit --cloud-only"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-fan-case-45941-counts.npz",
+      "bytes": 229788,
+      "git_blob": null,
+      "sha256": "84529b689eff3d1a17317a0e7068b6a95416c3b6047b3c7fe9a172a4f1d5d17d",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/orbit/validate.py --record results/wow_search_20261122/orbit/case-45941.json --cache RUN/orbit --cloud-only followed by python research/wow_search_20261122/build_portraits.py RUN/orbit/case-45941.npz RUN/forms-20261122-fan-case-45941-counts.npz RUN/forms-20261122-fan-case-45941.json --key points --virtual results/wow_search_20261122/clouds/orbit-case-45941.npz --view 90 -90"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/orbit-case-86780.npz",
+      "bytes": 8563941,
+      "git_blob": null,
+      "sha256": "37dcde4c7af2ae7e070d37b7e0101429aa1504ea7ac2c18fe9c5e3fd21c04385",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            786432,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 9437184,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            6
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/orbit/validate.py --record results/wow_search_20261122/orbit/case-86780.json --cache RUN/orbit --cloud-only"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-optical-basins-case-86780-counts.npz",
+      "bytes": 71170,
+      "git_blob": null,
+      "sha256": "d65aa5af30f7ca39a43ae4498bdb198766cdbf30e084335e63d660f4f3a98d71",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/orbit/validate.py --record results/wow_search_20261122/orbit/case-86780.json --cache RUN/orbit --cloud-only followed by python research/wow_search_20261122/build_portraits.py RUN/orbit/case-86780.npz RUN/forms-20261122-optical-basins-case-86780-counts.npz RUN/forms-20261122-optical-basins-case-86780.json --key points --virtual results/wow_search_20261122/clouds/orbit-case-86780.npz --view 55 -75"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/orbit-case-86780-upper.npz",
+      "bytes": 8594570,
+      "git_blob": null,
+      "sha256": "125daf6fae891534da8c6d5d2db827c83a439abdc3a05386c3bc4d52517fb8cd",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            786432,
+            3
+          ],
+          "dtype": "float32",
+          "bytes": 9437184,
+          "retained": false
+        },
+        {
+          "key": "params",
+          "shape": [
+            6
+          ],
+          "dtype": "float64",
+          "bytes": 48,
+          "retained": false
+        },
+        {
+          "key": "initial",
+          "shape": [
+            3
+          ],
+          "dtype": "float64",
+          "bytes": 24,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/orbit/basins.py --record results/wow_search_20261122/orbit/case-86780.json --cache RUN/orbit --out RUN/orbit"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-optical-basins-case-86780-upper-counts.npz",
+      "bytes": 118085,
+      "git_blob": null,
+      "sha256": "8023355803b63116f566fb75b1b2824bdcd05bb8e1ee4ae2fa301169e3a31ac6",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/orbit/basins.py --record results/wow_search_20261122/orbit/case-86780.json --cache RUN/orbit --out RUN/orbit followed by python research/wow_search_20261122/build_portraits.py RUN/orbit/case-86780-upper.npz RUN/forms-20261122-optical-basins-case-86780-upper-counts.npz RUN/forms-20261122-optical-basins-case-86780-upper.json --key points --virtual results/wow_search_20261122/clouds/orbit-case-86780-upper.npz --view 55 -75"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-13745.npz",
+      "bytes": 30590568,
+      "git_blob": null,
+      "sha256": "95c6cbd81971039a767db039d839baafbfc5d9f29fd9ad597ff9c71d1e54a33d",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 13745 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-nested-crowns-cyclic-13745-counts.npz",
+      "bytes": 328657,
+      "git_blob": null,
+      "sha256": "c93e1e5c30cc689be05503681f201005578e554f3ea6e4ec3a1fc045bff5d1b4",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 13745 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-13745.npz RUN/forms-20261122-nested-crowns-cyclic-13745-counts.npz RUN/forms-20261122-nested-crowns-cyclic-13745.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-13745.npz"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-5529.npz",
+      "bytes": 30573743,
+      "git_blob": null,
+      "sha256": "539038fabba5f2c1a3de6b02991568d9057c7662add3f1674d9c38471c52d146",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 5529 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-nested-crowns-cyclic-5529-counts.npz",
+      "bytes": 183241,
+      "git_blob": null,
+      "sha256": "907ef308f7c64be2f0e81af9edaf2b1151ce996ae12e9dbe5ed7497f7c818122",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 5529 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-5529.npz RUN/forms-20261122-nested-crowns-cyclic-5529-counts.npz RUN/forms-20261122-nested-crowns-cyclic-5529.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-5529.npz"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-205188.npz",
+      "bytes": 30618615,
+      "git_blob": null,
+      "sha256": "123ca5037db19ff78fa083aafa998201a4929ca33259eda526ded138ff84a21d",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 205188 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-odd-cycles-cyclic-205188-counts.npz",
+      "bytes": 138041,
+      "git_blob": null,
+      "sha256": "f23cdfe7032d0c827b2972a25f3656fafd5aece920e2eef5a772553ab54ddde0",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 205188 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-205188.npz RUN/forms-20261122-odd-cycles-cyclic-205188-counts.npz RUN/forms-20261122-odd-cycles-cyclic-205188.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-205188.npz"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-202080.npz",
+      "bytes": 30600387,
+      "git_blob": null,
+      "sha256": "5ae409a26f595b195b299c202f4a637a278f5e4a8e4c8929b692f60f9d63fd30",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 202080 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-odd-cycles-cyclic-202080-counts.npz",
+      "bytes": 108003,
+      "git_blob": null,
+      "sha256": "18c0567badb03e9e6c671183b7f487d6935fe447d5cb824e533c8c76c9539aee",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 202080 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-202080.npz RUN/forms-20261122-odd-cycles-cyclic-202080-counts.npz RUN/forms-20261122-odd-cycles-cyclic-202080.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-202080.npz"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-1723.npz",
+      "bytes": 30486674,
+      "git_blob": null,
+      "sha256": "4ed4b89ce00eb69ba7dfbc35878b95ea430a655e245f45708fff0e73e3e4e692",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 1723 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-1723-counts.npz",
+      "bytes": 80362,
+      "git_blob": null,
+      "sha256": "45c5746c7d996bb2050282a3bdec63f3bbbef95514c7b5dab368148f53334c0f",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 1723 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-1723.npz RUN/forms-20261122-planar-icons-cyclic-1723-counts.npz RUN/forms-20261122-planar-icons-cyclic-1723.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-1723.npz"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-14725.npz",
+      "bytes": 30503038,
+      "git_blob": null,
+      "sha256": "36f1e5f808bfca7d997de0a44a554c51f0f7490b79addd674799d590eecc1f6c",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 14725 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-14725-counts.npz",
+      "bytes": 108702,
+      "git_blob": null,
+      "sha256": "8ea4d9720b98bfdaa6fb032cb7f21f7978c97be9d3a87e5084cfe65d21cfe8ab",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 14725 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-14725.npz RUN/forms-20261122-planar-icons-cyclic-14725-counts.npz RUN/forms-20261122-planar-icons-cyclic-14725.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-14725.npz"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/symmetry-cyclic-11450.npz",
+      "bytes": 30581942,
+      "git_blob": null,
+      "sha256": "0b8e0abb0cdb4f0596aefdf7a4c7e00e9f5a4b900c4ac34a993c321a7c3068fe",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "points",
+          "shape": [
+            2000000,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 32000000,
+          "retained": false
+        },
+        {
+          "key": "rates",
+          "shape": [
+            20,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 320,
+          "retained": false
+        },
+        {
+          "key": "p",
+          "shape": [
+            9
+          ],
+          "dtype": "float64",
+          "bytes": 72,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 11450 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory)"
+    },
+    {
+      "path": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-11450-counts.npz",
+      "bytes": 135456,
+      "git_blob": null,
+      "sha256": "7c32216c09e876cb550f0d6540eae31452f9bb97c3bb6064aed14d10e56f1724",
+      "group": "wow-search-20261122",
+      "compact": null,
+      "arrays": [
+        {
+          "key": "counts",
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "uint32",
+          "bytes": 4000000,
+          "retained": false
+        }
+      ],
+      "recovery": "recompute",
+      "recompute_command": "python research/wow_search_20261122/symmetry/icons.py render --case 11450 --count 2000000 (set WOW_SYMMETRY_CACHE to the output directory) followed by python research/wow_search_20261122/build_portraits.py RUN/symmetry/cyclic-11450.npz RUN/forms-20261122-planar-icons-cyclic-11450-counts.npz RUN/forms-20261122-planar-icons-cyclic-11450.json --key points --virtual results/wow_search_20261122/clouds/symmetry-cyclic-11450.npz"
     }
   ]
 }

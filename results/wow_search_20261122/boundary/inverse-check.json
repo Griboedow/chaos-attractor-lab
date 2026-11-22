@@ -1,0 +1,173 @@
+{
+  "case": 6902,
+  "degree": 6,
+  "period": 9,
+  "parameter_floating": [
+    1.2779613580321953,
+    0.07455006982700098
+  ],
+  "critical_equation": "N_a^9(0)=0",
+  "all_roots": [
+    [
+      0.8214065621242704,
+      0.3082672933175741
+    ],
+    [
+      0.15565501028169135,
+      1.0880378103446244
+    ],
+    [
+      -0.995392652353644,
+      0.6309143198163965
+    ],
+    [
+      -0.9811352195238346,
+      -0.6516418255026968
+    ],
+    [
+      0.17824165768035796,
+      -1.0820591770945576
+    ],
+    [
+      0.8212246417911577,
+      -0.29351842088134084
+    ]
+  ],
+  "first_infinity_depth": 8,
+  "levels": [
+    {
+      "first_hit_infinity": 2,
+      "count": 30,
+      "max_relative_equation_residual": 2.84396328478462e-15,
+      "max_forward_residual": 1.0743415730908259e-14
+    },
+    {
+      "first_hit_infinity": 3,
+      "count": 180,
+      "max_relative_equation_residual": 4.172523070743168e-15,
+      "max_forward_residual": 5.4871670900764926e-14
+    },
+    {
+      "first_hit_infinity": 4,
+      "count": 1080,
+      "max_relative_equation_residual": 5.385874128825192e-15,
+      "max_forward_residual": 5.324488878704309e-14
+    },
+    {
+      "first_hit_infinity": 5,
+      "count": 6480,
+      "max_relative_equation_residual": 8.46140854240981e-15,
+      "max_forward_residual": 7.542623507132123e-14
+    },
+    {
+      "first_hit_infinity": 6,
+      "count": 38880,
+      "max_relative_equation_residual": 8.61418003918662e-15,
+      "max_forward_residual": 1.3474888036372918e-13
+    },
+    {
+      "first_hit_infinity": 7,
+      "count": 233280,
+      "max_relative_equation_residual": 1.0032682338930438e-14,
+      "max_forward_residual": 1.3833383341977307e-13
+    },
+    {
+      "first_hit_infinity": 8,
+      "count": 1399680,
+      "max_relative_equation_residual": 1.0077100063384087e-14,
+      "max_forward_residual": 2.330423450566183e-13
+    }
+  ],
+  "sphere": {
+    "cloud_relative": "boundary/case-6902-inverse-sphere.npz",
+    "sha256": "a7524626f809d4d3e010463bb46762c6e0149b661c767b0d195009cb2a751cd0",
+    "key": "points",
+    "shape": [
+      1399680,
+      3
+    ],
+    "bytes": 32121074
+  },
+  "plane": {
+    "cloud_relative": "boundary/case-6902-inverse-plane.npz",
+    "sha256": "4301d7b4fbb4bb4a39bf31ad7d3b0e56e9a813b78c3db1f38b49b16050cad125",
+    "key": "points",
+    "shape": [
+      1399680,
+      2
+    ],
+    "bytes": 21387343
+  },
+  "forward": {
+    "cloud_relative": "boundary/case-6902-forward.npz",
+    "sha256": "0edd080013b07a02aa66f849f12c965cd6d7c312851baf1a4945ace22d48f735",
+    "key": "labels",
+    "shape": [
+      960,
+      1480
+    ],
+    "bytes": 426613
+  },
+  "sphere_max_unit_norm_defect": 4.440892098500626e-16,
+  "screen_control": {
+    "screen": [
+      -1.85,
+      1.85,
+      -1.2,
+      1.2
+    ],
+    "shape": [
+      960,
+      1480
+    ],
+    "known_fraction": 1.0,
+    "pixel_width": 0.0025,
+    "pixel_height": 0.0025,
+    "forward_interface_pixels": 176794,
+    "inverse_to_forward_samples": 200000,
+    "forward_to_inverse_samples": 160000,
+    "quantile_levels": [
+      0.5,
+      0.9,
+      0.99,
+      1
+    ],
+    "inverse_to_forward_grid_pixels": [
+      0.0,
+      0.0,
+      0.0,
+      1.4142135623730951
+    ],
+    "forward_to_inverse_grid_pixels": [
+      1.7695056337459445,
+      12.083514160687587,
+      33.43696561702779,
+      49.273494640116205
+    ],
+    "inverse_fraction_within_two_pixels": 1.0,
+    "forward_fraction_within_two_pixels": 0.53219375
+  },
+  "labels": {
+    "roots": "0 through 5 by argument in [0,2 pi)",
+    "phases": "6 plus the index relative to 0 at iterate zero",
+    "unclassified": -1
+  },
+  "outcome_counts": [
+    0,
+    410021,
+    69554,
+    180659,
+    179597,
+    74038,
+    438839,
+    19242,
+    2588,
+    3607,
+    6992,
+    4091,
+    6351,
+    12437,
+    5243,
+    7541
+  ]
+}

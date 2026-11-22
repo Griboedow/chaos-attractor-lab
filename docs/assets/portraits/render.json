@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "5cf86f9cda670e6c7073dbb26a1f92c6bf41bf4db691e5e6ddb368bad094a9d4",
+  "catalog_sha256": "1483ccc1c158f1df4a1fad547abe6c163320483f9324b2258d0c257050b1a330",
   "size": [
     1920,
     1080
@@ -3961,6 +3961,477 @@
           "log_saturation": 3.6888794541139363,
           "occupied_bins": 23028,
           "display_label": "Case 48000003"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-lattice",
+      "file": "docs/assets/portraits/forms-20261122-lattice.png",
+      "sha256": "6f6899ea60e45be6d1d0ee3b93ae40b66fb63536198962cbb502efecdaef1bbe",
+      "panels": [
+        {
+          "input": {
+            "label": "Fifteen handles per phase cell",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-lattice-lattice-cloud-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "a01d92b86b44d4ba659021eb4a27f2396b86432f1d7272912ee8f480aa2112d1",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 280000,
+          "nonempty_crop": [
+            [
+              19,
+              133
+            ],
+            [
+              981,
+              867
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 280000,
+          "log_saturation": 2.302585092994046,
+          "occupied_bins": 188377,
+          "display_label": "Fifteen handles per phase cell"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-boundary",
+      "file": "docs/assets/portraits/forms-20261122-boundary.png",
+      "sha256": "5d24369806162750470cbef893f58276c86f770b42bfcd65edfac6cdc40fa14c",
+      "panels": [
+        {
+          "input": {
+            "label": "6902",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-boundary-case-6902-stratified-inverse-sphere-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "1e9e136774417a36dfa6f634382be79612d3be1b49312e6d78d3761bdf9f3f75",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 99423,
+          "nonempty_crop": [
+            [
+              49,
+              29
+            ],
+            [
+              981,
+              971
+            ]
+          ],
+          "empty_margin": 38,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 99423,
+          "log_saturation": 2.70805020110221,
+          "occupied_bins": 66918,
+          "display_label": "Case 6902"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-fan",
+      "file": "docs/assets/portraits/forms-20261122-fan.png",
+      "sha256": "6d2b3a807468ba80d63ab2f78a635f4ade99d8a7987e208d96e52e17a52d2dd5",
+      "panels": [
+        {
+          "input": {
+            "label": "45941",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-fan-case-45941-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "84529b689eff3d1a17317a0e7068b6a95416c3b6047b3c7fe9a172a4f1d5d17d",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 786432,
+          "nonempty_crop": [
+            [
+              19,
+              113
+            ],
+            [
+              981,
+              887
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 1,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 786432,
+          "log_saturation": 6.400090778024905,
+          "occupied_bins": 202051,
+          "display_label": "Case 45941"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-optical-basins",
+      "file": "docs/assets/portraits/forms-20261122-optical-basins.png",
+      "sha256": "12a951509a7a1e49563ecab8d260a713689a1692888b9f3bc13ccc1a2bb81385",
+      "panels": [
+        {
+          "input": {
+            "label": "Lower detuning",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-optical-basins-case-86780-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "d65aa5af30f7ca39a43ae4498bdb198766cdbf30e084335e63d660f4f3a98d71",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 786432,
+          "nonempty_crop": [
+            [
+              78,
+              111
+            ],
+            [
+              981,
+              912
+            ]
+          ],
+          "empty_margin": 37,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            1,
+            1
+          ],
+          "rendered_count": 786432,
+          "log_saturation": 7.996822101790994,
+          "occupied_bins": 24313,
+          "display_label": "Lower detuning"
+        },
+        {
+          "input": {
+            "label": "Higher detuning",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-optical-basins-case-86780-upper-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "8023355803b63116f566fb75b1b2824bdcd05bb8e1ee4ae2fa301169e3a31ac6",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 786432,
+          "nonempty_crop": [
+            [
+              19,
+              291
+            ],
+            [
+              957,
+              715
+            ]
+          ],
+          "empty_margin": 38,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 786432,
+          "log_saturation": 7.566695232116095,
+          "occupied_bins": 48516,
+          "display_label": "Higher detuning"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-nested-crowns",
+      "file": "docs/assets/portraits/forms-20261122-nested-crowns.png",
+      "sha256": "5429dd6b88e581e38f4a3e96b90e7b90279fef68079d078877533a4c28c260c2",
+      "panels": [
+        {
+          "input": {
+            "label": "13745",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-nested-crowns-cyclic-13745-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "c93e1e5c30cc689be05503681f201005578e554f3ea6e4ec3a1fc045bff5d1b4",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              19
+            ],
+            [
+              981,
+              981
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 6.532334292222349,
+          "occupied_bins": 103059,
+          "display_label": "Case 13745"
+        },
+        {
+          "input": {
+            "label": "5529",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-nested-crowns-cyclic-5529-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "907ef308f7c64be2f0e81af9edaf2b1151ce996ae12e9dbe5ed7497f7c818122",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              19
+            ],
+            [
+              981,
+              981
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 6.045929574822524,
+          "occupied_bins": 33220,
+          "display_label": "Case 5529"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-odd-cycles",
+      "file": "docs/assets/portraits/forms-20261122-odd-cycles.png",
+      "sha256": "934f00fc1ead3ea2561c3e1c01e62549d2e510e633618a5a74b21ab2d1daba3b",
+      "panels": [
+        {
+          "input": {
+            "label": "205188",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-odd-cycles-cyclic-205188-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "f23cdfe7032d0c827b2972a25f3656fafd5aece920e2eef5a772553ab54ddde0",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              19
+            ],
+            [
+              981,
+              981
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 6.833334215516094,
+          "occupied_bins": 23573,
+          "display_label": "Case 205188"
+        },
+        {
+          "input": {
+            "label": "202080",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-odd-cycles-cyclic-202080-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "18c0567badb03e9e6c671183b7f487d6935fe447d5cb824e533c8c76c9539aee",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              19
+            ],
+            [
+              981,
+              981
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 6.717599467070504,
+          "occupied_bins": 14832,
+          "display_label": "Case 202080"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "forms-20261122-planar-icons",
+      "file": "docs/assets/portraits/forms-20261122-planar-icons.png",
+      "sha256": "9e3a9248330b297e319f60e78f89e6fdee97353dcd1d426b8288cf2c780fd137",
+      "panels": [
+        {
+          "input": {
+            "label": "1723",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-1723-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "45c5746c7d996bb2050282a3bdec63f3bbbef95514c7b5dab368148f53334c0f",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              19
+            ],
+            [
+              981,
+              981
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 9.894353976808803,
+          "occupied_bins": 14311,
+          "display_label": "Case 1723"
+        },
+        {
+          "input": {
+            "label": "14725",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-14725-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "8ea4d9720b98bfdaa6fb032cb7f21f7978c97be9d3a87e5084cfe65d21cfe8ab",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              19
+            ],
+            [
+              981,
+              981
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.949959118128366,
+          "occupied_bins": 19067,
+          "display_label": "Case 14725"
+        },
+        {
+          "input": {
+            "label": "11450",
+            "source": "results/wow_search_20261122/clouds/forms-20261122-planar-icons-cyclic-11450-counts.npz",
+            "key": "counts",
+            "mode": "histogram"
+          },
+          "input_sha256": "7c32216c09e876cb550f0d6540eae31452f9bb97c3bb6064aed14d10e56f1724",
+          "original_shape": [
+            1000,
+            1000
+          ],
+          "original_count": 2000000,
+          "nonempty_crop": [
+            [
+              19,
+              61
+            ],
+            [
+              981,
+              939
+            ]
+          ],
+          "empty_margin": 39,
+          "square_rebin_factor": 2,
+          "zero_padding": [
+            0,
+            0
+          ],
+          "rendered_count": 2000000,
+          "log_saturation": 7.667532824190062,
+          "occupied_bins": 26853,
+          "display_label": "Case 11450"
         }
       ],
       "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",

@@ -2,7 +2,7 @@
 
 Computational studies of unusual attracting dynamics in continuous systems and numerical algorithms. The repository separates **certified dynamical properties**, **numerical chaos candidates**, and **unresolved or negative results**. Historical novelty is not established by visual appearance or by an unsuccessful literature search.
 
-[2026-11-21 spatial search](docs/shape-search-20261121.md) · [Four follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
+[2026-11-22 chaotic forms and real-time orbit](docs/chaotic-forms-20261122.md) · [2026-11-21 spatial search](docs/shape-search-20261121.md) · [Four follow-up experiments](docs/shape-search-20261121.md#four-follow-up-experiments) · [Further portraits](#further-portraits) · [Research index](#research-index) · [Documentation](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data](results/README.md) · [Storage](docs/data-storage.md)
 
 The selected findings include camera rotations at 25 frames per second, with one revolution every 24 seconds. Each animation uses fixed trajectory data and a constant scale; its full-resolution static portrait appears directly below. Case numbers identify saved parameter sets in the linked reports.
 
@@ -1671,6 +1671,156 @@ Cases 47087142 and 48000003 use a single driven cubic to determine all three she
 Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,000 consecutive states per component. The rotation includes all three components. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-selected -->
 
+<!-- wow-20261122-true -->
+## Shape search of 2026-11-22
+
+### A straight orbit on a fifteen-handle attractor
+
+![A straight orbit on a fifteen-handle attractor in rotation](docs/assets/portraits/forms-20261122-lattice.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-22**.*
+<!-- /drawing-date -->
+
+![A straight orbit on a fifteen-handle attractor](docs/assets/portraits/forms-20261122-lattice.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-lattice -->
+
+**Dissipative geodesic flow on a sheared cover of the three-cosine surface**
+
+```math
+\begin{aligned}
+F(q)&=\cos x+\cos y+k\cos(x-y+nz),\quad u=v-g(g\cdot v)/|g|^2,\\
+\dot q&=v,\quad \dot v=-g\,(v^THv+3g\cdot v+2F)/|g|^2+(1-|u|^2)u .
+\end{aligned}
+```
+
+Here g and H are the gradient and Hessian of F. Each phase has period 2π. The portrait projects the unit tangent attractor to its positions. [Model and parameters](results/wow_search_20261122/lattice/README.md)
+
+**Parameters used for this portrait**
+
+n = 7, k = 0.375. Start at (π/2, π/2, π/14). Rotate the unit straight-ray velocity along (1, −1, −2/7) within the tangent plane by +0.321 radians toward the unit vector along g × v. The step is 0.0125 and every eighth state is retained. [Exact numerical start and trajectory hash](results/wow_search_20261122/lattice/control.json)
+
+<!-- /portrait-equation -->
+
+A three-wave constraint supports an attracting unit tangent bundle with uniformly hyperbolic geodesic flow. One exactly straight ray winds (7, −7, −2) and has a certified transverse multiplier between 4.45 and 4.47 million per lap.
+
+A single orbit in one cubic phase cell, with opposite faces identified. The still uses 280,000 successive measured positions. The rotation shows the last 60,000. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+### One boundary for fifteen Newton basins
+
+![One boundary for fifteen Newton basins in rotation](docs/assets/portraits/forms-20261122-boundary.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-22**.*
+<!-- /drawing-date -->
+
+![One boundary for fifteen Newton basins](docs/assets/portraits/forms-20261122-boundary.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-boundary -->
+
+**Newton's rational map for a degree-six complex polynomial**
+
+```math
+p_a(z)=z^6-az+a,\qquad N_a(z)=z-\frac{p_a(z)}{p'_a(z)}=\frac{5z^6-a}{6z^5-a},\qquad R=N_a^9.
+```
+
+The nine phases become fixed points of R. The plotted Julia set is their shared basin boundary, sampled by inverse iteration from the poles of N. [Model and parameters](results/wow_search_20261122/boundary/README.md)
+
+**Parameters used for this portrait**
+
+Case 6902 uses the isolated complex solution of Nₐ⁹(0) = 0 near a = 1.2779613580322 + 0.0745500698270i. Here 0 has exact period nine. Start the inverse construction at the five poles z⁵ = a/6 and retain distinct sphere cells of width 0.004 through depth 23.
+
+<details>
+<summary>Full numerical settings</summary>
+
+The parameter is an algebraic number. The certified isolating disk has radius 10⁻¹⁴² around the stored dyadic center. This specifies the coefficient beyond the displayed decimal approximation. [Isolating disk, attractors and basin witnesses](results/wow_search_20261122/boundary/certificate.json) · [Inverse sampling receipt](results/wow_search_20261122/boundary/stratified-inverse.json)
+
+</details>
+
+<!-- /portrait-equation -->
+
+A sextic Newton iteration has six distinct attracting roots and an additional attracting orbit of exact period nine. Under the ninth iterate, the six roots and nine cycle phases have fifteen full basins with the same Julia boundary. Certified starting boxes representing all fifteen outcomes fit inside a single disk of radius 10⁻³⁰.
+
+Riemann-sphere positions of 99,423 distinct retained numerical preimages of poles, sampled through depth 23. The same complete collection is used in the still and rotation. Forward attraction is to the roots and cycle phases. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+### A scalloped fan from pulsed optical feedback
+
+![A scalloped fan from pulsed optical feedback in rotation](docs/assets/portraits/forms-20261122-fan.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-22**.*
+<!-- /drawing-date -->
+
+![A scalloped fan from pulsed optical feedback](docs/assets/portraits/forms-20261122-fan.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-fan -->
+
+**Driven optical cavity map with saturable phase shift and relaxing detuning**
+
+```math
+u=\frac{|E|^2}{1+|E|^2},\qquad E^+=P+aE e^{i(\delta+ku+T)},\qquad T^+=(1-h)T+hgu.
+```
+
+The real pump P adds a fixed field on every update. The instantaneous intensity and detuning T control how far the returning field E rotates. [Model and parameters](results/wow_search_20261122/orbit/README.md)
+
+**Parameters used for this portrait**
+
+Case 45941 uses (P, a, δ, k, g, h) = (2.203066349029541, 0.9630072116851807, -1.3305402994155884, 9.051758766174316, -1.6761609315872192, 0.6959419250488281). Initial (Re E, Im E, T) = (0.173, −0.341, 0.271). The cloud consists of the last 786,432 states from 3,145,728 measured updates following 131,072 warm-up steps. [Input and independent checks](results/wow_search_20261122/orbit/case-45941.json)
+
+<!-- /portrait-equation -->
+
+One uninterrupted orbit of a complex field with a relaxing detuning produces a spiral and a fan of scallops. The detuning most often peaks 20 iterations apart. All 16 additional starts reproduced the same numerical regime.
+
+Native complex-field plane in the still. The rotation uses the field and memory coordinates at equal scale. The full stored cloud contains 786,432 consecutive states. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+### Two detuning regimes at identical optical settings
+
+![Two detuning regimes at identical optical settings in rotation](docs/assets/portraits/forms-20261122-optical-basins.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-22**.*
+<!-- /drawing-date -->
+
+![Two detuning regimes at identical optical settings](docs/assets/portraits/forms-20261122-optical-basins.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-optical-basins -->
+
+**Driven optical cavity map with saturable phase shift and relaxing detuning**
+
+```math
+u=\frac{|E|^2}{1+|E|^2},\qquad E^+=P+aE e^{i(\delta+ku+T)},\qquad T^+=(1-h)T+hgu.
+```
+
+The complex field E and the detuning T form the three real state coordinates. [Model and parameters](results/wow_search_20261122/orbit/README.md)
+
+**Parameters used for this portrait**
+
+Both panels use Case 86780, with (P, a, δ, k, g, h) = (0.6838027238845825, 0.4769441485404968, 0.6492727398872375, -17.94019889831543, 19.38252067565918, 0.0038743906188756227). Left start (Re E, Im E, T) = (0.173, −0.341, 0.271). Right start (0.7124512033204118, −0.4674104975241916, 9.823930680698279). [Basin scan and independent histories](results/wow_search_20261122/orbit/case-86780-basins.json)
+
+<!-- /portrait-equation -->
+
+The same six coefficients yield two separated long-run detuning ranges in the sampled starts. Independent 16,777,216-step trajectories stayed on their initial side of the observed gap.
+
+Each panel contains 786,432 consecutive native field and memory states. The camera and units are shared, with independent centering and portrait bounds. The study includes a common-scale comparison. [Study and reproduction](docs/chaotic-forms-20261122.md)
+<!-- /wow-20261122-true -->
+
 ## Further portraits
 
 Additional numerical candidates and comparison regimes, grouped by system. Each entry links to its evidence and limitations.
@@ -2931,6 +3081,129 @@ Cases 2000254 and 2302642 admit local attracting sets with exactly fourteen and 
 
 Native three-axis twist coordinates, shown at equal axis scales with a principal-axis camera. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-additional -->
+
+<!-- wow-20261122-false -->
+### Shape search of 2026-11-22
+
+#### Two and four nested rings from one orbit
+
+![Two and four nested rings from one orbit](docs/assets/portraits/forms-20261122-nested-crowns.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-nested-crowns -->
+
+**Cyclically equivariant polynomial map of the complex plane**
+
+```math
+F(z)=\big[\lambda+i\omega+(\alpha+i\delta)|z|^2+\beta\,\mathrm{Re}(z^n)\big]z+\gamma\bar z^{\,n-1}+\eta\bar z^{\,2n-1}.
+```
+
+The coefficients enforce n-fold rotational equivariance. Each panel shows one initial condition iterated directly in the native real and imaginary coordinates. [Model and parameters](results/wow_search_20261122/symmetry/README.md)
+
+**Parameters used for this portrait**
+
+Left · Case 13745 has n = 17 and λ ≈ 2.312147. Right · Case 5529 has n = 18 and λ ≈ 2.286399. All start at z = 0.247 + 0.193i. Discard 100,000 iterations and retain the next two million. [All exact parameter vectors and runs](results/wow_search_20261122/symmetry/numerics.json)
+
+<details>
+<summary>Full numerical settings</summary>
+
+Coefficient order is (n, λ, α, β, γ, ω, δ, Re η, Im η).
+
+Case 13745 `(17, 2.312147281840444, -2.979882064741105, 0.00705638956278562, 1.2145798933692276, 0.1358502756245434, -0.3287479327991605, -0.23178551886230708, -0.11128116576001049)`.
+
+Case 5529 `(18, 2.2863991321995853, -3.235570552293211, 0.015576599538326255, 0.8797143139876425, -0.27291807238943877, 0.2012810145970434, 0.212484014313668, -0.3247909559868276)`.
+
+</details>
+
+<!-- /portrait-equation -->
+
+The polynomial alternates between two concentric trapping annuli in Case 13745. In Case 5529 it visits the four certified bands in the radial order A → C → B → D → A.
+
+2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+#### Three and five nested rings force chaos in the gaps
+
+![Three and five nested rings force chaos in the gaps](docs/assets/portraits/forms-20261122-odd-cycles.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-odd-cycles -->
+
+**Cyclically equivariant polynomial map of the complex plane**
+
+```math
+F(z)=\big[\lambda+i\omega+(\alpha+i\delta)|z|^2+\beta\,\mathrm{Re}(z^n)\big]z+\gamma\bar z^{\,n-1}+\eta\bar z^{\,2n-1}.
+```
+
+The coefficients enforce n-fold rotational equivariance. Each panel shows one initial condition iterated directly in the native real and imaginary coordinates. [Model and parameters](results/wow_search_20261122/symmetry/README.md)
+
+**Parameters used for this portrait**
+
+Left · Case 205188 has n = 18 and λ ≈ 2.467358. Right · Case 202080 has n = 20 and λ ≈ 2.396712. All start at z = 0.247 + 0.193i. Discard 100,000 iterations and retain the next two million. [All exact parameter vectors and runs](results/wow_search_20261122/symmetry/numerics.json)
+
+<details>
+<summary>Full numerical settings</summary>
+
+Coefficient order is (n, λ, α, β, γ, ω, δ, Re η, Im η).
+
+Case 205188 `(18, 2.4673584890066538, -3.7667032828345723, -0.04713289551436901, 0.16145130503922703, -0.058611005768179895, 0.0819005724042654, -0.08924180686404122, 0.2548252340480455)`.
+
+Case 202080 `(20, 2.396712339599099, -4.318038192105558, -0.04008208259940147, 0.426438063159585, -0.027753127831965686, 0.015960691962391138, -0.1344972140699269, 0.2341164227631805)`.
+
+</details>
+
+<!-- /portrait-equation -->
+
+The two maps have rigorously distinct local attractors with exactly three and five connected components respectively. Their permutations force positive topological entropy on separate invariant sets between the bands.
+
+2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+#### Three shapes from cyclic polynomial maps
+
+![Three shapes from cyclic polynomial maps](docs/assets/portraits/forms-20261122-planar-icons.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation forms-20261122-planar-icons -->
+
+**Cyclically equivariant polynomial map of the complex plane**
+
+```math
+F(z)=\big[\lambda+i\omega+(\alpha+i\delta)|z|^2+\beta\,\mathrm{Re}(z^n)\big]z+\gamma\bar z^{\,n-1}+\eta\bar z^{\,2n-1}.
+```
+
+The coefficients enforce n-fold rotational equivariance. Each panel shows one initial condition iterated directly in the native real and imaginary coordinates. [Model and parameters](results/wow_search_20261122/symmetry/README.md)
+
+**Parameters used for this portrait**
+
+Left · Case 1723 has n = 4 and λ ≈ 1.015272. Middle · Case 14725 has n = 8 and λ ≈ -1.667960. Right · Case 11450 has n = 3 and λ ≈ -1.475257. All start at z = 0.247 + 0.193i. Discard 100,000 iterations and retain the next two million. [All exact parameter vectors and runs](results/wow_search_20261122/symmetry/numerics.json)
+
+<details>
+<summary>Full numerical settings</summary>
+
+Coefficient order is (n, λ, α, β, γ, ω, δ, Re η, Im η).
+
+Case 1723 `(4, 1.0152718603238464, -0.4927374313119799, 0.491210725530982, -0.9452271513640881, 0.0013964057061821222, 0.18114449107088149, -0.06119981445372105, 0.09918608795851469)`.
+
+Case 14725 `(8, -1.6679601683691145, 1.3656859003417194, -0.13389752069488167, 1.2341027683578432, -0.18035847622901202, -0.0652540335431695, -0.1957832499407232, -0.3894121809862554)`.
+
+Case 11450 `(3, -1.4752569892480971, 2.2683117125593126, 0.4538186067715287, 1.5339731233194471, -0.07809092902578414, -0.30774130020290613, 0.2462412984110415, 0.6479134583845735)`.
+
+</details>
+
+<!-- /portrait-equation -->
+
+A central four-cornered web, an eight-sided hollow frame, and three chains of loops each arise from one uninterrupted trajectory in the complex plane. The forms and leading expansion are numerical findings.
+
+3 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
+<!-- /wow-20261122-false -->
 
 ## Research index
 

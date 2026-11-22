@@ -1,0 +1,631 @@
+{
+  "5529": {
+    "binary64_hex": [
+      "0x1.2000000000000p+4",
+      "0x1.24a8ba0d33333p+1",
+      "-0x1.9e272d0500000p+1",
+      "0x1.fe69fccccccc8p-7",
+      "0x1.c269ea20ccccdp-1",
+      "-0x1.1777d5cd9999ap-2",
+      "0x1.9c39387800000p-3",
+      "0x1.b32ad1a333333p-3",
+      "-0x1.4c96001800000p-2"
+    ],
+    "annuli": [
+      [
+        "0.3694324",
+        "0.4157911"
+      ],
+      [
+        "0.6874373",
+        "0.724976"
+      ],
+      [
+        "0.4378026",
+        "0.5364121"
+      ],
+      [
+        "0.7360225",
+        "0.7479528"
+      ]
+    ],
+    "radial_order": {
+      "radial_ranks_in_time_order": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "permutation_by_radius": [
+        3,
+        4,
+        2,
+        1
+      ],
+      "gap_adjacency": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "entrance_tests": [
+      {
+        "start": [
+          0.247,
+          0.193
+        ],
+        "entrance": {
+          "step": 9,
+          "annulus": 0
+        }
+      },
+      {
+        "start": [
+          -0.31,
+          0.11
+        ],
+        "entrance": {
+          "step": 26,
+          "annulus": 0
+        }
+      },
+      {
+        "start": [
+          0.433,
+          -0.173
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 2
+        }
+      },
+      {
+        "start": [
+          0.64,
+          0.07
+        ],
+        "entrance": {
+          "step": 11,
+          "annulus": 0
+        }
+      },
+      {
+        "start": [
+          -0.216,
+          0.36
+        ],
+        "entrance": {
+          "step": 4,
+          "annulus": 0
+        }
+      },
+      {
+        "start": [
+          -0.72,
+          -0.08
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.93,
+          0.04
+        ],
+        "entrance": {
+          "step": 7,
+          "annulus": 0
+        }
+      }
+    ],
+    "inclusive_domain": "radius x (n theta / (2 pi) mod 1)",
+    "bits": 100,
+    "strict_proved_squared_radius_and_real_part_margin": "0.000001",
+    "partitions": [
+      {
+        "annulus": 0,
+        "leaves": 26,
+        "max_depth": 10,
+        "approximate_smallest_squared_radius_margin": 1.6267118436855428e-05,
+        "approximate_smallest_real_part": 0.6814516354625227
+      },
+      {
+        "annulus": 1,
+        "leaves": 94,
+        "max_depth": 16,
+        "approximate_smallest_squared_radius_margin": 3.427070393711301e-06,
+        "approximate_smallest_real_part": 0.4205442324167044
+      },
+      {
+        "annulus": 2,
+        "leaves": 329,
+        "max_depth": 11,
+        "approximate_smallest_squared_radius_margin": 4.619209655688819e-06,
+        "approximate_smallest_real_part": 0.7269503634390496
+      },
+      {
+        "annulus": 3,
+        "leaves": 108,
+        "max_depth": 15,
+        "approximate_smallest_squared_radius_margin": 3.054758203418273e-06,
+        "approximate_smallest_real_part": 0.3495267597095852
+      }
+    ]
+  },
+  "13745": {
+    "binary64_hex": [
+      "0x1.1000000000000p+4",
+      "0x1.27f4712f851ecp+1",
+      "-0x1.7d6cc68700000p+1",
+      "0x1.ce72926666660p-8",
+      "0x1.36eeb53866666p+0",
+      "0x1.1638ab57ae147p-3",
+      "-0x1.50a34c5000000p-2",
+      "-0x1.dab25db99999ap-3",
+      "-0x1.c7cec2799999ap-4"
+    ],
+    "annuli": [
+      [
+        "0.3535987",
+        "0.6263091"
+      ],
+      [
+        "0.6865459",
+        "0.784471"
+      ]
+    ],
+    "radial_order": {
+      "radial_ranks_in_time_order": [
+        1,
+        2
+      ],
+      "permutation_by_radius": [
+        2,
+        1
+      ],
+      "gap_adjacency": [
+        [
+          1
+        ]
+      ]
+    },
+    "entrance_tests": [
+      {
+        "start": [
+          0.247,
+          0.193
+        ],
+        "entrance": {
+          "step": 2,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          -0.31,
+          0.11
+        ],
+        "entrance": {
+          "step": 4,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.433,
+          -0.173
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 0
+        }
+      },
+      {
+        "start": [
+          0.64,
+          0.07
+        ],
+        "entrance": {
+          "step": 1,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          -0.216,
+          0.36
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 0
+        }
+      },
+      {
+        "start": [
+          -0.72,
+          -0.08
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.93,
+          0.04
+        ],
+        "entrance": {
+          "step": 1,
+          "annulus": 0
+        }
+      }
+    ],
+    "inclusive_domain": "radius x (n theta / (2 pi) mod 1)",
+    "bits": 100,
+    "strict_proved_squared_radius_and_real_part_margin": "0.000001",
+    "partitions": [
+      {
+        "annulus": 0,
+        "leaves": 392,
+        "max_depth": 14,
+        "approximate_smallest_squared_radius_margin": 1.3991602318366453e-06,
+        "approximate_smallest_real_part": 0.6857785145856651
+      },
+      {
+        "annulus": 1,
+        "leaves": 132,
+        "max_depth": 19,
+        "approximate_smallest_squared_radius_margin": 1.6129606531069063e-06,
+        "approximate_smallest_real_part": 0.3497390862851104
+      }
+    ]
+  },
+  "205188": {
+    "binary64_hex": [
+      "0x1.2000000000000p+4",
+      "0x1.3bd26728e551ap+1",
+      "-0x1.e223554ac1526p+1",
+      "-0x1.821cd89999999p-5",
+      "0x1.4aa6fb5851eb9p-3",
+      "-0x1.e024301eb851fp-5",
+      "0x1.4f76f98000000p-4",
+      "-0x1.6d88d11eac0ddp-4",
+      "0x1.04f0e7f9ba445p-2"
+    ],
+    "annuli": [
+      [
+        "0.1831424",
+        "0.2186246"
+      ],
+      [
+        "0.4287619",
+        "0.5003079"
+      ],
+      [
+        "0.7611385",
+        "0.7689632"
+      ]
+    ],
+    "radial_order": {
+      "radial_ranks_in_time_order": [
+        1,
+        2,
+        3
+      ],
+      "permutation_by_radius": [
+        2,
+        3,
+        1
+      ],
+      "gap_adjacency": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "entrance_tests": [
+      {
+        "start": [
+          0.247,
+          0.193
+        ],
+        "entrance": {
+          "step": 6,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          -0.31,
+          0.11
+        ],
+        "entrance": {
+          "step": 2,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.433,
+          -0.173
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.64,
+          0.07
+        ],
+        "entrance": {
+          "step": 3,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          -0.216,
+          0.36
+        ],
+        "entrance": {
+          "step": 8,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          -0.72,
+          -0.08
+        ],
+        "entrance": {
+          "step": 12,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.93,
+          0.04
+        ],
+        "entrance": {
+          "step": 2,
+          "annulus": 1
+        }
+      }
+    ],
+    "inclusive_domain": "radius x (n theta / (2 pi) mod 1)",
+    "bits": 100,
+    "strict_proved_squared_radius_and_real_part_margin": "0.000001",
+    "partitions": [
+      {
+        "annulus": 0,
+        "leaves": 15,
+        "max_depth": 8,
+        "approximate_smallest_squared_radius_margin": 2.531496642194425e-05,
+        "approximate_smallest_real_part": 0.4286696830523609
+      },
+      {
+        "annulus": 1,
+        "leaves": 333,
+        "max_depth": 11,
+        "approximate_smallest_squared_radius_margin": 1.4743163632810383e-06,
+        "approximate_smallest_real_part": 0.7609125945481945
+      },
+      {
+        "annulus": 2,
+        "leaves": 93,
+        "max_depth": 11,
+        "approximate_smallest_squared_radius_margin": 3.369071424463322e-06,
+        "approximate_smallest_real_part": 0.18299155773545886
+      }
+    ]
+  },
+  "202080": {
+    "binary64_hex": [
+      "0x1.4000000000000p+4",
+      "0x1.32c7784e3fb72p+1",
+      "-0x1.145abcdc7e3acp+2",
+      "-0x1.485a383d70a3dp-5",
+      "0x1.b4ac2dfc28f5cp-2",
+      "-0x1.c6b50e199999ap-6",
+      "0x1.057ffe8000000p-6",
+      "-0x1.1373467eaae65p-3",
+      "0x1.df786e59cb82ap-3"
+    ],
+    "annuli": [
+      [
+        "0.2451317",
+        "0.249478"
+      ],
+      [
+        "0.5239342",
+        "0.5309344"
+      ],
+      [
+        "0.6263405",
+        "0.6348166"
+      ],
+      [
+        "0.4169395",
+        "0.440427"
+      ],
+      [
+        "0.686378",
+        "0.687368"
+      ]
+    ],
+    "radial_order": {
+      "radial_ranks_in_time_order": [
+        1,
+        3,
+        4,
+        2,
+        5
+      ],
+      "permutation_by_radius": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "gap_adjacency": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "entrance_tests": [
+      {
+        "start": [
+          0.247,
+          0.193
+        ],
+        "entrance": {
+          "step": 7,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          -0.31,
+          0.11
+        ],
+        "entrance": {
+          "step": 1,
+          "annulus": 2
+        }
+      },
+      {
+        "start": [
+          0.433,
+          -0.173
+        ],
+        "entrance": {
+          "step": 94,
+          "annulus": 2
+        }
+      },
+      {
+        "start": [
+          0.64,
+          0.07
+        ],
+        "entrance": {
+          "step": 12,
+          "annulus": 4
+        }
+      },
+      {
+        "start": [
+          -0.216,
+          0.36
+        ],
+        "entrance": {
+          "step": 0,
+          "annulus": 3
+        }
+      },
+      {
+        "start": [
+          -0.72,
+          -0.08
+        ],
+        "entrance": {
+          "step": 53,
+          "annulus": 1
+        }
+      },
+      {
+        "start": [
+          0.93,
+          0.04
+        ],
+        "entrance": null
+      }
+    ],
+    "inclusive_domain": "radius x (n theta / (2 pi) mod 1)",
+    "bits": 100,
+    "strict_proved_squared_radius_and_real_part_margin": "0.000001",
+    "partitions": [
+      {
+        "annulus": 0,
+        "leaves": 16,
+        "max_depth": 8,
+        "approximate_smallest_squared_radius_margin": 4.1411800193002654e-06,
+        "approximate_smallest_real_part": 0.5238972886836476
+      },
+      {
+        "annulus": 1,
+        "leaves": 23,
+        "max_depth": 10,
+        "approximate_smallest_squared_radius_margin": 2.131124900022141e-06,
+        "approximate_smallest_real_part": 0.6262236778673943
+      },
+      {
+        "annulus": 2,
+        "leaves": 56,
+        "max_depth": 15,
+        "approximate_smallest_squared_radius_margin": 1.0604075387465277e-06,
+        "approximate_smallest_real_part": 0.4167218618249212
+      },
+      {
+        "annulus": 3,
+        "leaves": 863,
+        "max_depth": 12,
+        "approximate_smallest_squared_radius_margin": 1.1380937351000363e-06,
+        "approximate_smallest_real_part": 0.686300577576416
+      },
+      {
+        "annulus": 4,
+        "leaves": 58,
+        "max_depth": 12,
+        "approximate_smallest_squared_radius_margin": 1.0418942141563336e-06,
+        "approximate_smallest_real_part": 0.24473999561694484
+      }
+    ]
+  }
+}
