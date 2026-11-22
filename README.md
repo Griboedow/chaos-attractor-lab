@@ -8,7 +8,7 @@ I run this experiment from my phone through Codex, using the most capable models
 
 - **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
 - **Follow-up proofs** · [Periodic orbits and ring entropy](results/low_hanging_20261122/README.md) · [Fifteen outcomes on a line and unbounded growth per lap](results/attractor_followup_2/README.md)
-- **Mathematical art** · [One rosette drawn by two motions](#one-rosette-drawn-by-two-motions) · [Newton’s nine-color weave, a geodesic mosaic and a seventeen-point crown](results/art_20261122/README.md)
+- **Mathematical art** · [One rosette drawn by two motions](#one-rosette-drawn-by-two-motions) · [Newton weave, geodesic mosaic and crown](results/art_20261122/README.md) · [Where to look next](results/art_20261122/README.md#where-to-look-next)
 - **By system** · [Constructed flows](#constructed-flows) · [Numerical algorithms](#numerical-algorithms) · [Molecular motors](#molecular-motor-dynamics) · [Constructed data](#constructed-data)
 - **Reports and data** · [Research index](#research-index) · [Articles](docs/README.md) · [Reproduction](docs/reproduction.md) · [Data and certificates](results/README.md)
 
@@ -1670,7 +1670,7 @@ Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,0
 
 ### A straight orbit on a fifteen-handle attractor
 
-After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow. The complete set of straight geodesics tiles the surface in [140 or 280 pieces](results/art_20261122/weave/README.md). Varying one wave amplitude gives a family of straight orbits of fixed length with [unbounded growth per lap](results/attractor_followup_2/geodesics/README.md).
+After opposite faces of the periodic cell are identified, a surface with fifteen handles carries an exactly straight closed orbit. In the unstable direction, a perturbation grows by a factor between 4.45 and 4.47 million per lap in the linearized flow. Varying one wave amplitude gives a family of straight orbits of fixed length with [unbounded growth per lap](results/attractor_followup_2/geodesics/README.md).
 
 ![A straight orbit on a fifteen-handle attractor in rotation](docs/assets/portraits/forms-20261122-lattice.webp)
 
@@ -1705,9 +1705,13 @@ n = 7, k = 0.375. Start at (π/2, π/2, π/14). Rotate the unit straight-ray vel
 
 A single orbit in one cubic phase cell, with opposite faces identified. The still uses 280,000 successive measured positions. The rotation shows the last 60,000. [Study and reproduction](docs/chaotic-forms-20261122.md)
 
+![Two geodesic mosaics with additional gold lines in the right disk](results/art_20261122/weave/geodesic-weave.png)
+
+Eight straight geodesics cut the surface into 140 tiles on the left. When two wave amplitudes match, the gold lines appear and the count doubles to 280. [How the mosaic is folded and counted](results/art_20261122/weave/README.md)
+
 ### One boundary for fifteen Newton basins
 
-Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. Approaching a pole along either horizontal ray gives all fifteen outcomes at arbitrarily small scales. A 24° sector above the pole leads to one root, and a 24° sector below it leads to another. [Directional basin proof](results/attractor_followup_2/newton/README.md) · [Nine magnifications wrapped onto a torus](results/art_20261122/newton/README.md)
+Look at every ninth Newton step. Six roots and nine phases of one attracting cycle give fifteen outcomes with the same Julia boundary. Approaching a pole along either horizontal ray gives all fifteen outcomes at arbitrarily small scales. A 24° sector above the pole leads to one root, and a 24° sector below it leads to another. [Directional basin proof](results/attractor_followup_2/newton/README.md)
 
 ![One boundary for fifteen Newton basins in rotation](docs/assets/portraits/forms-20261122-boundary.webp)
 
@@ -1745,6 +1749,14 @@ The parameter is an algebraic number. The certified isolating disk has radius 10
 <!-- /portrait-equation -->
 
 Riemann-sphere positions of 99,423 distinct retained numerical preimages of poles, sampled through depth 23. The same complete collection is used in the still and rotation. Forward attraction is to the roots and cycle phases. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+![Newton basins wrapped around a torus, with narrow colored bands woven between root regions](results/art_20261122/newton/nine-scale-newton-torus.png)
+
+<!-- drawing-date -->
+*Drawn: **2026-11-22**.*
+<!-- /drawing-date -->
+
+One trip around the hole takes nine zoom steps near a pole, each by a factor of 6/5. The six root colors stay fixed, while the nine cycle colors shift one place per step and match again at the seam. [Unwrap the torus](results/art_20261122/newton/README.md)
 
 ### A scalloped fan from pulsed optical feedback
 
@@ -3081,7 +3093,7 @@ Native three-axis twist coordinates, shown at equal axis scales with a principal
 
 #### Two and four nested rings from one orbit
 
-One point draws both rings in Case 13745, switching rings on every step. Its exact initial state enters the interior of the attractor on step two and never repeats. Two inverse branches in the outer component encode every binary sequence. In Case 5529 one orbit visits four bands in the order first, third, second, fourth. [Seventeen cusps inside the rings](results/art_20261122/rings/README.md) · [Entry and nonrepetition](results/attractor_followup_2/annuli/README.md) · [Entropy proof](results/low_hanging_20261122/annuli/README.md)
+One point draws both rings in Case 13745, switching rings on every step. Its exact initial state enters the interior of the attractor on step two and never repeats. Two inverse branches in the outer component encode every binary sequence. In Case 5529 one orbit visits four bands in the order first, third, second, fourth. [Entry and nonrepetition](results/attractor_followup_2/annuli/README.md) · [Entropy proof](results/low_hanging_20261122/annuli/README.md)
 
 ![Two and four nested rings from one orbit](docs/assets/portraits/forms-20261122-nested-crowns.png)
 
@@ -3117,6 +3129,10 @@ Case 5529 `(18, 2.2863991321995853, -3.235570552293211, 0.015576599538326255, 0.
 <!-- /portrait-equation -->
 
 2 panels in native real and imaginary coordinates. All two million measured updates per panel contribute to its density. [Study and reproduction](docs/chaotic-forms-20261122.md)
+
+![Seventeen lobes traced from the folds of the two-ring map, with observed and calculated tips at right](results/art_20261122/rings/postcritical-crown.png)
+
+Tracing where the map folds and iterating those curves draws the crown on the left. At right, orbit visits pick out the tip predicted by the equation. There is one such cusp in each of the 17 sectors. [Cusp count and density check](results/art_20261122/rings/README.md)
 
 #### Three and five nested rings force chaos in the gaps
 
@@ -3202,7 +3218,7 @@ Case 11450 `(3, -1.4752569892480971, 2.2683117125593126, 0.4538186067715287, 1.5
 
 #### One rosette drawn by two motions
 
-A rigid rotation and a chaotic torus map give exactly the same stationary probability to every patch of this seven-lobed picture. The two exposures below show the sampled positions. In the animation, replacing each consecutive pair by its midpoint reveals a star inside the chaotic orbit. [Watch the two exposures change](results/art_20261122/rosette/README.md#look-between-the-samples)
+A rigid rotation and a chaotic torus map give exactly the same stationary probability to every patch of this seven-lobed picture. Each exposure below shows the positions visited by one orbit.
 
 ![Consecutive samples from two motions show the same sevenfold pattern](docs/assets/portraits/sevenfold-rosette.png)
 
@@ -3227,6 +3243,10 @@ Rotation increments (α, β) = (2π/100)(√2, √3). Both maps start at (u, v) 
 <!-- /portrait-equation -->
 
 Each panel contains 16,777,216 consecutive observations. [Why there are fourteen cusps](results/art_20261122/rosette/README.md#where-the-fourteen-cusps-come-from) · [Reproduction guide](docs/reproduction.md#selected-verification-entry-points)
+
+![Two matching rosettes change as points move toward their successors, revealing a star on the right](results/art_20261122/rosette/between-samples.webp)
+
+Each dot moves toward its next recorded position. Halfway there, the rigid rotation on the left keeps its petals and the chaotic map on the right draws a star through its center. [Why two frames separate the motions](results/art_20261122/rosette/README.md#look-between-the-samples)
 
 ## Research index
 
