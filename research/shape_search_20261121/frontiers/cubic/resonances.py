@@ -165,11 +165,30 @@ def verify(job):
             status = "unstable"
         else:
             raise ArithmeticError(f"Quartic test unresolved: {A}; {B}; {gap}")
+        if not abs(B) > abs(A.real):
+            raise ArithmeticError(
+                "The circle of cubic coefficients must cross the imaginary axis twice"
+            )
+        ordinate = (abs(B) ** 2 - A.real**2).sqrt()
+        satellites = []
+        for signed_part in (-ordinate, ordinate):
+            vertical = A.imag + signed_part
+            if not abs(vertical) > 0:
+                raise ArithmeticError("The crossing meets the origin")
+            sign = 1 if vertical < 0 else -1
+            satellites.append(
+                {
+                    "detuning_sign": sign,
+                    "radius_over_sqrt_abs_detuning": (1 / abs(vertical).sqrt()).str(16),
+                    "cycle": "attracting" if sign * signed_part > 0 else "saddle",
+                }
+            )
         packet.update(
             cubic_isotropic=[A.real.str(20), A.imag.str(20)],
             cubic_resonant=[B.real.str(20), B.imag.str(20)],
             modulus_gap=gap.str(16),
             conclusion=status,
+            nearby_four_cycles=satellites,
         )
     print(turns, proposal, packet, flush=True)
     return packet

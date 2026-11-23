@@ -83,7 +83,19 @@
         "[8990780868635.9078469 +/- 4.99e-8]"
       ],
       "modulus_gap": "[7290183649.235052 +/- 2.06e-7]",
-      "conclusion": "attracting"
+      "conclusion": "attracting",
+      "nearby_four_cycles": [
+        {
+          "detuning_sign": 1,
+          "radius_over_sqrt_abs_detuning": "[2.276478104430225e-7 +/- 4.43e-23]",
+          "cycle": "saddle"
+        },
+        {
+          "detuning_sign": 1,
+          "radius_over_sqrt_abs_detuning": "[1.171199195914065e-5 +/- 3.35e-21]",
+          "cycle": "attracting"
+        }
+      ]
     },
     {
       "turns": 4,
@@ -106,7 +118,19 @@
         "[1995373947703.49511 +/- 5.57e-6]"
       ],
       "modulus_gap": "[-454179393519.8785 +/- 1.14e-5]",
-      "conclusion": "unstable"
+      "conclusion": "unstable",
+      "nearby_four_cycles": [
+        {
+          "detuning_sign": 1,
+          "radius_over_sqrt_abs_detuning": "[5.212573499726321e-7 +/- 3.99e-23]",
+          "cycle": "saddle"
+        },
+        {
+          "detuning_sign": -1,
+          "radius_over_sqrt_abs_detuning": "[1.483837310254060e-6 +/- 3.78e-23]",
+          "cycle": "saddle"
+        }
+      ]
     },
     {
       "turns": 4,
@@ -129,7 +153,19 @@
         "[-271415958618.1357 +/- 1.20e-5]"
       ],
       "modulus_gap": "[386555068859.9912 +/- 3.50e-5]",
-      "conclusion": "attracting"
+      "conclusion": "attracting",
+      "nearby_four_cycles": [
+        {
+          "detuning_sign": 1,
+          "radius_over_sqrt_abs_detuning": "[1.030827294064425e-6 +/- 3.26e-23]",
+          "cycle": "saddle"
+        },
+        {
+          "detuning_sign": 1,
+          "radius_over_sqrt_abs_detuning": "[1.608400922650530e-6 +/- 3.12e-22]",
+          "cycle": "attracting"
+        }
+      ]
     }
   ]
 }
