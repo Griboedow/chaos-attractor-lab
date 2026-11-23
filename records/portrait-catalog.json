@@ -1847,6 +1847,46 @@
       ]
     },
     {
+      "id": "cubic-four-knot",
+      "title": "A four-period attracting torus knot",
+      "group": "Shape search of 2026-11-21",
+      "report": "results/cubic-elliptic-sites/torus-knot.md",
+      "source_portrait": "results/cubic-elliptic-sites/torus-knot.png",
+      "description": "An interval-certified attracting (4, −5) torus knot winds five times clockwise about the stationary site in four forcing periods.",
+      "coordinates": "Both panels use the same 8,193 uniform-time states. They show two rigid views of the forcing phase and the displacement from z = 1 in an untwisted, normalized Floquet frame.",
+      "featured": true,
+      "panels": [
+        {
+          "label": "High-angle starting view",
+          "source": "results/cubic-elliptic-sites/knot-views.npz",
+          "key": "overhead",
+          "mode": "points",
+          "mark": "line"
+        },
+        {
+          "label": "Low-angle starting view",
+          "source": "results/cubic-elliptic-sites/knot-views.npz",
+          "key": "oblique",
+          "mode": "points",
+          "mark": "line"
+        }
+      ],
+      "animation_panels": [
+        {
+          "source": "results/cubic-elliptic-sites/knot-views.npz",
+          "key": "overhead",
+          "last_count": 8193,
+          "metadata_source": "results/cubic-elliptic-sites/knot-views.json"
+        },
+        {
+          "source": "results/cubic-elliptic-sites/knot-views.npz",
+          "key": "oblique",
+          "last_count": 8193,
+          "metadata_source": "results/cubic-elliptic-sites/knot-views.json"
+        }
+      ]
+    },
+    {
       "id": "forms-20261122-lattice",
       "title": "A straight orbit on a fifteen-handle attractor",
       "group": "Shape search of 2026-11-22",

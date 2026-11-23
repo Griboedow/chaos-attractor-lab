@@ -6,7 +6,7 @@ I run this experiment from my phone through Codex, using the most capable models
 
 ## Contents
 
-- **2026-11-23** · [Chaos where three basins meet](#a-loop-between-three-attracting-cycles) · [128 million cycles in one matrix](#how-many-cycles-can-one-matrix-attract) · [Mirror spirals](#two-rotating-cycles-in-a-balanced-matrix) · [Motor rows trading places](#three-routes-through-eight-motor-orientations)
+- **2026-11-23** · [An attracting torus knot](#an-attracting-torus-knot-in-a-forced-cubic) · [Chaos where three basins meet](#a-loop-between-three-attracting-cycles) · [22.5 billion cycles in one matrix](#how-many-cycles-can-one-matrix-attract) · [Mirror spirals](#two-rotating-cycles-in-a-balanced-matrix) · [Motor rows trading places](#three-routes-through-eight-motor-orientations)
 - **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
 - **Follow-up proofs** · [Periodic orbits and ring entropy](results/low_hanging_20261122/README.md) · [Fifteen outcomes on a line and unbounded growth per lap](results/attractor_followup_2/README.md)
 - **Mathematical art** · [Optical memory transplant](results/art_20261122/memory-transplant/README.md) · [All studies and sketches](results/art_20261122/README.md)
@@ -764,7 +764,11 @@ Here $`K`$ is the symmetric matrix above. Powers, products marked $`\odot`$, and
 
 ### How many cycles can one matrix attract?
 
-At least **128,878,020** different attracting three-cycles occur in overrelaxed Sinkhorn on the same 18 × 18 matrix. Most of its mass moves between three groups of rows in turn. Even after relabeling rows and columns, 46 different group-size schedules remain. A 6 × 6 input with no nontrivial relabeling symmetry still has at least 180 attracting cycles. [Proof, exact matrices and starting states](results/sinkhorn-choreography/)
+One balanced 18 × 18 matrix has at least **22,519,333,900 attracting three-cycles** under overrelaxed Sinkhorn. On 128,878,020 of them every row takes a turn leading. On the rest of the certified cycles a fourth group never leads. In 43,008 random starts we saw only the balanced solution and the four-group family. [Interval proof and sampling conditions](results/sinkhorn-choreography/visibility.md)
+
+![Three groups trade mass. Six rows stay exactly balanced in this example. Random starts favor that family at large amplitudes.](results/sinkhorn-choreography/visibility.png)
+
+For the three-group family alone, 46 group-size schedules remain after relabeling. A 6 × 6 matrix with no nontrivial relabeling symmetry still has at least 180 attracting cycles. [Three-group proof and examples](results/sinkhorn-choreography/)
 
 ![Three different period-three orbits of the same matrix move most of its mass between groups of rows](results/sinkhorn-choreography/cycles.png)
 
@@ -1705,7 +1709,7 @@ Follow the same ellipse for two forcing periods. At gain 0.34 its outline looks 
 \dot z=-\kappa\,\overline{(3z^2-3)}\,\big[z^3-3z+\tfrac14\sin\theta-4\sin(3\theta)+3i\sin(6\theta)\big].
 ```
 
-At $`\kappa=0.34`$ three cycles attract. **Their common basin boundary carries chaos.** Sample six times per period. A boundary orbit can visit the neighborhood of +1 at every even sample and either site (−1 or +1) at each odd sample, in any prescribed order. [Map and proof of the passages](results/cubic-saddle-passages/) · [See the 21 one-period orbits](results/cubic-forced-orbits/)
+At $`\kappa=0.34`$ three cycles attract. **Their common basin boundary carries chaos.** Sample six times per period. A boundary orbit can visit the neighborhood of +1 at every even sample and either site (−1 or +1) at each odd sample, in any prescribed order. [One trajectory per route on the boundary horseshoe](results/cubic-saddle-passages/hyperbolicity.md) · [See the 21 one-period orbits](results/cubic-forced-orbits/)
 
 ![Three basins in the phase plane and their colors around the saddle as the sampling radius shrinks to ten to the minus eightieth](results/cubic-saddle-basins/basin-map.png)
 
@@ -1720,6 +1724,38 @@ At the exact one-third resonance near $`\kappa=0.141705738258`$, the stationary 
 At the one-quarter resonance near $`\kappa=0.142603078096`$, the central point keeps attracting. Increasing the gain produces a second attractor with four phases and a smaller saddle four-cycle. The three panels use gain offsets 2 × 10⁻⁸, 8 × 10⁻⁸ and 3.2 × 10⁻⁷. [Equations and measured returns](results/cubic-elliptic-sites/resonances.md#two-four-cycles-near-a-sink)
 
 ![Three panels show an attracting four-cycle and a saddle four-cycle growing around the stationary sink on the same scale](results/cubic-elliptic-sites/four-cycle.png)
+
+### An attracting torus knot in a forced cubic
+
+One attracting orbit circles the stationary point five times clockwise before the forcing completes four periods. A nearby saddle follows a second knot. The two curves have linking number 20 in absolute value. [Knots, winding and interval proof](results/cubic-elliptic-sites/torus-knot.md) · [The same cubic at other gains](docs/shape-search-20261121.md#four-follow-up-experiments)
+
+![Two rotating views of the same attracting four-period knot](docs/assets/portraits/cubic-four-knot.webp)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-23**.*
+<!-- /drawing-date -->
+
+![High and low projections of the attracting torus knot](docs/assets/portraits/cubic-four-knot.png)
+
+<!-- drawing-date -->
+*First recorded portrait: **2026-11-23**.*
+<!-- /drawing-date -->
+
+<!-- portrait-equation cubic-four-knot -->
+
+**Periodically forced cubic gradient flow**
+
+```math
+\begin{aligned}p_t(z)&=z^3-3z+\tfrac14\sin t-4\sin(3t)+3i\sin(6t),\\ \dot z&=-\kappa\,\overline{(3z^2-3)}\,p_t(z),\qquad T=2\pi.\end{aligned}
+```
+
+One trip around the central hole advances the forcing by one period. A turn around the tube tracks the displacement from the stationary point in an untwisted Floquet frame. [Model and parameters](results/cubic-elliptic-sites/resonances.md#two-four-cycles-near-a-sink)
+
+**Parameters used for this portrait**
+
+Case 48000001. Gain κ = 0.14260309809624272. Start at phase zero with z − 1 = 0.000010429701851252412 + 0.00004632428445718519i and follow four periods. Both views use the same orbit. [Four return points and stability](results/cubic-elliptic-sites/four-cycle.json) · [Embedding and camera code](research/shape_search_20261121/frontiers/cubic/knot_figure.py)
+
+<!-- /portrait-equation -->
 
 <!-- wow-20261122-true -->
 ## Shape search of 2026-11-22

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
-  "catalog_sha256": "48186b86364014a1f295331bdcb05091dc0ebe47d0d1bd24b566d92e1739519d",
+  "catalog_sha256": "ac6d031e48d0713eee7e89d048d24dfbc7e252c7765d494d0e11e3c2bec2950d",
   "size": [
     1920,
     1080
@@ -3961,6 +3961,85 @@
           "log_saturation": 3.6888794541139363,
           "occupied_bins": 23028,
           "display_label": "Case 48000003"
+        }
+      ],
+      "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
+      "data_resolver_sha256": "20143ef31471576f9152388a9c069816bea4a701657ed1098bb5320c116f2ca1"
+    },
+    {
+      "id": "cubic-four-knot",
+      "file": "docs/assets/portraits/cubic-four-knot.png",
+      "sha256": "d13ccee019ee6310a306d395b70f5331845e7f0a34cbf708b591da4d0d8288e8",
+      "panels": [
+        {
+          "input": {
+            "label": "High-angle starting view",
+            "source": "results/cubic-elliptic-sites/knot-views.npz",
+            "key": "overhead",
+            "mode": "points",
+            "mark": "line"
+          },
+          "input_sha256": "916e4beb58fdcd7574bd3fee40059031c399fb98af887d50ebdbff2bfe38cff5",
+          "original_count": 8193,
+          "coordinate_sha256": "0a0bb7e2faf6deb81d74d81bbc268acb40363f093037fedd7143f970677db5e1",
+          "center": [
+            0.05669677257537842,
+            0.016753673553466797,
+            -0.01393282413482666
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 3.442404486269412,
+          "spatially_clipped": 0,
+          "rendered_count": 8193,
+          "log_saturation": 1.6094379124341003,
+          "occupied_bins": 6576,
+          "display_label": "High-angle starting view"
+        },
+        {
+          "input": {
+            "label": "Low-angle starting view",
+            "source": "results/cubic-elliptic-sites/knot-views.npz",
+            "key": "oblique",
+            "mode": "points",
+            "mark": "line"
+          },
+          "input_sha256": "916e4beb58fdcd7574bd3fee40059031c399fb98af887d50ebdbff2bfe38cff5",
+          "original_count": 8193,
+          "coordinate_sha256": "c6ae45e8646f9832753e3de4039f47dd6b49a661fb0c6d8fe1175668630496f9",
+          "center": [
+            -0.020695805549621582,
+            -0.042513489723205566,
+            5.555152893066406e-05
+          ],
+          "camera": [
+            [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.0
+            ],
+            [
+              -0.32101976096010304,
+              0.32101976096010304,
+              0.8910065241883679
+            ]
+          ],
+          "half_width": 3.5448355872726727,
+          "spatially_clipped": 0,
+          "rendered_count": 8193,
+          "log_saturation": 2.4849066497880004,
+          "occupied_bins": 5326,
+          "display_label": "Low-angle starting view"
         }
       ],
       "renderer_sha256": "e2ba72b934cd5b16fbebba8f02393281291733acc3ee00514e80185b10fc8714",
