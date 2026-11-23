@@ -4,7 +4,7 @@ The 18 × 18 input already has the requested row and column sums. Start the fixe
 
 ![Three attracting orbits. A dark block holding 93–99 percent of the mass cycles between three positions. Its width and height reveal the sizes of the participating groups.](cycles.png)
 
-The three panels in each row are successive iterates. At the fourth step the first matrix returns. All cell shares use the same logarithmic color scale.
+Adding a fourth group gives [22,519,333,900 certified cycles in total](visibility.md). The three panels in each row are successive iterates. At the fourth step the first matrix returns. All cell shares use the same logarithmic color scale.
 
 ## The iteration
 
