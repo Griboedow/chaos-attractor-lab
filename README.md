@@ -6,6 +6,7 @@ I run this experiment from my phone through Codex, using the most capable models
 
 ## Contents
 
+- **2026-11-23** · [Chaos where three basins meet](#a-loop-between-three-attracting-cycles) · [Mirror spirals in matrix scaling](#two-rotating-cycles-in-a-balanced-matrix) · [Motor rows trading places](#three-routes-through-eight-motor-orientations)
 - **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
 - **Follow-up proofs** · [Periodic orbits and ring entropy](results/low_hanging_20261122/README.md) · [Fifteen outcomes on a line and unbounded growth per lap](results/attractor_followup_2/README.md)
 - **Mathematical art** · [Optical memory transplant](results/art_20261122/memory-transplant/README.md) · [All studies and sketches](results/art_20261122/README.md)
@@ -748,6 +749,19 @@ All three anchored log coordinates; rigid PCA rotation with equal units and no r
 
 [Map, complete screen and prior art](docs/sinkhorn-unequal-rates.md) · [Evidence and reproduction](results/sinkhorn-unequal-rates/README.md)
 
+### Two rotating cycles in a balanced matrix
+
+Overrelaxed Sinkhorn has three certified attractors on one symmetric 3 × 3 input. Put 8 on the diagonal and 1 elsewhere, target every row and column sum at 10, and use relaxation 9/5 for both updates. Navy starts recover the balanced matrix. On either colored cycle one row carries 69.28% of the mass. Its label advances in opposite directions on the two cycles. [Equations, start coordinates and interval proof](results/sinkhorn-route/)
+
+![Spiral basins for three choices of initial column scaling in the same Sinkhorn iteration](results/sinkhorn-route/basins.png)
+
+```math
+u'=u^{1-\omega}\odot\big(10/(Kv)\big)^\omega,\qquad
+v'=v^{1-\omega}\odot\big(10/(Ku')\big)^\omega,\qquad \omega=9/5.
+```
+
+Here $`K`$ is the symmetric matrix above. Powers, products marked $`\odot`$, and division operate entry by entry. Each panel samples 513 × 513 initial row scalings in the plotted log coordinates. [Exact grid and column starts](results/sinkhorn-route/#system)
+
 ## Molecular-motor dynamics
 
 ### Four-row irregular motion
@@ -800,6 +814,12 @@ Right · `(0.4359496406479541, 0.08400727167673762, 0.5968330642392213, 0.144452
 Three orthonormal displacement contrasts; final 1,200 saved time units; common scale.
 
 [Four-row comparison](docs/motor-four-b-study.md) · [Five-row geometry](docs/motor-five-geometry.md) · [Source equations](docs/motor-rows-source-audit.md)
+
+### Three routes through eight motor orientations
+
+The vertices label eight ways the four rows can take part in the thin braid. In the four-row model above, fix $`\rho=2.0238144033191343`$ and $`r=5.193274038098629`$. At $`b=1.5075,1.515,1.52`$, two rows exchange roles, three rows cycle, or four rows cycle. All three numerical permutations were checked in the eleven state coordinates. [Periods, starting states and checks](results/motor-symmetry-passages/)
+
+![One periodic motor trajectory traces an edge, another a triangle and a third a square in the graph of row orientations](results/motor-symmetry-passages/motor-routes.png)
 
 ### Eight-row periodic attraction
 
@@ -1664,6 +1684,26 @@ sheet starting phases = (0.27, 1.34, 3.16); initial residual = 0
 
 Native cylindrical embedding at equal Cartesian scales. Each panel contains 28,000 consecutive states per component. The rotation includes all three components. [Equations, controls and prior work](docs/shape-search-20261121.md)
 <!-- /shape-search-20261121-selected -->
+
+### A loop between three attracting cycles
+
+Follow the same ellipse for two forcing periods. At gain 0.34 its outline looks like a bent wire. By the third period the loop crosses one vertical cut **5,168 times** on two independent resolutions. Even 32,768 uniformly spaced tracers register just four crossings there. At gain 0.03 the loop never crosses that cut at the sampled returns. [Loop, numerical controls and crossing counts](results/cubic-material-lines/)
+
+![A material loop carried by the same cubic field at two response gains](results/cubic-material-lines/loop.webp)
+
+**Forced cubic gradient flow**, Case 48000001. Phase starts at zero and advances at unit speed. The starting ellipse is centered at $`-0.75-0.10i`$ with semiaxes 1.50 and 1.10.
+
+```math
+\dot z=-\kappa\,\overline{(3z^2-3)}\,\big[z^3-3z+\tfrac14\sin\theta-4\sin(3\theta)+3i\sin(6\theta)\big].
+```
+
+At $`\kappa=0.34`$ three cycles attract. **Their common basin boundary carries chaos.** Sample six times per period. A boundary orbit can visit the neighborhood of +1 at every even sample and either site (−1 or +1) at each odd sample, in any prescribed order. [Map and proof of the passages](results/cubic-saddle-passages/) · [See the 21 one-period orbits](results/cubic-forced-orbits/)
+
+![Three basins in the phase plane and their colors around the saddle as the sampling radius shrinks to ten to the minus eightieth](results/cubic-saddle-basins/basin-map.png)
+
+Each line in the lower panel is a circle around +1. A half-turn and a radius reduction by a factor of 1.22 × 10¹⁹ preserved all 334,080 sampled basin colors. [Explore the two saddles](results/cubic-saddle-basins/)
+
+At $`\kappa=0.1417`$ the two sites themselves attract. Their linear return preserves area, while the distance in elliptical coordinates decays as $`1/\sqrt n`$ after $`n`$ periods. [Three narrow gain windows](results/cubic-elliptic-sites/)
 
 <!-- wow-20261122-true -->
 ## Shape search of 2026-11-22

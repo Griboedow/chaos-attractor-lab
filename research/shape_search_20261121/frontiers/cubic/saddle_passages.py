@@ -4,7 +4,7 @@ import argparse
 import hashlib
 import json
 from concurrent.futures import ProcessPoolExecutor
-from functools import cache, lru_cache
+from functools import cache
 from pathlib import Path
 
 from flint import acb, acb_poly, arb, ctx

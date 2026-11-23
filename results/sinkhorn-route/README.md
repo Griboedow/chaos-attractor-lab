@@ -28,7 +28,7 @@ Powers and division are componentwise. The heavy row is measured in $`\operatorn
 - The same interval test certifies **all 21** nonconstant recurrences in the archived matrix screen. Their least periods are 3, 5, 7, 8, 15, 27 and 33. Each is locally attracting. [Per-input certificates](certificates.json)
 - The archived 4 × 4 matrix with persistent growth (Case 64, relaxation 1.99) has a **saddle three-cycle**. At each phase the one-step Jacobian has every eigenvalue inside the unit disk. Their ordered product has three expanding eigenvalues, the largest between 5.143 and 5.144. Whether the long irregular trajectory shadows this orbit remains open. [Six disjoint multiplier enclosures](expanding-return.json)
 
-Fixed-relaxation nonconvergence was already reported by [Thibault et al., §4.1](https://arxiv.org/html/1711.01851v2). [Lehmann et al.](https://arxiv.org/html/2012.12562v2) give sufficient global and local convergence ranges. This example uses their iteration outside the sufficient global range.
+Fixed-relaxation nonconvergence was already observed, and sufficient global and local convergence ranges are known. The rotating cycles here lie outside the sufficient global range. There is also an interactive example of ordinary Sinkhorn contraction on this same symmetric family of kernels. [Thibault et al., §4.1](https://arxiv.org/html/1711.01851v2) · [Lehmann et al.](https://arxiv.org/abs/2012.12562) · [Peyré's simplex visualization](https://www.gpeyre.com/blog/2026/07/30/perron-frobenius-and-sinkhorn/)
 
 ```bash
 python research/sinkhorn_route.py

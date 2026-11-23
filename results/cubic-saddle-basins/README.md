@@ -1,10 +1,14 @@
 # Two saddles on the boundary of three basins
 
-![Three numerical exit paths and a logarithmic slice of the three basins near the saddle at z=1.](basin-exits.png)
+![Three basins in the phase plane, then around the saddle at decreasing radii.](basin-map.png)
 
 Every neighborhood of $`z=1`$ contains initial states that converge to each of the three known attracting cycles. The same holds at $`z=-1`$. The equation, forcing phase and gain $`\kappa=17/50`$ are fixed throughout. The [stable arc](stable-crossing.md) connects this result to [chaotic itineraries on the common boundary](../cubic-saddle-passages/). [Equation and three trapping disks](../shape_search_20261121/frontiers/cubic#finite-gain-orbit-checks)
 
-The curves show the fourth driving period for three initial displacements along the unstable direction. The strips show 3,802 numerical starts, using logarithmic distance on either side of the saddle. Halving the integration step preserved every label. The diamonds mark three rigorously enclosed exits. The result concerns these two boundary points. A Wada boundary requires the common-boundary property at every boundary point. [Kennedy and Yorke, *Basins of Wada*](https://doi.org/10.1016/0167-2789(91)90234-Z)
+Read the lower panel one horizontal line at a time. Each line samples a circle around the right saddle. A half-turn and a radius reduction by a factor of about 1.22 × 10¹⁹ preserved the basin color in all 334,080 tested pairs. An independent CPU solver agreed at 512 sampled points from the two panels. [Sampling grid and checks](basin-map.json)
+
+![Three numerical exit paths and a logarithmic slice of the three basins near the saddle at z=1.](basin-exits.png)
+
+The curves show the fourth driving period for three initial displacements along the unstable direction. The strips show 3,802 numerical starts, using logarithmic distance on either side of the saddle. Halving the integration step preserved every label. The diamonds mark three rigorously enclosed exits. Whether all boundary points have this property (the Wada property) remains open. [Kennedy and Yorke, *Basins of Wada*](https://doi.org/10.1016/0167-2789(91)90234-Z)
 
 ## Three exits at arbitrarily small scales
 
@@ -39,4 +43,11 @@ At the saddle the variational equation is $`v'=-6\kappa(b-2)\bar v`$, and the mo
 ```sh
 python research/shape_search_20261121/frontiers/cubic/saddle_basins.py --out certificate.json
 python results/cubic-saddle-basins/figure.py certificate.json basin-exits.png
+```
+
+To reproduce the two-dimensional map, choose a cache path outside the repository. The compute step uses an FP64 OpenCL device. Rendering includes the SciPy cross-check.
+
+```sh
+python research/shape_search_20261121/frontiers/cubic/basin_portrait.py compute ../basin-grids.npz
+python research/shape_search_20261121/frontiers/cubic/basin_portrait.py render ../basin-grids.npz
 ```

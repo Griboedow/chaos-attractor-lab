@@ -1,0 +1,129 @@
+{
+  "gain": "17/50",
+  "phase": 0,
+  "classification_radius": 0.004,
+  "trapping_radius": 0.0055,
+  "device": "NVIDIA GeForce GTX 1080",
+  "cartesian_extent": [
+    -2.25,
+    2.25,
+    -1.44,
+    1.44
+  ],
+  "cartesian": {
+    "samples": 409600,
+    "refinements": [
+      [
+        4096,
+        4,
+        0
+      ]
+    ],
+    "counts": [
+      104471,
+      113910,
+      191219,
+      0
+    ],
+    "latest_capture": 1,
+    "pixel_sha256": "6cbc0d22e2f800494a7a4d7e87aa45eea724d95d57e46e86ff9b08afa2f2c53d"
+  },
+  "polar": {
+    "samples": 449280,
+    "refinements": [],
+    "counts": [
+      149495,
+      151791,
+      147994,
+      0
+    ],
+    "latest_capture": 5,
+    "pixel_sha256": "de074e6160789618feeab420a5cd5c1b3cada25f65d9744907541c0847e53b0a"
+  },
+  "theta_degrees": [
+    0,
+    360
+  ],
+  "negative_log10_radius": [
+    2.0,
+    80.0
+  ],
+  "stable_tangent_degrees": 79.38200112210961,
+  "polar_grid_shape": [
+    624,
+    720
+  ],
+  "cartesian_grid_shape": [
+    512,
+    800
+  ],
+  "unstable_direction": [
+    0.8546031637341461,
+    0.5192816504899709
+  ],
+  "stable_direction": [
+    0.184260120528018,
+    0.9828775142320635
+  ],
+  "expanding_multiplier": -1.2219484819675402e+19,
+  "scaled_check": {
+    "domain_decades": [
+      2,
+      60
+    ],
+    "samples": 334080,
+    "refinements": [],
+    "counts": [
+      110654,
+      112394,
+      111032,
+      0
+    ],
+    "latest_capture": 5,
+    "different_labels": 0
+  },
+  "projection_check": {
+    "samples": 449280,
+    "refinements": [],
+    "counts": [
+      149495,
+      151791,
+      147994,
+      0
+    ],
+    "latest_capture": 5,
+    "different_labels": 0
+  },
+  "close_to_tangent": {
+    "samples": 25600,
+    "different_projection_labels": 3082,
+    "unresolved": 0,
+    "starts": "w=\u00b1r*v+q*r^2*u. v stable tangent, u unstable, q in (-1,1), 2 < -log10(r) < 6."
+  },
+  "cpu_dop853_checks": [
+    {
+      "samples": 256,
+      "mismatches": 0
+    },
+    {
+      "samples": 256,
+      "mismatches": 0
+    }
+  ],
+  "cpu_sample_order": [
+    "cartesian",
+    "polar"
+  ],
+  "count_order": [
+    "A",
+    "B",
+    "C",
+    "unresolved"
+  ],
+  "refinement_columns": [
+    "steps per turn",
+    "retested",
+    "disagreeing with previous resolution"
+  ],
+  "pixel_order": "Rows start at the lower imaginary endpoint (Cartesian) or largest radius (polar)."
+}

@@ -129,13 +129,15 @@ art_figures = {
     'sevenfold-rosette': ['results/art_20261122/rosette/between-samples.webp'],
 }
 art_paths = [path for paths in art_figures.values() for path in paths]
-catalog_images = [path for path in main_images if path not in art_paths]
+diagnostics = {path for path in main_images if path not in art_paths
+               and ledger['images'].get(path, {}).get('role') == 'diagnostic'}
+catalog_images = [path for path in main_images if path not in art_paths and path not in diagnostics]
 expected_static={f"docs/assets/portraits/{row['id']}.png" for row in catalog['rows']}
 static_images=[p for p in catalog_images if p.endswith('.png')]
 animated_images=[p for p in catalog_images if p.endswith('.webp')]
 assert len(static_images)==len(expected_static) and set(static_images)==expected_static
 assert animated_images==[f"docs/assets/portraits/{row['id']}.webp" for row in featured]
-assert len(main_images)==len(static_images)+len(animated_images)+len(art_paths)
+assert len(main_images)==len(static_images)+len(animated_images)+len(art_paths)+len(diagnostics)
 sections=re.split(r'^#{2,4} ',main,flags=re.M)
 for row in catalog['rows']:
     still=f"docs/assets/portraits/{row['id']}.png"
@@ -148,7 +150,15 @@ for row in catalog['rows']:
 assert main.count('\n## Research index\n')==1
 assert main.count('\n## Further portraits\n')==1
 selected_results,additional=main.split('\n## Further portraits\n',1)
-assert len(re.findall(r'^### ',selected_results,re.M))==len(featured)
+featured_paths = {f"docs/assets/portraits/{row['id']}.png" for row in featured}
+featured_headings = 0
+for section in re.split(r'^### ', selected_results, flags=re.M)[1:]:
+    images = set(re.findall(r'^!\[[^\]]*\]\(([^)]+)\)', section, re.M))
+    if images and images <= diagnostics:
+        continue
+    assert len(images & featured_paths) == 1, section.splitlines()[0]
+    featured_headings += 1
+assert featured_headings == len(featured)
 assert not re.search(r'^!\[',additional.split('\n## Research index\n',1)[1],re.M)
 assert not (ROOT/'docs/attractor-gallery.md').exists(),'The README is the canonical portrait collection.'
 assert 'docs/attractor-gallery.md' not in ledger['caption_documents']
