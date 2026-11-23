@@ -260,7 +260,7 @@ def draw(packet, path):
                 linestyle="none",
                 markeredgecolor=accent,
                 markerfacecolor=paper,
-                label="Resonance left open",
+                label="Resonance or endpoint",
             ),
         ],
         loc="upper center",

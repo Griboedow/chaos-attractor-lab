@@ -1,8 +1,8 @@
 # Two stationary attractors with algebraic decay
 
-The points $`z=\pm1`$ stay fixed throughout the forcing cycle. Both attract nearby solutions in three narrow gain windows, away from the marked resonances. The linearized return preserves area exactly. The nonlinear flow loses enough area near each point to pull trajectories inward.
+The points $`z=\pm1`$ stay fixed throughout the forcing cycle. Inside the three open gain windows both attract nearby solutions except at four isolated gains. At three of those gains a period-three saddle orbit collides with each stationary point. [Resonances and the turning triangle](resonances.md) The linearized return preserves area exactly. The nonlinear flow loses enough area near each point to pull trajectories inward.
 
-![Three equal-width gain intervals. The trace passes between −2 and 2 in each. Open circles mark resonances outside the attraction proof.](windows.png)
+![Three equal-width gain intervals. The trace passes between −2 and 2 in each. Open circles mark strong resonances and window endpoints.](windows.png)
 
 At $`\kappa=1417/10000`$ the one-turn multipliers have modulus one. In the area-normalized elliptical radius defined below, every sufficiently close nonstationary start satisfies $`\sqrt n\,r_n\to0.009881722996957\ldots`$ after $`n`$ periods. [Window endpoints and enclosures for both sites](weak-foci.json)
 
@@ -31,7 +31,6 @@ For $`\mathrm{tr}\,A\ne-1,0`$ the rotation avoids all resonances through order f
 ```
 
 Thus $`|w'|=|w|-\gamma|w|^3+O(|w|^4)`$. Inverse squared radius increases by $`2\gamma+O(|w|)`$ each turn. The normal-form coordinate agrees with the linear one to first order, giving $`\sqrt n\,r_n\to(2\gamma)^{-1/2}`$. At the stated gain the checker encloses $`\gamma`$ between 5120.408 and 5120.410 for both sites. Cubic Birkhoff coefficients as stability tests for nonhyperbolic planar maps are established prior work. [Cima, Gasull and Mañosa](https://doi.org/10.3934/dcds.2018038)
-
 
 The [verifier](../../research/shape_search_20261121/frontiers/cubic/elliptic_sites.py) bounds the Taylor tails of the fundamental matrix and its integrated Gramian by Cauchy estimates. For each gain window it bounds a degree-18 trace interpolant and its derivative on the entire displayed interval. Reflection $`z\mapsto-\overline z`$ combined with a half-period shift conjugates the two stationary returns. Other gain ranges remain open.
 
