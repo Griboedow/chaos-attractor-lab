@@ -48,7 +48,7 @@ Draw the circle of radius $`|B|`$ centered at $`A`$. An intersection with the im
 
 At a crossing write $`q=\mathrm{Im}(B e^{-4it})`$. The limiting vector field in polar coordinates has trace $`4r^2\mathrm{Re}(A)<0`$ and determinant $`8sr^2q`$. Both crossings are transverse. The implicit function theorem continues the four phases and the sign of this determinant distinguishes a sink from a saddle. The linear term dominates at radii much smaller than $`\sqrt{|\delta|}`$. The cubic term dominates at radii much larger, since $`|A|\ne|B|`$. These exhaust the small nonstationary four-cycles.
 
-The dots show integrations at the last window at gain offsets 2 × 10⁻⁸, 8 × 10⁻⁸ and 3.2 × 10⁻⁷. Quadrupling the offset approximately doubles both radii. At gain 0.14260309809624 the outer orbit's two four-period multipliers have modulus about 0.99999985. [Phases and independent stability checks](four-cycle.json)
+The dots show integrations at the last window at gain offsets 2 × 10⁻⁸, 8 × 10⁻⁸ and 3.2 × 10⁻⁷. Quadrupling the offset approximately doubles both radii. At gain 0.14260309809624 the outer orbit's two four-period multipliers have modulus about 0.99999985. The corresponding linear relaxation time is about 26 million forcing periods per factor of e. [Phases and independent stability checks](four-cycle.json)
 
 ## Reproduce
 
