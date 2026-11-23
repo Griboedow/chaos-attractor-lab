@@ -145,7 +145,8 @@ for row in catalog['rows']:
     images=re.findall(r'^!\[[^\]]*\]\(([^)]+)\)',section,re.M)
     expected=[f"docs/assets/portraits/{row['id']}.webp",still] if row.get('featured') else [still]
     expected.extend(art_figures.get(row['id'], []))
-    assert images==expected,(row['id'],'Unexpected images or image order in study section.',expected)
+    assert images[:len(expected)] == expected, (row['id'], 'Unexpected portrait or study image order.', expected)
+    assert all(path in diagnostics for path in images[len(expected):]), (row['id'], 'Unregistered trailing figure.')
     assert re.search(r'\]\((?:docs|papers|research)/[^)]+\.md(?:#[^)]*)?\)',section),row['id']
 assert main.count('\n## Research index\n')==1
 assert main.count('\n## Further portraits\n')==1

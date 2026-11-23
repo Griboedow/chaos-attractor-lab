@@ -1,4 +1,4 @@
-# All 18 one-period saddles meet the three basins
+# All 18 certified one-period saddles meet the three basins
 
 Every neighborhood of each [one-period saddle](../cubic-forced-orbits/) contains starts converging to each of the three sinks. For the 16 moving saddles, 48 interval integrations send three portions of each unstable manifold into three different trapping disks. The two [stationary saddles](../cubic-saddle-basins/) supply the remaining cases. The inclination lemma then puts each saddle's entire stable manifold on the common boundary. [Exit certificates, phases and starting offsets](boundary-orbits.json)
 

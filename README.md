@@ -6,7 +6,7 @@ I run this experiment from my phone through Codex, using the most capable models
 
 ## Contents
 
-- **2026-11-23** · [Chaos where three basins meet](#a-loop-between-three-attracting-cycles) · [Mirror spirals in matrix scaling](#two-rotating-cycles-in-a-balanced-matrix) · [Motor rows trading places](#three-routes-through-eight-motor-orientations)
+- **2026-11-23** · [Chaos where three basins meet](#a-loop-between-three-attracting-cycles) · [128 million cycles in one matrix](#how-many-cycles-can-one-matrix-attract) · [Mirror spirals](#two-rotating-cycles-in-a-balanced-matrix) · [Motor rows trading places](#three-routes-through-eight-motor-orientations)
 - **Shape searches** · [Rings, basins and optical fans](docs/chaotic-forms-20261122.md) · [Knots, links and spatial maps](docs/shape-search-20261121.md) · [Further portraits](#further-portraits)
 - **Follow-up proofs** · [Periodic orbits and ring entropy](results/low_hanging_20261122/README.md) · [Fifteen outcomes on a line and unbounded growth per lap](results/attractor_followup_2/README.md)
 - **Mathematical art** · [Optical memory transplant](results/art_20261122/memory-transplant/README.md) · [All studies and sketches](results/art_20261122/README.md)
@@ -761,6 +761,14 @@ v'=v^{1-\omega}\odot\big(10/(Ku')\big)^\omega,\qquad \omega=9/5.
 ```
 
 Here $`K`$ is the symmetric matrix above. Powers, products marked $`\odot`$, and division operate entry by entry. Each panel samples 513 × 513 initial row scalings in the plotted log coordinates. [Exact grid and column starts](results/sinkhorn-route/#system)
+
+### How many cycles can one matrix attract?
+
+At least **128,878,020** different attracting three-cycles occur in overrelaxed Sinkhorn on the same 18 × 18 matrix. Most of its mass moves between three groups of rows in turn. Even after relabeling rows and columns, 46 different group-size schedules remain. A 6 × 6 input with no nontrivial relabeling symmetry still has at least 180 attracting cycles. [Proof, exact matrices and starting states](results/sinkhorn-choreography/)
+
+![Three different period-three orbits of the same matrix move most of its mass between groups of rows](results/sinkhorn-choreography/cycles.png)
+
+Use the Sinkhorn update above with every target sum set to one, relaxation 7/4 and $`K=0.99I+0.01J/N`$. Here $`J`$ is the all-ones matrix and $`N=18`$ in the figure. Each row of panels tracks one cycle over three successive updates.
 
 ## Molecular-motor dynamics
 
@@ -1705,6 +1713,14 @@ Each line in the lower panel is a circle around +1. A half-turn and a radius red
 
 At $`\kappa=0.1417`$ the two sites themselves attract. Their linear return preserves area, while the distance in elliptical coordinates decays as $`1/\sqrt n`$ after $`n`$ periods. [Three narrow gain windows](results/cubic-elliptic-sites/)
 
+At the exact one-third resonance near $`\kappa=0.141705738258`$, the stationary site loses stability. A saddle orbit of period three shrinks into it and reappears on the other side. Its triangle turns by 60° in the limit. [All six resonances and the shrinking cycle](results/cubic-elliptic-sites/resonances.md)
+
+![Three points of a saddle cycle close in from one orientation and emerge in another as the gain passes through resonance](results/cubic-elliptic-sites/three-cycle.png)
+
+At the one-quarter resonance near $`\kappa=0.142603078096`$, the central point keeps attracting. Increasing the gain produces a second attractor with four phases and a smaller saddle four-cycle. The three panels use gain offsets 2 × 10⁻⁸, 8 × 10⁻⁸ and 3.2 × 10⁻⁷. [Equations and measured returns](results/cubic-elliptic-sites/resonances.md#two-four-cycles-near-a-sink)
+
+![Three panels show an attracting four-cycle and a saddle four-cycle growing around the stationary sink on the same scale](results/cubic-elliptic-sites/four-cycle.png)
+
 <!-- wow-20261122-true -->
 ## Shape search of 2026-11-22
 
@@ -1750,6 +1766,10 @@ The pictured orbit starts at an angle of 0.321 radians to the exact straight ray
 ![Two geodesic mosaics with additional gold lines in the right disk](results/art_20261122/weave/geodesic-weave.png)
 
 Eight straight geodesics cut the surface into 140 tiles on the left. When two wave amplitudes match, the gold lines appear and the count doubles to 280. [How the mosaic is folded and counted](results/art_20261122/weave/README.md)
+
+At wave amplitude $`b=11/8-2^{-36}`$, the straight ray amplifies an infinitesimal gap between parallel launches by more than $`10^{90}`$ in one lap. Over the same distance, the geometric mean for uniform positions and headings is below $`10^{33.40}`$. [Finite-time bound and 320 sampled rays](results/geodesic-typical-growth/)
+
+![The straight ray grows more unstable as the amplitude changes. The sampled bulk shifts to smaller growth.](results/geodesic-typical-growth/parallel-rays.png)
 
 ### One boundary for fifteen Newton basins
 
