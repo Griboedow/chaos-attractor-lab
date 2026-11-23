@@ -23,7 +23,7 @@ Write $`w=z-1`$ and let $`P`$ be the one-period map in this coordinate. Its deri
 Set $`H=2^{78}`$, $`C=2^{164}`$ and $`K=C/(2^{126}-H)`$. On the disk $`|w|\le2^{-84}`$, the estimates below give
 
 ```math
-\operatorname{Lip}(P)\le H,\qquad |P(w)-Mw|\le C|w|^2.
+\mathrm{Lip}(P)\le H,\qquad |P(w)-Mw|\le C|w|^2.
 ```
 
 For any $`n\ge0`$, start at $`s\lambda^{-n}v`$. Compare its first $`n`$ iterates with $`u_j=s\lambda^{j-n}v`$. An error $`E_j\le K|u_j|^2`$ gives $`E_{j+1}\le HE_j+C|u_j|^2\le K|u_{j+1}|^2`$. All these points stay inside the stated disk. The $`n`$th iterate therefore lies within $`K|s|^2`$ of $`sv`$, exactly the disk included in the four-period check. The starts tend to the saddle as $`n`$ grows. This proves the common-boundary claim.

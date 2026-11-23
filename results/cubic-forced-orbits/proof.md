@@ -24,7 +24,7 @@ The unit is one forcing period. Recurrence places any ergodic positive-entropy m
 
 ## Counting periodic points
 
-Collapse the outer boundary to a repelling fixed point. The resulting sphere has four marked fixed points, the three sinks and the repeller. Its double cover branched there is a torus with involution $`x\mapsto-x`$. The two lifts of $`P^n`$ act on torus homology by $`B=A^n`$ and $`B=-A^n`$. Write $`T_n=\operatorname{tr}(A^n)`$.
+Collapse the outer boundary to a repelling fixed point. The resulting sphere has four marked fixed points, the three sinks and the repeller. Its double cover branched there is a torus with involution $`x\mapsto-x`$. The two lifts of $`P^n`$ act on torus homology by $`B=A^n`$ and $`B=-A^n`$. Write $`T_n=\mathrm{tr}(A^n)`$.
 
 Choose the origin at a branch point. Each universal lift $`F:\mathbb R^2\to\mathbb R^2`$ fixing zero is odd and satisfies $`F(x+k)=F(x)+Bk`$ for integer $`k`$. For any integer vector $`v`$, the map $`x\mapsto F(x)-x-v`$ differs from the invertible linear map $`B-I`$ by a bounded function. Its degree is the sign of $`\det(B-I)`$. Each residue class of $`v`$ modulo $`(B-I)\mathbb Z^2`$ therefore supplies a fixed point of the torus map, giving at least $`|\det(B-I)|`$ points.
 
@@ -33,7 +33,7 @@ At the four half-lattice points $`s`$, oddness gives $`F(s)=Bs`$. The four class
 The two elementary bounds are $`T_n-2`$ and $`T_n+2`$. Each fixed sphere point contributes two to the combined count upstairs, including each branch point, counted once by each lift. Removing the point at infinity gives
 
 ```math
-\#\operatorname{Fix}(P^n)\ \ge\ \tfrac12[(T_n-2)+8+(T_n+2)]-1=T_n+3.
+\#\mathrm{Fix}(P^n)\ \ge\ \tfrac12[(T_n-2)+8+(T_n+2)]-1=T_n+3.
 ```
 
 The bounds for one, two and three returns are 21, 325 and 5,781 section points of period dividing $`n`$. [Exact matrix and counts](bounds.json) · [Boyland on braid and fixed-point methods](https://people.clas.ufl.edu/boyland/files/topmethods.pdf)

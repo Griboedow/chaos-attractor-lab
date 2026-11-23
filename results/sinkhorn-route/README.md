@@ -19,7 +19,7 @@ u^+=u^{1-\omega}\circ(a/(Kv))^\omega,\qquad
 v^+=v^{1-\omega}\circ(b/(K^\top u^+))^\omega.
 ```
 
-Powers and division are componentwise. The heavy row is measured in $`\operatorname{diag}(u)K\operatorname{diag}(v)`$. The axes set $`\log u=X(1,-1,0)/\sqrt{2}+Y(1,1,-2)/\sqrt{6}`$. Column starts appear above the panels. [Anchored equations and archive](../../docs/sinkhorn-screen.md#published-map-and-coordinates)
+Powers and division are componentwise. The heavy row is measured in $`\mathrm{diag}(u)K\mathrm{diag}(v)`$. The axes set $`\log u=X(1,-1,0)/\sqrt{2}+Y(1,1,-2)/\sqrt{6}`$. Column starts appear above the panels. [Anchored equations and archive](../../docs/sinkhorn-screen.md#published-map-and-coordinates)
 
 ## What the proof checks
 
